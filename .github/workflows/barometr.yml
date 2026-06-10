@@ -1,0 +1,44 @@
+name: Barometr update
+
+# Uruchamianie: co 30 min (UTC) oraz recznie z zakladki Actions ("Run workflow").
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+# Potrzebne, aby workflow mogl zapisac (commit) wynik z powrotem do repo.
+permissions:
+  contents: write
+
+# Brak nakladania sie uruchomien.
+concurrency:
+  group: barometr
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalacja zaleznosci
+        run: pip install -r requirements.txt
+
+      - name: Uruchom silnik
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENAI_BASE_URL: https://openrouter.ai/api/v1
+          MODEL: anthropic/claude-sonnet-4.6
+        run: python silnik.py
+
+      - name: Publikacja wyniku
+        run: |
+          git config user.name "barometr-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f barometer.json pamiec.json
+          git diff --quiet --cached || git commit -m "update barometer $(date -u +%FT%TZ)"
+          git push
