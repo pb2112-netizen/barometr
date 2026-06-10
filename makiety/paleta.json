@@ -1,0 +1,41 @@
+{
+  "wersja": "mvp-1",
+  "opis": "Paleta MVP barometru. Tylko kolory/gradienty (bez ikon). Poziomy spojne z etykietami silnika (poziom_label).",
+  "neutralne": {
+    "light": {
+      "tlo": "#FCF8FA",
+      "tekst": "#1B1B1D",
+      "tekst_drugi": "#45464D",
+      "karta": "#FFFFFF",
+      "obrys": "#E2E8F0"
+    },
+    "dark": {
+      "tlo": "#020617",
+      "tekst": "#F3F0F2",
+      "tekst_drugi": "#94A3B8",
+      "karta": "#1E293B",
+      "obrys": "#334155"
+    }
+  },
+  "poziomy": [
+    { "label": "Stable",   "zakres": "1.0-2.9",  "kolor": "#15803D", "gradient": ["#064E3B", "#16A34A"] },
+    { "label": "Low",      "zakres": "3.0-4.9",  "kolor": "#65A30D", "gradient": ["#3F6212", "#84CC16"] },
+    { "label": "Elevated", "zakres": "5.0-6.9",  "kolor": "#D97706", "gradient": ["#92400E", "#F59E0B"] },
+    { "label": "High",     "zakres": "7.0-8.9",  "kolor": "#EA580C", "gradient": ["#9A3412", "#FB923C"] },
+    { "label": "Critical", "zakres": "9.0-10.0", "kolor": "#B91C1C", "gradient": ["#7F1D1D", "#EF4444"] }
+  ],
+  "trend": {
+    "rising": "#DC2626",
+    "falling": "#16A34A",
+    "stable": "#94A3B8"
+  },
+  "zastosowanie": {
+    "widget_pulpit": "Tlo = gradient poziomu (2 stopnie). Tekst bialy. Bez ikon.",
+    "dashboard_liczba": "Kolor wielkiej cyfry = 'kolor' poziomu. Tlo ekranu neutralne.",
+    "dashboard_pasek_0_10": "Wypelnienie paska = 'kolor' poziomu, reszta = obrys/neutralny.",
+    "dashboard_label_pill": "Kropka/tekst etykiety = 'kolor' poziomu.",
+    "trend_strzalka": "Kolor wg sekcji 'trend' (niezalezny od poziomu).",
+    "alerts_badge": "Tlo badge przy evencie = 'kolor' poziomu liczonego z oceny danego eventu.",
+    "settings": "Tylko kolory neutralne."
+  }
+}
