@@ -1,3 +1,10 @@
+> ============================================================
+> ## ETAP 1 z 2 — BACKEND (silnik) GOTOWY ✅ + plan aplikacji
+> Ten plik opisuje GOTOWY backend i kontrakt danych. **NIE buduj backendu od nowa.**
+> Aplikacja Android jest **JUŻ ZBUDOWANA** w kolejnym etapie.
+> 👉 Najnowszy stan i punkt startu dla nowej sesji: **`WorldBarometer/02_HANDOVER.md`** (ETAP 2).
+> ============================================================
+
 # START TUTAJ — handoff do budowy aplikacji Android v1
 
 Ten plik to „twarda prawda" projektu. Nowy czat (czyste okno kontekstu) ma to przeczytać
@@ -127,6 +134,9 @@ Poza MVP (NIE robić teraz): historia/wykresy trendu, archiwum, konta, wiele pro
 ---
 
 ## 7. Prompt startowy do nowej rozmowy (skopiuj i wklej)
+
+> ⚠️ UWAGA: ten prompt został JUŻ WYKONANY — aplikacja jest zbudowana (ETAP 2).
+> NIE uruchamiaj go ponownie. To zapis historyczny. Aktualny punkt startu: `WorldBarometer/02_HANDOVER.md`.
 
 > Buduję natywną aplikację Android (Kotlin + Jetpack Compose) o nazwie „World Barometer".
 > Backend już istnieje i działa — aplikacja TYLKO pobiera gotowy plik JSON z publicznego URL:
