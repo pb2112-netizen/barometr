@@ -1,9 +1,11 @@
 name: Barometr update
 
-# Uruchamianie: co 30 min (UTC) oraz recznie z zakladki Actions ("Run workflow").
+# Uruchamianie: ~raz na godzine (UTC, minuta 17 - celowo poza pelna godzina,
+# bo o ":00" GitHub czesto opoznia/gubi zaplanowane runy przy duzym obciazeniu).
+# Harmonogram jest best-effort i nie musi byc punktualny. Plus recznie ("Run workflow").
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch: {}
 
 # Potrzebne, aby workflow mogl zapisac (commit) wynik z powrotem do repo.
