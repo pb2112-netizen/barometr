@@ -1,4 +1,4 @@
-# START TUTAJ — handoff do budowy aplikacji Android
+# START TUTAJ — handoff do budowy aplikacji Android v1
 
 Ten plik to „twarda prawda" projektu. Nowy czat (czyste okno kontekstu) ma to przeczytać
 na starcie, zanim zacznie cokolwiek kodować. Backend (silnik oceny) jest **gotowy i działa**.
