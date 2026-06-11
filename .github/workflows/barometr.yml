@@ -8,6 +8,10 @@ on:
     - cron: "17 * * * *"
   workflow_dispatch: {}
 
+# Wymusza Node 24 dla akcji JS (checkout/setup-python) - usuwa warning o deprecacji Node20.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 # Potrzebne, aby workflow mogl zapisac (commit) wynik z powrotem do repo.
 permissions:
   contents: write
