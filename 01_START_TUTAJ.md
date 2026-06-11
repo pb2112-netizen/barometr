@@ -2,7 +2,8 @@
 > ## ETAP 1 z 2 — BACKEND (silnik) GOTOWY ✅ + plan aplikacji
 > Ten plik opisuje GOTOWY backend i kontrakt danych. **NIE buduj backendu od nowa.**
 > Aplikacja Android jest **JUŻ ZBUDOWANA** w kolejnym etapie.
-> 👉 Najnowszy stan i punkt startu dla nowej sesji: **`WorldBarometer/02_HANDOVER.md`** (ETAP 2).
+> 👉 Najnowszy stan i punkt startu dla nowej sesji: **`../WorldBarometer/02_HANDOVER.md`** (ETAP 2).
+> Lokalnie oba projekty w `WB/` (`E:\AI\Agenci_SEO\WB\`).
 > ============================================================
 
 # START TUTAJ — handoff do budowy aplikacji Android v1
@@ -32,15 +33,26 @@ GitHub Actions (co 30 min)  →  silnik.py: pobiera RSS + ocenia modelem AI  →
 
 ---
 
-## 2. Adres danych dla aplikacji (jedyne, czego potrzebuje appka)
+## 2. Adres danych dla aplikacji (multi-lens, WB-008)
+
+Baza URL (bez zmian):
 
 ```
-https://raw.githubusercontent.com/pb2112-netizen/barometr/main/barometer.json
+https://raw.githubusercontent.com/pb2112-netizen/barometr/main/
 ```
 
-- Publiczny, HTTPS, ~1–2 KB, HTTP 200, bez autoryzacji.
-- Uwaga: `raw.githubusercontent.com` cache'uje ~5 min — bez znaczenia (silnik i tak liczy co 30 min).
-- Wspiera `ETag` / `If-Modified-Since` → używać do odpowiedzi 304 (oszczędność transferu).
+| Plik | Rola |
+|------|------|
+| `barometer_{lens}.json` | Wynik per kraj: `pl`, `ro`, `pt`, `ua`, `us` |
+| `barometer.json` | **Alias kompatybilności** — zawsze kopia `barometer_pl.json` |
+| `manifest.json` | Indeks lensów + względne URL-e plików wynikowych |
+| `lenses.json` | Katalog profili lensów (konfiguracja silnika, commitowana) |
+
+Przykład: `.../main/barometer_pl.json` (domyślny lens aplikacji).
+
+- Publiczny, HTTPS, ~1–2 KB per plik, HTTP 200, bez autoryzacji.
+- Pamięć (`pamiec_{lens}.json`) — osobna per kraj; nie publikowana do apki.
+- Wspiera `ETag` / `If-Modified-Since` → odpowiedź 304 (oszczędność transferu).
 
 ---
 
@@ -65,9 +77,13 @@ https://raw.githubusercontent.com/pb2112-netizen/barometr/main/barometer.json
   "level_label": "Low",
   "trend": "stable",
   "updated_at": "2026-06-10T16:05:45.579337Z",
-  "liczba_naglowkow": 45
+  "liczba_naglowkow": 45,
+  "lens_id": "pl",
+  "lens_name_en": "Poland"
 }
 ```
+
+Pola opcjonalne (WB-008): `lens_id`, `lens_name_en`.
 
 Pola kluczowe dla UI:
 - `global_score` (float 1.0–10.0) — wielka liczba na ekranie i podstawa koloru.
@@ -136,7 +152,7 @@ Poza MVP (NIE robić teraz): historia/wykresy trendu, archiwum, konta, wiele pro
 ## 7. Prompt startowy do nowej rozmowy (skopiuj i wklej)
 
 > ⚠️ UWAGA: ten prompt został JUŻ WYKONANY — aplikacja jest zbudowana (ETAP 2).
-> NIE uruchamiaj go ponownie. To zapis historyczny. Aktualny punkt startu: `WorldBarometer/02_HANDOVER.md`.
+> NIE uruchamiaj go ponownie. To zapis historyczny. Aktualny punkt startu: `../WorldBarometer/02_HANDOVER.md`.
 
 > Buduję natywną aplikację Android (Kotlin + Jetpack Compose) o nazwie „World Barometer".
 > Backend już istnieje i działa — aplikacja TYLKO pobiera gotowy plik JSON z publicznego URL:
