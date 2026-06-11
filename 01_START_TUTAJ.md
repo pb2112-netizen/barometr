@@ -66,7 +66,7 @@ Przykład: `.../main/barometer_pl.json` (domyślny lens aplikacji).
   "top_events": [
     {
       "title": "Ukraine strikes military plant 900 km inside Russia",
-      "summary": "Krótki opis wydarzenia (EN).",
+      "summary": "Long-range strike deep inside Russia signals sustained Ukrainian capability; indirect security concern for Poland via NATO eastern flank and energy markets.",
       "score": 4.2,
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -91,6 +91,7 @@ Pola kluczowe dla UI:
 - `trend` — `rising` / `falling` / `stable` (kolor strzałki, niezależny od poziomu).
 - `short_summary` — jednolinijkowe podsumowanie pod liczbą.
 - `top_events[]` — lista TOP 3 (`title`, `summary`, `score`, `sources`).
+- `top_events[].summary` — **wymagane, niepuste** (EN): 1–2 zdania wyjaśniające wpływ wydarzenia **z perspektywy lensu kraju** (nie streszczenie nagłówka RSS); max ~200 znaków preferowane (limit sanityzacji apki: 600). Silnik zapewnia fallback gdy model zwróci pusty opis.
 - `updated_at` — ISO UTC, do „ostatnia aktualizacja".
 
 Język treści: **angielski** (polski w przyszłości).
