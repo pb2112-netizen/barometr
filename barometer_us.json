@@ -1,23 +1,26 @@
 {
-  "global_score": 4.5,
-  "short_summary": "Iran deal stalled, China espionage, consulate attack",
-  "rationale": "Tehran's public contradiction of Trump's Iran deal claim is a fresh credibility and foreign policy story; China detaining another US academic sustains tension; Toronto consulate attack is a security incident involving US property.",
+  "global_score": 4.0,
+  "short_summary": "Iran deal confusion, China espionage",
+  "rationale": "Trump's contradictory claims about an Iran deal and Tehran's denial create domestic political noise; China detaining another US academic adds to bilateral tension — both are continuations of existing stories with no major new escalation.",
   "top_events": [
     {
-      "title": "Tehran says 'nothing' finalised after Trump claims Iran deal near",
-      "summary": "Tehran publicly contradicts Trump's claim of a near-deal, creating a fresh credibility and foreign policy story with potential oil market implications for US consumers.",
-      "score": 4.5,
+      "title": "Trump claims Iran deal near; Tehran says nothing finalized; leaked terms called fake",
+      "summary": "Contradictory signals between Trump and Tehran over a nuclear deal create political confusion domestically. No breakthrough means no oil price relief; credibility questions for the administration persist.",
+      "score": 4.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian"
       ]
     },
     {
-      "title": "China arrests US academic at conference for 'espionage activities'",
-      "summary": "Another US academic detained by China on espionage charges sustains US-China tension; relevant to Americans traveling or working in China and to broader bilateral relations.",
-      "score": 3.8,
+      "title": "China arrests US academic at conference for alleged espionage",
+      "summary": "Another US academic detained by China on espionage charges — a continuation of the pattern raising concerns about Americans traveling to or engaging with China professionally.",
+      "score": 3.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -26,9 +29,10 @@
     },
     {
       "title": "Toronto police officer shot while investigating US consulate attack",
-      "summary": "An attack on the US consulate in Toronto with a Canadian officer shot is a direct security incident involving US diplomatic property; monitoring warranted but no escalation confirmed.",
-      "score": 3.5,
-      "nowosc": "kontynuacja",
+      "summary": "A Canadian officer was shot during follow-up investigation of the US consulate attack in Toronto. Raises ongoing security concerns around US diplomatic facilities in North America.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -37,9 +41,10 @@
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-12T14:01:52.180450Z",
-  "liczba_naglowkow": 45
+  "updated_at": "2026-06-12T14:48:03.328943Z",
+  "liczba_naglowkow": 45,
+  "tone": "neutral"
 }
