@@ -61,6 +61,7 @@ Przykład: `.../main/barometer_pl.json` (domyślny lens aplikacji).
 ```json
 {
   "global_score": 4.2,
+  "tone": "neutral",
   "short_summary": "Regional tensions, no direct EU threat",
   "rationale": "Tekst uzasadnienia (EN).",
   "top_events": [
@@ -68,6 +69,7 @@ Przykład: `.../main/barometer_pl.json` (domyślny lens aplikacji).
       "title": "Ukraine strikes military plant 900 km inside Russia",
       "summary": "Long-range strike deep inside Russia signals sustained Ukrainian capability; indirect security concern for Poland via NATO eastern flank and energy markets.",
       "score": 4.2,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": ["BBC", "Al Jazeera"]
@@ -86,12 +88,14 @@ Przykład: `.../main/barometer_pl.json` (domyślny lens aplikacji).
 Pola opcjonalne (WB-008): `lens_id`, `lens_name_en`.
 
 Pola kluczowe dla UI:
-- `global_score` (float 1.0–10.0) — wielka liczba na ekranie i podstawa koloru.
-- `level_label` — `Stable` / `Low` / `Elevated` / `High` / `Critical` (steruje kolorem/gradientem).
+- `global_score` (float 1.0–10.0) — **istotność zmiany** (w dowolną stronę, WB-013); wielka liczba na ekranie i podstawa koloru.
+- `tone` (WB-013) — **globalny ton lensu**: `negative` / `positive` / `neutral`. Liczony deterministycznie w Pythonie z sentymentów top eventów (event o najwyższym score; mieszane positive+negative w odległości ≤ 0.5 od maksimum → `neutral`). Tryb ciszy/decay/fallback → zawsze `neutral`.
+- `level_label` — `Stable` / `Low` / `Elevated` / `High` / `Critical` — **LEGACY (WB-013)**: liczony po staremu wyłącznie ze score dla kompatybilności z zainstalowaną apką ≤ v0.6.x. Nowa apka (v0.7.0, WB-014) **ignoruje to pole** i składa etykiety lokalnie ze score + tone.
 - `trend` — `rising` / `falling` / `stable` (kolor strzałki, niezależny od poziomu).
 - `short_summary` — jednolinijkowe podsumowanie pod liczbą.
-- `top_events[]` — lista TOP 3 (`title`, `summary`, `score`, `sources`).
+- `top_events[]` — lista TOP 3 (`title`, `summary`, `score`, `sentiment`, `sources`).
 - `top_events[].summary` — **wymagane, niepuste** (EN): 1–2 zdania wyjaśniające wpływ wydarzenia **z perspektywy lensu kraju** (nie streszczenie nagłówka RSS); max ~200 znaków preferowane (limit sanityzacji apki: 600). Silnik zapewnia fallback gdy model zwróci pusty opis.
+- `top_events[].sentiment` (WB-013) — **wymagane**: `negative` / `positive` / `neutral`. Brak/zła wartość → fallback `neutral` (walidacja w silniku, bez przerywania cyklu).
 - `updated_at` — ISO UTC, do „ostatnia aktualizacja".
 
 Język treści: **angielski** (polski w przyszłości).

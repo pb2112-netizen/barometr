@@ -52,6 +52,12 @@ POZIOMY = [
     (9.0, "High"),
 ]
 
+# Sentyment (WB-013): enum 3-wartosciowy; globalny "tone" liczony deterministycznie.
+SENTYMENTY = ("negative", "positive", "neutral")
+SENTYMENT_DOMYSLNY = "neutral"
+# Eventy w odleglosci <= 0.5 od maksimum z mieszanymi sentymentami -> tone neutral.
+TONE_KONFLIKT_MARGINES = 0.5
+
 # Heurystyka geograficzna dla trybu prostego (boost per lens).
 GEO_BOOST = {
     "pl": ["poland", "polish", "warsaw", "baltic", "eastern europe", "nato"],
@@ -68,6 +74,49 @@ def poziom_label(ocena):
         if ocena < prog:
             return label
     return "Critical"
+
+
+def _normalizuj_sentiment(wartosc):
+    """Trim + lowercase + walidacja enuma; spoza enuma/brak -> neutral (WB-013 §4.4)."""
+    s = str(wartosc or "").strip().lower()
+    if s not in SENTYMENTY:
+        if wartosc not in (None, ""):
+            print(f"  [uwaga] Brak/zly sentiment dla eventu ('{wartosc}') — fallback neutral")
+        else:
+            print("  [uwaga] Brak/zly sentiment dla eventu — fallback neutral")
+        return SENTYMENT_DOMYSLNY
+    return s
+
+
+def _ensure_event_sentiment(events):
+    """Gwarantuje poprawny sentiment per event (WB-013 §4.4)."""
+    wynik = []
+    for ev in events:
+        ev = dict(ev)
+        ev["sentiment"] = _normalizuj_sentiment(ev.get("sentiment"))
+        wynik.append(ev)
+    return wynik
+
+
+def _wylicz_tone(top_events):
+    """Deterministyczny globalny tone per lens (WB-013 §4.3) — liczy Python, nie model.
+
+    1. Brak eventow -> neutral.
+    2. Kandydat = sentiment eventu o najwyzszym score.
+    3. Konflikt: positive i negative jednoczesnie w grupie <= 0.5 od maksimum -> neutral.
+    """
+    if not top_events:
+        return SENTYMENT_DOMYSLNY
+    scored = [
+        (_ocena_float(ev.get("score", 1)), _normalizuj_sentiment(ev.get("sentiment")))
+        for ev in top_events
+    ]
+    max_score = max(s for s, _ in scored)
+    czolowka = {sent for s, sent in scored if max_score - s <= TONE_KONFLIKT_MARGINES}
+    if "positive" in czolowka and "negative" in czolowka:
+        return SENTYMENT_DOMYSLNY
+    kandydat = max(scored, key=lambda x: x[0])[1]
+    return kandydat
 
 
 def oblicz_trend(teraz, poprzednia):
@@ -175,6 +224,25 @@ SLOWA_KLUCZOWE = {
     4: ["talks", "summit", "warns", "tensions", "deal", "agreement"],
 }
 OCENA_DOMYSLNA = 2
+
+# WB-013: slowa pozytywne dla heurystyki sentymentu (tryb prosty).
+# Wagi istotnosci w SLOWA_KLUCZOWE bez zmian — to osobna os.
+SLOWA_POZYTYWNE = [
+    "peace deal", "peace agreement", "peace treaty", "ceasefire", "truce",
+    "breakthrough", "cure", "cured", "vaccine", "discovery", "treaty",
+    "war ends", "end of war", "ends war", "liberated", "released",
+    "hostages freed", "freed", "reconstruction", "recovery", "aid reaches",
+]
+
+
+def _prosty_sentiment(tytul, score):
+    """Heurystyka sentymentu per event w trybie prostym (WB-013 §4.5)."""
+    t = tytul.lower()
+    if any(slowo in t for slowo in SLOWA_POZYTYWNE):
+        return "positive"
+    if score >= 5:
+        return "negative"
+    return "neutral"
 
 
 def _ocena_naglowka(tytul):
@@ -294,6 +362,7 @@ def wynik_decay(lens_id, lens_name, pamiec, tryb_opis, liczba_naglowkow):
         "lens_id": lens_id,
         "lens_name_en": lens_name,
         "level_label": poziom_label(ocena),
+        "tone": SENTYMENT_DOMYSLNY,
         "trend": oblicz_trend(ocena, poprzednia),
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "liczba_naglowkow": liczba_naglowkow,
@@ -326,6 +395,7 @@ def ocen_prosty_lens(naglowki, lens_id, lens_name_en):
                 lens_id, lens_name_en, o["tytul"], o["ocena"], "auto"
             ),
             "score": o["ocena"],
+            "sentiment": _prosty_sentiment(o["tytul"], o["ocena"]),
             "category": "auto",
             "sources": zrodla_tematu,
         })
@@ -391,13 +461,18 @@ Kazdy lens ma wlasny ZNANY STAN SWIATA. Oceniaj to, co NOWE wzgledem tego stanu:
 Kazda sytuacja w stanie swiata ma licznik "cykle_bez_zmian". Gdy sytuacja TYLKO trwa,
 bez jakosciowej zmiany: zwieksz licznik i STOPNIOWO obnizaj poziom_bazowy.
 
-=== SKALA (z perspektywy lensu) ===
-1-2 = spokoj; szum; tragedie bez zwiazku z jego zyciem.
+=== SKALA ISTOTNOSCI (z perspektywy lensu) ===
+Score mierzy JAK MOCNO wydarzenie zmienia zycie mieszkanca lensu — W DOWOLNA STRONE
+(na gorsze LUB na lepsze). Kierunek zmiany opisuje OSOBNE pole "sentiment".
+1-2 = spokoj; szum; wydarzenia bez zwiazku z jego zyciem.
 3-4 = lagodny, posredni wplyw.
 5   = zauwazalny posredni wplyw LUB istotna NOWA zmiana. (PROG)
 6-7 = realna, swieza zmiana mocno dotykajaca kraju/regionu lensu posrednio.
-8-9 = bezposrednie powazne zagrozenie w kraju lensu lub tuz obok.
-10  = bezposrednia wojna dotykajaca kraju lensu, bron jadrowa, kataklizm globalny.
+8-9 = zmiana bezposrednio i powaznie dotykajaca zycia w kraju lensu lub tuz obok
+      (powazne zagrozenie LUB przelom o porownywalnej wadze).
+10  = zmiana fundamentalna: wojna dotykajaca kraju lensu, bron jadrowa, kataklizm
+      globalny — ALBO wydarzenie pozytywne tej samej rangi (koniec wielkiej wojny,
+      przelom cywilizacyjny dotyczacy wszystkich).
 
 === IGNORUJ ===
 Sport, celebryci, kultura, moda, virale, rutynowe premiery produktow.
@@ -412,6 +487,20 @@ Each top_events item MUST include "summary":
 - Never leave "summary" empty or omit the field.
 - Max ~200 characters preferred.
 
+=== SENTIMENT (wymagane per top_events item) ===
+Each top_events item MUST include "sentiment": "negative" | "positive" | "neutral".
+- "negative": the change makes life in the lens country worse or more dangerous.
+- "positive": the change clearly improves life or removes a threat.
+- "neutral": important change without a clear verdict yet (elections before results,
+  major negotiations, big reform announcements).
+Anchoring examples:
+- War breaks out in the lens region -> score 8-10, sentiment "negative".
+- Major war END / lasting peace deal affecting the lens -> score 8-10, sentiment "positive".
+- Medical breakthrough relevant to everyone (e.g. effective cancer cure) -> 7-9, "positive".
+- National elections in the lens country, results unknown -> 5-7, "neutral".
+- Ceasefire agreement -> sentiment "positive" (importance per impact on the lens).
+Never omit "sentiment". When genuinely unsure, use "neutral".
+
 === JEZYK I LICZBY ===
 Wszystkie pola tekstowe po angielsku (OUTPUT LANGUAGE: en).
 Oceny: liczby z JEDNYM miejscem po przecinku, skala 1.0-10.0.
@@ -425,6 +514,7 @@ Oceny: liczby z JEDNYM miejscem po przecinku, skala 1.0-10.0.
       "rationale": "<1 zdanie z perspektywy lensu>",
       "top_events": [
         {"title": "...", "summary": "<required, non-empty; 1-2 EN sentences from lens perspective>", "score": <1.0-10.0>,
+         "sentiment": "<negative|positive|neutral>",
          "nowosc": "<nowe|kontynuacja>", "category": "<geopolityka|gospodarka|katastrofa|nauka|inne>",
          "sources": ["<zrodlo>"]}
       ],
@@ -478,6 +568,7 @@ def _waliduj_wynik_lens(raw, pamiec, lens_id, lens_name_en):
     wynik["top_events"] = _ensure_event_summaries(
         wynik["top_events"], lens_id, lens_name_en, wynik.get("rationale", "")
     )
+    wynik["top_events"] = _ensure_event_sentiment(wynik["top_events"])
     wynik.setdefault("stan_swiata", pamiec.get("stan_swiata") or [])
     return wynik
 
@@ -593,6 +684,9 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
         wynik["top_events"] = _ensure_event_summaries(
             wynik["top_events"], lens_id, lens_name, wynik.get("rationale", "")
         )
+        wynik["top_events"] = _ensure_event_sentiment(wynik["top_events"])
+    # WB-013: globalny tone liczony deterministycznie (nie przez model).
+    wynik["tone"] = _wylicz_tone(wynik.get("top_events") or [])
     return wynik
 
 
