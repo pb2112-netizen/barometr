@@ -1,47 +1,49 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 8.0,
-  "rationale": "Top signal: \"Iran war live: US, Tehran signal peace deal within reach but not signed yet\"",
-  "short_summary": "",
+  "global_score": 7.0,
+  "short_summary": "EU accession launched, Iran deal signals",
+  "rationale": "The EU formally launching Ukraine's accession process is a landmark positive development for Ukrainians; the Iran-US peace signals are less directly relevant but could shift Western attention and resources.",
   "top_events": [
     {
-      "title": "Iran war live: US, Tehran signal peace deal within reach but not signed yet",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 8.0,
+      "title": "EU agrees launch of accession process for Ukraine and Moldova",
+      "summary": "The EU formally opening accession talks for Ukraine is a major political milestone for Ukrainians, signaling long-term Western integration and potentially strengthening the country's negotiating position and morale during the war.",
+      "score": 7.0,
       "sentiment": "positive",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Iran war: US and Tehran signal peace deal within reach",
+      "summary": "A US-Iran deal could redirect US diplomatic and military focus; for Ukraine, the key risk is whether it reduces US attention and resources available for Ukrainian support, though no direct change yet.",
+      "score": 4.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera",
-        "Guardian"
+        "BBC"
       ]
     },
     {
-      "title": "Canada police investigate whether Toronto police death linked to global terror attacks",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 8.0,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "UAE to unlock frozen Iranian funds amid US ceasefire push",
+      "summary": "Progress on Iran deal could free up US diplomatic bandwidth, but also risks diverting attention from Ukraine; net effect on Ukrainian war support unclear at this stage.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
-      ]
-    },
-    {
-      "title": "More time needed for deadly Air India crash inquiry, officials say",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 7.0,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "BBC",
-        "Guardian"
+        "Al Jazeera"
       ]
     }
   ],
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "High",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-13T03:02:06.503468Z",
+  "updated_at": "2026-06-13T04:01:52.130055Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral"
+  "tone": "positive"
 }
