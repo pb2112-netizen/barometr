@@ -1,12 +1,24 @@
 {
   "global_score": 2.5,
-  "short_summary": "War ongoing; no new escalation",
-  "rationale": "The Russia-Ukraine war continues at its established high baseline; no headline this cycle introduces a qualitative change in Western aid, military escalation, or infrastructure attacks relevant to Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
+  "short_summary": "War continues; US strike distant",
+  "rationale": "The Russia-Ukraine war continues at background level; the US airstrike on Tren de Aragua is a distant event but signals US willingness to use force, which has marginal relevance to Ukrainian hopes for Western support. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US kills leader of Venezuela's Tren de Aragua gang in air strike, Trump says",
+      "summary": "US confirmed use of military force against a foreign gang leader; for Ukrainians, this is a distant action but marginally signals US military assertiveness — no direct aid or policy change for Ukraine.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ]
+    },
+    {
       "title": "Russian families use AI to 'resurrect' loved ones killed in Ukraine",
-      "summary": "A human-interest story about Russian grief — no operational or policy impact on Ukrainian residents' daily lives or safety.",
-      "score": 1.5,
+      "summary": "A human-interest story about Russian war grief; confirms ongoing high Russian casualties but no new military or policy development affecting Ukraine's situation.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "inne",
@@ -15,22 +27,11 @@
       ]
     },
     {
-      "title": "Trump says Israeli attacks on Beirut unjustified, puts Iran deal at risk",
-      "summary": "Trump rhetoric on Iran deal continues; no confirmed shift in US policy toward Ukraine or Western military aid — continuation of background uncertainty.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ]
-    },
-    {
       "title": "Israel expands military control in Gaza, Lebanon and Syria by 1,000sq km",
-      "summary": "Israeli territorial expansion in the Middle East draws US attention away from Ukraine, sustaining background concern about Western focus — but no confirmed aid reduction.",
-      "score": 2.5,
+      "summary": "Middle East escalation draws Western attention away from Ukraine but no confirmed reduction in aid or support this cycle.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -39,12 +40,12 @@
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-14T22:01:58.487045Z",
+  "updated_at": "2026-06-14T23:01:56.579793Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
+  "tone": "neutral",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298596Z",
@@ -68,6 +69,10 @@
     },
     {
       "t": "2026-06-14T22:01:58.487045Z",
+      "s": 2.5
+    },
+    {
+      "t": "2026-06-14T23:01:56.579793Z",
       "s": 2.5
     }
   ]
