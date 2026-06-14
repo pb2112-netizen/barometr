@@ -63,6 +63,9 @@ TONE_KONFLIKT_MARGINES = 0.5
 DECAY_KROK = 0.3
 DECAY_PROG_KONTYNUACJA = 0.3
 
+# WB-003: rolling window historii score w JSON publicznym.
+HISTORY_HOURS = 72
+
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
 SLOWA_RETORYKI = (
@@ -158,6 +161,58 @@ def _ocena_float(x):
     return round(max(1.0, min(10.0, v)), 1)
 
 
+def _parse_iso_utc(ts):
+    """Parsuje ISO 8601 UTC (zakonczony Z) na naive UTC datetime."""
+    if not ts or not isinstance(ts, str):
+        raise ValueError("pusty timestamp")
+    s = ts.strip().replace("Z", "+00:00")
+    dt = datetime.datetime.fromisoformat(s)
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+    return dt
+
+
+def _przytnij_score_history(wpisy, hours=HISTORY_HOURS):
+    """Zostawia wpisy score_history z ostatnich `hours` godzin, posortowane rosnaco po t."""
+    if not wpisy:
+        return []
+    cutoff = datetime.datetime.utcnow() - datetime.timedelta(hours=hours)
+    out = []
+    for w in wpisy:
+        if not isinstance(w, dict):
+            continue
+        try:
+            ts = _parse_iso_utc(w.get("t", ""))
+        except (ValueError, TypeError):
+            continue
+        if ts >= cutoff:
+            out.append({"t": w["t"], "s": _ocena_float(w.get("s", 1))})
+    out.sort(key=lambda x: x["t"])
+    return out
+
+
+def _migruj_score_history(pamiec):
+    """WB-003: inicjalizacja score_history w pamieci (seed opcjonalny z ostatniej oceny)."""
+    if pamiec.get("score_history") is not None:
+        pamiec["score_history"] = _przytnij_score_history(pamiec["score_history"])
+        return pamiec
+    history = []
+    ostatnia = pamiec.get("ostatnia_ocena")
+    updated = pamiec.get("updated_at")
+    if ostatnia is not None and updated:
+        history = [{"t": updated, "s": _ocena_float(ostatnia)}]
+    pamiec["score_history"] = history
+    return pamiec
+
+
+def _dopisz_score_history(pamiec, ocena, timestamp_utc):
+    """Dopisuje biezacy punkt i przycina okno HISTORY_HOURS."""
+    wpisy = list(pamiec.get("score_history") or [])
+    wpisy.append({"t": timestamp_utc, "s": _ocena_float(ocena)})
+    wpisy.sort(key=lambda x: x["t"])
+    return _przytnij_score_history(wpisy)
+
+
 def _plik_pamiec(lens_id):
     return os.path.join(FOLDER, f"pamiec_{lens_id}.json")
 
@@ -185,7 +240,7 @@ def migruj_pliki():
         lid = lens["id"]
         path = _plik_pamiec(lid)
         if not os.path.exists(path):
-            pusta = {"stan_swiata": [], "ostatnia_ocena": None}
+            pusta = {"stan_swiata": [], "ostatnia_ocena": None, "score_history": []}
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(pusta, f, ensure_ascii=False, indent=2)
             print(f"  Utworzono pusta pamiec: pamiec_{lid}.json")
@@ -195,18 +250,26 @@ def wczytaj_pamiec(lens_id):
     """Wczytuje 'znany stan swiata' per lens."""
     try:
         with open(_plik_pamiec(lens_id), "r", encoding="utf-8") as f:
-            return json.load(f)
+            pamiec = json.load(f)
     except Exception:
-        return {"stan_swiata": [], "ostatnia_ocena": None}
+        pamiec = {"stan_swiata": [], "ostatnia_ocena": None}
+    return _migruj_score_history(pamiec)
 
 
-def zapisz_pamiec(lens_id, stan_swiata, ostatnia_ocena, ostatnie_powiadomienie_at=None):
+def zapisz_pamiec(
+    lens_id,
+    stan_swiata,
+    ostatnia_ocena,
+    ostatnie_powiadomienie_at=None,
+    score_history=None,
+):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "ostatnia_ocena": ostatnia_ocena,
         "ostatnie_powiadomienie_at": ostatnie_powiadomienie_at,
         "stan_swiata": stan_swiata,
+        "score_history": score_history if score_history is not None else [],
     }
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
@@ -1010,7 +1073,13 @@ def main():
                 nowy_pl_powiad = datetime.datetime.utcnow().isoformat() + "Z"
                 powiad_at = nowy_pl_powiad
 
-        zapisz_pamiec(lid, stan, ocena, powiad_at)
+        # WB-003: historia score — po finalizuj_wynik, przed zapisem JSON i pamieci.
+        historia = _dopisz_score_history(
+            pamieci[lid], ocena, wynik.get("updated_at", datetime.datetime.utcnow().isoformat() + "Z"))
+        pamieci[lid]["score_history"] = historia
+        wynik["score_history"] = historia
+
+        zapisz_pamiec(lid, stan, ocena, powiad_at, score_history=historia)
         path = zapisz_wynik_lens(lid, wynik)
         print(f"  {lid}: {ocena}/10 [{wynik['level_label']}] -> {os.path.basename(path)}")
 
