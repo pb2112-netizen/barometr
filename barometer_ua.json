@@ -1,31 +1,11 @@
 {
-  "global_score": 7.2,
-  "short_summary": "War ongoing, Western focus fragmented",
-  "rationale": "The Russia-Ukraine war continues at its established high baseline; Trump's rhetoric on Iran deal and Beirut strikes signals continued fragmentation of US diplomatic attention, a mild ongoing concern for Ukraine's support pipeline.",
+  "global_score": 2.5,
+  "short_summary": "War ongoing; no new escalation",
+  "rationale": "The Russia-Ukraine war continues at its established high baseline; no headline this cycle introduces a qualitative change in Western aid, military escalation, or infrastructure attacks relevant to Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia-Ukraine war continues (active combat)",
-      "summary": "War continues at high intensity with no qualitative change this cycle — ongoing threat to life, infrastructure, and territory for all Ukrainian residents.",
-      "score": 7.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": []
-    },
-    {
-      "title": "Trump says Israeli attacks on Beirut unjustified, puts Iran deal at risk",
-      "summary": "Trump's continued focus on Middle East diplomacy and criticism of Israel signals US diplomatic bandwidth remains divided — a mild ongoing concern for Ukraine's Western support continuity.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ]
-    },
-    {
       "title": "Russian families use AI to 'resurrect' loved ones killed in Ukraine",
-      "summary": "A human-interest story about Russian grief — no direct military or policy impact on Ukraine, but signals the scale of Russian casualties and societal war fatigue.",
+      "summary": "A human-interest story about Russian grief — no operational or policy impact on Ukrainian residents' daily lives or safety.",
       "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
@@ -33,14 +13,36 @@
       "sources": [
         "BBC"
       ]
+    },
+    {
+      "title": "Trump says Israeli attacks on Beirut unjustified, puts Iran deal at risk",
+      "summary": "Trump rhetoric on Iran deal continues; no confirmed shift in US policy toward Ukraine or Western military aid — continuation of background uncertainty.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Israel expands military control in Gaza, Lebanon and Syria by 1,000sq km",
+      "summary": "Israeli territorial expansion in the Middle East draws US attention away from Ukraine, sustaining background concern about Western focus — but no confirmed aid reduction.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "High",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-14T21:01:52.889753Z",
+  "updated_at": "2026-06-14T22:01:58.487045Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "score_history": [
@@ -63,6 +65,10 @@
     {
       "t": "2026-06-14T21:01:52.889753Z",
       "s": 7.2
+    },
+    {
+      "t": "2026-06-14T22:01:58.487045Z",
+      "s": 2.5
     }
   ]
 }
