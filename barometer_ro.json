@@ -1,14 +1,25 @@
 {
-  "global_score": 3.2,
-  "short_summary": "Oil falls, war unchanged",
-  "rationale": "For a Romanian resident, falling oil prices from the US-Iran deal announcement provide mild cost-of-living relief, while the Ukraine war near Romania's border continues without new escalation.",
+  "global_score": 4.0,
+  "short_summary": "Kyiv strikes, oil price drop",
+  "rationale": "Russian strikes on Kyiv represent a qualitative escalation near Romania's Black Sea neighborhood, while the US-Iran deal driving oil prices down offers indirect economic relief. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Oil prices slide after US-Iran deal announced",
-      "summary": "Lower oil prices ease energy and fuel costs for Romanian households — continuation of last cycle's trend with no new qualitative development.",
-      "score": 3.2,
+      "title": "Russian strikes kill nine and set historic cathedral in Kyiv ablaze",
+      "summary": "Confirmed deadly Russian strikes on Kyiv, including a historic cathedral, mark a qualitative escalation in the war near Romania's border and Black Sea region, raising regional security concerns.",
+      "score": 4.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Oil prices fall and shares jump after US-Iran deal announced",
+      "summary": "The confirmed US-Iran peace deal is pushing oil prices down, offering potential relief on energy costs for Romanian households and the broader economy.",
+      "score": 4.0,
       "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC",
@@ -16,36 +27,25 @@
       ]
     },
     {
-      "title": "Russian strikes kill nine in Ukraine and damage historic cathedral",
-      "summary": "Ongoing Russian strikes in Ukraine remain background noise for Romania — no new escalation toward the Black Sea or Romanian border this cycle.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "UK and Japan agree £18bn investment deal",
+      "summary": "A large UK-Japan investment deal has minimal direct impact on Romania but signals continued Western economic momentum; negligible effect on daily Romanian life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "BBC"
-      ]
-    },
-    {
-      "title": "US-Iran to sign a 'peace deal' on Friday",
-      "summary": "A formal peace deal signing would further stabilize oil markets and reduce regional risk — still rhetoric/announcement stage, no signed outcome yet.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-15T07:01:59.828510Z",
+  "updated_at": "2026-06-15T08:01:51.273977Z",
   "liczba_naglowkow": 45,
-  "tone": "positive",
+  "tone": "neutral",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.297927Z",
@@ -106,6 +106,10 @@
     {
       "t": "2026-06-15T07:01:59.828510Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-06-15T08:01:51.273977Z",
+      "s": 4.0
     }
   ]
 }
