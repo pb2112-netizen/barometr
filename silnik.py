@@ -262,6 +262,8 @@ def zapisz_pamiec(
     ostatnia_ocena,
     ostatnie_powiadomienie_at=None,
     score_history=None,
+    events_anchor_at=None,
+    anchor_event_titles=None,
 ):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
@@ -271,6 +273,10 @@ def zapisz_pamiec(
         "stan_swiata": stan_swiata,
         "score_history": score_history if score_history is not None else [],
     }
+    if events_anchor_at is not None:
+        dane["events_anchor_at"] = events_anchor_at
+    if anchor_event_titles is not None:
+        dane["anchor_event_titles"] = anchor_event_titles
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
 
@@ -454,6 +460,58 @@ def _tytul_powtarza_sie(title, poprzednie_tytuly):
         if wt & _wyrazniki_tekstu(prev):
             return True
     return False
+
+
+def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
+    """
+    True gdy biezace wydarzenia to NOWA historia (WB-030).
+    False gdy ten sam temat (kontynuacja / przeredagowanie).
+    """
+    top = top_events_now or []
+    anchor = anchor_titles or []
+
+    if not top and not anchor:
+        return False
+    if anchor and not top:
+        return True
+    if not anchor and top:
+        return True
+
+    main_title = top[0].get("title", "")
+    if _tytul_powtarza_sie(main_title, anchor):
+        return False
+    if anchor and _tematy_pasuja(main_title, anchor[0]):
+        return False
+    return True
+
+
+def _aktualizuj_events_anchor(wynik, pamiec):
+    """WB-030: kotwica historii wydarzen (nie szczyt score)."""
+    top = wynik.get("top_events") or []
+    anchor_titles = pamiec.get("anchor_event_titles") or []
+    anchor_at = pamiec.get("events_anchor_at")
+    ts = wynik["updated_at"]
+
+    if anchor_at is None:
+        wynik = dict(wynik)
+        wynik["events_anchor_at"] = ts
+        pamiec_update = {
+            "events_anchor_at": ts,
+            "anchor_event_titles": [e.get("title", "") for e in top[:3]],
+        }
+        return wynik, pamiec_update
+
+    if _historia_wydarzen_zmieniona(top, anchor_titles):
+        titles = [e.get("title", "") for e in top[:3]]
+        wynik = dict(wynik)
+        wynik["events_anchor_at"] = ts
+        pamiec_update = {"events_anchor_at": ts, "anchor_event_titles": titles}
+    else:
+        wynik = dict(wynik)
+        wynik["events_anchor_at"] = anchor_at
+        pamiec_update = {}
+
+    return wynik, pamiec_update
 
 
 def _zastosuj_decay_lens(wynik, pamiec, tryb_prosty=False, lens_id=None):
@@ -1073,13 +1131,26 @@ def main():
                 nowy_pl_powiad = datetime.datetime.utcnow().isoformat() + "Z"
                 powiad_at = nowy_pl_powiad
 
-        # WB-003: historia score — po finalizuj_wynik, przed zapisem JSON i pamieci.
+        # WB-030: kotwica wydarzen — po finalizuj_wynik, przed score_history.
+        wynik, pamiec_update = _aktualizuj_events_anchor(wynik, pamieci[lid])
+        pamieci[lid].update(pamiec_update)
+        wyniki_finalne[lid] = wynik
+
+        # WB-003: historia score — po kotwicy, przed zapisem JSON i pamieci.
         historia = _dopisz_score_history(
             pamieci[lid], ocena, wynik.get("updated_at", datetime.datetime.utcnow().isoformat() + "Z"))
         pamieci[lid]["score_history"] = historia
         wynik["score_history"] = historia
 
-        zapisz_pamiec(lid, stan, ocena, powiad_at, score_history=historia)
+        zapisz_pamiec(
+            lid,
+            stan,
+            ocena,
+            powiad_at,
+            score_history=historia,
+            events_anchor_at=pamieci[lid].get("events_anchor_at"),
+            anchor_event_titles=pamieci[lid].get("anchor_event_titles"),
+        )
         path = zapisz_wynik_lens(lid, wynik)
         print(f"  {lid}: {ocena}/10 [{wynik['level_label']}] -> {os.path.basename(path)}")
 
