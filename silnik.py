@@ -64,7 +64,7 @@ DECAY_KROK = 0.3
 DECAY_PROG_KONTYNUACJA = 0.3
 
 # WB-003: rolling window historii score w JSON publicznym.
-HISTORY_HOURS = 72
+HISTORY_HOURS = 48
 
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
