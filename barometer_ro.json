@@ -1,12 +1,12 @@
 {
   "global_score": 1.0,
-  "short_summary": "Crimea panic, oil prices fall",
-  "rationale": "Ukrainian strikes on Crimea causing panic there is a continuation of established Black Sea tension; no direct threat to Romania confirmed, and oil price decline continues as background. Score adjusted down: ongoing situation without qualitative change.",
+  "short_summary": "Crimea tension, oil falls",
+  "rationale": "Ukrainian attacks on Crimea maintain low-level Black Sea tension relevant to Romania, but no direct threat; oil price decline continues as mild positive. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "'Island surrounded by war': Crimeans panic amid Ukrainian attacks",
-      "summary": "Increased Ukrainian strikes on Crimea raise Black Sea tension slightly, but no direct threat to Romania has emerged. This remains background noise for Romanian residents.",
-      "score": 1.5,
+      "summary": "Continued Ukrainian strikes on Crimea sustain low-level Black Sea tension near Romania, but no direct threat to Romanian territory or shipping confirmed.",
+      "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -15,34 +15,36 @@
       ]
     },
     {
-      "title": "Oil prices fall and shares jump after US-Iran deal announced",
-      "summary": "Continued oil price decline provides mild indirect relief on energy costs for Romanian consumers, but is an ongoing trend with no new shift.",
-      "score": 1.2,
+      "title": "Oil prices fall after US-Iran deal announced",
+      "summary": "Ongoing oil price decline offers mild relief for Romanian consumers and energy costs, but the trend is established and losing novelty.",
+      "score": 1.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ]
     },
     {
-      "title": "Record daily jump in DRC Ebola outbreak takes death toll to 178",
-      "summary": "Ebola outbreak in DRC is geographically distant from Romania with no direct travel or trade link; very low relevance to Romanian daily life.",
-      "score": 1.2,
+      "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
+      "summary": "Continued Russian bombardment of Ukraine is background noise for Romania; no new escalation affecting Romanian security directly.",
+      "score": 1.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-15T13:02:04.994248Z",
+  "updated_at": "2026-06-15T14:02:00.999171Z",
   "liczba_naglowkow": 45,
   "tone": "neutral",
   "score_history": [
@@ -128,6 +130,10 @@
     },
     {
       "t": "2026-06-15T13:02:04.994248Z",
+      "s": 1.0
+    },
+    {
+      "t": "2026-06-15T14:02:00.999171Z",
       "s": 1.0
     }
   ]
