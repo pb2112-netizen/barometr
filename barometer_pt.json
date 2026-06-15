@@ -1,40 +1,40 @@
 {
-  "global_score": 1.5,
-  "short_summary": "Quiet cycle for Portugal",
-  "rationale": "No headlines this cycle have meaningful direct or indirect impact on daily life in Portugal; the EU accession launch is geopolitically distant from Portugal's core concerns.",
+  "global_score": 1.2,
+  "short_summary": "Distant events, no direct impact",
+  "rationale": "No headlines this cycle directly affect Portugal's daily life — Iran deal is unconfirmed rhetoric, eastern European events remain distant from Portugal's core concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "EU officially launches Ukraine and Moldova accession process",
-      "summary": "The formal start of EU accession talks with Ukraine and Moldova is a distant EU institutional development with minimal near-term impact on Portuguese daily life or economy.",
-      "score": 1.5,
+      "title": "Trump says Iran deal already signed, details coming soon",
+      "summary": "Trump claims Iran deal signed but no confirmed text or enacted policy — if real, could eventually affect global energy prices relevant to Portugal, but still rhetoric only.",
+      "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ]
     },
     {
-      "title": "Trump touts Iran deal at G7 — rhetoric only",
-      "summary": "Trump's statements on an Iran deal at G7 remain unconfirmed rhetoric with no confirmed energy price impact for Portugal at this stage.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
+      "summary": "Ongoing Russian strikes on Kyiv — distant from Portugal with no direct impact on daily life or economy.",
+      "score": 1.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
         "BBC"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-15T21:30:35.534141Z",
+  "updated_at": "2026-06-15T21:34:14.749555Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-15T21:30:35.534141Z",
   "score_history": [
     {
@@ -164,6 +164,10 @@
     {
       "t": "2026-06-15T21:30:35.534141Z",
       "s": 1.5
+    },
+    {
+      "t": "2026-06-15T21:34:14.749555Z",
+      "s": 1.2
     }
   ]
 }

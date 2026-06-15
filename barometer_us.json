@@ -1,23 +1,24 @@
 {
-  "global_score": 3.0,
-  "short_summary": "Iran deal rhetoric; B-52 crash continues",
-  "rationale": "Trump's claim of a signed Iran deal is significant rhetoric but lacks confirmed details or enacted policy; the B-52 crash from last cycle remains the most concrete domestic military event. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "short_summary": "Iran deal claimed, B-52 crash, Newsom probe",
+  "rationale": "Trump's claim of a signed Iran deal is the most impactful headline for US residents — potential end to a recent military conflict and possible energy market effects — but remains unconfirmed rhetoric pending release of details. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump says deal to end war with Iran already signed",
-      "summary": "Trump claims an Iran deal is signed but details are not yet released — this is rhetoric without confirmed enacted policy. No confirmed domestic price or security impact yet.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "title": "Trump says deal to end war with Iran already signed, details to be released soon",
+      "summary": "Trump claims an Iran deal is already signed — if confirmed, this would end a recent US military conflict and could affect oil prices and Middle East stability, but no text or enacted policy has been released yet.",
+      "score": 2.7,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ]
     },
     {
-      "title": "US Air Force B-52 bomber crashes after takeoff at Edwards AFB",
-      "summary": "Continuation of last cycle's confirmed B-52 crash at Edwards AFB — ongoing military readiness concern but no new qualitative development beyond the established incident.",
-      "score": 2.5,
+      "title": "US Air Force B-52 bomber crashes after takeoff at Edwards Air Force Base",
+      "summary": "Another US military aircraft incident — continuation of an established pattern of military readiness concerns, no new qualitative escalation this cycle.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -26,11 +27,11 @@
       ]
     },
     {
-      "title": "California Governor Newsom says DOJ investigating him",
-      "summary": "A sitting governor under federal DOJ investigation is a notable domestic political development, though impact on daily life for most Americans remains indirect.",
+      "title": "California Governor Newsom says US Department of Justice investigating him",
+      "summary": "DOJ investigation of a major Democratic governor is a notable domestic political development but has limited direct impact on daily life for most US residents.",
       "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -38,13 +39,13 @@
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-15T21:30:35.534717Z",
+  "updated_at": "2026-06-15T21:34:14.750192Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "positive",
   "events_anchor_at": "2026-06-15T21:30:35.534717Z",
   "score_history": [
     {
@@ -174,6 +175,10 @@
     {
       "t": "2026-06-15T21:30:35.534717Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-06-15T21:34:14.750192Z",
+      "s": 2.7
     }
   ]
 }
