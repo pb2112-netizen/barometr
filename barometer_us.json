@@ -1,23 +1,33 @@
 {
-  "global_score": 1.0,
-  "short_summary": "Iran deal signed, domestic calm",
-  "rationale": "Trump's claim that the Iran deal is 'all signed' is the most relevant event for US residents, potentially affecting oil prices and Middle East policy, but remains largely rhetorical without confirmed domestic economic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "short_summary": "Iran deal signed, Lebanon ceasefire",
+  "rationale": "The Iran deal being described as 'all signed' and a Lebanon ceasefire represent a potential foreign policy achievement with indirect domestic relevance (energy prices, US military posture), but no confirmed domestic economic impact yet.",
   "top_events": [
     {
-      "title": "Trump says Iran deal 'all signed' / Bowen: Iran deal ends Trump's war",
-      "summary": "Trump claims the Iran deal is fully signed, which could lower oil prices and mark a major foreign policy shift for the US. No confirmed domestic price or policy change yet — still largely rhetorical.",
-      "score": 1.0,
+      "title": "Trump says Iran deal 'all signed'; Iran confirms key parts of peace deal",
+      "summary": "A finalized US-Iran deal could reduce Middle East tensions and stabilize oil prices for American consumers, but no confirmed domestic price or policy change has materialized yet.",
+      "score": 3.0,
       "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Mass return to southern Lebanon following US-Iran agreement",
+      "summary": "Lebanon ceasefire and population return signal a broader US-brokered Middle East stabilization — a foreign policy development with indirect relevance to US military posture and oil markets.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
         "Al Jazeera"
       ]
     },
     {
       "title": "China arrests US academic at conference for 'espionage activities'",
-      "summary": "Another US academic detained in China continues the established pattern of US-China tensions. No new qualitative escalation for American residents.",
+      "summary": "Another US academic detained in China continues an established pattern of US-China tensions — no new qualitative escalation for American daily life.",
       "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -25,27 +35,16 @@
       "sources": [
         "Guardian"
       ]
-    },
-    {
-      "title": "UK court convicts two over PM-targeting plot run by mysterious Russian",
-      "summary": "A UK court conviction over a Russian-linked plot against the British PM has indirect relevance to US residents as it underscores ongoing Russian intelligence operations in allied countries. Low direct impact.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-15T18:00:07.306578Z",
+  "updated_at": "2026-06-15T18:02:16.744648Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "positive",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298950Z",
@@ -154,6 +153,10 @@
     {
       "t": "2026-06-15T18:00:07.306578Z",
       "s": 1.0
+    },
+    {
+      "t": "2026-06-15T18:02:16.744648Z",
+      "s": 3.0
     }
   ]
 }
