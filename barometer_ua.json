@@ -1,50 +1,51 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 7.7,
-  "rationale": "Top signal: \"Trump says deal to end war with Iran already signed and details to be released 'pretty soon'\"",
-  "short_summary": "",
+  "global_score": 8.5,
+  "short_summary": "Kyiv struck, cathedral ablaze",
+  "rationale": "Russian strikes killing 11 and destroying a historic Kyiv cathedral are a direct, confirmed attack on Ukrainian civilians and cultural heritage — core daily-life impact for Ukrainians.",
   "top_events": [
     {
-      "title": "Trump says deal to end war with Iran already signed and details to be released 'pretty soon'",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 7.7,
-      "sentiment": "positive",
-      "category": "auto",
-      "sources": [
-        "Al Jazeera",
-        "BBC"
-      ]
-    },
-    {
       "title": "Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-      "summary": "Direct or regional relevance to Ukraine.",
-      "score": 7.2,
+      "summary": "Confirmed Russian missile/drone strikes on Kyiv killed 11 people and destroyed a historic cathedral, directly threatening lives and infrastructure. This is an acute escalation in the capital.",
+      "score": 8.5,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
         "BBC"
       ]
     },
     {
-      "title": "7-year-old mourns father and brother killed in Israeli strike on Gaza",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 7.0,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "EU officially launches Ukraine and Moldova accession process",
+      "summary": "The formal EU accession launch is a major positive milestone for Ukraine's future, offering long-term hope for security and economic integration even amid the ongoing war.",
+      "score": 6.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
-        "Guardian"
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Trump says deal to end war with Iran already signed; touts Ukraine ambition at G7",
+      "summary": "Trump's statements at G7 about Ukraine ambitions are rhetoric without confirmed policy change. Any shift in US posture toward Ukraine peace talks could affect the war's trajectory but nothing is enacted yet.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
       ]
     }
   ],
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "High",
   "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-15T23:02:05.679959Z",
+  "updated_at": "2026-06-15T23:26:38.289866Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-15T21:30:35.534294Z",
   "score_history": [
     {
@@ -186,6 +187,10 @@
     {
       "t": "2026-06-15T23:02:05.679959Z",
       "s": 7.7
+    },
+    {
+      "t": "2026-06-15T23:26:38.289866Z",
+      "s": 8.5
     }
   ]
 }

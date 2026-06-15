@@ -1,47 +1,49 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 9.2,
-  "rationale": "Top signal: \"Bowen: Iran deal ends Trump's war that revealed limit of US dominance\"",
-  "short_summary": "",
+  "global_score": 6.0,
+  "short_summary": "Iran deal claimed, B-52 crash",
+  "rationale": "Trump's claimed Iran deal and a B-52 bomber crash at Edwards AFB are the most directly US-relevant confirmed or near-confirmed events this cycle.",
   "top_events": [
     {
-      "title": "Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 9.2,
+      "title": "US Air Force B-52 bomber crashes after takeoff at Edwards Air Force Base",
+      "summary": "A B-52 strategic bomber crashed at a major US Air Force test base — a significant military incident on US soil with potential implications for personnel and readiness. Confirmed action.",
+      "score": 6.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
-        "BBC"
+        "Al Jazeera"
       ]
     },
     {
-      "title": "US musician Oliver Tree, 32, killed in helicopter crash in Brazil",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 8.5,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "Trump says deal to end war with Iran already signed",
+      "summary": "Trump claims a signed US-Iran deal, which if real would be a major foreign policy shift affecting US military posture in the Middle East and energy markets. Details unconfirmed — still largely rhetoric.",
+      "score": 5.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
-        "Guardian"
+        "BBC",
+        "Al Jazeera"
       ]
     },
     {
-      "title": "Violent attacks on schools, pupils and staff around the world up by 40%, says study",
-      "summary": "Indirect global signal; limited direct impact on United States.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "California Governor Newsom says US Department of Justice investigating him",
+      "summary": "A DOJ investigation into a sitting governor and potential 2028 presidential contender is a notable domestic political development, though no charges or confirmed policy impact yet.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "Al Jazeera"
       ]
     }
   ],
-  "level_label": "Critical",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Elevated",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-15T23:02:05.680065Z",
+  "updated_at": "2026-06-15T23:26:38.289969Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "events_anchor_at": "2026-06-15T21:30:35.534717Z",
@@ -185,6 +187,10 @@
     {
       "t": "2026-06-15T23:02:05.680065Z",
       "s": 9.2
+    },
+    {
+      "t": "2026-06-15T23:26:38.289969Z",
+      "s": 6.0
     }
   ]
 }
