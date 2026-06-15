@@ -1,23 +1,11 @@
 {
-  "global_score": 3.2,
-  "short_summary": "Kyiv strikes continue, oil falling",
-  "rationale": "Russian strikes on Kyiv continue without qualitative escalation for Poland; oil price decline from the US-Iran deal persists as background positive for energy costs.",
+  "global_score": 2.9,
+  "short_summary": "Oil down, Kyiv strikes continue",
+  "rationale": "Russian strikes on Kyiv continue as background, while falling oil prices offer mild economic relief for Polish residents; no qualitative new escalation toward Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russian strikes kill nine and set historic cathedral in Kyiv ablaze",
-      "summary": "Ongoing Russian strikes on Kyiv continue the established war pattern with no new escalation toward Poland. Baseline remains stable — no qualitative change for Polish residents.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ]
-    },
-    {
-      "title": "Oil prices fall and shares jump after US-Iran deal announced",
-      "summary": "Continued oil price decline from the US-Iran deal offers modest relief on energy costs for Polish households and businesses, but this is now a continuation of last cycle's development.",
+      "title": "Oil prices fall after US-Iran deal announced",
+      "summary": "Continued oil price decline from the US-Iran deal provides modest relief on energy costs for Polish households and businesses, though this is an ongoing trend rather than a new shock.",
       "score": 3.2,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -28,8 +16,20 @@
       ]
     },
     {
+      "title": "Russian strikes kill nine and set historic cathedral in Kyiv ablaze",
+      "summary": "Continued Russian strikes on Kyiv remain a background concern for Poland given proximity and refugee ties, but no qualitative escalation toward Polish territory is reported.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ]
+    },
+    {
       "title": "UK and Japan agree £18bn investment deal",
-      "summary": "A major UK-Japan investment deal has limited direct impact on Poland, though it signals continued Western economic cooperation that indirectly supports EU trade stability.",
+      "summary": "A major UK-Japan investment deal signals continued Western economic cooperation; indirect positive signal for EU trade environment but minimal direct impact on Polish daily life.",
       "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
@@ -40,11 +40,11 @@
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-15T10:01:58.267748Z",
+  "updated_at": "2026-06-15T11:02:01.751537Z",
   "liczba_naglowkow": 45,
   "tone": "positive",
   "score_history": [
@@ -119,6 +119,10 @@
     {
       "t": "2026-06-15T10:01:58.267748Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-06-15T11:02:01.751537Z",
+      "s": 2.9
     }
   ]
 }
