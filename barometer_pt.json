@@ -1,53 +1,52 @@
 {
-  "global_score": 1.0,
-  "short_summary": "Calm, no relevant changes",
-  "rationale": "No headlines this cycle introduce any qualitative new development with meaningful impact on daily life in Portugal; all tracked situations remain at floor or decaying.",
+  "tryb": "prosty (bez AI)",
+  "global_score": 7.0,
+  "rationale": "Top signal: \"FBI thwarted plot targeting White House UFC event, Patel says\" Score adjusted down: ongoing situation without qualitative change.",
+  "short_summary": "",
   "top_events": [
     {
-      "title": "Bank of Japan raises interest rates to 31-year high",
-      "summary": "Japan raised rates to 1% — a continuation of a tracked global monetary trend with minimal direct impact on Portugal's daily life or economy.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian",
-        "BBC"
-      ]
-    },
-    {
-      "title": "Australia warns El Niño weather pattern set to be strongest in decades",
-      "summary": "El Niño forecast reiterated — still a projection, no confirmed Iberian wildfire or drought event this cycle. Mild background concern for Portugal.",
-      "score": 1.1,
+      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "summary": "Indirect global signal; limited direct impact on Portugal.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "auto",
       "sources": [
-        "Al Jazeera"
-      ]
+        "Al Jazeera",
+        "BBC"
+      ],
+      "nowosc": "nowe"
     },
     {
-      "title": "Iran deal / energy price hopes",
-      "summary": "US-Iran diplomacy rhetoric continues with no signed deal. Any potential energy price relief for Portugal remains speculative and unchanged.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "title": "Russian artist and Putin critic shot dead in Poland",
+      "summary": "Indirect global signal; limited direct impact on Portugal.",
+      "score": 7.0,
+      "sentiment": "negative",
+      "category": "auto",
       "sources": [
-        "BBC",
+        "BBC"
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+      "summary": "Indirect global signal; limited direct impact on Portugal.",
+      "score": 7.0,
+      "sentiment": "positive",
+      "category": "auto",
+      "sources": [
         "Al Jazeera"
-      ]
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "High",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-16T14:22:29.038097Z",
+  "updated_at": "2026-06-16T15:02:32.024869Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-16T12:02:14.294561Z",
+  "tone": "neutral",
+  "events_anchor_at": "2026-06-16T15:02:32.024869Z",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298284Z",
@@ -264,6 +263,10 @@
     {
       "t": "2026-06-16T14:22:29.038097Z",
       "s": 1.0
+    },
+    {
+      "t": "2026-06-16T15:02:32.024869Z",
+      "s": 7.0
     }
   ]
 }

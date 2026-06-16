@@ -1,53 +1,52 @@
 {
-  "global_score": 1.5,
-  "short_summary": "Calm, no new regional threats",
-  "rationale": "No headlines this cycle introduce a qualitative new development relevant to Romania; all tracked situations continue to decay.",
+  "tryb": "prosty (bez AI)",
+  "global_score": 7.0,
+  "rationale": "Top signal: \"FBI thwarted plot targeting White House UFC event, Patel says\" Score adjusted down: ongoing situation without qualitative change.",
+  "short_summary": "",
   "top_events": [
     {
-      "title": "Russia-Ukraine war / Black Sea security",
-      "summary": "War continues as persistent background with no new escalation near Romania or the Black Sea. Baseline decaying.",
-      "score": 1.6,
+      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "summary": "Indirect global signal; limited direct impact on Romania.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ]
-    },
-    {
-      "title": "Hungary's MPs block return of Orbán, limiting PM rule to eight years",
-      "summary": "Hungarian parliament passed a term-limit reform — mild relevance to Romania as a neighboring EU member. No new qualitative step this cycle.",
-      "score": 1.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Iran deal / energy price implications",
-      "summary": "US-Iran diplomacy rhetoric continues with Geneva event announced but no signed deal. Indirect energy implications for Romania remain speculative.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "auto",
       "sources": [
         "Al Jazeera",
         "BBC"
-      ]
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "Russian artist and Putin critic shot dead in Poland",
+      "summary": "Indirect global signal; limited direct impact on Romania.",
+      "score": 7.0,
+      "sentiment": "negative",
+      "category": "auto",
+      "sources": [
+        "BBC"
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+      "summary": "Indirect global signal; limited direct impact on Romania.",
+      "score": 6.7,
+      "sentiment": "positive",
+      "category": "auto",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "High",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-16T14:22:29.037881Z",
+  "updated_at": "2026-06-16T15:02:32.024689Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-15T23:26:38.289708Z",
+  "tone": "neutral",
+  "events_anchor_at": "2026-06-16T15:02:32.024689Z",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.297927Z",
@@ -264,6 +263,10 @@
     {
       "t": "2026-06-16T14:22:29.037881Z",
       "s": 1.5
+    },
+    {
+      "t": "2026-06-16T15:02:32.024689Z",
+      "s": 7.0
     }
   ]
 }

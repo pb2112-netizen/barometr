@@ -1,53 +1,52 @@
 {
-  "global_score": 3.2,
-  "short_summary": "War background, US-Iran focus",
-  "rationale": "No qualitative new escalation in strikes on Ukraine; US diplomatic attention remains on Iran deal rather than Ukraine aid, continuing a tracked concern for Ukrainians.",
+  "tryb": "prosty (bez AI)",
+  "global_score": 8.2,
+  "rationale": "Top signal: \"Russian artist and Putin critic shot dead in Poland\"",
+  "short_summary": "",
   "top_events": [
     {
-      "title": "Geneva to host Iran-US deal event; Trump warns Iran on nuclear weapons",
-      "summary": "US diplomatic energy remains focused on Iran rather than Ukraine, continuing a concern that Western attention and resources may be diverted from Ukrainian support. No new confirmed aid changes.",
-      "score": 3.0,
+      "title": "Russian artist and Putin critic shot dead in Poland",
+      "summary": "Direct or regional relevance to Ukraine.",
+      "score": 8.2,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
+      "sources": [
+        "BBC"
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "summary": "Indirect global signal; limited direct impact on Ukraine.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "category": "auto",
       "sources": [
         "Al Jazeera",
         "BBC"
-      ]
+      ],
+      "nowosc": "nowe"
     },
     {
-      "title": "EU accession process for Ukraine",
-      "summary": "Accession negotiations continue as background with no new qualitative step this cycle. Long-term positive trajectory but no immediate daily-life change.",
-      "score": 3.3,
+      "title": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
+      "summary": "Indirect global signal; limited direct impact on Ukraine.",
+      "score": 7.0,
       "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
       "sources": [
         "Al Jazeera"
-      ]
-    },
-    {
-      "title": "Russian strikes on Ukrainian territory",
-      "summary": "Strikes continue as the persistent background of daily life in Ukraine. No qualitative escalation or new weapons use reported this cycle.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ]
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "High",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-16T14:22:29.038276Z",
+  "updated_at": "2026-06-16T15:02:32.025018Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
-  "events_anchor_at": "2026-06-15T21:30:35.534294Z",
+  "tone": "negative",
+  "events_anchor_at": "2026-06-16T15:02:32.025018Z",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298596Z",
@@ -264,6 +263,10 @@
     {
       "t": "2026-06-16T14:22:29.038276Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-06-16T15:02:32.025018Z",
+      "s": 8.2
     }
   ]
 }
