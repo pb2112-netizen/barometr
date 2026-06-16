@@ -1,12 +1,23 @@
 {
-  "global_score": 2.5,
-  "short_summary": "Domestic security, Iran deal rhetoric",
-  "rationale": "The White House UFC attack plot and B-52 crash remain established background; the Iran deal is still rhetoric with no enacted policy; the Bank of Japan rate hike is the most economically novel item but has limited direct US daily-life impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "short_summary": "Background threats, no new escalation",
+  "rationale": "No confirmed new domestic policy change or direct threat to US residents this cycle; established background situations continue without qualitative escalation.",
   "top_events": [
     {
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "Bank of Japan rate hike to 1% could affect global capital flows and US financial markets indirectly, but the magnitude remains modest and impact on US residents is uncertain.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ]
+    },
+    {
       "title": "Group planned to attack White House UFC event using snipers and drones, FBI says",
-      "summary": "FBI disruption of a domestic terrorism plot targeting a White House event is a confirmed security action, but this story is already established background with no new qualitative development this cycle.",
-      "score": 2.8,
+      "summary": "FBI-disrupted attack plot against a White House event is a confirmed security incident, but the threat was neutralized and represents continuation of established domestic terrorism background.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -15,25 +26,14 @@
       ]
     },
     {
-      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
-      "summary": "A historic Bank of Japan rate hike could affect global capital flows and US financial markets indirectly, but the direct impact on American daily life remains limited at this level.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ]
-    },
-    {
-      "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
-      "summary": "Iran framing the US nuclear deal as a domestic victory is rhetoric and spin; no confirmed policy change or enacted agreement affects US residents' daily life this cycle.",
+      "title": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+      "summary": "A potentially historic Ebola outbreak in DRC is a distant health concern for US residents; no confirmed spread or US travel advisory issued yet.",
       "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ]
     }
   ],
@@ -42,15 +42,11 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-16T21:02:01.212941Z",
+  "updated_at": "2026-06-16T22:02:06.443546Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-16T18:22:34.370466Z",
   "score_history": [
-    {
-      "t": "2026-06-14T22:01:58.487266Z",
-      "s": 2.9
-    },
     {
       "t": "2026-06-14T23:01:56.579992Z",
       "s": 3.0
@@ -274,6 +270,10 @@
     {
       "t": "2026-06-16T21:02:01.212941Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-06-16T22:02:06.443546Z",
+      "s": 2.2
     }
   ]
 }
