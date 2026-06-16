@@ -56,6 +56,10 @@ POZIOMY = [
 # Sentyment (WB-013): enum 3-wartosciowy; globalny "tone" liczony deterministycznie.
 SENTYMENTY = ("negative", "positive", "neutral")
 SENTYMENT_DOMYSLNY = "neutral"
+
+# Nowosc (WB-017/WB-032): steruje decay i kotwica events_anchor_at (tylko top_events[0]).
+NOWOSC_WARTOSCI = frozenset({"nowe", "kontynuacja"})
+NOWOSC_DOMYSLNA = "kontynuacja"
 # Eventy w odleglosci <= 0.5 od maksimum z mieszanymi sentymentami -> tone neutral.
 TONE_KONFLIKT_MARGINES = 0.5
 
@@ -115,6 +119,26 @@ def _ensure_event_sentiment(events):
     for ev in events:
         ev = dict(ev)
         ev["sentiment"] = _normalizuj_sentiment(ev.get("sentiment"))
+        wynik.append(ev)
+    return wynik
+
+
+def _normalizuj_nowosc(wartosc):
+    """Trim + lowercase + walidacja enuma; spoza enuma/brak -> kontynuacja (WB-032 §4.1)."""
+    s = str(wartosc or "").strip().lower()
+    if s in NOWOSC_WARTOSCI:
+        return s
+    if wartosc not in (None, ""):
+        print(f"  [uwaga] Brak/zla nowosc ('{wartosc}') — fallback kontynuacja")
+    return NOWOSC_DOMYSLNA
+
+
+def _ensure_event_nowosc(events):
+    """Gwarantuje poprawna nowosc per event (WB-032 §4.1)."""
+    wynik = []
+    for ev in events:
+        ev = dict(ev)
+        ev["nowosc"] = _normalizuj_nowosc(ev.get("nowosc"))
         wynik.append(ev)
     return wynik
 
@@ -437,10 +461,6 @@ def _event_dla_tematu(temat, top_events):
     return None
 
 
-def _normalizuj_nowosc(wartosc):
-    return str(wartosc or "").strip().lower()
-
-
 def _poprzednie_tytuly_lens(lens_id):
     """Tytuly z ostatniego opublikowanego barometer_{lens}.json (tryb prosty)."""
     try:
@@ -464,8 +484,9 @@ def _tytul_powtarza_sie(title, poprzednie_tytuly):
 
 def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
     """
-    True gdy biezace wydarzenia to NOWA historia (WB-030).
-    False gdy ten sam temat (kontynuacja / przeredagowanie).
+    True gdy biezace wydarzenia to NOWA historia (WB-030/WB-032).
+    Decyzja: top_events[0].nowosc == "nowe" (nie fuzzy match tytulow).
+    anchor_titles — deprecated dla decyzji (audit/debug w pamieci).
     """
     top = top_events_now or []
     anchor = anchor_titles or []
@@ -477,12 +498,7 @@ def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
     if not anchor and top:
         return True
 
-    main_title = top[0].get("title", "")
-    if _tytul_powtarza_sie(main_title, anchor):
-        return False
-    if anchor and _tematy_pasuja(main_title, anchor[0]):
-        return False
-    return True
+    return _normalizuj_nowosc(top[0].get("nowosc")) == "nowe"
 
 
 def _aktualizuj_events_anchor(wynik, pamiec):
@@ -718,6 +734,19 @@ def ocen_prosty_lens(naglowki, lens_id, lens_name_en):
         if len(top) == 3:
             break
 
+    poprzednie = _poprzednie_tytuly_lens(lens_id)
+    for i, ev in enumerate(top):
+        title_lower = ev["title"].lower()
+        if i == 0:
+            if title_lower in poprzednie:
+                ev["nowosc"] = "kontynuacja"
+            elif poprzednie and _tematy_pasuja(ev["title"], poprzednie[0]):
+                ev["nowosc"] = "kontynuacja"
+            else:
+                ev["nowosc"] = "nowe"
+        else:
+            ev["nowosc"] = "nowe" if title_lower not in poprzednie else "kontynuacja"
+
     if top:
         glowne = top[0]
         ocena_globalna = glowne["score"]
@@ -772,6 +801,11 @@ When in doubt between two scores, choose the LOWER one.
 Each lens has its own KNOWN WORLD STATE (stan_swiata). Score what is NEW relative to that state:
 - Continuation of an ongoing conflict does NOT raise the score — it is already background.
 - Only a QUALITATIVE new change raises the score.
+
+The "nowosc" flag on top_events[0] also drives the app's history anchor marker
+(events_anchor_at). Mark "nowe" only when the DOMINANT story is a qualitative NEW
+development for this lens; mark "kontynuacja" when the same story continues
+(including reworded headlines). Only top_events[0] moves the anchor — not #2 or #3.
 
 === RULE 4: BACKGROUND DECAY ===
 Each situation in stan_swiata has a "cykle_bez_zmian" counter. When a situation ONLY continues
@@ -904,6 +938,7 @@ def _waliduj_wynik_lens(raw, pamiec, lens_id, lens_name_en):
         wynik["top_events"], lens_id, lens_name_en, wynik.get("rationale", "")
     )
     wynik["top_events"] = _ensure_event_sentiment(wynik["top_events"])
+    wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
     wynik.setdefault("stan_swiata", pamiec.get("stan_swiata") or [])
     return wynik
 
@@ -1020,6 +1055,7 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
             wynik["top_events"], lens_id, lens_name, wynik.get("rationale", "")
         )
         wynik["top_events"] = _ensure_event_sentiment(wynik["top_events"])
+        wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
     # WB-013: globalny tone liczony deterministycznie (nie przez model).
     wynik["tone"] = _wylicz_tone(wynik.get("top_events") or [])
     return wynik
