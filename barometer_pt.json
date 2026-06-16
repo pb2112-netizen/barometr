@@ -1,13 +1,13 @@
 {
-  "global_score": 2.5,
-  "short_summary": "Calm, minor global signals",
-  "rationale": "No events this cycle directly affect Portugal; global energy and financial signals remain mild and unconfirmed in their impact on Portuguese daily life.",
+  "global_score": 2.0,
+  "short_summary": "Calm; no direct impact",
+  "rationale": "No headlines this cycle directly affect Portugal's cost of living, tourism, energy prices, or Iberian climate events in a confirmed, actionable way. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Bank of Japan raises interest rates to 31-year high of 1%",
-      "summary": "BoJ rate hike adds mild global financial uncertainty that could indirectly affect EU borrowing costs and Portuguese mortgage holders, but the impact remains indirect and modest.",
+      "summary": "BoJ rate hike adds mild global financial uncertainty that could indirectly affect EU borrowing costs and Portuguese economy, but the effect is marginal and indirect.",
       "score": 2.5,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -16,7 +16,7 @@
     },
     {
       "title": "Fragile quiet in Lebanon as US-Iran truce leaves unanswered questions",
-      "summary": "Unresolved Middle East tensions could keep energy prices elevated, with a mild indirect effect on Portugal's cost of living, but no confirmed price movement yet.",
+      "summary": "Middle East instability has indirect relevance to Portugal via energy prices, but no confirmed price movement or direct impact on Portuguese daily life this cycle.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -26,25 +26,26 @@
       ]
     },
     {
-      "title": "Venezuela signs deal with US energy giant to rebuild power grid",
-      "summary": "A US-Venezuela energy deal has negligible direct impact on Portugal, though Atlantic trade and energy diversification signals are marginally relevant to the Portuguese economy.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
+      "title": "Nearly all children globally exposed to at least one climate hazard: Report",
+      "summary": "Climate hazard report is relevant to Portugal given wildfire and drought risks, but this is a research publication rather than a confirmed new event affecting daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
       "sources": [
-        "BBC"
+        "Al Jazeera",
+        "Guardian"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-16T18:02:02.513799Z",
+  "updated_at": "2026-06-16T18:22:34.370156Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-16T17:02:02.080706Z",
   "score_history": [
     {
@@ -278,6 +279,10 @@
     {
       "t": "2026-06-16T18:02:02.513799Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-06-16T18:22:34.370156Z",
+      "s": 2.0
     }
   ]
 }
