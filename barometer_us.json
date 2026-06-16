@@ -1,52 +1,52 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 8.5,
-  "rationale": "Top signal: \"Eight dead after US Air Force B-52 bomber crashes in California\"",
-  "short_summary": "",
+  "global_score": 4.5,
+  "short_summary": "FBI foils White House attack plot",
+  "rationale": "The FBI foiling a confirmed plot targeting a White House UFC event is a direct domestic security event affecting US residents, while the B-52 crash and US-Iran deal also carry domestic relevance. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Eight dead after US Air Force B-52 bomber crashes in California",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 8.2,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "BBC"
-      ],
-      "nowosc": "nowe"
-    },
-    {
-      "title": "US musician Oliver Tree, 32, killed in helicopter crash in Brazil",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 8.5,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "Guardian"
-      ],
-      "nowosc": "nowe"
-    },
-    {
       "title": "FBI thwarted plot targeting White House UFC event, Patel says",
-      "summary": "Indirect global signal; limited direct impact on United States.",
-      "score": 2.7,
+      "summary": "A confirmed foiled attack plot targeting a high-profile White House event is a direct domestic security incident, raising public concern about terrorism threats on US soil.",
+      "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
+        "BBC",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Eight dead after US Air Force B-52 bomber crashes in California",
+      "summary": "A B-52 crash killing eight on US soil is a confirmed military tragedy with direct domestic impact, affecting communities near the crash site and raising questions about military readiness.",
+      "score": 5.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
         "BBC"
-      ],
-      "nowosc": "nowe"
+      ]
+    },
+    {
+      "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
+      "summary": "The US-Iran deal is a significant foreign policy development; if it holds, it could ease Middle East tensions and reduce pressure on oil markets, with mild positive effects for US consumers.",
+      "score": 4.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
     }
   ],
-  "level_label": "High",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-16T15:02:32.025240Z",
+  "updated_at": "2026-06-16T16:02:26.561378Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-16T15:02:32.025240Z",
+  "tone": "neutral",
+  "events_anchor_at": "2026-06-16T16:02:26.561378Z",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298950Z",
@@ -267,6 +267,10 @@
     {
       "t": "2026-06-16T15:02:32.025240Z",
       "s": 8.5
+    },
+    {
+      "t": "2026-06-16T16:02:26.561378Z",
+      "s": 4.5
     }
   ]
 }

@@ -1,52 +1,51 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 7.0,
-  "rationale": "Top signal: \"FBI thwarted plot targeting White House UFC event, Patel says\" Score adjusted down: ongoing situation without qualitative change.",
-  "short_summary": "",
+  "global_score": 3.2,
+  "short_summary": "US-Iran deal; mild energy relief",
+  "rationale": "Portugal is geographically distant from eastern European and Middle Eastern flashpoints; the US-Iran deal is the most relevant event as it could ease energy prices affecting Portuguese households.",
   "top_events": [
     {
-      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
+      "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
+      "summary": "A US-Iran agreement could reduce Middle East tensions and ease global energy prices, offering mild indirect relief to Portuguese consumers facing high energy costs.",
+      "score": 3.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "Bank of Japan rate hike to a 31-year high could ripple through global financial markets, with indirect effects on EU borrowing costs and Portuguese mortgage holders.",
       "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera",
-        "BBC"
-      ],
-      "nowosc": "nowe"
+        "Guardian"
+      ]
     },
     {
       "title": "Russian artist and Putin critic shot dead in Poland",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
-      "score": 7.0,
+      "summary": "A suspected Russian-linked killing in an EU/NATO country is a distant but notable security event; limited direct impact on daily life in Portugal.",
+      "score": 2.5,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
-      ],
-      "nowosc": "nowe"
-    },
-    {
-      "title": "Families return to shattered towns as fragile ceasefire holds in Lebanon",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
-      "score": 7.0,
-      "sentiment": "positive",
-      "category": "auto",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "nowe"
+      ]
     }
   ],
-  "level_label": "High",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-16T15:02:32.024869Z",
+  "updated_at": "2026-06-16T16:02:26.561189Z",
   "liczba_naglowkow": 45,
   "tone": "neutral",
-  "events_anchor_at": "2026-06-16T15:02:32.024869Z",
+  "events_anchor_at": "2026-06-16T16:02:26.561189Z",
   "score_history": [
     {
       "t": "2026-06-14T19:01:54.298284Z",
@@ -267,6 +266,10 @@
     {
       "t": "2026-06-16T15:02:32.024869Z",
       "s": 7.0
+    },
+    {
+      "t": "2026-06-16T16:02:26.561189Z",
+      "s": 3.2
     }
   ]
 }
