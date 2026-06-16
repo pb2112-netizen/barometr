@@ -1,22 +1,11 @@
 {
-  "global_score": 2.2,
-  "short_summary": "Background threats, no new escalation",
-  "rationale": "No confirmed new domestic policy change or direct threat to US residents this cycle; established background situations continue without qualitative escalation.",
+  "global_score": 1.9,
+  "short_summary": "Domestic security plot; Iran deal rhetoric",
+  "rationale": "The White House UFC attack plot and US-Iran deal framing are the most relevant stories for US residents, but both remain established background or rhetoric without confirmed new policy impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
-      "summary": "Bank of Japan rate hike to 1% could affect global capital flows and US financial markets indirectly, but the magnitude remains modest and impact on US residents is uncertain.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ]
-    },
-    {
       "title": "Group planned to attack White House UFC event using snipers and drones, FBI says",
-      "summary": "FBI-disrupted attack plot against a White House event is a confirmed security incident, but the threat was neutralized and represents continuation of established domestic terrorism background.",
+      "summary": "FBI disruption of a domestic terrorism plot targeting a White House event is a confirmed security action, reinforcing existing concerns about domestic threats but no new qualitative escalation beyond prior cycle.",
       "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -26,14 +15,25 @@
       ]
     },
     {
-      "title": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
-      "summary": "A potentially historic Ebola outbreak in DRC is a distant health concern for US residents; no confirmed spread or US travel advisory issued yet.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "title": "Tehran selling deal with US as victory – but for Iranians it was necessity",
+      "summary": "US-Iran deal framing remains rhetorical and political; no confirmed enacted policy change or energy market impact for US residents this cycle.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
+      ]
+    },
+    {
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "Bank of Japan rate hike to 1% is a confirmed action with potential indirect effects on US financial markets and dollar dynamics, but no confirmed major disruption to US markets this cycle.",
+      "score": 1.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
       ]
     }
   ],
@@ -42,9 +42,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-16T22:02:06.443546Z",
+  "updated_at": "2026-06-16T23:01:56.410545Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-16T18:22:34.370466Z",
   "score_history": [
     {
@@ -274,6 +274,10 @@
     {
       "t": "2026-06-16T22:02:06.443546Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-06-16T23:01:56.410545Z",
+      "s": 1.9
     }
   ]
 }
