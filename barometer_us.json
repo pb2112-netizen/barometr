@@ -1,23 +1,12 @@
 {
-  "global_score": 3.0,
-  "short_summary": "FBI plot foiled; Iran rhetoric",
-  "rationale": "The FBI-foiled plot targeting a White House UFC event is a continuation of a tracked story, and Iran deal headlines remain rhetoric without confirmed new policy action affecting US residents.",
+  "global_score": 2.5,
+  "short_summary": "Iran deal rhetoric, B-52 crash",
+  "rationale": "All major US-relevant stories this cycle are continuations of tracked situations with no new confirmed policy actions or domestic impacts. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
-      "summary": "FBI Director Patel confirms a foiled domestic terror plot — a continuation of the previously tracked story. Contained threat with no broader policy or daily-life impact for most Americans.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Iran deal presents political nightmare for Netanyahu / Trump rhetoric",
-      "summary": "Ongoing US-Iran diplomatic signals and Trump statements — no confirmed new treaty or sanctions action. No direct impact on US daily life at this stage.",
-      "score": 2.5,
+      "title": "Iran deal presents political nightmare for Netanyahu / Trump warns 'hell will rain down'",
+      "summary": "US-Iran diplomacy continues with rhetoric and positioning but no signed deal confirmed this cycle; no direct change to US daily life yet.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -27,25 +16,36 @@
       ]
     },
     {
-      "title": "California's Gavin Newsom alleges DOJ investigating his wife and ex-staff",
-      "summary": "Newsom expands claims about DOJ investigation — rhetoric and allegations only, no confirmed charges or policy impact. Minimal effect on US daily life.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "title": "FBI thwarted plot targeting White House UFC event, Patel says",
+      "summary": "FBI confirms foiling a domestic threat — a continuation of the tracked story with no new escalation or broader security policy change.",
+      "score": 1.7,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Eight dead after US Air Force B-52 bomber crashes in California",
+      "summary": "A tragic military accident at Edwards AFB with confirmed fatalities, but contained in scope with no broader policy or security implications for US residents.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-16T14:00:29.321116Z",
+  "updated_at": "2026-06-16T14:02:14.793185Z",
   "liczba_naglowkow": 45,
-  "tone": "positive",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-15T21:30:35.534717Z",
   "score_history": [
     {
@@ -251,6 +251,10 @@
     {
       "t": "2026-06-16T14:00:29.321116Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-06-16T14:02:14.793185Z",
+      "s": 2.5
     }
   ]
 }
