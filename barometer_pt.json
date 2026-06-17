@@ -1,13 +1,26 @@
 {
   "global_score": 1.0,
-  "short_summary": "Quiet cycle for Portugal",
-  "rationale": "No headline this cycle directly affects Portugal's cost of living, tourism, or energy prices in a confirmed way; Ebola remains geographically distant with no European spread. Score adjusted down: ongoing situation without qualitative change.",
+  "short_summary": "Ebola outbreak concern grows",
+  "rationale": "No event directly affecting Portugal this cycle; Ebola outbreak concern persists but remains geographically distant with no confirmed European spread. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran sends tankers loaded with oil past US military blockade",
-      "summary": "If Iranian oil reaches markets, it could ease global energy prices and reduce Portugal's energy costs, but no confirmed price movement yet.",
+      "title": "Search for six-year-old Ebola patient after armed men storm DR Congo hospital",
+      "summary": "An Ebola patient escaped a DRC hospital after an armed raid, raising containment concerns. No confirmed spread toward Europe, but experts warn this could be the worst-ever outbreak.",
       "score": 1.0,
-      "sentiment": "positive",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ]
+    },
+    {
+      "title": "Iran sends tankers loaded with oil past US military blockade",
+      "summary": "Iranian oil bypassing the US blockade could eventually ease European energy prices; no confirmed market impact for Portuguese consumers yet.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -15,26 +28,14 @@
       ]
     },
     {
-      "title": "Why are experts warning latest Ebola outbreak could be 'worst ever'?",
-      "summary": "Ebola remains confined to DRC with no confirmed spread toward Europe or Portugal; armed men storming a hospital adds concern but no direct threat to Portuguese residents.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ]
-    },
-    {
-      "title": "US Federal Reserve holds rates steady under new chair Warsh",
-      "summary": "Fed rate hold has indirect bearing on EU financial conditions and Portuguese borrowing costs, but no immediate confirmed impact on daily life.",
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "BoJ rate hike to 1% is background global financial news; indirect effect on EU and Portuguese financial conditions remains minimal and unchanged.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "Guardian"
       ]
     }
   ],
@@ -43,9 +44,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-17T19:02:03.095184Z",
+  "updated_at": "2026-06-17T19:26:49.976581Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-17T07:02:05.925627Z",
   "score_history": [
     {
@@ -274,6 +275,10 @@
     },
     {
       "t": "2026-06-17T19:02:03.095184Z",
+      "s": 1.0
+    },
+    {
+      "t": "2026-06-17T19:26:49.976581Z",
       "s": 1.0
     }
   ]
