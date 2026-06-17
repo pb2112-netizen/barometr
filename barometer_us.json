@@ -1,56 +1,52 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 9.5,
-  "rationale": "Top signal: \"US Federal Reserve holds rates steady under new chair Warsh\"",
-  "short_summary": "Fed holds rates under Warsh",
+  "global_score": 5.0,
+  "short_summary": "Fed holds rates; Iran tankers pass blockade",
+  "rationale": "For US residents, the Fed holding rates under new chair Warsh is a direct domestic economic policy event, while Iran's oil tankers passing a US military blockade is a confirmed geopolitical action with potential energy and security implications. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US Federal Reserve holds rates steady under new chair Warsh",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 9.2,
-      "sentiment": "negative",
-      "category": "auto",
+      "summary": "The Fed's decision to hold rates under newly installed chair Warsh directly affects US mortgage rates, consumer borrowing, and financial markets — a concrete policy action with immediate relevance to American households.",
+      "score": 5.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja"
+      ]
     },
     {
-      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
-      "summary": "Direct or regional relevance to United States.",
+      "title": "Iran sends tankers loaded with oil past US military blockade",
+      "summary": "Iran successfully moving oil tankers past a US military blockade is a confirmed action that challenges US enforcement credibility in the Gulf and could affect oil markets and US-Iran negotiations.",
+      "score": 5.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Group planned to attack White House UFC event using snipers and drones, FBI says",
+      "summary": "FBI confirmed a domestic terrorism plot targeting a White House event with snipers and drones — a confirmed threat investigation with direct homeland security relevance for US residents.",
       "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
-      ],
-      "nowosc": "nowe"
-    },
-    {
-      "title": "Jair Bolsonaro’s son sentenced to four years in jail for seeking US interference in father’s Brazil coup trial",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 9.5,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "Guardian"
-      ],
-      "nowosc": "nowe"
+        "BBC"
+      ]
     }
   ],
-  "level_label": "Critical",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Elevated",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-17T21:01:57.379242Z",
+  "updated_at": "2026-06-17T21:22:29.158175Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-17T19:02:03.095733Z",
+  "tone": "neutral",
+  "events_anchor_at": "2026-06-17T21:22:29.158175Z",
   "score_history": [
-    {
-      "t": "2026-06-15T21:02:03.057142Z",
-      "s": 3.2
-    },
     {
       "t": "2026-06-15T21:30:35.534717Z",
       "s": 3.0
@@ -282,6 +278,10 @@
     {
       "t": "2026-06-17T21:01:57.379242Z",
       "s": 9.5
+    },
+    {
+      "t": "2026-06-17T21:22:29.158175Z",
+      "s": 5.0
     }
   ]
 }
