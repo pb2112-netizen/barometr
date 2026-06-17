@@ -288,6 +288,7 @@ def zapisz_pamiec(
     score_history=None,
     events_anchor_at=None,
     anchor_event_titles=None,
+    sticky_short_summary=None,
 ):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
@@ -301,6 +302,8 @@ def zapisz_pamiec(
         dane["events_anchor_at"] = events_anchor_at
     if anchor_event_titles is not None:
         dane["anchor_event_titles"] = anchor_event_titles
+    if sticky_short_summary is not None:
+        dane["sticky_short_summary"] = sticky_short_summary
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
 
@@ -499,6 +502,67 @@ def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
         return True
 
     return _normalizuj_nowosc(top[0].get("nowosc")) == "nowe"
+
+
+# WB-033: sync fraz z ShortSummaryRules.kt (apka Android)
+_META_SHORT_SUMMARY_PHRASES = (
+    "background noise", "ongoing background", "no new shock", "no new change",
+    "nothing significant", "no significant", "still calm", "still quiet",
+    "without change", "unchanged", "no change", "same as before",
+    "quiet news", "news cycle", "calm period", "routine cycle", "status quo",
+)
+_QUIET_NEWS_CYCLE = "Quiet news cycle"
+
+
+def _czy_meta_short_summary(text):
+    """Heurystyka meta-tekstow short_summary (EN, case-insensitive). WB-033."""
+    t = (text or "").strip()
+    if not t:
+        return True
+    lower = t.lower()
+    if lower == _QUIET_NEWS_CYCLE.lower():
+        return False
+    return any(phrase in lower for phrase in _META_SHORT_SUMMARY_PHRASES)
+
+
+def _skrot_z_tytulu(title, max_words=5):
+    """Skrot z tytulu RSS (EN, bez tlumaczenia). WB-033."""
+    words = (title or "").strip().split()
+    if not words:
+        return "See top event headline."
+    shortened = " ".join(words[:max_words]).rstrip(".,;:!?-—\"'")
+    return shortened or "See top event headline."
+
+
+def _ustaw_short_summary(wynik, pamiec):
+    """WB-033: sticky short_summary — etykieta wydarzenia, nie status cyklu."""
+    wynik = dict(wynik)
+    top = wynik.get("top_events") or []
+    sticky = (pamiec.get("sticky_short_summary") or "").strip()
+
+    if not top:
+        wynik["short_summary"] = _QUIET_NEWS_CYCLE
+        return wynik, {"sticky_short_summary": ""}
+
+    nowosc = _normalizuj_nowosc(top[0].get("nowosc"))
+    candidate = (wynik.get("short_summary") or "").strip()
+
+    if nowosc == "nowe":
+        if not candidate or _czy_meta_short_summary(candidate):
+            candidate = _skrot_z_tytulu(top[0].get("title", ""))
+        wynik["short_summary"] = candidate
+        return wynik, {"sticky_short_summary": candidate}
+
+    if sticky:
+        wynik["short_summary"] = sticky
+    elif candidate and not _czy_meta_short_summary(candidate):
+        wynik["short_summary"] = candidate
+        sticky = candidate
+    else:
+        fallback = _skrot_z_tytulu(top[0].get("title", ""))
+        wynik["short_summary"] = fallback
+        sticky = fallback
+    return wynik, {"sticky_short_summary": sticky}
 
 
 def _aktualizuj_events_anchor(wynik, pamiec):
@@ -874,6 +938,15 @@ Never omit "sentiment". When genuinely unsure, use "neutral".
 All text fields in English (OUTPUT LANGUAGE: en).
 Scores: one decimal place, scale 1.0–10.0.
 
+=== SHORT_SUMMARY (mandatory) ===
+- Max 4-5 words in English.
+- MUST describe WHAT HAPPENED (actor + action + place) — a headline-style label of the dominant event.
+- MUST NOT describe cycle status, calm, or lack of change.
+- FORBIDDEN phrases (examples): "background noise", "no new shocks", "ongoing", "unchanged",
+  "still calm", "nothing significant", "quiet period".
+- On kontynuacja the engine keeps the previous summary in code — you may repeat it or omit;
+  focus scoring on top_events, not on inventing new meta labels each hour.
+
 === RESPONSE FORMAT (valid JSON only) ===
 {
   "lenses": {
@@ -1114,6 +1187,14 @@ def main():
     tryb_ai = bool(os.getenv("OPENAI_API_KEY"))
     tryb_ciszy = czy_czysty_szum(naglowki)
 
+    def _finalizuj_po_postprocess(raw, lid, tryb_prosty=False, tryb_ciszy=False):
+        if not tryb_ciszy:
+            raw = _postprocess_wynik_lens(
+                raw, pamieci[lid], tryb_ciszy=tryb_ciszy, tryb_prosty=tryb_prosty, lens_id=lid)
+        raw, pamiec_update = _ustaw_short_summary(raw, pamieci[lid])
+        pamieci[lid].update(pamiec_update)
+        return finalizuj_wynik(raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
+
     if tryb_ciszy:
         print("Tryb ciszy (czysty szum) — decay pamieci bez AI.")
         wyniki_raw = {
@@ -1121,34 +1202,32 @@ def main():
                              "cisza (decay)", len(naglowki))
             for lid in lens_names
         }
-        wyniki_finalne = wyniki_raw
+        wyniki_finalne = {
+            lid: _finalizuj_po_postprocess(raw, lid, tryb_ciszy=True)
+            for lid, raw in wyniki_raw.items()
+        }
     elif tryb_ai:
         print("Oceniam (tryb AI: batched multi-lens)...")
         try:
             wyniki_raw = ocen_ai_multi(naglowki, lenses_cfg, pamieci)
-            wyniki_finalne = {}
-            for lid, raw in wyniki_raw.items():
-                raw = _postprocess_wynik_lens(raw, pamieci[lid], tryb_prosty=False, lens_id=lid)
-                wyniki_finalne[lid] = finalizuj_wynik(
-                    raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
+            wyniki_finalne = {
+                lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=False)
+                for lid, raw in wyniki_raw.items()
+            }
         except Exception as e:
             print(f"  [uwaga] Tryb AI nie zadzialal ({e}). Przelaczam na tryb prosty.")
             wyniki_raw = ocen_prosty_multi(naglowki, lenses_cfg)
-            wyniki_finalne = {}
-            for lid, raw in wyniki_raw.items():
-                raw = _postprocess_wynik_lens(
-                    raw, pamieci[lid], tryb_prosty=True, lens_id=lid)
-                wyniki_finalne[lid] = finalizuj_wynik(
-                    raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
+            wyniki_finalne = {
+                lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=True)
+                for lid, raw in wyniki_raw.items()
+            }
     else:
         print("Oceniam (tryb prosty - brak klucza API)...")
         wyniki_raw = ocen_prosty_multi(naglowki, lenses_cfg)
-        wyniki_finalne = {}
-        for lid, raw in wyniki_raw.items():
-            raw = _postprocess_wynik_lens(
-                raw, pamieci[lid], tryb_prosty=True, lens_id=lid)
-            wyniki_finalne[lid] = finalizuj_wynik(
-                raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
+        wyniki_finalne = {
+            lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=True)
+            for lid, raw in wyniki_raw.items()
+        }
 
     # Zapis per lens + pamiec
     pl_pamiec = pamieci.get(default_lens, {})
@@ -1186,6 +1265,7 @@ def main():
             score_history=historia,
             events_anchor_at=pamieci[lid].get("events_anchor_at"),
             anchor_event_titles=pamieci[lid].get("anchor_event_titles"),
+            sticky_short_summary=pamieci[lid].get("sticky_short_summary", ""),
         )
         path = zapisz_wynik_lens(lid, wynik)
         print(f"  {lid}: {ocena}/10 [{wynik['level_label']}] -> {os.path.basename(path)}")
