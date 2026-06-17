@@ -1,12 +1,23 @@
 {
-  "global_score": 2.0,
-  "short_summary": "War continues, no new shifts",
-  "rationale": "No headline this cycle represents a qualitative change to Ukraine's war situation, Western support, or energy infrastructure; Iran deal rhetoric continues without confirmed outcome affecting Russian revenues or US bandwidth.",
+  "global_score": 1.8,
+  "short_summary": "War ongoing, Iran deal rhetoric",
+  "rationale": "War continues at background intensity; Trump's Iran deal rhetoric could affect Russian oil revenues but remains unconfirmed action, keeping Ukraine's situation largely unchanged. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump: 'Very strong' Iran deal is a 'wall to a nuclear weapon'",
-      "summary": "Trump's rhetoric on an Iran deal continues but remains unconfirmed as a signed agreement; potential implications for US geopolitical focus on Ukraine remain speculative.",
-      "score": 1.2,
+      "title": "Iran sends tankers loaded with oil past US military blockade",
+      "summary": "Iranian oil bypassing the blockade could undercut pressure on Russia's energy revenues indirectly, but no confirmed signed deal or direct impact on the war effort yet.",
+      "score": 1.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Trump: 'Very strong' Iran deal is a 'wall to a nuclear weapon' / 'find out pretty soon' if MOU signing will happen",
+      "summary": "Trump rhetoric on Iran deal continues without a confirmed signed agreement; no confirmed change to US support for Ukraine or Russian sanctions pressure.",
+      "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -15,25 +26,14 @@
       ]
     },
     {
-      "title": "Iran sends tankers loaded with oil past US military blockade",
-      "summary": "More Iranian oil on global markets could reduce Russian energy revenues over time, but no confirmed immediate impact on Ukraine's war situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
-      "summary": "Middle East escalation is distant from Ukraine's immediate war needs; no confirmed effect on Western military aid flows to Ukraine.",
+      "title": "Death toll in Gaza since 'ceasefire' with Israel goes past 1,000",
+      "summary": "Ongoing Middle East conflict keeps Western attention divided, but no confirmed reduction in military aid to Ukraine as a direct result this cycle.",
       "score": 1.5,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ]
     }
   ],
@@ -42,15 +42,11 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-17T18:02:19.500538Z",
+  "updated_at": "2026-06-17T19:02:03.095368Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-17T17:02:07.899959Z",
   "score_history": [
-    {
-      "t": "2026-06-15T19:02:02.776266Z",
-      "s": 3.0
-    },
     {
       "t": "2026-06-15T20:01:59.110667Z",
       "s": 2.7
@@ -274,6 +270,10 @@
     {
       "t": "2026-06-17T18:02:19.500538Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-06-17T19:02:03.095368Z",
+      "s": 1.8
     }
   ]
 }
