@@ -1,56 +1,52 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 7.7,
-  "rationale": "Top signal: \"Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz\"",
+  "global_score": 4.2,
   "short_summary": "US-Iran MoU signed",
+  "rationale": "The US-Iran MoU and Hormuz reopening is the most relevant event for Portugal, as it reduces global energy prices that directly affect Portuguese households and the tourism-dependent economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
-      "score": 7.7,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "US and Iran sign Memorandum of Understanding to end war, reopen Hormuz",
+      "summary": "Confirmed end to US-Iran hostilities and reopening of Hormuz should lower global oil prices, benefiting Portugal's energy-import-dependent economy and reducing cost-of-living pressure.",
+      "score": 5.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja"
+      ]
     },
     {
-      "title": "Trump says it’s ‘unfair’ for Iran to lack ballistic missiles",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "nowe"
-    },
-    {
-      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
-      "summary": "Indirect global signal; limited direct impact on Portugal.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "BoJ rate hike is a signal of global monetary tightening; indirect effect on EU borrowing costs and Portuguese mortgage/debt environment, though magnitude remains small.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "Guardian"
-      ],
-      "nowosc": "nowe"
+      ]
+    },
+    {
+      "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
+      "summary": "Continued Middle East conflict has limited direct impact on Portugal but sustains background energy market uncertainty and potential EU migration pressure.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
     }
   ],
-  "level_label": "High",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-18T01:01:59.407823Z",
+  "updated_at": "2026-06-18T02:02:02.172347Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-18T00:02:03.116695Z",
+  "tone": "positive",
+  "events_anchor_at": "2026-06-18T02:02:02.172347Z",
   "score_history": [
-    {
-      "t": "2026-06-16T02:01:52.267247Z",
-      "s": 1.9
-    },
     {
       "t": "2026-06-16T03:01:57.936003Z",
       "s": 1.4
@@ -270,6 +266,10 @@
     {
       "t": "2026-06-18T01:01:59.407823Z",
       "s": 7.7
+    },
+    {
+      "t": "2026-06-18T02:02:02.172347Z",
+      "s": 4.2
     }
   ]
 }

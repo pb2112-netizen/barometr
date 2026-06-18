@@ -1,56 +1,53 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 9.5,
-  "rationale": "Top signal: \"Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk\"",
-  "short_summary": "Seven-year-old Abdiqadir was hit in",
+  "global_score": 7.0,
+  "short_summary": "US-Iran MoU signed",
+  "rationale": "The confirmed signing of a US-Iran MoU ending hostilities and reopening Hormuz is a major confirmed diplomatic action directly involving the US government and affecting oil markets, national security posture, and Trump's political standing. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
-      "summary": "Direct or regional relevance to United States.",
+      "title": "US and Iran sign Memorandum of Understanding to end war, reopen Hormuz",
+      "summary": "Trump and Pezeshkian have signed a confirmed MoU ending US-Iran fighting and reopening the Strait of Hormuz — a major policy action affecting US military posture, oil prices, and domestic political narrative.",
+      "score": 7.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ]
+    },
+    {
+      "title": "Group planned to attack White House UFC event using snipers and drones, FBI says",
+      "summary": "FBI confirmed it disrupted a domestic terror plot targeting a White House event; directly relevant to US homeland security and public safety, though the threat was neutralized.",
       "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
-      ],
-      "nowosc": "nowe"
+        "BBC"
+      ]
     },
     {
-      "title": "Jair Bolsonaro’s son sentenced to four years in jail for seeking US interference in father’s Brazil coup trial",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 9.5,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "BoJ rate hike to 1% — a 31-year high — affects global capital flows and US financial markets, particularly carry-trade dynamics and Treasury demand; indirect but real impact on US investors.",
+      "score": 4.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "Guardian"
-      ],
-      "nowosc": "nowe"
-    },
-    {
-      "title": "Read the US account of unreleased 14-point Iran ceasefire memorandum",
-      "summary": "Direct or regional relevance to United States.",
-      "score": 8.2,
-      "sentiment": "positive",
-      "category": "auto",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "nowe"
+      ]
     }
   ],
-  "level_label": "Critical",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "High",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-18T01:01:59.408129Z",
+  "updated_at": "2026-06-18T02:02:02.172550Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-18T01:01:59.408129Z",
+  "tone": "positive",
+  "events_anchor_at": "2026-06-18T02:02:02.172550Z",
   "score_history": [
-    {
-      "t": "2026-06-16T02:01:52.267564Z",
-      "s": 3.0
-    },
     {
       "t": "2026-06-16T03:01:57.936344Z",
       "s": 2.9
@@ -270,6 +267,10 @@
     {
       "t": "2026-06-18T01:01:59.408129Z",
       "s": 9.5
+    },
+    {
+      "t": "2026-06-18T02:02:02.172550Z",
+      "s": 7.0
     }
   ]
 }

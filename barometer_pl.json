@@ -1,56 +1,52 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 7.7,
-  "rationale": "Top signal: \"Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz\"",
+  "global_score": 6.0,
   "short_summary": "US-Iran MoU signed",
+  "rationale": "The US-Iran ceasefire MoU and Hormuz reopening reduces energy price pressure for Poland, while Israel-Lebanon strikes and the BoJ rate hike have indirect EU economic relevance.",
   "top_events": [
     {
-      "title": "Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz",
-      "summary": "Indirect global signal; limited direct impact on Poland.",
-      "score": 7.7,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "US and Iran sign Memorandum of Understanding to end war, reopen Hormuz",
+      "summary": "A confirmed signed MoU between the US and Iran ends active hostilities and reopens the Strait of Hormuz, which should ease global oil/gas price pressure — directly relevant to Poland's energy costs and inflation.",
+      "score": 6.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja"
+      ]
     },
     {
-      "title": "Trump says it’s ‘unfair’ for Iran to lack ballistic missiles",
-      "summary": "Indirect global signal; limited direct impact on Poland.",
-      "score": 2.7,
+      "title": "Israel launches fresh strikes on Lebanon despite Trump criticism",
+      "summary": "Continued Israeli military action in Lebanon keeps Middle East instability elevated, with indirect effects on EU energy markets and migration flows that Poland monitors.",
+      "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "nowe"
+        "BBC"
+      ]
     },
     {
-      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
-      "summary": "Indirect global signal; limited direct impact on Poland.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "category": "auto",
+      "title": "Bank of Japan raises interest rates to 31-year high of 1%",
+      "summary": "BoJ rate hike signals global monetary tightening trend; indirect effect on EU financial markets and Polish zloty/borrowing conditions, but magnitude is modest.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "Guardian"
-      ],
-      "nowosc": "nowe"
+      ]
     }
   ],
-  "level_label": "High",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Elevated",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-18T01:01:59.407507Z",
+  "updated_at": "2026-06-18T02:02:02.172082Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-18T00:02:03.116277Z",
+  "tone": "positive",
+  "events_anchor_at": "2026-06-18T02:02:02.172082Z",
   "score_history": [
-    {
-      "t": "2026-06-16T02:01:52.266960Z",
-      "s": 3.7
-    },
     {
       "t": "2026-06-16T03:01:57.935654Z",
       "s": 3.2
@@ -270,6 +266,10 @@
     {
       "t": "2026-06-18T01:01:59.407507Z",
       "s": 7.7
+    },
+    {
+      "t": "2026-06-18T02:02:02.172082Z",
+      "s": 6.0
     }
   ]
 }
