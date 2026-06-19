@@ -1,52 +1,52 @@
 {
-  "tryb": "prosty (bez AI)",
-  "global_score": 10.0,
-  "rationale": "Top signal: \"Trump hints at new approach to North Korea’s nuclear programme\"",
-  "short_summary": "Trump hints at new approach",
+  "global_score": 6.0,
+  "short_summary": "Ukraine's largest strike hits Moscow refinery",
+  "rationale": "Ukraine's confirmed largest-ever strike on Russian oil infrastructure is a qualitatively new military development directly relevant to Ukrainian residents.",
   "top_events": [
     {
-      "title": "Trump hints at new approach to North Korea’s nuclear programme",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 10.0,
-      "sentiment": "negative",
-      "category": "auto",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "nowe"
-    },
-    {
       "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
-      "summary": "Direct or regional relevance to Ukraine.",
-      "score": 8.2,
-      "sentiment": "negative",
-      "category": "auto",
+      "summary": "Ukraine conducted its largest-ever drone/missile strike on a Russian oil refinery near Moscow — a significant escalation that could affect Russian war capacity and trigger retaliatory strikes on Ukraine.",
+      "score": 6.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
         "BBC"
-      ],
-      "nowosc": "kontynuacja"
+      ]
     },
     {
-      "title": "Bowen: US-Iran deal raises inescapable question of what the war was for",
-      "summary": "Indirect global signal; limited direct impact on Ukraine.",
-      "score": 7.7,
+      "title": "Hegseth renews NATO criticism and says US will review presence in Europe",
+      "summary": "US Defense Secretary's renewed questioning of NATO and European presence raises concerns about long-term Western military support for Ukraine, directly affecting Ukrainian security.",
+      "score": 3.0,
       "sentiment": "negative",
-      "category": "auto",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
-      ],
-      "nowosc": "nowe"
+      ]
+    },
+    {
+      "title": "US-Iran deal diplomacy; Vance leads negotiations",
+      "summary": "A US-Iran deal could free up US diplomatic bandwidth but also signals a transactional approach to conflicts that may affect how Washington prioritizes Ukraine support.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ]
     }
   ],
-  "level_label": "Critical",
-  "trend": "rising",
+  "tryb": "AI (anthropic/claude-sonnet-4.6)",
+  "level_label": "Elevated",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-19T14:02:05.307598Z",
+  "updated_at": "2026-06-19T15:01:56.447216Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
-  "events_anchor_at": "2026-06-19T14:02:05.307598Z",
+  "tone": "neutral",
+  "events_anchor_at": "2026-06-19T15:01:56.447216Z",
   "score_history": [
     {
       "t": "2026-06-17T15:02:07.807284Z",
@@ -255,6 +255,10 @@
     {
       "t": "2026-06-19T14:02:05.307598Z",
       "s": 10.0
+    },
+    {
+      "t": "2026-06-19T15:01:56.447216Z",
+      "s": 6.0
     }
   ]
 }
