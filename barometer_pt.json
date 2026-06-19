@@ -1,35 +1,36 @@
 {
-  "global_score": 1.2,
+  "global_score": 1.5,
   "short_summary": "Apple price rises AI chip costs",
-  "rationale": "No events directly affecting Portugal; US-Iran diplomatic stall and Lebanon fighting continue as background with mild indirect energy price concern only.",
+  "rationale": "Lebanon fighting and US-Iran diplomatic stall continue without qualitative change; no confirmed energy price shock or direct impact on Portugal.",
   "top_events": [
     {
-      "title": "US-Iran talks postponed as Vance pulls out of Switzerland trip",
-      "summary": "Continued diplomatic stall with no confirmed escalation or deal; mild indirect concern for energy prices affecting Portugal's cost of living, but no confirmed shock.",
-      "score": 1.5,
-      "sentiment": "neutral",
+      "title": "US-Iran talks in Switzerland postponed as fighting in Lebanon intensifies",
+      "summary": "Continued diplomatic stall and Lebanon fighting — mild indirect energy price concern for Portugal but no confirmed shock. Continuation of known state.",
+      "score": 1.2,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Lebanon says Israeli strikes kill 18 as Israel says four soldiers killed by Hezbollah",
-      "summary": "Ongoing Lebanon fighting continues; distant from Portugal with only indirect energy price relevance, no confirmed impact on Portuguese daily life.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ]
     },
     {
       "title": "CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda",
-      "summary": "Ebola outbreak in Africa prompts emergency US funding; very distant from Portugal with no confirmed travel or health impact for Portuguese residents.",
-      "score": 1.0,
+      "summary": "Ebola outbreak in Africa prompts US emergency funding — very distant from Portugal, no direct impact on daily life.",
+      "score": 1.2,
       "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ]
+    },
+    {
+      "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
+      "summary": "Severe thunderstorms across Europe could affect Iberia — mild potential impact on agriculture and daily life in Portugal.",
+      "score": 1.5,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
@@ -42,9 +43,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-19T12:02:08.308143Z",
+  "updated_at": "2026-06-19T12:35:32.143985Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-18T14:02:03.506279Z",
   "score_history": [
     {
@@ -254,6 +255,10 @@
     {
       "t": "2026-06-19T12:02:08.308143Z",
       "s": 1.2
+    },
+    {
+      "t": "2026-06-19T12:35:32.143985Z",
+      "s": 1.5
     }
   ]
 }
