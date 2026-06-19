@@ -1,61 +1,53 @@
 {
-  "global_score": 1.7,
-  "short_summary": "Ukraine strikes Moscow refinery",
-  "rationale": "Ukraine's confirmed largest-ever strike on a Moscow oil refinery is a notable escalation in the deep-strike campaign, raising the risk of Russian retaliation on Ukrainian energy infrastructure — a qualitative step up within an established pattern. Score adjusted down: ongoing situation without qualitative change.",
+  "tryb": "prosty (bez AI)",
+  "global_score": 10.0,
+  "rationale": "Top signal: \"Trump hints at new approach to North Korea’s nuclear programme\"",
+  "short_summary": "Trump hints at new approach",
   "top_events": [
     {
-      "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
-      "summary": "Ukraine's largest confirmed strike on a Moscow-area refinery marks a new scale milestone in the deep-strike campaign, elevating risk of Russian retaliatory strikes on Ukrainian energy grid.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "US-Iran talks postponed as Lebanon fighting intensifies",
-      "summary": "US diplomatic attention remains diverted to the Middle East, reducing near-term prospects for new concrete aid commitments to Ukraine.",
-      "score": 1.5,
+      "title": "Trump hints at new approach to North Korea’s nuclear programme",
+      "summary": "Indirect global signal; limited direct impact on Ukraine.",
+      "score": 10.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
       "sources": [
-        "BBC",
         "Al Jazeera"
-      ]
+      ],
+      "nowosc": "nowe"
     },
     {
-      "title": "Hegseth renews NATO criticism and says US will review presence in Europe",
-      "summary": "Continued rhetoric from Hegseth with no confirmed policy change — background concern for Ukraine's long-term Western support but no immediate impact.",
-      "score": 1.0,
+      "title": "Moscow residents complain of black rain after largest Ukrainian attack hits oil refinery",
+      "summary": "Direct or regional relevance to Ukraine.",
+      "score": 8.2,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "nowosc": "kontynuacja"
+    },
+    {
+      "title": "Bowen: US-Iran deal raises inescapable question of what the war was for",
+      "summary": "Indirect global signal; limited direct impact on Ukraine.",
+      "score": 7.7,
+      "sentiment": "negative",
+      "category": "auto",
       "sources": [
         "BBC"
-      ]
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Critical",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-19T13:02:02.382224Z",
+  "updated_at": "2026-06-19T14:02:05.307598Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
-  "events_anchor_at": "2026-06-19T13:02:02.382224Z",
+  "tone": "negative",
+  "events_anchor_at": "2026-06-19T14:02:05.307598Z",
   "score_history": [
-    {
-      "t": "2026-06-17T13:04:46.301400Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-06-17T14:02:03.275390Z",
-      "s": 2.0
-    },
     {
       "t": "2026-06-17T15:02:07.807284Z",
       "s": 3.0
@@ -259,6 +251,10 @@
     {
       "t": "2026-06-19T13:02:02.382224Z",
       "s": 1.7
+    },
+    {
+      "t": "2026-06-19T14:02:05.307598Z",
+      "s": 10.0
     }
   ]
 }

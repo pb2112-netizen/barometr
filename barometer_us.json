@@ -1,61 +1,52 @@
 {
-  "global_score": 1.0,
-  "short_summary": "US-Iran talks postponed",
-  "rationale": "US-Iran talks postponed and Lebanon fighting intensifies — a confirmed diplomatic stall with Vance as face of the deal; no enacted agreement or US military action confirmed, keeping impact moderate for US residents. Score adjusted down: ongoing situation without qualitative change.",
+  "tryb": "prosty (bez AI)",
+  "global_score": 10.0,
+  "rationale": "Top signal: \"Trump hints at new approach to North Korea’s nuclear programme\"",
+  "short_summary": "Trump hints at new approach",
   "top_events": [
     {
-      "title": "US-Iran talks postponed as Lebanon fighting intensifies; Vance becomes face of Iran deal",
-      "summary": "Confirmed diplomatic stall on US-Iran talks as Lebanon violence escalates. No signed deal or US military action; indirect concern for oil markets and US foreign policy credibility.",
-      "score": 1.0,
+      "title": "Trump hints at new approach to North Korea’s nuclear programme",
+      "summary": "Indirect global signal; limited direct impact on United States.",
+      "score": 10.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
       "sources": [
-        "BBC",
         "Al Jazeera"
-      ]
+      ],
+      "nowosc": "nowe"
     },
     {
-      "title": "Hegseth renews NATO criticism and says US will review presence in Europe",
-      "summary": "Repeated rhetoric from the Defense Secretary with no confirmed troop withdrawal or enacted policy change. No immediate impact on US residents' daily life.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda",
-      "summary": "US emergency Ebola funding activated — confirms ongoing public health resource allocation but no domestic Ebola threat or significant budget impact for average Americans.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
+      "summary": "Direct or regional relevance to United States.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "category": "auto",
       "sources": [
         "Guardian"
-      ]
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "Jair Bolsonaro’s son sentenced to four years in jail for seeking US interference in father’s Brazil coup trial",
+      "summary": "Direct or regional relevance to United States.",
+      "score": 9.5,
+      "sentiment": "negative",
+      "category": "auto",
+      "sources": [
+        "Guardian"
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Critical",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-19T13:02:02.382520Z",
+  "updated_at": "2026-06-19T14:02:05.307806Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
-  "events_anchor_at": "2026-06-19T08:02:03.652032Z",
+  "tone": "negative",
+  "events_anchor_at": "2026-06-19T14:02:05.307806Z",
   "score_history": [
-    {
-      "t": "2026-06-17T13:04:46.301782Z",
-      "s": 1.0
-    },
-    {
-      "t": "2026-06-17T14:02:03.275800Z",
-      "s": 1.0
-    },
     {
       "t": "2026-06-17T15:02:07.807627Z",
       "s": 3.0
@@ -259,6 +250,10 @@
     {
       "t": "2026-06-19T13:02:02.382520Z",
       "s": 1.0
+    },
+    {
+      "t": "2026-06-19T14:02:05.307806Z",
+      "s": 10.0
     }
   ]
 }
