@@ -1,12 +1,12 @@
 {
-  "global_score": 1.2,
+  "global_score": 1.0,
   "short_summary": "H5N1 reaches every continent",
-  "rationale": "H5N1 confirmed on every continent is a continuation of the elevated monitoring situation; no domestic US emergency declared and no confirmed new US cases this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "H5N1 confirmation in Australia is a continuation of the known global spread; no new domestic US emergency declared, keeping impact low for US residents. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Australia confirms first case of H5N1 bird flu as virus reaches every continent",
-      "summary": "H5N1 now confirmed globally including Australia; US monitoring remains elevated but no domestic emergency or new US cases confirmed this cycle — continuation of prior alert.",
-      "score": 1.4,
+      "summary": "H5N1 has now been confirmed on every continent with the Australia case, but no new US domestic emergency or human transmission surge is reported this cycle — continuation of prior alert.",
+      "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "nauka",
@@ -15,8 +15,19 @@
       ]
     },
     {
+      "title": "US to stop funding HIV programmes in South Africa",
+      "summary": "Continuation of previously known US foreign aid cuts; no new qualitative policy change affecting US residents directly this cycle.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
       "title": "CDC to tap $107m in emergency funding for Ebola response in DRC and Uganda",
-      "summary": "CDC emergency Ebola funding is a continuation of the prior cycle's story; no new qualitative escalation affecting US residents directly.",
+      "summary": "CDC emergency Ebola funding is a continuation of the prior cycle's development; no new escalation or US domestic risk confirmed.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -24,33 +35,18 @@
       "sources": [
         "Guardian"
       ]
-    },
-    {
-      "title": "US to stop funding HIV programmes in South Africa",
-      "summary": "Continuation of US foreign aid cuts; no new qualitative domestic policy change affecting US residents' daily life this cycle.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-20T13:01:48.276815Z",
+  "updated_at": "2026-06-20T14:01:48.323400Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-20T11:01:50.242688Z",
   "score_history": [
-    {
-      "t": "2026-06-18T13:02:08.763341Z",
-      "s": 3.5
-    },
     {
       "t": "2026-06-18T14:02:03.506677Z",
       "s": 2.7
@@ -262,6 +258,10 @@
     {
       "t": "2026-06-20T13:01:48.276815Z",
       "s": 1.2
+    },
+    {
+      "t": "2026-06-20T14:01:48.323400Z",
+      "s": 1.0
     }
   ]
 }
