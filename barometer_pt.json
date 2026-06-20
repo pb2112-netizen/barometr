@@ -1,11 +1,22 @@
 {
-  "global_score": 1.2,
+  "global_score": 1.0,
   "short_summary": "H5N1 reaches every continent",
-  "rationale": "No events this cycle directly affect Portugal; severe European thunderstorms are the closest relevant item but no Portugal-specific damage is confirmed.",
+  "rationale": "The Spanish PM's wife being banned from leaving the country amid a corruption probe is the most relevant nearby event for Portugal, but remains a continuation of an already-known situation with only minor indirect relevance. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Court bans Spanish PM's wife from leaving country amid corruption probe",
+      "summary": "A Spanish court has confirmed a travel ban on the PM's wife — continuation of the known corruption probe in neighbouring Spain with minor indirect relevance for Portugal.",
+      "score": 1.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ]
+    },
+    {
       "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
-      "summary": "Severe thunderstorms continue across Europe; no confirmed Portugal-specific damage or wildfire risk reported this cycle.",
+      "summary": "Severe thunderstorms continue across Europe; no confirmed Portugal-specific damage reported this cycle.",
       "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -15,25 +26,14 @@
       ]
     },
     {
-      "title": "US to stop funding HIV programmes in South Africa",
-      "summary": "US foreign aid cuts continue; no direct impact on Portugal's economy or daily life.",
+      "title": "Tourist dies in Dominican Republic luxury resort fire",
+      "summary": "A tourist death in a Caribbean resort fire has negligible direct impact on daily life in Portugal.",
       "score": 1.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
-      ]
-    },
-    {
-      "title": "Court bans Spanish PM's wife from leaving country amid corruption probe",
-      "summary": "A legal development in neighbouring Spain involving the PM's wife; indirect political noise with no confirmed impact on Portugal.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
       ]
     }
   ],
@@ -42,15 +42,11 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-20T15:01:55.572400Z",
+  "updated_at": "2026-06-20T16:01:58.692926Z",
   "liczba_naglowkow": 45,
   "tone": "neutral",
   "events_anchor_at": "2026-06-20T11:01:50.242215Z",
   "score_history": [
-    {
-      "t": "2026-06-18T15:02:01.585655Z",
-      "s": 1.5
-    },
     {
       "t": "2026-06-18T16:02:42.130862Z",
       "s": 1.0
@@ -262,6 +258,10 @@
     {
       "t": "2026-06-20T15:01:55.572400Z",
       "s": 1.2
+    },
+    {
+      "t": "2026-06-20T16:01:58.692926Z",
+      "s": 1.0
     }
   ]
 }
