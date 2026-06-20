@@ -1,11 +1,11 @@
 {
   "global_score": 1.0,
   "short_summary": "Weather tracker: Severe thunderstorms sweep",
-  "rationale": "Severe thunderstorms continuing across Europe are the most relevant story for Portugal this cycle, though no confirmed Portugal-specific damage is reported. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Severe thunderstorms across Europe are the most relevant story for Portugal this cycle, though no confirmed Portugal-specific damage is reported; all other headlines are distant from Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
-      "summary": "Ongoing severe thunderstorms across Europe could affect Portugal's agriculture and tourism, but no confirmed Iberian damage reported this cycle.",
+      "summary": "Severe thunderstorms sweeping Europe could affect Portugal, but no confirmed Iberian or Portuguese-specific damage or disruption is reported this cycle.",
       "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -16,24 +16,25 @@
     },
     {
       "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-      "summary": "A contested ceasefire announcement with continued strikes; no confirmed energy price impact or direct effect on Portugal's economy this cycle.",
+      "summary": "A contested ceasefire in Lebanon has minimal direct relevance to Portugal; any indirect effect via energy markets is not confirmed this cycle.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ]
     },
     {
-      "title": "Australia confirms first case of H5N1 bird flu as virus reaches every continent",
-      "summary": "H5N1 now confirmed on every continent; a background health and trade concern for Portugal but no confirmed direct impact yet.",
-      "score": 1.5,
+      "title": "Inferno rips through Dominican Republic beach resort",
+      "summary": "A fire at a Caribbean resort is a distant event with no meaningful impact on Portuguese daily life, though tourism sector awareness is marginal.",
+      "score": 1.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "nauka",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ]
     }
   ],
@@ -42,15 +43,11 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-20T05:01:50.157825Z",
+  "updated_at": "2026-06-20T06:01:59.513295Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "events_anchor_at": "2026-06-19T23:55:50.075750Z",
   "score_history": [
-    {
-      "t": "2026-06-18T05:02:02.021163Z",
-      "s": 2.5
-    },
     {
       "t": "2026-06-18T06:02:11.973532Z",
       "s": 2.0
@@ -257,6 +254,10 @@
     },
     {
       "t": "2026-06-20T05:01:50.157825Z",
+      "s": 1.0
+    },
+    {
+      "t": "2026-06-20T06:01:59.513295Z",
       "s": 1.0
     }
   ]
