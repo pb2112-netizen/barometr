@@ -1,11 +1,11 @@
 {
   "global_score": 1.0,
   "short_summary": "Ukraine strikes Russian oil refinery",
-  "rationale": "No events this cycle directly affect Romania; the Lebanon ceasefire announcement is distant and contested, with no Black Sea or regional security implications confirmed. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "The Israel-Hezbollah ceasefire announcement is rhetoric-level with continued strikes; no confirmed change affecting Romania or Black Sea security this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-      "summary": "A US-brokered Lebanon ceasefire is announced but immediately contested by continued strikes — no direct impact on Romania or Black Sea security.",
+      "summary": "US-announced ceasefire is unconfirmed and contested by ongoing strikes. Indirect relevance to Romania via regional stability, but no direct impact on daily life.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -16,19 +16,8 @@
       ]
     },
     {
-      "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
-      "summary": "Severe thunderstorms across Europe could affect Romania but no confirmed Romania-specific damage reported this cycle.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ]
-    },
-    {
       "title": "Australia confirms first case of H5N1 bird flu as virus reaches every continent",
-      "summary": "H5N1 bird flu now confirmed on every continent; no outbreak reported in Romania but a distant watch item for agricultural and public health concerns.",
+      "summary": "H5N1 reaching every continent is a background health concern; no confirmed outbreak in Romania or EU requiring immediate action.",
       "score": 1.5,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -37,6 +26,17 @@
         "BBC",
         "Al Jazeera"
       ]
+    },
+    {
+      "title": "Weather tracker: Severe thunderstorms sweep Europe",
+      "summary": "Severe thunderstorms across Europe may affect Romania; no confirmed Romania-specific damage reported this cycle.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
@@ -44,7 +44,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-20T08:03:54.493216Z",
+  "updated_at": "2026-06-20T09:01:53.637967Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "events_anchor_at": "2026-06-19T15:01:56.447033Z",
@@ -255,6 +255,10 @@
     },
     {
       "t": "2026-06-20T08:03:54.493216Z",
+      "s": 1.0
+    },
+    {
+      "t": "2026-06-20T09:01:53.637967Z",
       "s": 1.0
     }
   ]
