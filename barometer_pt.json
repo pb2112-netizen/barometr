@@ -1,12 +1,12 @@
 {
-  "global_score": 1.2,
+  "global_score": 1.0,
   "short_summary": "Weather tracker: Severe thunderstorms sweep",
-  "rationale": "Severe thunderstorms sweeping Europe remain the most relevant headline for Portugal, but no confirmed Iberian or Portuguese damage has been reported this cycle; all other headlines are distant from Portuguese daily life.",
+  "rationale": "Severe thunderstorms continue across Europe with no confirmed Portugal-specific damage; all other headlines are distant from Portuguese daily life.",
   "top_events": [
     {
       "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
-      "summary": "Severe thunderstorms continue across Europe with potential Iberian reach, but no confirmed damage in Portugal reported this cycle. Residents may experience disruption but no confirmed impact yet.",
-      "score": 1.2,
+      "summary": "Severe thunderstorms continue across Europe; no confirmed damage in Portugal this cycle, but the pattern remains relevant to Iberian residents.",
+      "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -16,11 +16,22 @@
     },
     {
       "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-      "summary": "A contested ceasefire in Lebanon has marginal indirect relevance to Portugal via energy market sentiment, but no confirmed price impact. Minimal effect on daily life.",
+      "summary": "A contested ceasefire announcement has minimal direct impact on Portugal; slight indirect positive if it reduces energy market uncertainty.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "US to stop funding HIV programmes in South Africa",
+      "summary": "US foreign aid cuts continue; no direct impact on Portugal's economy or daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ]
@@ -31,15 +42,11 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-20T02:01:57.421241Z",
+  "updated_at": "2026-06-20T03:01:49.585369Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "events_anchor_at": "2026-06-19T23:55:50.075750Z",
   "score_history": [
-    {
-      "t": "2026-06-18T02:02:02.172347Z",
-      "s": 4.2
-    },
     {
       "t": "2026-06-18T03:01:59.090346Z",
       "s": 3.7
@@ -247,6 +254,10 @@
     {
       "t": "2026-06-20T02:01:57.421241Z",
       "s": 1.2
+    },
+    {
+      "t": "2026-06-20T03:01:49.585369Z",
+      "s": 1.0
     }
   ]
 }
