@@ -1,61 +1,53 @@
 {
-  "global_score": 1.0,
+  "tryb": "prosty (bez AI)",
+  "global_score": 9.5,
+  "rationale": "Top signal: \"Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments\"",
   "short_summary": "H5N1 reaches every continent",
-  "rationale": "Iran's Strait of Hormuz threat is rhetoric only with no confirmed closure; Meloni-Trump row remains a verbal spat; no headline this cycle confirms a new domestic US policy action or market-moving event. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran says Strait of Hormuz will be closed over Israel attacks on Lebanon",
-      "summary": "Iran's threat to close the Strait of Hormuz is unconfirmed rhetoric. A real closure would spike oil prices and involve US military response, but no action has been confirmed.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Meloni tells Trump to 'focus on your own popularity' as row escalates",
-      "summary": "Verbal spat between Trump and Italian PM Meloni remains rhetoric with no confirmed policy change affecting US residents or NATO commitments.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ]
-    },
-    {
-      "title": "Israel and Hezbollah continue strikes despite ceasefire",
-      "summary": "Continued Lebanon conflict is a known pattern; no new US military involvement or oil market spike confirmed this cycle.",
-      "score": 1.0,
+      "title": "Iran warns of ‘reciprocal action’ if US doesn’t honour MOU commitments",
+      "summary": "Direct or regional relevance to United States.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "auto",
       "sources": [
+        "Al Jazeera",
         "BBC"
-      ]
+      ],
+      "nowosc": "kontynuacja"
+    },
+    {
+      "title": "Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk",
+      "summary": "Direct or regional relevance to United States.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "category": "auto",
+      "sources": [
+        "Guardian"
+      ],
+      "nowosc": "nowe"
+    },
+    {
+      "title": "Jair Bolsonaro’s son sentenced to four years in jail for seeking US interference in father’s Brazil coup trial",
+      "summary": "Direct or regional relevance to United States.",
+      "score": 9.5,
+      "sentiment": "negative",
+      "category": "auto",
+      "sources": [
+        "Guardian"
+      ],
+      "nowosc": "nowe"
     }
   ],
-  "tryb": "AI (anthropic/claude-sonnet-4.6)",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Critical",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-06-20T17:02:03.944213Z",
+  "updated_at": "2026-06-20T18:02:17.687203Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-20T11:01:50.242688Z",
   "score_history": [
-    {
-      "t": "2026-06-18T17:02:07.772072Z",
-      "s": 1.5
-    },
-    {
-      "t": "2026-06-18T18:02:01.777821Z",
-      "s": 1.7
-    },
     {
       "t": "2026-06-18T19:01:58.886897Z",
       "s": 1.2
@@ -267,6 +259,10 @@
     {
       "t": "2026-06-20T17:02:03.944213Z",
       "s": 1.0
+    },
+    {
+      "t": "2026-06-20T18:02:17.687203Z",
+      "s": 9.5
     }
   ]
 }
