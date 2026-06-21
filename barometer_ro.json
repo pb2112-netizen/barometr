@@ -1,11 +1,22 @@
 {
-  "global_score": 1.5,
+  "global_score": 1.2,
   "short_summary": "Iran closes Strait of Hormuz",
-  "rationale": "No events this cycle directly affect Romania; US-Iran diplomacy continues without confirmed outcome, and the Russia-Ukraine war remains background with no new Black Sea escalation.",
+  "rationale": "No qualitative new developments directly affecting Romania this cycle; severe European thunderstorms remain a mild background risk, and the Russia-Ukraine war and Iran talks continue without new escalation.",
   "top_events": [
     {
-      "title": "US-Iran talks to begin in Switzerland as Tehran says it closed Strait of Hormuz",
-      "summary": "Ongoing US-Iran diplomacy with no confirmed deal; energy price risk for Romania persists as background but no new escalation this cycle.",
+      "title": "Severe thunderstorms sweep Europe",
+      "summary": "Severe weather moving across Europe may affect Romania but no confirmed local damage or disruption reported this cycle. Mild indirect risk only.",
+      "score": 1.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ]
+    },
+    {
+      "title": "US-Iran talks begin in Switzerland; Vance arrives",
+      "summary": "Talks underway but no deal signed and no confirmed Hormuz enforcement. Indirect energy price risk for Romania persists without new escalation.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -16,37 +27,25 @@
       ]
     },
     {
-      "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
-      "summary": "Severe thunderstorms across Europe could affect Romania; no Romania-specific damage confirmed but regional weather event is relevant.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ]
-    },
-    {
-      "title": "Israeli strikes kill six people in Gaza including Al Jazeera cameraman",
-      "summary": "Ongoing Gaza conflict continues; no direct impact on Romania but contributes to regional instability background.",
+      "title": "Russia-Ukraine war and Black Sea security",
+      "summary": "War continues near Romanian borders with no qualitative new threat to Romania or Black Sea this cycle.",
       "score": 1.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-21T10:02:00.151237Z",
+  "updated_at": "2026-06-21T10:50:44.957025Z",
   "liczba_naglowkow": 45,
-  "tone": "negative",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-20T19:02:13.229465Z",
   "score_history": [
     {
@@ -264,6 +263,10 @@
     {
       "t": "2026-06-21T10:02:00.151237Z",
       "s": 1.5
+    },
+    {
+      "t": "2026-06-21T10:50:44.957025Z",
+      "s": 1.2
     }
   ]
 }
