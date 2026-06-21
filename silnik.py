@@ -3,22 +3,20 @@ Silnik oceny globalnych wydarzen (MVP - "barometr swiata").
 
 Co robi:
 1. Pobiera najnowsze naglowki z 2-3 zaufanych zrodel (RSS).
-2. Wystawia ocene 1-10 per kraj (lens) — 5 perspektyw w jednym cyklu.
+2. Wystawia ocene 1-10 per kraj (lens) — 5 perspektyw w jednym cyklu (AI).
 3. Wybiera top 3 wydarzenia per lens.
 4. Zapisuje wynik do plikow barometer_{lens}.json + manifest.json.
 5. (Opcjonalnie) wysyla powiadomienie push dla domyslnego lens (pl).
 
-Dwa tryby pracy (przelaczane automatycznie):
-- TRYB PROSTY  - dziala bez zadnego klucza. Ocenia na podstawie slow kluczowych
-                 i potwierdzenia przez wiele zrodel. Idealny do pierwszego testu.
-- TRYB AI      - wlacza sie, gdy w pliku .env podasz OPENAI_API_KEY. Jeden batched
-                 call ocenia wszystkie 5 lensow na cykl.
+Tryb produkcyjny: wyłącznie AI (OPENAI_API_KEY wymagany). Awaria AI w cyklu → brak
+publikacji JSON (exit 0); użytkownik widzi ostatni dobry odczyt z cache apki.
 
 Uruchomienie:  python silnik.py
 """
 
 import os
 import re
+import sys
 import json
 import datetime
 import shutil
@@ -63,7 +61,7 @@ NOWOSC_DOMYSLNA = "kontynuacja"
 # Eventy w odleglosci <= 0.5 od maksimum z mieszanymi sentymentami -> tone neutral.
 TONE_KONFLIKT_MARGINES = 0.5
 
-# WB-017: decay egzekwowany w Pythonie (spojne z wynik_decay / _fallback_lens).
+# WB-017: decay egzekwowany w Pythonie (spojne z _fallback_lens).
 DECAY_KROK = 0.3
 DECAY_PROG_KONTYNUACJA = 0.3
 
@@ -82,16 +80,6 @@ SLOWA_CZYNOW = (
     " in effect ", " took effect ", " seized ", " invaded ", " struck ",
     " approved ", " ratified ", " deployed ", " launched ", " entered force ",
 )
-
-# Heurystyka geograficzna dla trybu prostego (boost per lens).
-GEO_BOOST = {
-    "pl": ["poland", "polish", "warsaw", "baltic", "eastern europe", "nato"],
-    "ro": ["romania", "romanian", "bucharest", "moldova", "black sea", "balkans"],
-    "pt": ["portugal", "portuguese", "lisbon", "iberia", "spain", "atlantic"],
-    "ua": ["ukraine", "ukrainian", "kyiv", "kiev", "russia", "russian", "crimea"],
-    "us": ["united states", "america", "american", "washington", "pentagon", "u.s.", " us "],
-}
-
 
 def poziom_label(ocena):
     """Zwraca tekstowa etykiete poziomu dla oceny (1.0-10.0)."""
@@ -323,70 +311,6 @@ def pobierz_naglowki():
     return naglowki
 
 
-# =====================================================================
-#  TRYB PROSTY (bez AI)
-# =====================================================================
-SLOWA_KLUCZOWE = {
-    10: ["nuclear", "nuke"],
-    9: ["world war", "invasion", "invades", "invaded", "declares war", "martial law"],
-    8: ["war", "airstrike", "missile", "coup", "assassinat", "terror attack",
-        "market crash", "stock market crash", "pandemic", "genocide"],
-    7: ["killed", "dead", "death toll", "explosion", "earthquake", "attack",
-        "shooting", "sanctions", "ceasefire"],
-    6: ["protests", "resigns", "election", "recession", "inflation", "outbreak",
-        "strike", "crisis"],
-    # WB-018: retoryka obnizona z poziomu 4; cap dodatkowo w _ogranicz_retoryke.
-    3: ["talks", "summit", "warns", "tensions", "deal", "agreement"],
-}
-# Slowa retoryczne w SLOWA_KLUCZOWE — pomijane gdy tytul zawiera tez czyn (WB-018).
-SLOWA_RETORYCZNE_KLUCZ = frozenset(
-    ["talks", "summit", "warns", "tensions", "deal", "agreement"]
-)
-OCENA_DOMYSLNA = 2
-
-# WB-013: slowa pozytywne dla heurystyki sentymentu (tryb prosty).
-# Wagi istotnosci w SLOWA_KLUCZOWE bez zmian — to osobna os.
-SLOWA_POZYTYWNE = [
-    "peace deal", "peace agreement", "peace treaty", "ceasefire", "truce",
-    "breakthrough", "cure", "cured", "vaccine", "discovery", "treaty",
-    "war ends", "end of war", "ends war", "liberated", "released",
-    "hostages freed", "freed", "reconstruction", "recovery", "aid reaches",
-]
-
-
-def _prosty_sentiment(tytul, score):
-    """Heurystyka sentymentu per event w trybie prostym (WB-013 §4.5)."""
-    t = tytul.lower()
-    if any(slowo in t for slowo in SLOWA_POZYTYWNE):
-        return "positive"
-    if score >= 5:
-        return "negative"
-    return "neutral"
-
-
-def _ocena_naglowka(tytul):
-    """Zwraca (ocena, dopasowane_slowo) dla pojedynczego naglowka."""
-    t = tytul.lower()
-    padded = f" {t} "
-    ma_czyn = any(f in padded for f in SLOWA_CZYNOW)
-    for ocena in sorted(SLOWA_KLUCZOWE.keys(), reverse=True):
-        for slowo in SLOWA_KLUCZOWE[ocena]:
-            if slowo in t:
-                if slowo in SLOWA_RETORYCZNE_KLUCZ and ma_czyn:
-                    continue
-                return ocena, slowo
-    return OCENA_DOMYSLNA, None
-
-
-def _boost_geograficzny(lens_id, tytul):
-    """Dodatkowy boost gdy naglowek wspomina kraj/region lensu."""
-    t = f" {tytul.lower()} "
-    for slowo in GEO_BOOST.get(lens_id, []):
-        if slowo in t or slowo in tytul.lower():
-            return 1.5
-    return 0.0
-
-
 MAX_EVENT_SUMMARY = 600
 PREFERRED_EVENT_SUMMARY = 200
 
@@ -462,27 +386,6 @@ def _event_dla_tematu(temat, top_events):
         if _tematy_pasuja(ev.get("title", ""), temat):
             return ev
     return None
-
-
-def _poprzednie_tytuly_lens(lens_id):
-    """Tytuly z ostatniego opublikowanego barometer_{lens}.json (tryb prosty)."""
-    try:
-        with open(_plik_wyniku_lens(lens_id), "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return [ev.get("title", "").lower() for ev in data.get("top_events", [])]
-    except Exception:
-        return []
-
-
-def _tytul_powtarza_sie(title, poprzednie_tytuly):
-    t = (title or "").lower()
-    if t in poprzednie_tytuly:
-        return True
-    wt = _wyrazniki_tekstu(title)
-    for prev in poprzednie_tytuly:
-        if wt & _wyrazniki_tekstu(prev):
-            return True
-    return False
 
 
 def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
@@ -594,36 +497,29 @@ def _aktualizuj_events_anchor(wynik, pamiec):
     return wynik, pamiec_update
 
 
-def _zastosuj_decay_lens(wynik, pamiec, tryb_prosty=False, lens_id=None):
-    """WB-017: egzekucja decay w Pythonie po odpowiedzi AI / trybie prostym."""
+def _zastosuj_decay_lens(wynik, pamiec):
+    """WB-017: egzekucja decay w Pythonie po odpowiedzi AI."""
     wynik = dict(wynik)
     surowy_global = _ocena_float(wynik.get("global_score", 1))
     pam_stan = pamiec.get("stan_swiata") or []
     top_events = [dict(ev) for ev in wynik.get("top_events", [])]
 
-    if tryb_prosty and lens_id:
-        poprzednie = _poprzednie_tytuly_lens(lens_id)
-        for ev in top_events:
-            score = _ocena_float(ev.get("score", 1))
-            if _tytul_powtarza_sie(ev.get("title", ""), poprzednie):
-                ev["score"] = _ocena_float(max(1.0, score - DECAY_KROK))
-    else:
-        for ev in top_events:
-            score = _ocena_float(ev.get("score", 1))
-            nowosc = _normalizuj_nowosc(ev.get("nowosc"))
-            if nowosc != "kontynuacja":
-                continue
-            title = ev.get("title", "")
-            prev_stan = _znajdz_stan_pamiec(title, pam_stan)
-            if prev_stan:
-                prev_score = _ocena_float(prev_stan.get("poziom_bazowy", score))
-                ev["score"] = _ocena_float(min(score, max(1.0, prev_score - DECAY_KROK)))
+    for ev in top_events:
+        score = _ocena_float(ev.get("score", 1))
+        nowosc = _normalizuj_nowosc(ev.get("nowosc"))
+        if nowosc != "kontynuacja":
+            continue
+        title = ev.get("title", "")
+        prev_stan = _znajdz_stan_pamiec(title, pam_stan)
+        if prev_stan:
+            prev_score = _ocena_float(prev_stan.get("poziom_bazowy", score))
+            ev["score"] = _ocena_float(min(score, max(1.0, prev_score - DECAY_KROK)))
+        else:
+            poprzednia_lens = pamiec.get("ostatnia_ocena")
+            if poprzednia_lens is not None:
+                ev["score"] = _ocena_float(min(score, _ocena_float(poprzednia_lens)))
             else:
-                poprzednia_lens = pamiec.get("ostatnia_ocena")
-                if poprzednia_lens is not None:
-                    ev["score"] = _ocena_float(min(score, _ocena_float(poprzednia_lens)))
-                else:
-                    ev["score"] = _ocena_float(max(1.0, score - DECAY_KROK))
+                ev["score"] = _ocena_float(max(1.0, score - DECAY_KROK))
 
     stan_swiata = []
     for entry in wynik.get("stan_swiata") or []:
@@ -675,25 +571,11 @@ def _zastosuj_decay_lens(wynik, pamiec, tryb_prosty=False, lens_id=None):
     return wynik
 
 
-def _postprocess_wynik_lens(wynik, pamiec, tryb_ciszy=False, tryb_prosty=False, lens_id=None):
+def _postprocess_wynik_lens(wynik, pamiec):
     """WB-018 -> WB-017: retoryka, potem decay — przed finalizuj_wynik."""
-    if tryb_ciszy:
-        return wynik
     wynik = dict(wynik)
     wynik["top_events"] = _ogranicz_retoryke(wynik.get("top_events", []))
-    return _zastosuj_decay_lens(wynik, pamiec, tryb_prosty=tryb_prosty, lens_id=lens_id)
-
-
-def _prosty_event_summary(lens_id, lens_name_en, title, score, category=None):
-    """Minimalny opis EN per event w trybie prostym (WB-012)."""
-    if _boost_geograficzny(lens_id, title) > 0:
-        return f"Direct or regional relevance to {lens_name_en}."
-    if category and category != "auto":
-        return (
-            f"Headline scored {score}/10 for {lens_name_en}: "
-            f"{category} relevance to daily life in that country."
-        )
-    return f"Indirect global signal; limited direct impact on {lens_name_en}."
+    return _zastosuj_decay_lens(wynik, pamiec)
 
 
 def _fallback_event_summary(lens_name_en, score, category=None):
@@ -733,113 +615,6 @@ def _ensure_event_summaries(events, lens_id, lens_name_en, rationale):
         ev["summary"] = summary
         wynik.append(ev)
     return wynik
-
-
-def czy_czysty_szum(naglowki):
-    """Heurystyka trybu ciszy: brak trafien slow kluczowych."""
-    if not naglowki:
-        return True
-    return all(_ocena_naglowka(n["tytul"])[0] <= OCENA_DOMYSLNA for n in naglowki)
-
-
-def wynik_decay(lens_id, lens_name, pamiec, tryb_opis, liczba_naglowkow):
-    """Tryb ciszy: score z decay pamieci, bez AI."""
-    poprzednia = pamiec.get("ostatnia_ocena")
-    baza = poprzednia if poprzednia is not None else 2.0
-    ocena = _ocena_float(max(1.0, baza - DECAY_KROK))
-    stan = pamiec.get("stan_swiata") or []
-    return {
-        "tryb": tryb_opis,
-        "global_score": ocena,
-        "short_summary": "Quiet news cycle",
-        "rationale": f"No significant headlines for {lens_name}; score decayed from memory.",
-        "top_events": [],
-        "stan_swiata": stan,
-        "lens_id": lens_id,
-        "lens_name_en": lens_name,
-        "level_label": poziom_label(ocena),
-        "tone": SENTYMENT_DOMYSLNY,
-        "trend": oblicz_trend(ocena, poprzednia),
-        "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
-        "liczba_naglowkow": liczba_naglowkow,
-    }
-
-
-def ocen_prosty_lens(naglowki, lens_id, lens_name_en):
-    """Ocena bez AI dla jednego lensu z boostem geograficznym."""
-    ocenione = []
-    for n in naglowki:
-        ocena, slowo = _ocena_naglowka(n["tytul"])
-        ocena = min(10, ocena + _boost_geograficzny(lens_id, n["tytul"]))
-        ocenione.append({**n, "ocena": ocena, "slowo": slowo})
-
-    ocenione.sort(key=lambda x: x["ocena"], reverse=True)
-
-    top, uzyte_slowa = [], set()
-    for o in ocenione:
-        klucz = o["slowo"] or o["tytul"][:30].lower()
-        if klucz in uzyte_slowa:
-            continue
-        uzyte_slowa.add(klucz)
-        zrodla_tematu = sorted({
-            x["zrodlo"] for x in ocenione
-            if o["slowo"] and o["slowo"] in x["tytul"].lower()
-        }) or [o["zrodlo"]]
-        top.append({
-            "title": o["tytul"],
-            "summary": _prosty_event_summary(
-                lens_id, lens_name_en, o["tytul"], o["ocena"], "auto"
-            ),
-            "score": o["ocena"],
-            "sentiment": _prosty_sentiment(o["tytul"], o["ocena"]),
-            "category": "auto",
-            "sources": zrodla_tematu,
-        })
-        if len(top) == 3:
-            break
-
-    poprzednie = _poprzednie_tytuly_lens(lens_id)
-    for i, ev in enumerate(top):
-        title_lower = ev["title"].lower()
-        if i == 0:
-            if title_lower in poprzednie:
-                ev["nowosc"] = "kontynuacja"
-            elif poprzednie and _tematy_pasuja(ev["title"], poprzednie[0]):
-                ev["nowosc"] = "kontynuacja"
-            else:
-                ev["nowosc"] = "nowe"
-        else:
-            ev["nowosc"] = "nowe" if title_lower not in poprzednie else "kontynuacja"
-
-    if top:
-        glowne = top[0]
-        ocena_globalna = glowne["score"]
-        if ocena_globalna >= 7 and len(glowne["sources"]) < 2:
-            ocena_globalna = max(ocena_globalna - 2, 1)
-        rationale = f"Top signal: \"{glowne['title']}\""
-    else:
-        ocena_globalna = OCENA_DOMYSLNA
-        rationale = "No headlines to score."
-
-    return {
-        "tryb": "prosty (bez AI)",
-        "global_score": _ocena_float(ocena_globalna),
-        "rationale": rationale,
-        "short_summary": "",
-        "top_events": top,
-        "stan_swiata": [],
-    }
-
-
-def ocen_prosty_multi(naglowki, lenses_cfg):
-    """Ocena bez AI — petla per lens."""
-    wyniki = {}
-    for lens in lenses_cfg.get("lenses", []):
-        lid = lens["id"]
-        raw = ocen_prosty_lens(naglowki, lid, lens.get("name_en", lid))
-        raw["short_summary"] = raw.get("short_summary") or ""
-        wyniki[lid] = raw
-    return wyniki
 
 
 # =====================================================================
@@ -1065,7 +840,6 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
         if raw is None:
             raw = _fallback_lens(lid, pam)
         wynik = _waliduj_wynik_lens(raw, pam, lid, lens.get("name_en", lid))
-        wynik["tryb"] = f"AI ({model})"
         wyniki[lid] = wynik
     return wyniki
 
@@ -1184,50 +958,27 @@ def main():
     naglowki = pobierz_naglowki()
     print(f"  Pobrano {len(naglowki)} naglowkow z {len(ZRODLA)} zrodel.")
 
-    tryb_ai = bool(os.getenv("OPENAI_API_KEY"))
-    tryb_ciszy = czy_czysty_szum(naglowki)
+    if not os.getenv("OPENAI_API_KEY"):
+        print("[blad] Brak OPENAI_API_KEY")
+        sys.exit(1)
 
-    def _finalizuj_po_postprocess(raw, lid, tryb_prosty=False, tryb_ciszy=False):
-        if not tryb_ciszy:
-            raw = _postprocess_wynik_lens(
-                raw, pamieci[lid], tryb_ciszy=tryb_ciszy, tryb_prosty=tryb_prosty, lens_id=lid)
+    def _finalizuj_po_postprocess(raw, lid):
+        raw = _postprocess_wynik_lens(raw, pamieci[lid])
         raw, pamiec_update = _ustaw_short_summary(raw, pamieci[lid])
         pamieci[lid].update(pamiec_update)
         return finalizuj_wynik(raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
 
-    if tryb_ciszy:
-        print("Tryb ciszy (czysty szum) — decay pamieci bez AI.")
-        wyniki_raw = {
-            lid: wynik_decay(lid, lens_names[lid], pamieci[lid],
-                             "cisza (decay)", len(naglowki))
-            for lid in lens_names
-        }
-        wyniki_finalne = {
-            lid: _finalizuj_po_postprocess(raw, lid, tryb_ciszy=True)
-            for lid, raw in wyniki_raw.items()
-        }
-    elif tryb_ai:
-        print("Oceniam (tryb AI: batched multi-lens)...")
-        try:
-            wyniki_raw = ocen_ai_multi(naglowki, lenses_cfg, pamieci)
-            wyniki_finalne = {
-                lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=False)
-                for lid, raw in wyniki_raw.items()
-            }
-        except Exception as e:
-            print(f"  [uwaga] Tryb AI nie zadzialal ({e}). Przelaczam na tryb prosty.")
-            wyniki_raw = ocen_prosty_multi(naglowki, lenses_cfg)
-            wyniki_finalne = {
-                lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=True)
-                for lid, raw in wyniki_raw.items()
-            }
-    else:
-        print("Oceniam (tryb prosty - brak klucza API)...")
-        wyniki_raw = ocen_prosty_multi(naglowki, lenses_cfg)
-        wyniki_finalne = {
-            lid: _finalizuj_po_postprocess(raw, lid, tryb_prosty=True)
-            for lid, raw in wyniki_raw.items()
-        }
+    print("Oceniam (AI: batched multi-lens)...")
+    try:
+        wyniki_raw = ocen_ai_multi(naglowki, lenses_cfg, pamieci)
+    except Exception as e:
+        print(f"[blad] AI nie zadzialalo — pomijam cykl (bez publikacji): {e}")
+        sys.exit(0)
+
+    wyniki_finalne = {
+        lid: _finalizuj_po_postprocess(raw, lid)
+        for lid, raw in wyniki_raw.items()
+    }
 
     # Zapis per lens + pamiec
     pl_pamiec = pamieci.get(default_lens, {})
@@ -1278,8 +1029,7 @@ def main():
     pl_wynik = wyniki_finalne[default_lens]
     print("\n" + "=" * 50)
     print(f"  OCENA ({default_lens}): {pl_wynik['global_score']}/10  "
-          f"[{pl_wynik['level_label']}]  trend: {pl_wynik['trend']}  "
-          f"(tryb: {pl_wynik.get('tryb', '?')})")
+          f"[{pl_wynik['level_label']}]  trend: {pl_wynik['trend']}")
     if pl_wynik.get("short_summary"):
         print(f"  {pl_wynik['short_summary']}")
     print(f"  {pl_wynik.get('rationale', '')}")
