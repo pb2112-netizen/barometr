@@ -1,11 +1,11 @@
 {
-  "global_score": 1.0,
+  "global_score": 1.5,
   "short_summary": "Iran closes Strait of Hormuz",
-  "rationale": "US-Iran talks underway in Switzerland with no confirmed outcome; no new developments directly affecting Romania or Black Sea security this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No events this cycle directly affect Romania; US-Iran diplomacy continues without confirmed outcome, and the Russia-Ukraine war remains background with no new Black Sea escalation.",
   "top_events": [
     {
-      "title": "US-Iran talks begin in Switzerland; Iran claims Hormuz closure",
-      "summary": "Talks physically underway but no deal reached; energy price risk for Romania persists without new escalation. No confirmed Hormuz enforcement.",
+      "title": "US-Iran talks to begin in Switzerland as Tehran says it closed Strait of Hormuz",
+      "summary": "Ongoing US-Iran diplomacy with no confirmed deal; energy price risk for Romania persists as background but no new escalation this cycle.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -16,42 +16,39 @@
       ]
     },
     {
-      "title": "Russia-Ukraine war and Black Sea security ongoing",
-      "summary": "War continues near Romanian borders with no qualitative new threat to Romania or Black Sea shipping this cycle.",
+      "title": "Weather tracker: Severe thunderstorms sweep Europe and east Asia",
+      "summary": "Severe thunderstorms across Europe could affect Romania; no Romania-specific damage confirmed but regional weather event is relevant.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ]
+    },
+    {
+      "title": "Israeli strikes kill six people in Gaza including Al Jazeera cameraman",
+      "summary": "Ongoing Gaza conflict continues; no direct impact on Romania but contributes to regional instability background.",
       "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "European severe thunderstorms sweep region",
-      "summary": "Severe thunderstorms reported across Europe; Romania may be in the affected zone but no specific Romanian impact confirmed.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
+        "BBC",
+        "Al Jazeera"
       ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-21T09:02:02.274089Z",
+  "updated_at": "2026-06-21T10:02:00.151237Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-20T19:02:13.229465Z",
   "score_history": [
-    {
-      "t": "2026-06-19T10:01:58.642144Z",
-      "s": 1.0
-    },
     {
       "t": "2026-06-19T11:02:03.507967Z",
       "s": 1.0
@@ -263,6 +260,10 @@
     {
       "t": "2026-06-21T09:02:02.274089Z",
       "s": 1.0
+    },
+    {
+      "t": "2026-06-21T10:02:00.151237Z",
+      "s": 1.5
     }
   ]
 }
