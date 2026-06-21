@@ -1,11 +1,22 @@
 {
-  "global_score": 1.2,
+  "global_score": 1.0,
   "short_summary": "Iran closes Strait of Hormuz",
-  "rationale": "No headlines this cycle directly affect Portugal; H5N1 reaching Australia is a continuation of known global spread with no Portuguese cases confirmed, and US-Iran diplomacy has only indirect energy relevance.",
+  "rationale": "France's red heatwave alert with alcohol bans at festivals is the most relevant event for Portugal given Iberian proximity, though no Portugal-specific alert confirmed yet. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Australia confirms first case of H5N1 bird flu as virus reaches every continent",
-      "summary": "H5N1 has now reached every continent but no cases confirmed in Portugal. Indirect risk to food supply chains and tourism economy remains low but the global spread continues as background.",
+      "title": "France bans alcohol at music festivals under red heatwave alert",
+      "summary": "France issued a red heatwave alert affecting festivals; Iberian peninsula shares similar weather patterns and Portugal may face comparable conditions, with tourism and outdoor events at risk.",
+      "score": 1.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
+      "title": "Australia confirms first H5N1 bird flu case — virus on every continent",
+      "summary": "H5N1 now confirmed globally on all continents; no cases in Portugal but the milestone raises background monitoring concern for EU food and agriculture sectors.",
       "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -16,7 +27,7 @@
     },
     {
       "title": "US-Iran talks begin in Switzerland",
-      "summary": "Diplomacy underway with no outcome. Indirect energy price risk for Portugal persists unchanged — no new escalation or resolution affecting Portuguese cost of living.",
+      "summary": "Talks underway but no outcome; indirect energy price risk for Portugal persists but no confirmed change this cycle.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -25,17 +36,6 @@
         "BBC",
         "Al Jazeera"
       ]
-    },
-    {
-      "title": "France bans alcohol at music festivals under red heatwave alert",
-      "summary": "Heatwave conditions in France signal broader Iberian heat risk; Portugal may face similar conditions affecting tourism and daily life, though no specific Portuguese alert confirmed this cycle.",
-      "score": 1.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ]
     }
   ],
   "tryb": "AI (anthropic/claude-sonnet-4.6)",
@@ -43,15 +43,11 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-21T04:01:57.922208Z",
+  "updated_at": "2026-06-21T05:01:57.298043Z",
   "liczba_naglowkow": 45,
   "tone": "negative",
   "events_anchor_at": "2026-06-20T19:02:13.229553Z",
   "score_history": [
-    {
-      "t": "2026-06-19T05:01:53.551077Z",
-      "s": 1.0
-    },
     {
       "t": "2026-06-19T06:02:04.015950Z",
       "s": 1.0
@@ -263,6 +259,10 @@
     {
       "t": "2026-06-21T04:01:57.922208Z",
       "s": 1.2
+    },
+    {
+      "t": "2026-06-21T05:01:57.298043Z",
+      "s": 1.0
     }
   ]
 }
