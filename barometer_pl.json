@@ -1,13 +1,25 @@
 {
-  "global_score": 1.3,
+  "global_score": 1.0,
   "short_summary": "UK PM Starmer resigns",
-  "rationale": "No new qualitative event directly affecting Poland this cycle; Vance's Iran statement is rhetoric only, European heatwave continues without Poland-specific escalation, and the Russia-Ukraine war background remains unchanged. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No qualitative new development directly affecting Poland this cycle; Vance's Iran statement is rhetoric, Russia-Ukraine war continues as background, and heatwave alerts remain outside Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Vance says Iran will allow nuclear inspectors back into the country",
-      "summary": "Rhetoric only — no signed agreement yet. If confirmed, could modestly ease energy prices relevant to Polish households, but no action has occurred.",
-      "score": 1.5,
+      "summary": "Rhetoric only — no signed agreement. Indirect relevance to Poland via potential energy price effects if a deal materializes, but no confirmed action this cycle.",
+      "score": 1.0,
       "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "title": "Russian troop build-up threatens city seen as key to seizing Ukraine's Donbas",
+      "summary": "Ongoing Russian military pressure near Donbas continues without qualitative new escalation. Poland monitors closely but no new direct threat this cycle.",
+      "score": 1.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,40 +28,25 @@
     },
     {
       "title": "Red heat alerts issued in France, Italy and Spain as 40C temperatures forecast",
-      "summary": "Severe heatwave across southern Europe continues; Poland not directly affected, but regional climate stress is background context.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ]
-    },
-    {
-      "title": "Russian troop build-up threatens city seen as key to seizing Ukraine's Donbas",
-      "summary": "Ongoing Russian pressure in Donbas continues without qualitative new escalation; Poland's eastern border security concern remains at background level.",
+      "summary": "Extreme heat alerts in southern and western Europe; no Poland-specific escalation reported this cycle, limiting direct daily-life impact for Polish residents.",
       "score": 1.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ]
     }
   ],
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-22T17:02:21.867024Z",
+  "updated_at": "2026-06-22T18:02:23.011608Z",
   "liczba_naglowkow": 45,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-06-22T12:02:07.755471Z",
   "score_history": [
-    {
-      "t": "2026-06-20T18:02:17.686433Z",
-      "s": 9.2
-    },
     {
       "t": "2026-06-20T19:02:13.229346Z",
       "s": 6.5
@@ -233,6 +230,10 @@
     {
       "t": "2026-06-22T17:02:21.867024Z",
       "s": 1.3
+    },
+    {
+      "t": "2026-06-22T18:02:23.011608Z",
+      "s": 1.0
     }
   ]
 }
