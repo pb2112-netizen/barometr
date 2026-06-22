@@ -35,6 +35,7 @@ ZRODLA = {
 }
 
 NAGLOWKOW_NA_ZRODLO = 15
+MAX_OUTPUT_TOKENS_DEFAULT = 8000
 
 FOLDER = os.path.dirname(__file__)
 PLIK_LENSES = os.path.join(FOLDER, "lenses.json")
@@ -827,9 +828,19 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
             {"role": "user", "content": tresc_user},
         ],
         temperature=0.2,
-        max_tokens=4000,
+        max_tokens=int(os.getenv("MAX_OUTPUT_TOKENS", MAX_OUTPUT_TOKENS_DEFAULT)),
     )
-    parsed = _wyciagnij_json(odpowiedz.choices[0].message.content)
+    choice = odpowiedz.choices[0]
+    finish = getattr(choice, "finish_reason", None) or ""
+    usage = getattr(odpowiedz, "usage", None)
+    if usage:
+        print(f"  [ai] completion_tokens={usage.completion_tokens}, finish_reason={finish}")
+    if finish == "length":
+        raise RuntimeError(
+            "Odpowiedz AI ucieta (finish_reason=length). "
+            "Zwieksz MAX_OUTPUT_TOKENS lub skroc prompt/output."
+        )
+    parsed = _wyciagnij_json(choice.message.content)
     lenses_raw = parsed.get("lenses") or {}
 
     wyniki = {}
