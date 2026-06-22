@@ -1,12 +1,23 @@
 {
-  "global_score": 1.8,
+  "global_score": 1.3,
   "short_summary": "UK PM Starmer resigns",
-  "rationale": "Russian troop build-up near Donbas continues as background Black Sea security concern for Romania; US partial Iran sanctions lift is a new action with modest indirect energy price relevance.",
+  "rationale": "No new qualitative event directly affecting Romania this cycle; Russia-Ukraine war background unchanged, Iran statement is rhetoric only, heatwave continues in western Europe without Romania-specific escalation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Vance says Iran will allow nuclear inspectors back into the country",
+      "summary": "Rhetoric only — no signed deal. If confirmed, could modestly ease energy prices relevant to Romanian households, but no action confirmed yet.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ]
+    },
+    {
       "title": "Russian troop build-up threatens city seen as key to seizing Ukraine's Donbas",
-      "summary": "Continued Russian military pressure near Donbas remains a background security concern for Romania given its Black Sea proximity and NATO obligations. No new qualitative escalation this cycle.",
-      "score": 1.2,
+      "summary": "Continued Russian pressure near Donbas; no new Black Sea or Moldova-specific escalation this cycle, but proximity keeps this relevant for Romania.",
+      "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -15,41 +26,26 @@
       ]
     },
     {
-      "title": "US partially lifts Iran oil sanctions amid 'encouraging' talks",
-      "summary": "Partial Iran sanctions lift could modestly ease global oil prices, providing minor indirect relief to Romanian energy costs. Confirmed action but limited in scope.",
-      "score": 1.8,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ]
-    },
-    {
-      "title": "Ukraine says it hit missile electronics plant in western Russia",
-      "summary": "Ukraine's confirmed strike on a Russian missile plant in western Russia is a notable escalation in the war next door, with potential for Russian retaliation affecting Black Sea stability near Romania.",
-      "score": 1.2,
-      "sentiment": "negative",
+      "title": "Red heat alerts issued in France, Italy and Spain as 40C temperatures forecast",
+      "summary": "Severe heatwave in southern Europe; Romania not under red alert this cycle, but regional climate stress is background context.",
+      "score": 1.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ]
     }
   ],
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-22T16:16:59.982222Z",
+  "updated_at": "2026-06-22T17:02:21.867272Z",
   "liczba_naglowkow": 45,
-  "tone": "positive",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-22T12:02:07.755710Z",
   "score_history": [
-    {
-      "t": "2026-06-20T17:02:03.943595Z",
-      "s": 1.0
-    },
     {
       "t": "2026-06-20T18:02:17.686631Z",
       "s": 8.0
@@ -233,6 +229,10 @@
     {
       "t": "2026-06-22T16:16:59.982222Z",
       "s": 1.8
+    },
+    {
+      "t": "2026-06-22T17:02:21.867272Z",
+      "s": 1.3
     }
   ]
 }
