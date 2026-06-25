@@ -62,9 +62,8 @@ NOWOSC_DOMYSLNA = "kontynuacja"
 # Eventy w odleglosci <= 0.5 od maksimum z mieszanymi sentymentami -> tone neutral.
 TONE_KONFLIKT_MARGINES = 0.5
 
-# WB-017: decay egzekwowany w Pythonie (spojne z _fallback_lens).
-DECAY_KROK = 0.3
-DECAY_PROG_KONTYNUACJA = 0.3
+# WB-017/WB-038: decay egzekwowany w Pythonie (progresywny, podłoga DECAY_FLOOR).
+DECAY_FLOOR = 2.0
 
 # WB-003: rolling window historii score w JSON publicznym.
 HISTORY_HOURS = 48
@@ -172,6 +171,27 @@ def _ocena_float(x):
     except (TypeError, ValueError):
         v = 1.0
     return round(max(1.0, min(10.0, v)), 1)
+
+
+def _decay_krok(score: float) -> float:
+    """WB-038: krok decay zależny od aktualnego score (piecewise)."""
+    s = _ocena_float(score)
+    if s >= 7.0:
+        return 0.50
+    if s >= 5.0:
+        return 0.30
+    if s >= 3.0:
+        return 0.15
+    if s >= DECAY_FLOOR:
+        return 0.06
+    return 0.0
+
+
+def _zastosuj_decay_na_score(score: float, *, kontynuacja: bool) -> float:
+    if not kontynuacja:
+        return _ocena_float(score)
+    krok = _decay_krok(score)
+    return _ocena_float(max(DECAY_FLOOR, score - krok))
 
 
 def _parse_iso_utc(ts):
@@ -499,7 +519,7 @@ def _aktualizuj_events_anchor(wynik, pamiec):
 
 
 def _zastosuj_decay_lens(wynik, pamiec):
-    """WB-017: egzekucja decay w Pythonie po odpowiedzi AI."""
+    """WB-017/WB-038: egzekucja progresywnego decay w Pythonie po odpowiedzi AI."""
     wynik = dict(wynik)
     surowy_global = _ocena_float(wynik.get("global_score", 1))
     pam_stan = pamiec.get("stan_swiata") or []
@@ -514,13 +534,17 @@ def _zastosuj_decay_lens(wynik, pamiec):
         prev_stan = _znajdz_stan_pamiec(title, pam_stan)
         if prev_stan:
             prev_score = _ocena_float(prev_stan.get("poziom_bazowy", score))
-            ev["score"] = _ocena_float(min(score, max(1.0, prev_score - DECAY_KROK)))
+            ev["score"] = _ocena_float(
+                min(score, _zastosuj_decay_na_score(prev_score, kontynuacja=True))
+            )
         else:
             poprzednia_lens = pamiec.get("ostatnia_ocena")
             if poprzednia_lens is not None:
-                ev["score"] = _ocena_float(min(score, _ocena_float(poprzednia_lens)))
+                ev["score"] = _ocena_float(
+                    min(score, _zastosuj_decay_na_score(poprzednia_lens, kontynuacja=True))
+                )
             else:
-                ev["score"] = _ocena_float(max(1.0, score - DECAY_KROK))
+                ev["score"] = _zastosuj_decay_na_score(score, kontynuacja=True)
 
     stan_swiata = []
     for entry in wynik.get("stan_swiata") or []:
@@ -540,7 +564,7 @@ def _zastosuj_decay_lens(wynik, pamiec):
 
         poziom = _ocena_float(entry.get("poziom_bazowy", 1))
         if entry["cykle_bez_zmian"] > 0:
-            poziom = _ocena_float(max(1.0, poziom - DECAY_KROK))
+            poziom = _zastosuj_decay_na_score(poziom, kontynuacja=True)
         elif prev and ev:
             poziom = max(poziom, _ocena_float(ev.get("score", poziom)))
         entry["poziom_bazowy"] = poziom
@@ -650,8 +674,10 @@ development for this lens; mark "kontynuacja" when the same story continues
 === RULE 4: BACKGROUND DECAY ===
 Each situation in stan_swiata has a "cykle_bez_zmian" counter. When a situation ONLY continues
 without qualitative change: increment the counter and GRADUALLY lower poziom_bazowy.
-The engine applies decay in code after your response (WB-017); your stan_swiata must still reflect
-decreasing poziom_bazowy when nothing qualitatively new happens.
+The engine applies **progressive** decay in code after your response: faster drop at high scores,
+slower near calm band, floor at 2.0 for ongoing situations. Score 1.0 is reserved for truly quiet
+cycles with no significant events. Your stan_swiata must still reflect decreasing poziom_bazowy when
+nothing qualitatively new happens.
 
 === IMPORTANCE SCALE (from the lens perspective) ===
 Score measures HOW STRONGLY an event changes life for a lens resident — IN EITHER DIRECTION
@@ -762,7 +788,7 @@ def _fallback_lens(lens_id, pamiec):
     """Fallback gdy model pominie lens — decay z pamieci."""
     poprzednia = pamiec.get("ostatnia_ocena")
     baza = poprzednia if poprzednia is not None else 2.0
-    ocena = _ocena_float(max(1.0, baza - DECAY_KROK))
+    ocena = _zastosuj_decay_na_score(baza, kontynuacja=True)
     print(f"  [uwaga] Brak wyniku dla lens '{lens_id}' — fallback decay -> {ocena}")
     return {
         "global_score": ocena,
