@@ -34,8 +34,13 @@ ZRODLA = {
     "Guardian": "https://www.theguardian.com/world/rss",
 }
 
-NAGLOWKOW_NA_ZRODLO = 15
+NAGLOWKOW_NA_ZRODLO = 10
 MAX_OUTPUT_TOKENS_DEFAULT = 12000
+
+STAN_SWIATA_MAX = 8
+STAN_SWIATA_PRUNE_FLOOR = 2.0
+STAN_SWIATA_PRUNE_MIN_CYkle = 24
+STAN_SWIATA_OPIS_MAX = 60
 
 FOLDER = os.path.dirname(__file__)
 PLIK_LENSES = os.path.join(FOLDER, "lenses.json")
@@ -371,6 +376,61 @@ def _tematy_pasuja(title, temat):
     return bool(wt and wm and (wt & wm))
 
 
+def _stan_chroniony(entry, top_events):
+    """WB-043: wpis powiazany z top_events — nie usuwac przy prune/cap."""
+    temat = entry.get("temat", "")
+    for ev in top_events or []:
+        if _tematy_pasuja(ev.get("title", ""), temat):
+            return True
+    return False
+
+
+def _przytnij_stan_swiata(stan, top_events=None):
+    """WB-043: trim opis, prune martwych wpisow, cap do STAN_SWIATA_MAX."""
+    stan = [dict(e) for e in (stan or [])]
+    przed = len(stan)
+    if not stan:
+        return stan
+
+    top_events = top_events or []
+
+    for entry in stan:
+        entry["opis"] = _truncate_summary(entry.get("opis", ""), STAN_SWIATA_OPIS_MAX)
+
+    po_prune = []
+    for entry in stan:
+        if _stan_chroniony(entry, top_events):
+            po_prune.append(entry)
+            continue
+        poziom = _ocena_float(entry.get("poziom_bazowy", 1))
+        cykle = int(entry.get("cykle_bez_zmian", 0))
+        if poziom <= STAN_SWIATA_PRUNE_FLOOR and cykle > STAN_SWIATA_PRUNE_MIN_CYkle:
+            continue
+        po_prune.append(entry)
+
+    if len(po_prune) <= STAN_SWIATA_MAX:
+        if len(po_prune) < przed:
+            print(f"  [pamiec] stan_swiata: {przed} -> {len(po_prune)} (prune/cap)")
+        return po_prune
+
+    protected = [e for e in po_prune if _stan_chroniony(e, top_events)]
+    unprotected = [e for e in po_prune if not _stan_chroniony(e, top_events)]
+
+    def _sort_key(entry):
+        return (-_ocena_float(entry.get("poziom_bazowy", 1)), int(entry.get("cykle_bez_zmian", 0)))
+
+    if len(protected) > STAN_SWIATA_MAX:
+        protected.sort(key=_sort_key)
+        result = protected[:STAN_SWIATA_MAX]
+    else:
+        slots = STAN_SWIATA_MAX - len(protected)
+        unprotected.sort(key=_sort_key)
+        result = protected + unprotected[:slots]
+
+    print(f"  [pamiec] stan_swiata: {przed} -> {len(result)} (prune/cap)")
+    return result
+
+
 def _czy_retoryka_bez_czynu(title):
     """WB-018: retoryka w tytule bez sladu potwierdzonego czynu."""
     t = _tytul_padded(title)
@@ -593,6 +653,11 @@ def _zastosuj_decay_lens(wynik, pamiec):
         if note.strip() not in rationale:
             wynik["rationale"] = (rationale + note).strip()
 
+    wynik["stan_swiata"] = _przytnij_stan_swiata(
+        wynik.get("stan_swiata", []),
+        top_events=wynik.get("top_events"),
+    )
+
     return wynik
 
 
@@ -678,6 +743,12 @@ The engine applies **progressive** decay in code after your response: faster dro
 slower near calm band, floor at 2.0 for ongoing situations. Score 1.0 is reserved for truly quiet
 cycles with no significant events. Your stan_swiata must still reflect decreasing poziom_bazowy when
 nothing qualitatively new happens.
+
+=== WORLD STATE MEMORY (stan_swiata) ===
+- Return at most 8 entries per lens in "stan_swiata".
+- Each "opis" max 60 characters (short factual note).
+- Drop stale floor-level topics the engine will prune; focus on active situations.
+- The engine trims and caps memory in code — do not grow unbounded lists.
 
 === IMPORTANCE SCALE (from the lens perspective) ===
 Score measures HOW STRONGLY an event changes life for a lens resident — IN EITHER DIRECTION
@@ -765,6 +836,7 @@ Scores: one decimal place, scale 1.0–10.0.
       "stan_swiata": [
         {"temat": "...", "poziom_bazowy": <1.0-10.0>, "cykle_bez_zmian": <number>, "opis": "..."}
       ]
+      // stan_swiata: max 8 items, opis max 60 chars
     },
     "ro": { ... },
     "pt": { ... },
@@ -990,6 +1062,12 @@ def main():
     pamieci = {lens["id"]: wczytaj_pamiec(lens["id"]) for lens in lenses_cfg.get("lenses", [])}
     lens_names = {lens["id"]: lens.get("name_en", lens["id"]) for lens in lenses_cfg.get("lenses", [])}
 
+    for lid in pamieci:
+        pamieci[lid]["stan_swiata"] = _przytnij_stan_swiata(
+            pamieci[lid].get("stan_swiata"),
+            top_events=None,
+        )
+
     print(f"Lensy: {', '.join(lens_names.values())} | domyslny: {default_lens} | prog: {prog}")
     print("Pobieram naglowki...")
     naglowki = pobierz_naglowki()
@@ -1025,7 +1103,10 @@ def main():
 
     for lid, wynik in wyniki_finalne.items():
         ocena = wynik["global_score"]
-        stan = wynik.get("stan_swiata", pamieci[lid].get("stan_swiata", []))
+        stan = _przytnij_stan_swiata(
+            wynik.get("stan_swiata", pamieci[lid].get("stan_swiata", [])),
+            top_events=wynik.get("top_events"),
+        )
         powiad_at = pamieci[lid].get("ostatnie_powiadomienie_at")
 
         if lid == default_lens:
