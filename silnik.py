@@ -35,7 +35,7 @@ ZRODLA = {
 }
 
 NAGLOWKOW_NA_ZRODLO = 15
-MAX_OUTPUT_TOKENS_DEFAULT = 8000
+MAX_OUTPUT_TOKENS_DEFAULT = 12000
 
 FOLDER = os.path.dirname(__file__)
 PLIK_LENSES = os.path.join(FOLDER, "lenses.json")
