@@ -20,6 +20,7 @@ import sys
 import json
 import datetime
 import shutil
+from urllib.parse import urlparse
 
 import feedparser
 import requests
@@ -33,6 +34,15 @@ ZRODLA = {
     "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
     "Guardian": "https://www.theguardian.com/world/rss",
 }
+
+# WB-047: whitelist hostow dla source_links (subdomeny dozwolone).
+DOZWOLONE_HOSTY_ZRODEL = (
+    "bbc.co.uk",
+    "bbc.com",
+    "aljazeera.com",
+    "theguardian.com",
+)
+MAX_SOURCE_LINK_URL = 2048
 
 NAGLOWKOW_NA_ZRODLO = 10
 MAX_OUTPUT_TOKENS_DEFAULT = 12000
@@ -330,8 +340,9 @@ def pobierz_naglowki():
             feed = feedparser.parse(url)
             for wpis in feed.entries[:NAGLOWKOW_NA_ZRODLO]:
                 tytul = getattr(wpis, "title", "").strip()
-                if tytul:
-                    naglowki.append({"zrodlo": zrodlo, "tytul": tytul})
+                link = getattr(wpis, "link", "").strip()
+                if tytul and link:
+                    naglowki.append({"zrodlo": zrodlo, "tytul": tytul, "link": link})
         except Exception as e:
             print(f"  [uwaga] Nie udalo sie pobrac zrodla {zrodlo}: {e}")
     return naglowki
@@ -374,6 +385,59 @@ def _tematy_pasuja(title, temat):
     wt = _wyrazniki_tekstu(title)
     wm = _wyrazniki_tekstu(temat)
     return bool(wt and wm and (wt & wm))
+
+
+def _czy_url_zrodla_ok(url):
+    """WB-047: tylko https + whitelist hostow wydawcow."""
+    url = (url or "").strip()
+    if not url or not url.lower().startswith("https://"):
+        return False
+    if len(url) > MAX_SOURCE_LINK_URL:
+        return False
+    try:
+        parsed = urlparse(url)
+    except ValueError:
+        return False
+    if parsed.scheme != "https":
+        return False
+    host = (parsed.netloc or "").lower()
+    if not host:
+        return False
+    return any(host == suffix or host.endswith("." + suffix) for suffix in DOZWOLONE_HOSTY_ZRODEL)
+
+
+def _dopasuj_linki_zrodla(top_events, naglowki):
+    """WB-047: deterministyczne source_links z RSS (overlap tytulow, bez URL z AI)."""
+    wynik = []
+    for ev in top_events or []:
+        ev = dict(ev)
+        source_links = []
+        seen_urls = set()
+        wt_event = _wyrazniki_tekstu(ev.get("title", ""))
+
+        for src in (ev.get("sources") or [])[:3]:
+            kandydaci = [
+                n for n in naglowki
+                if n.get("zrodlo") == src and n.get("link")
+            ]
+            best = None
+            best_overlap = 0
+            for n in kandydaci:
+                overlap = len(wt_event & _wyrazniki_tekstu(n.get("tytul", "")))
+                if overlap >= 1 and overlap > best_overlap:
+                    best_overlap = overlap
+                    best = n
+
+            if not best:
+                continue
+            link = best.get("link", "").strip()
+            if _czy_url_zrodla_ok(link) and link not in seen_urls:
+                seen_urls.add(link)
+                source_links.append({"name": src, "url": link})
+
+        ev["source_links"] = source_links[:3]
+        wynik.append(ev)
+    return wynik
 
 
 def _stan_chroniony(entry, top_events):
@@ -1081,6 +1145,8 @@ def main():
         raw = _postprocess_wynik_lens(raw, pamieci[lid])
         raw, pamiec_update = _ustaw_short_summary(raw, pamieci[lid])
         pamieci[lid].update(pamiec_update)
+        if raw.get("top_events"):
+            raw["top_events"] = _dopasuj_linki_zrodla(raw["top_events"], naglowki)
         return finalizuj_wynik(raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
 
     print("Oceniam (AI: batched multi-lens)...")
