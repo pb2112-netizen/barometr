@@ -1,33 +1,45 @@
 {
-  "global_score": 2.5,
+  "global_score": 2.6,
   "short_summary": "Europe heatwave 1300 deaths",
-  "rationale": "The European heatwave death toll confirmed at 1,300 by WHO with Germany hitting 41.7C is a qualitative update relevant to Poland's risk; Ebola in France continues as background EU health concern. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "The European heatwave with 1,300 confirmed deaths and Germany's record 41.7°C is the most directly relevant event for a Polish resident; all other headlines are distant or continuing background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
-      "summary": "WHO confirms 1,300 excess deaths from the ongoing heatwave; Germany's record temperature signals the heat dome is intensifying near Poland, raising health and energy demand risks.",
-      "score": 2.5,
+      "summary": "WHO confirms 1,300 excess deaths across Europe from the ongoing heatwave; Germany's record temperature signals the heat is intensifying near Poland's western neighbor, with direct health and energy demand implications.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
+        }
       ]
     },
     {
-      "title": "France confirms first Ebola case in doctor who had worked in DRC",
-      "summary": "Ebola confirmed in France with ~300 DRC contacts untracked; EU health alert remains active, posing an indirect public health concern for Poland as an EU member.",
-      "score": 2.1,
+      "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo / France confirms first Ebola case",
+      "summary": "France's first confirmed Ebola case and 300 untracked DRC contacts keep EU health alert active; indirect risk to Poland remains low but the situation is not resolved.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
+        }
       ]
     },
     {
       "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
-      "summary": "Ongoing mutual strikes between US and Iran continue without qualitative escalation affecting Poland directly; energy market risk remains background noise.",
+      "summary": "Ongoing US-Iran exchange of strikes continues without qualitative escalation affecting Poland; energy price risk remains background-level for Polish residents.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -35,6 +47,16 @@
       "sources": [
         "BBC",
         "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-and-iran-trade-strikes-days-after-peace-agreement?traffic_source=rss"
+        }
       ]
     }
   ],
@@ -42,15 +64,11 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-28T21:01:57.392492Z",
+  "updated_at": "2026-06-28T21:18:59.066688Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-28T17:02:46.773601Z",
   "score_history": [
-    {
-      "t": "2026-06-26T21:02:53.314299Z",
-      "s": 2.0
-    },
     {
       "t": "2026-06-27T07:20:50.882603Z",
       "s": 4.0
@@ -238,6 +256,10 @@
     {
       "t": "2026-06-28T21:01:57.392492Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-06-28T21:18:59.066688Z",
+      "s": 2.6
     }
   ]
 }
