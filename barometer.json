@@ -1,12 +1,12 @@
 {
-  "global_score": 3.6,
+  "global_score": 3.5,
   "short_summary": "Heatwave moves east, Venezuela quakes",
-  "rationale": "The heatwave directly hitting Germany, Denmark, and Czech Republic is advancing toward Poland, while other headlines are continuations or distant events with minimal direct impact on Polish daily life.",
+  "rationale": "The European heatwave directly affecting Poland remains the most locally relevant story; all other headlines are distant or continuing background.",
   "top_events": [
     {
       "title": "Heatwave breaks records in Germany, Denmark and Czech Republic",
-      "summary": "Extreme heat is confirmed across Poland's western and northern neighbors, with records broken — Poland is directly in the path of this event affecting daily life, agriculture, and energy demand.",
-      "score": 3.8,
+      "summary": "Extreme heat is confirmed across Poland's immediate neighbors, with Poland directly in the affected zone. This is a continuation of the ongoing heatwave with records now confirmed in adjacent countries.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -15,8 +15,20 @@
       ]
     },
     {
+      "title": "Venezuela earthquakes death toll rises above 1,400",
+      "summary": "A major humanitarian disaster in Venezuela, but geographically and economically distant from Poland with no direct impact on Polish daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ]
+    },
+    {
       "title": "US launches second night of strikes on Iran",
-      "summary": "Continued US military action against Iran keeps energy price risk elevated, but no new qualitative escalation has occurred this cycle — impact on Polish energy costs remains a background concern.",
+      "summary": "Ongoing US military action against Iran continues; indirect energy price risk persists but no new qualitative escalation affecting Poland has emerged.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -25,25 +37,13 @@
         "Al Jazeera",
         "BBC"
       ]
-    },
-    {
-      "title": "Venezuela earthquakes death toll rises above 1,400",
-      "summary": "A major humanitarian disaster in Venezuela, but geographically and economically distant from Poland with no direct impact on Polish residents' daily lives.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ]
     }
   ],
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-27T23:42:30.853540Z",
+  "updated_at": "2026-06-28T00:01:58.110471Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-27T21:01:53.485563Z",
@@ -195,6 +195,10 @@
     {
       "t": "2026-06-27T23:42:30.853540Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-06-28T00:01:58.110471Z",
+      "s": 3.5
     }
   ]
 }
