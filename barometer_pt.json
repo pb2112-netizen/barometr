@@ -1,11 +1,28 @@
 {
   "global_score": 2.0,
   "short_summary": "Europe heatwave wildfire risk",
-  "rationale": "No new qualitative events for Portugal this cycle; heatwave and Ebola stories continue at background level, and distant conflicts have minimal direct impact on Portuguese daily life.",
+  "rationale": "Oil price rise from US-Iran exchange is the most relevant indirect impact for Portugal; all other stories remain background noise. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Oil prices rise as US, Iranian strikes threaten Strait of Hormuz reopening",
+      "summary": "Rising oil prices from continued US-Iran exchange indirectly raise energy costs for Portuguese households and businesses. No direct threat to Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss"
+        }
+      ]
+    },
+    {
       "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
-      "summary": "WHO confirms 1,300 heatwave deaths; Iberia remains at highest wildfire risk but this is a continuation of the ongoing story with no new escalation for Portugal.",
+      "summary": "Ongoing heatwave and wildfire risk for Iberia continues; no new qualitative development beyond the established background risk for Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,7 +39,7 @@
     },
     {
       "title": "France confirms first Ebola case in doctor who had worked in DRC",
-      "summary": "Ebola case confirmed in neighboring France; ongoing EU-level alert but no new spread or Portuguese cases reported this cycle.",
+      "summary": "Ebola case in neighboring France remains a background EU health alert; no confirmed spread to Portugal or Iberia.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -36,30 +53,13 @@
           "url": "https://www.theguardian.com/world/2026/jun/24/france-ebola-first-case-doctor-drc"
         }
       ]
-    },
-    {
-      "title": "Eleven killed after plane carrying skydivers crashes in eastern France",
-      "summary": "Tragic aviation accident in France; no direct impact on Portugal, low relevance for daily life of Portuguese residents.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yz9yj9x74o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   ],
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-06-29T04:01:54.781862Z",
+  "updated_at": "2026-06-29T05:01:59.063332Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-28T17:02:46.774073Z",
@@ -286,6 +286,10 @@
     },
     {
       "t": "2026-06-29T04:01:54.781862Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-06-29T05:01:59.063332Z",
       "s": 2.0
     }
   ]
