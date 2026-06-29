@@ -1,11 +1,28 @@
 {
   "global_score": 2.0,
   "short_summary": "Europe heatwave 1300 deaths",
-  "rationale": "No qualitatively new events directly affecting Poland this cycle; ongoing situations continue without escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No qualitative new developments for Poland this cycle; ongoing US-Iran exchange and European heatwave deaths continue as background, with Ebola in France still a low-level EU concern. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US and Iran exchange strikes, oil prices rise on Hormuz threat",
-      "summary": "Continued US-Iran military exchanges threaten Strait of Hormuz reopening, keeping oil prices elevated — indirect cost-of-living pressure for Polish residents.",
+      "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+      "summary": "WHO confirms 1,300 excess deaths linked to the heatwave; Germany's record temperature signals continued risk for Poland. No new qualitative escalation beyond known figures.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
+      "summary": "Ongoing mutual strikes keep oil prices elevated, indirectly affecting Polish energy costs, but no new escalation beyond the established pattern.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -26,36 +43,19 @@
       ]
     },
     {
-      "title": "Putin says Ukraine proposed halt to deep strikes",
-      "summary": "Rhetoric only — Putin claims Ukraine proposed a halt to deep strikes, but no deal confirmed. No qualitative change to the war situation near Poland's border.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/putin-says-ukraine-proposed-halt-to-deep-strikes?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "title": "Europe heatwave linked to 1,300 deaths, Germany hits 41.7C record",
-      "summary": "WHO confirms 1,300 excess deaths linked to the ongoing European heatwave; Poland remains at risk but no new qualitative escalation this cycle.",
+      "title": "France confirms first Ebola case in doctor who had worked in DRC",
+      "summary": "France's confirmed Ebola case and ~300 untracked DRC contacts maintain a low-level EU health alert relevant to Poland, but no spread reported.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "nauka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/24/france-ebola-first-case-doctor-drc"
         }
       ]
     }
@@ -64,7 +64,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-29T06:01:53.108221Z",
+  "updated_at": "2026-06-29T07:02:03.051913Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-28T17:02:46.773601Z",
@@ -299,6 +299,10 @@
     },
     {
       "t": "2026-06-29T06:01:53.108221Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-06-29T07:02:03.051913Z",
       "s": 2.0
     }
   ]

@@ -1,11 +1,28 @@
 {
   "global_score": 2.0,
   "short_summary": "Europe heatwave 1300 deaths",
-  "rationale": "No qualitatively new events directly affecting Romania; ongoing regional and global situations continue at background levels. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No new qualitative developments for Romania; heatwave and US-Iran oil risk continue as background, Pakistani strikes on Afghanistan are geographically distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US and Iran exchange strikes, oil prices rise on Hormuz threat",
-      "summary": "Ongoing US-Iran military exchanges keep oil prices elevated, indirectly raising energy costs for Romanian households and businesses.",
+      "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+      "summary": "Confirmed 1,300 heatwave deaths across Europe with extreme temperatures advancing toward Romania; no new escalation but ongoing health and agricultural risk.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title": "US and Iran exchange strikes and accuse each other of violating ceasefire",
+      "summary": "Continued mutual strikes keep oil prices elevated, affecting Romanian energy costs indirectly; no new escalation beyond established pattern.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -26,36 +43,19 @@
       ]
     },
     {
-      "title": "Europe heatwave linked to 1,300 deaths, Germany hits 41.7C record",
-      "summary": "WHO-confirmed heatwave deaths across Europe continue; Romania remains in the affected zone but no new escalation this cycle.",
+      "title": "France confirms first Ebola case in doctor who had worked in DRC",
+      "summary": "EU-level Ebola alert persists with France's confirmed case; low but real concern for Romania as an EU member with cross-border travel.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "nauka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "title": "Putin says Ukraine proposed halt to deep strikes",
-      "summary": "Rhetoric only — no confirmed deal; Ukraine war continues without qualitative change near Romania's northern border.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/putin-says-ukraine-proposed-halt-to-deep-strikes?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/24/france-ebola-first-case-doctor-drc"
         }
       ]
     }
@@ -64,7 +64,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-29T06:01:53.108736Z",
+  "updated_at": "2026-06-29T07:02:03.052443Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-28T17:02:46.773880Z",
@@ -299,6 +299,10 @@
     },
     {
       "t": "2026-06-29T06:01:53.108736Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-06-29T07:02:03.052443Z",
       "s": 2.0
     }
   ]
