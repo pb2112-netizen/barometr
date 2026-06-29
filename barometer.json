@@ -1,12 +1,51 @@
 {
-  "global_score": 2.5,
-  "short_summary": "US-Iran stand-down agreed",
-  "rationale": "France's confirmed Ebola case with ~300 untracked DRC contacts is the most relevant new development for a Polish resident given EU-wide health alert proximity; Ukraine war and US-Iran stand-down continue without qualitative change. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "short_summary": "Shooting at German youth centre",
+  "rationale": "A mass shooting at a youth welfare centre in northern Germany is the most relevant new event for a Polish resident — a violent incident in a neighboring EU country with potential implications for security discourse.",
   "top_events": [
     {
-      "title": "France confirms first Ebola case in doctor who had worked in DRC",
-      "summary": "A confirmed Ebola case in France with nearly 300 untracked contacts in DRC raises EU-wide health alert. Poland, as an EU member with travel links to France, faces indirect but real public health risk.",
+      "title": "Five dead in shooting at youth welfare centre in northern Germany",
+      "summary": "A mass shooting in Germany (Stade) killed five people at a youth welfare centre. As a close EU/NATO neighbor, this is a notable security event for Poland, raising concerns about social violence in the region.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/29/five-killed-in-shooting-at-youth-welfare-centre-in-germanys-stade?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title": "US says it has agreed to 'stand down' after exchange of strikes with Iran",
+      "summary": "The US-Iran stand-down continues to hold; this is a continuation of the existing situation with no new confirmed escalation affecting energy prices or Polish security.",
       "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo",
+      "summary": "Ongoing Ebola tracking concern in DRC; combined with the confirmed French case, this is a background health risk for Europe but no new confirmed spread to Poland.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -16,58 +55,20 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/24/france-ebola-first-case-doctor-drc"
-        }
-      ]
-    },
-    {
-      "title": "Shooting at youth centre in Stade, northern Germany — five dead",
-      "summary": "A mass shooting in northern Germany kills five people. As a neighboring EU country, Poland monitors such security incidents, but this is an isolated domestic German event with no direct spillover.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "title": "Ukraine's triumph over Belarus — drone relay disruption confirmed",
-      "summary": "Ukraine's diplomatic success in cutting Belarus's drone relay is a modest positive for Polish border security, but continues an already-known trend without a qualitative new escalation.",
-      "score": 2.4,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/29/drone-relayers-off-ukraines-diplomatic-triumph-over-belarus?traffic_source=rss"
+          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
         }
       ]
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-06-29T13:01:57.548752Z",
+  "updated_at": "2026-06-29T14:03:59.641732Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
-  "events_anchor_at": "2026-06-29T08:01:59.633492Z",
+  "tone": "negative",
+  "events_anchor_at": "2026-06-29T14:03:59.641732Z",
   "score_history": [
-    {
-      "t": "2026-06-27T14:01:57.909753Z",
-      "s": 2.5
-    },
     {
       "t": "2026-06-27T15:01:53.436363Z",
       "s": 2.4
@@ -287,6 +288,10 @@
     {
       "t": "2026-06-29T13:01:57.548752Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-06-29T14:03:59.641732Z",
+      "s": 3.5
     }
   ]
 }
