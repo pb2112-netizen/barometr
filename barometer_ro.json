@@ -1,19 +1,24 @@
 {
-  "global_score": 2.1,
+  "global_score": 2.0,
   "short_summary": "Ukraine war continues, heatwave Balkans",
-  "rationale": "No qualitative new developments directly affecting Romania this cycle; Balkans heatwave continues as background, and other headlines are distant.",
+  "rationale": "No qualitatively new events for Romania this cycle; Ebola situation in France/DRC is the most notable ongoing concern, all other stories continue without change.",
   "top_events": [
     {
-      "title": "Six people shot dead at centre for mothers and children in Germany",
-      "summary": "Mass shooting in Germany is a notable EU security event but has no direct impact on Romania; it continues as background noise for the region.",
+      "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo / France confirms first Ebola case",
+      "summary": "France's confirmed Ebola case and ~300 untracked DRC contacts raise mild EU-wide health concern; no spread to Romania reported.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "Guardian",
         "BBC"
       ],
       "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss"
@@ -22,8 +27,8 @@
     },
     {
       "title": "Ukraine war — Russian missile/drone strikes ongoing",
-      "summary": "Continued Russian strikes on Ukraine remain background for Romania; no new Black Sea escalation or direct threat to Romanian territory this cycle.",
-      "score": 2.1,
+      "summary": "Continued Russian strikes on Ukraine; no new Black Sea escalation or direct threat to Romania this cycle.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -38,36 +43,25 @@
       ]
     },
     {
-      "title": "France confirms first Ebola case in doctor who had worked in DRC",
-      "summary": "A confirmed Ebola case in France is a minor EU public health concern; no spread to Romania or the Balkans reported, risk remains low.",
+      "title": "Balkans heatwave / wildfire risk",
+      "summary": "Heatwave and wildfire risk persists across the Balkans; no major new escalation reported this cycle.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/24/france-ebola-first-case-doctor-drc"
-        }
-      ]
+      "sources": [],
+      "source_links": []
     }
   ],
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-06-30T00:01:53.797437Z",
+  "updated_at": "2026-06-30T01:01:49.932322Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-06-29T20:01:51.188902Z",
   "score_history": [
-    {
-      "t": "2026-06-28T00:01:58.110856Z",
-      "s": 3.4
-    },
     {
       "t": "2026-06-28T01:01:57.879903Z",
       "s": 3.2
@@ -291,6 +285,10 @@
     {
       "t": "2026-06-30T00:01:53.797437Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-06-30T01:01:49.932322Z",
+      "s": 2.0
     }
   ]
 }
