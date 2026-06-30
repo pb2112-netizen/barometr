@@ -1,14 +1,31 @@
 {
   "global_score": 2.5,
   "short_summary": "Putin admits Ukraine fuel strike damage",
-  "rationale": "No qualitatively new military or aid developments for Ukraine this cycle; ongoing war activity continues as background.",
+  "rationale": "A confirmed drone strike on a vehicle in Zaporizhzhia is a concrete ongoing military action on Ukrainian territory; separately, a parcel bomb targeting a Ukrainian oligarch abroad signals potential hybrid warfare escalation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukraine war — ongoing Russian missile/drone strikes and front activity",
-      "summary": "Russian strikes and Ukrainian counter-strikes continue without qualitative escalation this cycle; situation remains as established background for Ukrainian residents.",
-      "score": 2.5,
+      "title": "Moment drone hits vehicle in Zaporizhzhia",
+      "summary": "A confirmed drone strike on a vehicle in Zaporizhzhia is a direct military action on Ukrainian territory, consistent with ongoing Russian drone campaign but a concrete confirmed event this cycle.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/moment-drone-hits-vehicle-in-zaporizhzhia?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "title": "Parcel bomb injures Ukrainian oligarch and family in Monaco",
+      "summary": "A targeted parcel bomb attack on a Ukrainian oligarch and his family in Monaco suggests possible Russian hybrid warfare or criminal targeting of Ukrainian figures abroad, a concerning signal for Ukrainians.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -16,15 +33,15 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "title": "US says it has agreed to 'stand down' after exchange of strikes with Iran",
-      "summary": "US-Iran stand-down continues to hold, meaning US attention is not further diverted from Ukraine support; no change to Western aid posture reported.",
+      "summary": "The US-Iran stand-down continuing means US attention and resources remain available for Ukraine support rather than being diverted to a new Middle East conflict — a mildly positive background signal.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -34,23 +51,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "title": "Whereabouts of nearly 300 people with Ebola unknown in DR Congo",
-      "summary": "Ebola situation in DRC has no direct relevance to Ukraine's war situation; minimal impact on daily life for Ukrainian residents.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc"
         }
       ]
     }
@@ -59,9 +59,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-06-30T06:01:55.271562Z",
+  "updated_at": "2026-06-30T07:02:05.464818Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "events_anchor_at": "2026-06-29T19:01:53.356771Z",
   "score_history": [
     {
@@ -286,6 +286,10 @@
     },
     {
       "t": "2026-06-30T06:01:55.271562Z",
+      "s": 2.5
+    },
+    {
+      "t": "2026-06-30T07:02:05.464818Z",
       "s": 2.5
     }
   ]
