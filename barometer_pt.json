@@ -1,14 +1,14 @@
 {
-  "global_score": 2.0,
-  "short_summary": "Wildfire spreads Portugal heatwave",
-  "rationale": "The confirmed 2,025 excess deaths in France during the heatwave peak is the most relevant headline for Portugal, reinforcing the ongoing extreme heat threat across Iberia and western Europe. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "short_summary": "Europe heatwave excess deaths",
+  "rationale": "France recording over 2,000 excess deaths at the peak of the heatwave is the most relevant story for Portugal, as Europe braces for more extreme weather with direct implications for Iberia.",
   "top_events": [
     {
       "title": "France records 2,025 excess deaths at peak of heatwave as Europe braces for more extreme weather",
-      "summary": "Confirmed excess deaths in France during the heatwave peak underscore the ongoing extreme heat threat across western Europe including Portugal, with health and economic consequences for residents.",
-      "score": 2.0,
+      "summary": "France's confirmed 2,025 excess deaths during the heatwave peak is a direct warning for Portugal, which faces similar climate conditions and wildfire risk as extreme heat spreads across Europe.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -21,29 +21,12 @@
       ]
     },
     {
-      "title": "Ukraine hits oil and military facilities near Russia's St Petersburg",
-      "summary": "A deep Ukrainian strike into Russia is a distant geopolitical event; indirect relevance to Portugal only through potential EU energy market effects, which remain speculative at this stage.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss"
-        }
-      ]
-    },
-    {
       "title": "Pope urges Europe to do more for migrants while visiting gateway island",
-      "summary": "The Pope's call for more EU action on migration from a gateway island resonates in Portugal as an Atlantic EU nation with migration transit concerns, though this is rhetoric without immediate policy change.",
-      "score": 2.0,
+      "summary": "The Pope's visit to a migration gateway island touches on EU migration policy debates that indirectly affect Portugal as an Atlantic entry point, though no policy change is confirmed.",
+      "score": 1.5,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
@@ -53,21 +36,34 @@
           "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "title": "New pipeline in Canada to proceed after C$150bn pledged",
+      "summary": "A major Canadian pipeline proceeding could marginally affect global energy supply dynamics, with very indirect relevance to Portugal's energy import costs.",
+      "score": 1.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline"
+        }
+      ]
     }
   ],
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-04T11:02:37.954848Z",
+  "updated_at": "2026-07-04T12:02:30.536985Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
-  "events_anchor_at": "2026-07-03T22:02:07.052840Z",
+  "events_anchor_at": "2026-07-04T12:02:30.536985Z",
   "score_history": [
-    {
-      "t": "2026-07-02T12:01:58.981462Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-02T13:01:56.601357Z",
       "s": 2.5
@@ -275,6 +271,10 @@
     {
       "t": "2026-07-04T11:02:37.954848Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-04T12:02:30.536985Z",
+      "s": 2.5
     }
   ]
 }
