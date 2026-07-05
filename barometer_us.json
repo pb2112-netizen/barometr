@@ -1,48 +1,36 @@
 {
-  "global_score": 2.5,
+  "global_score": 2.4,
   "short_summary": "US marks 250th birthday celebrations",
-  "rationale": "The US 250th anniversary celebrations with fireworks and extreme weather is the dominant domestic story this cycle; all other headlines have minimal direct impact on daily life for US residents.",
+  "rationale": "The 250th anniversary celebrations with extreme weather are the dominant domestic story; Guam typhoon evacuations are a confirmed action affecting US territory residents. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US marks 250th birthday with fireworks, flyovers and extreme weather",
-      "summary": "The US celebrates its 250th anniversary with nationwide events, though extreme weather in some regions may disrupt celebrations and travel. A largely positive domestic milestone.",
-      "score": 2.4,
+      "summary": "The 250th anniversary celebrations are a major national moment, with extreme weather adding disruption for some residents. Largely positive but with localized weather impacts.",
+      "score": 2.3,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cp9lppvkmz5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "title": "Trump offers to help end Russia-Ukraine war in Putin call",
-      "summary": "Trump's call with Putin and mediation offer is rhetoric with no signed agreement. For US residents, this is political news without confirmed policy change.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
+        },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss"
         }
       ]
     },
     {
       "title": "Evacuations in Guam as super typhoon Bavi approaches",
-      "summary": "Super Typhoon Bavi is forcing evacuations in Guam, a US territory. This is a real emergency for Guam residents but has limited impact on the continental US.",
-      "score": 2.5,
+      "summary": "Super Typhoon Bavi is forcing evacuations in Guam, a US territory. This is a confirmed action with direct impact on US territory residents, though geographically limited.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -53,21 +41,34 @@
           "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "title": "China and Russia to hold annual joint naval drills",
+      "summary": "Routine annual China-Russia naval exercises are a background signal of strategic alignment. No immediate threat to US forces or interests beyond the ongoing geopolitical competition.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/5/china-and-russia-to-hold-annual-joint-naval-drills?traffic_source=rss"
+        }
+      ]
     }
   ],
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-05T11:02:51.626336Z",
+  "updated_at": "2026-07-05T12:02:09.430199Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "events_anchor_at": "2026-07-05T10:01:59.945882Z",
   "score_history": [
-    {
-      "t": "2026-07-03T12:02:05.848557Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-03T13:02:10.395377Z",
       "s": 2.1
@@ -283,6 +284,10 @@
     {
       "t": "2026-07-05T11:02:51.626336Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-05T12:02:09.430199Z",
+      "s": 2.4
     }
   ]
 }
