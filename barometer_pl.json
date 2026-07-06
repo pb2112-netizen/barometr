@@ -1,12 +1,12 @@
 {
-  "global_score": 3.8,
+  "global_score": 2.6,
   "short_summary": "OPEC+ expands oil output; Iran funeral continues",
-  "rationale": "Ukraine's critical air defense gap directly threatens Poland's eastern border security and NATO's eastern flank; Iran's leadership transition adds regional uncertainty; OPEC+ output rise moderately eases energy costs for Polish households.",
+  "rationale": "Ukraine's critical air defense gap directly threatens Poland's eastern border security and NATO's eastern flank; Iran's leadership transition adds geopolitical uncertainty affecting EU stability. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine warns of interceptor missile shortage as 19 killed in Kyiv region",
-      "summary": "Ukraine's air defense capacity deteriorates as Russian strikes continue, killing 19 in Kyiv region. This directly threatens Poland's security as Ukraine's weakened air defense increases spillover risk to NATO territory and raises pressure on Western military aid.",
-      "score": 2.8,
+      "summary": "Ukraine's air defense is critically depleted after sustained Russian strikes, worsening the threat to civilian infrastructure and military capability. For Poland, this signals a weakening shield on NATO's eastern border and potential spillover risk.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,10 @@
     },
     {
       "title": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
-      "summary": "Iran's Supreme Leader Khamenei funeral draws massive crowds; leadership transition continues. Outcome remains uncertain and could shift Iran's regional posture, affecting broader Middle East stability and EU energy markets indirectly.",
-      "score": 2.1,
+      "summary": "Iran's Supreme Leader funeral marks a critical transition moment in Iranian leadership. For Poland and EU, the outcome of this succession affects regional stability and potential shifts in Iran's foreign policy.",
+      "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -43,31 +43,32 @@
       ]
     },
     {
-      "title": "OPEC+ oil production expansion confirmed",
-      "summary": "OPEC+ output increase is now in effect, moderating global oil prices. Polish households and businesses face gradual relief from energy costs, though full impact depends on market absorption.",
-      "score": 3.8,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "title": "Côte d'Ivoire floods kill 59 as west Africa endures torrential rains",
+      "summary": "Severe flooding in West Africa kills dozens and signals climate escalation in vulnerable regions. Indirect impact on Poland through EU migration pressure and climate policy implications.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "Memory"
+        "Guardian"
       ],
-      "source_links": []
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/02/cote-d-ivoire-floods-dead-west-africa-rains"
+        }
+      ]
     }
   ],
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-06T13:01:54.394701Z",
+  "updated_at": "2026-07-06T13:06:00.890858Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "events_anchor_at": "2026-07-06T05:02:10.004975Z",
   "score_history": [
-    {
-      "t": "2026-07-04T13:02:03.923432Z",
-      "s": 3.4
-    },
     {
       "t": "2026-07-04T14:02:03.631203Z",
       "s": 3.1
@@ -287,6 +288,10 @@
     {
       "t": "2026-07-06T13:01:54.394701Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-07-06T13:06:00.890858Z",
+      "s": 2.6
     }
   ]
 }
