@@ -74,8 +74,8 @@ SENTYMENT_DOMYSLNY = "neutral"
 # Nowosc (WB-017/WB-032): steruje decay i kotwica events_anchor_at (tylko top_events[0]).
 NOWOSC_WARTOSCI = frozenset({"nowe", "kontynuacja"})
 NOWOSC_DOMYSLNA = "kontynuacja"
-# Eventy w odleglosci <= 0.5 od maksimum z mieszanymi sentymentami -> tone neutral.
-TONE_KONFLIKT_MARGINES = 0.5
+# Eventy w odleglosci <= 1.0 od maksimum z mieszanymi sentymentami -> tone neutral (WB-052).
+TONE_KONFLIKT_MARGINES = 1.0
 
 # WB-017/WB-038: decay egzekwowany w Pythonie (progresywny, podłoga DECAY_FLOOR).
 DECAY_FLOOR = 2.0
@@ -152,23 +152,30 @@ def _ensure_event_nowosc(events):
 
 
 def _wylicz_tone(top_events):
-    """Deterministyczny globalny tone per lens (WB-013 §4.3) — liczy Python, nie model.
+    """Deterministyczny globalny tone per lens (WB-013 §4.3, WB-052) — liczy Python, nie model.
 
     1. Brak eventow -> neutral.
     2. Kandydat = sentiment eventu o najwyzszym score.
-    3. Konflikt: positive i negative jednoczesnie w grupie <= 0.5 od maksimum -> neutral.
+    3. Konflikt: positive i negative jednoczesnie w grupie <= 1.0 od maksimum -> neutral.
+    4. WB-052: positive przy score >= 6.0 poza nauka/gospodarka -> neutral.
     """
     if not top_events:
         return SENTYMENT_DOMYSLNY
-    scored = [
-        (_ocena_float(ev.get("score", 1)), _normalizuj_sentiment(ev.get("sentiment")))
+    max_score = max(_ocena_float(ev.get("score", 1)) for ev in top_events)
+    sentymenty = {
+        _normalizuj_sentiment(ev.get("sentiment"))
         for ev in top_events
-    ]
-    max_score = max(s for s, _ in scored)
-    czolowka = {sent for s, sent in scored if max_score - s <= TONE_KONFLIKT_MARGINES}
-    if "positive" in czolowka and "negative" in czolowka:
+        if max_score - _ocena_float(ev.get("score", 1)) <= TONE_KONFLIKT_MARGINES
+    }
+    if "positive" in sentymenty and "negative" in sentymenty:
         return SENTYMENT_DOMYSLNY
-    kandydat = max(scored, key=lambda x: x[0])[1]
+    max_ev = max(top_events, key=lambda ev: _ocena_float(ev.get("score", 1)))
+    kandydat = _normalizuj_sentiment(max_ev.get("sentiment"))
+    if kandydat == "positive" and _ocena_float(max_ev.get("score", 1)) >= 6.0:
+        category = str(max_ev.get("category") or "").strip().lower()
+        if category not in ("nauka", "gospodarka"):
+            print("  [uwaga] WB-052: positive zdegradowane do neutral")
+            return SENTYMENT_DOMYSLNY
     return kandydat
 
 

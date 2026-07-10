@@ -1,6 +1,7 @@
 """
 Testy WB-050: deterministyczny straznik `nowosc` (Jaccard vs pamiec) + clamp skoku score.
 Testy WB-051: walidacja short_summary (sredniki, dlugosc) + sanityzacja leadu RSS.
+Testy WB-052: _wylicz_tone — szerszy margines konfliktu + regula przełomu.
 
 Uruchomienie:  pytest WB/barometr/test_silnik.py  -v
 """
@@ -270,3 +271,56 @@ def test_wb051_lead_pusty_brak_bledu():
     assert result == ""
     result_none = silnik._sanitize_lead(None)
     assert result_none == ""
+
+
+# ---------------------------------------------------------------------------
+# WB-052: _wylicz_tone — margines konfliktu 1.0 + positive wymaga przełomu
+# ---------------------------------------------------------------------------
+
+def _events_tone(*events):
+    """Buduje top_events do testow _wylicz_tone."""
+    return list(events)
+
+
+def test_wb052_us_iran_mixed_sentiment_never_positive():
+    """US-Iran: negative 6.8 + positive 6.8 → neutral lub negative, nigdy positive."""
+    events = _events_tone(
+        {"title": "US strikes Iran targets", "score": 6.8, "sentiment": "negative", "category": "geopolityka"},
+        {"title": "Hormuz shipping traffic drops", "score": 6.8, "sentiment": "positive", "category": "geopolityka"},
+    )
+    tone = silnik._wylicz_tone(events)
+    assert tone != "positive"
+    assert tone in ("neutral", "negative")
+
+
+def test_wb052_positive_nauka_high_score_stays_positive():
+    """Positive 7.0 kategoria nauka → positive (przełom naukowy)."""
+    events = _events_tone(
+        {"title": "Fusion reactor achieves net gain", "score": 7.0, "sentiment": "positive", "category": "nauka"},
+    )
+    assert silnik._wylicz_tone(events) == "positive"
+
+
+def test_wb052_positive_geopolityka_high_score_degraded():
+    """Positive 7.0 kategoria geopolityka → neutral (brak przełomu)."""
+    events = _events_tone(
+        {"title": "Ceasefire talks advance", "score": 7.0, "sentiment": "positive", "category": "geopolityka"},
+    )
+    assert silnik._wylicz_tone(events) == "neutral"
+
+
+def test_wb052_all_negative_stays_negative():
+    """Wszystkie eventy negative → negative."""
+    events = _events_tone(
+        {"title": "Missile strike on port", "score": 7.5, "sentiment": "negative", "category": "geopolityka"},
+        {"title": "Sanctions expanded", "score": 6.2, "sentiment": "negative", "category": "geopolityka"},
+    )
+    assert silnik._wylicz_tone(events) == "negative"
+
+
+def test_wb052_calm_positive_low_score_unchanged():
+    """Calm: positive news score 3.5 → positive (regula 2 nie dotyka score < 6)."""
+    events = _events_tone(
+        {"title": "Local festival boosts tourism", "score": 3.5, "sentiment": "positive", "category": "inne"},
+    )
+    assert silnik._wylicz_tone(events) == "positive"
