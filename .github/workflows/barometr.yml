@@ -55,3 +55,44 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+
+      # WB-053E: alert operatora — brak swiezej publikacji >= 3h (cichy przestoj silnika).
+      # Zawsze wykonuje sie (nawet gdy wczesniejszy krok padnie) i nigdy nie failuje workflow.
+      - name: Alert operatora — publikacja starsza niz 3h
+        if: always()
+        env:
+          NTFY_KANAL: ${{ secrets.NTFY_KANAL }}
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime, urllib.request
+
+          try:
+              with open("barometer.json", "r", encoding="utf-8") as f:
+                  dane = json.load(f)
+              ts = datetime.datetime.fromisoformat(dane.get("updated_at", "").replace("Z", "+00:00"))
+              wiek_h = (datetime.datetime.now(datetime.timezone.utc) - ts).total_seconds() / 3600
+          except Exception as e:
+              print(f"[uwaga] WB-053E: nie mozna odczytac updated_at z barometer.json: {e}")
+              sys.exit(0)
+
+          print(f"[info] WB-053E: barometer.json updated_at wiek = {wiek_h:.1f}h")
+          if wiek_h < 3:
+              sys.exit(0)
+
+          kanal = os.getenv("NTFY_KANAL")
+          if not kanal:
+              print("[uwaga] WB-053E: brak NTFY_KANAL — alert pominiety (ustaw secret, aby wlaczyc)")
+              sys.exit(0)
+
+          try:
+              req = urllib.request.Request(
+                  f"https://ntfy.sh/{kanal}",
+                  data=f"World Barometer: brak swiezej publikacji od {wiek_h:.1f}h.".encode("utf-8"),
+                  headers={"Title": "Barometr: stara publikacja", "Priority": "high", "Tags": "warning"},
+                  method="POST",
+              )
+              urllib.request.urlopen(req, timeout=10)
+              print("[info] WB-053E: alert operatora wyslany (ntfy)")
+          except Exception as e:
+              print(f"[uwaga] WB-053E: alert nie wyslany: {e}")
+          PY

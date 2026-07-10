@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import json
+import hashlib
 import datetime
 import shutil
 from urllib.parse import urlparse
@@ -58,6 +59,8 @@ PLIK_MANIFEST = os.path.join(FOLDER, "manifest.json")
 PLIK_WYNIKU = os.path.join(FOLDER, "barometer.json")
 PLIK_PAMIEC_LEGACY = os.path.join(FOLDER, "pamiec.json")
 PLIK_PROFIL_LEGACY = os.path.join(FOLDER, "profil.json")
+# WB-053B: hash naglowkow ostatniego cyklu — bramka "nic nowego" (skip AI).
+PLIK_PAMIEC_META = os.path.join(FOLDER, "pamiec_meta.json")
 
 # Etykiety poziomow ryzyka co 2 punkty (spojne z DESIGN.md / ikonami projektu).
 POZIOMY = [
@@ -345,6 +348,40 @@ def zapisz_pamiec(
     dane["prev_top_event_titles"] = prev_top_event_titles if prev_top_event_titles is not None else []
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
+
+
+def _wczytaj_pamiec_meta():
+    """WB-053B: hash naglowkow z poprzedniego cyklu (bramka 'nic nowego')."""
+    try:
+        with open(PLIK_PAMIEC_META, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _zapisz_pamiec_meta(hash_naglowkow):
+    dane = {
+        "last_headlines_hash": hash_naglowkow,
+        "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+    }
+    with open(PLIK_PAMIEC_META, "w", encoding="utf-8") as f:
+        json.dump(dane, f, ensure_ascii=False, indent=2)
+
+
+def _wczytaj_wynik_lens(lens_id):
+    """WB-053B: ostatnia publikacja per lens (do rekonstrukcji cyklu pominietego)."""
+    try:
+        with open(_plik_wyniku_lens(lens_id), "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def _hash_naglowkow(naglowki):
+    """WB-053B: SHA-256 posortowanego zbioru znormalizowanych tytulow (lowercase, strip)."""
+    tytuly = sorted({(n.get("tytul") or "").strip().lower() for n in (naglowki or []) if n.get("tytul")})
+    tekst = "|".join(tytuly)
+    return hashlib.sha256(tekst.encode("utf-8")).hexdigest()
 
 
 def _sanitize_lead(text, max_chars=200):
@@ -949,18 +986,22 @@ Note: the engine may deterministically override "nowe" to "kontynuacja" in code
 when the title closely matches memory (WB-050) — still do your best to classify correctly.
 
 === RULE 4: BACKGROUND DECAY ===
-Each situation in stan_swiata has a "cykle_bez_zmian" counter. When a situation ONLY continues
-without qualitative change: increment the counter and GRADUALLY lower poziom_bazowy.
-The engine applies **progressive** decay in code after your response: faster drop at high scores,
-slower near calm band, floor at 2.0 for ongoing situations. Score 1.0 is reserved for truly quiet
-cycles with no significant events. Your stan_swiata must still reflect decreasing poziom_bazowy when
-nothing qualitatively new happens.
+Each situation in stan_swiata (given to you as input memory, per lens) has a "cykle_bez_zmian"
+counter and a "poziom_bazowy" maintained entirely by the ENGINE (Python), not by you. When a
+situation only continues without qualitative change, do nothing — the engine automatically
+increments its counter and applies **progressive** decay: faster drop at high scores, slower
+near calm band, floor at 2.0 for ongoing situations. Score 1.0 is reserved for truly quiet
+cycles with no significant events.
 
-=== WORLD STATE MEMORY (stan_swiata) ===
-- Return at most 8 entries per lens in "stan_swiata".
-- Each "opis" max 60 characters (short factual note).
-- Drop stale floor-level topics the engine will prune; focus on active situations.
-- The engine trims and caps memory in code — do not grow unbounded lists.
+=== WORLD STATE MEMORY (stan_swiata / nowe_tematy) ===
+You RECEIVE "stan_swiata" per lens as input context (existing tracked situations) — use it to
+judge what is genuinely NEW vs already known background (RULE 3). You do NOT return the full
+stan_swiata anymore. Instead, return "nowe_tematy": a list of ONLY the situations that are
+genuinely NEW this cycle and NOT already present in the stan_swiata you received.
+- Each item: {"temat": "<short topic label>", "poziom_bazowy": <1.0-10.0>, "opis": "<max 60 chars>"}.
+- Do NOT repeat topics already covered by an existing stan_swiata entry — the engine keeps those
+  automatically (counters/decay applied in code).
+- Return an empty list [] when nothing genuinely new appeared (the normal case most cycles).
 
 === IMPORTANCE SCALE (from the lens perspective) ===
 Score measures HOW STRONGLY an event changes life for a lens resident — IN EITHER DIRECTION
@@ -1047,10 +1088,11 @@ Scores: one decimal place, scale 1.0–10.0.
          "nowosc": "<nowe|kontynuacja>", "category": "<geopolityka|gospodarka|katastrofa|nauka|inne>",
          "sources": ["<source>"]}
       ],
-      "stan_swiata": [
-        {"temat": "...", "poziom_bazowy": <1.0-10.0>, "cykle_bez_zmian": <number>, "opis": "..."}
+      "nowe_tematy": [
+        {"temat": "...", "poziom_bazowy": <1.0-10.0>, "opis": "..."}
       ]
-      // stan_swiata: max 8 items, opis max 60 chars
+      // nowe_tematy: ONLY genuinely new situations not already in the stan_swiata you received;
+      // opis max 60 chars; usually [] — do not repeat existing stan_swiata topics here.
     },
     "ro": { ... },
     "pt": { ... },
@@ -1081,6 +1123,70 @@ def _fallback_lens(lens_id, pamiec):
         "short_summary": "Data unavailable",
         "rationale": "Model omitted this lens; score decayed from memory.",
         "top_events": [],
+        # WB-053A: brak nowe_tematy -> _waliduj_wynik_lens scala pamiec bez zmian (tylko decay).
+        "nowe_tematy": [],
+    }
+
+
+def _sanituj_nowe_tematy(raw_lista):
+    """WB-053A: waliduje 'nowe_tematy' zwracane przez model (temat/poziom_bazowy/opis).
+
+    Model nie zwraca juz calego stan_swiata — tylko zgloszenia genuinie nowych tematow
+    do dodania. Brak/zle pole -> wpis odrzucony (bez przerywania cyklu).
+    """
+    wynik = []
+    for item in raw_lista or []:
+        if not isinstance(item, dict):
+            continue
+        temat = str(item.get("temat", "")).strip()
+        if not temat:
+            continue
+        wynik.append({
+            "temat": temat,
+            "poziom_bazowy": _ocena_float(item.get("poziom_bazowy", 1)),
+            "cykle_bez_zmian": 0,
+            "opis": _truncate_summary(str(item.get("opis", "")), STAN_SWIATA_OPIS_MAX),
+        })
+    return wynik
+
+
+def _merge_nowe_tematy(pam_stan, nowe_tematy):
+    """WB-053A: Python utrzymuje stan_swiata — model zwraca tylko nowe tematy do dodania.
+
+    Istniejace wpisy (dopasowane po temacie, WB-017 `_tematy_pasuja`) przechodza bez zmian
+    (opis, poziom_bazowy) — liczniki/decay egzekwuje nastepnie `_zastosuj_decay_lens`
+    (WB-017/WB-038) na tych samych obiektach pamieci. Duplikat istniejacego tematu w
+    `nowe_tematy` jest ignorowany (juz sledzony).
+    """
+    merged = [dict(e) for e in (pam_stan or [])]
+    istniejace_tematy = [e.get("temat", "") for e in merged]
+    for nowy in nowe_tematy or []:
+        if any(_tematy_pasuja(nowy["temat"], t) for t in istniejace_tematy):
+            continue
+        merged.append(dict(nowy))
+        istniejace_tematy.append(nowy["temat"])
+    return merged
+
+
+def _wynik_ze_skip(poprzedni_wynik, pamiec):
+    """WB-053B: rekonstruuje 'raw' wynik cyklu pominietego (skip gate — brak nowych naglowkow).
+
+    Wszystkie top_events oznaczone jako "kontynuacja" — dalszy pipeline (postprocess/decay,
+    _ustaw_short_summary, source_links, finalizuj_wynik) dziala identycznie jak w cyklu z AI,
+    tylko bez nowego wywolania modelu. stan_swiata bierzemy z pamieci (bez nowe_tematy —
+    nic nowego nie mogło sie pojawic, bo naglowki sa identyczne).
+    """
+    top_events = []
+    for ev in poprzedni_wynik.get("top_events") or []:
+        ev = dict(ev)
+        ev["nowosc"] = "kontynuacja"
+        top_events.append(ev)
+    return {
+        "global_score": poprzedni_wynik.get("global_score", 1),
+        "short_summary": poprzedni_wynik.get("short_summary", ""),
+        "rationale": poprzedni_wynik.get("rationale", ""),
+        "top_events": top_events,
+        "nowe_tematy": [],
         "stan_swiata": pamiec.get("stan_swiata") or [],
     }
 
@@ -1100,8 +1206,21 @@ def _waliduj_wynik_lens(raw, pamiec, lens_id, lens_name_en):
     )
     wynik["top_events"] = _ensure_event_sentiment(wynik["top_events"])
     wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
-    wynik.setdefault("stan_swiata", pamiec.get("stan_swiata") or [])
+    # WB-053A: model zwraca tylko "nowe_tematy" — Python scala z istniejaca pamiecia.
+    nowe_tematy = _sanituj_nowe_tematy(wynik.pop("nowe_tematy", None))
+    wynik["stan_swiata"] = _merge_nowe_tematy(pamiec.get("stan_swiata") or [], nowe_tematy)
     return wynik
+
+
+def _cykl_pominiety(lenses_cfg, pamieci, lens_names, poprzednie_wyniki):
+    """WB-053B: buduje zwalidowane wyniki wszystkich lensow bez wywolania AI (skip gate)."""
+    wyniki = {}
+    for lens in lenses_cfg.get("lenses", []):
+        lid = lens["id"]
+        pam = pamieci.get(lid, {})
+        raw = _wynik_ze_skip(poprzednie_wyniki.get(lid) or {}, pam)
+        wyniki[lid] = _waliduj_wynik_lens(raw, pam, lid, lens_names.get(lid, lid))
+    return wyniki
 
 
 def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
@@ -1131,10 +1250,11 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
         return line
 
     lista = "\n".join(_fmt_headline(n) for n in naglowki)
+    # WB-053D: separatory kompaktowe (bez indent) — mniej tokenow input niz indent=2.
     tresc_user = (
         f"OUTPUT LANGUAGE: {jezyk}\n\n"
         "LENSES AND MEMORY (score each lens independently):\n"
-        + json.dumps(lenses_payload, ensure_ascii=False, indent=2)
+        + json.dumps(lenses_payload, ensure_ascii=False, separators=(",", ":"))
         + "\n\nLATEST HEADLINES:\n"
         + lista
     )
@@ -1142,7 +1262,18 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
     odpowiedz = klient.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": RUBRYK_MULTI},
+            {
+                "role": "system",
+                # WB-053C: prompt caching (OpenRouter/Anthropic) — RUBRYK_MULTI jest statyczny
+                # miedzy cyklami; ephemeral cache_control pozwala czytac go za ulamek ceny.
+                "content": [
+                    {
+                        "type": "text",
+                        "text": RUBRYK_MULTI,
+                        "cache_control": {"type": "ephemeral"},
+                    }
+                ],
+            },
             {"role": "user", "content": tresc_user},
         ],
         temperature=0.2,
@@ -1152,7 +1283,15 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
     finish = getattr(choice, "finish_reason", None) or ""
     usage = getattr(odpowiedz, "usage", None)
     if usage:
-        print(f"  [ai] completion_tokens={usage.completion_tokens}, finish_reason={finish}")
+        # WB-053E: pelna widocznosc kosztow — prompt/completion/total w jednej linii logu.
+        szczegoly = getattr(usage, "prompt_tokens_details", None)
+        cache_odczyt = getattr(szczegoly, "cached_tokens", None) if szczegoly else None
+        cache_info = f", cached_tokens={cache_odczyt}" if cache_odczyt is not None else ""
+        print(
+            f"  [ai] prompt_tokens={usage.prompt_tokens}, "
+            f"completion_tokens={usage.completion_tokens}, "
+            f"total_tokens={usage.total_tokens}{cache_info}, finish_reason={finish}"
+        )
     if finish == "length":
         raise RuntimeError(
             "Odpowiedz AI ucieta (finish_reason=length). "
@@ -1293,9 +1432,17 @@ def main():
     naglowki = pobierz_naglowki()
     print(f"  Pobrano {len(naglowki)} naglowkow z {len(ZRODLA)} zrodel.")
 
-    if not os.getenv("OPENAI_API_KEY"):
-        print("[blad] Brak OPENAI_API_KEY")
-        sys.exit(1)
+    # WB-053B: bramka "nic nowego" — identyczny zbior naglowkow jak w poprzednim cyklu
+    # -> pomijamy wywolanie AI, sam decay w Pythonie na ostatniej publikacji.
+    hash_teraz = _hash_naglowkow(naglowki)
+    meta = _wczytaj_pamiec_meta()
+    hash_poprzedni = meta.get("last_headlines_hash")
+    poprzednie_wyniki = {lid: _wczytaj_wynik_lens(lid) for lid in pamieci}
+    gate_ok = (
+        hash_poprzedni is not None
+        and hash_teraz == hash_poprzedni
+        and all(poprzednie_wyniki.values())
+    )
 
     def _finalizuj_po_postprocess(raw, lid):
         raw = _postprocess_wynik_lens(raw, pamieci[lid])
@@ -1305,17 +1452,27 @@ def main():
             raw["top_events"] = _dopasuj_linki_zrodla(raw["top_events"], naglowki)
         return finalizuj_wynik(raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
 
-    print("Oceniam (AI: batched multi-lens)...")
-    try:
-        wyniki_raw = ocen_ai_multi(naglowki, lenses_cfg, pamieci)
-    except Exception as e:
-        print(f"[blad] AI nie zadzialalo — pomijam cykl (bez publikacji): {e}")
-        sys.exit(0)
+    if gate_ok:
+        print(f"  [info] WB-053B: skip AI (no new headlines, hash={hash_teraz[:12]}...)")
+        wyniki_raw = _cykl_pominiety(lenses_cfg, pamieci, lens_names, poprzednie_wyniki)
+    else:
+        if not os.getenv("OPENAI_API_KEY"):
+            print("[blad] Brak OPENAI_API_KEY")
+            sys.exit(1)
+        print("Oceniam (AI: batched multi-lens)...")
+        try:
+            wyniki_raw = ocen_ai_multi(naglowki, lenses_cfg, pamieci)
+        except Exception as e:
+            print(f"[blad] AI nie zadzialalo — pomijam cykl (bez publikacji): {e}")
+            sys.exit(0)
 
     wyniki_finalne = {
         lid: _finalizuj_po_postprocess(raw, lid)
         for lid, raw in wyniki_raw.items()
     }
+
+    # WB-053B: hash zapamietany na koniec — porownanie w NASTEPNYM cyklu.
+    _zapisz_pamiec_meta(hash_teraz)
 
     # Zapis per lens + pamiec
     pl_pamiec = pamieci.get(default_lens, {})

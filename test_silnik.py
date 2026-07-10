@@ -2,6 +2,8 @@
 Testy WB-050: deterministyczny straznik `nowosc` (Jaccard vs pamiec) + clamp skoku score.
 Testy WB-051: walidacja short_summary (sredniki, dlugosc) + sanityzacja leadu RSS.
 Testy WB-052: _wylicz_tone — szerszy margines konfliktu + regula przełomu.
+Testy WB-053A: merge pamieci stan_swiata (nowe_tematy zwracane przez model).
+Testy WB-053B: bramka "nic nowego" (hash naglowkow, rekonstrukcja cyklu pominietego).
 
 Uruchomienie:  pytest WB/barometr/test_silnik.py  -v
 """
@@ -324,3 +326,156 @@ def test_wb052_calm_positive_low_score_unchanged():
         {"title": "Local festival boosts tourism", "score": 3.5, "sentiment": "positive", "category": "inne"},
     )
     assert silnik._wylicz_tone(events) == "positive"
+
+
+# ---------------------------------------------------------------------------
+# WB-053A: merge pamieci — model zwraca tylko "nowe_tematy", Python scala z pamiecia
+# ---------------------------------------------------------------------------
+
+def test_wb053a_sanituj_nowe_tematy_odrzuca_bez_tematu():
+    """Wpis bez 'temat' (lub pusty) jest odrzucany — bez wyjatku."""
+    wynik = silnik._sanituj_nowe_tematy([
+        {"temat": "  ", "poziom_bazowy": 5.0, "opis": "x"},
+        {"poziom_bazowy": 5.0, "opis": "brak tematu"},
+        "nie-dict",
+        None,
+    ])
+    assert wynik == []
+
+
+def test_wb053a_sanituj_nowe_tematy_normalizuje_pola():
+    """Poprawny wpis: poziom_bazowy clamp 1-10, cykle_bez_zmian=0, opis przycięty ok. 60 znakow."""
+    wynik = silnik._sanituj_nowe_tematy([
+        {"temat": "New crisis emerges", "poziom_bazowy": 15.0, "opis": "word " * 30},
+    ])
+    assert len(wynik) == 1
+    assert wynik[0]["temat"] == "New crisis emerges"
+    assert wynik[0]["poziom_bazowy"] == 10.0
+    assert wynik[0]["cykle_bez_zmian"] == 0
+    assert len(wynik[0]["opis"]) <= 61  # _truncate_summary: max_len + koncowy "."
+
+
+def test_wb053a_merge_dodaje_genuinie_nowy_temat():
+    """Nowy temat bez overlapu z istniejaca pamiecia -> dodany do stan_swiata."""
+    pam_stan = [{"temat": "Ongoing conflict alpha", "poziom_bazowy": 6.0, "cykle_bez_zmian": 2, "opis": "a"}]
+    nowe = silnik._sanituj_nowe_tematy([{"temat": "Fresh trade dispute", "poziom_bazowy": 4.0, "opis": "b"}])
+
+    merged = silnik._merge_nowe_tematy(pam_stan, nowe)
+
+    tematy = [e["temat"] for e in merged]
+    assert "Ongoing conflict alpha" in tematy
+    assert "Fresh trade dispute" in tematy
+    assert len(merged) == 2
+
+
+def test_wb053a_merge_ignoruje_duplikat_istniejacego_tematu():
+    """'Nowy' temat pokrywajacy sie (Jaccard/overlap slow) z istniejacym wpisem -> nie dubluje."""
+    pam_stan = [{"temat": "Ongoing border conflict situation", "poziom_bazowy": 6.0, "cykle_bez_zmian": 2, "opis": "a"}]
+    nowe = silnik._sanituj_nowe_tematy([{"temat": "Border conflict situation continues", "poziom_bazowy": 7.0, "opis": "b"}])
+
+    merged = silnik._merge_nowe_tematy(pam_stan, nowe)
+
+    assert len(merged) == 1
+    # istniejacy wpis pozostaje niezmieniony (opis/poziom_bazowy z pamieci, nie z modelu)
+    assert merged[0]["opis"] == "a"
+    assert merged[0]["poziom_bazowy"] == 6.0
+
+
+def test_wb053a_merge_pusta_pamiec_i_puste_nowe_tematy():
+    """Brak pamieci i brak nowe_tematy -> pusta lista, bez wyjatku."""
+    assert silnik._merge_nowe_tematy([], []) == []
+    assert silnik._merge_nowe_tematy(None, None) == []
+
+
+def test_wb053a_waliduj_wynik_lens_scala_nowe_tematy_do_stan_swiata():
+    """Integracja: _waliduj_wynik_lens usuwa 'nowe_tematy' z wyniku i scala do stan_swiata."""
+    raw = {
+        "global_score": 4.0,
+        "top_events": [],
+        "nowe_tematy": [{"temat": "Fresh trade dispute erupts", "poziom_bazowy": 3.0, "opis": "c"}],
+    }
+    pamiec = {"stan_swiata": [{"temat": "Ongoing border conflict", "poziom_bazowy": 2.0, "cykle_bez_zmian": 5, "opis": "d"}]}
+
+    wynik = silnik._waliduj_wynik_lens(raw, pamiec, "pl", "Poland")
+
+    assert "nowe_tematy" not in wynik
+    tematy = [e["temat"] for e in wynik["stan_swiata"]]
+    assert "Ongoing border conflict" in tematy
+    assert "Fresh trade dispute erupts" in tematy
+
+
+# ---------------------------------------------------------------------------
+# WB-053B: bramka "nic nowego" — hash naglowkow + rekonstrukcja cyklu pominietego
+# ---------------------------------------------------------------------------
+
+def test_wb053b_hash_identyczny_dla_tych_samych_tytulow_inna_kolejnosc():
+    """Hash zalezy tylko od zbioru tytulow (znormalizowanych), nie od kolejnosci."""
+    n1 = [{"tytul": "Alpha Event"}, {"tytul": "Beta Story"}]
+    n2 = [{"tytul": "beta story"}, {"tytul": "  ALPHA EVENT  "}]
+
+    assert silnik._hash_naglowkow(n1) == silnik._hash_naglowkow(n2)
+
+
+def test_wb053b_hash_inny_gdy_zbior_tytulow_sie_zmienia():
+    """Dodanie jednego nowego naglowka zmienia hash."""
+    n1 = [{"tytul": "Alpha Event"}, {"tytul": "Beta Story"}]
+    n2 = [{"tytul": "Alpha Event"}, {"tytul": "Beta Story"}, {"tytul": "Gamma Update"}]
+
+    assert silnik._hash_naglowkow(n1) != silnik._hash_naglowkow(n2)
+
+
+def test_wb053b_hash_pustej_listy_bez_wyjatku():
+    assert isinstance(silnik._hash_naglowkow([]), str)
+    assert isinstance(silnik._hash_naglowkow(None), str)
+
+
+def test_wb053b_wynik_ze_skip_wymusza_kontynuacja_na_wszystkich_eventach():
+    """Rekonstrukcja cyklu pominietego: top_events z ostatniej publikacji, wszystkie 'kontynuacja'."""
+    poprzedni = {
+        "global_score": 6.5,
+        "short_summary": "Iran seizes tanker",
+        "rationale": "Ongoing regional tension.",
+        "top_events": [
+            {"title": "Iran seizes tanker", "nowosc": "nowe", "score": 6.5, "sentiment": "negative"},
+        ],
+    }
+    pamiec = {"stan_swiata": [{"temat": "Regional tension", "poziom_bazowy": 5.0, "cykle_bez_zmian": 1, "opis": "x"}]}
+
+    raw = silnik._wynik_ze_skip(poprzedni, pamiec)
+
+    assert raw["top_events"][0]["nowosc"] == "kontynuacja"
+    assert raw["global_score"] == 6.5
+    assert raw["nowe_tematy"] == []
+    assert raw["stan_swiata"] == pamiec["stan_swiata"]
+
+
+def test_wb053b_wynik_ze_skip_brak_poprzedniego_wyniku_bez_wyjatku():
+    """Brak poprzedniej publikacji (np. {}) -> defaulty bezpieczne, bez wyjatku."""
+    raw = silnik._wynik_ze_skip({}, {})
+    assert raw["top_events"] == []
+    assert raw["global_score"] == 1
+
+
+def test_wb053b_cykl_pominiety_integracja_z_decay():
+    """_cykl_pominiety -> _waliduj_wynik_lens produkuje wynik gotowy do _postprocess (dalszy decay)."""
+    lenses_cfg = {"lenses": [{"id": "pl", "name_en": "Poland"}]}
+    pamieci = {"pl": {"stan_swiata": [], "ostatnia_ocena": 6.5}}
+    lens_names = {"pl": "Poland"}
+    poprzednie_wyniki = {
+        "pl": {
+            "global_score": 6.5,
+            "short_summary": "Iran seizes tanker",
+            "rationale": "Ongoing regional tension.",
+            "top_events": [
+                {"title": "Iran seizes tanker", "nowosc": "nowe", "score": 6.5, "sentiment": "negative"},
+            ],
+        }
+    }
+
+    wyniki = silnik._cykl_pominiety(lenses_cfg, pamieci, lens_names, poprzednie_wyniki)
+
+    assert wyniki["pl"]["top_events"][0]["nowosc"] == "kontynuacja"
+
+    po_decay = silnik._postprocess_wynik_lens(wyniki["pl"], pamieci["pl"])
+    # decay powinien zejsc pod 6.5 (krok 0.30 dla score w [5.0,7.0))
+    assert po_decay["top_events"][0]["score"] < 6.5
