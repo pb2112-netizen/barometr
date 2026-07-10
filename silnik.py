@@ -80,6 +80,11 @@ TONE_KONFLIKT_MARGINES = 0.5
 # WB-017/WB-038: decay egzekwowany w Pythonie (progresywny, podłoga DECAY_FLOOR).
 DECAY_FLOOR = 2.0
 
+# WB-050: prog Jaccard do deterministycznego wymuszenia nowosc "nowe" -> "kontynuacja".
+NOWOSC_JACCARD_PROG = 0.40
+# WB-050: max dozwolony skok top_events[0].score dla nowosc=="nowe" bez potwierdzonego czynu.
+NOWOSC_MAX_SKOK_BEZ_CZYNU = 2.0
+
 # WB-003: rolling window historii score w JSON publicznym.
 HISTORY_HOURS = 48
 
@@ -313,6 +318,7 @@ def zapisz_pamiec(
     events_anchor_at=None,
     anchor_event_titles=None,
     sticky_short_summary=None,
+    prev_top_event_titles=None,
 ):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
@@ -328,6 +334,8 @@ def zapisz_pamiec(
         dane["anchor_event_titles"] = anchor_event_titles
     if sticky_short_summary is not None:
         dane["sticky_short_summary"] = sticky_short_summary
+    # WB-050: tytuly top_events z tego cyklu — zbior referencyjny strażnika nowosc w nastepnym cyklu.
+    dane["prev_top_event_titles"] = prev_top_event_titles if prev_top_event_titles is not None else []
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
 
@@ -385,6 +393,106 @@ def _tematy_pasuja(title, temat):
     wt = _wyrazniki_tekstu(title)
     wm = _wyrazniki_tekstu(temat)
     return bool(wt and wm and (wt & wm))
+
+
+def _jaccard(a, b):
+    """Wspolczynnik Jaccarda dwoch zbiorow slow (WB-050)."""
+    if not a or not b:
+        return 0.0
+    unia = len(a | b)
+    if not unia:
+        return 0.0
+    return len(a & b) / unia
+
+
+def _zbior_referencyjny_nowosc(pamiec):
+    """WB-050: teksty referencyjne pamieci do wykrycia parafrazy tego samego tematu.
+
+    Zbior: anchor_event_titles + stan_swiata[].temat + tytuly top_events
+    z poprzedniego cyklu (jesli zapisane w pamieci).
+    """
+    referencje = []
+    referencje.extend(pamiec.get("anchor_event_titles") or [])
+    referencje.extend(e.get("temat", "") for e in (pamiec.get("stan_swiata") or []))
+    referencje.extend(pamiec.get("prev_top_event_titles") or [])
+    return [r for r in referencje if r]
+
+
+def _wymus_nowosc_deterministycznie(wynik, pamiec):
+    """WB-050: Python weryfikuje semantyke 'nowosc' top_events[0] deterministycznie.
+
+    LLM czesto oznacza trwajaca historie jako "nowe" (przeredagowany naglowek).
+    Jesli tytul top_events[0] ma Jaccard >= NOWOSC_JACCARD_PROG wzgledem pamieci
+    (anchor/stan_swiata/poprzedni top) -> wymus "kontynuacja". Nigdy odwrotnie:
+    prawdziwie nowy temat (niski Jaccard) zostaje "nowe".
+    """
+    top = wynik.get("top_events") or []
+    if not top:
+        return wynik
+    ev0 = dict(top[0])
+    if _normalizuj_nowosc(ev0.get("nowosc")) != "nowe":
+        return wynik
+
+    title = ev0.get("title", "")
+    wt = _wyrazniki_tekstu(title)
+    referencje = _zbior_referencyjny_nowosc(pamiec)
+
+    max_jaccard = 0.0
+    for ref in referencje:
+        j = _jaccard(wt, _wyrazniki_tekstu(ref))
+        if j > max_jaccard:
+            max_jaccard = j
+
+    if max_jaccard >= NOWOSC_JACCARD_PROG:
+        print(
+            f"  [uwaga] WB-050: wymuszono nowosc=kontynuacja (Jaccard={round(max_jaccard, 2)} "
+            f">= {NOWOSC_JACCARD_PROG}) dla \"{title[:60]}\""
+        )
+        ev0["nowosc"] = "kontynuacja"
+        wynik = dict(wynik)
+        wynik["top_events"] = [ev0] + [dict(e) for e in top[1:]]
+
+    return wynik
+
+
+def _clamp_skok_score(wynik, pamiec):
+    """WB-050: ogranicza skok score top_events[0] gdy nowosc=="nowe" po strazniku,
+    a tytul nie zawiera slowa potwierdzonego czynu (SLOWA_CZYNOW).
+
+    delta = score - ostatnia_ocena > NOWOSC_MAX_SKOK_BEZ_CZYNU i brak czynu ->
+    score = ostatnia_ocena + NOWOSC_MAX_SKOK_BEZ_CZYNU.
+    """
+    top = wynik.get("top_events") or []
+    if not top:
+        return wynik
+    ev0 = dict(top[0])
+    if _normalizuj_nowosc(ev0.get("nowosc")) != "nowe":
+        return wynik
+
+    ostatnia = pamiec.get("ostatnia_ocena")
+    if ostatnia is None:
+        return wynik
+
+    score = _ocena_float(ev0.get("score", 1))
+    ostatnia = _ocena_float(ostatnia)
+    delta = score - ostatnia
+    if delta <= NOWOSC_MAX_SKOK_BEZ_CZYNU:
+        return wynik
+
+    title = ev0.get("title", "")
+    t = _tytul_padded(title)
+    if any(f in t for f in SLOWA_CZYNOW):
+        return wynik
+
+    nowy_score = _ocena_float(ostatnia + NOWOSC_MAX_SKOK_BEZ_CZYNU)
+    print(
+        f"  [uwaga] WB-050: clamp skoku score \"{title[:60]}\": {score} -> {nowy_score} "
+        f"(delta={round(delta, 2)}, brak slowa czynu)"
+    )
+    ev0["score"] = nowy_score
+    wynik = dict(wynik)
+    wynik["top_events"] = [ev0] + [dict(e) for e in top[1:]]
+    return wynik
 
 
 def _czy_url_zrodla_ok(url):
@@ -726,8 +834,13 @@ def _zastosuj_decay_lens(wynik, pamiec):
 
 
 def _postprocess_wynik_lens(wynik, pamiec):
-    """WB-018 -> WB-017: retoryka, potem decay — przed finalizuj_wynik."""
+    """WB-050 -> WB-018 -> WB-017: straznik nowosc, clamp skoku, retoryka, potem decay.
+
+    Kolejnosc (WB-050 §3): strażnik nowosc -> clamp skoku score -> retoryka cap -> decay.
+    """
     wynik = dict(wynik)
+    wynik = _wymus_nowosc_deterministycznie(wynik, pamiec)
+    wynik = _clamp_skok_score(wynik, pamiec)
     wynik["top_events"] = _ogranicz_retoryke(wynik.get("top_events", []))
     return _zastosuj_decay_lens(wynik, pamiec)
 
@@ -799,6 +912,8 @@ The "nowosc" flag on top_events[0] also drives the app's history anchor marker
 (events_anchor_at). Mark "nowe" only when the DOMINANT story is a qualitative NEW
 development for this lens; mark "kontynuacja" when the same story continues
 (including reworded headlines). Only top_events[0] moves the anchor — not #2 or #3.
+Note: the engine may deterministically override "nowe" to "kontynuacja" in code
+when the title closely matches memory (WB-050) — still do your best to classify correctly.
 
 === RULE 4: BACKGROUND DECAY ===
 Each situation in stan_swiata has a "cykle_bez_zmian" counter. When a situation ONLY continues
@@ -1201,6 +1316,7 @@ def main():
             events_anchor_at=pamieci[lid].get("events_anchor_at"),
             anchor_event_titles=pamieci[lid].get("anchor_event_titles"),
             sticky_short_summary=pamieci[lid].get("sticky_short_summary", ""),
+            prev_top_event_titles=[e.get("title", "") for e in (wynik.get("top_events") or [])][:3],
         )
         path = zapisz_wynik_lens(lid, wynik)
         print(f"  {lid}: {ocena}/10 [{wynik['level_label']}] -> {os.path.basename(path)}")
