@@ -747,8 +747,12 @@ def _skrot_z_tytulu(title, max_words=5):
     words = (title or "").strip().split()
     if not words:
         return "See top event headline."
+    truncated = len(words) > max_words
     shortened = " ".join(words[:max_words]).rstrip(".,;:!?-—\"'")
-    return shortened or "See top event headline."
+    if not shortened:
+        return "See top event headline."
+    # WB-055-fix: add ellipsis when title was truncated to avoid "broken sentence" look
+    return (shortened + "…") if truncated else shortened
 
 
 def _ustaw_short_summary(wynik, pamiec):
@@ -780,9 +784,10 @@ def _ustaw_short_summary(wynik, pamiec):
         wynik["short_summary"] = fallback
         sticky_update = fallback
 
-    # WB-051: twarda walidacja — > 6 słów lub średnik → fallback z tytułu
+    # WB-051: twarda walidacja — > 12 słów lub średnik → fallback z tytułu
+    # Próg 6 był za restrykcyjny (odrzucał 7-9-słowne poprawne podsumowania → tytuł-fragment).
     ss = wynik.get("short_summary", "")
-    if ss and (len(ss.split()) > 6 or ";" in ss):
+    if ss and (len(ss.split()) > 12 or ";" in ss):
         fallback = _skrot_z_tytulu(top[0].get("title", ""))
         print(f"  [uwaga] WB-051: short_summary invalid ({ss!r}) → fallback: {fallback!r}")
         wynik["short_summary"] = fallback

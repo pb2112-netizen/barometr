@@ -236,9 +236,20 @@ def test_wb051_srednik_w_short_summary_fallback():
     assert len(po["short_summary"].split()) <= 6
 
 
-def test_wb051_7_slow_short_summary_fallback():
-    """7 slow w short_summary → fallback z tytulu."""
-    wynik = _wynik_ss("Iran closes Hormuz to tankers", "Iran closes strait tankers oil cargo ships blocked")
+def test_wb051_7_slow_short_summary_akceptowane():
+    """7 slow w short_summary → akceptowane (prog > 12 slow po WB-055-fix)."""
+    wynik = _wynik_ss("Iran closes Hormuz to tankers", "Iran closes Hormuz to tankers oil blockade")
+    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
+    # 7 slow to poprawne podsumowanie — nie powinno byc zastepowane
+    assert po["short_summary"] == "Iran closes Hormuz to tankers oil blockade"
+
+
+def test_wb051_zbyt_dlugie_13_slow_fallback():
+    """13+ slow w short_summary → fallback z tytulu (przekroczenie progu > 12)."""
+    wynik = _wynik_ss(
+        "Iran closes Hormuz to tankers",
+        "Iran closes Hormuz strait to tankers disrupting global oil supply chains severely now",
+    )
     po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
     assert len(po["short_summary"].split()) <= 6
 
