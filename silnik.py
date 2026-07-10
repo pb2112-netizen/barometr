@@ -340,6 +340,21 @@ def zapisz_pamiec(
         json.dump(dane, f, ensure_ascii=False, indent=2)
 
 
+def _sanitize_lead(text, max_chars=200):
+    """WB-051: strip HTML, collapse whitespace, truncate at sentence boundary."""
+    if not text:
+        return ""
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    if len(text) <= max_chars:
+        return text
+    truncated = text[:max_chars]
+    last_dot = truncated.rfind('.')
+    if last_dot > max_chars // 2:
+        return truncated[:last_dot + 1]
+    return truncated
+
+
 def pobierz_naglowki():
     """Sciaga najnowsze naglowki ze wszystkich zrodel."""
     naglowki = []
@@ -350,7 +365,9 @@ def pobierz_naglowki():
                 tytul = getattr(wpis, "title", "").strip()
                 link = getattr(wpis, "link", "").strip()
                 if tytul and link:
-                    naglowki.append({"zrodlo": zrodlo, "tytul": tytul, "link": link})
+                    raw_lead = getattr(wpis, "summary", "") or ""
+                    lead = _sanitize_lead(raw_lead)
+                    naglowki.append({"zrodlo": zrodlo, "tytul": tytul, "link": link, "lead": lead})
         except Exception as e:
             print(f"  [uwaga] Nie udalo sie pobrac zrodla {zrodlo}: {e}")
     return naglowki
@@ -707,18 +724,27 @@ def _ustaw_short_summary(wynik, pamiec):
         if not candidate or _czy_meta_short_summary(candidate):
             candidate = _skrot_z_tytulu(top[0].get("title", ""))
         wynik["short_summary"] = candidate
-        return wynik, {"sticky_short_summary": candidate}
-
-    if sticky:
+        sticky_update = candidate
+    elif sticky:
         wynik["short_summary"] = sticky
+        sticky_update = sticky
     elif candidate and not _czy_meta_short_summary(candidate):
         wynik["short_summary"] = candidate
-        sticky = candidate
+        sticky_update = candidate
     else:
         fallback = _skrot_z_tytulu(top[0].get("title", ""))
         wynik["short_summary"] = fallback
-        sticky = fallback
-    return wynik, {"sticky_short_summary": sticky}
+        sticky_update = fallback
+
+    # WB-051: twarda walidacja — > 6 słów lub średnik → fallback z tytułu
+    ss = wynik.get("short_summary", "")
+    if ss and (len(ss.split()) > 6 or ";" in ss):
+        fallback = _skrot_z_tytulu(top[0].get("title", ""))
+        print(f"  [uwaga] WB-051: short_summary invalid ({ss!r}) → fallback: {fallback!r}")
+        wynik["short_summary"] = fallback
+        sticky_update = fallback
+
+    return wynik, {"sticky_short_summary": sticky_update}
 
 
 def _aktualizuj_events_anchor(wynik, pamiec):
@@ -974,6 +1000,7 @@ Each top_events item MUST include "summary":
 - Explain real-world impact FROM THE LENS perspective (not a headline rewrite).
 - Never leave "summary" empty or omit the field.
 - Max ~200 characters preferred.
+- Base event summaries ONLY on the headline and lead provided. Do NOT infer or invent facts (prices, casualties, outcomes) not stated there.
 
 === SENTIMENT (required per top_events item) ===
 Each top_events item MUST include "sentiment": "negative" | "positive" | "neutral".
@@ -998,6 +1025,7 @@ Scores: one decimal place, scale 1.0–10.0.
   "still calm", "nothing significant", "quiet period".
 - On kontynuacja the engine keeps the previous summary in code — you may repeat it or omit;
   focus scoring on top_events, not on inventing new meta labels each hour.
+- short_summary: 4–5 words, ONE dominant event only, no semicolons.
 
 === RESPONSE FORMAT (valid JSON only) ===
 {
@@ -1089,7 +1117,13 @@ def ocen_ai_multi(naglowki, lenses_cfg, pamieci):
             "ostatnia_ocena": pam.get("ostatnia_ocena"),
         })
 
-    lista = "\n".join(f"[{n['zrodlo']}] {n['tytul']}" for n in naglowki)
+    def _fmt_headline(n):
+        line = f"[{n['zrodlo']}] {n['tytul']}"
+        if n.get("lead"):
+            line += f" — Lead: {n['lead']}"
+        return line
+
+    lista = "\n".join(_fmt_headline(n) for n in naglowki)
     tresc_user = (
         f"OUTPUT LANGUAGE: {jezyk}\n\n"
         "LENSES AND MEMORY (score each lens independently):\n"

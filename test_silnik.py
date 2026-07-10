@@ -1,5 +1,6 @@
 """
 Testy WB-050: deterministyczny straznik `nowosc` (Jaccard vs pamiec) + clamp skoku score.
+Testy WB-051: walidacja short_summary (sredniki, dlugosc) + sanityzacja leadu RSS.
 
 Uruchomienie:  pytest WB/barometr/test_silnik.py  -v
 """
@@ -206,3 +207,66 @@ def test_integracja_prawdziwie_nowy_temat_bez_wymuszenia():
     ev0 = po["top_events"][0]
     assert ev0["nowosc"] == "nowe"
     assert ev0["score"] == 3.5
+
+
+# ---------------------------------------------------------------------------
+# WB-051: walidacja short_summary
+# ---------------------------------------------------------------------------
+
+def _wynik_ss(title, short_summary, nowosc="nowe"):
+    """Buduje minimalny wynik lensu do testow _ustaw_short_summary."""
+    return {
+        "top_events": [{"title": title, "nowosc": nowosc, "score": 5.0}],
+        "short_summary": short_summary,
+    }
+
+
+def _pamiec_ss(sticky=""):
+    return {"sticky_short_summary": sticky}
+
+
+def test_wb051_srednik_w_short_summary_fallback():
+    """Sklejka ze srednikiem → fallback z tytulu."""
+    wynik = _wynik_ss("Cargo ships reroute Hormuz straits", "oil plunges; ships reroute Hormuz")
+    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
+    assert ";" not in po["short_summary"]
+    assert len(po["short_summary"].split()) <= 6
+
+
+def test_wb051_7_slow_short_summary_fallback():
+    """7 slow w short_summary → fallback z tytulu."""
+    wynik = _wynik_ss("Iran closes Hormuz to tankers", "Iran closes strait tankers oil cargo ships blocked")
+    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
+    assert len(po["short_summary"].split()) <= 6
+
+
+def test_wb051_poprawne_4_slowa_bez_zmian():
+    """Poprawne 4 slowa → short_summary bez zmian."""
+    wynik = _wynik_ss("Iran seizes British tanker", "Iran seizes tanker")
+    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
+    assert po["short_summary"] == "Iran seizes tanker"
+
+
+def test_wb051_lead_html_czysty_tekst():
+    """Lead z tagami HTML → czysty tekst, dlugosc <= 200 znaków."""
+    html_lead = "<p>Oil prices <b>fell sharply</b> after news of <a href='x'>cargo ships</a> rerouting.</p>"
+    result = silnik._sanitize_lead(html_lead)
+    assert "<" not in result
+    assert ">" not in result
+    assert len(result) <= 200
+    assert "Oil prices" in result
+
+
+def test_wb051_lead_dlugi_uciety_do_200():
+    """Lead dluzszy niz 200 znaków → uciety do 200."""
+    long_lead = "Word " * 60  # 300 znaków
+    result = silnik._sanitize_lead(long_lead)
+    assert len(result) <= 200
+
+
+def test_wb051_lead_pusty_brak_bledu():
+    """Brak summary w feedzie (pusty lead) → pusty string, bez bledu."""
+    result = silnik._sanitize_lead("")
+    assert result == ""
+    result_none = silnik._sanitize_lead(None)
+    assert result_none == ""
