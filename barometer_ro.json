@@ -1,12 +1,29 @@
 {
-  "global_score": 3.3,
+  "global_score": 3.1,
   "short_summary": "Ukraine escalates Black Sea fuel supply strikes",
-  "rationale": "Typhoon Bavi is distant but affects global shipping and energy markets indirectly. Spain wildfire is EU neighbor event. Ukraine and Russia military activity continues as background. Black Sea security remains elevated but unchanged.",
+  "rationale": "Spain wildfire (EU neighbor, climate/tourism concern) and typhoon (distant but climate pattern) dominate; Ukraine/Russia and US-Iran remain background; Black Sea security unchanged.",
   "top_events": [
     {
-      "title": "[BBC] East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
-      "summary": "Typhoon Bavi, one of the strongest in decades, kills 15 in Philippines and threatens Taiwan and China. Distant from Romania but may affect global shipping and energy prices indirectly.",
-      "score": 2.8,
+      "title": "Wildfire in southern Spain leaves at least 12 dead and 23 missing",
+      "summary": "Major wildfire near Los Gallardos, Almería kills 12 and leaves 23 missing. Direct EU climate disaster affecting neighboring country; signals intensifying Iberian fire risk and regional climate instability.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title": "East Asia braces for destructive typhoon as landslides kill 15 in Philippines",
+      "summary": "Typhoon Bavi kills 15 in Philippines and threatens Taiwan and southeastern China. Distant but signals global climate extremes affecting supply chains and energy markets indirectly.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -21,26 +38,9 @@
       ]
     },
     {
-      "title": "[BBC] Wildfire in southern Spain leaves at least 12 dead and 23 missing",
-      "summary": "Major wildfire near Los Gallardos, Almería kills 12 and leaves 23 missing. Direct EU neighbor climate disaster affecting regional tourism and wildfire risk for Romania.",
-      "score": 3.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "title": "[BBC] China lands reusable rocket for first time, state media says",
-      "summary": "China successfully lands reusable rocket, matching US SpaceX and Blue Origin capability. Long-term strategic competition signal; no immediate impact on Romania but signals shift in space/tech competition.",
-      "score": 2.2,
+      "title": "China lands reusable rocket for first time, state media says",
+      "summary": "China successfully lands reusable rocket, matching SpaceX and Blue Origin. Signals advancing Chinese space/military technology; low immediate impact on Romanian daily life.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "nauka",
@@ -59,7 +59,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-10T23:12:53.868797Z",
+  "updated_at": "2026-07-11T00:01:47.141074Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "events_anchor_at": "2026-07-10T10:55:36.692136Z",
@@ -299,6 +299,10 @@
     {
       "t": "2026-07-10T23:12:53.868797Z",
       "s": 3.3
+    },
+    {
+      "t": "2026-07-11T00:01:47.141074Z",
+      "s": 3.1
     }
   ]
 }
