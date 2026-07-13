@@ -38,7 +38,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENAI_BASE_URL: https://openrouter.ai/api/v1
-          MODEL: anthropic/claude-haiku-4.5
+          MODEL: anthropic/claude-sonnet-4.5
           MAX_OUTPUT_TOKENS: "12000"
         run: python silnik.py
 
