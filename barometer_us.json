@@ -1,12 +1,29 @@
 {
   "global_score": 3.0,
   "short_summary": "Nine deaths tied to immigration enforcement",
-  "rationale": "Second ICE-related fatality in a week (Colombian killed in Maine); continuation of tracked deadly force pattern; Trump tax ruling voided (legal action); Trump threatens Iran facility (rhetoric only). Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US judge voids Trump's $1.8bn IRS settlement and immunity from audits (confirmed action affecting tax policy); ICE killing in Maine continues enforcement pattern; Trump threatens Iran facility (rhetoric only).",
   "top_events": [
     {
+      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
+      "summary": "Federal judge voids Trump's $1.8bn IRS settlement and tax audit immunity, ruling suit brought for improper purposes. Confirmed legal action affecting former president's tax status.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
       "title": "Colombian national killed by ICE agent during operation in Maine",
-      "summary": "ICE agent kills Colombian national in Maine, second fatality in a week. Continuation of tracked pattern of deadly force in immigration enforcement.",
-      "score": 2.7,
+      "summary": "ICE agent kills Colombian national in Maine, second immigration enforcement death in one week. Continues pattern of deadly force in Trump administration operations.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -21,27 +38,10 @@
       ]
     },
     {
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-      "summary": "Federal judge voids Trump's $1.8bn IRS settlement, removing audit immunity. Confirmed legal action affecting Trump's tax status.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
       "title": "Trump threatens to attack 'Pickaxe Mountain' a nuclear facility inside Iran",
-      "summary": "Trump threatens Iranian nuclear facility. Rhetoric only; no confirmed military action; continuation of US-Iran escalation.",
+      "summary": "Trump threatens strike on Iranian underground nuclear facility. Rhetoric continues US-Iran escalation but no confirmed military action yet.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -56,18 +56,14 @@
     }
   ],
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-14T07:01:51.878279Z",
+  "updated_at": "2026-07-14T08:01:49.053984Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "events_anchor_at": "2026-07-13T23:01:49.363107Z",
   "score_history": [
-    {
-      "t": "2026-07-12T08:01:41.539557Z",
-      "s": 4.6
-    },
     {
       "t": "2026-07-12T09:01:51.129672Z",
       "s": 4.4
@@ -354,6 +350,10 @@
     },
     {
       "t": "2026-07-14T07:01:51.878279Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-07-14T08:01:49.053984Z",
       "s": 3.0
     }
   ]
