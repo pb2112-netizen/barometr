@@ -1,14 +1,31 @@
 {
-  "global_score": 3.6,
+  "global_score": 3.0,
   "short_summary": "Nine deaths tied to immigration enforcement",
-  "rationale": "Judge voids Trump's $1.8bn IRS settlement granting audit immunity; qualitative new legal development affecting presidential accountability; ICE Maine shooting continues pattern.",
+  "rationale": "Second ICE-related fatality in a week (Colombian killed in Maine); continuation of tracked deadly force pattern; Trump tax ruling voided (legal action); Trump threatens Iran facility (rhetoric only). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-      "summary": "Judge voids Trump's $1.8bn IRS settlement granting audit immunity, citing improper purposes; new legal accountability development for sitting president.",
-      "score": 3.6,
-      "sentiment": "neutral",
+      "title": "Colombian national killed by ICE agent during operation in Maine",
+      "summary": "ICE agent kills Colombian national in Maine, second fatality in a week. Continuation of tracked pattern of deadly force in immigration enforcement.",
+      "score": 2.7,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
+      "summary": "Federal judge voids Trump's $1.8bn IRS settlement, removing audit immunity. Confirmed legal action affecting Trump's tax status.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -21,67 +38,32 @@
       ]
     },
     {
-      "title": "Colombian national killed by ICE agent during operation in Maine",
-      "summary": "Second fatal ICE shooting in one week; pattern of deadly force in immigration enforcement continues domestically.",
-      "score": 2.8,
-      "sentiment": "negative",
+      "title": "Trump threatens to attack 'Pickaxe Mountain' a nuclear facility inside Iran",
+      "summary": "Trump threatens Iranian nuclear facility. Rhetoric only; no confirmed military action; continuation of US-Iran escalation.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/ice-officer-kills-motorist-in-maine-the-second-fatality-in-a-week-2?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "title": "Mexico to file criminal complaints over migrants killed by ICE in US",
-      "summary": "Mexico announces criminal complaints in US courts over ICE deaths; diplomatic friction over enforcement fatalities escalates.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/14/mexicos-sheinbaum-announces-criminal-charges-request-in-us-over-ice-deaths?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-threatens-to-attack-pickaxe-mountain-a-nuclear-facility-inside-ira?traffic_source=rss"
         }
       ]
     }
   ],
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-14T06:22:56.221226Z",
+  "updated_at": "2026-07-14T07:01:51.878279Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "events_anchor_at": "2026-07-13T23:01:49.363107Z",
   "score_history": [
-    {
-      "t": "2026-07-12T06:45:33.360968Z",
-      "s": 4.6
-    },
-    {
-      "t": "2026-07-12T07:01:20.881091Z",
-      "s": 4.4
-    },
     {
       "t": "2026-07-12T08:01:41.539557Z",
       "s": 4.6
@@ -369,6 +351,10 @@
     {
       "t": "2026-07-14T06:22:56.221226Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-07-14T07:01:51.878279Z",
+      "s": 3.0
     }
   ]
 }
