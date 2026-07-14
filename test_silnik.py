@@ -490,3 +490,84 @@ def test_wb053b_cykl_pominiety_integracja_z_decay():
     po_decay = silnik._postprocess_wynik_lens(wyniki["pl"], pamieci["pl"])
     # decay powinien zejsc pod 6.5 (krok 0.30 dla score w [5.0,7.0))
     assert po_decay["top_events"][0]["score"] < 6.5
+
+
+# ---------------------------------------------------------------------------
+# WB-059: detected_at per top_events (dopasowanie po temacie via _tematy_pasuja)
+# ---------------------------------------------------------------------------
+def test_wb059_nowy_temat_brak_w_mapie_ustawia_updated_at():
+    top = [{"title": "Trump reinstating naval blockade of Iranian ports", "score": 3.0}]
+    pamiec = {"event_detected_at": {}}
+
+    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+
+    assert wynik[0]["detected_at"] == "2026-07-12T08:01:27Z"
+    assert nowa_mapa["trump reinstating naval blockade of iranian ports"] == "2026-07-12T08:01:27Z"
+
+
+def test_wb059_kontynuacja_dopasowanie_przenosi_czas_bez_zmian():
+    top = [{"title": "Trump reinstating naval blockade of Iranian ports", "score": 3.0}]
+    pamiec = {"event_detected_at": {"trump reinstating naval blockade": "2026-07-10T00:00:00Z"}}
+
+    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+
+    assert wynik[0]["detected_at"] == "2026-07-10T00:00:00Z"
+    assert nowa_mapa["trump reinstating naval blockade of iranian ports"] == "2026-07-10T00:00:00Z"
+
+
+def test_wb059_parafraza_tytulu_wciaz_dopasowana():
+    """Jak WB-050: przeredagowany tytul o tym samym temacie (overlap slow >=4zn) -> dopasowanie."""
+    top = [{"title": "Naval blockade of Iran ports reinstated by Trump administration", "score": 3.2}]
+    pamiec = {"event_detected_at": {"trump reinstating naval blockade of iranian ports": "2026-07-10T00:00:00Z"}}
+
+    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+
+    assert wynik[0]["detected_at"] == "2026-07-10T00:00:00Z"
+
+
+def test_wb059_bez_pamieci_wszystkie_nowe():
+    top = [
+        {"title": "Event A something happening", "score": 2.0},
+        {"title": "Event B other topic occurring", "score": 1.5},
+    ]
+    pamiec = {}
+
+    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+
+    assert all(ev["detected_at"] == "2026-07-12T08:01:27Z" for ev in wynik)
+    assert len(nowa_mapa) == 2
+
+
+def test_wb059_pusta_lista_top_events_bez_wyjatku():
+    wynik, nowa_mapa = silnik._ustaw_detected_at([], {"event_detected_at": {}}, "2026-07-12T08:01:27Z")
+    assert wynik == []
+    assert nowa_mapa == {}
+
+
+def test_wb059_finalizuj_wynik_ustawia_detected_at_i_mutuje_pamiec():
+    """Integracja: finalizuj_wynik() dopisuje detected_at i mutuje pamiec['event_detected_at']."""
+    raw = {
+        "global_score": 3.0,
+        "top_events": [{"title": "Some fresh headline about a topic", "score": 3.0, "nowosc": "nowe"}],
+    }
+    pamiec = {"ostatnia_ocena": None, "event_detected_at": {}}
+
+    wynik = silnik.finalizuj_wynik(raw, "pl", "Poland", pamiec, 10)
+
+    assert wynik["top_events"][0]["detected_at"] == wynik["updated_at"]
+    assert pamiec["event_detected_at"]
+
+
+def test_wb059_finalizuj_wynik_kontynuacja_zachowuje_detected_at_z_pamieci():
+    pamiec = {
+        "ostatnia_ocena": 3.0,
+        "event_detected_at": {"some fresh headline": "2026-07-01T00:00:00Z"},
+    }
+    raw = {
+        "global_score": 3.0,
+        "top_events": [{"title": "Some fresh headline about a topic", "score": 3.0, "nowosc": "kontynuacja"}],
+    }
+
+    wynik = silnik.finalizuj_wynik(raw, "pl", "Poland", pamiec, 10)
+
+    assert wynik["top_events"][0]["detected_at"] == "2026-07-01T00:00:00Z"

@@ -329,6 +329,7 @@ def zapisz_pamiec(
     anchor_event_titles=None,
     sticky_short_summary=None,
     prev_top_event_titles=None,
+    event_detected_at=None,
 ):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
@@ -344,6 +345,9 @@ def zapisz_pamiec(
         dane["anchor_event_titles"] = anchor_event_titles
     if sticky_short_summary is not None:
         dane["sticky_short_summary"] = sticky_short_summary
+    # WB-059: pamiec detected_at per top_events (dopasowanie po temacie, patrz _ustaw_detected_at).
+    if event_detected_at is not None:
+        dane["event_detected_at"] = event_detected_at
     # WB-050: tytuly top_events z tego cyklu — zbior referencyjny strażnika nowosc w nastepnym cyklu.
     dane["prev_top_event_titles"] = prev_top_event_titles if prev_top_event_titles is not None else []
     with open(_plik_pamiec(lens_id), "w", encoding="utf-8") as f:
@@ -1358,6 +1362,27 @@ def wyslij_powiadomienie(wynik):
         print(f"  [uwaga] Nie udalo sie wyslac powiadomienia: {e}")
 
 
+def _ustaw_detected_at(top_events, pamiec, updated_at):
+    """WB-059: ustawia/przenosi detected_at per top_events (dopasowanie po temacie).
+
+    Pierwsze wejscie tematu -> detected_at = updated_at biezacego cyklu.
+    Kontynuacja (dopasowanie _tematy_pasuja) -> detected_at przenoszony bez zmian.
+    Zwraca (top_events_z_detected_at, nowa_mapa_pamieci) do zapisu w pamiec_{lens}.json.
+    """
+    stara_mapa = pamiec.get("event_detected_at") or {}
+    nowa_mapa = {}
+    for ev in top_events or []:
+        title = ev.get("title", "")
+        istniejacy_iso = None
+        for stary_tytul, iso in stara_mapa.items():
+            if _tematy_pasuja(title, stary_tytul):
+                istniejacy_iso = iso
+                break
+        ev["detected_at"] = istniejacy_iso or updated_at
+        nowa_mapa[title.lower().strip()] = ev["detected_at"]
+    return top_events, nowa_mapa
+
+
 def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
     """Dodaje metadane publiczne (level, trend, lens) do wyniku lensu."""
     ocena = _ocena_float(raw.get("global_score", 1))
@@ -1378,6 +1403,11 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
         wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
     # WB-013: globalny tone liczony deterministycznie (nie przez model).
     wynik["tone"] = _wylicz_tone(wynik.get("top_events") or [])
+    # WB-059: detected_at per top_events — ustawione/przeniesione po tytule (przed return).
+    if wynik.get("top_events"):
+        wynik["top_events"], pamiec["event_detected_at"] = _ustaw_detected_at(
+            wynik["top_events"], pamiec, wynik["updated_at"]
+        )
     return wynik
 
 
@@ -1520,6 +1550,7 @@ def main():
             anchor_event_titles=pamieci[lid].get("anchor_event_titles"),
             sticky_short_summary=pamieci[lid].get("sticky_short_summary", ""),
             prev_top_event_titles=[e.get("title", "") for e in (wynik.get("top_events") or [])][:3],
+            event_detected_at=pamieci[lid].get("event_detected_at"),
         )
         path = zapisz_wynik_lens(lid, wynik)
         print(f"  {lid}: {ocena}/10 [{wynik['level_label']}] -> {os.path.basename(path)}")
