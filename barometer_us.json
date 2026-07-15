@@ -1,14 +1,14 @@
 {
-  "global_score": 2.1,
-  "rationale": "US launches fresh strikes on Iran with Trump threatening attacks on bridges and power plants; new Ebola patient evacuated to Germany as Trump administration maintains commercial flight ban. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US launches fresh military strikes on Iran with Trump threatening further action; Ontario wildfires create worst global air quality affecting northern US. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran threatens to block more trade routes as US launches fresh strikes",
-      "label": "Iran threatens to block more trade routes as US launches fresh strikes",
-      "summary": "US conducted new strikes on Iran as Trump vowed to attack bridges and power plants next week if Iran refuses talks. Four-month conflict continues with escalating threats affecting oil markets.",
-      "score": 2.1,
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "label": "US launches new Iran strikes as Trump threatens further military escalation",
+      "summary": "US military conducts fresh strikes on Iran in a four-month conflict, with President Trump warning he may 'finish off' Iran. The escalation involves direct US military action and threatens oil supply routes affecting American fuel prices.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,31 +22,12 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "New US Ebola patient arrives in Germany for treatment",
-      "label": "US Ebola patient evacuated to Germany amid commercial flight ban",
-      "summary": "US aid worker infected with Ebola in DRC flown to Berlin for treatment. Trump administration continues blocking Americans from commercial flights, maintaining travel restrictions.",
+      "title": "Wildfires in Ontario make Toronto air quality worst in world",
+      "label": "Ontario wildfires create worst global air quality in Toronto",
+      "summary": "Over 100 active wildfires in northern Ontario produce smoke making Toronto's air quality the worst globally, with health warnings issued. The fires affect air quality across the northern US border region.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany"
-        }
-      ],
-      "detected_at": "2026-07-15T15:01:52.397595Z"
-    },
-    {
-      "title": "Wildfires in Ontario make Toronto air quality worst in world",
-      "label": "Ontario wildfires create worst global air quality in Toronto",
-      "summary": "Over 100 active wildfires in northern Ontario turned Toronto's sky yellow with worst air quality globally. Environmental Canada issued health warnings for affected regions.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "More people around the world now favour China over the US, Pew study suggests",
+      "label": "Global survey shows more confidence in China than US leadership",
+      "summary": "Pew Research survey indicates more global confidence in Xi Jinping than Donald Trump, reflecting declining US international standing and potential challenges for American diplomatic and economic influence.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
     }
   ],
   "short_summary": "Senate questions Justice Department head Blanche's independence from Trump",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-15T21:14:21.989469Z",
+  "updated_at": "2026-07-15T22:01:55.641223Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-15T16:01:57.492291Z",
   "score_history": [
-    {
-      "t": "2026-07-13T22:01:54.037009Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-13T22:07:57.852701Z",
       "s": 3.5
@@ -379,6 +375,10 @@
     {
       "t": "2026-07-15T21:14:21.989469Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-07-15T22:01:55.641223Z",
+      "s": 3.0
     }
   ]
 }
