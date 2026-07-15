@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-07-15T16:01:57.497336Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-07-15T16:43:25.937513Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump removes election commission members — executive control",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
       "opis": "Trump dismisses final independent election commission."
     },
     {
       "temat": "Iran Hormuz bill — US-Iran escalation deepens",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
       "opis": "Hardliners formalize strait control; oil shipping threat."
     },
     {
       "temat": "China economic growth misses target — global demand",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Weak Chinese demand signals headwinds for US exports."
     },
     {
       "temat": "Lindsey Graham death — Senate succession",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Sister inherits seat; unusual political succession process."
     },
     {
       "temat": "Utah stabbing attack on Muslim worker — hate crime arrest",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Alleged anti-Muslim attack; domestic security concern."
     },
     {
       "temat": "US Ebola patient evacuated to Germany — travel ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Aid worker infected in DRC; US blocks commercial flights."
     }
   ],
@@ -336,19 +336,32 @@
     {
       "t": "2026-07-15T16:01:57.492291Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-07-15T16:43:25.932428Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-07-15T16:01:57.492291Z",
-  "anchor_event_titles": [
-    "Trump urges ICE to keep using traffic stops after deadly incidents",
-    "Iran threatens to block more trade routes as US launches fresh strikes",
-    "New US Ebola patient arrives in Germany for treatment"
-  ],
-  "sticky_short_summary": "Trump backs ICE traffic stops",
   "event_detected_at": {
-    "trump urges ice to keep using traffic stops after deadly incidents": "2026-07-15T16:01:57.492291Z",
-    "iran threatens to block more trade routes as us launches fresh strikes": "2026-07-14T17:53:54.012654Z",
-    "new us ebola patient arrives in germany for treatment": "2026-07-15T15:01:52.397595Z"
+    "trump urges ice to keep using traffic stops after deadly incidents": {
+      "detected_at": "2026-07-15T16:01:57.492291Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Trump urges ICE to keep using traffic stops after deadly incidents"
+    },
+    "iran threatens to block more trade routes as us launches fresh strikes": {
+      "detected_at": "2026-07-14T17:53:54.012654Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Iran threatens to block more trade routes as US launches fresh strikes"
+    },
+    "new us ebola patient arrives in germany for treatment": {
+      "detected_at": "2026-07-15T15:01:52.397595Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "New US Ebola patient arrives in Germany for treatment"
+    }
   },
   "prev_top_event_titles": [
     "Trump urges ICE to keep using traffic stops after deadly incidents",
