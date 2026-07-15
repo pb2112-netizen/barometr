@@ -714,9 +714,21 @@ def _event_dla_tematu(temat, top_events):
 # WB-060: fallback tekst gdy ledger pusty (prawdziwa cisza — brak top_events).
 _QUIET_NEWS_CYCLE = "Quiet news cycle"
 
+# WB-061: budzet etykiety MSE z LLM (2 linie UI) + blocklista meta-fraz.
+MSE_LABEL_MAX_WORDS = 14
+MSE_LABEL_MAX_CHARS = 110
+MSE_LABEL_META = (
+    "background noise", "no new shocks", "quiet period", "nothing significant",
+    "still calm", "unchanged", "ongoing situation",
+)
 
-def _skrot_z_tytulu(title, max_words=5):
-    """Skrot z tytulu RSS (EN, bez tlumaczenia). WB-033."""
+
+def _skrot_z_tytulu(title, max_words=12, ellipsis=False):
+    """Skrot z tytulu RSS (EN, bez tlumaczenia). WB-033/WB-055-fix/WB-061.
+
+    Domyslnie BEZ koncowego wielokropka (WB-061: regresja WB-055-fix naprawiona
+    dla sciezki MSE — ucinane etykiety z „…" na produkcji).
+    """
     words = (title or "").strip().split()
     if not words:
         return "See top event headline."
@@ -724,8 +736,33 @@ def _skrot_z_tytulu(title, max_words=5):
     shortened = " ".join(words[:max_words]).rstrip(".,;:!?-—\"'")
     if not shortened:
         return "See top event headline."
-    # WB-055-fix: add ellipsis when title was truncated to avoid "broken sentence" look
-    return (shortened + "…") if truncated else shortened
+    return (shortened + "…") if (truncated and ellipsis) else shortened
+
+
+def _waliduj_mse_label(raw_label, title):
+    """WB-061: waliduje label z LLM per top_event (kandydat na sticky peak_label).
+
+    Zwraca (tekst, accepted). accepted=False -> uzyto fallbacku ze skrotu tytulu
+    (bez wielokropka), gdy LLM zlamal budzet (srednik / >14 slow / >110 znakow /
+    puste / meta-fraza cyklu ciszy).
+    """
+    text = " ".join((raw_label or "").strip().split())
+    # tylko koncowa elipsa (nie rstrip(".") — psuje "U.S." / inicjaly)
+    if text.endswith("..."):
+        text = text[:-3].rstrip()
+    elif text.endswith("…"):
+        text = text[:-1].rstrip()
+    bad = (
+        not text
+        or ";" in text
+        or len(text) > MSE_LABEL_MAX_CHARS
+        or len(text.split()) > MSE_LABEL_MAX_WORDS
+        or any(m in text.lower() for m in MSE_LABEL_META)
+    )
+    if bad:
+        print(f'  [uwaga] WB-061: mse label fallback for "{title[:60]}"')
+        return _skrot_z_tytulu(title, max_words=12, ellipsis=False), False
+    return text, True
 
 
 def _znormalizuj_ledger_wpis(wpis, ev):
@@ -742,14 +779,17 @@ def _znormalizuj_ledger_wpis(wpis, ev):
 
 
 def _aktualizuj_ledger(top_events, pamiec, updated_at):
-    """WB-060: ledger tematow niezalezny od top-3, retencja wg wieku (MSE_OKNO_GODZIN).
+    """WB-060/WB-061: ledger tematow niezalezny od top-3, retencja wg wieku (MSE_OKNO_GODZIN).
 
-    Kazdy wpis: {detected_at, peak_score, peak_sentiment, title}.
+    Kazdy wpis: {detected_at, peak_score, peak_sentiment, title, peak_label}.
     - Nowy temat (brak dopasowania _tematy_pasuja) -> nowy wpis, detected_at = updated_at.
     - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title podbite TYLKO
       gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" zamrozona razem).
+    - peak_label (WB-061): sticky jak peak_score — podbity TYLKO przy peak bump ORAZ gdy
+      LLM label przeszedl walidacje (_waliduj_mse_label); rejected przy peak bump -> stary
+      peak_label zachowany (nie degraduj dobrego sticky do skrotu tytulu).
     - Wpisy nieobecne w biezacym top_events: zachowane, dopoki wiek < MSE_OKNO_GODZIN.
-    Zwraca (top_events_z_detected_at, nowy_ledger) do zapisu w pamiec_{lens}.json.
+    Zwraca (top_events_z_detected_at_i_label, nowy_ledger) do zapisu w pamiec_{lens}.json.
     """
     stara_mapa_raw = pamiec.get("event_detected_at") or {}
     teraz = _parse_iso_utc(updated_at)
@@ -761,6 +801,8 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
         title = ev.get("title", "")
         score = _ocena_float(ev.get("score", 1))
         sentiment = _normalizuj_sentiment(ev.get("sentiment"))
+        label, accepted = _waliduj_mse_label(ev.get("label"), title)
+        ev["label"] = label  # publiczny output eventu po walidacji (nawet gdy fallback)
 
         wpis = None
         stary_klucz = None
@@ -776,12 +818,21 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
                 "peak_score": score,
                 "peak_sentiment": sentiment,
                 "title": title,
+                "peak_label": label,  # fallback OK — nie ma lepszego sticky
             }
         else:
             if score > wpis.get("peak_score", 0):
                 wpis["peak_score"] = score
                 wpis["peak_sentiment"] = sentiment
                 wpis["title"] = title
+                if accepted:
+                    wpis["peak_label"] = label
+                elif not wpis.get("peak_label"):
+                    wpis["peak_label"] = label
+            # else: score nie bil peaku -> peak_label NIE ruszamy (sticky)
+            # migracja: brak peak_label na starym wpisie -> uzupelnij przy kontakcie
+            if not wpis.get("peak_label"):
+                wpis["peak_label"] = label
             dopasowane.add(stary_klucz)
 
         ev["detected_at"] = wpis["detected_at"]
@@ -800,7 +851,12 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
 
 
 def _wybierz_mse(ledger, updated_at):
-    """WB-060: MSE = argmax(peak_score) wsrod wpisow < MSE_OKNO_GODZIN. Remis -> starszy detected_at wygrywa."""
+    """WB-060/WB-061: MSE = argmax(peak_score) wsrod wpisow < MSE_OKNO_GODZIN.
+
+    Remis -> starszy detected_at wygrywa. Label = sticky `peak_label` z ledgera
+    (LLM, zwalidowany w _aktualizuj_ledger); brak (stary ledger bez WB-061) ->
+    fallback skrot z tytulu bez wielokropka.
+    """
     teraz = _parse_iso_utc(updated_at)
     kandydaci = []
     for wpis_raw in (ledger or {}).values():
@@ -813,8 +869,12 @@ def _wybierz_mse(ledger, updated_at):
         return None
     kandydaci.sort(key=lambda w: (-_ocena_float(w.get("peak_score", 1)), w.get("detected_at", "")))
     champion = kandydaci[0]
+    title = champion.get("title", "")
+    label = (champion.get("peak_label") or "").strip()
+    if not label:
+        label = _skrot_z_tytulu(title, max_words=12, ellipsis=False)
     return {
-        "label": _skrot_z_tytulu(champion.get("title", "")),
+        "label": label,
         "score": _ocena_float(champion.get("peak_score", 1)),
         "sentiment": champion.get("peak_sentiment"),
         "detected_at": champion.get("detected_at"),
@@ -1066,25 +1126,20 @@ Never omit "sentiment". When genuinely unsure, use "neutral".
 All text fields in English (OUTPUT LANGUAGE: en).
 Scores: one decimal place, scale 1.0–10.0.
 
-=== SHORT_SUMMARY (mandatory) ===
-- Max 4-5 words in English.
-- MUST describe WHAT HAPPENED (actor + action + place) — a headline-style label of the dominant event.
-- MUST NOT describe cycle status, calm, or lack of change.
-- FORBIDDEN phrases (examples): "background noise", "no new shocks", "ongoing", "unchanged",
-  "still calm", "nothing significant", "quiet period".
-- On kontynuacja the engine keeps the previous summary in code — you may repeat it or omit;
-  focus scoring on top_events, not on inventing new meta labels each hour.
-- short_summary: 4–5 words, ONE dominant event only, no semicolons.
+=== EVENT LABEL (per top_event, mandatory) ===
+- "label": English headline-style phrase, 8–14 words, ≤110 characters.
+- ONE event only (the row's title). Actor + action + place/object. Complete phrase — NO trailing ellipsis.
+- No semicolons. No meta (quiet cycle / ongoing / unchanged / background noise).
+- Must fit roughly two short UI lines; prefer informative completeness over telegram brevity.
 
 === RESPONSE FORMAT (valid JSON only) ===
 {
   "lenses": {
     "pl": {
       "global_score": <1.0-10.0>,
-      "short_summary": "<max 4-5 words>",
       "rationale": "<1 sentence from lens perspective>",
       "top_events": [
-        {"title": "...", "summary": "<required, non-empty; 1-2 EN sentences from lens perspective>", "score": <1.0-10.0>,
+        {"title": "...", "label": "<8-14 words EN>", "summary": "<required, non-empty; 1-2 EN sentences from lens perspective>", "score": <1.0-10.0>,
          "sentiment": "<negative|positive|neutral>",
          "nowosc": "<nowe|kontynuacja>", "category": "<geopolityka|gospodarka|katastrofa|nauka|inne>",
          "sources": ["<source>"]}
@@ -1374,8 +1429,9 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
         wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
     # WB-013: globalny tone liczony deterministycznie (nie przez model).
     wynik["tone"] = _wylicz_tone(wynik.get("top_events") or [])
-    # WB-060: ledger tematow (detected_at/peak_score/peak_sentiment/title) — scalany, retencja
-    # niezalezna od top-3 (przed return; _wybierz_mse czyta ten ledger pozniej w main()).
+    # WB-060/WB-061: ledger tematow (detected_at/peak_score/peak_sentiment/title/peak_label)
+    # — scalany, retencja niezalezna od top-3 (przed return; _wybierz_mse czyta ten ledger
+    # pozniej w main()). top_events[].label walidowany tu (_waliduj_mse_label).
     if wynik.get("top_events"):
         wynik["top_events"], pamiec["event_detected_at"] = _aktualizuj_ledger(
             wynik["top_events"], pamiec, wynik["updated_at"]

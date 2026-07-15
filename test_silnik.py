@@ -4,6 +4,8 @@ Testy WB-051: walidacja short_summary (sredniki, dlugosc) + sanityzacja leadu RS
 Testy WB-052: _wylicz_tone — szerszy margines konfliktu + regula przełomu.
 Testy WB-053A: merge pamieci stan_swiata (nowe_tematy zwracane przez model).
 Testy WB-053B: bramka "nic nowego" (hash naglowkow, rekonstrukcja cyklu pominietego).
+Testy WB-060: ledger MSE (peak_score, okno 24h) — _aktualizuj_ledger / _wybierz_mse.
+Testy WB-061: etykieta MSE z LLM (_waliduj_mse_label) + sticky `peak_label` w ledgerze.
 
 Uruchomienie:  pytest WB/barometr/test_silnik.py  -v
 """
@@ -658,3 +660,265 @@ def test_wb060_finalizuj_wynik_kontynuacja_zachowuje_detected_at_z_pamieci():
     wynik = silnik.finalizuj_wynik(raw, "pl", "Poland", pamiec, 10)
 
     assert wynik["top_events"][0]["detected_at"] == "2026-07-01T00:00:00Z"
+
+
+# ---------------------------------------------------------------------------
+# WB-061: _waliduj_mse_label — walidacja etykiety LLM (budzet 2 linii)
+# ---------------------------------------------------------------------------
+
+def test_wb061_waliduj_label_poprawny_akceptowany_bez_zmian():
+    """Poprawny label (8-14 slow, <=110 znakow, bez sredniku/meta) -> accepted=True, tekst bez zmian."""
+    title = "Rebel forces attack government positions in north"
+    label = "Government forces launch major offensive against rebel strongholds in the northern region"
+    text, accepted = silnik._waliduj_mse_label(label, title)
+    assert accepted is True
+    assert text == label
+
+
+def test_wb061_waliduj_label_srednik_odrzucony_fallback_bez_elipsy():
+    """Srednik w labelu -> reject; fallback = _skrot_z_tytulu(title, 12, bez elipsy)."""
+    title = "Central bank raises interest rates sharply amid inflation surge nationwide"
+    text, accepted = silnik._waliduj_mse_label("Rates rise; markets react sharply", title)
+    assert accepted is False
+    assert text == silnik._skrot_z_tytulu(title, max_words=12, ellipsis=False)
+    assert "…" not in text and "..." not in text
+
+
+def test_wb061_waliduj_label_za_dlugi_slowami_odrzucony():
+    """Label > 14 slow -> reject."""
+    title = "Central bank raises interest rates sharply amid inflation surge nationwide"
+    dlugi_label = " ".join(["word"] * 20)
+    text, accepted = silnik._waliduj_mse_label(dlugi_label, title)
+    assert accepted is False
+
+
+def test_wb061_waliduj_label_za_dlugi_znakami_odrzucony():
+    """Label > 110 znakow -> reject, mimo <=14 slow."""
+    title = "Central bank raises interest rates sharply amid inflation surge nationwide"
+    dlugi_label = " ".join(["a" * 15] * 8)  # 8 slow, ale > 110 znakow
+    assert len(dlugi_label) > 110
+    text, accepted = silnik._waliduj_mse_label(dlugi_label, title)
+    assert accepted is False
+
+
+def test_wb061_waliduj_label_meta_fraza_odrzucona():
+    """Meta-fraza cyklu ciszy (blocklista) -> reject, niezaleznie od dlugosci."""
+    title = "Central bank raises interest rates sharply amid inflation surge nationwide"
+    text, accepted = silnik._waliduj_mse_label("Quiet period with no new shocks reported", title)
+    assert accepted is False
+
+
+def test_wb061_waliduj_label_puste_odrzucone():
+    """Puste / brak label -> reject, bez wyjatku."""
+    title = "Central bank raises interest rates sharply amid inflation surge nationwide"
+    text, accepted = silnik._waliduj_mse_label("", title)
+    assert accepted is False
+    text2, accepted2 = silnik._waliduj_mse_label(None, title)
+    assert accepted2 is False
+
+
+def test_wb061_waliduj_label_strip_koncowej_elipsy_przed_walidacja():
+    """Koncowa elipsa (…/...) jest zdejmowana przed walidacja — nie rstrip('.') (psuje 'U.S.')."""
+    title = "Some headline about a topic"
+    text, accepted = silnik._waliduj_mse_label("A reasonably short valid headline phrase here…", title)
+    assert "…" not in text
+    text2, accepted2 = silnik._waliduj_mse_label("A reasonably short valid headline phrase...", title)
+    assert "..." not in text2
+
+
+def test_wb061_skrot_z_tytulu_domyslnie_bez_elipsy():
+    """WB-061: _skrot_z_tytulu domyslnie (ellipsis=False) nie dokleja wielokropka."""
+    long_title = "Government forces launch major offensive against rebel strongholds across the entire northern border region today"
+    text = silnik._skrot_z_tytulu(long_title)
+    assert "…" not in text
+    assert len(text.split()) <= 12
+
+
+def test_wb061_skrot_z_tytulu_ellipsis_true_dokleja_wielokropek():
+    """Z ellipsis=True (opt-in) wielokropek nadal dostepny gdy ktos tego potrzebuje."""
+    long_title = "Government forces launch major offensive against rebel strongholds across the entire northern border region today"
+    text = silnik._skrot_z_tytulu(long_title, max_words=5, ellipsis=True)
+    assert text.endswith("…")
+
+
+# ---------------------------------------------------------------------------
+# WB-061: T1-T7 ze specyfikacji — sticky `peak_label` w ledgerze + _wybierz_mse
+# ---------------------------------------------------------------------------
+
+def test_wb061_t1_nowy_event_poprawny_label_ledger_i_mse():
+    """T1: nowy event z poprawnym labelem (12 slow) -> peak_label w ledgerze = label; MSE.label = ten tekst."""
+    label = "Government forces launch major offensive against rebel strongholds in the northern region"
+    top = [{"title": "Rebel forces attack government positions in north", "score": 5.0,
+            "sentiment": "negative", "label": label}]
+    pamiec = {"event_detected_at": {}}
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-15T08:00:00Z")
+
+    klucz = "rebel forces attack government positions in north"
+    assert wynik[0]["label"] == label
+    assert ledger[klucz]["peak_label"] == label
+
+    mse = silnik._wybierz_mse(ledger, "2026-07-15T08:00:00Z")
+    assert mse["label"] == label
+
+
+def test_wb061_t2_label_niepoprawny_fallback_skrot_bez_elipsy():
+    """T2: label ze srednikiem / 20 slow / meta -> fallback skrot; bez '…'."""
+    title = "Massive earthquake strikes coastal region causing widespread damage overnight"
+    top = [{"title": title, "score": 4.0, "sentiment": "negative",
+            "label": "Earthquake hits; damage widespread across region"}]
+    pamiec = {"event_detected_at": {}}
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-15T08:00:00Z")
+
+    klucz = title.lower()
+    oczekiwany_fallback = silnik._skrot_z_tytulu(title, max_words=12, ellipsis=False)
+    assert wynik[0]["label"] == oczekiwany_fallback
+    assert ledger[klucz]["peak_label"] == oczekiwany_fallback
+    assert "…" not in oczekiwany_fallback and "..." not in oczekiwany_fallback
+
+
+def test_wb061_t3_kontynuacja_score_dol_peak_label_niezmienione():
+    """T3: kontynuacja, score w dol -> peak_label niezmienione mimo nowego (innego) ev.label."""
+    sticky_label = "Iran imposes naval blockade escalating regional tensions across Gulf shipping lanes"
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 7.3,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports escalates",
+                "peak_label": sticky_label,
+            },
+        },
+    }
+    top = [{"title": "Naval blockade of Iranian ports", "score": 4.5, "sentiment": "negative",
+            "label": "Blockade situation continues with reduced tensions this week"}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports"
+    assert ledger[klucz]["peak_label"] == sticky_label
+    assert ledger[klucz]["peak_score"] == 7.3
+
+
+def test_wb061_t4_peak_bump_label_accepted_aktualizuje_peak_label():
+    """T4: kontynuacja, score > peak, label accepted -> peak_label = nowy label."""
+    new_label = "Iran expands naval blockade striking multiple tankers near Strait of Hormuz"
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 5.0,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports",
+                "peak_label": "Iran imposes naval blockade of key Gulf ports amid tensions",
+            },
+        },
+    }
+    top = [{"title": "Naval blockade of Iranian ports escalates", "score": 7.3, "sentiment": "negative",
+            "label": new_label}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports escalates"
+    assert ledger[klucz]["peak_label"] == new_label
+    assert ledger[klucz]["peak_score"] == 7.3
+
+
+def test_wb061_t4b_peak_bump_label_rejected_zachowuje_stary_peak_label():
+    """T4b: peak bump, label rejected (';') gdy stary peak_label istnieje -> stary zachowany."""
+    old_label = "Iran imposes naval blockade of key Gulf ports amid tensions"
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 5.0,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports",
+                "peak_label": old_label,
+            },
+        },
+    }
+    top = [{"title": "Naval blockade of Iranian ports escalates", "score": 7.3, "sentiment": "negative",
+            "label": "Blockade widens; tankers hit"}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports escalates"
+    assert ledger[klucz]["peak_label"] == old_label
+    assert ledger[klucz]["peak_score"] == 7.3  # peak_score i tak podbity, tylko label sticky
+
+
+def test_wb061_t5_champion_tylko_w_retencji_mse_label_sticky():
+    """T5: champion tylko w retencji (poza biezacym top) -> MSE.label = sticky peak_label z ledgera."""
+    sticky_label = "Old topic escalates dramatically affecting regional stability across border areas"
+    ledger = {
+        "old topic": {
+            "detected_at": "2026-07-12T00:00:00Z",
+            "peak_score": 8.0,
+            "peak_sentiment": "negative",
+            "title": "Old topic escalates",
+            "peak_label": sticky_label,
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, "2026-07-12T08:00:00Z")
+    assert mse["label"] == sticky_label
+
+
+def test_wb061_t6_brak_peak_label_stary_ledger_fallback_skrot():
+    """T6: brak peak_label (stary ledger WB-060) -> MSE.label = _skrot_z_tytulu 12 slow bez elipsy."""
+    long_title = "Government forces launch major offensive against rebel strongholds across the entire northern border region today"
+    ledger = {
+        "topic": {
+            "detected_at": "2026-07-12T00:00:00Z",
+            "peak_score": 6.0,
+            "peak_sentiment": "negative",
+            "title": long_title,
+            # brak "peak_label" — wpis z przed WB-061
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, "2026-07-12T08:00:00Z")
+    assert mse["label"] == silnik._skrot_z_tytulu(long_title, max_words=12, ellipsis=False)
+    assert "…" not in mse["label"]
+
+
+def test_wb061_t7_wb060_fixtures_bez_peak_label_uzywaja_fallbacku():
+    """T7: fixtures WB-060 bez `peak_label` -> _wybierz_mse zwraca fallback skrot tytulu (bez
+    elipsy); asercje `label.lower().startswith(...)` w testach WB-060 pozostaja poprawne, bo
+    tytuly uzyte tam sa krotsze niz 12 slow (skrot = caly tytul, bez zmian)."""
+    ledger = {
+        "fresh topic": {
+            "detected_at": "2026-07-12T00:00:00Z",
+            "peak_score": 3.0,
+            "peak_sentiment": "neutral",
+            "title": "Fresh topic",
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, "2026-07-12T08:00:00Z")
+    assert mse["label"] == "Fresh topic"
+    assert mse["label"].lower().startswith("fresh topic")
+
+
+def test_wb061_ac7_skip_gate_nie_kasuje_peak_label():
+    """AC-7: cykl bez AI (skip gate) — score identyczny jak peak, brak nowego label -> peak_label sticky."""
+    old_label = "Iran imposes naval blockade of key Gulf ports amid rising regional tensions"
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 5.0,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports",
+                "peak_label": old_label,
+            },
+        },
+    }
+    # skip-gate: ev bez "label" (rekonstrukcja z poprzedniego cyklu), score identyczny jak peak
+    top = [{"title": "Naval blockade of Iranian ports", "score": 5.0, "sentiment": "negative",
+            "nowosc": "kontynuacja"}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports"
+    assert ledger[klucz]["peak_label"] == old_label
