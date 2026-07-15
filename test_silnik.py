@@ -216,51 +216,6 @@ def test_integracja_prawdziwie_nowy_temat_bez_wymuszenia():
 # WB-051: walidacja short_summary
 # ---------------------------------------------------------------------------
 
-def _wynik_ss(title, short_summary, nowosc="nowe"):
-    """Buduje minimalny wynik lensu do testow _ustaw_short_summary."""
-    return {
-        "top_events": [{"title": title, "nowosc": nowosc, "score": 5.0}],
-        "short_summary": short_summary,
-    }
-
-
-def _pamiec_ss(sticky=""):
-    return {"sticky_short_summary": sticky}
-
-
-def test_wb051_srednik_w_short_summary_fallback():
-    """Sklejka ze srednikiem → fallback z tytulu."""
-    wynik = _wynik_ss("Cargo ships reroute Hormuz straits", "oil plunges; ships reroute Hormuz")
-    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
-    assert ";" not in po["short_summary"]
-    assert len(po["short_summary"].split()) <= 6
-
-
-def test_wb051_7_slow_short_summary_akceptowane():
-    """7 slow w short_summary → akceptowane (prog > 12 slow po WB-055-fix)."""
-    wynik = _wynik_ss("Iran closes Hormuz to tankers", "Iran closes Hormuz to tankers oil blockade")
-    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
-    # 7 slow to poprawne podsumowanie — nie powinno byc zastepowane
-    assert po["short_summary"] == "Iran closes Hormuz to tankers oil blockade"
-
-
-def test_wb051_zbyt_dlugie_13_slow_fallback():
-    """13+ slow w short_summary → fallback z tytulu (przekroczenie progu > 12)."""
-    wynik = _wynik_ss(
-        "Iran closes Hormuz to tankers",
-        "Iran closes Hormuz strait to tankers disrupting global oil supply chains severely now",
-    )
-    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
-    assert len(po["short_summary"].split()) <= 6
-
-
-def test_wb051_poprawne_4_slowa_bez_zmian():
-    """Poprawne 4 slowa → short_summary bez zmian."""
-    wynik = _wynik_ss("Iran seizes British tanker", "Iran seizes tanker")
-    po, _ = silnik._ustaw_short_summary(wynik, _pamiec_ss())
-    assert po["short_summary"] == "Iran seizes tanker"
-
-
 def test_wb051_lead_html_czysty_tekst():
     """Lead z tagami HTML → czysty tekst, dlugosc <= 200 znaków."""
     html_lead = "<p>Oil prices <b>fell sharply</b> after news of <a href='x'>cargo ships</a> rerouting.</p>"
@@ -493,58 +448,183 @@ def test_wb053b_cykl_pominiety_integracja_z_decay():
 
 
 # ---------------------------------------------------------------------------
-# WB-059: detected_at per top_events (dopasowanie po temacie via _tematy_pasuja)
+# WB-060: _aktualizuj_ledger — ledger tematow niezalezny od top-3 (peak_score)
 # ---------------------------------------------------------------------------
-def test_wb059_nowy_temat_brak_w_mapie_ustawia_updated_at():
-    top = [{"title": "Trump reinstating naval blockade of Iranian ports", "score": 3.0}]
+def test_wb060_nowy_temat_wpis_w_ledgerze_peak_score_biezacy():
+    """Nowy temat (brak dopasowania) -> wpis w ledgerze, peak_score = score biezacego cyklu."""
+    top = [{"title": "Trump reinstating naval blockade of Iranian ports", "score": 3.0, "sentiment": "negative"}]
     pamiec = {"event_detected_at": {}}
 
-    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
 
+    klucz = "trump reinstating naval blockade of iranian ports"
     assert wynik[0]["detected_at"] == "2026-07-12T08:01:27Z"
-    assert nowa_mapa["trump reinstating naval blockade of iranian ports"] == "2026-07-12T08:01:27Z"
+    assert ledger[klucz]["detected_at"] == "2026-07-12T08:01:27Z"
+    assert ledger[klucz]["peak_score"] == 3.0
+    assert ledger[klucz]["peak_sentiment"] == "negative"
 
 
-def test_wb059_kontynuacja_dopasowanie_przenosi_czas_bez_zmian():
-    top = [{"title": "Trump reinstating naval blockade of Iranian ports", "score": 3.0}]
-    pamiec = {"event_detected_at": {"trump reinstating naval blockade": "2026-07-10T00:00:00Z"}}
+def test_wb060_kontynuacja_eskalacja_podbija_peak_score_detected_at_bez_zmian():
+    """Kontynuacja z wyzszym score -> peak_score podbity, detected_at bez zmian."""
+    top = [{"title": "Naval blockade of Iranian ports escalates", "score": 7.3, "sentiment": "negative"}]
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 5.0,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports",
+            },
+        },
+    }
 
-    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
 
+    klucz = "naval blockade of iranian ports escalates"
     assert wynik[0]["detected_at"] == "2026-07-10T00:00:00Z"
-    assert nowa_mapa["trump reinstating naval blockade of iranian ports"] == "2026-07-10T00:00:00Z"
+    assert ledger[klucz]["detected_at"] == "2026-07-10T00:00:00Z"
+    assert ledger[klucz]["peak_score"] == 7.3
 
 
-def test_wb059_parafraza_tytulu_wciaz_dopasowana():
-    """Jak WB-050: przeredagowany tytul o tym samym temacie (overlap slow >=4zn) -> dopasowanie."""
-    top = [{"title": "Naval blockade of Iran ports reinstated by Trump administration", "score": 3.2}]
-    pamiec = {"event_detected_at": {"trump reinstating naval blockade of iranian ports": "2026-07-10T00:00:00Z"}}
+def test_wb060_kontynuacja_decay_peak_score_bez_zmian_nie_spada():
+    """Kontynuacja z nizszym score (decay) -> peak_score NIE spada."""
+    top = [{"title": "Naval blockade of Iranian ports", "score": 4.5, "sentiment": "negative"}]
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 7.3,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports escalates",
+            },
+        },
+    }
 
-    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
 
-    assert wynik[0]["detected_at"] == "2026-07-10T00:00:00Z"
-
-
-def test_wb059_bez_pamieci_wszystkie_nowe():
-    top = [
-        {"title": "Event A something happening", "score": 2.0},
-        {"title": "Event B other topic occurring", "score": 1.5},
-    ]
-    pamiec = {}
-
-    wynik, nowa_mapa = silnik._ustaw_detected_at(top, pamiec, "2026-07-12T08:01:27Z")
-
-    assert all(ev["detected_at"] == "2026-07-12T08:01:27Z" for ev in wynik)
-    assert len(nowa_mapa) == 2
+    klucz = "naval blockade of iranian ports"
+    assert ledger[klucz]["peak_score"] == 7.3
+    assert ledger[klucz]["title"] == "Naval blockade of Iranian ports escalates"
 
 
-def test_wb059_pusta_lista_top_events_bez_wyjatku():
-    wynik, nowa_mapa = silnik._ustaw_detected_at([], {"event_detected_at": {}}, "2026-07-12T08:01:27Z")
+def test_wb060_temat_spada_z_top_events_wiek_pod_24h_zachowany():
+    """Temat spada z top_events (brak w biezacym cyklu), wiek < 24h -> wpis zachowany w ledgerze."""
+    teraz = "2026-07-12T08:00:00Z"
+    pamiec = {
+        "event_detected_at": {
+            "old topic still fresh": {
+                "detected_at": "2026-07-11T20:00:00Z",  # 12h temu
+                "peak_score": 6.0,
+                "peak_sentiment": "negative",
+                "title": "Old topic still fresh",
+            },
+        },
+    }
+
+    _, ledger = silnik._aktualizuj_ledger([], pamiec, teraz)
+
+    assert "old topic still fresh" in ledger
+    assert ledger["old topic still fresh"]["peak_score"] == 6.0
+
+
+def test_wb060_temat_wiek_24h_plus_wykluczony_z_wybierz_mse():
+    """Temat wiek >= 24h -> wykluczony z kandydatow _wybierz_mse, niezaleznie od top_events."""
+    teraz = "2026-07-12T08:00:00Z"
+    ledger = {
+        "old topic": {
+            "detected_at": "2026-07-11T07:00:00Z",  # 25h temu
+            "peak_score": 9.0,
+            "peak_sentiment": "negative",
+            "title": "Old topic",
+        },
+        "fresh topic": {
+            "detected_at": "2026-07-12T00:00:00Z",  # 8h temu
+            "peak_score": 3.0,
+            "peak_sentiment": "neutral",
+            "title": "Fresh topic",
+        },
+    }
+
+    mse = silnik._wybierz_mse(ledger, teraz)
+
+    assert mse["label"].lower().startswith("fresh topic")
+    assert mse["score"] == 3.0
+
+
+def test_wb060_wyzszy_peak_score_wygrywa_niezaleznie_od_pozycji_w_top_events():
+    """Dwa tematy w oknie 24h -> wyzszy peak_score wygrywa (nie kolejnosc w ledgerze/top_events)."""
+    teraz = "2026-07-12T08:00:00Z"
+    ledger = {
+        "topic a": {
+            "detected_at": "2026-07-12T06:00:00Z",
+            "peak_score": 4.0,
+            "peak_sentiment": "neutral",
+            "title": "Topic A",
+        },
+        "topic b": {
+            "detected_at": "2026-07-12T02:00:00Z",
+            "peak_score": 8.5,
+            "peak_sentiment": "negative",
+            "title": "Topic B",
+        },
+    }
+
+    mse = silnik._wybierz_mse(ledger, teraz)
+
+    assert mse["score"] == 8.5
+    assert mse["label"].lower().startswith("topic b")
+
+
+def test_wb060_remis_peak_score_starszy_detected_at_wygrywa():
+    """Remis peak_score -> starszy (wczesniejszy) detected_at wygrywa."""
+    teraz = "2026-07-12T08:00:00Z"
+    ledger = {
+        "topic newer": {
+            "detected_at": "2026-07-12T05:00:00Z",
+            "peak_score": 6.0,
+            "peak_sentiment": "negative",
+            "title": "Topic newer",
+        },
+        "topic older": {
+            "detected_at": "2026-07-12T01:00:00Z",
+            "peak_score": 6.0,
+            "peak_sentiment": "negative",
+            "title": "Topic older",
+        },
+    }
+
+    mse = silnik._wybierz_mse(ledger, teraz)
+
+    assert mse["label"].lower().startswith("topic older")
+    assert mse["detected_at"] == "2026-07-12T01:00:00Z"
+
+
+def test_wb060_ledger_pusty_i_top_events_puste_wybierz_mse_none():
+    """Ledger pusty + top_events puste -> _wybierz_mse zwraca None."""
+    assert silnik._wybierz_mse({}, "2026-07-12T08:00:00Z") is None
+    assert silnik._wybierz_mse(None, "2026-07-12T08:00:00Z") is None
+
+
+def test_wb060_migracja_starego_formatu_str_bez_wyjatku():
+    """Migracja starego formatu WB-059 (str ISO) -> dict; nie wywala wyjatku, peak_score z biezacego eventu."""
+    top = [{"title": "Legacy topic continues", "score": 5.5, "sentiment": "positive"}]
+    pamiec = {"event_detected_at": {"legacy topic continues": "2026-07-11T10:00:00Z"}}
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "legacy topic continues"
+    assert wynik[0]["detected_at"] == "2026-07-11T10:00:00Z"
+    assert ledger[klucz]["peak_score"] == 5.5
+    assert ledger[klucz]["detected_at"] == "2026-07-11T10:00:00Z"
+
+
+def test_wb060_ledger_pusta_lista_top_events_bez_wyjatku():
+    wynik, ledger = silnik._aktualizuj_ledger([], {"event_detected_at": {}}, "2026-07-12T08:01:27Z")
     assert wynik == []
-    assert nowa_mapa == {}
+    assert ledger == {}
 
 
-def test_wb059_finalizuj_wynik_ustawia_detected_at_i_mutuje_pamiec():
+def test_wb060_finalizuj_wynik_ustawia_detected_at_i_mutuje_pamiec():
     """Integracja: finalizuj_wynik() dopisuje detected_at i mutuje pamiec['event_detected_at']."""
     raw = {
         "global_score": 3.0,
@@ -558,10 +638,17 @@ def test_wb059_finalizuj_wynik_ustawia_detected_at_i_mutuje_pamiec():
     assert pamiec["event_detected_at"]
 
 
-def test_wb059_finalizuj_wynik_kontynuacja_zachowuje_detected_at_z_pamieci():
+def test_wb060_finalizuj_wynik_kontynuacja_zachowuje_detected_at_z_pamieci():
     pamiec = {
         "ostatnia_ocena": 3.0,
-        "event_detected_at": {"some fresh headline": "2026-07-01T00:00:00Z"},
+        "event_detected_at": {
+            "some fresh headline": {
+                "detected_at": "2026-07-01T00:00:00Z",
+                "peak_score": 3.0,
+                "peak_sentiment": "neutral",
+                "title": "Some fresh headline",
+            },
+        },
     }
     raw = {
         "global_score": 3.0,

@@ -74,7 +74,7 @@ POZIOMY = [
 SENTYMENTY = ("negative", "positive", "neutral")
 SENTYMENT_DOMYSLNY = "neutral"
 
-# Nowosc (WB-017/WB-032): steruje decay i kotwica events_anchor_at (tylko top_events[0]).
+# Nowosc (WB-017/WB-032): steruje decay (WB-060: MSE nie zalezy od tego pola — argmax peak_score).
 NOWOSC_WARTOSCI = frozenset({"nowe", "kontynuacja"})
 NOWOSC_DOMYSLNA = "kontynuacja"
 # Eventy w odleglosci <= 1.0 od maksimum z mieszanymi sentymentami -> tone neutral (WB-052).
@@ -90,6 +90,9 @@ NOWOSC_MAX_SKOK_BEZ_CZYNU = 2.0
 
 # WB-003: rolling window historii score w JSON publicznym.
 HISTORY_HOURS = 48
+
+# WB-060: okno "Most significant event" (MSE) — argmax(peak_score) wsrod tematow < 24h.
+MSE_OKNO_GODZIN = 24
 
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
@@ -235,6 +238,14 @@ def _parse_iso_utc(ts):
     return dt
 
 
+def _godziny_od(iso, teraz):
+    """WB-060: liczba godzin miedzy iso a teraz (naive UTC); None gdy iso niepoprawny."""
+    try:
+        return (teraz - _parse_iso_utc(iso)).total_seconds() / 3600.0
+    except (ValueError, TypeError):
+        return None
+
+
 def _przytnij_score_history(wpisy, hours=HISTORY_HOURS):
     """Zostawia wpisy score_history z ostatnich `hours` godzin, posortowane rosnaco po t."""
     if not wpisy:
@@ -326,8 +337,6 @@ def zapisz_pamiec(
     ostatnie_powiadomienie_at=None,
     score_history=None,
     events_anchor_at=None,
-    anchor_event_titles=None,
-    sticky_short_summary=None,
     prev_top_event_titles=None,
     event_detected_at=None,
 ):
@@ -341,11 +350,7 @@ def zapisz_pamiec(
     }
     if events_anchor_at is not None:
         dane["events_anchor_at"] = events_anchor_at
-    if anchor_event_titles is not None:
-        dane["anchor_event_titles"] = anchor_event_titles
-    if sticky_short_summary is not None:
-        dane["sticky_short_summary"] = sticky_short_summary
-    # WB-059: pamiec detected_at per top_events (dopasowanie po temacie, patrz _ustaw_detected_at).
+    # WB-060: ledger tematow (detected_at/peak_score/peak_sentiment/title), niezalezny od top-3.
     if event_detected_at is not None:
         dane["event_detected_at"] = event_detected_at
     # WB-050: tytuly top_events z tego cyklu — zbior referencyjny strażnika nowosc w nastepnym cyklu.
@@ -706,44 +711,8 @@ def _event_dla_tematu(temat, top_events):
     return None
 
 
-def _historia_wydarzen_zmieniona(top_events_now, anchor_titles):
-    """
-    True gdy biezace wydarzenia to NOWA historia (WB-030/WB-032).
-    Decyzja: top_events[0].nowosc == "nowe" (nie fuzzy match tytulow).
-    anchor_titles — deprecated dla decyzji (audit/debug w pamieci).
-    """
-    top = top_events_now or []
-    anchor = anchor_titles or []
-
-    if not top and not anchor:
-        return False
-    if anchor and not top:
-        return True
-    if not anchor and top:
-        return True
-
-    return _normalizuj_nowosc(top[0].get("nowosc")) == "nowe"
-
-
-# WB-033: sync fraz z ShortSummaryRules.kt (apka Android)
-_META_SHORT_SUMMARY_PHRASES = (
-    "background noise", "ongoing background", "no new shock", "no new change",
-    "nothing significant", "no significant", "still calm", "still quiet",
-    "without change", "unchanged", "no change", "same as before",
-    "quiet news", "news cycle", "calm period", "routine cycle", "status quo",
-)
+# WB-060: fallback tekst gdy ledger pusty (prawdziwa cisza — brak top_events).
 _QUIET_NEWS_CYCLE = "Quiet news cycle"
-
-
-def _czy_meta_short_summary(text):
-    """Heurystyka meta-tekstow short_summary (EN, case-insensitive). WB-033."""
-    t = (text or "").strip()
-    if not t:
-        return True
-    lower = t.lower()
-    if lower == _QUIET_NEWS_CYCLE.lower():
-        return False
-    return any(phrase in lower for phrase in _META_SHORT_SUMMARY_PHRASES)
 
 
 def _skrot_z_tytulu(title, max_words=5):
@@ -759,74 +728,97 @@ def _skrot_z_tytulu(title, max_words=5):
     return (shortened + "…") if truncated else shortened
 
 
-def _ustaw_short_summary(wynik, pamiec):
-    """WB-033: sticky short_summary — etykieta wydarzenia, nie status cyklu."""
-    wynik = dict(wynik)
-    top = wynik.get("top_events") or []
-    sticky = (pamiec.get("sticky_short_summary") or "").strip()
-
-    if not top:
-        wynik["short_summary"] = _QUIET_NEWS_CYCLE
-        return wynik, {"sticky_short_summary": ""}
-
-    nowosc = _normalizuj_nowosc(top[0].get("nowosc"))
-    candidate = (wynik.get("short_summary") or "").strip()
-
-    if nowosc == "nowe":
-        if not candidate or _czy_meta_short_summary(candidate):
-            candidate = _skrot_z_tytulu(top[0].get("title", ""))
-        wynik["short_summary"] = candidate
-        sticky_update = candidate
-    elif sticky:
-        wynik["short_summary"] = sticky
-        sticky_update = sticky
-    elif candidate and not _czy_meta_short_summary(candidate):
-        wynik["short_summary"] = candidate
-        sticky_update = candidate
-    else:
-        fallback = _skrot_z_tytulu(top[0].get("title", ""))
-        wynik["short_summary"] = fallback
-        sticky_update = fallback
-
-    # WB-051: twarda walidacja — > 12 słów lub średnik → fallback z tytułu
-    # Próg 6 był za restrykcyjny (odrzucał 7-9-słowne poprawne podsumowania → tytuł-fragment).
-    ss = wynik.get("short_summary", "")
-    if ss and (len(ss.split()) > 12 or ";" in ss):
-        fallback = _skrot_z_tytulu(top[0].get("title", ""))
-        print(f"  [uwaga] WB-051: short_summary invalid ({ss!r}) → fallback: {fallback!r}")
-        wynik["short_summary"] = fallback
-        sticky_update = fallback
-
-    return wynik, {"sticky_short_summary": sticky_update}
+def _znormalizuj_ledger_wpis(wpis, ev):
+    """WB-060: migracja starego formatu WB-059 (str ISO) -> dict; defensywne, bez wyjatku."""
+    if isinstance(wpis, dict):
+        return dict(wpis)
+    # stary format: wpis to sam ISO string detected_at
+    return {
+        "detected_at": wpis if isinstance(wpis, str) else ev.get("detected_at"),
+        "peak_score": _ocena_float(ev.get("score", 1)),
+        "peak_sentiment": _normalizuj_sentiment(ev.get("sentiment")),
+        "title": ev.get("title", ""),
+    }
 
 
-def _aktualizuj_events_anchor(wynik, pamiec):
-    """WB-030: kotwica historii wydarzen (nie szczyt score)."""
-    top = wynik.get("top_events") or []
-    anchor_titles = pamiec.get("anchor_event_titles") or []
-    anchor_at = pamiec.get("events_anchor_at")
-    ts = wynik["updated_at"]
+def _aktualizuj_ledger(top_events, pamiec, updated_at):
+    """WB-060: ledger tematow niezalezny od top-3, retencja wg wieku (MSE_OKNO_GODZIN).
 
-    if anchor_at is None:
-        wynik = dict(wynik)
-        wynik["events_anchor_at"] = ts
-        pamiec_update = {
-            "events_anchor_at": ts,
-            "anchor_event_titles": [e.get("title", "") for e in top[:3]],
-        }
-        return wynik, pamiec_update
+    Kazdy wpis: {detected_at, peak_score, peak_sentiment, title}.
+    - Nowy temat (brak dopasowania _tematy_pasuja) -> nowy wpis, detected_at = updated_at.
+    - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title podbite TYLKO
+      gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" zamrozona razem).
+    - Wpisy nieobecne w biezacym top_events: zachowane, dopoki wiek < MSE_OKNO_GODZIN.
+    Zwraca (top_events_z_detected_at, nowy_ledger) do zapisu w pamiec_{lens}.json.
+    """
+    stara_mapa_raw = pamiec.get("event_detected_at") or {}
+    teraz = _parse_iso_utc(updated_at)
 
-    if _historia_wydarzen_zmieniona(top, anchor_titles):
-        titles = [e.get("title", "") for e in top[:3]]
-        wynik = dict(wynik)
-        wynik["events_anchor_at"] = ts
-        pamiec_update = {"events_anchor_at": ts, "anchor_event_titles": titles}
-    else:
-        wynik = dict(wynik)
-        wynik["events_anchor_at"] = anchor_at
-        pamiec_update = {}
+    nowy_ledger = {}
+    dopasowane = set()
 
-    return wynik, pamiec_update
+    for ev in top_events or []:
+        title = ev.get("title", "")
+        score = _ocena_float(ev.get("score", 1))
+        sentiment = _normalizuj_sentiment(ev.get("sentiment"))
+
+        wpis = None
+        stary_klucz = None
+        for klucz, raw_wpis in stara_mapa_raw.items():
+            if _tematy_pasuja(title, klucz):
+                wpis = _znormalizuj_ledger_wpis(raw_wpis, ev)
+                stary_klucz = klucz
+                break
+
+        if wpis is None:
+            wpis = {
+                "detected_at": updated_at,
+                "peak_score": score,
+                "peak_sentiment": sentiment,
+                "title": title,
+            }
+        else:
+            if score > wpis.get("peak_score", 0):
+                wpis["peak_score"] = score
+                wpis["peak_sentiment"] = sentiment
+                wpis["title"] = title
+            dopasowane.add(stary_klucz)
+
+        ev["detected_at"] = wpis["detected_at"]
+        nowy_ledger[title.lower().strip()] = wpis
+
+    # retencja: wpisy spoza biezacego top_events, jesli jeszcze w oknie 24h
+    for klucz, raw_wpis in stara_mapa_raw.items():
+        if klucz in dopasowane:
+            continue
+        wpis = _znormalizuj_ledger_wpis(raw_wpis, {})
+        wiek = _godziny_od(wpis.get("detected_at"), teraz)
+        if wiek is not None and wiek < MSE_OKNO_GODZIN:
+            nowy_ledger.setdefault(klucz, wpis)
+
+    return top_events, nowy_ledger
+
+
+def _wybierz_mse(ledger, updated_at):
+    """WB-060: MSE = argmax(peak_score) wsrod wpisow < MSE_OKNO_GODZIN. Remis -> starszy detected_at wygrywa."""
+    teraz = _parse_iso_utc(updated_at)
+    kandydaci = []
+    for wpis_raw in (ledger or {}).values():
+        wpis = wpis_raw if isinstance(wpis_raw, dict) else {}
+        wiek = _godziny_od(wpis.get("detected_at"), teraz)
+        if wiek is None or wiek >= MSE_OKNO_GODZIN:
+            continue
+        kandydaci.append(wpis)
+    if not kandydaci:
+        return None
+    kandydaci.sort(key=lambda w: (-_ocena_float(w.get("peak_score", 1)), w.get("detected_at", "")))
+    champion = kandydaci[0]
+    return {
+        "label": _skrot_z_tytulu(champion.get("title", "")),
+        "score": _ocena_float(champion.get("peak_score", 1)),
+        "sentiment": champion.get("peak_sentiment"),
+        "detected_at": champion.get("detected_at"),
+    }
 
 
 def _zastosuj_decay_lens(wynik, pamiec):
@@ -1181,7 +1173,7 @@ def _wynik_ze_skip(poprzedni_wynik, pamiec):
     """WB-053B: rekonstruuje 'raw' wynik cyklu pominietego (skip gate — brak nowych naglowkow).
 
     Wszystkie top_events oznaczone jako "kontynuacja" — dalszy pipeline (postprocess/decay,
-    _ustaw_short_summary, source_links, finalizuj_wynik) dziala identycznie jak w cyklu z AI,
+    source_links, finalizuj_wynik/ledger MSE) dziala identycznie jak w cyklu z AI,
     tylko bez nowego wywolania modelu. stan_swiata bierzemy z pamieci (bez nowe_tematy —
     nic nowego nie mogło sie pojawic, bo naglowki sa identyczne).
     """
@@ -1362,27 +1354,6 @@ def wyslij_powiadomienie(wynik):
         print(f"  [uwaga] Nie udalo sie wyslac powiadomienia: {e}")
 
 
-def _ustaw_detected_at(top_events, pamiec, updated_at):
-    """WB-059: ustawia/przenosi detected_at per top_events (dopasowanie po temacie).
-
-    Pierwsze wejscie tematu -> detected_at = updated_at biezacego cyklu.
-    Kontynuacja (dopasowanie _tematy_pasuja) -> detected_at przenoszony bez zmian.
-    Zwraca (top_events_z_detected_at, nowa_mapa_pamieci) do zapisu w pamiec_{lens}.json.
-    """
-    stara_mapa = pamiec.get("event_detected_at") or {}
-    nowa_mapa = {}
-    for ev in top_events or []:
-        title = ev.get("title", "")
-        istniejacy_iso = None
-        for stary_tytul, iso in stara_mapa.items():
-            if _tematy_pasuja(title, stary_tytul):
-                istniejacy_iso = iso
-                break
-        ev["detected_at"] = istniejacy_iso or updated_at
-        nowa_mapa[title.lower().strip()] = ev["detected_at"]
-    return top_events, nowa_mapa
-
-
 def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
     """Dodaje metadane publiczne (level, trend, lens) do wyniku lensu."""
     ocena = _ocena_float(raw.get("global_score", 1))
@@ -1403,9 +1374,10 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
         wynik["top_events"] = _ensure_event_nowosc(wynik["top_events"])
     # WB-013: globalny tone liczony deterministycznie (nie przez model).
     wynik["tone"] = _wylicz_tone(wynik.get("top_events") or [])
-    # WB-059: detected_at per top_events — ustawione/przeniesione po tytule (przed return).
+    # WB-060: ledger tematow (detected_at/peak_score/peak_sentiment/title) — scalany, retencja
+    # niezalezna od top-3 (przed return; _wybierz_mse czyta ten ledger pozniej w main()).
     if wynik.get("top_events"):
-        wynik["top_events"], pamiec["event_detected_at"] = _ustaw_detected_at(
+        wynik["top_events"], pamiec["event_detected_at"] = _aktualizuj_ledger(
             wynik["top_events"], pamiec, wynik["updated_at"]
         )
     return wynik
@@ -1481,8 +1453,6 @@ def main():
 
     def _finalizuj_po_postprocess(raw, lid):
         raw = _postprocess_wynik_lens(raw, pamieci[lid])
-        raw, pamiec_update = _ustaw_short_summary(raw, pamieci[lid])
-        pamieci[lid].update(pamiec_update)
         if raw.get("top_events"):
             raw["top_events"] = _dopasuj_linki_zrodla(raw["top_events"], naglowki)
         return finalizuj_wynik(raw, lid, lens_names[lid], pamieci[lid], len(naglowki))
@@ -1529,9 +1499,17 @@ def main():
                 nowy_pl_powiad = datetime.datetime.utcnow().isoformat() + "Z"
                 powiad_at = nowy_pl_powiad
 
-        # WB-030: kotwica wydarzen — po finalizuj_wynik, przed score_history.
-        wynik, pamiec_update = _aktualizuj_events_anchor(wynik, pamieci[lid])
-        pamieci[lid].update(pamiec_update)
+        # WB-060: MSE (peak_score, okno 24h) — po finalizuj_wynik (ledger juz zaktualizowany
+        # w pamieci[lid]["event_detected_at"]), przed score_history.
+        mse = _wybierz_mse(pamieci[lid].get("event_detected_at"), wynik["updated_at"])
+        if mse:
+            wynik["most_significant_event"] = mse
+            wynik["short_summary"] = mse["label"]           # legacy mirror (WB-033)
+            wynik["events_anchor_at"] = mse["detected_at"]   # legacy mirror (WB-030)
+        else:
+            wynik["most_significant_event"] = None
+            wynik["short_summary"] = _QUIET_NEWS_CYCLE
+            wynik["events_anchor_at"] = wynik["updated_at"]
         wyniki_finalne[lid] = wynik
 
         # WB-003: historia score — po kotwicy, przed zapisem JSON i pamieci.
@@ -1546,9 +1524,7 @@ def main():
             ocena,
             powiad_at,
             score_history=historia,
-            events_anchor_at=pamieci[lid].get("events_anchor_at"),
-            anchor_event_titles=pamieci[lid].get("anchor_event_titles"),
-            sticky_short_summary=pamieci[lid].get("sticky_short_summary", ""),
+            events_anchor_at=wynik.get("events_anchor_at"),
             prev_top_event_titles=[e.get("title", "") for e in (wynik.get("top_events") or [])][:3],
             event_detected_at=pamieci[lid].get("event_detected_at"),
         )
