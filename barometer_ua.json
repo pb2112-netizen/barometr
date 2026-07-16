@@ -1,13 +1,12 @@
 {
-  "global_score": 2.8,
-  "short_summary": "Russian strikes kill eight civilians across four Ukrainian regions",
-  "rationale": "Russian multi-region strikes kill 14 civilians across Ukraine in confirmed escalation; Ukrainian forces hit 20 Russian Black Sea vessels in major naval operation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Russian strikes kill 14 civilians across multiple Ukrainian regions while Ukraine hits 20 Black Sea vessels, escalating combat intensity. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-      "label": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-      "summary": "Russian attacks kill 14 civilians across multiple Ukrainian regions in confirmed escalation, while Ukrainian forces successfully target 20 Russian vessels in the Black Sea.",
-      "score": 2.8,
+      "label": "Russian attacks kill 14 across Ukraine, Kyiv hits Black Sea tankers",
+      "summary": "Multi-region Russian strikes kill 14 civilians across Ukrainian territory while Ukraine targets 20 Russian vessels in Black Sea, marking escalation in combat intensity and civilian casualties.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,11 +23,11 @@
     },
     {
       "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "label": "US launches new Iran strikes as Trump threatens further military action",
-      "summary": "Confirmed new round of US military strikes on Iran may divert US attention and resources away from supporting Ukraine in its war with Russia.",
-      "score": 2.0,
+      "label": "US launches new strikes on Iran, Trump warns Tehran to behave",
+      "summary": "Confirmed new round of US military strikes on Iran escalates Middle East confrontation, potentially diverting US military focus and resources away from Ukraine support.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -40,13 +39,33 @@
         }
       ],
       "detected_at": "2026-07-14T18:16:08.566310Z"
+    },
+    {
+      "title": "Wildfires in Ontario make Toronto air quality worst in world",
+      "label": "Ontario wildfires create worst air quality in Toronto globally",
+      "summary": "Over 100 active wildfires in northern Ontario produce severe smoke affecting major Canadian city, demonstrating climate-driven disaster risk in developed economies.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
+        }
+      ],
+      "detected_at": "2026-07-16T00:01:55.745448Z"
     }
   ],
-  "level_label": "Stable",
+  "short_summary": "Russian strikes kill eight civilians across four Ukrainian regions",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-15T23:10:47.850301Z",
+  "updated_at": "2026-07-16T00:01:55.745448Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -57,14 +76,6 @@
   },
   "events_anchor_at": "2026-07-15T04:01:52.130446Z",
   "score_history": [
-    {
-      "t": "2026-07-13T23:11:24.387374Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-07-14T00:01:52.648800Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-14T00:05:46.070682Z",
       "s": 3.5
@@ -364,6 +375,10 @@
     {
       "t": "2026-07-15T23:10:47.850301Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-16T00:01:55.745448Z",
+      "s": 3.0
     }
   ]
 }
