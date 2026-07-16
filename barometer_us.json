@@ -1,62 +1,38 @@
 {
-  "global_score": 6.0,
-  "rationale": "US military launches confirmed wave of strikes on Iranian military bases, directly involving American forces in escalating Middle East conflict.",
+  "global_score": 5.7,
+  "rationale": "US launches confirmed strikes on Iranian military bases in major escalation; new 25% tariffs on Brazil enacted; Ontario wildfires create worst global air quality in Toronto. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran targets military bases as US launches wave of strikes",
-      "label": "US military launches wave of strikes on Iranian military bases",
-      "summary": "US forces conduct confirmed strikes on Iranian military targets overnight, directly involving American military in escalating Middle East conflict with potential for wider regional war and oil market disruption.",
-      "score": 6.0,
+      "title": "US launches new wave of strikes on Iran as Tehran targets Gulf sites",
+      "label": "US military strikes Iranian bases as Tehran hits Kuwait and Jordan",
+      "summary": "Confirmed US military action against Iranian bases with Iranian counter-strikes in Gulf region marks major escalation, raising oil price risks and direct US military involvement.",
+      "score": 5.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/16/us-launches-new-attacks-on-iran-as-tehran-targets-gulf-sites?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/aje-onl-nf_iran-strikes-gulf-nations-even-as-fm-visits-qatar-150726?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
-      "title": "Toronto engulfed by wildfire smoke as US cities threatened",
-      "label": "Ontario wildfires threaten US cities with worst air quality",
-      "summary": "Over 100 active wildfires in northern Ontario create worst global air quality in Toronto and threaten US border cities with smoke and health warnings.",
-      "score": 4.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/16/toronto-engulfed-by-wildfire-smoke-as-us-cities-threatened?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
       "title": "Brazil condemns US move to impose 25% tariffs next week",
-      "label": "US to impose 25 percent tariffs on Brazil next week",
-      "summary": "Trump administration announces 25% tariffs on Brazil starting next week, escalating trade tensions with major South American partner and affecting American consumers and businesses.",
-      "score": 3.0,
+      "label": "US imposes 25% tariffs on Brazil starting next week",
+      "summary": "New 25% tariffs on Brazil enacted following trade investigation, escalating trade war with major partner and raising consumer prices for US residents.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -68,14 +44,33 @@
         }
       ],
       "detected_at": "2026-07-16T06:02:03.958096Z"
+    },
+    {
+      "title": "Wildfires in Ontario make Toronto air quality worst in world",
+      "label": "Ontario wildfires create worst global air quality in Toronto",
+      "summary": "Over 100 active fires in northern Ontario create severe air quality crisis in major North American city with health warnings issued, affecting cross-border air quality.",
+      "score": 3.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
     }
   ],
   "short_summary": "Brazil condemns US move to impose 25% tariffs next week",
   "level_label": "Elevated",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T08:01:54.532183Z",
+  "updated_at": "2026-07-16T09:01:56.999882Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-16T06:02:03.958096Z",
   "score_history": [
-    {
-      "t": "2026-07-14T09:01:50.386367Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-14T09:16:22.844429Z",
       "s": 3.4
@@ -389,6 +380,10 @@
     {
       "t": "2026-07-16T08:01:54.532183Z",
       "s": 6.0
+    },
+    {
+      "t": "2026-07-16T09:01:56.999882Z",
+      "s": 5.7
     }
   ]
 }
