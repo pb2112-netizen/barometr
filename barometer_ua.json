@@ -1,12 +1,11 @@
 {
-  "global_score": 2.0,
-  "short_summary": "Syria arrests former colonel accused of sarin gas production",
-  "rationale": "Russian strikes kill 14 across multiple Ukrainian regions, directly threatening civilian life; Ukraine retaliates against Black Sea tankers, escalating maritime combat during ongoing war. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Russian strikes kill 14 civilians across multiple Ukrainian regions while Kyiv hits Black Sea tankers, maintaining high-intensity combat directly affecting Ukrainian daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
       "label": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-      "summary": "Multi-region Russian attacks cause 14 civilian deaths across Ukraine; Ukrainian forces retaliate against 20 Russian vessels in Black Sea, escalating maritime combat.",
+      "summary": "Russian attacks kill 14 civilians across multiple Ukrainian regions while Ukrainian forces strike 20 Russian vessels in Black Sea, continuing high-intensity combat directly threatening Ukrainian lives and infrastructure.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,9 +22,28 @@
       "detected_at": "2026-07-15T04:01:52.130446Z"
     },
     {
+      "title": "Iran targets military bases as US launches wave of strikes",
+      "label": "US launches wave of strikes on Iranian military bases overnight",
+      "summary": "Confirmed US military strikes on Iranian territory escalate Middle East conflict, potentially diverting US military focus and resources away from Ukraine support.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T18:16:08.566310Z"
+    },
+    {
       "title": "Two killed in Russian missile fire on Kyiv after Ukraine-EU drone deal",
-      "label": "Russian missile fire kills two in Kyiv after Ukraine-EU drone deal",
-      "summary": "Russian missile strikes on capital kill two and spark fires across Kyiv, directly threatening residents' lives during ongoing war.",
+      "label": "Russian missile fire kills two in Kyiv after drone deal",
+      "summary": "Russian missile strikes on capital Kyiv kill two people and spark fires across the city, continuing direct attacks on Ukrainian population centers.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -40,32 +58,14 @@
         }
       ],
       "detected_at": "2026-07-15T04:01:52.130446Z"
-    },
-    {
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "label": "US launches fresh strikes on Iran as Trump warns Tehran it 'better",
-      "summary": "US military escalation in Middle East may divert Western attention and resources from Ukraine, indirectly affecting aid and support levels.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T18:16:08.566310Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Syria arrests former colonel accused of sarin gas production",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-16T07:01:32.595049Z",
+  "updated_at": "2026-07-16T08:01:54.531048Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,14 +76,6 @@
   },
   "events_anchor_at": "2026-07-15T20:01:51.748792Z",
   "score_history": [
-    {
-      "t": "2026-07-14T07:01:51.877528Z",
-      "s": 2.1
-    },
-    {
-      "t": "2026-07-14T08:01:49.053108Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-14T09:01:50.385594Z",
       "s": 2.0
@@ -383,6 +375,10 @@
     {
       "t": "2026-07-16T07:01:32.595049Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-16T08:01:54.531048Z",
+      "s": 3.0
     }
   ]
 }

@@ -1,39 +1,48 @@
 {
-  "global_score": 4.3,
-  "short_summary": "Brazil condemns US move to impose 25% tariffs next week",
-  "rationale": "US launches fresh military strikes on Iran with Trump threatening further action, directly involving US forces in Middle East escalation; Ontario wildfires create worst global air quality in Toronto, threatening US border cities. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.0,
+  "rationale": "US military launches confirmed wave of strikes on Iranian military bases, directly involving American forces in escalating Middle East conflict.",
   "top_events": [
     {
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "label": "US launches fresh strikes on Iran as Trump warns Tehran it 'better",
-      "summary": "Confirmed US military action escalates Middle East conflict, directly involving American forces and raising oil market risks for US economy.",
-      "score": 2.0,
+      "title": "Iran targets military bases as US launches wave of strikes",
+      "label": "US military launches wave of strikes on Iranian military bases",
+      "summary": "US forces conduct confirmed strikes on Iranian military targets overnight, directly involving American military in escalating Middle East conflict with potential for wider regional war and oil market disruption.",
+      "score": 6.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/aje-onl-nf_iran-strikes-gulf-nations-even-as-fm-visits-qatar-150726?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Wildfires in Ontario make Toronto air quality worst in world",
-      "label": "Ontario wildfires create worst global air quality in Toronto",
-      "summary": "Over 100 fires produce severe air pollution in major North American city near US border, threatening air quality in northern US states.",
-      "score": 4.3,
+      "title": "Toronto engulfed by wildfire smoke as US cities threatened",
+      "label": "Ontario wildfires threaten US cities with worst air quality",
+      "summary": "Over 100 active wildfires in northern Ontario create worst global air quality in Toronto and threaten US border cities with smoke and health warnings.",
+      "score": 4.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/16/toronto-engulfed-by-wildfire-smoke-as-us-cities-threatened?traffic_source=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
@@ -43,11 +52,11 @@
     },
     {
       "title": "Brazil condemns US move to impose 25% tariffs next week",
-      "label": "Brazil condemns US move to impose 25% tariffs next week",
-      "summary": "Trade office announces new tariffs on Brazilian goods, escalating trade tensions and potentially raising consumer prices for US residents.",
-      "score": 4.0,
+      "label": "US to impose 25 percent tariffs on Brazil next week",
+      "summary": "Trump administration announces 25% tariffs on Brazil starting next week, escalating trade tensions with major South American partner and affecting American consumers and businesses.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -61,11 +70,12 @@
       "detected_at": "2026-07-16T06:02:03.958096Z"
     }
   ],
-  "level_label": "Low",
-  "trend": "stable",
+  "short_summary": "Brazil condemns US move to impose 25% tariffs next week",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T07:01:32.595852Z",
+  "updated_at": "2026-07-16T08:01:54.532183Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,14 +86,6 @@
   },
   "events_anchor_at": "2026-07-16T06:02:03.958096Z",
   "score_history": [
-    {
-      "t": "2026-07-14T07:01:51.878279Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-07-14T08:01:49.053984Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-14T09:01:50.386367Z",
       "s": 3.0
@@ -383,6 +385,10 @@
     {
       "t": "2026-07-16T07:01:32.595852Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-07-16T08:01:54.532183Z",
+      "s": 6.0
     }
   ]
 }
