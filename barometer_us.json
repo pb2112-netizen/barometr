@@ -1,12 +1,12 @@
 {
-  "global_score": 3.4,
-  "rationale": "More than 800 Canadian wildfires create hazardous air quality across 20 US states from Minnesota to New York, directly affecting millions of Americans' health and daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Canadian wildfires create hazardous air quality across 20 US states from Minnesota to New York, affecting millions; Texas floods hit same area devastated last year. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
       "label": "Canadian wildfires create hazardous air quality across 20 US states",
-      "summary": "Smoke from over 100 Ontario fires makes Toronto air quality worst in world and spreads hazardous conditions to millions of Americans in Michigan, Minnesota, and New York. Authorities urge people to stay indoors.",
-      "score": 3.4,
+      "summary": "Over 800 active wildfires in Ontario produce smoke spreading across 20 US states, creating hazardous air quality from Michigan to New York and affecting millions of Americans with health warnings to stay indoors.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -27,29 +27,10 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Iran targets military bases as US launches wave of strikes",
-      "label": "US launches new wave of strikes on Iranian military bases",
-      "summary": "Confirmed US military action in the Gulf continues escalation with Iran. Affects oil markets and risks broader Middle East conflict involving US forces.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
       "title": "At least one dead in Texas floods ravaging same area where campers died",
-      "label": "Texas floods hit same area devastated last year with 130 deaths",
-      "summary": "Flooding returns to Texas region where Camp Mystic disaster killed over 130 people last year. At least one confirmed death as same communities face repeated catastrophic flooding.",
-      "score": 2.8,
+      "label": "Texas floods hit Camp Mystic area again, at least one dead",
+      "summary": "Floods strike the same Texas region devastated last year when over 130 people died including campers at Camp Mystic, with at least one confirmed death in the repeat disaster.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
@@ -63,6 +44,25 @@
         }
       ],
       "detected_at": "2026-07-16T18:01:48.519569Z"
+    },
+    {
+      "title": "Iran targets military bases as US launches wave of strikes",
+      "label": "US launches new wave of strikes on Iranian military bases",
+      "summary": "Confirmed US military strikes on Iranian bases continue Gulf escalation, maintaining direct US military involvement and pressure on oil markets with potential domestic energy price impact.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
     }
   ],
   "short_summary": "US military launches wave of strikes on Iranian military bases",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T18:01:48.519569Z",
+  "updated_at": "2026-07-16T18:19:14.465516Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,14 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-14T18:02:02.867983Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-07-14T18:16:08.567065Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-14T19:01:53.506642Z",
       "s": 2.3
@@ -388,6 +380,10 @@
     {
       "t": "2026-07-16T18:01:48.519569Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-16T18:19:14.465516Z",
+      "s": 3.2
     }
   ]
 }
