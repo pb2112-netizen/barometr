@@ -1,18 +1,19 @@
 {
-  "global_score": 3.1,
-  "rationale": "Canadian wildfires continue creating worst air quality crisis affecting 20 US states; US-Iran strikes and Texas floods ongoing without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Canadian wildfire smoke affects 20 US states with air quality alerts; US-Iran strikes continue; Texas floods hit same area again. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
-      "label": "Over 800 Canadian wildfires create air quality alerts across 20 US states",
-      "summary": "More than 800 wildfires in Ontario have made Toronto's air quality the worst in the world, with smoke spreading across 20 US states from Minnesota to New York, prompting widespread health warnings.",
-      "score": 3.1,
+      "label": "Canadian wildfire smoke triggers air quality alerts across 20 US states",
+      "summary": "Over 800 blazes in Ontario create worst global air quality in Toronto and spread smoke from New York to Midwest, affecting millions with health warnings. Continues known pattern with expanded geographic impact.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -22,15 +23,19 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/wildfire-smoke-blankets-world-cup-final-stadium-before-kickoff?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
       "title": "At least one dead in Texas floods ravaging same area where campers died",
-      "label": "Texas floods hit same region devastated by disaster that killed 130 last year",
-      "summary": "Flooding strikes the same Texas area hit by last year's disaster that killed over 130 people, with at least one confirmed death. Repeat disaster in vulnerable region.",
-      "score": 2.5,
+      "label": "Texas floods kill at least one in area devastated last year",
+      "summary": "Same region hit by floods that killed over 130 last year is flooded again with at least one confirmed death. Repeat disaster in known vulnerable area.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -47,9 +52,9 @@
     },
     {
       "title": "Blasts reported in Iran as US launches new wave of strikes",
-      "label": "US military conducts sixth consecutive night of strikes on Iranian targets",
-      "summary": "US forces continue military operations against Iran for sixth straight day, targeting airports, bridges, and communications infrastructure. Direct US military involvement maintains escalation risk.",
-      "score": 2.2,
+      "label": "US launches sixth consecutive night of military strikes on Iran",
+      "summary": "US continues military campaign against Iranian targets for sixth straight day, aiming to degrade military capabilities. Direct US military involvement continues without qualitative escalation.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -75,7 +80,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T22:15:02.315848Z",
+  "updated_at": "2026-07-16T23:01:38.070105Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -389,6 +394,10 @@
     {
       "t": "2026-07-16T22:15:02.315848Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-16T23:01:38.070105Z",
+      "s": 3.0
     }
   ]
 }
