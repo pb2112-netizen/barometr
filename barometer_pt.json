@@ -1,59 +1,11 @@
 {
-  "global_score": 2.3,
-  "rationale": "Canada wildfires spread smoke across North America affecting air quality in major cities; US-Iran strikes continue with indirect EU energy implications. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "rationale": "Brazil faces US 25% tariffs affecting Lusophone partner economy; distant conflicts and disasters have minimal direct impact on Portuguese daily life.",
   "top_events": [
     {
-      "title": "Canada wildfires spread smoke across North America, prompting air quality alerts",
-      "label": "Canadian wildfires create air quality alerts across North America",
-      "summary": "More than 800 wildfires in Canada spread smoke across North America, prompting air quality concerns in Toronto, New York, and large parts of US Midwest. Shows continued climate-driven disaster pattern.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
-        }
-      ],
-      "detected_at": "2026-07-16T19:01:39.578737Z"
-    },
-    {
-      "title": "Iran targets military bases as US launches wave of strikes",
-      "label": "US launches new wave of strikes on Iranian military bases",
-      "summary": "Confirmed US military strikes on Iranian bases overnight. Continues Middle East escalation with potential indirect impact on EU energy prices and Atlantic shipping routes.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/what-could-a-us-ground-invasion-of-iran-look-like?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.011553Z"
-    },
-    {
       "title": "Brazil vows to retaliate if US imposes 25% tariffs on some of its products",
-      "label": "Brazil vows retaliation against US 25% tariffs on products",
-      "summary": "Brazil announces plans to retaliate against US decision to impose 25% tariffs. Affects major Lusophone partner economy with potential indirect trade implications for Portugal.",
+      "label": "Brazil vows retaliation as US imposes 25% tariffs on products",
+      "summary": "US imposes 25% tariffs on Brazilian products, prompting retaliation vow from President Lula. Trade war affects Portugal's major Lusophone partner economy and could impact bilateral trade.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -68,16 +20,54 @@
         }
       ],
       "detected_at": "2026-07-16T08:01:54.530431Z"
+    },
+    {
+      "title": "Iran targets military bases as US launches wave of strikes",
+      "label": "US launches strikes on Iranian bases as Middle East conflict escalates",
+      "summary": "US conducts wave of strikes on Iranian military bases with explosions heard across Iran. Distant escalation could indirectly affect EU energy prices if shipping disrupted.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "Canada wildfires spread smoke across North America, prompting air quality alerts",
+      "label": "Canadian wildfires spread smoke across North America with air alerts",
+      "summary": "Over 800 wildfires in Canada create air quality concerns across North America from Toronto to New York. Distant disaster with no direct impact on Portugal.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-16T19:01:39.578737Z"
     }
   ],
   "short_summary": "US launches wave of strikes on Iranian military bases overnight",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-16T20:01:39.214914Z",
+  "updated_at": "2026-07-16T20:10:59.245604Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US launches wave of strikes on Iranian military bases overnight",
     "score": 4.8,
@@ -86,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-14T20:01:57.016082Z",
-      "s": 2.3
-    },
     {
       "t": "2026-07-14T21:02:09.574002Z",
       "s": 2.2
@@ -389,6 +375,10 @@
     {
       "t": "2026-07-16T20:01:39.214914Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-07-16T20:10:59.245604Z",
+      "s": 2.2
     }
   ]
 }
