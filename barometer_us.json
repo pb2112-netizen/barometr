@@ -1,63 +1,59 @@
 {
-  "global_score": 2.6,
-  "rationale": "US launches fresh strikes on Iran with Trump warning Tehran — continuation of Hormuz escalation with confirmed military action but no qualitative policy shift; Ontario wildfires create worst global air quality in Toronto affecting cross-border region. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.6,
+  "rationale": "Ontario wildfires have created the worst air quality in the world in Toronto, with smoke threatening US cities and direct health impacts for Americans in affected regions. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "label": "US launches fresh strikes on Iran as Trump warns Tehran it 'better",
-      "summary": "New round of US strikes on Iran continues Hormuz military escalation with Trump rhetoric about 'finishing off' Iran — confirmed action but no qualitative policy shift beyond existing engagement.",
-      "score": 2.2,
+      "title": "Toronto engulfed by wildfire smoke as US cities threatened",
+      "label": "Ontario wildfires create worst global air quality, threatening US cities with smoke",
+      "summary": "Over 100 active wildfires in northern Ontario have made Toronto's air quality the worst in the world, with smoke spreading to threaten US cities. Environment Canada has issued health warnings as skies turn yellow and orange, directly affecting air quality and health for Americans in border regions.",
+      "score": 4.6,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian",
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/16/toronto-engulfed-by-wildfire-smoke-as-us-cities-threatened?traffic_source=rss"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/aje-onl-nf_iran-strikes-gulf-nations-even-as-fm-visits-qatar-150726?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Wildfires in Ontario make Toronto air quality worst in world",
-      "label": "Ontario wildfires make Toronto air quality worst globally",
-      "summary": "Over 100 active wildfires in northern Ontario turned Toronto skies yellow with worst air quality in the world — cross-border environmental crisis affecting US northern states with health warnings.",
-      "score": 2.6,
+      "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
+      "label": "US conducts new military strikes on Iran as Trump threatens further action",
+      "summary": "The US launched another round of strikes on Iranian targets, with Trump stating he has not decided whether to 'finish off' Iran. Continued escalation involving US forces in the Middle East, though the fundamental situation remains unchanged.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "Guardian",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/celebrations-erupt-in-argentinas-capital-after-world-cup-semifinal-win?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
       "title": "New US Ebola patient arrives in Germany for treatment",
-      "label": "New US Ebola patient arrives in Germany for treatment",
-      "summary": "US aid worker infected with Ebola in DRC evacuated to Berlin as Trump administration bars Americans from commercial flights — continuation of health security measures with limited domestic impact.",
+      "label": "US aid worker infected with Ebola evacuated to Germany for treatment",
+      "summary": "A US aid worker who contracted Ebola in the Democratic Republic of the Congo has been evacuated to Germany for treatment. The Trump administration continues to bar Americans from traveling to the US on commercial flights, maintaining existing health security measures.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
         "Guardian"
       ],
@@ -71,11 +67,11 @@
     }
   ],
   "short_summary": "Senate questions Justice Department head Blanche's independence from Trump",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T03:01:59.029001Z",
+  "updated_at": "2026-07-16T03:34:56.159924Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +82,6 @@
   },
   "events_anchor_at": "2026-07-15T16:01:57.492291Z",
   "score_history": [
-    {
-      "t": "2026-07-14T03:31:27.700487Z",
-      "s": 3.2
-    },
     {
       "t": "2026-07-14T04:01:48.977632Z",
       "s": 3.1
@@ -389,6 +381,10 @@
     {
       "t": "2026-07-16T03:01:59.029001Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-07-16T03:34:56.159924Z",
+      "s": 4.6
     }
   ]
 }
