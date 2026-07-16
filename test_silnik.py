@@ -590,11 +590,11 @@ def test_wb062_reeskalacja_po_24h_od_detected_at_wygrywa_mse():
     assert mse["detected_at"] == "2026-07-15T04:01:52Z"  # UI nadal pierwsze wykrycie
 
 
-def test_wb062_migracja_brak_peak_at_blisko_peaku_odswieza_okno():
-    """Brak peak_at + score blisko peak_score -> peak_at=teraz (naprawia ledger produkcyjny bez pola)."""
+def test_wb062_migracja_brak_peak_at_aktywny_top_odswieza_okno():
+    """Brak peak_at + temat w top (nawet po decayu daleko od peaku) -> peak_at=teraz."""
     top = [{
         "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
-        "score": 7.4,
+        "score": 6.9,  # daleko od peak 7.9 — stary slack 0.6 by tu zawiodl
         "sentiment": "negative",
         "label": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
     }]
@@ -609,7 +609,7 @@ def test_wb062_migracja_brak_peak_at_blisko_peaku_odswieza_okno():
             },
         },
     }
-    teraz = "2026-07-16T12:01:26.886280Z"
+    teraz = "2026-07-16T12:41:12.940593Z"
 
     _, ledger = silnik._aktualizuj_ledger(top, pamiec, teraz)
     klucz = "protests in ukraine's cities against zelensky's removal of defence minister"
@@ -629,6 +629,45 @@ def test_wb062_migracja_brak_peak_at_blisko_peaku_odswieza_okno():
     mse = silnik._wybierz_mse({**ledger, **syria}, teraz)
     assert mse["score"] == 7.9
     assert "protests" in mse["label"].lower()
+
+
+def test_wb062_heal_wygasly_peak_at_gdy_temat_nadal_w_top():
+    """Regresja po cyklu WB-062: peak_at skopiowany z detected_at (~32h) — heal przy kontakcie z top."""
+    top = [{
+        "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+        "score": 6.9,
+        "sentiment": "negative",
+        "label": "Hundreds protest in Kyiv over Zelensky's dismissal of defense minister",
+    }]
+    pamiec = {
+        "event_detected_at": {
+            "protests in ukraine's cities against zelensky's removal of defence minister": {
+                "detected_at": "2026-07-15T04:01:52.130446Z",
+                "peak_at": "2026-07-15T04:01:52.130446Z",  # zla migracja = detected_at
+                "peak_score": 7.9,
+                "peak_sentiment": "negative",
+                "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+                "peak_label": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
+            },
+            "syrian authorities arrest ex-officer accused of chemical weapons crimes": {
+                "detected_at": "2026-07-15T20:01:51.748792Z",
+                "peak_at": "2026-07-15T20:01:51.748792Z",
+                "peak_score": 2.0,
+                "peak_sentiment": "positive",
+                "title": "Syrian authorities arrest ex-officer accused of chemical weapons crimes",
+                "peak_label": "Syria arrests former colonel accused of sarin gas production",
+            },
+        },
+    }
+    teraz = "2026-07-16T12:41:12.940593Z"
+
+    _, ledger = silnik._aktualizuj_ledger(top, pamiec, teraz)
+    klucz = "protests in ukraine's cities against zelensky's removal of defence minister"
+    assert ledger[klucz]["peak_at"] == teraz  # odswiezone mimo decayu
+
+    mse = silnik._wybierz_mse(ledger, teraz)
+    assert mse["score"] == 7.9
+    assert "protests" in mse["label"].lower() or "protest" in mse["label"].lower()
 
 
 def test_wb062_peak_at_stary_wyklucza_mimo_swiezego_detected_at():

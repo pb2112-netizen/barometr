@@ -92,11 +92,8 @@ NOWOSC_MAX_SKOK_BEZ_CZYNU = 2.0
 HISTORY_HOURS = 48
 
 # WB-060/WB-062: okno MSE — argmax(peak_score) wsrod tematow z peak_at < 24h
-# (nie od pierwszego detected_at — re-eskalacja po >24h musi moc wrocic do rankingu).
+# (nie od pierwszego detected_at — re-eskalacja / aktywny top odswieza peak_at).
 MSE_OKNO_GODZIN = 24
-# Migracja ledgerow bez peak_at: uznaj szczyt za swiezy, gdy biezacy score
-# jest w tym slaku od peak_score (produkcja UA 2026-07-16: 7.4 vs peak 7.9).
-MSE_PEAK_AT_MIGRATION_SLACK = 0.6
 
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
@@ -787,24 +784,27 @@ def _peak_at_wpisu(wpis):
     return (wpis or {}).get("peak_at") or (wpis or {}).get("detected_at")
 
 
-def _uzupelnij_peak_at(wpis, score, updated_at, bumped):
-    """WB-062: peak_at = czas ostatniego podbicia peak_score (okno MSE).
+def _uzupelnij_peak_at(wpis, score, updated_at, bumped, teraz=None):
+    """WB-062: peak_at = zegar okna MSE dla tematu widzianego w top_events.
 
-    - bump -> zawsze updated_at
-    - juz jest peak_at -> bez zmian (decay nie odswieza zegara)
-    - migracja (brak pola): blisko peaku -> updated_at (re-eskalacja aktywna);
-      inaczej -> detected_at (stary, wygaszony szczyt)
+    - bump (score > peak) -> updated_at
+    - brak peak_at (migracja) -> updated_at (NIGDY nie kopiuj starego detected_at —
+      to byla przyczyna regresji: decay poniżej slacku zamrazal peak_at na 32h+)
+    - peak_at wygasl (>= 24h), ale temat NADAL w top -> updated_at (dominant
+      aktywny nie wypada z MSE na rzecz slabszego, mlodszego newsa)
+    - decay przy swiezym peak_at -> bez zmian
     """
     if bumped:
         wpis["peak_at"] = updated_at
         return
-    if wpis.get("peak_at"):
-        return
-    peak = _ocena_float(wpis.get("peak_score", 0))
-    if peak > 0 and score >= peak - MSE_PEAK_AT_MIGRATION_SLACK:
+    peak_at = wpis.get("peak_at")
+    if not peak_at:
         wpis["peak_at"] = updated_at
-    else:
-        wpis["peak_at"] = wpis.get("detected_at") or updated_at
+        return
+    teraz = teraz or _parse_iso_utc(updated_at)
+    wiek = _godziny_od(peak_at, teraz)
+    if wiek is not None and wiek >= MSE_OKNO_GODZIN:
+        wpis["peak_at"] = updated_at
 
 
 def _aktualizuj_ledger(top_events, pamiec, updated_at):
@@ -864,7 +864,7 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
             # migracja: brak peak_label na starym wpisie -> uzupelnij przy kontakcie
             if not wpis.get("peak_label"):
                 wpis["peak_label"] = label
-            _uzupelnij_peak_at(wpis, score, updated_at, bumped)
+            _uzupelnij_peak_at(wpis, score, updated_at, bumped, teraz=teraz)
             dopasowane.add(stary_klucz)
 
         ev["detected_at"] = wpis["detected_at"]
