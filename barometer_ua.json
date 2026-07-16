@@ -1,13 +1,12 @@
 {
-  "global_score": 2.9,
-  "short_summary": "Russian strikes kill eight civilians across four Ukrainian regions",
-  "rationale": "Russian strikes kill 14 civilians across multiple Ukrainian regions while Ukraine hits 20 Black Sea vessels, escalating combat intensity. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Russian strikes kill 14 civilians across multiple Ukrainian regions in fresh multi-region attack; qualitatively new wave of strikes affecting daily life and safety across the country. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-      "label": "Russian attacks kill 14 across Ukraine, Kyiv hits Black Sea tankers",
-      "summary": "Multi-region Russian strikes kill 14 civilians across Ukrainian territory while Ukraine targets 20 Russian vessels in Black Sea, marking escalation in combat intensity and civilian casualties.",
-      "score": 2.6,
+      "label": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
+      "summary": "Russian attacks across multiple Ukrainian regions kill 14 civilians in fresh wave of strikes. Ukraine retaliates by hitting 20 Russian vessels in Black Sea. New multi-region assault directly threatening civilian safety nationwide.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,48 +23,54 @@
     },
     {
       "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-      "label": "US launches new strikes on Iran, Trump warns Tehran to behave",
-      "summary": "Confirmed new round of US military strikes on Iran escalates Middle East confrontation, potentially diverting US military focus and resources away from Ukraine support.",
-      "score": 2.9,
+      "label": "US launches new Iran strikes as Trump threatens further military action",
+      "summary": "US conducts fresh strikes on Iran with Trump warning of escalation. Diverts US military and diplomatic focus further from Ukraine support to Middle East conflict.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T18:16:08.566310Z"
+    },
+    {
+      "title": "French MPs approve assisted dying law with strict rules after years of argument",
+      "label": "France passes assisted dying law with strict criteria for terminally ill",
+      "summary": "French parliament approves assisted dying legislation. EU policy development with no relevance to daily life in wartime Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-14T18:16:08.566310Z"
-    },
-    {
-      "title": "Wildfires in Ontario make Toronto air quality worst in world",
-      "label": "Ontario wildfires create worst air quality in Toronto globally",
-      "summary": "Over 100 active wildfires in northern Ontario produce severe smoke affecting major Canadian city, demonstrating climate-driven disaster risk in developed economies.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
-        }
-      ],
-      "detected_at": "2026-07-16T00:01:55.745448Z"
+      "detected_at": "2026-07-16T01:01:57.938373Z"
     }
   ],
+  "short_summary": "Russian strikes kill eight civilians across four Ukrainian regions",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-16T00:08:06.658851Z",
+  "updated_at": "2026-07-16T01:01:57.938373Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-15T04:01:52.130446Z",
   "score_history": [
-    {
-      "t": "2026-07-14T01:01:48.873143Z",
-      "s": 3.4
-    },
     {
       "t": "2026-07-14T02:01:48.659600Z",
       "s": 3.2
@@ -379,6 +380,10 @@
     {
       "t": "2026-07-16T00:08:06.658851Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-16T01:01:57.938373Z",
+      "s": 2.8
     }
   ]
 }
