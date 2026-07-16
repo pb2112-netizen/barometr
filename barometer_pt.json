@@ -1,32 +1,13 @@
 {
-  "global_score": 2.2,
-  "rationale": "Brazil faces US 25% tariffs affecting Lusophone partner economy; distant conflicts and disasters have minimal direct impact on Portuguese daily life.",
+  "global_score": 2.1,
+  "rationale": "US-Iran military escalation continues with confirmed strikes affecting global energy prices; Canadian wildfire smoke reaches US affecting transatlantic air quality patterns.",
   "top_events": [
     {
-      "title": "Brazil vows to retaliate if US imposes 25% tariffs on some of its products",
-      "label": "Brazil vows retaliation as US imposes 25% tariffs on products",
-      "summary": "US imposes 25% tariffs on Brazilian products, prompting retaliation vow from President Lula. Trade war affects Portugal's major Lusophone partner economy and could impact bilateral trade.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-16T08:01:54.530431Z"
-    },
-    {
       "title": "Iran targets military bases as US launches wave of strikes",
-      "label": "US launches strikes on Iranian bases as Middle East conflict escalates",
-      "summary": "US conducts wave of strikes on Iranian military bases with explosions heard across Iran. Distant escalation could indirectly affect EU energy prices if shipping disrupted.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "label": "US launches wave of strikes on Iranian military bases",
+      "summary": "Confirmed US military strikes on Iranian bases with explosions across Iran; escalation affects global oil markets and EU energy costs indirectly.",
+      "score": 2.1,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -41,11 +22,11 @@
       "detected_at": "2026-07-14T17:53:54.011553Z"
     },
     {
-      "title": "Canada wildfires spread smoke across North America, prompting air quality alerts",
-      "label": "Canadian wildfires spread smoke across North America with air alerts",
-      "summary": "Over 800 wildfires in Canada create air quality concerns across North America from Toronto to New York. Distant disaster with no direct impact on Portugal.",
-      "score": 1.5,
-      "sentiment": "neutral",
+      "title": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
+      "label": "Canadian wildfires create air quality crisis across North America",
+      "summary": "Over 800 blazes in Canada affect cities from Toronto to New York and US Midwest with smoke spreading south, impacting transatlantic air quality patterns.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-07-16T19:01:39.578737Z"
+    },
+    {
+      "title": "Brazil vows to retaliate if US imposes 25% tariffs on some of its products",
+      "label": "Brazil vows retaliation against US 25% tariff threat",
+      "summary": "Brazil threatens counter-measures to US tariff decision affecting major Lusophone partner economy and Portuguese trade ties indirectly.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs"
+        }
+      ],
+      "detected_at": "2026-07-16T08:01:54.530431Z"
     }
   ],
   "short_summary": "US launches wave of strikes on Iranian military bases overnight",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-16T20:10:59.245604Z",
+  "updated_at": "2026-07-16T21:01:38.382192Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US launches wave of strikes on Iranian military bases overnight",
     "score": 4.8,
@@ -379,6 +379,10 @@
     {
       "t": "2026-07-16T20:10:59.245604Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-07-16T21:01:38.382192Z",
+      "s": 2.1
     }
   ]
 }
