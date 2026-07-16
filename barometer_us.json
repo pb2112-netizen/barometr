@@ -1,62 +1,33 @@
 {
-  "global_score": 4.4,
-  "rationale": "Ontario wildfires create worst global air quality in Toronto — major environmental disaster affecting US northern neighbor and potentially threatening US cities. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "US launches fresh military strikes on Iran with Trump threatening further action, representing confirmed escalation involving American forces; Ontario wildfires create worst global air quality in Toronto. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Wildfires in Ontario make Toronto air quality worst in world",
-      "label": "Wildfires in Ontario make Toronto air quality worst in world",
-      "summary": "Over 100 active wildfires in northern Ontario turned Toronto's skies orange, creating worst air quality globally. Monitor warns US cities are threatened by smoke spread, raising health and environmental concerns for northern US states.",
-      "score": 4.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/16/toronto-engulfed-by-wildfire-smoke-as-us-cities-threatened?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
     {
       "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
       "label": "US launches fresh strikes on Iran as Trump warns Tehran it 'better",
-      "summary": "US conducted new round of strikes on Iranian targets as Trump threatens to 'finish off' Iran. Continued military escalation with potential oil market impact, but no qualitative change from ongoing situation.",
+      "summary": "Confirmed US military action against Iran represents fresh escalation involving American forces, with President Trump threatening further strikes and stating he has not decided whether to finish off Iran.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/aje-onl-nf_iran-strikes-gulf-nations-even-as-fm-visits-qatar-150726?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "New US Ebola patient arrives in Germany for treatment",
-      "label": "US Ebola patient evacuated to Germany as Trump bars commercial flights",
-      "summary": "US aid worker infected with Ebola in DRC was evacuated to Germany for treatment. Trump administration blocked Americans from traveling to US on commercial flights, continuing travel restrictions.",
-      "score": 2.0,
+      "title": "Wildfires in Ontario make Toronto air quality worst in world",
+      "label": "Ontario wildfires create worst global air quality in Toronto",
+      "summary": "Over 100 active fires in northern Ontario produce severe air quality crisis in major North American city near US border, with health warnings issued and smoke affecting cross-border regions.",
+      "score": 5.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -64,18 +35,37 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany"
+          "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
         }
       ],
-      "detected_at": "2026-07-15T15:01:52.397595Z"
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
+      "label": "Mexico requests US investigation of 14 immigrant deaths in ICE custody",
+      "summary": "Mexican government formally requests US state attorneys general criminally investigate 14 Mexican immigrant deaths in ICE custody since Trump's second term began, raising accountability questions for federal immigration enforcement.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths"
+        }
+      ],
+      "detected_at": "2026-07-16T00:01:55.746424Z"
     }
   ],
   "short_summary": "Senate questions Justice Department head Blanche's independence from Trump",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T04:02:17.821323Z",
+  "updated_at": "2026-07-16T05:01:58.025952Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-15T16:01:57.492291Z",
   "score_history": [
-    {
-      "t": "2026-07-14T05:01:47.981669Z",
-      "s": 3.5
-    },
     {
       "t": "2026-07-14T06:01:51.402102Z",
       "s": 3.8
@@ -389,6 +375,10 @@
     {
       "t": "2026-07-16T04:02:17.821323Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-07-16T05:01:58.025952Z",
+      "s": 5.0
     }
   ]
 }
