@@ -462,17 +462,19 @@ def test_wb060_nowy_temat_wpis_w_ledgerze_peak_score_biezacy():
     klucz = "trump reinstating naval blockade of iranian ports"
     assert wynik[0]["detected_at"] == "2026-07-12T08:01:27Z"
     assert ledger[klucz]["detected_at"] == "2026-07-12T08:01:27Z"
+    assert ledger[klucz]["peak_at"] == "2026-07-12T08:01:27Z"
     assert ledger[klucz]["peak_score"] == 3.0
     assert ledger[klucz]["peak_sentiment"] == "negative"
 
 
 def test_wb060_kontynuacja_eskalacja_podbija_peak_score_detected_at_bez_zmian():
-    """Kontynuacja z wyzszym score -> peak_score podbity, detected_at bez zmian."""
+    """Kontynuacja z wyzszym score -> peak_score podbity, detected_at bez zmian, peak_at = teraz."""
     top = [{"title": "Naval blockade of Iranian ports escalates", "score": 7.3, "sentiment": "negative"}]
     pamiec = {
         "event_detected_at": {
             "naval blockade iranian ports": {
                 "detected_at": "2026-07-10T00:00:00Z",
+                "peak_at": "2026-07-10T00:00:00Z",
                 "peak_score": 5.0,
                 "peak_sentiment": "negative",
                 "title": "Naval blockade of Iranian ports",
@@ -485,16 +487,18 @@ def test_wb060_kontynuacja_eskalacja_podbija_peak_score_detected_at_bez_zmian():
     klucz = "naval blockade of iranian ports escalates"
     assert wynik[0]["detected_at"] == "2026-07-10T00:00:00Z"
     assert ledger[klucz]["detected_at"] == "2026-07-10T00:00:00Z"
+    assert ledger[klucz]["peak_at"] == "2026-07-12T08:01:27Z"
     assert ledger[klucz]["peak_score"] == 7.3
 
 
 def test_wb060_kontynuacja_decay_peak_score_bez_zmian_nie_spada():
-    """Kontynuacja z nizszym score (decay) -> peak_score NIE spada."""
+    """Kontynuacja z nizszym score (decay) -> peak_score NIE spada; peak_at bez zmian."""
     top = [{"title": "Naval blockade of Iranian ports", "score": 4.5, "sentiment": "negative"}]
     pamiec = {
         "event_detected_at": {
             "naval blockade iranian ports": {
                 "detected_at": "2026-07-10T00:00:00Z",
+                "peak_at": "2026-07-11T12:00:00Z",
                 "peak_score": 7.3,
                 "peak_sentiment": "negative",
                 "title": "Naval blockade of Iranian ports escalates",
@@ -506,16 +510,18 @@ def test_wb060_kontynuacja_decay_peak_score_bez_zmian_nie_spada():
 
     klucz = "naval blockade of iranian ports"
     assert ledger[klucz]["peak_score"] == 7.3
+    assert ledger[klucz]["peak_at"] == "2026-07-11T12:00:00Z"
     assert ledger[klucz]["title"] == "Naval blockade of Iranian ports escalates"
 
 
 def test_wb060_temat_spada_z_top_events_wiek_pod_24h_zachowany():
-    """Temat spada z top_events (brak w biezacym cyklu), wiek < 24h -> wpis zachowany w ledgerze."""
+    """Temat spada z top_events (brak w biezacym cyklu), peak_at < 24h -> wpis zachowany w ledgerze."""
     teraz = "2026-07-12T08:00:00Z"
     pamiec = {
         "event_detected_at": {
             "old topic still fresh": {
                 "detected_at": "2026-07-11T20:00:00Z",  # 12h temu
+                "peak_at": "2026-07-11T20:00:00Z",
                 "peak_score": 6.0,
                 "peak_sentiment": "negative",
                 "title": "Old topic still fresh",
@@ -530,17 +536,19 @@ def test_wb060_temat_spada_z_top_events_wiek_pod_24h_zachowany():
 
 
 def test_wb060_temat_wiek_24h_plus_wykluczony_z_wybierz_mse():
-    """Temat wiek >= 24h -> wykluczony z kandydatow _wybierz_mse, niezaleznie od top_events."""
+    """Temat peak_at >= 24h -> wykluczony z kandydatow _wybierz_mse (niezaleznie od detected_at)."""
     teraz = "2026-07-12T08:00:00Z"
     ledger = {
         "old topic": {
             "detected_at": "2026-07-11T07:00:00Z",  # 25h temu
+            "peak_at": "2026-07-11T07:00:00Z",
             "peak_score": 9.0,
             "peak_sentiment": "negative",
             "title": "Old topic",
         },
         "fresh topic": {
             "detected_at": "2026-07-12T00:00:00Z",  # 8h temu
+            "peak_at": "2026-07-12T00:00:00Z",
             "peak_score": 3.0,
             "peak_sentiment": "neutral",
             "title": "Fresh topic",
@@ -551,6 +559,100 @@ def test_wb060_temat_wiek_24h_plus_wykluczony_z_wybierz_mse():
 
     assert mse["label"].lower().startswith("fresh topic")
     assert mse["score"] == 3.0
+
+
+def test_wb062_reeskalacja_po_24h_od_detected_at_wygrywa_mse():
+    """UA 2026-07-16: detected_at >= 24h, ale swiezy peak_at + wyzszy peak -> MSE (nie Syria 2.0)."""
+    teraz = "2026-07-16T12:01:26Z"
+    ledger = {
+        "protests in ukraine": {
+            "detected_at": "2026-07-15T04:01:52Z",  # ~32h — stare pierwsze wykrycie
+            "peak_at": "2026-07-16T11:53:25Z",  # swiezy szczyt 7.9
+            "peak_score": 7.9,
+            "peak_sentiment": "negative",
+            "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+            "peak_label": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
+        },
+        "syria arrests": {
+            "detected_at": "2026-07-15T20:01:51Z",  # ~16h
+            "peak_at": "2026-07-15T20:01:51Z",
+            "peak_score": 2.0,
+            "peak_sentiment": "positive",
+            "title": "Syrian authorities arrest ex-officer accused of chemical weapons crimes",
+            "peak_label": "Syria arrests former colonel accused of sarin gas production",
+        },
+    }
+
+    mse = silnik._wybierz_mse(ledger, teraz)
+
+    assert mse["score"] == 7.9
+    assert "protests" in mse["label"].lower()
+    assert mse["detected_at"] == "2026-07-15T04:01:52Z"  # UI nadal pierwsze wykrycie
+
+
+def test_wb062_migracja_brak_peak_at_blisko_peaku_odswieza_okno():
+    """Brak peak_at + score blisko peak_score -> peak_at=teraz (naprawia ledger produkcyjny bez pola)."""
+    top = [{
+        "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+        "score": 7.4,
+        "sentiment": "negative",
+        "label": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
+    }]
+    pamiec = {
+        "event_detected_at": {
+            "protests in ukraine's cities against zelensky's removal of defence minister": {
+                "detected_at": "2026-07-15T04:01:52.130446Z",
+                "peak_score": 7.9,
+                "peak_sentiment": "negative",
+                "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+                "peak_label": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
+            },
+        },
+    }
+    teraz = "2026-07-16T12:01:26.886280Z"
+
+    _, ledger = silnik._aktualizuj_ledger(top, pamiec, teraz)
+    klucz = "protests in ukraine's cities against zelensky's removal of defence minister"
+    assert ledger[klucz]["peak_at"] == teraz
+    assert ledger[klucz]["detected_at"] == "2026-07-15T04:01:52.130446Z"
+
+    syria = {
+        "syria": {
+            "detected_at": "2026-07-15T20:01:51.748792Z",
+            "peak_at": "2026-07-15T20:01:51.748792Z",
+            "peak_score": 2.0,
+            "peak_sentiment": "positive",
+            "title": "Syrian authorities arrest ex-officer",
+            "peak_label": "Syria arrests former colonel accused of sarin gas production",
+        },
+    }
+    mse = silnik._wybierz_mse({**ledger, **syria}, teraz)
+    assert mse["score"] == 7.9
+    assert "protests" in mse["label"].lower()
+
+
+def test_wb062_peak_at_stary_wyklucza_mimo_swiezego_detected_at():
+    """peak_at >= 24h wyklucza nawet gdy detected_at jest swiezszy (anomalia / stare dane)."""
+    teraz = "2026-07-16T12:00:00Z"
+    ledger = {
+        "stale peak": {
+            "detected_at": "2026-07-16T10:00:00Z",
+            "peak_at": "2026-07-15T10:00:00Z",  # 26h
+            "peak_score": 9.0,
+            "peak_sentiment": "negative",
+            "title": "Stale peak topic",
+        },
+        "fresh": {
+            "detected_at": "2026-07-16T06:00:00Z",
+            "peak_at": "2026-07-16T06:00:00Z",
+            "peak_score": 3.0,
+            "peak_sentiment": "neutral",
+            "title": "Fresh topic",
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, teraz)
+    assert mse["score"] == 3.0
+    assert mse["label"].lower().startswith("fresh topic")
 
 
 def test_wb060_wyzszy_peak_score_wygrywa_niezaleznie_od_pozycji_w_top_events():

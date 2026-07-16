@@ -91,8 +91,12 @@ NOWOSC_MAX_SKOK_BEZ_CZYNU = 2.0
 # WB-003: rolling window historii score w JSON publicznym.
 HISTORY_HOURS = 48
 
-# WB-060: okno "Most significant event" (MSE) — argmax(peak_score) wsrod tematow < 24h.
+# WB-060/WB-062: okno MSE — argmax(peak_score) wsrod tematow z peak_at < 24h
+# (nie od pierwszego detected_at — re-eskalacja po >24h musi moc wrocic do rankingu).
 MSE_OKNO_GODZIN = 24
+# Migracja ledgerow bez peak_at: uznaj szczyt za swiezy, gdy biezacy score
+# jest w tym slaku od peak_score (produkcja UA 2026-07-16: 7.4 vs peak 7.9).
+MSE_PEAK_AT_MIGRATION_SLACK = 0.6
 
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
@@ -778,17 +782,42 @@ def _znormalizuj_ledger_wpis(wpis, ev):
     }
 
 
-def _aktualizuj_ledger(top_events, pamiec, updated_at):
-    """WB-060/WB-061: ledger tematow niezalezny od top-3, retencja wg wieku (MSE_OKNO_GODZIN).
+def _peak_at_wpisu(wpis):
+    """WB-062: timestamp szczytu do okna MSE; brak peak_at -> detected_at (stary ledger)."""
+    return (wpis or {}).get("peak_at") or (wpis or {}).get("detected_at")
 
-    Kazdy wpis: {detected_at, peak_score, peak_sentiment, title, peak_label}.
-    - Nowy temat (brak dopasowania _tematy_pasuja) -> nowy wpis, detected_at = updated_at.
-    - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title podbite TYLKO
+
+def _uzupelnij_peak_at(wpis, score, updated_at, bumped):
+    """WB-062: peak_at = czas ostatniego podbicia peak_score (okno MSE).
+
+    - bump -> zawsze updated_at
+    - juz jest peak_at -> bez zmian (decay nie odswieza zegara)
+    - migracja (brak pola): blisko peaku -> updated_at (re-eskalacja aktywna);
+      inaczej -> detected_at (stary, wygaszony szczyt)
+    """
+    if bumped:
+        wpis["peak_at"] = updated_at
+        return
+    if wpis.get("peak_at"):
+        return
+    peak = _ocena_float(wpis.get("peak_score", 0))
+    if peak > 0 and score >= peak - MSE_PEAK_AT_MIGRATION_SLACK:
+        wpis["peak_at"] = updated_at
+    else:
+        wpis["peak_at"] = wpis.get("detected_at") or updated_at
+
+
+def _aktualizuj_ledger(top_events, pamiec, updated_at):
+    """WB-060/WB-061/WB-062: ledger tematow niezalezny od top-3, retencja wg peak_at.
+
+    Kazdy wpis: {detected_at, peak_at, peak_score, peak_sentiment, title, peak_label}.
+    - Nowy temat (brak dopasowania _tematy_pasuja) -> nowy wpis, detected_at=peak_at=updated_at.
+    - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title/peak_at podbite TYLKO
       gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" zamrozona razem).
     - peak_label (WB-061): sticky jak peak_score — podbity TYLKO przy peak bump ORAZ gdy
       LLM label przeszedl walidacje (_waliduj_mse_label); rejected przy peak bump -> stary
       peak_label zachowany (nie degraduj dobrego sticky do skrotu tytulu).
-    - Wpisy nieobecne w biezacym top_events: zachowane, dopoki wiek < MSE_OKNO_GODZIN.
+    - Wpisy nieobecne w biezacym top_events: zachowane, dopoki wiek(peak_at) < MSE_OKNO_GODZIN.
     Zwraca (top_events_z_detected_at_i_label, nowy_ledger) do zapisu w pamiec_{lens}.json.
     """
     stara_mapa_raw = pamiec.get("event_detected_at") or {}
@@ -815,13 +844,15 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
         if wpis is None:
             wpis = {
                 "detected_at": updated_at,
+                "peak_at": updated_at,
                 "peak_score": score,
                 "peak_sentiment": sentiment,
                 "title": title,
                 "peak_label": label,  # fallback OK — nie ma lepszego sticky
             }
         else:
-            if score > wpis.get("peak_score", 0):
+            bumped = score > wpis.get("peak_score", 0)
+            if bumped:
                 wpis["peak_score"] = score
                 wpis["peak_sentiment"] = sentiment
                 wpis["title"] = title
@@ -833,17 +864,18 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
             # migracja: brak peak_label na starym wpisie -> uzupelnij przy kontakcie
             if not wpis.get("peak_label"):
                 wpis["peak_label"] = label
+            _uzupelnij_peak_at(wpis, score, updated_at, bumped)
             dopasowane.add(stary_klucz)
 
         ev["detected_at"] = wpis["detected_at"]
         nowy_ledger[title.lower().strip()] = wpis
 
-    # retencja: wpisy spoza biezacego top_events, jesli jeszcze w oknie 24h
+    # retencja: wpisy spoza biezacego top_events, jesli peak_at jeszcze w oknie 24h
     for klucz, raw_wpis in stara_mapa_raw.items():
         if klucz in dopasowane:
             continue
         wpis = _znormalizuj_ledger_wpis(raw_wpis, {})
-        wiek = _godziny_od(wpis.get("detected_at"), teraz)
+        wiek = _godziny_od(_peak_at_wpisu(wpis), teraz)
         if wiek is not None and wiek < MSE_OKNO_GODZIN:
             nowy_ledger.setdefault(klucz, wpis)
 
@@ -851,17 +883,18 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
 
 
 def _wybierz_mse(ledger, updated_at):
-    """WB-060/WB-061: MSE = argmax(peak_score) wsrod wpisow < MSE_OKNO_GODZIN.
+    """WB-060/WB-061/WB-062: MSE = argmax(peak_score) wsrod wpisow z peak_at < 24h.
 
-    Remis -> starszy detected_at wygrywa. Label = sticky `peak_label` z ledgera
-    (LLM, zwalidowany w _aktualizuj_ledger); brak (stary ledger bez WB-061) ->
-    fallback skrot z tytulu bez wielokropka.
+    Okno liczone od peak_at (czas ostatniego szczytu), nie od pierwszego detected_at —
+    re-eskalacja po >24h wraca do rankingu. Remis -> starszy detected_at wygrywa.
+    Label = sticky `peak_label` z ledgera (LLM); brak -> fallback skrot tytulu.
+    Publiczne `.detected_at` nadal = pierwsze wykrycie (WB-059/UI „Xh ago").
     """
     teraz = _parse_iso_utc(updated_at)
     kandydaci = []
     for wpis_raw in (ledger or {}).values():
         wpis = wpis_raw if isinstance(wpis_raw, dict) else {}
-        wiek = _godziny_od(wpis.get("detected_at"), teraz)
+        wiek = _godziny_od(_peak_at_wpisu(wpis), teraz)
         if wiek is None or wiek >= MSE_OKNO_GODZIN:
             continue
         kandydaci.append(wpis)
