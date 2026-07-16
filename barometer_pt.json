@@ -1,32 +1,13 @@
 {
-  "global_score": 3.0,
-  "rationale": "Volunteer firefighter suspected of starting devastating France forest fire during European heatwave; arson threat compounds climate-driven wildfire risk in western Europe.",
+  "global_score": 2.3,
+  "rationale": "Canada wildfires spread smoke across North America affecting air quality in major cities; US-Iran strikes continue with indirect EU energy implications. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Volunteer firefighter suspected of starting devastating France forest fire",
-      "label": "French volunteer firefighter suspected of arson in devastating forest fire",
-      "summary": "A volunteer firefighter is suspected of starting a devastating forest fire in France during unusual heatwaves affecting much of Europe. President Macron promised no leniency for arsonists as the wildfire threat intensifies across the continent.",
-      "score": 3.0,
+      "title": "Canada wildfires spread smoke across North America, prompting air quality alerts",
+      "label": "Canadian wildfires create air quality alerts across North America",
+      "summary": "More than 800 wildfires in Canada spread smoke across North America, prompting air quality concerns in Toronto, New York, and large parts of US Midwest. Shows continued climate-driven disaster pattern.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce97zd8yx1xo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-16T12:56:42.620836Z"
-    },
-    {
-      "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-      "label": "Over 800 Canadian wildfires create hazardous air quality across North America",
-      "summary": "More than 800 active wildfires in Canada have created hazardous air quality across large parts of the US. The scale of the disaster has minimal direct impact on Portugal but signals broader climate instability.",
-      "score": 1.5,
-      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -46,22 +27,41 @@
       "detected_at": "2026-07-16T19:01:39.578737Z"
     },
     {
-      "title": "US to impose new 25 percent tariffs on some Brazilian imports",
-      "label": "US imposes 25% tariffs on Brazilian imports amid trade tensions",
-      "summary": "The US announced new 25% tariffs on some Brazilian imports amid trade tensions, though beef, coffee and rare-earth materials were exempted. The trade war affects Portugal's Lusophone partner economy.",
+      "title": "Iran targets military bases as US launches wave of strikes",
+      "label": "US launches new wave of strikes on Iranian military bases",
+      "summary": "Confirmed US military strikes on Iranian bases overnight. Continues Middle East escalation with potential indirect impact on EU energy prices and Atlantic shipping routes.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/what-could-a-us-ground-invasion-of-iran-look-like?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "Brazil vows to retaliate if US imposes 25% tariffs on some of its products",
+      "label": "Brazil vows retaliation against US 25% tariffs on products",
+      "summary": "Brazil announces plans to retaliate against US decision to impose 25% tariffs. Affects major Lusophone partner economy with potential indirect trade implications for Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/7/16/us-to-impose-new-25-percent-tariffs-on-some-brazilian-imports?traffic_source=rss"
-        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs"
@@ -71,11 +71,11 @@
     }
   ],
   "short_summary": "US launches wave of strikes on Iranian military bases overnight",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-16T19:01:39.578737Z",
+  "updated_at": "2026-07-16T20:01:39.214914Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,14 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-14T19:01:53.505283Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-07-14T19:43:30.220130Z",
-      "s": 2.4
-    },
     {
       "t": "2026-07-14T20:01:57.016082Z",
       "s": 2.3
@@ -393,6 +385,10 @@
     {
       "t": "2026-07-16T19:01:39.578737Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-16T20:01:39.214914Z",
+      "s": 2.3
     }
   ]
 }
