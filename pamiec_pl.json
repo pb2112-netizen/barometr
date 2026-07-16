@@ -1,42 +1,46 @@
 {
-  "updated_at": "2026-07-16T10:02:02.290330Z",
-  "ostatnia_ocena": 3.6,
-  "ostatnie_powiadomienie_at": "2026-07-13T07:01:56.709821Z",
+  "updated_at": "2026-07-16T11:01:57.142217Z",
+  "ostatnia_ocena": 5.2,
+  "ostatnie_powiadomienie_at": "2026-07-16T11:01:57.141963Z",
   "stan_swiata": [
     {
       "temat": "Trump drops Hormuz fee — US-Iran blockade continues",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "US policy shift on transit fee; blockade affects EU energy."
     },
     {
       "temat": "China economic growth misses target — export demand",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Weak Chinese demand signals headwinds for Polish exports."
     },
     {
       "temat": "Russian strikes across four Ukrainian regions — eight killed",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "Multi-region Russian attack; civilian casualties near."
     },
     {
       "temat": "France assisted dying law — EU end-of-life policy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Parliament passes legislation; regional policy trend."
+    },
+    {
+      "temat": "Zelensky removes defense minister — Ukraine command crisis",
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Unexplained dismissal creates uncertainty in neighbor's war."
+    },
+    {
+      "temat": "TSMC $100bn US expansion — tech supply chain shift",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Semiconductor production moves to US; EU tech implications."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-14T10:57:03.298559Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-07-14T11:01:53.819104Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-14T12:01:49.829571Z",
       "s": 2.0
@@ -332,23 +336,34 @@
     {
       "t": "2026-07-16T10:02:02.287013Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-07-16T11:01:57.137804Z",
+      "s": 5.2
     }
   ],
   "events_anchor_at": "2026-07-15T11:47:17.678802Z",
   "event_detected_at": {
-    "us launches new wave of strikes on iran as tehran targets gulf sites": {
+    "protests in ukraine's cities against zelensky's removal of defence minister": {
+      "detected_at": "2026-07-15T11:47:17.678802Z",
+      "peak_score": 5.2,
+      "peak_sentiment": "negative",
+      "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+      "peak_label": "Zelensky dismisses Ukraine defense minister without explanation, sparking protests"
+    },
+    "iran targets military bases as us launches wave of strikes": {
       "detected_at": "2026-07-14T17:53:54.010165Z",
       "peak_score": 4.0,
       "peak_sentiment": "negative",
       "title": "Iran targets military bases as US launches wave of strikes",
       "peak_label": "US launches wave of strikes on Iranian military bases overnight"
     },
-    "russian attacks kill 14 as ukraine hits black sea oil tankers": {
-      "detected_at": "2026-07-15T11:47:17.678802Z",
-      "peak_score": 3.9,
-      "peak_sentiment": "negative",
-      "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-      "peak_label": "Russian strikes kill 14 civilians across Ukraine regions"
+    "chip giant tsmc pledges another $100bn to expand us production": {
+      "detected_at": "2026-07-16T11:01:57.137804Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "neutral",
+      "title": "Chip giant TSMC pledges another $100bn to expand US production",
+      "peak_label": "TSMC commits additional $100 billion to expand US chip production"
     },
     "brazil condemns us move to impose 25% tariffs next week": {
       "detected_at": "2026-07-16T09:01:56.996337Z",
@@ -373,8 +388,8 @@
     }
   },
   "prev_top_event_titles": [
-    "US launches new wave of strikes on Iran as Tehran targets Gulf sites",
-    "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-    "Brazil condemns US move to impose 25% tariffs next week"
+    "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+    "Iran targets military bases as US launches wave of strikes",
+    "Chip giant TSMC pledges another $100bn to expand US production"
   ]
 }
