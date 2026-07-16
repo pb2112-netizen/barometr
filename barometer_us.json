@@ -1,11 +1,11 @@
 {
-  "global_score": 5.0,
-  "rationale": "US launches fresh military strikes on Iran with Trump threatening further action, representing confirmed escalation involving American forces; Ontario wildfires create worst global air quality in Toronto. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.7,
+  "rationale": "US launches fresh military strikes on Iran with Trump threatening further action, directly involving US forces in Middle East escalation; Ontario wildfires create worst global air quality in Toronto, threatening US border cities. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
       "label": "US launches fresh strikes on Iran as Trump warns Tehran it 'better",
-      "summary": "Confirmed US military action against Iran represents fresh escalation involving American forces, with President Trump threatening further strikes and stating he has not decided whether to finish off Iran.",
+      "summary": "Confirmed US military action escalates Middle East conflict, directly involving American forces and raising oil market risks for US economy.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -24,10 +24,10 @@
     {
       "title": "Wildfires in Ontario make Toronto air quality worst in world",
       "label": "Ontario wildfires create worst global air quality in Toronto",
-      "summary": "Over 100 active fires in northern Ontario produce severe air quality crisis in major North American city near US border, with health warnings issued and smoke affecting cross-border regions.",
-      "score": 5.0,
+      "summary": "Over 100 fires produce severe air pollution in major North American city near US border, threatening air quality in northern US states.",
+      "score": 4.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -41,45 +41,41 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
-      "label": "Mexico requests US investigation of 14 immigrant deaths in ICE custody",
-      "summary": "Mexican government formally requests US state attorneys general criminally investigate 14 Mexican immigrant deaths in ICE custody since Trump's second term began, raising accountability questions for federal immigration enforcement.",
-      "score": 3.0,
+      "title": "Brazil condemns US move to impose 25% tariffs next week",
+      "label": "Brazil condemns US move to impose 25% tariffs next week",
+      "summary": "Trade office announces new tariffs on Brazilian goods, escalating trade tensions and potentially raising consumer prices for US residents.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths"
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs"
         }
       ],
-      "detected_at": "2026-07-16T00:01:55.746424Z"
+      "detected_at": "2026-07-16T06:02:03.958096Z"
     }
   ],
-  "short_summary": "Senate questions Justice Department head Blanche's independence from Trump",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "short_summary": "Brazil condemns US move to impose 25% tariffs next week",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-16T05:01:58.025952Z",
+  "updated_at": "2026-07-16T06:02:03.958096Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Senate questions Justice Department head Blanche's independence from Trump",
-    "score": 3.2,
+    "label": "Brazil condemns US move to impose 25% tariffs next week",
+    "score": 4.0,
     "sentiment": "negative",
-    "detected_at": "2026-07-15T16:01:57.492291Z"
+    "detected_at": "2026-07-16T06:02:03.958096Z"
   },
-  "events_anchor_at": "2026-07-15T16:01:57.492291Z",
+  "events_anchor_at": "2026-07-16T06:02:03.958096Z",
   "score_history": [
-    {
-      "t": "2026-07-14T06:01:51.402102Z",
-      "s": 3.8
-    },
     {
       "t": "2026-07-14T06:22:56.221226Z",
       "s": 3.6
@@ -379,6 +375,10 @@
     {
       "t": "2026-07-16T05:01:58.025952Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-07-16T06:02:03.958096Z",
+      "s": 4.7
     }
   ]
 }
