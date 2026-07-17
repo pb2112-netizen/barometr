@@ -1,12 +1,12 @@
 {
-  "global_score": 5.4,
-  "rationale": "US military strikes confirmed on Iran's nuclear facility mark major escalation of direct American military involvement in Middle East conflict. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.1,
+  "rationale": "US military strikes confirmed to have damaged Iran's Bushehr nuclear facility, escalating direct American military involvement in Middle East.",
   "top_events": [
     {
       "title": "Satellite images show damage inside Iran's Bushehr nuclear power plant",
-      "label": "US strikes damage Iran's largest nuclear power plant at Bushehr",
-      "summary": "Satellite images confirm US strikes between July 7-12 hit Iran's main nuclear facility. This marks a major escalation of direct US military action against Iranian nuclear infrastructure, raising risks of wider regional war.",
-      "score": 5.4,
+      "label": "US strikes damage Iran's Bushehr nuclear plant, satellite imagery confirms",
+      "summary": "Satellite images reveal US military strikes between July 7-12 damaged Iran's largest nuclear power plant at Bushehr. Confirms escalation of direct US military action inside Iran with potential for wider regional conflict.",
+      "score": 5.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +22,47 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "Canadian wildfire smoke affects 109 million Americans with poor air quality",
-      "summary": "Smoke from over 800 Ontario fires creates health alerts from Minnesota to New York. Continuation of ongoing air quality crisis affecting daily life across multiple states.",
-      "score": 3.8,
+      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
+      "label": "Canadian wildfire smoke creates air quality crisis across US regions",
+      "summary": "Over 800 fires in Canada blanket major US cities from New York to Midwest with smoke, affecting 109 million Americans with air quality alerts. Ongoing environmental crisis impacting daily life across multiple states.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
+      "label": "Mexico requests investigation into 14 immigrant deaths in ICE custody",
+      "summary": "Mexico formally requested US state attorneys general investigate 14 Mexican immigrant deaths in ICE custody and three in operations since Trump's second term began. Diplomatic pressure over domestic immigration enforcement deaths.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+          "url": "https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths"
         }
       ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
-      "title": "Plainclothes ICE agents manhandle man during arrest attempt",
-      "label": "ICE agents use force during Las Vegas airport arrest attempt",
-      "summary": "Plainclothes ICE agents physically manhandled a man during arrest attempt at Las Vegas airport on July 13. Domestic immigration enforcement incident with limited broader impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/plainclothes-ice-agents-manhandle-man-during-arrest-attempt?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T15:37:55.063303Z"
+      "detected_at": "2026-07-16T18:01:48.519569Z"
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T15:37:55.063303Z",
+  "updated_at": "2026-07-17T16:01:49.658724Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T15:48:21.316752Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T16:01:57.492291Z",
       "s": 3.5
@@ -379,6 +380,10 @@
     {
       "t": "2026-07-17T15:37:55.063303Z",
       "s": 5.4
+    },
+    {
+      "t": "2026-07-17T16:01:49.658724Z",
+      "s": 5.1
     }
   ]
 }
