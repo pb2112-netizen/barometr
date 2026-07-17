@@ -1,60 +1,31 @@
 {
-  "global_score": 2.8,
-  "rationale": "US military launches sixth consecutive night of strikes on Iran in major escalation; domestic air quality crisis from Canadian wildfires affects 20 states; ongoing Texas floods hit previously devastated area. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.2,
+  "rationale": "US military launches sixth consecutive night of strikes on Iran, escalating direct American involvement in Middle East conflict with wider war risk.",
   "top_events": [
     {
       "title": "Blasts reported in Iran as US launches new wave of strikes",
-      "label": "US military strikes Iranian bridges and infrastructure in sixth night",
-      "summary": "US forces escalate military campaign against Iran with strikes on bridges and infrastructure, boarding ship in Strait of Hormuz, raising risk of wider regional war involving American forces.",
-      "score": 2.8,
+      "label": "US launches sixth night of strikes on Iran targeting bridges and infrastructure",
+      "summary": "Direct US military action in Iran continues for sixth consecutive night, escalating American involvement in Middle East conflict and raising risk of wider regional war.",
+      "score": 6.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/qatar-rejects-israeli-reports-of-military-action-against-iran?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
       "title": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
-      "label": "Over 800 Canadian wildfires create air quality alerts in 20 states",
-      "summary": "Smoke from massive wildfire outbreak affects millions of Americans from Minnesota to New York and Midwest, with authorities urging people to stay indoors.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
-      "title": "At least one dead in Texas floods ravaging same area where campers died",
-      "label": "Texas floods strike same region devastated by last year's disaster",
-      "summary": "Repeat flooding hits area where more than 130 people died in previous year's disaster, with at least one confirmed death so far.",
-      "score": 2.2,
+      "label": "Over 800 Canadian wildfires spread smoke across US from Toronto to Midwest",
+      "summary": "Smoke from hundreds of Canadian fires affects air quality across multiple US states from New York to Midwest, prompting health alerts for millions of Americans.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -64,32 +35,47 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Venezuela earthquake: Number of known dead rises to nearly 5,000 victims",
+      "label": "Venezuela earthquake death toll reaches nearly 5,000 with 50,000 missing",
+      "summary": "Massive humanitarian disaster in South America has minimal direct impact on American daily life, though scale is unprecedented for Western Hemisphere.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/16/venezuela-earthquake-number-of-known-dead-rises-to-nearly-5000-victims?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-16T18:01:48.519569Z"
     }
   ],
-  "short_summary": "US military launches wave of strikes on Iranian military bases",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "US launches sixth night of strikes on Iran targeting bridges and infrastructure",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T00:01:42.610424Z",
+  "updated_at": "2026-07-17T00:11:17.980722Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "US military launches wave of strikes on Iranian military bases",
-    "score": 6.0,
+    "label": "US launches sixth night of strikes on Iran targeting bridges and infrastructure",
+    "score": 6.2,
     "sentiment": "negative",
     "detected_at": "2026-07-14T17:53:54.012654Z"
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T00:03:34.872707Z",
-      "s": 3.8
-    },
     {
       "t": "2026-07-15T01:02:04.391609Z",
       "s": 3.8
@@ -389,6 +375,10 @@
     {
       "t": "2026-07-17T00:01:42.610424Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-17T00:11:17.980722Z",
+      "s": 6.2
     }
   ]
 }
