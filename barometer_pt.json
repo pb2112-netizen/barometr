@@ -1,14 +1,14 @@
 {
-  "global_score": 5.0,
-  "rationale": "Escalating US-Iran military conflict with Iranian strikes on Gulf states threatens global oil markets and energy prices, indirectly affecting Portugal's cost of living and economy. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.7,
+  "rationale": "Middle East conflict expands with Iranian strikes on Gulf states, raising oil market instability and energy costs for Portugal's import-dependent economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Gulf states come under Iranian fire as US strikes intensify",
-      "label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
-      "summary": "Regional conflict expansion raises oil market volatility and energy costs, indirectly affecting Portugal's fuel prices and cost of living through EU-wide energy market impacts.",
-      "score": 5.0,
+      "label": "Iran strikes multiple Gulf countries escalating regional conflict beyond US",
+      "summary": "Iran launched confirmed strikes on five countries in retaliation for US attacks, expanding Middle East conflict and threatening global oil supply routes that affect Portugal's energy costs.",
+      "score": 4.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -23,16 +23,21 @@
     },
     {
       "title": "US bombards Iran in sixth-straight night of attacks",
-      "label": "US continues sixth night of bombing Iranian civilian infrastructure",
-      "summary": "Sustained US military action in Iran maintains pressure on global energy markets, with potential knock-on effects for Portuguese consumers through higher fuel and electricity costs.",
-      "score": 4.6,
+      "label": "US destroys Iranian bridges and infrastructure in sustained bombing campaign",
+      "summary": "Continued US strikes on Iranian civilian infrastructure maintain energy market volatility, indirectly affecting Portugal's fuel and electricity costs through global oil prices.",
+      "score": 4.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
@@ -41,31 +46,36 @@
       "detected_at": "2026-07-14T17:53:54.011553Z"
     },
     {
-      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Over 800 Canadian wildfires affect air quality across North America",
-      "summary": "Major wildfire crisis in North America demonstrates climate-driven disaster scale relevant to fire-prone Iberia, though direct impact on Portugal remains distant.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "title": "Air quality plummets in 20 US states as smoke from Canadian wildfires spreads",
+      "label": "Over 800 Canadian wildfires create air quality crisis across North America",
+      "summary": "Massive wildfire outbreak in North America demonstrates climate-driven disaster scale similar to Iberian fire risks, though geographically distant from Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
         }
       ],
-      "detected_at": "2026-07-16T19:01:39.578737Z"
+      "detected_at": "2026-07-14T17:53:54.011553Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-17T09:01:48.375191Z",
+  "updated_at": "2026-07-17T09:20:51.057641Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-15T09:01:51.444632Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T09:20:53.412052Z",
       "s": 2.8
@@ -383,6 +389,10 @@
     {
       "t": "2026-07-17T09:01:48.375191Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-07-17T09:20:51.057641Z",
+      "s": 4.7
     }
   ]
 }
