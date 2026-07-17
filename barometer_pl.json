@@ -1,11 +1,11 @@
 {
-  "global_score": 3.1,
-  "rationale": "US strikes on Iranian infrastructure continue escalation threatening Hormuz oil chokepoint; energy security risk persists for Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Continuation of known US-Iran escalation with no qualitative change affecting Poland; other events distant or rhetorical.",
   "top_events": [
     {
       "title": "US launches new strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes destroy bridges in southern Iran amid Hormuz escalation",
-      "summary": "Continued US military action targets Iranian infrastructure including bridges, maintaining threat to Strait of Hormuz oil transit critical for Polish energy costs.",
+      "label": "US strikes Iranian bridges, boards ship in Strait of Hormuz",
+      "summary": "Continued US military action in Iran and Hormuz boarding maintain elevated energy security risk for Poland, but represent no new escalation beyond known baseline.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,29 +23,34 @@
     },
     {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create worst air quality in Toronto and US cities",
-      "summary": "Over 800 fires produce severe air quality crisis across North America, but no direct impact on Poland.",
-      "score": 1.5,
+      "label": "Ontario wildfires create worst air quality in Toronto and US cities",
+      "summary": "North American wildfire smoke affects distant continent with no direct impact on Poland's air quality or daily life.",
+      "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
         }
       ],
       "detected_at": "2026-07-16T12:56:42.619539Z"
     },
     {
       "title": "Has Ukraine's Zelenskyy created a rival by sacking his defence minister?",
-      "label": "Zelenskyy faces political challenge from rallies supporting dismissed defense minister",
-      "summary": "Ongoing protests over Fedorov dismissal continue to expose command instability in neighboring Ukraine during active war.",
-      "score": 3.1,
-      "sentiment": "negative",
+      "label": "Rallies support sacked Ukrainian defense minister Fedorov, challenge Zelenskyy",
+      "summary": "Ongoing political unrest in neighboring Ukraine over defense leadership continues without new military developments affecting Poland.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -62,10 +67,10 @@
   ],
   "short_summary": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-17T11:01:35.529861Z",
+  "updated_at": "2026-07-17T11:39:44.581970Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-15T11:01:49.554741Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-15T11:47:17.678802Z",
       "s": 3.0
@@ -383,6 +384,10 @@
     {
       "t": "2026-07-17T11:01:35.529861Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-17T11:39:44.581970Z",
+      "s": 3.0
     }
   ]
 }
