@@ -1,13 +1,32 @@
 {
-  "global_score": 3.4,
-  "rationale": "US-Iran strikes continue without qualitative change; no new developments on Ukrainian territory or Western aid; Burnham UK leadership remains background uncertainty.",
+  "global_score": 3.2,
+  "rationale": "US-Iran escalation continues as background risk to Western support; UK leadership change remains uncertain for aid; no new direct military developments in Ukraine.",
   "top_events": [
     {
+      "title": "Burnham confirmed as Labour leader, vows new direction for UK",
+      "label": "Burnham confirmed as Labour leader, becomes UK Prime Minister",
+      "summary": "Andy Burnham officially becomes UK Prime Minister, promising new direction. Uncertainty over Ukraine aid policy continues; no concrete policy change announced yet.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/burnham-elected-labour-leader-vows-new-direction-for-uk?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T16:01:49.657845Z"
+    },
+    {
       "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
-      "label": "US denies hitting Iranian civilian infrastructure in latest military strikes",
-      "summary": "US military continues strikes on Iran, denying civilian targeting claims. Ongoing Middle East escalation maintains risk of Western attention and resources diverting from Ukraine support.",
-      "score": 3.0,
-      "sentiment": "negative",
+      "label": "US denies hitting Iranian civilian infrastructure in strikes",
+      "summary": "US military continues strikes on Iran, claiming military targets only. Ongoing Middle East escalation remains background risk to Western focus on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,42 +41,23 @@
       "detected_at": "2026-07-14T18:16:08.566310Z"
     },
     {
-      "title": "Iranian forces: missiles and drones fired at US targets in Gulf States",
-      "label": "Iranian forces fire missiles and drones at US targets in Gulf States",
-      "summary": "Iran retaliates against US strikes with attacks on American targets in Gulf region. Escalation continues without resolution, maintaining uncertainty over Western focus on Ukraine.",
-      "score": 3.4,
+      "title": "UK aid cuts 'reduce bilateral support to some African countries by 90%'",
+      "label": "UK cuts bilateral aid to African countries by ninety percent",
+      "summary": "Britain drastically reduces foreign aid to Africa. Signals broader UK budget constraints that could affect Ukraine support, though no direct policy change announced.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/iranian-forces-missiles-and-drones-fired-at-us-targets-in-gulf-states?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
         }
       ],
-      "detected_at": "2026-07-14T18:16:08.566310Z"
-    },
-    {
-      "title": "Burnham confirmed as Labour leader, vows new direction for UK",
-      "label": "Andy Burnham confirmed as Labour leader, becomes UK Prime Minister",
-      "summary": "Britain's Labour Party confirms Burnham as leader and PM. Continuation of UK leadership transition with ongoing uncertainty about future Ukraine aid policy under new government.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/burnham-elected-labour-leader-vows-new-direction-for-uk?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T16:01:49.657845Z"
+      "detected_at": "2026-07-17T20:01:38.625179Z"
     }
   ],
   "short_summary": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-17T19:31:28.740335Z",
+  "updated_at": "2026-07-17T20:01:38.625179Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
     "score": 6.0,
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T18:16:08.566310Z",
   "score_history": [
-    {
-      "t": "2026-07-15T19:35:17.710297Z",
-      "s": 3.5
-    },
     {
       "t": "2026-07-15T20:01:51.748792Z",
       "s": 3.5
@@ -371,6 +367,10 @@
     {
       "t": "2026-07-17T19:31:28.740335Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-17T20:01:38.625179Z",
+      "s": 3.2
     }
   ]
 }
