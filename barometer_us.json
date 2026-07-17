@@ -1,36 +1,55 @@
 {
-  "global_score": 4.7,
-  "rationale": "US military strikes on Iranian civilian infrastructure for sixth consecutive night and Hormuz Strait boarding represent major escalation of direct US military involvement in Middle East. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.4,
+  "rationale": "Direct US military strikes on Iran for sixth consecutive night, coupled with Iranian retaliation against Gulf allies, represents significant escalation of American military involvement in Middle East conflict. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US launches new strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes Iranian bridges and boards ship in Hormuz Strait",
-      "summary": "Sixth consecutive night of US bombing targets Iranian civilian infrastructure including bridges, while US forces board vessels in the critical Strait of Hormuz. Major escalation of direct US military action in Middle East with potential for wider regional war.",
-      "score": 3.0,
+      "title": "US bombards Iran in sixth-straight night of attacks",
+      "label": "US military conducts sixth consecutive night of strikes on Iranian infrastructure",
+      "summary": "American forces continue sustained bombing campaign targeting Iranian civilian bridges and infrastructure, marking major escalation of direct US military action in the region with potential for wider war.",
+      "score": 5.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Gulf states come under Iranian fire as US strikes intensify",
+      "label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
+      "summary": "Tehran's strikes on multiple US allies across the Gulf region demonstrate expanding conflict zone, raising risk of American forces being drawn into broader Middle East war.",
+      "score": 7.4,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/aje-onl-nf_iranian-sources-say-us-strikes-hit-infrastructure-160726?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/17/gulf-states-come-under-iranian-fire-as-us-strikes-intensify?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Ontario wildfires create worst air quality in Toronto and US",
-      "summary": "Over 800 Canadian wildfires send smoke across US from Midwest to New York, triggering air quality alerts in 20 states. Millions of Americans face health warnings and are urged to stay indoors.",
-      "score": 4.7,
+      "label": "Over 800 Canadian wildfires create air quality crisis across US",
+      "summary": "Smoke from massive wildfire outbreak affects millions of Americans from Minnesota to New York, prompting health warnings and forcing people indoors across 20 states.",
+      "score": 5.2,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
@@ -49,47 +68,24 @@
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
-      "title": "Texas floods ravage through southwestern areas of state",
-      "label": "Texas Hill Country floods kill two and rescue over 200",
-      "summary": "Catastrophic floods in Texas Hill Country leave at least two dead and over 200 rescued. Repeat disaster in region that saw 130 deaths in previous flooding.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/texas-floods-ravage-through-southwestern-areas-of-state?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-16T18:01:48.519569Z"
     }
   ],
-  "short_summary": "US strikes Iranian bridges and civilian infrastructure, boards ship in Hormuz",
-  "level_label": "Low",
-  "trend": "falling",
+  "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T08:01:45.686038Z",
+  "updated_at": "2026-07-17T09:01:48.376535Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "US strikes Iranian bridges and civilian infrastructure, boards ship in Hormuz",
-    "score": 6.5,
+    "label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
+    "score": 7.4,
     "sentiment": "negative",
     "detected_at": "2026-07-14T17:53:54.012654Z"
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T08:01:51.620105Z",
-      "s": 3.1
-    },
     {
       "t": "2026-07-15T09:01:51.445577Z",
       "s": 3.0
@@ -393,6 +389,10 @@
     {
       "t": "2026-07-17T08:01:45.686038Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-07-17T09:01:48.376535Z",
+      "s": 5.4
     }
   ]
 }
