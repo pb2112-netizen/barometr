@@ -1,13 +1,13 @@
 {
   "global_score": 3.0,
-  "rationale": "Continuation of known situations; no qualitative new developments affecting Poland directly. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Canadian wildfire smoke reaching US cities indirectly signals climate risk; EU carbon slowdown affects Poland's industrial transition timeline; no direct Polish impact this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfire smoke spreads across US midwest and northeast",
-      "summary": "Over 800 fires in Canada create air quality alerts for 109 million Americans from Toronto to New York. Distant environmental event with no direct impact on Poland.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "label": "Canadian wildfire smoke blankets US cities, 109 million face air quality alerts",
+      "summary": "Over 800 fires in Ontario create hazardous air quality across US Midwest and Northeast, affecting 109 million people. Signals growing climate-driven wildfire risk that could reach Europe.",
+      "score": 2.9,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -27,9 +27,28 @@
       "detected_at": "2026-07-16T12:56:42.619539Z"
     },
     {
+      "title": "EU proposes slowing down cuts to carbon emissions for businesses",
+      "label": "EU proposes relaxing emissions trading system to give companies more time",
+      "summary": "Brussels plans to slow carbon reduction timeline for businesses under emissions trading system. Affects Poland's industrial transition costs and competitiveness within EU framework.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T19:31:28.737458Z"
+    },
+    {
       "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
-      "label": "US military denies hitting Iranian civilian targets in latest strikes",
-      "summary": "US continues strikes aimed at degrading Iranian military capabilities. Ongoing Middle East escalation remains background risk to energy markets affecting Poland indirectly.",
+      "label": "US denies hitting Iranian civilian infrastructure in latest military strikes",
+      "summary": "US military continues strikes on Iran, denying civilian targeting claims. Ongoing Middle East escalation maintains energy market uncertainty affecting Polish fuel and electricity costs.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -44,35 +63,16 @@
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
-    },
-    {
-      "title": "Burnham confirmed as Labour leader, vows new direction for UK",
-      "label": "Andy Burnham confirmed as UK Labour leader and incoming Prime Minister",
-      "summary": "Britain's Labour Party confirms Burnham as new leader, clearing path to become PM. Continuation of known UK leadership transition with limited direct impact on Poland.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/burnham-elected-labour-leader-vows-new-direction-for-uk?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T19:01:39.053978Z"
     }
   ],
   "short_summary": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-17T19:01:39.053978Z",
+  "updated_at": "2026-07-17T19:31:28.737458Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
     "score": 6.8,
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-15T19:01:58.595311Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T19:35:17.708301Z",
       "s": 2.8
@@ -375,6 +371,10 @@
     },
     {
       "t": "2026-07-17T19:01:39.053978Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-07-17T19:31:28.737458Z",
       "s": 3.0
     }
   ]
