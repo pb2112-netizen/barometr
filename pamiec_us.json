@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-07-17T20:01:38.631875Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-07-17T21:01:40.916419Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ontario wildfires — Toronto air quality crisis",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 17,
       "opis": "100+ fires create worst global air quality; health warnings."
     },
     {
       "temat": "US strikes on Iran — military escalation",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "Direct US military action in Iran raises wider war risk."
     },
     {
       "temat": "White House staffer insider betting scandal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "$100k made betting on Trump speeches using inside info."
     },
     {
       "temat": "Trump election security claims — domestic political rhetoric",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "President alleges China meddling, contradicting."
     },
     {
       "temat": "Mexico demands ICE death investigations — 14 deaths",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 2,
       "opis": "Diplomatic pressure over immigrant deaths in US custody."
+    },
+    {
+      "temat": "Texas floods — central state weather disaster",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Heavy rains kill two; warning systems tested after 2024."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-15T20:01:51.749525Z",
-      "s": 2.6
-    },
     {
       "t": "2026-07-15T21:01:46.403109Z",
       "s": 2.2
@@ -330,11 +332,15 @@
     {
       "t": "2026-07-17T20:01:38.625988Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-17T21:01:40.910142Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "event_detected_at": {
-    "us denies iranian claims it hit civilian infrastructure in latest strikes": {
+    "mexico asks us state attorneys general to investigate immigrant ice deaths": {
       "detected_at": "2026-07-14T17:53:54.012654Z",
       "peak_score": 7.4,
       "peak_sentiment": "negative",
@@ -342,7 +348,15 @@
       "peak_label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
       "peak_at": "2026-07-17T09:01:48.376535Z"
     },
-    "mexico asks us state attorneys general to investigate immigrant ice deaths": {
+    "at least two dead as heavy rains, floods strike central texas": {
+      "detected_at": "2026-07-17T21:01:40.910142Z",
+      "peak_at": "2026-07-17T21:01:40.910142Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "At least two dead as heavy rains, floods strike central Texas",
+      "peak_label": "Heavy rains and floods kill two in central Texas"
+    },
+    "us denies iranian claims it hit civilian infrastructure in latest strikes": {
       "detected_at": "2026-07-14T17:53:54.012654Z",
       "peak_score": 7.4,
       "peak_sentiment": "negative",
@@ -400,8 +414,8 @@
     }
   },
   "prev_top_event_titles": [
-    "US denies Iranian claims it hit civilian infrastructure in latest strikes",
     "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
-    "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east"
+    "At least two dead as heavy rains, floods strike central Texas",
+    "US denies Iranian claims it hit civilian infrastructure in latest strikes"
   ]
 }

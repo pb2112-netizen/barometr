@@ -1,31 +1,12 @@
 {
-  "global_score": 3.4,
-  "rationale": "US military strikes on Iran continue as confirmed action; Mexico formally demands ICE death investigations, escalating diplomatic pressure. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Mexico formally requests US state attorneys general investigate 14 ICE immigrant deaths, creating diplomatic pressure and potential legal accountability.",
   "top_events": [
     {
-      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
-      "label": "US military continues strikes on Iran, denies civilian targets",
-      "summary": "US military conducts further strikes on Iran, claiming military targets only. Continuation of direct military action already tracked; no new escalation in scope or intensity.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
       "title": "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
-      "label": "Mexico demands US investigate fourteen ICE immigrant deaths",
-      "summary": "Mexico formally requests criminal investigations into 14 deaths of Mexican immigrants in ICE custody since Trump's second term. Diplomatic pressure escalates over confirmed fatalities.",
-      "score": 3.4,
+      "label": "Mexico requests US investigation of 14 ICE immigrant deaths",
+      "summary": "Mexico formally requested state attorneys general criminally investigate cases of 14 Mexican immigrants who died in ICE custody since Trump's second term began. Creates diplomatic pressure and potential legal accountability.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,20 +22,39 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "Canadian wildfire smoke affects 109 million Americans again",
-      "summary": "Smoke from Ontario fires continues to blanket US regions, affecting air quality for tens of millions. Ongoing environmental event already tracked; no new qualitative change.",
-      "score": 2.9,
+      "title": "At least two dead as heavy rains, floods strike central Texas",
+      "label": "Heavy rains and floods kill two in central Texas",
+      "summary": "New warning systems tested after last year's deadly rainfall. Localized weather disaster affecting central Texas residents.",
+      "score": 2.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/7/17/at-least-two-dead-as-heavy-rains-floods-strike-central-texas?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T21:01:40.910142Z"
+    },
+    {
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "label": "US denies hitting Iranian civilian infrastructure in strikes",
+      "summary": "US military says attacks intended to degrade Iranian military capabilities. Continues direct US military action in Iran.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T20:01:38.625988Z",
+  "updated_at": "2026-07-17T21:01:40.910142Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T20:01:51.749525Z",
-      "s": 2.6
-    },
     {
       "t": "2026-07-15T21:01:46.403109Z",
       "s": 2.2
@@ -371,6 +367,10 @@
     {
       "t": "2026-07-17T20:01:38.625988Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-17T21:01:40.910142Z",
+      "s": 3.2
     }
   ]
 }

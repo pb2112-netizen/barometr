@@ -1,50 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "EU carbon policy affects Portuguese industry; Chile floods and Mexico earthquake are distant South American events with no direct impact.",
+  "global_score": 2.5,
+  "rationale": "Magnitude 7.3 earthquake off Mexico coast with tsunami warning represents distant natural disaster; other events remain far from Portuguese daily life.",
   "top_events": [
-    {
-      "title": "EU proposes slowing down cuts to carbon emissions for businesses",
-      "label": "EU proposes relaxing carbon emissions cuts for businesses",
-      "summary": "Brussels plans to ease emissions trading system deadlines, affecting Portuguese companies' transition timeline. Continuation of tracked policy shift.",
-      "score": 2.9,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T19:01:39.056038Z"
-    },
-    {
-      "title": "At least three killed and hundreds displaced by heavy rain in Chile",
-      "label": "Heavy rain kills three and displaces hundreds in Chile",
-      "summary": "Flooding in Chile's Biobio region causes casualties and displacement. Distant South American event with no connection to Portuguese daily life.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/at-least-three-killed-and-hundreds-displaced-by-heavy-rain-in-chile?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.011553Z"
-    },
     {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
       "label": "Magnitude 7.3 earthquake strikes off Mexico coast",
-      "summary": "Earthquake off Mexico generates small tsunami waves. Distant event with no impact on Portugal or Atlantic shipping.",
-      "score": 1.0,
+      "summary": "US Tsunami Warning Center issued warning; waves 0.3m recorded in Mexican coastal areas. Distant natural disaster with no direct impact on Portugal.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -58,6 +20,44 @@
         }
       ],
       "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "label": "US denies hitting Iranian civilian infrastructure in strikes",
+      "summary": "US military says attacks targeted Iranian military capabilities. Continues Middle East escalation with potential indirect energy price effects.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "At least two dead as heavy rains, floods strike central Texas",
+      "label": "Heavy rains and floods kill two in central Texas",
+      "summary": "New warning systems tested after last year's deadly rainfall. Distant US weather event with no impact on Portuguese daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/7/17/at-least-two-dead-as-heavy-rains-floods-strike-central-texas?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-17T20:01:38.624457Z",
+  "updated_at": "2026-07-17T21:01:40.908532Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-15T20:01:51.748270Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-15T21:01:46.401705Z",
       "s": 2.0
@@ -371,6 +367,10 @@
     {
       "t": "2026-07-17T20:01:38.624457Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-17T21:01:40.908532Z",
+      "s": 2.5
     }
   ]
 }
