@@ -1,19 +1,24 @@
 {
-  "global_score": 5.9,
-  "rationale": "US-Iran military escalation continues with sixth night of strikes on civilian infrastructure, directly threatening Strait of Hormuz oil security that affects Polish energy costs and EU economy. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.6,
+  "rationale": "US strikes on Iran escalate into sixth night hitting civilian infrastructure, directly threatening Strait of Hormuz oil security that affects Polish energy costs and EU economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US bombards Iran in sixth-straight night of attacks",
-      "label": "US launches sixth consecutive night of strikes on Iranian civilian infrastructure",
-      "summary": "Sustained US military campaign against Iran escalates regional conflict and threatens Strait of Hormuz oil transit, directly impacting European energy security and Polish fuel costs.",
-      "score": 5.9,
+      "label": "US strikes Iran sixth night, hits civilian infrastructure, Hormuz threatened",
+      "summary": "US military action escalates to sixth consecutive night, with Iranian sources reporting civilian infrastructure damage. IEA chief warns Strait of Hormuz crisis threatens global energy security, directly impacting Polish energy costs.",
+      "score": 5.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
@@ -23,41 +28,51 @@
     },
     {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create worst air quality in Toronto and spread to US cities",
-      "summary": "Over 800 fires in Canada produce smoke affecting major North American cities from Toronto to US Midwest, demonstrating scale of climate-driven disasters in allied nations.",
-      "score": 2.5,
-      "sentiment": "negative",
+      "label": "Canadian wildfires create worst air quality in Toronto, smoke reaches US",
+      "summary": "Over 800 blazes in Ontario make Toronto's air quality worst in world, with smoke spreading to US Midwest and Great Lakes. Health warnings issued across affected regions.",
+      "score": 2.1,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
         }
       ],
       "detected_at": "2026-07-16T12:56:42.619539Z"
     },
     {
-      "title": "China hits out at British Steel nationalisation",
-      "label": "UK nationalizes British Steel amid Chinese ownership dispute over closure fears",
-      "summary": "Britain takes last working steelworks into public ownership after concerns Chinese owners would shut it down, showing EU industrial policy tensions with China.",
+      "title": "Trump alleges 'shocking vulnerabilities' in US election security ahead of midterms",
+      "label": "Trump claims China meddled in 2020 election, contradicts intelligence findings",
+      "summary": "US president alleges Chinese interference in 2020 election, directly contradicting past US intelligence conclusions. Rhetoric continues ahead of midterm elections without new confirmed actions.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/key-takeaways-from-donald-trumps-speech-on-election-security?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-17T06:26:21.466834Z"
+      "detected_at": "2026-07-17T07:01:39.708808Z"
     }
   ],
   "short_summary": "US strikes hit Iranian bridges and civilian infrastructure, escalating Hormuz crisis",
@@ -65,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-17T06:26:21.466834Z",
+  "updated_at": "2026-07-17T07:01:39.708808Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-15T06:27:08.459152Z",
-      "s": 2.7
-    },
     {
       "t": "2026-07-15T07:01:52.227319Z",
       "s": 3.5
@@ -383,6 +394,10 @@
     {
       "t": "2026-07-17T06:26:21.466834Z",
       "s": 5.9
+    },
+    {
+      "t": "2026-07-17T07:01:39.708808Z",
+      "s": 5.6
     }
   ]
 }

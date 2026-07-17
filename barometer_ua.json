@@ -1,19 +1,24 @@
 {
-  "global_score": 5.1,
-  "rationale": "US-Iran military escalation continues, potentially diverting Western military resources and attention from Ukraine support as Middle East conflict intensifies.",
+  "global_score": 4.8,
+  "rationale": "US-Iran military escalation reaches sixth night, potentially diverting Western military resources and attention from Ukraine support during ongoing war with Russia. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US bombards Iran in sixth-straight night of attacks",
-      "label": "US launches sixth consecutive night of military strikes on Iranian infrastructure",
-      "summary": "Sustained US military campaign in Middle East risks diverting Western resources and political attention away from Ukraine support during ongoing war with Russia.",
-      "score": 5.1,
+      "label": "US strikes Iran sixth consecutive night, civilian infrastructure reportedly damaged",
+      "summary": "US military action continues for sixth night with Iranian sources reporting civilian casualties and infrastructure hits. Escalating Middle East conflict risks diverting Western military resources and political attention from Ukraine support.",
+      "score": 4.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
@@ -23,10 +28,10 @@
     },
     {
       "title": "Israeli settlers attack Sinjil town in occupied West Bank",
-      "label": "Israeli settlers clash with Palestinians in occupied West Bank town",
-      "summary": "Renewed violence in West Bank adds to Middle East instability that competes with Ukraine for Western diplomatic focus and military aid.",
-      "score": 2.5,
-      "sentiment": "negative",
+      "label": "Israeli settlers attack West Bank town, clashes erupt in Sinjil",
+      "summary": "Clashes erupted after Israeli settlers attacked outskirts of Sinjil in occupied West Bank. Regional Middle East instability continues with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -41,31 +46,36 @@
       "detected_at": "2026-07-14T18:16:08.566310Z"
     },
     {
-      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Over 800 Canadian wildfires create worst air quality in Toronto",
-      "summary": "Major disaster in North America demonstrates climate crisis affecting allied nations, though geographically distant from Ukraine.",
-      "score": 1.5,
+      "title": "Trump alleges 'shocking vulnerabilities' in US election security ahead of midterms",
+      "label": "Trump claims China meddled in 2020 election, contradicts intelligence agencies",
+      "summary": "US president alleges Chinese interference in 2020 election, contradicting past US intelligence findings. Domestic political rhetoric without direct impact on Ukraine support policy.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/key-takeaways-from-donald-trumps-speech-on-election-security?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-17T06:01:46.747426Z"
+      "detected_at": "2026-07-17T07:01:39.711062Z"
     }
   ],
   "short_summary": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
-  "level_label": "Elevated",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-17T06:26:21.468836Z",
+  "updated_at": "2026-07-17T07:01:39.711062Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-15T04:01:52.130446Z",
   "score_history": [
-    {
-      "t": "2026-07-15T06:27:08.460200Z",
-      "s": 2.7
-    },
     {
       "t": "2026-07-15T07:01:52.228519Z",
       "s": 2.6
@@ -383,6 +389,10 @@
     {
       "t": "2026-07-17T06:26:21.468836Z",
       "s": 5.1
+    },
+    {
+      "t": "2026-07-17T07:01:39.711062Z",
+      "s": 4.8
     }
   ]
 }
