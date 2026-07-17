@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-07-17T22:06:09.063561Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-07-17T23:01:36.578948Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ontario wildfires — Toronto air quality crisis",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 21,
       "opis": "100+ fires create worst global air quality; health warnings."
     },
     {
       "temat": "US strikes on Iran — military escalation",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "Direct US military action in Iran raises wider war risk."
     },
     {
       "temat": "Trump election security claims — domestic political rhetoric",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "President alleges China meddling, contradicting."
     },
     {
       "temat": "Mexico demands ICE death investigations — 14 deaths",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 6,
       "opis": "Diplomatic pressure over immigrant deaths in US custody."
     },
     {
       "temat": "Texas floods — central state weather disaster",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "Heavy rains kill two; warning systems tested after 2024."
     },
     {
       "temat": "IRS chief counsel resignation — tax policy dispute",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Top lawyer quits over settlement and audit disagreements."
+    },
+    {
+      "temat": "Taco Bell cyclospora outbreak — foodborne illness",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "CDC links Mexican lettuce to illness in five states."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-15T22:11:52.541848Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T23:01:59.248201Z",
       "s": 2.8
@@ -336,17 +338,37 @@
     {
       "t": "2026-07-17T22:06:09.057212Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-17T23:01:36.572522Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "event_detected_at": {
-    "more canadian wildfire smoke shrouds us midwest, mid-atlantic and north-east": {
+    "us denies iranian claims it hit civilian infrastructure in latest strikes": {
+      "detected_at": "2026-07-14T17:53:54.012654Z",
+      "peak_score": 7.4,
+      "peak_sentiment": "negative",
+      "title": "Gulf states come under Iranian fire as US strikes intensify",
+      "peak_label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
+      "peak_at": "2026-07-17T09:01:48.376535Z"
+    },
+    "trump threatens to tariff canada over wildfire smoke choking northern us cities": {
       "detected_at": "2026-07-14T17:53:54.012654Z",
       "peak_score": 5.2,
       "peak_sentiment": "negative",
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
       "peak_label": "Over 800 Canadian wildfires create air quality crisis across US",
       "peak_at": "2026-07-17T09:01:48.376535Z"
+    },
+    "cdc and fda link lettuce at taco bell in five states to cyclospora outbreak": {
+      "detected_at": "2026-07-17T23:01:36.572522Z",
+      "peak_at": "2026-07-17T23:01:36.572522Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
+      "peak_label": "CDC and FDA link Taco Bell lettuce to cyclospora outbreak in five states"
     },
     "trump alleges china meddled in 2020 election and questions voting security ahead of midterms": {
       "detected_at": "2026-07-17T03:35:24.719506Z",
@@ -363,14 +385,6 @@
       "peak_sentiment": "negative",
       "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
       "peak_label": "White House staffer accused of insider betting on Trump speeches"
-    },
-    "us denies iranian claims it hit civilian infrastructure in latest strikes": {
-      "detected_at": "2026-07-14T17:53:54.012654Z",
-      "peak_score": 7.4,
-      "peak_sentiment": "negative",
-      "title": "Gulf states come under Iranian fire as US strikes intensify",
-      "peak_label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
-      "peak_at": "2026-07-17T09:01:48.376535Z"
     },
     "at least two dead as heavy rains, floods strike central texas": {
       "detected_at": "2026-07-17T21:01:40.910142Z",
@@ -422,8 +436,8 @@
     }
   },
   "prev_top_event_titles": [
-    "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-    "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-    "Top IRS lawyer to resign post amid disagreements with Trump administration"
+    "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+    "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+    "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak"
   ]
 }

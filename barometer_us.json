@@ -1,19 +1,48 @@
 {
-  "global_score": 2.9,
-  "rationale": "Canadian wildfire smoke continues affecting US air quality (known situation); Trump election rhetoric continues; Mexico earthquake and other events have minimal direct US impact.",
+  "global_score": 3.0,
+  "rationale": "Continuation of US strikes on Iran (seventh night, rhetoric over targets) and Canadian wildfire smoke affecting northern cities; no new qualitative change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "Canadian wildfire smoke affects 109 million Americans across multiple regions",
-      "summary": "Tens of millions face another day of poor air quality as Ontario fires continue. Ongoing health crisis affecting daily life across midwest, mid-Atlantic and northeast without new developments.",
-      "score": 2.9,
-      "sentiment": "negative",
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "label": "US military denies hitting Iranian civilian sites in seventh night of strikes",
+      "summary": "Seventh consecutive night of US strikes in Iran continues military escalation; Pentagon rhetoric over target types does not change baseline risk.",
+      "score": 3.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+      "label": "Trump threatens Canadian tariffs over wildfire smoke affecting US cities",
+      "summary": "Presidential rhetoric over air quality from Ontario fires; no enacted policy change, continuation of known smoke impact on northern US.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
@@ -22,52 +51,33 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-      "label": "Trump alleges China election meddling, questions voting security before midterms",
-      "summary": "President claims Chinese interference contradicting intelligence assessments. Continues domestic political rhetoric without confirmed policy changes or security actions.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
+      "label": "CDC and FDA link Taco Bell lettuce to cyclospora outbreak in five states",
+      "summary": "Federal health officials identify Mexican lettuce supplier behind foodborne illness outbreak; localized health concern affecting five states.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell"
         }
       ],
-      "detected_at": "2026-07-17T03:35:24.719506Z"
-    },
-    {
-      "title": "Top IRS lawyer to resign post amid disagreements with Trump administration",
-      "label": "Top IRS chief counsel resigns over settlement and audit disputes",
-      "summary": "Ken Kies steps down amid reported disagreements over controversial settlement deal and tax audit policies. Signals internal tax policy tensions without immediate impact on taxpayers.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/top-irs-lawyer-to-resign-post-amid-disagreements-with-trump-administration?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T03:35:24.719506Z"
+      "detected_at": "2026-07-17T23:01:36.572522Z"
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T22:06:09.057212Z",
+  "updated_at": "2026-07-17T23:01:36.572522Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
     "score": 7.4,
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T22:11:52.541848Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T23:01:59.248201Z",
       "s": 2.8
@@ -371,6 +377,10 @@
     {
       "t": "2026-07-17T22:06:09.057212Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-17T23:01:36.572522Z",
+      "s": 3.0
     }
   ]
 }
