@@ -1,19 +1,24 @@
 {
-  "global_score": 3.0,
-  "rationale": "US boarding ship in Hormuz Strait escalates energy supply threat for Black Sea region; Ukraine protests deepen command crisis in neighbor during war. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "US military escalation in Iran threatens Strait of Hormuz oil transit, directly impacting Romania's energy costs and Black Sea regional stability amid existing Ukraine war pressures. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes Iran and boards vessel in Strait of Hormuz",
-      "summary": "US military escalation includes boarding ship in critical oil transit route, raising energy supply risk for EU Black Sea region including Romania.",
-      "score": 3.0,
+      "title": "US bombards Iran in sixth-straight night of attacks",
+      "label": "US conducts sixth consecutive night of strikes on Iran, civilian infrastructure hit",
+      "summary": "Sustained US bombing campaign in Iran escalates Middle East conflict and threatens Hormuz oil transit. IEA warns of global energy security crisis affecting Romania's import-dependent economy.",
+      "score": 5.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
@@ -22,50 +27,50 @@
       "detected_at": "2026-07-15T10:01:52.619068Z"
     },
     {
-      "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
-      "label": "Public protests in Ukraine over defense minister Fedorov dismissal",
-      "summary": "Mass protests over minister removal deepen command instability in Black Sea neighbor during active war, potentially affecting regional security.",
-      "score": 2.6,
-      "sentiment": "negative",
+      "title": "Israeli settlers attack Sinjil town in occupied West Bank",
+      "label": "Israeli settlers attack West Bank town of Sinjil, clashes erupt with residents",
+      "summary": "Localized violence in occupied Palestinian territory. No direct connection to Romania's Black Sea region or daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-15T09:20:53.411424Z"
-    },
-    {
-      "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
-      "label": "IEA chief warns Hormuz crisis threatens global energy security",
-      "summary": "International Energy Agency head confirms oil security threat from Hormuz situation, validating energy supply concerns for EU including Romania.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/israeli-settlers-attack-sinjil-town-in-occupied-west-bank?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-15T10:01:52.619068Z"
+      "detected_at": "2026-07-17T06:01:46.746309Z"
+    },
+    {
+      "title": "School bus crash kills at least 20 pupils in Uganda",
+      "label": "Uganda school bus crash kills at least 20 pupils, mechanical fault suspected",
+      "summary": "Tragic accident in East Africa with no impact on Romania's regional security or economy.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T06:01:46.746309Z"
     }
   ],
   "short_summary": "Zelensky dismisses Ukraine defense minister, triggering protests and military concern",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-17T05:01:41.461795Z",
+  "updated_at": "2026-07-17T06:01:46.746309Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-15T09:20:53.411424Z",
   "score_history": [
-    {
-      "t": "2026-07-15T05:01:51.022792Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T06:01:57.337851Z",
       "s": 2.8
@@ -383,6 +384,10 @@
     {
       "t": "2026-07-17T05:01:41.461795Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T06:01:46.746309Z",
+      "s": 5.0
     }
   ]
 }

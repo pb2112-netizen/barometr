@@ -1,38 +1,24 @@
 {
-  "global_score": 3.0,
-  "rationale": "Public protests erupt over defense minister dismissal during war, creating internal political crisis that threatens command unity and war effort. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "US military escalation in Iran risks diverting Western resources and attention from Ukraine war support, while Middle East conflict could strain allied military aid and focus. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
-      "label": "Mass protests erupt in Ukraine over Zelensky's dismissal of Fedorov",
-      "summary": "Public protests over popular defense minister's removal create internal political crisis during active war, threatening command unity and potentially weakening defense posture.",
-      "score": 2.2,
+      "title": "US bombards Iran in sixth-straight night of attacks",
+      "label": "US conducts sixth consecutive night of strikes on Iran, escalates Middle East conflict",
+      "summary": "Sustained US military campaign in Iran raises risk of wider Middle East war that could divert Western military resources and political attention from Ukraine's defense needs.",
+      "score": 5.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-15T04:01:52.130446Z"
-    },
-    {
-      "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes Iran infrastructure and boards ship in Hormuz Strait",
-      "summary": "US military escalation in Middle East raises risk of Western attention and resources being diverted from Ukraine war effort.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
@@ -41,31 +27,55 @@
       "detected_at": "2026-07-14T18:16:08.566310Z"
     },
     {
-      "title": "Teenager accused of carrying out sabotage actions in Poland for Russia",
-      "label": "Teen arrested for Russian sabotage in Poland targeting Ukraine ties",
-      "summary": "Russian hybrid operation in Poland aims to incite Poland-Ukraine tensions, threatening critical ally support during war.",
-      "score": 2.8,
-      "sentiment": "negative",
+      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
+      "label": "Canadian wildfires spread smoke across North America, over 800 blazes burning",
+      "summary": "Large-scale wildfire event in North America creates air quality crisis. Distant environmental disaster with no connection to Ukraine's war situation.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
+        }
+      ],
+      "detected_at": "2026-07-17T06:01:46.747426Z"
+    },
+    {
+      "title": "School bus crash kills at least 20 pupils in Uganda",
+      "label": "Uganda school bus crash kills at least 20 pupils, mechanical fault suspected",
+      "summary": "Tragic accident in East Africa with no relevance to Ukraine's security or daily life during ongoing war.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp305dx493do?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-15T20:01:51.748792Z"
+      "detected_at": "2026-07-17T06:01:46.747426Z"
     }
   ],
   "short_summary": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-17T05:01:41.463054Z",
+  "updated_at": "2026-07-17T06:01:46.747426Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-15T04:01:52.130446Z",
   "score_history": [
-    {
-      "t": "2026-07-15T05:01:51.023446Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-15T06:01:57.338606Z",
       "s": 2.8
@@ -383,6 +389,10 @@
     {
       "t": "2026-07-17T05:01:41.463054Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T06:01:46.747426Z",
+      "s": 5.0
     }
   ]
 }

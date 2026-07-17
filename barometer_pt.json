@@ -1,19 +1,24 @@
 {
-  "global_score": 3.0,
-  "rationale": "US boarding ship in Hormuz Strait escalates oil transit threat, directly affecting Portugal's energy costs; IEA chief confirms global energy security risk. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "US military escalation in Iran threatens Strait of Hormuz oil transit, raising energy costs for Portugal's import-dependent economy and EU-wide fuel prices. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes Iran and boards ship in Strait of Hormuz",
-      "summary": "US military action escalates with boarding of vessel in critical oil transit route, raising energy supply and cost risk for western EU including Portugal.",
-      "score": 3.0,
+      "title": "US bombards Iran in sixth-straight night of attacks",
+      "label": "US launches sixth night of strikes on Iran, threatens Hormuz Strait oil transit",
+      "summary": "Sustained US bombing campaign in Iran escalates Middle East conflict and threatens global oil supply through Hormuz Strait. IEA warns of energy security crisis affecting Portugal's fuel costs.",
+      "score": 5.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
@@ -22,50 +27,60 @@
       "detected_at": "2026-07-14T17:53:54.011553Z"
     },
     {
-      "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
-      "label": "IEA chief warns Hormuz crisis threatens global energy security",
-      "summary": "International Energy Agency head confirms oil security threat from Hormuz situation, validating energy cost concerns for Portugal's economy.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.011553Z"
-    },
-    {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create worst air quality in Toronto and US cities",
-      "summary": "Over 800 fires blanket North American cities with smoke from Toronto to US Midwest; distant event with no direct impact on Portugal.",
-      "score": 1.8,
+      "label": "Canadian wildfires create hazardous air quality across North America, over 800 blazes active",
+      "summary": "Massive wildfire event in North America affects air quality from Toronto to US Midwest. Distant climate disaster with no direct impact on Portugal.",
+      "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
         }
       ],
       "detected_at": "2026-07-16T19:01:39.578737Z"
+    },
+    {
+      "title": "China hits out at British Steel nationalisation",
+      "label": "UK nationalizes British Steel, China criticizes government takeover of former Chinese-owned firm",
+      "summary": "UK government takes steelworks into public ownership. EU trade policy development with no direct impact on Portugal's economy.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/china-rebukes-uk-over-nationalisation-of-british-steel?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T06:01:46.746888Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-17T05:01:41.462394Z",
+  "updated_at": "2026-07-17T06:01:46.746888Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-15T05:01:51.023167Z",
-      "s": 3.5
-    },
     {
       "t": "2026-07-15T06:01:57.338254Z",
       "s": 3.4
@@ -383,6 +394,10 @@
     {
       "t": "2026-07-17T05:01:41.462394Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T06:01:46.746888Z",
+      "s": 5.0
     }
   ]
 }

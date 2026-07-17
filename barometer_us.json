@@ -1,19 +1,24 @@
 {
-  "global_score": 4.3,
-  "rationale": "US military escalation in Iran includes boarding ship in Hormuz Strait, raising direct military engagement risk; Canadian wildfires create worst air quality in major US cities. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.3,
+  "rationale": "US military forces conduct sixth consecutive night of strikes on Iran, escalating direct American involvement in Middle East conflict and raising risk of wider regional war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
-      "label": "US strikes Iran and boards ship in Strait of Hormuz",
-      "summary": "US military action escalates with strikes on Iranian infrastructure and boarding of vessel in Hormuz Strait, raising risk of wider direct military conflict.",
-      "score": 3.0,
+      "title": "US bombards Iran in sixth-straight night of attacks",
+      "label": "US military launches sixth consecutive night of strikes on Iran, hits civilian infrastructure",
+      "summary": "US forces conduct sustained bombing campaign against Iran, marking major escalation of direct American military action in Middle East. Tehran reports civilian infrastructure hit; Hormuz Strait oil transit threatened.",
+      "score": 6.3,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-bombards-iran-in-sixth-straight-night-of-attacks?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
@@ -23,11 +28,11 @@
     },
     {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Over 800 Canadian wildfires create worst air quality in US cities",
-      "summary": "Smoke from Canadian fires blankets major US cities from New York to Midwest with worst air quality, prompting health warnings for millions of Americans.",
-      "score": 4.3,
+      "label": "Canadian wildfires create hazardous air quality across US Midwest and Great Lakes region",
+      "summary": "Over 800 fires in Canada send smoke across US border, triggering air quality alerts from New York to Midwest. Millions of Americans face health warnings.",
+      "score": 4.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -46,31 +51,31 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
-      "label": "White House staffer accused of insider betting on Trump speeches",
-      "summary": "White House employee allegedly used inside knowledge of presidential speeches to make nearly $100,000 on prediction markets, raising ethics concerns.",
-      "score": 2.3,
+      "title": "Texas floods ravage through southwestern areas of state",
+      "label": "Texas Hill Country floods kill at least two, rescue over 200 residents",
+      "summary": "Catastrophic flooding in Texas Hill Country region causes casualties and mass evacuations. Same area hit repeatedly by severe weather events.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/texas-floods-ravage-through-southwestern-areas-of-state?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-17T03:35:24.719506Z"
+      "detected_at": "2026-07-16T18:01:48.519569Z"
     }
   ],
   "short_summary": "US strikes Iranian bridges and civilian infrastructure, boards ship in Hormuz",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T05:01:41.464002Z",
+  "updated_at": "2026-07-17T06:01:46.748037Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T05:01:51.023794Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T06:01:57.339014Z",
       "s": 3.0
@@ -388,6 +389,10 @@
     {
       "t": "2026-07-17T05:01:41.464002Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-07-17T06:01:46.748037Z",
+      "s": 6.3
     }
   ]
 }
