@@ -1,33 +1,52 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Iran escalation continues without qualitative change; Canadian wildfire smoke affects distant US cities but not Poland; other events lack direct Polish impact.",
+  "global_score": 5.0,
+  "rationale": "Satellite images confirm strikes on Iran's Bushehr nuclear plant — a qualitative escalation raising energy security and wider war risk for EU/NATO member Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran accuses US of hitting civilian infrastructure",
-      "label": "US military strikes Iranian civilian infrastructure amid ongoing escalation",
-      "summary": "US continues attacks on Iran claiming military targets; Iran reports civilian infrastructure hit. Escalation remains at elevated level without new qualitative change, maintaining energy market uncertainty for EU.",
-      "score": 3.0,
+      "title": "Satellite images show damage inside Iran's Bushehr nuclear power plant",
+      "label": "Satellite images confirm strikes on Iran's Bushehr nuclear power plant",
+      "summary": "Confirmed damage to Iran's largest nuclear facility between July 7–12 marks a qualitative escalation in US-Iran conflict, raising risk of wider regional war and energy supply disruption affecting Poland's economy and security.",
+      "score": 5.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/satellite-images-show-damage-inside-irans-bushehr-nuclear-power-plant?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
     },
     {
-      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create worst air quality in Toronto and spread to US",
-      "summary": "Over 800 fires in Canada produce smoke affecting Toronto, New York, and US Midwest. Distant environmental crisis with no direct impact on Poland.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "title": "Ukraine 'cuts off' Crimea from Russia, plunging it into an energy crisis",
+      "label": "Ukraine cuts off Crimea from Russia, causing energy crisis",
+      "summary": "Ukraine's drone campaign severs Crimea's energy links to Russia, escalating the war in Poland's immediate neighborhood and demonstrating new Ukrainian offensive capability.",
+      "score": 5.0,
+      "sentiment": "positive",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/ukraine-cuts-off-crimea-from-russia-plunging-it-into-an-energy-crisis?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-16T14:01:56.045799Z"
+    },
+    {
+      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
+      "label": "Canadian wildfires blanket North American cities with hazardous smoke",
+      "summary": "Over 800 fires create air quality crisis across North America, demonstrating climate-driven disaster scale that could affect Poland's own wildfire season and EU climate policy.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -44,35 +63,16 @@
         }
       ],
       "detected_at": "2026-07-16T12:56:42.619539Z"
-    },
-    {
-      "title": "US marines board commercial tanker in Gulf of Oman",
-      "label": "US marines board commercial tanker in Gulf of Oman waters",
-      "summary": "US military action in Strait of Hormuz region continues as part of ongoing Iran escalation. No new qualitative development in energy chokepoint threat already tracked.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/us-marines-board-commercial-tanker-in-gulf-of-oman?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T13:01:41.518325Z"
     }
   ],
   "short_summary": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-17T13:01:41.518325Z",
+  "updated_at": "2026-07-17T14:01:18.010217Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
     "score": 6.8,
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-15T13:01:52.543299Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T14:01:50.238329Z",
       "s": 3.0
@@ -388,6 +384,10 @@
     {
       "t": "2026-07-17T13:01:41.518325Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T14:01:18.010217Z",
+      "s": 5.0
     }
   ]
 }

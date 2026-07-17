@@ -1,31 +1,50 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Iran escalation continues without change, maintaining risk of Western attention diversion; no new developments on Ukrainian territory or Western aid.",
+  "global_score": 4.0,
+  "rationale": "Ukraine successfully cuts off Crimea's energy links to Russia — a major offensive achievement demonstrating new Ukrainian capability and escalating the war in occupied territory. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran accuses US of hitting civilian infrastructure",
-      "label": "US strikes on Iran persist as Tehran claims civilian infrastructure targeted",
-      "summary": "US military operations in Iran continue at elevated level without new escalation. Ongoing Middle East conflict sustains risk of diverting Western military resources and attention from Ukraine.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "Ukraine 'cuts off' Crimea from Russia, plunging it into an energy crisis",
+      "label": "Ukraine cuts off Crimea from Russia, causing energy crisis",
+      "summary": "Ukraine's drone offensive successfully severs Crimea's energy infrastructure, marking a significant escalation in offensive operations against occupied territory and demonstrating expanded Ukrainian strike capability.",
+      "score": 5.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/ukraine-cuts-off-crimea-from-russia-plunging-it-into-an-energy-crisis?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-15T20:01:51.748792Z"
+    },
+    {
+      "title": "Satellite images show damage inside Iran's Bushehr nuclear power plant",
+      "label": "Satellite images confirm strikes on Iran's Bushehr nuclear power plant",
+      "summary": "Confirmed strikes on Iran's nuclear facility escalate Middle East conflict, potentially diverting Western military resources and attention away from Ukraine's war effort.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/satellite-images-show-damage-inside-irans-bushehr-nuclear-power-plant?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T18:16:08.566310Z"
     },
     {
       "title": "US marines board commercial tanker in Gulf of Oman",
-      "label": "US forces board commercial tanker in Gulf of Oman amid Iran standoff",
-      "summary": "US naval action in Hormuz region continues as part of Iran escalation. No new development in existing Middle East situation that could affect Western support for Ukraine.",
-      "score": 2.0,
+      "label": "US marines board commercial tanker in Gulf of Oman",
+      "summary": "US military action in Gulf of Oman continues Middle East escalation, raising concern about Western focus shifting away from supporting Ukraine's defense.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,40 +58,16 @@
         }
       ],
       "detected_at": "2026-07-17T13:01:41.520541Z"
-    },
-    {
-      "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create severe air quality emergency across North America",
-      "summary": "Over 800 fires in Ontario produce worst global air quality in Toronto, affecting US cities. Distant environmental disaster irrelevant to Ukrainian war situation.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality"
-        }
-      ],
-      "detected_at": "2026-07-17T06:01:46.747426Z"
     }
   ],
   "short_summary": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-17T13:01:41.520541Z",
+  "updated_at": "2026-07-17T14:01:18.012289Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
     "score": 6.0,
@@ -81,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T18:16:08.566310Z",
   "score_history": [
-    {
-      "t": "2026-07-15T13:01:52.545039Z",
-      "s": 6.5
-    },
     {
       "t": "2026-07-15T14:01:50.240217Z",
       "s": 6.2
@@ -388,6 +379,10 @@
     {
       "t": "2026-07-17T13:01:41.520541Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T14:01:18.012289Z",
+      "s": 4.0
     }
   ]
 }

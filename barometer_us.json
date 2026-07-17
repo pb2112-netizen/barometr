@@ -1,12 +1,31 @@
 {
-  "global_score": 4.0,
-  "rationale": "Canadian wildfire smoke creates worst air quality crisis affecting millions across 20 US states from Toronto to Midwest, prompting widespread health alerts and stay-indoors orders.",
+  "global_score": 6.0,
+  "rationale": "Confirmed strikes on Iran's Bushehr nuclear plant mark a qualitative escalation in US-Iran conflict, raising risk of wider war and oil supply disruption directly involving US forces. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Satellite images show damage inside Iran's Bushehr nuclear power plant",
+      "label": "Satellite images confirm strikes on Iran's Bushehr nuclear power plant",
+      "summary": "Confirmed damage to Iran's largest nuclear facility between July 7–12 represents a dangerous escalation in US-Iran military conflict, raising risk of wider regional war and oil market disruption.",
+      "score": 6.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/satellite-images-show-damage-inside-irans-bushehr-nuclear-power-plant?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
       "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
-      "label": "Canadian wildfires create air quality crisis across 20 US states and major cities",
-      "summary": "Over 800 fires in Ontario produce smoke blanketing Toronto, New York, and US Midwest. Millions face air quality alerts and health warnings to stay indoors as smoke spreads across 20 states.",
-      "score": 4.0,
+      "label": "Canadian wildfires blanket US cities with hazardous smoke affecting millions",
+      "summary": "Over 800 fires create air quality alerts for 109 million Americans from Midwest to Northeast, forcing people indoors and demonstrating escalating climate-driven disaster impact on daily life.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -27,29 +46,10 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "Iran accuses US of hitting civilian infrastructure",
-      "label": "US military continues strikes on Iran as Tehran reports civilian damage",
-      "summary": "US operations in Iran persist without qualitative escalation; Iran claims civilian infrastructure targeted. Ongoing military action maintains existing Middle East tension level.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
       "title": "US marines board commercial tanker in Gulf of Oman",
-      "label": "US marines board commercial tanker in Gulf of Oman waters",
-      "summary": "US forces conduct boarding operation in Strait of Hormuz region as part of ongoing Iran standoff. No new escalation beyond existing military posture.",
-      "score": 2.0,
+      "label": "US marines board commercial tanker in Gulf of Oman",
+      "summary": "US military boarding operation in Gulf of Oman continues direct American involvement in Middle East escalation, raising risk of further confrontation with Iran.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -66,11 +66,11 @@
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T13:01:41.521380Z",
+  "updated_at": "2026-07-17T14:01:18.013043Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T13:01:52.545610Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T14:01:50.240822Z",
       "s": 2.3
@@ -388,6 +384,10 @@
     {
       "t": "2026-07-17T13:01:41.521380Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-17T14:01:18.013043Z",
+      "s": 6.0
     }
   ]
 }

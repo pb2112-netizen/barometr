@@ -1,44 +1,40 @@
 {
-  "updated_at": "2026-07-17T13:01:41.527413Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-07-17T14:01:18.017625Z",
+  "ostatnia_ocena": 6.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ontario wildfires — Toronto air quality crisis",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 7,
       "opis": "100+ fires create worst global air quality; health warnings."
     },
     {
       "temat": "US strikes on Iran — military escalation",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 6.0,
+      "cykle_bez_zmian": 0,
       "opis": "Direct US military action in Iran raises wider war risk."
     },
     {
       "temat": "Venezuela earthquake — 5,000 dead, 50,000 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Massive earthquake in South America; distant disaster."
     },
     {
       "temat": "White House staffer insider betting scandal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "$100k made betting on Trump speeches using inside info."
     },
     {
       "temat": "Trump election security claims — domestic political rhetoric",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "President alleges China meddling, contradicting."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-15T13:01:52.545610Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T14:01:50.240822Z",
       "s": 2.3
@@ -342,10 +338,22 @@
     {
       "t": "2026-07-17T13:01:41.521380Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-17T14:01:18.013043Z",
+      "s": 6.0
     }
   ],
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "event_detected_at": {
+    "satellite images show damage inside iran's bushehr nuclear power plant": {
+      "detected_at": "2026-07-14T17:53:54.012654Z",
+      "peak_score": 7.4,
+      "peak_sentiment": "negative",
+      "title": "Gulf states come under Iranian fire as US strikes intensify",
+      "peak_label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
+      "peak_at": "2026-07-17T09:01:48.376535Z"
+    },
     "canada fires prompt us air quality alerts as smoke blankets major cities": {
       "detected_at": "2026-07-14T17:53:54.012654Z",
       "peak_score": 5.2,
@@ -354,21 +362,13 @@
       "peak_label": "Over 800 Canadian wildfires create air quality crisis across US",
       "peak_at": "2026-07-17T09:01:48.376535Z"
     },
-    "iran accuses us of hitting civilian infrastructure": {
-      "detected_at": "2026-07-14T17:53:54.012654Z",
-      "peak_score": 7.4,
-      "peak_sentiment": "negative",
-      "title": "Gulf states come under Iranian fire as US strikes intensify",
-      "peak_label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
-      "peak_at": "2026-07-17T09:01:48.376535Z"
-    },
     "us marines board commercial tanker in gulf of oman": {
       "detected_at": "2026-07-17T13:01:41.521380Z",
-      "peak_at": "2026-07-17T13:01:41.521380Z",
-      "peak_score": 2.0,
+      "peak_at": "2026-07-17T14:01:18.013043Z",
+      "peak_score": 3.9,
       "peak_sentiment": "negative",
       "title": "US marines board commercial tanker in Gulf of Oman",
-      "peak_label": "US marines board commercial tanker in Gulf of Oman waters"
+      "peak_label": "US marines board commercial tanker in Gulf of Oman"
     },
     "trump alleges china meddled in 2020 election and questions voting security ahead of midterms": {
       "detected_at": "2026-07-17T03:35:24.719506Z",
@@ -404,8 +404,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Satellite images show damage inside Iran's Bushehr nuclear power plant",
     "Canada fires prompt US air quality alerts as smoke blankets major cities",
-    "Iran accuses US of hitting civilian infrastructure",
     "US marines board commercial tanker in Gulf of Oman"
   ]
 }
