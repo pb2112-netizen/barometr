@@ -1,31 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "EU carbon policy adjustment continues; distant events (US-Canada smoke, Mexico earthquake, Yemen piracy) have no meaningful impact on Portuguese daily life.",
+  "global_score": 2.2,
+  "rationale": "Mexico earthquake is distant Pacific event; piracy and Middle East conflicts have minimal direct impact on Portuguese daily life; other events are continuation.",
   "top_events": [
     {
-      "title": "EU proposes slowing down cuts to carbon emissions for businesses",
-      "label": "EU proposes relaxing emissions trading system timeline for businesses",
-      "summary": "Brussels plans to give companies more time to reduce carbon output under revised system. Continuation of known policy affecting Portuguese industrial sector.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T19:01:39.056038Z"
-    },
-    {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-      "label": "Magnitude 7.3 earthquake strikes off Mexico Pacific coast",
-      "summary": "Quake generates small tsunami waves in Mexican coastal areas. Distant Pacific seismic event with no impact on Portuguese Atlantic region or daily life.",
-      "score": 1.8,
+      "label": "Magnitude 7.3 earthquake strikes off Mexico's Pacific coast",
+      "summary": "Quake generated small tsunami waves in Mexican coastal areas. Distant Pacific seismic event with no direct impact on Portugal or Atlantic shipping.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -41,20 +22,39 @@
       "detected_at": "2026-07-14T17:53:54.011553Z"
     },
     {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "Canadian wildfire smoke affects 109 million Americans across multiple states",
-      "summary": "Ontario fires continue creating poor air quality across US regions. North American environmental event with no connection to Portuguese daily life.",
-      "score": 1.2,
+      "title": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
+      "label": "Second tanker hijacked off Yemen amid piracy resurgence",
+      "summary": "Multiple attacks signal piracy comeback in the region. Distant from Portuguese shipping lanes and has minimal impact on Atlantic trade or daily life.",
+      "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7vg6dml34vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "label": "US denies hitting Iranian civilian sites in latest strikes",
+      "summary": "Washington says attacks targeted military capabilities. Continues known US-Iran escalation with no new impact on EU energy prices or Portuguese economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.011553Z"
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-17T22:01:40.829923Z",
+  "updated_at": "2026-07-17T22:06:09.055555Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-15T22:01:55.639524Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-15T22:11:52.540166Z",
       "s": 2.9
@@ -371,6 +367,10 @@
     {
       "t": "2026-07-17T22:01:40.829923Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-07-17T22:06:09.055555Z",
+      "s": 2.2
     }
   ]
 }
