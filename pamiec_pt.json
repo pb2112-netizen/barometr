@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-07-17T17:01:43.526707Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-07-17T17:29:31.297119Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain wildfires — Iberia climate disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Twelve killed in neighbor Spain; direct wildfire risk."
     },
     {
       "temat": "France arson wildfire — European heatwave crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Suspected arson fire in France during unusual heatwave."
     },
     {
       "temat": "US-Iran strikes — oil market threat",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 5,
       "opis": "Military escalation risks energy supply disruption and."
     },
     {
       "temat": "UK leadership change — Burnham becomes PM",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Labour's Burnham takes office amid economic challenges."
+    },
+    {
+      "temat": "UK nationalizes British Steel — EU industrial policy shift",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Britain takes steel firm public; distant EU partner move."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-15T17:01:55.632854Z",
-      "s": 2.3
-    },
     {
       "t": "2026-07-15T17:37:37.485631Z",
       "s": 2.2
@@ -328,18 +330,14 @@
     {
       "t": "2026-07-17T17:01:43.521412Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T17:29:31.292101Z",
+      "s": 3.6
     }
   ],
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "event_detected_at": {
-    "burnham confirmed as leader of uk's governing labour party, headed for pm": {
-      "detected_at": "2026-07-17T15:37:55.061534Z",
-      "peak_at": "2026-07-17T16:01:49.657200Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Burnham confirmed as leader of UK's governing Labour Party, headed for PM",
-      "peak_label": "Andy Burnham becomes UK prime minister facing economic and security challenges"
-    },
     "iran accuses us of hitting civilian infrastructure": {
       "detected_at": "2026-07-14T17:53:54.011553Z",
       "peak_score": 5.5,
@@ -348,15 +346,7 @@
       "peak_label": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
       "peak_at": "2026-07-17T03:35:24.717883Z"
     },
-    "canada fires prompt us air quality alerts as smoke blankets major cities": {
-      "detected_at": "2026-07-14T17:53:54.011553Z",
-      "peak_score": 5.5,
-      "peak_sentiment": "negative",
-      "title": "US launches new wave of strikes on Iran as tensions escalate over Strait of Hormuz",
-      "peak_label": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
-      "peak_at": "2026-07-17T03:35:24.717883Z"
-    },
-    "deadly storm leaves half a million without power in chile": {
+    "more canadian wildfire smoke shrouds us midwest, mid-atlantic and north-east": {
       "detected_at": "2026-07-14T17:53:54.011553Z",
       "peak_score": 5.5,
       "peak_sentiment": "negative",
@@ -371,6 +361,22 @@
       "peak_sentiment": "neutral",
       "title": "China hits out at British Steel nationalisation",
       "peak_label": "UK nationalizes British Steel after Chinese ownership concerns, China protests"
+    },
+    "burnham confirmed as leader of uk's governing labour party, headed for pm": {
+      "detected_at": "2026-07-17T15:37:55.061534Z",
+      "peak_at": "2026-07-17T16:01:49.657200Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Burnham confirmed as leader of UK's governing Labour Party, headed for PM",
+      "peak_label": "Andy Burnham becomes UK prime minister facing economic and security challenges"
+    },
+    "deadly storm leaves half a million without power in chile": {
+      "detected_at": "2026-07-14T17:53:54.011553Z",
+      "peak_score": 5.5,
+      "peak_sentiment": "negative",
+      "title": "US launches new wave of strikes on Iran as tensions escalate over Strait of Hormuz",
+      "peak_label": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
+      "peak_at": "2026-07-17T03:35:24.717883Z"
     },
     "us strikes destroy key bridges, tower in southern iran": {
       "detected_at": "2026-07-14T17:53:54.011553Z",
@@ -422,8 +428,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Burnham confirmed as leader of UK's governing Labour Party, headed for PM",
     "Iran accuses US of hitting civilian infrastructure",
-    "Canada fires prompt US air quality alerts as smoke blankets major cities"
+    "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+    "China hits out at British Steel nationalisation"
   ]
 }

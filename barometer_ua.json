@@ -1,12 +1,12 @@
 {
-  "global_score": 5.3,
-  "rationale": "Russian attacks on Ukrainian ports killed four civilians including two aboard a foreign vessel, directly escalating threat to maritime infrastructure and civilian safety. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Russian port attacks kill Ukrainian civilians and foreign crew, continuing direct threat to southern Ukraine infrastructure and shipping. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine suffers port attacks as protests persist over defence shake-up",
-      "label": "Russian strikes kill four in Ukrainian ports including foreign vessel crew",
-      "summary": "Russian attacks on Mykolaiv, Kherson, and Odesa ports killed four including two aboard a foreign vessel, directly escalating threat to critical maritime infrastructure and civilian safety during ongoing defense ministry crisis.",
-      "score": 5.3,
+      "label": "Russian strikes kill four in Ukrainian port cities",
+      "summary": "Russian attacks killed two Ukrainians aboard a foreign vessel in Mykolaiv, plus two more in Kherson and Odesa. Continues direct assault on southern port infrastructure during ongoing defense ministry crisis.",
+      "score": 5.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-07-15T20:01:51.748792Z"
     },
     {
-      "title": "Burnham confirmed as leader of UK's governing Labour Party, headed for PM",
-      "label": "Andy Burnham set to become UK prime minister amid economic challenges",
-      "summary": "Labour's Burnham confirmed as UK PM-designate facing cost of living crisis and two wars, creating uncertainty over continued British military and economic support for Ukraine.",
-      "score": 3.9,
+      "title": "Iranian forces: missiles and drones fired at US targets in Gulf States",
+      "label": "Iran fires missiles at US targets in Gulf escalation",
+      "summary": "Iranian forces launched missiles and drones at US targets in Gulf States. Escalating Middle East conflict could divert Western military resources and attention from Ukraine support.",
+      "score": 4.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/iranian-forces-missiles-and-drones-fired-at-us-targets-in-gulf-states?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T13:01:41.520541Z"
+    },
+    {
+      "title": "Israeli attacks on Gaza kill 14, including mourners attending funeral",
+      "label": "Israeli strike kills 14 Palestinians including funeral mourners",
+      "summary": "Israeli attack killed 14 Palestinians including mourners at a funeral procession. Distant Middle East conflict with no direct impact on Ukraine.",
+      "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/burnham-confirmed-as-leader-of-uks-governing-labour-party-headed-for-pm?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/17/israeli-attacks-on-gaza-kill-14-including-mourners-attending-funeral?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-17T16:01:49.657845Z"
-    },
-    {
-      "title": "Iran accuses US of hitting civilian infrastructure",
-      "label": "US military strikes continue targeting Iranian infrastructure and capabilities",
-      "summary": "Ongoing US military campaign against Iran maintains risk of Western attention and resources being diverted from Ukraine support, though no new escalation reported this cycle.",
-      "score": 4.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T18:16:08.566310Z"
+      "detected_at": "2026-07-15T20:01:51.748792Z"
     }
   ],
   "short_summary": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-17T17:01:43.522209Z",
+  "updated_at": "2026-07-17T17:29:31.292837Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T18:16:08.566310Z",
   "score_history": [
-    {
-      "t": "2026-07-15T17:01:55.633370Z",
-      "s": 4.8
-    },
     {
       "t": "2026-07-15T17:37:37.486017Z",
       "s": 4.6
@@ -375,6 +371,10 @@
     {
       "t": "2026-07-17T17:01:43.522209Z",
       "s": 5.3
+    },
+    {
+      "t": "2026-07-17T17:29:31.292837Z",
+      "s": 5.0
     }
   ]
 }
