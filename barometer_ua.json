@@ -1,13 +1,36 @@
 {
-  "global_score": 3.0,
-  "short_summary": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
-  "rationale": "Defense minister dismissal protests continue without new qualitative change; Polish sabotage case persists; US-Iran strikes remain distant distraction.",
+  "global_score": 2.9,
+  "rationale": "US-Iran escalation could shift Western focus and resources away from Ukraine support; ongoing domestic protests over defense minister removal continue to destabilize military command during war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Blasts reported in Iran as US launches new wave of strikes",
+      "label": "US escalates Iran military campaign with infrastructure strikes nationwide",
+      "summary": "Sustained US military action in Middle East raises concern that Western attention and military resources could shift away from supporting Ukraine's defense against Russia.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/qatar-rejects-israeli-reports-of-military-action-against-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T18:16:08.566310Z"
+    },
+    {
       "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
-      "label": "Public protests erupt over Zelensky's dismissal of defense minister Fedorov",
-      "summary": "Mass protests follow defense minister's removal amid rift with military command during war. Continues known internal command crisis without new qualitative development.",
-      "score": 3.0,
+      "label": "Fedorov dismissal protests continue amid military command rift with Syrskyi",
+      "summary": "Ongoing public protests over defense minister removal deepen internal command crisis during active war, with rift between Fedorov and Commander-in-Chief Syrskyi.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,9 +47,9 @@
     },
     {
       "title": "Teenager accused of carrying out sabotage actions in Poland for Russia",
-      "label": "Teen charged with Russian sabotage in Poland targeting Ukraine tensions",
-      "summary": "Polish authorities charge teenager with Russian-directed sabotage aimed at inciting Poland-Ukraine ethnic tensions. Continues known hybrid threat against ally support.",
-      "score": 2.6,
+      "label": "Russian sabotage operations in Poland target Ukraine-Poland relations",
+      "summary": "Continued Russian hybrid warfare in allied Poland aims to undermine critical support relationship, threatening Ukraine's western supply lines.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -40,37 +63,14 @@
         }
       ],
       "detected_at": "2026-07-15T20:01:51.748792Z"
-    },
-    {
-      "title": "Blasts reported in Iran as US launches new wave of strikes",
-      "label": "US conducts sixth straight night of military strikes on Iran",
-      "summary": "US continues campaign for sixth consecutive day. Distant conflict potentially diverting Western military focus from Ukraine support.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/16/us-mounts-sixth-straight-night-of-attacks-as-iran-warns-of-wider-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T18:16:08.566310Z"
     }
   ],
-  "level_label": "Low",
+  "short_summary": "Mass protests erupt across Ukraine over Zelensky's defense minister dismissal",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-16T23:10:32.325846Z",
+  "updated_at": "2026-07-17T00:01:42.609603Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-15T04:01:52.130446Z",
   "score_history": [
-    {
-      "t": "2026-07-15T00:01:23.191930Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-15T00:03:34.872156Z",
       "s": 2.0
@@ -384,6 +380,10 @@
     {
       "t": "2026-07-16T23:10:32.325846Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-17T00:01:42.609603Z",
+      "s": 2.9
     }
   ]
 }
