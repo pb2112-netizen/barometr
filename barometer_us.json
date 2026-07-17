@@ -1,63 +1,68 @@
 {
-  "global_score": 3.1,
-  "rationale": "Texas floods test warning systems and IRS lawyer resignation signals internal policy disputes; ongoing rhetoric without major policy changes.",
+  "global_score": 3.0,
+  "rationale": "US military strikes on Iran continue with denial of civilian targeting; Canadian wildfire smoke affects 109 million Americans; Trump election security rhetoric continues. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "At least two dead as heavy rains, floods strike central Texas",
-      "label": "Heavy rains kill two in central Texas, test warning systems",
-      "summary": "Flooding in Texas causes two deaths and tests new warning systems implemented after 2024 deadly rainfall. Continuation of regional weather disaster with limited casualties.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/gallery/2026/7/17/at-least-two-dead-as-heavy-rains-floods-strike-central-texas?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T21:01:40.910142Z"
-    },
-    {
-      "title": "Top IRS lawyer to resign post amid disagreements with Trump administration",
-      "label": "Top IRS lawyer Ken Kies resigns amid Trump administration disputes",
-      "summary": "IRS chief counsel resigns over reported disputes about controversial settlement deal and tax audit disagreements. Signals internal policy tensions but no immediate tax system change for residents.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/17/top-irs-lawyer-to-resign-post-amid-disagreements-with-trump-administration?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T03:35:24.719506Z"
-    },
-    {
-      "title": "Mexico asks US state attorneys general to investigate immigrant ICE deaths",
-      "label": "Mexico requests state investigations into 14 ICE immigrant deaths",
-      "summary": "Mexico formally requests criminal investigations into deaths of 14 Mexican immigrants in ICE custody since Trump's second term began. Continuation of diplomatic pressure over custody deaths.",
-      "score": 3.1,
+      "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+      "label": "US military denies Iranian claims of civilian infrastructure strikes",
+      "summary": "Pentagon states attacks intended to degrade Iranian military capabilities only, rejecting civilian targeting claims. Continuation of direct US military action in Iran with ongoing escalation risk.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+      "label": "Canadian wildfire smoke affects 109 million Americans across twenty states",
+      "summary": "Ontario fires create poor air quality from Minnesota to New York with health warnings. Continuation of known air quality crisis affecting daily life across multiple US regions.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths"
+          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
+    {
+      "title": "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
+      "label": "Trump alleges China election meddling and questions voting security before midterms",
+      "summary": "President claims Chinese interference contradicting intelligence assessments, raising election security concerns. Continuation of domestic political rhetoric without confirmed policy impact.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/top-irs-lawyer-to-resign-post-amid-disagreements-with-trump-administration?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-17T03:35:24.719506Z"
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-17T21:07:15.842072Z",
+  "updated_at": "2026-07-17T22:01:40.831193Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-15T21:14:21.989469Z",
-      "s": 2.1
-    },
     {
       "t": "2026-07-15T22:01:55.641223Z",
       "s": 3.0
@@ -371,6 +372,10 @@
     {
       "t": "2026-07-17T21:07:15.842072Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-17T22:01:40.831193Z",
+      "s": 3.0
     }
   ]
 }
