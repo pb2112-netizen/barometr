@@ -1,31 +1,50 @@
 {
-  "global_score": 2.1,
-  "rationale": "EU carbon emissions slowdown continues (already known); distant events (US-Canada tariff rhetoric, Ukraine protests, Middle East strikes) have no direct link to Portuguese daily life.",
+  "global_score": 2.5,
+  "rationale": "Canadian wildfire smoke affects US cities, raising climate and air quality concerns relevant to Portugal's own wildfire vulnerability and Atlantic climate patterns.",
   "top_events": [
     {
-      "title": "EU proposes slowing down cuts to carbon emissions for businesses",
-      "label": "EU proposes relaxing emissions trading system timeline for businesses",
-      "summary": "Brussels plans to give companies more time to reduce carbon output under revised emissions trading system; affects Portuguese industry transition timeline.",
+      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+      "label": "Canadian wildfire smoke affects 109 million Americans across multiple states",
+      "summary": "Massive smoke event from Ontario fires impacts air quality across US regions. Relevant to Portugal as climate-driven wildfire pattern affecting Western economies and tourism.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.011553Z"
+    },
+    {
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "label": "US conducts seventh consecutive night of strikes on Iran",
+      "summary": "Ongoing US-Iran military campaign continues near Hormuz. Maintains elevated oil market risk affecting EU energy costs but no new escalation.",
       "score": 2.1,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-17T19:01:39.056038Z"
+      "detected_at": "2026-07-14T17:53:54.011553Z"
     },
     {
       "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-      "label": "Magnitude 7.3 earthquake strikes off Mexico Pacific coast",
-      "summary": "Major earthquake off Mexico generates small tsunami waves; distant Pacific seismic event with no Atlantic or European impact.",
-      "score": 1.3,
+      "label": "Magnitude 7.3 earthquake strikes off Mexico coast with tsunami warning",
+      "summary": "Major Pacific seismic event generates small tsunami waves. Distant from Portugal with no Atlantic impact; minimal relevance to daily life.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-07-14T17:53:54.011553Z"
-    },
-    {
-      "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
-      "label": "US health officials link Taco Bell lettuce to cyclospora illness outbreak",
-      "summary": "US foodborne illness outbreak traced to Mexican lettuce at Taco Bell; distant North American food safety issue with no link to Portugal.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell"
-        }
-      ],
-      "detected_at": "2026-07-18T01:01:29.852371Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-18T01:01:29.852371Z",
+  "updated_at": "2026-07-18T02:01:33.502504Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
     "score": 5.5,
@@ -76,10 +76,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-16T01:01:57.937628Z",
-      "s": 2.4
-    },
     {
       "t": "2026-07-16T02:01:52.541556Z",
       "s": 2.3
@@ -371,6 +367,10 @@
     {
       "t": "2026-07-18T01:01:29.852371Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-07-18T02:01:33.502504Z",
+      "s": 2.5
     }
   ]
 }
