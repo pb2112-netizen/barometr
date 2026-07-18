@@ -1,12 +1,11 @@
 {
-  "global_score": 2.0,
-  "short_summary": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
-  "rationale": "Soldier protests over Fedorov dismissal escalate to military dissent (qualitative deepening of command crisis); US-Iran conflict continues (background risk to Western support). Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Soldier discontent over defense minister removal deepens command crisis during active war; significant internal instability affecting military cohesion and public confidence in leadership. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
-      "label": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
-      "summary": "Protests over Fedorov's dismissal now include active military personnel expressing outrage. Escalates internal command crisis during war, threatening cohesion and morale at critical time.",
+      "label": "Ukrainian troops openly criticize defense minister removal as protests continue",
+      "summary": "Military personnel join public protests against Fedorov dismissal, creating command crisis during active war. Soldier discontent threatens cohesion and morale at critical time.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -24,29 +23,34 @@
     },
     {
       "title": "US strikes hit Iran for seventh consecutive night",
-      "label": "US strikes hit Iran for seventh consecutive night",
-      "summary": "Sustained US military campaign in Iran continues with Iranian counter-strikes. Ongoing Middle East escalation risks diverting Western resources and attention from Ukraine.",
-      "score": 2.0,
+      "label": "US strikes Iran seventh night as regional retaliation escalates conflict",
+      "summary": "Week-long US military campaign against Iran with regional retaliation. Middle East escalation could divert Western military resources and attention from Ukraine support.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/a-seventh-night-of-us-strikes-cuts-water-to-villages-in-irans-south?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T18:16:08.566310Z"
     },
     {
       "title": "One anti-war critic fined, another held as Russia clamps down on dissent",
-      "label": "One anti-war critic fined, another held as Russia clamps down on dissent",
-      "summary": "Russia intensifies domestic repression against war critics. Signals continued Kremlin commitment to war effort and suppression of internal opposition.",
+      "label": "Russia detains anti-war blogger and bars opposition candidate from parliament",
+      "summary": "Kremlin intensifies domestic repression against war critics, barring Nadezhdin from elections and detaining blogger Remeslo. Continued crackdown on Russian dissent.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -61,11 +65,12 @@
       "detected_at": "2026-07-17T21:01:40.909198Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-18T08:10:03.344477Z",
+  "updated_at": "2026-07-18T09:01:35.975117Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -371,6 +376,10 @@
     {
       "t": "2026-07-18T08:10:03.344477Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-18T09:01:35.975117Z",
+      "s": 3.0
     }
   ]
 }
