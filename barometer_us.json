@@ -1,13 +1,32 @@
 {
-  "global_score": 2.4,
-  "rationale": "Trump's threat of new Canada tariffs over wildfire smoke represents potential trade policy action, though still rhetoric until enacted; the ongoing air quality crisis from Canadian fires continues affecting millions of Americans. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "No new developments directly affecting US daily life; ongoing wildfire smoke and distant conflicts remain background continuation.",
   "top_events": [
+    {
+      "title": "Air quality warnings remain in place across US as wildfire smoke continues to swathe country",
+      "label": "Canadian wildfire smoke affects 109 million Americans across US midwest and northeast",
+      "summary": "Ongoing Canadian wildfire smoke continues affecting air quality for 109 million Americans across the midwest, mid-Atlantic, and northeast. Continuation of the established air quality crisis with no new qualitative change.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.012654Z"
+    },
     {
       "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
       "label": "Trump threatens Canada tariffs over wildfire smoke affecting US air quality",
-      "summary": "President Trump threatened new tariffs against Canada over wildfire smoke affecting US cities, calling the air 'filthy.' Canadian leader Mark Carney responded that both countries share responsibility for climate change. This remains rhetoric until tariffs are actually imposed.",
-      "score": 2.4,
-      "sentiment": "negative",
+      "summary": "President Trump threatened new tariffs against Canada over wildfire smoke affecting US cities, with Canadian leader responding on climate responsibility. Rhetoric without enacted policy change; no immediate impact on daily life.",
+      "score": 2.3,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -20,44 +39,6 @@
         }
       ],
       "detected_at": "2026-07-17T03:35:24.719506Z"
-    },
-    {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "109 million Americans face poor air quality from Canadian wildfire smoke",
-      "summary": "Smoke from Ontario wildfires continues affecting air quality for 109 million Americans across the midwest, mid-Atlantic, and northeast. The ongoing environmental crisis continues impacting daily life in multiple regions.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
-    },
-    {
-      "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
-      "label": "Federal agencies link Taco Bell lettuce to cyclospora illness outbreak",
-      "summary": "The CDC and FDA identified Mexican lettuce served at Taco Bell locations in five states as the source of a cyclospora outbreak. Federal warnings did not name the supplier. This is a routine foodborne illness investigation.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell"
-        }
-      ],
-      "detected_at": "2026-07-17T23:01:36.572522Z"
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
@@ -65,9 +46,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-18T14:01:41.089899Z",
+  "updated_at": "2026-07-18T15:01:28.662406Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
     "score": 7.4,
@@ -76,14 +57,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-16T14:01:56.048609Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-07-16T14:19:45.756770Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-16T15:01:41.483596Z",
       "s": 3.5
@@ -371,6 +344,10 @@
     {
       "t": "2026-07-18T14:01:41.089899Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-07-18T15:01:28.662406Z",
+      "s": 2.3
     }
   ]
 }
