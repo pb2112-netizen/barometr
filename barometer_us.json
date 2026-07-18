@@ -1,19 +1,24 @@
 {
-  "global_score": 2.4,
-  "rationale": "Canadian wildfire smoke affects 109 million Americans with poor air quality across multiple states; US-Iran strikes continue as background; Taco Bell cyclospora outbreak confirmed by CDC. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Canadian wildfire smoke affecting 109 million Americans continues as major domestic air quality crisis; Iran strikes persist without new escalation; Trump tariff threats are rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "label": "Canadian wildfire smoke affects 109 million Americans in 20 states",
-      "summary": "Major air quality crisis continues across US midwest, mid-Atlantic and northeast from Ontario fires. Authorities urge people to stay indoors as poor air quality persists.",
-      "score": 2.4,
+      "title": "Canadian wildfire smoke shrouds US, potential risk for World Cup final",
+      "label": "Canadian wildfire smoke affects 109 million Americans in midwest and northeast",
+      "summary": "Major air quality crisis continues across multiple US states as smoke from Ontario wildfires drifts south. Authorities urge residents to stay indoors.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/canadian-wildfire-smoke-shrouds-us-potential-risk-for-world-cup-final?traffic_source=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east"
@@ -22,29 +27,34 @@
       "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
-      "label": "CDC links Taco Bell lettuce from Mexico to cyclospora illness outbreak",
-      "summary": "Federal health officials confirm foodborne illness outbreak linked to Mexican lettuce at Taco Bell locations in five states. Continuation of known outbreak investigation.",
-      "score": 2.0,
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "label": "US military conducts seventh consecutive night of strikes on Iran",
+      "summary": "US forces continue operations targeting Iranian military infrastructure near Hormuz Strait. Ongoing military engagement without new escalation this cycle.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/a-seventh-night-of-us-strikes-cuts-water-to-villages-in-irans-south?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-17T23:01:36.572522Z"
+      "detected_at": "2026-07-14T17:53:54.012654Z"
     },
     {
-      "title": "US strikes hit Iran for seventh consecutive night",
-      "label": "US military conducts seventh consecutive night of strikes on Iran",
-      "summary": "Ongoing US military campaign against Iran near Strait of Hormuz continues. No new escalation beyond established pattern of strikes.",
-      "score": 2.4,
+      "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+      "label": "Trump threatens Canada tariffs over wildfire smoke affecting US cities",
+      "summary": "Presidential rhetoric about tariffs in response to wildfire smoke. No policy action taken; Canadian leader responds on climate responsibility.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -54,10 +64,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-14T17:53:54.012654Z"
+      "detected_at": "2026-07-17T03:35:24.719506Z"
     }
   ],
   "short_summary": "Iran retaliates with strikes on Bahrain Qatar Oman Jordan Syria",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-18T05:01:30.734566Z",
+  "updated_at": "2026-07-18T06:01:33.169939Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "score_history": [
-    {
-      "t": "2026-07-16T05:01:58.025952Z",
-      "s": 5.0
-    },
     {
       "t": "2026-07-16T06:02:03.958096Z",
       "s": 4.7
@@ -371,6 +377,10 @@
     {
       "t": "2026-07-18T05:01:30.734566Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-07-18T06:01:33.169939Z",
+      "s": 2.3
     }
   ]
 }
