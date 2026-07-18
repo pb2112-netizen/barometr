@@ -1,32 +1,28 @@
 {
-  "updated_at": "2026-07-18T13:01:33.379892Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-07-18T13:47:12.067880Z",
+  "ostatnia_ocena": 6.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Protests over Fedorov dismissal — public unrest",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Public protests emerge over defense minister removal."
-    },
-    {
       "temat": "US-Iran escalation — Western support risk",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Middle East conflict could divert Western resources from."
     },
     {
       "temat": "Russia anti-war dissent crackdown — domestic repression",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Kremlin detains critics, bars opposition from elections."
+    },
+    {
+      "temat": "Defense Minister Fedorov removal — military leadership crisis",
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Wartime dismissal sparks soldier protests; command."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-16T13:01:47.669666Z",
-      "s": 6.3
-    },
     {
       "t": "2026-07-16T14:01:56.047674Z",
       "s": 6.0
@@ -314,9 +310,13 @@
     {
       "t": "2026-07-18T13:01:33.374995Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-07-18T13:47:12.062912Z",
+      "s": 6.5
     }
   ],
-  "events_anchor_at": "2026-07-14T18:16:08.566310Z",
+  "events_anchor_at": "2026-07-15T20:01:51.748792Z",
   "event_detected_at": {
     "russian online retail warehouses hit by deadly ukrainian strikes": {
       "detected_at": "2026-07-15T20:01:51.748792Z",
@@ -328,19 +328,19 @@
     },
     "many ukrainian soldiers outraged over removal of defence minister, troops tell bbc": {
       "detected_at": "2026-07-15T20:01:51.748792Z",
+      "peak_score": 6.5,
+      "peak_sentiment": "negative",
+      "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+      "peak_label": "Ukrainian soldiers protest Defense Minister Mykhailo Fedorov's wartime dismissal",
+      "peak_at": "2026-07-18T13:47:12.062912Z"
+    },
+    "us strikes hit iran for seventh consecutive night": {
+      "detected_at": "2026-07-15T20:01:51.748792Z",
       "peak_score": 5.9,
       "peak_sentiment": "negative",
       "title": "Ukraine suffers port attacks as protests persist over defence shake-up",
       "peak_label": "Russian strikes kill four in Ukrainian ports amid defense command crisis",
       "peak_at": "2026-07-17T15:37:55.062341Z"
-    },
-    "us strikes hit iran for seventh consecutive night": {
-      "detected_at": "2026-07-14T18:16:08.566310Z",
-      "peak_score": 6.0,
-      "peak_sentiment": "negative",
-      "title": "US launches new wave of strikes on Iran as tensions escalate over Strait of Hormuz",
-      "peak_label": "US strikes Iranian civilian infrastructure, escalating Middle East conflict significantly",
-      "peak_at": "2026-07-18T04:01:53.953422Z"
     },
     "ukrainian drone attacks on russia kill at least 8, wound dozens": {
       "detected_at": "2026-07-15T20:01:51.748792Z",

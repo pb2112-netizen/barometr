@@ -1,12 +1,36 @@
 {
-  "global_score": 5.2,
-  "rationale": "Ukrainian drone strikes on Russian warehouses near Moscow represent a qualitative escalation — attacks now reaching deeper into Russian territory, closer to Poland's eastern border security concerns.",
+  "global_score": 4.9,
+  "rationale": "Ukrainian strikes on Russian logistics warehouses near Moscow represent a qualitative escalation — deeper strikes into Russian territory directly affect regional security calculus for Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-      "label": "Ukrainian drones strike Wildberries warehouses near Moscow, killing eight civilians",
-      "summary": "Ukraine targeted major logistics facilities near Moscow and Tambov, claiming they supplied sanctioned components. The strikes mark deeper penetration into Russian territory, raising regional security tensions near Poland's eastern border.",
-      "score": 5.2,
+      "label": "Ukrainian drones strike Wildberries logistics facilities near Moscow and Tambov",
+      "summary": "Ukraine hit major Russian warehouses near Moscow with drones, killing at least 8 civilians. Kyiv claims the sites supplied sanctioned drone components. This marks deeper Ukrainian strikes into Russian territory, raising regional security tensions.",
+      "score": 4.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/ukrainian-strikes-hit-russian-logistics-center?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.010165Z"
+    },
+    {
+      "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+      "label": "Ukrainian troops protest removal of Defense Minister Mykhailo Fedorov",
+      "summary": "Protests erupted in Ukraine after the defense minister's dismissal, with soldiers criticizing the move. Political instability in Ukraine's military leadership could affect the war effort and Western support dynamics.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -16,56 +40,42 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
     },
     {
       "title": "US strikes hit Iran for seventh consecutive night",
-      "label": "US bombing campaign against Iran continues seventh night as Kuwait infrastructure hit",
-      "summary": "Sustained US military operations continue with Iranian retaliation now striking allied infrastructure in Kuwait. Ongoing escalation remains background noise for Poland with no direct energy or security impact.",
-      "score": 3.6,
-      "sentiment": "neutral",
+      "label": "US strikes hit Iran for seventh consecutive night",
+      "summary": "The US bombing campaign against Iran continues with Iranian retaliation hitting a power and water plant in Kuwait. Sustained Middle East conflict could affect global energy markets and divert Western attention from Eastern Europe.",
+      "score": 4.9,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
-    },
-    {
-      "title": "EU proposes slowing down cuts to carbon emissions for businesses",
-      "label": "EU plans to relax emissions trading system timeline for businesses",
-      "summary": "Brussels proposes giving companies more time to reduce carbon output under revised ETS rules. Modest policy shift affecting Polish industrial compliance costs and energy transition pace.",
-      "score": 3.2,
-      "sentiment": "neutral",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "nowosc": "kontynuacja",
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-17T19:31:28.737458Z"
     }
   ],
   "short_summary": "Iran retaliates against Bahrain Qatar Oman Jordan Syria amid US escalation",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-18T13:01:33.373232Z",
+  "updated_at": "2026-07-18T13:47:12.060664Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-16T13:01:47.667986Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-16T14:01:56.045799Z",
       "s": 4.0
@@ -367,6 +373,10 @@
     {
       "t": "2026-07-18T13:01:33.373232Z",
       "s": 5.2
+    },
+    {
+      "t": "2026-07-18T13:47:12.060664Z",
+      "s": 4.9
     }
   ]
 }
