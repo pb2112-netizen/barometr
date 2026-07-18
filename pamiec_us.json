@@ -1,19 +1,25 @@
 {
-  "updated_at": "2026-07-18T15:13:04.583589Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-07-18T16:01:37.597063Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump election security claims — domestic political rhetoric",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
       "opis": "President alleges China meddling, contradicting."
     },
     {
       "temat": "Canadian wildfire smoke — US air quality crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "109M Americans face poor air quality from Ontario fires."
+    },
+    {
+      "temat": "Iraq-US commercial deals — energy infrastructure",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 0,
+      "opis": "48 deals signed; pipeline project to bypass Hormuz."
     }
   ],
   "score_history": [
@@ -308,11 +314,15 @@
     {
       "t": "2026-07-18T15:13:04.577824Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-07-18T16:01:37.591314Z",
+      "s": 3.8
     }
   ],
   "events_anchor_at": "2026-07-14T17:53:54.012654Z",
   "event_detected_at": {
-    "air quality warnings remain in place across us as wildfire smoke continues to swathe country": {
+    "more canadian wildfire smoke shrouds us midwest, mid-atlantic and north-east": {
       "detected_at": "2026-07-14T17:53:54.012654Z",
       "peak_score": 5.2,
       "peak_sentiment": "negative",
@@ -327,6 +337,14 @@
       "peak_sentiment": "negative",
       "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
       "peak_label": "White House staffer accused of insider betting on Trump speeches"
+    },
+    "iraq signs 48 deals with us companies during pm's visit to washington": {
+      "detected_at": "2026-07-17T15:37:55.063303Z",
+      "peak_at": "2026-07-18T16:01:37.591314Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "positive",
+      "title": "Iraq signs 48 deals with US companies during PM's visit to Washington",
+      "peak_label": "Iraq signs 48 commercial deals with US firms including oil pipeline project"
     },
     "cdc and fda link lettuce at taco bell in five states to cyclospora outbreak": {
       "detected_at": "2026-07-17T23:01:36.572522Z",
@@ -351,18 +369,11 @@
       "peak_sentiment": "negative",
       "title": "At least two dead as heavy rains, floods strike central Texas",
       "peak_label": "Heavy rains and floods kill two in central Texas"
-    },
-    "plainclothes ice agents manhandle man during arrest attempt": {
-      "detected_at": "2026-07-17T15:37:55.063303Z",
-      "peak_at": "2026-07-17T15:37:55.063303Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Plainclothes ICE agents manhandle man during arrest attempt",
-      "peak_label": "ICE agents use force during Las Vegas airport arrest attempt"
     }
   },
   "prev_top_event_titles": [
-    "Air quality warnings remain in place across US as wildfire smoke continues to swathe country",
-    "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities"
+    "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+    "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
+    "Iraq signs 48 deals with US companies during PM's visit to Washington"
   ]
 }
