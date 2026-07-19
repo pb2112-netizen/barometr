@@ -1,76 +1,57 @@
 {
-  "global_score": 8.5,
-  "rationale": "Largest ballistic missile attack on Kyiv since war began represents significant escalation in capital strikes, directly threatening Ukrainian residents.",
+  "global_score": 8.0,
+  "rationale": "Largest ballistic missile attack on Kyiv since war start continues direct threat to capital; one death reported. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia launches largest ballistic missile attack on Kyiv since start of war",
-      "label": "Russia launches largest ballistic missile attack on Kyiv since war began",
-      "summary": "Massive ballistic strike on Ukrainian capital marks major escalation in attacks on Kyiv, directly threatening residents with at least one killed and nine injured; Patriot munitions shortage increases vulnerability.",
-      "score": 8.5,
+      "title": "Russia launches major ballistic missile attack on Kyiv",
+      "label": "Russia launches largest ballistic missile attack on Kyiv since war started",
+      "summary": "One death and nine injured in what Zelensky calls one of the most massive ballistic attacks on the capital. Continues direct threat to Ukrainian residents with limited air defense munitions.",
+      "score": 8.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/7/19/russia-launches-largest-ballistic-missile-attack-on-kyiv-since-start-of-war?traffic_source=rss"
-        },
+        }
+      ],
+      "detected_at": "2026-07-15T20:01:51.748792Z"
+    },
+    {
+      "title": "Space start-up launches India's first commercial rocket designed for orbit",
+      "label": "India's Skyroot Aerospace successfully launches first commercial orbital rocket",
+      "summary": "India's first space-tech unicorn successfully launched Vikram-1 rocket. Distant technological achievement with no impact on daily life in Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-15T20:01:51.748792Z"
-    },
-    {
-      "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-      "label": "Ukrainian drones strike Russian logistics warehouses near Moscow and Tambov",
-      "summary": "Ukrainian strikes hit Wildberries facilities near Moscow supplying sanctioned components, demonstrating continued operational reach and disrupting Russian military supply chains.",
-      "score": 6.7,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-15T20:01:51.748792Z"
-    },
-    {
-      "title": "Russians turn to cash, putting more strain on slowing wartime economy",
-      "label": "Russian wartime economy strains with cash shift and internet shutdowns",
-      "summary": "Russian economic pressure continues with internet shutdowns and tax evasion, signaling sustained strain on adversary's war capacity but no immediate battlefield change.",
-      "score": 6.7,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-19T00:08:43.498405Z"
     }
   ],
   "short_summary": "Russia launches largest ballistic missile attack on Kyiv since war began",
   "level_label": "High",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-19T08:01:35.128259Z",
+  "updated_at": "2026-07-19T09:01:26.312954Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +62,6 @@
   },
   "events_anchor_at": "2026-07-15T20:01:51.748792Z",
   "score_history": [
-    {
-      "t": "2026-07-17T08:01:45.685153Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-17T09:01:48.375735Z",
       "s": 4.6
@@ -380,6 +357,10 @@
     {
       "t": "2026-07-19T08:01:35.128259Z",
       "s": 8.5
+    },
+    {
+      "t": "2026-07-19T09:01:26.312954Z",
+      "s": 8.0
     }
   ]
 }
