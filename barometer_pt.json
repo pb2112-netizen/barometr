@@ -1,12 +1,12 @@
 {
   "global_score": 2.3,
-  "rationale": "Distant conflicts continue without change; no events directly affecting Portuguese daily life this cycle.",
+  "rationale": "US-Iran military exchange with nuclear facility strike creates potential for broader Middle East instability and energy market disruption, indirectly affecting EU economy and Portuguese cost of living. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
-      "label": "US and Iran exchange strikes after two US soldiers killed in Jordan",
-      "summary": "Eighth consecutive night of US-Iran military exchange continues; very distant from Portugal with no new energy market impact reported.",
-      "score": 2.3,
+      "label": "US strikes Iranian nuclear plant after two soldiers killed in Jordan",
+      "summary": "Iran killed two US soldiers; US retaliated hitting Iranian nuclear facility. Major Middle East escalation could affect global energy markets and EU economic stability indirectly.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -28,41 +28,46 @@
     },
     {
       "title": "Ferry carrying 116 passengers sinks off Guyana coast, authorities say",
-      "label": "Ferry carrying 116 passengers sinks off Guyana coast, 63 missing",
-      "summary": "Maritime accident off South American coast with 53 rescued and 63 missing; distant tragedy with no connection to Portuguese daily life.",
-      "score": 1.0,
+      "label": "Ferry carrying 116 passengers capsizes off Guyana coast",
+      "summary": "Vessel sank between Georgetown and Port Kaituma; 53 rescued, 63 missing. Distant maritime accident with no connection to Portuguese daily life.",
+      "score": 1.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/19/guyana-ferry-with-116-people-aboard-capsizes?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-19T10:43:52.956639Z"
+    },
+    {
+      "title": "New EU border system tripling time at passport control, airport boss says",
+      "label": "New EU border system causes triple-length passport control waits",
+      "summary": "EU border system creating major airport delays for summer travelers. Continuation of known implementation problems; affects Portuguese travelers but no new development.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-19T10:43:52.956639Z"
-    },
-    {
-      "title": "Flash flood warnings strike north-east US amid wildfire smoke from Canada",
-      "label": "Flash floods and wildfire smoke hit northeastern United States simultaneously",
-      "summary": "Weather events in North America continue; no impact on Portugal's Atlantic coast or economy.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.011553Z"
+      "detected_at": "2026-07-19T02:01:36.553545Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-19T11:01:26.896774Z",
+  "updated_at": "2026-07-19T12:01:34.523013Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,14 +86,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-17T11:01:35.531292Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-07-17T11:39:44.583390Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-17T12:01:37.378199Z",
       "s": 3.0
@@ -383,6 +380,10 @@
     },
     {
       "t": "2026-07-19T11:01:26.896774Z",
+      "s": 2.3
+    },
+    {
+      "t": "2026-07-19T12:01:34.523013Z",
       "s": 2.3
     }
   ]
