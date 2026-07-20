@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-07-20T11:11:39.807366Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-07-20T12:01:33.124308Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Iranian power grid collapse — war and infrastructure strain",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 0,
       "opis": "Military strikes and underinvestment cause blackouts."
     },
     {
       "temat": "Hungary president resignation — Orbán loyalist exits",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Hungarian president steps down after parliament vote."
     },
     {
       "temat": "Andy Burnham becomes UK prime minister",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "New UK PM faces Ukraine and Iran foreign policy challenges."
     },
     {
       "temat": "New EU border system causing major airport delays",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Passport control times tripling; summer travel disruption."
     },
     {
       "temat": "Turkey-Libya military ties expansion — Mediterranean shift",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Turkey boosts military cooperation with Haftar in Libya."
+    },
+    {
+      "temat": "Hamas leadership change — Khalil al-Hayya elected",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Internal Hamas election; distant Middle East political."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-18T11:17:52.940546Z",
-      "s": 4.2
-    },
     {
       "t": "2026-07-18T12:01:37.259462Z",
       "s": 4.0
@@ -338,10 +340,22 @@
     {
       "t": "2026-07-20T11:11:39.803682Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-07-20T12:01:33.120164Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-07-15T10:01:52.619068Z",
   "event_detected_at": {
+    "trump says us strikes hit iran in 'honour' of american soldiers killed": {
+      "detected_at": "2026-07-15T10:01:52.619068Z",
+      "peak_score": 6.0,
+      "peak_sentiment": "negative",
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "peak_label": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
+      "peak_at": "2026-07-19T15:13:50.788443Z"
+    },
     "what does iran's attack on kuwait infrastructure mean for gulf?": {
       "detected_at": "2026-07-15T10:01:52.619068Z",
       "peak_score": 6.0,
@@ -350,13 +364,13 @@
       "peak_label": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
       "peak_at": "2026-07-19T15:13:50.788443Z"
     },
-    "trump says us strikes hit iran in 'honour' of american soldiers killed": {
-      "detected_at": "2026-07-15T10:01:52.619068Z",
-      "peak_score": 6.0,
-      "peak_sentiment": "negative",
-      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
-      "peak_label": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
-      "peak_at": "2026-07-19T15:13:50.788443Z"
+    "hamas names khalil al-hayya as new leader after run-off with khaled meshaal": {
+      "detected_at": "2026-07-20T12:01:33.120164Z",
+      "peak_at": "2026-07-20T12:01:33.120164Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Hamas names Khalil al-Hayya as new leader after run-off with Khaled Meshaal",
+      "peak_label": "Hamas selects Khalil al-Hayya as new leader in internal election"
     },
     "turkiye and libya's haftar are boosting military ties. is egypt worried?": {
       "detected_at": "2026-07-15T10:01:52.619068Z",
@@ -416,8 +430,8 @@
     }
   },
   "prev_top_event_titles": [
-    "What does Iran's attack on Kuwait infrastructure mean for Gulf?",
     "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
-    "Turkiye and Libya's Haftar are boosting military ties. Is Egypt worried?"
+    "What does Iran's attack on Kuwait infrastructure mean for Gulf?",
+    "Hamas names Khalil al-Hayya as new leader after run-off with Khaled Meshaal"
   ]
 }
