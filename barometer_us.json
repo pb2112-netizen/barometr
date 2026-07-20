@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "US military strikes on Iran after American soldier deaths trigger Iranian retaliation and ship explosions in Strait of Hormuz; direct US combat involvement escalates Middle East conflict. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "US military strikes on Iran trigger retaliation and Strait of Hormuz explosions — direct US military engagement escalates with potential energy market impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
       "label": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
-      "summary": "US military conducted strikes on Iran following American soldier deaths, prompting Iranian retaliation in Syria and Jordan. Two ships reportedly exploded in the Strait of Hormuz, escalating direct US combat involvement and raising oil market concerns.",
-      "score": 2.1,
+      "summary": "US military action against Iran triggered Iranian retaliation in Syria and Jordan, with two ships reportedly exploding in the Strait of Hormuz. The escalation represents direct US military engagement with potential for further casualties and oil market disruption.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,52 +22,62 @@
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
-      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
-      "label": "Canada issues air quality warnings as US wildfire smoke crosses border",
-      "summary": "Canadian officials issued air quality warnings as smoke from US wildfires crossed the border, days after President Trump accused Canada of improper fire management. Domestic wildfire impact extends internationally with political tension.",
-      "score": 2.8,
-      "sentiment": "negative",
+      "title": "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
+      "label": "Sinaloa Cartel co-founder 'El Mayo' Zambada sentenced to life, ordered to pay $15bn",
+      "summary": "Ismael Zambada, co-founder of the Sinaloa Cartel, received a life sentence and $15 billion fine after admitting to sending vast amounts of drugs to the US. The sentencing represents a significant law enforcement outcome in the decades-long drug war.",
+      "score": 3.2,
+      "sentiment": "positive",
       "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/20/mexican-drug-lord-ismael-el-mayo-zambada-sentenced-to-life-in-us-prison?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-20T18:01:32.971746Z"
+    },
+    {
+      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
+      "label": "US wildfire smoke crosses into Canada, triggering air quality warnings after tariff dispute",
+      "summary": "Smoke from US wildfires crossed into Canada, prompting air quality warnings days after President Trump accused Canada of improper fire management. The cross-border smoke and diplomatic tension continue from the previous cycle.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
         }
       ],
       "detected_at": "2026-07-18T19:01:39.412324Z"
-    },
-    {
-      "title": "Flash flood warnings strike north-east US amid wildfire smoke from Canada",
-      "label": "Northeast US faces flash flood warnings amid ongoing wildfire smoke",
-      "summary": "Thunderstorms brought flash flood warnings to the northeastern US while poor air quality from wildfires continues to affect New York City. Dual weather hazards impact daily life in major population centers.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
     }
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-20T17:01:33.597717Z",
+  "updated_at": "2026-07-20T18:01:32.971746Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
     "score": 7.5,
@@ -76,14 +86,6 @@
   },
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "score_history": [
-    {
-      "t": "2026-07-18T17:01:37.271167Z",
-      "s": 4.5
-    },
-    {
-      "t": "2026-07-18T17:13:15.801882Z",
-      "s": 4.3
-    },
     {
       "t": "2026-07-18T18:01:39.704814Z",
       "s": 4.1
@@ -375,6 +377,10 @@
     {
       "t": "2026-07-20T17:01:33.597717Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-20T18:01:32.971746Z",
+      "s": 3.2
     }
   ]
 }
