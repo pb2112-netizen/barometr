@@ -1,36 +1,55 @@
 {
-  "global_score": 2.7,
-  "rationale": "Trump rhetoric on Iran continues without new confirmed US action; Zambada sentencing concludes known case; no major domestic policy change.",
+  "global_score": 2.6,
+  "rationale": "Trump's 50% tariff on Canada is a major new policy action directly affecting US trade, consumer prices, and North American economic relations — a confirmed change with immediate domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump warns Iran will pay 'many times over' for deaths of US soldiers",
-      "label": "Trump threatens Iran retaliation after US soldier deaths in conflict",
-      "summary": "President warns Iran following American casualties, with strikes exchanged for nine consecutive days. Rhetoric continues without new confirmed military escalation; situation remains at known background level for US residents.",
+      "title": "Trump imposes 50% tariff on Canadian imports",
+      "label": "Trump imposes 50% tariff on most Canadian goods effective in 30 days",
+      "summary": "Major new trade policy directly affecting US consumers, supply chains, and North American relations. Tariffs on Canadian autos, alcohol, dairy take effect within a month, likely raising prices.",
+      "score": 4.7,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs"
+        }
+      ],
+      "detected_at": "2026-07-18T19:01:39.412324Z"
+    },
+    {
+      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "label": "US launches fresh strikes on Iran targeting Strait of Hormuz capabilities",
+      "summary": "Continued US military action against Iran near critical oil shipping route, maintaining pressure on energy markets and risk of further escalation involving US forces.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/20/trump-vows-iran-will-pay-for-killing-us-soldiers?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
       "title": "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
-      "label": "Sinaloa Cartel co-founder El Mayo sentenced to life and $15bn fine",
-      "summary": "Major Mexican drug kingpin Ismael Zambada García receives life sentence in US federal court after admitting to sending vast drug quantities to America. Concludes known case without new policy impact.",
-      "score": 2.7,
+      "label": "Sinaloa Cartel co-founder El Mayo sentenced to life plus $15bn fine",
+      "summary": "Major cartel leader receives life sentence in US federal court, marking significant outcome in long-running drug war case.",
+      "score": 2.6,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -49,25 +68,6 @@
         }
       ],
       "detected_at": "2026-07-20T18:01:32.971746Z"
-    },
-    {
-      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
-      "label": "Canadian air quality warnings issued as US wildfire smoke crosses border",
-      "summary": "Smoke from US wildfires triggers air quality warnings in Canada days after Trump accused Canada of improper fire management. Continuation of known wildfire season with cross-border air quality impact.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
     }
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
@@ -75,9 +75,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-20T21:01:33.615011Z",
+  "updated_at": "2026-07-20T22:01:31.995425Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
     "score": 7.5,
@@ -86,14 +86,6 @@
   },
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "score_history": [
-    {
-      "t": "2026-07-18T21:01:37.293884Z",
-      "s": 6.5
-    },
-    {
-      "t": "2026-07-18T21:04:32.121695Z",
-      "s": 6.2
-    },
     {
       "t": "2026-07-18T22:01:36.871960Z",
       "s": 5.9
@@ -381,6 +373,10 @@
     {
       "t": "2026-07-20T21:01:33.615011Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-07-20T22:01:31.995425Z",
+      "s": 2.6
     }
   ]
 }
