@@ -1,32 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "No events this cycle create meaningful change to daily life in Portugal; distant conflicts and disasters remain background noise without direct economic or security impact.",
+  "rationale": "No events with meaningful impact on Portuguese daily life; distant conflicts and routine international news continue without change.",
   "top_events": [
     {
-      "title": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "label": "Russia launches major ballistic missile attack killing eight in Ukrainian cities",
-      "summary": "Eight people died in Russian ballistic missile strikes on Ukrainian cities. For Portugal on the western EU periphery, this distant eastern European escalation has minimal direct impact on daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-20T07:01:28.408924Z"
-    },
-    {
       "title": "Ferry carrying 133 passengers and crew sinks off Guyana coast",
-      "label": "Ferry sinks off Guyana coast with dozens missing in rescue operation",
-      "summary": "A maritime disaster in South America with no connection to Portuguese daily life or Atlantic shipping routes relevant to Portugal.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "label": "Ferry sinks off Guyana coast, dozens missing from 133 aboard",
+      "summary": "Maritime disaster in distant South America with 67 rescued and dozens missing. No connection to Portuguese shipping, tourism, or economy.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -47,10 +28,10 @@
     },
     {
       "title": "Earthquake in Peru leaves at least six dead",
-      "label": "Earthquake in Peru kills six people in Andes region",
-      "summary": "A 5.5-magnitude earthquake in Peru's Andes region is a distant South American event with no impact on Portuguese daily life.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "label": "Peru earthquake kills six, injures dozens in Andes region",
+      "summary": "5.5-magnitude earthquake in Peru's Andes causes casualties and displacement. Distant South American event with no impact on Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -63,6 +44,25 @@
         }
       ],
       "detected_at": "2026-07-19T18:01:36.808083Z"
+    },
+    {
+      "title": "US renews attacks on Iran after US soldier killed",
+      "label": "US bombing Iran continues after soldier killed in Iraq",
+      "summary": "US military operations against Iran continue following combat death. Distant Middle East conflict with no direct effect on Portuguese energy prices or economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/20/us-renews-attacks-on-iran-after-us-soldier-killed-whats-the-latest?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-20T07:01:28.408924Z"
     }
   ],
   "short_summary": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-20T09:01:51.419464Z",
+  "updated_at": "2026-07-20T10:01:34.252723Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US strikes Iranian infrastructure as Hormuz crisis threatens global oil security",
     "score": 5.5,
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.011553Z",
   "score_history": [
-    {
-      "t": "2026-07-18T09:44:18.823787Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-18T10:01:36.429365Z",
       "s": 2.8
@@ -383,6 +379,10 @@
     },
     {
       "t": "2026-07-20T09:01:51.419464Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-07-20T10:01:34.252723Z",
       "s": 2.0
     }
   ]
