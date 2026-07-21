@@ -1,36 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "Trump's 50% tariff on Canada escalates global trade tensions with potential EU spillover; ongoing Black Sea shipping attacks continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Black Sea shipping attacks continue without qualitative change; US-Canada tariff war remains distant economic noise.",
   "top_events": [
-    {
-      "title": "Trump imposes 50% tariff on Canadian imports",
-      "label": "Trump imposes 50% tariff on Canadian goods, escalating North American trade war",
-      "summary": "Major US-Canada trade conflict begins with 50% duties on most Canadian goods. Could destabilize global trade patterns and indirectly affect EU economies including Poland through market uncertainty.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.010165Z"
-    },
     {
       "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
       "label": "Russian strikes on Black Sea merchant ships kill ten in Odesa region",
-      "summary": "Continuation of Russian attacks on civilian shipping near Ukraine. 28 killed in July; ongoing threat to regional trade routes but no qualitative change from established pattern.",
-      "score": 3.1,
+      "summary": "Russia continues targeting civilian vessels in the Black Sea, killing 28 in July. Ongoing threat to regional shipping routes affecting Polish trade interests.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -46,20 +22,54 @@
       "detected_at": "2026-07-14T17:53:54.010165Z"
     },
     {
+      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+      "label": "Trump imposes fifty percent tariffs on Canadian goods escalating trade tensions",
+      "summary": "Major US-Canada trade war escalates with 50% tariffs on wine, cement, and other products. Indirect risk to EU economy through global trade disruption.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.010165Z"
+    },
+    {
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US launches fresh strikes on Iran targeting Strait of Hormuz capabilities",
-      "summary": "US attacks Iranian military infrastructure after soldier deaths. Escalation in Middle East could push energy prices higher, indirectly affecting Polish fuel costs.",
-      "score": 2.1,
+      "label": "US launches tenth consecutive night of strikes on Iranian targets",
+      "summary": "US continues military strikes on Iran targeting Strait of Hormuz capabilities. Sustained conflict maintains risk to global energy markets affecting Polish fuel prices.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/21/iran-war-live-us-launches-10th-night-of-strikes-tehran-attacks-kuwait?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
@@ -70,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-21T00:08:30.375365Z",
+  "updated_at": "2026-07-21T01:01:26.688604Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-19T00:08:43.496621Z",
-      "s": 2.3
-    },
     {
       "t": "2026-07-19T01:01:32.725338Z",
       "s": 2.2
@@ -372,6 +378,10 @@
     {
       "t": "2026-07-21T00:08:30.375365Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-21T01:01:26.688604Z",
+      "s": 3.0
     }
   ]
 }

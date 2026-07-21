@@ -1,36 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Trump-Canada trade war creates global economic uncertainty; Black Sea shipping attacks continue as known background; Houthi Red Sea embargo adds regional instability. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.1,
+  "rationale": "Black Sea shipping attacks continue without new escalation; US-Iran strikes remain distant but sustained energy threat.",
   "top_events": [
     {
-      "title": "Trump imposes 50% tariff on Canadian imports",
-      "label": "Trump imposes 50% tariff on Canadian imports, major trade escalation begins",
-      "summary": "US launches major trade war with Canada through 50% tariffs. Global trade disruption could affect EU economies and Romanian exports indirectly through market instability.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-15T10:01:52.619068Z"
-    },
-    {
       "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "label": "Russian strikes on Black Sea merchant vessels kill ten near Odesa",
-      "summary": "Ongoing Russian attacks on civilian shipping in Black Sea continue. 28 killed in July; direct threat to Romanian waters and regional trade but no new escalation.",
-      "score": 3.2,
+      "label": "Russian strikes kill ten in Black Sea merchant shipping attacks",
+      "summary": "Russia continues targeting civilian ships in the Black Sea near Romanian waters, killing 28 in July. Ongoing direct threat to regional maritime security and trade.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -46,10 +22,34 @@
       "detected_at": "2026-07-15T10:01:52.619068Z"
     },
     {
+      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "label": "US conducts tenth night of strikes on Iran targeting Hormuz capabilities",
+      "summary": "US military campaign against Iran continues for tenth consecutive night. Sustained conflict maintains pressure on Strait of Hormuz shipping and energy markets.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/21/iran-war-live-us-launches-10th-night-of-strikes-tehran-attacks-kuwait?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-15T10:01:52.619068Z"
+    },
+    {
       "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-      "label": "Houthis announce immediate maritime embargo on Saudi Arabia in Red Sea",
-      "summary": "Yemen rebels block Saudi shipping in response to blockade. Adds instability to Red Sea trade routes but geographically distant from Romanian direct interests.",
-      "score": 2.5,
+      "label": "Houthi rebels announce immediate maritime embargo on Saudi Arabian shipping",
+      "summary": "Yemen's Houthis declare embargo on Saudi shipping in response to blockade. Regional instability adds to Red Sea disruption affecting Mediterranean trade routes.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-21T00:08:30.376710Z",
+  "updated_at": "2026-07-21T01:01:26.689832Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +81,6 @@
   },
   "events_anchor_at": "2026-07-15T10:01:52.619068Z",
   "score_history": [
-    {
-      "t": "2026-07-19T00:08:43.497235Z",
-      "s": 2.1
-    },
     {
       "t": "2026-07-19T01:01:32.725977Z",
       "s": 2.0
@@ -372,6 +368,10 @@
     {
       "t": "2026-07-21T00:08:30.376710Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-07-21T01:01:26.689832Z",
+      "s": 3.1
     }
   ]
 }
