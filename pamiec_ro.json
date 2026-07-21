@@ -1,25 +1,31 @@
 {
-  "updated_at": "2026-07-21T14:01:37.519480Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-07-21T14:20:13.745967Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian attacks on Black Sea merchant shipping — trade threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Russia targeting civilian ships; 28 killed; Romanian waters."
     },
     {
       "temat": "Houthi maritime embargo on Saudi Arabia — Red Sea disruption",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Yemen rebels block Saudi shipping; regional instability."
     },
     {
       "temat": "US-Iran military strikes — Middle East escalation",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
+    },
+    {
+      "temat": "Ukraine army chief political crisis — domestic instability",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Protests demand Syrskyi removal; internal military tensions."
     }
   ],
   "score_history": [
@@ -298,11 +304,31 @@
     {
       "t": "2026-07-21T14:01:37.515763Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-21T14:20:13.742326Z",
+      "s": 2.6
     }
   ],
   "events_anchor_at": "2026-07-15T10:01:52.619068Z",
   "event_detected_at": {
     "us launches fresh strikes on iran, as trump warns of retaliation for deaths of soldiers": {
+      "detected_at": "2026-07-15T10:01:52.619068Z",
+      "peak_score": 6.0,
+      "peak_sentiment": "negative",
+      "title": "US and Iran trade fire after two US soldiers killed in Jordan",
+      "peak_label": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
+      "peak_at": "2026-07-20T15:21:22.850605Z"
+    },
+    "row escalates in ukraine over army chief's future": {
+      "detected_at": "2026-07-20T17:01:33.595264Z",
+      "peak_at": "2026-07-21T14:20:13.742326Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Row escalates in Ukraine over army chief's future",
+      "peak_label": "Ukrainian protesters demand army chief removal, threaten Friday deadline"
+    },
+    "asean diplomats voice 'serious concern' over iran war and energy crisis": {
       "detected_at": "2026-07-15T10:01:52.619068Z",
       "peak_score": 6.0,
       "peak_sentiment": "negative",
@@ -317,14 +343,6 @@
       "title": "US and Iran trade fire after two US soldiers killed in Jordan",
       "peak_label": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
       "peak_at": "2026-07-20T15:21:22.850605Z"
-    },
-    "lebanese army says troops deploying in 'pilot zone' after israeli withdrawal": {
-      "detected_at": "2026-07-20T17:01:33.595264Z",
-      "peak_at": "2026-07-20T17:01:33.595264Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "Lebanon's military starts 'pilot zone' takeover in south",
-      "peak_label": "Lebanon begins implementing Israel-Lebanon-US trilateral framework agreement in south"
     },
     "ten killed as russian attacks on merchant ships in black sea intensify": {
       "detected_at": "2026-07-15T10:01:52.619068Z",
@@ -357,19 +375,11 @@
       "peak_sentiment": "neutral",
       "title": "Hamas names Khalil al-Hayya as new overall leader",
       "peak_label": "Hamas elects Khalil al-Hayya as new overall leader"
-    },
-    "russian strike on ship near odesa kills 10, ukraine hits moscow with drones": {
-      "detected_at": "2026-07-20T12:01:33.120164Z",
-      "peak_at": "2026-07-20T14:01:46.141606Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "Russian strike on ship near Odesa kills 10, Ukraine hits Moscow with drones",
-      "peak_label": "Hamas selects Khalil al-Hayya as new leader in internal election"
     }
   },
   "prev_top_event_titles": [
     "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-    "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-    "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal"
+    "Row escalates in Ukraine over army chief's future",
+    "ASEAN diplomats voice 'serious concern' over Iran war and energy crisis"
   ]
 }

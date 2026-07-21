@@ -1,43 +1,14 @@
 {
   "global_score": 3.0,
-  "rationale": "Trump imposes major 50% tariffs on Canada, escalating trade war with second-largest trading partner; US launches fresh strikes on Iran. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US launches fresh military strikes on Iran after American soldier deaths, marking direct military engagement and escalation of conflict involving US forces. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "label": "Trump imposes 50% tariffs on most Canadian goods, escalating trade war",
-      "summary": "Major escalation in US-Canada trade tensions as Trump imposes sweeping 50% tariffs on most Canadian goods, citing discrimination against US autos, alcohol, and dairy. Significant impact on US economy, supply chains, and consumer prices.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/trumps-new-50-percent-canada-tariffs-what-products-are-affected-and-why?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
-    },
-    {
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US launches strikes on Iran after attacks kill American soldiers",
-      "summary": "US military strikes Iran in retaliation for deaths of American soldiers. Iran reports hitting ships in Strait of Hormuz and targets in Bahrain and Jordan. Direct US military engagement escalates Middle East tensions.",
+      "label": "US strikes Iran in retaliation for American soldier deaths, Iran hits ships and bases",
+      "summary": "Direct US military engagement after American casualties. Iran responds by hitting ships in Strait of Hormuz and targets in Bahrain and Jordan, escalating conflict involving US forces and interests.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -51,9 +22,28 @@
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
+      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+      "label": "Trump imposes 50% tariffs on most Canadian goods, major trade escalation",
+      "summary": "Major escalation in US-Canada trade tensions with sweeping 50% tariffs on most Canadian goods. Direct impact on American consumers and businesses through supply chain disruption and price increases.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-18T19:01:39.412324Z"
+    },
+    {
       "title": "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
-      "label": "Army veteran armed with weapons sets fire outside Manhattan federal building",
-      "summary": "FBI reports army veteran armed with axes, machete, knives, and fireworks started fire outside Manhattan federal building. Domestic security incident with no broader policy impact.",
+      "label": "Army veteran armed with axes and fireworks sets fire outside Manhattan federal building",
+      "summary": "Domestic security incident as armed veteran sets fire outside federal building in Manhattan. Local security concern but limited broader impact on daily life for most US residents.",
       "score": 2.5,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -72,10 +62,10 @@
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-21T14:01:37.517503Z",
+  "updated_at": "2026-07-21T14:20:13.744044Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -360,6 +350,10 @@
     },
     {
       "t": "2026-07-21T14:01:37.517503Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-07-21T14:20:13.744044Z",
       "s": 3.0
     }
   ]
