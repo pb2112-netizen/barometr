@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Trump's 50% tariff on Canada escalates global trade tensions with potential indirect EU economic impact; ongoing Black Sea shipping attacks continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Trump's 50% tariff on Canada escalates global trade tensions, indirectly threatening EU economic stability and Polish exports. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
       "label": "Trump imposes 50% tariffs on Canadian goods, escalating North American trade war",
-      "summary": "Major US-Canada trade conflict intensifies with steep tariffs on wine, cement, and other products. Could indirectly affect EU economies and Poland's trade environment through broader market instability.",
-      "score": 2.9,
+      "summary": "Major US-Canada trade conflict intensifies with sweeping tariffs on wine, cement, and other products. Threatens broader global trade stability and could indirectly affect EU economies including Poland through supply chain disruption and market uncertainty.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -32,9 +32,28 @@
       "detected_at": "2026-07-14T17:53:54.010165Z"
     },
     {
+      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+      "label": "Russian strikes on Black Sea merchant ships kill ten, 28 dead in July",
+      "summary": "Russia continues targeting civilian shipping in the Odesa region, with 28 killed in July alone. Maintains threat to Polish trade routes and regional security, though represents continuation of known pattern rather than qualitative escalation.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-14T17:53:54.010165Z"
+    },
+    {
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US conducts 10th consecutive night of strikes on Iran targeting Hormuz capabilities",
-      "summary": "Continued US military action against Iran aims to degrade shipping attack capabilities in Strait of Hormuz. Maintains pressure on global energy markets but represents ongoing escalation rather than new development.",
+      "label": "US launches new strikes on Iran targeting Strait of Hormuz capabilities",
+      "summary": "US continues military operations against Iran focused on degrading capabilities near critical oil shipping routes. Maintains background risk to global energy prices affecting Poland, but no new qualitative change in conflict dynamics.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -50,26 +69,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/21/iran-war-live-us-launches-10th-night-of-strikes-tehran-attacks-kuwait?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-14T17:53:54.010165Z"
-    },
-    {
-      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "label": "Russian strikes on Black Sea merchant shipping kill ten in Odesa region",
-      "summary": "Continuation of Russian attacks on civilian vessels near Ukraine's Black Sea ports. Part of ongoing pattern already tracked; no qualitative change in threat level to Polish shipping or regional security.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-14T17:53:54.010165Z"
@@ -80,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-21T02:01:33.529197Z",
+  "updated_at": "2026-07-21T03:01:30.643843Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -91,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-14T17:53:54.010165Z",
   "score_history": [
-    {
-      "t": "2026-07-19T02:01:36.552517Z",
-      "s": 2.1
-    },
     {
       "t": "2026-07-19T03:01:31.979900Z",
       "s": 2.0
@@ -382,6 +378,10 @@
     {
       "t": "2026-07-21T02:01:33.529197Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-21T03:01:30.643843Z",
+      "s": 2.8
     }
   ]
 }

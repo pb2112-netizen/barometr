@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Trump administration imposes major 50% tariff on Canada, marking significant escalation in North American trade relations with direct economic impact on US consumers and businesses. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Trump administration imposes major 50% tariffs on Canadian goods, marking significant escalation in North American trade relations with direct economic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "label": "Trump imposes 50% tariffs on Canadian wine, cement, hockey sticks and other goods",
-      "summary": "Administration enacts steep tariffs on wide range of Canadian products citing discrimination against US autos, alcohol and dairy. Represents major escalation in North American trade tensions with direct impact on US consumer prices and business costs.",
-      "score": 2.9,
+      "label": "Trump imposes 50% tariffs on most Canadian goods citing discrimination against US products",
+      "summary": "Trump administration enacts sweeping 50% tariffs on Canadian wine, hockey sticks, cement, and other products, citing unfair treatment of US autos, alcohol, and dairy. Marks major escalation in North American trade relations with direct impact on US consumers and businesses.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -32,9 +32,28 @@
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
+      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
+      "label": "US wildfire smoke crosses into Canada triggering air quality warnings",
+      "summary": "Smoke from US wildfires crosses border into Canada, prompting air quality warnings. Comes days after Trump accused Canada of improper fire management, adding environmental dimension to trade tensions.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
+        }
+      ],
+      "detected_at": "2026-07-18T19:01:39.412324Z"
+    },
+    {
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US conducts 10th consecutive night of strikes targeting Iran's Hormuz capabilities",
-      "summary": "Continued military operations against Iran aim to degrade shipping attack capabilities. Represents ongoing escalation pattern already tracked rather than new development in conflict.",
+      "label": "US launches new strikes on Iran targeting Strait of Hormuz capabilities",
+      "summary": "US continues military operations against Iran for tenth consecutive night, targeting capabilities near critical oil shipping routes. Represents continuation of ongoing conflict pattern with potential for oil market impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -50,26 +69,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/21/iran-war-live-us-launches-10th-night-of-strikes-tehran-attacks-kuwait?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
-    },
-    {
-      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
-      "label": "US wildfire smoke crosses into Canada triggering air quality warnings",
-      "summary": "Smoke from northern US wildfires affects Canadian air quality days after Trump's tariff threat. Ironic timing but represents routine seasonal wildfire pattern rather than major domestic crisis.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
+          "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-18T19:01:39.412324Z"
@@ -80,7 +80,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-21T02:01:33.533410Z",
+  "updated_at": "2026-07-21T03:01:30.647563Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -91,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "score_history": [
-    {
-      "t": "2026-07-19T02:01:36.554559Z",
-      "s": 4.1
-    },
     {
       "t": "2026-07-19T03:01:31.982998Z",
       "s": 3.9
@@ -382,6 +378,10 @@
     {
       "t": "2026-07-21T02:01:33.533410Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-21T03:01:30.647563Z",
+      "s": 2.8
     }
   ]
 }

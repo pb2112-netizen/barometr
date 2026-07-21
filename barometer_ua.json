@@ -1,33 +1,53 @@
 {
-  "global_score": 4.8,
-  "rationale": "Zelenskyy domestic political crisis over defense minister dismissal adds internal instability during wartime; Black Sea shipping attacks continue as background; Trump tariff threatens Western economic stability.",
+  "global_score": 3.2,
+  "rationale": "UK Prime Minister Burnham creates uncertainty about future Ukraine military aid policy, directly affecting war effort and national security. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Why protests are growing in Ukraine over defence leadership and dismissals",
-      "label": "Protests escalate over Zelenskyy's dismissal of defense minister amid wartime tensions",
-      "summary": "Growing domestic unrest over president's firing of defense minister creates internal political crisis during ongoing war. Represents new qualitative development in Ukrainian wartime governance and public confidence.",
-      "score": 4.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "title": "What are the new British Prime Minister's biggest challenges?",
+      "label": "Andy Burnham becomes UK Prime Minister, faces challenge of uniting divided nation",
+      "summary": "New UK Prime Minister Andy Burnham takes office, creating uncertainty about continuation of Ukraine military aid policy. Directly affects Ukrainian war effort and security as UK has been major weapons supplier and diplomatic supporter.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/aje-onl-nf_protests-in-kyiv-over-defence-minister-dismissal-200726?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/what-are-the-new-british-prime-ministers-biggest-challenges?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-21T03:01:30.646643Z"
+    },
+    {
+      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+      "label": "Russian strikes on Black Sea merchant ships kill ten, 28 dead in July",
+      "summary": "Russia continues targeting civilian shipping in Odesa region with 28 killed in July alone. Maintains direct threat to Ukrainian trade lifeline and economic survival, though represents continuation of established attack pattern.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-20T12:01:33.121315Z"
     },
     {
       "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "label": "Trump imposes 50% tariffs on Canada, threatening Western economic stability",
-      "summary": "Major US-Canada trade war could indirectly affect Western economies and aid flows to Ukraine. Adds uncertainty to economic stability of Ukraine's key support partners.",
+      "label": "Trump imposes 50% tariffs on Canadian goods, escalating North American trade war",
+      "summary": "Major US-Canada trade conflict intensifies, creating broader Western economic instability. Could indirectly affect Ukrainian aid flows and Western unity as economic tensions rise among key supporter nations.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC",
@@ -49,33 +69,14 @@
         }
       ],
       "detected_at": "2026-07-20T12:01:33.121315Z"
-    },
-    {
-      "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "label": "Russian strikes on Black Sea merchant vessels kill ten near Odesa",
-      "summary": "Continuation of Russian attacks on civilian shipping in Ukrainian waters. Part of ongoing war pattern already tracked; no new escalation in threat level.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-20T12:01:33.121315Z"
     }
   ],
   "short_summary": "Russia launches largest ballistic missile attack on Kyiv since war began",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-21T02:01:33.532502Z",
+  "updated_at": "2026-07-21T03:01:30.646643Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +87,6 @@
   },
   "events_anchor_at": "2026-07-15T20:01:51.748792Z",
   "score_history": [
-    {
-      "t": "2026-07-19T02:01:36.553989Z",
-      "s": 3.2
-    },
     {
       "t": "2026-07-19T03:01:31.982147Z",
       "s": 3.1
@@ -377,6 +374,10 @@
     {
       "t": "2026-07-21T02:01:33.532502Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-07-21T03:01:30.646643Z",
+      "s": 3.2
     }
   ]
 }
