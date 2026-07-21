@@ -1,12 +1,60 @@
 {
-  "global_score": 3.1,
-  "rationale": "Black Sea shipping attacks continue without new escalation; US-Iran strikes remain distant but sustained energy threat.",
+  "global_score": 3.2,
+  "rationale": "Trump's Canada tariff escalation threatens broader trade stability affecting EU; Yemen's Saudi embargo adds Red Sea shipping pressure near Romanian Black Sea interests. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+      "label": "Trump imposes 50% tariffs on Canadian goods in major trade escalation",
+      "summary": "Steep US tariffs on Canada mark significant North American trade conflict. Could ripple through global markets and EU economy, indirectly affecting Romanian trade environment and economic stability.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-15T10:01:52.619068Z"
+    },
+    {
+      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+      "label": "Houthi rebels declare immediate maritime embargo on Saudi Arabia in Red Sea",
+      "summary": "Yemen's Houthis escalate regional shipping disruption with Saudi embargo, adding pressure to Red Sea trade routes. Increases instability in waters connected to Romanian Black Sea shipping interests.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-20T18:01:32.969462Z"
+    },
+    {
       "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-      "label": "Russian strikes kill ten in Black Sea merchant shipping attacks",
-      "summary": "Russia continues targeting civilian ships in the Black Sea near Romanian waters, killing 28 in July. Ongoing direct threat to regional maritime security and trade.",
-      "score": 3.1,
+      "label": "Russian strikes on Black Sea merchant vessels kill ten near Odesa",
+      "summary": "Ongoing Russian attacks on civilian shipping in Black Sea continue with casualties. Represents continuation of known threat pattern in Romanian maritime neighborhood rather than new escalation.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,49 +68,6 @@
         }
       ],
       "detected_at": "2026-07-15T10:01:52.619068Z"
-    },
-    {
-      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US conducts tenth night of strikes on Iran targeting Hormuz capabilities",
-      "summary": "US military campaign against Iran continues for tenth consecutive night. Sustained conflict maintains pressure on Strait of Hormuz shipping and energy markets.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/21/iran-war-live-us-launches-10th-night-of-strikes-tehran-attacks-kuwait?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-15T10:01:52.619068Z"
-    },
-    {
-      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-      "label": "Houthi rebels announce immediate maritime embargo on Saudi Arabian shipping",
-      "summary": "Yemen's Houthis declare embargo on Saudi shipping in response to blockade. Regional instability adds to Red Sea disruption affecting Mediterranean trade routes.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-20T18:01:32.969462Z"
     }
   ],
   "short_summary": "Iran attacks Gulf allies, US strikes Iranian nuclear site after Jordan casualties",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-21T01:01:26.689832Z",
+  "updated_at": "2026-07-21T02:01:33.530505Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -81,10 +86,6 @@
   },
   "events_anchor_at": "2026-07-15T10:01:52.619068Z",
   "score_history": [
-    {
-      "t": "2026-07-19T01:01:32.725977Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-19T02:01:36.553011Z",
       "s": 2.0
@@ -372,6 +373,10 @@
     {
       "t": "2026-07-21T01:01:26.689832Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-21T02:01:33.530505Z",
+      "s": 3.2
     }
   ]
 }
