@@ -1,13 +1,12 @@
 {
-  "global_score": 2.3,
-  "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
-  "rationale": "Trump imposes 50% tariffs on Canada — major confirmed policy action directly affecting US economy, trade, and consumer prices; qualitatively new escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "rationale": "Trump administration enacts major 50% tariff on Canada, a confirmed policy action with immediate economic impact on US consumers, businesses, and North American trade relationships. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
       "label": "Trump imposes 50% tariffs on most Canadian goods, major trade escalation",
-      "summary": "Confirmed policy action: 50% tariffs on Canadian goods now in effect, targeting autos, alcohol, dairy. Direct impact on US consumer prices, supply chains, and North American trade relations.",
-      "score": 2.3,
+      "summary": "Administration enacts punitive 50% tariffs on Canadian imports citing discrimination against US products. Immediate impact on consumer prices, supply chains, and North American economic integration.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -28,11 +27,35 @@
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
-      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US conducts new strikes on Iran targeting Strait of Hormuz capabilities",
-      "summary": "Continuation of ongoing US-Iran military escalation with further strikes. Background conflict pattern already known; no new qualitative shift in US military posture.",
+      "title": "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
+      "label": "Sinaloa Cartel co-founder El Mayo sentenced to life, $15 billion fine",
+      "summary": "Major cartel leader receives life sentence and massive fine after admitting to sending vast drug quantities to US. Continuation of ongoing drug war enforcement.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/el-mayo-prison-sentence"
+        }
+      ],
+      "detected_at": "2026-07-20T18:01:32.971746Z"
+    },
+    {
+      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "label": "US launches tenth consecutive night of strikes on Iran over Hormuz threats",
+      "summary": "Ongoing military campaign against Iranian capabilities continues; tenth consecutive night of strikes. Established operation with no new qualitative escalation.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -50,34 +73,16 @@
         }
       ],
       "detected_at": "2026-07-18T19:01:39.412324Z"
-    },
-    {
-      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
-      "label": "US wildfire smoke crosses into Canada, triggering air quality warnings",
-      "summary": "Continuation of wildfire smoke crossing borders. Background environmental issue already tracked; no new qualitative change in fire management or air quality impact.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
     }
   ],
+  "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-21T06:39:57.452720Z",
+  "updated_at": "2026-07-21T07:01:32.234943Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
     "score": 7.5,
@@ -86,10 +91,6 @@
   },
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "score_history": [
-    {
-      "t": "2026-07-19T06:41:53.607898Z",
-      "s": 6.1
-    },
     {
       "t": "2026-07-19T07:01:38.587405Z",
       "s": 5.8
@@ -377,6 +378,10 @@
     {
       "t": "2026-07-21T06:39:57.452720Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-07-21T07:01:32.234943Z",
+      "s": 2.2
     }
   ]
 }
