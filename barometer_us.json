@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Trump administration imposes major 50% tariffs on Canadian goods, marking significant escalation in North American trade relations with direct economic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "Trump administration imposes major 50% tariffs on Canada, marking significant escalation in North American trade relations with direct economic impact on US consumers and businesses. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "label": "Trump imposes 50% tariffs on most Canadian goods citing discrimination against US products",
-      "summary": "Trump administration enacts sweeping 50% tariffs on Canadian wine, hockey sticks, cement, and other products, citing unfair treatment of US autos, alcohol, and dairy. Marks major escalation in North American trade relations with direct impact on US consumers and businesses.",
-      "score": 2.8,
+      "label": "Trump imposes 50% tariffs on Canadian goods citing discrimination against US products",
+      "summary": "Major trade policy shift with 50% tariffs on Canadian wine, cement, hockey sticks and other goods. Direct impact on US-Canada economic relations, consumer prices, and North American supply chains.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -32,30 +32,11 @@
       "detected_at": "2026-07-18T19:01:39.412324Z"
     },
     {
-      "title": "Canada issues air quality warnings over US wildfire smoke after Trump tariff threat",
-      "label": "US wildfire smoke crosses into Canada triggering air quality warnings",
-      "summary": "Smoke from US wildfires crosses border into Canada, prompting air quality warnings. Comes days after Trump accused Canada of improper fire management, adding environmental dimension to trade tensions.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/20/canada-air-quality-warnings-us-wildfire-smoke-trump-tariffs"
-        }
-      ],
-      "detected_at": "2026-07-18T19:01:39.412324Z"
-    },
-    {
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "label": "US launches new strikes on Iran targeting Strait of Hormuz capabilities",
-      "summary": "US continues military operations against Iran for tenth consecutive night, targeting capabilities near critical oil shipping routes. Represents continuation of ongoing conflict pattern with potential for oil market impact.",
+      "label": "US conducts tenth consecutive night of strikes on Iranian targets",
+      "summary": "Ongoing military campaign continues with attacks aimed at degrading Iran's Strait of Hormuz capabilities. Continuation of known conflict pattern following earlier US combat deaths.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -69,10 +50,34 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/aje-onl-nf_us-military-releases-footage-of-strikes-on-iran-200726?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-18T19:01:39.412324Z"
+    },
+    {
+      "title": "Mexican drug lord 'El Mayo' sentenced to life in prison in US federal court",
+      "label": "Sinaloa Cartel co-founder El Mayo Zambada sentenced to life plus $15bn fine",
+      "summary": "Major cartel leader receives life sentence in New York federal court. Continuation of known drug war case without immediate impact on daily life for most US residents.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/el-mayo-prison-sentence"
+        }
+      ],
+      "detected_at": "2026-07-20T18:01:32.971746Z"
     }
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
@@ -80,9 +85,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-21T03:01:30.647563Z",
+  "updated_at": "2026-07-21T03:42:53.800331Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
     "score": 7.5,
@@ -91,10 +96,6 @@
   },
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "score_history": [
-    {
-      "t": "2026-07-19T03:01:31.982998Z",
-      "s": 3.9
-    },
     {
       "t": "2026-07-19T03:51:27.953694Z",
       "s": 3.8
@@ -382,6 +383,10 @@
     {
       "t": "2026-07-21T03:01:30.647563Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-21T03:42:53.800331Z",
+      "s": 2.7
     }
   ]
 }
