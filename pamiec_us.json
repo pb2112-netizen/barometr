@@ -1,31 +1,37 @@
 {
-  "updated_at": "2026-07-27T16:01:25.845130Z",
-  "ostatnia_ocena": 4.6,
+  "updated_at": "2026-07-27T17:08:01.646896Z",
+  "ostatnia_ocena": 4.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US wildfire smoke crosses into Canada — air quality warnings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Smoke from US fires triggers Canadian warnings; tariff."
     },
     {
       "temat": "US strikes Iran — military retaliation for soldier deaths",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 2,
       "opis": "Direct US military engagement after American casualties."
     },
     {
       "temat": "Seattle food festival shooting — three dead",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Shooting near Space Needle kills three, several injured."
     },
     {
       "temat": "US-Iran attacks pause for diplomatic talks — temporary de-escalation",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
       "opis": "US halts strikes to allow negotiations; energy prices ease."
+    },
+    {
+      "temat": "Toronto US consulate attacked — second incident",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Second shooting at US consulate in Toronto; suspect free."
     }
   ],
   "score_history": [
@@ -48,10 +54,24 @@
     {
       "t": "2026-07-27T16:01:25.841766Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-07-27T17:08:01.643691Z",
+      "s": 4.4
     }
   ],
   "events_anchor_at": "2026-07-18T19:01:39.412324Z",
   "event_detected_at": {
+    "oil price dives as us and iran pause attacks": {
+      "detected_at": "2026-07-27T11:59:49.479154Z",
+      "peak_at": "2026-07-27T11:59:49.479154Z",
+      "peak_score_at": "2026-07-27T11:59:49.479154Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "positive",
+      "title": "Oil price dives as US and Iran pause attacks",
+      "peak_label": "US halts Iran strikes to allow talks",
+      "peak_summary": "US halts military strikes on Iran to give talks space after recent retaliation for soldier deaths, significantly de-escalating direct military engagement."
+    },
     "more than 600 us military service members injured since iran war began in february": {
       "detected_at": "2026-07-27T15:13:08.451705Z",
       "peak_at": "2026-07-27T16:01:25.841766Z",
@@ -62,15 +82,15 @@
       "peak_label": "US military casualties exceed 600 in Iran war",
       "peak_summary": "Direct US military engagement continues with confirmed 600+ service members injured, affecting American families and military readiness."
     },
-    "oil price dives as us and iran pause attacks": {
-      "detected_at": "2026-07-27T11:59:49.479154Z",
-      "peak_at": "2026-07-27T11:59:49.479154Z",
-      "peak_score_at": "2026-07-27T11:59:49.479154Z",
-      "peak_score": 5.0,
-      "peak_sentiment": "positive",
-      "title": "Oil price dives as US and Iran pause attacks",
-      "peak_label": "US halts Iran strikes to allow talks",
-      "peak_summary": "US halts military strikes on Iran to give talks space after recent retaliation for soldier deaths, significantly de-escalating direct military engagement."
+    "shots fired near us consulate in canada for second time in four months": {
+      "detected_at": "2026-07-27T17:08:01.643691Z",
+      "peak_at": "2026-07-27T17:08:01.643691Z",
+      "peak_score_at": "2026-07-27T17:08:01.643691Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "peak_label": "US consulate in Toronto attacked again",
+      "peak_summary": "Second shooting near US consulate in Toronto this year; suspect remains at large after high-speed chase, raising security concerns."
     },
     "three dead and several injured in shooting at food festival near seattle's space needle": {
       "detected_at": "2026-07-27T11:59:49.479154Z",
@@ -94,8 +114,8 @@
     }
   },
   "prev_top_event_titles": [
-    "More than 600 US military service members injured since Iran War began in February",
     "Oil price dives as US and Iran pause attacks",
-    "Three dead and several injured in shooting at food festival near Seattle's Space Needle"
+    "More than 600 US military service members injured since Iran War began in February",
+    "Shots fired near US consulate in Canada for second time in four months"
   ]
 }
