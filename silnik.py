@@ -95,6 +95,38 @@ HISTORY_HOURS = 48
 # (nie od pierwszego detected_at — re-eskalacja / aktywny top odswieza peak_at).
 MSE_OKNO_GODZIN = 24
 
+# WB-066: wygasanie peaku MSE. peak_score przestaje byc "max na zawsze": po okresie laski
+# (MSE_PEAK_GRACE_H liczone od peak_at) opada powoli w kierunku biezacego score tematu,
+# z podloga rowna temu score. Bez tego temat, ktory raz osiagnal 7.9 i zostaje w top-3,
+# trzyma MSE bez konca (peak_at odswiezany przez WB-062) — apka pokazuje "Calm 2.5"
+# i tuz obok "Most significant event 7.9". Nadpisuje WB-060 AC-3 (patrz CHANGELOG).
+MSE_PEAK_GRACE_H = 6.0
+MSE_PEAK_DECAY_KROK = 0.1
+
+# WB-063: deterministyczne dopasowanie tematow (zastepuje "jedno wspolne slowo >= 4 znaki").
+# Match gdy: >= TEMAT_MIN_WSPOLNYCH wspolnych slow tresciowych LUB Jaccard >= TEMAT_JACCARD_PROG.
+TEMAT_JACCARD_PROG = 0.30
+TEMAT_MIN_WSPOLNYCH = 2
+# Slowa funkcyjne / boilerplate newsowy (>= 4 znaki) — nie niosa tozsamosci tematu.
+# Powod: "after", "protests", "military" wystarczaly, zeby skleic dwa rozne wydarzenia
+# (produkcja 2026-07-16: wpis o Hongkongu z etykieta o francuskiej ustawie).
+# Uwaga: NIE wrzucamy tu generykow tematycznych (military, police, government) — te sa
+# realnie informacyjne; przed falszywym sklejeniem chroni prog >= 2 wspolnych slow.
+TEMAT_STOPWORDS = frozenset({
+    "about", "above", "across", "after", "again", "against", "along", "already", "also",
+    "although", "among", "amid", "another", "around", "because", "been", "before", "being",
+    "below", "beside", "between", "both", "could", "despite", "does", "done", "down",
+    "during", "each", "else", "even", "ever", "every", "from", "further", "have", "here",
+    "however", "including", "inside", "instead", "into", "just", "latest", "like", "live",
+    "made", "make", "many", "more", "most", "much", "must", "near", "next", "none", "only",
+    "other", "others", "outside", "over", "part", "past", "recent", "recently", "report",
+    "reported", "reports", "said", "same", "says", "several", "should", "since", "some",
+    "still", "such", "than", "that", "their", "them", "then", "there", "these", "they",
+    "this", "those", "three", "through", "thus", "told", "toward", "towards", "under",
+    "until", "update", "updates", "upon", "very", "video", "watch", "were", "what", "when",
+    "where", "which", "while", "will", "with", "within", "without", "would", "your",
+})
+
 # WB-018: cap retoryki bez potwierdzonego czynu.
 CAP_RETORYKA = 3.0
 SLOWA_RETORYKI = (
@@ -228,6 +260,21 @@ def _zastosuj_decay_na_score(score: float, *, kontynuacja: bool) -> float:
     return _ocena_float(max(DECAY_FLOOR, score - krok))
 
 
+def _teraz_utc():
+    """WB-066: naive UTC "teraz" (zamiennik deprecated datetime.utcnow()).
+
+    Swiadomie zwraca NAIVE datetime — cala reszta silnika (_parse_iso_utc, porownania
+    w _przytnij_score_history) operuje na naive UTC, a mieszanie aware/naive rzuca
+    TypeError. Format ISO + "Z" pozostaje bajt w bajt taki jak dotad.
+    """
+    return datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+
+
+def _teraz_iso():
+    """WB-066: znacznik czasu publikacji w formacie kontraktu (ISO UTC z sufiksem Z)."""
+    return _teraz_utc().isoformat() + "Z"
+
+
 def _parse_iso_utc(ts):
     """Parsuje ISO 8601 UTC (zakonczony Z) na naive UTC datetime."""
     if not ts or not isinstance(ts, str):
@@ -251,7 +298,7 @@ def _przytnij_score_history(wpisy, hours=HISTORY_HOURS):
     """Zostawia wpisy score_history z ostatnich `hours` godzin, posortowane rosnaco po t."""
     if not wpisy:
         return []
-    cutoff = datetime.datetime.utcnow() - datetime.timedelta(hours=hours)
+    cutoff = _teraz_utc() - datetime.timedelta(hours=hours)
     out = []
     for w in wpisy:
         if not isinstance(w, dict):
@@ -343,7 +390,7 @@ def zapisz_pamiec(
 ):
     """Zapisuje zaktualizowany stan swiata per lens."""
     dane = {
-        "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "updated_at": _teraz_iso(),
         "ostatnia_ocena": ostatnia_ocena,
         "ostatnie_powiadomienie_at": ostatnie_powiadomienie_at,
         "stan_swiata": stan_swiata,
@@ -372,7 +419,7 @@ def _wczytaj_pamiec_meta():
 def _zapisz_pamiec_meta(hash_naglowkow):
     dane = {
         "last_headlines_hash": hash_naglowkow,
-        "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "updated_at": _teraz_iso(),
     }
     with open(PLIK_PAMIEC_META, "w", encoding="utf-8") as f:
         json.dump(dane, f, ensure_ascii=False, indent=2)
@@ -443,12 +490,15 @@ def _truncate_summary(text, max_len=PREFERRED_EVENT_SUMMARY):
 
 
 def _rationale_matches_title(rationale, title):
-    """Heurystyka: slowo kluczowe z tytulu wystepuje w rationale lensu."""
+    """Czy lensowe `rationale` opisuje ten sam temat co `title` (WB-063).
+
+    Dawna heurystyka ("dowolne z pierwszych 5 slow >= 4 znaki wystepuje w rationale")
+    dopasowywala rationale o zupelnie innym wydarzeniu i wklejala je jako summary eventu.
+    Teraz obowiazuje ten sam prog co dla dopasowania tematow.
+    """
     if not rationale or not title:
         return False
-    slowa = [w for w in title.lower().split() if len(w) >= 4]
-    r_lower = rationale.lower()
-    return any(w in r_lower for w in slowa[:5])
+    return _tematy_pasuja(title, rationale)
 
 
 def _tytul_padded(title):
@@ -456,14 +506,44 @@ def _tytul_padded(title):
 
 
 def _wyrazniki_tekstu(tekst):
-    """Slowa >= 4 znaki — deterministyczne dopasowanie tematu do tytulu (WB-017)."""
+    """Slowa >= 4 znaki (WB-017/WB-050) — surowy zbior, ze slowami funkcyjnymi."""
     return {w for w in re.split(r"\W+", (tekst or "").lower()) if len(w) >= 4}
 
 
+def _wyrazniki_tematu(tekst):
+    """WB-063: slowa TRESCIOWE (>= 4 znaki, bez TEMAT_STOPWORDS) do dopasowania tematu."""
+    return _wyrazniki_tekstu(tekst) - TEMAT_STOPWORDS
+
+
+def _podobienstwo_tematow(title, temat):
+    """WB-063: sila dopasowania dwoch tematow, 0.0 = brak dopasowania.
+
+    Dawna regula (`bool(wt & wm)`) uznawala dwa tematy za ten sam przy JEDNYM wspolnym
+    slowie >= 4 znaki, wiec "after" / "protests" / "military" sklejaly rozne wydarzenia.
+    Skutek na produkcji: wpis ledgera przejmowal cudzy `peak_label`, `detected_at`
+    i `peak_score`, a MSE publikowalo etykiete innego wydarzenia niz karta w apce.
+
+    Nowa regula: >= TEMAT_MIN_WSPOLNYCH wspolnych slow tresciowych LUB
+    Jaccard >= TEMAT_JACCARD_PROG (ratunek dla krotkich tytulow, gdzie 1 z 2 slow
+    to juz mocny sygnal). Zwraca Jaccard, zeby wolajacy mogl wybrac NAJLEPSZE
+    dopasowanie zamiast pierwszego napotkanego.
+    """
+    wt = _wyrazniki_tematu(title)
+    wm = _wyrazniki_tematu(temat)
+    if not wt or not wm:
+        return 0.0
+    wspolne = len(wt & wm)
+    if not wspolne:
+        return 0.0
+    podobienstwo = _jaccard(wt, wm)
+    if wspolne >= TEMAT_MIN_WSPOLNYCH or podobienstwo >= TEMAT_JACCARD_PROG:
+        return podobienstwo
+    return 0.0
+
+
 def _tematy_pasuja(title, temat):
-    wt = _wyrazniki_tekstu(title)
-    wm = _wyrazniki_tekstu(temat)
-    return bool(wt and wm and (wt & wm))
+    """WB-017/WB-063: czy tytul i temat opisuja to samo wydarzenie."""
+    return _podobienstwo_tematow(title, temat) > 0.0
 
 
 def _jaccard(a, b):
@@ -479,11 +559,16 @@ def _jaccard(a, b):
 def _zbior_referencyjny_nowosc(pamiec):
     """WB-050: teksty referencyjne pamieci do wykrycia parafrazy tego samego tematu.
 
-    Zbior: anchor_event_titles + stan_swiata[].temat + tytuly top_events
-    z poprzedniego cyklu (jesli zapisane w pamieci).
+    Zbior: tytuly z ledgera MSE + stan_swiata[].temat + tytuly top_events z poprzedniego
+    cyklu. WB-063: `anchor_event_titles` usuniete — klucz zniknal z pamieci razem
+    z WB-060, a kod nadal go czytal, wiec straznik dzialal na dwoch zbiorach zamiast
+    trzech. Ledger (`event_detected_at`) jest zywym odpowiednikiem: trzyma tytuly
+    tematow z ostatnich 24 h, takze tych spoza biezacego top-3.
     """
     referencje = []
-    referencje.extend(pamiec.get("anchor_event_titles") or [])
+    for wpis in (pamiec.get("event_detected_at") or {}).values():
+        if isinstance(wpis, dict):
+            referencje.append(wpis.get("title", ""))
     referencje.extend(e.get("temat", "") for e in (pamiec.get("stan_swiata") or []))
     referencje.extend(pamiec.get("prev_top_event_titles") or [])
     return [r for r in referencje if r]
@@ -698,10 +783,20 @@ def _ogranicz_retoryke(events):
 
 
 def _znajdz_stan_pamiec(title, stan_swiata):
-    """Dopasowanie eventu do wpisu stan_swiata z poprzedniej pamieci."""
+    """Dopasowanie eventu do wpisu stan_swiata z poprzedniej pamieci.
+
+    WB-063: NAJLEPSZE dopasowanie zamiast pierwszego — zly wpis oznaczal zly
+    `poziom_bazowy` jako baze decayu, czyli score eventu liczony z cudzej historii.
+    """
+    najlepszy = None
+    najlepsza_sila = 0.0
     for entry in stan_swiata or []:
-        if _tematy_pasuja(title, entry.get("temat", "")):
-            return entry
+        sila = _podobienstwo_tematow(title, entry.get("temat", ""))
+        if sila > najlepsza_sila:
+            najlepsza_sila = sila
+            najlepszy = entry
+    if najlepszy is not None:
+        return najlepszy
     return None
 
 
@@ -715,37 +810,86 @@ def _event_dla_tematu(temat, top_events):
 # WB-060: fallback tekst gdy ledger pusty (prawdziwa cisza — brak top_events).
 _QUIET_NEWS_CYCLE = "Quiet news cycle"
 
-# WB-061: budzet etykiety MSE z LLM (2 linie UI) + blocklista meta-fraz.
-MSE_LABEL_MAX_WORDS = 14
-MSE_LABEL_MAX_CHARS = 110
+# WB-061/WB-065: budzet etykiety MSE (DWIE linie UI) + blocklista meta-fraz.
+#
+# WB-065: limity obcieto z 14 slow / 110 znakow do 9 slow / 62 znakow. Powod: 110 znakow
+# to ~2x realny budzet dwoch linii. Pomiar (Roboto, srednia szerokosc znaku ~0.50 em,
+# strata na zawijaniu ~12%):
+#   widget Standard (200 dp, tekst 172 dp, 11 sp) -> ~31 znakow/linia -> ~55 znakow na 2 linie
+#   dashboard telefon 360 dp (tekst 280 dp, 16 sp) -> ~35 znakow/linia -> ~62 znaki
+#   widget Wide (281 dp) i Pixel 6/8 (411 dp) miesza wiecej — nie one sa waskim gardlem.
+# Twardym ograniczeniem jest wiec widget Standard. Etykieta ma sie zmiescic BEZ "…",
+# dlatego prog silnika jest ponizej pojemnosci UI, a nie rowny jej.
+MSE_LABEL_MAX_WORDS = 9
+MSE_LABEL_MAX_CHARS = 62
+# WB-065: budzet szerokosci renderowania w jednostkach "em" (1 em = rozmiar fontu).
+# Sam limit znakow karze "iiiiiiii" i "WWWWWWWW" tak samo, a roznica realnej szerokosci
+# to ~3x. 27.5 em = ~55 znakow tekstu o sredniej szerokosci = 2 linie widgetu Standard.
+MSE_LABEL_MAX_EM = 27.5
 MSE_LABEL_META = (
     "background noise", "no new shocks", "quiet period", "nothing significant",
     "still calm", "unchanged", "ongoing situation",
 )
 
+# WB-065: przyblizone szerokosci znakow Roboto w em. Nie musza byc co do piksela —
+# maja odrozniac "iii" od "WWW". Wszystko spoza mapy dostaje _SZEROKOSC_DOMYSLNA.
+_SZEROKOSC_DOMYSLNA = 0.55
+_SZEROKOSCI_ZNAKOW = {
+    **{c: 0.26 for c in " "},
+    **{c: 0.28 for c in "ijl.,;:!|'`"},
+    **{c: 0.34 for c in "()[]{}I"},
+    **{c: 0.44 for c in "frt/\\-"},
+    **{c: 0.50 for c in "cksvxyzJ"},
+    **{c: 0.62 for c in "ABCDEFGHKLNOPQRSTUVXYZ0123456789$"},
+    **{c: 0.78 for c in "mMW%@"},
+    **{c: 0.72 for c in "wD"},
+}
 
-def _skrot_z_tytulu(title, max_words=12, ellipsis=False):
-    """Skrot z tytulu RSS (EN, bez tlumaczenia). WB-033/WB-055-fix/WB-061.
+
+def _szerokosc_em(text):
+    """WB-065: przyblizona szerokosc renderowania tekstu w em (1 em = rozmiar fontu)."""
+    return sum(_SZEROKOSCI_ZNAKOW.get(ch, _SZEROKOSC_DOMYSLNA) for ch in text or "")
+
+
+def _miesci_sie_w_budzecie(text):
+    """WB-065: czy etykieta zmiesci sie w dwoch liniach UI (slowa + znaki + szerokosc)."""
+    return (
+        len(text) <= MSE_LABEL_MAX_CHARS
+        and len(text.split()) <= MSE_LABEL_MAX_WORDS
+        and _szerokosc_em(text) <= MSE_LABEL_MAX_EM
+    )
+
+
+def _skrot_z_tytulu(title, max_words=MSE_LABEL_MAX_WORDS, ellipsis=False):
+    """Skrot z tytulu RSS (EN, bez tlumaczenia). WB-033/WB-055-fix/WB-061/WB-065.
 
     Domyslnie BEZ koncowego wielokropka (WB-061: regresja WB-055-fix naprawiona
     dla sciezki MSE — ucinane etykiety z „…" na produkcji).
+    WB-065: po przycieciu do `max_words` skrot jest dodatkowo zwezany slowo po slowie,
+    dopoki nie zmiesci sie w budzecie dwoch linii. Fallback nie moze byc szerszy
+    niz etykieta, ktora odrzucil — inaczej "…" wracaloby tylnymi drzwiami.
     """
     words = (title or "").strip().split()
     if not words:
         return "See top event headline."
-    truncated = len(words) > max_words
-    shortened = " ".join(words[:max_words]).rstrip(".,;:!?-—\"'")
-    if not shortened:
-        return "See top event headline."
-    return (shortened + "…") if (truncated and ellipsis) else shortened
+    kandydat = words[:max_words]
+    while kandydat:
+        shortened = " ".join(kandydat).rstrip(".,;:!?-—\"'")
+        if not shortened:
+            break
+        if _miesci_sie_w_budzecie(shortened) or len(kandydat) == 1:
+            truncated = len(words) > len(kandydat)
+            return (shortened + "…") if (truncated and ellipsis) else shortened
+        kandydat = kandydat[:-1]
+    return "See top event headline."
 
 
 def _waliduj_mse_label(raw_label, title):
-    """WB-061: waliduje label z LLM per top_event (kandydat na sticky peak_label).
+    """WB-061/WB-065: waliduje label z LLM per top_event (kandydat na sticky peak_label).
 
     Zwraca (tekst, accepted). accepted=False -> uzyto fallbacku ze skrotu tytulu
-    (bez wielokropka), gdy LLM zlamal budzet (srednik / >14 slow / >110 znakow /
-    puste / meta-fraza cyklu ciszy).
+    (bez wielokropka), gdy LLM zlamal budzet: srednik / poza budzetem dwoch linii
+    (slowa, znaki lub szerokosc em) / puste / meta-fraza cyklu ciszy.
     """
     text = " ".join((raw_label or "").strip().split())
     # tylko koncowa elipsa (nie rstrip(".") — psuje "U.S." / inicjaly)
@@ -756,13 +900,12 @@ def _waliduj_mse_label(raw_label, title):
     bad = (
         not text
         or ";" in text
-        or len(text) > MSE_LABEL_MAX_CHARS
-        or len(text.split()) > MSE_LABEL_MAX_WORDS
+        or not _miesci_sie_w_budzecie(text)
         or any(m in text.lower() for m in MSE_LABEL_META)
     )
     if bad:
-        print(f'  [uwaga] WB-061: mse label fallback for "{title[:60]}"')
-        return _skrot_z_tytulu(title, max_words=12, ellipsis=False), False
+        print(f'  [uwaga] WB-065: mse label fallback for "{title[:60]}"')
+        return _skrot_z_tytulu(title, ellipsis=False), False
     return text, True
 
 
@@ -807,17 +950,78 @@ def _uzupelnij_peak_at(wpis, score, updated_at, bumped, teraz=None):
         wpis["peak_at"] = updated_at
 
 
-def _aktualizuj_ledger(top_events, pamiec, updated_at):
-    """WB-060/WB-061/WB-062: ledger tematow niezalezny od top-3, retencja wg peak_at.
+def _peak_score_at_wpisu(wpis):
+    """WB-066: zegar WYGASANIA peaku — moment ostatniego realnego podbicia peak_score.
 
-    Kazdy wpis: {detected_at, peak_at, peak_score, peak_sentiment, title, peak_label}.
-    - Nowy temat (brak dopasowania _tematy_pasuja) -> nowy wpis, detected_at=peak_at=updated_at.
-    - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title/peak_at podbite TYLKO
-      gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" zamrozona razem).
-    - peak_label (WB-061): sticky jak peak_score — podbity TYLKO przy peak bump ORAZ gdy
-      LLM label przeszedl walidacje (_waliduj_mse_label); rejected przy peak bump -> stary
+    Osobny od `peak_at` (zegar okna MSE) celowo. `peak_at` jest odswiezany przez WB-062
+    przy kazdym cyklu, w ktorym temat siedzi w top-3, wiec liczony na nim okres laski
+    nigdy by nie uplynal i peak staly w miejscu — dokladnie ta blokada, ktora WB-066 usuwa.
+    Stary ledger bez `peak_score_at` -> fallback na peak_at/detected_at.
+    """
+    return (wpis or {}).get("peak_score_at") or _peak_at_wpisu(wpis)
+
+
+def _wygas_peak_score(wpis, score, teraz):
+    """WB-066: powolne wygasanie peaku tematu, ktory siedzi w top_events ponizej szczytu.
+
+    WB-060 zamrazalo `peak_score` na zawsze ("max napotkany, nigdy nie spada"), a WB-062
+    odswieza `peak_at`, dopoki temat jest w top-3. Zlozenie tych dwoch regul dawalo blokade:
+    temat, ktory raz osiagnal 7.9, trzymal MSE tygodniami i publikowal score 7.9 przy
+    barometrze 2.5. Tu peak opada o MSE_PEAK_DECAY_KROK na cykl, ale dopiero po
+    MSE_PEAK_GRACE_H od SZCZYTU (swiezy szczyt nie mrugnie) i nigdy ponizej biezacego
+    score tematu (peak nie klamie w dol).
+
+    Wywolywane PRZED `_uzupelnij_peak_at`, zeby czytac zegary sprzed odswiezenia okna.
+    NADPISUJE WB-060 AC-3 dla dlugiego horyzontu: w cyklu tuz po szczycie peak nadal
+    nie spada, ale po okresie laski zbiega do rzeczywistosci.
+    """
+    peak = _ocena_float(wpis.get("peak_score", score))
+    if score >= peak:
+        return
+    wiek = _godziny_od(_peak_score_at_wpisu(wpis), teraz)
+    if wiek is None or wiek < MSE_PEAK_GRACE_H:
+        return
+    wpis["peak_score"] = _ocena_float(max(score, peak - MSE_PEAK_DECAY_KROK))
+
+
+def _najlepsze_dopasowanie_ledger(title, stara_mapa_raw, zuzyte):
+    """WB-063: NAJLEPSZY (nie pierwszy) pasujacy wpis ledgera dla tytulu; None gdy brak.
+
+    Dwie zmiany wzgledem WB-060:
+    1. Petla brala pierwszy wpis, ktory przeszedl `_tematy_pasuja` — przy kolejnosci dict
+       decydowalo to, ktory temat "ukradnie" historie. Teraz wygrywa max podobienstwa.
+    2. Wpis raz zuzyty w cyklu jest wykluczony, bo inaczej dwa rozne eventy dziedziczyly
+       ten sam `peak_score`/`detected_at` (produkcja: 6.0 zduplikowane na dwa tematy).
+    Porownujemy zarowno z kluczem mapy, jak i z zapisanym `title` — klucz jest tytulem
+    z cyklu zapisu i moze byc starsza wersja naglowka.
+    """
+    najlepszy_klucz = None
+    najlepsza_sila = 0.0
+    for klucz, raw_wpis in stara_mapa_raw.items():
+        if klucz in zuzyte:
+            continue
+        sila = _podobienstwo_tematow(title, klucz)
+        if isinstance(raw_wpis, dict):
+            sila = max(sila, _podobienstwo_tematow(title, raw_wpis.get("title", "")))
+        if sila > najlepsza_sila:
+            najlepsza_sila = sila
+            najlepszy_klucz = klucz
+    return najlepszy_klucz
+
+
+def _aktualizuj_ledger(top_events, pamiec, updated_at):
+    """WB-060/061/062/063/064/066: ledger tematow niezalezny od top-3, retencja wg peak_at.
+
+    Wpis: {detected_at, peak_at, peak_score, peak_sentiment, title, peak_label, peak_summary}.
+    - Nowy temat (brak dopasowania) -> nowy wpis, detected_at = peak_at = updated_at.
+    - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title/peak_at podbite
+      TYLKO gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" razem).
+    - peak_label/peak_summary (WB-061/WB-064): sticky jak peak_score — podbijane TYLKO przy
+      peak bump ORAZ gdy label przeszedl walidacje; rejected przy peak bump -> stary
       peak_label zachowany (nie degraduj dobrego sticky do skrotu tytulu).
-    - Wpisy nieobecne w biezacym top_events: zachowane, dopoki wiek(peak_at) < MSE_OKNO_GODZIN.
+    - WB-063: dopasowanie po NAJLEPSZYM podobienstwie, kazdy wpis zuzywalny raz na cykl.
+    - WB-066: peak_score opada po okresie laski (_wygas_peak_score) zamiast stac na zawsze.
+    - Wpisy spoza biezacego top_events: zachowane, dopoki wiek(peak_at) < MSE_OKNO_GODZIN.
     Zwraca (top_events_z_detected_at_i_label, nowy_ledger) do zapisu w pamiec_{lens}.json.
     """
     stara_mapa_raw = pamiec.get("event_detected_at") or {}
@@ -832,43 +1036,63 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
         sentiment = _normalizuj_sentiment(ev.get("sentiment"))
         label, accepted = _waliduj_mse_label(ev.get("label"), title)
         ev["label"] = label  # publiczny output eventu po walidacji (nawet gdy fallback)
+        # WB-064: opis championa wedruje do ledgera razem z etykieta, zeby MSE mialo
+        # WLASNY tekst zamiast lensowego `rationale` o innym wydarzeniu.
+        summary = _truncate_summary(ev.get("summary", ""), PREFERRED_EVENT_SUMMARY)
 
+        stary_klucz = _najlepsze_dopasowanie_ledger(title, stara_mapa_raw, dopasowane)
         wpis = None
-        stary_klucz = None
-        for klucz, raw_wpis in stara_mapa_raw.items():
-            if _tematy_pasuja(title, klucz):
-                wpis = _znormalizuj_ledger_wpis(raw_wpis, ev)
-                stary_klucz = klucz
-                break
+        if stary_klucz is not None:
+            wpis = _znormalizuj_ledger_wpis(stara_mapa_raw[stary_klucz], ev)
 
         if wpis is None:
             wpis = {
                 "detected_at": updated_at,
                 "peak_at": updated_at,
+                "peak_score_at": updated_at,
                 "peak_score": score,
                 "peak_sentiment": sentiment,
                 "title": title,
                 "peak_label": label,  # fallback OK — nie ma lepszego sticky
+                "peak_summary": summary,
             }
         else:
             bumped = score > wpis.get("peak_score", 0)
             if bumped:
                 wpis["peak_score"] = score
+                wpis["peak_score_at"] = updated_at  # WB-066: zegar wygasania rusza od nowa
                 wpis["peak_sentiment"] = sentiment
                 wpis["title"] = title
                 if accepted:
                     wpis["peak_label"] = label
+                    wpis["peak_summary"] = summary
                 elif not wpis.get("peak_label"):
                     wpis["peak_label"] = label
-            # else: score nie bil peaku -> peak_label NIE ruszamy (sticky)
-            # migracja: brak peak_label na starym wpisie -> uzupelnij przy kontakcie
+                    wpis["peak_summary"] = summary
+            else:
+                # WB-066: PRZED _uzupelnij_peak_at — inaczej odswiezone okno WB-062
+                # zerowaloby okres laski w kazdym cyklu i peak nigdy by nie opadl.
+                _wygas_peak_score(wpis, score, teraz)
+                wpis.setdefault("peak_score_at", _peak_at_wpisu(wpis))
+            # score nie bil peaku -> peak_label/peak_summary NIE ruszamy (sticky)
+            # migracja: brak sticky na starym wpisie -> uzupelnij przy kontakcie
             if not wpis.get("peak_label"):
                 wpis["peak_label"] = label
+            if not wpis.get("peak_summary") and summary:
+                wpis["peak_summary"] = summary
             _uzupelnij_peak_at(wpis, score, updated_at, bumped, teraz=teraz)
             dopasowane.add(stary_klucz)
 
         ev["detected_at"] = wpis["detected_at"]
-        nowy_ledger[title.lower().strip()] = wpis
+        klucz_nowy = title.lower().strip()
+        if klucz_nowy in nowy_ledger:
+            # Dwa eventy o identycznym znormalizowanym tytule w jednym cyklu —
+            # zostaw ten z wyzszym peakiem, zamiast po cichu nadpisac.
+            if _ocena_float(wpis.get("peak_score", 1)) <= _ocena_float(
+                nowy_ledger[klucz_nowy].get("peak_score", 1)
+            ):
+                continue
+        nowy_ledger[klucz_nowy] = wpis
 
     # retencja: wpisy spoza biezacego top_events, jesli peak_at jeszcze w oknie 24h
     for klucz, raw_wpis in stara_mapa_raw.items():
@@ -905,12 +1129,20 @@ def _wybierz_mse(ledger, updated_at):
     title = champion.get("title", "")
     label = (champion.get("peak_label") or "").strip()
     if not label:
-        label = _skrot_z_tytulu(title, max_words=12, ellipsis=False)
+        label = _skrot_z_tytulu(title, ellipsis=False)
     return {
         "label": label,
+        # WB-064: wlasny opis championa (sticky przy temacie). Apka pokazuje go w sheecie
+        # MSE zamiast lensowego `rationale`, ktore opisuje dominanta BIEZACEGO cyklu
+        # i przy championie spoza top-3 mowilo o innym wydarzeniu.
+        "summary": (champion.get("peak_summary") or "").strip(),
+        # WB-064: tytul RSS championa — pozwala apce powiazac MSE z karta w top_events.
+        "title": title,
         "score": _ocena_float(champion.get("peak_score", 1)),
         "sentiment": champion.get("peak_sentiment"),
         "detected_at": champion.get("detected_at"),
+        # WB-068: moment szczytu — apka moze zaznaczyc go na osi czasu wykresu.
+        "peak_at": _peak_at_wpisu(champion),
     }
 
 
@@ -976,7 +1208,25 @@ def _zastosuj_decay_lens(wynik, pamiec):
 
     if stan_swiata:
         max_tlo = max(_ocena_float(s.get("poziom_bazowy", 1)) for s in stan_swiata)
+        # WB-066: cap tlem nie moze zdusic prawdziwej eskalacji. Prompt zacheca model do
+        # zwracania `nowe_tematy: []` ("usually []"), wiec swiezy szok czesto nie ma jeszcze
+        # swojego wpisu w stan_swiata i byl przycinany do zdecayowanego tla ("barometr nigdy
+        # nie rosnie"). Wyjatek: event oznaczony "nowe" Z POTWIERDZONYM CZYNEM (SLOWA_CZYNOW)
+        # przebija cap. Sama retoryka nadal nie — to zostaje z WB-018.
+        podloga_czynu = 0.0
+        for ev in top_events:
+            if _normalizuj_nowosc(ev.get("nowosc")) != "nowe":
+                continue
+            if not any(f in _tytul_padded(ev.get("title", "")) for f in SLOWA_CZYNOW):
+                continue
+            podloga_czynu = max(podloga_czynu, _ocena_float(ev.get("score", 1)))
         global_score = min(global_score, max_tlo)
+        if podloga_czynu > global_score:
+            print(
+                f"  [info] WB-066: cap tla {max_tlo} pominiety — nowy potwierdzony czyn "
+                f"({podloga_czynu})"
+            )
+            global_score = podloga_czynu
 
     if global_score < surowy_global - 0.05:
         print(f"  [uwaga] global_score skorygowany przez decay: {surowy_global} -> {global_score}")
@@ -1072,10 +1322,8 @@ Each lens has its own KNOWN WORLD STATE (stan_swiata). Score what is NEW relativ
 - Continuation of an ongoing conflict does NOT raise the score — it is already background.
 - Only a QUALITATIVE new change raises the score.
 
-The "nowosc" flag on top_events[0] also drives the app's history anchor marker
-(events_anchor_at). Mark "nowe" only when the DOMINANT story is a qualitative NEW
-development for this lens; mark "kontynuacja" when the same story continues
-(including reworded headlines). Only top_events[0] moves the anchor — not #2 or #3.
+Mark "nowe" only when the story is a qualitative NEW development for this lens; mark
+"kontynuacja" when the same story continues (including reworded headlines).
 Note: the engine may deterministically override "nowe" to "kontynuacja" in code
 when the title closely matches memory (WB-050) — still do your best to classify correctly.
 
@@ -1141,7 +1389,8 @@ Each top_events item MUST include "summary":
 - 1–2 sentences in English.
 - Explain real-world impact FROM THE LENS perspective (not a headline rewrite).
 - Never leave "summary" empty or omit the field.
-- Max ~200 characters preferred.
+- MAXIMUM 200 characters. The summary of the leading event is also shown in a compact
+  detail sheet, so keep it tight; do not pad to fill space.
 - Base event summaries ONLY on the headline and lead provided. Do NOT infer or invent facts (prices, casualties, outcomes) not stated there.
 
 === SENTIMENT (required per top_events item) ===
@@ -1160,10 +1409,12 @@ All text fields in English (OUTPUT LANGUAGE: en).
 Scores: one decimal place, scale 1.0–10.0.
 
 === EVENT LABEL (per top_event, mandatory) ===
-- "label": English headline-style phrase, 8–14 words, ≤110 characters.
+- "label": English headline-style phrase, 6–9 words, MAXIMUM 60 characters including spaces.
 - ONE event only (the row's title). Actor + action + place/object. Complete phrase — NO trailing ellipsis.
 - No semicolons. No meta (quiet cycle / ongoing / unchanged / background noise).
-- Must fit roughly two short UI lines; prefer informative completeness over telegram brevity.
+- HARD CONSTRAINT: the label is rendered on two short lines of a phone widget. Over 60
+  characters it gets rejected and replaced by a mechanical title stub. Count the characters.
+- Drop filler first (dates, "amid", "as", subordinate clauses); keep actor + action + object.
 
 === RESPONSE FORMAT (valid JSON only) ===
 {
@@ -1172,7 +1423,7 @@ Scores: one decimal place, scale 1.0–10.0.
       "global_score": <1.0-10.0>,
       "rationale": "<1 sentence from lens perspective>",
       "top_events": [
-        {"title": "...", "label": "<8-14 words EN>", "summary": "<required, non-empty; 1-2 EN sentences from lens perspective>", "score": <1.0-10.0>,
+        {"title": "...", "label": "<6-9 words EN, max 60 chars>", "summary": "<required, non-empty; 1-2 EN sentences from lens perspective>", "score": <1.0-10.0>,
          "sentiment": "<negative|positive|neutral>",
          "nowosc": "<nowe|kontynuacja>", "category": "<geopolityka|gospodarka|katastrofa|nauka|inne>",
          "sources": ["<source>"]}
@@ -1411,7 +1662,7 @@ def czy_powiadomic(ocena, poprzednia, prog, ostatnie_at, cooldown_h):
     if ostatnie_at:
         try:
             last = datetime.datetime.fromisoformat(str(ostatnie_at).replace("Z", ""))
-            if datetime.datetime.utcnow() - last < datetime.timedelta(hours=cooldown_h):
+            if _teraz_utc() - last < datetime.timedelta(hours=cooldown_h):
                 return None
         except ValueError:
             pass
@@ -1452,7 +1703,7 @@ def finalizuj_wynik(raw, lens_id, lens_name, pamiec, liczba_naglowkow):
     wynik["trend"] = oblicz_trend(ocena, poprzednia)
     wynik["lens_id"] = lens_id
     wynik["lens_name_en"] = lens_name
-    wynik["updated_at"] = datetime.datetime.utcnow().isoformat() + "Z"
+    wynik["updated_at"] = _teraz_iso()
     wynik["liczba_naglowkow"] = liczba_naglowkow
     if wynik.get("top_events"):
         wynik["top_events"] = _ensure_event_summaries(
@@ -1483,7 +1734,7 @@ def zapisz_wynik_lens(lens_id, wynik):
 
 def aktualizuj_manifest(lenses_cfg, wyniki_finalne):
     """Aktualizuje manifest.json z indeksem lensow i URL-ami wzglednymi."""
-    updated = datetime.datetime.utcnow().isoformat() + "Z"
+    updated = _teraz_iso()
     manifest = {
         "version": lenses_cfg.get("version", 1),
         "updated_at": updated,
@@ -1585,7 +1836,7 @@ def main():
         if lid == default_lens:
             powod = czy_powiadomic(ocena, pl_poprzednia, prog, pl_ostatnie_powiad, cooldown_h)
             if powod:
-                nowy_pl_powiad = datetime.datetime.utcnow().isoformat() + "Z"
+                nowy_pl_powiad = _teraz_iso()
                 powiad_at = nowy_pl_powiad
 
         # WB-060: MSE (peak_score, okno 24h) — po finalizuj_wynik (ledger juz zaktualizowany
@@ -1603,7 +1854,7 @@ def main():
 
         # WB-003: historia score — po kotwicy, przed zapisem JSON i pamieci.
         historia = _dopisz_score_history(
-            pamieci[lid], ocena, wynik.get("updated_at", datetime.datetime.utcnow().isoformat() + "Z"))
+            pamieci[lid], ocena, wynik.get("updated_at", _teraz_iso()))
         pamieci[lid]["score_history"] = historia
         wynik["score_history"] = historia
 

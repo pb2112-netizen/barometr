@@ -146,15 +146,24 @@ def test_t5b_brak_top_events_bez_wyjatku():
 # Zbior referencyjny: anchor_event_titles + stan_swiata[].temat + prev_top_event_titles
 # ---------------------------------------------------------------------------
 def test_zbior_referencyjny_laczy_trzy_zrodla():
+    """WB-063: zrodla to ledger MSE + stan_swiata + poprzedni top (anchor_titles usuniete)."""
     pamiec = _pamiec(
-        anchor_titles=["Anchor headline one"],
         stan_swiata=[{"temat": "Stan swiata temat one"}],
         prev_top_titles=["Prev cycle headline one"],
     )
+    pamiec["event_detected_at"] = {
+        "ledger headline one": {"title": "Ledger headline one", "peak_score": 4.0},
+    }
     referencje = silnik._zbior_referencyjny_nowosc(pamiec)
-    assert "Anchor headline one" in referencje
+    assert "Ledger headline one" in referencje
     assert "Stan swiata temat one" in referencje
     assert "Prev cycle headline one" in referencje
+
+
+def test_wb063_zbior_referencyjny_ignoruje_martwy_anchor_event_titles():
+    """WB-063: `anchor_event_titles` zniknal z pamieci w WB-060 — kod nie moze go juz czytac."""
+    pamiec = _pamiec(anchor_titles=["Anchor headline one"])
+    assert "Anchor headline one" not in silnik._zbior_referencyjny_nowosc(pamiec)
 
 
 def test_parafraza_wykryta_przez_prev_top_event_titles():
@@ -492,13 +501,17 @@ def test_wb060_kontynuacja_eskalacja_podbija_peak_score_detected_at_bez_zmian():
 
 
 def test_wb060_kontynuacja_decay_peak_score_bez_zmian_nie_spada():
-    """Kontynuacja z nizszym score (decay) -> peak_score NIE spada; peak_at bez zmian."""
+    """Kontynuacja z nizszym score W OKRESIE LASKI -> peak_score NIE spada; peak_at bez zmian.
+
+    WB-066 zmienia WB-060 AC-3: peak nie jest juz zamrozony na zawsze, ale przez
+    MSE_PEAK_GRACE_H od szczytu nadal nie drgnie (swiezy szczyt nie ma prawa mrugac).
+    """
     top = [{"title": "Naval blockade of Iranian ports", "score": 4.5, "sentiment": "negative"}]
     pamiec = {
         "event_detected_at": {
             "naval blockade iranian ports": {
                 "detected_at": "2026-07-10T00:00:00Z",
-                "peak_at": "2026-07-11T12:00:00Z",
+                "peak_at": "2026-07-12T06:00:00Z",  # 2h przed cyklem — w okresie laski
                 "peak_score": 7.3,
                 "peak_sentiment": "negative",
                 "title": "Naval blockade of Iranian ports escalates",
@@ -510,8 +523,80 @@ def test_wb060_kontynuacja_decay_peak_score_bez_zmian_nie_spada():
 
     klucz = "naval blockade of iranian ports"
     assert ledger[klucz]["peak_score"] == 7.3
-    assert ledger[klucz]["peak_at"] == "2026-07-11T12:00:00Z"
+    assert ledger[klucz]["peak_at"] == "2026-07-12T06:00:00Z"
     assert ledger[klucz]["title"] == "Naval blockade of Iranian ports escalates"
+
+
+# ---------------------------------------------------------------------------
+# WB-066: wygasanie peaku (koniec blokady "MSE 7.9 przy barometrze 2.5")
+# ---------------------------------------------------------------------------
+def _wpis_peak(peak_at, peak_score=7.9, title="Long running war story"):
+    return {
+        "event_detected_at": {
+            title.lower(): {
+                "detected_at": "2026-06-01T00:00:00Z",
+                "peak_at": peak_at,
+                "peak_score": peak_score,
+                "peak_sentiment": "negative",
+                "title": title,
+                "peak_label": "Long running war story keeps grinding on",
+            },
+        },
+    }
+
+
+def test_wb066_peak_score_opada_po_okresie_laski():
+    """Po MSE_PEAK_GRACE_H peak opada o MSE_PEAK_DECAY_KROK na cykl (nie stoi w miejscu)."""
+    pamiec = _wpis_peak("2026-07-20T00:00:00Z")  # 12h przed cyklem, poza okresem laski
+    top = [{"title": "Long running war story", "score": 2.0, "sentiment": "negative",
+            "label": "Long running war story keeps grinding on"}]
+
+    _, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-20T12:00:00Z")
+
+    assert ledger["long running war story"]["peak_score"] == 7.8
+
+
+def test_wb066_peak_score_nie_spada_ponizej_biezacego_score():
+    """Podloga wygasania = biezacy score tematu — peak nigdy nie klamie w dol."""
+    pamiec = _wpis_peak("2026-07-20T00:00:00Z", peak_score=2.5)
+    top = [{"title": "Long running war story", "score": 2.4, "sentiment": "negative",
+            "label": "Long running war story keeps grinding on"}]
+
+    _, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-20T12:00:00Z")
+    assert ledger["long running war story"]["peak_score"] == 2.4
+
+    # kolejny cykl: peak juz zrownany z biezacym score -> nie schodzi nizej
+    _, ledger = silnik._aktualizuj_ledger(
+        top, {"event_detected_at": ledger}, "2026-07-20T13:00:00Z")
+    assert ledger["long running war story"]["peak_score"] == 2.4
+
+
+def test_wb066_peak_nie_wygasa_gdy_temat_wciaz_bije_rekord():
+    """Bump (score > peak) ma pierwszenstwo — wygasanie nie dotyka rosnacego tematu."""
+    pamiec = _wpis_peak("2026-07-20T00:00:00Z", peak_score=4.0)
+    top = [{"title": "Long running war story", "score": 6.0, "sentiment": "negative",
+            "label": "Long running war story escalates sharply overnight"}]
+
+    _, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-20T12:00:00Z")
+
+    assert ledger["long running war story"]["peak_score"] == 6.0
+    assert ledger["long running war story"]["peak_at"] == "2026-07-20T12:00:00Z"
+
+
+def test_wb066_stary_dominant_oddaje_mse_swiezszemu_tematowi():
+    """Regresja z audytu: temat z peakiem sprzed tygodni nie moze trzymac MSE w nieskonczonosc."""
+    ledger = _wpis_peak("2026-07-20T00:00:00Z")["event_detected_at"]
+    stary = [{"title": "Long running war story", "score": 2.0, "sentiment": "negative",
+              "label": "Long running war story keeps grinding on"}]
+
+    # 60 cykli kontynuacji ponizej szczytu (0.1/cykl z 7.9 -> podloga 2.0)
+    for godzina in range(60):
+        ts = f"2026-07-20T{12 + godzina // 60:02d}:{godzina % 60:02d}:00Z"
+        _, ledger = silnik._aktualizuj_ledger(stary, {"event_detected_at": ledger}, ts)
+
+    assert ledger["long running war story"]["peak_score"] == 2.0
+    mse = silnik._wybierz_mse(ledger, "2026-07-20T13:00:00Z")
+    assert mse["score"] == 2.0
 
 
 def test_wb060_temat_spada_z_top_events_wiek_pod_24h_zachowany():
@@ -585,6 +670,8 @@ def test_wb062_reeskalacja_po_24h_od_detected_at_wygrywa_mse():
 
     mse = silnik._wybierz_mse(ledger, teraz)
 
+    # `_wybierz_mse` tylko czyta ledger — wygasanie peaku (WB-066) dzieje sie
+    # w `_aktualizuj_ledger`, wiec tutaj peak zostaje nietkniety.
     assert mse["score"] == 7.9
     assert "protests" in mse["label"].lower()
     assert mse["detected_at"] == "2026-07-15T04:01:52Z"  # UI nadal pierwsze wykrycie
@@ -627,7 +714,8 @@ def test_wb062_migracja_brak_peak_at_aktywny_top_odswieza_okno():
         },
     }
     mse = silnik._wybierz_mse({**ledger, **syria}, teraz)
-    assert mse["score"] == 7.9
+    # WB-066: peak opadl o jeden krok (kontynuacja ponizej szczytu, poza okresem laski)
+    assert mse["score"] == 7.8
     assert "protests" in mse["label"].lower()
 
 
@@ -666,7 +754,8 @@ def test_wb062_heal_wygasly_peak_at_gdy_temat_nadal_w_top():
     assert ledger[klucz]["peak_at"] == teraz  # odswiezone mimo decayu
 
     mse = silnik._wybierz_mse(ledger, teraz)
-    assert mse["score"] == 7.9
+    # WB-066: peak opadl o jeden krok (kontynuacja ponizej szczytu, poza okresem laski)
+    assert mse["score"] == 7.8
     assert "protests" in mse["label"].lower() or "protest" in mse["label"].lower()
 
 
@@ -808,9 +897,9 @@ def test_wb060_finalizuj_wynik_kontynuacja_zachowuje_detected_at_z_pamieci():
 # ---------------------------------------------------------------------------
 
 def test_wb061_waliduj_label_poprawny_akceptowany_bez_zmian():
-    """Poprawny label (8-14 slow, <=110 znakow, bez sredniku/meta) -> accepted=True, tekst bez zmian."""
+    """WB-065: poprawny label (<=9 slow, <=60 znakow, <=27.5 em) -> accepted=True, tekst bez zmian."""
     title = "Rebel forces attack government positions in north"
-    label = "Government forces launch major offensive against rebel strongholds in the northern region"
+    label = "Government forces storm rebel strongholds in the north"
     text, accepted = silnik._waliduj_mse_label(label, title)
     assert accepted is True
     assert text == label
@@ -821,7 +910,7 @@ def test_wb061_waliduj_label_srednik_odrzucony_fallback_bez_elipsy():
     title = "Central bank raises interest rates sharply amid inflation surge nationwide"
     text, accepted = silnik._waliduj_mse_label("Rates rise; markets react sharply", title)
     assert accepted is False
-    assert text == silnik._skrot_z_tytulu(title, max_words=12, ellipsis=False)
+    assert text == silnik._skrot_z_tytulu(title, ellipsis=False)
     assert "…" not in text and "..." not in text
 
 
@@ -887,8 +976,8 @@ def test_wb061_skrot_z_tytulu_ellipsis_true_dokleja_wielokropek():
 # ---------------------------------------------------------------------------
 
 def test_wb061_t1_nowy_event_poprawny_label_ledger_i_mse():
-    """T1: nowy event z poprawnym labelem (12 slow) -> peak_label w ledgerze = label; MSE.label = ten tekst."""
-    label = "Government forces launch major offensive against rebel strongholds in the northern region"
+    """T1: nowy event z poprawnym labelem -> peak_label w ledgerze = label; MSE.label = ten tekst."""
+    label = "Government forces storm rebel strongholds in the north"
     top = [{"title": "Rebel forces attack government positions in north", "score": 5.0,
             "sentiment": "negative", "label": label}]
     pamiec = {"event_detected_at": {}}
@@ -940,12 +1029,13 @@ def test_wb061_t3_kontynuacja_score_dol_peak_label_niezmienione():
 
     klucz = "naval blockade of iranian ports"
     assert ledger[klucz]["peak_label"] == sticky_label
-    assert ledger[klucz]["peak_score"] == 7.3
+    # WB-066: kontynuacja ~46h po szczycie -> peak opada o jeden krok
+    assert ledger[klucz]["peak_score"] == 7.2
 
 
 def test_wb061_t4_peak_bump_label_accepted_aktualizuje_peak_label():
     """T4: kontynuacja, score > peak, label accepted -> peak_label = nowy label."""
-    new_label = "Iran expands naval blockade striking multiple tankers near Strait of Hormuz"
+    new_label = "Iran expands naval blockade near Strait of Hormuz"
     pamiec = {
         "event_detected_at": {
             "naval blockade iranian ports": {
@@ -953,7 +1043,7 @@ def test_wb061_t4_peak_bump_label_accepted_aktualizuje_peak_label():
                 "peak_score": 5.0,
                 "peak_sentiment": "negative",
                 "title": "Naval blockade of Iranian ports",
-                "peak_label": "Iran imposes naval blockade of key Gulf ports amid tensions",
+                "peak_label": "Iran imposes naval blockade of Gulf ports",
             },
         },
     }
