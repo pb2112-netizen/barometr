@@ -1,25 +1,31 @@
 {
-  "updated_at": "2026-07-27T12:33:13.051540Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-07-27T13:01:27.778047Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK PM Burnham — Ukraine aid policy uncertainty",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "New UK leader; potential shift in Ukraine military support."
     },
     {
       "temat": "Russian attacks on Black Sea merchant shipping — trade threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Russia targeting civilian ships; 28 killed; Ukrainian."
     },
     {
       "temat": "Trump 50% tariff on Canada — Western economic instability",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Major trade war; potential indirect impact on aid flows."
+    },
+    {
+      "temat": "Ukrainian drones strike Russian Belgorod — offensive action",
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Ukraine hits Russian city near border; cross-border."
     }
   ],
   "score_history": [
@@ -30,10 +36,24 @@
     {
       "t": "2026-07-27T12:33:13.048324Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-07-27T13:01:27.774764Z",
+      "s": 3.4
     }
   ],
   "events_anchor_at": "2026-07-27T11:59:49.477950Z",
   "event_detected_at": {
+    "moment ukrainian drones strike russia's belgorod": {
+      "detected_at": "2026-07-27T11:59:49.477950Z",
+      "peak_at": "2026-07-27T13:01:27.774764Z",
+      "peak_score_at": "2026-07-27T13:01:27.774764Z",
+      "peak_score": 3.4,
+      "peak_sentiment": "positive",
+      "title": "Moment Ukrainian drones strike Russia's Belgorod",
+      "peak_label": "Ukrainian drones strike Russian Belgorod",
+      "peak_summary": "Ukrainian drones hit Belgorod, Russian city near border. New offensive action by Ukraine against Russian territory, escalation in cross-border strikes."
+    },
     "uk pm pledges continued support for ukraine ahead of zelensky visit": {
       "detected_at": "2026-07-27T11:59:49.477950Z",
       "peak_at": "2026-07-27T11:59:49.477950Z",
@@ -43,16 +63,6 @@
       "title": "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
       "peak_label": "UK PM pledges continued Ukraine support",
       "peak_summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's first visit, providing crucial reassurance on Western support during the war."
-    },
-    "moment ukrainian drones strike russia's belgorod": {
-      "detected_at": "2026-07-27T11:59:49.477950Z",
-      "peak_at": "2026-07-27T11:59:49.477950Z",
-      "peak_score_at": "2026-07-27T11:59:49.477950Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "neutral",
-      "title": "Moment Ukrainian drones strike Russia's Belgorod",
-      "peak_label": "Ukrainian drones strike Belgorod",
-      "peak_summary": "Ukrainian drones hit Belgorod, a Russian city near the border — continuation of cross-border operations already part of the war."
     },
     "oil price dives as us and iran pause attacks": {
       "detected_at": "2026-07-27T11:59:49.477950Z",
@@ -66,8 +76,7 @@
     }
   },
   "prev_top_event_titles": [
-    "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
     "Moment Ukrainian drones strike Russia's Belgorod",
-    "Oil price dives as US and Iran pause attacks"
+    "UK PM pledges continued support for Ukraine ahead of Zelensky visit"
   ]
 }
