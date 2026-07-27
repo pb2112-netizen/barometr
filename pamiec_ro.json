@@ -1,43 +1,49 @@
 {
-  "updated_at": "2026-07-27T22:01:24.122954Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-07-27T22:17:57.467216Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Houthi maritime embargo on Saudi Arabia — Red Sea disruption",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Yemen rebels block Saudi shipping; regional instability."
     },
     {
       "temat": "US-Iran military strikes — Middle East escalation",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
     },
     {
       "temat": "Ukraine army chief political crisis — domestic instability",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Protests demand Syrskyi removal; internal military tensions."
     },
     {
       "temat": "UK PM Burnham — Ukraine aid reaffirmed",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 11,
       "opis": "New UK leader pledges continued military support to Ukraine."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 5,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "Southwest Europe wildfires — mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "France, Spain evacuate 300k+ as fires rage; EU neighbors."
+    },
+    {
+      "temat": "Bordeaux wildfire — major French city threatened",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
     }
   ],
   "score_history": [
@@ -80,10 +86,24 @@
     {
       "t": "2026-07-27T22:01:24.117641Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-07-27T22:17:57.461307Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-07-27T17:08:01.640104Z",
   "event_detected_at": {
+    "wildfire now nine miles from french city of bordeaux, mayor warns": {
+      "detected_at": "2026-07-27T19:01:21.443975Z",
+      "peak_at": "2026-07-27T20:43:07.865196Z",
+      "peak_score_at": "2026-07-27T20:43:07.865196Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
+      "peak_label": "Bordeaux wildfire threatens French city evacuation",
+      "peak_summary": "Major wildfire near Bordeaux, France; EU neighbor faces severe fire season, indirect regional concern."
+    },
     "trump says iran war talks taking place during lull in strikes": {
       "detected_at": "2026-07-27T22:01:24.117641Z",
       "peak_at": "2026-07-27T22:01:24.117641Z",
@@ -94,15 +114,15 @@
       "peak_label": "US-Iran talks proceed during strike pause",
       "peak_summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Romania's import costs."
     },
-    "wildfire now nine miles from french city of bordeaux, mayor warns": {
-      "detected_at": "2026-07-27T19:01:21.443975Z",
-      "peak_at": "2026-07-27T20:43:07.865196Z",
-      "peak_score_at": "2026-07-27T20:43:07.865196Z",
-      "peak_score": 2.6,
+    "shots fired at us consulate in toronto for a second time this year": {
+      "detected_at": "2026-07-27T22:17:57.461307Z",
+      "peak_at": "2026-07-27T22:17:57.461307Z",
+      "peak_score_at": "2026-07-27T22:17:57.461307Z",
+      "peak_score": 1.4,
       "peak_sentiment": "negative",
-      "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-      "peak_label": "Bordeaux wildfire threatens French city evacuation",
-      "peak_summary": "Major wildfire near Bordeaux, France; EU neighbor faces severe fire season, indirect regional concern."
+      "title": "Shots fired at US consulate in Toronto for a second time this year",
+      "peak_label": "Second shooting at US consulate in Toronto",
+      "peak_summary": "Suspect remains at large after high-speed chase; second incident in four months. Distant event with no direct impact on Romania."
     },
     "ukraine dismisses iranian threats as caspian sea strike directly links wars": {
       "detected_at": "2026-07-27T17:08:01.640104Z",
@@ -176,8 +196,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump says Iran war talks taking place during lull in strikes",
     "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-    "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars"
+    "Trump says Iran war talks taking place during lull in strikes",
+    "Shots fired at US consulate in Toronto for a second time this year"
   ]
 }

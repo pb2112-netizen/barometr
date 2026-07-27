@@ -1,30 +1,11 @@
 {
-  "global_score": 2.6,
-  "rationale": "US-Iran diplomatic pause continues; Bordeaux wildfire escalates but remains distant; no new developments affecting Romania's Black Sea security or energy. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Bordeaux wildfire escalation in EU neighbor and US-Iran diplomatic pause (energy impact) are most relevant; other events distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "US-Iran talks proceed during strike pause",
-      "summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Romania's import costs.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T22:01:24.117641Z"
-    },
-    {
       "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-      "label": "Wildfire nears Bordeaux, France evacuations expand",
-      "summary": "Fire advances toward major French city; EU neighbor faces escalating disaster, no direct impact on Romania.",
+      "label": "Wildfire threatens Bordeaux, France evacuates thousands",
+      "summary": "Major wildfire advances on Bordeaux; mass evacuations continue across southwest Europe, affecting EU neighbors and raising regional disaster concerns.",
       "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -41,11 +22,11 @@
       "detected_at": "2026-07-27T19:01:21.443975Z"
     },
     {
-      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-      "label": "Ukraine dismisses Iran threats after Caspian strike",
-      "summary": "Iran threatens retaliation for Ukrainian strike on vessel; regional neighbor's conflict expands, indirect concern for Black Sea stability.",
+      "title": "Trump says Iran war talks taking place during lull in strikes",
+      "label": "Trump claims Iran talks underway during strike pause",
+      "summary": "US president says negotiations possible; Iran denies direct talks. Rhetoric only—no confirmed agreement yet, but pause continues to ease energy prices for Romania.",
       "score": 2.5,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -54,20 +35,44 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-27T17:08:01.640104Z"
+      "detected_at": "2026-07-27T22:01:24.117641Z"
+    },
+    {
+      "title": "Shots fired at US consulate in Toronto for a second time this year",
+      "label": "Second shooting at US consulate in Toronto",
+      "summary": "Suspect remains at large after high-speed chase; second incident in four months. Distant event with no direct impact on Romania.",
+      "score": 1.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+        }
+      ],
+      "detected_at": "2026-07-27T22:17:57.461307Z"
     }
   ],
   "short_summary": "Ukraine strikes Iranian ship in Caspian Sea",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-27T22:01:24.117641Z",
+  "updated_at": "2026-07-27T22:17:57.461307Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine strikes Iranian ship in Caspian Sea",
     "summary": "Ukrainian assault on Iranian vessel in Caspian Sea escalates regional tensions, potentially drawing conflict closer to Black Sea and Romanian waters.",
@@ -118,6 +123,10 @@
     {
       "t": "2026-07-27T22:01:24.117641Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-07-27T22:17:57.461307Z",
+      "s": 2.5
     }
   ]
 }
