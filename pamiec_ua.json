@@ -1,31 +1,37 @@
 {
-  "updated_at": "2026-07-27T13:01:27.778047Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-07-27T15:13:08.454593Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK PM Burnham — Ukraine aid policy uncertainty",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "New UK leader; potential shift in Ukraine military support."
     },
     {
       "temat": "Russian attacks on Black Sea merchant shipping — trade threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Russia targeting civilian ships; 28 killed; Ukrainian."
     },
     {
       "temat": "Trump 50% tariff on Canada — Western economic instability",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Major trade war; potential indirect impact on aid flows."
     },
     {
       "temat": "Ukrainian drones strike Russian Belgorod — offensive action",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Ukraine hits Russian city near border; cross-border."
+    },
+    {
+      "temat": "US military casualties Iran conflict — 600+ injured",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Rising US casualties; potential impact on Ukraine aid focus."
     }
   ],
   "score_history": [
@@ -40,10 +46,44 @@
     {
       "t": "2026-07-27T13:01:27.774764Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-27T15:13:08.451003Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-07-27T11:59:49.477950Z",
   "event_detected_at": {
+    "oil price dives as us and iran pause attacks": {
+      "detected_at": "2026-07-27T11:59:49.477950Z",
+      "peak_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "positive",
+      "title": "Oil price dives as US and Iran pause attacks",
+      "peak_label": "US Iran pause attacks oil prices fall",
+      "peak_summary": "US halts Iran strikes for talks, easing energy market tensions and reducing fuel costs—indirect benefit for Ukraine's war-strained economy."
+    },
+    "more than 600 us military service members injured since iran war began in february": {
+      "detected_at": "2026-07-27T15:13:08.451003Z",
+      "peak_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "More than 600 US military service members injured since Iran War began in February",
+      "peak_label": "US military casualties Iran conflict 600 injured",
+      "peak_summary": "Rising US casualties in Iran conflict signal prolonged Western military engagement, potentially affecting US aid priorities and resources for Ukraine."
+    },
+    "devastating european wildfires in maps - and how they're being tackled": {
+      "detected_at": "2026-07-27T15:13:08.451003Z",
+      "peak_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Devastating European wildfires in maps - and how they're being tackled",
+      "peak_label": "European wildfires spread France Spain evacuations",
+      "peak_summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations across southwestern Europe—distant event with no direct impact on Ukraine's war situation."
+    },
     "moment ukrainian drones strike russia's belgorod": {
       "detected_at": "2026-07-27T11:59:49.477950Z",
       "peak_at": "2026-07-27T13:01:27.774764Z",
@@ -63,20 +103,11 @@
       "title": "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
       "peak_label": "UK PM pledges continued Ukraine support",
       "peak_summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's first visit, providing crucial reassurance on Western support during the war."
-    },
-    "oil price dives as us and iran pause attacks": {
-      "detected_at": "2026-07-27T11:59:49.477950Z",
-      "peak_at": "2026-07-27T11:59:49.477950Z",
-      "peak_score_at": "2026-07-27T11:59:49.477950Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Oil price dives as US and Iran pause attacks",
-      "peak_label": "US-Iran pause attacks, oil prices drop",
-      "peak_summary": "US halts strikes on Iran to allow talks, easing Middle East tensions — distant event with minimal impact on Ukraine."
     }
   },
   "prev_top_event_titles": [
-    "Moment Ukrainian drones strike Russia's Belgorod",
-    "UK PM pledges continued support for Ukraine ahead of Zelensky visit"
+    "Oil price dives as US and Iran pause attacks",
+    "More than 600 US military service members injured since Iran War began in February",
+    "Devastating European wildfires in maps - and how they're being tackled"
   ]
 }

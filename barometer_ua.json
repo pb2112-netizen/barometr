@@ -1,33 +1,33 @@
 {
-  "global_score": 3.4,
-  "rationale": "Ukrainian drones strike Russian Belgorod (new military action); UK PM reaffirms Ukraine aid (continuation); Israeli West Bank raids and Amazon crime unrelated to Ukraine's war situation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Oil price drop from US-Iran pause eases global energy costs, indirectly benefiting Ukraine's economy; US military casualties in Iran conflict signal prolonged Western military engagement affecting aid priorities.",
   "top_events": [
     {
-      "title": "Moment Ukrainian drones strike Russia's Belgorod",
-      "label": "Ukrainian drones strike Russian Belgorod",
-      "summary": "Ukrainian drones hit Belgorod, Russian city near border. New offensive action by Ukraine against Russian territory, escalation in cross-border strikes.",
-      "score": 3.4,
+      "title": "Oil price dives as US and Iran pause attacks",
+      "label": "US Iran pause attacks oil prices fall",
+      "summary": "US halts Iran strikes for talks, easing energy market tensions and reducing fuel costs—indirect benefit for Ukraine's war-strained economy.",
+      "score": 3.2,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/moment-ukrainian-drones-strike-russias-belgorod?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-27T11:59:49.477950Z"
     },
     {
-      "title": "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
-      "label": "UK PM pledges continued Ukraine support",
-      "summary": "New UK Prime Minister reaffirms military aid before Zelensky visit. Continuation of Western support, no change to aid flows.",
+      "title": "More than 600 US military service members injured since Iran War began in February",
+      "label": "US military casualties Iran conflict 600 injured",
+      "summary": "Rising US casualties in Iran conflict signal prolonged Western military engagement, potentially affecting US aid priorities and resources for Ukraine.",
       "score": 3.2,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,10 +35,29 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-27T11:59:49.477950Z"
+      "detected_at": "2026-07-27T15:13:08.451003Z"
+    },
+    {
+      "title": "Devastating European wildfires in maps - and how they're being tackled",
+      "label": "European wildfires spread France Spain evacuations",
+      "summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations across southwestern Europe—distant event with no direct impact on Ukraine's war situation.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T15:13:08.451003Z"
     }
   ],
   "short_summary": "UK PM pledges continued Ukraine support",
@@ -46,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-27T13:01:27.774764Z",
+  "updated_at": "2026-07-27T15:13:08.451003Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "UK PM pledges continued Ukraine support",
     "summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's first visit, providing crucial reassurance on Western support during the war.",
@@ -71,6 +90,10 @@
     {
       "t": "2026-07-27T13:01:27.774764Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-27T15:13:08.451003Z",
+      "s": 3.2
     }
   ]
 }
