@@ -1,13 +1,32 @@
 {
-  "global_score": 3.2,
-  "rationale": "Oil price drop from US-Iran pause eases global energy costs, indirectly benefiting Ukraine's economy; US military casualties in Iran conflict signal prolonged Western military engagement affecting aid priorities.",
+  "global_score": 3.1,
+  "rationale": "US military casualties in Iran conflict continue to rise, potentially affecting Western focus and aid flows to Ukraine; no new direct military developments on Ukrainian territory.",
   "top_events": [
     {
+      "title": "More than 600 US military service members injured since Iran War began in February",
+      "label": "US military casualties exceed 600 in Iran war",
+      "summary": "Rising US casualties in Middle East may divert Western attention and resources from Ukraine aid and support.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T15:13:08.451003Z"
+    },
+    {
       "title": "Oil price dives as US and Iran pause attacks",
-      "label": "US Iran pause attacks oil prices fall",
-      "summary": "US halts Iran strikes for talks, easing energy market tensions and reducing fuel costs—indirect benefit for Ukraine's war-strained economy.",
-      "score": 3.2,
-      "sentiment": "positive",
+      "label": "Oil prices drop as US-Iran pause attacks",
+      "summary": "Temporary pause in US-Iran conflict may ease global economic pressure but does not change Ukraine's security situation.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,42 +41,23 @@
       "detected_at": "2026-07-27T11:59:49.477950Z"
     },
     {
-      "title": "More than 600 US military service members injured since Iran War began in February",
-      "label": "US military casualties Iran conflict 600 injured",
-      "summary": "Rising US casualties in Iran conflict signal prolonged Western military engagement, potentially affecting US aid priorities and resources for Ukraine.",
-      "score": 3.2,
-      "sentiment": "negative",
+      "title": "Israeli raid sparks fire at UN Palestinian refugee centre",
+      "label": "Israeli forces raid UN refugee training center",
+      "summary": "Middle East conflict continues but has no direct impact on Ukrainian war situation or daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/israeli-raid-sparks-fire-at-un-palestinian-refugee-centre?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-27T15:13:08.451003Z"
-    },
-    {
-      "title": "Devastating European wildfires in maps - and how they're being tackled",
-      "label": "European wildfires spread France Spain evacuations",
-      "summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations across southwestern Europe—distant event with no direct impact on Ukraine's war situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T15:13:08.451003Z"
+      "detected_at": "2026-07-27T16:01:25.840931Z"
     }
   ],
   "short_summary": "UK PM pledges continued Ukraine support",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-27T15:13:08.451003Z",
+  "updated_at": "2026-07-27T16:01:25.840931Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK PM pledges continued Ukraine support",
     "summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's first visit, providing crucial reassurance on Western support during the war.",
@@ -94,6 +94,10 @@
     {
       "t": "2026-07-27T15:13:08.451003Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-07-27T16:01:25.840931Z",
+      "s": 3.1
     }
   ]
 }

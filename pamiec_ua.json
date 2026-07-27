@@ -1,37 +1,43 @@
 {
-  "updated_at": "2026-07-27T15:13:08.454593Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-07-27T16:01:25.844546Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK PM Burnham — Ukraine aid policy uncertainty",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 7,
       "opis": "New UK leader; potential shift in Ukraine military support."
     },
     {
       "temat": "Russian attacks on Black Sea merchant shipping — trade threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Russia targeting civilian ships; 28 killed; Ukrainian."
     },
     {
       "temat": "Trump 50% tariff on Canada — Western economic instability",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Major trade war; potential indirect impact on aid flows."
     },
     {
       "temat": "Ukrainian drones strike Russian Belgorod — offensive action",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 3,
       "opis": "Ukraine hits Russian city near border; cross-border."
     },
     {
       "temat": "US military casualties Iran conflict — 600+ injured",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Rising US casualties; potential impact on Ukraine aid focus."
+    },
+    {
+      "temat": "Israeli raid on UN Palestinian refugee center — Middle East escalation",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Israeli forces raid UN facility; distant conflict, no."
     }
   ],
   "score_history": [
@@ -50,10 +56,24 @@
     {
       "t": "2026-07-27T15:13:08.451003Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-07-27T16:01:25.840931Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-07-27T11:59:49.477950Z",
   "event_detected_at": {
+    "more than 600 us military service members injured since iran war began in february": {
+      "detected_at": "2026-07-27T15:13:08.451003Z",
+      "peak_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score_at": "2026-07-27T15:13:08.451003Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "More than 600 US military service members injured since Iran War began in February",
+      "peak_label": "US military casualties Iran conflict 600 injured",
+      "peak_summary": "Rising US casualties in Iran conflict signal prolonged Western military engagement, potentially affecting US aid priorities and resources for Ukraine."
+    },
     "oil price dives as us and iran pause attacks": {
       "detected_at": "2026-07-27T11:59:49.477950Z",
       "peak_at": "2026-07-27T15:13:08.451003Z",
@@ -64,15 +84,15 @@
       "peak_label": "US Iran pause attacks oil prices fall",
       "peak_summary": "US halts Iran strikes for talks, easing energy market tensions and reducing fuel costs—indirect benefit for Ukraine's war-strained economy."
     },
-    "more than 600 us military service members injured since iran war began in february": {
-      "detected_at": "2026-07-27T15:13:08.451003Z",
-      "peak_at": "2026-07-27T15:13:08.451003Z",
-      "peak_score_at": "2026-07-27T15:13:08.451003Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "More than 600 US military service members injured since Iran War began in February",
-      "peak_label": "US military casualties Iran conflict 600 injured",
-      "peak_summary": "Rising US casualties in Iran conflict signal prolonged Western military engagement, potentially affecting US aid priorities and resources for Ukraine."
+    "israeli raid sparks fire at un palestinian refugee centre": {
+      "detected_at": "2026-07-27T16:01:25.840931Z",
+      "peak_at": "2026-07-27T16:01:25.840931Z",
+      "peak_score_at": "2026-07-27T16:01:25.840931Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Israeli raid sparks fire at UN Palestinian refugee centre",
+      "peak_label": "Israeli forces raid UN refugee training center",
+      "peak_summary": "Middle East conflict continues but has no direct impact on Ukrainian war situation or daily life."
     },
     "devastating european wildfires in maps - and how they're being tackled": {
       "detected_at": "2026-07-27T15:13:08.451003Z",
@@ -106,8 +126,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Oil price dives as US and Iran pause attacks",
     "More than 600 US military service members injured since Iran War began in February",
-    "Devastating European wildfires in maps - and how they're being tackled"
+    "Oil price dives as US and Iran pause attacks",
+    "Israeli raid sparks fire at UN Palestinian refugee centre"
   ]
 }
