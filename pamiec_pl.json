@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-07-28T19:01:21.280910Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-07-28T20:34:36.496472Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": "2026-07-20T16:01:39.111535Z",
   "stan_swiata": [
     {
       "temat": "Spain-France heatwave — wildfire spread risk",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "Soaring temperatures Wednesday could spread blazes to."
     },
     {
       "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "Zelensky seeks firm US air defense commitments from Trump."
     },
     {
       "temat": "Gironde wildfire escalation — EU neighbor crisis intensifies",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "40C heatwave threatens containment; major French city at."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Magnitude 7.1 quake kills several; no link to Poland."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "US military casualties Iran conflict — 600+ injured",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Rising US casualties signal prolonged Middle East war risk."
+    },
+    {
+      "temat": "Uganda Ebola outbreak ends — distant health news",
+      "poziom_bazowy": 1.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Uganda declares outbreak over; no link to Poland."
     }
   ],
   "score_history": [
@@ -150,6 +156,10 @@
     {
       "t": "2026-07-28T19:01:21.275697Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-07-28T20:34:36.487939Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.390099Z",
@@ -164,16 +174,6 @@
       "peak_label": "Gironde fires intensify as France braces heatwave",
       "peak_summary": "Firefighters face sharp temperature rise Wednesday complicating containment of wildfires near Bordeaux. EU neighbor crisis signals broader climate threat pattern affecting Poland's region."
     },
-    "ukraine's zelenskyy hails 'good meeting' with trump at white house": {
-      "detected_at": "2026-07-28T16:50:15.287738Z",
-      "peak_at": "2026-07-28T18:44:48.100939Z",
-      "peak_score_at": "2026-07-28T18:44:48.100939Z",
-      "peak_score": 3.6,
-      "peak_sentiment": "neutral",
-      "title": "Ukraine's Zelenskyy hails 'good meeting' with Trump at White House",
-      "peak_label": "Zelenskyy Trump discuss Patriot missile production",
-      "peak_summary": "Talks included joint Patriot production in Ukraine to strengthen air defense. Continuation of US-Ukraine policy discussions with no new commitments announced."
-    },
     "us walks out of un security council meeting during france's remarks": {
       "detected_at": "2026-07-28T16:01:28.549179Z",
       "peak_at": "2026-07-28T16:01:28.549179Z",
@@ -183,6 +183,26 @@
       "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
       "peak_label": "US exits UN meeting after voting with Russia",
       "peak_summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction."
+    },
+    "uganda declares end to ebola outbreak": {
+      "detected_at": "2026-07-28T20:34:36.487939Z",
+      "peak_at": "2026-07-28T20:34:36.487939Z",
+      "peak_score_at": "2026-07-28T20:34:36.487939Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "positive",
+      "title": "Uganda declares end to Ebola outbreak",
+      "peak_label": "Uganda declares Ebola outbreak over",
+      "peak_summary": "Health minister announces end to outbreak, urging continued vigilance. Distant health development with no link to Poland."
+    },
+    "ukraine's zelenskyy hails 'good meeting' with trump at white house": {
+      "detected_at": "2026-07-28T16:50:15.287738Z",
+      "peak_at": "2026-07-28T18:44:48.100939Z",
+      "peak_score_at": "2026-07-28T18:44:48.100939Z",
+      "peak_score": 3.6,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine's Zelenskyy hails 'good meeting' with Trump at White House",
+      "peak_label": "Zelenskyy Trump discuss Patriot missile production",
+      "peak_summary": "Talks included joint Patriot production in Ukraine to strengthen air defense. Continuation of US-Ukraine policy discussions with no new commitments announced."
     },
     "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
       "detected_at": "2026-07-28T13:01:32.747384Z",
@@ -267,7 +287,7 @@
   },
   "prev_top_event_titles": [
     "Wildfires in south-west France flare up as region braces for new 40C heatwave",
-    "Ukraine's Zelenskyy hails 'good meeting' with Trump at White House",
-    "US walks out of UN Security Council meeting during France's remarks"
+    "US walks out of UN Security Council meeting during France's remarks",
+    "Uganda declares end to Ebola outbreak"
   ]
 }

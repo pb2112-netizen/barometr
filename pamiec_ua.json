@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-07-28T19:01:21.282886Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-07-28T20:34:36.499818Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Zelensky-Trump air defense talks — critical aid push",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 5,
       "opis": "Zelensky presses Trump for air defenses as Russia escalates."
     },
     {
       "temat": "Ukraine strikes Iranian Caspian vessel — offensive expansion",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 21,
       "opis": "Ukraine hits Iranian ship; conflict expands beyond theater."
     },
     {
       "temat": "US-France UN diplomatic row — NATO alliance tensions",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "US walkout signals Western alliance friction; Ukraine."
     },
     {
       "temat": "Zelenskyy-Trump meeting — US aid policy discussion",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "Presidential meeting as Senate votes on Russia sanctions."
-    },
-    {
-      "temat": "Ukrainian drones strike Russian Belgorod — offensive action",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Ukraine hits Russian city near border; cross-border."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Magnitude 7.1 quake kills several; no link to Ukraine."
     },
     {
       "temat": "Trump Turkey F-35 sales — regional military balance shift",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US considers F-35 sales to Turkey; regional dynamics shift."
     },
     {
       "temat": "US-Iran diplomatic pause — potential aid impact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "US halts Iran strikes for talks; may shift aid focus."
+    },
+    {
+      "temat": "Uganda Ebola outbreak ends — distant health news",
+      "poziom_bazowy": 1.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Uganda declares outbreak over; no link to Ukraine."
     }
   ],
   "score_history": [
@@ -156,10 +156,34 @@
     {
       "t": "2026-07-28T19:01:21.279081Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-28T20:34:36.493619Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.395598Z",
   "event_detected_at": {
+    "us walks out of un security council meeting during france's remarks": {
+      "detected_at": "2026-07-28T13:01:32.753397Z",
+      "peak_at": "2026-07-28T13:01:32.753397Z",
+      "peak_score_at": "2026-07-28T13:01:32.753397Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "US walks out of UN Security Council meeting during France's remarks",
+      "peak_label": "US exits UN meeting after voting with Russia",
+      "peak_summary": "US diplomatic isolation at UN after voting with Russia and North Korea raises concerns about Western alliance cohesion and potential impact on Ukraine aid."
+    },
+    "uganda declares end to ebola outbreak": {
+      "detected_at": "2026-07-28T20:34:36.493619Z",
+      "peak_at": "2026-07-28T20:34:36.493619Z",
+      "peak_score_at": "2026-07-28T20:34:36.493619Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "positive",
+      "title": "Uganda declares end to Ebola outbreak",
+      "peak_label": "Uganda declares Ebola outbreak over",
+      "peak_summary": "Health minister announces end to outbreak, urging continued vigilance. Distant health development with no link to Ukraine."
+    },
     "ukraine's zelenskyy hails 'good meeting' with trump at white house": {
       "detected_at": "2026-07-28T01:01:22.601790Z",
       "peak_at": "2026-07-28T18:44:48.107272Z",
@@ -179,16 +203,6 @@
       "title": "War on Iran: Phase II: Day 17",
       "peak_label": "Trump says Iran negotiations back on",
       "peak_summary": "US president announces negotiations with Iran resumed; potential shift in US focus away from Ukraine aid, indirect relevance."
-    },
-    "us walks out of un security council meeting during france's remarks": {
-      "detected_at": "2026-07-28T13:01:32.753397Z",
-      "peak_at": "2026-07-28T13:01:32.753397Z",
-      "peak_score_at": "2026-07-28T13:01:32.753397Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "US walks out of UN Security Council meeting during France's remarks",
-      "peak_label": "US exits UN meeting after voting with Russia",
-      "peak_summary": "US diplomatic isolation at UN after voting with Russia and North Korea raises concerns about Western alliance cohesion and potential impact on Ukraine aid."
     },
     "lindsey graham 'almost cried' tears of joy over war on iran, footage shows": {
       "detected_at": "2026-07-28T18:44:48.107272Z",
@@ -292,8 +306,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Ukraine's Zelenskyy hails 'good meeting' with Trump at White House",
-    "War on Iran: Phase II: Day 17",
-    "US walks out of UN Security Council meeting during France's remarks"
+    "US walks out of UN Security Council meeting during France's remarks",
+    "Uganda declares end to Ebola outbreak"
   ]
 }

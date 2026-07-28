@@ -1,30 +1,11 @@
 {
-  "global_score": 2.1,
-  "rationale": "Iran negotiations continue; Seattle shooting victims remembered; no new qualitative change in US daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "Seattle shooting victims remembered; Toronto consulate shooting continues; no new domestic policy changes.",
   "top_events": [
-    {
-      "title": "War on Iran: Phase II: Day 17",
-      "label": "Trump says Iran negotiations back on",
-      "summary": "US president announces negotiations with Iran resumed; continuation of temporary de-escalation, no new military action or policy change.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/war-on-iran-phase-ii-day-17?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T18:44:48.109221Z"
-    },
     {
       "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
       "label": "Seattle mourns food festival shooting victims",
-      "summary": "Families remember three killed at food festival; continuation of known domestic shooting, no new escalation.",
+      "summary": "Families grieved Monday remembering three people killed in shooting at food festival. Domestic tragedy continues with no new policy impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -41,9 +22,28 @@
       "detected_at": "2026-07-27T11:59:49.479154Z"
     },
     {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near Toronto US consulate again",
+      "summary": "No injuries reported in second shooting near Toronto compound in four months. Security incident with no suspects identified yet.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+        }
+      ],
+      "detected_at": "2026-07-27T17:08:01.643691Z"
+    },
+    {
       "title": "US walks out of UN Security Council meeting during France's remarks",
-      "label": "US walks out of UN Security Council",
-      "summary": "US exits UN meeting after voting with Russia and North Korea; diplomatic friction but no direct impact on US daily life.",
+      "label": "US walks out of UN Security Council meeting",
+      "summary": "US exits UN session after voting with Russia and North Korea against extending human rights commissioner term. Diplomatic friction with no domestic impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-28T19:01:21.280152Z",
+  "updated_at": "2026-07-28T20:34:36.495303Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US exits UN meeting during France speech",
     "summary": "US diplomats walked out after France compared US to Russia and North Korea. Signals deepening diplomatic isolation and policy shift at UN Security Council.",
@@ -182,6 +182,10 @@
     {
       "t": "2026-07-28T19:01:21.280152Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-07-28T20:34:36.495303Z",
+      "s": 2.0
     }
   ]
 }
