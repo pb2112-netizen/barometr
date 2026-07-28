@@ -1,30 +1,11 @@
 {
-  "global_score": 2.7,
-  "rationale": "No new developments directly affecting Ukraine; US-UN diplomatic row continues background Western alliance friction; other headlines are distant or routine.",
+  "global_score": 2.2,
+  "rationale": "No new qualitative developments in Ukraine war or Western aid; Trump-Netanyahu meeting is distant rhetoric without confirmed policy change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
-      "label": "US exits UN meeting after voting with Russia",
-      "summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T13:01:32.753397Z"
-    },
-    {
-      "title": "[Al Jazeera] Trump expresses frustration with Netanyahu before White House meeting",
-      "label": "[Al Jazeera] Trump expresses frustration with Netanyahu",
-      "summary": "US president says Iran talks progressing, reups threats if diplomacy fails before sit down with Israeli prime minister. Signals potential shift in US Middle East policy.",
+      "title": "Trump expresses frustration with Netanyahu before White House meeting",
+      "label": "Trump frustrated with Netanyahu before White House talks",
+      "summary": "US president signals Iran diplomacy progress but tensions with Israeli PM; no confirmed change to Ukraine aid policy.",
       "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,14 +20,33 @@
         }
       ],
       "detected_at": "2026-07-28T01:01:22.601790Z"
+    },
+    {
+      "title": "US walks out of UN Security Council meeting during France's remarks",
+      "label": "US walks out of UN meeting after vote",
+      "summary": "US exits Security Council after voting with Russia and North Korea; signals Western alliance friction.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-28T13:01:32.753397Z"
     }
   ],
   "short_summary": "Zelensky presses Trump on air defenses in Washington",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-28T16:01:28.555130Z",
+  "updated_at": "2026-07-28T16:50:15.292875Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -151,6 +151,10 @@
     {
       "t": "2026-07-28T16:01:28.555130Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-07-28T16:50:15.292875Z",
+      "s": 2.2
     }
   ]
 }

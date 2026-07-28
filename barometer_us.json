@@ -1,50 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "US-Iran talks progressing is the highest-impact event for US residents as it signals potential de-escalation of direct military engagement; other headlines are distant or routine.",
+  "global_score": 2.3,
+  "rationale": "Seattle shooting and Toronto consulate incident continue; Trump-Netanyahu meeting is rhetoric without confirmed policy action. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
-      "label": "Trump sees good chance of progress in Iran talks",
-      "summary": "Negotiators are trying to break the deadlock over transit fees and management of the Strait of Hormuz. Signals potential de-escalation of direct US military engagement.",
-      "score": 2.9,
-      "sentiment": "positive",
+      "title": "US walks out of UN Security Council meeting during France's remarks",
+      "label": "US walks out of UN meeting after vote",
+      "summary": "US exits Security Council after voting with Russia and North Korea against UN rights chief extension; diplomatic friction.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/trump-says-good-chance-of-progress-in-iran-talks-what-we-know?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-27T22:01:24.121235Z"
+      "detected_at": "2026-07-28T09:47:30.178840Z"
     },
     {
-      "title": "[Guardian] Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near US consulate in Toronto again",
-      "summary": "No one was injured and no suspects have been identified in connection to shooting near Toronto compound. Second incident in four months.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
-        }
-      ],
-      "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
-      "title": "[Guardian] Venezuelan men sue aviation firms who flew them to notorious Salvadorian jail",
+      "title": "Venezuelan men sue aviation firms who flew them to notorious Salvadorian jail",
       "label": "Venezuelan men sue aviation firms over deportations",
-      "summary": "CSI Aviation and GlobalX accused of violating civil rights as part of Trump immigration crackdown. Legal challenge to deportation policy.",
-      "score": 2.4,
+      "summary": "CSI Aviation and GlobalX accused of civil rights violations in Trump-era deportations to Salvadorian prison.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-07-28T14:36:39.564771Z"
+    },
+    {
+      "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
+      "label": "Seattle mourns food festival shooting victims",
+      "summary": "Families remember three killed in Seattle food festival shooting; ongoing domestic tragedy.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T11:59:49.479154Z"
     }
   ],
   "short_summary": "US exits UN meeting during France speech",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-28T16:01:28.556955Z",
+  "updated_at": "2026-07-28T16:50:15.294510Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -170,6 +170,10 @@
     {
       "t": "2026-07-28T16:01:28.556955Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-28T16:50:15.294510Z",
+      "s": 2.3
     }
   ]
 }

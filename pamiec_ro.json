@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-07-28T16:01:28.559406Z",
+  "updated_at": "2026-07-28T16:50:15.296518Z",
   "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-UN diplomatic row — Security Council walkout",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "US exits UN meeting after voting with Russia, North Korea."
     },
     {
       "temat": "Spain-France heatwave — wildfire spread risk",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 1,
       "opis": "Soaring temperatures Wednesday could spread blazes to."
     },
     {
+      "temat": "Iraqi PM visits Turkey — regional neighbor diplomacy",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Iraq-Turkey talks on security, water; Black Sea neighbor."
+    },
+    {
       "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 2,
       "opis": "Zelensky seeks firm US air defense commitments from Trump."
     },
     {
       "temat": "Gironde wildfire escalation — EU neighbor crisis",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 3,
       "opis": "40C heatwave threatens French city; regional climate threat."
     },
     {
       "temat": "Ukraine-Iran Caspian strike — regional conflict linkage",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 9,
       "opis": "Ukraine hits Iranian ship; Black Sea security risk rises."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Magnitude 7.1 quake kills several; no link to Romania."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
-    },
-    {
-      "temat": "US-Iran pause attacks — oil price drop",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "US halts Iran strikes for talks; energy prices ease."
     }
   ],
   "score_history": [
@@ -144,11 +144,15 @@
     {
       "t": "2026-07-28T16:01:28.551558Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-07-28T16:50:15.289979Z",
+      "s": 3.8
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.391880Z",
   "event_detected_at": {
-    "[bbc] gironde wildfires pick up as french region braces for new 40c heatwave": {
+    "wildfires in south-west france flare up as region braces for new 40c heatwave": {
       "detected_at": "2026-07-28T14:36:39.558116Z",
       "peak_at": "2026-07-28T14:36:39.558116Z",
       "peak_score_at": "2026-07-28T14:36:39.558116Z",
@@ -157,6 +161,26 @@
       "title": "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
       "peak_label": "Gironde fires worsen as France faces heatwave",
       "peak_summary": "Sharp temperature rise Wednesday complicates firefighting near Bordeaux. EU neighbor disaster signals broader climate threat affecting Romania's region and economy."
+    },
+    "iraqi pm visits turkiye to boost ties despite complex challenges": {
+      "detected_at": "2026-07-28T16:50:15.289979Z",
+      "peak_at": "2026-07-28T16:50:15.289979Z",
+      "peak_score_at": "2026-07-28T16:50:15.289979Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Iraqi PM visits Turkiye to boost ties despite complex challenges",
+      "peak_label": "Iraqi PM visits Turkey for strategic cooperation talks",
+      "peak_summary": "Discussions on security, water, and economy in Black Sea neighbor; indirect regional stability signal."
+    },
+    "us walks out of un security council meeting during france's remarks": {
+      "detected_at": "2026-07-28T16:01:28.551558Z",
+      "peak_at": "2026-07-28T16:01:28.551558Z",
+      "peak_score_at": "2026-07-28T16:01:28.551558Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
+      "peak_label": "US exits UN meeting after voting with Russia",
+      "peak_summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction."
     },
     "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
       "detected_at": "2026-07-28T13:01:32.749640Z",
@@ -167,16 +191,6 @@
       "title": "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
       "peak_label": "Spain and France expect soaring temperatures Wednesday",
       "peak_summary": "Both countries face temperatures soaring into Wednesday, which could cause blazes to spread. Regional climate threat to EU neighbors."
-    },
-    "[bbc] us walks out of un security council meeting during france's remarks": {
-      "detected_at": "2026-07-28T16:01:28.551558Z",
-      "peak_at": "2026-07-28T16:01:28.551558Z",
-      "peak_score_at": "2026-07-28T16:01:28.551558Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
-      "peak_label": "US exits UN meeting after voting with Russia",
-      "peak_summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction."
     },
     "[al jazeera] trump says 'good chance' of progress in iran talks. what we know": {
       "detected_at": "2026-07-27T22:01:24.117641Z",
@@ -270,8 +284,8 @@
     }
   },
   "prev_top_event_titles": [
-    "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
-    "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
-    "[BBC] US walks out of UN Security Council meeting during France's remarks"
+    "Wildfires in south-west France flare up as region braces for new 40C heatwave",
+    "Iraqi PM visits Turkiye to boost ties despite complex challenges",
+    "US walks out of UN Security Council meeting during France's remarks"
   ]
 }
