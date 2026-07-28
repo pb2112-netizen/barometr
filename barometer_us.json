@@ -1,24 +1,38 @@
 {
-  "global_score": 2.3,
-  "rationale": "US-UN diplomatic row continues as the leading event; Seattle shooting and other headlines are routine or lack major policy impact.",
+  "global_score": 3.0,
+  "rationale": "Trump signals progress in Iran negotiations potentially de-escalating Middle East tensions; US-UN diplomatic row signals policy shift affecting international standing. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US walks out of UN Security Council meeting during France's remarks",
-      "label": "US exits UN meeting after voting with Russia",
-      "summary": "US diplomats walked out of UN Security Council after voting with Russia and North Korea against extending UN human rights commissioner term, signaling diplomatic isolation.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
+      "label": "Trump signals progress in Iran negotiations",
+      "summary": "Negotiators work to break Strait of Hormuz transit deadlock. Potential de-escalation could end military engagement and stabilize oil markets affecting US economy.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
-        },
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/28/trump-says-good-chance-of-progress-in-iran-talks-what-we-know?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T22:01:24.121235Z"
+    },
+    {
+      "title": "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison",
+      "label": "US exits UN meeting during France speech",
+      "summary": "US diplomats walked out after France compared US to Russia and North Korea. Signals deepening diplomatic isolation and policy shift at UN Security Council.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss"
@@ -27,31 +41,12 @@
       "detected_at": "2026-07-28T09:47:30.178840Z"
     },
     {
-      "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-      "label": "Seattle mourns three killed in food festival shooting",
-      "summary": "Families grieved as they remembered three people killed in a shooting at a food festival near Space Needle; continuation of routine gun violence.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T11:59:49.479154Z"
-    },
-    {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near US Toronto consulate again",
-      "summary": "Second shooting incident near US consulate in Toronto in four months; no injuries, no suspects identified, continuation of security concern.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "[Guardian] Venezuelan men sue aviation firms who flew them to notorious Salvadorian jail",
+      "label": "Venezuelan men sue aviation firms over deportation",
+      "summary": "CSI Aviation and GlobalX accused of violating civil rights in Trump immigration crackdown. Legal challenge to administration deportation policy affecting US companies.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -59,20 +54,20 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+          "url": "https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation"
         }
       ],
-      "detected_at": "2026-07-27T17:08:01.643691Z"
+      "detected_at": "2026-07-28T14:36:39.564771Z"
     }
   ],
   "short_summary": "US military casualties exceed 600 in Iran war",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-28T13:01:32.755212Z",
+  "updated_at": "2026-07-28T14:36:39.564771Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US military casualties exceed 600 in Iran war",
     "summary": "Direct US military engagement continues with confirmed 600+ service members injured, affecting American families and military readiness.",
@@ -167,6 +162,10 @@
     {
       "t": "2026-07-28T13:01:32.755212Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-07-28T14:36:39.564771Z",
+      "s": 3.0
     }
   ]
 }

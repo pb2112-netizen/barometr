@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-07-28T13:01:32.758511Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-07-28T14:36:39.568211Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US-Iran military strikes — Middle East escalation",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
+      "temat": "Spain-France heatwave — wildfire spread risk",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Soaring temperatures Wednesday could spread blazes to."
     },
     {
-      "temat": "Southwest Europe wildfires — mass evacuations",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 20,
-      "opis": "France, Spain evacuate 300k+ as fires rage; Iberian threat."
-    },
-    {
-      "temat": "US-Iran pause attacks — oil price drop",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
-      "opis": "US halts Iran strikes for talks; energy prices ease."
-    },
-    {
-      "temat": "Canada wildfires — 90 active blazes, intense season",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Major Canadian wildfire season; global climate pattern."
+      "temat": "Gironde wildfire escalation — Iberian neighbor crisis",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 1,
+      "opis": "40C heatwave threatens French city; direct Iberian threat."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 12,
       "opis": "Fire nine miles from Bordeaux; Iberian neighbor crisis."
     },
     {
-      "temat": "Madeiran snail rescue — local conservation",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
-      "opis": "21 rare snails rescued on Bugio Island; conservation news."
+      "temat": "Southwest Europe wildfires — mass evacuations",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 21,
+      "opis": "France, Spain evacuate 300k+ as fires rage; Iberian threat."
     },
     {
       "temat": "US-UN diplomatic row — Security Council walkout",
-      "poziom_bazowy": 1.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "US exits UN meeting after voting with Russia, North Korea."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
-      "poziom_bazowy": 1.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Magnitude 7.1 quake kills several; no link to Portugal."
+    },
+    {
+      "temat": "Madeiran snail rescue — local conservation",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "21 rare snails rescued on Bugio Island; conservation news."
+    },
+    {
+      "temat": "US-Iran pause attacks — oil price drop",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
+      "opis": "US halts Iran strikes for talks; energy prices ease."
     }
   ],
   "score_history": [
@@ -136,10 +136,44 @@
     {
       "t": "2026-07-28T13:01:32.751291Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-28T14:36:39.560532Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-07-27T15:13:08.450118Z",
   "event_detected_at": {
+    "[bbc] gironde wildfires pick up as french region braces for new 40c heatwave": {
+      "detected_at": "2026-07-28T14:36:39.560532Z",
+      "peak_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+      "peak_label": "Gironde fires surge as France braces heatwave",
+      "peak_summary": "Sharp temperature rise Wednesday threatens containment near Bordeaux. Iberian neighbor crisis signals immediate threat pattern to Portugal's fire-prone regions."
+    },
+    "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
+      "detected_at": "2026-07-28T14:36:39.560532Z",
+      "peak_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
+      "peak_label": "Spain and France brace for wildfire heatwave",
+      "peak_summary": "Both countries expect soaring temperatures Wednesday that could spread blazes. Direct threat to Iberian Peninsula affecting Portugal's immediate neighbors."
+    },
+    "[al jazeera] trump says 'good chance' of progress in iran talks. what we know": {
+      "detected_at": "2026-07-27T22:01:24.118857Z",
+      "peak_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
+      "peak_label": "Trump signals progress in Iran talks",
+      "peak_summary": "Negotiators work on Strait of Hormuz transit deadlock. Potential de-escalation could ease energy prices affecting Portugal's economy."
+    },
     "zoo staff rescue near-extinct snails from remote rock": {
       "detected_at": "2026-07-28T12:12:47.393308Z",
       "peak_at": "2026-07-28T12:12:47.393308Z",
@@ -179,16 +213,6 @@
       "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
       "peak_label": "Lightning triggers 90 active wildfires in Canada",
       "peak_summary": "British Columbia faces intense wildfire season with at least 90 active blazes, part of global climate pattern relevant to Portugal's own wildfire vulnerability."
-    },
-    "trump says iran war talks taking place during lull in strikes": {
-      "detected_at": "2026-07-27T22:01:24.118857Z",
-      "peak_at": "2026-07-27T22:01:24.118857Z",
-      "peak_score_at": "2026-07-27T22:01:24.118857Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "peak_label": "US-Iran talks proceed during strike pause",
-      "peak_summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Portugal's import costs."
     },
     "guyanese authorities confirm death of 72 people in sinking of coastal ferry": {
       "detected_at": "2026-07-27T22:17:57.462757Z",
@@ -242,8 +266,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Zoo staff rescue near-extinct snails from remote rock",
-    "US walks out of UN Security Council meeting during France's remarks",
-    "Several dead in Japan after magnitude 7.1 earthquake causes blast at mall"
+    "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+    "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
+    "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know"
   ]
 }

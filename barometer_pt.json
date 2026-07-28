@@ -1,55 +1,31 @@
 {
-  "global_score": 2.0,
-  "rationale": "Quiet cycle for Portugal; distant geopolitical events and routine news with no direct impact on Iberian daily life.",
+  "global_score": 4.0,
+  "rationale": "Gironde wildfire escalation in neighboring France with 40C heatwave directly threatens Iberian Peninsula; climate crisis pattern affecting Portugal's immediate region. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zoo staff rescue near-extinct snails from remote rock",
-      "label": "Conservationists rescue rare Madeiran snails",
-      "summary": "Just 21 near-extinct Madeiran land snails found on Portugal's Bugio Island; conservation effort with no impact on daily life.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
+      "title": "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+      "label": "Gironde fires surge as France braces heatwave",
+      "summary": "Sharp temperature rise Wednesday threatens containment near Bordeaux. Iberian neighbor crisis signals immediate threat pattern to Portugal's fire-prone regions.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyq7e5d1gko?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-28T12:12:47.393308Z"
+      "detected_at": "2026-07-28T14:36:39.560532Z"
     },
     {
-      "title": "US walks out of UN Security Council meeting during France's remarks",
-      "label": "US exits UN meeting after voting with Russia",
-      "summary": "US diplomatic isolation at UN; distant event with no direct link to Portuguese economy or daily life.",
-      "score": 1.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T13:01:32.751291Z"
-    },
-    {
-      "title": "Several dead in Japan after magnitude 7.1 earthquake causes blast at mall",
-      "label": "Japan 7.1 earthquake kills several in Kumamoto",
-      "summary": "Major earthquake in Japan with casualties; distant event with no connection to Portuguese daily life.",
-      "score": 1.5,
+      "title": "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
+      "label": "Spain and France brace for wildfire heatwave",
+      "summary": "Both countries expect soaring temperatures Wednesday that could spread blazes. Direct threat to Iberian Peninsula affecting Portugal's immediate neighbors.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
@@ -59,18 +35,37 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/magnitude-7-1-earthquake-shakes-southern-japan-tsunami-warning-issued?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/28/france-and-spain-brace-for-heatwave-that-could-worsen-raging-wildfires?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-28T12:12:47.393308Z"
+      "detected_at": "2026-07-28T14:36:39.560532Z"
+    },
+    {
+      "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
+      "label": "Trump signals progress in Iran talks",
+      "summary": "Negotiators work on Strait of Hormuz transit deadlock. Potential de-escalation could ease energy prices affecting Portugal's economy.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/28/trump-says-good-chance-of-progress-in-iran-talks-what-we-know?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T22:01:24.118857Z"
     }
   ],
   "short_summary": "European wildfires spread Spain France mass evacuations",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-28T13:01:32.751291Z",
+  "updated_at": "2026-07-28T14:36:39.560532Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -167,6 +162,10 @@
     {
       "t": "2026-07-28T13:01:32.751291Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-28T14:36:39.560532Z",
+      "s": 4.0
     }
   ]
 }

@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-07-28T13:01:32.757384Z",
+  "updated_at": "2026-07-28T14:36:39.567020Z",
   "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
       "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 0,
       "opis": "Zelensky seeks firm US air defense commitments from Trump."
     },
     {
-      "temat": "US-UN diplomatic row — Security Council walkout",
+      "temat": "Gironde wildfire escalation — EU neighbor crisis",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
+      "opis": "40C heatwave threatens French city; regional climate threat."
+    },
+    {
+      "temat": "Ukraine-Iran Caspian strike — regional conflict linkage",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 7,
+      "opis": "Ukraine hits Iranian ship; Black Sea security risk rises."
+    },
+    {
+      "temat": "US-UN diplomatic row — Security Council walkout",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 1,
       "opis": "US exits UN meeting after voting with Russia, North Korea."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
-      "poziom_bazowy": 1.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Magnitude 7.1 quake kills several; no link to Romania."
-    },
-    {
-      "temat": "Ukraine-Iran Caspian strike — regional conflict linkage",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 6,
-      "opis": "Ukraine hits Iranian ship; Black Sea security risk rises."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "US-Iran military strikes — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
-    },
-    {
-      "temat": "Southwest Europe wildfires — mass evacuations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "France, Spain evacuate 300k+ as fires rage; EU neighbors."
     }
   ],
   "score_history": [
@@ -136,10 +136,44 @@
     {
       "t": "2026-07-28T13:01:32.749640Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-07-28T14:36:39.558116Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.391880Z",
   "event_detected_at": {
+    "[bbc] gironde wildfires pick up as french region braces for new 40c heatwave": {
+      "detected_at": "2026-07-28T14:36:39.558116Z",
+      "peak_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+      "peak_label": "Gironde fires worsen as France faces heatwave",
+      "peak_summary": "Sharp temperature rise Wednesday complicates firefighting near Bordeaux. EU neighbor disaster signals broader climate threat affecting Romania's region and economy."
+    },
+    "[al jazeera] trump says 'good chance' of progress in iran talks. what we know": {
+      "detected_at": "2026-07-27T22:01:24.117641Z",
+      "peak_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
+      "peak_label": "Trump sees progress in Iran negotiations",
+      "peak_summary": "Negotiators work on Strait of Hormuz transit deadlock. Potential de-escalation could ease energy prices affecting Romania's Black Sea economy."
+    },
+    "[al jazeera] us walks out on france at un over north korea, russia comparison": {
+      "detected_at": "2026-07-28T13:01:32.749640Z",
+      "peak_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score_at": "2026-07-28T14:36:39.558116Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison",
+      "peak_label": "US exits UN meeting during France speech",
+      "peak_summary": "US diplomats walked out after France compared US to Russia and North Korea. Signals NATO alliance tensions affecting Romania's security framework."
+    },
     "zelensky to press trump on air defences while in washington": {
       "detected_at": "2026-07-28T12:12:47.391880Z",
       "peak_at": "2026-07-28T12:12:47.391880Z",
@@ -149,16 +183,6 @@
       "title": "Zelensky to press Trump on air defences while in Washington",
       "peak_label": "Zelensky seeks US air defense commitments",
       "peak_summary": "Ukraine's leader presses Trump for anti-ballistic missile defenses as Russia escalates attacks, potentially affecting Black Sea regional security."
-    },
-    "us walks out of un security council meeting during france's remarks": {
-      "detected_at": "2026-07-28T13:01:32.749640Z",
-      "peak_at": "2026-07-28T13:01:32.749640Z",
-      "peak_score_at": "2026-07-28T13:01:32.749640Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "US walks out of UN Security Council meeting during France's remarks",
-      "peak_label": "US walks out of UN meeting with Russia",
-      "peak_summary": "US diplomatic row at UN after voting with Russia and North Korea signals potential Western alliance strain, indirectly affecting EU and NATO cohesion."
     },
     "several dead in japan after magnitude 7.1 earthquake causes blast at mall": {
       "detected_at": "2026-07-28T12:12:47.391880Z",
@@ -179,16 +203,6 @@
       "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
       "peak_label": "Canada wildfires intensify, 90 active blazes",
       "peak_summary": "Major Canadian wildfire season continues; distant event with no direct impact on Romanian daily life."
-    },
-    "trump says iran war talks taking place during lull in strikes": {
-      "detected_at": "2026-07-27T22:01:24.117641Z",
-      "peak_at": "2026-07-27T22:01:24.117641Z",
-      "peak_score_at": "2026-07-27T22:01:24.117641Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "peak_label": "US-Iran talks proceed during strike pause",
-      "peak_summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Romania's import costs."
     },
     "shots fired near us consulate in canada for second time in four months": {
       "detected_at": "2026-07-27T22:17:57.461307Z",
@@ -262,8 +276,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Zelensky to press Trump on air defences while in Washington",
-    "US walks out of UN Security Council meeting during France's remarks",
-    "Several dead in Japan after magnitude 7.1 earthquake causes blast at mall"
+    "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+    "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
+    "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison"
   ]
 }
