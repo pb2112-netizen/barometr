@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Iran talks continue during strike pause; Toronto consulate shooting repeats; no major new domestic developments.",
+  "global_score": 2.5,
+  "rationale": "Iran talks continue as background; Boeing seat inspections represent new domestic safety concern; Toronto consulate shooting continues as security issue.",
   "top_events": [
     {
       "title": "Trump says Iran war talks taking place during lull in strikes",
       "label": "Trump confirms Iran talks during strike pause",
-      "summary": "President says negotiations ongoing during military pause; potential de-escalation could ease Middle East tensions.",
-      "score": 2.8,
+      "summary": "US-Iran diplomatic engagement continues during military pause; ongoing de-escalation effort without new qualitative change.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -27,10 +27,29 @@
       "detected_at": "2026-07-27T22:01:24.121235Z"
     },
     {
-      "title": "Shots fired at US consulate in Toronto for a second time this year",
-      "label": "Toronto US consulate attacked second time",
-      "summary": "Second shooting at consulate in four months; suspect remains at large after high-speed chase.",
-      "score": 2.4,
+      "title": "US warns hundreds of Boeing jets may require seat safety inspections",
+      "label": "FAA orders Boeing 737 MAX seat inspections",
+      "summary": "453 US-registered jets require safety inspections; potential flight delays and domestic travel disruption.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/28/us-warns-hundreds-of-boeing-jets-may-require-seat-safety-inspections?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-28T03:33:43.739417Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Toronto US consulate shooting second incident",
+      "summary": "Second shooting near Toronto consulate; suspect remains at large, continuing security concern for US diplomatic facilities.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -49,25 +68,6 @@
         }
       ],
       "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
-      "title": "US warns hundreds of Boeing jets may require seat safety inspections",
-      "label": "Boeing 737 MAX seat safety inspections ordered",
-      "summary": "FAA calls for inspection of 453 US-registered jets over seat safety concerns; potential flight disruptions.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/us-warns-hundreds-of-boeing-jets-may-require-seat-safety-inspections?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T03:33:43.739417Z"
     }
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
@@ -75,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-28T03:33:43.739417Z",
+  "updated_at": "2026-07-28T04:01:18.320580Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -144,6 +144,10 @@
     {
       "t": "2026-07-28T03:33:43.739417Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-28T04:01:18.320580Z",
+      "s": 2.5
     }
   ]
 }
