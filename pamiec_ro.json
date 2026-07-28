@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-07-28T10:01:30.979993Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-07-28T12:12:47.399775Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Iran military strikes — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
     },
     {
       "temat": "Ukraine army chief political crisis — domestic instability",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Protests demand Syrskyi removal; internal military tensions."
     },
     {
       "temat": "UK PM Burnham — Ukraine aid reaffirmed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "New UK leader pledges continued military support to Ukraine."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 14,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "Southwest Europe wildfires — mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "France, Spain evacuate 300k+ as fires rage; EU neighbors."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 10,
       "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
     },
     {
       "temat": "Ukraine-Iran Caspian strike — regional conflict linkage",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 5,
       "opis": "Ukraine hits Iranian ship; Black Sea security risk rises."
+    },
+    {
+      "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Zelensky seeks firm US air defense commitments from Trump."
     }
   ],
   "score_history": [
@@ -122,19 +128,33 @@
     {
       "t": "2026-07-28T10:01:30.974497Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-28T12:12:47.391880Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-07-27T17:08:01.640104Z",
+  "events_anchor_at": "2026-07-28T12:12:47.391880Z",
   "event_detected_at": {
-    "trump says iran war talks taking place during lull in strikes": {
-      "detected_at": "2026-07-27T22:01:24.117641Z",
-      "peak_at": "2026-07-27T22:01:24.117641Z",
-      "peak_score_at": "2026-07-27T22:01:24.117641Z",
-      "peak_score": 2.2,
+    "zelensky to press trump on air defences while in washington": {
+      "detected_at": "2026-07-28T12:12:47.391880Z",
+      "peak_at": "2026-07-28T12:12:47.391880Z",
+      "peak_score_at": "2026-07-28T12:12:47.391880Z",
+      "peak_score": 4.0,
       "peak_sentiment": "neutral",
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "peak_label": "US-Iran talks proceed during strike pause",
-      "peak_summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Romania's import costs."
+      "title": "Zelensky to press Trump on air defences while in Washington",
+      "peak_label": "Zelensky seeks US air defense commitments",
+      "peak_summary": "Ukraine's leader presses Trump for anti-ballistic missile defenses as Russia escalates attacks, potentially affecting Black Sea regional security."
+    },
+    "magnitude 7.1 earthquake shakes southern japan, tsunami warning issued": {
+      "detected_at": "2026-07-28T12:12:47.391880Z",
+      "peak_at": "2026-07-28T12:12:47.391880Z",
+      "peak_score_at": "2026-07-28T12:12:47.391880Z",
+      "peak_score": 1.4,
+      "peak_sentiment": "neutral",
+      "title": "Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued",
+      "peak_label": "Major earthquake strikes southern Japan",
+      "peak_summary": "Magnitude 7.1 earthquake hits Kumamoto with tsunami warning; distant event with no Romanian impact."
     },
     "thousands of lightning strikes trigger fresh wildfires in western canada": {
       "detected_at": "2026-07-28T06:40:01.469855Z",
@@ -145,6 +165,16 @@
       "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
       "peak_label": "Canada wildfires intensify, 90 active blazes",
       "peak_summary": "Major Canadian wildfire season continues; distant event with no direct impact on Romanian daily life."
+    },
+    "trump says iran war talks taking place during lull in strikes": {
+      "detected_at": "2026-07-27T22:01:24.117641Z",
+      "peak_at": "2026-07-27T22:01:24.117641Z",
+      "peak_score_at": "2026-07-27T22:01:24.117641Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Trump says Iran war talks taking place during lull in strikes",
+      "peak_label": "US-Iran talks proceed during strike pause",
+      "peak_summary": "Diplomatic efforts continue; energy price stability maintained, indirect benefit for Romania's import costs."
     },
     "shots fired near us consulate in canada for second time in four months": {
       "detected_at": "2026-07-27T22:17:57.461307Z",
@@ -215,30 +245,11 @@
       "title": "Devastating European wildfires in maps - and how they're being tackled",
       "peak_label": "European wildfires spread France Spain mass evacuations",
       "peak_summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations across southwestern Europe, raising regional disaster risk for Romania's EU neighbors."
-    },
-    "uk pm pledges continued support for ukraine ahead of zelensky visit": {
-      "detected_at": "2026-07-27T11:59:49.475473Z",
-      "peak_at": "2026-07-27T11:59:49.475473Z",
-      "peak_score_at": "2026-07-27T11:59:49.475473Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "positive",
-      "title": "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
-      "peak_label": "UK PM pledges continued Ukraine support",
-      "peak_summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's visit, reducing uncertainty about Western support near Romania's border."
-    },
-    "wildfires in southwest europe: what we know so far": {
-      "detected_at": "2026-07-27T11:59:49.475473Z",
-      "peak_at": "2026-07-27T11:59:49.475473Z",
-      "peak_score_at": "2026-07-27T11:59:49.475473Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Wildfires in southwest Europe: What we know so far",
-      "peak_label": "Massive wildfires hit France and Spain",
-      "peak_summary": "Over 300,000 evacuated in France and Spain as wildfires rage; EU neighbors affected but no direct impact on Romania."
     }
   },
   "prev_top_event_titles": [
-    "Trump says Iran war talks taking place during lull in strikes",
+    "Zelensky to press Trump on air defences while in Washington",
+    "Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued",
     "Thousands of lightning strikes trigger fresh wildfires in western Canada"
   ]
 }

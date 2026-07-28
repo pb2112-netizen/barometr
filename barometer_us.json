@@ -1,52 +1,14 @@
 {
-  "global_score": 2.7,
-  "rationale": "Trump-Iran talks signal potential de-escalation; Seattle shooting suspect count rises; US walks out of UN meeting over human rights vote—modest domestic and diplomatic developments. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "US walks out of UN Security Council meeting after voting with Russia and North Korea against extending UN human rights commissioner term, marking significant diplomatic row. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "Trump announces Iran war talks during strike pause",
-      "summary": "President signals potential diplomatic breakthrough with Iran during temporary halt in military strikes, which could reduce risk of further US military casualties and stabilize energy markets.",
-      "score": 2.7,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T22:01:24.121235Z"
-    },
-    {
-      "title": "Number of suspects in fatal Seattle food festival shooting rises to three",
-      "label": "Seattle shooting suspect count rises to three",
-      "summary": "Investigation into Seattle food festival shooting that killed three now involves three suspects—one in custody, one sought, one believed dead at scene.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T11:59:49.479154Z"
-    },
-    {
       "title": "US walks out of UN Security Council meeting during France's remarks",
-      "label": "US walks out of UN meeting over rights vote",
-      "summary": "US delegation exits Security Council session after joining North Korea and Russia in voting against extending UN human rights commissioner term, sparking diplomatic row with France.",
-      "score": 2.5,
+      "label": "US exits UN meeting after controversial vote",
+      "summary": "US walked out of Security Council meeting after joining North Korea and Russia in voting against extending UN high commissioner for human rights term, sparking diplomatic row.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,26 +20,64 @@
         }
       ],
       "detected_at": "2026-07-28T09:47:30.178840Z"
+    },
+    {
+      "title": "Seattle pays tribute to food festival shooting victims",
+      "label": "Seattle mourns food festival shooting victims",
+      "summary": "Families grieved as they remembered three people killed in shooting at food festival near Space Needle; ongoing local tragedy.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T11:59:49.479154Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Second shooting near Toronto US consulate",
+      "summary": "Shots fired near US consulate in Toronto with no injuries; second incident in four months with no suspects identified.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+        }
+      ],
+      "detected_at": "2026-07-27T17:08:01.643691Z"
     }
   ],
-  "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
+  "short_summary": "US military casualties exceed 600 in Iran war",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-28T10:01:30.978134Z",
+  "updated_at": "2026-07-28T12:12:47.397557Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
-    "summary": "At least 90 active wildfires in British Columbia after thousands of lightning strikes — distant event with no direct impact on US residents.",
-    "title": "US and Iran trade fire after two US soldiers killed in Jordan",
-    "score": 7.2,
+    "label": "US military casualties exceed 600 in Iran war",
+    "summary": "Direct US military engagement continues with confirmed 600+ service members injured, affecting American families and military readiness.",
+    "title": "More than 600 US military service members injured since Iran War began in February",
+    "score": 4.6,
     "sentiment": "negative",
-    "detected_at": "2026-07-18T19:01:39.412324Z",
-    "peak_at": "2026-07-27T11:59:49.479154Z"
+    "detected_at": "2026-07-27T15:13:08.451705Z",
+    "peak_at": "2026-07-27T16:01:25.841766Z"
   },
-  "events_anchor_at": "2026-07-18T19:01:39.412324Z",
+  "events_anchor_at": "2026-07-27T15:13:08.451705Z",
   "score_history": [
     {
       "t": "2026-07-27T11:59:49.479154Z",
@@ -154,6 +154,10 @@
     {
       "t": "2026-07-28T10:01:30.978134Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-07-28T12:12:47.397557Z",
+      "s": 2.4
     }
   ]
 }
