@@ -1,37 +1,55 @@
 {
-  "updated_at": "2026-07-28T12:12:47.400822Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-07-28T13:01:32.758511Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Iran military strikes — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "US retaliates for soldier deaths; Iran hits ships, bases."
     },
     {
       "temat": "Southwest Europe wildfires — mass evacuations",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 20,
       "opis": "France, Spain evacuate 300k+ as fires rage; Iberian threat."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "Canada wildfires — 90 active blazes, intense season",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Major Canadian wildfire season; global climate pattern."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 11,
       "opis": "Fire nine miles from Bordeaux; Iberian neighbor crisis."
+    },
+    {
+      "temat": "Madeiran snail rescue — local conservation",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "21 rare snails rescued on Bugio Island; conservation news."
+    },
+    {
+      "temat": "US-UN diplomatic row — Security Council walkout",
+      "poziom_bazowy": 1.8,
+      "cykle_bez_zmian": 0,
+      "opis": "US exits UN meeting after voting with Russia, North Korea."
+    },
+    {
+      "temat": "Japan Kumamoto earthquake — distant disaster",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Magnitude 7.1 quake kills several; no link to Portugal."
     }
   ],
   "score_history": [
@@ -114,9 +132,13 @@
     {
       "t": "2026-07-28T12:12:47.393308Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-07-28T13:01:32.751291Z",
+      "s": 2.0
     }
   ],
-  "events_anchor_at": "2026-07-27T11:59:49.476730Z",
+  "events_anchor_at": "2026-07-27T15:13:08.450118Z",
   "event_detected_at": {
     "zoo staff rescue near-extinct snails from remote rock": {
       "detected_at": "2026-07-28T12:12:47.393308Z",
@@ -128,6 +150,26 @@
       "peak_label": "Rare snails rescued from Madeira island",
       "peak_summary": "Conservationists found 21 near-extinct Madeiran land snails on Portugal's Bugio Island; local conservation effort with minimal daily life impact."
     },
+    "us walks out of un security council meeting during france's remarks": {
+      "detected_at": "2026-07-28T13:01:32.751291Z",
+      "peak_at": "2026-07-28T13:01:32.751291Z",
+      "peak_score_at": "2026-07-28T13:01:32.751291Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "neutral",
+      "title": "US walks out of UN Security Council meeting during France's remarks",
+      "peak_label": "US exits UN meeting after voting with Russia",
+      "peak_summary": "US diplomatic isolation at UN; distant event with no direct link to Portuguese economy or daily life."
+    },
+    "several dead in japan after magnitude 7.1 earthquake causes blast at mall": {
+      "detected_at": "2026-07-28T12:12:47.393308Z",
+      "peak_at": "2026-07-28T13:01:32.751291Z",
+      "peak_score_at": "2026-07-28T13:01:32.751291Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Several dead in Japan after magnitude 7.1 earthquake causes blast at mall",
+      "peak_label": "Japan 7.1 earthquake kills several in Kumamoto",
+      "peak_summary": "Major earthquake in Japan with casualties; distant event with no connection to Portuguese daily life."
+    },
     "thousands of lightning strikes trigger fresh wildfires in western canada": {
       "detected_at": "2026-07-27T15:13:08.450118Z",
       "peak_at": "2026-07-28T10:01:30.975579Z",
@@ -137,16 +179,6 @@
       "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
       "peak_label": "Lightning triggers 90 active wildfires in Canada",
       "peak_summary": "British Columbia faces intense wildfire season with at least 90 active blazes, part of global climate pattern relevant to Portugal's own wildfire vulnerability."
-    },
-    "magnitude 7.1 earthquake shakes southern japan, tsunami warning issued": {
-      "detected_at": "2026-07-28T12:12:47.393308Z",
-      "peak_at": "2026-07-28T12:12:47.393308Z",
-      "peak_score_at": "2026-07-28T12:12:47.393308Z",
-      "peak_score": 1.2,
-      "peak_sentiment": "neutral",
-      "title": "Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued",
-      "peak_label": "Major earthquake strikes southern Japan",
-      "peak_summary": "Magnitude 7.1 earthquake hits Kumamoto with tsunami warning; distant event with no Portuguese impact."
     },
     "trump says iran war talks taking place during lull in strikes": {
       "detected_at": "2026-07-27T22:01:24.118857Z",
@@ -207,21 +239,11 @@
       "title": "Devastating European wildfires in maps - and how they're being tackled",
       "peak_label": "European wildfires spread Spain France mass evacuations",
       "peak_summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations, with Madrid seeing worst fires ever—direct threat to Portugal's Iberian neighbors."
-    },
-    "wildfires in southwest europe: what we know so far": {
-      "detected_at": "2026-07-27T11:59:49.476730Z",
-      "peak_at": "2026-07-27T13:01:27.774075Z",
-      "peak_score_at": "2026-07-27T13:01:27.774075Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Wildfires in southwest Europe: What we know so far",
-      "peak_label": "Southwest Europe wildfires force evacuations",
-      "peak_summary": "France and Spain evacuate 325,000+ as wildfires rage. Direct threat to Iberian Peninsula; Macron calls crisis meeting as fire approaches Bordeaux."
     }
   },
   "prev_top_event_titles": [
     "Zoo staff rescue near-extinct snails from remote rock",
-    "Thousands of lightning strikes trigger fresh wildfires in western Canada",
-    "Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued"
+    "US walks out of UN Security Council meeting during France's remarks",
+    "Several dead in Japan after magnitude 7.1 earthquake causes blast at mall"
   ]
 }
