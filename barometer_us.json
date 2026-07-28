@@ -1,13 +1,13 @@
 {
   "global_score": 2.8,
-  "rationale": "US-Iran diplomatic pause continues (rhetoric only); Toronto consulate shooting repeats; Seattle shooting updates suspect count—all continuation or minor updates.",
+  "rationale": "US-Iran diplomatic talks continue during strike pause; Toronto consulate shooting repeats earlier incident; domestic events remain low-level noise.",
   "top_events": [
     {
       "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "Trump claims Iran talks underway during strike pause",
-      "summary": "US president says negotiations possible; Iran denies direct talks. Rhetoric only—no confirmed agreement yet, but pause in strikes continues for third day.",
+      "label": "Trump confirms US-Iran talks during strike lull",
+      "summary": "President signals diplomatic progress as strikes pause for third day; potential de-escalation may reduce military deployment risks.",
       "score": 2.8,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -28,20 +28,25 @@
     },
     {
       "title": "Shots fired at US consulate in Toronto for a second time this year",
-      "label": "Second shooting at US consulate in Toronto",
-      "summary": "Suspect remains at large after high-speed chase; second incident in four months. No injuries reported; continuation of tracked consulate security threat.",
-      "score": 2.7,
+      "label": "Toronto US consulate shot at second time",
+      "summary": "Second shooting incident at consulate this year; suspect remains at large but no injuries reported.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/27/shot-fired-outside-us-consulate-in-canada-for-second-time-this-year?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -51,12 +56,12 @@
       "detected_at": "2026-07-27T17:08:01.643691Z"
     },
     {
-      "title": "Number of suspects in fatal Seattle food festival shooting rises to three",
-      "label": "Seattle shooting suspect count rises to three",
-      "summary": "One suspect in custody, one sought, one believed dead at scene. Update to tracked Seattle shooting; no new casualties reported.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "US singer D4vd to go on trial for murder in death of 14-year-old",
+      "label": "Singer D4vd faces murder trial for teen death",
+      "summary": "Celebrity criminal case with no impact on policy, economy, or daily life for most Americans.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "inne",
       "sources": [
         "BBC"
@@ -64,10 +69,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-27T11:59:49.479154Z"
+      "detected_at": "2026-07-28T00:11:31.875738Z"
     }
   ],
   "short_summary": "Two US soldiers killed in Jordan, Iran strikes Gulf allies, US hits nuclear site",
@@ -75,7 +80,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-27T22:17:57.465472Z",
+  "updated_at": "2026-07-28T00:11:31.875738Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -131,6 +136,10 @@
     },
     {
       "t": "2026-07-27T22:17:57.465472Z",
+      "s": 2.8
+    },
+    {
+      "t": "2026-07-28T00:11:31.875738Z",
       "s": 2.8
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Bordeaux wildfire escalation and US-Iran diplomatic pause (energy price impact) are the most relevant; other events distant or rhetorical.",
+  "global_score": 3.0,
+  "rationale": "Bordeaux wildfire continues threatening major EU neighbor city; US-Iran talks may ease energy prices slightly; distant events remain low impact.",
   "top_events": [
     {
       "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-      "label": "Wildfire threatens Bordeaux, France evacuates thousands",
-      "summary": "Major wildfire advances on Bordeaux; mass evacuations continue across southwest Europe, affecting EU neighbors and raising regional disaster concerns.",
-      "score": 2.9,
+      "label": "Wildfire nine miles from Bordeaux threatens city",
+      "summary": "Fire approaches major French city; EU neighbor faces catastrophic situation requiring potential mass evacuations.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -23,56 +23,56 @@
     },
     {
       "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "Trump claims Iran talks underway during strike pause",
-      "summary": "US president says negotiations possible; Iran denies direct talks. Rhetoric only—no confirmed agreement yet, but pause continues to ease energy prices for Poland.",
-      "score": 2.9,
-      "sentiment": "neutral",
+      "label": "US-Iran talks continue during strike pause",
+      "summary": "Diplomatic efforts may extend pause in Middle East conflict, potentially stabilizing energy markets for EU.",
+      "score": 2.8,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/27/trump-asks-us-supreme-court-to-allow-mail-in-voting-restrictions?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-27T22:01:24.116352Z"
     },
     {
-      "title": "Shots fired at US consulate in Toronto for a second time this year",
-      "label": "Second shooting at US consulate in Toronto",
-      "summary": "Suspect remains at large after high-speed chase; second incident in four months. Distant event with no direct impact on Poland.",
-      "score": 1.5,
-      "sentiment": "negative",
+      "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
+      "label": "Canada faces 90 active wildfires this season",
+      "summary": "Intense Canadian wildfire season continues; distant climate pattern with no direct impact on Polish daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+          "url": "https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada"
         }
       ],
-      "detected_at": "2026-07-27T22:01:24.116352Z"
+      "detected_at": "2026-07-27T16:01:25.837620Z"
     }
   ],
   "short_summary": "US-Iran pause attacks, oil prices drop sharply",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-27T22:17:57.459623Z",
+  "updated_at": "2026-07-28T00:11:31.869696Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US-Iran pause attacks, oil prices drop sharply",
     "summary": "US halts strikes on Iran for diplomatic talks, easing energy market pressure and reducing immediate escalation risk for European economies.",
@@ -127,6 +127,10 @@
     {
       "t": "2026-07-27T22:17:57.459623Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-28T00:11:31.869696Z",
+      "s": 3.0
     }
   ]
 }
