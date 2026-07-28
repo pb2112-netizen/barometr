@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-07-28T14:36:39.565879Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-07-28T16:01:28.558215Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": "2026-07-20T16:01:39.111535Z",
   "stan_swiata": [
     {
-      "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
+      "temat": "Spain-France heatwave — wildfire spread risk",
       "poziom_bazowy": 4.0,
       "cykle_bez_zmian": 0,
+      "opis": "Soaring temperatures Wednesday could spread blazes to."
+    },
+    {
+      "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
       "opis": "Zelensky seeks firm US air defense commitments from Trump."
     },
     {
       "temat": "Gironde wildfire escalation — EU neighbor crisis intensifies",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "40C heatwave threatens containment; major French city at."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Magnitude 7.1 quake kills several; no link to Poland."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Fire nine miles from Bordeaux; EU neighbor disaster."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     },
     {
       "temat": "US military casualties Iran conflict — 600+ injured",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Rising US casualties signal prolonged Middle East war risk."
     },
     {
       "temat": "Southwest Europe wildfires — mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
-      "opis": "France, Spain evacuate 300k+ as fires rage; EU neighbors."
-    },
-    {
-      "temat": "Ukraine army chief political crisis — domestic instability",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 22,
-      "opis": "Protests demand Syrskyi removal; internal military tensions."
+      "opis": "France, Spain evacuate 300k+ as fires rage; EU neighbors."
     }
   ],
   "score_history": [
@@ -140,6 +140,10 @@
     {
       "t": "2026-07-28T14:36:39.555710Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-28T16:01:28.549179Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.390099Z",
@@ -154,6 +158,26 @@
       "peak_label": "Gironde fires intensify as France braces heatwave",
       "peak_summary": "Firefighters face sharp temperature rise Wednesday complicating containment of wildfires near Bordeaux. EU neighbor crisis signals broader climate threat pattern affecting Poland's region."
     },
+    "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
+      "detected_at": "2026-07-28T13:01:32.747384Z",
+      "peak_at": "2026-07-28T14:36:39.555710Z",
+      "peak_score_at": "2026-07-28T14:36:39.555710Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison",
+      "peak_label": "US exits UN meeting after France remarks",
+      "peak_summary": "US diplomats walked out during France's Security Council address comparing US to North Korea and Russia. Signals deepening transatlantic tensions within NATO alliance."
+    },
+    "[bbc] us walks out of un security council meeting during france's remarks": {
+      "detected_at": "2026-07-28T16:01:28.549179Z",
+      "peak_at": "2026-07-28T16:01:28.549179Z",
+      "peak_score_at": "2026-07-28T16:01:28.549179Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
+      "peak_label": "US exits UN meeting after voting with Russia",
+      "peak_summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction."
+    },
     "[al jazeera] trump says 'good chance' of progress in iran talks. what we know": {
       "detected_at": "2026-07-27T22:01:24.116352Z",
       "peak_at": "2026-07-28T14:36:39.555710Z",
@@ -163,16 +187,6 @@
       "title": "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
       "peak_label": "Trump signals progress in Iran negotiations",
       "peak_summary": "Negotiators work to break deadlock over Strait of Hormuz transit. Potential easing of Middle East tensions could stabilize energy prices affecting Poland."
-    },
-    "[al jazeera] us walks out on france at un over north korea, russia comparison": {
-      "detected_at": "2026-07-28T13:01:32.747384Z",
-      "peak_at": "2026-07-28T14:36:39.555710Z",
-      "peak_score_at": "2026-07-28T14:36:39.555710Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison",
-      "peak_label": "US exits UN meeting after France remarks",
-      "peak_summary": "US diplomats walked out during France's Security Council address comparing US to North Korea and Russia. Signals deepening transatlantic tensions within NATO alliance."
     },
     "zelensky to press trump on air defences while in washington": {
       "detected_at": "2026-07-28T12:12:47.390099Z",
@@ -243,31 +257,11 @@
       "title": "Oil price dives as US and Iran pause attacks",
       "peak_label": "US-Iran pause attacks, oil prices drop sharply",
       "peak_summary": "US halts strikes on Iran for diplomatic talks, easing energy market pressure and reducing immediate escalation risk for European economies."
-    },
-    "more than 600 us military service members injured since iran war began in february": {
-      "detected_at": "2026-07-27T15:13:08.448017Z",
-      "peak_at": "2026-07-27T15:13:08.448017Z",
-      "peak_score_at": "2026-07-27T15:13:08.448017Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "More than 600 US military service members injured since Iran War began in February",
-      "peak_label": "US military casualties Iran conflict escalate 600 injured",
-      "peak_summary": "Rising US casualties in Iran conflict signal prolonged Middle East instability, indirectly affecting NATO ally Poland through alliance commitments and energy markets."
-    },
-    "devastating european wildfires in maps - and how they're being tackled": {
-      "detected_at": "2026-07-27T15:13:08.448017Z",
-      "peak_at": "2026-07-27T15:13:08.448017Z",
-      "peak_score_at": "2026-07-27T15:13:08.448017Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Devastating European wildfires in maps - and how they're being tackled",
-      "peak_label": "European wildfires spread near France Spain borders",
-      "peak_summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations across southwestern Europe, raising regional disaster risk for Poland's EU neighbors."
     }
   },
   "prev_top_event_titles": [
     "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
-    "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know",
-    "[Al Jazeera] US walks out on France at UN over North Korea, Russia comparison"
+    "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
+    "[BBC] US walks out of UN Security Council meeting during France's remarks"
   ]
 }

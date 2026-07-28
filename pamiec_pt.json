@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-07-28T14:36:39.568211Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-07-28T16:01:28.560642Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-France heatwave — wildfire spread risk",
-      "poziom_bazowy": 5.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 1,
       "opis": "Soaring temperatures Wednesday could spread blazes to."
     },
     {
       "temat": "Gironde wildfire escalation — Iberian neighbor crisis",
-      "poziom_bazowy": 5.5,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 2,
       "opis": "40C heatwave threatens French city; direct Iberian threat."
     },
     {
       "temat": "Bordeaux wildfire — major French city threatened",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 13,
       "opis": "Fire nine miles from Bordeaux; Iberian neighbor crisis."
     },
     {
       "temat": "Southwest Europe wildfires — mass evacuations",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 22,
       "opis": "France, Spain evacuate 300k+ as fires rage; Iberian threat."
     },
     {
       "temat": "US-UN diplomatic row — Security Council walkout",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "US exits UN meeting after voting with Russia, North Korea."
     },
     {
       "temat": "Japan Kumamoto earthquake — distant disaster",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Magnitude 7.1 quake kills several; no link to Portugal."
     },
     {
       "temat": "Madeiran snail rescue — local conservation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "21 rare snails rescued on Bugio Island; conservation news."
     },
     {
       "temat": "US-Iran pause attacks — oil price drop",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "US halts Iran strikes for talks; energy prices ease."
     }
   ],
@@ -140,10 +140,24 @@
     {
       "t": "2026-07-28T14:36:39.560532Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-28T16:01:28.553533Z",
+      "s": 3.9
     }
   ],
-  "events_anchor_at": "2026-07-27T15:13:08.450118Z",
+  "events_anchor_at": "2026-07-28T14:36:39.560532Z",
   "event_detected_at": {
+    "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
+      "detected_at": "2026-07-28T14:36:39.560532Z",
+      "peak_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score_at": "2026-07-28T14:36:39.560532Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
+      "peak_label": "Spain and France brace for wildfire heatwave",
+      "peak_summary": "Both countries expect soaring temperatures Wednesday that could spread blazes. Direct threat to Iberian Peninsula affecting Portugal's immediate neighbors."
+    },
     "[bbc] gironde wildfires pick up as french region braces for new 40c heatwave": {
       "detected_at": "2026-07-28T14:36:39.560532Z",
       "peak_at": "2026-07-28T14:36:39.560532Z",
@@ -154,15 +168,15 @@
       "peak_label": "Gironde fires surge as France braces heatwave",
       "peak_summary": "Sharp temperature rise Wednesday threatens containment near Bordeaux. Iberian neighbor crisis signals immediate threat pattern to Portugal's fire-prone regions."
     },
-    "[al jazeera] france and spain brace for heatwave that could worsen raging wildfires": {
-      "detected_at": "2026-07-28T14:36:39.560532Z",
-      "peak_at": "2026-07-28T14:36:39.560532Z",
-      "peak_score_at": "2026-07-28T14:36:39.560532Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
-      "peak_label": "Spain and France brace for wildfire heatwave",
-      "peak_summary": "Both countries expect soaring temperatures Wednesday that could spread blazes. Direct threat to Iberian Peninsula affecting Portugal's immediate neighbors."
+    "[bbc] us walks out of un security council meeting during france's remarks": {
+      "detected_at": "2026-07-28T13:01:32.751291Z",
+      "peak_at": "2026-07-28T16:01:28.553533Z",
+      "peak_score_at": "2026-07-28T16:01:28.553533Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "[BBC] US walks out of UN Security Council meeting during France's remarks",
+      "peak_label": "US exits UN meeting after voting with Russia",
+      "peak_summary": "US joined North Korea and Russia voting against extending UN human rights commissioner term, then walked out during France's remarks. Signals Western alliance friction."
     },
     "[al jazeera] trump says 'good chance' of progress in iran talks. what we know": {
       "detected_at": "2026-07-27T22:01:24.118857Z",
@@ -183,16 +197,6 @@
       "title": "Zoo staff rescue near-extinct snails from remote rock",
       "peak_label": "Rare snails rescued from Madeira island",
       "peak_summary": "Conservationists found 21 near-extinct Madeiran land snails on Portugal's Bugio Island; local conservation effort with minimal daily life impact."
-    },
-    "us walks out of un security council meeting during france's remarks": {
-      "detected_at": "2026-07-28T13:01:32.751291Z",
-      "peak_at": "2026-07-28T13:01:32.751291Z",
-      "peak_score_at": "2026-07-28T13:01:32.751291Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "neutral",
-      "title": "US walks out of UN Security Council meeting during France's remarks",
-      "peak_label": "US exits UN meeting after voting with Russia",
-      "peak_summary": "US diplomatic isolation at UN; distant event with no direct link to Portuguese economy or daily life."
     },
     "several dead in japan after magnitude 7.1 earthquake causes blast at mall": {
       "detected_at": "2026-07-28T12:12:47.393308Z",
@@ -253,21 +257,11 @@
       "title": "Oil price dives as US and Iran pause attacks",
       "peak_label": "US-Iran pause attacks, oil prices drop sharply",
       "peak_summary": "US halts strikes on Iran for diplomatic talks, reducing energy costs for Portugal's economy and easing inflation pressure."
-    },
-    "devastating european wildfires in maps - and how they're being tackled": {
-      "detected_at": "2026-07-27T15:13:08.450118Z",
-      "peak_at": "2026-07-27T15:13:08.450118Z",
-      "peak_score_at": "2026-07-27T15:13:08.450118Z",
-      "peak_score": 4.3,
-      "peak_sentiment": "negative",
-      "title": "Devastating European wildfires in maps - and how they're being tackled",
-      "peak_label": "European wildfires spread Spain France mass evacuations",
-      "peak_summary": "Massive fires near Bordeaux and Madrid force 300k+ evacuations, with Madrid seeing worst fires ever—direct threat to Portugal's Iberian neighbors."
     }
   },
   "prev_top_event_titles": [
-    "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
     "[Al Jazeera] France and Spain brace for heatwave that could worsen raging wildfires",
-    "[Al Jazeera] Trump says 'good chance' of progress in Iran talks. What we know"
+    "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
+    "[BBC] US walks out of UN Security Council meeting during France's remarks"
   ]
 }
