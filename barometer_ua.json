@@ -1,12 +1,31 @@
 {
-  "global_score": 3.1,
-  "rationale": "Zelenskyy-Trump meeting and Senate sanctions vote represent continuation of US aid policy discussions; Ukraine-Iran tensions remain background without new escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "Ukraine's Caspian strike on Iranian vessel expands conflict theater and triggers Iranian threats of retaliation; Zelenskyy-Trump meeting as Senate votes on Russia sanctions; direct operational developments. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+      "label": "Ukraine hits Iranian ship, Tehran threatens response",
+      "summary": "Ukraine's strike on Iranian Caspian vessel expands conflict beyond theater; Iran's foreign minister warns action 'cannot go unanswered,' raising risk of new front opening against Ukraine.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-27T17:08:01.642564Z"
+    },
     {
       "title": "Ukraine's Zelenskyy set to meet Trump as Iran and Ukraine wars converge",
       "label": "Zelenskyy meets Trump as Senate votes sanctions",
-      "summary": "Presidential meeting continues as US Senate votes on Russian sanctions; ongoing US aid policy discussions without new qualitative change.",
-      "score": 3.1,
+      "summary": "Presidential meeting coincides with US Senate vote on Russian sanctions; critical moment for US aid policy as Ukraine's conflict expands to Iranian targets.",
+      "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,28 +41,9 @@
       "detected_at": "2026-07-27T11:59:49.477950Z"
     },
     {
-      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-      "label": "Ukraine dismisses Iran threats after strike",
-      "summary": "Iran threatens retaliation for Caspian vessel strike; Ukraine-Iran tensions continue without new military action.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T17:08:01.642564Z"
-    },
-    {
       "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "Trump confirms Iran talks during pause",
-      "summary": "US-Iran diplomatic engagement continues; potential indirect impact on US focus and Ukraine aid remains uncertain.",
+      "label": "Trump confirms Iran talks during strike pause",
+      "summary": "US-Iran diplomatic engagement during military pause may shift American focus away from Ukraine aid if Middle East tensions consume resources.",
       "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -67,17 +67,17 @@
   ],
   "short_summary": "UK PM pledges continued Ukraine support",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-28T04:01:18.319367Z",
+  "updated_at": "2026-07-28T06:40:01.473302Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK PM pledges continued Ukraine support",
     "summary": "New UK leader Burnham reaffirms military aid to Ukraine before Zelensky's first visit, providing crucial reassurance on Western support during the war.",
     "title": "UK PM pledges continued support for Ukraine ahead of Zelensky visit",
-    "score": 4.7,
+    "score": 4.6,
     "sentiment": "positive",
     "detected_at": "2026-07-27T11:59:49.477950Z",
     "peak_at": "2026-07-27T11:59:49.477950Z"
@@ -143,6 +143,10 @@
     {
       "t": "2026-07-28T04:01:18.319367Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-28T06:40:01.473302Z",
+      "s": 3.5
     }
   ]
 }

@@ -1,49 +1,11 @@
 {
-  "global_score": 3.0,
-  "rationale": "Bordeaux wildfire continues as major Iberian neighbor threat; other events remain distant background for Portugal. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "Distant geopolitical developments (Ukraine-Iran, Trump talks) have minimal direct impact on Portuguese daily life; no Iberian-specific events this cycle.",
   "top_events": [
     {
-      "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-      "label": "Bordeaux wildfire nine miles from city",
-      "summary": "Fire threatens major French city near Iberian peninsula; EU neighbor crisis continues with evacuation preparations.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-27T18:47:04.954503Z"
-    },
-    {
-      "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
-      "label": "Canada lightning triggers 90 active wildfires",
-      "summary": "Major Canadian wildfire season continues; distant climate pattern with no direct Portuguese impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada"
-        }
-      ],
-      "detected_at": "2026-07-27T15:13:08.450118Z"
-    },
-    {
       "title": "Trump says Iran war talks taking place during lull in strikes",
-      "label": "US-Iran talks during military pause",
-      "summary": "US-Iran diplomatic engagement continues; distant event with minimal impact on Portuguese energy costs.",
+      "label": "Trump confirms Iran talks during strike pause",
+      "summary": "US-Iran diplomatic engagement may indirectly affect EU energy prices if tensions ease, though impact on Portugal remains minimal and uncertain.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,16 +25,54 @@
         }
       ],
       "detected_at": "2026-07-27T22:01:24.118857Z"
+    },
+    {
+      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
+      "label": "Ukraine strikes Iranian vessel in Caspian",
+      "summary": "Ukraine's attack on Iranian ship links distant conflicts; no direct impact on Portuguese daily life or economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-28T06:40:01.471377Z"
+    },
+    {
+      "title": "Thousands of lightning strikes trigger fresh wildfires in western Canada",
+      "label": "Canada wildfires intensify, 90 active blazes",
+      "summary": "Major Canadian wildfire season continues; distant event with no connection to Portuguese life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/24/thousands-of-lightning-strikes-trigger-fresh-wildfires-in-western-canada"
+        }
+      ],
+      "detected_at": "2026-07-27T15:13:08.450118Z"
     }
   ],
   "short_summary": "Southwest Europe wildfires force evacuations",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-28T04:01:18.318081Z",
+  "updated_at": "2026-07-28T06:40:01.471377Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Southwest Europe wildfires force evacuations",
     "summary": "France and Spain evacuate 325,000+ as wildfires rage. Direct threat to Iberian Peninsula; Macron calls crisis meeting as fire approaches Bordeaux.",
@@ -143,6 +143,10 @@
     {
       "t": "2026-07-28T04:01:18.318081Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-28T06:40:01.471377Z",
+      "s": 2.0
     }
   ]
 }
