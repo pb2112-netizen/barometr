@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-07-29T04:01:02.690626Z",
-  "ostatnia_ocena": 4.1,
+  "updated_at": "2026-07-29T06:44:47.982877Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Seattle food festival shooting — three dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Shooting near Space Needle kills three, several injured."
     },
     {
       "temat": "US-Iran attacks pause for diplomatic talks — temporary de-escalation",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "US halts strikes to allow negotiations; energy prices ease."
     },
     {
       "temat": "Trump mail-in voting restrictions — Supreme Court case",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Admin seeks court approval for ballot restrictions."
     },
     {
       "temat": "Boeing 737 MAX seat safety inspections — FAA order",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "453 US jets require inspection; potential flight delays."
     },
     {
       "temat": "US-UN diplomatic row — Security Council walkout",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "US exits UN meeting after voting with Russia, North Korea."
     },
     {
       "temat": "Venezuelan deportation lawsuit — immigration policy challenge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Aviation firms sued over Trump-era deportations to Salvador."
     },
     {
       "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 3,
       "opis": "Houthis declare naval blockade, target Saudi oil tankers."
+    },
+    {
+      "temat": "US bans Chinese humanoid robots — tech policy",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "US-China AI race intensifies with new robot import ban."
     }
   ],
   "score_history": [
@@ -182,10 +188,44 @@
     {
       "t": "2026-07-29T04:01:02.684899Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-07-29T06:44:47.977042Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-07-29T01:01:23.726873Z",
   "event_detected_at": {
+    "iran attacks us bases in middle east as trump meets netanyahu": {
+      "detected_at": "2026-07-29T00:11:48.854819Z",
+      "peak_at": "2026-07-29T00:11:48.854819Z",
+      "peak_score_at": "2026-07-29T00:11:48.854819Z",
+      "peak_score": 3.9,
+      "peak_sentiment": "negative",
+      "title": "Iran war live: US accuses IRGC of 'surprise' ballistic missile attacks",
+      "peak_label": "US accuses Iran of surprise ballistic missile strikes",
+      "peak_summary": "US claims Iran launched surprise ballistic missile attacks as Saudi Arabia intercepts drones and Iran warns of action to maintain Hormuz control; direct US military involvement in Gulf escalation."
+    },
+    "haitians living in fear as temporary protected status ends in the us": {
+      "detected_at": "2026-07-29T03:37:06.818888Z",
+      "peak_at": "2026-07-29T06:44:47.977042Z",
+      "peak_score_at": "2026-07-29T06:44:47.977042Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Haitians living in fear as Temporary Protected Status ends in the US",
+      "peak_label": "Haitian TPS ends, community faces deportation fear",
+      "peak_summary": "Temporary Protected Status terminated Monday. New York's Haitian community in limbo; confirmed policy change affecting US residents."
+    },
+    "trump administration bans new chinese humanoid robots": {
+      "detected_at": "2026-07-29T06:44:47.977042Z",
+      "peak_at": "2026-07-29T06:44:47.977042Z",
+      "peak_score_at": "2026-07-29T06:44:47.977042Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "Trump administration bans new Chinese humanoid robots",
+      "peak_label": "US bans new Chinese humanoid robots",
+      "peak_summary": "US-China robotics and AI race intensifies with new ban. Policy action affecting tech sector; no immediate daily life impact for most residents."
+    },
     "iran and us trade strikes, shattering brief lull in fighting": {
       "detected_at": "2026-07-29T01:01:23.726873Z",
       "peak_at": "2026-07-29T01:01:23.726873Z",
@@ -206,16 +246,6 @@
       "peak_label": "Shooting near Seattle kills three",
       "peak_summary": "Two suspects shot at each other at a food festival near Seattle's Space Needle, killing three and injuring several; one suspect in custody, one at large."
     },
-    "haitians living in fear as temporary protected status ends in the us": {
-      "detected_at": "2026-07-29T03:37:06.818888Z",
-      "peak_at": "2026-07-29T03:37:06.818888Z",
-      "peak_score_at": "2026-07-29T03:37:06.818888Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Haitians living in fear as Temporary Protected Status ends in the US",
-      "peak_label": "US ends Haiti Temporary Protected Status",
-      "peak_summary": "TPS terminated Monday for Haitians in US. Immigration policy action affecting specific community; limited national economic impact."
-    },
     "yemen's houthis claim missile attack on saudi arabia oil tanker": {
       "detected_at": "2026-07-29T00:11:48.854819Z",
       "peak_at": "2026-07-29T01:01:23.726873Z",
@@ -225,16 +255,6 @@
       "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
       "peak_label": "Houthis attack Saudi oil tanker in Red Sea",
       "peak_summary": "Houthis declare naval blockade targeting Saudi tankers. Red Sea shipping disruption threatens energy markets and may require US naval response to protect commercial routes."
-    },
-    "iran war live: us accuses irgc of 'surprise' ballistic missile attacks": {
-      "detected_at": "2026-07-29T00:11:48.854819Z",
-      "peak_at": "2026-07-29T00:11:48.854819Z",
-      "peak_score_at": "2026-07-29T00:11:48.854819Z",
-      "peak_score": 4.0,
-      "peak_sentiment": "negative",
-      "title": "Iran war live: US accuses IRGC of 'surprise' ballistic missile attacks",
-      "peak_label": "US accuses Iran of surprise ballistic missile strikes",
-      "peak_summary": "US claims Iran launched surprise ballistic missile attacks as Saudi Arabia intercepts drones and Iran warns of action to maintain Hormuz control; direct US military involvement in Gulf escalation."
     },
     "shots fired near us consulate in canada for second time in four months": {
       "detected_at": "2026-07-27T17:08:01.643691Z",
@@ -288,8 +308,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Iran and US trade strikes, shattering brief lull in fighting",
-    "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-    "Haitians living in fear as Temporary Protected Status ends in the US"
+    "Iran attacks US bases in Middle East as Trump meets Netanyahu",
+    "Haitians living in fear as Temporary Protected Status ends in the US",
+    "Trump administration bans new Chinese humanoid robots"
   ]
 }
