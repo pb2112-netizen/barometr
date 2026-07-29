@@ -1,13 +1,32 @@
 {
-  "global_score": 2.5,
-  "rationale": "Ongoing France wildfire threat continues without qualitative change; distant events (Japan quake, Middle East strikes, celebrity allegations) have no link to Polish daily life.",
+  "global_score": 3.2,
+  "rationale": "Ukrainian drone strikes on Russian industrial sites represent a qualitative escalation in the war next door, raising spillover risk and regional security concerns for Poland.",
   "top_events": [
     {
+      "title": "Russian industrial sites on fire after Ukrainian drone attacks",
+      "label": "Ukrainian drones strike Russian industrial sites",
+      "summary": "Ukraine escalates drone campaign, hitting Russian warehouses and industrial targets. Raises spillover risk for Poland as the war intensifies on NATO's eastern border.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/russian-industrial-sites-on-fire-after-ukrainian-drone-attacks?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T09:49:19.323283Z"
+    },
+    {
       "title": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
-      "label": "France wildfire threat persists amid 40C heatwave",
-      "summary": "Firefighters face rising temperatures Wednesday that could complicate containment in Gironde. Ongoing EU neighbor climate crisis with no new escalation affecting Poland.",
-      "score": 2.5,
-      "sentiment": "neutral",
+      "label": "France wildfires flare as 40C heatwave looms",
+      "summary": "Firefighters brace for Wednesday temperature spike threatening containment in Gironde. Indirect climate threat to EU neighbor, minimal direct impact on Poland.",
+      "score": 2.4,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,36 +41,12 @@
       "detected_at": "2026-07-28T14:36:39.555710Z"
     },
     {
-      "title": "Japan in a 'race against time' to rescue people trapped beneath rubble after quake",
-      "label": "Japan earthquake kills 13 on Kyushu island",
-      "summary": "Magnitude 7.1 quake strikes Kyushu; rescue efforts underway. Distant disaster with no impact on Poland.",
-      "score": 2.0,
+      "title": "US and Saudi Arabia strike 'Iran-aligned' groups in Iraq",
+      "label": "US and Saudi Arabia strike Iraq militias",
+      "summary": "Joint strikes target Iran-backed groups after attacks on US bases and Saudi energy infrastructure. Distant conflict with potential energy market ripple effects.",
+      "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/c3r0pg0dgrgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/latest-images-of-damage-as-death-toll-from-japans-kyushu-quake-rises?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T12:12:47.390099Z"
-    },
-    {
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militia",
-      "label": "US and Saudi Arabia strike Iran-backed militia",
-      "summary": "Coordinated strikes target proxy group after attacks on US bases and Saudi energy infrastructure. Distant Middle East conflict with no direct Polish link.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -64,20 +59,20 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/us-and-saudi-arabia-strike-iran-aligned-groups-in-iraq?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T01:01:23.718301Z"
     }
   ],
   "short_summary": "Zelensky presses Trump on Ukraine air defenses",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-29T07:01:29.719475Z",
+  "updated_at": "2026-07-29T09:49:19.323283Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Zelensky presses Trump on Ukraine air defenses",
     "summary": "Ukraine's leader seeks firm US commitments on anti-ballistic missile defenses as Russia escalates deadly attacks, potentially affecting regional security dynamics near Poland's eastern border.",
@@ -232,6 +227,10 @@
     {
       "t": "2026-07-29T07:01:29.719475Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-29T09:49:19.323283Z",
+      "s": 3.2
     }
   ]
 }

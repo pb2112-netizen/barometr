@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-07-29T07:01:29.728885Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-07-29T09:49:19.331378Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": "2026-07-20T16:01:39.111535Z",
   "stan_swiata": [
     {
       "temat": "Spain-France heatwave — wildfire spread risk",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
       "opis": "Soaring temperatures Wednesday could spread blazes to."
     },
     {
+      "temat": "Ukrainian drone strikes on Russian industrial sites",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukraine escalates drone campaign, hitting Russian."
+    },
+    {
+      "temat": "US-Saudi joint strikes on Iraq militias",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 0,
+      "opis": "Joint strikes target Iran-backed groups after attacks."
+    },
+    {
       "temat": "Zelensky-Trump air defense talks — US Ukraine policy",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 15,
       "opis": "Zelensky seeks firm US air defense commitments from Trump."
     },
     {
       "temat": "Gironde wildfire escalation — EU neighbor crisis intensifies",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 16,
       "opis": "40C heatwave threatens containment; major French city at."
     },
     {
-      "temat": "Japan Kumamoto earthquake — distant disaster",
+      "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
-      "opis": "Magnitude 7.1 quake kills several; no link to Poland."
-    },
-    {
-      "temat": "Uganda Ebola outbreak ends — distant health news",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Uganda declares outbreak over; no link to Poland."
+      "cykle_bez_zmian": 5,
+      "opis": "Houthis target Saudi oil tankers; potential energy market."
     },
     {
       "temat": "Iran-US ballistic missile exchange — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "US intercepts Iranian missiles; distant conflict, no Polish."
     },
     {
-      "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
-      "opis": "Houthis target Saudi oil tankers; potential energy market."
+      "temat": "Uganda Ebola outbreak ends — distant health news",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
+      "opis": "Uganda declares outbreak over; no link to Poland."
     }
   ],
   "score_history": [
@@ -190,19 +196,43 @@
     {
       "t": "2026-07-29T07:01:29.719475Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-29T09:49:19.323283Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-07-28T12:12:47.390099Z",
   "event_detected_at": {
+    "russian industrial sites on fire after ukrainian drone attacks": {
+      "detected_at": "2026-07-29T09:49:19.323283Z",
+      "peak_at": "2026-07-29T09:49:19.323283Z",
+      "peak_score_at": "2026-07-29T09:49:19.323283Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Russian industrial sites on fire after Ukrainian drone attacks",
+      "peak_label": "Ukrainian drones strike Russian industrial sites",
+      "peak_summary": "Ukraine escalates drone campaign, hitting Russian warehouses and industrial targets. Raises spillover risk for Poland as the war intensifies on NATO's eastern border."
+    },
     "wildfires in south-west france flare up as region braces for new 40c heatwave": {
       "detected_at": "2026-07-28T14:36:39.555710Z",
       "peak_at": "2026-07-28T14:36:39.555710Z",
       "peak_score_at": "2026-07-28T14:36:39.555710Z",
-      "peak_score": 3.3,
+      "peak_score": 3.2,
       "peak_sentiment": "negative",
       "title": "[BBC] Gironde wildfires pick up as French region braces for new 40C heatwave",
       "peak_label": "Gironde fires intensify as France braces heatwave",
       "peak_summary": "Firefighters face sharp temperature rise Wednesday complicating containment of wildfires near Bordeaux. EU neighbor crisis signals broader climate threat pattern affecting Poland's region."
+    },
+    "us and saudi arabia strike 'iran-aligned' groups in iraq": {
+      "detected_at": "2026-07-29T01:01:23.718301Z",
+      "peak_at": "2026-07-29T01:01:23.718301Z",
+      "peak_score_at": "2026-07-29T01:01:23.718301Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Iran and US trade strikes, shattering brief lull in fighting",
+      "peak_label": "Iran and US trade ballistic missile strikes",
+      "peak_summary": "US Central Command intercepts multiple Iranian ballistic missiles. Distant Middle East escalation with no direct link to Polish security or energy supply."
     },
     "japan in a 'race against time' to rescue people trapped beneath rubble after quake": {
       "detected_at": "2026-07-28T12:12:47.390099Z",
@@ -213,16 +243,6 @@
       "title": "Many feared dead from 7.1-magnitude quake in Kumamoto, Japan",
       "peak_label": "Japan 7.1 quake causes widespread damage",
       "peak_summary": "Powerful earthquake strikes Kumamoto with injuries and feared deaths. Distant disaster with no link to Poland."
-    },
-    "saudi arabia joins us in strikes on iran-backed militia": {
-      "detected_at": "2026-07-29T01:01:23.718301Z",
-      "peak_at": "2026-07-29T01:01:23.718301Z",
-      "peak_score_at": "2026-07-29T01:01:23.718301Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "peak_label": "Iran and US trade ballistic missile strikes",
-      "peak_summary": "US Central Command intercepts multiple Iranian ballistic missiles. Distant Middle East escalation with no direct link to Polish security or energy supply."
     },
     "zelensky and netanyahu meet trump as wars in ukraine and iran drag on": {
       "detected_at": "2026-07-28T12:12:47.390099Z",
@@ -316,8 +336,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Russian industrial sites on fire after Ukrainian drone attacks",
     "Wildfires in south-west France flare up as region braces for new 40C heatwave",
-    "Japan in a 'race against time' to rescue people trapped beneath rubble after quake",
-    "Saudi Arabia joins US in strikes on Iran-backed militia"
+    "US and Saudi Arabia strike 'Iran-aligned' groups in Iraq"
   ]
 }
