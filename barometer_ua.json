@@ -1,73 +1,83 @@
 {
-  "global_score": 5.5,
-  "rationale": "Ukrainian drone strikes on Russian industrial sites continue the known escalation pattern; Russia charges Telegram founder Durov with facilitating terrorism, a new legal action targeting Ukrainian intelligence operations.",
+  "global_score": 4.0,
+  "rationale": "Ukrainian drone strikes on Russian industrial sites continue at the same intensity; no new qualitative change in the military situation this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russian industrial sites on fire after Ukrainian drone attacks",
-      "label": "Ukraine hits Russian warehouses with drones",
-      "summary": "Ukraine's drone campaign continues targeting Russian logistics including Wildberries warehouses in Ryazan; ongoing escalation with no qualitative change.",
-      "score": 5.5,
-      "sentiment": "positive",
+      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
+      "label": "Russia charges Telegram founder with terrorism",
+      "summary": "FSB accuses Durov of failing to remove Ukrainian intelligence content. Continuation of Russian pressure on communication tools used by Ukraine.",
+      "score": 4.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/29/russian-industrial-sites-on-fire-after-ukrainian-drone-attacks?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T09:49:19.328391Z"
-    },
-    {
-      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "label": "Russia charges Durov over Ukraine intelligence",
-      "summary": "FSB accuses Telegram of failing to remove Ukrainian secret service recruitment channels; new legal pressure on critical Ukrainian communication tool.",
-      "score": 4.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T10:01:20.999312Z"
     },
     {
-      "title": "Zelensky and Netanyahu meet Trump as wars in Ukraine and Iran drag on",
-      "label": "Zelensky meets Trump at White House",
-      "summary": "Zelensky holds bilateral with Trump; ongoing US aid discussions with no new commitments announced.",
-      "score": 2.7,
+      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
+      "label": "US-Saudi joint strikes hit Iraq militias",
+      "summary": "Joint strikes target Iran-backed groups after attacks on US bases and Saudi energy infrastructure. Distant conflict with no direct impact on Ukraine.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/iran-hits-us-in-jordan-us-saudi-strikes-on-iraq-is-war-spreading?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T00:11:48.852975Z"
+    },
+    {
+      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+      "label": "Japan quake kills 13, aftershocks continue",
+      "summary": "Magnitude 7 aftershocks possible after deadly Kyushu earthquake. Distant event with no impact on Ukraine's war situation.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4k2z8z45ro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-07-28T12:12:47.395598Z"
     }
   ],
   "short_summary": "Ukrainian drones strike Russian industrial sites",
-  "level_label": "Elevated",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-29T10:01:20.999312Z",
+  "updated_at": "2026-07-29T12:20:26.533707Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukrainian drones strike Russian industrial sites",
     "summary": "Ukraine escalates drone campaign, hitting Russian warehouses including major retailer Wildberries in Ryazan. Significant offensive escalation directly affecting the war effort.",
@@ -79,10 +89,6 @@
   },
   "events_anchor_at": "2026-07-29T09:49:19.328391Z",
   "score_history": [
-    {
-      "t": "2026-07-27T11:59:49.477950Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-27T12:33:13.048324Z",
       "s": 3.5
@@ -230,6 +236,10 @@
     {
       "t": "2026-07-29T10:01:20.999312Z",
       "s": 5.5
+    },
+    {
+      "t": "2026-07-29T12:20:26.533707Z",
+      "s": 4.0
     }
   ]
 }

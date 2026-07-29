@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-07-29T10:01:21.007658Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-07-29T12:20:26.542601Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US-Iran attacks pause for diplomatic talks — temporary de-escalation",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
-      "opis": "US halts strikes to allow negotiations; energy prices ease."
-    },
-    {
       "temat": "US-Saudi joint strikes on Iraq militias",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "Joint strikes target Iran-backed groups after attacks."
     },
     {
-      "temat": "Trump spy chief Jay Clayton confirmed by Senate",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
-      "opis": "Senate confirms Clayton after rejecting original choice."
+      "temat": "Japan Kyushu earthquake — 13 dead, aftershocks",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Magnitude 7 aftershocks possible; distant event, no link."
+    },
+    {
+      "temat": "Toronto US consulate shooting — second incident",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Shots fired near Toronto compound; no injuries, security."
     },
     {
       "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 7,
       "opis": "Houthis declare naval blockade, target Saudi oil tankers."
     },
     {
+      "temat": "US-Iran attacks pause for diplomatic talks — temporary de-escalation",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
+      "opis": "US halts strikes to allow negotiations; energy prices ease."
+    },
+    {
+      "temat": "Trump spy chief Jay Clayton confirmed by Senate",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
+      "opis": "Senate confirms Clayton after rejecting original choice."
+    },
+    {
       "temat": "US bans Chinese humanoid robots — tech policy",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "US-China AI race intensifies with new robot import ban."
     },
     {
       "temat": "Venezuelan deportation lawsuit — immigration policy challenge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Aviation firms sued over Trump-era deportations to Salvador."
-    },
-    {
-      "temat": "Seattle food festival shooting — three dead",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Shooting near Space Needle kills three, several injured."
-    },
-    {
-      "temat": "US-UN diplomatic row — Security Council walkout",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "US exits UN meeting after voting with Russia, North Korea."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-27T11:59:49.479154Z",
-      "s": 5.0
-    },
     {
       "t": "2026-07-27T12:33:13.049098Z",
       "s": 4.7
@@ -204,6 +200,10 @@
     {
       "t": "2026-07-29T10:01:21.001335Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-29T12:20:26.536279Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-07-29T01:01:23.726873Z",
@@ -212,11 +212,31 @@
       "detected_at": "2026-07-29T01:01:23.726873Z",
       "peak_at": "2026-07-29T01:01:23.726873Z",
       "peak_score_at": "2026-07-29T01:01:23.726873Z",
-      "peak_score": 4.7,
+      "peak_score": 4.6,
       "peak_sentiment": "negative",
       "title": "Iran and US trade strikes, shattering brief lull in fighting",
       "peak_label": "Iran and US trade ballistic missile strikes",
       "peak_summary": "US Central Command intercepts multiple Iranian ballistic missiles. Direct US military engagement in Middle East escalation, ending brief diplomatic pause."
+    },
+    "more than 100 aftershocks hit japan after powerful quake that killed 13": {
+      "detected_at": "2026-07-29T12:20:26.536279Z",
+      "peak_at": "2026-07-29T12:20:26.536279Z",
+      "peak_score_at": "2026-07-29T12:20:26.536279Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+      "peak_label": "Japan quake kills 13, aftershocks continue",
+      "peak_summary": "Magnitude 7 aftershocks possible after deadly Kyushu earthquake. Distant event with no direct impact on US daily life or economy."
+    },
+    "shots fired near us consulate in canada for second time in four months": {
+      "detected_at": "2026-07-27T17:08:01.643691Z",
+      "peak_at": "2026-07-29T12:20:26.536279Z",
+      "peak_score_at": "2026-07-29T12:20:26.536279Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "peak_label": "Shots fired near US consulate Toronto",
+      "peak_summary": "No injuries reported in shooting near Toronto compound. Second incident in four months raises security concerns at US diplomatic facility."
     },
     "trump's new spy chief jay clayton confirmed by us senate": {
       "detected_at": "2026-07-29T09:49:19.330382Z",
@@ -268,16 +288,6 @@
       "peak_label": "Haitian TPS ends, community faces deportation fear",
       "peak_summary": "Temporary Protected Status terminated Monday. New York's Haitian community in limbo; confirmed policy change affecting US residents."
     },
-    "'a lover of life' - seattle pays tribute to food festival shooting victims": {
-      "detected_at": "2026-07-27T11:59:49.479154Z",
-      "peak_at": "2026-07-28T12:12:47.397557Z",
-      "peak_score_at": "2026-07-27T11:59:49.479154Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Three dead and several injured in shooting at food festival near Seattle's Space Needle",
-      "peak_label": "Shooting near Seattle kills three",
-      "peak_summary": "Two suspects shot at each other at a food festival near Seattle's Space Needle, killing three and injuring several; one suspect in custody, one at large."
-    },
     "yemen's houthis claim missile attack on saudi arabia oil tanker": {
       "detected_at": "2026-07-29T00:11:48.854819Z",
       "peak_at": "2026-07-29T01:01:23.726873Z",
@@ -287,16 +297,6 @@
       "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
       "peak_label": "Houthis attack Saudi oil tanker in Red Sea",
       "peak_summary": "Houthis declare naval blockade targeting Saudi tankers. Red Sea shipping disruption threatens energy markets and may require US naval response to protect commercial routes."
-    },
-    "shots fired near us consulate in canada for second time in four months": {
-      "detected_at": "2026-07-27T17:08:01.643691Z",
-      "peak_at": "2026-07-28T18:44:48.109221Z",
-      "peak_score_at": "2026-07-27T17:08:01.643691Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "peak_label": "US consulate in Toronto attacked again",
-      "peak_summary": "Second shooting near US consulate in Toronto this year; suspect remains at large after high-speed chase, raising security concerns."
     },
     "us walks out of un security council meeting during france's remarks": {
       "detected_at": "2026-07-28T09:47:30.178840Z",
@@ -341,7 +341,7 @@
   },
   "prev_top_event_titles": [
     "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-    "Trump's new spy chief Jay Clayton confirmed by US Senate",
-    "Trump administration bans new Chinese humanoid robots"
+    "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+    "Shots fired near US consulate in Canada for second time in four months"
   ]
 }
