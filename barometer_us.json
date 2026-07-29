@@ -1,50 +1,55 @@
 {
-  "global_score": 3.4,
-  "rationale": "US-Saudi joint strikes on Iraq militias continue; Trump rhetoric on Iran is words not action; Toronto consulate shooting continues.",
+  "global_score": 3.2,
+  "rationale": "Continuation of known background: Fed holds rates (no policy change), Fauci testimony (rhetoric), Middle East tensions; no qualitative new change affecting US daily life this cycle.",
   "top_events": [
     {
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-      "label": "US and Saudi strike Iraq militias",
-      "summary": "US Central Command reports proxy groups attacked US bases and Saudi energy infrastructure. Continues known US military engagement.",
-      "score": 3.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.726873Z"
-    },
-    {
-      "title": "Trump says US to deliver 'beating' to Iran after bases again targeted",
-      "label": "Trump promises major Iran escalation",
-      "summary": "President threatens major escalation after new Iran attacks. Rhetoric only; no confirmed action yet, so low impact on daily life.",
-      "score": 2.5,
+      "title": "US Fed holds interest rates steady citing 'elevated' inflation",
+      "label": "Fed holds rates steady citing inflation",
+      "summary": "Fed maintains rates citing supply shocks and energy prices. Continuation of known monetary policy stance with no new action.",
+      "score": 3.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/7/29/us-fed-holds-interest-rates-steady-citing-elevated-inflation?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-29T00:11:48.854819Z"
+      "detected_at": "2026-07-29T19:01:25.030794Z"
+    },
+    {
+      "title": "Anthony Fauci refuses to answer questions during tense US Senate hearing about Covid origins",
+      "label": "Fauci invokes Fifth Amendment at hearing",
+      "summary": "Former health official declines Senate questions, fearing perjury prosecution. Rhetoric-only hearing with no policy impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/fauci-invokes-fifth-amendment-in-heated-covid-19-senate-hearing?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T15:19:38.315973Z"
     },
     {
       "title": "Shots fired near US consulate in Canada for second time in four months",
       "label": "Shots fired near Toronto US consulate",
-      "summary": "No injuries reported in second shooting incident near Toronto compound. Continues known security concern at US facility.",
-      "score": 2.4,
+      "summary": "No injuries or suspects identified in second incident near Toronto compound. Continuation of known security concern.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-29T17:37:51.313582Z",
+  "updated_at": "2026-07-29T19:01:25.030794Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Houthis attack Saudi oil tanker in Red Sea",
     "summary": "Houthis declare naval blockade targeting Saudi tankers. Red Sea shipping disruption threatens energy markets and may require US naval response to protect commercial routes.",
@@ -79,14 +84,6 @@
   },
   "events_anchor_at": "2026-07-29T00:11:48.854819Z",
   "score_history": [
-    {
-      "t": "2026-07-27T18:47:04.957240Z",
-      "s": 4.2
-    },
-    {
-      "t": "2026-07-27T19:01:21.448025Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-27T20:43:07.868351Z",
       "s": 3.0
@@ -226,6 +223,10 @@
     {
       "t": "2026-07-29T17:37:51.313582Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-07-29T19:01:25.030794Z",
+      "s": 3.2
     }
   ]
 }
