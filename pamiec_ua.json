@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-07-29T16:01:23.964911Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-07-29T17:37:51.318056Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia charges Telegram founder Durov — Ukrainian intelligence tool under pressure",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 5,
       "opis": "FSB accuses Telegram of failing to remove Ukrainian secret."
     },
     {
       "temat": "Japan Kyushu earthquake — 13 dead, aftershocks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Magnitude 7 aftershocks possible; distant event, no link."
     },
     {
       "temat": "Gaza ceasefire collapses — new Israeli strikes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Palestinians report new strikes despite ceasefire claims."
     },
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 6,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Iran-US Gulf escalation — ballistic missile attacks",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "US accuses Iran of surprise ballistic strikes; Hormuz."
     },
     {
       "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 11,
       "opis": "Houthis declare naval blockade, target Saudi oil tankers."
     },
     {
       "temat": "Zelensky-Trump air defense talks — critical aid push",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 10,
       "opis": "Zelensky presses Trump for air defenses as Russia escalates."
     },
     {
       "temat": "Zelenskyy-Trump meeting — US aid policy discussion",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 18,
       "opis": "Presidential meeting as Senate votes on Russia sanctions."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-27T16:01:25.840931Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-07-27T17:08:01.642564Z",
-      "s": 5.1
-    },
     {
       "t": "2026-07-27T18:47:04.956024Z",
       "s": 4.9
@@ -204,10 +196,24 @@
     {
       "t": "2026-07-29T16:01:23.957922Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-07-29T17:37:51.311795Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-07-29T09:49:19.328391Z",
   "event_detected_at": {
+    "russia charges telegram founder durov with facilitating terrorism": {
+      "detected_at": "2026-07-29T10:01:20.999312Z",
+      "peak_at": "2026-07-29T10:01:20.999312Z",
+      "peak_score_at": "2026-07-29T10:01:20.999312Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
+      "peak_label": "Russia charges Durov over Ukraine intelligence",
+      "peak_summary": "FSB accuses Telegram of failing to remove Ukrainian secret service recruitment channels; new legal pressure on critical Ukrainian communication tool."
+    },
     "'there is no ceasefire' say palestinians in gaza after new israeli strikes": {
       "detected_at": "2026-07-29T15:19:38.313566Z",
       "peak_at": "2026-07-29T15:19:38.313566Z",
@@ -218,15 +224,15 @@
       "peak_label": "Gaza ceasefire collapses with new strikes",
       "peak_summary": "Palestinians report new Israeli strikes despite ceasefire claims. Distant conflict with no direct impact on Ukrainian daily life."
     },
-    "russia charges telegram founder durov with facilitating terrorism": {
-      "detected_at": "2026-07-29T10:01:20.999312Z",
-      "peak_at": "2026-07-29T10:01:20.999312Z",
-      "peak_score_at": "2026-07-29T10:01:20.999312Z",
-      "peak_score": 4.1,
+    "more than 100 aftershocks hit japan after powerful quake that killed 13": {
+      "detected_at": "2026-07-28T12:12:47.395598Z",
+      "peak_at": "2026-07-29T00:11:48.852975Z",
+      "peak_score_at": "2026-07-29T00:11:48.852975Z",
+      "peak_score": 2.0,
       "peak_sentiment": "negative",
-      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "peak_label": "Russia charges Durov over Ukraine intelligence",
-      "peak_summary": "FSB accuses Telegram of failing to remove Ukrainian secret service recruitment channels; new legal pressure on critical Ukrainian communication tool."
+      "title": "Many feared dead from 7.1-magnitude quake in Kumamoto, Japan",
+      "peak_label": "Japan 7.1 quake causes widespread damage, deaths",
+      "peak_summary": "Powerful earthquake strikes Kumamoto, Japan, causing building collapses and fires; distant event with no link to Ukraine."
     },
     "trump says us to deliver 'beating' to iran after bases again targeted": {
       "detected_at": "2026-07-29T00:11:48.852975Z",
@@ -237,16 +243,6 @@
       "title": "Iran attacks US bases in Middle East as Trump meets Netanyahu",
       "peak_label": "Iran strikes US bases, hits Hormuz ships",
       "peak_summary": "Iran attacks US forces in Jordan and three ships in Strait of Hormuz. Distant escalation; no direct impact on Ukraine's war or Western aid."
-    },
-    "more than 100 aftershocks hit japan after powerful quake that killed 13": {
-      "detected_at": "2026-07-28T12:12:47.395598Z",
-      "peak_at": "2026-07-29T00:11:48.852975Z",
-      "peak_score_at": "2026-07-29T00:11:48.852975Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Many feared dead from 7.1-magnitude quake in Kumamoto, Japan",
-      "peak_label": "Japan 7.1 quake causes widespread damage, deaths",
-      "peak_summary": "Powerful earthquake strikes Kumamoto, Japan, causing building collapses and fires; distant event with no link to Ukraine."
     },
     "saudi arabia joins us in strikes on iran-backed militias in iraq": {
       "detected_at": "2026-07-29T00:11:48.852975Z",
@@ -350,8 +346,8 @@
     }
   },
   "prev_top_event_titles": [
-    "'There is no ceasefire' say Palestinians in Gaza after new Israeli strikes",
     "Russia charges Telegram founder Durov with facilitating terrorism",
-    "Trump says US to deliver 'beating' to Iran after bases again targeted"
+    "'There is no ceasefire' say Palestinians in Gaza after new Israeli strikes",
+    "More than 100 aftershocks hit Japan after powerful quake that killed 13"
   ]
 }

@@ -1,13 +1,51 @@
 {
-  "global_score": 2.7,
-  "rationale": "Ukrainian drone strikes on Russian sites continue without qualitative change; other events remain distant from Polish daily life.",
+  "global_score": 2.6,
+  "rationale": "Crete firefighter deaths and France heatwave continue EU neighbor wildfire crisis; no new direct impact on Poland.",
   "top_events": [
+    {
+      "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+      "label": "Two firefighters die in Crete wildfires",
+      "summary": "Gale-force winds spread fires across southern Europe, prompting village evacuations. Continues EU neighbor crisis with no direct Polish impact.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T17:37:51.306737Z"
+    },
+    {
+      "title": "France fire crews face searing heat in battle to contain flames",
+      "label": "France battles wildfires in 40C heat",
+      "summary": "Firefighters fight flare-ups in extreme heat in Gironde; some residents refuse evacuation. Continuation of known EU neighbor wildfire situation.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T17:37:51.306737Z"
+    },
     {
       "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
       "label": "Japan aftershocks continue after deadly quake",
-      "summary": "Magnitude 7 aftershocks possible after 13 deaths. Distant event with no impact on Polish life.",
+      "summary": "Officials warn of potential magnitude 7 aftershocks. Distant event with no link to Polish daily life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -20,44 +58,6 @@
         }
       ],
       "detected_at": "2026-07-28T12:12:47.390099Z"
-    },
-    {
-      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "label": "Russia charges Telegram founder with terrorism",
-      "summary": "FSB accuses Durov of failing to remove Ukrainian recruitment channels. Ongoing pressure on communication tool, no new Polish impact.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T12:20:26.526498Z"
-    },
-    {
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-      "label": "US and Saudi strike Iraq militias",
-      "summary": "Joint strikes target Iran-backed groups after attacks on bases and Saudi energy sites. Distant Middle East action, no Polish impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.718301Z"
     }
   ],
   "short_summary": "Zelenskyy Trump discuss Patriot missile production",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-29T16:01:23.952433Z",
+  "updated_at": "2026-07-29T17:37:51.306737Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Zelenskyy Trump discuss Patriot missile production",
     "summary": "Talks included joint Patriot production in Ukraine to strengthen air defense. Continuation of US-Ukraine policy discussions with no new commitments announced.",
@@ -79,14 +79,6 @@
   },
   "events_anchor_at": "2026-07-28T16:50:15.287738Z",
   "score_history": [
-    {
-      "t": "2026-07-27T16:01:25.837620Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-07-27T17:08:01.638745Z",
-      "s": 3.8
-    },
     {
       "t": "2026-07-27T18:47:04.951871Z",
       "s": 3.6
@@ -230,6 +222,10 @@
     {
       "t": "2026-07-29T16:01:23.952433Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-07-29T17:37:51.306737Z",
+      "s": 2.6
     }
   ]
 }

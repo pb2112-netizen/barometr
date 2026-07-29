@@ -1,13 +1,13 @@
 {
-  "global_score": 3.5,
-  "rationale": "US-Saudi strikes on Iraq militias continue; Fauci testimony is rhetoric without policy change; Toronto consulate shooting repeats earlier incident.",
+  "global_score": 3.4,
+  "rationale": "US-Saudi joint strikes on Iraq militias continue; Trump rhetoric on Iran is words not action; Toronto consulate shooting continues.",
   "top_events": [
     {
       "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
       "label": "US and Saudi strike Iraq militias",
-      "summary": "Joint strikes target Iran-backed groups after attacks on US bases and Saudi energy sites. Continuation of ongoing Middle East operations.",
-      "score": 3.5,
-      "sentiment": "neutral",
+      "summary": "US Central Command reports proxy groups attacked US bases and Saudi energy infrastructure. Continues known US military engagement.",
+      "score": 3.4,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,13 +22,32 @@
       "detected_at": "2026-07-29T01:01:23.726873Z"
     },
     {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near Toronto US consulate",
-      "summary": "No injuries or suspects identified in second shooting near Toronto compound. Repeat security incident, no policy impact.",
+      "title": "Trump says US to deliver 'beating' to Iran after bases again targeted",
+      "label": "Trump promises major Iran escalation",
+      "summary": "President threatens major escalation after new Iran attacks. Rhetoric only; no confirmed action yet, so low impact on daily life.",
       "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T00:11:48.854819Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near Toronto US consulate",
+      "summary": "No injuries reported in second shooting incident near Toronto compound. Continues known security concern at US facility.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
-      "title": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
-      "label": "Fauci refuses Senate Covid origins questions",
-      "summary": "Former health official declines Republican questions, citing perjury fears. Testimony without policy outcome, rhetoric only.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T15:19:38.315973Z"
     }
   ],
   "short_summary": "Houthis attack Saudi oil tanker in Red Sea",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-29T16:01:23.959864Z",
+  "updated_at": "2026-07-29T17:37:51.313582Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Houthis attack Saudi oil tanker in Red Sea",
     "summary": "Houthis declare naval blockade targeting Saudi tankers. Red Sea shipping disruption threatens energy markets and may require US naval response to protect commercial routes.",
@@ -79,14 +79,6 @@
   },
   "events_anchor_at": "2026-07-29T00:11:48.854819Z",
   "score_history": [
-    {
-      "t": "2026-07-27T16:01:25.841766Z",
-      "s": 4.6
-    },
-    {
-      "t": "2026-07-27T17:08:01.643691Z",
-      "s": 4.4
-    },
     {
       "t": "2026-07-27T18:47:04.957240Z",
       "s": 4.2
@@ -230,6 +222,10 @@
     {
       "t": "2026-07-29T16:01:23.959864Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-07-29T17:37:51.313582Z",
+      "s": 3.4
     }
   ]
 }
