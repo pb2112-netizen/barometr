@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Ukrainian drone strikes on Russian industrial sites continue at the same intensity; no new qualitative change for Poland's security environment this cycle.",
+  "global_score": 2.9,
+  "rationale": "Ukrainian drone strikes continue without qualitative change; distant events (Japan quake, Ghana blackout, celebrity deaths) have no link to Polish daily life.",
   "top_events": [
     {
       "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-      "label": "Japan quake kills 13, aftershocks continue",
-      "summary": "Magnitude 7 aftershocks possible after deadly Kyushu earthquake. Distant event with no impact on Poland's daily life or economy.",
+      "label": "Japan aftershocks continue after deadly Kyushu quake",
+      "summary": "Magnitude 7 aftershocks possible after Tuesday's earthquake killed 13 on Kyushu island. Distant event with no impact on Polish residents.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -22,34 +22,10 @@
       "detected_at": "2026-07-28T12:12:47.390099Z"
     },
     {
-      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-      "label": "US-Saudi joint strikes hit Iraq militias",
-      "summary": "Joint strikes target Iran-backed groups after attacks on US bases and Saudi energy infrastructure. Distant conflict with no direct link to Poland.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/29/iran-hits-us-in-jordan-us-saudi-strikes-on-iraq-is-war-spreading?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.718301Z"
-    },
-    {
       "title": "Russia charges Telegram founder Durov with facilitating terrorism",
-      "label": "Russia charges Telegram founder with terrorism",
-      "summary": "FSB accuses Durov of failing to remove Ukrainian intelligence content. Indirect impact on Poland as regional information warfare continues.",
-      "score": 3.0,
+      "label": "Russia charges Telegram founder with aiding terrorism",
+      "summary": "FSB accuses Pavel Durov's Telegram of failing to remove Ukrainian intelligence accounts. Continuation of pressure on communication tools used in regional conflict.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -68,14 +44,33 @@
         }
       ],
       "detected_at": "2026-07-29T12:20:26.526498Z"
+    },
+    {
+      "title": "Thousands in Spain return home but new heatwave raises wildfire fears",
+      "label": "Spain heatwave threatens renewed wildfire spread",
+      "summary": "Fourth summer heatwave approaches Spain and France with ongoing fires. Indirect EU neighbor concern but no direct Polish impact.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-28T13:01:32.747384Z"
     }
   ],
   "short_summary": "Zelenskyy Trump discuss Patriot missile production",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-29T12:20:26.526498Z",
+  "updated_at": "2026-07-29T13:01:24.881827Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-28T16:50:15.287738Z",
   "score_history": [
-    {
-      "t": "2026-07-27T12:33:13.045368Z",
-      "s": 3.2
-    },
     {
       "t": "2026-07-27T13:01:27.772161Z",
       "s": 3.1
@@ -240,6 +231,10 @@
     {
       "t": "2026-07-29T12:20:26.526498Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-29T13:01:24.881827Z",
+      "s": 2.9
     }
   ]
 }
