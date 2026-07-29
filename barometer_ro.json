@@ -1,12 +1,55 @@
 {
-  "global_score": 2.8,
-  "rationale": "Iran-US strikes and Houthi Red Sea blockade are distant; wildfires in France continue without new escalation affecting Romania; no direct impact on Black Sea security or Romanian economy this cycle.",
+  "global_score": 2.7,
+  "rationale": "Houthi blockade and Iran-US strikes continue without new developments; Turkey-Iraq energy deal is regional neighbor diplomacy but no immediate Romanian impact; distant events remain background.",
   "top_events": [
     {
+      "title": "Turkiye takes 'historic step' on energy alliance with Iraq",
+      "label": "Turkey secures Iraqi oil stake deal",
+      "summary": "Turkey gains stake in BP-run Kirkuk field, could receive 1M barrels daily. Black Sea neighbor energy shift with potential indirect regional market effects.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/turkiye-takes-historic-step-on-energy-alliance-with-iraq?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T03:37:06.813668Z"
+    },
+    {
+      "title": "Iran and US trade strikes, shattering brief lull in fighting",
+      "label": "Iran fires missiles at US Jordan base",
+      "summary": "US intercepts Iranian ballistic missiles targeting Jordan. Distant Middle East conflict continues with no direct Romanian link.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T01:01:23.720747Z"
+    },
+    {
       "title": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
-      "label": "France wildfire flares as 40C heatwave looms",
-      "summary": "Firefighters brace for Wednesday temperature spike that could complicate containment in Gironde. EU neighbor climate crisis continues without direct Romanian impact.",
-      "score": 2.8,
+      "label": "France wildfire threatens Bordeaux amid heatwave",
+      "summary": "Gironde fires flare as 40C temperatures approach. EU neighbor climate crisis continues without qualitative change.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -20,49 +63,6 @@
         }
       ],
       "detected_at": "2026-07-28T14:36:39.558116Z"
-    },
-    {
-      "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "label": "Iran and US trade ballistic missile strikes",
-      "summary": "US Central Command intercepts multiple Iranian ballistic missiles. Distant Middle East escalation with no direct link to Romanian security or energy supply.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.720747Z"
-    },
-    {
-      "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
-      "label": "Houthis attack Saudi oil tanker in Red Sea",
-      "summary": "Houthis declare naval blockade targeting Saudi tankers. Distant conflict with potential indirect energy market effects, but no immediate Romanian impact confirmed.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/yemens-houthis-claim-missile-attack-on-saudi-arabia-oil-tanker?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.720747Z"
     }
   ],
   "short_summary": "Zelensky seeks US air defense commitments",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-29T01:01:23.720747Z",
+  "updated_at": "2026-07-29T03:37:06.813668Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Zelensky seeks US air defense commitments",
     "summary": "Ukraine's leader presses Trump for anti-ballistic missile defenses as Russia escalates attacks, potentially affecting Black Sea regional security.",
@@ -211,6 +211,10 @@
     {
       "t": "2026-07-29T01:01:23.720747Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-29T03:37:06.813668Z",
+      "s": 2.7
     }
   ]
 }

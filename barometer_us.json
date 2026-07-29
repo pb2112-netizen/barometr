@@ -1,14 +1,14 @@
 {
-  "global_score": 4.5,
-  "rationale": "Iran-US ballistic missile exchange represents confirmed military action involving US forces; Houthi Red Sea blockade targeting Saudi tankers threatens energy markets; both events mark new escalation requiring US military response. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.3,
+  "rationale": "Houthi Red Sea blockade continues as background; Iran-US strikes persist without qualitative change; Seattle shooting and domestic events remain local incidents without national policy impact.",
   "top_events": [
     {
       "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "label": "Iran and US trade ballistic missile strikes",
-      "summary": "US Central Command intercepts multiple Iranian ballistic missiles. Direct US military engagement in Middle East escalation, ending brief diplomatic pause.",
-      "score": 5.0,
+      "label": "Iran fires missiles at US Jordan base",
+      "summary": "US intercepts Iranian ballistic missiles targeting Jordan base. Middle East escalation continues; no change to energy markets or US deployment posture.",
+      "score": 4.3,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -21,34 +21,15 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/29/iran-war-live-us-accuses-irgc-of-surprise-ballistic-missile-attacks?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T01:01:23.726873Z"
     },
     {
-      "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
-      "label": "Houthis attack Saudi oil tanker in Red Sea",
-      "summary": "Houthis declare naval blockade targeting Saudi tankers. Red Sea shipping disruption threatens energy markets and may require US naval response to protect commercial routes.",
-      "score": 4.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/yemens-houthis-claim-missile-attack-on-saudi-arabia-oil-tanker?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T00:11:48.854819Z"
-    },
-    {
       "title": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-      "label": "Seattle mourns three killed in food festival shooting",
-      "summary": "Families grieve three victims killed in shooting near Space Needle. Domestic tragedy continues pattern of public violence without policy change.",
+      "label": "Seattle mourns food festival shooting victims",
+      "summary": "Families remember three killed in Seattle food festival shooting. Local tragedy continues without national policy change.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -63,14 +44,33 @@
         }
       ],
       "detected_at": "2026-07-27T11:59:49.479154Z"
+    },
+    {
+      "title": "Haitians living in fear as Temporary Protected Status ends in the US",
+      "label": "US ends Haiti Temporary Protected Status",
+      "summary": "TPS terminated Monday for Haitians in US. Immigration policy action affecting specific community; limited national economic impact.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/haitians-living-in-fear-as-temporary-protected-status-ends-in-the-us?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T03:37:06.818888Z"
     }
   ],
   "short_summary": "Iran and US trade ballistic missile strikes",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-29T01:01:23.726873Z",
+  "updated_at": "2026-07-29T03:37:06.818888Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -211,6 +211,10 @@
     {
       "t": "2026-07-29T01:01:23.726873Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-07-29T03:37:06.818888Z",
+      "s": 4.3
     }
   ]
 }
