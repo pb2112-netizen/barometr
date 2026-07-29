@@ -1,11 +1,30 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of known background: Ukrainian drone strikes on Russia, US-Saudi Iraq strikes, Telegram-Russia case; no qualitative new change affecting Romanian daily life this cycle.",
+  "rationale": "Continuation of known background: Crete wildfires in EU periphery, Trump rhetoric on Iran, Telegram pressure; no qualitative change affecting Romanian daily life this cycle.",
   "top_events": [
     {
-      "title": "Videos show aftermath of US-Saudi strikes on Iraq PMF bases",
-      "label": "US-Saudi strikes hit Iraq militia bases",
-      "summary": "Coordinated strikes on Iran-backed forces in Iraq; distant Middle East action with no direct link to Romanian security or economy.",
+      "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+      "label": "Crete wildfires kill two firefighters",
+      "summary": "Gale-force winds spread fires on Crete, prompting village evacuations. Distant EU event with no direct impact on Romania.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T17:37:51.308381Z"
+    },
+    {
+      "title": "Trump threatens Iran strikes after attack on US base in Jordan",
+      "label": "Trump threatens Iran strikes after Jordan attack",
+      "summary": "US president says strikes will hit Iran 'very hard' following attack on US forces. Rhetoric only; no confirmed action affecting Romania.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -16,7 +35,7 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/videos-show-aftermath-of-us-saudi-strikes-on-iraq-pmf-bases?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T01:01:23.720747Z"
@@ -24,7 +43,7 @@
     {
       "title": "Russia charges Telegram founder Durov with facilitating terrorism",
       "label": "Russia charges Telegram founder with terrorism",
-      "summary": "FSB accuses Durov's app of failing to remove Ukrainian recruitment channels; continuation of known case, no new impact on Romania.",
+      "summary": "FSB accuses Durov's app of failing to remove Ukrainian recruitment channels. Continuation of known pressure on communication tool.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-07-29T12:20:26.529046Z"
-    },
-    {
-      "title": "Bordeaux wildfire battle continues amid extreme heat",
-      "label": "France battles Gironde wildfire in 40C heat",
-      "summary": "Firefighters fight flare-ups in extreme heat west of Bordeaux; ongoing EU neighbor crisis with no new escalation affecting Romania.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bordeaux-wildfire-battle-continues-amid-extreme-heat?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T17:37:51.308381Z"
     }
   ],
   "short_summary": "Ukrainian drones strike Russian industrial sites",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-29T21:12:20.187291Z",
+  "updated_at": "2026-07-29T22:01:23.633726Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukrainian drones strike Russian industrial sites",
     "summary": "Ukraine escalates drone campaign, hitting Russian warehouses and industrial targets. Direct security concern for Romania as Black Sea neighbor faces intensified conflict.",
@@ -225,6 +225,10 @@
     },
     {
       "t": "2026-07-29T21:12:20.187291Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-07-29T22:01:23.633726Z",
       "s": 2.0
     }
   ]

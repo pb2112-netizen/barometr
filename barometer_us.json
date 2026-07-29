@@ -1,12 +1,31 @@
 {
-  "global_score": 3.0,
-  "rationale": "Continuation of known background: US-Saudi Iraq strikes, Fauci Senate hearing, Toronto consulate shooting; no qualitative new change in US domestic policy, military deployments, or markets this cycle.",
+  "global_score": 2.9,
+  "rationale": "Continuation of known background: Trump rhetoric on Iran (no confirmed action), US-Saudi strikes on Iraq militias, Fauci testimony; no qualitative change to US daily life this cycle.",
   "top_events": [
     {
+      "title": "Trump threatens Iran strikes after attack on US base in Jordan",
+      "label": "Trump threatens Iran strikes after Jordan attack",
+      "summary": "President says US will hit Iran 'very hard' following attack on US forces in Jordan. Rhetoric only; no confirmed military action yet.",
+      "score": 2.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T00:11:48.854819Z"
+    },
+    {
       "title": "Videos show aftermath of US-Saudi strikes on Iraq PMF bases",
-      "label": "US-Saudi strikes hit Iraq militia bases",
-      "summary": "Coordinated strikes on Iran-backed forces in Iraq; continuation of known US military action in Middle East with no new escalation.",
-      "score": 3.0,
+      "label": "US-Saudi strikes hit Iraq PMF bases",
+      "summary": "Coordinated airstrikes target Iran-backed Popular Mobilisation Forces bases. Continuation of known US-Saudi joint strikes on Iraq militias.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,28 +41,9 @@
       "detected_at": "2026-07-29T01:01:23.726873Z"
     },
     {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near Toronto US consulate again",
-      "summary": "No injuries in second shooting near Toronto compound; continuation of known security concern with no new policy impact.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
-        }
-      ],
-      "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
       "title": "Anthony Fauci refuses to answer questions during tense US Senate hearing about Covid origins",
-      "label": "Fauci refuses answers at Senate Covid hearing",
-      "summary": "Former health official declines to answer Republican questions, fearing perjury prosecution; continuation of known partisan hearing.",
+      "label": "Fauci refuses answers at Senate hearing",
+      "summary": "Former health official feared Republicans could use testimony for perjury prosecution. Continuation of known Covid origins hearing.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -61,11 +61,11 @@
     }
   ],
   "short_summary": "Houthis attack Saudi oil tanker in Red Sea",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-29T21:12:20.192456Z",
+  "updated_at": "2026-07-29T22:01:23.639003Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -226,6 +226,10 @@
     {
       "t": "2026-07-29T21:12:20.192456Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-29T22:01:23.639003Z",
+      "s": 2.9
     }
   ]
 }

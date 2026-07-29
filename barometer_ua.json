@@ -1,13 +1,13 @@
 {
-  "global_score": 3.1,
-  "rationale": "Continuation of known background: Russia-Telegram case, Ukrainian drone strikes on Russia, US-Saudi Iraq strikes; no qualitative new change in Ukrainian war situation or Western aid this cycle.",
+  "global_score": 3.0,
+  "rationale": "Continuation of known background: Russia charges Telegram founder (known pressure on communication tool), Trump rhetoric on Iran; no qualitative change to Ukrainian war situation this cycle.",
   "top_events": [
     {
       "title": "Russia charges Telegram founder Durov with facilitating terrorism",
       "label": "Russia charges Telegram founder with terrorism",
-      "summary": "FSB accuses Durov's app of failing to remove Ukrainian recruitment channels; continuation of known case, no new impact on Ukrainian operations.",
-      "score": 3.1,
-      "sentiment": "neutral",
+      "summary": "FSB accuses Durov's app of failing to remove Ukrainian recruitment channels. Continuation of known pressure on critical Ukrainian communication tool.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,9 +22,28 @@
       "detected_at": "2026-07-29T10:01:20.999312Z"
     },
     {
+      "title": "Trump threatens Iran strikes after attack on US base in Jordan",
+      "label": "Trump threatens Iran strikes after Jordan attack",
+      "summary": "US president says strikes will hit Iran 'very hard' following attack on US forces. Rhetoric only; no confirmed action affecting Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-threatens-iran-strikes-after-attack-on-us-base-in-jordan?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T07:01:29.725455Z"
+    },
+    {
       "title": "Videos show aftermath of US-Saudi strikes on Iraq PMF bases",
-      "label": "US-Saudi strikes hit Iraq militia bases",
-      "summary": "Coordinated strikes on Iran-backed forces in Iraq; distant Middle East action with no direct link to Ukrainian war or Western aid.",
+      "label": "US-Saudi strikes hit Iraq PMF bases",
+      "summary": "Coordinated airstrikes target Iran-backed Popular Mobilisation Forces bases. Continuation of known US-Saudi joint strikes on Iraq militias.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-07-29T00:11:48.852975Z"
-    },
-    {
-      "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-      "label": "Japan aftershocks continue after deadly quake",
-      "summary": "Officials warn of magnitude 7 aftershocks in Kyushu; distant event with no link to Ukrainian security or reconstruction.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T12:12:47.395598Z"
     }
   ],
   "short_summary": "Ukrainian drones strike Russian industrial sites",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-29T21:12:20.190797Z",
+  "updated_at": "2026-07-29T22:01:23.637266Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukrainian drones strike Russian industrial sites",
     "summary": "Ukraine escalates drone campaign, hitting Russian warehouses including major retailer Wildberries in Ryazan. Significant offensive escalation directly affecting the war effort.",
@@ -226,6 +226,10 @@
     {
       "t": "2026-07-29T21:12:20.190797Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-29T22:01:23.637266Z",
+      "s": 3.0
     }
   ]
 }
