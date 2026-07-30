@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-07-30T01:01:18.890141Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-07-30T03:27:12.369989Z",
+  "ostatnia_ocena": 4.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Saudi joint strikes on Iraq militias",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Joint strikes target Iran-backed groups after attacks."
     },
     {
       "temat": "Japan Kyushu earthquake — 13 dead, aftershocks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Magnitude 7 aftershocks possible; distant event, no link."
     },
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Turkey-Iraq energy alliance — Kirkuk oil deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Turkey gains stake in Iraqi oilfield; Black Sea neighbor."
     },
     {
       "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Houthis target Saudi oil tankers; potential energy market."
     },
     {
       "temat": "Iran-US ballistic missile exchange — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "US intercepts Iranian missiles; distant conflict, no link."
     },
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "Gale-force winds drive fires across Crete; southeastern EU."
+    },
+    {
+      "temat": "US retaliatory strikes on Iran — Jordan base attack",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "US launches strikes after Iran fires on Jordan bases."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-28T01:01:22.598667Z",
-      "s": 2.8
-    },
     {
       "t": "2026-07-28T03:33:43.734081Z",
       "s": 2.7
@@ -202,11 +204,35 @@
     {
       "t": "2026-07-30T01:01:18.882448Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-30T03:27:12.362223Z",
+      "s": 4.9
     }
   ],
-  "events_anchor_at": "2026-07-29T09:49:19.325262Z",
+  "events_anchor_at": "2026-07-29T01:01:23.720747Z",
   "event_detected_at": {
-    "two firefighters die in crete as wildfires threaten parts of southern europe": {
+    "us launches 'powerful' strikes on iran after attempted attack on american troops": {
+      "detected_at": "2026-07-29T01:01:23.720747Z",
+      "peak_at": "2026-07-30T03:27:12.362223Z",
+      "peak_score_at": "2026-07-30T03:27:12.362223Z",
+      "peak_score": 4.9,
+      "peak_sentiment": "negative",
+      "title": "US launches 'powerful' strikes on Iran after attempted attack on American troops",
+      "peak_label": "US strikes Iran after Jordan base attack",
+      "peak_summary": "US military retaliates against Iran following attacks on Jordan bases. Middle East escalation raises energy security concerns for Black Sea region and EU supply routes."
+    },
+    "one killed in russian missile strikes on kyiv, day after zelenskyy warning": {
+      "detected_at": "2026-07-30T01:01:18.882448Z",
+      "peak_at": "2026-07-30T03:27:12.362223Z",
+      "peak_score_at": "2026-07-30T03:27:12.362223Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+      "peak_label": "Russian missiles kill one in Kyiv strike",
+      "peak_summary": "Russia strikes Kyiv killing civilian, day after Zelenskyy warns of air defense needs. Continued instability in Black Sea neighbor threatens regional security."
+    },
+    "three greek firefighters die as wildfires threaten parts of southern europe": {
       "detected_at": "2026-07-29T17:37:51.308381Z",
       "peak_at": "2026-07-30T00:10:49.284472Z",
       "peak_score_at": "2026-07-30T00:10:49.284472Z",
@@ -215,26 +241,6 @@
       "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
       "peak_label": "Two firefighters die in Crete wildfires",
       "peak_summary": "Gale-force winds drive fires across Crete, killing two firefighters and forcing village evacuations. Southeastern EU solidarity concern but no direct Romanian impact."
-    },
-    "russian ballistic missile strikes on kyiv come after zelenskyy's warning": {
-      "detected_at": "2026-07-30T01:01:18.882448Z",
-      "peak_at": "2026-07-30T01:01:18.882448Z",
-      "peak_score_at": "2026-07-30T01:01:18.882448Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Russian ballistic missile strikes on Kyiv come after Zelenskyy's warning",
-      "peak_label": "Russian ballistic missiles strike Kyiv after warning",
-      "peak_summary": "Russia launches ballistic missile strikes on Kyiv as Zelenskyy returns from US seeking anti-missile defenses. Continuation of known conflict pattern."
-    },
-    "saudi arabia seeks international coalition against houthis in red sea": {
-      "detected_at": "2026-07-29T01:01:23.720747Z",
-      "peak_at": "2026-07-29T01:01:23.720747Z",
-      "peak_score_at": "2026-07-29T01:01:23.720747Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
-      "peak_label": "Houthis attack Saudi oil tanker in Red Sea",
-      "peak_summary": "Houthis declare naval blockade targeting Saudi tankers. Distant conflict with potential indirect energy market effects, but no immediate Romanian impact confirmed."
     },
     "iraq calls saudi-us attacks a 'flagrant violation of sovereignty'": {
       "detected_at": "2026-07-30T00:10:49.284472Z",
@@ -245,16 +251,6 @@
       "title": "Iraq calls Saudi-US attacks a 'flagrant violation of sovereignty'",
       "peak_label": "Iraq condemns Saudi-US strikes on militias",
       "peak_summary": "Prime Minister cancels Saudi trip in protest. Continuation of Middle East tensions with no direct Romanian link."
-    },
-    "trump threatens iran strikes after attack on us base in jordan": {
-      "detected_at": "2026-07-29T01:01:23.720747Z",
-      "peak_at": "2026-07-29T01:01:23.720747Z",
-      "peak_score_at": "2026-07-29T01:01:23.720747Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "peak_label": "Iran and US trade ballistic missile strikes",
-      "peak_summary": "US Central Command intercepts multiple Iranian ballistic missiles. Distant Middle East escalation with no direct link to Romanian security or energy supply."
     },
     "russia charges telegram founder durov with facilitating terrorism": {
       "detected_at": "2026-07-29T12:20:26.529046Z",
@@ -318,8 +314,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
-    "Russian ballistic missile strikes on Kyiv come after Zelenskyy's warning",
-    "Saudi Arabia seeks international coalition against Houthis in Red Sea"
+    "US launches 'powerful' strikes on Iran after attempted attack on American troops",
+    "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+    "Three Greek firefighters die as wildfires threaten parts of southern Europe"
   ]
 }
