@@ -1,12 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "US launches confirmed heavy strikes on Iran after attempted attack on American troops; direct US military action in Middle East. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "US launches heavy strikes on Iran after attack on American troops in Jordan; confirmed military action involving US forces; Ceuta migration and Poland missile are distant; GDP dip is mild continuation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "US military conducts heavy retaliatory strikes after Iran attempted attack on American forces; confirmed action escalating Middle East involvement.",
-      "score": 2.2,
+      "label": "US launches heavy strikes on Iran targets",
+      "summary": "US military conducts retaliatory strikes on Iran after Iranian attack on American troops in Jordan; confirmed action escalating Middle East involvement.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +22,42 @@
       "detected_at": "2026-07-29T00:11:48.854819Z"
     },
     {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian travel to US drops sharply",
-      "summary": "Canadians cut US travel spending by $3.3bn after Trump returns; measurable economic impact on US tourism sector.",
+      "title": "US GDP growth dips as inflation and trade deficits pressure economy",
+      "label": "US GDP growth slows to 1.5 percent",
+      "summary": "GDP grew 1.5% in Q2 down from 2.1% in Q1; mild slowdown with inflation and trade deficit pressure continuing economic headwinds.",
       "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/7/30/us-gdp-growth-dips-as-inflation-and-trade-deficits-pressure-economy?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-30T18:45:07.823849Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near US consulate in Toronto",
+      "summary": "Second shooting incident near Toronto consulate in four months; no injuries, no suspects identified; continuation of security concern.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
         }
       ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
-    },
-    {
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "label": "Trump considers AI controls after hacks",
-      "summary": "Administration signals potential AI regulation shift after OpenAI incidents; policy consideration without enacted change yet.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-30T01:01:18.887596Z"
+      "detected_at": "2026-07-27T17:08:01.643691Z"
     }
   ],
   "short_summary": "Fed holds rates steady citing inflation",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-30T16:48:45.779368Z",
+  "updated_at": "2026-07-30T18:45:07.823849Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,14 +79,6 @@
   },
   "events_anchor_at": "2026-07-29T19:01:25.030794Z",
   "score_history": [
-    {
-      "t": "2026-07-28T16:50:15.294510Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-07-28T18:44:48.109221Z",
-      "s": 2.2
-    },
     {
       "t": "2026-07-28T19:01:21.280152Z",
       "s": 2.1
@@ -234,6 +226,10 @@
     {
       "t": "2026-07-30T16:48:45.779368Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-07-30T18:45:07.823849Z",
+      "s": 2.1
     }
   ]
 }

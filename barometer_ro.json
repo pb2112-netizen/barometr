@@ -1,12 +1,31 @@
 {
-  "global_score": 4.0,
-  "rationale": "Russian missile in NATO Poland continues as regional security concern; no new escalation affecting Romania directly this cycle.",
+  "global_score": 4.5,
+  "rationale": "Danube record low forces shutdown of Hungary's nuclear plant, directly affecting Black Sea region energy and navigation; Russian missile in Poland continues NATO threat; US-Iran distant.",
   "top_events": [
     {
+      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "label": "Danube low levels shut Hungary nuclear plant",
+      "summary": "Record low Danube levels force Hungarian nuclear plant shutdown; Romania, Bulgaria, Serbia also affected by prolonged heatwaves and drought impacting regional energy and shipping.",
+      "score": 4.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-30T18:45:07.818482Z"
+    },
+    {
       "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "label": "Russian missile strikes NATO Poland",
-      "summary": "Russian missile confirmed in Poland 100km from Ukraine border; NATO member hit raises Black Sea regional security concerns for Romania.",
-      "score": 4.0,
+      "label": "Russian missile confirmed in Poland near Ukraine",
+      "summary": "Polish PM confirms Russian missile hit NATO member Poland 100km from Ukraine border, continuing regional security threat already tracked.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,71 +41,49 @@
       "detected_at": "2026-07-30T01:01:18.882448Z"
     },
     {
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "US retaliates after Iran attempted attack on troops; Middle East escalation may affect energy markets indirectly impacting Romanian economy.",
+      "title": "Hundreds of migrants swim from Morocco to Spanish enclave of Ceuta",
+      "label": "Migrants swim from Morocco to Spanish Ceuta",
+      "summary": "Up to 2,000 migrants crossed into Spanish territory from Morocco, straining EU border resources; indirect pressure on EU migration policy.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.720747Z"
-    },
-    {
-      "title": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
-      "label": "Crete wildfires force mass evacuations",
-      "summary": "Greek island fires driven by strong winds; southeastern EU disaster with no direct Romanian impact.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+          "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/30/spanish-enclave-of-ceuta-raises-alarm-as-thousands-cross-morocco-border?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-30T12:04:07.928034Z"
+      "detected_at": "2026-07-30T18:45:07.818482Z"
     }
   ],
   "short_summary": "Russian missile strikes Poland near Ukraine border",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-07-30T16:48:45.774322Z",
+  "updated_at": "2026-07-30T18:45:07.818482Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian missile strikes Poland near Ukraine border",
     "summary": "Missile creates 10m crater inside Poland 100km from Ukraine. Direct threat to NATO eastern flank and Black Sea security environment.",
     "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "score": 6.1,
+    "score": 6.0,
     "sentiment": "negative",
     "detected_at": "2026-07-30T01:01:18.882448Z",
     "peak_at": "2026-07-30T09:41:36.341655Z"
   },
   "events_anchor_at": "2026-07-30T01:01:18.882448Z",
   "score_history": [
-    {
-      "t": "2026-07-28T16:50:15.289979Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-07-28T18:44:48.102864Z",
-      "s": 3.6
-    },
     {
       "t": "2026-07-28T19:01:21.276872Z",
       "s": 3.5
@@ -234,6 +231,10 @@
     {
       "t": "2026-07-30T16:48:45.774322Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-30T18:45:07.818482Z",
+      "s": 4.5
     }
   ]
 }
