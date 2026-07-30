@@ -1,12 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "US launches heavy strikes on Iran after attempted attack on American troops—confirmed military action involving US forces; Toronto consulate shooting is second incident; AI policy shift is rhetoric. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "US launches confirmed heavy strikes on Iran after attempted attack on American troops — qualitatively new military action involving US forces. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran after attack",
-      "summary": "US military conducts heavy retaliatory strikes on Iran after an attempted attack on American troops, restarting missile exchanges after a brief pause—direct US military action.",
-      "score": 2.5,
+      "label": "US launches heavy strikes on Iran",
+      "summary": "US military conducts heavy strikes on Iran after attempted attack on American forces, ending brief calm and resuming direct conflict.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-07-29T00:11:48.854819Z"
     },
     {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near US consulate in Toronto again",
-      "summary": "Shots were fired near the US consulate in Toronto for the second time in four months; no injuries reported but security concern persists.",
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian US travel spending drops sharply",
+      "summary": "Canadians cut US travel by $3.3bn, redirecting to other destinations in apparent response to Trump administration.",
       "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T06:40:49.958968Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near Toronto US consulate",
+      "summary": "Second shooting incident near Toronto compound in four months; no injuries but raises security concerns.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "label": "Trump considers AI controls after OpenAI hacking",
-      "summary": "Trump signals potential AI regulation after OpenAI hacking incidents—rhetoric only, no policy enacted yet; marks shift from hands-off approach.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-30T01:01:18.887596Z"
     }
   ],
   "short_summary": "Fed holds rates steady citing inflation",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-30T13:01:27.585604Z",
+  "updated_at": "2026-07-30T14:30:50.286334Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,10 +79,6 @@
   },
   "events_anchor_at": "2026-07-29T19:01:25.030794Z",
   "score_history": [
-    {
-      "t": "2026-07-28T13:01:32.755212Z",
-      "s": 2.3
-    },
     {
       "t": "2026-07-28T14:36:39.564771Z",
       "s": 3.0
@@ -234,6 +230,10 @@
     {
       "t": "2026-07-30T13:01:27.585604Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-30T14:30:50.286334Z",
+      "s": 2.4
     }
   ]
 }
