@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-07-30T09:41:36.352851Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-07-30T10:01:23.910264Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Toronto US consulate shooting — second incident",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "Shots fired near Toronto compound; no injuries, security."
     },
     {
       "temat": "Trump threatens Iran strikes after Jordan attack",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 9,
       "opis": "President signals retaliation for attack on US forces in."
     },
     {
       "temat": "Canadian travel spending drop — Trump effect",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "Canadians cut US travel by $3.3bn after Trump returns."
     },
     {
       "temat": "Trump AI regulation policy shift",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 7,
       "opis": "Trump signals AI controls after OpenAI hacking incidents."
     },
     {
       "temat": "US-Saudi joint strikes on Iraq militias",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Joint strikes target Iran-backed groups after attacks."
     },
     {
       "temat": "Fauci Senate testimony — Covid origins hearing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Former official refuses to answer Republican questions."
     },
     {
       "temat": "Japan Kyushu earthquake — 13 dead, aftershocks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Magnitude 7 aftershocks possible; distant event, no link."
     },
     {
       "temat": "Trump spy chief Jay Clayton confirmed by Senate",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Senate confirms Clayton after rejecting original choice."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-28T09:47:30.178840Z",
-      "s": 2.2
-    },
     {
       "t": "2026-07-28T10:01:30.978134Z",
       "s": 2.7
@@ -208,6 +204,10 @@
     {
       "t": "2026-07-30T09:41:36.346747Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-30T10:01:23.905903Z",
+      "s": 2.7
     }
   ],
   "events_anchor_at": "2026-07-30T01:01:18.887596Z",
@@ -216,7 +216,7 @@
       "detected_at": "2026-07-29T00:11:48.854819Z",
       "peak_at": "2026-07-30T01:01:18.887596Z",
       "peak_score_at": "2026-07-29T00:11:48.854819Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Iran war live: US accuses IRGC of 'surprise' ballistic missile attacks",
       "peak_label": "US accuses Iran of surprise ballistic missile strikes",
@@ -232,16 +232,6 @@
       "peak_label": "Shots fired near Toronto US consulate again",
       "peak_summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities."
     },
-    "trump considering ai controls after openai hacking incidents": {
-      "detected_at": "2026-07-30T01:01:18.887596Z",
-      "peak_at": "2026-07-30T01:01:18.887596Z",
-      "peak_score_at": "2026-07-30T01:01:18.887596Z",
-      "peak_score": 3.4,
-      "peak_sentiment": "neutral",
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "peak_label": "Trump considers AI controls after OpenAI hacking",
-      "peak_summary": "Administration signals policy shift toward AI regulation following OpenAI security incidents. Marks change from previous hands-off approach to technology."
-    },
     "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
       "detected_at": "2026-07-30T06:40:49.958968Z",
       "peak_at": "2026-07-30T06:40:49.958968Z",
@@ -251,6 +241,16 @@
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
       "peak_label": "Canadians cut US travel by billions",
       "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
+    },
+    "trump considering ai controls after openai hacking incidents": {
+      "detected_at": "2026-07-30T01:01:18.887596Z",
+      "peak_at": "2026-07-30T01:01:18.887596Z",
+      "peak_score_at": "2026-07-30T01:01:18.887596Z",
+      "peak_score": 3.4,
+      "peak_sentiment": "neutral",
+      "title": "Trump considering AI controls after OpenAI hacking incidents",
+      "peak_label": "Trump considers AI controls after OpenAI hacking",
+      "peak_summary": "Administration signals policy shift toward AI regulation following OpenAI security incidents. Marks change from previous hands-off approach to technology."
     },
     "anthony fauci refuses to answer questions during tense us senate hearing about covid origins": {
       "detected_at": "2026-07-29T15:19:38.315973Z",
@@ -281,21 +281,11 @@
       "title": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
       "peak_label": "Japan quake kills 13, aftershocks continue",
       "peak_summary": "Magnitude 7 aftershocks possible after deadly Kyushu earthquake. Distant event with no direct impact on US daily life or economy."
-    },
-    "trump's new spy chief jay clayton confirmed by us senate": {
-      "detected_at": "2026-07-29T09:49:19.330382Z",
-      "peak_at": "2026-07-29T09:49:19.330382Z",
-      "peak_score_at": "2026-07-29T09:49:19.330382Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Trump's new spy chief confirmed by US Senate",
-      "peak_label": "Senate confirms Trump spy chief Jay Clayton",
-      "peak_summary": "Jay Clayton confirmed after Trump's original choice was rejected for lack of experience. Domestic policy change affecting intelligence leadership."
     }
   },
   "prev_top_event_titles": [
     "US launches 'heavy' strikes on Iran after attempted attack on American troops",
     "Shots fired near US consulate in Canada for second time in four months",
-    "Trump considering AI controls after OpenAI hacking incidents"
+    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
   ]
 }
