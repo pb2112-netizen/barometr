@@ -1,11 +1,30 @@
 {
-  "global_score": 2.8,
-  "rationale": "Crete wildfires continue broader European fire season; US-Iran escalation remains distant with mild energy price concern.",
+  "global_score": 2.7,
+  "rationale": "US-Iran strikes and Crete fires continue; no direct impact on Portuguese daily life this cycle.",
   "top_events": [
     {
-      "title": "Thousands evacuated in Crete as Europe battles wildfires",
-      "label": "Crete evacuations as wildfires spread",
-      "summary": "Strong winds drive fires across Greek island, part of ongoing southern Europe wildfire season affecting tourism regions.",
+      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+      "label": "US launches heavy strikes on Iran",
+      "summary": "US resumes missile attacks on Iran after attempted attack; distant escalation with no direct Portuguese link.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T01:01:23.723221Z"
+    },
+    {
+      "title": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
+      "label": "Crete wildfires threaten tourist resorts",
+      "summary": "Strong winds drive fires in Greek island; southern Europe fire season continues.",
       "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,31 +41,12 @@
       "detected_at": "2026-07-28T18:44:48.105340Z"
     },
     {
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "US resumes missile attacks on Iran after pause, with potential indirect effect on energy prices.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.723221Z"
-    },
-    {
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian US travel spending drops sharply",
-      "summary": "Canadians cut US travel by $3.3bn, redirecting to other destinations; signals broader tourism market shifts.",
-      "score": 2.2,
+      "label": "Canadians cut US travel spending sharply",
+      "summary": "Canadians replaced US vacations with other destinations; broader tourism market signal.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-30T14:30:50.283225Z",
+  "updated_at": "2026-07-30T16:01:26.792750Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "France battles Gironde wildfire in extreme heat",
     "summary": "Firefighters struggle against blazes in southwestern France as temperatures soar. Direct Iberian neighbor crisis continues.",
@@ -79,10 +79,6 @@
   },
   "events_anchor_at": "2026-07-29T17:37:51.310240Z",
   "score_history": [
-    {
-      "t": "2026-07-28T14:36:39.560532Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-28T16:01:28.553533Z",
       "s": 3.9
@@ -234,6 +230,10 @@
     {
       "t": "2026-07-30T14:30:50.283225Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-30T16:01:26.792750Z",
+      "s": 2.7
     }
   ]
 }
