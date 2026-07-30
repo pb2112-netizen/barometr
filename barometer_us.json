@@ -1,11 +1,11 @@
 {
-  "global_score": 2.5,
-  "rationale": "US launches confirmed heavy strikes on Iran after attempted attack on American troops—direct military action involving US forces. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "US launches strikes on Iran (continuation of known conflict); school shooter father sentencing (continuation); Toronto consulate shooting (minor incident, no injuries). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "US military conducts retaliatory strikes after Iran attempted attack on American forces; both sides resume missile exchanges.",
+      "label": "US launches heavy strikes on Iran targets",
+      "summary": "US resumes missile attacks on Iran after attempted attack on American troops—continuation of Gulf conflict with US forces directly involved.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,27 +23,32 @@
     },
     {
       "title": "Father of teen school shooter sentenced to 15 years in prison",
-      "label": "School shooter's father gets 15 years",
-      "summary": "Colin Gray sentenced for charges stemming from 2024 deadly school attack; judge says he failed as parent.",
-      "score": 2.5,
+      "label": "School shooter father sentenced fifteen years",
+      "summary": "Colin Gray sentenced to 15 years for role in 2024 school attack that killed four—judicial conclusion to known case.",
+      "score": 2.4,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/30/father-of-georgia-apalachee-school-shooter-sentenced-to-15-years-in-prison?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-30T20:35:09.986232Z"
     },
     {
       "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near Toronto US consulate",
-      "summary": "Second shooting incident near Toronto compound in four months; no injuries, no suspects identified yet.",
+      "label": "Shots fired near Toronto US consulate again",
+      "summary": "Second shooting incident near Toronto consulate in four months; no injuries, no suspects identified—minor security event.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -62,10 +67,10 @@
   ],
   "short_summary": "Trump considers AI controls after OpenAI hacking",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-30T20:35:09.986232Z",
+  "updated_at": "2026-07-30T22:06:26.807539Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-30T01:01:18.887596Z",
   "score_history": [
-    {
-      "t": "2026-07-28T22:01:28.525040Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-28T22:16:28.008449Z",
       "s": 2.0
@@ -230,6 +231,10 @@
     {
       "t": "2026-07-30T20:35:09.986232Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-30T22:06:26.807539Z",
+      "s": 2.4
     }
   ]
 }
