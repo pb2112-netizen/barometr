@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-07-29T23:13:27.548545Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-07-30T00:10:49.290578Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-07-20T16:01:39.111535Z",
   "stan_swiata": [
     {
       "temat": "US-Saudi joint strikes on Iraq militias",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Joint strikes target Iran-backed groups after attacks."
     },
     {
       "temat": "Japan Kyushu earthquake — 13 dead, aftershocks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Magnitude 7 aftershocks possible; distant event, no Polish."
     },
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Houthi Red Sea blockade — Saudi tanker attacks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Houthis target Saudi oil tankers; potential energy market."
     },
     {
       "temat": "Iran-US ballistic missile exchange — Middle East escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "US intercepts Iranian missiles; distant conflict, no Polish."
     },
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Gale-force winds drive fires across Crete; part of EU."
     }
   ],
@@ -192,19 +192,43 @@
     {
       "t": "2026-07-29T23:13:27.540276Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-30T00:10:49.282876Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-07-29T09:49:19.323283Z",
   "event_detected_at": {
     "two firefighters die in crete as wildfires threaten parts of southern europe": {
       "detected_at": "2026-07-29T17:37:51.306737Z",
-      "peak_at": "2026-07-29T17:37:51.306737Z",
-      "peak_score_at": "2026-07-29T17:37:51.306737Z",
-      "peak_score": 2.6,
+      "peak_at": "2026-07-30T00:10:49.282876Z",
+      "peak_score_at": "2026-07-30T00:10:49.282876Z",
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
       "peak_label": "Two firefighters die in Crete wildfires",
-      "peak_summary": "Gale-force winds spread fires across southern Europe, prompting village evacuations. Continues EU neighbor crisis with no direct Polish impact."
+      "peak_summary": "Gale-force winds drive fires across Crete, killing two firefighters and forcing village evacuations. EU solidarity concern but no direct Polish impact."
+    },
+    "saudi arabia seeks international coalition against houthis in red sea": {
+      "detected_at": "2026-07-29T01:01:23.718301Z",
+      "peak_at": "2026-07-29T01:01:23.718301Z",
+      "peak_score_at": "2026-07-29T01:01:23.718301Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
+      "peak_label": "Houthis attack Saudi oil tanker in Red Sea",
+      "peak_summary": "Houthis declare naval blockade targeting Saudi tankers. Distant conflict with potential indirect energy market effects, but no immediate Polish impact confirmed."
+    },
+    "iraq calls saudi-us attacks a 'flagrant violation of sovereignty'": {
+      "detected_at": "2026-07-30T00:10:49.282876Z",
+      "peak_at": "2026-07-30T00:10:49.282876Z",
+      "peak_score_at": "2026-07-30T00:10:49.282876Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iraq calls Saudi-US attacks a 'flagrant violation of sovereignty'",
+      "peak_label": "Iraq condemns Saudi-US strikes on militias",
+      "peak_summary": "Prime Minister cancels Saudi trip in protest. Continuation of Middle East tensions with no direct Polish link."
     },
     "trump threatens iran strikes after attack on us base in jordan": {
       "detected_at": "2026-07-29T01:01:23.718301Z",
@@ -215,16 +239,6 @@
       "title": "Iran and US trade strikes, shattering brief lull in fighting",
       "peak_label": "Iran and US trade ballistic missile strikes",
       "peak_summary": "US Central Command intercepts multiple Iranian ballistic missiles. Distant Middle East escalation with no direct link to Polish security or energy supply."
-    },
-    "saudi arabia's dilemma as it tries to stay out of us-iran war": {
-      "detected_at": "2026-07-29T01:01:23.718301Z",
-      "peak_at": "2026-07-29T01:01:23.718301Z",
-      "peak_score_at": "2026-07-29T01:01:23.718301Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis claim missile attack on Saudi Arabia oil tanker",
-      "peak_label": "Houthis attack Saudi oil tanker in Red Sea",
-      "peak_summary": "Houthis declare naval blockade targeting Saudi tankers. Distant conflict with potential indirect energy market effects, but no immediate Polish impact confirmed."
     },
     "russia charges telegram founder durov with facilitating terrorism": {
       "detected_at": "2026-07-29T12:20:26.526498Z",
@@ -289,7 +303,7 @@
   },
   "prev_top_event_titles": [
     "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
-    "Trump threatens Iran strikes after attack on US base in Jordan",
-    "Saudi Arabia's dilemma as it tries to stay out of US-Iran war"
+    "Saudi Arabia seeks international coalition against Houthis in Red Sea",
+    "Iraq calls Saudi-US attacks a 'flagrant violation of sovereignty'"
   ]
 }
