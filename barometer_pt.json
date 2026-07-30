@@ -1,13 +1,12 @@
 {
-  "global_score": 3.1,
-  "short_summary": "US launches heavy strikes on Iran",
-  "rationale": "Southern Europe wildfires directly threaten Iberian region with firefighter deaths and evacuations; US-Iran escalation has indirect energy price implications.",
+  "global_score": 3.0,
+  "rationale": "Southern Europe wildfires continue with Greek firefighter deaths; US-Iran escalation has indirect energy market impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
-      "label": "Locals fight France wildfire in extreme heat",
-      "summary": "Firefighters battle flare-ups in 40C heat in Gironde as locals refuse evacuation. Direct threat to southwestern Europe, close to Portuguese border region.",
-      "score": 2.8,
+      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
+      "label": "Greek firefighters die as southern Europe fires spread",
+      "summary": "Gale-force winds drive Crete evacuations; three firefighters killed. Part of broader southern European climate threat affecting Iberian peninsula indirectly.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -17,65 +16,56 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-28T14:36:39.560532Z"
-    },
-    {
-      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
-      "label": "Greek firefighters die in Crete wildfires",
-      "summary": "Gale-force winds drive deadly fires on Crete, killing three firefighters. Part of broader southern European fire crisis affecting Mediterranean region.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/aje-onl-nf_dramatic-sea-rescue-as-firefighters-die-in-greece-290726?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-28T18:44:48.105340Z"
     },
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "US and Iran resume missile attacks. Escalation could affect global energy markets and oil prices, with indirect impact on Portugal's fuel costs.",
-      "score": 3.1,
+      "label": "US launches heavy strikes on Iran after troop attack",
+      "summary": "US resumes missile attacks on Iran after attempted strike on forces. Escalation may affect global energy prices and EU economy indirectly.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-launches-powerful-strikes-on-iran-after-jordan-attack?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T01:01:23.723221Z"
+    },
+    {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadians cut US travel spending by billions",
+      "summary": "Canadians replaced US vacations with other international trips. Potential indirect benefit for Portuguese tourism sector seeking alternative markets.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T09:41:36.343285Z"
     }
   ],
+  "short_summary": "US launches heavy strikes on Iran",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-30T07:00:51.039219Z",
+  "updated_at": "2026-07-30T09:41:36.343285Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +79,6 @@
   },
   "events_anchor_at": "2026-07-29T01:01:23.723221Z",
   "score_history": [
-    {
-      "t": "2026-07-28T07:01:02.353547Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-28T09:47:30.175629Z",
       "s": 2.0
@@ -244,6 +230,10 @@
     {
       "t": "2026-07-30T07:00:51.039219Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-30T09:41:36.343285Z",
+      "s": 3.0
     }
   ]
 }
