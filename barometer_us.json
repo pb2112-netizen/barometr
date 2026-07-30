@@ -1,53 +1,39 @@
 {
-  "global_score": 3.1,
-  "rationale": "US launches heavy strikes on Iran after American forces attacked in Jordan, representing a new direct military action involving US troops; other events are continuations or distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US launches heavy strikes on Iran involving American forces directly, marking significant escalation after attack on US troops in Jordan. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran after Jordan attack",
-      "summary": "US military conducts major strikes on Iran in response to Iranian missile attacks on American forces in Jordan, marking a significant escalation in direct US-Iran military confrontation.",
-      "score": 3.1,
+      "label": "US launches heavy strikes on Iran",
+      "summary": "US bombs multiple Iranian cities after attack on American forces in Jordan. Direct US military engagement marks significant escalation in Middle East conflict.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-launches-powerful-strikes-on-iran-after-jordan-attack?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-29T00:11:48.854819Z"
     },
     {
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "label": "Trump considers AI controls after OpenAI hacking",
-      "summary": "Administration signals potential shift toward AI regulation following security incidents, marking a change from previous hands-off approach to technology policy.",
-      "score": 3.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-30T01:01:18.887596Z"
-    },
-    {
       "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near US consulate in Toronto again",
-      "summary": "Second shooting incident near Toronto consulate in four months, though no injuries reported and no suspects identified yet.",
-      "score": 2.0,
+      "label": "Shots fired near Toronto US consulate again",
+      "summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities.",
+      "score": 2.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
@@ -58,6 +44,25 @@
         }
       ],
       "detected_at": "2026-07-27T17:08:01.643691Z"
+    },
+    {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadians cut US travel by billions",
+      "summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T06:40:49.958968Z"
     }
   ],
   "short_summary": "Trump considers AI controls after OpenAI hacking",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-30T04:01:26.186496Z",
+  "updated_at": "2026-07-30T06:40:49.958968Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-30T01:01:18.887596Z",
   "score_history": [
-    {
-      "t": "2026-07-28T06:40:01.475093Z",
-      "s": 2.8
-    },
     {
       "t": "2026-07-28T07:01:02.356805Z",
       "s": 2.8
@@ -230,6 +231,10 @@
     {
       "t": "2026-07-30T04:01:26.186496Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-07-30T06:40:49.958968Z",
+      "s": 3.0
     }
   ]
 }

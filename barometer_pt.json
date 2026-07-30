@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "France wildfires continue to threaten Iberian region with locals refusing evacuation; US-Iran strikes are distant; other events have minimal Portuguese impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Southern Europe wildfires directly threaten Iberian region with firefighter deaths and evacuations; US-Iran escalation has indirect energy price implications.",
   "top_events": [
     {
       "title": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
-      "label": "Locals fight France wildfire in 40C heat",
-      "summary": "Firefighters battle flare-ups in extreme heat in Gironde region as some residents refuse evacuation orders, part of broader Iberian fire threat affecting Portugal's neighbor.",
-      "score": 2.9,
+      "label": "Locals fight France wildfire in extreme heat",
+      "summary": "Firefighters battle flare-ups in 40C heat in Gironde as locals refuse evacuation. Direct threat to southwestern Europe, close to Portuguese border region.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,67 +22,73 @@
       "detected_at": "2026-07-28T14:36:39.560532Z"
     },
     {
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran after Jordan attack",
-      "summary": "US military strikes Iran in response to missile attacks on American forces, escalating Middle East conflict with potential indirect energy market effects for EU.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T01:01:23.723221Z"
-    },
-    {
       "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
-      "label": "Three Greek firefighters die in Crete wildfires",
-      "summary": "Gale-force winds drive deadly fires across Crete, killing firefighters and forcing evacuations in southern EU member state.",
-      "score": 2.4,
+      "label": "Greek firefighters die in Crete wildfires",
+      "summary": "Gale-force winds drive deadly fires on Crete, killing three firefighters. Part of broader southern European fire crisis affecting Mediterranean region.",
+      "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/aje-onl-nf_dramatic-sea-rescue-as-firefighters-die-in-greece-290726?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-28T18:44:48.105340Z"
+    },
+    {
+      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+      "label": "US launches heavy strikes on Iran",
+      "summary": "US and Iran resume missile attacks. Escalation could affect global energy markets and oil prices, with indirect impact on Portugal's fuel costs.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/us-launches-powerful-strikes-on-iran-after-jordan-attack?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-29T01:01:23.723221Z"
     }
   ],
-  "short_summary": "France battles Gironde wildfire in extreme heat",
-  "level_label": "Stable",
+  "short_summary": "US launches heavy strikes on Iran",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-30T04:01:26.182863Z",
+  "updated_at": "2026-07-30T06:40:49.956269Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "France battles Gironde wildfire in extreme heat",
-    "summary": "Firefighters struggle against blazes in southwestern France as temperatures soar. Direct Iberian neighbor crisis continues.",
-    "title": "France fire crews face searing heat in battle to contain flames",
+    "label": "US launches heavy strikes on Iran",
+    "summary": "US and Iran resume missile attacks. Escalation could affect global energy markets and oil prices, with indirect impact on Portugal's fuel costs.",
+    "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
     "score": 3.2,
     "sentiment": "negative",
-    "detected_at": "2026-07-29T17:37:51.310240Z",
-    "peak_at": "2026-07-29T19:42:17.803723Z"
+    "detected_at": "2026-07-29T01:01:23.723221Z",
+    "peak_at": "2026-07-30T06:40:49.956269Z"
   },
-  "events_anchor_at": "2026-07-29T17:37:51.310240Z",
+  "events_anchor_at": "2026-07-29T01:01:23.723221Z",
   "score_history": [
-    {
-      "t": "2026-07-28T06:40:01.471377Z",
-      "s": 2.0
-    },
     {
       "t": "2026-07-28T07:01:02.353547Z",
       "s": 2.0
@@ -230,6 +236,10 @@
     {
       "t": "2026-07-30T04:01:26.182863Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-30T06:40:49.956269Z",
+      "s": 3.2
     }
   ]
 }
