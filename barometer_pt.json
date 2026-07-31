@@ -1,22 +1,27 @@
 {
-  "global_score": 2.2,
-  "rationale": "Ceuta migration crisis continues as largest Iberian border breach; Greek wildfires signal ongoing European fire season. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "Ceuta death toll jumps to 57; Italy suspends Schengen with Spain—direct Iberian neighbor crisis with EU-wide implications for Portugal's border policy and tourism. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-      "label": "Spain deploys troops as 60k migrants enter Ceuta",
-      "summary": "Continuation of largest Iberian border breach; Italy suspends Schengen with Spain. Direct pressure on neighboring Spain affects Portugal indirectly.",
+      "label": "Ceuta crossing leaves 57 dead, troops deployed",
+      "summary": "Death toll rises to 57 in mass Ceuta crossing; Italy suspends Schengen with Spain. Direct impact on Iberian neighbor and EU border integrity affecting Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.820648Z"
@@ -24,8 +29,8 @@
     {
       "title": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
       "label": "Greek wildfire evacuates 500 by sea",
-      "summary": "European fire season continues; 500 evacuated from Greek coast. Climate risk signal for Iberian Peninsula.",
-      "score": 2.2,
+      "summary": "Around 500 evacuated by boat from Agios Vasileios as European wildfire season intensifies. Broader climate risk for southern Europe including Portugal.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -41,20 +46,20 @@
       "detected_at": "2026-07-31T14:37:46.577636Z"
     },
     {
-      "title": "DR Congo Ebola epidemic becomes world's second largest outbreak",
-      "label": "DRC Ebola outbreak becomes second largest ever",
-      "summary": "Death toll nears 1,500; no vaccine for Bundibugyo strain. Distant health crisis with minimal direct impact on Portugal.",
+      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+      "label": "DRC Ebola deaths near 1,500 milestone",
+      "summary": "Death toll approaches 1,500 with no vaccine for strain. Distant health crisis; minimal direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
         }
       ],
       "detected_at": "2026-07-31T10:01:27.979010Z"
@@ -65,24 +70,20 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-31T19:01:25.026703Z",
+  "updated_at": "2026-07-31T20:37:01.737270Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "49,000 migrants cross into Spanish Ceuta enclave",
     "summary": "Mass border crossing overwhelms Spanish territory; 18 deaths reported. Direct impact on Iberian neighbor Spain, raising questions about border security and potential spillover to Portugal.",
     "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
-    "score": 4.6,
+    "score": 4.5,
     "sentiment": "negative",
     "detected_at": "2026-07-30T18:45:07.820648Z",
     "peak_at": "2026-07-31T10:01:27.979010Z"
   },
   "events_anchor_at": "2026-07-30T18:45:07.820648Z",
   "score_history": [
-    {
-      "t": "2026-07-29T19:42:17.803723Z",
-      "s": 3.2
-    },
     {
       "t": "2026-07-29T21:12:20.189214Z",
       "s": 3.1
@@ -230,6 +231,10 @@
     {
       "t": "2026-07-31T19:01:25.026703Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-07-31T20:37:01.737270Z",
+      "s": 2.1
     }
   ]
 }

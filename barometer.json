@@ -1,31 +1,55 @@
 {
-  "global_score": 2.9,
-  "rationale": "Ceuta migration crisis continues as largest EU border breach; no new qualitative change from Polish perspective. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Ceuta mass crossing continues at catastrophic scale (57 dead now reported); Poland formally protests Russian missile incursion—both already tracked but Ceuta death toll rises sharply. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-      "label": "Spain deploys troops as 60k migrants enter Ceuta",
-      "summary": "Largest single-day EU border breach continues; Italy suspends Schengen with Spain. Signals sustained pressure on EU migration system affecting Poland indirectly.",
-      "score": 2.9,
+      "label": "Spain deploys troops as 57 die in Ceuta crossing",
+      "summary": "Death toll from mass Ceuta crossing rises to 57; Italy suspends Schengen with Spain. EU border pressure intensifies, raising migration debate across bloc including Poland.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
+      "title": "Poland protests to Russian ambassador over missile incursion",
+      "label": "Poland protests Russian missile incursion formally",
+      "summary": "Warsaw formally protests recent Russian missile entry into Polish territory, asserting missile was newly made. Confirms ongoing NATO border threat from Ukraine war spillover.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/poland-protests-to-russian-ambassador-over-missile-incursion?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T01:01:29.938108Z"
+    },
+    {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "label": "Russian strike kills family near Kryvyi Rih",
-      "summary": "Ongoing war casualties in Ukraine; no new escalation pattern affecting Polish security directly beyond existing background threat.",
-      "score": 2.5,
+      "label": "Russian strike kills family of five in Ukraine",
+      "summary": "Six killed including three children in missile strike near Kryvyi Rih. Ongoing war violence next door; no direct Polish impact this cycle.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -38,26 +62,7 @@
           "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-31T01:01:29.938108Z"
-    },
-    {
-      "title": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
-      "label": "Greek wildfire evacuates 500 by sea",
-      "summary": "European fire season continues; 500 evacuated from Agios Vasileios. Indirect climate risk signal for Poland.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T18:44:55.558748Z"
+      "detected_at": "2026-07-31T20:37:01.734215Z"
     }
   ],
   "short_summary": "49,000 migrants cross into Spanish Ceuta enclave",
@@ -65,24 +70,20 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-31T19:01:25.024005Z",
+  "updated_at": "2026-07-31T20:37:01.734215Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "49,000 migrants cross into Spanish Ceuta enclave",
     "summary": "Mass crossing into EU territory strains border systems and raises migration pressure across Europe, including potential secondary movement toward Poland and eastern EU states.",
     "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
-    "score": 4.8,
+    "score": 4.7,
     "sentiment": "negative",
     "detected_at": "2026-07-30T18:45:07.816727Z",
     "peak_at": "2026-07-31T10:00:10.766274Z"
   },
   "events_anchor_at": "2026-07-30T18:45:07.816727Z",
   "score_history": [
-    {
-      "t": "2026-07-29T19:42:17.799847Z",
-      "s": 2.4
-    },
     {
       "t": "2026-07-29T21:12:20.185649Z",
       "s": 2.3
@@ -230,6 +231,10 @@
     {
       "t": "2026-07-31T19:01:25.024005Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-31T20:37:01.734215Z",
+      "s": 2.8
     }
   ]
 }

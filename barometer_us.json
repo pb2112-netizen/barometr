@@ -1,49 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "New York sues Kalshi over prediction markets; Hamas disarmament rhetoric continues; no major new domestic or military developments.",
+  "global_score": 2.2,
+  "rationale": "Canadians spent $3.3bn less on US travel in 2025—confirmed economic shift; Trump rhetoric on Hamas disarmament continues without Israeli confirmation (rhetoric, not action). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "New York sues Kalshi, says its prediction markets are 'illegal gambling'",
-      "label": "New York sues Kalshi over prediction markets",
-      "summary": "State lawsuit challenges prediction market legality; dispute with Trump administration over regulatory authority. Domestic regulatory action.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/7/31/new-york-sues-kalshi-says-its-prediction-markets-are-illegal-gambling?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T18:44:55.564471Z"
-    },
-    {
-      "title": "Trump says Hamas disarmament deal will be complex to deliver",
-      "label": "Trump says Hamas disarmament deal complex",
-      "summary": "Continuation of disarmament rhetoric; Trump acknowledges implementation challenges. No confirmed policy change yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/trump-says-hamas-disarmament-deal-will-be-complex-to-deliver?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T00:15:43.349017Z"
-    },
-    {
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian US travel spending drops $3.3bn",
-      "summary": "Continuation of Canadian travel decline; Canadians replace US vacations with other destinations. Indirect tourism sector signal.",
+      "label": "Canadians cut US travel spending by $3.3bn",
+      "summary": "Confirmed data shows Canadians replaced US vacations with other international trips in 2025. Measurable economic impact on US tourism sector.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -58,6 +20,44 @@
         }
       ],
       "detected_at": "2026-07-30T06:40:49.958968Z"
+    },
+    {
+      "title": "Trump says US has 'understanding' with Israel on Hamas disarmament deal",
+      "label": "Trump claims Hamas disarmament understanding",
+      "summary": "Trump announces understanding on Hamas disarmament; Israel has not confirmed agreement. Rhetoric without signed outcome; no confirmed policy change yet.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/trump-says-us-has-understanding-with-israel-on-hamas-disarmament-deal?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T00:15:43.349017Z"
+    },
+    {
+      "title": "Body of US climber the latest recovered after Pakistan avalanche",
+      "label": "US climber body recovered after Pakistan avalanche",
+      "summary": "Body of US climber recovered from Pakistan mountain after avalanche; others still missing. Tragic individual loss; minimal broader impact on US daily life.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T20:37:01.740772Z"
     }
   ],
   "short_summary": "Iran strikes US targets in Kuwait",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T19:01:25.029239Z",
+  "updated_at": "2026-07-31T20:37:01.740772Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -79,10 +79,6 @@
   },
   "events_anchor_at": "2026-07-31T10:00:10.772267Z",
   "score_history": [
-    {
-      "t": "2026-07-29T19:42:17.806546Z",
-      "s": 3.1
-    },
     {
       "t": "2026-07-29T21:12:20.192456Z",
       "s": 3.0
@@ -230,6 +226,10 @@
     {
       "t": "2026-07-31T19:01:25.029239Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-07-31T20:37:01.740772Z",
+      "s": 2.2
     }
   ]
 }
