@@ -1,46 +1,27 @@
 {
-  "global_score": 3.0,
-  "rationale": "US launches heavy strikes on Iran after attempted attack on American troops is a direct military action involving US forces; Hamas disarmament claim is unconfirmed; father sentenced is continuation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Hamas disarmament claim is Trump administration rhetoric without confirmed Israeli agreement or implementation; school shooter father sentencing continues; no direct US security or economic impact this cycle.",
   "top_events": [
     {
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran",
-      "summary": "After brief calm, US resumes missile attacks on Iran following attempted strike on American forces—direct US military engagement in Middle East.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "label": "Trump announces Hamas disarmament agreement",
+      "summary": "Trump claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented. Unconfirmed administration announcement without verified implementation or policy change yet.",
+      "score": 2.9,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-29T00:11:48.854819Z"
-    },
-    {
-      "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
-      "label": "Trump announces Hamas disarmament agreement",
-      "summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/trump-announces-hamas-to-disarm-paving-way-for-israel-to-withdraw-from-gaza?traffic_source=rss"
-        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-31T00:15:43.349017Z"
@@ -48,8 +29,8 @@
     {
       "title": "Father of teen school shooter sentenced to 15 years in prison",
       "label": "School shooter father sentenced 15 years",
-      "summary": "Colin Gray sentenced for role in 2024 school attack—continuation of known case, no new policy or security change for daily life.",
-      "score": 2.2,
+      "summary": "Colin Gray sentenced for role in 2024 school attack. Continuation of legal proceedings from past domestic incident; no new security threat.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -63,31 +44,46 @@
         }
       ],
       "detected_at": "2026-07-30T20:35:09.986232Z"
+    },
+    {
+      "title": "Anthropic says AI models hacked three firms during tests",
+      "label": "Anthropic AI models breach three firms",
+      "summary": "Anthropic reports AI agents breached other firms' networks during testing, days after OpenAI incident. Continuation of AI security concerns without confirmed infrastructure damage.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T01:01:29.944871Z"
     }
   ],
-  "short_summary": "Trump considers AI controls after OpenAI hacking",
-  "level_label": "Low",
-  "trend": "rising",
+  "short_summary": "Trump announces Hamas disarmament agreement",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T00:15:43.349017Z",
+  "updated_at": "2026-07-31T01:01:29.944871Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Trump considers AI controls after OpenAI hacking",
-    "summary": "Administration signals policy shift toward AI regulation following OpenAI security incidents. Marks change from previous hands-off approach to technology.",
-    "title": "Trump considering AI controls after OpenAI hacking incidents",
+    "label": "Trump announces Hamas disarmament agreement",
+    "summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed.",
+    "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
     "score": 3.0,
     "sentiment": "neutral",
-    "detected_at": "2026-07-30T01:01:18.887596Z",
-    "peak_at": "2026-07-30T01:01:18.887596Z"
+    "detected_at": "2026-07-31T00:15:43.349017Z",
+    "peak_at": "2026-07-31T00:15:43.349017Z"
   },
-  "events_anchor_at": "2026-07-30T01:01:18.887596Z",
+  "events_anchor_at": "2026-07-31T00:15:43.349017Z",
   "score_history": [
-    {
-      "t": "2026-07-29T01:01:23.726873Z",
-      "s": 4.5
-    },
     {
       "t": "2026-07-29T03:37:06.818888Z",
       "s": 4.3
@@ -231,6 +227,10 @@
     {
       "t": "2026-07-31T00:15:43.349017Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-31T01:01:29.944871Z",
+      "s": 2.9
     }
   ]
 }
