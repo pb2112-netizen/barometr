@@ -1,33 +1,14 @@
 {
-  "global_score": 6.5,
-  "rationale": "Russian forces infiltrate Kostiantynivka fortress city — major defensive position breached on eastern front; family of six killed in missile strike near Kryvyi Rih.",
+  "global_score": 6.0,
+  "rationale": "Russian missile strike kills five family members including children near Kryvyi Rih; ongoing war continues with casualties; Kostiantynivka fortress breach remains active threat. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia appears to infiltrate first 'fortress city' as Ukraine changes guard",
-      "label": "Russia infiltrates Kostiantynivka fortress city defenses",
-      "summary": "Reports confirm Russian forces have infiltrated most of Kostiantynivka, a key defensive position on the eastern front. Major breach as Russia regains offensive momentum.",
-      "score": 6.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/features/2026/7/31/russia-appears-to-infiltrate-first-fortress-city-as-ukraine-changes-guard?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T14:37:46.578933Z"
-    },
-    {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "label": "Russian missile kills family of six near Kryvyi Rih",
-      "summary": "Six killed including three children (ages 6, 11, 17) in Russian missile strike on village near Kryvyi Rih. Ongoing attacks on civilian areas continue.",
+      "label": "Russian missile kills five family members in Ukraine",
+      "summary": "Strike near Kryvyi Rih kills children aged 6, 11, and 17. Ongoing war continues to claim civilian lives; no qualitative change in conflict intensity.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -42,10 +23,10 @@
     },
     {
       "title": "Russia and Ukraine report casualties as they continue to trade attacks",
-      "label": "Russia and Ukraine report casualties as they continue to",
-      "summary": "Ukraine hit Russian oil refineries multiple times; Russia struck Dnipropetrovsk region and cargo vessel near Odesa. Ongoing exchange of strikes continues.",
-      "score": 3.1,
-      "sentiment": "neutral",
+      "label": "Russia and Ukraine trade attacks, casualties reported",
+      "summary": "Ukraine hits Russian refineries; Russia strikes Dnipropetrovsk and cargo vessel near Odesa. Ongoing exchange of strikes continues without qualitative change.",
+      "score": 6.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-07-31T14:37:46.578933Z"
+    },
+    {
+      "title": "Two bodies located and search ongoing after avalanche hits Nirmal Purja's team",
+      "label": "Avalanche hits climbing team on Pakistan's Broad Peak",
+      "summary": "Two bodies recovered, seven spotted by drones; condition unclear. Distant mountaineering accident with no link to Ukraine's daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T16:56:49.642351Z"
     }
   ],
   "short_summary": "Russia infiltrates Kostiantynivka fortress city",
   "level_label": "Elevated",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-31T16:01:28.997537Z",
+  "updated_at": "2026-07-31T16:56:49.642351Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -226,6 +226,10 @@
     {
       "t": "2026-07-31T16:01:28.997537Z",
       "s": 6.5
+    },
+    {
+      "t": "2026-07-31T16:56:49.642351Z",
+      "s": 6.0
     }
   ]
 }

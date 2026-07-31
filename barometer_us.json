@@ -1,33 +1,14 @@
 {
-  "global_score": 2.6,
-  "rationale": "Iran-US conflict continues with limited strikes; no new escalation this cycle. Ceuta migration crisis is distant EU issue with no direct US impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Seattle police chief resigns after festival shooting; Hamas disarmament plan continues as rhetoric without confirmed action; no new qualitative developments affecting US daily life.",
   "top_events": [
-    {
-      "title": "Why limited war with the US may suit Iran better than peace",
-      "label": "Iran maintains limited conflict strategy with US",
-      "summary": "Analysis suggests Iran believes it can control conflict carefully enough to pressure US while avoiding all-out war. Ongoing low-level confrontation continues in Middle East.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T12:16:15.512073Z"
-    },
     {
       "title": "Police chief resigns days after deadly shooting in US city of Seattle",
       "label": "Seattle police chief resigns after festival shooting",
-      "summary": "Shon Barnes steps down amid questions over handling of deadly shooting at popular Seattle food festival. Domestic security incident with local impact.",
+      "summary": "Shon Barnes steps down amid questions over handling of shooting at popular food festival. Domestic law enforcement leadership change; limited broader impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "Al Jazeera"
@@ -41,12 +22,36 @@
       "detected_at": "2026-07-31T16:01:28.999024Z"
     },
     {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near Toronto US consulate again",
-      "summary": "No injuries reported in second shooting incident near Toronto compound in four months. Security concern but no casualties or major escalation.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "title": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
+      "label": "Hamas disarmament plan faces major obstacles",
+      "summary": "Three-year roadmap proposed but faces zero trust, politics, and Gaza's destruction. Rhetoric-only proposal without confirmed action; no change to US daily life.",
+      "score": 2.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/three-year-roadmap-proposed-for-hamas-disarmament-in-gaza?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T00:15:43.349017Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near US consulate in Toronto",
+      "summary": "No injuries or suspects identified in shooting near Toronto compound. Second incident in four months; no direct threat to US residents.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T16:01:28.999024Z",
+  "updated_at": "2026-07-31T16:56:49.643869Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran strikes US targets in Kuwait",
     "summary": "Iran directly retaliates against US forces in Kuwait following American strikes on Iranian territory, marking escalation in direct military confrontation between the two countries.",
@@ -226,6 +231,10 @@
     {
       "t": "2026-07-31T16:01:28.999024Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-07-31T16:56:49.643869Z",
+      "s": 2.5
     }
   ]
 }
