@@ -1,52 +1,67 @@
 {
-  "global_score": 3.0,
-  "rationale": "Ceuta migration crisis (49,000 arrivals, 18 deaths) directly affects Iberian neighbor Spain; Hamas disarmament claim offers potential Middle East de-escalation affecting energy markets. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Ceuta migration surge (60,000 arrivals, 34 deaths) directly affects Iberian neighbor Spain, with France tightening borders; Hamas disarmament claim is new but unconfirmed; DRC Ebola outbreak is fastest-growing in history. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
-      "label": "49,000 migrants cross into Spanish Ceuta enclave",
-      "summary": "Mass border crossing overwhelms Spanish territory; 18 deaths reported. Direct impact on Iberian neighbor Spain, raising questions about border security and potential spillover to Portugal.",
-      "score": 5.0,
+      "title": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
+      "label": "60,000 migrants enter Spanish Ceuta in one day",
+      "summary": "Mass crossing from Morocco into Spanish territory (70% of Ceuta's population) with 34 deaths. France tightening borders with Spain directly affects Iberian Peninsula and Portugal's regional security.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/spain-pm-to-visit-ceuta-after-19-migrants-die-breaching-border-from-morocco?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.820648Z"
     },
     {
       "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "label": "Hamas agrees to disarm under Trump plan",
-      "summary": "Hamas official confirms disarmament agreement; Israel has not commented. If sustained, could ease Middle East tensions and reduce energy price volatility affecting Portugal's economy.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "label": "Hamas agrees to disarm under Trump peace plan",
+      "summary": "Hamas official confirms disarmament; Israel silent. If verified, could ease regional tensions affecting energy markets and EU economy, though outcome remains uncertain.",
+      "score": 2.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-31T00:15:43.346067Z"
     },
     {
       "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
-      "label": "DRC Ebola outbreak fastest growing ever recorded",
-      "summary": "Death toll nears 1,500 with no vaccine for Bundibugyo strain yet available. Distant health crisis with minimal direct impact on Portugal; global health concern only.",
-      "score": 2.5,
+      "label": "DRC Ebola outbreak fastest-growing in history",
+      "summary": "Death toll nears 1,500; no vaccine for Bundibugyo strain potentially months away. Fastest-growing Ebola outbreak raises global health concerns, though direct impact on Portugal remains low.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -61,11 +76,11 @@
     }
   ],
   "short_summary": "49,000 migrants cross into Spanish Ceuta enclave",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-07-31T10:01:27.979010Z",
+  "updated_at": "2026-07-31T12:16:15.509046Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -226,6 +241,10 @@
     {
       "t": "2026-07-31T10:01:27.979010Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-31T12:16:15.509046Z",
+      "s": 2.9
     }
   ]
 }

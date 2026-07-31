@@ -1,22 +1,32 @@
 {
-  "global_score": 3.8,
-  "rationale": "Ceuta mass migration surge (49,000 arrivals, 18 deaths) signals EU border pressure spike; Hamas disarmament claim offers potential Gaza de-escalation affecting regional stability. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Ceuta migration surge (60,000 in 24 hours, 34 deaths) signals major EU border pressure; Hamas disarmament claim is new but unconfirmed; Russian strike kills Ukrainian family near Kryvyi Rih (ongoing war background). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
-      "label": "49,000 migrants cross into Spanish Ceuta enclave",
-      "summary": "Mass border crossing into Spanish territory strains EU migration system; 18 deaths reported. Signals renewed pressure on southern EU borders with potential ripple effects on Poland's eastern migration management.",
-      "score": 3.8,
+      "title": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
+      "label": "60,000 migrants enter Spanish Ceuta in 24 hours",
+      "summary": "Mass crossing from Morocco into EU territory (70% of Ceuta's population) with 34 deaths signals unprecedented border pressure, raising concerns about EU migration policy and Poland's own eastern border management.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/spain-pm-to-visit-ceuta-after-19-migrants-die-breaching-border-from-morocco?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.816727Z"
@@ -24,26 +34,31 @@
     {
       "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
       "label": "Hamas agrees to disarm under Trump peace plan",
-      "summary": "Hamas official confirms agreement to disarm; Israel silent. If sustained, removes major obstacle to Gaza ceasefire, potentially easing Middle East tensions and energy market volatility affecting Poland.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "summary": "Hamas official confirms disarmament agreement; Israel silent. If verified, removes major obstacle to Gaza peace, potentially easing regional tensions affecting energy markets and EU stability.",
+      "score": 2.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-31T00:15:43.342620Z"
     },
     {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "label": "Russian strike kills family near Kryvyi Rih",
-      "summary": "Six killed including three children in central Ukraine village. Continuation of Russian attacks on Ukrainian civilians near Poland's eastern border.",
+      "label": "Russian strike kills Ukrainian family near Kryvyi Rih",
+      "summary": "Six killed including three children in village near Kryvyi Rih. Continuation of ongoing war affecting Poland's eastern neighbor; no qualitative change to threat level.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -60,24 +75,24 @@
       "detected_at": "2026-07-31T01:01:29.938108Z"
     }
   ],
-  "short_summary": "Russian missile lands inside Poland NATO territory",
+  "short_summary": "49,000 migrants cross into Spanish Ceuta enclave",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-31T10:01:27.975834Z",
+  "updated_at": "2026-07-31T12:16:15.504979Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Russian missile lands inside Poland NATO territory",
-    "summary": "A Russian missile created a 10-meter crater inside Polish territory near the Ukrainian border, breaching NATO airspace — a direct security threat to Poland.",
-    "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "score": 6.6,
+    "label": "49,000 migrants cross into Spanish Ceuta enclave",
+    "summary": "Mass crossing into EU territory strains border systems and raises migration pressure across Europe, including potential secondary movement toward Poland and eastern EU states.",
+    "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
+    "score": 5.2,
     "sentiment": "negative",
-    "detected_at": "2026-07-30T01:01:18.880785Z",
-    "peak_at": "2026-07-30T12:04:07.926319Z"
+    "detected_at": "2026-07-30T18:45:07.816727Z",
+    "peak_at": "2026-07-31T10:00:10.766274Z"
   },
-  "events_anchor_at": "2026-07-30T01:01:18.880785Z",
+  "events_anchor_at": "2026-07-30T18:45:07.816727Z",
   "score_history": [
     {
       "t": "2026-07-29T12:20:26.526498Z",
@@ -226,6 +241,10 @@
     {
       "t": "2026-07-31T10:01:27.975834Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-07-31T12:16:15.504979Z",
+      "s": 3.0
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "global_score": 4.0,
-  "rationale": "Russian missile kills family of six including children in central Ukraine; Hamas disarmament claim offers potential regional de-escalation; Iran strikes US targets in Kuwait escalating Middle East conflict. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Russian missile kills Ukrainian family (six including three children) near Kryvyi Rih; US-Iran escalation continues; Hamas disarmament claim is new but unverified and distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "label": "Russian missile kills family near Kryvyi Rih",
-      "summary": "Six civilians including three children killed in village near central city. Continuation of Russian attacks on Ukrainian civilians, but qualitatively significant due to entire family killed in single strike.",
+      "label": "Russian strike kills family near Kryvyi Rih",
+      "summary": "Six killed including three children (ages 6, 11, 17) in village near Kryvyi Rih. Continuation of ongoing Russian attacks on Ukrainian civilians; no qualitative escalation.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,12 +22,12 @@
       "detected_at": "2026-07-30T16:01:26.794395Z"
     },
     {
-      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "label": "Hamas agrees to disarm under peace framework",
-      "summary": "Hamas official confirms disarmament agreement; Israel silent. If sustained, could ease regional tensions and potentially shift Western focus back to supporting Ukraine more strongly.",
+      "title": "Why limited war with the US may suit Iran better than peace",
+      "label": "Iran pursues limited conflict with US",
+      "summary": "Analysis suggests Iran believes it can control conflict to pressure US while avoiding all-out war. Continuation of US-Iran escalation with no direct impact on Ukraine.",
       "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,49 +35,54 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-31T00:15:43.347667Z"
+      "detected_at": "2026-07-31T12:16:15.510665Z"
     },
     {
-      "title": "IRGC strikes US targets in Kuwait a day after US hits Iran: Latest events",
-      "label": "Iran strikes US targets in Kuwait",
-      "summary": "IRGC attacks US forces in Kuwait in retaliation for US strikes on Iran. Escalation of Middle East conflict could divert Western military resources and attention from Ukraine.",
-      "score": 4.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "label": "Hamas agrees to disarm under Trump plan",
+      "summary": "Hamas official confirms disarmament; Israel silent. If verified, could shift regional dynamics, though direct impact on Ukraine's war remains minimal.",
+      "score": 2.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/31/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-31T10:00:10.770927Z"
+      "detected_at": "2026-07-31T00:15:43.347667Z"
     }
   ],
-  "short_summary": "Russian missile hits NATO Poland during Ukraine attack",
+  "short_summary": "Russian missile strikes NATO Poland",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-31T10:01:27.980444Z",
+  "updated_at": "2026-07-31T12:16:15.510665Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Russian missile hits NATO Poland during Ukraine attack",
-    "summary": "A Russian missile breached NATO airspace and landed inside Poland near the Ukrainian border during a Russian attack on Ukraine — a major escalation with direct implications for Ukrainian security.",
+    "label": "Russian missile strikes NATO Poland",
+    "summary": "Polish PM confirms Russian missile hit NATO territory during Lviv attack; NATO involvement risk.",
     "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "score": 6.9,
+    "score": 5.4,
     "sentiment": "negative",
-    "detected_at": "2026-07-30T01:01:18.885426Z",
-    "peak_at": "2026-07-30T12:04:07.931923Z"
+    "detected_at": "2026-07-30T16:01:26.794395Z",
+    "peak_at": "2026-07-30T16:01:26.794395Z"
   },
-  "events_anchor_at": "2026-07-30T01:01:18.885426Z",
+  "events_anchor_at": "2026-07-30T16:01:26.794395Z",
   "score_history": [
     {
       "t": "2026-07-29T12:20:26.533707Z",
@@ -226,6 +231,10 @@
     {
       "t": "2026-07-31T10:01:27.980444Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-07-31T12:16:15.510665Z",
+      "s": 3.0
     }
   ]
 }
