@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-07-31T16:56:49.649351Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-07-31T18:44:55.570031Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canadian travel spending drop — Trump effect",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Canadians cut US travel by $3.3bn after Trump returns."
     },
     {
       "temat": "School shooter father sentenced 15 years",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Colin Gray sentenced for role in 2024 school attack."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     },
     {
       "temat": "Claude AI security breaches during testing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Anthropic AI agent breached three firms in cyber tests."
     },
     {
       "temat": "Iran strikes US targets in Kuwait — direct retaliation",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 7,
       "opis": "IRGC attacks US forces in Kuwait after US strikes Iran."
     },
     {
       "temat": "Seattle police chief resigns after festival shooting",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Shon Barnes steps down amid questions over handling."
     },
     {
       "temat": "Shots fired near US consulate Toronto — second incident",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 1,
       "opis": "No injuries; second shooting in four months near compound."
+    },
+    {
+      "temat": "New York sues Kalshi — prediction market regulation",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "State lawsuit over prediction markets; Trump admin dispute."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-29T17:37:51.313582Z",
-      "s": 3.4
-    },
     {
       "t": "2026-07-29T19:01:25.030794Z",
       "s": 3.2
@@ -198,10 +200,44 @@
     {
       "t": "2026-07-31T16:56:49.643869Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-31T18:44:55.564471Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-07-31T10:00:10.772267Z",
   "event_detected_at": {
+    "why limited war with the us may suit iran better than peace": {
+      "detected_at": "2026-07-31T12:16:15.512073Z",
+      "peak_at": "2026-07-31T12:16:15.512073Z",
+      "peak_score_at": "2026-07-31T12:16:15.512073Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Why limited war with the US may suit Iran better than peace",
+      "peak_label": "Iran pursues limited war strategy with US",
+      "peak_summary": "Analysis suggests Iran believes it can control conflict to pressure US while avoiding all-out war. Continuation of US-Iran escalation following recent strikes; no new military action reported."
+    },
+    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
+      "detected_at": "2026-07-30T06:40:49.958968Z",
+      "peak_at": "2026-07-31T07:01:32.604197Z",
+      "peak_score_at": "2026-07-30T06:40:49.958968Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "peak_label": "Canadians cut US travel by billions",
+      "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
+    },
+    "new york sues kalshi, says its prediction markets are 'illegal gambling'": {
+      "detected_at": "2026-07-31T18:44:55.564471Z",
+      "peak_at": "2026-07-31T18:44:55.564471Z",
+      "peak_score_at": "2026-07-31T18:44:55.564471Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "New York sues Kalshi, says its prediction markets are 'illegal gambling'",
+      "peak_label": "New York sues Kalshi over prediction markets",
+      "peak_summary": "State lawsuit claims prediction markets constitute illegal gambling; dispute with Trump administration over regulatory authority. Domestic legal battle."
+    },
     "police chief resigns days after deadly shooting in us city of seattle": {
       "detected_at": "2026-07-31T16:01:28.999024Z",
       "peak_at": "2026-07-31T16:01:28.999024Z",
@@ -231,26 +267,6 @@
       "title": "Shots fired near US consulate in Canada for second time in four months",
       "peak_label": "Shots fired near US consulate in Toronto",
       "peak_summary": "No injuries or suspects identified in shooting near Toronto compound. Second incident in four months; no direct threat to US residents."
-    },
-    "why limited war with the us may suit iran better than peace": {
-      "detected_at": "2026-07-31T12:16:15.512073Z",
-      "peak_at": "2026-07-31T12:16:15.512073Z",
-      "peak_score_at": "2026-07-31T12:16:15.512073Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Why limited war with the US may suit Iran better than peace",
-      "peak_label": "Iran pursues limited war strategy with US",
-      "peak_summary": "Analysis suggests Iran believes it can control conflict to pressure US while avoiding all-out war. Continuation of US-Iran escalation following recent strikes; no new military action reported."
-    },
-    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
-      "detected_at": "2026-07-30T06:40:49.958968Z",
-      "peak_at": "2026-07-31T07:01:32.604197Z",
-      "peak_score_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "peak_label": "Canadians cut US travel by billions",
-      "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
     },
     "irgc strikes us targets in kuwait a day after us hits iran: latest events": {
       "detected_at": "2026-07-31T10:00:10.772267Z",
@@ -294,8 +310,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Police chief resigns days after deadly shooting in US city of Seattle",
-    "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-    "Shots fired near US consulate in Canada for second time in four months"
+    "Why limited war with the US may suit Iran better than peace",
+    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+    "New York sues Kalshi, says its prediction markets are 'illegal gambling'"
   ]
 }
