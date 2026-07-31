@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Russian missile strike killed entire Ukrainian family including three children near Kryvyi Rih; continuation of civilian targeting but qualitatively significant loss of life. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Russian missile strike kills family including children in central Ukraine; Hamas disarmament could shift regional dynamics affecting Western support priorities for Ukraine. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "label": "Russian strike kills Ukrainian family of six",
-      "summary": "Missile attack near Kryvyi Rih killed six people including children aged 6, 11, and 17. Entire family wiped out in single strike on civilian area.",
+      "label": "Russian strike kills family near Kryvyi Rih",
+      "summary": "Russian missile kills six civilians including three children in central Ukraine village, demonstrating continued targeting of civilian areas and ongoing threat to population centers.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,22 +23,46 @@
     },
     {
       "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "label": "Hamas agrees to disarm under Trump peace plan",
-      "summary": "Hamas official confirms acceptance of disarmament plan; Israel has not commented. Potential shift in Middle East dynamics but no direct impact on Ukraine war.",
-      "score": 2.0,
+      "label": "Hamas agrees to disarm in peace plan",
+      "summary": "Potential Gaza resolution could shift US and Western focus away from Middle East, possibly affecting military aid priorities and diplomatic attention to Ukraine's war effort.",
+      "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-31T00:15:43.347667Z"
+    },
+    {
+      "title": "IRGC strikes US targets in Kuwait a day after US hits Iran: Latest events",
+      "label": "Iran strikes US targets in Kuwait",
+      "summary": "US-Iran escalation continues with retaliatory strikes, maintaining Middle East tensions that compete for Western military and diplomatic resources with Ukraine support.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T10:00:10.770927Z"
     }
   ],
   "short_summary": "Russian missile hits NATO Poland during Ukraine attack",
@@ -46,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-07-31T07:13:40.117161Z",
+  "updated_at": "2026-07-31T10:00:10.770927Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -60,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-30T01:01:18.885426Z",
   "score_history": [
-    {
-      "t": "2026-07-29T09:49:19.328391Z",
-      "s": 5.8
-    },
     {
       "t": "2026-07-29T10:01:20.999312Z",
       "s": 5.5
@@ -206,6 +226,10 @@
     },
     {
       "t": "2026-07-31T07:13:40.117161Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-07-31T10:00:10.770927Z",
       "s": 3.0
     }
   ]

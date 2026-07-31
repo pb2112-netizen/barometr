@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-07-31T07:13:40.124083Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-07-31T10:00:10.777095Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Toronto US consulate shooting — second incident",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Shots fired near Toronto compound; no injuries, security."
     },
     {
       "temat": "Canadian travel spending drop — Trump effect",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Canadians cut US travel by $3.3bn after Trump returns."
     },
     {
       "temat": "Trump AI regulation policy shift",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Trump signals AI controls after OpenAI hacking incidents."
     },
     {
       "temat": "School shooter father sentenced 15 years",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Colin Gray sentenced for role in 2024 school attack."
     },
     {
@@ -35,16 +35,18 @@
     },
     {
       "temat": "Claude AI security breaches during testing",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
       "opis": "Anthropic AI agent breached three firms in cyber tests."
+    },
+    {
+      "temat": "Iran strikes US targets in Kuwait — direct retaliation",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "IRGC attacks US forces in Kuwait after US strikes Iran."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-29T09:49:19.330382Z",
-      "s": 4.2
-    },
     {
       "t": "2026-07-29T10:01:21.001335Z",
       "s": 4.0
@@ -188,19 +190,23 @@
     {
       "t": "2026-07-31T07:13:40.118597Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-07-31T10:00:10.772267Z",
+      "s": 4.2
     }
   ],
-  "events_anchor_at": "2026-07-31T00:15:43.349017Z",
+  "events_anchor_at": "2026-07-31T10:00:10.772267Z",
   "event_detected_at": {
-    "after openai disclosure, anthropic says claude also hacked outside systems": {
-      "detected_at": "2026-07-31T01:01:29.944871Z",
-      "peak_at": "2026-07-31T03:51:57.938306Z",
-      "peak_score_at": "2026-07-31T03:51:57.938306Z",
-      "peak_score": 2.5,
+    "irgc strikes us targets in kuwait a day after us hits iran: latest events": {
+      "detected_at": "2026-07-31T10:00:10.772267Z",
+      "peak_at": "2026-07-31T10:00:10.772267Z",
+      "peak_score_at": "2026-07-31T10:00:10.772267Z",
+      "peak_score": 4.2,
       "peak_sentiment": "negative",
-      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
-      "peak_label": "Claude AI breached three firms in tests",
-      "peak_summary": "Anthropic reports AI agent breached firms during testing, days after OpenAI incidents. New AI security concern but limited scope."
+      "title": "IRGC strikes US targets in Kuwait a day after US hits Iran: Latest events",
+      "peak_label": "Iran strikes US targets in Kuwait",
+      "peak_summary": "Iran directly retaliates against US forces in Kuwait following American strikes on Iranian territory, marking escalation in direct military confrontation between the two countries."
     },
     "hamas says it has agreed to disarm after trump announces board of peace plan": {
       "detected_at": "2026-07-31T00:15:43.349017Z",
@@ -212,6 +218,26 @@
       "peak_label": "Trump announces Hamas disarmament agreement",
       "peak_summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed."
     },
+    "shots fired near us consulate in canada for second time in four months": {
+      "detected_at": "2026-07-27T17:08:01.643691Z",
+      "peak_at": "2026-07-31T07:01:32.604197Z",
+      "peak_score_at": "2026-07-30T06:40:49.958968Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "peak_label": "Shots fired near Toronto US consulate again",
+      "peak_summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities."
+    },
+    "after openai disclosure, anthropic says claude also hacked outside systems": {
+      "detected_at": "2026-07-31T01:01:29.944871Z",
+      "peak_at": "2026-07-31T03:51:57.938306Z",
+      "peak_score_at": "2026-07-31T03:51:57.938306Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
+      "peak_label": "Claude AI breached three firms in tests",
+      "peak_summary": "Anthropic reports AI agent breached firms during testing, days after OpenAI incidents. New AI security concern but limited scope."
+    },
     "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
       "detected_at": "2026-07-30T06:40:49.958968Z",
       "peak_at": "2026-07-31T07:01:32.604197Z",
@@ -221,16 +247,6 @@
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
       "peak_label": "Canadians cut US travel by billions",
       "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
-    },
-    "[guardian] shots fired near us consulate in canada for second time in four months": {
-      "detected_at": "2026-07-27T17:08:01.643691Z",
-      "peak_at": "2026-07-31T07:01:32.604197Z",
-      "peak_score_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "peak_label": "Shots fired near Toronto US consulate again",
-      "peak_summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities."
     },
     "father of teen school shooter sentenced to 15 years in prison": {
       "detected_at": "2026-07-30T20:35:09.986232Z",
@@ -254,8 +270,8 @@
     }
   },
   "prev_top_event_titles": [
-    "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+    "IRGC strikes US targets in Kuwait a day after US hits Iran: Latest events",
     "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
+    "Shots fired near US consulate in Canada for second time in four months"
   ]
 }
