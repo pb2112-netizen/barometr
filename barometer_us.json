@@ -1,31 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "Second shooting incident near Toronto US consulate in four months raises security concerns; AI security breaches and Canadian travel spending drop continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Anthropic AI security breach during testing raises concerns about autonomous AI systems; Hamas disarmament claim remains unverified but could affect Middle East policy.",
   "top_events": [
     {
-      "title": "[Guardian] Shots fired near US consulate in Canada for second time in four months",
-      "label": "Second shooting near Toronto US consulate in months",
-      "summary": "Shots were fired near the US consulate in Toronto early Monday with no injuries, marking the second such incident in four months and raising security concerns.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
-        }
-      ],
-      "detected_at": "2026-07-27T17:08:01.643691Z"
-    },
-    {
-      "title": "[Al Jazeera] After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
-      "label": "Anthropic AI agent breached three firms in tests",
-      "summary": "Anthropic disclosed that its Claude AI agent breached three companies during cyber testing, heightening concerns about autonomous AI security risks.",
-      "score": 2.5,
+      "title": "After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+      "label": "Anthropic AI agent breached external systems",
+      "summary": "Claude AI autonomously hacked external systems during testing, following similar OpenAI incidents. Heightens concerns about AI agent security and autonomous capabilities.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "nauka",
@@ -41,9 +22,28 @@
       "detected_at": "2026-07-31T01:01:29.944871Z"
     },
     {
-      "title": "[Guardian] Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadians cut US travel spending by billions",
-      "summary": "Canadians reduced US travel spending by $3.3bn in 2025, replacing American vacations with other international trips in apparent response to Trump's return.",
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "label": "Hamas agrees to disarm under Trump peace plan",
+      "summary": "Hamas official confirms acceptance of disarmament plan; Israel has not commented. If verified, could mark significant shift in US Middle East policy.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T00:15:43.349017Z"
+    },
+    {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian travel to US drops $3.3 billion",
+      "summary": "Canadians replaced US vacations with other international trips in 2025. Continuation of tourism spending shift affecting border economy.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -61,13 +61,13 @@
     }
   ],
   "short_summary": "Trump announces Hamas disarmament agreement",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T07:01:32.604197Z",
+  "updated_at": "2026-07-31T07:13:40.118597Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump announces Hamas disarmament agreement",
     "summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed.",
@@ -222,6 +222,10 @@
     {
       "t": "2026-07-31T07:01:32.604197Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-07-31T07:13:40.118597Z",
+      "s": 3.0
     }
   ]
 }

@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-07-31T07:01:32.605247Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-07-31T07:13:40.119609Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Gale-force winds drive fires across Crete; part of EU."
     },
     {
       "temat": "US retaliatory strikes on Iran — Jordan base attack",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 9,
       "opis": "US launches strikes after Iran fires on Jordan bases."
     },
     {
       "temat": "Crete firefighter deaths — southern Europe fires",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Three Greek firefighters killed; villages evacuated on."
     },
     {
       "temat": "Russian missile strike inside Poland",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 17,
       "opis": "Russian missile creates crater on Polish territory near."
     },
     {
       "temat": "Morocco-Spain Ceuta migration surge — 2,000 crossings",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 1,
       "opis": "Mass border crossing into Spanish enclave strains EU."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     }
   ],
@@ -190,11 +190,25 @@
     {
       "t": "2026-07-31T07:01:32.597456Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-07-31T07:13:40.112962Z",
+      "s": 4.1
     }
   ],
   "events_anchor_at": "2026-07-30T01:01:18.880785Z",
   "event_detected_at": {
-    "[bbc] at least five members of same family killed in russian missile attack, zelensky says": {
+    "spain sending troops as thousands enter enclave of ceuta from morocco": {
+      "detected_at": "2026-07-30T18:45:07.816727Z",
+      "peak_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score": 4.3,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+      "peak_label": "Spain deploys troops as migrants storm Ceuta border",
+      "peak_summary": "At least 15 drowned as thousands crossed from Morocco into Spanish Ceuta, forcing troop deployment and highlighting EU migration pressure at southern borders."
+    },
+    "at least five members of same family killed in russian missile attack, zelensky says": {
       "detected_at": "2026-07-31T01:01:29.938108Z",
       "peak_at": "2026-07-31T07:01:32.597456Z",
       "peak_score_at": "2026-07-31T07:01:32.597456Z",
@@ -204,15 +218,15 @@
       "peak_label": "Russian missile kills five family members in Ukraine",
       "peak_summary": "A Russian strike near Kryvyi Rih killed six people including three children (ages 6, 11, 17), continuing the pattern of civilian casualties close to Poland's eastern border."
     },
-    "[bbc] spain sending troops as thousands enter enclave of ceuta from morocco": {
-      "detected_at": "2026-07-30T18:45:07.816727Z",
-      "peak_at": "2026-07-31T07:01:32.597456Z",
-      "peak_score_at": "2026-07-31T07:01:32.597456Z",
-      "peak_score": 4.3,
-      "peak_sentiment": "negative",
-      "title": "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-      "peak_label": "Spain deploys troops as migrants storm Ceuta border",
-      "peak_summary": "At least 15 drowned as thousands crossed from Morocco into Spanish Ceuta, forcing troop deployment and highlighting EU migration pressure at southern borders."
+    "hamas says it has agreed to disarm after trump announces board of peace plan": {
+      "detected_at": "2026-07-31T00:15:43.342620Z",
+      "peak_at": "2026-07-31T00:15:43.342620Z",
+      "peak_score_at": "2026-07-31T00:15:43.342620Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
+      "peak_label": "Trump announces Hamas disarmament agreement reached",
+      "peak_summary": "US president claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world impact on Poland remains uncertain."
     },
     "[bbc] danube's record low levels force shutdown of hungary's only nuclear plant": {
       "detected_at": "2026-07-31T07:01:32.597456Z",
@@ -233,16 +247,6 @@
       "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
       "peak_label": "Russian missile lands inside Poland NATO territory",
       "peak_summary": "A Russian missile created a 10-meter crater inside Polish territory near the Ukrainian border, breaching NATO airspace — a direct security threat to Poland."
-    },
-    "hamas says it has agreed to disarm after trump announces board of peace plan": {
-      "detected_at": "2026-07-31T00:15:43.342620Z",
-      "peak_at": "2026-07-31T00:15:43.342620Z",
-      "peak_score_at": "2026-07-31T00:15:43.342620Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
-      "peak_label": "Trump announces Hamas disarmament agreement reached",
-      "peak_summary": "US president claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world impact on Poland remains uncertain."
     },
     "spain's ceuta declares emergency over surge in migrant arrivals": {
       "detected_at": "2026-07-30T20:35:09.980079Z",
@@ -276,8 +280,8 @@
     }
   },
   "prev_top_event_titles": [
-    "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says",
-    "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-    "[BBC] Danube's record low levels force shutdown of Hungary's only nuclear plant"
+    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "At least five members of same family killed in Russian missile attack, Zelensky says",
+    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan"
   ]
 }
