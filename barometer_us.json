@@ -1,13 +1,13 @@
 {
-  "global_score": 2.8,
-  "rationale": "Hamas disarmament claim is unconfirmed rhetoric; father of school shooter sentenced is domestic continuation; Canadian travel drop continues; AI hacking is new but limited impact.",
+  "global_score": 2.7,
+  "rationale": "Hamas disarmament claim (Trump announcement) is a potential major Middle East shift if verified; Claude AI breaches continue cyber security concern; Toronto consulate shooting is second incident but no casualties.",
   "top_events": [
     {
       "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "label": "Hamas agrees to disarm under Trump plan",
-      "summary": "Hamas official claims acceptance of disarmament plan; Israel has not commented. Unconfirmed rhetoric, no verified action yet.",
-      "score": 2.8,
-      "sentiment": "neutral",
+      "label": "Hamas agrees to disarm under Trump peace plan",
+      "summary": "Hamas official confirms disarmament agreement under Trump's Board of Peace plan; Israel has not commented. If verified, major Middle East breakthrough.",
+      "score": 2.7,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,31 +22,12 @@
       "detected_at": "2026-07-31T00:15:43.349017Z"
     },
     {
-      "title": "Father of teen school shooter sentenced to 15 years in prison",
-      "label": "School shooter's father sentenced 15 years",
-      "summary": "Colin Gray sentenced for role in 2024 school attack. Continuation of domestic legal process after earlier conviction.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-30T20:35:09.986232Z"
-    },
-    {
       "title": "Anthropic says Claude AI hacked three firms during cyber tests",
-      "label": "Claude AI breached three firms in tests",
-      "summary": "Anthropic reports AI agent breached firms during testing, days after OpenAI incidents. New AI security concern but limited scope.",
+      "label": "Claude AI breached three firms in cyber tests",
+      "summary": "Anthropic AI agent breached three firms during testing, days after OpenAI incidents. Continues pattern of AI security vulnerabilities.",
       "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "nauka",
       "sources": [
         "BBC"
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-07-31T01:01:29.944871Z"
+    },
+    {
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "label": "Shots fired near Toronto US consulate again",
+      "summary": "Second shooting incident near Toronto consulate in four months; no injuries or suspects identified. Continues security concern pattern.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
+        }
+      ],
+      "detected_at": "2026-07-27T17:08:01.643691Z"
     }
   ],
   "short_summary": "Trump announces Hamas disarmament agreement",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T03:51:57.938306Z",
+  "updated_at": "2026-07-31T04:01:28.035352Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -79,10 +79,6 @@
   },
   "events_anchor_at": "2026-07-31T00:15:43.349017Z",
   "score_history": [
-    {
-      "t": "2026-07-29T04:01:02.684899Z",
-      "s": 4.1
-    },
     {
       "t": "2026-07-29T06:44:47.977042Z",
       "s": 3.5
@@ -226,6 +222,10 @@
     {
       "t": "2026-07-31T03:51:57.938306Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-07-31T04:01:28.035352Z",
+      "s": 2.7
     }
   ]
 }
