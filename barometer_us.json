@@ -1,12 +1,11 @@
 {
-  "global_score": 2.3,
-  "short_summary": "Trump considers AI controls after OpenAI hacking",
-  "rationale": "US launches strikes on Iran (continuation of known conflict); school shooter father sentencing (continuation); Toronto consulate shooting (minor incident, no injuries). Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US launches heavy strikes on Iran after attempted attack on American troops is a direct military action involving US forces; Hamas disarmament claim is unconfirmed; father sentenced is continuation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "label": "US launches heavy strikes on Iran targets",
-      "summary": "US resumes missile attacks on Iran after attempted attack on American troops—continuation of Gulf conflict with US forces directly involved.",
+      "label": "US launches heavy strikes on Iran",
+      "summary": "After brief calm, US resumes missile attacks on Iran following attempted strike on American forces—direct US military engagement in Middle East.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,54 +22,55 @@
       "detected_at": "2026-07-29T00:11:48.854819Z"
     },
     {
+      "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
+      "label": "Trump announces Hamas disarmament agreement",
+      "summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/trump-announces-hamas-to-disarm-paving-way-for-israel-to-withdraw-from-gaza?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T00:15:43.349017Z"
+    },
+    {
       "title": "Father of teen school shooter sentenced to 15 years in prison",
-      "label": "School shooter father sentenced fifteen years",
-      "summary": "Colin Gray sentenced to 15 years for role in 2024 school attack that killed four—judicial conclusion to known case.",
-      "score": 2.3,
+      "label": "School shooter father sentenced 15 years",
+      "summary": "Colin Gray sentenced for role in 2024 school attack—continuation of known case, no new policy or security change for daily life.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c78g4y18rxgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/30/father-of-georgia-apalachee-school-shooter-sentenced-to-15-years-in-prison?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-30T20:35:09.986232Z"
-    },
-    {
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "label": "Shots fired near Toronto US consulate again",
-      "summary": "Second shooting incident near Toronto consulate in four months; no injuries, no suspects identified—minor security event.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/27/shots-fired-us-consulate-toronto"
-        }
-      ],
-      "detected_at": "2026-07-27T17:08:01.643691Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Trump considers AI controls after OpenAI hacking",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-30T22:18:19.248735Z",
+  "updated_at": "2026-07-31T00:15:43.349017Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -84,14 +84,6 @@
   },
   "events_anchor_at": "2026-07-30T01:01:18.887596Z",
   "score_history": [
-    {
-      "t": "2026-07-28T23:17:38.854981Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-07-29T00:11:48.854819Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-29T01:01:23.726873Z",
       "s": 4.5
@@ -235,6 +227,10 @@
     {
       "t": "2026-07-30T22:18:19.248735Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-07-31T00:15:43.349017Z",
+      "s": 3.0
     }
   ]
 }
