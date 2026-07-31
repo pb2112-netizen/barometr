@@ -1,60 +1,52 @@
 {
-  "updated_at": "2026-07-31T04:01:28.037611Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-07-31T07:01:32.606422Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Gale-force winds drive fires across Crete; southeastern EU."
     },
     {
       "temat": "US retaliatory strikes on Iran — Jordan base attack",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 8,
       "opis": "US launches strikes after Iran fires on Jordan bases."
     },
     {
       "temat": "Crete firefighter deaths — southern Europe fires",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Three Greek firefighters killed; villages evacuated on."
     },
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Russian missile strike inside Poland",
       "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 0,
       "opis": "Russian missile hits NATO member Poland near Ukraine border."
     },
     {
       "temat": "Danube record low — Hungary nuclear shutdown, regional impact",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 9,
       "opis": "Drought forces Hungarian plant closure; Romania, Bulgaria."
     },
     {
       "temat": "Morocco-Spain Ceuta migration surge — 2,000 crossings",
-      "poziom_bazowy": 3.0,
+      "poziom_bazowy": 3.4,
       "cykle_bez_zmian": 0,
       "opis": "Mass border crossing into Spanish enclave strains EU."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-29T06:44:47.971309Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-07-29T07:01:29.721544Z",
-      "s": 2.4
-    },
     {
       "t": "2026-07-29T09:49:19.325262Z",
       "s": 3.3
@@ -194,39 +186,43 @@
     {
       "t": "2026-07-31T04:01:28.030358Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-07-31T07:01:32.599077Z",
+      "s": 3.4
     }
   ],
   "events_anchor_at": "2026-07-30T01:01:18.882448Z",
   "event_detected_at": {
-    "missile that left crater deep inside poland was probably russian - polish pm": {
-      "detected_at": "2026-07-30T01:01:18.882448Z",
-      "peak_at": "2026-07-30T09:41:36.341655Z",
-      "peak_score_at": "2026-07-30T09:41:36.341655Z",
-      "peak_score": 5.6,
-      "peak_sentiment": "negative",
-      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-      "peak_label": "Russian missile strikes Poland near Ukraine border",
-      "peak_summary": "Missile creates 10m crater inside Poland 100km from Ukraine. Direct threat to NATO eastern flank and Black Sea security environment."
-    },
-    "spain sending troops as thousands enter enclave of ceuta from morocco": {
-      "detected_at": "2026-07-30T18:45:07.818482Z",
-      "peak_at": "2026-07-31T04:01:28.030358Z",
-      "peak_score_at": "2026-07-31T04:01:28.030358Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-      "peak_label": "Spain deploys troops after Ceuta migrant surge",
-      "peak_summary": "Thousands of migrants overwhelmed Spanish border; 15 drowned. Military deployment signals EU migration pressure spike affecting Romania indirectly."
-    },
-    "danube's record low levels force shutdown of hungary's only nuclear plant": {
+    "[bbc] danube's record low levels force shutdown of hungary's only nuclear plant": {
       "detected_at": "2026-07-30T18:45:07.818482Z",
       "peak_at": "2026-07-30T18:45:07.818482Z",
       "peak_score_at": "2026-07-30T18:45:07.818482Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "negative",
       "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
       "peak_label": "Danube low levels shut Hungary nuclear plant",
       "peak_summary": "Record low Danube levels force Hungarian nuclear plant shutdown; Romania, Bulgaria, Serbia also affected by prolonged heatwaves and drought impacting regional energy and shipping."
+    },
+    "[bbc] spain sending troops as thousands enter enclave of ceuta from morocco": {
+      "detected_at": "2026-07-30T18:45:07.818482Z",
+      "peak_at": "2026-07-31T07:01:32.599077Z",
+      "peak_score_at": "2026-07-31T07:01:32.599077Z",
+      "peak_score": 3.4,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+      "peak_label": "Spain deploys troops as migrants storm Ceuta border",
+      "peak_summary": "At least 15 drowned as thousands crossed from Morocco into Spanish Ceuta, forcing troop deployment and highlighting EU migration pressure at southern borders."
+    },
+    "[bbc] at least five members of same family killed in russian missile attack, zelensky says": {
+      "detected_at": "2026-07-30T01:01:18.882448Z",
+      "peak_at": "2026-07-30T09:41:36.341655Z",
+      "peak_score_at": "2026-07-30T09:41:36.341655Z",
+      "peak_score": 5.5,
+      "peak_sentiment": "negative",
+      "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+      "peak_label": "Russian missile strikes Poland near Ukraine border",
+      "peak_summary": "Missile creates 10m crater inside Poland 100km from Ukraine. Direct threat to NATO eastern flank and Black Sea security environment."
     },
     "hamas says it has agreed to disarm after trump announces board of peace plan": {
       "detected_at": "2026-07-31T01:01:29.939834Z",
@@ -257,31 +253,11 @@
       "title": "Thousands evacuated in Crete as European wildfires continue to rage",
       "peak_label": "Crete evacuations as European wildfires rage on",
       "peak_summary": "Strong winds drive wildfires across Crete, continuing the pattern of severe fires in southeastern EU — indirect climate and emergency response concern."
-    },
-    "three greek firefighters die as wildfires threaten parts of southern europe": {
-      "detected_at": "2026-07-29T17:37:51.308381Z",
-      "peak_at": "2026-07-30T06:40:49.954752Z",
-      "peak_score_at": "2026-07-30T06:40:49.954752Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "negative",
-      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
-      "peak_label": "Greek firefighters die in Crete wildfires",
-      "peak_summary": "Gale-force winds drive deadly fires on Crete, killing three firefighters. Direct threat to southeastern EU neighbor, part of broader regional fire crisis."
-    },
-    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
-      "detected_at": "2026-07-30T06:40:49.954752Z",
-      "peak_at": "2026-07-30T06:40:49.954752Z",
-      "peak_score_at": "2026-07-30T06:40:49.954752Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "peak_label": "Canadians cut US travel spending by billions",
-      "peak_summary": "Canadians redirect travel spending away from US following Trump's return. Signals broader Western economic realignment with indirect EU implications."
     }
   },
   "prev_top_event_titles": [
-    "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-    "Danube's record low levels force shutdown of Hungary's only nuclear plant"
+    "[BBC] Danube's record low levels force shutdown of Hungary's only nuclear plant",
+    "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says"
   ]
 }

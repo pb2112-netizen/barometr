@@ -1,60 +1,52 @@
 {
-  "updated_at": "2026-07-31T04:01:28.040989Z",
-  "ostatnia_ocena": 2.7,
+  "updated_at": "2026-07-31T07:01:32.609879Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Toronto US consulate shooting — second incident",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Shots fired near Toronto compound; no injuries, security."
     },
     {
       "temat": "Trump threatens Iran strikes after Jordan attack",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "President signals retaliation for attack on US forces in."
     },
     {
       "temat": "Canadian travel spending drop — Trump effect",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Canadians cut US travel by $3.3bn after Trump returns."
     },
     {
       "temat": "Trump AI regulation policy shift",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Trump signals AI controls after OpenAI hacking incidents."
     },
     {
       "temat": "School shooter father sentenced 15 years",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Colin Gray sentenced for role in 2024 school attack."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     },
     {
       "temat": "Claude AI security breaches during testing",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Anthropic AI agent breached three firms in cyber tests."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-29T06:44:47.977042Z",
-      "s": 3.5
-    },
-    {
-      "t": "2026-07-29T07:01:29.727591Z",
-      "s": 3.4
-    },
     {
       "t": "2026-07-29T09:49:19.330382Z",
       "s": 4.2
@@ -194,10 +186,44 @@
     {
       "t": "2026-07-31T04:01:28.035352Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-07-31T07:01:32.604197Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-07-31T00:15:43.349017Z",
   "event_detected_at": {
+    "[guardian] shots fired near us consulate in canada for second time in four months": {
+      "detected_at": "2026-07-27T17:08:01.643691Z",
+      "peak_at": "2026-07-31T07:01:32.604197Z",
+      "peak_score_at": "2026-07-30T06:40:49.958968Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Shots fired near US consulate in Canada for second time in four months",
+      "peak_label": "Shots fired near Toronto US consulate again",
+      "peak_summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities."
+    },
+    "[al jazeera] after openai disclosure, anthropic says claude also hacked outside systems": {
+      "detected_at": "2026-07-31T01:01:29.944871Z",
+      "peak_at": "2026-07-31T03:51:57.938306Z",
+      "peak_score_at": "2026-07-31T03:51:57.938306Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
+      "peak_label": "Claude AI breached three firms in tests",
+      "peak_summary": "Anthropic reports AI agent breached firms during testing, days after OpenAI incidents. New AI security concern but limited scope."
+    },
+    "[guardian] canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
+      "detected_at": "2026-07-30T06:40:49.958968Z",
+      "peak_at": "2026-07-31T07:01:32.604197Z",
+      "peak_score_at": "2026-07-30T06:40:49.958968Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "peak_label": "Canadians cut US travel by billions",
+      "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
+    },
     "hamas says it has agreed to disarm after trump announces board of peace plan": {
       "detected_at": "2026-07-31T00:15:43.349017Z",
       "peak_at": "2026-07-31T00:15:43.349017Z",
@@ -208,26 +234,6 @@
       "peak_label": "Trump announces Hamas disarmament agreement",
       "peak_summary": "President claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world policy impact remains unconfirmed."
     },
-    "anthropic says claude ai hacked three firms during cyber tests": {
-      "detected_at": "2026-07-31T01:01:29.944871Z",
-      "peak_at": "2026-07-31T03:51:57.938306Z",
-      "peak_score_at": "2026-07-31T03:51:57.938306Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
-      "peak_label": "Claude AI breached three firms in tests",
-      "peak_summary": "Anthropic reports AI agent breached firms during testing, days after OpenAI incidents. New AI security concern but limited scope."
-    },
-    "shots fired near us consulate in canada for second time in four months": {
-      "detected_at": "2026-07-27T17:08:01.643691Z",
-      "peak_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Shots fired near US consulate in Canada for second time in four months",
-      "peak_label": "Shots fired near Toronto US consulate again",
-      "peak_summary": "Second shooting incident near Toronto consulate in four months. No injuries reported, but pattern raises security concerns for US diplomatic facilities."
-    },
     "father of teen school shooter sentenced to 15 years in prison": {
       "detected_at": "2026-07-30T20:35:09.986232Z",
       "peak_at": "2026-07-30T20:35:09.986232Z",
@@ -237,16 +243,6 @@
       "title": "Father of teen school shooter sentenced to 15 years in prison",
       "peak_label": "School shooter's father gets 15 years",
       "peak_summary": "Colin Gray sentenced for charges stemming from 2024 deadly school attack; judge says he failed as parent."
-    },
-    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
-      "detected_at": "2026-07-30T06:40:49.958968Z",
-      "peak_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score_at": "2026-07-30T06:40:49.958968Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "peak_label": "Canadians cut US travel by billions",
-      "peak_summary": "Canadians redirect $3.3 billion in travel spending away from US. Measurable economic impact on US tourism sector following Trump's return to office."
     },
     "us gdp growth dips as inflation and trade deficits pressure economy": {
       "detected_at": "2026-07-30T18:45:07.823849Z",
@@ -260,8 +256,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-    "Anthropic says Claude AI hacked three firms during cyber tests",
-    "Shots fired near US consulate in Canada for second time in four months"
+    "[Guardian] Shots fired near US consulate in Canada for second time in four months",
+    "[Al Jazeera] After OpenAI disclosure, Anthropic says Claude also hacked outside systems",
+    "[Guardian] Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
   ]
 }

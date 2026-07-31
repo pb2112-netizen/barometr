@@ -1,60 +1,52 @@
 {
-  "updated_at": "2026-07-31T04:01:28.036365Z",
-  "ostatnia_ocena": 3.8,
+  "updated_at": "2026-07-31T07:01:32.605247Z",
+  "ostatnia_ocena": 4.3,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes on Russian industrial sites",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
       "opis": "Ukraine escalates drone campaign, hitting Russian."
     },
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Gale-force winds drive fires across Crete; part of EU."
     },
     {
       "temat": "US retaliatory strikes on Iran — Jordan base attack",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "US launches strikes after Iran fires on Jordan bases."
     },
     {
       "temat": "Crete firefighter deaths — southern Europe fires",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Three Greek firefighters killed; villages evacuated on."
     },
     {
       "temat": "Russian missile strike inside Poland",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 16,
       "opis": "Russian missile creates crater on Polish territory near."
     },
     {
       "temat": "Morocco-Spain Ceuta migration surge — 2,000 crossings",
-      "poziom_bazowy": 3.8,
+      "poziom_bazowy": 4.3,
       "cykle_bez_zmian": 0,
       "opis": "Mass border crossing into Spanish enclave strains EU."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-29T06:44:47.969415Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-07-29T07:01:29.719475Z",
-      "s": 2.5
-    },
     {
       "t": "2026-07-29T09:49:19.323283Z",
       "s": 3.2
@@ -194,10 +186,44 @@
     {
       "t": "2026-07-31T04:01:28.028549Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-07-31T07:01:32.597456Z",
+      "s": 4.3
     }
   ],
   "events_anchor_at": "2026-07-30T01:01:18.880785Z",
   "event_detected_at": {
+    "[bbc] at least five members of same family killed in russian missile attack, zelensky says": {
+      "detected_at": "2026-07-31T01:01:29.938108Z",
+      "peak_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says",
+      "peak_label": "Russian missile kills five family members in Ukraine",
+      "peak_summary": "A Russian strike near Kryvyi Rih killed six people including three children (ages 6, 11, 17), continuing the pattern of civilian casualties close to Poland's eastern border."
+    },
+    "[bbc] spain sending troops as thousands enter enclave of ceuta from morocco": {
+      "detected_at": "2026-07-30T18:45:07.816727Z",
+      "peak_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score": 4.3,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+      "peak_label": "Spain deploys troops as migrants storm Ceuta border",
+      "peak_summary": "At least 15 drowned as thousands crossed from Morocco into Spanish Ceuta, forcing troop deployment and highlighting EU migration pressure at southern borders."
+    },
+    "[bbc] danube's record low levels force shutdown of hungary's only nuclear plant": {
+      "detected_at": "2026-07-31T07:01:32.597456Z",
+      "peak_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "[BBC] Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "peak_label": "Danube drought shuts Hungary nuclear plant",
+      "peak_summary": "Record low water levels forced closure of Hungary's nuclear facility, affecting regional energy supply amid prolonged drought across Central Europe."
+    },
     "missile that left crater deep inside poland was probably russian - polish pm": {
       "detected_at": "2026-07-30T01:01:18.880785Z",
       "peak_at": "2026-07-30T12:04:07.926319Z",
@@ -208,16 +234,6 @@
       "peak_label": "Russian missile lands inside Poland NATO territory",
       "peak_summary": "A Russian missile created a 10-meter crater inside Polish territory near the Ukrainian border, breaching NATO airspace — a direct security threat to Poland."
     },
-    "spain sending troops as thousands enter enclave of ceuta from morocco": {
-      "detected_at": "2026-07-30T18:45:07.816727Z",
-      "peak_at": "2026-07-31T04:01:28.028549Z",
-      "peak_score_at": "2026-07-31T04:01:28.028549Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "negative",
-      "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-      "peak_label": "Spain deploys military after migrant surge in Ceuta",
-      "peak_summary": "Thousands of migrants overwhelmed Spanish border; at least 15 drowned. Military deployment signals EU migration pressure spike affecting Poland indirectly."
-    },
     "hamas says it has agreed to disarm after trump announces board of peace plan": {
       "detected_at": "2026-07-31T00:15:43.342620Z",
       "peak_at": "2026-07-31T00:15:43.342620Z",
@@ -227,16 +243,6 @@
       "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
       "peak_label": "Trump announces Hamas disarmament agreement reached",
       "peak_summary": "US president claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world impact on Poland remains uncertain."
-    },
-    "at least five members of same family killed in russian missile attack, zelensky says": {
-      "detected_at": "2026-07-31T01:01:29.938108Z",
-      "peak_at": "2026-07-31T01:01:29.938108Z",
-      "peak_score_at": "2026-07-31T01:01:29.938108Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
-      "peak_label": "Russian strike kills family near Kryvyi Rih",
-      "peak_summary": "Six killed including three children in Russian missile attack on village near Kryvyi Rih. Continuation of Ukraine war violence near Polish border region."
     },
     "spain's ceuta declares emergency over surge in migrant arrivals": {
       "detected_at": "2026-07-30T20:35:09.980079Z",
@@ -267,31 +273,11 @@
       "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
       "peak_label": "Russian strikes kill eight in Ukraine",
       "peak_summary": "Continued Russian attacks on Ukrainian civilians near border region; ongoing war background affecting Polish security environment."
-    },
-    "three greek firefighters die as wildfires threaten parts of southern europe": {
-      "detected_at": "2026-07-29T17:37:51.306737Z",
-      "peak_at": "2026-07-30T06:40:49.953138Z",
-      "peak_score_at": "2026-07-30T06:40:49.953138Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "negative",
-      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
-      "peak_label": "Greek firefighters die in Crete wildfires",
-      "peak_summary": "Gale-force winds drive fires on Crete, killing three firefighters and forcing village evacuations. Direct threat to EU member state, part of broader European fire crisis."
-    },
-    "trump considering ai controls after openai hacking incidents": {
-      "detected_at": "2026-07-30T06:40:49.953138Z",
-      "peak_at": "2026-07-30T06:40:49.953138Z",
-      "peak_score_at": "2026-07-30T06:40:49.953138Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "peak_label": "Trump considers AI controls after hacks",
-      "peak_summary": "US administration signals policy shift toward AI regulation following security incidents. Potential impact on tech sector and EU-US regulatory alignment."
     }
   },
   "prev_top_event_titles": [
-    "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-    "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan"
+    "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says",
+    "[BBC] Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+    "[BBC] Danube's record low levels force shutdown of Hungary's only nuclear plant"
   ]
 }
