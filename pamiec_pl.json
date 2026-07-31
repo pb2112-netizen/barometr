@@ -1,43 +1,49 @@
 {
-  "updated_at": "2026-07-31T13:01:26.448048Z",
+  "updated_at": "2026-07-31T14:37:46.581554Z",
   "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Crete wildfires — firefighters killed, evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Gale-force winds drive fires across Crete; part of EU."
     },
     {
       "temat": "US retaliatory strikes on Iran — Jordan base attack",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 14,
       "opis": "US launches strikes after Iran fires on Jordan bases."
     },
     {
       "temat": "Crete firefighter deaths — southern Europe fires",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Three Greek firefighters killed; villages evacuated on."
     },
     {
       "temat": "Russian missile strike inside Poland",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 22,
       "opis": "Russian missile creates crater on Polish territory near."
     },
     {
       "temat": "Morocco-Spain Ceuta migration surge — 2,000 crossings",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "Mass border crossing into Spanish enclave strains EU."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
+    },
+    {
+      "temat": "Ceuta mass migrant crossing — 60k in 24h, 43 dead",
+      "poziom_bazowy": 6.2,
+      "cykle_bez_zmian": 1,
+      "opis": "Largest single-day EU border breach; military deployed."
     }
   ],
   "score_history": [
@@ -188,6 +194,10 @@
     {
       "t": "2026-07-31T13:01:26.440790Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-07-31T14:37:46.573800Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-07-30T18:45:07.816727Z",
@@ -202,6 +212,26 @@
       "peak_label": "49,000 migrants cross into Spanish Ceuta enclave",
       "peak_summary": "Mass crossing into EU territory strains border systems and raises migration pressure across Europe, including potential secondary movement toward Poland and eastern EU states."
     },
+    "at least five members of same family killed in russian missile attack, zelensky says": {
+      "detected_at": "2026-07-31T01:01:29.938108Z",
+      "peak_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score_at": "2026-07-31T07:01:32.597456Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says",
+      "peak_label": "Russian missile kills five family members in Ukraine",
+      "peak_summary": "A Russian strike near Kryvyi Rih killed six people including three children (ages 6, 11, 17), continuing the pattern of civilian casualties close to Poland's eastern border."
+    },
+    "ebola outbreak in drc the fastest growing in the history of the virus": {
+      "detected_at": "2026-07-31T14:37:46.573800Z",
+      "peak_at": "2026-07-31T14:37:46.573800Z",
+      "peak_score_at": "2026-07-31T14:37:46.573800Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+      "peak_label": "DRC Ebola outbreak fastest in virus history",
+      "peak_summary": "Death toll nears 1,500 with no vaccine yet available for Bundibugyo strain, raising EU health security concerns given migration routes."
+    },
     "hamas says it has agreed to disarm after trump announces board of peace plan": {
       "detected_at": "2026-07-31T00:15:43.342620Z",
       "peak_at": "2026-07-31T00:15:43.342620Z",
@@ -211,16 +241,6 @@
       "title": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza",
       "peak_label": "Trump announces Hamas disarmament agreement reached",
       "peak_summary": "US president claims Hamas agreed to disarm under Board of Peace plan; Israel has not commented, so real-world impact on Poland remains uncertain."
-    },
-    "at least five members of same family killed in russian missile attack, zelensky says": {
-      "detected_at": "2026-07-31T01:01:29.938108Z",
-      "peak_at": "2026-07-31T07:01:32.597456Z",
-      "peak_score_at": "2026-07-31T07:01:32.597456Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "[BBC] At least five members of same family killed in Russian missile attack, Zelensky says",
-      "peak_label": "Russian missile kills five family members in Ukraine",
-      "peak_summary": "A Russian strike near Kryvyi Rih killed six people including three children (ages 6, 11, 17), continuing the pattern of civilian casualties close to Poland's eastern border."
     },
     "[bbc] danube's record low levels force shutdown of hungary's only nuclear plant": {
       "detected_at": "2026-07-31T07:01:32.597456Z",
@@ -241,21 +261,11 @@
       "title": "Spain's Ceuta declares emergency over surge in migrant arrivals",
       "peak_label": "Spain's Ceuta declares migrant emergency",
       "peak_summary": "Over 1,500 migrants reached Spanish enclave by sea in one week; local leader says resources overwhelmed, urges Madrid intervention."
-    },
-    "three children among eight dead in russian strikes on ukraine, officials say": {
-      "detected_at": "2026-07-30T14:30:50.280404Z",
-      "peak_at": "2026-07-30T14:30:50.280404Z",
-      "peak_score_at": "2026-07-30T14:30:50.280404Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Three children among eight dead in Russian strikes on Ukraine, officials say",
-      "peak_label": "Russian strikes kill eight in Ukraine",
-      "peak_summary": "Continued Russian attacks on Ukrainian civilians near border region; ongoing war background affecting Polish security environment."
     }
   },
   "prev_top_event_titles": [
     "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
-    "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-    "At least five members of same family killed in Russian missile attack, Zelensky says"
+    "At least five members of same family killed in Russian missile attack, Zelensky says",
+    "Ebola outbreak in DRC the fastest growing in the history of the virus"
   ]
 }

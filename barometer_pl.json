@@ -1,12 +1,12 @@
 {
   "global_score": 2.9,
-  "rationale": "Mass migration surge at EU border (Ceuta) directly affects Poland as EU member facing migration pressure; 60,000 arrivals in 24 hours with 34 deaths is a major new escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Mass migrant surge at EU border (Ceuta) with 43+ deaths directly affects EU migration policy and Poland's own border pressures; Russian missile strike on Ukrainian family continues eastern threat backdrop. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
-      "label": "60,000 migrants breach Spain-Morocco border in day",
-      "summary": "Mass crossing into Spanish enclave Ceuta overwhelms border; 34 deaths reported. EU-wide migration pressure escalates sharply, directly affecting Poland's security and migration policy debates.",
-      "score": 2.9,
+      "label": "60,000 migrants storm Spanish Ceuta from Morocco",
+      "summary": "At least 43 died as tens of thousands crossed into Spanish enclave in 24 hours, triggering EU-wide migration crisis response and military deployment. Spain calls it territorial violation.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,7 +22,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/31/spain-pm-to-visit-ceuta-after-19-migrants-die-breaching-border-from-morocco?traffic_source=rss"
+          "url": "https://www.aljazeera.com/features/2026/7/31/spain-deploys-military-to-ceuta-after-migrant-surge-what-we-know?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -32,34 +32,10 @@
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
-      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "label": "Hamas agrees to disarm under Trump peace plan",
-      "summary": "Hamas confirms disarmament agreement; Israel silent. If sustained, removes major obstacle to Gaza peace, indirectly easing regional instability affecting EU energy and security.",
-      "score": 2.8,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T00:15:43.342620Z"
-    },
-    {
       "title": "At least five members of same family killed in Russian missile attack, Zelensky says",
       "label": "Russian strike kills family near Kryvyi Rih",
-      "summary": "Six civilians including three children killed in central Ukraine. Continuation of war background; no qualitative change to Poland's security environment.",
-      "score": 2.5,
+      "summary": "Six people including three children killed in central Ukraine village attack, continuing pattern of civilian casualties near Polish border region.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -73,6 +49,25 @@
         }
       ],
       "detected_at": "2026-07-31T01:01:29.938108Z"
+    },
+    {
+      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+      "label": "DRC Ebola outbreak fastest in virus history",
+      "summary": "Death toll nears 1,500 with no vaccine yet available for Bundibugyo strain, raising EU health security concerns given migration routes.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
+        }
+      ],
+      "detected_at": "2026-07-31T14:37:46.573800Z"
     }
   ],
   "short_summary": "49,000 migrants cross into Spanish Ceuta enclave",
@@ -80,9 +75,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-07-31T13:01:26.440790Z",
+  "updated_at": "2026-07-31T14:37:46.573800Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "49,000 migrants cross into Spanish Ceuta enclave",
     "summary": "Mass crossing into EU territory strains border systems and raises migration pressure across Europe, including potential secondary movement toward Poland and eastern EU states.",
@@ -240,6 +235,10 @@
     },
     {
       "t": "2026-07-31T13:01:26.440790Z",
+      "s": 2.9
+    },
+    {
+      "t": "2026-07-31T14:37:46.573800Z",
       "s": 2.9
     }
   ]
