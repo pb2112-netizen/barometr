@@ -1,31 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "Canadians spent $3.3bn less on US travel in 2025—confirmed economic shift; Trump rhetoric on Hamas disarmament continues without Israeli confirmation (rhetoric, not action). Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "Routine cycle: rhetoric on Hamas disarmament (no confirmed agreement), ongoing legal/policy noise, distant events with no direct US impact.",
   "top_events": [
     {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadians cut US travel spending by $3.3bn",
-      "summary": "Confirmed data shows Canadians replaced US vacations with other international trips in 2025. Measurable economic impact on US tourism sector.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
-        }
-      ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
-    },
-    {
       "title": "Trump says US has 'understanding' with Israel on Hamas disarmament deal",
-      "label": "Trump claims Hamas disarmament understanding",
-      "summary": "Trump announces understanding on Hamas disarmament; Israel has not confirmed agreement. Rhetoric without signed outcome; no confirmed policy change yet.",
-      "score": 2.2,
+      "label": "Trump says US has 'understanding' with Israel on Hamas",
+      "summary": "Rhetoric-only statement with no confirmed agreement; Israel has not agreed, so no real policy change or impact on US security or economy.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,12 +22,31 @@
       "detected_at": "2026-07-31T00:15:43.349017Z"
     },
     {
-      "title": "Body of US climber the latest recovered after Pakistan avalanche",
-      "label": "US climber body recovered after Pakistan avalanche",
-      "summary": "Body of US climber recovered from Pakistan mountain after avalanche; others still missing. Tragic individual loss; minimal broader impact on US daily life.",
-      "score": 1.5,
+      "title": "Children face higher threat of US deportation as legal support deal expires",
+      "label": "Legal support contract expires for migrant children",
+      "summary": "Expiring contract may leave 24,000 children without representation; policy change affecting immigration enforcement but no immediate operational impact yet.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/31/children-face-higher-threat-of-us-deportation-as-legal-support-deal-expires?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T22:01:29.355174Z"
+    },
+    {
+      "title": "Body of US climber the latest recovered after Pakistan avalanche",
+      "label": "US climber body recovered after Pakistan avalanche",
+      "summary": "American climber dies in Pakistan mountain avalanche; tragic but isolated incident with no broader impact on US daily life.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-07-31T20:37:01.740772Z",
+  "updated_at": "2026-07-31T22:01:29.355174Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -79,14 +79,6 @@
   },
   "events_anchor_at": "2026-07-31T10:00:10.772267Z",
   "score_history": [
-    {
-      "t": "2026-07-29T21:12:20.192456Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-07-29T22:01:23.639003Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-29T22:12:04.169597Z",
       "s": 2.8
@@ -230,6 +222,10 @@
     {
       "t": "2026-07-31T20:37:01.740772Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-07-31T22:01:29.355174Z",
+      "s": 2.1
     }
   ]
 }
