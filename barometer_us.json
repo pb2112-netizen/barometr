@@ -1,31 +1,11 @@
 {
-  "global_score": 2.0,
-  "short_summary": "Iran strikes US targets in Kuwait",
-  "rationale": "Canadians spent $3.3bn less on US travel in 2025 after Trump's return; measurable tourism decline continues but represents known trend without new policy change.",
+  "global_score": 2.3,
+  "rationale": "US F-35B jet crashes in California near San Diego; pilot survives. Confirmed military incident on US soil, though routine training accident without casualties. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian travel to US drops $3.3bn in 2025",
-      "summary": "Measurable tourism decline continues as Canadians replace US vacations with other international trips; known trend without new policy.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
-        }
-      ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
-    },
-    {
       "title": "US military says F-35B jet fighter crashes in California, pilot safe",
-      "label": "US F-35B jet crashes in California, pilot safe",
-      "summary": "Military jet goes down near Miramar airbase in San Diego; pilot survives routine training accident.",
+      "label": "US F-35B jet crashes in California safely",
+      "summary": "Military jet crashes near Miramar airbase in San Diego; pilot survives. Routine training accident on US soil without casualties or infrastructure damage.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -42,32 +22,57 @@
       "detected_at": "2026-08-01T03:49:13.086825Z"
     },
     {
-      "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
-      "label": "Trump threatens Iran strikes, Iran plans response",
-      "summary": "Rhetoric continues between US and Iran with no confirmed military action; ongoing verbal escalation without change on ground.",
-      "score": 2.0,
+      "title": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
+      "label": "US drops vandalism charge over pool damage",
+      "summary": "Prosecutors admit contractors caused Reflecting Pool damage, not vandals. Former Olympian charge dismissed. Domestic legal correction with no policy impact.",
+      "score": 2.3,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-31T10:00:10.772267Z"
+      "detected_at": "2026-08-01T06:40:31.634671Z"
+    },
+    {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian US travel drops $3.3bn under Trump",
+      "summary": "Measurable tourism decline as Canadians replace US vacations with other trips. Continuation of tracked economic shift in cross-border travel.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T06:40:49.958968Z"
     }
   ],
+  "short_summary": "Iran strikes US targets in Kuwait",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-01T04:01:02.933915Z",
+  "updated_at": "2026-08-01T06:40:31.634671Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Iran strikes US targets in Kuwait",
     "summary": "Iran directly retaliates against US forces in Kuwait following American strikes on Iranian territory, marking escalation in direct military confrontation between the two countries.",
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-31T10:00:10.772267Z",
   "score_history": [
-    {
-      "t": "2026-07-30T04:01:26.186496Z",
-      "s": 3.1
-    },
     {
       "t": "2026-07-30T06:40:49.958968Z",
       "s": 3.0
@@ -230,6 +231,10 @@
     {
       "t": "2026-08-01T04:01:02.933915Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-01T06:40:31.634671Z",
+      "s": 2.3
     }
   ]
 }
