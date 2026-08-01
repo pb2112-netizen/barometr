@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-01T19:32:51.925902Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-08-01T21:09:03.503974Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian missile strike inside Poland during Lviv attack",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Russian missile hits NATO Poland during Ukrainian city."
-    },
-    {
       "temat": "Pakistan police post attack — 11 officers killed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Raid in Hangu district kills 11 officers, 15 attackers."
     },
     {
       "temat": "Russia infiltrates Kostiantynivka fortress city",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 25,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 26,
       "opis": "Russian forces breach key defensive position on eastern."
     },
     {
       "temat": "Russian ballistic strikes on Kyiv kill nine",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 10,
       "opis": "Moscow escalates deadly attacks on capital with confirmed."
     },
     {
       "temat": "Nirmal Purja mountaineer death — Pakistan avalanche",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Renowned climber dies in Pakistan; distant tragedy."
     },
     {
       "temat": "Israeli forces detain residents in southern Syria",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Israel operates beyond 1974 line; regional shift."
     },
     {
       "temat": "Moscow cafe explosion — 3 dead, 15 injured",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Blast near Moscow cafe kills three; distant incident."
+    },
+    {
+      "temat": "Ukraine sinks Russian container ship in naval action",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
+      "opis": "Ukrainian forces report sinking Russian vessel; naval."
+    },
+    {
+      "temat": "Ethiopia-TPLF clashes threaten Pretoria peace deal",
+      "poziom_bazowy": 1.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Fighting near Sheraro in western Tigray; distant conflict."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-30T20:35:09.984871Z",
-      "s": 5.6
-    },
     {
       "t": "2026-07-30T22:06:26.806165Z",
       "s": 5.3
@@ -202,6 +204,10 @@
     {
       "t": "2026-08-01T19:32:51.919599Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-08-01T21:09:03.496758Z",
+      "s": 4.1
     }
   ],
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
@@ -210,11 +216,31 @@
       "detected_at": "2026-07-31T20:37:01.738532Z",
       "peak_at": "2026-08-01T13:01:18.470929Z",
       "peak_score_at": "2026-08-01T13:01:18.470929Z",
-      "peak_score": 6.0,
+      "peak_score": 5.9,
       "peak_sentiment": "negative",
       "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
       "peak_label": "Nine killed in Russian strikes on Kyiv",
       "peak_summary": "Moscow continues deadly ballistic attacks on Ukrainian capital, killing nine. Ukraine sinks Russian container ship. Ongoing escalation directly affects residents' safety."
+    },
+    "fighting breaks out in western tigray as ethiopia and tplf trade blame": {
+      "detected_at": "2026-08-01T21:09:03.496758Z",
+      "peak_at": "2026-08-01T21:09:03.496758Z",
+      "peak_score_at": "2026-08-01T21:09:03.496758Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "neutral",
+      "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
+      "peak_label": "Clashes erupt in western Tigray near Sheraro",
+      "peak_summary": "Fighting near Sheraro threatens 2022 Pretoria peace deal. Distant African conflict with no direct impact on Ukrainian security or daily life."
+    },
+    "three killed after woman detonates bomb at moscow restaurant, state media say": {
+      "detected_at": "2026-08-01T19:32:51.919599Z",
+      "peak_at": "2026-08-01T19:32:51.919599Z",
+      "peak_score_at": "2026-08-01T19:32:51.919599Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "At least three killed in explosion near cafe in Russia's Moscow",
+      "peak_label": "Moscow cafe blast kills three",
+      "peak_summary": "Explosion near Moscow cafe kills three, injures fifteen; distant incident with no direct impact on Ukraine's war situation."
     },
     "israeli forces detain residents and demolish homes in southern syria": {
       "detected_at": "2026-08-01T18:11:17.303662Z",
@@ -225,16 +251,6 @@
       "title": "Israeli forces detain residents and demolish homes in southern Syria",
       "peak_label": "Israeli forces detain residents in southern Syria",
       "peak_summary": "Israel sends troops beyond 1974 disengagement line into Syria's southern provinces; distant regional development with no direct impact on Ukraine."
-    },
-    "at least three killed in explosion near cafe in russia's moscow": {
-      "detected_at": "2026-08-01T19:32:51.919599Z",
-      "peak_at": "2026-08-01T19:32:51.919599Z",
-      "peak_score_at": "2026-08-01T19:32:51.919599Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "At least three killed in explosion near cafe in Russia's Moscow",
-      "peak_label": "Moscow cafe blast kills three",
-      "peak_summary": "Explosion near Moscow cafe kills three, injures fifteen; distant incident with no direct impact on Ukraine's war situation."
     },
     "israeli strikes kill four across gaza, destroy medical supply warehouse": {
       "detected_at": "2026-08-01T15:18:16.174079Z",
@@ -305,21 +321,11 @@
       "title": "Fifa scraps controversial World Cup investment plan",
       "peak_label": "FIFA abandons World Cup equity sale plan",
       "peak_summary": "Gianni Infantino's proposal to sell stakes in major competitions dropped after opposition; no relevance to Ukrainian daily life during war."
-    },
-    "trump says us has 'understanding' with israel on hamas disarmament deal": {
-      "detected_at": "2026-07-31T19:01:25.027772Z",
-      "peak_at": "2026-07-31T20:37:01.738532Z",
-      "peak_score_at": "2026-07-31T20:37:01.738532Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Trump says US has 'understanding' with Israel on Hamas disarmament deal",
-      "peak_label": "Trump announces Hamas disarmament understanding",
-      "peak_summary": "Trump claims understanding on Hamas disarmament; Israel has not confirmed. Potential Middle East shift; indirect relevance to Ukraine's own war dynamics."
     }
   },
   "prev_top_event_titles": [
     "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-    "Israeli forces detain residents and demolish homes in southern Syria",
-    "At least three killed in explosion near cafe in Russia's Moscow"
+    "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
+    "Three killed after woman detonates bomb at Moscow restaurant, state media say"
   ]
 }
