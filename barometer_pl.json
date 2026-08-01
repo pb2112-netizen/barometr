@@ -1,12 +1,12 @@
 {
-  "global_score": 4.0,
-  "rationale": "Kyiv ballistic strikes continue at high intensity (9 dead); Ceuta migration crisis escalates with Italy suspending Schengen — both ongoing situations without qualitative change from Polish perspective.",
+  "global_score": 3.9,
+  "rationale": "Kyiv ballistic strikes continue with confirmed casualties; EU Schengen suspension over Ceuta crisis tests bloc cohesion; Iran energy strike threats maintain regional tension. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-      "label": "Russia escalates Kyiv ballistic strikes, nine dead",
-      "summary": "Moscow continues deadly ballistic missile attacks on Ukrainian capital with nine confirmed casualties; Ukraine retaliates by sinking Russian container ship. Ongoing escalation near Poland's eastern border.",
-      "score": 4.0,
+      "label": "Russia strikes Kyiv with ballistic missiles",
+      "summary": "Moscow escalates attacks on Ukrainian capital with ballistic missiles killing nine civilians. Ukraine retaliates by sinking Russian container ship. Continued eastern border instability.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,16 +23,16 @@
     },
     {
       "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-      "label": "Italy suspends Schengen with Spain over Ceuta crisis",
-      "summary": "Italy temporarily suspends Schengen arrangement with Spain as Ceuta migration crisis strains EU solidarity; 57 dead in mass crossing. Tests EU cohesion but geographically distant from Poland.",
-      "score": 2.0,
+      "label": "Italy suspends Schengen with Spain over Ceuta",
+      "summary": "Italy temporarily suspends Schengen arrangement with Spain after 57 dead in mass Ceuta crossing. Tests EU solidarity and border framework Poland relies on.",
+      "score": 3.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
-        "Al Jajazeera",
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -42,17 +42,21 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/spain-says-migrants-leaving-ceuta-after-mass-influx-in-which-67-died?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
       "title": "Iran warns against 'flames of war' amid US strike threats on energy sites",
-      "label": "Iran warns US over threatened energy site strikes",
-      "summary": "Tehran prepares retaliation plan as US media reports potential imminent attacks on Iranian civilian energy infrastructure. Rhetoric without confirmed action; indirect energy market risk for Poland.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "label": "Iran warns retaliation to US energy threats",
+      "summary": "Tehran warns of retaliation after US media reports potential strikes on Iranian energy infrastructure. Maintains regional tension affecting global energy markets Poland depends on.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -71,24 +75,20 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-01T13:53:54.859331Z",
+  "updated_at": "2026-08-01T15:18:16.169968Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian missile strikes kill nine in Kyiv",
     "summary": "Moscow escalates ballistic missile attacks on Ukrainian capital, maintaining high threat level near Poland's eastern border with continued civilian casualties.",
     "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-    "score": 4.8,
+    "score": 4.7,
     "sentiment": "negative",
     "detected_at": "2026-07-31T01:01:29.938108Z",
     "peak_at": "2026-08-01T07:01:25.498922Z"
   },
   "events_anchor_at": "2026-07-31T01:01:29.938108Z",
   "score_history": [
-    {
-      "t": "2026-07-30T14:30:50.280404Z",
-      "s": 6.5
-    },
     {
       "t": "2026-07-30T16:01:26.789426Z",
       "s": 6.2
@@ -236,6 +236,10 @@
     {
       "t": "2026-08-01T13:53:54.859331Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-01T15:18:16.169968Z",
+      "s": 3.9
     }
   ]
 }
