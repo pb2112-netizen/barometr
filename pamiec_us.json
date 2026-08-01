@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-01T22:10:36.809287Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-01T23:10:23.843883Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canadian travel to US drops $3.3bn after Trump return",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Measurable tourism decline; Canadians choose other trips."
     },
     {
-      "temat": "Trump Reflecting Pool vandalism charge dropped",
+      "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "DOJ admits contractors caused damage; case dismissed."
+      "cykle_bez_zmian": 1,
+      "opis": "Small plane crashes at archaeological site; distant event."
     },
     {
-      "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
-      "poziom_bazowy": 1.0,
+      "temat": "FBI investigates cyberattacks on Michigan, Minnesota",
+      "poziom_bazowy": 3.0,
       "cykle_bez_zmian": 0,
-      "opis": "Small plane crashes at archaeological site; distant event."
+      "opis": "FBI probes state system attacks; possible Iranian plot."
     },
     {
       "temat": "Trump proposes 'anti-weaponisation' fund amid AG standoff",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "President pledges fund if attorney general pick not."
     },
     {
       "temat": "Colombia car bomb — 11 wounded before election",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Attack wounds eleven; president-elect pledges crackdown."
     },
     {
       "temat": "DRC Ebola outbreak — 1,587 dead, fastest-growing strain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "WHO declares worst Ebola outbreak ever in Congo; distant."
     },
     {
       "temat": "Turkey-Iraq oil pipeline renewal — 750k bbl/day",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "One-year deal stabilizes regional energy flow; indirect US."
     },
     {
       "temat": "US-Iran energy site strike threats — retaliation warnings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "US media reports potential strikes; Iran warns retaliation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-30T22:18:19.248735Z",
-      "s": 2.3
-    },
     {
       "t": "2026-07-31T00:15:43.349017Z",
       "s": 3.0
@@ -212,19 +208,33 @@
     {
       "t": "2026-08-01T22:10:36.803216Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-01T23:10:23.840691Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-08-01T00:13:26.611275Z",
+  "events_anchor_at": "2026-08-01T23:10:23.840691Z",
   "event_detected_at": {
-    "trump denounces justice department decision to drop reflecting pool charges": {
-      "detected_at": "2026-08-01T06:40:31.634671Z",
-      "peak_at": "2026-08-01T06:40:31.634671Z",
-      "peak_score_at": "2026-08-01T06:40:31.634671Z",
-      "peak_score": 2.0,
+    "michigan joins minnesota in reporting cyberattacks, with fbi investigating": {
+      "detected_at": "2026-08-01T23:10:23.840691Z",
+      "peak_at": "2026-08-01T23:10:23.840691Z",
+      "peak_score_at": "2026-08-01T23:10:23.840691Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
+      "peak_label": "FBI probes cyberattacks on Michigan, Minnesota systems",
+      "peak_summary": "FBI investigates cyberattacks on state systems in Michigan and Minnesota with no culprit identified; authorities previously warned of possible Iranian plot targeting US infrastructure."
+    },
+    "tourist plane crashes during flight over peru's nazca lines, killing 13": {
+      "detected_at": "2026-08-01T22:01:19.662423Z",
+      "peak_at": "2026-08-01T22:01:19.662423Z",
+      "peak_score_at": "2026-08-01T22:01:19.662423Z",
+      "peak_score": 1.0,
       "peak_sentiment": "neutral",
-      "title": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
-      "peak_label": "US drops vandalism charge over pool damage",
-      "peak_summary": "Prosecutors admit contractors caused Reflecting Pool damage, not vandals. Former Olympian charge dismissed. Domestic legal correction with no policy impact."
+      "title": "Tourist plane crashes in Peru, killing 13",
+      "peak_label": "Peru tourist plane crash kills 13 people",
+      "peak_summary": "Small aircraft crashes near Nazca Lines archaeological site. Distant tragedy with no direct connection to US residents' daily life."
     },
     "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
       "detected_at": "2026-07-30T06:40:49.958968Z",
@@ -236,15 +246,15 @@
       "peak_label": "Canadian US travel spending drops $3.3bn",
       "peak_summary": "Measurable tourism decline as Canadians replace US vacations with other international trips; continuation of trend after Trump's return."
     },
-    "tourist plane crashes in peru, killing 13": {
-      "detected_at": "2026-08-01T22:01:19.662423Z",
-      "peak_at": "2026-08-01T22:01:19.662423Z",
-      "peak_score_at": "2026-08-01T22:01:19.662423Z",
-      "peak_score": 1.0,
+    "trump denounces justice department decision to drop reflecting pool charges": {
+      "detected_at": "2026-08-01T06:40:31.634671Z",
+      "peak_at": "2026-08-01T06:40:31.634671Z",
+      "peak_score_at": "2026-08-01T06:40:31.634671Z",
+      "peak_score": 2.0,
       "peak_sentiment": "neutral",
-      "title": "Tourist plane crashes in Peru, killing 13",
-      "peak_label": "Peru tourist plane crash kills 13 people",
-      "peak_summary": "Small aircraft crashes near Nazca Lines archaeological site. Distant tragedy with no direct connection to US residents' daily life."
+      "title": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
+      "peak_label": "US drops vandalism charge over pool damage",
+      "peak_summary": "Prosecutors admit contractors caused Reflecting Pool damage, not vandals. Former Olympian charge dismissed. Domestic legal correction with no policy impact."
     },
     "trump pledges to pursue 'anti-weaponisation' fund amid blanche standoff": {
       "detected_at": "2026-08-01T21:09:03.499092Z",
@@ -338,8 +348,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump denounces Justice Department decision to drop Reflecting Pool charges",
-    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-    "Tourist plane crashes in Peru, killing 13"
+    "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
+    "Tourist plane crashes during flight over Peru's Nazca Lines, killing 13",
+    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
   ]
 }
