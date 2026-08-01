@@ -1,11 +1,35 @@
 {
-  "global_score": 3.8,
-  "rationale": "Ceuta migration crisis continues with 57 deaths; ongoing EU border pressure but no new qualitative change affecting Romania directly.",
+  "global_score": 3.6,
+  "rationale": "Russian escalation of ballistic missile strikes on Kyiv affects Black Sea regional security environment; Ceuta migration crisis continues with deaths, pressuring EU borders. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
+      "label": "Russia escalates ballistic strikes on Kyiv",
+      "summary": "Moscow intensifies deadly ballistic missile attacks on Ukrainian capital. Escalation in neighboring Ukraine directly affects Romania's Black Sea regional security concerns.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-07-31T10:01:27.977530Z"
+    },
+    {
       "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-      "label": "Spain faces 60,000 migrant surge from Morocco",
-      "summary": "Mass border crossing into Spanish enclave continues EU migration pressure; 57 deaths reported, Italy suspends Schengen with Spain.",
+      "label": "60,000 migrants cross into Spanish Ceuta enclave",
+      "summary": "Mass crossing with 57 deaths; Italy suspends Schengen with Spain. EU migration pressure continues affecting border security framework.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -27,47 +51,23 @@
       "detected_at": "2026-07-30T18:45:07.818482Z"
     },
     {
-      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-      "label": "Russian missile strikes kill nine in Kyiv",
-      "summary": "Moscow escalates ballistic missile attacks on Ukrainian capital near Romania's Black Sea region; continued threat to regional security.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T10:01:27.977530Z"
-    },
-    {
-      "title": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
-      "label": "Greek wildfire forces 500 evacuations by sea",
-      "summary": "Tourists evacuated by boat from Agios Vasileios; broader European wildfire season continues with climate-driven risk across region.",
-      "score": 2.5,
+      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+      "label": "DRC Ebola outbreak fastest growing ever recorded",
+      "summary": "Death toll nears 1,500 with no vaccine for Bundibugyo strain. Distant health crisis with no direct impact on Romania.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus"
         }
       ],
-      "detected_at": "2026-07-31T18:44:55.559972Z"
+      "detected_at": "2026-07-31T12:16:15.507075Z"
     }
   ],
   "short_summary": "Russian ballistic strikes kill nine in Kyiv",
@@ -75,7 +75,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-01T07:01:25.500130Z",
+  "updated_at": "2026-08-01T09:20:32.667974Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -236,6 +236,10 @@
     {
       "t": "2026-08-01T07:01:25.500130Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-01T09:20:32.667974Z",
+      "s": 3.6
     }
   ]
 }
