@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-08-01T10:01:15.882722Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-01T11:34:42.985661Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     },
     {
       "temat": "DRC Ebola outbreak — fastest growing in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Death toll nears 1,500; no vaccine for Bundibugyo strain."
     },
     {
       "temat": "Ceuta mass migrant crossing — 60k in 24h, 43 dead",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 18,
       "opis": "Largest Iberian border breach; Spain military deployed."
     },
     {
       "temat": "Greek wildfire evacuations — European fire season",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "500 evacuated by sea; broader European wildfire risk."
     },
     {
       "temat": "Peru ex-president corruption conviction overturned",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Humala sentence reversed; distant legal development."
+    },
+    {
+      "temat": "Italy suspends Schengen with Spain — Ceuta crisis",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 1,
+      "opis": "EU border solidarity breaks; Iberian integration tested."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-30T10:01:23.902875Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-30T12:04:07.929617Z",
       "s": 2.9
@@ -186,19 +188,33 @@
     {
       "t": "2026-08-01T10:01:15.876423Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-01T11:34:42.979532Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-07-30T18:45:07.820648Z",
   "event_detected_at": {
-    "spain's pm blames traffickers after 60,000 migrants reach ceuta from morocco": {
+    "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
       "detected_at": "2026-07-30T18:45:07.820648Z",
-      "peak_at": "2026-07-31T10:01:27.979010Z",
+      "peak_at": "2026-08-01T11:34:42.979532Z",
       "peak_score_at": "2026-07-31T10:01:27.979010Z",
-      "peak_score": 3.4,
+      "peak_score": 3.3,
       "peak_sentiment": "negative",
       "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say",
       "peak_label": "49,000 migrants cross into Spanish Ceuta enclave",
       "peak_summary": "Mass border crossing overwhelms Spanish territory; 18 deaths reported. Direct impact on Iberian neighbor Spain, raising questions about border security and potential spillover to Portugal."
+    },
+    "spain attacks 'selfish' response of some eu countries to ceuta migrant crossings": {
+      "detected_at": "2026-08-01T11:34:42.979532Z",
+      "peak_at": "2026-08-01T11:34:42.979532Z",
+      "peak_score_at": "2026-08-01T11:34:42.979532Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+      "peak_label": "Italy suspends Schengen with Spain over Ceuta",
+      "peak_summary": "Italy temporarily suspends Schengen arrangement with Spain after Ceuta mass crossings, testing EU solidarity and affecting Iberian integration with broader Europe."
     },
     "hundreds escape greek wildfire by sea as blazes continue across europe": {
       "detected_at": "2026-07-31T14:37:46.577636Z",
@@ -209,16 +225,6 @@
       "title": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
       "peak_label": "Greek wildfire forces 500 evacuations by sea",
       "peak_summary": "Around 500 people, mostly tourists, evacuated by boat from Agios Vasileios. European wildfire season continues; indirect concern for Portugal's own fire risk."
-    },
-    "ebola outbreak in drc the fastest growing in the history of the virus": {
-      "detected_at": "2026-07-31T10:01:27.979010Z",
-      "peak_at": "2026-07-31T10:01:27.979010Z",
-      "peak_score_at": "2026-07-31T10:01:27.979010Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
-      "peak_label": "DRC Ebola outbreak fastest growing ever recorded",
-      "peak_summary": "Death toll nears 1,500 with no vaccine for Bundibugyo strain yet available. Distant health crisis with minimal direct impact on Portugal; global health concern only."
     },
     "peru's ex-president leaves jail after 15-year jail term for corruption overturned": {
       "detected_at": "2026-07-31T23:17:06.579490Z",
@@ -232,8 +238,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-    "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
-    "Ebola outbreak in DRC the fastest growing in the history of the virus"
+    "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+    "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
+    "Hundreds escape Greek wildfire by sea as blazes continue across Europe"
   ]
 }
