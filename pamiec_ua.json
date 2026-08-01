@@ -1,44 +1,40 @@
 {
-  "updated_at": "2026-08-01T01:01:23.651369Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-01T03:49:13.090168Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US retaliatory strikes on Iran — Jordan base attack",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
       "opis": "US launches strikes after Iran fires on Jordan bases."
     },
     {
       "temat": "Russian missile strike inside Poland during Lviv attack",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 10,
       "opis": "Russian missile hits NATO Poland during Ukrainian city."
     },
     {
       "temat": "Pakistan police post attack — 11 officers killed",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
       "opis": "Raid in Hangu district kills 11 officers, 15 attackers."
     },
     {
       "temat": "Hamas disarmament claim — Trump Board of Peace",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Trump announces Hamas agreed to disarm; Israel silent."
     },
     {
       "temat": "Russia infiltrates Kostiantynivka fortress city",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 11,
       "opis": "Russian forces breach key defensive position on eastern."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-30T03:27:12.365832Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-30T04:01:26.184702Z",
       "s": 3.9
@@ -182,6 +178,10 @@
     {
       "t": "2026-08-01T01:01:23.645687Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-01T03:49:13.085109Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-07-31T14:37:46.578933Z",
@@ -190,11 +190,31 @@
       "detected_at": "2026-07-30T16:01:26.794395Z",
       "peak_at": "2026-07-31T16:01:28.997537Z",
       "peak_score_at": "2026-07-30T16:01:26.794395Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "negative",
       "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
       "peak_label": "Russian missile strikes NATO Poland",
       "peak_summary": "Polish PM confirms Russian missile hit NATO territory during Lviv attack; NATO involvement risk."
+    },
+    "russian missile attack kills three in ukraine's kyiv": {
+      "detected_at": "2026-07-31T20:37:01.738532Z",
+      "peak_at": "2026-08-01T03:49:13.085109Z",
+      "peak_score_at": "2026-08-01T03:49:13.085109Z",
+      "peak_score": 6.0,
+      "peak_sentiment": "negative",
+      "title": "Russian missile attack kills three in Ukraine's Kyiv",
+      "peak_label": "Russian missile strike kills three in Kyiv",
+      "peak_summary": "Deadly attack on capital traps residents in partially collapsed burning building; ongoing strikes on Ukrainian cities continue."
+    },
+    "israel launches attacks across gaza one day after hamas agrees to disarm": {
+      "detected_at": "2026-07-31T00:15:43.347667Z",
+      "peak_at": "2026-07-31T10:00:10.770927Z",
+      "peak_score_at": "2026-07-31T10:00:10.770927Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "peak_label": "Hamas agrees to disarm in peace plan",
+      "peak_summary": "Potential Gaza resolution could shift US and Western focus away from Middle East, possibly affecting military aid priorities and diplomatic attention to Ukraine's war effort."
     },
     "why limited war with the us may suit iran better than peace": {
       "detected_at": "2026-07-31T12:16:15.510665Z",
@@ -215,26 +235,6 @@
       "title": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
       "peak_label": "60,000 migrants breach Spain-Morocco border",
       "peak_summary": "Mass crossing into Spanish enclave with 34 deaths. Distant EU border crisis with no direct link to Ukraine's war situation or security."
-    },
-    "bowen: plan for hamas to disarm faces big obstacles, yet it offers rare hope for gaza": {
-      "detected_at": "2026-07-31T00:15:43.347667Z",
-      "peak_at": "2026-07-31T10:00:10.770927Z",
-      "peak_score_at": "2026-07-31T10:00:10.770927Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "peak_label": "Hamas agrees to disarm in peace plan",
-      "peak_summary": "Potential Gaza resolution could shift US and Western focus away from Middle East, possibly affecting military aid priorities and diplomatic attention to Ukraine's war effort."
-    },
-    "poland protests to russian ambassador over missile incursion": {
-      "detected_at": "2026-07-31T20:37:01.738532Z",
-      "peak_at": "2026-07-31T20:37:01.738532Z",
-      "peak_score_at": "2026-07-31T20:37:01.738532Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "negative",
-      "title": "Poland protests to Russian ambassador over missile incursion",
-      "peak_label": "Poland protests Russian missile entering territory",
-      "peak_summary": "Warsaw formally protests recent Russian missile incursion into Polish territory. NATO neighbor reacts to spillover from war; regional security concern."
     },
     "trump says us has 'understanding' with israel on hamas disarmament deal": {
       "detected_at": "2026-07-31T19:01:25.027772Z",
@@ -299,7 +299,7 @@
   },
   "prev_top_event_titles": [
     "At least five members of same family killed in Russian missile attack, Zelensky says",
-    "Why limited war with the US may suit Iran better than peace",
-    "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco"
+    "Russian missile attack kills three in Ukraine's Kyiv",
+    "Israel launches attacks across Gaza one day after Hamas agrees to disarm"
   ]
 }
