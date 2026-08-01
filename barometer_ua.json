@@ -1,12 +1,12 @@
 {
-  "global_score": 2.0,
-  "rationale": "Russian ballistic missile strikes on Kyiv continue with nine confirmed deaths, maintaining direct deadly threat to Ukrainian capital and civilian population. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Russian ballistic missile strikes on Kyiv kill nine civilians — continuation of deadly capital attacks already tracked but still directly affecting Ukrainian residents.",
   "top_events": [
     {
-      "title": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
-      "label": "Nine killed in Russian ballistic strikes on Kyiv",
-      "summary": "Russia continues escalated ballistic missile attacks on Ukrainian capital with nine confirmed deaths. Direct deadly threat to Kyiv residents persists.",
-      "score": 2.0,
+      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+      "label": "Russian strikes kill nine in Kyiv",
+      "summary": "Moscow escalates ballistic missile attacks on Ukrainian capital with nine confirmed deaths. Continuation of deadly strikes directly affecting Kyiv residents; Ukrainian forces sink Russian container ship.",
+      "score": 5.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -16,18 +16,37 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-07-30T16:01:26.794395Z"
+      "detected_at": "2026-07-31T20:37:01.738532Z"
     },
     {
-      "title": "The renowned mountaineer was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-      "label": "Mountaineer Nirmal Purja killed in Pakistan avalanche",
-      "summary": "Renowned mountaineer dies in Pakistan avalanche. Distant tragedy with no impact on Ukrainian daily life during ongoing war.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "title": "Israeli strikes kill four across Gaza, destroy medical supply warehouse",
+      "label": "Israeli strikes destroy Gaza medical warehouse",
+      "summary": "Attacks kill four and destroy medicine stores at Al-Aqsa Hospital days after disarmament deal. Distant conflict with no direct link to Ukrainian daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-01T15:18:16.174079Z"
+    },
+    {
+      "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
+      "label": "Mountaineer Nirmal Purja dies in avalanche",
+      "summary": "Renowned climber known for scaling 14 highest peaks in six months dies in Pakistan avalanche. Distant tragedy with no impact on Ukrainian war situation.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC"
@@ -38,15 +57,15 @@
           "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-01T16:01:24.555518Z"
+      "detected_at": "2026-07-31T16:56:49.642351Z"
     }
   ],
   "short_summary": "Nine killed in Russian strikes on Kyiv",
-  "level_label": "Stable",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-01T16:01:24.555518Z",
+  "updated_at": "2026-08-01T17:13:47.328568Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -60,14 +79,6 @@
   },
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
   "score_history": [
-    {
-      "t": "2026-07-30T16:01:26.794395Z",
-      "s": 6.5
-    },
-    {
-      "t": "2026-07-30T16:48:45.777717Z",
-      "s": 6.5
-    },
     {
       "t": "2026-07-30T18:45:07.822408Z",
       "s": 6.2
@@ -215,6 +226,10 @@
     {
       "t": "2026-08-01T16:01:24.555518Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-01T17:13:47.328568Z",
+      "s": 5.0
     }
   ]
 }

@@ -1,48 +1,40 @@
 {
-  "updated_at": "2026-08-01T16:01:24.559889Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-01T17:13:47.333163Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Hamas disarmament agreement — Trump peace plan",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Hamas agrees to disarm; Israel silent; potential."
-    },
-    {
       "temat": "Ceuta mass crossing — 57 dead, 60k migrants",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 13,
       "opis": "Major EU border breach with deaths; migration pressure."
     },
     {
       "temat": "Russian ballistic strikes on Kyiv intensify — 9 dead",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "Moscow escalates attacks on Ukrainian capital; regional."
     },
     {
       "temat": "US-Iran energy site strike threats escalate",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "US threatens Iranian energy infrastructure; retaliation."
     },
     {
       "temat": "Italy suspends Schengen with Spain — Ceuta crisis",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "EU border solidarity breaks; migration pressure signals."
+    },
+    {
+      "temat": "Turkey-Iraq oil pipeline renewal — 750k bbl/day",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "One-year deal stabilizes regional energy flow; Black Sea."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-30T16:01:26.790973Z",
-      "s": 4.2
-    },
-    {
-      "t": "2026-07-30T16:48:45.774322Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-30T18:45:07.818482Z",
       "s": 4.5
@@ -190,11 +182,25 @@
     {
       "t": "2026-08-01T16:01:24.552605Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-01T17:13:47.325656Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-07-31T10:01:27.977530Z",
   "event_detected_at": {
-    "italy has temporarily suspended the schengen arrangement with spain as prime minister giorgia meloni called scenes in ceuta \"shocking\".": {
+    "nine killed in strikes on kyiv, as ukraine sinks russian container ship": {
+      "detected_at": "2026-07-31T10:01:27.977530Z",
+      "peak_at": "2026-08-01T06:40:31.631293Z",
+      "peak_score_at": "2026-08-01T06:40:31.631293Z",
+      "peak_score": 3.6,
+      "peak_sentiment": "negative",
+      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
+      "peak_label": "Russian ballistic strikes kill nine in Kyiv",
+      "peak_summary": "Moscow escalates deadly ballistic missile attacks on Ukrainian capital. Affects Black Sea regional security for Romania as NATO member bordering conflict zone."
+    },
+    "italy suspends schengen with spain — ceuta crisis": {
       "detected_at": "2026-07-30T18:45:07.818482Z",
       "peak_at": "2026-08-01T15:18:16.171315Z",
       "peak_score_at": "2026-08-01T15:18:16.171315Z",
@@ -203,6 +209,16 @@
       "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
       "peak_label": "Italy suspends Schengen over Ceuta crisis",
       "peak_summary": "Italy suspends Schengen with Spain after 57 die in mass crossing. Tests EU cohesion and border framework Romania depends on for regional stability."
+    },
+    "turkiye and iraq sign one-year oil pipeline deal amid global shift": {
+      "detected_at": "2026-08-01T17:13:47.325656Z",
+      "peak_at": "2026-08-01T17:13:47.325656Z",
+      "peak_score_at": "2026-08-01T17:13:47.325656Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Turkiye and Iraq sign one-year oil pipeline deal amid global shift",
+      "peak_label": "Turkey Iraq sign oil pipeline deal",
+      "peak_summary": "One-year agreement ensures 750,000 barrels daily through Iraq-Turkey pipeline. Regional energy stability signal for Black Sea neighbor Romania."
     },
     "the attack comes as moscow escalates deadly ballistic missile attacks on the ukrainian capital.": {
       "detected_at": "2026-08-01T16:01:24.552605Z",
@@ -223,16 +239,6 @@
       "title": "At least 57 people have died trying to reach the Spanish enclave of Ceuta after as many as tens of thousands crossed from Morocco.",
       "peak_label": "Death toll rises to 57 in Ceuta crossing",
       "peak_summary": "Confirmed death toll from Ceuta mass crossing now 57. EU migration pressure continues with largest single-day border breach on record."
-    },
-    "nine killed in strikes on kyiv, as ukraine sinks russian container ship": {
-      "detected_at": "2026-07-31T10:01:27.977530Z",
-      "peak_at": "2026-08-01T06:40:31.631293Z",
-      "peak_score_at": "2026-08-01T06:40:31.631293Z",
-      "peak_score": 3.7,
-      "peak_sentiment": "negative",
-      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
-      "peak_label": "Russian ballistic strikes kill nine in Kyiv",
-      "peak_summary": "Moscow escalates deadly ballistic missile attacks on Ukrainian capital. Affects Black Sea regional security for Romania as NATO member bordering conflict zone."
     },
     "iran warns against 'flames of war' amid us strike threats on energy sites": {
       "detected_at": "2026-08-01T13:53:54.860921Z",
@@ -273,21 +279,11 @@
       "title": "Trump says US has 'understanding' with Israel on Hamas disarmament deal",
       "peak_label": "Hamas disarmament deal faces implementation hurdles",
       "peak_summary": "Continuation of disarmament rhetoric; no confirmed implementation yet. Minimal direct impact on Romanian daily life."
-    },
-    "russia and ukraine report casualties as they continue to trade attacks": {
-      "detected_at": "2026-07-31T16:56:49.639508Z",
-      "peak_at": "2026-07-31T16:56:49.639508Z",
-      "peak_score_at": "2026-07-31T16:56:49.639508Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Russia and Ukraine report casualties as they continue to trade attacks",
-      "peak_label": "Russia and Ukraine trade attacks, casualties reported",
-      "peak_summary": "Ukraine hits Russian refineries; Russia strikes Dnipropetrovsk and cargo vessel near Odesa. Ongoing Black Sea conflict continues to affect regional security environment."
     }
   },
   "prev_top_event_titles": [
-    "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
-    "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
-    "At least 57 people have died trying to reach the Spanish enclave of Ceuta after as many as tens of thousands crossed from Morocco."
+    "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+    "Italy suspends Schengen with Spain — Ceuta crisis",
+    "Turkiye and Iraq sign one-year oil pipeline deal amid global shift"
   ]
 }
