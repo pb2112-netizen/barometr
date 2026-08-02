@@ -1,13 +1,32 @@
 {
-  "global_score": 3.0,
-  "rationale": "Ukraine reports confirmed strikes on Russian refinery and airfield; qualitative new military action affecting war dynamics. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Trump's Iran strike cancellation continues to reduce broader war risk affecting NATO; Ukraine reports Black Sea naval action and Russian attacks continue as background.",
   "top_events": [
+    {
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "label": "Trump halts Iran strikes pending rapid deal",
+      "summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk and potential NATO distraction from Ukraine support.",
+      "score": 3.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.907176Z"
+    },
     {
       "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
       "label": "Ukraine hits Russian refinery and airfield",
-      "summary": "Ukrainian forces strike major Russian infrastructure; Moscow reports casualties and retaliatory Black Sea attacks. New confirmed military action affecting war dynamics.",
+      "summary": "Ukrainian forces strike major Russian oil refinery and airfield while Russia attacks Black Sea ports and vessels overnight, continuing mutual strikes.",
       "score": 3.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -23,8 +42,8 @@
     },
     {
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-      "label": "Israeli strikes kill 13 in Gaza",
-      "summary": "Israel targets military operatives in Gaza despite disarmament deal. Distant Middle East conflict; no direct Ukrainian impact.",
+      "label": "Israeli strikes kill 13 in Gaza cities",
+      "summary": "Israel targets military operatives in Gaza City, Khan Younis, and Deir el-Balah following Hamas disarmament agreement; distant Middle East conflict.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -39,40 +58,16 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
-    {
-      "title": "Greek firefighting helicopters in mid-air collision, four crew missing",
-      "label": "Greece wildfire helicopters collide mid-air",
-      "summary": "Two helicopters fighting wildfires collided near Athens; four crew missing. Distant European event; no Ukrainian impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T16:01:25.409061Z"
     }
   ],
   "short_summary": "Israel strikes Gaza after Hamas disarmament deal",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T16:01:25.409061Z",
+  "updated_at": "2026-08-02T17:14:35.021406Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Israel strikes Gaza after Hamas disarmament deal",
     "summary": "Israel targets military operatives in Gaza City, Khan Younis, Deir el-Balah, killing at least eight after Hamas agrees to disarmament.",
@@ -84,14 +79,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.907176Z",
   "score_history": [
-    {
-      "t": "2026-07-31T16:01:28.997537Z",
-      "s": 6.5
-    },
-    {
-      "t": "2026-07-31T16:56:49.642351Z",
-      "s": 6.0
-    },
     {
       "t": "2026-07-31T18:44:55.562872Z",
       "s": 2.9
@@ -251,6 +238,10 @@
     {
       "t": "2026-08-02T16:01:25.409061Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-02T17:14:35.021406Z",
+      "s": 3.9
     }
   ]
 }
