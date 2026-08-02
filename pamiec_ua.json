@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-02T00:11:24.149171Z",
+  "updated_at": "2026-08-02T01:02:02.057558Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Pakistan police post attack — 11 officers killed",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Raid in Hangu district kills 11 officers, 15 attackers."
-    },
-    {
-      "temat": "Russian ballistic strikes on Kyiv kill nine",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 14,
-      "opis": "Moscow escalates deadly attacks on capital with confirmed."
-    },
-    {
-      "temat": "Nirmal Purja mountaineer death — Pakistan avalanche",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
-      "opis": "Renowned climber dies in Pakistan; distant tragedy."
-    },
-    {
-      "temat": "Israeli forces detain residents in southern Syria",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Israel operates beyond 1974 line; regional shift."
-    },
-    {
-      "temat": "Moscow cafe explosion — 3 dead, 15 injured",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
-      "opis": "Blast near Moscow cafe kills three; distant incident."
-    },
-    {
       "temat": "Ukraine sinks Russian container ship in naval action",
       "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 0,
       "opis": "Ukrainian forces report sinking Russian vessel; naval."
     },
     {
       "temat": "Ethiopia-TPLF clashes threaten Pretoria peace deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Fighting near Sheraro in western Tigray; distant conflict."
     },
     {
-      "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
+      "temat": "Russian sanctions evasion — military shipments to Mali",
       "poziom_bazowy": 1.0,
       "cykle_bez_zmian": 0,
+      "opis": "Russia ships armored vehicles to Africa via English Channel."
+    },
+    {
+      "temat": "Russian ballistic strikes on Kyiv kill nine",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 15,
+      "opis": "Moscow escalates deadly attacks on capital with confirmed."
+    },
+    {
+      "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Small plane crashes at archaeological site; distant event."
+    },
+    {
+      "temat": "Israeli forces detain residents in southern Syria",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 7,
+      "opis": "Israel operates beyond 1974 line; regional shift."
+    },
+    {
+      "temat": "Moscow cafe explosion — 3 dead, 15 injured",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 8,
+      "opis": "Blast near Moscow cafe kills three; distant incident."
+    },
+    {
+      "temat": "Nirmal Purja mountaineer death — Pakistan avalanche",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 11,
+      "opis": "Renowned climber dies in Pakistan; distant tragedy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T00:15:43.347667Z",
-      "s": 4.7
-    },
-    {
-      "t": "2026-07-31T01:01:29.943408Z",
-      "s": 4.5
-    },
     {
       "t": "2026-07-31T03:51:57.936863Z",
       "s": 4.3
@@ -216,10 +208,24 @@
     {
       "t": "2026-08-02T00:11:24.142202Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-02T01:02:02.050732Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
   "event_detected_at": {
+    "iran war live: tehran warns of 'decisive' response to any us 'aggression'": {
+      "detected_at": "2026-08-01T15:18:16.174079Z",
+      "peak_at": "2026-08-01T15:18:16.174079Z",
+      "peak_score_at": "2026-08-01T15:18:16.174079Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iran warns against 'flames of war' amid US strike threats on energy sites",
+      "peak_label": "Iran warns US over energy strike threats",
+      "peak_summary": "Tehran warns retaliation after US media reports potential strikes on energy infrastructure. Distant regional tension with no direct impact on Ukrainian war situation."
+    },
     "fighting breaks out in western tigray as ethiopia and tplf trade blame": {
       "detected_at": "2026-08-01T21:09:03.496758Z",
       "peak_at": "2026-08-01T23:10:23.839401Z",
@@ -230,6 +236,16 @@
       "peak_label": "Ethiopia-TPLF clashes threaten Pretoria peace deal",
       "peak_summary": "Clashes near Sheraro in western Tigray mark serious threat to fragile 2022 peace agreement; distant conflict with no direct impact on Ukraine."
     },
+    "russian ship defies sanctions to send military vehicles to mali": {
+      "detected_at": "2026-07-31T20:37:01.738532Z",
+      "peak_at": "2026-08-01T13:01:18.470929Z",
+      "peak_score_at": "2026-08-01T13:01:18.470929Z",
+      "peak_score": 5.5,
+      "peak_sentiment": "negative",
+      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
+      "peak_label": "Nine killed in Russian strikes on Kyiv",
+      "peak_summary": "Moscow continues deadly ballistic attacks on Ukrainian capital, killing nine. Ukraine sinks Russian container ship. Ongoing escalation directly affects residents' safety."
+    },
     "tourist plane crashes during flight over peru's nazca lines, killing 13": {
       "detected_at": "2026-08-02T00:11:24.142202Z",
       "peak_at": "2026-08-02T00:11:24.142202Z",
@@ -239,16 +255,6 @@
       "title": "Tourist plane crashes during flight over Peru's Nazca Lines, killing 13",
       "peak_label": "Peru tourist plane crash kills 13 people",
       "peak_summary": "Small aircraft crashes at archaeological site killing passengers and crew. Distant tragedy irrelevant to Ukraine."
-    },
-    "nine killed in strikes on kyiv, as ukraine sinks russian container ship": {
-      "detected_at": "2026-07-31T20:37:01.738532Z",
-      "peak_at": "2026-08-01T13:01:18.470929Z",
-      "peak_score_at": "2026-08-01T13:01:18.470929Z",
-      "peak_score": 5.6,
-      "peak_sentiment": "negative",
-      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-      "peak_label": "Nine killed in Russian strikes on Kyiv",
-      "peak_summary": "Moscow continues deadly ballistic attacks on Ukrainian capital, killing nine. Ukraine sinks Russian container ship. Ongoing escalation directly affects residents' safety."
     },
     "three killed after bomb detonated at moscow restaurant, state media say": {
       "detected_at": "2026-08-01T19:32:51.919599Z",
@@ -300,16 +306,6 @@
       "peak_label": "Mountaineer Nirmal Purja killed in Pakistan avalanche",
       "peak_summary": "Renowned mountaineer dies in Pakistan avalanche. Distant tragedy with no impact on Ukrainian daily life during ongoing war."
     },
-    "iran warns against 'flames of war' amid us strike threats on energy sites": {
-      "detected_at": "2026-08-01T15:18:16.174079Z",
-      "peak_at": "2026-08-01T15:18:16.174079Z",
-      "peak_score_at": "2026-08-01T15:18:16.174079Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran warns against 'flames of war' amid US strike threats on energy sites",
-      "peak_label": "Iran warns US over energy strike threats",
-      "peak_summary": "Tehran warns retaliation after US media reports potential strikes on energy infrastructure. Distant regional tension with no direct impact on Ukrainian war situation."
-    },
     "israeli west bank settler tells bbc attacks on palestinians are justified as revenge": {
       "detected_at": "2026-08-01T09:20:32.670463Z",
       "peak_at": "2026-08-01T09:20:32.670463Z",
@@ -342,7 +338,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Iran war live: Tehran warns of 'decisive' response to any US 'aggression'",
     "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-    "Tourist plane crashes during flight over Peru's Nazca Lines, killing 13"
+    "Russian ship defies sanctions to send military vehicles to Mali"
   ]
 }
