@@ -1,11 +1,35 @@
 {
-  "global_score": 3.0,
-  "rationale": "EU emergency meeting on Ceuta crisis directly involves Iberian neighbor Spain and tests Schengen framework; Trump's Iran deal signals reduce global energy risk indirectly affecting EU economy; Hungary nuclear shutdown highlights climate-driven infrastructure vulnerability in Europe. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Trump canceling Iran strikes reduces global war risk with indirect effects on EU economy and energy; Ceuta crisis continues to test EU border solidarity affecting Iberian integration.",
   "top_events": [
     {
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "label": "Trump cancels Iran strikes, announces deal talks",
+      "summary": "US president reverses planned military action and announces deal framework, reducing war risk that could indirectly affect EU economy and energy prices.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.904685Z"
+    },
+    {
       "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
-      "label": "EU emergency meeting on Ceuta migration crisis",
-      "summary": "EU interior ministers convene Tuesday over mass crossing into Spanish enclave, testing Schengen solidarity and migration policy directly affecting Iberian integration and Portugal's EU ties.",
+      "label": "EU emergency meeting on Ceuta migrant crisis",
+      "summary": "EU interior ministers meet Tuesday over mass crossing into Spanish enclave, exposing divisions over migration policy affecting Iberian border management.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -27,36 +51,12 @@
       "detected_at": "2026-08-01T11:34:42.979532Z"
     },
     {
-      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
-      "label": "Trump cancels Iran strikes, signals deal talks",
-      "summary": "US president halts military action and announces deal framework with Iran, reducing immediate war risk that could disrupt global energy markets and EU economic stability.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.904685Z"
-    },
-    {
       "title": "Hungary plans to shut down only nuclear power plant amid drought",
       "label": "Hungary shuts nuclear plant due to drought",
-      "summary": "Record-low Danube water levels force closure of Hungary's nuclear reactor, highlighting climate-driven infrastructure vulnerability across Europe including Iberian Peninsula.",
-      "score": 2.5,
+      "summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, illustrating climate infrastructure risk across Europe.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -71,11 +71,11 @@
     }
   ],
   "short_summary": "49,000 migrants cross into Spanish Ceuta enclave",
-  "level_label": "Low",
-  "trend": "rising",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-02T03:52:05.904685Z",
+  "updated_at": "2026-08-02T04:01:17.181510Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -248,6 +248,10 @@
     {
       "t": "2026-08-02T03:52:05.904685Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-02T04:01:17.181510Z",
+      "s": 2.9
     }
   ]
 }
