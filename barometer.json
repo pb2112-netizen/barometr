@@ -1,76 +1,76 @@
 {
-  "global_score": 2.0,
-  "rationale": "Ceuta crisis continues with EU emergency meeting; Trump-Iran deal rhetoric persists; no new direct impact on Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "EU emergency meeting on Ceuta crisis tests border solidarity; ongoing situations continue without qualitative change for Poland.",
   "top_events": [
     {
       "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
       "label": "EU ministers meet on Ceuta migrant crisis",
-      "summary": "Emergency meeting addresses mass crossing into Spanish territory; tests EU border solidarity but remains distant from Polish borders.",
+      "summary": "Emergency meeting tests EU border solidarity after 60,000 migrants crossed into Spanish enclave; 22 states demand stronger external borders.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/why-has-the-eu-called-an-emergency-meeting-on-spain-migrants-surge?traffic_source=rss"
         }
       ],
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump halts Iran strikes, cites deal progress",
-      "summary": "US president claims deal perimeters agreed; continues rhetoric without confirmed treaty, no change to regional threat level.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "label": "Trump cancels Iran strikes pending deal",
+      "summary": "US president halts military action after Iran and regional countries request pause; deal framework reportedly agreed, reducing immediate war risk.",
+      "score": 2.8,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.900025Z"
-    },
-    {
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "label": "Indonesia ferry fire kills five, 41 missing",
-      "summary": "Vessel with 250 people caught fire off Madura island; distant maritime disaster with no link to Poland.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-02T11:34:13.402154Z"
+      "detected_at": "2026-08-02T03:52:05.900025Z"
+    },
+    {
+      "title": "South Korea has hottest day on record amid extreme weather globally",
+      "label": "South Korea records hottest day ever",
+      "summary": "Record heat in South Korea reflects global climate crisis pattern; scientists link extreme weather to human-driven climate change.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T13:01:17.200519Z"
     }
   ],
   "short_summary": "Hungary shuts nuclear plant due to drought",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-02T11:34:13.402154Z",
+  "updated_at": "2026-08-02T13:01:17.200519Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -84,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.900025Z",
   "score_history": [
-    {
-      "t": "2026-07-31T12:16:15.504979Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-31T13:01:26.440790Z",
       "s": 2.9
@@ -247,6 +243,10 @@
     {
       "t": "2026-08-02T11:34:13.402154Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-02T13:01:17.200519Z",
+      "s": 2.8
     }
   ]
 }

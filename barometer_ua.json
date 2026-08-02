@@ -1,15 +1,34 @@
 {
   "global_score": 2.0,
-  "rationale": "Trump-Iran rhetoric continues without confirmed action; no new developments affecting Ukraine's war situation or NATO support.",
+  "rationale": "No new military escalation on Ukrainian territory; ongoing situations continue without qualitative change.",
   "top_events": [
     {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump halts Iran strikes, cites deal talks",
-      "summary": "US president claims deal perimeters agreed; rhetoric without confirmed treaty, no change to NATO posture or Ukraine aid.",
+      "label": "Trump halts Iran strikes for deal",
+      "summary": "US president cancels military action after regional countries request pause; deal framework reportedly agreed, reducing broader war risk.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.907176Z"
+    },
+    {
+      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+      "label": "Indonesia ferry fire kills five",
+      "summary": "Vessel with 271 people catches fire off Madura island; distant maritime disaster with no Ukraine impact.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "BBC",
         "Al Jazeera"
@@ -17,30 +36,11 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
-    {
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "label": "Indonesia ferry fire kills five, 41 missing",
-      "summary": "Vessel with 250 people caught fire off Madura island; distant maritime disaster with no relevance to Ukraine.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-02T11:34:13.405633Z"
@@ -48,12 +48,12 @@
   ],
   "short_summary": "Nine killed in Russian strikes on Kyiv",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T11:34:13.405633Z",
+  "updated_at": "2026-08-02T13:01:17.207110Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Nine killed in Russian strikes on Kyiv",
     "summary": "Moscow continues deadly ballistic attacks on Ukrainian capital, killing nine. Ukraine sinks Russian container ship. Ongoing escalation directly affects residents' safety.",
@@ -65,10 +65,6 @@
   },
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
   "score_history": [
-    {
-      "t": "2026-07-31T12:16:15.510665Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-31T13:01:26.445750Z",
       "s": 3.0
@@ -227,6 +223,10 @@
     },
     {
       "t": "2026-08-02T11:34:13.405633Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-02T13:01:17.207110Z",
       "s": 2.0
     }
   ]
