@@ -1,13 +1,32 @@
 {
-  "global_score": 2.0,
-  "rationale": "No new developments affecting Ukraine's war situation, NATO aid, or infrastructure; distant events have no impact on daily life during ongoing conflict.",
+  "global_score": 4.0,
+  "rationale": "Israeli strikes on Gaza kill at least eight after Hamas disarmament deal; significant Middle East development affecting regional security dynamics relevant to Ukraine's war context. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "label": "Israel strikes Gaza after Hamas disarmament deal",
+      "summary": "Israel targets military operatives in Gaza City, Khan Younis, Deir el-Balah, killing at least eight after Hamas agrees to disarmament.",
+      "score": 4.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.907176Z"
+    },
     {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "label": "Trump halts Iran strikes pending rapid deal",
-      "summary": "US president cancels military action as deal perimeters agreed, continuing de-escalation with no change to NATO support or Ukraine's security situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "summary": "US president claims Middle Eastern countries requested strike delay as deal perimeters agreed; reduces immediate regional war risk.",
+      "score": 3.0,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,53 +41,44 @@
       "detected_at": "2026-08-02T03:52:05.907176Z"
     },
     {
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "label": "Indonesia ferry fire kills five, 41 missing",
-      "summary": "Vessel fire off Madura island is distant maritime disaster with no connection to Ukraine's war or daily life.",
+      "title": "Heatwave forces nuclear shutdown in Hungary",
+      "label": "Hungary nuclear plant shut by drought",
+      "summary": "Low Danube levels force closure of Hungary's largest nuclear plant; European energy infrastructure under climate stress.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/at-least-five-dead-41-missing-after-ferry-catches-fire-off-indonesia?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-02T11:34:13.405633Z"
+      "detected_at": "2026-08-02T15:19:03.928858Z"
     }
   ],
-  "short_summary": "Israel strikes Gaza homes, kills eight civilians",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Israel strikes Gaza after Hamas disarmament deal",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T13:53:32.684824Z",
+  "updated_at": "2026-08-02T15:19:03.928858Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Israel strikes Gaza homes, kills eight civilians",
-    "summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan; new escalation complicates ceasefire efforts and shifts US attention.",
-    "title": "Israel kills eight in Gaza despite Trump's Hamas disarmament plan",
-    "score": 2.9,
-    "sentiment": "negative",
+    "label": "Israel strikes Gaza after Hamas disarmament deal",
+    "summary": "Israel targets military operatives in Gaza City, Khan Younis, Deir el-Balah, killing at least eight after Hamas agrees to disarmament.",
+    "title": "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+    "score": 4.0,
+    "sentiment": "neutral",
     "detected_at": "2026-08-02T03:52:05.907176Z",
-    "peak_at": "2026-08-02T06:44:45.812387Z"
+    "peak_at": "2026-08-02T15:19:03.928858Z"
   },
   "events_anchor_at": "2026-08-02T03:52:05.907176Z",
   "score_history": [
-    {
-      "t": "2026-07-31T14:37:46.578933Z",
-      "s": 6.8
-    },
     {
       "t": "2026-07-31T16:01:28.997537Z",
       "s": 6.5
@@ -228,6 +238,10 @@
     {
       "t": "2026-08-02T13:53:32.684824Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-02T15:19:03.928858Z",
+      "s": 4.0
     }
   ]
 }

@@ -1,24 +1,19 @@
 {
-  "global_score": 2.0,
-  "rationale": "EU emergency meeting on Ceuta crisis tests border solidarity and Schengen framework, indirectly affecting Poland's position on migration and EU cohesion. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.6,
+  "rationale": "EU emergency meeting on Ceuta migration crisis tests border solidarity; ongoing Hungary nuclear shutdown and Iran deal talks continue without new change.",
   "top_events": [
     {
       "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "label": "EU calls emergency meeting on Ceuta migrant surge",
-      "summary": "Interior ministers convene Tuesday after 60,000 migrants entered Ceuta, testing EU border solidarity and Schengen framework with potential spillover to eastern borders.",
-      "score": 2.0,
+      "label": "EU ministers convene on Ceuta migration crisis",
+      "summary": "EU interior ministers meet Tuesday over mass crossing into Spanish enclave; tests bloc solidarity on migration as divisions persist.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/hundreds-mourn-moroccan-footballer-who-died-trying-to-reach-ceuta?traffic_source=rss"
-        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
@@ -27,11 +22,30 @@
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
+      "title": "Heatwave forces nuclear shutdown in Hungary",
+      "label": "Hungary nuclear plant shut by Danube drought",
+      "summary": "Low Danube water levels force closure of Hungary's largest nuclear plant; regional energy infrastructure under climate stress.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.900025Z"
+    },
+    {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "label": "Trump halts Iran strikes pending rapid deal",
-      "summary": "US president cancels military action as deal perimeters agreed, continuing de-escalation trend with no new impact on Poland's security or energy.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "summary": "US president claims Middle Eastern countries asked for strike delay as deal perimeters agreed; reduces immediate war risk.",
+      "score": 3.0,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -44,50 +58,27 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.900025Z"
-    },
-    {
-      "title": "South Korea has hottest day on record amid extreme weather globally",
-      "label": "South Korea records hottest day amid global heat",
-      "summary": "Record temperatures in South Korea reflect global climate crisis pattern already known, with no direct change to Poland's situation this cycle.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/south-korea-has-hottest-day-on-record-amid-extreme-weather-globally?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T13:01:17.200519Z"
     }
   ],
   "short_summary": "Hungary shuts nuclear plant due to drought",
-  "level_label": "Stable",
-  "trend": "falling",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-02T13:53:32.678568Z",
+  "updated_at": "2026-08-02T15:19:03.922282Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Hungary shuts nuclear plant due to drought",
     "summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, disrupting regional energy supply in EU neighbor and highlighting climate-driven infrastructure vulnerability.",
     "title": "Hungary plans to shut down only nuclear power plant amid drought",
-    "score": 4.0,
+    "score": 3.9,
     "sentiment": "negative",
     "detected_at": "2026-08-02T03:52:05.900025Z",
     "peak_at": "2026-08-02T03:52:05.900025Z"
   },
   "events_anchor_at": "2026-08-02T03:52:05.900025Z",
   "score_history": [
-    {
-      "t": "2026-07-31T14:37:46.573800Z",
-      "s": 2.9
-    },
     {
       "t": "2026-07-31T16:01:28.992727Z",
       "s": 2.8
@@ -247,6 +238,10 @@
     {
       "t": "2026-08-02T13:53:32.678568Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-02T15:19:03.922282Z",
+      "s": 3.6
     }
   ]
 }

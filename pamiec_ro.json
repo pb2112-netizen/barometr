@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-02T13:53:32.689484Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-02T15:19:03.933773Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 9,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "EU emergency meeting on Ceuta migrant crisis",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "Hungary nuclear plant shutdown — drought forces closure",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 9,
       "opis": "Danube drought closes reactor; regional energy disruption."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     },
     {
       "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Small plane crashes at archaeological site; distant event."
     },
     {
       "temat": "Italy heat wave — 19 cities red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Extreme heat across Italy; broader European climate stress."
     },
     {
       "temat": "Moscow cafe explosion — 3 dead, 15 injured",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Blast near Moscow cafe kills three; distant incident."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T14:37:46.575593Z",
-      "s": 2.7
-    },
     {
       "t": "2026-07-31T16:01:28.994383Z",
       "s": 2.6
@@ -216,6 +212,10 @@
     {
       "t": "2026-08-02T13:53:32.680733Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-02T15:19:03.924241Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-02T03:52:05.902844Z",
@@ -230,15 +230,25 @@
       "peak_label": "EU ministers convene on Ceuta border crisis",
       "peak_summary": "Emergency session addresses mass migrant crossing; tests EU solidarity but remains geographically distant from Romanian borders."
     },
-    "trump cancels iran strikes subject to deal being made 'rapidly'": {
+    "heatwave forces nuclear shutdown in hungary": {
       "detected_at": "2026-08-02T03:52:05.902844Z",
       "peak_at": "2026-08-02T03:52:05.902844Z",
       "peak_score_at": "2026-08-02T03:52:05.902844Z",
-      "peak_score": 2.7,
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "Hungary plans to shut down only nuclear power plant amid drought",
+      "peak_label": "Hungary shuts nuclear plant due to drought",
+      "peak_summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, disrupting regional energy supply in neighboring EU country and highlighting climate-driven infrastructure risk."
+    },
+    "trump cancels iran strikes subject to deal being made 'rapidly'": {
+      "detected_at": "2026-08-02T03:52:05.902844Z",
+      "peak_at": "2026-08-02T15:19:03.924241Z",
+      "peak_score_at": "2026-08-02T15:19:03.924241Z",
+      "peak_score": 3.0,
       "peak_sentiment": "positive",
-      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
-      "peak_label": "Trump cancels Iran strikes, signals deal talks",
-      "peak_summary": "US president halts planned military action and announces deal framework with Iran, reducing immediate war risk that could destabilize Black Sea region and disrupt energy markets affecting Romania."
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "peak_label": "Trump delays Iran strikes for deal talks",
+      "peak_summary": "US president halts military action as Middle Eastern countries request delay; deal perimeters reportedly agreed, reducing war risk."
     },
     "south korea has hottest day on record amid extreme weather globally": {
       "detected_at": "2026-08-02T13:01:17.203049Z",
@@ -269,16 +279,6 @@
       "title": "Italy putting nearly all major cities on highest heat alert",
       "peak_label": "Italy issues red heat alerts for major cities",
       "peak_summary": "Nineteen Italian cities on red alert; broader European climate stress may affect Romania's own summer conditions and energy demand."
-    },
-    "hungary plans to shut down only nuclear power plant amid drought": {
-      "detected_at": "2026-08-02T03:52:05.902844Z",
-      "peak_at": "2026-08-02T03:52:05.902844Z",
-      "peak_score_at": "2026-08-02T03:52:05.902844Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Hungary plans to shut down only nuclear power plant amid drought",
-      "peak_label": "Hungary shuts nuclear plant due to drought",
-      "peak_summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, disrupting regional energy supply in neighboring EU country and highlighting climate-driven infrastructure risk."
     },
     "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
       "detected_at": "2026-08-01T11:34:42.978208Z",
@@ -329,21 +329,11 @@
       "title": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
       "peak_label": "Nine killed in Russian strikes on Kyiv",
       "peak_summary": "Russia continues ballistic missile attacks on Ukrainian capital with nine deaths. Regional security threat persists near Romania's Black Sea neighborhood."
-    },
-    "iran warns against 'flames of war' amid us strike threats on energy sites": {
-      "detected_at": "2026-08-01T13:53:54.860921Z",
-      "peak_at": "2026-08-01T13:53:54.860921Z",
-      "peak_score_at": "2026-08-01T13:53:54.860921Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Iran warns against 'flames of war' amid US strike threats on energy sites",
-      "peak_label": "Iran warns US over energy infrastructure threats",
-      "peak_summary": "Tehran prepares retaliation as US media reports potential strikes on Iranian civilian energy sites. Rhetoric without confirmed action; indirect risk to regional energy markets."
     }
   },
   "prev_top_event_titles": [
     "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-    "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-    "South Korea has hottest day on record amid extreme weather globally"
+    "Heatwave forces nuclear shutdown in Hungary",
+    "Trump cancels Iran strikes subject to deal being made 'rapidly'"
   ]
 }
