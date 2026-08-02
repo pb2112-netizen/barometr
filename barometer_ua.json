@@ -1,13 +1,32 @@
 {
-  "global_score": 4.0,
-  "rationale": "Israeli strikes on Gaza kill at least eight after Hamas disarmament deal; significant Middle East development affecting regional security dynamics relevant to Ukraine's war context. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Ukraine reports confirmed strikes on Russian refinery and airfield; qualitative new military action affecting war dynamics. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "At least eight killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-      "label": "Israel strikes Gaza after Hamas disarmament deal",
-      "summary": "Israel targets military operatives in Gaza City, Khan Younis, Deir el-Balah, killing at least eight after Hamas agrees to disarmament.",
-      "score": 4.0,
-      "sentiment": "neutral",
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "label": "Ukraine hits Russian refinery and airfield",
+      "summary": "Ukrainian forces strike major Russian infrastructure; Moscow reports casualties and retaliatory Black Sea attacks. New confirmed military action affecting war dynamics.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T16:01:25.409061Z"
+    },
+    {
+      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "label": "Israeli strikes kill 13 in Gaza",
+      "summary": "Israel targets military operatives in Gaza despite disarmament deal. Distant Middle East conflict; no direct Ukrainian impact.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -22,50 +41,36 @@
       "detected_at": "2026-08-02T03:52:05.907176Z"
     },
     {
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump halts Iran strikes pending rapid deal",
-      "summary": "US president claims Middle Eastern countries requested strike delay as deal perimeters agreed; reduces immediate regional war risk.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
-    {
-      "title": "Heatwave forces nuclear shutdown in Hungary",
-      "label": "Hungary nuclear plant shut by drought",
-      "summary": "Low Danube levels force closure of Hungary's largest nuclear plant; European energy infrastructure under climate stress.",
+      "title": "Greek firefighting helicopters in mid-air collision, four crew missing",
+      "label": "Greece wildfire helicopters collide mid-air",
+      "summary": "Two helicopters fighting wildfires collided near Athens; four crew missing. Distant European event; no Ukrainian impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-02T15:19:03.928858Z"
+      "detected_at": "2026-08-02T16:01:25.409061Z"
     }
   ],
   "short_summary": "Israel strikes Gaza after Hamas disarmament deal",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T15:19:03.928858Z",
+  "updated_at": "2026-08-02T16:01:25.409061Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -242,6 +247,10 @@
     {
       "t": "2026-08-02T15:19:03.928858Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-02T16:01:25.409061Z",
+      "s": 3.0
     }
   ]
 }

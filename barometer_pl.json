@@ -1,51 +1,56 @@
 {
-  "global_score": 3.6,
-  "rationale": "EU emergency meeting on Ceuta migration crisis tests border solidarity; ongoing Hungary nuclear shutdown and Iran deal talks continue without new change.",
+  "global_score": 2.8,
+  "rationale": "Greece wildfire helicopter collision and Gaza strikes continue regional instability; no direct change to Polish daily life this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "label": "EU ministers convene on Ceuta migration crisis",
-      "summary": "EU interior ministers meet Tuesday over mass crossing into Spanish enclave; tests bloc solidarity on migration as divisions persist.",
-      "score": 3.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
-        }
-      ],
-      "detected_at": "2026-07-30T18:45:07.816727Z"
-    },
-    {
-      "title": "Heatwave forces nuclear shutdown in Hungary",
-      "label": "Hungary nuclear plant shut by Danube drought",
-      "summary": "Low Danube water levels force closure of Hungary's largest nuclear plant; regional energy infrastructure under climate stress.",
-      "score": 2.9,
+      "title": "Greek firefighting helicopters in mid-air collision, four crew missing",
+      "label": "Greece wildfire helicopters collide mid-air",
+      "summary": "Two helicopters fighting wildfires collided near Athens; four crew missing. Reflects broader European climate stress but no direct impact on Poland.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/08-02-2026-hungary-nuclear-plant-sv?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T16:01:25.402184Z"
+    },
+    {
+      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "label": "Israeli strikes kill 13 in Gaza",
+      "summary": "Israel targets military operatives in Gaza City and Khan Younis despite disarmament deal. Distant Middle East conflict; no direct Polish impact.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-02T03:52:05.900025Z"
     },
     {
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump halts Iran strikes pending rapid deal",
-      "summary": "US president claims Middle Eastern countries asked for strike delay as deal perimeters agreed; reduces immediate war risk.",
-      "score": 3.0,
-      "sentiment": "positive",
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "label": "Ukraine hits Russian refinery and airfield",
+      "summary": "Ukrainian forces strike Russian infrastructure; Moscow reports casualties and Black Sea attacks. Continuation of known conflict; no new escalation affecting Poland.",
+      "score": 2.8,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -54,18 +59,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-02T03:52:05.900025Z"
+      "detected_at": "2026-08-02T16:01:25.402184Z"
     }
   ],
   "short_summary": "Hungary shuts nuclear plant due to drought",
-  "level_label": "Low",
-  "trend": "rising",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-02T15:19:03.922282Z",
+  "updated_at": "2026-08-02T16:01:25.402184Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -242,6 +247,10 @@
     {
       "t": "2026-08-02T15:19:03.922282Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-02T16:01:25.402184Z",
+      "s": 2.8
     }
   ]
 }
