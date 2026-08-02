@@ -1,13 +1,12 @@
 {
-  "global_score": 4.0,
-  "short_summary": "Idaho mall shooting kills three at In-N-Out",
-  "rationale": "Idaho mall shooting kills three; domestic mass shooting event with localized impact but part of ongoing national gun violence pattern.",
+  "global_score": 3.9,
+  "rationale": "Idaho mass shooting kills at least three; Iran deal talks continue without new change; domestic tragedy raises score.",
   "top_events": [
     {
       "title": "At least three dead in Idaho shopping mall mass shooting",
-      "label": "Idaho mall shooting kills three at In-N-Out",
-      "summary": "Mass shooting at Twin Falls In-N-Out kills three, wounds several; localized tragedy adding to national gun violence toll.",
-      "score": 4.0,
+      "label": "Idaho In-N-Out shooting kills at least three",
+      "summary": "Mass shooting at Twin Falls In-N-Out Burger kills three, wounds several. Localized tragedy but part of ongoing domestic gun violence.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -23,51 +22,57 @@
       "detected_at": "2026-08-02T06:44:45.814415Z"
     },
     {
-      "title": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
-      "label": "Trump cancels Iran strikes, cites deal progress",
-      "summary": "President reverses strike plan, claims deal framework agreed; reduces immediate war risk and potential military deployment.",
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "label": "Trump cancels Iran strikes as deal talks advance",
+      "summary": "President halts planned attack, claims deal perimeters agreed. Reduces immediate war risk but outcome still uncertain.",
       "score": 3.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-02T03:52:05.909767Z"
     },
     {
-      "title": "Israel kills eight in Gaza despite Trump's Hamas disarmament plan",
-      "label": "Israel strikes Gaza homes, kills eight civilians",
-      "summary": "Israeli strikes hit Gaza after US unveiled disarmament plan; complicates Trump's Middle East policy and ceasefire efforts.",
-      "score": 3.5,
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian travel to US drops $3.3bn in 2025",
+      "summary": "Data shows Canadians replaced US vacations with other trips after Trump's return. Economic impact on US tourism sector.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
         }
       ],
-      "detected_at": "2026-08-02T03:52:05.909767Z"
+      "detected_at": "2026-07-30T06:40:49.958968Z"
     }
   ],
+  "short_summary": "Idaho mall shooting kills three at In-N-Out",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-02T07:00:51.440052Z",
+  "updated_at": "2026-08-02T09:20:30.861458Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Idaho mall shooting kills three at In-N-Out",
     "summary": "Mass shooting at Twin Falls In-N-Out kills three, wounds several; localized tragedy adding to national gun violence toll.",
@@ -79,14 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T06:44:45.814415Z",
   "score_history": [
-    {
-      "t": "2026-07-31T07:01:32.604197Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-07-31T07:13:40.118597Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-31T10:00:10.772267Z",
       "s": 4.2
@@ -246,6 +243,10 @@
     {
       "t": "2026-08-02T07:00:51.440052Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-02T09:20:30.861458Z",
+      "s": 3.9
     }
   ]
 }

@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-02T07:00:51.445266Z",
+  "updated_at": "2026-08-02T09:20:30.866379Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 4,
       "opis": "US halts military action; reduces war risk affecting NATO."
     },
     {
       "temat": "Idaho restaurant shooting — multiple dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "US domestic shooting; distant event with no Ukraine impact."
     },
     {
       "temat": "Russian ballistic strikes on Kyiv kill nine",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 20,
       "opis": "Moscow escalates deadly attacks on capital with confirmed."
     },
     {
       "temat": "Ukraine sinks Russian container ship in naval action",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 5,
       "opis": "Ukrainian forces report sinking Russian vessel; naval."
     },
     {
       "temat": "Russian sanctions evasion — military shipments to Mali",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Russia ships armored vehicles to Africa via English Channel."
     },
     {
       "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Small plane crashes at archaeological site; distant event."
     },
     {
       "temat": "Ethiopia-TPLF clashes threaten Pretoria peace deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Fighting near Sheraro in western Tigray; distant conflict."
     },
     {
       "temat": "Israeli forces detain residents in southern Syria",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Israel operates beyond 1974 line; regional shift."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T07:01:32.602579Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-07-31T07:13:40.117161Z",
-      "s": 3.0
-    },
     {
       "t": "2026-07-31T10:00:10.770927Z",
       "s": 3.0
@@ -220,21 +212,15 @@
     {
       "t": "2026-08-02T07:00:51.437908Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-02T09:20:30.859022Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
   "event_detected_at": {
-    "israel kills eight in gaza despite trump's hamas disarmament plan": {
-      "detected_at": "2026-08-02T03:52:05.907176Z",
-      "peak_at": "2026-08-02T06:44:45.812387Z",
-      "peak_score_at": "2026-08-02T06:44:45.812387Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "negative",
-      "title": "Israel kills eight in Gaza despite Trump's Hamas disarmament plan",
-      "peak_label": "Israel strikes Gaza homes, kills eight civilians",
-      "peak_summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan; new escalation complicates ceasefire efforts and shifts US attention."
-    },
-    "trump says he is cancelling strikes on iran subject to deal being made 'rapidly'": {
+    "trump cancels iran strikes subject to deal being made 'rapidly'": {
       "detected_at": "2026-08-02T03:52:05.907176Z",
       "peak_at": "2026-08-02T03:52:05.907176Z",
       "peak_score_at": "2026-08-02T03:52:05.907176Z",
@@ -253,6 +239,26 @@
       "title": "At least three dead in Idaho shopping mall mass shooting",
       "peak_label": "Idaho mall shooting kills three at In-N-Out",
       "peak_summary": "Mass shooting at Twin Falls In-N-Out kills three; US domestic tragedy with no Ukraine impact."
+    },
+    "three killed after bomb detonated at moscow restaurant, state media say": {
+      "detected_at": "2026-08-01T19:32:51.919599Z",
+      "peak_at": "2026-08-01T19:32:51.919599Z",
+      "peak_score_at": "2026-08-01T19:32:51.919599Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "At least three killed in explosion near cafe in Russia's Moscow",
+      "peak_label": "Moscow cafe blast kills three",
+      "peak_summary": "Explosion near Moscow cafe kills three, injures fifteen; distant incident with no direct impact on Ukraine's war situation."
+    },
+    "israel kills eight in gaza despite trump's hamas disarmament plan": {
+      "detected_at": "2026-08-02T03:52:05.907176Z",
+      "peak_at": "2026-08-02T06:44:45.812387Z",
+      "peak_score_at": "2026-08-02T06:44:45.812387Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Israel kills eight in Gaza despite Trump's Hamas disarmament plan",
+      "peak_label": "Israel strikes Gaza homes, kills eight civilians",
+      "peak_summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan; new escalation complicates ceasefire efforts and shifts US attention."
     },
     "russian ship defies sanctions to send military vehicles to mali": {
       "detected_at": "2026-07-31T20:37:01.738532Z",
@@ -303,16 +309,6 @@
       "title": "Tourist plane crashes during flight over Peru's Nazca Lines, killing 13",
       "peak_label": "Peru tourist plane crash kills 13 people",
       "peak_summary": "Small aircraft crashes at archaeological site killing passengers and crew. Distant tragedy irrelevant to Ukraine."
-    },
-    "three killed after bomb detonated at moscow restaurant, state media say": {
-      "detected_at": "2026-08-01T19:32:51.919599Z",
-      "peak_at": "2026-08-01T19:32:51.919599Z",
-      "peak_score_at": "2026-08-01T19:32:51.919599Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "At least three killed in explosion near cafe in Russia's Moscow",
-      "peak_label": "Moscow cafe blast kills three",
-      "peak_summary": "Explosion near Moscow cafe kills three, injures fifteen; distant incident with no direct impact on Ukraine's war situation."
     },
     "israeli forces detain residents and demolish homes in southern syria": {
       "detected_at": "2026-08-01T18:11:17.303662Z",
@@ -373,21 +369,11 @@
       "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
       "peak_label": "DRC Ebola outbreak fastest ever, 1,500 dead",
       "peak_summary": "Death toll nears 1,500 with no vaccine for Bundibugyo strain; distant health crisis with no direct link to Ukraine."
-    },
-    "fifa scraps controversial world cup investment plan": {
-      "detected_at": "2026-08-01T07:01:25.502867Z",
-      "peak_at": "2026-08-01T07:01:25.502867Z",
-      "peak_score_at": "2026-08-01T07:01:25.502867Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "neutral",
-      "title": "Fifa scraps controversial World Cup investment plan",
-      "peak_label": "FIFA abandons World Cup equity sale plan",
-      "peak_summary": "Gianni Infantino's proposal to sell stakes in major competitions dropped after opposition; no relevance to Ukrainian daily life during war."
     }
   },
   "prev_top_event_titles": [
-    "Israel kills eight in Gaza despite Trump's Hamas disarmament plan",
-    "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
-    "At least three dead in Idaho shopping mall mass shooting"
+    "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+    "At least three dead in Idaho shopping mall mass shooting",
+    "Three killed after bomb detonated at Moscow restaurant, state media say"
   ]
 }

@@ -1,20 +1,24 @@
 {
   "global_score": 3.0,
-  "short_summary": "Hungary shuts nuclear plant due to drought",
-  "rationale": "Ceuta crisis continues with EU emergency meeting; no new qualitative change for Poland beyond existing border/Schengen concerns already tracked. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Ceuta crisis continues with EU emergency meeting; no new qualitative change affecting Poland directly.",
   "top_events": [
     {
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "label": "EU calls emergency meeting on Ceuta migrant crisis",
-      "summary": "EU interior ministers meet Tuesday over Ceuta crossings; divisions persist but no new policy change affecting Poland yet.",
-      "score": 2.1,
+      "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
+      "label": "EU holds emergency meeting on Ceuta migrant crisis",
+      "summary": "EU interior ministers meet Tuesday over divisions on mass crossing into Spanish enclave. Schengen tensions persist but no new policy change yet.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
@@ -23,49 +27,55 @@
       "detected_at": "2026-07-30T18:45:07.816727Z"
     },
     {
-      "title": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
-      "label": "Trump cancels Iran strikes, cites deal progress",
-      "summary": "US president halts military action on Iran, claims deal framework agreed; reduces immediate war risk affecting energy markets and NATO focus.",
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "label": "Trump cancels Iran strikes as deal talks advance",
+      "summary": "US president halts planned attack, claims deal perimeters agreed. Reduces immediate war risk but outcome still uncertain.",
       "score": 3.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/trump-cancels-attack-on-iran-saying-deal-is-near?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.900025Z"
+    },
+    {
+      "title": "Italy putting nearly all major cities on highest heat alert",
+      "label": "Italy places 19 cities on red heat alert",
+      "summary": "Extreme heat wave affects major Italian cities. Reflects broader European climate stress with indirect implications for Poland.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-02T03:52:05.900025Z"
-    },
-    {
-      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
-      "label": "Death toll rises to 57 in Ceuta crossings",
-      "summary": "Casualty count updated in ongoing Ceuta crisis; EU border pressure continues but no new policy shift for Poland.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
-        }
-      ],
-      "detected_at": "2026-08-01T11:34:42.976835Z"
+      "detected_at": "2026-08-01T18:11:17.299700Z"
     }
   ],
+  "short_summary": "Hungary shuts nuclear plant due to drought",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-02T07:00:51.431871Z",
+  "updated_at": "2026-08-02T09:20:30.853500Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -79,14 +89,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.900025Z",
   "score_history": [
-    {
-      "t": "2026-07-31T07:01:32.597456Z",
-      "s": 4.3
-    },
-    {
-      "t": "2026-07-31T07:13:40.112962Z",
-      "s": 4.1
-    },
     {
       "t": "2026-07-31T10:00:10.766274Z",
       "s": 3.9
@@ -245,6 +247,10 @@
     },
     {
       "t": "2026-08-02T07:00:51.431871Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-02T09:20:30.853500Z",
       "s": 3.0
     }
   ]
