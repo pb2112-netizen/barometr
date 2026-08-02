@@ -1,12 +1,31 @@
 {
-  "global_score": 3.9,
-  "rationale": "Idaho mass shooting kills at least three; Iran deal talks continue without new change; domestic tragedy raises score.",
+  "global_score": 3.0,
+  "rationale": "Canadian travel spending to US drops $3.3bn in 2025 after Trump's return; measurable economic impact on tourism sector. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian travel to US drops $3.3bn in 2025",
+      "summary": "Canadians spent $3.3bn less on US travel in 2025 after Trump's return; measurable economic impact on tourism sector.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T06:40:49.958968Z"
+    },
+    {
       "title": "At least three dead in Idaho shopping mall mass shooting",
-      "label": "Idaho In-N-Out shooting kills at least three",
-      "summary": "Mass shooting at Twin Falls In-N-Out Burger kills three, wounds several. Localized tragedy but part of ongoing domestic gun violence.",
-      "score": 3.9,
+      "label": "Idaho shooting kills three at In-N-Out Burger",
+      "summary": "Mass shooting at Twin Falls In-N-Out Burger kills at least three; localized tragedy continues pattern of US gun violence.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -23,8 +42,8 @@
     },
     {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump cancels Iran strikes as deal talks advance",
-      "summary": "President halts planned attack, claims deal perimeters agreed. Reduces immediate war risk but outcome still uncertain.",
+      "label": "Trump cancels Iran strikes as deal talks continue",
+      "summary": "President halts planned strikes, claims deal perimeters agreed; reduces immediate war risk but no signed agreement yet.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -44,33 +63,14 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.909767Z"
-    },
-    {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian travel to US drops $3.3bn in 2025",
-      "summary": "Data shows Canadians replaced US vacations with other trips after Trump's return. Economic impact on US tourism sector.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
-        }
-      ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
     }
   ],
   "short_summary": "Idaho mall shooting kills three at In-N-Out",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-02T09:20:30.861458Z",
+  "updated_at": "2026-08-02T10:01:15.450308Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -84,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T06:44:45.814415Z",
   "score_history": [
-    {
-      "t": "2026-07-31T10:00:10.772267Z",
-      "s": 4.2
-    },
     {
       "t": "2026-07-31T10:01:27.981906Z",
       "s": 4.0
@@ -247,6 +243,10 @@
     {
       "t": "2026-08-02T09:20:30.861458Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-02T10:01:15.450308Z",
+      "s": 3.0
     }
   ]
 }
