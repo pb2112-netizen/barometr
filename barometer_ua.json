@@ -1,32 +1,13 @@
 {
-  "global_score": 3.0,
-  "rationale": "Russian ballistic missile strikes on Kyiv kill nine civilians, continuing deadly escalation on the capital; Ukraine reports sinking Russian container ship in naval action. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "No new developments affecting Ukraine directly; distant events continue without qualitative change to war situation.",
   "top_events": [
-    {
-      "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-      "label": "Nine killed in strikes on Kyiv, as Ukraine sinks",
-      "summary": "Moscow continues ballistic missile attacks on Ukrainian capital with nine confirmed dead; Ukrainian forces report sinking Russian container vessel in naval action.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-07-31T20:37:01.738532Z"
-    },
     {
       "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
       "label": "Ethiopia-TPLF clashes threaten Pretoria peace deal",
-      "summary": "Clashes near Sheraro in western Tigray mark serious threat to fragile 2022 peace agreement; distant conflict with no direct impact on Ukraine.",
+      "summary": "Fighting near Sheraro marks serious threat to 2022 peace agreement. Distant African conflict with no connection to Ukraine.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -39,14 +20,43 @@
         }
       ],
       "detected_at": "2026-08-01T21:09:03.496758Z"
+    },
+    {
+      "title": "Tourist plane crashes during flight over Peru's Nazca Lines, killing 13",
+      "label": "Peru tourist plane crash kills 13 people",
+      "summary": "Small aircraft crashes at archaeological site killing passengers and crew. Distant tragedy irrelevant to Ukraine.",
+      "score": 1.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/police-say-13-killed-as-small-plane-viewing-nazca-lines-in-peru-crashes?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines"
+        }
+      ],
+      "detected_at": "2026-08-02T00:11:24.142202Z"
     }
   ],
   "short_summary": "Nine killed in Russian strikes on Kyiv",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-01T23:10:23.839401Z",
+  "updated_at": "2026-08-02T00:11:24.142202Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -219,6 +229,10 @@
     {
       "t": "2026-08-01T23:10:23.839401Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-02T00:11:24.142202Z",
+      "s": 2.0
     }
   ]
 }
