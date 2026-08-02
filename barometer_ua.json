@@ -1,30 +1,35 @@
 {
-  "global_score": 2.0,
-  "rationale": "No new military developments on Ukrainian territory this cycle; all events represent continuation of existing situations or distant incidents with no direct impact on Ukraine.",
+  "global_score": 3.0,
+  "rationale": "Trump cancels Iran strikes and signals deal talks — a qualitative shift reducing immediate risk of wider Middle East war that could affect NATO posture and Western focus on Ukraine; no direct impact on Ukrainian territory this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran war live: Tehran warns of 'decisive' response to any US 'aggression'",
-      "label": "Iran warns of decisive response to US",
-      "summary": "Tehran issues warnings to regional partners about potential US action. Rhetoric without confirmed military action; distant geopolitical posturing with no direct Ukraine impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "label": "Trump cancels Iran strikes, signals deal talks",
+      "summary": "US president halts planned military action and announces deal framework with Iran, reducing immediate war risk that could divert Western attention and resources from Ukraine support.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-01T15:18:16.174079Z"
+      "detected_at": "2026-08-02T03:52:05.907176Z"
     },
     {
-      "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-      "label": "Ethiopia-TPLF clashes threaten peace deal",
-      "summary": "Fighting near Sheraro threatens 2022 Pretoria agreement. Distant African conflict with no connection to Ukraine's security situation or war effort.",
+      "title": "Israel kills five in Gaza despite Trump's Hamas disarmament plan",
+      "label": "Israel strikes Gaza amid disarmament plan",
+      "summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan, continuing Middle East conflict that competes for Western diplomatic focus and military aid resources.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -35,39 +40,39 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-01T21:09:03.496758Z"
+      "detected_at": "2026-08-02T03:52:05.907176Z"
     },
     {
-      "title": "Russian ship defies sanctions to send military vehicles to Mali",
-      "label": "Russian ship delivers military vehicles to Mali",
-      "summary": "Satellite images show armored vehicles shipped through English Channel to Africa. Sanctions evasion noted but no direct impact on Ukrainian front or Western aid.",
+      "title": "Gunman kills several at Idaho fast-food restaurant",
+      "label": "Gunman kills several at Idaho restaurant",
+      "summary": "Multiple deaths reported after shooting at In-N-Out Burger in Twin Falls, Idaho; distant US domestic incident with no impact on Ukraine.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgk4rdley0ko?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/gunman-kills-several-at-idaho-fast-food-restaurant?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-07-31T20:37:01.738532Z"
+      "detected_at": "2026-08-02T03:52:05.907176Z"
     }
   ],
   "short_summary": "Nine killed in Russian strikes on Kyiv",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T01:02:02.050732Z",
+  "updated_at": "2026-08-02T03:52:05.907176Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Nine killed in Russian strikes on Kyiv",
     "summary": "Moscow continues deadly ballistic attacks on Ukrainian capital, killing nine. Ukraine sinks Russian container ship. Ongoing escalation directly affects residents' safety.",
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-07-31T20:37:01.738532Z",
   "score_history": [
-    {
-      "t": "2026-07-31T03:51:57.936863Z",
-      "s": 4.3
-    },
     {
       "t": "2026-07-31T04:01:28.033909Z",
       "s": 4.1
@@ -238,6 +239,10 @@
     {
       "t": "2026-08-02T01:02:02.050732Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-02T03:52:05.907176Z",
+      "s": 3.0
     }
   ]
 }

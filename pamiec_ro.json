@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-02T01:02:02.055277Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-02T03:52:05.912478Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Italy heat wave — 19 cities red alert",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Extreme heat across Italy; broader European climate stress."
+      "temat": "Trump cancels Iran strikes — deal talks begin",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 0,
+      "opis": "US halts military action; negotiations reduce war risk."
+    },
+    {
+      "temat": "Hungary nuclear plant shutdown — drought forces closure",
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Danube drought closes reactor; regional energy disruption."
+    },
+    {
+      "temat": "Russian ballistic strikes on Kyiv intensify — 9 dead",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 16,
+      "opis": "Moscow escalates attacks on Ukrainian capital; regional."
     },
     {
       "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Small plane crashes at archaeological site; distant event."
     },
     {
-      "temat": "Russian ballistic strikes on Kyiv intensify — 9 dead",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 15,
-      "opis": "Moscow escalates attacks on Ukrainian capital; regional."
-    },
-    {
-      "temat": "Italy suspends Schengen with Spain — Ceuta crisis",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "EU border solidarity breaks; migration pressure signals."
-    },
-    {
-      "temat": "Ceuta mass crossing — 57 dead, 60k migrants",
+      "temat": "Italy heat wave — 19 cities red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Major EU border breach with deaths; migration pressure."
+      "cykle_bez_zmian": 9,
+      "opis": "Extreme heat across Italy; broader European climate stress."
     },
     {
       "temat": "Moscow cafe explosion — 3 dead, 15 injured",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Blast near Moscow cafe kills three; distant incident."
     },
     {
       "temat": "DRC Ebola outbreak — 1,587 dead, fastest-growing strain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "WHO declares worst Ebola outbreak ever in Congo; distant."
     },
     {
       "temat": "Turkey-Iraq oil pipeline renewal — 750k bbl/day",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "One-year deal stabilizes regional energy flow; Black Sea."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T03:51:57.933547Z",
-      "s": 3.4
-    },
     {
       "t": "2026-07-31T04:01:28.030358Z",
       "s": 3.2
@@ -212,15 +208,39 @@
     {
       "t": "2026-08-02T01:02:02.046706Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-02T03:52:05.902844Z",
+      "s": 4.5
     }
   ],
-  "events_anchor_at": "2026-08-01T16:01:24.552605Z",
+  "events_anchor_at": "2026-08-02T03:52:05.902844Z",
   "event_detected_at": {
+    "trump says he is cancelling strikes on iran subject to 'rapidly' making deal": {
+      "detected_at": "2026-08-02T03:52:05.902844Z",
+      "peak_at": "2026-08-02T03:52:05.902844Z",
+      "peak_score_at": "2026-08-02T03:52:05.902844Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "peak_label": "Trump cancels Iran strikes, signals deal talks",
+      "peak_summary": "US president halts planned military action and announces deal framework with Iran, reducing immediate war risk that could destabilize Black Sea region and disrupt energy markets affecting Romania."
+    },
+    "hungary plans to shut down only nuclear power plant amid drought": {
+      "detected_at": "2026-08-02T03:52:05.902844Z",
+      "peak_at": "2026-08-02T03:52:05.902844Z",
+      "peak_score_at": "2026-08-02T03:52:05.902844Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "Hungary plans to shut down only nuclear power plant amid drought",
+      "peak_label": "Hungary shuts nuclear plant due to drought",
+      "peak_summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, disrupting regional energy supply in neighboring EU country and highlighting climate-driven infrastructure risk."
+    },
     "eu calls emergency meeting to discuss ceuta migrant crossings": {
       "detected_at": "2026-07-30T18:45:07.818482Z",
       "peak_at": "2026-08-01T15:18:16.171315Z",
       "peak_score_at": "2026-08-01T15:18:16.171315Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "negative",
       "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
       "peak_label": "Italy suspends Schengen over Ceuta crisis",
@@ -328,8 +348,8 @@
     }
   },
   "prev_top_event_titles": [
-    "EU calls emergency meeting to discuss Ceuta migrant crossings",
-    "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
-    "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating"
+    "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+    "Hungary plans to shut down only nuclear power plant amid drought",
+    "EU calls emergency meeting to discuss Ceuta migrant crossings"
   ]
 }

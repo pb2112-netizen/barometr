@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-02T01:02:02.058710Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-02T03:52:05.916219Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Canadian travel to US drops $3.3bn after Trump return",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "Measurable tourism decline; Canadians choose other trips."
+      "temat": "Trump cancels Iran strikes — deal talks begin",
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 0,
+      "opis": "President reverses strike plan; announces deal framework."
+    },
+    {
+      "temat": "Idaho restaurant shooting — multiple dead",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Mass shooting at Twin Falls In-N-Out; localized tragedy."
+    },
+    {
+      "temat": "FBI investigates cyberattacks on Michigan, Minnesota",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
+      "opis": "FBI probes state system attacks; possible Iranian plot."
     },
     {
       "temat": "Peru tourist plane crash — 13 dead at Nazca Lines",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Small plane crashes at archaeological site; distant event."
-    },
-    {
-      "temat": "FBI investigates cyberattacks on Michigan, Minnesota",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
-      "opis": "FBI probes state system attacks; possible Iranian plot."
     },
     {
       "temat": "Trump proposes 'anti-weaponisation' fund amid AG standoff",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "President pledges fund if attorney general pick not."
     },
     {
       "temat": "Colombia car bomb — 11 wounded before election",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Attack wounds eleven; president-elect pledges crackdown."
     },
     {
       "temat": "DRC Ebola outbreak — 1,587 dead, fastest-growing strain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "WHO declares worst Ebola outbreak ever in Congo; distant."
     },
     {
       "temat": "Turkey-Iraq oil pipeline renewal — 750k bbl/day",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "One-year deal stabilizes regional energy flow; indirect US."
-    },
-    {
-      "temat": "US-Iran energy site strike threats — retaliation warnings",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "US media reports potential strikes; Iran warns retaliation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T03:51:57.938306Z",
-      "s": 2.8
-    },
     {
       "t": "2026-07-31T04:01:28.035352Z",
       "s": 2.7
@@ -212,10 +208,44 @@
     {
       "t": "2026-08-02T01:02:02.052627Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-02T03:52:05.909767Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-01T23:10:23.840691Z",
   "event_detected_at": {
+    "trump says he is cancelling strikes on iran subject to 'rapidly' making deal": {
+      "detected_at": "2026-08-02T03:52:05.909767Z",
+      "peak_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "peak_label": "Trump cancels Iran strikes, signals deal talks",
+      "peak_summary": "President halts planned military action against Iran and announces 'perimeters of a deal' agreed, reversing course from weekend strike threats and reducing immediate risk of Middle East war affecting."
+    },
+    "gunman kills several at idaho fast-food restaurant": {
+      "detected_at": "2026-08-02T03:52:05.909767Z",
+      "peak_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Gunman kills several at Idaho fast-food restaurant",
+      "peak_label": "Gunman kills several at Idaho restaurant",
+      "peak_summary": "Multiple deaths reported after shooting at In-N-Out Burger in Twin Falls, Idaho; domestic tragedy with localized impact, no broader policy or security implications."
+    },
+    "israel kills five in gaza despite trump's hamas disarmament plan": {
+      "detected_at": "2026-08-02T03:52:05.909767Z",
+      "peak_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score_at": "2026-08-02T03:52:05.909767Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Israel kills five in Gaza despite Trump's Hamas disarmament plan",
+      "peak_label": "Israel strikes Gaza amid disarmament plan",
+      "peak_summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan, continuing conflict without direct US military involvement or immediate policy change."
+    },
     "michigan joins minnesota in reporting cyberattacks, with fbi investigating": {
       "detected_at": "2026-08-01T23:10:23.840691Z",
       "peak_at": "2026-08-01T23:10:23.840691Z",
@@ -315,21 +345,11 @@
       "title": "Iranian media says retaliation plan ready after US media suggest potential imminent attacks against civilian sites.",
       "peak_label": "Iran warns retaliation over US strike threats",
       "peak_summary": "Iran warns of retaliation after US media reports potential strikes on energy sites. Rhetoric without confirmed action; no measurable impact yet."
-    },
-    "us military says f-35b jet fighter crashes in california, pilot safe": {
-      "detected_at": "2026-08-01T03:49:13.086825Z",
-      "peak_at": "2026-08-01T03:49:13.086825Z",
-      "peak_score_at": "2026-08-01T03:49:13.086825Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US military says F-35B jet fighter crashes in California, pilot safe",
-      "peak_label": "US F-35B jet crashes in California, pilot safe",
-      "peak_summary": "Military jet goes down near Miramar airbase in San Diego; pilot survives routine training accident."
     }
   },
   "prev_top_event_titles": [
-    "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
-    "Iran war live: Tehran warns of 'decisive' response to any US 'aggression'",
-    "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
+    "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+    "Gunman kills several at Idaho fast-food restaurant",
+    "Israel kills five in Gaza despite Trump's Hamas disarmament plan"
   ]
 }

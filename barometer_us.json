@@ -1,31 +1,55 @@
 {
-  "global_score": 2.8,
-  "rationale": "FBI cyberattack investigation continues with Michigan joining Minnesota; other events are distant or rhetorical without confirmed policy impact.",
+  "global_score": 3.0,
+  "rationale": "Trump cancels planned Iran strikes and announces deal framework — a major policy reversal reducing immediate war risk and potential oil market disruption; Idaho restaurant shooting is domestic tragedy but localized; Gaza strikes continue without direct US involvement. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
-      "label": "Michigan reports cyberattacks, FBI investigates",
-      "summary": "FBI probes attacks on Michigan and Minnesota state systems with possible Iranian connection. Ongoing investigation of domestic infrastructure threat already tracked.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "label": "Trump cancels Iran strikes, signals deal talks",
+      "summary": "President halts planned military action against Iran and announces 'perimeters of a deal' agreed, reversing course from weekend strike threats and reducing immediate risk of Middle East war affecting oil markets and US forces.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.909767Z"
+    },
+    {
+      "title": "Gunman kills several at Idaho fast-food restaurant",
+      "label": "Gunman kills several at Idaho restaurant",
+      "summary": "Multiple deaths reported after shooting at In-N-Out Burger in Twin Falls, Idaho; domestic tragedy with localized impact, no broader policy or security implications.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/1/michigan-joins-minnesota-in-reporting-cyber-attacks-with-fbi-investigating?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/gunman-kills-several-at-idaho-fast-food-restaurant?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-01T23:10:23.840691Z"
+      "detected_at": "2026-08-02T03:52:05.909767Z"
     },
     {
-      "title": "Iran war live: Tehran warns of 'decisive' response to any US 'aggression'",
-      "label": "Iran warns of response to US aggression",
-      "summary": "Tehran issues warnings to regional partners about potential US strikes. Rhetoric without confirmed military action or policy change; no direct impact on US residents.",
-      "score": 2.0,
+      "title": "Israel kills five in Gaza despite Trump's Hamas disarmament plan",
+      "label": "Israel strikes Gaza amid disarmament plan",
+      "summary": "Israeli strikes hit Gaza homes after US unveiled Hamas disarmament plan, continuing conflict without direct US military involvement or immediate policy change.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,39 +59,20 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-01T13:53:54.865436Z"
-    },
-    {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian travel to US drops $3.3bn",
-      "summary": "Measurable decline in Canadian tourism spending continues. Data shows Canadians replacing US vacations with other international trips in apparent political response.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
-        }
-      ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
+      "detected_at": "2026-08-02T03:52:05.909767Z"
     }
   ],
   "short_summary": "FBI probes cyberattacks on Michigan, Minnesota systems",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-02T01:02:02.052627Z",
+  "updated_at": "2026-08-02T03:52:05.909767Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "FBI probes cyberattacks on Michigan, Minnesota systems",
     "summary": "FBI investigates cyberattacks on state systems in Michigan and Minnesota with no culprit identified; authorities previously warned of possible Iranian plot targeting US infrastructure.",
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-01T23:10:23.840691Z",
   "score_history": [
-    {
-      "t": "2026-07-31T03:51:57.938306Z",
-      "s": 2.8
-    },
     {
       "t": "2026-07-31T04:01:28.035352Z",
       "s": 2.7
@@ -238,6 +239,10 @@
     {
       "t": "2026-08-02T01:02:02.052627Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-02T03:52:05.909767Z",
+      "s": 3.0
     }
   ]
 }
