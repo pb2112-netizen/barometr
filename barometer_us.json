@@ -1,49 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Canadian travel spending to US drops $3.3bn in 2025 after Trump's return; measurable economic impact on tourism sector. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Trump continues Iran deal rhetoric without confirmed action; Canadian travel spending drop continues; no new domestic policy impact.",
   "top_events": [
     {
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian travel to US drops $3.3bn in 2025",
-      "summary": "Canadians spent $3.3bn less on US travel in 2025 after Trump's return; measurable economic impact on tourism sector.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
-        }
-      ],
-      "detected_at": "2026-07-30T06:40:49.958968Z"
-    },
-    {
-      "title": "At least three dead in Idaho shopping mall mass shooting",
-      "label": "Idaho shooting kills three at In-N-Out Burger",
-      "summary": "Mass shooting at Twin Falls In-N-Out Burger kills at least three; localized tragedy continues pattern of US gun violence.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T06:44:45.814415Z"
-    },
-    {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump cancels Iran strikes as deal talks continue",
-      "summary": "President halts planned strikes, claims deal perimeters agreed; reduces immediate war risk but no signed agreement yet.",
+      "label": "Trump halts Iran strikes, cites deal progress",
+      "summary": "President claims deal perimeters agreed; continues rhetoric without signed treaty or confirmed policy change.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,16 +25,54 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.909767Z"
+    },
+    {
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "label": "Canadian travel to US drops $3.3 billion",
+      "summary": "Data shows Canadians replaced US vacations with other trips; continues economic impact of political tensions.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+        }
+      ],
+      "detected_at": "2026-07-30T06:40:49.958968Z"
+    },
+    {
+      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+      "label": "Indonesia ferry fire kills five, 41 missing",
+      "summary": "Vessel with 250 people caught fire off Madura island; distant maritime disaster with no US connection.",
+      "score": 1.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T11:34:13.406815Z"
     }
   ],
   "short_summary": "Idaho mall shooting kills three at In-N-Out",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-02T10:01:15.450308Z",
+  "updated_at": "2026-08-02T11:34:13.406815Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Idaho mall shooting kills three at In-N-Out",
     "summary": "Mass shooting at Twin Falls In-N-Out kills three, wounds several; localized tragedy adding to national gun violence toll.",
@@ -84,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T06:44:45.814415Z",
   "score_history": [
-    {
-      "t": "2026-07-31T10:01:27.981906Z",
-      "s": 4.0
-    },
     {
       "t": "2026-07-31T12:16:15.512073Z",
       "s": 3.0
@@ -246,6 +242,10 @@
     },
     {
       "t": "2026-08-02T10:01:15.450308Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-02T11:34:13.406815Z",
       "s": 3.0
     }
   ]
