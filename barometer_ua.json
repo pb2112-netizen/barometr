@@ -1,14 +1,33 @@
 {
-  "global_score": 4.2,
-  "rationale": "Israeli strikes following Hamas disarmament deal create new Middle East uncertainty affecting global security dynamics; Ukrainian strikes on Russian infrastructure continue without qualitative change. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.1,
+  "rationale": "Ukraine's successful strikes on major Russian oil refinery and airfield represent significant military progress, while Russian attacks on Black Sea ports continue the direct threat to Ukrainian infrastructure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "label": "Ukraine hits major Russian refinery and airfield",
+      "summary": "Ukrainian forces successfully struck a major Russian oil refinery and military airfield while Russia attacked Black Sea ports, marking significant Ukrainian offensive capability against strategic targets.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T16:01:25.409061Z"
+    },
     {
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
       "label": "Israel strikes Gaza after Hamas disarmament deal",
-      "summary": "Despite Hamas agreeing to disarm, Israeli strikes killed 13 in Gaza. This new development complicates Middle East peace efforts and global security dynamics affecting Western support priorities.",
-      "score": 4.2,
+      "summary": "Israeli strikes despite Hamas disarmament deal create new Middle East instability, potentially affecting Western focus and aid priorities for Ukraine.",
+      "score": 4.1,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,34 +41,10 @@
       "detected_at": "2026-08-02T03:52:05.907176Z"
     },
     {
-      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-      "label": "Ukraine says major Russian oil refinery and airfield hit",
-      "summary": "Ukrainian drones struck Russian oil infrastructure and high-rises, killing eight. Russia attacked Black Sea ports overnight. Continuation of ongoing war operations.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T16:01:25.409061Z"
-    },
-    {
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "label": "Trump cancels Iran strikes pending deal",
-      "summary": "US president claims Iran and Middle Eastern countries asked Washington to hold off on attacks as deal perimeters agreed. Continuation of diplomatic negotiations.",
-      "score": 2.6,
+      "summary": "US president holds off on military action as deal perimeters agreed, reducing immediate war risk but maintaining uncertainty about US foreign policy focus.",
+      "score": 3.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-02T21:10:20.824610Z",
+  "updated_at": "2026-08-02T22:01:30.255376Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -84,10 +79,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.907176Z",
   "score_history": [
-    {
-      "t": "2026-07-31T22:01:29.352976Z",
-      "s": 2.6
-    },
     {
       "t": "2026-07-31T22:15:32.212474Z",
       "s": 2.5
@@ -251,6 +242,10 @@
     {
       "t": "2026-08-02T21:10:20.824610Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-08-02T22:01:30.255376Z",
+      "s": 4.1
     }
   ]
 }
