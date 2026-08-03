@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-02T23:10:39.447645Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-08-03T00:12:16.595868Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 0,
       "opis": "President reverses strike plan; announces deal framework."
     },
     {
       "temat": "Pacific Northwest wildfires — mass evacuations",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 3,
       "opis": "Washington State and BC fires force evacuations; domestic."
     },
     {
       "temat": "Poll: Americans split on Trump immigration policy",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "Half say Trump went too far on deportations; division."
     },
     {
       "temat": "Idaho restaurant shooting — multiple dead",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 17,
       "opis": "Mass shooting at Twin Falls In-N-Out; localized tragedy."
     },
     {
       "temat": "Capital One closed Trump accounts — AML concerns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Bank confirms 2021 closures followed money-laundering."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Two helicopters collide fighting Athens fires; distant EU."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-07-31T23:17:06.582721Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-01T00:13:26.611275Z",
       "s": 2.5
@@ -224,6 +220,10 @@
     {
       "t": "2026-08-02T23:10:39.438073Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-03T00:12:16.589792Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-08-02T22:10:09.876869Z",
@@ -238,21 +238,11 @@
       "peak_label": "Pacific Northwest wildfires force mass evacuations",
       "peak_summary": "Fast-moving wildfires continue forcing evacuations across Washington State and British Columbia. Ongoing domestic disaster affecting thousands of residents."
     },
-    "most americans say trump has gone too far on us immigration: poll": {
-      "detected_at": "2026-08-02T21:10:20.826657Z",
-      "peak_at": "2026-08-02T22:01:30.257276Z",
-      "peak_score_at": "2026-08-02T22:01:30.257276Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Most Americans say Trump has gone too far on US immigration: Poll",
-      "peak_label": "Poll shows Americans oppose Trump immigration policy",
-      "peak_summary": "Half of Americans believe Trump has gone too far on deportations, though most Republicans still support his approach, reflecting domestic political divisions."
-    },
     "at least 13 killed in israeli strikes on gaza after hamas agree disarmament deal": {
       "detected_at": "2026-08-02T03:52:05.909767Z",
       "peak_at": "2026-08-02T18:11:41.081079Z",
       "peak_score_at": "2026-08-02T18:11:41.081079Z",
-      "peak_score": 3.6,
+      "peak_score": 3.5,
       "peak_sentiment": "negative",
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
       "peak_label": "Israel strikes Gaza after Hamas disarmament deal",
@@ -262,11 +252,21 @@
       "detected_at": "2026-08-02T03:52:05.909767Z",
       "peak_at": "2026-08-02T15:19:03.930807Z",
       "peak_score_at": "2026-08-02T15:19:03.930807Z",
-      "peak_score": 3.9,
+      "peak_score": 3.8,
       "peak_sentiment": "positive",
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "peak_label": "Trump halts Iran strikes for rapid deal",
       "peak_summary": "President claims Middle Eastern countries requested strike delay as deal perimeters agreed; reverses military action posture."
+    },
+    "most americans say trump has gone too far on us immigration: poll": {
+      "detected_at": "2026-08-02T21:10:20.826657Z",
+      "peak_at": "2026-08-02T22:01:30.257276Z",
+      "peak_score_at": "2026-08-02T22:01:30.257276Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "Most Americans say Trump has gone too far on US immigration: Poll",
+      "peak_label": "Poll shows Americans oppose Trump immigration policy",
+      "peak_summary": "Half of Americans believe Trump has gone too far on deportations, though most Republicans still support his approach, reflecting domestic political divisions."
     },
     "capital one cites anti-money laundering concerns in trump organization case": {
       "detected_at": "2026-08-01T21:09:03.499092Z",
@@ -351,7 +351,7 @@
   },
   "prev_top_event_titles": [
     "Wildfires force mass evacuations across the Pacific Northwest",
-    "Most Americans say Trump has gone too far on US immigration: Poll",
-    "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal"
+    "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+    "Trump cancels Iran strikes subject to deal being made 'rapidly'"
   ]
 }
