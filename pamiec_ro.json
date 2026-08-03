@@ -1,66 +1,52 @@
 {
-  "updated_at": "2026-08-03T07:45:33.853707Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-03T10:01:27.575820Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 5,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "EU emergency meeting on Ceuta migrant crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
-    },
-    {
-      "temat": "Hungary nuclear plant shutdown — drought forces closure",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Danube drought closes reactor; regional energy disruption."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T09:20:32.667974Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-01T10:01:15.875163Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-01T11:34:42.978208Z",
       "s": 3.4
@@ -220,10 +206,44 @@
     {
       "t": "2026-08-03T07:45:33.847063Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-03T10:01:27.568453Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-08-02T17:14:35.017914Z",
   "event_detected_at": {
+    "trump suggests new talks with iran to begin on monday": {
+      "detected_at": "2026-08-02T03:52:05.902844Z",
+      "peak_at": "2026-08-02T17:14:35.017914Z",
+      "peak_score_at": "2026-08-02T17:14:35.017914Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "peak_label": "Trump halts Iran strikes pending rapid deal",
+      "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
+    },
+    "us and japan take action to prop up yen in rare joint move": {
+      "detected_at": "2026-08-03T10:01:27.568453Z",
+      "peak_at": "2026-08-03T10:01:27.568453Z",
+      "peak_score_at": "2026-08-03T10:01:27.568453Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "US and Japan take action to prop up yen in rare joint move",
+      "peak_label": "US-Japan joint currency intervention for yen",
+      "peak_summary": "Coordinated action to support Japanese currency; rare intervention with potential ripple effects on global markets, but no direct impact on Romanian economy yet."
+    },
+    "dangerous summers: how heatwaves and wildfires change life across europe": {
+      "detected_at": "2026-08-03T10:01:27.568453Z",
+      "peak_at": "2026-08-03T10:01:27.568453Z",
+      "peak_score_at": "2026-08-03T10:01:27.568453Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Dangerous summers: How heatwaves and wildfires change life across Europe",
+      "peak_label": "European heatwaves and wildfires intensify",
+      "peak_summary": "Climate change drives hotter summers across Europe, threatening lives and economies. Ongoing regional climate pattern affecting southern neighbors."
+    },
     "ukraine says major russian oil refinery and airfield hit, as moscow reports eight deaths": {
       "detected_at": "2026-08-02T16:01:25.404668Z",
       "peak_at": "2026-08-02T19:01:23.968445Z",
@@ -233,16 +253,6 @@
       "title": "Ukrainian drone attacks kill eight in response to Russian missiles",
       "peak_label": "Ukraine strikes Russian oil hubs, kills eight",
       "peak_summary": "Ukrainian drones targeted Russian oil facilities and residential areas, killing eight, as Zelenskyy warns of critical Patriot interceptor shortages affecting Black Sea region security."
-    },
-    "trump suggests new talks with iran to begin on monday": {
-      "detected_at": "2026-08-02T03:52:05.902844Z",
-      "peak_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "positive",
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "peak_label": "Trump halts Iran strikes pending rapid deal",
-      "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
     },
     "eu to hold urgent meeting of interior ministers on tuesday over ceuta crisis": {
       "detected_at": "2026-07-30T18:45:07.818482Z",
@@ -326,8 +336,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
     "Trump suggests new talks with Iran to begin on Monday",
-    "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis"
+    "US and Japan take action to prop up yen in rare joint move",
+    "Dangerous summers: How heatwaves and wildfires change life across Europe"
   ]
 }
