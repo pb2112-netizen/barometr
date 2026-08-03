@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-03T10:01:27.574581Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-03T11:43:33.538062Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine hits Russian oil refinery; Black Sea escalation",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "Ukraine strikes Russian energy infrastructure; ports hit."
     },
     {
       "temat": "EU emergency meeting on Ceuta — 60,000 migrants",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Southern Europe heat intensifies; climate risk signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T11:34:42.976835Z",
-      "s": 4.4
-    },
     {
       "t": "2026-08-01T13:01:18.468127Z",
       "s": 4.2
@@ -210,19 +206,43 @@
     {
       "t": "2026-08-03T10:01:27.566637Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-03T11:43:33.529916Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-02T18:11:41.073382Z",
   "event_detected_at": {
-    "trump suggests new talks with iran to begin on monday": {
+    "iran denies trump's claim that new talks will begin on monday": {
       "detected_at": "2026-08-02T03:52:05.900025Z",
       "peak_at": "2026-08-02T17:14:35.016171Z",
       "peak_score_at": "2026-08-02T17:14:35.016171Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "positive",
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "peak_label": "Trump halts Iran strikes pending rapid deal",
       "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk and oil market volatility."
+    },
+    "ukraine strikes russia's biggest retailer again": {
+      "detected_at": "2026-08-03T11:43:33.529916Z",
+      "peak_at": "2026-08-03T11:43:33.529916Z",
+      "peak_score_at": "2026-08-03T11:43:33.529916Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine strikes Russia's biggest retailer again",
+      "peak_label": "Ukraine drone hits Russian retailer warehouse",
+      "peak_summary": "Ukrainian long-range strike on Wildberries warehouse continues pattern of infrastructure attacks. No new escalation affecting Poland's eastern border security."
+    },
+    "eu to hold urgent meeting of interior ministers on tuesday over ceuta crisis": {
+      "detected_at": "2026-07-30T18:45:07.816727Z",
+      "peak_at": "2026-08-02T15:19:03.922282Z",
+      "peak_score_at": "2026-08-02T15:19:03.922282Z",
+      "peak_score": 3.3,
+      "peak_sentiment": "negative",
+      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
+      "peak_label": "EU ministers convene on Ceuta migration crisis",
+      "peak_summary": "EU interior ministers meet Tuesday over mass crossing into Spanish enclave; tests bloc solidarity on migration as divisions persist."
     },
     "us and japan take action to prop up yen in rare joint move": {
       "detected_at": "2026-08-03T10:01:27.566637Z",
@@ -253,16 +273,6 @@
       "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
       "peak_label": "Ukraine hits Russian refinery and airfield",
       "peak_summary": "Ukrainian forces strike Russian infrastructure; Moscow reports casualties and Black Sea attacks. Continuation of known conflict; no new escalation affecting Poland."
-    },
-    "eu to hold urgent meeting of interior ministers on tuesday over ceuta crisis": {
-      "detected_at": "2026-07-30T18:45:07.816727Z",
-      "peak_at": "2026-08-02T15:19:03.922282Z",
-      "peak_score_at": "2026-08-02T15:19:03.922282Z",
-      "peak_score": 3.4,
-      "peak_sentiment": "negative",
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "peak_label": "EU ministers convene on Ceuta migration crisis",
-      "peak_summary": "EU interior ministers meet Tuesday over mass crossing into Spanish enclave; tests bloc solidarity on migration as divisions persist."
     },
     "italy putting nearly all major cities on highest heat alert": {
       "detected_at": "2026-08-02T23:10:39.430433Z",
@@ -323,21 +333,11 @@
       "title": "South Korea has hottest day on record amid extreme weather globally",
       "peak_label": "South Korea records hottest day ever",
       "peak_summary": "Record heat in South Korea reflects global climate crisis pattern; scientists link extreme weather to human-driven climate change."
-    },
-    "five dead, 41 missing, after indonesia ferry catches fire": {
-      "detected_at": "2026-08-02T11:34:13.402154Z",
-      "peak_at": "2026-08-02T11:34:13.402154Z",
-      "peak_score_at": "2026-08-02T11:34:13.402154Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "negative",
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "peak_label": "Indonesia ferry fire kills five, 41 missing",
-      "peak_summary": "Vessel with 250 people caught fire off Madura island; distant maritime disaster with no link to Poland."
     }
   },
   "prev_top_event_titles": [
-    "Trump suggests new talks with Iran to begin on Monday",
-    "US and Japan take action to prop up yen in rare joint move",
-    "Dangerous summers: How heatwaves and wildfires change life across Europe"
+    "Iran denies Trump's claim that new talks will begin on Monday",
+    "Ukraine strikes Russia's biggest retailer again",
+    "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis"
   ]
 }

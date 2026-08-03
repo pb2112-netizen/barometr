@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-03T10:01:27.575820Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-03T11:43:33.539311Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 6,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "EU emergency meeting on Ceuta migrant crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T11:34:42.978208Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-01T13:01:18.469190Z",
       "s": 3.8
@@ -210,19 +206,43 @@
     {
       "t": "2026-08-03T10:01:27.568453Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-03T11:43:33.531608Z",
+      "s": 2.7
     }
   ],
   "events_anchor_at": "2026-08-02T17:14:35.017914Z",
   "event_detected_at": {
-    "trump suggests new talks with iran to begin on monday": {
+    "iran denies trump's claim that new talks will begin on monday": {
       "detected_at": "2026-08-02T03:52:05.902844Z",
       "peak_at": "2026-08-02T17:14:35.017914Z",
       "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "positive",
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "peak_label": "Trump halts Iran strikes pending rapid deal",
       "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
+    },
+    "ukraine strikes russia's biggest retailer again": {
+      "detected_at": "2026-08-03T11:43:33.531608Z",
+      "peak_at": "2026-08-03T11:43:33.531608Z",
+      "peak_score_at": "2026-08-03T11:43:33.531608Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine strikes Russia's biggest retailer again",
+      "peak_label": "Ukraine drone hits Russian retailer warehouse",
+      "peak_summary": "Long-range Ukrainian strike on Wildberries continues infrastructure campaign. Regional conflict pattern persists without new escalation near Romanian borders."
+    },
+    "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
+      "detected_at": "2026-08-02T22:10:09.870483Z",
+      "peak_at": "2026-08-02T22:10:09.870483Z",
+      "peak_score_at": "2026-08-02T22:10:09.870483Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+      "peak_label": "57 die crossing to Ceuta from Morocco",
+      "peak_summary": "Mass casualties during migration attempt to Spanish territory; EU border solidarity tested but Romania geographically distant from immediate pressure."
     },
     "us and japan take action to prop up yen in rare joint move": {
       "detected_at": "2026-08-03T10:01:27.568453Z",
@@ -254,16 +274,6 @@
       "peak_label": "Ukraine strikes Russian oil hubs, kills eight",
       "peak_summary": "Ukrainian drones targeted Russian oil facilities and residential areas, killing eight, as Zelenskyy warns of critical Patriot interceptor shortages affecting Black Sea region security."
     },
-    "eu to hold urgent meeting of interior ministers on tuesday over ceuta crisis": {
-      "detected_at": "2026-07-30T18:45:07.818482Z",
-      "peak_at": "2026-08-02T11:34:13.403611Z",
-      "peak_score_at": "2026-08-02T11:34:13.403611Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "peak_label": "EU ministers convene on Ceuta border crisis",
-      "peak_summary": "Emergency session addresses mass migrant crossing; tests EU solidarity but remains geographically distant from Romanian borders."
-    },
     "italy putting nearly all major cities on highest heat alert": {
       "detected_at": "2026-08-02T23:10:39.432346Z",
       "peak_at": "2026-08-02T23:10:39.432346Z",
@@ -294,16 +304,6 @@
       "peak_label": "Greece firefighting helicopters collide mid-air",
       "peak_summary": "Two helicopters crash while battling Athens wildfires, part of broader European climate stress affecting EU neighbors."
     },
-    "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
-      "detected_at": "2026-08-02T22:10:09.870483Z",
-      "peak_at": "2026-08-02T22:10:09.870483Z",
-      "peak_score_at": "2026-08-02T22:10:09.870483Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
-      "peak_label": "57 die crossing to Ceuta from Morocco",
-      "peak_summary": "Mass casualties during migration attempt to Spanish territory; EU border solidarity tested but Romania geographically distant from immediate pressure."
-    },
     "greek firefighting helicopters in mid-air collision, four crew missing": {
       "detected_at": "2026-08-02T16:01:25.404668Z",
       "peak_at": "2026-08-02T16:01:25.404668Z",
@@ -323,21 +323,11 @@
       "title": "South Korea has hottest day on record amid extreme weather globally",
       "peak_label": "South Korea breaks heat record",
       "peak_summary": "Record temperatures in South Korea part of global extreme weather pattern; climate crisis drives more frequent heatwaves worldwide."
-    },
-    "five dead, 41 missing, after indonesia ferry catches fire": {
-      "detected_at": "2026-08-02T11:34:13.403611Z",
-      "peak_at": "2026-08-02T11:34:13.403611Z",
-      "peak_score_at": "2026-08-02T11:34:13.403611Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "negative",
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "peak_label": "Indonesia ferry fire kills five, 41 missing",
-      "peak_summary": "Vessel with 250 people caught fire off Madura island; distant maritime disaster with no regional connection."
     }
   },
   "prev_top_event_titles": [
-    "Trump suggests new talks with Iran to begin on Monday",
-    "US and Japan take action to prop up yen in rare joint move",
-    "Dangerous summers: How heatwaves and wildfires change life across Europe"
+    "Iran denies Trump's claim that new talks will begin on Monday",
+    "Ukraine strikes Russia's biggest retailer again",
+    "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco"
   ]
 }
