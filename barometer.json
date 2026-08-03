@@ -1,11 +1,11 @@
 {
-  "global_score": 2.4,
-  "rationale": "Iran denies Trump's talks claim; Ukraine strikes Russian retailer again; both continue existing situations without qualitative change for Poland.",
+  "global_score": 2.3,
+  "rationale": "Iran denies Trump's talks claim — continuation of diplomatic uncertainty; no confirmed change to regional war risk or energy markets affecting Poland.",
   "top_events": [
     {
       "title": "Iran denies Trump's claim that new talks will begin on Monday",
-      "label": "Iran denies Trump talks claim on Hormuz",
-      "summary": "Iran contradicts US president's announcement of Monday negotiations, though Oman mediates on Strait access. Rhetoric continues without confirmed breakthrough affecting Polish energy security.",
+      "label": "Iran denies Trump claim on new US talks",
+      "summary": "Iran rejects Trump's assertion that negotiations will start Monday, though Oman mediates on Strait of Hormuz access. No confirmed breakthrough affecting regional stability or energy routes.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-02T03:52:05.900025Z"
     },
     {
+      "title": "Israel defies Trump's peace plan as it escalates deadly attacks on Gaza",
+      "label": "Israel escalates Gaza attacks despite Trump plan",
+      "summary": "Israel intensifies Gaza operations and pushes hardline demands, threatening US-backed peace roadmap. Distant conflict with no direct link to Polish security or economy.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/3/israel-defies-trumps-peace-plan-as-it-escalates-deadly-attacks-on-gaza?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-03T13:01:26.647320Z"
+    },
+    {
       "title": "Ukraine strikes Russia's biggest retailer again",
-      "label": "Ukraine drone hits Russian retailer warehouse",
-      "summary": "Ukrainian long-range strike on Wildberries warehouse continues pattern of infrastructure attacks. No new escalation affecting Poland's eastern border security.",
-      "score": 2.4,
+      "label": "Ukraine drone hits Russian retailer warehouse again",
+      "summary": "Ukraine strikes another Wildberries warehouse in long-range drone attack. Continuation of economic warfare in neighboring conflict; no new escalation affecting Poland directly.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-03T11:43:33.529916Z"
-    },
-    {
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "label": "EU ministers meet Tuesday on Ceuta crisis",
-      "summary": "Emergency session scheduled as divisions persist over mass crossing into Spanish enclave. Tests EU solidarity but no direct impact on Poland's borders yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
-        }
-      ],
-      "detected_at": "2026-07-30T18:45:07.816727Z"
     }
   ],
   "short_summary": "Ceuta migrant deaths rise to 72 total",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-03T11:43:33.529916Z",
+  "updated_at": "2026-08-03T13:01:26.647320Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ceuta migrant deaths rise to 72 total",
     "summary": "Death toll from Ceuta crossing now reaches 72 as more bodies found. EU emergency meeting Tuesday tests bloc solidarity on migration pressure.",
@@ -79,10 +79,6 @@
   },
   "events_anchor_at": "2026-08-02T18:11:41.073382Z",
   "score_history": [
-    {
-      "t": "2026-08-01T13:01:18.468127Z",
-      "s": 4.2
-    },
     {
       "t": "2026-08-01T13:53:54.859331Z",
       "s": 4.0
@@ -242,6 +238,10 @@
     {
       "t": "2026-08-03T11:43:33.529916Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-03T13:01:26.647320Z",
+      "s": 2.3
     }
   ]
 }
