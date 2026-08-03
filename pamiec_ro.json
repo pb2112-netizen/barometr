@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-03T03:53:29.880607Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-08-03T04:01:24.551528Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 2,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "EU emergency meeting on Ceuta migrant crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     },
     {
       "temat": "Hungary nuclear plant shutdown — drought forces closure",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Danube drought closes reactor; regional energy disruption."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T04:01:02.929871Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-01T06:40:31.631293Z",
       "s": 4.0
@@ -220,6 +216,10 @@
     {
       "t": "2026-08-03T03:53:29.872917Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-03T04:01:24.540339Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-02T03:52:05.902844Z",
@@ -228,27 +228,17 @@
       "detected_at": "2026-08-02T16:01:25.404668Z",
       "peak_at": "2026-08-02T19:01:23.968445Z",
       "peak_score_at": "2026-08-02T19:01:23.968445Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "neutral",
       "title": "Ukrainian drone attacks kill eight in response to Russian missiles",
       "peak_label": "Ukraine strikes Russian oil hubs, kills eight",
       "peak_summary": "Ukrainian drones targeted Russian oil facilities and residential areas, killing eight, as Zelenskyy warns of critical Patriot interceptor shortages affecting Black Sea region security."
     },
-    "at least 13 killed in israeli strikes on gaza after hamas agree disarmament deal": {
-      "detected_at": "2026-08-02T17:14:35.017914Z",
-      "peak_at": "2026-08-02T18:11:41.075416Z",
-      "peak_score_at": "2026-08-02T18:11:41.075416Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-      "peak_label": "Israel strikes Gaza after Hamas disarmament deal",
-      "peak_summary": "Israeli strikes killed 13 in Gaza despite Hamas disarmament agreement. The development affects Middle East stability with indirect implications for EU security and migration flows."
-    },
-    "trump cancels iran strikes subject to deal being made 'rapidly'": {
+    "trump suggests new talks with iran to begin on monday": {
       "detected_at": "2026-08-02T03:52:05.902844Z",
       "peak_at": "2026-08-02T17:14:35.017914Z",
       "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 3.4,
+      "peak_score": 3.3,
       "peak_sentiment": "positive",
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "peak_label": "Trump halts Iran strikes pending rapid deal",
@@ -263,6 +253,16 @@
       "title": "Italy putting nearly all major cities on highest heat alert",
       "peak_label": "Italy heat wave hits 19 cities on red alert",
       "peak_summary": "Southern Europe heat intensifies with Rome, Milan, Naples on highest alert. Regional climate signal but no immediate impact on Romania."
+    },
+    "at least 13 killed in israeli strikes on gaza after hamas agree disarmament deal": {
+      "detected_at": "2026-08-02T17:14:35.017914Z",
+      "peak_at": "2026-08-02T18:11:41.075416Z",
+      "peak_score_at": "2026-08-02T18:11:41.075416Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+      "peak_label": "Israel strikes Gaza after Hamas disarmament deal",
+      "peak_summary": "Israeli strikes killed 13 in Gaza despite Hamas disarmament agreement. The development affects Middle East stability with indirect implications for EU security and migration flows."
     },
     "two crew killed after firefighting helicopters collide in greece, as british pilot survives": {
       "detected_at": "2026-08-02T17:14:35.017914Z",
@@ -327,7 +327,7 @@
   },
   "prev_top_event_titles": [
     "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-    "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-    "Trump cancels Iran strikes subject to deal being made 'rapidly'"
+    "Trump suggests new talks with Iran to begin on Monday",
+    "Italy putting nearly all major cities on highest heat alert"
   ]
 }
