@@ -1012,13 +1012,17 @@ def _najlepsze_dopasowanie_ledger(title, stara_mapa_raw, zuzyte):
 def _aktualizuj_ledger(top_events, pamiec, updated_at):
     """WB-060/061/062/063/064/066: ledger tematow niezalezny od top-3, retencja wg peak_at.
 
-    Wpis: {detected_at, peak_at, peak_score, peak_sentiment, title, peak_label, peak_summary}.
+    Wpis: {detected_at, peak_at, peak_score, peak_sentiment, title, peak_label, peak_summary,
+    peak_source_links}.
     - Nowy temat (brak dopasowania) -> nowy wpis, detected_at = peak_at = updated_at.
     - Kontynuacja -> detected_at bez zmian; peak_score/peak_sentiment/title/peak_at podbite
       TYLKO gdy aktualny score > dotychczasowy peak_score (migawka "na szczycie" razem).
     - peak_label/peak_summary (WB-061/WB-064): sticky jak peak_score — podbijane TYLKO przy
       peak bump ORAZ gdy label przeszedl walidacje; rejected przy peak bump -> stary
       peak_label zachowany (nie degraduj dobrego sticky do skrotu tytulu).
+    - peak_source_links (WB-073): sticky jak peak_summary — podbijane przy peak bump TYLKO
+      gdy `ev["source_links"]` niepuste (pusty wynik dopasowania w biezacym cyklu nie
+      degraduje dobrego linku); backfill przy braku bumpa, gdy wpis go jeszcze nie ma.
     - WB-063: dopasowanie po NAJLEPSZYM podobienstwie, kazdy wpis zuzywalny raz na cykl.
     - WB-066: peak_score opada po okresie laski (_wygas_peak_score) zamiast stac na zawsze.
     - Wpisy spoza biezacego top_events: zachowane, dopoki wiek(peak_at) < MSE_OKNO_GODZIN.
@@ -1055,6 +1059,7 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
                 "title": title,
                 "peak_label": label,  # fallback OK — nie ma lepszego sticky
                 "peak_summary": summary,
+                "peak_source_links": ev.get("source_links") or [],
             }
         else:
             bumped = score > wpis.get("peak_score", 0)
@@ -1069,6 +1074,10 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
                 elif not wpis.get("peak_label"):
                     wpis["peak_label"] = label
                     wpis["peak_summary"] = summary
+                # WB-073: sticky jak peak_label/peak_summary — pusty wynik dopasowania w
+                # biezacym cyklu (np. artykul juz nie w RSS) nie degraduje dobrego linku.
+                if ev.get("source_links"):
+                    wpis["peak_source_links"] = ev.get("source_links")
             else:
                 # WB-066: PRZED _uzupelnij_peak_at — inaczej odswiezone okno WB-062
                 # zerowaloby okres laski w kazdym cyklu i peak nigdy by nie opadl.
@@ -1080,6 +1089,8 @@ def _aktualizuj_ledger(top_events, pamiec, updated_at):
                 wpis["peak_label"] = label
             if not wpis.get("peak_summary") and summary:
                 wpis["peak_summary"] = summary
+            if not wpis.get("peak_source_links") and ev.get("source_links"):
+                wpis["peak_source_links"] = ev.get("source_links")
             _uzupelnij_peak_at(wpis, score, updated_at, bumped, teraz=teraz)
             dopasowane.add(stary_klucz)
 
@@ -1143,6 +1154,9 @@ def _wybierz_mse(ledger, updated_at):
         "detected_at": champion.get("detected_at"),
         # WB-068: moment szczytu — apka moze zaznaczyc go na osi czasu wykresu.
         "peak_at": _peak_at_wpisu(champion),
+        # WB-073: sticky link zrodlowy (jak peak_summary) — champion moze byc spoza
+        # biezacych top_events, wiec biezace `naglowki` moga juz nie zawierac artykulu.
+        "source_links": champion.get("peak_source_links") or [],
     }
 
 

@@ -1153,3 +1153,104 @@ def test_wb061_ac7_skip_gate_nie_kasuje_peak_label():
 
     klucz = "naval blockade of iranian ports"
     assert ledger[klucz]["peak_label"] == old_label
+
+
+# ---------------------------------------------------------------------------
+# WB-073: sticky `peak_source_links` w ledgerze (wzorzec peak_summary/WB-064) + _wybierz_mse
+# ---------------------------------------------------------------------------
+
+def test_wb073_nowy_event_z_source_links_zapisuje_peak_source_links():
+    """Nowy event z source_links -> ledger zapisuje peak_source_links (sticky od startu)."""
+    links = [{"name": "Reuters", "url": "https://reuters.com/a"}]
+    top = [{"title": "Rebel forces attack government positions in north", "score": 5.0,
+            "sentiment": "negative", "label": "Rebel forces attack government positions",
+            "source_links": links}]
+    pamiec = {"event_detected_at": {}}
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-15T08:00:00Z")
+
+    klucz = "rebel forces attack government positions in north"
+    assert ledger[klucz]["peak_source_links"] == links
+
+
+def test_wb073_peak_bump_source_links_pusty_zachowuje_stary_sticky():
+    """Peak bump, ale ev['source_links'] pusty w tym cyklu -> stary sticky link zachowany."""
+    old_links = [{"name": "Reuters", "url": "https://reuters.com/a"}]
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 5.0,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports",
+                "peak_label": "Iran imposes naval blockade of Gulf ports",
+                "peak_source_links": old_links,
+            },
+        },
+    }
+    # score bije peak, ale artykul juz nie w RSS tego cyklu -> source_links puste
+    top = [{"title": "Naval blockade of Iranian ports escalates", "score": 7.3,
+            "sentiment": "negative", "label": "Iran expands naval blockade near Strait of Hormuz",
+            "source_links": []}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports escalates"
+    assert ledger[klucz]["peak_score"] == 7.3
+    assert ledger[klucz]["peak_source_links"] == old_links
+
+
+def test_wb073_kontynuacja_bez_bumpa_backfill_source_links_na_migracji():
+    """Kontynuacja bez bumpa, stary wpis bez peak_source_links (migracja) -> backfill z ev."""
+    links = [{"name": "AP", "url": "https://apnews.com/c"}]
+    pamiec = {
+        "event_detected_at": {
+            "naval blockade iranian ports": {
+                "detected_at": "2026-07-10T00:00:00Z",
+                "peak_score": 7.3,
+                "peak_sentiment": "negative",
+                "title": "Naval blockade of Iranian ports escalates",
+                "peak_label": "Iran imposes naval blockade of Gulf ports",
+                # brak "peak_source_links" — wpis sprzed WB-073
+            },
+        },
+    }
+    top = [{"title": "Naval blockade of Iranian ports", "score": 4.5, "sentiment": "negative",
+            "label": "Blockade situation continues", "source_links": links}]
+
+    wynik, ledger = silnik._aktualizuj_ledger(top, pamiec, "2026-07-12T08:01:27Z")
+
+    klucz = "naval blockade of iranian ports"
+    assert ledger[klucz]["peak_source_links"] == links
+
+
+def test_wb073_wybierz_mse_zwraca_source_links_championa():
+    """_wybierz_mse zwraca 'source_links' championa ze sticky peak_source_links."""
+    links = [{"name": "BBC", "url": "https://bbc.com/d"}]
+    ledger = {
+        "old topic": {
+            "detected_at": "2026-07-12T00:00:00Z",
+            "peak_score": 8.0,
+            "peak_sentiment": "negative",
+            "title": "Old topic escalates",
+            "peak_label": "Old topic escalates dramatically",
+            "peak_source_links": links,
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, "2026-07-12T08:00:00Z")
+    assert mse["source_links"] == links
+
+
+def test_wb073_wybierz_mse_bez_peak_source_links_stary_ledger_zwraca_puste():
+    """Bardzo stary wpis ledgera bez 'peak_source_links' w ogole -> _wybierz_mse zwraca [], bez wyjatku."""
+    ledger = {
+        "topic": {
+            "detected_at": "2026-07-12T00:00:00Z",
+            "peak_score": 6.0,
+            "peak_sentiment": "negative",
+            "title": "Fresh topic",
+            # brak "peak_source_links" — wpis sprzed WB-073
+        },
+    }
+    mse = silnik._wybierz_mse(ledger, "2026-07-12T08:00:00Z")
+    assert mse["source_links"] == []
