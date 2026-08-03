@@ -1,36 +1,31 @@
 {
   "global_score": 2.7,
-  "rationale": "Cyclospora outbreak reports first two deaths but limited scope; Iran talks remain rhetoric without action; Canadian tourism drop continues; no new domestic policy or military deployment.",
+  "rationale": "First two deaths from cyclospora outbreak — new development but limited scope; Canadians spending less on US travel continues; Iran-US talks remain rhetoric without confirmed action; distant conflicts low relevance.",
   "top_events": [
     {
-      "title": "US announces first two deaths from cyclospora outbreak",
+      "title": "US reports first two deaths linked to  'explosive diarrhoea' outbreak",
       "label": "US reports first cyclospora outbreak deaths",
-      "summary": "Two deaths in Michigan from parasitic infection; health officials say illness not generally life-threatening and outbreak remains limited in scope.",
-      "score": 2.0,
+      "summary": "Two deaths in Michigan from parasitic infection. New development but limited geographic scope; health officials say illness not generally life-threatening.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/3/us-announces-first-two-deaths-from-cyclospora-outbreak?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-03T19:57:03.294958Z"
     },
     {
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian US travel drops $3.3bn in 2025",
-      "summary": "Canadians replaced US vacations with other international trips; continuation of confirmed economic impact on US tourism sector from Trump policies.",
-      "score": 2.7,
+      "label": "Canadians cut US travel spending by $3.3bn",
+      "summary": "Canadians replaced US vacations with other trips. Continues confirmed economic impact on US tourism; no new qualitative change this cycle.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -46,17 +41,22 @@
       "detected_at": "2026-08-03T11:43:33.536914Z"
     },
     {
-      "title": "Trump says talks with Iran are 'last chance' to forge a deal",
-      "label": "Trump calls Iran talks last chance",
-      "summary": "President says Iran has last chance for nuclear agreement; rhetoric only without confirmed action or policy change affecting US directly.",
+      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
+      "label": "Iran denies US talks despite Trump claims",
+      "summary": "Iran contradicts Trump's negotiation claims. Rhetoric only; no confirmed action or policy change affecting US directly.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-says-talks-with-iran-are-last-chance-to-forge-a-deal?traffic_source=rss"
@@ -65,33 +65,31 @@
       "detected_at": "2026-08-03T19:01:26.773043Z"
     }
   ],
-  "short_summary": "Pacific Northwest wildfires force mass evacuations",
+  "short_summary": "Canadians spent $3.3bn less on US travel",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-03T22:01:27.483917Z",
+  "updated_at": "2026-08-03T23:19:07.100033Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Pacific Northwest wildfires force mass evacuations",
-    "summary": "Fast-moving wildfires continue forcing evacuations across Washington State and British Columbia. Ongoing domestic disaster affecting thousands of residents.",
-    "title": "Wildfires force mass evacuations across the Pacific Northwest",
-    "score": 4.5,
+    "label": "Canadians spent $3.3bn less on US travel",
+    "summary": "Data shows Canadians replaced US vacations with other international trips; confirmed economic impact on US tourism sector from Trump policies.",
+    "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+    "score": 3.1,
     "sentiment": "negative",
-    "detected_at": "2026-08-02T22:10:09.876869Z",
-    "peak_at": "2026-08-02T23:10:39.438073Z"
+    "detected_at": "2026-08-03T11:43:33.536914Z",
+    "peak_at": "2026-08-03T15:15:14.898430Z",
+    "source_links": [
+      {
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
+      }
+    ]
   },
-  "events_anchor_at": "2026-08-02T22:10:09.876869Z",
+  "events_anchor_at": "2026-08-03T11:43:33.536914Z",
   "score_history": [
-    {
-      "t": "2026-08-01T22:10:36.803216Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-01T23:10:23.840691Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-02T00:11:24.143944Z",
       "s": 2.9
@@ -238,6 +236,10 @@
     },
     {
       "t": "2026-08-03T22:01:27.483917Z",
+      "s": 2.7
+    },
+    {
+      "t": "2026-08-03T23:19:07.100033Z",
       "s": 2.7
     }
   ]

@@ -1,31 +1,12 @@
 {
   "global_score": 3.0,
-  "rationale": "Rhine drought continues at record low affecting European transport and energy; no qualitative change from known state; tanker attacks persist; rhetoric on Iran talks without action.",
+  "rationale": "Ukrainian drone killing civilians on Russian beach continues as background; Rhine drought persists; Ceuta migrant surge prompts EU border call — new development with indirect relevance to Poland's migration concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "label": "Rhine drought disrupts European cargo and power",
-      "summary": "Record low water in Rhine, Danube, Po curtails goods transport and reduces electricity output across Europe, continuing pressure on energy costs and supply chains.",
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "label": "Ukrainian drone kills seven on Russian beach",
+      "summary": "Three children among seven killed when drone crashed at Black Sea resort. Continues escalation pattern already tracked; no qualitative change for Poland.",
       "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-03T15:15:14.890405Z"
-    },
-    {
-      "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
-      "label": "Middle East tanker attacks escalate shipping risk",
-      "summary": "Fresh attacks on alternative routes complicate oil shipping, indirectly affecting European energy costs through supply chain uncertainty.",
-      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,18 +16,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-03T17:20:10.756243Z"
+      "detected_at": "2026-08-03T11:43:33.529916Z"
     },
     {
       "title": "EU calls for stronger borders after Ceuta migrant crossings",
-      "label": "EU border call after Ceuta migrant surge",
-      "summary": "Von der Leyen calls for action after 50,000 crossed from Morocco to Ceuta; signals potential EU-wide migration policy shift affecting Poland's border stance.",
-      "score": 2.9,
+      "label": "EU demands stronger borders after Ceuta crisis",
+      "summary": "Von der Leyen calls for action after 50,000 crossed to Ceuta. New EU-level response to migration pressure indirectly affects Poland's border policy context.",
+      "score": 2.8,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -63,6 +44,25 @@
         }
       ],
       "detected_at": "2026-08-03T22:01:27.477532Z"
+    },
+    {
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "label": "Rhine drought disrupts European transport and energy",
+      "summary": "Low water curtails cargo transport and reduces electricity output. Ongoing situation with no new qualitative change; background economic pressure continues.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-03T15:15:14.890405Z"
     }
   ],
   "short_summary": "Rhine drought disrupts European transport and energy",
@@ -70,28 +70,26 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-03T22:01:27.477532Z",
+  "updated_at": "2026-08-03T23:19:07.093536Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Rhine drought disrupts European transport and energy",
     "summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Polish energy costs and supply chains.",
     "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-    "score": 3.6,
+    "score": 3.5,
     "sentiment": "negative",
     "detected_at": "2026-08-03T15:15:14.890405Z",
-    "peak_at": "2026-08-03T15:15:14.890405Z"
+    "peak_at": "2026-08-03T15:15:14.890405Z",
+    "source_links": [
+      {
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
+      }
+    ]
   },
   "events_anchor_at": "2026-08-03T15:15:14.890405Z",
   "score_history": [
-    {
-      "t": "2026-08-01T22:10:36.795787Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-01T23:10:23.837101Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-02T00:11:24.136650Z",
       "s": 2.6
@@ -238,6 +236,10 @@
     },
     {
       "t": "2026-08-03T22:01:27.477532Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-03T23:19:07.093536Z",
       "s": 3.0
     }
   ]

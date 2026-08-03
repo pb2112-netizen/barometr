@@ -1,48 +1,40 @@
 {
-  "updated_at": "2026-08-03T22:01:27.490099Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-03T23:19:07.103555Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rhine drought disrupts European transport and energy",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 7,
       "opis": "Record low water curtails cargo, reduces electricity output."
     },
     {
       "temat": "Middle East tanker attacks escalate shipping risk",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Fresh attacks on alternative routes complicate oil."
     },
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 14,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Southern Europe heat intensifies; Iberian climate risk."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T22:10:36.799109Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-01T23:10:23.838763Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-02T00:11:24.140661Z",
       "s": 2.0
@@ -190,6 +182,10 @@
     {
       "t": "2026-08-03T22:01:27.480485Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-03T23:19:07.096766Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-03T15:15:14.894703Z",
@@ -198,23 +194,39 @@
       "detected_at": "2026-08-03T15:15:14.894703Z",
       "peak_at": "2026-08-03T15:15:14.894703Z",
       "peak_score_at": "2026-08-03T15:15:14.894703Z",
-      "peak_score": 4.0,
+      "peak_score": 3.9,
       "peak_sentiment": "negative",
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
       "peak_label": "Rhine drought disrupts European transport and energy",
-      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Portuguese energy costs and supply chains."
+      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Portuguese energy costs and supply chains.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     },
     "eu calls for stronger borders after ceuta migrant crossings": {
       "detected_at": "2026-08-01T11:34:42.979532Z",
       "peak_at": "2026-08-03T11:43:33.533512Z",
       "peak_score_at": "2026-08-02T11:34:13.404596Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
       "peak_label": "EU ministers meet on Spain's Ceuta crisis",
-      "peak_summary": "Emergency session addresses mass crossing into Spanish territory; directly affects Iberian neighbor and tests EU border framework."
+      "peak_summary": "Emergency session addresses mass crossing into Spanish territory; directly affects Iberian neighbor and tests EU border framework.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
+        }
+      ]
     },
-    "threat to oil tankers in middle east worst since start of iran war, analysts say": {
+    "threat to oil tankers in middle east  worst since start of iran war, analysts say": {
       "detected_at": "2026-08-03T17:20:10.759514Z",
       "peak_at": "2026-08-03T17:20:10.759514Z",
       "peak_score_at": "2026-08-03T17:20:10.759514Z",
@@ -222,7 +234,13 @@
       "peak_sentiment": "negative",
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "peak_label": "Middle East tanker attacks escalate shipping risk",
-      "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Portugal."
+      "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     },
     "weather tracker: austria breaks heat records as japan braces for typhoon dolphin": {
       "detected_at": "2026-08-03T15:15:14.894703Z",
@@ -273,31 +291,11 @@
       "title": "Dangerous summers: How heatwaves and wildfires change life across Europe",
       "peak_label": "European heatwaves and wildfires intensify",
       "peak_summary": "Climate change drives hotter summers across Europe, threatening lives and economies. Ongoing regional climate pattern directly affecting Iberian Peninsula."
-    },
-    "how spain's migrant crisis created a political storm - whipped up by social media": {
-      "detected_at": "2026-08-02T23:10:39.434379Z",
-      "peak_at": "2026-08-02T23:10:39.434379Z",
-      "peak_score_at": "2026-08-02T23:10:39.434379Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
-      "peak_label": "Spain migrant crisis exposes EU divisions",
-      "peak_summary": "Ceuta crossings continue to shake Europe politically, exposing divisions over migration. Ongoing situation affecting Iberian border policy but no new development."
-    },
-    "italy putting nearly all major cities on highest heat alert": {
-      "detected_at": "2026-08-02T22:10:09.872853Z",
-      "peak_at": "2026-08-02T22:10:09.872853Z",
-      "peak_score_at": "2026-08-02T22:10:09.872853Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Italy putting nearly all major cities on highest heat alert",
-      "peak_label": "Italy puts major cities on heat alert",
-      "peak_summary": "Nineteen Italian cities including Rome and Milan on red alert; by Monday all but two will be, signaling intensifying southern European heat wave affecting Iberian Peninsula."
     }
   },
   "prev_top_event_titles": [
     "Rhine falls to record low levels as drought strains Europe's rivers",
     "EU calls for stronger borders after Ceuta migrant crossings",
-    "Threat to oil tankers in Middle East worst since start of Iran war, analysts say"
+    "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say"
   ]
 }

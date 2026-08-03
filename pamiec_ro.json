@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-03T22:01:27.488453Z",
+  "updated_at": "2026-08-03T23:19:07.102321Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rhine drought disrupts European transport and energy",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 7,
       "opis": "Record low water curtails cargo, reduces electricity output."
     },
     {
       "temat": "Middle East tanker attacks escalate shipping risk",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Fresh attacks on alternative routes complicate oil."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 5.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 4,
       "opis": "Seven killed including children at Black Sea resort; direct."
     },
     {
       "temat": "Romania detonates Danube to protect nuclear plant",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 5,
       "opis": "Military action to redirect water to Cernavoda amid drought."
     },
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 1,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T22:10:36.797686Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-01T23:10:23.838135Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-02T00:11:24.139148Z",
       "s": 2.4
@@ -208,19 +200,29 @@
     {
       "t": "2026-08-03T22:01:27.479232Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-03T23:19:07.095338Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-03T17:20:10.757967Z",
   "event_detected_at": {
-    "rhine falls to record low levels as drought strains europe's rivers": {
-      "detected_at": "2026-08-03T15:15:14.892329Z",
-      "peak_at": "2026-08-03T15:15:14.892329Z",
-      "peak_score_at": "2026-08-03T15:15:14.892329Z",
-      "peak_score": 3.6,
+    "russia says seven killed and 40 injured by ukrainian drone hitting busy beach": {
+      "detected_at": "2026-08-03T11:43:33.531608Z",
+      "peak_at": "2026-08-03T19:01:26.767654Z",
+      "peak_score_at": "2026-08-03T19:01:26.767654Z",
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
-      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "peak_label": "Rhine drought disrupts European transport and energy",
-      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Romanian energy costs and Danube shipping."
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "peak_label": "Ukrainian drone kills seven on Russian beach",
+      "peak_summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort near Gelendzhik. New civilian casualty event directly in Romania's maritime neighborhood.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     },
     "eu calls for stronger borders after ceuta migrant crossings": {
       "detected_at": "2026-08-03T22:01:27.479232Z",
@@ -230,7 +232,33 @@
       "peak_sentiment": "neutral",
       "title": "EU calls for stronger borders after Ceuta migrant crossings",
       "peak_label": "EU border call after Ceuta migrant surge",
-      "peak_summary": "Von der Leyen calls for action after 50,000 crossed from Morocco to Ceuta; signals potential EU-wide migration policy shift affecting Romania's eastern border approach."
+      "peak_summary": "Von der Leyen calls for action after 50,000 crossed from Morocco to Ceuta; signals potential EU-wide migration policy shift affecting Romania's eastern border approach.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
+        }
+      ]
+    },
+    "rhine falls to record low levels as drought strains europe's rivers": {
+      "detected_at": "2026-08-03T15:15:14.892329Z",
+      "peak_at": "2026-08-03T15:15:14.892329Z",
+      "peak_score_at": "2026-08-03T15:15:14.892329Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "peak_label": "Rhine drought disrupts European transport and energy",
+      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Romanian energy costs and Danube shipping.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     },
     "threat to oil tankers in middle east worst since start of iran war, analysts say": {
       "detected_at": "2026-08-03T17:20:10.757967Z",
@@ -241,16 +269,6 @@
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "peak_label": "Middle East tanker attacks escalate shipping risk",
       "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Romania."
-    },
-    "russia says seven killed and 40 injured by ukrainian drone hitting busy beach": {
-      "detected_at": "2026-08-03T11:43:33.531608Z",
-      "peak_at": "2026-08-03T19:01:26.767654Z",
-      "peak_score_at": "2026-08-03T19:01:26.767654Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "peak_label": "Ukrainian drone kills seven on Russian beach",
-      "peak_summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort near Gelendzhik. New civilian casualty event directly in Romania's maritime neighborhood."
     },
     "romanian navy blasts riverbed to protect nuclear plant": {
       "detected_at": "2026-08-03T17:20:10.757967Z",
@@ -282,16 +300,6 @@
       "peak_label": "Israel escalates Gaza attacks despite Trump plan",
       "peak_summary": "Israel intensifies Gaza operations and pushes hardline demands, threatening US-backed peace roadmap. Distant conflict with no direct link to Romanian security or economy."
     },
-    "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
-      "detected_at": "2026-08-02T22:10:09.870483Z",
-      "peak_at": "2026-08-02T22:10:09.870483Z",
-      "peak_score_at": "2026-08-02T22:10:09.870483Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
-      "peak_label": "57 die crossing to Ceuta from Morocco",
-      "peak_summary": "Mass casualties during migration attempt to Spanish territory; EU border solidarity tested but Romania geographically distant from immediate pressure."
-    },
     "us and japan take action to prop up yen in rare joint move": {
       "detected_at": "2026-08-03T10:01:27.568453Z",
       "peak_at": "2026-08-03T10:01:27.568453Z",
@@ -311,21 +319,11 @@
       "title": "Dangerous summers: How heatwaves and wildfires change life across Europe",
       "peak_label": "European heatwaves and wildfires intensify",
       "peak_summary": "Climate change drives hotter summers across Europe, threatening lives and economies. Ongoing regional climate pattern affecting southern neighbors."
-    },
-    "italy putting nearly all major cities on highest heat alert": {
-      "detected_at": "2026-08-02T23:10:39.432346Z",
-      "peak_at": "2026-08-02T23:10:39.432346Z",
-      "peak_score_at": "2026-08-02T23:10:39.432346Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Italy putting nearly all major cities on highest heat alert",
-      "peak_label": "Italy heat wave hits 19 cities on red alert",
-      "peak_summary": "Southern Europe heat intensifies with Rome, Milan, Naples on highest alert. Regional climate signal but no immediate impact on Romania."
     }
   },
   "prev_top_event_titles": [
-    "Rhine falls to record low levels as drought strains Europe's rivers",
+    "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
     "EU calls for stronger borders after Ceuta migrant crossings",
-    "Threat to oil tankers in Middle East worst since start of Iran war, analysts say"
+    "Rhine falls to record low levels as drought strains Europe's rivers"
   ]
 }
