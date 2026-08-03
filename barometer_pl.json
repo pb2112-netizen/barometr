@@ -1,13 +1,13 @@
 {
-  "global_score": 2.7,
-  "rationale": "Gaza strikes after Hamas disarmament deal and Ukraine-Russia Black Sea exchange are new developments, but neither directly changes Polish daily life; Italy heat wave continues regional climate pressure. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Israeli strikes in Gaza after Hamas disarmament deal represent a qualitative new development in Middle East peace process, with indirect implications for EU security and migration; other events continue without major change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
       "label": "Israel strikes Gaza after Hamas disarmament deal",
-      "summary": "Israel targets military operatives in Gaza City, Khan Younis, and Deir el-Balah following Hamas agreement to disarm. Signals fragile Middle East stability affecting EU energy and migration indirectly.",
-      "score": 2.7,
-      "sentiment": "neutral",
+      "summary": "Despite Hamas agreeing to disarm, Israeli strikes kill 13 in Gaza City and other areas. The violence after a peace agreement signals instability that could affect EU migration and regional security.",
+      "score": 2.6,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,29 +22,34 @@
       "detected_at": "2026-08-02T17:14:35.016171Z"
     },
     {
-      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-      "label": "Ukraine says major Russian oil refinery and airfield hit",
-      "summary": "Ukraine strikes Russian oil infrastructure and airfield; Russia attacks Ukrainian Black Sea ports overnight. Continuation of war affecting regional energy security indirectly.",
-      "score": 2.7,
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "label": "Trump cancels Iran strikes pending rapid deal",
+      "summary": "US president halts military action after Iran and Gulf states request delay, with deal framework agreed. Reduces immediate war risk but outcome uncertain.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-02T16:01:25.402184Z"
+      "detected_at": "2026-08-02T03:52:05.900025Z"
     },
     {
       "title": "Italy putting nearly all major cities on highest heat alert",
-      "label": "Italy escalates heat alerts to 19 cities",
-      "summary": "Rome, Milan, Naples among 19 cities on red alert; nearly all major Italian cities affected by Monday. Regional climate crisis intensifies across southern Europe.",
-      "score": 2.2,
+      "label": "Italy puts 19 cities on highest heat alert",
+      "summary": "Southern Europe heat wave intensifies with Rome, Milan, Naples on red alert. Climate pattern affecting neighboring regions signals continued summer risk.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-03T00:12:16.582260Z",
+  "updated_at": "2026-08-03T01:01:21.131615Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Hungary shuts nuclear plant due to drought",
     "summary": "Record-low Danube water levels force closure of Hungary's sole nuclear reactor, disrupting regional energy supply in EU neighbor and highlighting climate-driven infrastructure vulnerability.",
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.900025Z",
   "score_history": [
-    {
-      "t": "2026-08-01T00:13:26.604466Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-01T01:01:23.641256Z",
       "s": 2.3
@@ -250,6 +251,10 @@
     {
       "t": "2026-08-03T00:12:16.582260Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-03T01:01:21.131615Z",
+      "s": 2.6
     }
   ]
 }

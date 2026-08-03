@@ -1,13 +1,13 @@
 {
-  "global_score": 2.2,
-  "rationale": "Ukraine reports striking major Russian oil refinery and airfield while Russia attacks Black Sea ports — qualitatively new escalation in infrastructure targeting affecting war dynamics. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Ukraine reports hitting major Russian oil refinery and airfield while Russia attacks Ukrainian ports and vessels, representing significant military escalation in the ongoing war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
       "label": "Ukraine hits Russian refinery and airfield",
-      "summary": "Ukraine strikes major Russian oil refinery and airfield; Russia attacks Ukrainian Black Sea ports overnight. New escalation in infrastructure targeting affects war supply lines and energy.",
-      "score": 2.2,
-      "sentiment": "positive",
+      "summary": "Ukrainian forces strike major Russian oil refinery and airfield while Russia attacks Ukrainian Black Sea ports and vessels overnight. Escalation in mutual strikes affects energy and naval operations.",
+      "score": 2.1,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,11 +22,35 @@
       "detected_at": "2026-08-02T16:01:25.409061Z"
     },
     {
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "label": "Trump cancels Iran strikes pending rapid deal",
+      "summary": "US halts military action after regional requests, with deal framework agreed. Reduces global war risk that could affect NATO focus on Ukraine.",
+      "score": 3.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T03:52:05.907176Z"
+    },
+    {
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
       "label": "Israel strikes Gaza after Hamas disarmament deal",
-      "summary": "Israel targets Gaza operatives following Hamas agreement to disarm. Distant Middle East development with no direct impact on Ukraine.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "summary": "Despite Hamas agreeing to disarm, Israeli strikes kill 13 in Gaza. Middle East instability continues with limited direct impact on Ukraine.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -39,33 +63,14 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
-    {
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "label": "Trump halts Iran strikes pending rapid deal",
-      "summary": "US president claims Iran and Middle Eastern countries asked Washington to hold off on attack as deal perimeters agreed. Ongoing US diplomacy with no change to Ukraine aid.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.907176Z"
     }
   ],
   "short_summary": "Israel strikes Gaza after Hamas disarmament deal",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-03T00:12:16.588170Z",
+  "updated_at": "2026-08-03T01:01:21.137599Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.907176Z",
   "score_history": [
-    {
-      "t": "2026-08-01T00:13:26.608759Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-01T01:01:23.645687Z",
       "s": 2.2
@@ -250,6 +251,10 @@
     {
       "t": "2026-08-03T00:12:16.588170Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-03T01:01:21.137599Z",
+      "s": 3.9
     }
   ]
 }
