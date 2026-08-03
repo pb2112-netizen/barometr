@@ -1,12 +1,36 @@
 {
-  "global_score": 3.5,
-  "rationale": "Rhine drought continues to disrupt European transport and energy; no qualitative change from last cycle.",
+  "global_score": 3.4,
+  "rationale": "Ukrainian drone kills seven on Russian beach — qualitatively new civilian casualty event in Black Sea region adjacent to Poland; Rhine drought continues to strain European transport and energy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "label": "Ukrainian drone kills seven on Russian beach",
+      "summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort. New civilian casualty event in region adjacent to Poland raises spillover concerns.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/drone-slams-into-russian-beach-killing-at-least-7-people?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-03T11:43:33.529916Z"
+    },
     {
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
       "label": "Rhine drought disrupts European transport and energy",
-      "summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Polish energy costs and supply chains.",
-      "score": 3.5,
+      "summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe. Ongoing strain on EU supply chains and energy costs.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,31 +46,12 @@
       "detected_at": "2026-08-03T15:15:14.890405Z"
     },
     {
-      "title": "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain",
-      "label": "Pentagon accelerates Patriot THAAD missile production",
-      "summary": "US increases missile defense production amid global stockpile strain, signaling sustained conflict environment near Poland's eastern border.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/3/pentagon-boosts-patriot-thaad-interceptor-output-amid-stockpile-strain?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-03T16:01:25.884853Z"
-    },
-    {
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "label": "Middle East tanker attacks escalate shipping risk",
-      "summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Poland.",
-      "score": 3.0,
+      "summary": "Fresh attacks on alternative routes complicate oil shipping. Indirect impact on European energy costs through global oil market pressure.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-03T17:20:10.756243Z",
+  "updated_at": "2026-08-03T19:01:26.765191Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,14 +84,6 @@
   },
   "events_anchor_at": "2026-08-03T15:15:14.890405Z",
   "score_history": [
-    {
-      "t": "2026-08-01T18:11:17.299700Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-08-01T19:01:26.747003Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-01T19:32:51.914794Z",
       "s": 3.2
@@ -238,6 +235,10 @@
     {
       "t": "2026-08-03T17:20:10.756243Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-03T19:01:26.765191Z",
+      "s": 3.4
     }
   ]
 }

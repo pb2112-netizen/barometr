@@ -1,31 +1,36 @@
 {
-  "global_score": 4.5,
-  "rationale": "Romanian navy detonates Danube riverbed to protect nuclear plant — direct action on critical infrastructure due to drought.",
+  "global_score": 3.4,
+  "rationale": "Ukrainian drone kills seven on Russian beach — qualitatively new civilian casualty event directly in Romania's Black Sea neighborhood; Rhine drought continues to strain European transport and energy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Romanian navy blasts riverbed to protect nuclear plant",
-      "label": "Romania detonates Danube to protect nuclear plant",
-      "summary": "Romanian military detonates part of Danube riverbed to redirect water toward Cernavoda Nuclear Power Plant, responding to drought threat to critical energy infrastructure.",
-      "score": 4.5,
-      "sentiment": "neutral",
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "label": "Ukrainian drone kills seven on Russian beach",
+      "summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort near Gelendzhik. New civilian casualty event directly in Romania's maritime neighborhood.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/romanian-navy-blasts-riverbed-to-protect-nuclear-plant?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/drone-slams-into-russian-beach-killing-at-least-7-people?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-03T17:20:10.757967Z"
+      "detected_at": "2026-08-03T11:43:33.531608Z"
     },
     {
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
       "label": "Rhine drought disrupts European transport and energy",
-      "summary": "Record low water in Rhine, Danube, Po curtails cargo and reduces electricity output, affecting Romanian energy supply and Black Sea trade routes.",
-      "score": 3.5,
+      "summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output. Danube drought directly affects Romanian supply chains and energy.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -43,10 +48,10 @@
     {
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "label": "Middle East tanker attacks escalate shipping risk",
-      "summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Romania.",
-      "score": 3.0,
+      "summary": "Fresh attacks on alternative routes complicate oil shipping. Indirect impact on Romanian energy costs through global oil market pressure.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -62,12 +67,12 @@
   ],
   "short_summary": "Romania detonates Danube to protect nuclear plant",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-03T17:20:10.757967Z",
+  "updated_at": "2026-08-03T19:01:26.767654Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Romania detonates Danube to protect nuclear plant",
     "summary": "Romanian military detonates part of Danube riverbed to redirect water toward Cernavoda Nuclear Power Plant, responding to drought threat to critical energy infrastructure.",
@@ -79,14 +84,6 @@
   },
   "events_anchor_at": "2026-08-03T17:20:10.757967Z",
   "score_history": [
-    {
-      "t": "2026-08-01T18:11:17.301254Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-01T19:01:26.748370Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-01T19:32:51.916557Z",
       "s": 2.9
@@ -238,6 +235,10 @@
     {
       "t": "2026-08-03T17:20:10.757967Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-08-03T19:01:26.767654Z",
+      "s": 3.4
     }
   ]
 }
