@@ -1,49 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Ukraine strikes major Russian refinery and airfield while Russia attacks Black Sea ports; direct continuation of war affecting Ukrainian infrastructure. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Trump-Iran talks reduce broader war risk affecting NATO; Ukraine strikes Russian refinery and Black Sea ports continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
-      "label": "Ukraine says major Russian oil refinery and airfield hit",
-      "summary": "Ukrainian forces strike Russian energy infrastructure and airfield. Russia retaliates with attacks on Black Sea ports and vessels, continuing direct war escalation.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T16:01:25.409061Z"
-    },
-    {
-      "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
-      "label": "Israel strikes Gaza after Hamas disarmament deal",
-      "summary": "Israel targets military operatives in Gaza City, Khan Younis, Deir el-Balah. Distant conflict with no direct Ukraine impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
     {
       "title": "Trump suggests new talks with Iran to begin on Monday",
       "label": "Trump announces Iran talks starting Monday",
-      "summary": "US president says negotiations will begin. Reduces broader war risk affecting NATO support dynamics.",
+      "summary": "US president says negotiations will begin after pausing strikes. Reduces Middle East war risk, indirectly easing pressure on NATO and Western focus on Ukraine.",
       "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -63,6 +25,44 @@
         }
       ],
       "detected_at": "2026-08-02T03:52:05.907176Z"
+    },
+    {
+      "title": "Ukraine says major Russian oil refinery and airfield hit, as Moscow reports eight deaths",
+      "label": "Ukraine says major Russian oil refinery and airfield hit",
+      "summary": "Ukrainian forces strike Russian energy infrastructure and airfield; Russia retaliates with Black Sea port attacks. Ongoing military operations.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998gg5pe09o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-02T16:01:25.409061Z"
+    },
+    {
+      "title": "Japan and US confirm rare joint intervention to prop up yen",
+      "label": "US and Japan intervene to support yen",
+      "summary": "Rare coordinated currency action by US and Japan. Distant financial event with no direct impact on Ukraine's war economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/3/japan-and-us-confirm-rare-joint-intervention-to-prop-up-yen?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-03T07:01:28.616446Z"
     }
   ],
   "short_summary": "Israel strikes Gaza after Hamas disarmament deal",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-03T04:01:24.543854Z",
+  "updated_at": "2026-08-03T07:01:28.616446Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Israel strikes Gaza after Hamas disarmament deal",
     "summary": "Israeli military killed at least 13 in Gaza despite Hamas disarmament agreement, showing continued Middle East instability with potential implications for global security dynamics.",
@@ -84,14 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T03:52:05.907176Z",
   "score_history": [
-    {
-      "t": "2026-08-01T06:40:31.633345Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-01T07:01:25.502867Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-01T09:20:32.670463Z",
       "s": 3.4
@@ -250,6 +242,10 @@
     },
     {
       "t": "2026-08-03T04:01:24.543854Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-03T07:01:28.616446Z",
       "s": 3.0
     }
   ]
