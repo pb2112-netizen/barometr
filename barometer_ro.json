@@ -1,31 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "Ukrainian drone killing civilians on Russian Black Sea beach is a direct escalation in Romania's immediate maritime security zone; Rhine drought and tanker attacks continue to affect EU energy and transport. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Rhine drought continues affecting European transport; tanker attacks persist in Middle East; Ceuta migrant crisis prompts EU border discussion relevant to regional security posture.",
   "top_events": [
     {
-      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "label": "Ukrainian drone kills seven on Russian beach",
-      "summary": "Three children among seven killed when Ukrainian drone struck Black Sea resort. Direct escalation in Romania's maritime security zone.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-03T11:43:33.531608Z"
-    },
-    {
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "label": "Rhine drought disrupts European transport and energy",
-      "summary": "Record low Rhine water curtails cargo transport and reduces electricity output across EU, affecting Romania's supply chains and energy costs.",
-      "score": 3.1,
+      "label": "Rhine drought disrupts European cargo and power",
+      "summary": "Record low water in Rhine, Danube, Po curtails goods transport and reduces electricity output, continuing pressure on energy costs and Danube navigation.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -41,10 +22,34 @@
       "detected_at": "2026-08-03T15:15:14.892329Z"
     },
     {
+      "title": "EU calls for stronger borders after Ceuta migrant crossings",
+      "label": "EU border call after Ceuta migrant surge",
+      "summary": "Von der Leyen calls for action after 50,000 crossed from Morocco to Ceuta; signals potential EU-wide migration policy shift affecting Romania's eastern border approach.",
+      "score": 2.9,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
+        }
+      ],
+      "detected_at": "2026-08-03T22:01:27.479232Z"
+    },
+    {
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "label": "Middle East tanker attacks escalate shipping risk",
-      "summary": "Fresh attacks on alternative routes complicate oil transport, indirectly affecting EU energy prices and Romania's import costs.",
-      "score": 2.7,
+      "summary": "Fresh attacks on alternative routes complicate oil shipping, indirectly affecting Black Sea region energy costs through supply chain uncertainty.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-03T21:21:29.901461Z",
+  "updated_at": "2026-08-03T22:01:27.479232Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-03T17:20:10.757967Z",
   "score_history": [
-    {
-      "t": "2026-08-01T22:01:19.657482Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-01T22:10:36.797686Z",
       "s": 2.6
@@ -234,6 +235,10 @@
     {
       "t": "2026-08-03T21:21:29.901461Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-03T22:01:27.479232Z",
+      "s": 3.0
     }
   ]
 }

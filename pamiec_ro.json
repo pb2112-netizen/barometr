@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-03T21:21:29.910278Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-08-03T22:01:27.488453Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rhine drought disrupts European transport and energy",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "Record low water curtails cargo, reduces electricity output."
     },
     {
       "temat": "Middle East tanker attacks escalate shipping risk",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Fresh attacks on alternative routes complicate oil."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 5.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 5.1,
+      "cykle_bez_zmian": 3,
       "opis": "Seven killed including children at Black Sea resort; direct."
     },
     {
       "temat": "Romania detonates Danube to protect nuclear plant",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 4,
       "opis": "Military action to redirect water to Cernavoda amid drought."
     },
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
-      "temat": "Greece wildfire helicopter collision — four missing",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Two helicopters collide fighting Athens fires; EU climate."
+      "temat": "EU border call after Ceuta migrant surge",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T22:01:19.657482Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-01T22:10:36.797686Z",
       "s": 2.6
@@ -208,29 +204,33 @@
     {
       "t": "2026-08-03T21:21:29.901461Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-03T22:01:27.479232Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-03T17:20:10.757967Z",
   "event_detected_at": {
-    "russia says seven killed and 40 injured by ukrainian drone hitting busy beach": {
-      "detected_at": "2026-08-03T11:43:33.531608Z",
-      "peak_at": "2026-08-03T19:01:26.767654Z",
-      "peak_score_at": "2026-08-03T19:01:26.767654Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "peak_label": "Ukrainian drone kills seven on Russian beach",
-      "peak_summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort near Gelendzhik. New civilian casualty event directly in Romania's maritime neighborhood."
-    },
     "rhine falls to record low levels as drought strains europe's rivers": {
       "detected_at": "2026-08-03T15:15:14.892329Z",
       "peak_at": "2026-08-03T15:15:14.892329Z",
       "peak_score_at": "2026-08-03T15:15:14.892329Z",
-      "peak_score": 3.7,
+      "peak_score": 3.6,
       "peak_sentiment": "negative",
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
       "peak_label": "Rhine drought disrupts European transport and energy",
       "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Romanian energy costs and Danube shipping."
+    },
+    "eu calls for stronger borders after ceuta migrant crossings": {
+      "detected_at": "2026-08-03T22:01:27.479232Z",
+      "peak_at": "2026-08-03T22:01:27.479232Z",
+      "peak_score_at": "2026-08-03T22:01:27.479232Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "EU calls for stronger borders after Ceuta migrant crossings",
+      "peak_label": "EU border call after Ceuta migrant surge",
+      "peak_summary": "Von der Leyen calls for action after 50,000 crossed from Morocco to Ceuta; signals potential EU-wide migration policy shift affecting Romania's eastern border approach."
     },
     "threat to oil tankers in middle east worst since start of iran war, analysts say": {
       "detected_at": "2026-08-03T17:20:10.757967Z",
@@ -241,6 +241,16 @@
       "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
       "peak_label": "Middle East tanker attacks escalate shipping risk",
       "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Romania."
+    },
+    "russia says seven killed and 40 injured by ukrainian drone hitting busy beach": {
+      "detected_at": "2026-08-03T11:43:33.531608Z",
+      "peak_at": "2026-08-03T19:01:26.767654Z",
+      "peak_score_at": "2026-08-03T19:01:26.767654Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "peak_label": "Ukrainian drone kills seven on Russian beach",
+      "peak_summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort near Gelendzhik. New civilian casualty event directly in Romania's maritime neighborhood."
     },
     "romanian navy blasts riverbed to protect nuclear plant": {
       "detected_at": "2026-08-03T17:20:10.757967Z",
@@ -314,8 +324,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
     "Rhine falls to record low levels as drought strains Europe's rivers",
+    "EU calls for stronger borders after Ceuta migrant crossings",
     "Threat to oil tankers in Middle East worst since start of Iran war, analysts say"
   ]
 }

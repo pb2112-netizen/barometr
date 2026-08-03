@@ -1,12 +1,36 @@
 {
-  "global_score": 2.8,
-  "rationale": "Canadians spent $3.3bn less on US travel continues as confirmed economic impact; cyclospora outbreak reports first two deaths but remains limited in scope; Iran talks remain rhetorical without confirmed policy change.",
+  "global_score": 2.7,
+  "rationale": "Cyclospora outbreak reports first two deaths but limited scope; Iran talks remain rhetoric without action; Canadian tourism drop continues; no new domestic policy or military deployment.",
   "top_events": [
     {
+      "title": "US announces first two deaths from cyclospora outbreak",
+      "label": "US reports first cyclospora outbreak deaths",
+      "summary": "Two deaths in Michigan from parasitic infection; health officials say illness not generally life-threatening and outbreak remains limited in scope.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/3/us-announces-first-two-deaths-from-cyclospora-outbreak?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-03T19:57:03.294958Z"
+    },
+    {
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadians spent $3.3bn less on US travel",
-      "summary": "Data confirms Canadians replaced US vacations with other international trips, continuing economic impact on US tourism industry.",
-      "score": 2.8,
+      "label": "Canadian US travel drops $3.3bn in 2025",
+      "summary": "Canadians replaced US vacations with other international trips; continuation of confirmed economic impact on US tourism sector from Trump policies.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,42 +46,23 @@
       "detected_at": "2026-08-03T11:43:33.536914Z"
     },
     {
-      "title": "US reports first two deaths linked to 'explosive diarrhoea' outbreak",
-      "label": "US reports first two cyclospora outbreak deaths",
-      "summary": "Two deaths in Michigan from cyclospora parasitic infection. Health officials say illness not generally life-threatening; limited scope.",
+      "title": "Trump says talks with Iran are 'last chance' to forge a deal",
+      "label": "Trump calls Iran talks last chance",
+      "summary": "President says Iran has last chance for nuclear agreement; rhetoric only without confirmed action or policy change affecting US directly.",
       "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-03T19:57:03.294958Z"
-    },
-    {
-      "title": "US and Japan take action to prop up yen in rare joint move",
-      "label": "US and Japan intervene to support yen",
-      "summary": "Rare coordinated currency intervention to bolster Japanese yen. Both countries signal willingness to conduct future joint interventions.",
-      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/trump-says-talks-with-iran-are-last-chance-to-forge-a-deal?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-03T04:01:24.545990Z"
+      "detected_at": "2026-08-03T19:01:26.773043Z"
     }
   ],
   "short_summary": "Pacific Northwest wildfires force mass evacuations",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-03T21:21:29.907613Z",
+  "updated_at": "2026-08-03T22:01:27.483917Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -79,10 +84,6 @@
   },
   "events_anchor_at": "2026-08-02T22:10:09.876869Z",
   "score_history": [
-    {
-      "t": "2026-08-01T22:01:19.662423Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-01T22:10:36.803216Z",
       "s": 2.0
@@ -234,6 +235,10 @@
     {
       "t": "2026-08-03T21:21:29.907613Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-03T22:01:27.483917Z",
+      "s": 2.7
     }
   ]
 }
