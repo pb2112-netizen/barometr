@@ -1,44 +1,58 @@
 {
-  "updated_at": "2026-08-03T13:01:26.660018Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-03T15:15:14.903179Z",
+  "ostatnia_ocena": 4.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "US halts military action; reduces war risk affecting NATO."
     },
     {
       "temat": "Ukraine sinks Russian container ship in naval action",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Ukrainian forces report sinking Russian vessel; naval."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Two helicopters collide fighting Athens fires; distant EU."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
     },
     {
       "temat": "US-Japan joint currency intervention",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Coordinated action to support yen; distant market event."
+    },
+    {
+      "temat": "Russia-Ukraine attacks intensify — over 10 killed",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Qualitative escalation in casualty rate; renewed offensive."
+    },
+    {
+      "temat": "Pentagon boosts Patriot, THAAD production",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
+      "opis": "US accelerates missile output; sustained conflict signal."
+    },
+    {
+      "temat": "Rhine drought disrupts European transport and energy",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Record low water curtails cargo, affects aid supply chains."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T13:53:54.863431Z",
-      "s": 5.9
-    },
     {
       "t": "2026-08-01T15:18:16.174079Z",
       "s": 5.6
@@ -198,19 +212,43 @@
     {
       "t": "2026-08-03T13:01:26.653567Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-03T15:15:14.896290Z",
+      "s": 4.9
     }
   ],
-  "events_anchor_at": "2026-08-02T03:52:05.907176Z",
+  "events_anchor_at": "2026-08-03T11:43:33.534947Z",
   "event_detected_at": {
-    "ukraine strikes russia's biggest retailer again": {
+    "more than 10 killed as russia and ukraine trade heavy attacks": {
       "detected_at": "2026-08-03T11:43:33.534947Z",
-      "peak_at": "2026-08-03T11:43:33.534947Z",
-      "peak_score_at": "2026-08-03T11:43:33.534947Z",
-      "peak_score": 2.9,
+      "peak_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score": 4.9,
+      "peak_sentiment": "negative",
+      "title": "More than 10 killed as Russia and Ukraine trade heavy attacks",
+      "peak_label": "Russia and Ukraine trade heavy attacks",
+      "peak_summary": "Exchange of fire intensifies in fifth year of war with over 10 killed; qualitative escalation in casualty rate signals renewed offensive pressure on Ukrainian territory."
+    },
+    "pentagon boosts patriot, thaad interceptor output amid stockpile strain": {
+      "detected_at": "2026-08-03T15:15:14.896290Z",
+      "peak_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score": 4.0,
       "peak_sentiment": "positive",
-      "title": "Ukraine strikes Russia's biggest retailer again",
-      "peak_label": "Ukraine drone hits Russian retailer warehouse",
-      "peak_summary": "Ukrainian forces strike Wildberries warehouse in long-range attack. Continuation of infrastructure campaign against Russian economic targets."
+      "title": "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain",
+      "peak_label": "Pentagon boosts missile interceptor production",
+      "peak_summary": "US accelerates Patriot and THAAD production with billion-dollar deals; signals sustained conflict and continued Western support for Ukrainian air defense."
+    },
+    "rhine falls to record low levels as drought strains europe's rivers": {
+      "detected_at": "2026-08-03T15:15:14.896290Z",
+      "peak_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "peak_label": "Rhine drought disrupts European transport and energy",
+      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Ukrainian aid supply chains indirectly."
     },
     "iran denies trump's claim that new talks will begin on monday": {
       "detected_at": "2026-08-02T03:52:05.907176Z",
@@ -291,21 +329,11 @@
       "title": "Heatwave forces nuclear shutdown in Hungary",
       "peak_label": "Hungary nuclear plant shut by drought",
       "peak_summary": "Low Danube levels force closure of Hungary's largest nuclear plant; European energy infrastructure under climate stress."
-    },
-    "five dead, 41 missing, after indonesia ferry catches fire": {
-      "detected_at": "2026-08-02T11:34:13.405633Z",
-      "peak_at": "2026-08-02T13:53:32.684824Z",
-      "peak_score_at": "2026-08-02T13:53:32.684824Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-      "peak_label": "Indonesia ferry fire kills five, 41 missing",
-      "peak_summary": "Vessel fire off Madura island is distant maritime disaster with no connection to Ukraine's war or daily life."
     }
   },
   "prev_top_event_titles": [
-    "Ukraine strikes Russia's biggest retailer again",
-    "Iran denies Trump's claim that new talks will begin on Monday",
-    "Israel defies Trump's peace plan as it escalates deadly attacks on Gaza"
+    "More than 10 killed as Russia and Ukraine trade heavy attacks",
+    "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain",
+    "Rhine falls to record low levels as drought strains Europe's rivers"
   ]
 }

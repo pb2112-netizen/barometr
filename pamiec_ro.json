@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-03T13:01:26.657616Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-08-03T15:15:14.900852Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 8,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Record temperatures in South Korea; global extreme weather."
     },
     {
       "temat": "EU emergency meeting on Ceuta migrant crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Interior ministers convene; tests EU border solidarity."
     },
     {
       "temat": "Indonesia ferry fire — 5 dead, 41 missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Vessel fire off Madura island; distant maritime disaster."
+    },
+    {
+      "temat": "Rhine drought disrupts European transport and energy",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Record low water curtails cargo, reduces electricity output."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T13:53:54.860921Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-01T15:18:16.171315Z",
       "s": 3.5
@@ -210,21 +212,25 @@
     {
       "t": "2026-08-03T13:01:26.649959Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-03T15:15:14.892329Z",
+      "s": 3.8
     }
   ],
-  "events_anchor_at": "2026-08-02T17:14:35.017914Z",
+  "events_anchor_at": "2026-08-03T15:15:14.892329Z",
   "event_detected_at": {
-    "iran denies trump's claim that new talks will begin on monday": {
-      "detected_at": "2026-08-02T03:52:05.902844Z",
-      "peak_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "peak_label": "Trump halts Iran strikes pending rapid deal",
-      "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
+    "rhine falls to record low levels as drought strains europe's rivers": {
+      "detected_at": "2026-08-03T15:15:14.892329Z",
+      "peak_at": "2026-08-03T15:15:14.892329Z",
+      "peak_score_at": "2026-08-03T15:15:14.892329Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "negative",
+      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
+      "peak_label": "Rhine drought disrupts European transport and energy",
+      "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Romanian energy costs and Danube shipping."
     },
-    "ukraine strikes russia's biggest retailer again": {
+    "more than 10 killed as russia and ukraine trade heavy attacks": {
       "detected_at": "2026-08-03T11:43:33.531608Z",
       "peak_at": "2026-08-03T11:43:33.531608Z",
       "peak_score_at": "2026-08-03T11:43:33.531608Z",
@@ -233,6 +239,16 @@
       "title": "Ukraine strikes Russia's biggest retailer again",
       "peak_label": "Ukraine drone hits Russian retailer warehouse",
       "peak_summary": "Long-range Ukrainian strike on Wildberries continues infrastructure campaign. Regional conflict pattern persists without new escalation near Romanian borders."
+    },
+    "iran says it is in talks with oman but not the us after trump says negotiations to resume": {
+      "detected_at": "2026-08-02T03:52:05.902844Z",
+      "peak_at": "2026-08-02T17:14:35.017914Z",
+      "peak_score_at": "2026-08-02T17:14:35.017914Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "positive",
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "peak_label": "Trump halts Iran strikes pending rapid deal",
+      "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
     },
     "israel defies trump's peace plan as it escalates deadly attacks on gaza": {
       "detected_at": "2026-08-03T13:01:26.649959Z",
@@ -326,8 +342,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Iran denies Trump's claim that new talks will begin on Monday",
-    "Ukraine strikes Russia's biggest retailer again",
-    "Israel defies Trump's peace plan as it escalates deadly attacks on Gaza"
+    "Rhine falls to record low levels as drought strains Europe's rivers",
+    "More than 10 killed as Russia and Ukraine trade heavy attacks",
+    "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume"
   ]
 }
