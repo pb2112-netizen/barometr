@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-03T16:01:25.896086Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-08-03T17:20:10.764451Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rhine drought disrupts European transport and energy",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "Record low water curtails cargo, reduces electricity output."
     },
     {
+      "temat": "Middle East tanker attacks escalate shipping risk",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Fresh attacks on alternative routes complicate oil."
+    },
+    {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 9,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Southern Europe heat intensifies; Iberian climate risk."
     },
     {
       "temat": "Ceuta crossing deaths — 57 killed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Mass casualties in migration attempt to Spanish enclave."
     },
     {
       "temat": "Greece helicopter collision — wildfire response",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Firefighting helicopters collide near Athens amid fires."
     },
     {
       "temat": "EU emergency meeting on Ceuta — 60,000 migrants",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Interior ministers convene; Spain-Portugal border tested."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Record temperatures in South Korea; global extreme weather."
-    },
-    {
-      "temat": "Italy suspends Schengen with Spain — Ceuta crisis",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 23,
-      "opis": "EU border solidarity breaks; Iberian integration tested."
+      "opis": "Record temperatures in South Korea; global extreme weather."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T17:13:47.327215Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-01T18:11:17.302623Z",
       "s": 2.8
@@ -212,6 +208,10 @@
     {
       "t": "2026-08-03T16:01:25.888756Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-03T17:20:10.759514Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-08-02T03:52:05.904685Z",
@@ -226,6 +226,26 @@
       "peak_label": "Rhine drought disrupts European transport and energy",
       "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Portuguese energy costs and supply chains."
     },
+    "threat to oil tankers in middle east worst since start of iran war, analysts say": {
+      "detected_at": "2026-08-03T17:20:10.759514Z",
+      "peak_at": "2026-08-03T17:20:10.759514Z",
+      "peak_score_at": "2026-08-03T17:20:10.759514Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
+      "peak_label": "Middle East tanker attacks escalate shipping risk",
+      "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Portugal."
+    },
+    "weather tracker: austria breaks heat records as japan braces for typhoon dolphin": {
+      "detected_at": "2026-08-03T15:15:14.894703Z",
+      "peak_at": "2026-08-03T17:20:10.759514Z",
+      "peak_score_at": "2026-08-03T17:20:10.759514Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Weather tracker: Austria breaks heat records as Japan braces for Typhoon Dolphin",
+      "peak_label": "Austria breaks heat records amid European heatwave",
+      "peak_summary": "Soaring temperatures continue across Europe, signaling sustained climate pressure on Iberian Peninsula and tourism economy."
+    },
     "at least 57 people die as tens of thousands cross to spanish enclave of ceuta from morocco": {
       "detected_at": "2026-08-02T15:19:03.926787Z",
       "peak_at": "2026-08-03T16:01:25.888756Z",
@@ -235,16 +255,6 @@
       "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
       "peak_label": "57 dead in mass Ceuta crossing from Morocco",
       "peak_summary": "At least 57 deaths reported as tens of thousands cross into Spanish enclave; Spain decries territorial integrity violation."
-    },
-    "weather tracker: austria breaks heat records as japan braces for typhoon dolphin": {
-      "detected_at": "2026-08-03T15:15:14.894703Z",
-      "peak_at": "2026-08-03T15:15:14.894703Z",
-      "peak_score_at": "2026-08-03T15:15:14.894703Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Weather tracker: Austria breaks heat records as Japan braces for Typhoon Dolphin",
-      "peak_label": "Austria breaks heat records in Europe",
-      "peak_summary": "Record-breaking heat sweeps parts of Europe; continuation of known climate pattern with indirect risk signal for Iberian Peninsula."
     },
     "eu to hold urgent meeting of interior ministers on tuesday over ceuta crisis": {
       "detected_at": "2026-08-01T11:34:42.979532Z",
@@ -325,21 +335,11 @@
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
       "peak_label": "Canadian US travel drops $3.3bn under Trump",
       "peak_summary": "Canadians spent $3.3 billion less on US travel in 2025, replacing American vacations with other international trips. Signals broader tourism market shifts."
-    },
-    "two crew killed as british pilot survives after firefighting helicopters collide in greece": {
-      "detected_at": "2026-08-02T17:14:35.019712Z",
-      "peak_at": "2026-08-02T17:14:35.019712Z",
-      "peak_score_at": "2026-08-02T17:14:35.019712Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Helicopters fighting Greece wildfires collide in mid-air",
-      "peak_label": "Greece firefighting helicopters collide mid-air",
-      "peak_summary": "Two helicopters crash while battling Athens wildfires, part of broader European climate stress affecting Mediterranean neighbors."
     }
   },
   "prev_top_event_titles": [
     "Rhine falls to record low levels as drought strains Europe's rivers",
-    "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+    "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
     "Weather tracker: Austria breaks heat records as Japan braces for Typhoon Dolphin"
   ]
 }

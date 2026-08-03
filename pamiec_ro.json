@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-03T16:01:25.894907Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-08-03T17:20:10.763717Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Rhine drought disrupts European transport and energy",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 2,
+      "opis": "Record low water curtails cargo, reduces electricity output."
+    },
+    {
+      "temat": "Romania detonates Danube to protect nuclear plant",
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Military action to redirect water to Cernavoda amid drought."
+    },
+    {
+      "temat": "Middle East tanker attacks escalate shipping risk",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Fresh attacks on alternative routes complicate oil."
+    },
+    {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "US halts military action; negotiations reduce war risk."
     },
     {
       "temat": "Ukraine-Russia Black Sea escalation — ports attacked",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 10,
       "opis": "Ukraine hits Russian refinery; Russia strikes Black Sea."
     },
     {
       "temat": "Italy heat wave — 19 cities on red alert",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Southern Europe heat intensifies; regional climate signal."
     },
     {
       "temat": "Greece wildfire helicopter collision — four missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Two helicopters collide fighting Athens fires; EU climate."
     },
     {
       "temat": "South Korea record heat — global climate crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Record temperatures in South Korea; global extreme weather."
-    },
-    {
-      "temat": "EU emergency meeting on Ceuta migrant crisis",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Interior ministers convene; tests EU border solidarity."
-    },
-    {
-      "temat": "Indonesia ferry fire — 5 dead, 41 missing",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Vessel fire off Madura island; distant maritime disaster."
-    },
-    {
-      "temat": "Rhine drought disrupts European transport and energy",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 1,
-      "opis": "Record low water curtails cargo, reduces electricity output."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-01T17:13:47.325656Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-01T18:11:17.301254Z",
       "s": 2.9
@@ -212,10 +208,24 @@
     {
       "t": "2026-08-03T16:01:25.886822Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-03T17:20:10.757967Z",
+      "s": 4.5
     }
   ],
-  "events_anchor_at": "2026-08-03T15:15:14.892329Z",
+  "events_anchor_at": "2026-08-03T17:20:10.757967Z",
   "event_detected_at": {
+    "romanian navy blasts riverbed to protect nuclear plant": {
+      "detected_at": "2026-08-03T17:20:10.757967Z",
+      "peak_at": "2026-08-03T17:20:10.757967Z",
+      "peak_score_at": "2026-08-03T17:20:10.757967Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "neutral",
+      "title": "Romanian navy blasts riverbed to protect nuclear plant",
+      "peak_label": "Romania detonates Danube to protect nuclear plant",
+      "peak_summary": "Romanian military detonates part of Danube riverbed to redirect water toward Cernavoda Nuclear Power Plant, responding to drought threat to critical energy infrastructure."
+    },
     "rhine falls to record low levels as drought strains europe's rivers": {
       "detected_at": "2026-08-03T15:15:14.892329Z",
       "peak_at": "2026-08-03T15:15:14.892329Z",
@@ -225,6 +235,16 @@
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
       "peak_label": "Rhine drought disrupts European transport and energy",
       "peak_summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Romanian energy costs and Danube shipping."
+    },
+    "threat to oil tankers in middle east worst since start of iran war, analysts say": {
+      "detected_at": "2026-08-03T17:20:10.757967Z",
+      "peak_at": "2026-08-03T17:20:10.757967Z",
+      "peak_score_at": "2026-08-03T17:20:10.757967Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
+      "peak_label": "Middle East tanker attacks escalate shipping risk",
+      "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Romania."
     },
     "more than 10 killed as russia and ukraine trade heavy attacks": {
       "detected_at": "2026-08-03T11:43:33.531608Z",
@@ -245,16 +265,6 @@
       "title": "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain",
       "peak_label": "Pentagon boosts Patriot, THAAD interceptor output amid",
       "peak_summary": "US increases missile defense output amid stockpile strain, signaling sustained conflict and potential future aid to NATO eastern flank."
-    },
-    "iran says it is in talks with oman but not the us after trump says negotiations to resume": {
-      "detected_at": "2026-08-02T03:52:05.902844Z",
-      "peak_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "positive",
-      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-      "peak_label": "Trump halts Iran strikes pending rapid deal",
-      "peak_summary": "US president suspends military action as Iran and regional countries agree deal framework, reducing immediate war risk in nearby Middle East."
     },
     "israel defies trump's peace plan as it escalates deadly attacks on gaza": {
       "detected_at": "2026-08-03T13:01:26.649959Z",
@@ -325,21 +335,11 @@
       "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
       "peak_label": "Israel strikes Gaza after Hamas disarmament deal",
       "peak_summary": "Israeli strikes killed 13 in Gaza despite Hamas disarmament agreement. The development affects Middle East stability with indirect implications for EU security and migration flows."
-    },
-    "two crew killed after firefighting helicopters collide in greece, as british pilot survives": {
-      "detected_at": "2026-08-02T17:14:35.017914Z",
-      "peak_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score_at": "2026-08-02T17:14:35.017914Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Helicopters fighting Greece wildfires collide in mid-air",
-      "peak_label": "Greece firefighting helicopters collide mid-air",
-      "peak_summary": "Two helicopters crash while battling Athens wildfires, part of broader European climate stress affecting EU neighbors."
     }
   },
   "prev_top_event_titles": [
+    "Romanian navy blasts riverbed to protect nuclear plant",
     "Rhine falls to record low levels as drought strains Europe's rivers",
-    "More than 10 killed as Russia and Ukraine trade heavy attacks",
-    "Pentagon boosts Patriot, THAAD interceptor output amid stockpile strain"
+    "Threat to oil tankers in Middle East worst since start of Iran war, analysts say"
   ]
 }
