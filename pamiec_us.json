@@ -1,60 +1,58 @@
 {
-  "updated_at": "2026-08-04T07:00:50.953990Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-08-04T09:50:31.164191Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US cyclospora outbreak — first deaths",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 7,
       "opis": "Two deaths in Michigan from cyclospora; limited scope."
     },
     {
       "temat": "25 states sue Trump administration over tariffs",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 5,
       "opis": "Domestic legal challenge to trade policy; economic impact."
     },
     {
       "temat": "Venezuela earthquake — over 6,000 dead",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 6,
       "opis": "Major humanitarian disaster in Western Hemisphere; US."
     },
     {
       "temat": "Spokane fires — 600 structures burned, 60,000 evacuated",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 21,
       "opis": "Washington state fires destroy structures; mass evacuations."
     },
     {
       "temat": "Canadians spent $3.3bn less on US travel in 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Confirmed economic impact on US tourism from Trump policies."
     },
     {
       "temat": "Trump demands Chevron cut US fuel prices",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "President calls for urgent fuel price reductions — rhetoric."
     },
     {
       "temat": "Canadian tourism to US drops $3.3bn — Trump effect",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Canadians shift travel away from US; economic impact on."
+    },
+    {
+      "temat": "Arson arrest in Spokane wildfires",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Suspect arrested for fires forcing 60,000 evacuations."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-02T07:00:51.440052Z",
-      "s": 4.0
-    },
-    {
-      "t": "2026-08-02T09:20:30.861458Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-02T10:01:15.450308Z",
       "s": 3.0
@@ -202,23 +200,63 @@
     {
       "t": "2026-08-04T07:00:50.948857Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-04T09:50:31.159847Z",
+      "s": 4.2
     }
   ],
   "events_anchor_at": "2026-08-04T01:01:24.819207Z",
   "event_detected_at": {
-    "why are the washington wildfires so severe? spokane fires explained": {
+    "arson arrest made over largest of washington state's wildfires": {
       "detected_at": "2026-08-04T06:40:04.330664Z",
-      "peak_at": "2026-08-04T06:40:04.330664Z",
-      "peak_score_at": "2026-08-04T06:40:04.330664Z",
-      "peak_score": 2.2,
+      "peak_at": "2026-08-04T09:50:31.159847Z",
+      "peak_score_at": "2026-08-04T09:50:31.159847Z",
+      "peak_score": 4.2,
       "peak_sentiment": "negative",
-      "title": "Why are the Washington wildfires so severe? Spokane fires explained",
-      "peak_label": "Spokane wildfires spread rapidly across Washington State",
-      "peak_summary": "Bodycam footage shows firefighters battling fast-spreading blaze in northwestern US. Continues known domestic wildfire crisis without new qualitative change.",
+      "title": "Arson arrest made over largest of Washington state's wildfires",
+      "peak_label": "Arson arrest made in Spokane wildfire affecting 60,000",
+      "peak_summary": "Authorities arrest suspect over fires that forced 60,000 evacuations in Washington state. Confirms criminal origin of ongoing disaster affecting tens of thousands.",
       "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y3ppmmev1o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/4/why-are-the-washington-wildfires-so-severe-spokane-fires-explained?traffic_source=rss"
+        }
+      ]
+    },
+    "analysis: trump challenged by cold reality from top allies": {
+      "detected_at": "2026-08-04T09:50:31.159847Z",
+      "peak_at": "2026-08-04T09:50:31.159847Z",
+      "peak_score_at": "2026-08-04T09:50:31.159847Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "Analysis: Trump challenged by cold reality from top allies",
+      "peak_label": "Trump faces stinging losses from top US allies",
+      "peak_summary": "President encounters two significant domestic political setbacks in days, signaling limits to influence over US politics. Rhetoric-focused analysis without confirmed policy change.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
+      "detected_at": "2026-08-03T11:43:33.536914Z",
+      "peak_at": "2026-08-03T15:15:14.898430Z",
+      "peak_score_at": "2026-08-03T15:15:14.898430Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
+      "peak_label": "Canadians spent $3.3bn less on US travel",
+      "peak_summary": "Data shows Canadians replaced US vacations with other international trips; confirmed economic impact on US tourism sector from Trump policies.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
         }
       ]
     },
@@ -235,22 +273,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/4/trump-administration-sued-by-25-states-over-new-tariffs-on-trading-partners?traffic_source=rss"
-        }
-      ]
-    },
-    "canadians spent $3.3bn less on travel to us in 2025 after trump's return to office": {
-      "detected_at": "2026-08-03T11:43:33.536914Z",
-      "peak_at": "2026-08-03T15:15:14.898430Z",
-      "peak_score_at": "2026-08-03T15:15:14.898430Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "peak_label": "Canadians spent $3.3bn less on US travel",
-      "peak_summary": "Data shows Canadians replaced US vacations with other international trips; confirmed economic impact on US tourism sector from Trump policies.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
         }
       ]
     },
@@ -318,8 +340,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Why are the Washington wildfires so severe? Spokane fires explained",
-    "US states sue to block Trump tariffs impacting dozens of countries",
+    "Arson arrest made over largest of Washington state's wildfires",
+    "Analysis: Trump challenged by cold reality from top allies",
     "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office"
   ]
 }
