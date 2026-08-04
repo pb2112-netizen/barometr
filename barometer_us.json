@@ -1,13 +1,32 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump faces political losses from allies; oil price relief from Hormuz talks; Canadian tourism drop continues. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Oil price drop from Hormuz talks continues to ease energy costs; Trump political losses remain rhetoric-level; Canadian tourism spending decline continues background trend.",
   "top_events": [
     {
+      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "label": "Oil prices fall on Hormuz reopening hopes",
+      "summary": "US-Iran talks progress toward resuming shipments through the strait, continuing to ease energy costs for Americans.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T15:34:54.995632Z"
+    },
+    {
       "title": "Analysis: Trump challenged by cold reality from top allies",
-      "label": "Trump suffers two losses from top allies",
-      "summary": "President faces two stinging defeats from allies in a matter of days. Political setbacks for administration but no immediate policy change.",
-      "score": 2.4,
-      "sentiment": "negative",
+      "label": "Trump faces political losses from top allies",
+      "summary": "President suffers two defeats from allies; political analysis without confirmed policy change or direct impact on daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-04T09:50:31.159847Z"
     },
     {
-      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "label": "Oil prices drop on Hormuz reopening hopes",
-      "summary": "US officials announce progress in talks to resume oil shipments through Strait of Hormuz. Could ease fuel costs if sustained.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T15:34:54.995632Z"
-    },
-    {
       "title": "Canadians spent $3.3bn less on travel to US in 2025 after Trump's return to office",
-      "label": "Canadian US travel spending drops $3.3bn",
-      "summary": "Canadians replaced US vacations with other international trips in apparent rebuke to Trump. Confirmed economic impact on US tourism sector.",
+      "label": "Canadians spent $3.3bn less on US travel",
+      "summary": "Confirmed economic impact on US tourism sector from Trump policies; continuation of background trend already tracked.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -61,11 +61,11 @@
     }
   ],
   "short_summary": "Venezuela earthquake death toll exceeds 6,000",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-04T15:34:54.995632Z",
+  "updated_at": "2026-08-04T16:01:30.545549Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-04T01:01:24.819207Z",
   "score_history": [
-    {
-      "t": "2026-08-02T16:01:25.411519Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-02T17:14:35.023730Z",
       "s": 3.8
@@ -232,6 +228,10 @@
     {
       "t": "2026-08-04T15:34:54.995632Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-04T16:01:30.545549Z",
+      "s": 2.9
     }
   ]
 }

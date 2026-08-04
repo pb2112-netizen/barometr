@@ -1,12 +1,31 @@
 {
-  "global_score": 4.6,
-  "rationale": "Ukraine continues strikes on Russian civilian infrastructure; Crimea shooting adds regional instability; Kherson drone attack shows ongoing threat. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.3,
+  "rationale": "Drone stalking civilian in Kherson before exploding shows new tactical threat to civilians; Ukraine strikes on Russian retailer continue; Crimea shooting remains internal Russian incident.",
   "top_events": [
     {
+      "title": "Drone appears to stalk man before exploding",
+      "label": "Drone stalks civilian before exploding in Kherson",
+      "summary": "Drone followed a man at a market in Kherson before exploding, demonstrating a new tactical threat to Ukrainian civilians in occupied areas.",
+      "score": 4.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/4/drone-appears-to-stalk-man-before-exploding?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T15:34:54.993608Z"
+    },
+    {
       "title": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
-      "label": "Ukraine hits more Wildberries sites as strike kills five",
-      "summary": "Ukrainian forces hit Russian retail sites in Moscow, St Petersburg, and Tver, killing five. Continued targeting of civilian infrastructure in Russia.",
-      "score": 4.6,
+      "label": "Ukraine strikes Russian retailer, kills five Moscow",
+      "summary": "Ukrainian strikes hit Wildberries facilities in Moscow, St Petersburg, and Tver, continuing targeting of Russian civilian infrastructure.",
+      "score": 4.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,30 +41,11 @@
       "detected_at": "2026-08-04T09:50:31.158682Z"
     },
     {
-      "title": "Drone appears to stalk man before exploding",
-      "label": "Drone stalks man before exploding in Kherson",
-      "summary": "Drone followed a man at a market in Kherson before exploding. Shows ongoing threat to civilians in southern Ukraine.",
-      "score": 4.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/4/drone-appears-to-stalk-man-before-exploding?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T15:34:54.993608Z"
-    },
-    {
       "title": "Soldier kills four in gun rampage in Russian-occupied Crimea",
       "label": "Soldier kills four in Crimea gun rampage",
-      "summary": "Gunman detained after shooting soldiers and civilians in Russian-occupied Crimea. Regional instability in occupied territory.",
-      "score": 3.4,
-      "sentiment": "negative",
+      "summary": "Gunman detained after shooting soldiers and civilians in occupied Crimea; internal Russian incident with limited direct impact on Ukraine.",
+      "score": 3.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-04T15:34:54.993608Z",
+  "updated_at": "2026-08-04T16:01:30.544356Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine strikes Russian sites killing five",
     "summary": "Ukrainian forces hit Wildberries facilities in Moscow region, St Petersburg, and Tver, killing five. Represents new phase targeting major civilian retailer infrastructure.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-04T09:50:31.158682Z",
   "score_history": [
-    {
-      "t": "2026-08-02T16:01:25.409061Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-02T17:14:35.021406Z",
       "s": 3.9
@@ -232,6 +228,10 @@
     {
       "t": "2026-08-04T15:34:54.993608Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-04T16:01:30.544356Z",
+      "s": 4.3
     }
   ]
 }
