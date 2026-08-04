@@ -1,60 +1,58 @@
 {
-  "updated_at": "2026-08-04T10:00:54.882683Z",
-  "ostatnia_ocena": 4.7,
+  "updated_at": "2026-08-04T12:17:57.619474Z",
+  "ostatnia_ocena": 5.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "US halts military action; reduces war risk affecting NATO."
     },
     {
       "temat": "US-Japan joint currency intervention",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Coordinated action to support yen; distant market event."
     },
     {
       "temat": "Russia-Ukraine attacks intensify — over 10 killed",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 13,
       "opis": "Qualitative escalation in casualty rate; renewed offensive."
     },
     {
       "temat": "Pentagon boosts Patriot, THAAD production",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 16,
       "opis": "US accelerates missile output; sustained conflict signal."
     },
     {
       "temat": "Rhine drought disrupts European transport and energy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Record low water curtails cargo, affects aid supply chains."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Seven killed including children; escalation in drone."
     },
     {
       "temat": "Venezuela earthquake — over 6,000 dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Major earthquake in Venezuela; distant humanitarian."
+    },
+    {
+      "temat": "Ukraine strikes major Russian retailer Wildberries",
+      "poziom_bazowy": 5.1,
+      "cykle_bez_zmian": 0,
+      "opis": "New targeting of civilian retail infrastructure in Russia."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-02T10:01:15.448341Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-02T11:34:13.405633Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-02T13:01:17.207110Z",
       "s": 2.0
@@ -202,10 +200,46 @@
     {
       "t": "2026-08-04T10:00:54.878243Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-08-04T12:17:57.612847Z",
+      "s": 5.1
     }
   ],
   "events_anchor_at": "2026-08-04T09:50:31.158682Z",
   "event_detected_at": {
+    "ukraine hits more wildberries sites as strike kills five in moscow region": {
+      "detected_at": "2026-08-04T09:50:31.158682Z",
+      "peak_at": "2026-08-04T12:17:57.612847Z",
+      "peak_score_at": "2026-08-04T12:17:57.612847Z",
+      "peak_score": 5.1,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
+      "peak_label": "Ukraine strikes Russian sites killing five",
+      "peak_summary": "Ukrainian forces hit Wildberries facilities in Moscow region, St Petersburg, and Tver, killing five. Represents new phase targeting major civilian retailer infrastructure.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "nine killed in escalating long-range strikes between russia and ukraine": {
+      "detected_at": "2026-08-03T11:43:33.534947Z",
+      "peak_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score_at": "2026-08-03T15:15:14.896290Z",
+      "peak_score": 3.9,
+      "peak_sentiment": "negative",
+      "title": "More than 10 killed as Russia and Ukraine trade heavy attacks",
+      "peak_label": "Russia and Ukraine trade heavy attacks",
+      "peak_summary": "Exchange of fire intensifies in fifth year of war with over 10 killed; qualitative escalation in casualty rate signals renewed offensive pressure on Ukrainian territory.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "soldier kills four in gun rampage in russian-occupied crimea": {
       "detected_at": "2026-08-04T09:50:31.158682Z",
       "peak_at": "2026-08-04T09:50:31.158682Z",
@@ -219,54 +253,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c80n33lrnm5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "five dead in moscow region as ukraine continues warehouse strikes": {
-      "detected_at": "2026-08-04T09:50:31.158682Z",
-      "peak_at": "2026-08-04T09:50:31.158682Z",
-      "peak_score_at": "2026-08-04T09:50:31.158682Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "neutral",
-      "title": "Five dead in Moscow region as Ukraine continues warehouse strikes",
-      "peak_label": "Five dead in Moscow region as Ukraine continues",
-      "peak_summary": "Ukrainian strikes hit facilities in St Petersburg and Tver; at least one killed in Russian counter-strikes on Ukraine. Continuation of ongoing strike pattern.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russia says seven killed and 40 injured by ukrainian drone hitting busy beach": {
-      "detected_at": "2026-08-03T11:43:33.534947Z",
-      "peak_at": "2026-08-03T15:15:14.896290Z",
-      "peak_score_at": "2026-08-03T15:15:14.896290Z",
-      "peak_score": 4.0,
-      "peak_sentiment": "negative",
-      "title": "More than 10 killed as Russia and Ukraine trade heavy attacks",
-      "peak_label": "Russia and Ukraine trade heavy attacks",
-      "peak_summary": "Exchange of fire intensifies in fifth year of war with over 10 killed; qualitative escalation in casualty rate signals renewed offensive pressure on Ukrainian territory.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "palestine weekly: israel kills dozens in gaza after hamas disarmament deal": {
-      "detected_at": "2026-08-03T11:43:33.534947Z",
-      "peak_at": "2026-08-03T11:43:33.534947Z",
-      "peak_score_at": "2026-08-03T11:43:33.534947Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Israel defies Trump's peace plan as it escalates deadly attacks on Gaza",
-      "peak_label": "Israel escalates Gaza attacks defying Trump plan",
-      "peak_summary": "Israeli military intensifies operations despite US-backed roadmap. Distant conflict but signals limits of US diplomatic leverage affecting Ukraine aid context.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/palestine-weekly-israel-kills-dozens-in-gaza-after-hamas-disarmament-deal?traffic_source=rss"
         }
       ]
     },
@@ -354,7 +340,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Soldier kills four in gun rampage in Russian-occupied Crimea",
-    "Five dead in Moscow region as Ukraine continues warehouse strikes"
+    "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
+    "Nine killed in escalating long-range strikes between Russia and Ukraine",
+    "Soldier kills four in gun rampage in Russian-occupied Crimea"
   ]
 }
