@@ -1,31 +1,36 @@
 {
-  "global_score": 2.5,
-  "rationale": "Ceuta migrant crisis continues with EU-level response; Black Sea drone incident persists as known escalation pattern; no new qualitative change for Romania. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Ceuta migrant surge continues with EU response; Black Sea drone attack continues known escalation pattern; no new direct impact on Romania.",
   "top_events": [
     {
       "title": "EU calls for stronger borders after Ceuta migrant crossings",
       "label": "Von der Leyen demands EU border action after Ceuta",
-      "summary": "European Commission president calls for stronger migration control after 50,000 crossed from Morocco to Ceuta. Continuation of known crisis; no new policy enacted yet.",
-      "score": 2.4,
+      "summary": "European Commission president calls for stronger migration control after 50,000 crossed from Morocco to Ceuta. Continues known EU border pressure without new policy enacted.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
         }
       ],
       "detected_at": "2026-08-03T22:01:27.479232Z"
     },
     {
       "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "label": "Ukrainian drone kills seven at Russian Black Sea resort",
-      "summary": "Three children among seven killed when Ukrainian drone crashed at Black Sea resort. Continuation of known Black Sea escalation pattern; no qualitative shift.",
-      "score": 2.5,
+      "label": "Ukrainian drone kills seven on Russian Black Sea beach",
+      "summary": "Three children among seven killed at Black Sea resort. Continues known escalation pattern in regional conflict; no direct impact on Romanian waters.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,9 +47,9 @@
     },
     {
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "label": "Rhine drought reaches record low disrupting transport",
-      "summary": "Rhine, Danube, Po rivers hit record lows, curtailing cargo transport and reducing electricity output. Continuation of known drought situation.",
-      "score": 2.5,
+      "label": "Rhine drought curtails transport and electricity output",
+      "summary": "Record low water in Rhine, Danube, Po reduces cargo transport and power generation. Continues known European drought situation affecting regional supply chains.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -62,12 +67,12 @@
   ],
   "short_summary": "Romania detonates Danube to protect nuclear plant",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-04T04:01:20.744017Z",
+  "updated_at": "2026-08-04T06:40:04.327780Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Romania detonates Danube to protect nuclear plant",
     "summary": "Romanian military detonates part of Danube riverbed to redirect water toward Cernavoda Nuclear Power Plant, responding to drought threat to critical energy infrastructure.",
@@ -231,6 +236,10 @@
     {
       "t": "2026-08-04T04:01:20.744017Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-04T06:40:04.327780Z",
+      "s": 2.3
     }
   ]
 }

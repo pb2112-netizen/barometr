@@ -1,31 +1,36 @@
 {
-  "global_score": 2.5,
-  "rationale": "Ceuta migrant surge continues with von der Leyen's call for stronger EU borders; no qualitative change from last cycle's known situation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Ceuta migrant surge continues with von der Leyen's call for stronger EU borders; no qualitative change from last cycle's known situation.",
   "top_events": [
     {
       "title": "EU calls for stronger borders after Ceuta migrant crossings",
       "label": "Von der Leyen demands EU border action after Ceuta",
-      "summary": "European Commission president calls for stronger migration control after 50,000 crossed from Morocco to Ceuta. Continuation of known crisis; no new policy enacted yet.",
-      "score": 2.4,
+      "summary": "European Commission president calls for stronger migration control after 50,000 crossed from Morocco to Ceuta. Continues known EU border pressure without new policy enacted.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
         }
       ],
       "detected_at": "2026-08-03T22:01:27.477532Z"
     },
     {
       "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "label": "Ukrainian drone kills seven at Russian Black Sea resort",
-      "summary": "Three children among seven killed when Ukrainian drone crashed at Black Sea resort. Continuation of known escalation pattern; no qualitative shift in conflict.",
-      "score": 2.5,
+      "label": "Ukrainian drone kills seven on Russian Black Sea beach",
+      "summary": "Three children among seven killed at Black Sea resort. Continues known escalation pattern in Ukraine-Russia conflict; no direct impact on Poland.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,9 +47,9 @@
     },
     {
       "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "label": "Rhine drought reaches record low disrupting transport",
-      "summary": "Rhine, Danube, Po rivers hit record lows, curtailing cargo transport and reducing electricity output. Continuation of known drought situation.",
-      "score": 2.5,
+      "label": "Rhine drought curtails transport and electricity output",
+      "summary": "Record low water in Rhine, Danube, Po reduces cargo transport and power generation. Continues known European drought situation affecting supply chains.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -62,17 +67,17 @@
   ],
   "short_summary": "Rhine drought disrupts European transport and energy",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-04T04:01:20.742360Z",
+  "updated_at": "2026-08-04T06:40:04.326422Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Rhine drought disrupts European transport and energy",
     "summary": "Record low water in Rhine, Danube, Po curtails cargo transport and reduces electricity output across Europe, affecting Polish energy costs and supply chains.",
     "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-    "score": 3.1,
+    "score": 3.0,
     "sentiment": "negative",
     "detected_at": "2026-08-03T15:15:14.890405Z",
     "peak_at": "2026-08-03T15:15:14.890405Z",
@@ -236,6 +241,10 @@
     {
       "t": "2026-08-04T04:01:20.742360Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-04T06:40:04.326422Z",
+      "s": 2.3
     }
   ]
 }
