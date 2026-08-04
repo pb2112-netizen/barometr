@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Ukrainian drone killing civilians on Russian beach continues as escalation in drone warfare; Iran denies US talks despite Trump claims — rhetoric only, no confirmed change. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Ukrainian drone killing civilians at Russian beach resort continues escalation in drone warfare; Venezuela earthquake with 6,000+ dead is distant humanitarian disaster with no direct impact on Ukraine's war situation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "label": "Ukrainian drone kills seven on Russian beach",
-      "summary": "Three children among seven killed at Black Sea resort. Continuation of drone warfare escalation affecting conflict dynamics and potential Russian retaliation.",
+      "label": "Ukrainian drone kills seven at Russian beach resort",
+      "summary": "Three children among seven killed when Ukrainian drone crashed at Black Sea resort. Continuation of escalating drone warfare targeting civilian areas.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,9 +22,28 @@
       "detected_at": "2026-08-03T11:43:33.534947Z"
     },
     {
+      "title": "Death toll from Venezuela earthquakes passes 6,000",
+      "label": "Venezuela earthquake death toll exceeds 6,000",
+      "summary": "Over 6,000 confirmed dead in Venezuela earthquakes as government response faces scrutiny. Distant humanitarian disaster with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/3/death-toll-from-venezuela-earthquakes-passes-6000?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T03:35:47.731951Z"
+    },
+    {
       "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
       "label": "Iran denies US talks despite Trump claims",
-      "summary": "Iran contradicts Trump's claim of negotiations. Rhetoric only with no confirmed policy change affecting Ukraine's Western support or regional stability.",
+      "summary": "Iran contradicts Trump's claim of resumed negotiations. Distant diplomatic rhetoric with no confirmed policy change affecting Ukraine's security situation.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -40,29 +59,10 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/4/iran-war-live-tehran-denies-us-talks-as-trump-warns-of-last-chance?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/4/us-stocks-near-record-high-oil-falls-as-trump-claims-iran-talks-underway?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-02T03:52:05.907176Z"
-    },
-    {
-      "title": "Rhine falls to record low levels as drought strains Europe's rivers",
-      "label": "Rhine drought disrupts European transport and energy",
-      "summary": "Record low water curtails cargo transport. Indirect impact on European supply chains that may affect aid delivery routes to Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-03T15:15:14.896290Z"
     }
   ],
   "short_summary": "Russia and Ukraine trade heavy attacks",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-04T01:01:24.817024Z",
+  "updated_at": "2026-08-04T03:35:47.731951Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia and Ukraine trade heavy attacks",
     "summary": "Exchange of fire intensifies in fifth year of war with over 10 killed; qualitative escalation in casualty rate signals renewed offensive pressure on Ukrainian territory.",
     "title": "More than 10 killed as Russia and Ukraine trade heavy attacks",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-08-03T11:43:33.534947Z",
     "peak_at": "2026-08-03T15:15:14.896290Z",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-03T11:43:33.534947Z",
   "score_history": [
-    {
-      "t": "2026-08-02T01:02:02.050732Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-02T03:52:05.907176Z",
       "s": 3.0
@@ -244,6 +240,10 @@
     },
     {
       "t": "2026-08-04T01:01:24.817024Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-04T03:35:47.731951Z",
       "s": 3.0
     }
   ]

@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-04T01:01:24.823465Z",
+  "updated_at": "2026-08-04T03:35:47.738197Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump cancels Iran strikes — deal talks begin",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
       "opis": "US halts military action; reduces war risk affecting NATO."
     },
     {
       "temat": "US-Japan joint currency intervention",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Coordinated action to support yen; distant market event."
     },
     {
       "temat": "Russia-Ukraine attacks intensify — over 10 killed",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 7,
       "opis": "Qualitative escalation in casualty rate; renewed offensive."
     },
     {
       "temat": "Pentagon boosts Patriot, THAAD production",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 10,
       "opis": "US accelerates missile output; sustained conflict signal."
     },
     {
       "temat": "Rhine drought disrupts European transport and energy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Record low water curtails cargo, affects aid supply chains."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 7,
       "opis": "Seven killed including children; escalation in drone."
+    },
+    {
+      "temat": "Venezuela earthquake — over 6,000 dead",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Major earthquake in Venezuela; distant humanitarian."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-02T01:02:02.050732Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-02T03:52:05.907176Z",
       "s": 3.0
@@ -196,6 +198,10 @@
     {
       "t": "2026-08-04T01:01:24.817024Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-04T03:35:47.731951Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-03T11:43:33.534947Z",
@@ -204,7 +210,7 @@
       "detected_at": "2026-08-03T11:43:33.534947Z",
       "peak_at": "2026-08-03T15:15:14.896290Z",
       "peak_score_at": "2026-08-03T15:15:14.896290Z",
-      "peak_score": 4.4,
+      "peak_score": 4.3,
       "peak_sentiment": "negative",
       "title": "More than 10 killed as Russia and Ukraine trade heavy attacks",
       "peak_label": "Russia and Ukraine trade heavy attacks",
@@ -216,11 +222,27 @@
         }
       ]
     },
+    "death toll from venezuela earthquakes passes 6,000": {
+      "detected_at": "2026-08-04T03:35:47.731951Z",
+      "peak_at": "2026-08-04T03:35:47.731951Z",
+      "peak_score_at": "2026-08-04T03:35:47.731951Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Venezuela earthquakes passes 6,000",
+      "peak_label": "Venezuela earthquake death toll exceeds 6,000",
+      "peak_summary": "Over 6,000 confirmed dead in Venezuela earthquakes as government response faces scrutiny. Distant humanitarian disaster with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/3/death-toll-from-venezuela-earthquakes-passes-6000?traffic_source=rss"
+        }
+      ]
+    },
     "iran says it is in talks with oman but not the us after trump says negotiations to resume": {
       "detected_at": "2026-08-02T03:52:05.907176Z",
       "peak_at": "2026-08-03T23:19:07.098358Z",
       "peak_score_at": "2026-08-02T22:10:09.874587Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "neutral",
       "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
       "peak_label": "Trump halts Iran strikes pending rapid deal",
@@ -305,7 +327,7 @@
   },
   "prev_top_event_titles": [
     "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-    "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
-    "Rhine falls to record low levels as drought strains Europe's rivers"
+    "Death toll from Venezuela earthquakes passes 6,000",
+    "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume"
   ]
 }
