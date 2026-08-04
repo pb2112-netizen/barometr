@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-04T16:01:30.548580Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-04T18:03:18.262741Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Rhine drought disrupts European transport and energy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Record low water curtails cargo, reduces electricity output."
     },
     {
       "temat": "Middle East tanker attacks escalate shipping risk",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Fresh attacks on alternative routes complicate oil."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
       "opis": "Seven killed including children at Black Sea resort."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     },
     {
       "temat": "Italy suspends Schengen with Spain after Ceuta",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "Italy halts border-free travel; Schengen strain after."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "US-Iran talks progress; shipments may resume through strait."
+    },
+    {
+      "temat": "Drone 'human safari' attack in Kherson",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone deliberately stalks civilian vendor; war crime claim."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-02T17:14:35.016171Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-02T18:11:41.073382Z",
       "s": 3.5
@@ -188,10 +190,30 @@
     {
       "t": "2026-08-04T16:01:30.539954Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-04T18:03:18.255041Z",
+      "s": 3.2
     }
   ],
-  "events_anchor_at": "2026-08-03T17:20:10.756243Z",
+  "events_anchor_at": "2026-08-03T11:43:33.529916Z",
   "event_detected_at": {
+    "video shows russian drone chasing ukrainian street vendor in 'human safari' attack": {
+      "detected_at": "2026-08-03T11:43:33.529916Z",
+      "peak_at": "2026-08-04T18:03:18.255041Z",
+      "peak_score_at": "2026-08-04T18:03:18.255041Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+      "peak_label": "Drone hunts civilian in Kherson market",
+      "peak_summary": "Video shows drone deliberately stalking and attacking a civilian vendor in Kherson, which Ukraine calls a war crime. The tactic represents a disturbing escalation in warfare methods near Poland's.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "oil prices fall on hopes strait of hormuz could reopen": {
       "detected_at": "2026-08-04T15:34:54.988526Z",
       "peak_at": "2026-08-04T15:34:54.988526Z",
@@ -256,22 +278,6 @@
         }
       ]
     },
-    "nine killed in escalating long-range strikes between russia and ukraine": {
-      "detected_at": "2026-08-03T11:43:33.529916Z",
-      "peak_at": "2026-08-03T19:01:26.765191Z",
-      "peak_score_at": "2026-08-03T19:01:26.765191Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "peak_label": "Ukrainian drone kills seven on Russian beach",
-      "peak_summary": "Three children among seven killed when Ukrainian drone struck crowded Black Sea resort. New civilian casualty event in region adjacent to Poland raises spillover concerns.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "more than 150 migrants rescued after boat catches fire in channel": {
       "detected_at": "2026-08-04T12:17:57.608040Z",
       "peak_at": "2026-08-04T12:17:57.608040Z",
@@ -303,21 +309,11 @@
           "url": "https://www.theguardian.com/world/2026/jul/28/canadians-us-travel-drop-trump"
         }
       ]
-    },
-    "threat to oil tankers in middle east worst since start of iran war, analysts say": {
-      "detected_at": "2026-08-03T17:20:10.756243Z",
-      "peak_at": "2026-08-03T17:20:10.756243Z",
-      "peak_score_at": "2026-08-03T17:20:10.756243Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Threat to oil tankers in Middle East worst since start of Iran war, analysts say",
-      "peak_label": "Middle East tanker attacks escalate shipping risk",
-      "peak_summary": "Fresh attacks on alternative shipping routes complicate oil transport, indirectly raising energy price risk for Poland."
     }
   },
   "prev_top_event_titles": [
+    "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
     "Oil prices fall on hopes Strait of Hormuz could reopen",
-    "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-    "Ukraine hits more Wildberries sites as strike kills five in Moscow region"
+    "EU commends Spain's 'swift response' to Ceuta migrant crisis"
   ]
 }
