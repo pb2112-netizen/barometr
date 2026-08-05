@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-05T07:01:22.559857Z",
-  "ostatnia_ocena": 4.6,
+  "updated_at": "2026-08-05T09:48:34.289211Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
       "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Seven killed including children at Black Sea resort; direct."
     },
     {
       "temat": "Indian ship sunk off Yemen coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Projectile attack in Red Sea; distant shipping risk."
     },
     {
       "temat": "Drone stalks man before exploding in Kherson",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
       "opis": "Drone followed civilian at market before exploding; threat."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     },
     {
       "temat": "Soldier kills four in Crimea gun rampage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Gunman detained after shooting in Russian-occupied Crimea."
     },
     {
       "temat": "Italy suspends Schengen with Spain after Ceuta",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
       "opis": "Italy halts border-free travel; EU migration strain."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     },
     {
       "temat": "Russian ballistic missile strike on Kyiv",
       "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Ballistic missile hits residential buildings in capital."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T07:01:28.613111Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-03T07:45:33.847063Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-03T10:01:27.568453Z",
       "s": 2.8
@@ -196,11 +188,15 @@
     {
       "t": "2026-08-05T07:01:22.551127Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-05T09:48:34.282901Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-04T15:34:54.990222Z",
   "event_detected_at": {
-    "russian ballistic missile strike on kyiv kills at least 17": {
+    "russian strike kills at least 17 as zelensky says interceptors could have saved lives": {
       "detected_at": "2026-08-04T15:34:54.990222Z",
       "peak_at": "2026-08-05T04:01:17.573162Z",
       "peak_score_at": "2026-08-05T04:01:17.573162Z",
@@ -222,17 +218,41 @@
     },
     "trump says iran will be 'hit very hard' if hormuz strait not open soon as oil prices fall": {
       "detected_at": "2026-08-04T15:34:54.990222Z",
-      "peak_at": "2026-08-04T15:34:54.990222Z",
-      "peak_score_at": "2026-08-04T15:34:54.990222Z",
-      "peak_score": 2.2,
+      "peak_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score": 3.0,
       "peak_sentiment": "positive",
-      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "peak_label": "Oil prices drop on Hormuz reopening hopes",
-      "peak_summary": "US officials report progress in talks to resume oil shipments. Could reduce energy costs if sustained.",
+      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+      "peak_label": "Trump threatens Iran over Hormuz Strait closure",
+      "peak_summary": "US officials report progress in talks to reopen Hormuz for oil shipments, with prices falling. Trump warns Iran of military action if passage remains blocked.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-clip-trump-iran-talks-sot?traffic_source=rss"
+        }
+      ]
+    },
+    "eu commends spain's 'swift response' to ceuta migrant crisis": {
+      "detected_at": "2026-08-04T12:17:57.609820Z",
+      "peak_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+      "peak_label": "Spain returns 70,000 migrants from Ceuta crisis",
+      "peak_summary": "Spain has returned 70,000 of 72,000 people who crossed illegally to Ceuta. Von der Leyen calls for stronger EU border controls across five areas.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/news/audio/2026/aug/03/how-ceuta-migrant-crisis-exposes-divisions-within-europe-the-latest"
         }
       ]
     },
@@ -249,22 +269,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "eu commends spain's 'swift response' to ceuta migrant crisis": {
-      "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-04T12:17:57.609820Z",
-      "peak_score_at": "2026-08-04T12:17:57.609820Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-      "peak_label": "Italy suspends Schengen with Spain after Ceuta",
-      "peak_summary": "Italy halts border-free travel with Spain following Ceuta crisis. Signals potential EU migration policy strain affecting Romanian interests.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta?traffic_source=rss"
         }
       ]
     },
@@ -334,8 +338,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian ballistic missile strike on Kyiv kills at least 17",
+    "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
     "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-    "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack"
+    "EU commends Spain's 'swift response' to Ceuta migrant crisis"
   ]
 }
