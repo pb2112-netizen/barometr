@@ -1,14 +1,14 @@
 {
-  "global_score": 4.8,
-  "rationale": "Mass shooting in North Carolina is breaking news with potential casualties; El-Sayed primary win confirmed (continuation); diplomatic escalation with Brazil over ambassador visa.",
+  "global_score": 4.6,
+  "rationale": "Mass shooting in North Carolina is breaking news with deadly casualties, directly affecting domestic safety.",
   "top_events": [
     {
       "title": "US law enforcement reports deadly mass shooting in North Carolina",
-      "label": "Mass shooting reported in North Carolina",
-      "summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
-      "score": 4.8,
+      "label": "Deadly mass shooting in North Carolina",
+      "summary": "Breaking news of deadly mass shooting in North Carolina. Details still emerging, but confirmed casualties affecting domestic safety.",
+      "score": 4.6,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -24,10 +24,10 @@
     {
       "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
       "label": "US revokes Brazil ambassador visa",
-      "summary": "Trump administration revokes Brazilian ambassador's visa after Brazil refused to approve US nominee; diplomatic escalation with major regional partner.",
-      "score": 3.2,
+      "summary": "Trump administration revokes Brazilian ambassador's visa in retaliation for Brazil's refusal to approve Trump's nominee. Diplomatic escalation continues.",
+      "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -41,17 +41,22 @@
       "detected_at": "2026-08-05T03:31:26.335581Z"
     },
     {
-      "title": "El-Sayed wins Michigan Democratic Senate primary",
+      "title": "Left-wing political outsider wins Democratic Senate primary in Michigan",
       "label": "El-Sayed wins Michigan Democratic primary",
-      "summary": "Abdul El-Sayed narrowly defeats incumbent in key swing state primary; would be first Muslim US senator if elected in November.",
-      "score": 2.7,
+      "summary": "Abdul El-Sayed, son of Egyptian immigrants, won Michigan's Democratic Senate primary. Could be first Muslim US senator if elected in November.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/el-sayed-wins-michigan-democratic-senate-primary?traffic_source=rss"
@@ -62,10 +67,10 @@
   ],
   "short_summary": "Mass shooting reported in North Carolina",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-05T18:49:49.799294Z",
+  "updated_at": "2026-08-05T19:01:31.853766Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "score_history": [
-    {
-      "t": "2026-08-03T19:01:26.773043Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-03T19:57:03.294958Z",
       "s": 2.9
@@ -228,6 +229,10 @@
     {
       "t": "2026-08-05T18:49:49.799294Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-05T19:01:31.853766Z",
+      "s": 4.6
     }
   ]
 }

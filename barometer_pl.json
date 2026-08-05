@@ -1,14 +1,14 @@
 {
-  "global_score": 4.0,
-  "rationale": "Ukraine's interceptor shortage directly affects Poland's eastern security calculus; continued Kyiv strikes and German airport drone incident maintain elevated threat perception near Polish borders. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Patriot shortage in Ukraine directly threatens Polish security by leaving the eastern neighbor exposed to Russian strikes, increasing spillover risk. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
       "label": "Ukraine warns Patriot shortage costs lives",
-      "summary": "Without interceptor missiles, Ukraine's air defenses are failing against Russian barrages, increasing spillover risk and instability on Poland's eastern border.",
+      "summary": "Without Patriot interceptors, Ukraine's air defenses are failing, leaving cities exposed to Russian missile barrages. This increases spillover risk to Poland's eastern border.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-04T09:50:31.155465Z"
     },
     {
+      "title": "Russia kills 17 in ballistic missile attacks around Kyiv",
+      "label": "Russia kills 17 in Kyiv missile strikes",
+      "summary": "Overnight ballistic missile and drone attack on Kyiv killed at least 17 people. Continuation of Russian strikes on Ukrainian capital.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-05T19:01:31.850370Z"
+    },
+    {
       "title": "Drone carrying explosives found at German airport, police say",
       "label": "Explosive drone found at German airport",
-      "summary": "Drone discovered near Ukrainian cargo planes; mid-air collision reported. Sabotage threat extends westward into EU airspace.",
-      "score": 4.0,
+      "summary": "Drone discovered near Ukrainian cargo planes before mid-air collision with another aircraft. Security threat in NATO ally close to Poland.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-05T13:01:30.128405Z"
-    },
-    {
-      "title": "Stronger EU borders needed after Ceuta crisis, von der Leyen says",
-      "label": "Von der Leyen demands EU border action",
-      "summary": "Commission president calls for stronger migration controls after Ceuta crisis; pressure on Schengen system affects Poland's border policy debates.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
-        }
-      ],
-      "detected_at": "2026-08-03T22:01:27.477532Z"
     }
   ],
   "short_summary": "Explosive drone found at German airport cargo area",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-05T18:49:49.792523Z",
+  "updated_at": "2026-08-05T19:01:31.850370Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Explosive drone found at German airport cargo area",
     "summary": "Explosive-laden drone discovered near Ukrainian aircraft at German airport; second suspected object collided with cargo plane mid-air.",
     "title": "Drone carrying explosives found at German airport, police say",
-    "score": 4.8,
+    "score": 4.7,
     "sentiment": "negative",
     "detected_at": "2026-08-05T13:01:30.128405Z",
     "peak_at": "2026-08-05T13:01:30.128405Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-05T13:01:30.128405Z",
   "score_history": [
-    {
-      "t": "2026-08-03T19:01:26.765191Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-03T19:57:03.290002Z",
       "s": 3.2
@@ -228,6 +224,10 @@
     {
       "t": "2026-08-05T18:49:49.792523Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-05T19:01:31.850370Z",
+      "s": 3.9
     }
   ]
 }
