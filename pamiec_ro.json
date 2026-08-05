@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-05T12:15:56.456500Z",
-  "ostatnia_ocena": 5.1,
+  "updated_at": "2026-08-05T13:01:30.136740Z",
+  "ostatnia_ocena": 4.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 2,
-      "opis": "Seven killed including children at Black Sea resort; direct."
-    },
-    {
       "temat": "Russian ballistic missile strike on Kyiv",
       "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 0,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
       "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 5.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 1,
       "opis": "Drone strike near Novorossiysk; maritime escalation."
     },
     {
+      "temat": "Explosive drone at German airport",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone near Ukrainian aircraft; mid-air collision reported."
+    },
+    {
+      "temat": "Ukrainian drone kills civilians on Russian beach",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 3,
+      "opis": "Seven killed including children at Black Sea resort; direct."
+    },
+    {
       "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     },
     {
       "temat": "Italy suspends Schengen with Spain after Ceuta",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "Italy halts border-free travel; EU migration strain."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     },
     {
       "temat": "Indian ship sunk off Yemen coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Projectile attack in Red Sea; distant shipping risk."
-    },
-    {
-      "temat": "Drone stalks man before exploding in Kherson",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Drone followed civilian at market before exploding; threat."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T13:01:26.649959Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-03T15:15:14.892329Z",
       "s": 3.8
@@ -192,15 +188,19 @@
     {
       "t": "2026-08-05T12:15:56.449072Z",
       "s": 5.1
+    },
+    {
+      "t": "2026-08-05T13:01:30.130363Z",
+      "s": 4.8
     }
   ],
   "events_anchor_at": "2026-08-03T11:43:33.531608Z",
   "event_detected_at": {
-    "russian strike kills at least 17 as zelensky says interceptors could have saved lives": {
+    "russia strike kills 21 as ukraine says it needs more missile interceptors": {
       "detected_at": "2026-08-04T15:34:54.990222Z",
       "peak_at": "2026-08-05T04:01:17.573162Z",
       "peak_score_at": "2026-08-05T04:01:17.573162Z",
-      "peak_score": 5.0,
+      "peak_score": 4.9,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile strikes Kyiv residential buildings",
@@ -229,6 +229,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss"
+        }
+      ]
+    },
+    "drone carrying explosives found at german airport, police say": {
+      "detected_at": "2026-08-05T13:01:30.130363Z",
+      "peak_at": "2026-08-05T13:01:30.130363Z",
+      "peak_score_at": "2026-08-05T13:01:30.130363Z",
+      "peak_score": 4.2,
+      "peak_sentiment": "negative",
+      "title": "Drone carrying explosives found at German airport, police say",
+      "peak_label": "Explosive drone found at German airport cargo area",
+      "peak_summary": "Explosive drone discovered near Ukrainian aircraft at German airport; separate suspected object collided with cargo plane.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -318,8 +334,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
+    "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
     "Turkish cargo ship catches fire after Black Sea drone attack",
-    "Stronger EU borders needed after Ceuta crisis, von der Leyen says"
+    "Drone carrying explosives found at German airport, police say"
   ]
 }

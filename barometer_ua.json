@@ -1,14 +1,14 @@
 {
-  "global_score": 3.8,
-  "rationale": "Russian strike killing at least 17 in Kyiv and surrounding region represents a significant escalation in attacks on the capital area, directly threatening civilian life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.2,
+  "rationale": "New Russian strike kills 21 in Kyiv targeting logistics hubs represents significant escalation in capital attacks; explosive drone at German airport near Ukrainian aircraft raises security concerns for Ukrainian operations abroad. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
-      "label": "Russian strike kills 17 in Kyiv region",
-      "summary": "Russia struck logistics hubs and supply centers in Kyiv and surrounding areas, killing at least 17. Zelensky stated air defense interceptors could have prevented the deaths.",
+      "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+      "label": "Russia kills 21 in Kyiv logistics strike",
+      "summary": "Russian strike on Kyiv logistics hubs and supply centers kills 21, demonstrating continued threat to capital infrastructure and urgent need for more air defense.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-05T01:01:53.613902Z"
     },
     {
-      "title": "Turkish cargo ship catches fire after Black Sea drone attack",
-      "label": "Drone attack sets Turkish cargo ship ablaze",
-      "summary": "A Turkish cargo vessel caught fire after a drone strike near Novorossiysk in the Black Sea, escalating maritime conflict in the region.",
-      "score": 3.8,
+      "title": "Drone carrying explosives found at German airport, police say",
+      "label": "Explosive drone found near Ukrainian aircraft in Germany",
+      "summary": "Explosive drone discovered at German airport cargo area near Ukrainian aircraft; second suspected object collided with cargo plane mid-air.",
+      "score": 5.2,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-05T13:01:30.132781Z"
+    },
+    {
+      "title": "Turkish cargo ship catches fire after Black Sea drone attack",
+      "label": "Turkish cargo ship burns after Black Sea drone hit",
+      "summary": "Drone attack near Novorossiysk sets Turkish cargo vessel ablaze, continuing maritime warfare pattern in Black Sea shipping lanes.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -42,18 +61,18 @@
     }
   ],
   "short_summary": "Russian ballistic missile hits Kyiv residential buildings",
-  "level_label": "Low",
+  "level_label": "Elevated",
   "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-05T12:15:56.450972Z",
+  "updated_at": "2026-08-05T13:01:30.132781Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian ballistic missile hits Kyiv residential buildings",
     "summary": "Russia launched a ballistic missile strike on residential buildings in Kyiv, killing at least two and injuring others. This represents a serious escalation in attacks on the capital.",
     "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
-    "score": 7.2,
+    "score": 7.1,
     "sentiment": "negative",
     "detected_at": "2026-08-05T01:01:53.613902Z",
     "peak_at": "2026-08-05T04:01:17.575646Z",
@@ -70,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-05T01:01:53.613902Z",
   "score_history": [
-    {
-      "t": "2026-08-03T13:01:26.653567Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-03T15:15:14.896290Z",
       "s": 4.9
@@ -209,6 +224,10 @@
     {
       "t": "2026-08-05T12:15:56.450972Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-05T13:01:30.132781Z",
+      "s": 5.2
     }
   ]
 }

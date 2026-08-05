@@ -1,12 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "Ceuta migrant crisis continues with EU-level policy response, indirectly affecting Portugal through EU border discussions and potential Schengen implications. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "Ceuta migration crisis continues with von der Leyen's border control call; Guatemala volcano evacuation is distant; other events have minimal impact on Portuguese daily life.",
   "top_events": [
     {
       "title": "Stronger EU borders needed after Ceuta crisis, von der Leyen says",
-      "label": "Von der Leyen calls for stronger EU borders",
-      "summary": "European Commission president demands migration control action after 50,000 crossed to Ceuta with death toll nearing 100, potentially affecting EU-wide border policy.",
-      "score": 2.2,
+      "label": "Von der Leyen calls for EU border strengthening",
+      "summary": "EU Commission president demands action on migration controls after Ceuta crisis, potentially affecting EU-wide border policies.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,10 +23,10 @@
     },
     {
       "title": "Guatemala volcano eruption prompts evacuation of hundreds of people",
-      "label": "Guatemala volcano erupts, hundreds evacuated",
-      "summary": "Fuego volcano sends lava and ash nearly four miles high, prompting evacuations. Distant event with no direct impact on Portuguese daily life.",
-      "score": 1.5,
-      "sentiment": "neutral",
+      "label": "Guatemala volcano forces hundreds to evacuate",
+      "summary": "Fuego volcano erupts sending lava and ash four miles high; hundreds evacuated from slopes as country declares high alert.",
+      "score": 1.8,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
@@ -39,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-05T09:48:34.284108Z"
+    },
+    {
+      "title": "Record heatwave in South Korea as temperatures soar to 42.5C",
+      "label": "South Korea hits record 42.5C heatwave",
+      "summary": "South Korea experiences hottest day on record with at least 19 heat-related deaths; distant climate event.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-05T13:01:30.131346Z"
     }
   ],
   "short_summary": "Von der Leyen demands EU border action",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-05T12:15:56.449899Z",
+  "updated_at": "2026-08-05T13:01:30.131346Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Von der Leyen demands EU border action",
     "summary": "Commission president calls for strengthened migration control after 50,000 crossed to Ceuta. Indirect pressure on EU solidarity.",
     "title": "Stronger EU borders needed after Ceuta crisis, von der Leyen says",
-    "score": 2.5,
+    "score": 2.4,
     "sentiment": "neutral",
     "detected_at": "2026-08-04T12:17:57.611249Z",
     "peak_at": "2026-08-04T15:34:54.991656Z",
@@ -66,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-04T12:17:57.611249Z",
   "score_history": [
-    {
-      "t": "2026-08-03T13:01:26.652125Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-03T15:15:14.894703Z",
       "s": 4.2
@@ -205,6 +220,10 @@
     {
       "t": "2026-08-05T12:15:56.449899Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-05T13:01:30.131346Z",
+      "s": 2.1
     }
   ]
 }
