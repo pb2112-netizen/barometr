@@ -1,12 +1,50 @@
 {
-  "global_score": 4.6,
-  "rationale": "Russia's strike on Kyiv logistics hubs killing 21 continues as most severe direct impact on Ukrainian territory; German airport incident affects Ukrainian aircraft abroad. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.7,
+  "rationale": "Critical interceptor shortage leaves Ukrainian cities exposed to Russian missile barrages; 17 killed in latest Kyiv strikes — direct threat to civilian life worsens significantly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
-      "label": "Russia strikes Kyiv logistics killing 21 people",
-      "summary": "Russian defense ministry confirms strikes on logistics and supply centers in Kyiv region, killing 21. Direct attack on capital infrastructure continues.",
+      "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+      "label": "Interceptor shortage leaves Ukraine exposed",
+      "summary": "Without Patriot missiles, Ukraine's air defenses fail against Russian barrages. Civilians fully exposed; lives lost directly due to shortage.",
       "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-05T01:01:53.613902Z"
+    },
+    {
+      "title": "Russia kills 17 in ballistic missile attacks around Kyiv",
+      "label": "Russia kills 17 in Kyiv missile attack",
+      "summary": "Overnight ballistic missile and drone strikes on Kyiv kill 17 people; continued deadly attacks on the capital.",
+      "score": 4.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-05T18:49:49.797618Z"
+    },
+    {
+      "title": "Drone carrying explosives found at German airport, police say",
+      "label": "Explosive drone found at German airport",
+      "summary": "Drone discovered near Ukrainian cargo planes in Germany; sabotage threat extends abroad, affecting Ukrainian logistics.",
+      "score": 4.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -16,31 +54,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-05T01:01:53.613902Z"
-    },
-    {
-      "title": "Drone carrying explosives found at German airport, police say",
-      "label": "Explosive drone found near Ukrainian cargo planes",
-      "summary": "Drone with explosives discovered near Ukrainian cargo aircraft at Leipzig airport; another object collided with cargo plane mid-air. Sabotage threat to Ukrainian operations abroad.",
-      "score": 4.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/5/germany-investigates-explosive-device-attached-to-drone-at-leipzig-airport?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-05T13:01:30.132781Z"
@@ -51,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-05T16:52:42.068444Z",
+  "updated_at": "2026-08-05T18:49:49.797618Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian ballistic missile hits Kyiv residential buildings",
     "summary": "Russia launched a ballistic missile strike on residential buildings in Kyiv, killing at least two and injuring others. This represents a serious escalation in attacks on the capital.",
     "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
-    "score": 6.8,
+    "score": 6.7,
     "sentiment": "negative",
     "detected_at": "2026-08-05T01:01:53.613902Z",
     "peak_at": "2026-08-05T04:01:17.575646Z",
@@ -75,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-05T01:01:53.613902Z",
   "score_history": [
-    {
-      "t": "2026-08-03T17:20:10.760746Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-03T19:01:26.771414Z",
       "s": 3.0
@@ -218,6 +228,10 @@
     {
       "t": "2026-08-05T16:52:42.068444Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-05T18:49:49.797618Z",
+      "s": 4.7
     }
   ]
 }

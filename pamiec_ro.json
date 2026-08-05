@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-05T16:52:42.072082Z",
-  "ostatnia_ocena": 3.8,
+  "updated_at": "2026-08-05T18:49:49.801634Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian ballistic missile strike on Kyiv",
       "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
-      "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 4,
-      "opis": "Drone strike near Novorossiysk; maritime escalation."
-    },
-    {
       "temat": "Explosive drone at German airport",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 4,
       "opis": "Drone near Ukrainian aircraft; mid-air collision reported."
     },
     {
+      "temat": "Ukraine interceptor shortage",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Patriot shortage leaves Ukraine exposed; regional threat."
+    },
+    {
+      "temat": "Turkish cargo ship attacked in Black Sea",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 5,
+      "opis": "Drone strike near Novorossiysk; maritime escalation."
+    },
+    {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 7,
       "opis": "Seven killed including children at Black Sea resort; direct."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     },
     {
       "temat": "Italy suspends Schengen with Spain after Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Italy halts border-free travel; EU migration strain."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
-    },
-    {
-      "temat": "Indian ship sunk off Yemen coast",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Projectile attack in Red Sea; distant shipping risk."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T17:20:10.757967Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-03T19:01:26.767654Z",
       "s": 3.4
@@ -196,15 +192,19 @@
     {
       "t": "2026-08-05T16:52:42.066312Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-05T18:49:49.794659Z",
+      "s": 3.6
     }
   ],
   "events_anchor_at": "2026-08-03T11:43:33.531608Z",
   "event_detected_at": {
-    "russia strike kills 21 as ukraine says it needs more missile interceptors": {
+    "after deadly kyiv strike, ukraine warns interceptor shortage is costing lives": {
       "detected_at": "2026-08-04T15:34:54.990222Z",
       "peak_at": "2026-08-05T04:01:17.573162Z",
       "peak_score_at": "2026-08-05T04:01:17.573162Z",
-      "peak_score": 4.6,
+      "peak_score": 4.5,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile strikes Kyiv residential buildings",
@@ -217,6 +217,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/4/russia-strikes-ukrainian-capital-kyiv-with-ballistic-missiles?traffic_source=rss"
+        }
+      ]
+    },
+    "russia kills 17 in ballistic missile attacks around kyiv": {
+      "detected_at": "2026-08-05T18:49:49.794659Z",
+      "peak_at": "2026-08-05T18:49:49.794659Z",
+      "peak_score_at": "2026-08-05T18:49:49.794659Z",
+      "peak_score": 3.6,
+      "peak_sentiment": "negative",
+      "title": "Russia kills 17 in ballistic missile attacks around Kyiv",
+      "peak_label": "Russia kills 17 in Kyiv missile strikes",
+      "peak_summary": "Overnight ballistic missile and drone attack on Kyiv kills 17; continued escalation in Ukraine affects Black Sea security.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss"
         }
       ]
     },
@@ -322,7 +338,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+    "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+    "Russia kills 17 in ballistic missile attacks around Kyiv",
     "Drone carrying explosives found at German airport, police say"
   ]
 }

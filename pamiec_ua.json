@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-05T16:52:42.074261Z",
-  "ostatnia_ocena": 4.6,
+  "updated_at": "2026-08-05T18:49:49.803863Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 6,
-      "opis": "Seven killed including children; escalation in drone."
-    },
-    {
-      "temat": "Ukraine strikes major Russian retailer Wildberries",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 21,
-      "opis": "New targeting of civilian retail infrastructure in Russia."
-    },
-    {
-      "temat": "Soldier kills four in Crimea gun rampage",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Gunman detained after shooting soldiers, civilians in."
-    },
-    {
-      "temat": "Drone stalks man before exploding in Kherson",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 19,
-      "opis": "Drone followed civilian at market before exploding; threat."
-    },
-    {
       "temat": "Russian ballistic missile strike on Kyiv",
       "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
-      "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 4,
-      "opis": "Drone strike near Novorossiysk; maritime escalation."
-    },
-    {
       "temat": "Explosive drone at German airport",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 4,
       "opis": "Drone near Ukrainian aircraft; sabotage threat abroad."
     },
     {
       "temat": "Russia strikes Kyiv logistics hubs",
-      "poziom_bazowy": 5.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 4,
       "opis": "Russia hit supply centers in Kyiv region, killing 21."
+    },
+    {
+      "temat": "Patriot interceptor shortage",
+      "poziom_bazowy": 7.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Critical shortage leaves cities exposed; lives lost."
+    },
+    {
+      "temat": "Ukrainian drone kills civilians on Russian beach",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 7,
+      "opis": "Seven killed including children; escalation in drone."
+    },
+    {
+      "temat": "Turkish cargo ship attacked in Black Sea",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 5,
+      "opis": "Drone strike near Novorossiysk; maritime escalation."
+    },
+    {
+      "temat": "Ukraine strikes major Russian retailer Wildberries",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 22,
+      "opis": "New targeting of civilian retail infrastructure in Russia."
+    },
+    {
+      "temat": "Drone stalks man before exploding in Kherson",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
+      "opis": "Drone followed civilian at market before exploding; threat."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T17:20:10.760746Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-03T19:01:26.771414Z",
       "s": 3.0
@@ -196,15 +192,19 @@
     {
       "t": "2026-08-05T16:52:42.068444Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-05T18:49:49.797618Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-08-05T01:01:53.613902Z",
   "event_detected_at": {
-    "russia strike kills 21 as ukraine says it needs more missile interceptors": {
+    "after deadly kyiv strike, ukraine warns interceptor shortage is costing lives": {
       "detected_at": "2026-08-05T01:01:53.613902Z",
       "peak_at": "2026-08-05T04:01:17.575646Z",
       "peak_score_at": "2026-08-05T04:01:17.575646Z",
-      "peak_score": 6.8,
+      "peak_score": 6.7,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile hits Kyiv residential buildings",
@@ -217,6 +217,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/4/russia-strikes-ukrainian-capital-kyiv-with-ballistic-missiles?traffic_source=rss"
+        }
+      ]
+    },
+    "russia kills 17 in ballistic missile attacks around kyiv": {
+      "detected_at": "2026-08-05T18:49:49.797618Z",
+      "peak_at": "2026-08-05T18:49:49.797618Z",
+      "peak_score_at": "2026-08-05T18:49:49.797618Z",
+      "peak_score": 4.7,
+      "peak_sentiment": "negative",
+      "title": "Russia kills 17 in ballistic missile attacks around Kyiv",
+      "peak_label": "Russia kills 17 in Kyiv missile attack",
+      "peak_summary": "Overnight ballistic missile and drone strikes on Kyiv kill 17 people; continued deadly attacks on the capital.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss"
         }
       ]
     },
@@ -294,7 +310,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russia strike kills 21 as Ukraine says it needs more missile interceptors",
+    "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+    "Russia kills 17 in ballistic missile attacks around Kyiv",
     "Drone carrying explosives found at German airport, police say"
   ]
 }

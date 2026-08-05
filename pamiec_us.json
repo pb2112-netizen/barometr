@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-05T16:52:42.075338Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-05T18:49:49.804960Z",
+  "ostatnia_ocena": 4.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Armed arrest near Trump golf course",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Security incident before presidential visit; no broader."
-    },
-    {
       "temat": "US revokes Brazil ambassador visa",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
       "opis": "Diplomatic escalation over ambassador approval dispute."
     },
     {
       "temat": "Abdul El-Sayed wins Michigan Democratic primary",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 9,
       "opis": "Progressive defeats pro-Israel incumbent in key swing state."
+    },
+    {
+      "temat": "North Carolina mass shooting",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Breaking news; deadly shooting reported, details emerging."
+    },
+    {
+      "temat": "US-Brazil diplomatic escalation",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "US revokes Brazilian ambassador visa; feud escalates."
+    },
+    {
+      "temat": "Armed arrest near Trump golf course",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "Security incident before presidential visit; no broader."
     },
     {
       "temat": "Court blocks Trump climate grant cancellation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Federal court rules EPA likely acted unlawfully; policy."
-    },
-    {
-      "temat": "Arson arrest in Spokane wildfires",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Suspect arrested for fires forcing 60,000 evacuations."
     },
     {
       "temat": "DC National Guard deployment costs $1.4bn",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Taxpayer cost revealed for criticized deployment."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T17:20:10.762172Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-03T19:01:26.773043Z",
       "s": 3.0
@@ -190,15 +192,51 @@
     {
       "t": "2026-08-05T16:52:42.069641Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-05T18:49:49.799294Z",
+      "s": 4.8
     }
   ],
-  "events_anchor_at": "2026-08-05T06:41:21.123170Z",
+  "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "event_detected_at": {
-    "left-wing political outsider wins democratic senate primary in michigan": {
+    "us law enforcement reports deadly mass shooting in north carolina": {
+      "detected_at": "2026-08-05T18:49:49.799294Z",
+      "peak_at": "2026-08-05T18:49:49.799294Z",
+      "peak_score_at": "2026-08-05T18:49:49.799294Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "negative",
+      "title": "US law enforcement reports deadly mass shooting in North Carolina",
+      "peak_label": "Mass shooting reported in North Carolina",
+      "peak_summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/5/us-law-enforcement-reports-deadly-mass-shooting-in-north-carolina?traffic_source=rss"
+        }
+      ]
+    },
+    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
+      "detected_at": "2026-08-05T03:31:26.335581Z",
+      "peak_at": "2026-08-05T18:49:49.799294Z",
+      "peak_score_at": "2026-08-05T18:49:49.799294Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
+      "peak_label": "US revokes Brazil ambassador visa",
+      "peak_summary": "Trump administration revokes Brazilian ambassador's visa after Brazil refused to approve US nominee; diplomatic escalation with major regional partner.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ]
+    },
+    "el-sayed wins michigan democratic senate primary": {
       "detected_at": "2026-08-05T06:41:21.123170Z",
       "peak_at": "2026-08-05T06:41:21.123170Z",
       "peak_score_at": "2026-08-05T06:41:21.123170Z",
-      "peak_score": 3.5,
+      "peak_score": 3.4,
       "peak_sentiment": "neutral",
       "title": "Abdul El-Sayed wins Michigan Democratic primary for Senate, NBC projects",
       "peak_label": "Progressive wins Michigan Senate Democratic primary",
@@ -223,22 +261,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
-      "detected_at": "2026-08-05T03:31:26.335581Z",
-      "peak_at": "2026-08-05T09:48:34.286700Z",
-      "peak_score_at": "2026-08-05T09:48:34.286700Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-      "peak_label": "US revokes Brazil ambassador visa over dispute",
-      "peak_summary": "Trump administration revoked Brazilian ambassador's visa in retaliation for Lula government's refusal to approve Trump's nominee for ambassador in Brasília.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
         }
       ]
     },
@@ -306,22 +328,6 @@
         }
       ]
     },
-    "why trump media's sale of fast access to market-moving social posts is controversial": {
-      "detected_at": "2026-08-04T18:03:18.261693Z",
-      "peak_at": "2026-08-04T18:03:18.261693Z",
-      "peak_score_at": "2026-08-04T18:03:18.261693Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
-      "peak_label": "Trump Media sells early Truth Social access",
-      "peak_summary": "Trump Media sets up paid service giving Wall Street firms early access to influential Truth Social accounts, raising market transparency and insider trading concerns.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "doj sends monitors to michigan poll sites as lawmakers warn of partisan aim": {
       "detected_at": "2026-08-04T19:55:40.392486Z",
       "peak_at": "2026-08-04T19:55:40.392486Z",
@@ -337,27 +343,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/4/doj-sends-monitors-to-michigan-poll-sites-as-lawmakers-warn-of-partisan-aim?traffic_source=rss"
         }
       ]
-    },
-    "republicans clear todd blanche for top us justice department role": {
-      "detected_at": "2026-08-04T18:03:18.261693Z",
-      "peak_at": "2026-08-04T18:03:18.261693Z",
-      "peak_score_at": "2026-08-04T18:03:18.261693Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "neutral",
-      "title": "Republicans clear Todd Blanche for top US Justice Department role",
-      "peak_label": "Senate Republicans clear Blanche for Justice",
-      "peak_summary": "Blanche's nomination now goes to full Senate for vote. Routine confirmation process continues for Justice Department leadership.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/republicans-clear-todd-blanche-for-top-us-justice-department-role?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Left-wing political outsider wins Democratic Senate primary in Michigan",
-    "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-    "US revokes Brazil ambassador's visa in escalation of diplomatic feud"
+    "US law enforcement reports deadly mass shooting in North Carolina",
+    "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
+    "El-Sayed wins Michigan Democratic Senate primary"
   ]
 }
