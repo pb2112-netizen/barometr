@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-05T10:00:52.423342Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-08-05T12:15:56.460072Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Armed arrest near Trump golf course",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 7,
       "opis": "Security incident before presidential visit; no broader."
     },
     {
       "temat": "US revokes Brazil ambassador visa",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Diplomatic escalation over ambassador approval dispute."
     },
     {
       "temat": "Abdul El-Sayed wins Michigan Democratic primary",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 4,
       "opis": "Progressive defeats pro-Israel incumbent in key swing state."
     },
     {
       "temat": "Court blocks Trump climate grant cancellation",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 10,
       "opis": "Federal court rules EPA likely acted unlawfully; policy."
     },
     {
       "temat": "Venezuela earthquake — over 6,000 dead",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 24,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 25,
       "opis": "Major humanitarian disaster in Western Hemisphere; US."
     },
     {
       "temat": "Arson arrest in Spokane wildfires",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 19,
       "opis": "Suspect arrested for fires forcing 60,000 evacuations."
     },
     {
       "temat": "DC National Guard deployment costs $1.4bn",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Taxpayer cost revealed for criticized deployment."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T10:01:27.573362Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-08-03T11:43:33.536914Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-03T13:01:26.655260Z",
       "s": 3.0
@@ -196,15 +188,35 @@
     {
       "t": "2026-08-05T10:00:52.417533Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-05T12:15:56.452325Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-05T06:41:21.123170Z",
   "event_detected_at": {
+    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
+      "detected_at": "2026-08-05T03:31:26.335581Z",
+      "peak_at": "2026-08-05T09:48:34.286700Z",
+      "peak_score_at": "2026-08-05T09:48:34.286700Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
+      "peak_label": "US revokes Brazil ambassador visa over dispute",
+      "peak_summary": "Trump administration revoked Brazilian ambassador's visa in retaliation for Lula government's refusal to approve Trump's nominee for ambassador in Brasília.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ]
+    },
     "trump says iran will be 'hit very hard' if hormuz strait not open soon as oil prices fall": {
       "detected_at": "2026-08-04T15:34:54.995632Z",
       "peak_at": "2026-08-04T15:34:54.995632Z",
       "peak_score_at": "2026-08-04T15:34:54.995632Z",
-      "peak_score": 2.1,
+      "peak_score": 2.0,
       "peak_sentiment": "positive",
       "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
       "peak_label": "Oil prices drop on Hormuz reopening hopes",
@@ -220,7 +232,7 @@
       "detected_at": "2026-08-05T01:01:53.615826Z",
       "peak_at": "2026-08-05T01:01:53.615826Z",
       "peak_score_at": "2026-08-05T01:01:53.615826Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "neutral",
       "title": "Armed man arrested near Trump's golf course ahead of president's visit",
       "peak_label": "Armed man arrested near Trump California golf course",
@@ -229,22 +241,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
-      "detected_at": "2026-08-05T03:31:26.335581Z",
-      "peak_at": "2026-08-05T09:48:34.286700Z",
-      "peak_score_at": "2026-08-05T09:48:34.286700Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-      "peak_label": "US revokes Brazil ambassador visa over dispute",
-      "peak_summary": "Trump administration revoked Brazilian ambassador's visa in retaliation for Lula government's refusal to approve Trump's nominee for ambassador in Brasília.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
         }
       ]
     },
@@ -362,8 +358,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
     "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-    "Armed man arrested near Trump's golf course ahead of president's visit",
-    "US revokes Brazil ambassador's visa in escalation of diplomatic feud"
+    "Armed man arrested near Trump's golf course ahead of president's visit"
   ]
 }
