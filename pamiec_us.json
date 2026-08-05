@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-05T20:39:39.779354Z",
-  "ostatnia_ocena": 4.4,
+  "updated_at": "2026-08-05T22:01:27.196910Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US revokes Brazil ambassador visa",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Diplomatic escalation over ambassador approval dispute."
     },
     {
-      "temat": "Abdul El-Sayed wins Michigan Democratic primary",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 11,
-      "opis": "Progressive defeats pro-Israel incumbent in key swing state."
-    },
-    {
       "temat": "North Carolina mass shooting",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 3,
       "opis": "Breaking news; deadly shooting reported, details emerging."
     },
     {
       "temat": "US-Brazil diplomatic escalation",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "US revokes Brazilian ambassador visa; feud escalates."
     },
     {
       "temat": "Armed arrest near Trump golf course",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Security incident before presidential visit; no broader."
+    },
+    {
+      "temat": "Abdul El-Sayed wins Michigan Democratic primary",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 12,
+      "opis": "Progressive defeats pro-Israel incumbent in key swing state."
+    },
+    {
+      "temat": "Israel strikes south Lebanon",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "First evacuation warning in weeks; Hezbollah ceasefire."
+    },
+    {
+      "temat": "SpaceX rocket crashes into Moon",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Accidental collision provides scientific data for research."
     },
     {
       "temat": "Court blocks Trump climate grant cancellation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Federal court rules EPA likely acted unlawfully; policy."
-    },
-    {
-      "temat": "DC National Guard deployment costs $1.4bn",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Taxpayer cost revealed for criticized deployment."
-    },
-    {
-      "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "US-Iran talks progress; shipments may resume through strait."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-03T21:21:29.907613Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-03T22:01:27.483917Z",
       "s": 2.7
@@ -196,11 +192,15 @@
     {
       "t": "2026-08-05T20:39:39.773790Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-08-05T22:01:27.191408Z",
+      "s": 4.2
     }
   ],
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "event_detected_at": {
-    "us authorities say 3 killed in shooting in prospect hill, north carolina": {
+    "north carolina mass shooting": {
       "detected_at": "2026-08-05T18:49:49.799294Z",
       "peak_at": "2026-08-05T18:49:49.799294Z",
       "peak_score_at": "2026-08-05T18:49:49.799294Z",
@@ -229,6 +229,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ]
+    },
+    "us man arrested at trump's golf course charged with multiple felonies": {
+      "detected_at": "2026-08-05T01:01:53.615826Z",
+      "peak_at": "2026-08-05T01:01:53.615826Z",
+      "peak_score_at": "2026-08-05T01:01:53.615826Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "neutral",
+      "title": "Armed man arrested near Trump's golf course ahead of president's visit",
+      "peak_label": "Armed man arrested near Trump California golf course",
+      "peak_summary": "Arrest occurred shortly before president's fundraising dinner at coastal course. Security incident without broader threat or policy impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -279,59 +295,11 @@
           "url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people"
         }
       ]
-    },
-    "armed man arrested near trump's golf course ahead of president's visit": {
-      "detected_at": "2026-08-05T01:01:53.615826Z",
-      "peak_at": "2026-08-05T01:01:53.615826Z",
-      "peak_score_at": "2026-08-05T01:01:53.615826Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Armed man arrested near Trump's golf course ahead of president's visit",
-      "peak_label": "Armed man arrested near Trump California golf course",
-      "peak_summary": "Arrest occurred shortly before president's fundraising dinner at coastal course. Security incident without broader threat or policy impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "national guard deployment to washington, dc, will cost us roughly $1.4bn": {
-      "detected_at": "2026-08-04T21:35:14.703119Z",
-      "peak_at": "2026-08-04T21:35:14.703119Z",
-      "peak_score_at": "2026-08-04T21:35:14.703119Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "National Guard deployment to Washington, DC will cost US roughly $1.4bn",
-      "peak_label": "DC National Guard deployment costs $1.4 billion",
-      "peak_summary": "Taxpayer cost revealed for widely criticized National Guard deployment to Washington. Significant public spending figure affecting federal budget.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/national-guard-deployment-to-washington-dc-will-cost-us-roughly-1-4bn?traffic_source=rss"
-        }
-      ]
-    },
-    "us court deals blow to trump's bid to scrap climate grant programme": {
-      "detected_at": "2026-08-04T21:35:14.703119Z",
-      "peak_at": "2026-08-04T21:35:14.703119Z",
-      "peak_score_at": "2026-08-04T21:35:14.703119Z",
-      "peak_score": 3.4,
-      "peak_sentiment": "positive",
-      "title": "US court deals blow to Trump's bid to scrap climate grant programme",
-      "peak_label": "Court blocks Trump climate grant cancellation",
-      "peak_summary": "Federal appeals court rules EPA likely acted unlawfully trying to cancel Biden-era clean energy grants. Real policy impact blocking administration's climate rollback.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/us-court-deals-blow-to-trumps-bid-to-scrap-climate-grant-programme?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US authorities say 3 killed in shooting in Prospect Hill, North Carolina",
+    "North Carolina mass shooting",
     "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-    "El-Sayed wins Michigan Democratic Senate primary"
+    "US man arrested at Trump's golf course charged with multiple felonies"
   ]
 }
