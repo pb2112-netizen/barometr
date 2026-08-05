@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-08-05T01:01:53.618775Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-08-05T03:31:26.336744Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
-      "temat": "Middle East tanker attacks escalate shipping risk",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Fresh attacks on alternative routes complicate oil."
-    },
-    {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 0,
       "opis": "Seven killed including children at Black Sea resort."
     },
     {
       "temat": "EU border call after Ceuta migrant surge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Von der Leyen demands action after 50,000 cross to Ceuta."
     },
     {
       "temat": "Italy suspends Schengen with Spain after Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Italy halts border-free travel; Schengen strain after."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 9,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     },
     {
       "temat": "Drone 'human safari' attack in Kherson",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Drone deliberately stalks civilian vendor; war crime claim."
+    },
+    {
+      "temat": "Russian ballistic missile strike on Kyiv",
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Ballistic missile hits residential buildings in capital."
     }
   ],
   "score_history": [
@@ -176,10 +176,62 @@
     {
       "t": "2026-08-05T01:01:53.610164Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-05T03:31:26.329058Z",
+      "s": 4.6
     }
   ],
-  "events_anchor_at": "2026-08-03T11:43:33.529916Z",
+  "events_anchor_at": "2026-08-04T09:50:31.155465Z",
   "event_detected_at": {
+    "russian ballistic missile strike on kyiv kills two and injures others, officials say": {
+      "detected_at": "2026-08-04T09:50:31.155465Z",
+      "peak_at": "2026-08-05T03:31:26.329058Z",
+      "peak_score_at": "2026-08-05T03:31:26.329058Z",
+      "peak_score": 4.6,
+      "peak_sentiment": "negative",
+      "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
+      "peak_label": "Russian ballistic missile hits Kyiv residential buildings",
+      "peak_summary": "Russia launched a ballistic missile strike on residential buildings in Kyiv, killing two and injuring others. The attack represents a qualitative escalation in targeting civilian infrastructure in.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "oil prices fall on hopes strait of hormuz could reopen": {
+      "detected_at": "2026-08-04T15:34:54.988526Z",
+      "peak_at": "2026-08-04T15:34:54.988526Z",
+      "peak_score_at": "2026-08-04T15:34:54.988526Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "positive",
+      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "peak_label": "Oil prices drop on Hormuz reopening hopes",
+      "peak_summary": "US officials announce progress in talks to resume shipments through Strait of Hormuz. Could ease energy cost pressure if sustained.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "eu commends spain's 'swift response' to ceuta migrant crisis": {
+      "detected_at": "2026-08-04T12:17:57.608040Z",
+      "peak_at": "2026-08-04T12:17:57.608040Z",
+      "peak_score_at": "2026-08-04T12:17:57.608040Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
+      "peak_label": "Italy halts Schengen travel with Spain post-Ceuta",
+      "peak_summary": "Italy suspends border-free travel with Spain following Ceuta migrant crisis. Analysts view move as political rather than practical response.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta?traffic_source=rss"
+        }
+      ]
+    },
     "video shows russian drone chasing ukrainian street vendor in 'human safari' attack": {
       "detected_at": "2026-08-03T11:43:33.529916Z",
       "peak_at": "2026-08-04T18:03:18.255041Z",
@@ -193,54 +245,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "eu commends spain's 'swift response' to ceuta migrant crisis": {
-      "detected_at": "2026-08-04T12:17:57.608040Z",
-      "peak_at": "2026-08-04T12:17:57.608040Z",
-      "peak_score_at": "2026-08-04T12:17:57.608040Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-      "peak_label": "Italy halts Schengen travel with Spain post-Ceuta",
-      "peak_summary": "Italy suspends border-free travel with Spain following Ceuta migrant crisis. Analysts view move as political rather than practical response.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta?traffic_source=rss"
-        }
-      ]
-    },
-    "oil prices fall on hopes strait of hormuz could reopen": {
-      "detected_at": "2026-08-04T15:34:54.988526Z",
-      "peak_at": "2026-08-04T15:34:54.988526Z",
-      "peak_score_at": "2026-08-04T15:34:54.988526Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "positive",
-      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "peak_label": "Oil prices drop on Hormuz reopening hopes",
-      "peak_summary": "US officials announce progress in talks to resume shipments through Strait of Hormuz. Could ease energy cost pressure if sustained.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "ukraine hits more wildberries sites as strike kills five in moscow region": {
-      "detected_at": "2026-08-04T09:50:31.155465Z",
-      "peak_at": "2026-08-04T23:18:24.399686Z",
-      "peak_score_at": "2026-08-04T23:18:24.399686Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
-      "peak_label": "Ukraine strikes Russian retailer Wildberries facilities",
-      "peak_summary": "Ukrainian strikes hit Russia's largest online retailer in multiple cities, killing five. Continuation of economic infrastructure targeting with no new escalation pattern affecting Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -294,8 +298,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-    "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-    "Oil prices fall on hopes Strait of Hormuz could reopen"
+    "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
+    "Oil prices fall on hopes Strait of Hormuz could reopen",
+    "EU commends Spain's 'swift response' to Ceuta migrant crisis"
   ]
 }

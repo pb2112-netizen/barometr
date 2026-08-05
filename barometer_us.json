@@ -1,60 +1,75 @@
 {
   "global_score": 3.1,
-  "rationale": "National Guard deployment cost revealed but no policy change; armed arrest near Trump golf course is security incident without broader impact; climate grant court ruling continues.",
+  "rationale": "Armed arrest near Trump golf course before presidential visit raises security concerns; oil price drop from Hormuz talks provides economic benefit; Brazil visa revocation escalates diplomatic tensions.",
   "top_events": [
-    {
-      "title": "National Guard deployment to Washington, DC, will cost US roughly $1.4bn",
-      "label": "DC National Guard deployment costs $1.4 billion",
-      "summary": "Taxpayer cost revealed for widely criticized deployment to Washington. Continuation of budget transparency on existing deployment without policy change.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/national-guard-deployment-to-washington-dc-will-cost-us-roughly-1-4bn?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T21:35:14.703119Z"
-    },
     {
       "title": "Armed man arrested near Trump's golf course ahead of president's visit",
       "label": "Armed man arrested near Trump California golf course",
-      "summary": "Arrest occurred shortly before president's fundraising dinner at coastal course. Security incident without broader threat or policy impact.",
-      "score": 3.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "summary": "Police arrested an armed man near Trump's California golf course shortly before the president was due to host a fundraising dinner. A loaded pistol and rifle were found.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/5/armed-man-arrested-at-trumps-la-golf-course-ahead-of-presidents-visit?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-05T01:01:53.615826Z"
     },
     {
+      "title": "US revokes Brazil ambassador's visa amid deepening diplomatic spat",
+      "label": "US revokes Brazilian ambassador visa in diplomatic feud",
+      "summary": "The Trump administration revoked Brazil's ambassador's visa in retaliation for Brazil's refusal to approve Trump's nominee for ambassador in Brasília, escalating diplomatic tensions.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/4/us-revokes-visa-of-brazilian-ambassador-amid-deepening-diplomatic-spat?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ],
+      "detected_at": "2026-08-05T03:31:26.335581Z"
+    },
+    {
       "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "label": "Oil prices fall on Hormuz reopening hopes",
-      "summary": "US-Iran talks progress toward resuming shipments through strait. Positive signal for energy costs but no confirmed deal yet.",
-      "score": 2.2,
+      "label": "Oil prices drop as Hormuz reopening talks advance",
+      "summary": "US officials report progress in talks to reopen the Strait of Hormuz, leading to falling oil prices and potential relief for US consumers and markets.",
+      "score": 2.1,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/5/us-stock-market-hits-record-high-amid-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-04T15:34:54.995632Z"
@@ -65,7 +80,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-05T01:01:53.615826Z",
+  "updated_at": "2026-08-05T03:31:26.335581Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -223,6 +238,10 @@
     },
     {
       "t": "2026-08-05T01:01:53.615826Z",
+      "s": 3.1
+    },
+    {
+      "t": "2026-08-05T03:31:26.335581Z",
       "s": 3.1
     }
   ]
