@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-06T00:10:10.656091Z",
+  "updated_at": "2026-08-06T01:01:18.638572Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian ballistic missile strike on Kyiv",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
-      "temat": "Explosive drone at German airport",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Drone near Ukrainian aircraft; mid-air collision reported."
-    },
-    {
       "temat": "Ukraine interceptor shortage",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
       "opis": "Patriot shortage leaves Ukraine exposed; regional threat."
     },
     {
       "temat": "Iran-Oman Hormuz shipping agreement",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
       "opis": "Finalized deal on Strait routes; may ease energy costs."
     },
     {
+      "temat": "Israel strikes south Lebanon",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "First evacuation warning in weeks; Hezbollah ceasefire."
+    },
+    {
       "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 11,
       "opis": "Drone strike near Novorossiysk; maritime escalation."
     },
     {
+      "temat": "Explosive drone at German airport",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 10,
+      "opis": "Drone near Ukrainian aircraft; mid-air collision reported."
+    },
+    {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 13,
       "opis": "Seven killed including children at Black Sea resort; direct."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "US-Iran talks progress; shipments may resume through strait."
-    },
-    {
-      "temat": "Italy suspends Schengen with Spain after Ceuta",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Italy halts border-free travel; EU migration strain."
     }
   ],
   "score_history": [
@@ -192,6 +192,10 @@
     {
       "t": "2026-08-06T00:10:10.650660Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-06T01:01:18.634421Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-03T11:43:33.531608Z",
@@ -200,7 +204,7 @@
       "detected_at": "2026-08-04T15:34:54.990222Z",
       "peak_at": "2026-08-05T04:01:17.573162Z",
       "peak_score_at": "2026-08-05T04:01:17.573162Z",
-      "peak_score": 4.0,
+      "peak_score": 3.9,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile strikes Kyiv residential buildings",
@@ -213,6 +217,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/4/russia-strikes-ukrainian-capital-kyiv-with-ballistic-missiles?traffic_source=rss"
+        }
+      ]
+    },
+    "iran says deal with oman on strait of hormuz is in final stages": {
+      "detected_at": "2026-08-04T15:34:54.990222Z",
+      "peak_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score_at": "2026-08-05T09:48:34.282901Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "positive",
+      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+      "peak_label": "Trump threatens Iran over Hormuz Strait closure",
+      "peak_summary": "US officials report progress in talks to reopen Hormuz for oil shipments, with prices falling. Trump warns Iran of military action if passage remains blocked.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-clip-trump-iran-talks-sot?traffic_source=rss"
+        }
+      ]
+    },
+    "israel strikes south lebanon after first evacuation warning in weeks": {
+      "detected_at": "2026-08-06T01:01:18.634421Z",
+      "peak_at": "2026-08-06T01:01:18.634421Z",
+      "peak_score_at": "2026-08-06T01:01:18.634421Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
+      "peak_label": "Israel strikes Lebanon after ceasefire breach",
+      "peak_summary": "First evacuation warning in weeks signals renewed Middle East tension, indirectly affecting regional energy and migration stability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -229,26 +269,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "iran says it has agreed strait of hormuz shipping route with oman": {
-      "detected_at": "2026-08-04T15:34:54.990222Z",
-      "peak_at": "2026-08-05T09:48:34.282901Z",
-      "peak_score_at": "2026-08-05T09:48:34.282901Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-      "peak_label": "Trump threatens Iran over Hormuz Strait closure",
-      "peak_summary": "US officials report progress in talks to reopen Hormuz for oil shipments, with prices falling. Trump warns Iran of military action if passage remains blocked.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-clip-trump-iran-talks-sot?traffic_source=rss"
         }
       ]
     },
@@ -303,7 +323,7 @@
   },
   "prev_top_event_titles": [
     "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
-    "Drone carrying explosives found at German airport, police say",
-    "Iran says it has agreed Strait of Hormuz shipping route with Oman"
+    "Iran says deal with Oman on Strait of Hormuz is in final stages",
+    "Israel strikes south Lebanon after first evacuation warning in weeks"
   ]
 }

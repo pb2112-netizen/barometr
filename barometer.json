@@ -1,11 +1,11 @@
 {
-  "global_score": 3.4,
-  "rationale": "Patriot shortage warning continues to threaten Ukraine's air defense and Poland's eastern security buffer; no qualitative change this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Interceptor shortage in Ukraine continues to threaten spillover; Hormuz deal may ease energy costs slightly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
       "label": "Ukraine warns Patriot shortage costs lives",
-      "summary": "Ukraine publicly warns that lack of Patriot interceptors leaves cities exposed to Russian missile strikes, directly affecting Poland's security buffer on the eastern border.",
+      "summary": "Without interceptors, Ukraine's skies remain exposed to Russian missile barrages, increasing spillover risk to Poland's eastern border and regional security.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-04T09:50:31.155465Z"
     },
     {
+      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
+      "label": "Iran-Oman Hormuz deal nears completion",
+      "summary": "Agreement on vital waterway routes may ease oil supply concerns and indirectly lower energy costs for Poland.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T15:34:54.988526Z"
+    },
+    {
       "title": "Drone carrying explosives found at German airport, police say",
       "label": "Explosive drone found at German airport",
-      "summary": "Explosive drone discovered near Ukrainian cargo planes at German airport, with another mid-air collision reported; raises sabotage concerns in NATO territory close to Poland.",
-      "score": 3.4,
+      "summary": "Drone near Ukrainian cargo planes and mid-air collision raise sabotage concerns within NATO territory, affecting regional security perception.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,56 +58,32 @@
         }
       ],
       "detected_at": "2026-08-05T13:01:30.128405Z"
-    },
-    {
-      "title": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
-      "label": "Iran Oman agree Hormuz shipping route",
-      "summary": "Iran and Oman finalize agreement on Strait of Hormuz shipping routes, potentially easing oil supply concerns and stabilizing energy prices for Poland.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T15:34:54.988526Z"
     }
   ],
-  "short_summary": "Explosive drone found at German airport cargo area",
+  "short_summary": "Drone attack sets Turkish cargo ship ablaze",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-06T00:10:10.648705Z",
+  "updated_at": "2026-08-06T01:01:18.632988Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Explosive drone found at German airport cargo area",
-    "summary": "Explosive-laden drone discovered near Ukrainian aircraft at German airport; second suspected object collided with cargo plane mid-air.",
-    "title": "Drone carrying explosives found at German airport, police say",
-    "score": 4.3,
+    "label": "Drone attack sets Turkish cargo ship ablaze",
+    "summary": "A Turkish cargo vessel caught fire following a drone strike near Novorossiysk in the Black Sea, escalating maritime security concerns in the region critical to Polish trade routes.",
+    "title": "Turkish cargo ship catches fire after Black Sea drone attack",
+    "score": 4.2,
     "sentiment": "negative",
-    "detected_at": "2026-08-05T13:01:30.128405Z",
-    "peak_at": "2026-08-05T13:01:30.128405Z",
+    "detected_at": "2026-08-04T12:17:57.608040Z",
+    "peak_at": "2026-08-05T12:15:56.447074Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-05T13:01:30.128405Z",
+  "events_anchor_at": "2026-08-04T12:17:57.608040Z",
   "score_history": [
     {
       "t": "2026-08-04T01:01:24.812716Z",
@@ -229,6 +224,10 @@
     {
       "t": "2026-08-06T00:10:10.648705Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-06T01:01:18.632988Z",
+      "s": 3.2
     }
   ]
 }

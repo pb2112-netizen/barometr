@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Ukraine's Patriot shortage continues to weaken regional air defense near Romania's border; no new escalation but ongoing vulnerability. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Ukraine interceptor shortage threatens Black Sea region; Hormuz deal may ease energy costs; Lebanon strike shows Middle East instability. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
-      "label": "Ukraine Patriot shortage threatens regional security",
-      "summary": "Ukraine's public warning about critical Patriot interceptor shortage highlights vulnerability of regional air defense, directly affecting Romania's Black Sea security environment.",
+      "label": "Ukraine Patriot shortage threatens region",
+      "summary": "Exposed Ukrainian skies increase risk of escalation near Romania's border and across the Black Sea region.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-04T15:34:54.990222Z"
     },
     {
-      "title": "Drone carrying explosives found at German airport, police say",
-      "label": "Explosive drone found at German airport",
-      "summary": "Discovery of explosive drone near Ukrainian cargo planes in Germany raises sabotage concerns across NATO territory, including Romania's airspace and logistics routes.",
-      "score": 3.0,
-      "sentiment": "negative",
+      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
+      "label": "Iran-Oman finalize Hormuz shipping deal",
+      "summary": "Agreement on the Strait may stabilize oil supply and reduce energy costs for Romania.",
+      "score": 2.7,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T15:34:54.990222Z"
+    },
+    {
+      "title": "Israel strikes south Lebanon after first evacuation warning in weeks",
+      "label": "Israel strikes Lebanon after ceasefire breach",
+      "summary": "First evacuation warning in weeks signals renewed Middle East tension, indirectly affecting regional energy and migration stability.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,34 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-05T13:01:30.130363Z"
-    },
-    {
-      "title": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
-      "label": "Iran Oman finalize Hormuz shipping deal",
-      "summary": "Agreement on Strait of Hormuz routes may stabilize oil shipments and ease energy cost pressures for Romania.",
-      "score": 2.8,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T15:34:54.990222Z"
+      "detected_at": "2026-08-06T01:01:18.634421Z"
     }
   ],
   "short_summary": "Drone attack sets Turkish cargo ship ablaze",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-06T00:10:10.650660Z",
+  "updated_at": "2026-08-06T01:01:18.634421Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -228,6 +223,10 @@
     },
     {
       "t": "2026-08-06T00:10:10.650660Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-06T01:01:18.634421Z",
       "s": 3.0
     }
   ]

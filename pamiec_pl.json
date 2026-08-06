@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-06T00:10:10.654937Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-06T01:01:18.637596Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
   "stan_swiata": [
     {
       "temat": "Russian ballistic missile strike on Kyiv",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
       "temat": "Explosive drone at German airport",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 10,
       "opis": "Drone near Ukrainian aircraft; mid-air collision reported."
     },
     {
       "temat": "Ukraine interceptor shortage",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 6,
       "opis": "Patriot missile shortage leaves Ukraine exposed; spillover."
     },
     {
       "temat": "Iran-Oman Hormuz shipping agreement",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "Deal finalized on Strait routes; may ease oil prices."
     },
     {
       "temat": "Drone 'human safari' attack in Kherson",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 11,
       "opis": "Drone deliberately stalks civilian vendor; war crime claim."
     },
     {
       "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 11,
       "opis": "Drone strike near Novorossiysk; maritime escalation."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 13,
       "opis": "Seven killed including children at Black Sea resort."
     },
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     }
   ],
@@ -192,15 +192,19 @@
     {
       "t": "2026-08-06T00:10:10.648705Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-06T01:01:18.632988Z",
+      "s": 3.2
     }
   ],
-  "events_anchor_at": "2026-08-05T13:01:30.128405Z",
+  "events_anchor_at": "2026-08-04T12:17:57.608040Z",
   "event_detected_at": {
     "after deadly kyiv strike, ukraine warns interceptor shortage is costing lives": {
       "detected_at": "2026-08-04T09:50:31.155465Z",
       "peak_at": "2026-08-05T04:01:17.571398Z",
       "peak_score_at": "2026-08-05T04:01:17.571398Z",
-      "peak_score": 3.8,
+      "peak_score": 3.7,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile hits Kyiv residential area",
@@ -216,23 +220,7 @@
         }
       ]
     },
-    "drone carrying explosives found at german airport, police say": {
-      "detected_at": "2026-08-05T13:01:30.128405Z",
-      "peak_at": "2026-08-05T13:01:30.128405Z",
-      "peak_score_at": "2026-08-05T13:01:30.128405Z",
-      "peak_score": 4.3,
-      "peak_sentiment": "negative",
-      "title": "Drone carrying explosives found at German airport, police say",
-      "peak_label": "Explosive drone found at German airport cargo area",
-      "peak_summary": "Explosive-laden drone discovered near Ukrainian aircraft at German airport; second suspected object collided with cargo plane mid-air.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "iran says it has agreed strait of hormuz shipping route with oman": {
+    "iran says deal with oman on strait of hormuz is in final stages": {
       "detected_at": "2026-08-04T15:34:54.988526Z",
       "peak_at": "2026-08-05T22:20:23.598345Z",
       "peak_score_at": "2026-08-05T22:20:23.598345Z",
@@ -249,6 +237,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/5/iran-says-hormuz-talks-with-oman-in-final-stages-as-route-approved?traffic_source=rss"
+        }
+      ]
+    },
+    "drone carrying explosives found at german airport, police say": {
+      "detected_at": "2026-08-05T13:01:30.128405Z",
+      "peak_at": "2026-08-05T13:01:30.128405Z",
+      "peak_score_at": "2026-08-05T13:01:30.128405Z",
+      "peak_score": 4.2,
+      "peak_sentiment": "negative",
+      "title": "Drone carrying explosives found at German airport, police say",
+      "peak_label": "Explosive drone found at German airport cargo area",
+      "peak_summary": "Explosive-laden drone discovered near Ukrainian aircraft at German airport; second suspected object collided with cargo plane mid-air.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -323,7 +327,7 @@
   },
   "prev_top_event_titles": [
     "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
-    "Drone carrying explosives found at German airport, police say",
-    "Iran says it has agreed Strait of Hormuz shipping route with Oman"
+    "Iran says deal with Oman on Strait of Hormuz is in final stages",
+    "Drone carrying explosives found at German airport, police say"
   ]
 }
