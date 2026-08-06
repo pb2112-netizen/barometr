@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-06T04:01:22.978343Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-08-06T06:44:59.989864Z",
+  "ostatnia_ocena": 6.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian ballistic missile strike on Kyiv",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 9,
       "opis": "Ballistic missile hits residential buildings in capital."
     },
     {
       "temat": "Explosive drone at German airport",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 13,
       "opis": "Drone near Ukrainian aircraft; sabotage threat abroad."
     },
     {
       "temat": "Russia strikes Kyiv logistics hubs",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 0,
       "opis": "Russia hit supply centers in Kyiv region, killing 21."
     },
     {
       "temat": "Patriot interceptor shortage",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 9,
       "opis": "Critical shortage leaves cities exposed; lives lost."
     },
     {
       "temat": "Ukrainian drone kills civilians on Russian beach",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 16,
       "opis": "Seven killed including children; escalation in drone."
     },
     {
       "temat": "Turkish cargo ship attacked in Black Sea",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 14,
       "opis": "Drone strike near Novorossiysk; maritime escalation."
     },
     {
       "temat": "Iran-Oman Hormuz shipping agreement",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 1,
       "opis": "Deal finalized; may ease global oil supply and energy costs."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-04T06:40:04.329456Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-04T07:00:50.947383Z",
       "s": 3.0
@@ -186,15 +182,19 @@
     {
       "t": "2026-08-06T04:01:22.972359Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-06T06:44:59.983436Z",
+      "s": 6.5
     }
   ],
-  "events_anchor_at": "2026-08-05T01:01:53.613902Z",
+  "events_anchor_at": "2026-08-06T06:44:59.983436Z",
   "event_detected_at": {
     "after deadly kyiv strike, ukraine warns interceptor shortage is costing lives": {
       "detected_at": "2026-08-05T01:01:53.613902Z",
       "peak_at": "2026-08-06T04:01:22.972359Z",
       "peak_score_at": "2026-08-05T04:01:17.575646Z",
-      "peak_score": 5.9,
+      "peak_score": 5.8,
       "peak_sentiment": "negative",
       "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
       "peak_label": "Russian ballistic missile hits Kyiv residential buildings",
@@ -210,11 +210,27 @@
         }
       ]
     },
+    "in odesa, no-one is safe from russia's new black sea strikes": {
+      "detected_at": "2026-08-06T06:44:59.983436Z",
+      "peak_at": "2026-08-06T06:44:59.983436Z",
+      "peak_score_at": "2026-08-06T06:44:59.983436Z",
+      "peak_score": 6.5,
+      "peak_sentiment": "negative",
+      "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
+      "peak_label": "Russia surges Black Sea strikes on Odesa",
+      "peak_summary": "Blackened ships and smashed docks mark Russia's recent surge of attacks on Ukraine's coastline, threatening port infrastructure and civilian safety.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "drone carrying explosives found at german airport, police say": {
       "detected_at": "2026-08-05T13:01:30.132781Z",
       "peak_at": "2026-08-05T13:01:30.132781Z",
       "peak_score_at": "2026-08-05T13:01:30.132781Z",
-      "peak_score": 4.4,
+      "peak_score": 4.3,
       "peak_sentiment": "negative",
       "title": "Drone carrying explosives found at German airport, police say",
       "peak_label": "Explosive drone found near Ukrainian aircraft in Germany",
@@ -293,27 +309,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/5-8-sv-russia-attacks-kyiv-ua?traffic_source=rss"
         }
       ]
-    },
-    "turkish cargo ship catches fire after black sea drone attack": {
-      "detected_at": "2026-08-04T18:03:18.259742Z",
-      "peak_at": "2026-08-05T06:41:21.121183Z",
-      "peak_score_at": "2026-08-05T06:41:21.121183Z",
-      "peak_score": 4.7,
-      "peak_sentiment": "negative",
-      "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-      "peak_label": "Drone hunts civilian vendor in Kherson attack",
-      "peak_summary": "Video shows a Russian drone deliberately stalking and attacking a civilian street vendor in Kherson. Ukraine calls it a war crime, highlighting the ongoing terror tactics in occupied areas.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
-    "Drone carrying explosives found at German airport, police say",
-    "Iran says deal with Oman on Strait of Hormuz is in final stages"
+    "In Odesa, no-one is safe from Russia's new Black Sea strikes",
+    "Drone carrying explosives found at German airport, police say"
   ]
 }

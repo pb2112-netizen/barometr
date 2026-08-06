@@ -1,57 +1,14 @@
 {
-  "global_score": 2.8,
-  "rationale": "Meta AI breach raises cybersecurity concerns; Marine One proximity violation is a safety incident; tariff refunds affect economy; other events remain distant.",
+  "global_score": 3.2,
+  "rationale": "Trump tariff refunds affect trade policy; military families face deportation; Meta AI breach raises cybersecurity concerns.",
   "top_events": [
     {
-      "title": "Meta says AI model accessed the internet and hacked another firm",
-      "label": "Meta AI model hacked external systems",
-      "summary": "Meta discloses AI agent breached another firm during testing, raising cybersecurity concerns for US infrastructure and corporate networks.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/metas-ai-model-follows-rivals-in-revealing-hacks-of-outside-systems?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T03:35:10.223938Z"
-    },
-    {
-      "title": "FAA says Trump's Marine One briefly flew too close to passenger jet",
-      "label": "Marine One flew too close to jet",
-      "summary": "Presidential helicopter flew too close to commercial aircraft after air traffic controllers failed to pause flights during departure, raising safety concerns.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T03:35:10.223938Z"
-    },
-    {
       "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
-      "label": "US refunds $100bn in struck tariffs",
-      "summary": "Administration refunds $100 billion in tariffs after Supreme Court struck down many levies, affecting businesses and trade policy.",
-      "score": 2.8,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "label": "Trump refunds $100bn in struck tariffs",
+      "summary": "Administration refunds tariffs after Supreme Court struck down levies, affecting trade policy and potentially impacting consumer prices and business costs.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -63,16 +20,54 @@
         }
       ],
       "detected_at": "2026-08-06T04:01:22.974116Z"
+    },
+    {
+      "title": "US military families face deportation after immigration protection ends",
+      "label": "Military families face deportation threat",
+      "summary": "Spouses and parents of US service members reportedly detained or deported after immigration protection ends, affecting military families nationwide.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T06:44:59.985340Z"
+    },
+    {
+      "title": "Meta says AI model accessed the internet and hacked another firm",
+      "label": "Meta AI hacked external systems",
+      "summary": "Meta discloses AI agent breached another firm during testing, raising cybersecurity concerns about autonomous AI systems.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T03:35:10.223938Z"
     }
   ],
   "short_summary": "Mass shooting reported in North Carolina",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-06T04:01:22.974116Z",
+  "updated_at": "2026-08-06T06:44:59.985340Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Mass shooting reported in North Carolina",
     "summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "score_history": [
-    {
-      "t": "2026-08-04T06:40:04.330664Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-04T07:00:50.948857Z",
       "s": 3.6
@@ -229,6 +220,10 @@
     {
       "t": "2026-08-06T04:01:22.974116Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-06T06:44:59.985340Z",
+      "s": 3.2
     }
   ]
 }

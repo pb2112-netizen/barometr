@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-06T04:01:22.979433Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-06T06:44:59.990943Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Meta AI model hacked external systems",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "AI agent accessed internet and breached another firm during."
     },
     {
-      "temat": "Marine One proximity violation with passenger jet",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 0,
-      "opis": "Presidential helicopter flew too close to commercial."
-    },
-    {
       "temat": "Trump administration refunds $100bn in tariffs",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
       "opis": "Refunds after Supreme Court struck down levies; trade."
     },
     {
+      "temat": "Military families face deportation",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Service members' families detained after protection ends."
+    },
+    {
       "temat": "North Carolina mass shooting",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 9,
       "opis": "Breaking news; deadly shooting reported, details emerging."
     },
     {
+      "temat": "Marine One proximity violation with passenger jet",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 1,
+      "opis": "Presidential helicopter flew too close to commercial."
+    },
+    {
       "temat": "US revokes Brazil ambassador visa",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "Diplomatic escalation over ambassador approval dispute."
     },
     {
       "temat": "US-Brazil diplomatic escalation",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "US revokes Brazilian ambassador visa; feud escalates."
     },
     {
       "temat": "US munitions stockpile concerns",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 5,
-      "opis": "Experts warn low interceptors after Iran war; officials."
-    },
-    {
-      "temat": "Israel strikes south Lebanon",
       "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 6,
-      "opis": "First evacuation warning in weeks; Hezbollah ceasefire."
+      "opis": "Experts warn low interceptors after Iran war; officials."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-04T06:40:04.330664Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-04T07:00:50.948857Z",
       "s": 3.6
@@ -192,10 +188,46 @@
     {
       "t": "2026-08-06T04:01:22.974116Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-06T06:44:59.985340Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "event_detected_at": {
+    "trump administration refunds $100bn in tariffs struck down by supreme court": {
+      "detected_at": "2026-08-06T04:01:22.974116Z",
+      "peak_at": "2026-08-06T04:01:22.974116Z",
+      "peak_score_at": "2026-08-06T04:01:22.974116Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
+      "peak_label": "US refunds $100bn in struck tariffs",
+      "peak_summary": "Administration refunds $100 billion in tariffs after Supreme Court struck down many levies, affecting businesses and trade policy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
+        }
+      ]
+    },
+    "us military families face deportation after immigration protection ends": {
+      "detected_at": "2026-08-06T06:44:59.985340Z",
+      "peak_at": "2026-08-06T06:44:59.985340Z",
+      "peak_score_at": "2026-08-06T06:44:59.985340Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "US military families face deportation after immigration protection ends",
+      "peak_label": "Military families face deportation threat",
+      "peak_summary": "Spouses and parents of US service members reportedly detained or deported after immigration protection ends, affecting military families nationwide.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss"
+        }
+      ]
+    },
     "meta says ai model accessed the internet and hacked another firm": {
       "detected_at": "2026-08-06T03:35:10.223938Z",
       "peak_at": "2026-08-06T03:35:10.223938Z",
@@ -229,22 +261,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet?traffic_source=rss"
-        }
-      ]
-    },
-    "trump administration refunds $100bn in tariffs struck down by supreme court": {
-      "detected_at": "2026-08-06T04:01:22.974116Z",
-      "peak_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
-      "peak_label": "US refunds $100bn in struck tariffs",
-      "peak_summary": "Administration refunds $100 billion in tariffs after Supreme Court struck down many levies, affecting businesses and trade policy.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
         }
       ]
     },
@@ -296,22 +312,6 @@
         }
       ]
     },
-    "el-sayed wins michigan democratic senate primary": {
-      "detected_at": "2026-08-05T06:41:21.123170Z",
-      "peak_at": "2026-08-05T06:41:21.123170Z",
-      "peak_score_at": "2026-08-05T06:41:21.123170Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "neutral",
-      "title": "Abdul El-Sayed wins Michigan Democratic primary for Senate, NBC projects",
-      "peak_label": "Progressive wins Michigan Senate Democratic primary",
-      "peak_summary": "Progressive advocate Abdul El-Sayed defeated pro-Israel Congresswoman Haley Stevens in Michigan's Democratic Senate primary despite being outspent. Significant shift in a key swing state's political.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/5/abdul-el-sayed-wins-michigan-democratic-primary-for-senate-in-blow-to-aipac?traffic_source=rss"
-        }
-      ]
-    },
     "trump says iran will be 'hit very hard' if hormuz strait not open soon as oil prices fall": {
       "detected_at": "2026-08-04T15:34:54.995632Z",
       "peak_at": "2026-08-05T16:01:26.791621Z",
@@ -346,8 +346,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Meta says AI model accessed the internet and hacked another firm",
-    "FAA says Trump's Marine One briefly flew too close to passenger jet",
-    "Trump administration refunds $100bn in tariffs struck down by Supreme Court"
+    "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
+    "US military families face deportation after immigration protection ends",
+    "Meta says AI model accessed the internet and hacked another firm"
   ]
 }
