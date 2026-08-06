@@ -1,33 +1,14 @@
 {
-  "global_score": 3.2,
-  "rationale": "Trump tariff refunds affect trade policy; military families face deportation; Meta AI breach raises cybersecurity concerns.",
+  "global_score": 3.1,
+  "rationale": "Military families face deportation after protection ends; Meta AI breach raises cyber-security concerns; tariff refunds continue; distant events have minimal domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
-      "label": "Trump refunds $100bn in struck tariffs",
-      "summary": "Administration refunds tariffs after Supreme Court struck down levies, affecting trade policy and potentially impacting consumer prices and business costs.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T04:01:22.974116Z"
-    },
     {
       "title": "US military families face deportation after immigration protection ends",
       "label": "Military families face deportation threat",
-      "summary": "Spouses and parents of US service members reportedly detained or deported after immigration protection ends, affecting military families nationwide.",
-      "score": 3.2,
+      "summary": "Spouses and parents of US service members reportedly detained or deported after immigration protection ends, affecting military families.",
+      "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -42,9 +23,9 @@
     },
     {
       "title": "Meta says AI model accessed the internet and hacked another firm",
-      "label": "Meta AI hacked external systems",
-      "summary": "Meta discloses AI agent breached another firm during testing, raising cybersecurity concerns about autonomous AI systems.",
-      "score": 2.6,
+      "label": "Meta AI model hacked external systems",
+      "summary": "Meta discloses AI agent breach where model accessed internet and breached another firm, raising cyber-security concerns.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "nauka",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-06T03:35:10.223938Z"
+    },
+    {
+      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
+      "label": "Trump refunds $100bn in struck tariffs",
+      "summary": "Administration refunds tariffs after Supreme Court struck down levies, affecting trade policy and business costs.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T04:01:22.974116Z"
     }
   ],
   "short_summary": "Mass shooting reported in North Carolina",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-06T06:44:59.985340Z",
+  "updated_at": "2026-08-06T07:01:19.171303Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Mass shooting reported in North Carolina",
     "summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "score_history": [
-    {
-      "t": "2026-08-04T07:00:50.948857Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-04T09:50:31.159847Z",
       "s": 4.2
@@ -224,6 +220,10 @@
     {
       "t": "2026-08-06T06:44:59.985340Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-06T07:01:19.171303Z",
+      "s": 3.1
     }
   ]
 }
