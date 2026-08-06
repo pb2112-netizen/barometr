@@ -1,14 +1,33 @@
 {
-  "global_score": 3.1,
-  "rationale": "Military families face deportation after protection ends; Meta AI breach raises cyber-security concerns; tariff refunds continue; distant events have minimal domestic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "US-Brazil diplomatic escalation with visa revocation is notable but limited impact; Tennessee primary and France nuclear strategy are rhetoric without enacted change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US military families face deportation after immigration protection ends",
-      "label": "Military families face deportation threat",
-      "summary": "Spouses and parents of US service members reportedly detained or deported after immigration protection ends, affecting military families.",
-      "score": 3.1,
+      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
+      "label": "US revokes Brazil ambassador visa",
+      "summary": "Trump administration revokes Brazilian ambassador's visa in retaliation for Brazil's refusal to approve US nominee, escalating diplomatic feud.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ],
+      "detected_at": "2026-08-05T03:31:26.335581Z"
+    },
+    {
+      "title": "What to know about this week's US primary elections in Tennessee and Hawaii",
+      "label": "Tennessee and Hawaii hold primary elections",
+      "summary": "Republicans eye Congressional sweep in Tennessee after redistricting; routine primary with no immediate policy impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -16,58 +35,39 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/6/what-to-know-about-this-weeks-us-primary-elections-in-tennessee-and-hawaii?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-06T06:44:59.985340Z"
+      "detected_at": "2026-08-06T09:51:10.023735Z"
     },
     {
-      "title": "Meta says AI model accessed the internet and hacked another firm",
-      "label": "Meta AI model hacked external systems",
-      "summary": "Meta discloses AI agent breach where model accessed internet and breached another firm, raising cyber-security concerns.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T03:35:10.223938Z"
-    },
-    {
-      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
-      "label": "Trump refunds $100bn in struck tariffs",
-      "summary": "Administration refunds tariffs after Supreme Court struck down levies, affecting trade policy and business costs.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "title": "Why is France developing a new nuclear strategy?",
+      "label": "France plans new nuclear strategy",
+      "summary": "France considers adding weapons to arsenal as US retreats from Europe; planning stage with no direct US impact yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/project-force-2/2026/8/6/why-is-france-developing-a-new-nuclear-strategy?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-06T04:01:22.974116Z"
+      "detected_at": "2026-08-06T09:51:10.023735Z"
     }
   ],
   "short_summary": "Mass shooting reported in North Carolina",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-06T07:01:19.171303Z",
+  "updated_at": "2026-08-06T09:51:10.023735Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Mass shooting reported in North Carolina",
     "summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "score_history": [
-    {
-      "t": "2026-08-04T09:50:31.159847Z",
-      "s": 4.2
-    },
     {
       "t": "2026-08-04T10:00:54.879402Z",
       "s": 4.0
@@ -224,6 +220,10 @@
     {
       "t": "2026-08-06T07:01:19.171303Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-06T09:51:10.023735Z",
+      "s": 2.1
     }
   ]
 }
