@@ -1,11 +1,30 @@
 {
-  "global_score": 5.9,
-  "rationale": "Ukraine publicly warns Patriot shortage is costing lives after deadly Kyiv strike; Odesa attacks continue; both directly threaten Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.6,
+  "rationale": "Surge of Russian strikes on Odesa coastline and continued Patriot shortage leave Ukrainian cities critically exposed; both situations directly threaten civilian safety. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
+      "label": "Russia surges Black Sea strikes on Odesa",
+      "summary": "Russia's recent surge of attacks on Ukraine's Black Sea coastline damages ships and docks in Odesa. Direct threat to civilians and infrastructure in southern Ukraine.",
+      "score": 5.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T06:44:59.983436Z"
+    },
     {
       "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
       "label": "Ukraine warns Patriot shortage costs lives",
-      "summary": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages, directly threatening lives.",
+      "summary": "Without Patriot interceptors, Ukraine's air defenses are critically weakened, leaving cities fully exposed to Russian missile barrages. Lives are being lost due to shortage.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-05T01:01:53.613902Z"
     },
     {
-      "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
-      "label": "Russia surges Black Sea attacks on Odesa",
-      "summary": "Russia's recent surge of strikes on Ukraine's coastline directly threatens residents in Odesa and surrounding areas.",
-      "score": 5.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T06:44:59.983436Z"
-    },
-    {
       "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
       "label": "Iran-Oman Hormuz deal nears completion",
-      "summary": "Agreement on the vital waterway may ease global oil supply, indirectly benefiting Ukraine's energy situation.",
+      "summary": "Agreement on Strait of Hormuz shipping routes is in final stages. If finalized, could ease global oil supply and indirectly lower energy costs for Ukraine.",
       "score": 2.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-06T12:18:29.097150Z",
+  "updated_at": "2026-08-06T13:01:23.211280Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia surges Black Sea strikes on Odesa",
     "summary": "Blackened ships and smashed docks mark Russia's recent surge of attacks on Ukraine's coastline, threatening port infrastructure and civilian safety.",
     "title": "In Odesa, no-one is safe from Russia's new Black Sea strikes",
-    "score": 6.5,
+    "score": 6.4,
     "sentiment": "negative",
     "detected_at": "2026-08-06T06:44:59.983436Z",
     "peak_at": "2026-08-06T06:44:59.983436Z",
@@ -224,6 +224,10 @@
     {
       "t": "2026-08-06T12:18:29.097150Z",
       "s": 5.9
+    },
+    {
+      "t": "2026-08-06T13:01:23.211280Z",
+      "s": 5.6
     }
   ]
 }

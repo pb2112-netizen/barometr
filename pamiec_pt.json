@@ -1,43 +1,49 @@
 {
-  "updated_at": "2026-08-06T12:18:29.102676Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-06T13:01:23.221586Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Oil prices fall on Hormuz reopening hopes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "US-Iran talks progress; shipments may resume through strait."
     },
     {
       "temat": "Von der Leyen calls for stronger EU borders after Ceuta",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 6,
       "opis": "Commission president demands action after 50,000 cross to."
     },
     {
       "temat": "Guatemala volcano eruption",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Fuego volcano erupts; hundreds evacuated; no Portugal link."
     },
     {
       "temat": "Iran-Oman Hormuz shipping agreement",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 5,
       "opis": "Deal finalized; may ease oil supply and energy costs."
     },
     {
       "temat": "Europe summer travel patterns shift",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Tourists stay closer to home amid Middle East conflict."
     },
     {
       "temat": "Middle East conflict shifts EU tourism patterns",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "Tourists stay closer to home; may benefit Portugal tourism."
+    },
+    {
+      "temat": "Morocco-US ties scrutinized after Ceuta crisis",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Washington-Rabat relationship under scrutiny after Ceuta."
     }
   ],
   "score_history": [
@@ -180,10 +186,66 @@
     {
       "t": "2026-08-06T12:18:29.095663Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-06T13:01:23.209756Z",
+      "s": 2.1
     }
   ],
   "events_anchor_at": "2026-08-04T12:17:57.611249Z",
   "event_detected_at": {
+    "iran says deal with oman on strait of hormuz is in final stages": {
+      "detected_at": "2026-08-04T15:34:54.991656Z",
+      "peak_at": "2026-08-06T00:10:10.651658Z",
+      "peak_score_at": "2026-08-06T00:10:10.651658Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "positive",
+      "title": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
+      "peak_label": "Iran Oman agree on Hormuz shipping",
+      "peak_summary": "Iran and Oman finalize Strait of Hormuz shipping agreement, potentially stabilizing oil supply and indirectly benefiting Portugal's energy costs.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss"
+        }
+      ]
+    },
+    "us to shut five consulates as critics fear china could fill diplomatic vacuum": {
+      "detected_at": "2026-08-06T13:01:23.209756Z",
+      "peak_at": "2026-08-06T13:01:23.209756Z",
+      "peak_score_at": "2026-08-06T13:01:23.209756Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+      "peak_label": "US closes five foreign consulates",
+      "peak_summary": "US State Department plans to close consulates in Canada, Japan, Indonesia, Grenada, and Cameroon. Minimal direct impact on Portugal; reflects broader US diplomatic shifts.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+        }
+      ]
+    },
+    "'morocco feels emboldened': trump's influence in spotlight after ceuta disaster": {
+      "detected_at": "2026-08-05T16:52:42.067177Z",
+      "peak_at": "2026-08-05T18:49:49.795734Z",
+      "peak_score_at": "2026-08-05T18:49:49.795734Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Hundreds in Morocco gather near Ceuta border in anxious wait for missing loved ones",
+      "peak_label": "Families wait for missing at Ceuta border",
+      "peak_summary": "Death toll nears 100 as families gather in Morocco hoping to find relatives; humanitarian crisis continues at EU border.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/05/hundreds-in-morocco-gather-near-ceuta-border-in-anxious-wait-for-missing-loved-ones"
+        }
+      ]
+    },
     "us-israel war on iran upends europe's summer holiday travel patterns": {
       "detected_at": "2026-08-06T09:51:10.020695Z",
       "peak_at": "2026-08-06T09:51:10.020695Z",
@@ -200,26 +262,6 @@
         }
       ]
     },
-    "iran says deal with oman on strait of hormuz is in final stages": {
-      "detected_at": "2026-08-04T15:34:54.991656Z",
-      "peak_at": "2026-08-06T00:10:10.651658Z",
-      "peak_score_at": "2026-08-06T00:10:10.651658Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
-      "peak_label": "Iran Oman agree on Hormuz shipping",
-      "peak_summary": "Iran and Oman finalize Strait of Hormuz shipping agreement, potentially stabilizing oil supply and indirectly benefiting Portugal's energy costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss"
-        }
-      ]
-    },
     "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
       "detected_at": "2026-08-06T12:18:29.095663Z",
       "peak_at": "2026-08-06T12:18:29.095663Z",
@@ -233,22 +275,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
-        }
-      ]
-    },
-    "'morocco feels emboldened': trump's influence in spotlight after ceuta disaster": {
-      "detected_at": "2026-08-05T16:52:42.067177Z",
-      "peak_at": "2026-08-05T18:49:49.795734Z",
-      "peak_score_at": "2026-08-05T18:49:49.795734Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Hundreds in Morocco gather near Ceuta border in anxious wait for missing loved ones",
-      "peak_label": "Families wait for missing at Ceuta border",
-      "peak_summary": "Death toll nears 100 as families gather in Morocco hoping to find relatives; humanitarian crisis continues at EU border.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/05/hundreds-in-morocco-gather-near-ceuta-border-in-anxious-wait-for-missing-loved-ones"
         }
       ]
     },
@@ -322,8 +348,8 @@
     }
   },
   "prev_top_event_titles": [
-    "US-Israel war on Iran upends Europe's summer holiday travel patterns",
     "Iran says deal with Oman on Strait of Hormuz is in final stages",
-    "US revokes Brazil ambassador's visa in escalation of diplomatic feud"
+    "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+    "'Morocco feels emboldened': Trump's influence in spotlight after Ceuta disaster"
   ]
 }
