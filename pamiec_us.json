@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-06T13:01:23.223875Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-06T15:27:47.938637Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US revokes Brazil ambassador visa",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Diplomatic escalation over ambassador approval dispute."
     },
     {
       "temat": "US-Brazil diplomatic escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US revokes Brazilian ambassador visa; feud escalates."
     },
     {
-      "temat": "US closes five foreign consulates",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Closures in Canada, Japan, Indonesia, Grenada, Cameroon."
+      "temat": "Senate votes Fauci contempt",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Committee refers Fauci for prosecution over Covid hearing."
     },
     {
       "temat": "North Carolina mass shooting",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 15,
       "opis": "Breaking news; deadly shooting reported, details emerging."
     },
     {
       "temat": "Military families face deportation",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Service members' families detained after protection ends."
     },
     {
       "temat": "Trump administration refunds $100bn in tariffs",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 7,
       "opis": "Refunds after Supreme Court struck down levies; trade."
     },
     {
-      "temat": "Meta AI model hacked external systems",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 7,
-      "opis": "AI agent accessed internet and breached another firm during."
+      "temat": "US closes five foreign consulates",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
+      "opis": "Closures in Canada, Japan, Indonesia, Grenada, Cameroon."
     },
     {
       "temat": "US curbs on foreign robotics",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "US restrictions on foreign robots intensify China rivalry."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-04T13:01:34.375328Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-04T15:34:54.995632Z",
       "s": 3.0
@@ -196,6 +192,10 @@
     {
       "t": "2026-08-06T13:01:23.212851Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-06T15:27:47.932372Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
@@ -204,7 +204,7 @@
       "detected_at": "2026-08-05T03:31:26.335581Z",
       "peak_at": "2026-08-05T18:49:49.799294Z",
       "peak_score_at": "2026-08-05T18:49:49.799294Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "negative",
       "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
       "peak_label": "US revokes Brazil ambassador visa",
@@ -213,6 +213,42 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ]
+    },
+    "us senate committee votes to hold fauci in contempt over covid hearing": {
+      "detected_at": "2026-08-06T15:27:47.932372Z",
+      "peak_at": "2026-08-06T15:27:47.932372Z",
+      "peak_score_at": "2026-08-06T15:27:47.932372Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
+      "peak_label": "Senate committee votes Fauci contempt charge",
+      "peak_summary": "Committee refers Fauci for possible prosecution over Covid hearing refusal. Domestic political action; no immediate policy impact on daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump denies us weapons shortage and says information 'leakers' being 'hunted down'": {
+      "detected_at": "2026-08-06T15:27:47.932372Z",
+      "peak_at": "2026-08-06T15:27:47.932372Z",
+      "peak_score_at": "2026-08-06T15:27:47.932372Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "peak_label": "Trump denies weapons shortage amid leaker hunt",
+      "peak_summary": "President denies munitions depletion reports. Rhetoric only; no confirmed policy change or military deployment affecting US residents.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/6/trump-vows-to-find-leakers-after-reports-of-depleted-iran-war-munitions?traffic_source=rss"
         }
       ]
     },
@@ -395,27 +431,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "guatemala volcano eruption prompts evacuation of hundreds of people": {
-      "detected_at": "2026-08-05T13:01:30.134342Z",
-      "peak_at": "2026-08-05T13:01:30.134342Z",
-      "peak_score_at": "2026-08-05T13:01:30.134342Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "negative",
-      "title": "Guatemala volcano eruption prompts evacuation of hundreds of people",
-      "peak_label": "Guatemala volcano forces hundreds to evacuate",
-      "peak_summary": "Fuego volcano erupts sending lava and ash four miles high; hundreds evacuated as Guatemala declares second-highest alert.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-    "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-    "Can the US slow China's robotics and tech rise?"
+    "US Senate committee votes to hold Fauci in contempt over Covid hearing",
+    "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'"
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "US revokes Brazil ambassador's visa in diplomatic escalation; consulate closures reflect broader policy shift; both are rhetoric-driven with limited immediate domestic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "US revokes Brazil ambassador visa (new diplomatic escalation); Trump denies weapons shortage (rhetoric); Fauci contempt vote (domestic politics); consulate closures continue; distant conflicts minimal impact.",
   "top_events": [
     {
       "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-      "label": "US revokes Brazil ambassador visa",
-      "summary": "Trump administration revokes Brazilian ambassador's visa in retaliation for Brazil's refusal to approve Trump's nominee. Diplomatic escalation with limited immediate domestic impact.",
+      "label": "US revokes Brazil ambassador visa in feud",
+      "summary": "Trump administration revokes Brazilian ambassador's visa after Brazil refused to approve US nominee. New confirmed diplomatic escalation with major regional partner.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,52 +22,57 @@
       "detected_at": "2026-08-05T03:31:26.335581Z"
     },
     {
-      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US closes five foreign consulates",
-      "summary": "State Department plans to close consulates in Canada, Japan, Indonesia, Grenada, and Cameroon. Reflects broader diplomatic policy shift with minimal immediate domestic impact.",
+      "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
+      "label": "Senate committee votes Fauci contempt charge",
+      "summary": "Committee refers Fauci for possible prosecution over Covid hearing refusal. Domestic political action; no immediate policy impact on daily life.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T15:27:47.932372Z"
+    },
+    {
+      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "label": "Trump denies weapons shortage amid leaker hunt",
+      "summary": "President denies munitions depletion reports. Rhetoric only; no confirmed policy change or military deployment affecting US residents.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
-        }
-      ],
-      "detected_at": "2026-08-06T10:01:24.917288Z"
-    },
-    {
-      "title": "Can the US slow China's robotics and tech rise?",
-      "label": "US curbs on foreign robotics intensify",
-      "summary": "US restrictions on foreign-made robots intensify wider rivalry with China over AI, chips, and industry. Policy announcement with unclear immediate domestic impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/6/can-the-us-slow-chinas-robotics-and-tech-rise?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/6/trump-vows-to-find-leakers-after-reports-of-depleted-iran-war-munitions?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-06T12:18:29.099064Z"
+      "detected_at": "2026-08-06T15:27:47.932372Z"
     }
   ],
   "short_summary": "Mass shooting reported in North Carolina",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-06T13:01:23.212851Z",
+  "updated_at": "2026-08-06T15:27:47.932372Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Mass shooting reported in North Carolina",
     "summary": "Breaking news of deadly mass shooting; details emerging. Direct threat to domestic safety, awaiting casualty confirmation.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-05T18:49:49.799294Z",
   "score_history": [
-    {
-      "t": "2026-08-04T13:01:34.375328Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-04T15:34:54.995632Z",
       "s": 3.0
@@ -228,6 +229,10 @@
     {
       "t": "2026-08-06T13:01:23.212851Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-06T15:27:47.932372Z",
+      "s": 2.8
     }
   ]
 }
