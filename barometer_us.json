@@ -1,12 +1,31 @@
 {
-  "global_score": 3.5,
-  "rationale": "Continuation of known background: Meta fine, Trump birthright orders, weapons shortage rhetoric—no qualitative change affecting US daily life.",
+  "global_score": 2.9,
+  "rationale": "US weapons shortage claims continue; Meta fine continues; US consulate closures announced but limited domestic impact.",
   "top_events": [
+    {
+      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "label": "Trump denies weapons shortage, hunts leakers",
+      "summary": "President denies shortage of weapons for Ukraine aid while pursuing leakers. Domestic political controversy over classified information and foreign policy continues.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T15:27:47.932372Z"
+    },
     {
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "label": "Meta fined $567m for child safety violations",
-      "summary": "New Mexico court orders payment for harming children online, total $942m. Continuation of known case, largest child safety payment ever.",
-      "score": 3.0,
+      "summary": "New Mexico court orders Meta to pay $567m for harming children online. Largest child safety fine ever against social media company.",
+      "score": 2.9,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -22,10 +41,10 @@
       "detected_at": "2026-08-07T00:15:09.133768Z"
     },
     {
-      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-      "label": "US revokes Brazil ambassador visa in feud",
-      "summary": "Trump administration revokes visa in retaliation for Brazil's refusal to approve US nominee. Escalation of known diplomatic feud, direct US action.",
-      "score": 3.5,
+      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+      "label": "US to close five foreign consulates",
+      "summary": "State department plans closures in Canada, Japan, Indonesia, Cameroon, and Grenada. Critics warn China may fill diplomatic vacuum in affected regions.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -35,44 +54,18 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
         }
       ],
-      "detected_at": "2026-08-07T04:01:17.265977Z"
-    },
-    {
-      "title": "Trump again tries to limit US birthright citizenship with new executive orders",
-      "label": "Trump expands birthright citizenship limits",
-      "summary": "New executive orders ban birth tourism and expand ineligibility definitions. Continuation of known policy push, direct domestic impact.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T22:01:30.084215Z"
-    }
-  ],
-  "nowe_tematos": [
-    {
-      "temat": "US revokes Brazil ambassador visa",
-      "poziom_bazowy": 3.5,
-      "opis": "Visa revoked in retaliation for nominee rejection; feud escalates."
+      "detected_at": "2026-08-06T10:01:24.917288Z"
     }
   ],
   "short_summary": "Trump signs orders limiting birthright citizenship",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-07T07:01:16.527512Z",
+  "updated_at": "2026-08-07T08:20:54.386997Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -92,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-06T22:01:30.084215Z",
   "score_history": [
-    {
-      "t": "2026-08-05T07:01:22.554987Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-05T09:48:34.286700Z",
       "s": 3.2
@@ -219,6 +208,10 @@
     {
       "t": "2026-08-07T07:01:16.527512Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-07T08:20:54.386997Z",
+      "s": 2.9
     }
   ]
 }
