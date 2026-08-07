@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Continuation of known background (Ukraine strikes on refineries, US weapons debate); no qualitative new change in military situation or aid flow.",
+  "rationale": "Continuation of known background: US weapons shortage rhetoric, no confirmed strikes or aid changes this cycle—no qualitative change to war situation.",
   "top_events": [
     {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-      "label": "Trump denies US weapons shortage, hunts leakers",
-      "summary": "US president denies shortage of weapons for Ukraine and pursues leakers; may affect aid flow but no confirmed change yet.",
+      "label": "Trump denies weapons shortage, hunts leakers",
+      "summary": "US president denies shortage claims and pursues leakers; rhetoric only, no confirmed policy change affecting aid flow or battlefield situation yet.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -23,11 +23,11 @@
     },
     {
       "title": "Israeli raid in West Bank's Qalandiya injures 51 Palestinians",
-      "label": "Israeli raid in West Bank injures 51 Palestinians",
-      "summary": "Israeli forces arrest dozens near Jerusalem amid uptick in violence; distant conflict with no direct impact on Ukraine.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "label": "Israeli raid in West Bank injures 51",
+      "summary": "Israeli forces arrest dozens near Jerusalem amid uptick in violence; distant conflict with no direct link to Ukraine war or daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -41,28 +41,23 @@
       "detected_at": "2026-08-07T03:15:35.172113Z"
     },
     {
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "label": "Meta fined $567m for child safety violations",
-      "summary": "New Mexico court orders payment for harming children online; regulatory action with no direct impact on Ukraine.",
+      "title": "Record-high heat soars through South Korea",
+      "label": "Record heatwave hits South Korea, 42.5C",
+      "summary": "Temperatures reach 42.5C on Korean Peninsula; distant weather event with no link to Ukraine.",
       "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/record-high-heat-soars-through-south-korea?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-07T03:15:35.172113Z"
+      "detected_at": "2026-08-07T00:15:09.131904Z"
     }
   ],
   "short_summary": "Ukraine strikes two Russian refineries deep inside",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-07T05:03:38.261991Z",
+  "updated_at": "2026-08-07T06:18:33.406793Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -212,6 +207,10 @@
     },
     {
       "t": "2026-08-07T05:03:38.261991Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-07T06:18:33.406793Z",
       "s": 3.0
     }
   ]
