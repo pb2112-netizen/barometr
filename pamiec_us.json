@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-07T04:01:17.272143Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-07T05:03:38.268862Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US weapons shortage claims and leaker hunt",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 5,
       "opis": "Trump denies shortage; hunts leakers; aid implications."
     },
     {
       "temat": "Meta fined $567m for child safety",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 4,
       "opis": "New Mexico court orders largest child safety payment ever."
     },
     {
       "temat": "US-Brazil diplomatic feud escalates",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "US revokes Brazil ambassador visa after nominee rejection."
     },
     {
-      "temat": "Trump imposes 15% tariff on chip material",
-      "poziom_bazowy": 3.8,
+      "temat": "US revokes Brazil ambassador visa",
+      "poziom_bazowy": 3.2,
       "cykle_bez_zmian": 1,
+      "opis": "Visa revoked in retaliation for nominee rejection; feud."
+    },
+    {
+      "temat": "Trump imposes 15% tariff on chip material",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 2,
       "opis": "New tariff to counter China; may affect tech sector costs."
     },
     {
       "temat": "Trump birthright citizenship executive orders",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 5,
       "opis": "New orders to limit constitutional birthright after court."
     },
     {
       "temat": "US ends local TV ownership cap",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "39% cap removed; media consolidation concerns raised."
     },
     {
       "temat": "Senate votes Fauci contempt",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
-      "opis": "Committee refers Fauci for prosecution over Covid hearing."
-    },
-    {
-      "temat": "North Carolina mass shooting",
       "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 20,
-      "opis": "Breaking news; deadly shooting reported, details emerging."
+      "cykle_bez_zmian": 6,
+      "opis": "Committee refers Fauci for prosecution over Covid hearing."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-05T04:01:17.577407Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-05T06:41:21.123170Z",
       "s": 3.8
@@ -176,10 +172,30 @@
     {
       "t": "2026-08-07T04:01:17.265977Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-07T05:03:38.264079Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-06T22:01:30.084215Z",
   "event_detected_at": {
+    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
+      "detected_at": "2026-08-07T04:01:17.265977Z",
+      "peak_at": "2026-08-07T04:01:17.265977Z",
+      "peak_score_at": "2026-08-07T04:01:17.265977Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
+      "peak_label": "US revokes Brazil ambassador visa in feud",
+      "peak_summary": "Trump administration retaliates after Brazil refused to approve US ambassador nominee; diplomatic escalation with major South American partner.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+        }
+      ]
+    },
     "meta fined $567m in largest child safety ruling against social media giant": {
       "detected_at": "2026-08-07T00:15:09.133768Z",
       "peak_at": "2026-08-07T00:15:09.133768Z",
@@ -200,7 +216,7 @@
       "detected_at": "2026-08-06T15:27:47.932372Z",
       "peak_at": "2026-08-06T22:01:30.084215Z",
       "peak_score_at": "2026-08-06T22:01:30.084215Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "neutral",
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
       "peak_label": "Trump denies weapons shortage, hunts leakers",
@@ -209,22 +225,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us revokes brazil ambassador's visa in escalation of diplomatic feud": {
-      "detected_at": "2026-08-07T04:01:17.265977Z",
-      "peak_at": "2026-08-07T04:01:17.265977Z",
-      "peak_score_at": "2026-08-07T04:01:17.265977Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
-      "peak_label": "US revokes Brazil ambassador visa in feud",
-      "peak_summary": "Trump administration retaliates after Brazil refused to approve US ambassador nominee; diplomatic escalation with major South American partner.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
         }
       ]
     },
@@ -371,43 +371,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/us-military-families-face-deportation-after-immigration-protection-ends?traffic_source=rss"
         }
       ]
-    },
-    "trump administration refunds $100bn in tariffs struck down by supreme court": {
-      "detected_at": "2026-08-06T04:01:22.974116Z",
-      "peak_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "Trump administration refunds $100bn in tariffs struck down by Supreme Court",
-      "peak_label": "US refunds $100bn in struck tariffs",
-      "peak_summary": "Administration refunds $100 billion in tariffs after Supreme Court struck down many levies, affecting businesses and trade policy.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
-        }
-      ]
-    },
-    "faa says trump's marine one briefly flew too close to passenger jet": {
-      "detected_at": "2026-08-06T03:35:10.223938Z",
-      "peak_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score_at": "2026-08-06T04:01:22.974116Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "FAA says Trump's Marine One briefly flew too close to passenger jet",
-      "peak_label": "Marine One flew too close to jet",
-      "peak_summary": "Presidential helicopter flew too close to commercial aircraft after air traffic controllers failed to pause flights during departure, raising safety concerns.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US revokes Brazil ambassador's visa in escalation of diplomatic feud",
     "Meta fined $567m in largest child safety ruling against social media giant",
-    "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-    "US revokes Brazil ambassador's visa in escalation of diplomatic feud"
+    "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'"
   ]
 }

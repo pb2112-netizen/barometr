@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Continuation of known situations; no new qualitative military change on Ukrainian territory this cycle.",
+  "rationale": "Continuation of known background (Ukraine strikes on refineries, US weapons debate); no qualitative new change in military situation or aid flow.",
   "top_events": [
     {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
       "label": "Trump denies US weapons shortage, hunts leakers",
-      "summary": "US president denies shortage claims while hunting leakers; may affect Ukraine aid flow and military supply continuity.",
+      "summary": "US president denies shortage of weapons for Ukraine and pursues leakers; may affect aid flow but no confirmed change yet.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -23,11 +23,11 @@
     },
     {
       "title": "Israeli raid in West Bank's Qalandiya injures 51 Palestinians",
-      "label": "Israeli raid in West Bank injures 51",
+      "label": "Israeli raid in West Bank injures 51 Palestinians",
       "summary": "Israeli forces arrest dozens near Jerusalem amid uptick in violence; distant conflict with no direct impact on Ukraine.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -41,23 +41,28 @@
       "detected_at": "2026-08-07T03:15:35.172113Z"
     },
     {
-      "title": "Iran war live: Trump says war can't 'go much longer'; Hormuz deal close",
-      "label": "Iran war live: Trump says war can't 'go much",
-      "summary": "US, Iran, Oman close to temporary deal to reopen Strait of Hormuz; may ease global oil supply and energy costs indirectly.",
-      "score": 2.0,
-      "sentiment": "positive",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "New Mexico court orders payment for harming children online; regulatory action with no direct impact on Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-06T01:01:18.635873Z"
+      "detected_at": "2026-08-07T03:15:35.172113Z"
     }
   ],
   "short_summary": "Ukraine strikes two Russian refineries deep inside",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-07T04:01:17.263922Z",
+  "updated_at": "2026-08-07T05:03:38.261991Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-06T09:51:10.022066Z",
   "score_history": [
-    {
-      "t": "2026-08-05T04:01:17.575646Z",
-      "s": 7.3
-    },
     {
       "t": "2026-08-05T06:41:21.121183Z",
       "s": 6.8
@@ -207,6 +208,10 @@
     },
     {
       "t": "2026-08-07T04:01:17.263922Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-07T05:03:38.261991Z",
       "s": 3.0
     }
   ]
