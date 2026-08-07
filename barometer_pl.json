@@ -1,30 +1,11 @@
 {
-  "global_score": 3.8,
-  "rationale": "Ukraine refinery strikes continue at same intensity; US weapons shortage rhetoric persists without new policy action; other headlines lack direct Polish impact.",
+  "global_score": 3.0,
+  "rationale": "Ukraine refinery strikes continue at same intensity; US weapons shortage rhetoric persists; Ceuta aftermath and Meta fine are distant; no new direct impact on Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Ukraine hits two oil refineries deep in Russian territory",
-      "label": "Ukraine strikes Russian oil refineries deep inside",
-      "summary": "Ukrainian offensive continues targeting Russian energy infrastructure to limit war financing. No new escalation from previous cycles; energy market impact remains indirect for Poland.",
-      "score": 3.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T15:27:47.924498Z"
-    },
     {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
       "label": "Trump denies weapons shortage hunts leakers",
-      "summary": "US president continues rhetoric on weapons supply and internal leaks. No confirmed policy change affecting Ukraine aid flow to Poland's eastern neighbor.",
+      "summary": "US president denies shortage of difficult-to-manufacture weapons and pursues leakers. May affect Ukraine aid flow indirectly, but no confirmed policy change yet.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -42,11 +23,11 @@
     },
     {
       "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "label": "Thousands remain in Ceuta after Morocco crisis",
-      "summary": "Spanish territory reports 100 deaths and ongoing presence of migrants after 78,000 crossed from Morocco. Distant EU border issue with no direct Polish impact.",
-      "score": 2.4,
+      "label": "Thousands remain in Ceuta after border crisis",
+      "summary": "Spanish territory reports 100 deaths and thousands still present after 78,000 crossed from Morocco. Distant from Poland; EU migration pressure context only.",
+      "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,14 +39,38 @@
         }
       ],
       "detected_at": "2026-08-03T22:01:27.477532Z"
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "New Mexico court orders payment for harming children online. Distant US legal ruling with no direct impact on Poland.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T03:15:35.167613Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian oil refineries deep inside",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-07T01:01:25.881115Z",
+  "updated_at": "2026-08-07T03:15:35.167613Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-06T15:27:47.924498Z",
   "score_history": [
-    {
-      "t": "2026-08-05T01:01:53.610164Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-05T03:31:26.329058Z",
       "s": 4.6
@@ -208,6 +209,10 @@
     {
       "t": "2026-08-07T01:01:25.881115Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-07T03:15:35.167613Z",
+      "s": 3.0
     }
   ]
 }

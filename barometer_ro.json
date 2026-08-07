@@ -1,30 +1,11 @@
 {
-  "global_score": 3.9,
-  "rationale": "Ukraine refinery strikes continue at same level; US weapons shortage rhetoric persists; Ceuta migrant crisis is distant EU border issue with minimal Black Sea regional impact.",
+  "global_score": 3.0,
+  "rationale": "Ukraine refinery strikes continue unchanged; US weapons shortage rhetoric persists; Ceuta aftermath and EU border calls are background; no new regional security change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukraine hits two oil refineries deep in Russian territory",
-      "label": "Ukraine strikes Russian refineries deep inside",
-      "summary": "Ukrainian offensive continues targeting Russian energy infrastructure to limit war revenues. No new escalation from previous cycles; regional security situation unchanged.",
-      "score": 3.9,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T15:27:47.926615Z"
-    },
-    {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-      "label": "Trump denies shortage hunts information leakers",
-      "summary": "US president continues rhetoric on weapons supply without confirmed policy change. Potential implications for Ukraine aid remain uncertain for Romania's neighbor.",
+      "label": "Trump denies weapons shortage hunts leakers",
+      "summary": "US president denies shortage and pursues leakers. May affect Ukraine aid indirectly, but no confirmed policy shift yet for regional security.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -42,11 +23,11 @@
     },
     {
       "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "label": "Thousands remain in Ceuta after border surge",
-      "summary": "Spanish territory reports 100 deaths after 78,000 crossed from Morocco. Western Mediterranean crisis with no direct Black Sea or Romanian impact.",
+      "label": "Thousands remain in Ceuta after crisis",
+      "summary": "Spanish territory reports 100 deaths and thousands still present after 78,000 crossed. Distant from Romania; EU migration context only.",
       "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,14 +39,38 @@
         }
       ],
       "detected_at": "2026-08-04T12:17:57.609820Z"
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "New Mexico court orders payment for harming children online. Distant US legal ruling with no direct impact on Romania.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T03:15:35.169002Z"
     }
   ],
   "short_summary": "Russia surges Black Sea attacks on Odesa",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-07T01:01:25.882916Z",
+  "updated_at": "2026-08-07T03:15:35.169002Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-06T07:01:19.167717Z",
   "score_history": [
-    {
-      "t": "2026-08-05T01:01:53.611730Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-05T03:31:26.330872Z",
       "s": 4.7
@@ -208,6 +209,10 @@
     {
       "t": "2026-08-07T01:01:25.882916Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-07T03:15:35.169002Z",
+      "s": 3.0
     }
   ]
 }
