@@ -1,33 +1,14 @@
 {
-  "global_score": 2.9,
-  "rationale": "Central Europe heatwave continues affecting EU region; US wind energy deal cancellation may signal broader energy policy shifts; ongoing background situations decay.",
+  "global_score": 2.8,
+  "rationale": "US wind energy cancellation deal continues as known policy; other events remain distant from Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Central Europe sees record temperatures as heatwave continues",
-      "label": "Central Europe heatwave breaks temperature records",
-      "summary": "Slovakia and Austria hit record heat; Italy on highest alert. EU-wide climate event affecting tourism destinations and energy demand patterns.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/central-europe-sees-record-temperatures-as-heatwave-continues?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-07T11:06:42.497572Z"
-    },
     {
       "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
       "label": "US pays $1.2bn to halt offshore wind projects",
-      "summary": "Trump administration cancels wind energy projects with large payout. Signals broader shift in US energy policy; indirect implications for EU renewable energy markets.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "summary": "Trump administration pays German firm RWE to cancel wind energy projects. Signals broader US energy policy shift but no direct impact on Portugal.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -42,8 +23,8 @@
     },
     {
       "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "label": "Thousands remain in Ceuta after border crisis",
-      "summary": "Spanish territory reports 100 deaths from 78,000 crossings. Ongoing Iberian migration pressure; indirect concern for Portugal's border management.",
+      "label": "Thousands of migrants remain in Ceuta after crisis",
+      "summary": "Spanish territory reports 100 deaths and thousands remaining after 78,000 crossed from Morocco. Iberian neighbor concern but crisis aftermath.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-04T12:17:57.611249Z"
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "New Mexico court orders payment for harming children online, total $942m. Tech regulation precedent but no direct impact on Portugal.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T00:15:09.130374Z"
     }
   ],
   "short_summary": "Central Europe heatwave breaks temperature records",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-07T11:56:29.597306Z",
+  "updated_at": "2026-08-07T13:01:20.286109Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Central Europe heatwave breaks temperature records",
     "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-07T11:06:42.497572Z",
   "score_history": [
-    {
-      "t": "2026-08-05T12:15:56.449899Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-05T13:01:30.131346Z",
       "s": 2.1
@@ -220,6 +216,10 @@
     {
       "t": "2026-08-07T11:56:29.597306Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-07T13:01:20.286109Z",
+      "s": 2.8
     }
   ]
 }
