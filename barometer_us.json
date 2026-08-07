@@ -1,34 +1,53 @@
 {
-  "global_score": 3.0,
-  "rationale": "New development: Central Europe heatwave may signal broader climate stress; otherwise continuation of known background (weapons shortage rhetoric, consulate closures, birthright citizenship).",
+  "global_score": 3.4,
+  "rationale": "US pays $1.2bn to cancel wind projects (confirmed policy action); Trump birthright citizenship orders expanded (domestic policy action); weapons shortage rhetoric continues.",
   "top_events": [
     {
-      "title": "Central Europe sees record temperatures as heatwave continues",
-      "label": "Central Europe heatwave breaks temperature records",
-      "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader climate stress affecting global patterns.",
-      "score": 3.0,
+      "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
+      "label": "US pays $1.2bn to halt offshore wind projects",
+      "summary": "Trump administration cancels wind energy projects with large taxpayer-funded payout. Confirmed policy action affecting US energy sector and federal spending.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "katastrofa",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/central-europe-sees-record-temperatures-as-heatwave-continues?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-07T11:06:42.500323Z"
+      "detected_at": "2026-08-07T11:56:29.599347Z"
+    },
+    {
+      "title": "Trump again tries to limit US birthright citizenship with new executive orders",
+      "label": "Trump expands birthright citizenship restrictions",
+      "summary": "New executive orders ban birth tourism and expand restrictions on constitutional birthright. Confirmed domestic policy action affecting immigration law.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-06T22:01:30.084215Z"
     },
     {
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "label": "Meta fined $567m for child safety violations",
-      "summary": "Continuation of known case; total fines now $942m. No new policy change affecting US residents.",
-      "score": 2.6,
-      "sentiment": "neutral",
+      "summary": "New Mexico court orders largest child safety payment ever; total fines reach $942m. Confirmed legal action affecting major US tech company.",
+      "score": 2.5,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-07T00:15:09.133768Z"
-    },
-    {
-      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-      "label": "Trump denies weapons shortage, hunts leakers",
-      "summary": "Rhetoric continues on US weapons supply; no confirmed policy change affecting domestic life or military deployments.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T15:27:47.932372Z"
     }
   ],
   "short_summary": "Trump signs orders limiting birthright citizenship",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-07T11:06:42.500323Z",
+  "updated_at": "2026-08-07T11:56:29.599347Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump signs orders limiting birthright citizenship",
     "summary": "President issues new executive orders to restrict constitutional birthright citizenship after Supreme Court rejection. Major domestic policy shift affecting immigration law.",
     "title": "Trump signs new executive orders seeking to limit US birthright citizenship",
-    "score": 4.1,
+    "score": 4.0,
     "sentiment": "neutral",
     "detected_at": "2026-08-06T22:01:30.084215Z",
     "peak_at": "2026-08-06T22:01:30.084215Z",
@@ -216,6 +216,10 @@
     {
       "t": "2026-08-07T11:06:42.500323Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-07T11:56:29.599347Z",
+      "s": 3.4
     }
   ]
 }
