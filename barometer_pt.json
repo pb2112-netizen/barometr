@@ -1,11 +1,11 @@
 {
-  "global_score": 2.3,
-  "rationale": "Ceuta crisis continues with confirmed deaths and ongoing migrant presence, affecting EU border policy and potentially Iberian migration patterns. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "Ceuta migrant crisis continues with casualty toll confirmed; no direct Portugal impact; other events distant or rhetoric-only. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "label": "Thousands remain in Ceuta after migration surge",
-      "summary": "Spanish territory reports 100 deaths and thousands still present after 78,000 crossed from Morocco. EU border policy under pressure near Iberian Peninsula.",
+      "label": "Thousands remain in Ceuta after Morocco border crisis",
+      "summary": "Spanish territory reports 100 deaths and thousands still present after 78,000 crossed from Morocco; Iberian neighbor affected but no direct Portugal spillover.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "'Morocco feels emboldened': Trump's influence in spotlight after Ceuta disaster",
-      "label": "US-Morocco ties scrutinized after Ceuta crisis",
-      "summary": "Washington-Rabat relationship under examination after deadly migration influx. May affect EU-Morocco dynamics and Iberian border security.",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "New Mexico judge orders Instagram, Facebook, WhatsApp parent to pay for harming children; regulatory action but no direct Portugal life impact.",
       "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T00:15:09.130374Z"
+    },
+    {
+      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+      "label": "US closes five foreign consulates worldwide",
+      "summary": "State department closes missions in Canada, Japan, Indonesia, Grenada, Cameroon; distant diplomatic shift with no Portugal impact.",
+      "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster"
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
         }
       ],
-      "detected_at": "2026-08-05T16:52:42.067177Z"
-    },
-    {
-      "title": "Ukraine hits two oil refineries deep in Russian territory",
-      "label": "Ukraine strikes Russian refineries in Russia",
-      "summary": "Ukrainian offensive targets refineries to cut war revenues. Distant conflict may indirectly affect EU energy costs.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwymv212xrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-06T22:01:30.080270Z"
+      "detected_at": "2026-08-06T13:01:23.209756Z"
     }
   ],
   "short_summary": "EasyJet agrees takeover by US firm Apollo",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-06T22:01:30.080270Z",
+  "updated_at": "2026-08-07T00:15:09.130374Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "EasyJet agrees takeover by US firm Apollo",
     "summary": "Major European budget airline sold to US firm. May affect Portuguese tourism economy and travel options, though impact unclear.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-06T15:27:47.928281Z",
   "score_history": [
-    {
-      "t": "2026-08-04T23:18:24.402673Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-05T01:01:53.612765Z",
       "s": 2.0
@@ -204,6 +200,10 @@
     {
       "t": "2026-08-06T22:01:30.080270Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-07T00:15:09.130374Z",
+      "s": 2.0
     }
   ]
 }
