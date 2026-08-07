@@ -1,16 +1,34 @@
 {
-  "global_score": 2.7,
-  "short_summary": "Trump signs orders limiting birthright citizenship",
-  "rationale": "Continuation of known background: Meta fine, Trump birthright orders, weapons shortage rhetoric, consulate closures; no new qualitative domestic policy change.",
+  "global_score": 3.0,
+  "rationale": "New development: Central Europe heatwave may signal broader climate stress; otherwise continuation of known background (weapons shortage rhetoric, consulate closures, birthright citizenship).",
   "top_events": [
     {
+      "title": "Central Europe sees record temperatures as heatwave continues",
+      "label": "Central Europe heatwave breaks temperature records",
+      "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader climate stress affecting global patterns.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/central-europe-sees-record-temperatures-as-heatwave-continues?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T11:06:42.500323Z"
+    },
+    {
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "label": "Meta fined $567m in child safety ruling",
-      "summary": "New Mexico court orders payment in addition to $375m already fined, totaling $942m; largest child safety ruling against social media.",
-      "score": 2.7,
-      "sentiment": "positive",
+      "label": "Meta fined $567m for child safety violations",
+      "summary": "Continuation of known case; total fines now $942m. No new policy change affecting US residents.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
@@ -24,9 +42,9 @@
     },
     {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-      "label": "Trump denies US weapons shortage, hunts leakers",
-      "summary": "Trump denies shortage of difficult-to-manufacture weapons and pursues leakers; publicly available data suggests many weapons used up.",
-      "score": 2.4,
+      "label": "Trump denies weapons shortage, hunts leakers",
+      "summary": "Rhetoric continues on US weapons supply; no confirmed policy change affecting domestic life or military deployments.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -40,34 +58,16 @@
         }
       ],
       "detected_at": "2026-08-06T15:27:47.932372Z"
-    },
-    {
-      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US to shut five consulates globally",
-      "summary": "State department plans closures in Canada, Grenada, Japan, Indonesia, Cameroon; critics fear China could fill diplomatic vacuum.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
-        }
-      ],
-      "detected_at": "2026-08-06T10:01:24.917288Z"
     }
   ],
-  "level_label": "Stable",
+  "short_summary": "Trump signs orders limiting birthright citizenship",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-07T10:09:39.632309Z",
+  "updated_at": "2026-08-07T11:06:42.500323Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump signs orders limiting birthright citizenship",
     "summary": "President issues new executive orders to restrict constitutional birthright citizenship after Supreme Court rejection. Major domestic policy shift affecting immigration law.",
@@ -212,6 +212,10 @@
     {
       "t": "2026-08-07T10:09:39.632309Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-07T11:06:42.500323Z",
+      "s": 3.0
     }
   ]
 }

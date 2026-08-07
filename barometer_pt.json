@@ -1,12 +1,30 @@
 {
-  "global_score": 2.0,
-  "short_summary": "Thousands remain in Ceuta after Morocco surge",
-  "rationale": "US consulate closures announced (new); Ceuta aftermath continues; no direct Portugal impact from other headlines.",
+  "global_score": 3.0,
+  "rationale": "New development: Central Europe heatwave with record temperatures may indirectly affect Iberian tourism and climate patterns; otherwise continuation of known background.",
   "top_events": [
+    {
+      "title": "Central Europe sees record temperatures as heatwave continues",
+      "label": "Central Europe heatwave breaks temperature records",
+      "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/central-europe-sees-record-temperatures-as-heatwave-continues?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T11:06:42.497572Z"
+    },
     {
       "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
       "label": "US to shut five consulates globally",
-      "summary": "State department plans closures in Canada, Grenada, Japan, Indonesia, Cameroon; critics fear China could fill diplomatic vacuum; indirect global shift.",
+      "summary": "Continuation of known US consulate closures; no direct impact on Portugal or Atlantic shipping.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -23,28 +41,9 @@
       "detected_at": "2026-08-06T13:01:23.209756Z"
     },
     {
-      "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "label": "Thousands remain in Ceuta after border crisis",
-      "summary": "78,000 crossed from Morocco; 100 deaths reported; thousands still in Spanish territory; indirect Iberian migration pressure signal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
       "title": "'Morocco feels emboldened': Trump's influence in spotlight after Ceuta disaster",
-      "label": "US-Morocco ties scrutinized after Ceuta disaster",
-      "summary": "Washington-Rabat relationship under scrutiny after deadly influx into Spanish territory; indirect Iberian security implications.",
+      "label": "Morocco-US ties scrutinized after Ceuta crisis",
+      "summary": "Ongoing analysis of Washington-Rabat relationship; no new policy change affecting Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -61,29 +60,30 @@
       "detected_at": "2026-08-05T16:52:42.067177Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Central Europe heatwave breaks temperature records",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-07T10:09:39.630328Z",
+  "updated_at": "2026-08-07T11:06:42.497572Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Thousands remain in Ceuta after Morocco surge",
-    "summary": "Spanish territory reports 100 deaths after 78,000 crossed from Morocco. Iberian neighbor faces ongoing crisis; indirect pressure on EU migration policy.",
-    "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-    "score": 2.5,
+    "label": "Central Europe heatwave breaks temperature records",
+    "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
+    "title": "Central Europe sees record temperatures as heatwave continues",
+    "score": 3.0,
     "sentiment": "negative",
-    "detected_at": "2026-08-04T12:17:57.611249Z",
-    "peak_at": "2026-08-07T01:01:25.884731Z",
+    "detected_at": "2026-08-07T11:06:42.497572Z",
+    "peak_at": "2026-08-07T11:06:42.497572Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c0ejdj22zq9o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/7/central-europe-sees-record-temperatures-as-heatwave-continues?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-04T12:17:57.611249Z",
+  "events_anchor_at": "2026-08-07T11:06:42.497572Z",
   "score_history": [
     {
       "t": "2026-08-05T12:15:56.449899Z",
@@ -212,6 +212,10 @@
     {
       "t": "2026-08-07T10:09:39.630328Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-07T11:06:42.497572Z",
+      "s": 3.0
     }
   ]
 }
