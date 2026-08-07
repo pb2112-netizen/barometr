@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "US weapons shortage claims continue; Meta fine continues; US consulate closures announced but limited domestic impact.",
+  "global_score": 2.8,
+  "rationale": "Continuation of known background: Meta fine, Trump birthright orders, weapons shortage rhetoric, consulate closures; no new qualitative domestic policy change.",
   "top_events": [
     {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "label": "Meta fined $567m in child safety ruling",
+      "summary": "New Mexico court orders payment in addition to $375m already fined, totaling $942m; largest child safety ruling against social media.",
+      "score": 2.8,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-07T00:15:09.133768Z"
+    },
+    {
       "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
-      "label": "Trump denies weapons shortage, hunts leakers",
-      "summary": "President denies shortage of weapons for Ukraine aid while pursuing leakers. Domestic political controversy over classified information and foreign policy continues.",
-      "score": 2.6,
+      "label": "Trump denies US weapons shortage, hunts leakers",
+      "summary": "Trump denies shortage of difficult-to-manufacture weapons and pursues leakers; publicly available data suggests many weapons used up.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-08-06T15:27:47.932372Z"
     },
     {
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "label": "Meta fined $567m for child safety violations",
-      "summary": "New Mexico court orders Meta to pay $567m for harming children online. Largest child safety fine ever against social media company.",
-      "score": 2.9,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-07T00:15:09.133768Z"
-    },
-    {
       "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US to close five foreign consulates",
-      "summary": "State department plans closures in Canada, Japan, Indonesia, Cameroon, and Grenada. Critics warn China may fill diplomatic vacuum in affected regions.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "label": "US to shut five consulates globally",
+      "summary": "State department plans closures in Canada, Grenada, Japan, Indonesia, Cameroon; critics fear China could fill diplomatic vacuum.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -62,12 +62,12 @@
   ],
   "short_summary": "Trump signs orders limiting birthright citizenship",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-07T08:20:54.386997Z",
+  "updated_at": "2026-08-07T10:01:26.411557Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Trump signs orders limiting birthright citizenship",
     "summary": "President issues new executive orders to restrict constitutional birthright citizenship after Supreme Court rejection. Major domestic policy shift affecting immigration law.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-06T22:01:30.084215Z",
   "score_history": [
-    {
-      "t": "2026-08-05T09:48:34.286700Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-05T10:00:52.417533Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-05T12:15:56.452325Z",
       "s": 3.0
@@ -212,6 +204,10 @@
     {
       "t": "2026-08-07T08:20:54.386997Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-07T10:01:26.411557Z",
+      "s": 2.8
     }
   ]
 }
