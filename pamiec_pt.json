@@ -1,31 +1,43 @@
 {
-  "updated_at": "2026-08-08T15:44:36.947169Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-08T16:01:25.882368Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Puerto Rico water rationing amid drought",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "180,000+ households face rationing; Atlantic climate."
     },
     {
       "temat": "Typhoon Dolphin hits Japan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Five injured in Japan as typhoon heads toward China."
     },
     {
       "temat": "Mount Etna ash disrupts Catania airport",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Volcanic ash suspends arrivals at Sicily tourist hub."
     },
     {
       "temat": "US $1bn security aid to Colombia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Major foreign aid to new Colombian president; distant."
+    },
+    {
+      "temat": "Spain-Italy border control dispute",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Spain imposes reciprocal border checks after Italy's move."
+    },
+    {
+      "temat": "Spanish police bust major smuggling network",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "78 arrested in drugs-migrants-weapons smuggling operation."
     }
   ],
   "score_history": [
@@ -212,10 +224,46 @@
     {
       "t": "2026-08-08T15:44:36.939816Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-08T16:01:25.875404Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-08-08T01:01:27.367877Z",
+  "events_anchor_at": "2026-08-04T12:17:57.611249Z",
   "event_detected_at": {
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-04T12:17:57.611249Z",
+      "peak_at": "2026-08-08T16:01:25.875404Z",
+      "peak_score_at": "2026-08-08T16:01:25.875404Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "peak_label": "Spain imposes border checks on Italy visitors",
+      "peak_summary": "Spain retaliates with border controls after Italy's measures following Ceuta migrant influx. Direct Iberian neighbor involved; modest EU cohesion concern.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ]
+    },
+    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
+      "detected_at": "2026-08-07T18:01:12.063234Z",
+      "peak_at": "2026-08-08T16:01:25.875404Z",
+      "peak_score_at": "2026-08-08T16:01:25.875404Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "positive",
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+      "peak_label": "Spain arrests 78 in major smuggling bust",
+      "peak_summary": "Large smuggling network moving drugs to Algeria and returning with migrants and weapons disrupted. Iberian security operation; indirect Portuguese concern.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "typhoon dolphin batters japan's okinawa before bearing down on china": {
       "detected_at": "2026-08-08T08:59:18.922395Z",
       "peak_at": "2026-08-08T15:44:36.939816Z",
@@ -245,42 +293,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ]
-    },
-    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
-      "detected_at": "2026-08-04T12:17:57.611249Z",
-      "peak_at": "2026-08-07T16:01:31.750964Z",
-      "peak_score_at": "2026-08-07T16:01:31.750964Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
-      "peak_label": "Spain threatens Italy over border controls",
-      "peak_summary": "Spain-Italy diplomatic clash over border controls following Ceuta migrant crisis. Direct Iberian neighbor dispute; potential spillover to Portugal on EU migration policy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
-      "detected_at": "2026-08-07T18:01:12.063234Z",
-      "peak_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
-      "peak_label": "Spain busts major Mediterranean smuggling network",
-      "peak_summary": "Authorities dismantle one of largest criminal networks moving migrants and drugs across Mediterranean, affecting Iberian security indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
         }
       ]
     },
@@ -366,7 +378,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
-    "Ebola virus behind massive outbreak in DRC could be mutating, officials say"
+    "Spain to introduce temporary border checks on visitors from Italy",
+    "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+    "Typhoon Dolphin batters Japan's Okinawa before bearing down on China"
   ]
 }
