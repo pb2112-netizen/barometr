@@ -1,11 +1,11 @@
 {
-  "global_score": 2.2,
-  "rationale": "Spain-Italy border dispute affects Iberian neighbor; Puerto Rico drought continues Atlantic climate concerns; other events remain distant.",
+  "global_score": 2.1,
+  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, affecting Iberian neighbor and EU cohesion; Colombia's new president takes office with US security aid, relevant to Lusophone ties. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "title": "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
       "label": "Spain imposes border controls against Italy",
-      "summary": "Spain retaliates with border checks after Italy's controls following Ceuta migrant influx. Iberian neighbor faces EU border tensions.",
+      "summary": "Spain retaliates with border checks after Italy's controls following Ceuta crisis. Iberian neighbor's escalation affects EU cohesion and migration framework indirectly impacting Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "Puerto Rico rations water as severe drought leaves reservoirs depleted",
-      "label": "Puerto Rico rations water amid drought",
-      "summary": "Over 180,000 households face 48-hour rationing as drought depletes reservoirs. Atlantic climate pattern with indirect relevance to Iberian conditions.",
-      "score": 2.2,
+      "title": "[Guardian] US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
+      "label": "Colombia president pledges drugs crackdown with US aid",
+      "summary": "Abelardo De La Espriella sworn in with $1bn US security aid, vowing transformation. Latin America rightward shift with indirect relevance to Portugal's Lusophone ties.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
+        }
+      ],
+      "detected_at": "2026-08-08T04:20:52.575378Z"
+    },
+    {
+      "title": "[Al Jazeera] Puerto Rico rations water as severe drought leaves reservoirs depleted",
+      "label": "Puerto Rico rations water amid severe drought",
+      "summary": "Over 180,000 households face 48-hour water rationing as drought depletes reservoirs. Atlantic climate event with indirect relevance to Portugal's climate concerns.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-08T01:01:27.367877Z"
-    },
-    {
-      "title": "Mexico and Peru restore diplomatic relations after asylum row",
-      "label": "Mexico and Peru restore diplomatic ties",
-      "summary": "Relations restored after former Peruvian PM sought asylum in Mexican embassy. Lusophone-adjacent Latin America diplomatic normalization.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dy1l3e77o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-07T16:01:31.750964Z"
     }
   ],
   "short_summary": "Central Europe heatwave breaks temperature records",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-08T04:01:24.787747Z",
+  "updated_at": "2026-08-08T04:20:52.575378Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Central Europe heatwave breaks temperature records",
     "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
@@ -236,6 +236,10 @@
     {
       "t": "2026-08-08T04:01:24.787747Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-08T04:20:52.575378Z",
+      "s": 2.1
     }
   ]
 }
