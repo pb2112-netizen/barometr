@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-08T04:20:52.581381Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-08T05:56:05.449255Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Saudi-Pakistan-Turkey defense pact",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Three nations formalize mutual defense; Turkey neighbor."
-    },
-    {
       "temat": "Von der Leyen EU border action after Ceuta",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Commission demands stronger borders; migration control."
     },
     {
       "temat": "Spain-Italy border control dispute",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Spain threatens retaliation over Italy border controls; EU."
     },
     {
-      "temat": "Spain busts major Mediterranean smuggling ring",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "78 arrested in one of largest networks; migration control."
-    },
-    {
-      "temat": "Central Europe heatwave",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Record heat in Slovakia, Austria; direct regional impact."
-    },
-    {
       "temat": "Ceuta migrant crisis aftermath",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Thousands remain after 78,000 crossed; 100 deaths reported."
     },
     {
       "temat": "DRC Ebola outbreak exceeds 4,000 cases",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Major Ebola epidemic in DRC; WHO urges vaccine trial."
     },
     {
+      "temat": "Russian strikes near Kyiv with civilian casualties",
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Missile attacks near capital kill child; interceptor."
+    },
+    {
       "temat": "US Senate passes Russian energy sanctions",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 4,
       "opis": "100% tariff on Russian oil/gas; Black Sea energy impact."
+    },
+    {
+      "temat": "Spain busts major Mediterranean smuggling ring",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 13,
+      "opis": "78 arrested in one of largest networks; migration control."
+    },
+    {
+      "temat": "Saudi-Pakistan-Turkey defense pact",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
+      "opis": "Three nations formalize mutual defense; Turkey neighbor."
     }
   ],
   "score_history": [
@@ -208,15 +208,39 @@
     {
       "t": "2026-08-08T04:20:52.573565Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-08T05:56:05.439636Z",
+      "s": 4.5
     }
   ],
-  "events_anchor_at": "2026-08-08T01:01:27.366116Z",
+  "events_anchor_at": "2026-08-08T05:56:05.439636Z",
   "event_detected_at": {
-    "[bbc] spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
+    "child among three killed in russian missile attacks near kyiv": {
+      "detected_at": "2026-08-08T05:56:05.439636Z",
+      "peak_at": "2026-08-08T05:56:05.439636Z",
+      "peak_score_at": "2026-08-08T05:56:05.439636Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "peak_label": "Russia kills child in Kyiv missile strike",
+      "peak_summary": "Russian missiles killed three near Ukraine's capital including a child, as Kyiv warns of dwindling air defense supplies—direct concern for Romania's Black Sea neighbor.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+        }
+      ]
+    },
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-04T12:17:57.609820Z",
       "peak_at": "2026-08-07T22:55:04.801154Z",
       "peak_score_at": "2026-08-07T22:55:04.801154Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
       "peak_label": "Spain imposes border controls against Italy",
@@ -225,6 +249,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ebola virus behind massive outbreak in drc could be mutating, officials say": {
+      "detected_at": "2026-08-08T01:01:27.366116Z",
+      "peak_at": "2026-08-08T01:01:27.366116Z",
+      "peak_score_at": "2026-08-08T01:01:27.366116Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+      "peak_label": "DRC Ebola outbreak exceeds 4,000 cases",
+      "peak_summary": "Cases pass 4,000 with possible virus mutation. WHO plans door-to-door response escalation. Distant but WHO involvement signals potential international health concern.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
         }
       ]
     },
@@ -241,22 +281,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
-        }
-      ]
-    },
-    "[guardian] ebola virus behind massive outbreak in drc could be mutating, officials say": {
-      "detected_at": "2026-08-08T01:01:27.366116Z",
-      "peak_at": "2026-08-08T01:01:27.366116Z",
-      "peak_score_at": "2026-08-08T01:01:27.366116Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "peak_label": "DRC Ebola outbreak exceeds 4,000 cases",
-      "peak_summary": "Cases pass 4,000 with possible virus mutation. WHO plans door-to-door response escalation. Distant but WHO involvement signals potential international health concern.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
         }
       ]
     },
@@ -414,8 +438,8 @@
     }
   },
   "prev_top_event_titles": [
-    "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "[Al Jazeera] US Senate passes Russia sanctions that could hurt India and China",
-    "[Guardian] Ebola virus behind massive outbreak in DRC could be mutating, officials say"
+    "Child among three killed in Russian missile attacks near Kyiv",
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "Ebola virus behind massive outbreak in DRC could be mutating, officials say"
   ]
 }

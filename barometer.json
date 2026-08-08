@@ -1,30 +1,59 @@
 {
-  "global_score": 3.0,
-  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, affecting EU cohesion and Schengen; US Russian energy sanctions continue to pose indirect energy risk for Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Russian missile strikes near Kyiv killing civilians represent a qualitative escalation in targeting, directly relevant to Poland's eastern border security concerns and NATO posture.",
   "top_events": [
     {
-      "title": "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes border controls against Italy",
-      "summary": "Spain retaliates with border checks after Italy introduced controls following Ceuta migrant influx. Escalation threatens Schengen unity and EU cohesion, indirectly affecting Poland's border framework.",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "label": "Russia strikes near Kyiv killing child",
+      "summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+      "score": 5.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-08T05:56:05.437201Z"
+    },
+    {
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "label": "Spain imposes Italy border controls over migrants",
+      "summary": "Spain retaliates with border checks after Italy imposed controls following 78,000 migrants crossing into Ceuta, escalating EU internal border tensions.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
         }
       ],
       "detected_at": "2026-08-03T22:01:27.477532Z"
     },
     {
-      "title": "[Al Jazeera] US Senate passes Russia sanctions that could hurt India and China",
-      "label": "US Senate passes Russia sanctions hurting allies",
-      "summary": "Senate approves strongest Russia sanctions under Trump, potentially affecting global energy markets and Poland's indirect energy security through EU supply chains.",
+      "title": "US Senate passes Russia sanctions that could hurt India and China",
+      "label": "US Senate passes new Russia sanctions",
+      "summary": "Senate approved strongest Russia sanctions under Trump, potentially affecting global energy markets and Poland's energy security indirectly.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,51 +68,36 @@
         }
       ],
       "detected_at": "2026-08-08T01:01:27.364253Z"
-    },
-    {
-      "title": "[BBC] Saudi Arabia, Turkey and Pakistan sign defence pact",
-      "label": "Saudi Arabia Turkey Pakistan sign defense pact",
-      "summary": "Three nations formalize mutual defense agreement amid Middle East tensions. Distant regional development with no direct impact on Poland's security or economy.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-07T11:56:29.594768Z"
     }
   ],
-  "short_summary": "US Senate passes Russian energy sanctions bill",
-  "level_label": "Low",
-  "trend": "stable",
+  "short_summary": "Russia strikes near Kyiv killing child",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-08T04:20:52.571647Z",
+  "updated_at": "2026-08-08T05:56:05.437201Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "US Senate passes Russian energy sanctions bill",
-    "summary": "New legislation imposes 100% tariff on Russian oil and gas importers. Could affect European energy markets and Poland's energy security indirectly through supply chain disruptions.",
-    "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
-    "score": 4.1,
-    "sentiment": "positive",
-    "detected_at": "2026-08-08T01:01:27.364253Z",
-    "peak_at": "2026-08-08T01:01:27.364253Z",
+    "label": "Russia strikes near Kyiv killing child",
+    "summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+    "title": "Child among three killed in Russian missile attacks near Kyiv",
+    "score": 5.0,
+    "sentiment": "negative",
+    "detected_at": "2026-08-08T05:56:05.437201Z",
+    "peak_at": "2026-08-08T05:56:05.437201Z",
     "source_links": [
       {
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-08T01:01:27.364253Z",
+  "events_anchor_at": "2026-08-08T05:56:05.437201Z",
   "score_history": [
     {
       "t": "2026-08-06T06:44:59.979308Z",
@@ -240,6 +254,10 @@
     {
       "t": "2026-08-08T04:20:52.571647Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-08T05:56:05.437201Z",
+      "s": 5.0
     }
   ]
 }

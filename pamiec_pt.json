@@ -1,48 +1,42 @@
 {
-  "updated_at": "2026-08-08T04:20:52.582719Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-08T05:56:05.450516Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Spain threatens Italy over borders after Ceuta; Iberian."
     },
     {
       "temat": "Mexico-Peru diplomatic normalization",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Relations restored after asylum row; Latin America."
     },
     {
       "temat": "Spain busts major Mediterranean smuggling ring",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "78 arrested in one of largest networks; Iberian security."
     },
     {
       "temat": "Central Europe heatwave",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Record temperatures in Slovakia, Austria; Italy on alert."
     },
     {
       "temat": "US wind energy project cancellations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Trump pays $1.2bn to halt offshore wind; energy policy."
     },
     {
-      "temat": "US consulate closures globally",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "US to shut five consulates; diplomatic vacuum concerns."
-    },
-    {
       "temat": "Puerto Rico water rationing amid drought",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 4,
       "opis": "180,000+ households face rationing; Atlantic climate."
     }
   ],
@@ -202,11 +196,15 @@
     {
       "t": "2026-08-08T04:20:52.575378Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-08T05:56:05.441190Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-07T11:06:42.497572Z",
   "event_detected_at": {
-    "[bbc] spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-04T12:17:57.611249Z",
       "peak_at": "2026-08-07T16:01:31.750964Z",
       "peak_score_at": "2026-08-07T16:01:31.750964Z",
@@ -219,6 +217,26 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
+      "detected_at": "2026-08-07T18:01:12.063234Z",
+      "peak_at": "2026-08-07T19:01:22.773735Z",
+      "peak_score_at": "2026-08-07T19:01:22.773735Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+      "peak_label": "Spain busts major Mediterranean smuggling network",
+      "peak_summary": "Authorities dismantle one of largest criminal networks moving migrants and drugs across Mediterranean, affecting Iberian security indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
         }
       ]
     },
@@ -267,26 +285,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cz7dy1l3e77o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
-      "detected_at": "2026-08-07T18:01:12.063234Z",
-      "peak_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "positive",
-      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
-      "peak_label": "Spain busts major Mediterranean smuggling network",
-      "peak_summary": "Authorities dismantle one of largest criminal networks moving migrants and drugs across Mediterranean, affecting Iberian security indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
         }
       ]
     },
@@ -356,8 +354,7 @@
     }
   },
   "prev_top_event_titles": [
-    "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "[Guardian] US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-    "[Al Jazeera] Puerto Rico rations water as severe drought leaves reservoirs depleted"
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks"
   ]
 }

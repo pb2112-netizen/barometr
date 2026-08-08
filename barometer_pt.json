@@ -1,13 +1,37 @@
 {
-  "global_score": 2.1,
-  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, affecting Iberian neighbor and EU cohesion; Colombia's new president takes office with US security aid, relevant to Lusophone ties. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "Spain-Italy border dispute continues with Spain imposing retaliatory controls, indirectly affecting Iberian EU cohesion but not daily life in Portugal. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes border controls against Italy",
-      "summary": "Spain retaliates with border checks after Italy's controls following Ceuta crisis. Iberian neighbor's escalation affects EU cohesion and migration framework indirectly impacting Portugal.",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "label": "Spain imposes Italy border controls over Ceuta",
+      "summary": "Spain retaliates with border checks after Italy imposed controls following 78,000 migrants entering Ceuta, escalating intra-EU tensions on Iberian peninsula.",
       "score": 2.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ],
+      "detected_at": "2026-08-04T12:17:57.611249Z"
+    },
+    {
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+      "label": "Spain busts major smuggling network",
+      "summary": "Spanish police arrested 78 in major operation against network moving drugs to Algeria and smuggling migrants and weapons back to Spain.",
+      "score": 2.0,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,48 +40,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
-      "title": "[Guardian] US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-      "label": "Colombia president pledges drugs crackdown with US aid",
-      "summary": "Abelardo De La Espriella sworn in with $1bn US security aid, vowing transformation. Latin America rightward shift with indirect relevance to Portugal's Lusophone ties.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
-        }
-      ],
-      "detected_at": "2026-08-08T04:20:52.575378Z"
-    },
-    {
-      "title": "[Al Jazeera] Puerto Rico rations water as severe drought leaves reservoirs depleted",
-      "label": "Puerto Rico rations water amid severe drought",
-      "summary": "Over 180,000 households face 48-hour water rationing as drought depletes reservoirs. Atlantic climate event with indirect relevance to Portugal's climate concerns.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/puerto-rico-rations-water-as-severe-drought-leaves-reservoirs-depleted?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-08T01:01:27.367877Z"
+      "detected_at": "2026-08-07T18:01:12.063234Z"
     }
   ],
   "short_summary": "Central Europe heatwave breaks temperature records",
@@ -65,9 +51,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-08T04:20:52.575378Z",
+  "updated_at": "2026-08-08T05:56:05.441190Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Central Europe heatwave breaks temperature records",
     "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
@@ -240,6 +226,10 @@
     {
       "t": "2026-08-08T04:20:52.575378Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-08T05:56:05.441190Z",
+      "s": 2.0
     }
   ]
 }

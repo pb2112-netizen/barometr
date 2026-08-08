@@ -1,37 +1,43 @@
 {
-  "updated_at": "2026-08-08T04:20:52.580111Z",
-  "ostatnia_ocena": 3.0,
-  "ostatnie_powiadomienie_at": "2026-07-30T12:04:07.937145Z",
+  "updated_at": "2026-08-08T05:56:05.447951Z",
+  "ostatnia_ocena": 5.0,
+  "ostatnie_powiadomienie_at": "2026-08-08T05:56:05.447696Z",
   "stan_swiata": [
     {
       "temat": "Saudi-Pakistan-Turkey defense pact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Three nations formalize mutual defense agreement; regional."
     },
     {
       "temat": "Central Europe heatwave",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Record temperatures in Slovakia, Austria; regional climate."
     },
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Spain threatens Italy over borders after Ceuta; EU cohesion."
     },
     {
       "temat": "Spain busts major Mediterranean smuggling ring",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "78 arrested in one of largest networks; migration control."
     },
     {
       "temat": "US Senate passes Russian energy sanctions",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "100% tariff on Russian oil/gas; potential EU energy impact."
+    },
+    {
+      "temat": "Russian strikes near Kyiv with civilian casualties",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Missile attacks near capital kill child; interceptor."
     }
   ],
   "score_history": [
@@ -190,15 +196,39 @@
     {
       "t": "2026-08-08T04:20:52.571647Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-08T05:56:05.437201Z",
+      "s": 5.0
     }
   ],
-  "events_anchor_at": "2026-08-08T01:01:27.364253Z",
+  "events_anchor_at": "2026-08-08T05:56:05.437201Z",
   "event_detected_at": {
-    "[bbc] spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
+    "child among three killed in russian missile attacks near kyiv": {
+      "detected_at": "2026-08-08T05:56:05.437201Z",
+      "peak_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "peak_label": "Russia strikes near Kyiv killing child",
+      "peak_summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+        }
+      ]
+    },
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-03T22:01:27.477532Z",
       "peak_at": "2026-08-07T17:06:48.557784Z",
       "peak_score_at": "2026-08-07T17:06:48.557784Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
       "peak_label": "Spain threatens Italy over border controls",
@@ -214,7 +244,7 @@
         }
       ]
     },
-    "[al jazeera] us senate passes russia sanctions that could hurt india and china": {
+    "us senate passes russia sanctions that could hurt india and china": {
       "detected_at": "2026-08-08T01:01:27.364253Z",
       "peak_at": "2026-08-08T01:01:27.364253Z",
       "peak_score_at": "2026-08-08T01:01:27.364253Z",
@@ -400,8 +430,8 @@
     }
   },
   "prev_top_event_titles": [
-    "[BBC] Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "[Al Jazeera] US Senate passes Russia sanctions that could hurt India and China",
-    "[BBC] Saudi Arabia, Turkey and Pakistan sign defence pact"
+    "Child among three killed in Russian missile attacks near Kyiv",
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "US Senate passes Russia sanctions that could hurt India and China"
   ]
 }
