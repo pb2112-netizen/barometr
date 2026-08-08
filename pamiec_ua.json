@@ -1,48 +1,46 @@
 {
-  "updated_at": "2026-08-07T23:48:10.126726Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-08T01:01:27.377019Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukraine strikes Russian oil refineries",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
       "opis": "Ukrainian offensive hits refineries deep in Russia; major."
     },
     {
       "temat": "Saudi-Pakistan-Turkey defense pact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Three nations formalize mutual defense; Turkey NATO ally."
     },
     {
       "temat": "UN chief condemns both sides in war",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Guterres calls for de-escalation; diplomatic rhetoric."
     },
     {
       "temat": "Russia drops record glide bombs on Ukraine",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 14,
       "opis": "Record number of glide bombs dropped; high casualties."
     },
     {
       "temat": "US to shut five consulates globally",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "US closes consulates in five countries; diplomatic vacuum."
+    },
+    {
+      "temat": "US Senate passes Russian energy sanctions",
+      "poziom_bazowy": 6.8,
+      "cykle_bez_zmian": 0,
+      "opis": "100% tariff on Russian oil/gas; targets war funding."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-06T00:10:10.652823Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-06T01:01:18.635873Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-06T03:35:10.222197Z",
       "s": 3.2
@@ -190,15 +188,35 @@
     {
       "t": "2026-08-07T23:48:10.119934Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-08T01:01:27.369389Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-08-07T19:14:29.887534Z",
   "event_detected_at": {
+    "us senate passes sweeping russian energy sanctions bill amid ukraine war": {
+      "detected_at": "2026-08-07T19:14:29.887534Z",
+      "peak_at": "2026-08-07T19:14:29.887534Z",
+      "peak_score_at": "2026-08-07T19:14:29.887534Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "positive",
+      "title": "Several killed in attacks on Ukraine as Kyiv hits Russian e-commerce giant",
+      "peak_label": "Ukraine strikes Russian logistics giant Wildberries",
+      "peak_summary": "Ukraine targets Wildberries warehouses and logistics hubs supporting Russian war effort. New offensive action against supply chain infrastructure.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/several-killed-in-attacks-on-ukraine-as-kyiv-hits-russian-e-commerce-giant?traffic_source=rss"
+        }
+      ]
+    },
     "saudi arabia, turkey and pakistan sign defence pact": {
       "detected_at": "2026-08-07T11:56:29.598088Z",
       "peak_at": "2026-08-07T11:56:29.598088Z",
       "peak_score_at": "2026-08-07T11:56:29.598088Z",
-      "peak_score": 2.1,
+      "peak_score": 2.0,
       "peak_sentiment": "neutral",
       "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
       "peak_label": "Saudi Arabia, Turkey, Pakistan sign defense pact",
@@ -211,6 +229,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%e2%81%a0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil?traffic_source=rss"
+        }
+      ]
+    },
+    "medics among six palestinians injured in israeli attacks across west bank": {
+      "detected_at": "2026-08-07T03:15:35.172113Z",
+      "peak_at": "2026-08-07T03:15:35.172113Z",
+      "peak_score_at": "2026-08-07T03:15:35.172113Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "neutral",
+      "title": "Israeli raid in West Bank's Qalandiya injures 51 Palestinians",
+      "peak_label": "Israeli raid in West Bank injures 51",
+      "peak_summary": "Israeli forces arrest dozens near Jerusalem amid uptick in violence. Distant from Ukraine; no direct impact on war or aid.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians?traffic_source=rss"
         }
       ]
     },
@@ -247,22 +281,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
-        }
-      ]
-    },
-    "several killed in attacks on ukraine as kyiv hits russian e-commerce giant": {
-      "detected_at": "2026-08-07T19:14:29.887534Z",
-      "peak_at": "2026-08-07T19:14:29.887534Z",
-      "peak_score_at": "2026-08-07T19:14:29.887534Z",
-      "peak_score": 4.1,
-      "peak_sentiment": "positive",
-      "title": "Several killed in attacks on Ukraine as Kyiv hits Russian e-commerce giant",
-      "peak_label": "Ukraine strikes Russian logistics giant Wildberries",
-      "peak_summary": "Ukraine targets Wildberries warehouses and logistics hubs supporting Russian war effort. New offensive action against supply chain infrastructure.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/several-killed-in-attacks-on-ukraine-as-kyiv-hits-russian-e-commerce-giant?traffic_source=rss"
         }
       ]
     },
@@ -449,43 +467,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "israeli raid in west bank's qalandiya injures 51 palestinians": {
-      "detected_at": "2026-08-07T03:15:35.172113Z",
-      "peak_at": "2026-08-07T03:15:35.172113Z",
-      "peak_score_at": "2026-08-07T03:15:35.172113Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Israeli raid in West Bank's Qalandiya injures 51 Palestinians",
-      "peak_label": "Israeli raid in West Bank injures 51",
-      "peak_summary": "Israeli forces arrest dozens near Jerusalem amid uptick in violence. Distant from Ukraine; no direct impact on war or aid.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians?traffic_source=rss"
-        }
-      ]
-    },
-    "record-high heat soars through south korea": {
-      "detected_at": "2026-08-07T00:15:09.131904Z",
-      "peak_at": "2026-08-07T00:15:09.131904Z",
-      "peak_score_at": "2026-08-07T00:15:09.131904Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "neutral",
-      "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-      "peak_label": "SpaceX rocket debris crashes on Moon surface",
-      "peak_summary": "Seoul's lunar orbiter captures images before and after SpaceX rocket part hits Moon; space event with no Ukraine impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
     "Saudi Arabia, Turkey and Pakistan sign defence pact",
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "US to shut five consulates as critics fear China could fill diplomatic vacuum"
+    "Medics among six Palestinians injured in Israeli attacks across West Bank"
   ]
 }
