@@ -1,11 +1,11 @@
 {
-  "global_score": 2.8,
-  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, testing EU Schengen framework; indirect concern for Poland as EU member relying on open borders. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, testing EU Schengen framework; indirect concern for Poland's EU cohesion and border policy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
       "label": "Spain imposes border checks on Italy travelers",
-      "summary": "Spain introduces reciprocal border controls after Italy's measures following 78,000 migrants entering Ceuta from Morocco. Tests EU Schengen framework cohesion.",
+      "summary": "Spain introduces temporary border controls on Italian visitors in response to Rome's similar measures after 78,000 migrants entered Spanish Ceuta from Morocco. Tests EU Schengen unity.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -28,9 +28,9 @@
     },
     {
       "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "label": "Russian missiles kill three near Kyiv capital",
-      "summary": "Continued overnight strikes near Ukrainian capital kill child as Zelensky warns of dwindling interceptor supplies. Ongoing war background for Poland's eastern security concerns.",
-      "score": 2.6,
+      "label": "Russian missiles kill three near Kyiv",
+      "summary": "Overnight Russian missile strikes near Ukrainian capital kill child and two others as Zelensky warns of dwindling interceptor supplies. Continuation of known conflict pattern.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -46,23 +46,33 @@
       "detected_at": "2026-08-08T05:56:05.437201Z"
     },
     {
-      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
-      "label": "Iran missile strikes UAE tanker in Hormuz",
-      "summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz condemned by Gulf states. Potential indirect impact on global energy markets and prices.",
-      "score": 2.8,
+      "title": "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes",
+      "label": "British Columbia wildfire forces mass evacuations",
+      "summary": "Bald Range wildfire in western Canada spreads to 95 sq km, forcing thousands to evacuate. Climate-driven fire season continues globally.",
+      "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/8/british-columbia-issues-evacuation-orders-ahead-of-fast-moving-wildfires?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
         }
       ],
-      "detected_at": "2026-08-08T17:45:59.182671Z"
+      "detected_at": "2026-08-08T18:57:33.991447Z"
     }
   ],
   "short_summary": "Russia strikes near Kyiv killing child",
@@ -70,14 +80,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-08T17:45:59.182671Z",
+  "updated_at": "2026-08-08T18:57:33.991447Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia strikes near Kyiv killing child",
     "summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
     "title": "Child among three killed in Russian missile attacks near Kyiv",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-08-08T05:56:05.437201Z",
     "peak_at": "2026-08-08T05:56:05.437201Z",
@@ -289,6 +299,10 @@
     {
       "t": "2026-08-08T17:45:59.182671Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-08T18:57:33.991447Z",
+      "s": 2.5
     }
   ]
 }
