@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-08T16:01:25.881168Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-08T16:51:24.315404Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian strikes near Kyiv with civilian casualties",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 15,
       "opis": "Missile attacks near capital kill child; interceptor."
+    },
+    {
+      "temat": "Spain-Italy border controls escalate",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Spain imposes reciprocal checks; EU Schengen framework."
+    },
+    {
+      "temat": "Iran strikes UAE tanker in Hormuz",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
+    },
+    {
+      "temat": "Drones over Bulgaria and Germany",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 6,
+      "opis": "Russian drone incidents in NATO states including Bulgaria."
     },
     {
       "temat": "DRC Ebola virus mutation warning",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Cases exceed 4,000; officials warn virus may be mutating."
     },
     {
       "temat": "DRC Ebola outbreak exceeds 4,000 cases",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Major Ebola epidemic in DRC; WHO urges vaccine trial."
     },
     {
-      "temat": "Drones over Bulgaria and Germany",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 5,
-      "opis": "Russian drone incidents in NATO states including Bulgaria."
-    },
-    {
       "temat": "Saudi-Turkey-Pakistan defense pact",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 8,
-      "opis": "Mutual defense agreement signed; new regional alignment."
-    },
-    {
-      "temat": "US Senate passes Russian energy sanctions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "100% tariff on Russian oil/gas; Black Sea energy impact."
+      "cykle_bez_zmian": 9,
+      "opis": "Mutual defense agreement signed; new regional alignment."
     },
     {
       "temat": "Todd Blanche confirmed as US attorney general",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Trump's ex-lawyer confirmed after Senate stand-off."
-    },
-    {
-      "temat": "US closes five foreign consulates globally",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "State Dept shuts consulates in Canada, Japan, Indonesia."
     }
   ],
   "score_history": [
@@ -240,23 +240,43 @@
     {
       "t": "2026-08-08T16:01:25.874133Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-08T16:51:24.310451Z",
+      "s": 3.2
     }
   ],
-  "events_anchor_at": "2026-08-08T05:56:05.439636Z",
+  "events_anchor_at": "2026-08-08T01:01:27.366116Z",
   "event_detected_at": {
-    "spain to introduce temporary border checks on visitors from italy": {
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-08T16:01:25.874133Z",
-      "peak_score_at": "2026-08-08T16:01:25.874133Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "peak_label": "Spain imposes border checks on Italy visitors",
-      "peak_summary": "Spain retaliates with border controls after Italy's measures following Ceuta migrant influx. EU internal border tensions continue; indirect concern for Romania.",
+      "peak_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "peak_label": "Spain imposes border controls against Italy",
+      "peak_summary": "Spain introduces reciprocal border checks after Italy's controls following 78,000 migrants entering Ceuta. Threatens EU Schengen framework.",
       "peak_source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "uae says iran targeted adnoc tanker in strait of hormuz, no casualties": {
+      "detected_at": "2026-08-08T16:51:24.310451Z",
+      "peak_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
+      "peak_label": "Iran strikes UAE tanker in Hormuz Strait",
+      "peak_summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz draws condemnation from Gulf and Arab governments. No casualties reported.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
         }
       ]
     },
@@ -264,7 +284,7 @@
       "detected_at": "2026-08-08T05:56:05.439636Z",
       "peak_at": "2026-08-08T05:56:05.439636Z",
       "peak_score_at": "2026-08-08T05:56:05.439636Z",
-      "peak_score": 3.9,
+      "peak_score": 3.8,
       "peak_sentiment": "negative",
       "title": "Child among three killed in Russian missile attacks near Kyiv",
       "peak_label": "Russia kills child in Kyiv missile strike",
@@ -414,8 +434,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain to introduce temporary border checks on visitors from Italy",
-    "Child among three killed in Russian missile attacks near Kyiv",
-    "Saudi Arabia, Turkey and Pakistan sign defence pact"
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
+    "Child among three killed in Russian missile attacks near Kyiv"
   ]
 }
