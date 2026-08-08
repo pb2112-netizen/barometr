@@ -1,11 +1,30 @@
 {
-  "global_score": 4.1,
-  "rationale": "Spain-Italy border dispute escalates with reciprocal controls, directly affecting EU Schengen cohesion and Poland's own border security concerns. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Russian energy sanctions remain the highest impact; Spain-Italy border dispute continues as EU cohesion concern; other events distant or rhetorical.",
   "top_events": [
     {
+      "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
+      "label": "US Senate passes Russian energy sanctions bill",
+      "summary": "100% tariff on Russian oil and gas enacted, potentially affecting EU energy markets and Poland's indirect exposure to price volatility.",
+      "score": 3.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-08T01:01:27.364253Z"
+    },
+    {
       "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes Italy border controls over Ceuta",
-      "summary": "Spain retaliates with border checks after Italy introduced controls following 78,000 migrants entering Ceuta from Morocco. Escalation threatens EU Schengen unity and sets precedent for border disputes.",
+      "label": "Spain imposes border controls against Italy",
+      "summary": "Spain retaliates with border checks after Italy's controls following Ceuta migrant surge; EU cohesion and Schengen integrity tested.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -27,28 +46,9 @@
       "detected_at": "2026-08-03T22:01:27.477532Z"
     },
     {
-      "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
-      "label": "US Senate passes Russian energy sanctions bill",
-      "summary": "New legislation imposes 100% tariff on Russian oil and gas importers. Could affect European energy markets and Poland's energy security indirectly through supply chain disruptions.",
-      "score": 4.1,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-08T01:01:27.364253Z"
-    },
-    {
       "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-      "label": "Saudi-Turkey-Pakistan sign defense pact in Mecca",
-      "summary": "Three nations formalize mutual defense agreement. Turkey is NATO ally; pact creates new regional alignment but no direct impact on Poland's security.",
+      "label": "Saudi Arabia Turkey Pakistan sign defense pact",
+      "summary": "Three nations formalize mutual defense agreement; regional Middle East development with no direct impact on Poland.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -64,7 +64,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-07T11:56:29.594768Z"
@@ -72,12 +72,12 @@
   ],
   "short_summary": "US Senate passes Russian energy sanctions bill",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-08T01:01:27.364253Z",
+  "updated_at": "2026-08-08T02:21:05.928797Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US Senate passes Russian energy sanctions bill",
     "summary": "New legislation imposes 100% tariff on Russian oil and gas importers. Could affect European energy markets and Poland's energy security indirectly through supply chain disruptions.",
@@ -246,6 +246,10 @@
     {
       "t": "2026-08-08T01:01:27.364253Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-08-08T02:21:05.928797Z",
+      "s": 3.9
     }
   ]
 }
