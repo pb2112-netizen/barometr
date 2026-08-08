@@ -1,54 +1,49 @@
 {
-  "global_score": 3.6,
-  "rationale": "Russian energy sanctions remain top concern for Black Sea region energy security; Spain-Italy border row continues as EU migration issue; other events distant.",
+  "global_score": 3.0,
+  "rationale": "Spain-Italy border dispute continues EU migration tensions; US Russian energy sanctions remain highest concern for Black Sea energy security. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
-      "label": "US Senate passes Russian energy sanctions bill",
-      "summary": "100% tariff on Russian oil and gas enacted, directly affecting Black Sea energy dynamics and Romania's regional energy security concerns.",
-      "score": 3.6,
-      "sentiment": "neutral",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "label": "Spain imposes border controls against Italy",
+      "summary": "Spain retaliates with border checks after Italy's controls following 78,000 migrants to Ceuta. EU internal border tensions escalate.",
+      "score": 2.4,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-04T12:17:57.609820Z"
+    },
+    {
+      "title": "US Senate passes Russia sanctions that could hurt India and China",
+      "label": "US Senate passes Russia sanctions hurting allies",
+      "summary": "Senate approved 100% tariff on Russian oil/gas. Could affect Black Sea energy flows and Romanian regional security calculations.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/07-08-sv-us-sanctions-russia-us?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-08T01:01:27.366116Z"
     },
     {
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes border controls against Italy",
-      "summary": "Spain retaliates with border checks after Italy's controls; EU migration and border control tensions continue affecting Schengen integrity.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.609820Z"
-    },
-    {
       "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak exceeds 4000 cases",
-      "summary": "Cases pass 4,000 with potential virus mutation; major health crisis in distant region with no direct impact on Romania.",
+      "label": "DRC Ebola outbreak exceeds 4,000 cases",
+      "summary": "Cases passed 4,000; virus may be mutating. WHO plans door-to-door response escalation. Distant health crisis with no direct Romanian impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -67,10 +62,10 @@
   ],
   "short_summary": "US Senate passes Russian energy sanctions bill",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-08T02:21:05.930667Z",
+  "updated_at": "2026-08-08T04:01:24.785992Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-08T01:01:27.366116Z",
   "score_history": [
-    {
-      "t": "2026-08-06T03:35:10.219917Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-06T04:01:22.970133Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-06T06:44:59.981258Z",
       "s": 3.0
@@ -245,6 +232,10 @@
     {
       "t": "2026-08-08T02:21:05.930667Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-08T04:01:24.785992Z",
+      "s": 3.0
     }
   ]
 }
