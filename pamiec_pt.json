@@ -1,43 +1,37 @@
 {
-  "updated_at": "2026-08-08T07:58:48.666006Z",
+  "updated_at": "2026-08-08T08:59:18.929248Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Spain threatens Italy over borders after Ceuta; Iberian."
     },
     {
       "temat": "Mexico-Peru diplomatic normalization",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Relations restored after asylum row; Latin America."
     },
     {
       "temat": "Spain busts major Mediterranean smuggling ring",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "78 arrested in one of largest networks; Iberian security."
-    },
-    {
-      "temat": "Central Europe heatwave",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Record temperatures in Slovakia, Austria; Italy on alert."
-    },
-    {
-      "temat": "US wind energy project cancellations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Trump pays $1.2bn to halt offshore wind; energy policy."
     },
     {
       "temat": "Puerto Rico water rationing amid drought",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "180,000+ households face rationing; Atlantic climate."
+    },
+    {
+      "temat": "Typhoon Dolphin hits Japan",
+      "poziom_bazowy": 1.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Five injured in Japan as typhoon heads toward China."
     }
   ],
   "score_history": [
@@ -204,11 +198,15 @@
     {
       "t": "2026-08-08T07:58:48.659288Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-08T08:59:18.922395Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-07T11:06:42.497572Z",
   "event_detected_at": {
-    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
+    "spain imposes border controls against italy": {
       "detected_at": "2026-08-04T12:17:57.611249Z",
       "peak_at": "2026-08-07T16:01:31.750964Z",
       "peak_score_at": "2026-08-07T16:01:31.750964Z",
@@ -221,6 +219,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "typhoon dolphin hits japan, heads towards china": {
+      "detected_at": "2026-08-08T08:59:18.922395Z",
+      "peak_at": "2026-08-08T08:59:18.922395Z",
+      "peak_score_at": "2026-08-08T08:59:18.922395Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "negative",
+      "title": "Typhoon Dolphin hits Japan, heads towards China",
+      "peak_label": "Typhoon Dolphin hits Japan heading to China",
+      "peak_summary": "Five elderly people suffer non-life-threatening injuries in Japan as typhoon moves toward China.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/typhoon-dolphin-hits-japan-heads-towards-china?traffic_source=rss"
+        }
+      ]
+    },
+    "us promises $1bn security aid to colombia": {
+      "detected_at": "2026-08-08T04:20:52.575378Z",
+      "peak_at": "2026-08-08T04:20:52.575378Z",
+      "peak_score_at": "2026-08-08T04:20:52.575378Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "[Guardian] US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
+      "peak_label": "Colombia president pledges drugs crackdown with US aid",
+      "peak_summary": "Abelardo De La Espriella sworn in with $1bn US security aid, vowing transformation. Latin America rightward shift with indirect relevance to Portugal's Lusophone ties.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
         }
       ]
     },
@@ -241,22 +271,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
-        }
-      ]
-    },
-    "[guardian] us promises $1bn in security aid to colombia as new rightwing president pledges drugs crackdown": {
-      "detected_at": "2026-08-08T04:20:52.575378Z",
-      "peak_at": "2026-08-08T04:20:52.575378Z",
-      "peak_score_at": "2026-08-08T04:20:52.575378Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "[Guardian] US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-      "peak_label": "Colombia president pledges drugs crackdown with US aid",
-      "peak_summary": "Abelardo De La Espriella sworn in with $1bn US security aid, vowing transformation. Latin America rightward shift with indirect relevance to Portugal's Lusophone ties.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
         }
       ]
     },
@@ -358,7 +372,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks"
+    "Spain imposes border controls against Italy",
+    "Typhoon Dolphin hits Japan, heads towards China",
+    "US promises $1bn security aid to Colombia"
   ]
 }

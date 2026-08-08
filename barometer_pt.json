@@ -1,54 +1,78 @@
 {
   "global_score": 2.0,
-  "short_summary": "Central Europe heatwave breaks temperature records",
-  "rationale": "Spain-Italy border dispute continues in Iberia but no direct impact on Portugal; other events distant from daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Spain-Italy border dispute escalates with Spanish retaliation affecting Iberian neighbor; distant events remain low impact on Portuguese daily life.",
   "top_events": [
     {
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes border checks on Italy",
-      "summary": "Spain retaliates with border controls after Italy's measures following 78,000 migrants into Ceuta, affecting Iberian neighbor.",
+      "title": "Spain imposes border controls against Italy",
+      "label": "Spain imposes border checks on Italy travelers",
+      "summary": "Spain retaliates with temporary border controls after Italy introduced checks following 78,000 migrant influx to Ceuta.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
         }
       ],
       "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
-      "label": "Spain busts major smuggling network",
-      "summary": "Spanish police arrest 78 in major operation against network moving drugs to Algeria and smuggling migrants and weapons back.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Typhoon Dolphin hits Japan, heads towards China",
+      "label": "Typhoon Dolphin hits Japan heading to China",
+      "summary": "Five elderly people suffer non-life-threatening injuries in Japan as typhoon moves toward China.",
+      "score": 1.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/typhoon-dolphin-hits-japan-heads-towards-china?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-07T18:01:12.063234Z"
+      "detected_at": "2026-08-08T08:59:18.922395Z"
+    },
+    {
+      "title": "US promises $1bn security aid to Colombia",
+      "label": "US pledges $1bn security aid to Colombia",
+      "summary": "Trump administration commits major security assistance as new rightwing president vows drugs crackdown.",
+      "score": 1.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
+        }
+      ],
+      "detected_at": "2026-08-08T04:20:52.575378Z"
     }
   ],
+  "short_summary": "Central Europe heatwave breaks temperature records",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-08T07:58:48.659288Z",
+  "updated_at": "2026-08-08T08:59:18.922395Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Central Europe heatwave breaks temperature records",
     "summary": "Record heat in Slovakia, Austria; Italy on highest alert. May signal broader European climate stress affecting Iberia indirectly.",
@@ -228,6 +252,10 @@
     },
     {
       "t": "2026-08-08T07:58:48.659288Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-08T08:59:18.922395Z",
       "s": 2.0
     }
   ]
