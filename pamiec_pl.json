@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-08T19:43:54.314088Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-08T20:47:38.127809Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": "2026-08-08T05:56:05.447696Z",
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Spain threatens Italy over borders after Ceuta; EU cohesion."
     },
     {
-      "temat": "US Senate passes Russian energy sanctions",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "100% tariff on Russian oil/gas; potential EU energy impact."
+      "temat": "Russian strikes near Kyiv with civilian casualties",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 20,
+      "opis": "Missile attacks near capital kill child; interceptor."
     },
     {
-      "temat": "Russian strikes near Kyiv with civilian casualties",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 19,
-      "opis": "Missile attacks near capital kill child; interceptor."
+      "temat": "Iran strikes UAE tanker in Hormuz",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
+    },
+    {
+      "temat": "Hormuz Strait shipping talks",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Oman reports progress on new route; no breakthrough yet."
+    },
+    {
+      "temat": "Drones over Bulgaria and Germany",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 11,
+      "opis": "Russian drone incidents in NATO states raise escalation."
     },
     {
       "temat": "Saudi-Turkey-Pakistan defense pact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Mutual defense agreement signed; new regional alignment."
     },
     {
       "temat": "Todd Blanche confirmed as US attorney general",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Trump's ex-lawyer confirmed after lengthy Senate stand-off."
     },
     {
       "temat": "DRC Ebola virus mutation warning",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Cases exceed 4,000; officials warn virus may be mutating."
-    },
-    {
-      "temat": "Drones over Bulgaria and Germany",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 10,
-      "opis": "Russian drone incidents in NATO states raise escalation."
-    },
-    {
-      "temat": "Iran strikes UAE tanker in Hormuz",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
-      "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     }
   ],
   "score_history": [
@@ -260,10 +260,34 @@
     {
       "t": "2026-08-08T19:43:54.305747Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-08T20:47:38.119225Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-08T01:01:27.364253Z",
   "event_detected_at": {
+    "child among three killed in russian missile attacks near kyiv": {
+      "detected_at": "2026-08-08T05:56:05.437201Z",
+      "peak_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "negative",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "peak_label": "Russia strikes near Kyiv killing child",
+      "peak_summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+        }
+      ]
+    },
     "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-03T22:01:27.477532Z",
       "peak_at": "2026-08-08T10:01:23.629540Z",
@@ -284,23 +308,19 @@
         }
       ]
     },
-    "child among three killed in russian missile attacks near kyiv": {
-      "detected_at": "2026-08-08T05:56:05.437201Z",
-      "peak_at": "2026-08-08T05:56:05.437201Z",
-      "peak_score_at": "2026-08-08T05:56:05.437201Z",
-      "peak_score": 3.9,
+    "hormuz talks positive, oman says, as iran warns deal would not open strait": {
+      "detected_at": "2026-08-08T17:45:59.182671Z",
+      "peak_at": "2026-08-08T17:45:59.182671Z",
+      "peak_score_at": "2026-08-08T17:45:59.182671Z",
+      "peak_score": 2.8,
       "peak_sentiment": "negative",
-      "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "peak_label": "Russia strikes near Kyiv killing child",
-      "peak_summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
+      "peak_label": "Iran missile strikes UAE tanker in Hormuz",
+      "peak_summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz condemned by Gulf states. Potential indirect impact on global energy markets and prices.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
         }
       ]
     },
@@ -341,22 +361,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
-        }
-      ]
-    },
-    "uae says iran targeted adnoc tanker in strait of hormuz, no casualties": {
-      "detected_at": "2026-08-08T17:45:59.182671Z",
-      "peak_at": "2026-08-08T17:45:59.182671Z",
-      "peak_score_at": "2026-08-08T17:45:59.182671Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
-      "peak_label": "Iran missile strikes UAE tanker in Hormuz",
-      "peak_summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz condemned by Gulf states. Potential indirect impact on global energy markets and prices.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
         }
       ]
     },
@@ -455,27 +459,11 @@
           "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
         }
       ]
-    },
-    "us labour market sheds jobs in july as labour force participation slumps": {
-      "detected_at": "2026-08-07T19:59:57.847166Z",
-      "peak_at": "2026-08-07T19:59:57.847166Z",
-      "peak_score_at": "2026-08-07T19:59:57.847166Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "US labour market sheds jobs in July as labour force participation slumps",
-      "peak_label": "US loses 23,000 jobs in July downturn",
-      "peak_summary": "US labor market weakens with job losses across education, government, and retail sectors, potentially signaling broader economic slowdown affecting global markets.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/7/us-labour-market-sheds-jobs-in-july-as-labour-force-participation-slumps?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Child among three killed in Russian missile attacks near Kyiv",
-    "Ebola virus behind massive outbreak in DRC could be mutating, officials say"
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
   ]
 }
