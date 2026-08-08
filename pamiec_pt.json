@@ -1,44 +1,40 @@
 {
-  "updated_at": "2026-08-08T08:59:18.929248Z",
+  "updated_at": "2026-08-08T09:54:10.273694Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Spain threatens Italy over borders after Ceuta; Iberian."
     },
     {
       "temat": "Mexico-Peru diplomatic normalization",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Relations restored after asylum row; Latin America."
     },
     {
       "temat": "Spain busts major Mediterranean smuggling ring",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "78 arrested in one of largest networks; Iberian security."
     },
     {
       "temat": "Puerto Rico water rationing amid drought",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "180,000+ households face rationing; Atlantic climate."
     },
     {
       "temat": "Typhoon Dolphin hits Japan",
-      "poziom_bazowy": 1.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Five injured in Japan as typhoon heads toward China."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-06T09:51:10.020695Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-06T10:01:24.913899Z",
       "s": 2.3
@@ -202,11 +198,15 @@
     {
       "t": "2026-08-08T08:59:18.922395Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-08T09:54:10.264533Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-07T11:06:42.497572Z",
   "event_detected_at": {
-    "spain imposes border controls against italy": {
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-04T12:17:57.611249Z",
       "peak_at": "2026-08-07T16:01:31.750964Z",
       "peak_score_at": "2026-08-07T16:01:31.750964Z",
@@ -219,6 +219,26 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
+      "detected_at": "2026-08-07T18:01:12.063234Z",
+      "peak_at": "2026-08-07T19:01:22.773735Z",
+      "peak_score_at": "2026-08-07T19:01:22.773735Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "positive",
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+      "peak_label": "Spain busts major Mediterranean smuggling network",
+      "peak_summary": "Authorities dismantle one of largest criminal networks moving migrants and drugs across Mediterranean, affecting Iberian security indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
         }
       ]
     },
@@ -251,26 +271,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
-        }
-      ]
-    },
-    "spanish police arrest 78 people in bust of 'one of largest' smuggling networks": {
-      "detected_at": "2026-08-07T18:01:12.063234Z",
-      "peak_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score_at": "2026-08-07T19:01:22.773735Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "positive",
-      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
-      "peak_label": "Spain busts major Mediterranean smuggling network",
-      "peak_summary": "Authorities dismantle one of largest criminal networks moving migrants and drugs across Mediterranean, affecting Iberian security indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/7/mediterranean-smuggling-network-dismantled-in-spain-led-raid-78-arrested?traffic_source=rss"
         }
       ]
     },
@@ -372,8 +372,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain imposes border controls against Italy",
-    "Typhoon Dolphin hits Japan, heads towards China",
-    "US promises $1bn security aid to Colombia"
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+    "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
+    "Typhoon Dolphin hits Japan, heads towards China"
   ]
 }
