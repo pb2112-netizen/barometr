@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-09T14:51:52.677789Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-09T15:46:09.587021Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": "2026-08-08T05:56:05.447696Z",
   "stan_swiata": [
     {
       "temat": "Typhoon Dolphin hits Japan and China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Major storm cuts power in Okinawa; distant weather event."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     },
     {
       "temat": "Hormuz Strait shipping talks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Oman reports progress on new route; no breakthrough yet."
     },
     {
       "temat": "Russian missile strikes near Kyiv kill child",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 4,
       "opis": "Escalation: attacks near capital kill civilians including."
     },
     {
       "temat": "Russian attacks on Odesa port",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 4,
       "opis": "Strikes on Ukraine grain export hub threaten food security."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 1,
       "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T15:08:50.845541Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-07T16:01:31.746864Z",
       "s": 2.6
@@ -282,10 +278,34 @@
     {
       "t": "2026-08-09T14:51:52.669084Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-09T15:46:09.579605Z",
+      "s": 2.1
     }
   ],
   "events_anchor_at": "2026-08-08T05:56:05.437201Z",
   "event_detected_at": {
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-03T22:01:27.477532Z",
+      "peak_at": "2026-08-09T10:01:20.965153Z",
+      "peak_score_at": "2026-08-09T10:01:20.965153Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "peak_label": "Spain imposes border checks on Italy travelers",
+      "peak_summary": "Spain introduces temporary border controls on Italian visitors after Italy imposed similar measures following 78,000 migrants entering Ceuta from Morocco. EU Schengen framework tension, indirect.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ]
+    },
     "israel rejects trump's 15-point plan for gaza, netanyahu says": {
       "detected_at": "2026-08-09T13:01:25.638661Z",
       "peak_at": "2026-08-09T13:01:25.638661Z",
@@ -306,7 +326,7 @@
         }
       ]
     },
-    "canada wildfire rages out of control in british columbia": {
+    "residents warned to brace for the worst as canada wildfire rages out of control": {
       "detected_at": "2026-08-08T18:57:33.991447Z",
       "peak_at": "2026-08-09T13:59:20.340636Z",
       "peak_score_at": "2026-08-09T13:59:20.340636Z",
@@ -323,26 +343,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
-        }
-      ]
-    },
-    "spain imposes border controls against italy over ceuta migrant influx": {
-      "detected_at": "2026-08-03T22:01:27.477532Z",
-      "peak_at": "2026-08-09T10:01:20.965153Z",
-      "peak_score_at": "2026-08-09T10:01:20.965153Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "peak_label": "Spain imposes border checks on Italy travelers",
-      "peak_summary": "Spain introduces temporary border controls on Italian visitors after Italy imposed similar measures following 78,000 migrants entering Ceuta from Morocco. EU Schengen framework tension, indirect.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
         }
       ]
     },
@@ -428,8 +428,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Spain to introduce temporary border checks on visitors from Italy",
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-    "Canada wildfire rages out of control in British Columbia",
-    "Spain imposes border controls against Italy over Ceuta migrant influx"
+    "Residents warned to brace for the worst as Canada wildfire rages out of control"
   ]
 }
