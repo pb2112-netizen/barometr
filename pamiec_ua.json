@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-09T04:36:07.996727Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-08-09T05:57:39.484053Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Yemen government forces attack Houthis",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 12,
       "opis": "Counterattacks in Marib; wider conflict risk affects region."
     },
     {
       "temat": "Colombia car bomb after president inauguration",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 6,
       "opis": "Explosives attack on highway after hardline president sworn."
     },
     {
       "temat": "Serbia-Ukraine economic cooperation deepens",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 12,
       "opis": "Serbia pledges rebuild aid, eyes free trade deal with."
     },
     {
       "temat": "Russian drones systematically target medics",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Growing attacks on hospitals, ambulances, medical workers."
     },
     {
       "temat": "Israeli troops intrude Lebanon injure soldiers",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Israeli forces build barrier in southern Lebanon town."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
+    },
+    {
+      "temat": "Ukraine interceptor shortage warning",
+      "poziom_bazowy": 7.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Zelensky warns missile interceptor supplies dwindling."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T05:03:38.261991Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-07T06:18:33.406793Z",
       "s": 3.0
@@ -264,6 +266,10 @@
     {
       "t": "2026-08-09T04:36:07.990045Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-08-09T05:57:39.477279Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-08-08T22:45:45.955537Z",
@@ -284,27 +290,11 @@
         }
       ]
     },
-    "vance says us 'destroyed' iran's nuclear programme": {
-      "detected_at": "2026-08-09T04:36:07.990045Z",
-      "peak_at": "2026-08-09T04:36:07.990045Z",
-      "peak_score_at": "2026-08-09T04:36:07.990045Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Vance says US 'destroyed' Iran's nuclear programme",
-      "peak_label": "Vance claims US destroyed Iran nuclear program",
-      "peak_summary": "US Vice President claims Washington destroyed Iran's nuclear program and degraded military. Rhetoric without confirmed action or direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss"
-        }
-      ]
-    },
-    "car bomb attack rattles colombia after inauguration of hardline president": {
+    "car bomb hits colombia highway day after new president sworn in": {
       "detected_at": "2026-08-08T22:45:45.955537Z",
       "peak_at": "2026-08-08T22:45:45.955537Z",
       "peak_score_at": "2026-08-08T22:45:45.955537Z",
-      "peak_score": 5.2,
+      "peak_score": 5.1,
       "peak_sentiment": "negative",
       "title": "Car bomb attack rattles Colombia after inauguration of hardline president",
       "peak_label": "Car bomb hits Colombia after inauguration",
@@ -320,7 +310,7 @@
       "detected_at": "2026-08-08T16:01:25.876823Z",
       "peak_at": "2026-08-08T16:01:25.876823Z",
       "peak_score_at": "2026-08-08T16:01:25.876823Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "neutral",
       "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
       "peak_label": "Iran strikes UAE tanker in Hormuz Strait",
@@ -329,6 +319,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
+        }
+      ]
+    },
+    "vance says us 'destroyed' iran's nuclear programme": {
+      "detected_at": "2026-08-09T04:36:07.990045Z",
+      "peak_at": "2026-08-09T04:36:07.990045Z",
+      "peak_score_at": "2026-08-09T04:36:07.990045Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Vance says US 'destroyed' Iran's nuclear programme",
+      "peak_label": "Vance claims US destroyed Iran nuclear program",
+      "peak_summary": "US Vice President claims Washington destroyed Iran's nuclear program and degraded military. Rhetoric without confirmed action or direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss"
         }
       ]
     },
@@ -459,26 +465,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/woman-screams-for-her-man-as-ukraine-war-recruiters-pounce?traffic_source=rss"
         }
       ]
-    },
-    "us senate passes russia sanctions that could hurt india and china": {
-      "detected_at": "2026-08-08T05:56:05.442706Z",
-      "peak_at": "2026-08-08T05:56:05.442706Z",
-      "peak_score_at": "2026-08-08T05:56:05.442706Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "positive",
-      "title": "US Senate passes Russia sanctions that could hurt India and China",
-      "peak_label": "US Senate passes strongest Russia sanctions",
-      "peak_summary": "Senate approved strongest Russia sanctions under Trump, potentially cutting Russian war funding but also affecting global energy markets.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/07-08-sv-us-sanctions-russia-us?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Child among three killed in Russian missile attacks near Kyiv",
-    "Vance says US 'destroyed' Iran's nuclear programme"
+    "Car bomb hits Colombia highway day after new president sworn in",
+    "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
   ]
 }

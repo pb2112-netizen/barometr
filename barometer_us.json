@@ -1,23 +1,61 @@
 {
-  "global_score": 3.8,
-  "rationale": "US pledges $1bn security aid to Colombia's new rightwing president on first day; significant foreign policy commitment but distant from daily US life.",
+  "global_score": 3.0,
+  "rationale": "Joe Biden's cancer metastasis to bones represents a significant new health development for a former president; Colombia car bomb and $1bn aid package continue previous cycle's story. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US offers $1bn to Colombia on new right-wing president's first day of office",
-      "label": "US pledges $1bn aid to Colombia president",
-      "summary": "Trump administration commits $1bn security assistance to new Colombian president De La Espriella who vows 'all-out war' on narco-terrorism. Major foreign aid commitment.",
-      "score": 3.8,
-      "sentiment": "neutral",
+      "title": "'Very painful': Joe Biden's cancer has spread, son Hunter says",
+      "label": "Biden cancer spreads to bones, son says",
+      "summary": "Hunter Biden revealed his father's prostate cancer has metastasized into bones and further, marking a serious progression of the former president's illness.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-clip-biden-cancer-us?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-08T07:01:14.678931Z"
+    },
+    {
+      "title": "Haitians face arrest and deportation after US removes TPS protections",
+      "label": "Haitians face arrest after TPS removal",
+      "summary": "DHS secretary says 'going after' hundreds of thousands of Haitians now facing arrest and deportation despite ongoing violence in Haiti.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration"
+        }
+      ],
+      "detected_at": "2026-08-09T05:57:39.479067Z"
+    },
+    {
+      "title": "Car bomb hits Colombia highway day after new president sworn in",
+      "label": "Colombia car bomb after president sworn in",
+      "summary": "Car bomb destroyed toll booth on Colombian highway day after President de la Espriella sworn in. US pledged $1bn security aid to new government.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -25,59 +63,21 @@
         }
       ],
       "detected_at": "2026-08-08T04:20:52.579077Z"
-    },
-    {
-      "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court ruling allows government to strip temporary protected status for South Sudanese nationals following Supreme Court precedent. Continuation of TPS policy changes.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
-        }
-      ],
-      "detected_at": "2026-08-07T19:01:22.776741Z"
-    },
-    {
-      "title": "Vance says US 'destroyed' Iran's nuclear programme",
-      "label": "Vance claims US destroyed Iran nuclear program",
-      "summary": "Vice President claims Washington destroyed Iran's nuclear program and degraded military. Rhetoric without confirmed new action or policy change.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/vance-says-us-destroyed-irans-nuclear-programme?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T02:28:11.317832Z"
     }
   ],
   "short_summary": "Car bomb hits Colombia after inauguration",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-09T04:36:07.991484Z",
+  "updated_at": "2026-08-09T05:57:39.479067Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Car bomb hits Colombia after inauguration",
     "summary": "Explosives attack on Pan-American Highway follows inauguration of hardline president De La Espriella. Comes as US pledges $1bn security aid to new Colombian government.",
     "title": "Car bomb attack rattles Colombia after inauguration of hardline president",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-08-08T04:20:52.579077Z",
     "peak_at": "2026-08-08T22:45:45.957157Z",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-08T04:20:52.579077Z",
   "score_history": [
-    {
-      "t": "2026-08-07T05:03:38.264079Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-07T06:18:33.408240Z",
       "s": 3.1
@@ -313,6 +309,10 @@
     {
       "t": "2026-08-09T04:36:07.991484Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-09T05:57:39.479067Z",
+      "s": 3.0
     }
   ]
 }

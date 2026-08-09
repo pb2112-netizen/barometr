@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-09T04:36:07.995356Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-09T05:57:39.482778Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 14,
       "opis": "Spain imposes reciprocal border checks after Italy's move."
-    },
-    {
-      "temat": "Lake Garda wildfire evacuations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Wildfire near Italian tourist destination forces."
-    },
-    {
-      "temat": "Paris e-scooter safety rules",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "French capital tightens e-scooter regulations after deaths."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Iranian missile attack on Emirati vessel; energy impact."
     },
     {
       "temat": "Hormuz Strait shipping talks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Oman reports progress on new route; no breakthrough yet."
+    },
+    {
+      "temat": "French wildfire arrests",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Hundreds arrested over unprecedented fires last month."
+    },
+    {
+      "temat": "Paris e-scooter safety rules",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 6,
+      "opis": "French capital tightens e-scooter regulations after deaths."
+    },
+    {
+      "temat": "Lake Garda wildfire evacuations",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 9,
+      "opis": "Wildfire near Italian tourist destination forces."
     },
     {
       "temat": "British Columbia wildfires force evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Fast-moving wildfires in western Canada; climate concern."
     },
     {
       "temat": "Spanish police bust major smuggling network",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "78 arrested in drugs-migrants-weapons smuggling operation."
-    },
-    {
-      "temat": "Mount Etna ash disrupts Catania airport",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
-      "opis": "Volcanic ash suspends arrivals at Sicily tourist hub."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T05:03:38.260473Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-07T06:18:33.405383Z",
       "s": 2.4
@@ -276,15 +272,35 @@
     {
       "t": "2026-08-09T04:36:07.988907Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-09T05:57:39.475590Z",
+      "s": 2.9
     }
   ],
-  "events_anchor_at": "2026-08-04T12:17:57.611249Z",
+  "events_anchor_at": "2026-08-09T05:57:39.475590Z",
   "event_detected_at": {
+    "hundreds arrested over french wildfires, but who is to blame?": {
+      "detected_at": "2026-08-09T05:57:39.475590Z",
+      "peak_at": "2026-08-09T05:57:39.475590Z",
+      "peak_score_at": "2026-08-09T05:57:39.475590Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Hundreds arrested over French wildfires, but who is to blame?",
+      "peak_label": "France arrests hundreds over wildfires",
+      "peak_summary": "French government arrested hundreds over unprecedented fires that tore through the country last month, attempting to attribute blame for the disaster.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-04T12:17:57.611249Z",
       "peak_at": "2026-08-08T16:51:24.311386Z",
       "peak_score_at": "2026-08-08T16:51:24.311386Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
       "peak_label": "Spain imposes border controls against Italy",
@@ -293,6 +309,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "hormuz talks positive, oman says, as iran warns deal would not open strait": {
+      "detected_at": "2026-08-08T17:45:59.186081Z",
+      "peak_at": "2026-08-08T17:45:59.186081Z",
+      "peak_score_at": "2026-08-08T17:45:59.186081Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
+      "peak_label": "Iran missile strikes UAE tanker in Hormuz",
+      "peak_summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz condemned by Gulf states. Potential indirect impact on global energy markets and Atlantic shipping.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
         }
       ]
     },
@@ -309,22 +341,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c89nkln7w7ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "hormuz talks positive, oman says, as iran warns deal would not open strait": {
-      "detected_at": "2026-08-08T17:45:59.186081Z",
-      "peak_at": "2026-08-08T17:45:59.186081Z",
-      "peak_score_at": "2026-08-08T17:45:59.186081Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
-      "peak_label": "Iran missile strikes UAE tanker in Hormuz",
-      "peak_summary": "Iranian missile attack on Emirati vessel in Strait of Hormuz condemned by Gulf states. Potential indirect impact on global energy markets and Atlantic shipping.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
         }
       ]
     },
@@ -426,7 +442,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Hundreds arrested over French wildfires, but who is to blame?",
     "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-    "Paris tells e-scooter riders to wear safety gear or face fines"
+    "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
   ]
 }
