@@ -1,43 +1,49 @@
 {
-  "updated_at": "2026-08-09T09:55:25.294165Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-09T10:01:20.976090Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Yemen government forces attack Houthis",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 18,
       "opis": "Counterattacks in Marib; wider conflict risk affects region."
     },
     {
       "temat": "Colombia car bomb after president inauguration",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 12,
       "opis": "Explosives attack on highway after hardline president sworn."
     },
     {
       "temat": "Serbia-Ukraine economic cooperation deepens",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 18,
       "opis": "Serbia pledges rebuild aid, eyes free trade deal with."
     },
     {
       "temat": "Israeli troops intrude Lebanon injure soldiers",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Israeli forces build barrier in southern Lebanon town."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     },
     {
       "temat": "Ukraine interceptor shortage warning",
-      "poziom_bazowy": 5.3,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 7,
       "opis": "Zelensky warns missile interceptor supplies dwindling."
+    },
+    {
+      "temat": "US $1bn security aid to Colombia",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump admin pledges $1bn to Colombia under new president."
     }
   ],
   "score_history": [
@@ -272,10 +278,66 @@
     {
       "t": "2026-08-09T09:55:25.287313Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-09T10:01:20.969493Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-08T18:57:33.997901Z",
   "event_detected_at": {
+    "us promises $1bn in security aid to colombia as new rightwing president pledges drugs crackdown": {
+      "detected_at": "2026-08-09T01:01:16.338976Z",
+      "peak_at": "2026-08-09T01:01:16.338976Z",
+      "peak_score_at": "2026-08-09T01:01:16.338976Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
+      "peak_label": "US pledges $1bn security aid to Colombia",
+      "peak_summary": "Trump administration commits $1 billion in security assistance to Colombia as new president De La Espriella vows profound transformation.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
+        }
+      ]
+    },
+    "wildfire forces thousands of evacuations in western canada": {
+      "detected_at": "2026-08-09T10:01:20.969493Z",
+      "peak_at": "2026-08-09T10:01:20.969493Z",
+      "peak_score_at": "2026-08-09T10:01:20.969493Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Wildfire forces thousands of evacuations in Western Canada",
+      "peak_label": "Canada wildfire forces 20,000 evacuations",
+      "peak_summary": "Fast-moving wildfire in British Columbia forces over 20,000 evacuations. Distant climate event with no connection to Ukrainian residents' daily life during war.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "israel announces tender for 627 settler units in occupied west bank": {
+      "detected_at": "2026-08-09T07:15:32.131265Z",
+      "peak_at": "2026-08-09T07:15:32.131265Z",
+      "peak_score_at": "2026-08-09T07:15:32.131265Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Israel announces tender for 627 settler units in occupied West Bank",
+      "peak_label": "Israel announces 627 West Bank settler units",
+      "peak_summary": "Israel announces new settlement tender in West Bank, deepening efforts to sever Palestinian ties to Jerusalem—distant conflict with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
+        }
+      ]
+    },
     "child among three killed in russian missile attacks near kyiv": {
       "detected_at": "2026-08-08T05:56:05.442706Z",
       "peak_at": "2026-08-09T02:28:11.316586Z",
@@ -305,22 +367,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ]
-    },
-    "us promises $1bn in security aid to colombia": {
-      "detected_at": "2026-08-09T01:01:16.338976Z",
-      "peak_at": "2026-08-09T01:01:16.338976Z",
-      "peak_score_at": "2026-08-09T01:01:16.338976Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "neutral",
-      "title": "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-      "peak_label": "US pledges $1bn security aid to Colombia",
-      "peak_summary": "Trump administration commits $1 billion in security assistance to Colombia as new president De La Espriella vows profound transformation.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
         }
       ]
     },
@@ -369,22 +415,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/8/car-bomb-attack-rattles-colombia-after-inauguration-of-hardline-president?traffic_source=rss"
-        }
-      ]
-    },
-    "israel announces tender for 627 settler units in occupied west bank": {
-      "detected_at": "2026-08-09T07:15:32.131265Z",
-      "peak_at": "2026-08-09T07:15:32.131265Z",
-      "peak_score_at": "2026-08-09T07:15:32.131265Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Israel announces tender for 627 settler units in occupied West Bank",
-      "peak_label": "Israel announces 627 West Bank settler units",
-      "peak_summary": "Israel announces new settlement tender in West Bank, deepening efforts to sever Palestinian ties to Jerusalem—distant conflict with no direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
         }
       ]
     },
@@ -518,8 +548,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Child among three killed in Russian missile attacks near Kyiv",
-    "Ebola virus behind massive outbreak in DRC could be mutating",
-    "US promises $1bn in security aid to Colombia"
+    "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
+    "Wildfire forces thousands of evacuations in Western Canada",
+    "Israel announces tender for 627 settler units in occupied West Bank"
   ]
 }

@@ -1,30 +1,59 @@
 {
-  "global_score": 2.4,
-  "rationale": "French wildfire arrests continue the ongoing climate concern; Spain-Italy border dispute persists; no qualitative change affecting Portugal's daily life.",
+  "global_score": 2.0,
+  "rationale": "Spain-Italy border control dispute continues as background; distant events (Canada wildfire, Hormuz talks, Colombia politics) have minimal impact on Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Hundreds arrested over French wildfires, but who is to blame?",
-      "label": "Hundreds arrested over French wildfires",
-      "summary": "Government attributes blame for unprecedented fires that tore through France last month. Ongoing climate and fire concern for Iberian peninsula continues.",
-      "score": 2.4,
-      "sentiment": "negative",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "label": "Spain imposes border checks on Italy travelers",
+      "summary": "Spain introduces temporary border controls on Italian visitors after Italy imposed similar measures following 78,000 migrants entering Ceuta from Morocco. Iberian neighbor's action, mild indirect relevance to Portugal.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgxjn92x9jo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
         }
       ],
-      "detected_at": "2026-08-09T05:57:39.475590Z"
+      "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "label": "Spain imposes Italy border checks over migrants",
-      "summary": "Spain introduces reciprocal border controls after Italy's measures following 78,000 migrants entering Ceuta. EU Schengen framework tensions continue with indirect implications for Portugal.",
+      "title": "Wildfire forces thousands of evacuations in Western Canada",
+      "label": "Canada wildfire forces 20,000 evacuations",
+      "summary": "Fast-moving wildfire in British Columbia forces over 20,000 evacuations. Distant climate event with no direct connection to Portuguese residents' daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-08T17:45:59.186081Z"
+    },
+    {
+      "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+      "label": "Oman reports progress on Hormuz shipping route",
+      "summary": "Oman suggests progress in talks for new shipping route through Hormuz Strait, but breakthrough remains unclear. Distant energy-related development with no immediate impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -35,26 +64,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
-      "title": "Wildfire forces thousands of evacuations in Western Canada",
-      "label": "Wildfire forces evacuations in British Columbia",
-      "summary": "Fast-moving wildfire forced over 20,000 people to evacuate parts of British Columbia's Okanagan region. Distant climate event with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-08T17:45:59.186081Z"
@@ -65,9 +75,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-09T09:55:25.285839Z",
+  "updated_at": "2026-08-09T10:01:20.967939Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "France arrests hundreds over wildfires",
     "summary": "French government arrested hundreds over unprecedented fires that tore through the country last month, attempting to attribute blame for the disaster.",
@@ -316,6 +326,10 @@
     {
       "t": "2026-08-09T09:55:25.285839Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-09T10:01:20.967939Z",
+      "s": 2.0
     }
   ]
 }
