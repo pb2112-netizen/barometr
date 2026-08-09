@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-09T01:01:16.342728Z",
+  "updated_at": "2026-08-09T02:28:11.318660Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": "2026-08-08T05:56:05.447696Z",
   "stan_swiata": [
     {
       "temat": "Spain-Italy border control dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Spain threatens Italy over borders after Ceuta; EU cohesion."
-    },
-    {
-      "temat": "Russian strikes near Kyiv with civilian casualties",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Missile attacks near capital kill child; interceptor."
     },
     {
       "temat": "Typhoon Dolphin hits Japan and China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Major storm cuts power in Okinawa; distant weather event."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     },
     {
       "temat": "Hormuz Strait shipping talks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Oman reports progress on new route; no breakthrough yet."
     },
     {
       "temat": "Drones over Bulgaria and Germany",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Russian drone incidents in NATO states raise escalation."
     },
     {
       "temat": "Saudi-Turkey-Pakistan defense pact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Mutual defense agreement signed; new regional alignment."
     },
     {
       "temat": "Todd Blanche confirmed as US attorney general",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Trump's ex-lawyer confirmed after lengthy Senate stand-off."
+    },
+    {
+      "temat": "Russian missile strikes near Kyiv kill child",
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Escalation: attacks near capital kill civilians including."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T01:01:25.881115Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-07T03:15:35.167613Z",
       "s": 3.0
@@ -276,10 +272,34 @@
     {
       "t": "2026-08-09T01:01:16.332709Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-09T02:28:11.312531Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-08T01:01:27.364253Z",
   "event_detected_at": {
+    "child among three killed in russian missile attacks near kyiv": {
+      "detected_at": "2026-08-08T05:56:05.437201Z",
+      "peak_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score_at": "2026-08-08T05:56:05.437201Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "peak_label": "Russia strikes near Kyiv killing child",
+      "peak_summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
+        }
+      ]
+    },
     "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
       "detected_at": "2026-08-03T22:01:27.477532Z",
       "peak_at": "2026-08-08T10:01:23.629540Z",
@@ -300,31 +320,11 @@
         }
       ]
     },
-    "child among three killed in russian missile attacks near kyiv": {
-      "detected_at": "2026-08-08T05:56:05.437201Z",
-      "peak_at": "2026-08-08T05:56:05.437201Z",
-      "peak_score_at": "2026-08-08T05:56:05.437201Z",
-      "peak_score": 3.3,
-      "peak_sentiment": "negative",
-      "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "peak_label": "Russia strikes near Kyiv killing child",
-      "peak_summary": "Russian missiles killed three including a child near Ukraine's capital as Kyiv warns interceptor supplies are running low, raising concerns about spillover risk to NATO's eastern flank.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/8/russian-strikes-near-ukrainian-capital-kill-three-including-child?traffic_source=rss"
-        }
-      ]
-    },
     "hormuz talks positive, oman says, as iran warns deal would not open strait": {
       "detected_at": "2026-08-08T17:45:59.182671Z",
       "peak_at": "2026-08-08T17:45:59.182671Z",
       "peak_score_at": "2026-08-08T17:45:59.182671Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "negative",
       "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
       "peak_label": "Iran missile strikes UAE tanker in Hormuz",
@@ -458,8 +458,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Child among three killed in Russian missile attacks near Kyiv",
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
   ]
 }

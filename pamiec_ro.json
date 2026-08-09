@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-09T01:01:16.345160Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-09T02:28:11.319671Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian strikes near Kyiv with civilian casualties",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Missile attacks near capital kill child; interceptor."
-    },
-    {
       "temat": "Spain-Italy border controls escalate",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 11,
       "opis": "Spain imposes reciprocal checks; EU Schengen framework."
     },
     {
       "temat": "Lake Garda wildfire evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Wildfire near Italian tourist site forces evacuations."
     },
     {
       "temat": "Iran strikes UAE tanker in Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     },
     {
       "temat": "Serbia-Ukraine economic cooperation deepens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Serbia pledges rebuild aid, eyes free trade deal."
     },
     {
       "temat": "Drones over Bulgaria and Germany",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Russian drone incidents in NATO states including Bulgaria."
     },
     {
       "temat": "DRC Ebola virus mutation warning",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Cases exceed 4,000; officials warn virus may be mutating."
     },
     {
       "temat": "DRC Ebola outbreak exceeds 4,000 cases",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Major Ebola epidemic in DRC; WHO urges vaccine trial."
+    },
+    {
+      "temat": "Russian missile strikes near Kyiv kill child",
+      "poziom_bazowy": 4.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Escalation: attacks near capital kill civilians including."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T01:01:25.882916Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-07T03:15:35.169002Z",
       "s": 3.0
@@ -276,31 +272,19 @@
     {
       "t": "2026-08-09T01:01:16.335115Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-09T02:28:11.313922Z",
+      "s": 2.1
     }
   ],
-  "events_anchor_at": "2026-08-08T01:01:27.366116Z",
+  "events_anchor_at": "2026-08-08T13:01:19.521248Z",
   "event_detected_at": {
-    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
-      "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-08T16:51:24.310451Z",
-      "peak_score_at": "2026-08-08T16:51:24.310451Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "peak_label": "Spain imposes border controls against Italy",
-      "peak_summary": "Spain introduces reciprocal border checks after Italy's controls following 78,000 migrants entering Ceuta. Threatens EU Schengen framework.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "child among three killed in russian missile attacks near kyiv": {
       "detected_at": "2026-08-08T05:56:05.439636Z",
       "peak_at": "2026-08-08T05:56:05.439636Z",
       "peak_score_at": "2026-08-08T05:56:05.439636Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Child among three killed in Russian missile attacks near Kyiv",
       "peak_label": "Russia kills child in Kyiv missile strike",
@@ -316,11 +300,27 @@
         }
       ]
     },
+    "spain imposes border controls against italy as row over ceuta migrant influx intensifies": {
+      "detected_at": "2026-08-04T12:17:57.609820Z",
+      "peak_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score_at": "2026-08-08T16:51:24.310451Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "peak_label": "Spain imposes border controls against Italy",
+      "peak_summary": "Spain introduces reciprocal border checks after Italy's controls following 78,000 migrants entering Ceuta. Threatens EU Schengen framework.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "ebola virus behind massive outbreak in drc could be mutating, officials say": {
       "detected_at": "2026-08-08T01:01:27.366116Z",
       "peak_at": "2026-08-08T10:01:23.631170Z",
       "peak_score_at": "2026-08-08T10:01:23.631170Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
       "peak_label": "DRC Ebola outbreak may be mutating",
@@ -411,27 +411,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation?traffic_source=rss"
         }
       ]
-    },
-    "[al jazeera] us senate passes russia sanctions that could hurt india and china": {
-      "detected_at": "2026-08-08T01:01:27.366116Z",
-      "peak_at": "2026-08-08T01:01:27.366116Z",
-      "peak_score_at": "2026-08-08T01:01:27.366116Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "positive",
-      "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
-      "peak_label": "US Senate passes Russian energy sanctions bill",
-      "peak_summary": "New legislation imposes 100% tariff on Russian oil and gas importers. Could affect Black Sea energy routes and Romania's regional energy security through supply disruptions.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Child among three killed in Russian missile attacks near Kyiv",
+    "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
     "Ebola virus behind massive outbreak in DRC could be mutating, officials say"
   ]
 }
