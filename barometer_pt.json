@@ -1,13 +1,37 @@
 {
-  "global_score": 2.3,
-  "rationale": "Canada wildfire continues to escalate as climate concern; Spain-Italy border dispute persists; distant geopolitical events have minimal direct impact on Portuguese daily life.",
+  "global_score": 2.2,
+  "rationale": "Continuation of known Spain-Italy border dispute and Canada wildfire; Israel-Gaza rhetoric continues with no new breakthrough.",
   "top_events": [
     {
-      "title": "Residents warned to brace for the worst as Canada wildfire rages out of control",
-      "label": "Canada wildfire spreads over 39 square miles",
-      "summary": "British Columbia wildfire doubles in size, remaining out of control; reinforces global wildfire and climate concerns relevant to Portugal's own fire-prone climate.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+      "label": "Israel rejects Trump Gaza peace plan",
+      "summary": "Netanyahu refuses military withdrawal from Gaza until Hamas disarmed. Prolongs Middle East instability with no direct Portuguese impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-09T13:01:25.642419Z"
+    },
+    {
+      "title": "Canada wildfire rages out of control in British Columbia",
+      "label": "Canada wildfire spreads over 39 sq miles",
+      "summary": "Bald Range fire in BC remains out of control. Distant climate event with no direct effect on Portuguese daily life.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -27,9 +51,9 @@
       "detected_at": "2026-08-08T19:43:54.309479Z"
     },
     {
-      "title": "Spain imposes border controls against Italy as row intensifies",
-      "label": "Spain imposes border controls against Italy",
-      "summary": "Spain introduces reciprocal border checks after Italy's move following Ceuta migrant influx; Iberian neighbor's EU Schengen tensions continue.",
+      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
+      "label": "Spain imposes border checks on Italy",
+      "summary": "Reciprocal Schengen controls after 78,000 migrants entered Ceuta from Morocco. Iberian neighbor involved but no direct Portuguese impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -49,30 +73,6 @@
         }
       ],
       "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
-      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "label": "Israel rejects Trump Gaza peace plan",
-      "summary": "Netanyahu refuses withdrawal from Gaza until Hamas disarms; distant Middle East conflict continues without breakthrough.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T13:01:25.642419Z"
     }
   ],
   "short_summary": "France arrests hundreds over wildfires",
@@ -80,9 +80,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-09T13:15:00.295847Z",
+  "updated_at": "2026-08-09T13:59:20.343808Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "France arrests hundreds over wildfires",
     "summary": "French government arrested hundreds over unprecedented fires that tore through the country last month, attempting to attribute blame for the disaster.",
@@ -100,10 +100,6 @@
   },
   "events_anchor_at": "2026-08-09T05:57:39.475590Z",
   "score_history": [
-    {
-      "t": "2026-08-07T13:38:13.212846Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-07T15:08:50.848613Z",
       "s": 2.5
@@ -331,6 +327,10 @@
     {
       "t": "2026-08-09T13:15:00.295847Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-09T13:59:20.343808Z",
+      "s": 2.2
     }
   ]
 }

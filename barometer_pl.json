@@ -1,32 +1,13 @@
 {
-  "global_score": 3.4,
-  "rationale": "Russian attacks on Odesa port continue to threaten grain exports and regional security near Poland's eastern neighborhood; Israel-Gaza tensions persist without breakthrough.",
+  "global_score": 2.3,
+  "rationale": "Continuation of known Ukraine war strikes near Kyiv and Odesa; no new qualitative change for Poland this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
-      "label": "Russia launches brutal attack on Odesa port",
-      "summary": "Moscow strikes Ukraine's Odesa port, threatening global food security and escalating violence near Poland's eastern border region.",
-      "score": 3.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T13:01:25.638661Z"
-    },
     {
       "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
       "label": "Israel rejects Trump Gaza peace plan",
-      "summary": "Netanyahu refuses military withdrawal from Gaza until Hamas disarms, prolonging Middle East instability with indirect EU energy and migration implications.",
-      "score": 2.4,
-      "sentiment": "negative",
+      "summary": "Netanyahu refuses military withdrawal from Gaza until Hamas disarmed. Prolongs Middle East instability with no direct impact on Poland.",
+      "score": 2.3,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,39 +21,68 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-09T13:01:25.638661Z"
     },
     {
       "title": "Canada wildfire rages out of control in British Columbia",
-      "label": "Canada wildfire spreads over 39 square miles",
-      "summary": "British Columbia wildfire doubles in size, remaining out of control; distant climate event with no direct impact on Poland.",
-      "score": 2.0,
+      "label": "Canada wildfire spreads over 39 sq miles",
+      "summary": "Bald Range fire in BC remains out of control. Distant climate event with no direct effect on Polish daily life.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
         }
       ],
       "detected_at": "2026-08-08T18:57:33.991447Z"
+    },
+    {
+      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
+      "label": "Spain imposes border checks on Italy",
+      "summary": "Reciprocal Schengen controls after 78,000 migrants entered Ceuta from Morocco. EU framework strain but no direct Polish impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ],
+      "detected_at": "2026-08-03T22:01:27.477532Z"
     }
   ],
   "short_summary": "Russian missiles kill child near Kyiv",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-09T13:15:00.292580Z",
+  "updated_at": "2026-08-09T13:59:20.340636Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russian missiles kill child near Kyiv",
     "summary": "Overnight strikes near the Ukrainian capital killed three civilians including a child, as Zelensky warns of dwindling interceptor supplies—escalation continues on Poland's eastern border.",
@@ -90,10 +100,6 @@
   },
   "events_anchor_at": "2026-08-08T05:56:05.437201Z",
   "score_history": [
-    {
-      "t": "2026-08-07T13:38:13.210189Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-07T15:08:50.845541Z",
       "s": 2.7
@@ -321,6 +327,10 @@
     {
       "t": "2026-08-09T13:15:00.292580Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-09T13:59:20.340636Z",
+      "s": 2.3
     }
   ]
 }
