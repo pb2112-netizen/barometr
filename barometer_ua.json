@@ -1,11 +1,49 @@
 {
   "global_score": 2.0,
-  "rationale": "No new qualitative change in Ukraine war situation this cycle; ongoing interceptor shortage remains background concern; distant events (Canada wildfire, Colombia politics, sports) irrelevant to Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Russian missile strikes near Kyiv killing a child represent continued attacks on the capital region amid dwindling interceptor supplies; ongoing war reality for Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "label": "Russian missiles kill child near Kyiv",
+      "summary": "Russia continued overnight strikes near the capital after Zelensky warned of dwindling interceptor supplies. Direct threat to Ukrainian civilians in the capital region continues.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-08T05:56:05.442706Z"
+    },
+    {
+      "title": "Israel advances plan for 627 settler units in occupied West Bank",
+      "label": "Israel advances West Bank settlement plan",
+      "summary": "New settlement tender deepens Israeli efforts to sever Palestinian ties to Jerusalem. Distant Middle East issue with no direct impact on Ukrainian daily life during war.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-09T07:15:32.131265Z"
+    },
+    {
       "title": "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-      "label": "US pledges $1bn security aid to Colombia",
-      "summary": "Trump administration plans $1 billion security assistance to Colombia as new rightwing president Abelardo De La Espriella takes office. Distant Latin American development with no connection to Ukraine.",
+      "label": "US pledges $1bn aid to Colombia",
+      "summary": "Trump administration plans $1bn in security assistance to Colombia's new president. Distant Western Hemisphere event with no relevance to Ukraine's war situation.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -20,59 +58,16 @@
         }
       ],
       "detected_at": "2026-08-09T01:01:16.338976Z"
-    },
-    {
-      "title": "Wildfire forces thousands of evacuations in Western Canada",
-      "label": "Canada wildfire forces 20,000 evacuations",
-      "summary": "Fast-moving wildfire in British Columbia forces over 20,000 evacuations. Distant climate event with no connection to Ukrainian residents' daily life during war.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfire-forces-thousands-of-evacuations-in-western-canada?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T10:01:20.969493Z"
-    },
-    {
-      "title": "Israel announces tender for 627 settler units in occupied West Bank",
-      "label": "Israel plans 627 new West Bank settler units",
-      "summary": "Israel announces new settlement construction in West Bank, deepening efforts to sever Palestinian ties to Jerusalem. Distant Middle East development with no impact on Ukraine.",
-      "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T07:15:32.131265Z"
     }
   ],
   "short_summary": "Yemen government forces counterattack Houthis in Marib",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-09T10:01:20.969493Z",
+  "updated_at": "2026-08-09T10:52:21.625547Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Yemen government forces counterattack Houthis in Marib",
     "summary": "Yemen's army launches counterattacks as Houthis renew shelling of Marib. Experts warn of wider conflict risk in region already affecting global shipping and Ukrainian grain exports.",
@@ -90,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-08T18:57:33.997901Z",
   "score_history": [
-    {
-      "t": "2026-08-07T10:01:26.410305Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-07T10:09:39.631165Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-07T11:06:42.498606Z",
       "s": 3.0
@@ -324,6 +311,10 @@
     },
     {
       "t": "2026-08-09T10:01:20.969493Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-09T10:52:21.625547Z",
       "s": 2.0
     }
   ]
