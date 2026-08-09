@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-08-09T13:59:20.349966Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-09T14:51:52.679181Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Spain-Italy border controls escalate",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Spain imposes reciprocal checks; EU Schengen framework."
-    },
-    {
       "temat": "Lake Garda wildfire evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Wildfire near Italian tourist site forces evacuations."
-    },
-    {
-      "temat": "Iran strikes UAE tanker in Hormuz",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Iranian missile attack on Emirati vessel; Gulf escalation."
     },
     {
       "temat": "Serbia-Ukraine economic cooperation deepens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Serbia pledges rebuild aid, eyes free trade deal."
     },
     {
       "temat": "Russian missile strikes near Kyiv kill child",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
       "opis": "Escalation: attacks near capital kill civilians including."
     },
     {
       "temat": "Russian attacks on Odesa port",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
       "opis": "Black Sea port strikes near Romania threaten regional."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
+    },
+    {
+      "temat": "Syria-Russia military base agreement",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 1,
+      "opis": "Joint training centers at Hmeimim and Tartus bases."
+    },
+    {
+      "temat": "Spain-Italy border controls over Ceuta migration",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     }
   ],
   "score_history": [
@@ -278,6 +278,10 @@
     {
       "t": "2026-08-09T13:59:20.342203Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-09T14:51:52.670534Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-08T05:56:05.439636Z",
@@ -302,6 +306,38 @@
         }
       ]
     },
+    "syria reaches deal with moscow on future of russian bases": {
+      "detected_at": "2026-08-09T14:51:52.670534Z",
+      "peak_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Syria reaches deal with Moscow on future of Russian bases",
+      "peak_label": "Syria Russia agree on joint military bases",
+      "peak_summary": "Hmeimim and Tartus bases become joint training centers; regional security shift with indirect Black Sea implications.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases?traffic_source=rss"
+        }
+      ]
+    },
+    "spain imposes border controls against italy over ceuta migrant influx": {
+      "detected_at": "2026-08-04T12:17:57.609820Z",
+      "peak_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
+      "peak_label": "Spain imposes Italy border controls over migrants",
+      "peak_summary": "EU border tensions after 78,000 migrants enter Ceuta; indirect concern for EU migration policy affecting Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada wildfire rages out of control in british columbia": {
       "detected_at": "2026-08-09T10:01:20.966395Z",
       "peak_at": "2026-08-09T13:59:20.342203Z",
@@ -319,22 +355,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
-        }
-      ]
-    },
-    "spain imposes border controls against italy over ceuta migrant influx": {
-      "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-08T16:51:24.310451Z",
-      "peak_score_at": "2026-08-08T16:51:24.310451Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "peak_label": "Spain imposes border controls against Italy",
-      "peak_summary": "Spain introduces reciprocal border checks after Italy's controls following 78,000 migrants entering Ceuta. Threatens EU Schengen framework.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -437,7 +457,7 @@
   },
   "prev_top_event_titles": [
     "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-    "Canada wildfire rages out of control in British Columbia",
+    "Syria reaches deal with Moscow on future of Russian bases",
     "Spain imposes border controls against Italy over Ceuta migrant influx"
   ]
 }
