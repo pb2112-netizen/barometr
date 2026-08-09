@@ -1,12 +1,12 @@
 {
-  "global_score": 3.5,
-  "rationale": "Russian missile strikes near Kyiv killing a child continue the established pattern; interceptor shortage warning remains the highest concern with no new qualitative change. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.4,
+  "rationale": "Russian missile strikes near Kyiv killing a child continue the ongoing war pattern; interceptor shortage warning remains the dominant concern with no qualitative change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "label": "Russia strikes near Kyiv killing child",
-      "summary": "Russia continued overnight missile attacks near the capital killing three people including a child, as Zelensky's warning about dwindling interceptor supplies remains the critical concern.",
-      "score": 3.5,
+      "label": "Russian missiles kill child near Kyiv",
+      "summary": "Russia continued overnight attacks near the capital after Zelensky warned of dwindling interceptor supplies. The war's direct impact on Ukrainian civilians continues.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-08T05:56:05.442706Z"
     },
     {
-      "title": "Colombia on the brink: ELN guerrilla group prepares for return to war",
-      "label": "Colombia ELN rebels prepare for war return",
-      "summary": "As new Colombian president vows military offensive, the country's last leftwing rebels prepare to fight back, continuing the established conflict pattern.",
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating",
+      "label": "Ebola outbreak in DRC may be mutating",
+      "summary": "Cases have passed 4,000 and health watchdog plans door-to-door response escalation. Distant health crisis with no direct impact on Ukraine.",
       "score": 2.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
+        }
+      ],
+      "detected_at": "2026-08-09T09:55:25.287313Z"
+    },
+    {
+      "title": "US promises $1bn in security aid to Colombia",
+      "label": "US pledges $1bn aid to Colombia president",
+      "summary": "Trump administration plans $1bn security assistance as new rightwing president Abelardo De La Espriella vows drugs crackdown. Distant development with no impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,34 +54,10 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/ng-interactive/2026/aug/07/colombia-on-the-brink-eln-guerrilla-group-prepares-for-return-to-war"
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
         }
       ],
-      "detected_at": "2026-08-09T09:01:42.764682Z"
-    },
-    {
-      "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
-      "label": "Oman reports Hormuz talks progress unclear",
-      "summary": "Both sides suggest progress in talks for a new shipping route through Hormuz Strait, but breakthrough remains unclear and Iran sets broader conditions.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/iran-issues-new-demands-as-pezeshkian-seeks-deal?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-08T16:01:25.876823Z"
+      "detected_at": "2026-08-09T01:01:16.338976Z"
     }
   ],
   "short_summary": "Yemen government forces counterattack Houthis in Marib",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-09T09:01:42.764682Z",
+  "updated_at": "2026-08-09T09:55:25.287313Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -317,6 +312,10 @@
     {
       "t": "2026-08-09T09:01:42.764682Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-09T09:55:25.287313Z",
+      "s": 3.4
     }
   ]
 }
