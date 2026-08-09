@@ -1,12 +1,12 @@
 {
-  "global_score": 3.6,
-  "rationale": "Russian missile strikes near Kyiv killing civilians continue the known pattern; no qualitative escalation beyond the already-tracked situation.",
+  "global_score": 3.5,
+  "rationale": "Russian missile strikes near Kyiv killing a child continue the established pattern; interceptor shortage warning remains the highest concern with no new qualitative change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "label": "Russian missiles kill child near Kyiv",
-      "summary": "Continued overnight strikes near the capital kill three civilians including a child, maintaining the known escalation pattern with dwindling interceptor supplies.",
-      "score": 3.6,
+      "label": "Russia strikes near Kyiv killing child",
+      "summary": "Russia continued overnight missile attacks near the capital killing three people including a child, as Zelensky's warning about dwindling interceptor supplies remains the critical concern.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,23 +22,47 @@
       "detected_at": "2026-08-08T05:56:05.442706Z"
     },
     {
-      "title": "Car bomb hits Colombia highway day after new president sworn in",
-      "label": "Colombia car bomb after president inauguration",
-      "summary": "Car bomb destroys toll booth on Colombian highway day after hardline president sworn in; distant event with no impact on Ukrainian daily life.",
-      "score": 1.0,
+      "title": "Colombia on the brink: ELN guerrilla group prepares for return to war",
+      "label": "Colombia ELN rebels prepare for war return",
+      "summary": "As new Colombian president vows military offensive, the country's last leftwing rebels prepare to fight back, continuing the established conflict pattern.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/aug/07/colombia-on-the-brink-eln-guerrilla-group-prepares-for-return-to-war"
+        }
+      ],
+      "detected_at": "2026-08-09T09:01:42.764682Z"
+    },
+    {
+      "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+      "label": "Oman reports Hormuz talks progress unclear",
+      "summary": "Both sides suggest progress in talks for a new shipping route through Hormuz Strait, but breakthrough remains unclear and Iran sets broader conditions.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/9/iran-issues-new-demands-as-pezeshkian-seeks-deal?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-08T22:45:45.955537Z"
+      "detected_at": "2026-08-08T16:01:25.876823Z"
     }
   ],
   "short_summary": "Yemen government forces counterattack Houthis in Marib",
@@ -46,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-09T08:02:56.043127Z",
+  "updated_at": "2026-08-09T09:01:42.764682Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -66,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-08T18:57:33.997901Z",
   "score_history": [
-    {
-      "t": "2026-08-07T08:20:54.385307Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-07T10:01:26.410305Z",
       "s": 3.0
@@ -293,6 +313,10 @@
     {
       "t": "2026-08-09T08:02:56.043127Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-09T09:01:42.764682Z",
+      "s": 3.5
     }
   ]
 }
