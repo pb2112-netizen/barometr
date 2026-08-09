@@ -1,11 +1,30 @@
 {
-  "global_score": 2.3,
-  "rationale": "Spain introduces border checks with Italy over migration; wildfires in Albania and Spain prompt evacuations; other events remain distant.",
+  "global_score": 2.2,
+  "rationale": "Wildfires in Spain (Iberian neighbor) are new and relevant; other events continue without fresh impact on Portugal.",
   "top_events": [
     {
+      "title": "Wildfires in Albania and Spain cause hundreds to evacuate",
+      "label": "Wildfires force evacuations in Albania and Spain",
+      "summary": "Fires in southern Spain (Iberian neighbor) and Albania prompt evacuations. Regional climate concern for Portugal; indirect impact.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfires-in-albania-and-spain-cause-hundreds-to-evacuate?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-09T05:57:39.475590Z"
+    },
+    {
       "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain introduces Italy border checks",
-      "summary": "Spain announces temporary border checks on Italian visitors in response to Rome's similar measures after mass migration rush to Ceuta. Iberian neighbor tightens EU borders.",
+      "label": "Spain imposes border checks on Italy visitors",
+      "summary": "Spain responds to Italy's border controls after Ceuta migration surge. Iberian neighbor's border policy; indirect concern for Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "Wildfires in Albania and Spain cause hundreds to evacuate",
-      "label": "Wildfires spread in Albania and Spain",
-      "summary": "Wildfires near Albania's capital and in southern Spain prompt hundreds to evacuate. Regional climate event affecting Iberian Peninsula.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfires-in-albania-and-spain-cause-hundreds-to-evacuate?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-09T05:57:39.475590Z"
-    },
-    {
       "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak may involve mutation",
-      "summary": "Cases exceed 4,000 in Democratic Republic of Congo; health officials plan door-to-door response as mutation concerns emerge. Distant health crisis with no direct impact on Portugal.",
+      "label": "DRC Ebola outbreak exceeds 4000 cases, mutation feared",
+      "summary": "Virus mutation concerns as cases pass 4000 in Congo. Distant health crisis with no direct link to Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-09T17:46:50.859054Z",
+  "updated_at": "2026-08-09T19:00:26.207573Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "France arrests hundreds over wildfires",
     "summary": "French government arrested hundreds over unprecedented fires that tore through the country last month, attempting to attribute blame for the disaster.",
     "title": "Hundreds arrested over French wildfires, but who is to blame?",
-    "score": 2.9,
+    "score": 2.8,
     "sentiment": "neutral",
     "detected_at": "2026-08-09T05:57:39.475590Z",
     "peak_at": "2026-08-09T05:57:39.475590Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-09T05:57:39.475590Z",
   "score_history": [
-    {
-      "t": "2026-08-07T18:01:12.063234Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-07T19:01:22.773735Z",
       "s": 2.8
@@ -320,6 +316,10 @@
     {
       "t": "2026-08-09T17:46:50.859054Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-09T19:00:26.207573Z",
+      "s": 2.2
     }
   ]
 }
