@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-09T22:48:43.880192Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-09T23:45:36.028586Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian missile strikes near Kyiv kill child",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Escalation: attacks near capital kill civilians including."
     },
     {
       "temat": "Russian attacks on Odesa port",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Black Sea port strikes near Romania threaten regional."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
     },
     {
       "temat": "Syria-Russia military base agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Joint training centers at Hmeimim and Tartus bases."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     },
     {
       "temat": "DRC Ebola outbreak escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Over 4000 cases, mutation concerns; distant health crisis."
     },
     {
       "temat": "Wildfires in Albania and Spain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Fires near Tirana and southern Spain force evacuations."
     },
     {
       "temat": "Germany hybrid warfare warning",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Explosive drone found; daily espionage/sabotage threat."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-07T22:55:04.801154Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-07T23:48:10.116554Z",
       "s": 2.7
@@ -288,6 +284,10 @@
     {
       "t": "2026-08-09T22:48:43.873762Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-09T23:45:36.020346Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-08T05:56:05.439636Z",
@@ -308,22 +308,6 @@
         }
       ]
     },
-    "wildfires in albania and spain cause hundreds to evacuate": {
-      "detected_at": "2026-08-09T19:00:26.206185Z",
-      "peak_at": "2026-08-09T19:00:26.206185Z",
-      "peak_score_at": "2026-08-09T19:00:26.206185Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Wildfires in Albania and Spain cause hundreds to evacuate",
-      "peak_label": "Wildfires force evacuations in Albania and Spain",
-      "peak_summary": "Fires near Tirana (neighboring Albania) and southern Spain prompt evacuations. Regional climate concern; indirect impact on Romania.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfires-in-albania-and-spain-cause-hundreds-to-evacuate?traffic_source=rss"
-        }
-      ]
-    },
     "israel rejects trump's 15-point plan for gaza, netanyahu says": {
       "detected_at": "2026-08-09T13:01:25.640110Z",
       "peak_at": "2026-08-09T13:01:25.640110Z",
@@ -341,6 +325,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss"
+        }
+      ]
+    },
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-04T12:17:57.609820Z",
+      "peak_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
+      "peak_label": "Spain imposes Italy border controls over migrants",
+      "peak_summary": "EU border tensions after 78,000 migrants enter Ceuta; indirect concern for EU migration policy affecting Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "wildfires in albania and spain cause hundreds to evacuate": {
+      "detected_at": "2026-08-09T19:00:26.206185Z",
+      "peak_at": "2026-08-09T19:00:26.206185Z",
+      "peak_score_at": "2026-08-09T19:00:26.206185Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Wildfires in Albania and Spain cause hundreds to evacuate",
+      "peak_label": "Wildfires force evacuations in Albania and Spain",
+      "peak_summary": "Fires near Tirana (neighboring Albania) and southern Spain prompt evacuations. Regional climate concern; indirect impact on Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/wildfires-in-albania-and-spain-cause-hundreds-to-evacuate?traffic_source=rss"
         }
       ]
     },
@@ -373,22 +389,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ]
-    },
-    "spain to introduce temporary border checks on visitors from italy": {
-      "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-09T14:51:52.670534Z",
-      "peak_score_at": "2026-08-09T14:51:52.670534Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
-      "peak_label": "Spain imposes Italy border controls over migrants",
-      "peak_summary": "EU border tensions after 78,000 migrants enter Ceuta; indirect concern for EU migration policy affecting Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -495,7 +495,7 @@
   },
   "prev_top_event_titles": [
     "Germany warns of 'daily hybrid warfare' after explosive-laden drone found",
-    "Wildfires in Albania and Spain cause hundreds to evacuate",
-    "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says"
+    "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+    "Spain to introduce temporary border checks on visitors from Italy"
   ]
 }
