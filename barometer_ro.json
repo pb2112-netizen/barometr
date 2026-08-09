@@ -1,14 +1,13 @@
 {
-  "global_score": 2.2,
-  "short_summary": "Russian missiles kill child near Kyiv",
-  "rationale": "Wildfires in Albania (neighbor) and Spain are new regional climate events; other stories continue without fresh impact on Romania.",
+  "global_score": 2.1,
+  "rationale": "Wildfires in Albania (neighbor) and Spain continue; distant events (Gaza rhetoric, DRC Ebola, Canada fires) remain background with no direct impact on Romanian daily life.",
   "top_events": [
     {
       "title": "Wildfires in Albania and Spain cause hundreds to evacuate",
       "label": "Wildfires force evacuations in Albania and Spain",
-      "summary": "Fires near Tirana (neighboring Albania) and southern Spain prompt evacuations. Regional climate concern; indirect impact on Romania.",
-      "score": 2.2,
-      "sentiment": "negative",
+      "summary": "Fires near Tirana (neighbor) and southern Spain prompt evacuations. Regional climate concern but no direct impact on Romania.",
+      "score": 2.1,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -23,11 +22,30 @@
       "detected_at": "2026-08-09T19:00:26.206185Z"
     },
     {
-      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak exceeds 4000 cases, mutation feared",
-      "summary": "Virus mutation concerns as cases pass 4000 in Congo. Distant health crisis with no direct link to Romania.",
+      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+      "label": "Netanyahu rejects Trump Gaza withdrawal plan",
+      "summary": "Israel's PM refuses military pullout until Hamas disarmed. Rhetoric only, no change to ongoing Middle East stalemate.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-09T13:01:25.640110Z"
+    },
+    {
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+      "label": "DRC Ebola outbreak may involve virus mutation",
+      "summary": "Over 4,000 cases, mutation concerns prompt door-to-door response. Distant health crisis with no direct link to Romania.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -40,34 +58,16 @@
         }
       ],
       "detected_at": "2026-08-09T16:53:48.507581Z"
-    },
-    {
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain imposes border checks on Italy visitors",
-      "summary": "Spain responds to Italy's border controls after Ceuta migration surge. EU border tensions continue; indirect concern for Romania.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.609820Z"
     }
   ],
+  "short_summary": "Russian missiles kill child near Kyiv",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-09T19:00:50.364924Z",
+  "updated_at": "2026-08-09T19:48:01.171227Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russian missiles kill child near Kyiv",
     "summary": "Overnight strikes near the Ukrainian capital killed three including a child, as Zelensky warns of dwindling interceptors—escalation continues in Romania's immediate neighborhood.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-08T05:56:05.439636Z",
   "score_history": [
-    {
-      "t": "2026-08-07T19:01:22.771599Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-07T19:14:29.884062Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-07T19:59:57.848943Z",
       "s": 2.4
@@ -324,6 +316,10 @@
     {
       "t": "2026-08-09T19:00:50.364924Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-09T19:48:01.171227Z",
+      "s": 2.1
     }
   ]
 }
