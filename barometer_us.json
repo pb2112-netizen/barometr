@@ -1,31 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Todd Blanche confirmation as attorney general continues; other events distant or rhetorical with no immediate policy impact on US residents.",
+  "global_score": 2.5,
+  "rationale": "Judge approves ending South Sudan TPS protections, directly affecting hundreds of nationals in the US and representing a confirmed policy change in immigration enforcement. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
-      "label": "Todd Blanche confirmed as attorney general",
-      "summary": "Vote cements Trump's former criminal defense lawyer as top law enforcement official despite rare Republican pushback. Continuation of known appointment process.",
-      "score": 3.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-08T10:50:57.787547Z"
-    },
-    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allows stripping of protections for South Sudanese nationals following Supreme Court ruling on Haitians and Syrians. Continuation of known TPS removal policy.",
-      "score": 2.2,
+      "label": "Judge approves ending South Sudan TPS protections",
+      "summary": "Court allows stripping temporary protected status for hundreds of South Sudanese nationals in the US, following similar removals for Haitians and Syrians.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,11 +23,11 @@
     },
     {
       "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US to close five foreign consulates",
-      "summary": "State Department plans closures in Canada, Grenada, Japan, Indonesia, and Cameroon. Continuation of known consulate closure policy, indirect diplomatic impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "label": "US closes five consulates across four continents",
+      "summary": "State Department closes missions in Canada, Grenada, Japan, Indonesia and Cameroon, potentially creating diplomatic vacuum for China to fill.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -58,16 +39,35 @@
         }
       ],
       "detected_at": "2026-08-06T10:01:24.917288Z"
+    },
+    {
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+      "label": "DRC Ebola outbreak may involve mutating virus",
+      "summary": "Cases pass 4,000 in Democratic Republic of Congo with officials warning virus may be mutating, prompting door-to-door response escalation.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
+        }
+      ],
+      "detected_at": "2026-08-09T13:01:25.646919Z"
     }
   ],
   "short_summary": "Car bomb hits Colombia after inauguration",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-09T11:43:58.705266Z",
+  "updated_at": "2026-08-09T13:01:25.646919Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Car bomb hits Colombia after inauguration",
     "summary": "Explosives attack on Pan-American Highway follows inauguration of hardline president De La Espriella. Comes as US pledges $1bn security aid to new Colombian government.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-08T04:20:52.579077Z",
   "score_history": [
-    {
-      "t": "2026-08-07T11:56:29.599347Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-08-07T13:01:20.288947Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-07T13:38:13.215843Z",
       "s": 3.1
@@ -316,6 +308,10 @@
     {
       "t": "2026-08-09T11:43:58.705266Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-09T13:01:25.646919Z",
+      "s": 2.5
     }
   ]
 }
