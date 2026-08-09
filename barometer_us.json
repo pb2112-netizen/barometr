@@ -1,12 +1,31 @@
 {
   "global_score": 2.5,
-  "rationale": "Judge approves ending South Sudan TPS protections, directly affecting hundreds of nationals in the US and representing a confirmed policy change in immigration enforcement. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US closes five foreign consulates in confirmed policy action affecting diplomatic presence; judge approves end to South Sudan TPS protections; distant geopolitical events have minimal direct domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+      "label": "US closes five foreign consulates",
+      "summary": "State Department confirms closure of missions in Canada, Japan, Indonesia, Grenada, and Cameroon; real policy change reducing US diplomatic footprint abroad.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+        }
+      ],
+      "detected_at": "2026-08-06T10:01:24.917288Z"
+    },
+    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves ending South Sudan TPS protections",
-      "summary": "Court allows stripping temporary protected status for hundreds of South Sudanese nationals in the US, following similar removals for Haitians and Syrians.",
-      "score": 2.1,
+      "label": "Judge approves end to South Sudan TPS",
+      "summary": "Court allows stripping of temporary protected status for South Sudanese nationals in US; follows Supreme Court ruling on Haiti and Syria.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,12 +41,12 @@
       "detected_at": "2026-08-07T19:01:22.776741Z"
     },
     {
-      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US closes five consulates across four continents",
-      "summary": "State Department closes missions in Canada, Grenada, Japan, Indonesia and Cameroon, potentially creating diplomatic vacuum for China to fill.",
+      "title": "US promises $1bn in security aid to Colombia as new president pledges crackdown",
+      "label": "US pledges $1bn security aid to Colombia",
+      "summary": "Trump administration commits $1 billion in security assistance as rightwing president Abelardo De La Espriella takes office vowing drugs crackdown.",
       "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -35,39 +54,20 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
         }
       ],
-      "detected_at": "2026-08-06T10:01:24.917288Z"
-    },
-    {
-      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak may involve mutating virus",
-      "summary": "Cases pass 4,000 in Democratic Republic of Congo with officials warning virus may be mutating, prompting door-to-door response escalation.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ],
-      "detected_at": "2026-08-09T13:01:25.646919Z"
+      "detected_at": "2026-08-08T22:45:45.957157Z"
     }
   ],
   "short_summary": "Car bomb hits Colombia after inauguration",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-09T13:01:25.646919Z",
+  "updated_at": "2026-08-09T13:15:00.299775Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Car bomb hits Colombia after inauguration",
     "summary": "Explosives attack on Pan-American Highway follows inauguration of hardline president De La Espriella. Comes as US pledges $1bn security aid to new Colombian government.",
@@ -311,6 +311,10 @@
     },
     {
       "t": "2026-08-09T13:01:25.646919Z",
+      "s": 2.5
+    },
+    {
+      "t": "2026-08-09T13:15:00.299775Z",
       "s": 2.5
     }
   ]

@@ -1,14 +1,14 @@
 {
-  "global_score": 4.0,
-  "rationale": "Russian forces launch brutal attacks on Odesa port, directly threatening Ukraine's grain exports and killing civilians, representing a significant escalation in attacks on critical infrastructure. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 7.0,
+  "rationale": "Russian forces launch brutal attack on Odesa port, killing civilians and threatening critical grain export infrastructure; direct escalation of violence on Ukrainian territory. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
       "label": "Russia launches brutal attack on Odesa port",
-      "summary": "Moscow strikes Odesa port infrastructure killing civilians and threatening Ukraine's grain export capacity, escalating attacks on critical economic lifeline.",
-      "score": 4.0,
+      "summary": "Moscow strikes Odesa port with deadly force, killing civilians and threatening Ukraine's grain export lifeline; Zelenskyy accuses Russia of harming global food security.",
+      "score": 7.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-08T18:57:33.997901Z"
     },
     {
+      "title": "Yemeni army warns Houthis after attacks heighten escalation risk",
+      "label": "Yemen army warns Houthis after attacks",
+      "summary": "Yemeni government forces counterattack Houthis in Marib; wider regional conflict risk with indirect implications for global stability.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/yemeni-army-warns-houthis-after-attacks-heighten-escalation-risk?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-09T13:15:00.297476Z"
+    },
+    {
       "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "label": "Israel rejects Trump Gaza withdrawal plan",
-      "summary": "Netanyahu refuses to withdraw from Gaza until Hamas disarms, prolonging Middle East conflict with no direct impact on Ukraine's war situation.",
+      "label": "Israel rejects Trump Gaza peace plan",
+      "summary": "Netanyahu refuses withdrawal from Gaza until Hamas disarms; distant Middle East conflict continues without resolution.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -44,47 +63,28 @@
         }
       ],
       "detected_at": "2026-08-09T13:01:25.644529Z"
-    },
-    {
-      "title": "US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown",
-      "label": "US pledges $1bn security aid to Colombia",
-      "summary": "Trump administration provides security assistance to Colombia's new president, continuing pattern of US aid to distant partners.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown"
-        }
-      ],
-      "detected_at": "2026-08-09T01:01:16.338976Z"
     }
   ],
-  "short_summary": "Yemen government forces counterattack Houthis in Marib",
-  "level_label": "Low",
+  "short_summary": "Russia launches brutal attack on Odesa port",
+  "level_label": "High",
   "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-09T13:01:25.644529Z",
+  "updated_at": "2026-08-09T13:15:00.297476Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Yemen government forces counterattack Houthis in Marib",
-    "summary": "Yemen's army launches counterattacks as Houthis renew shelling of Marib. Experts warn of wider conflict risk in region already affecting global shipping and Ukrainian grain exports.",
-    "title": "Yemen's government forces attack Houthis amid renewed shelling of Marib",
-    "score": 4.9,
+    "label": "Russia launches brutal attack on Odesa port",
+    "summary": "Moscow strikes Odesa port with deadly force, killing civilians and threatening Ukraine's grain export lifeline; Zelenskyy accuses Russia of harming global food security.",
+    "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
+    "score": 7.0,
     "sentiment": "negative",
     "detected_at": "2026-08-08T18:57:33.997901Z",
-    "peak_at": "2026-08-08T18:57:33.997901Z",
+    "peak_at": "2026-08-09T13:15:00.297476Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
       }
     ]
   },
@@ -317,6 +317,10 @@
     {
       "t": "2026-08-09T13:01:25.644529Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-09T13:15:00.297476Z",
+      "s": 7.0
     }
   ]
 }
