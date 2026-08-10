@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-10T16:01:22.231196Z",
+  "updated_at": "2026-08-10T16:10:17.525929Z",
   "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Judge approves end to South Sudan TPS",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Court allows stripping protections for South Sudanese in US."
     },
     {
       "temat": "Record ocean temperatures July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 6.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 6.6,
+      "cykle_bez_zmian": 2,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Netanyahu says no pullout until Hamas disarmed; diplomatic."
     },
     {
       "temat": "Trump Iran sanctions strategy shift",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 11,
       "opis": "US shifts from military strikes to economic pressure on."
     },
     {
       "temat": "Iran Strait of Hormuz closure threat",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
       "opis": "Tehran demands US concessions to reopen critical oil route."
     },
     {
       "temat": "US $1bn security aid to Colombia under new president",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Trump admin commits major aid to Colombian drug crackdown."
     },
     {
       "temat": "US consulate closures in five countries",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "State Dept to shut consulates in Canada, Grenada, Japan."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T16:01:25.878724Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-08T16:51:24.313761Z",
       "s": 2.7
@@ -268,11 +264,15 @@
     {
       "t": "2026-08-10T16:01:22.224794Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-10T16:10:17.519312Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.513943Z",
   "event_detected_at": {
-    "earthquake with 7.4 magnitude hits colombia, killing at least 20": {
+    "at least 20 dead as powerful earthquake strikes western colombia": {
       "detected_at": "2026-08-10T15:16:06.513943Z",
       "peak_at": "2026-08-10T15:16:06.513943Z",
       "peak_score_at": "2026-08-10T15:16:06.513943Z",
@@ -289,6 +289,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "oil prices, stocks surge as hormuz closure drags on": {
+      "detected_at": "2026-08-10T04:01:17.108382Z",
+      "peak_at": "2026-08-10T04:01:17.108382Z",
+      "peak_score_at": "2026-08-10T04:01:17.108382Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
+      "peak_label": "Oil prices rise on Iran Hormuz closure threat",
+      "peak_summary": "Brent crude prices climb as Tehran says critical waterway will not reopen without major US concessions; potential impact on US gas prices if sustained.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz?traffic_source=rss"
         }
       ]
     },
@@ -424,22 +440,6 @@
         }
       ]
     },
-    "oil prices climb as iranian demands cloud outlook for strait of hormuz": {
-      "detected_at": "2026-08-10T04:01:17.108382Z",
-      "peak_at": "2026-08-10T04:01:17.108382Z",
-      "peak_score_at": "2026-08-10T04:01:17.108382Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "negative",
-      "title": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz",
-      "peak_label": "Oil prices rise on Iran Hormuz closure threat",
-      "peak_summary": "Brent crude prices climb as Tehran says critical waterway will not reopen without major US concessions; potential impact on US gas prices if sustained.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz?traffic_source=rss"
-        }
-      ]
-    },
     "trump signals shift to economic pressure on iran over new military strikes": {
       "detected_at": "2026-08-10T04:53:00.810090Z",
       "peak_at": "2026-08-10T04:53:00.810090Z",
@@ -474,8 +474,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Earthquake with 7.4 magnitude hits Colombia, killing at least 20",
-    "Judge approves Trump effort to end South Sudan TPS protections",
-    "War on Iran: Phase II: Day 30"
+    "At least 20 dead as powerful earthquake strikes western Colombia",
+    "Oil prices, stocks surge as Hormuz closure drags on",
+    "Judge approves Trump effort to end South Sudan TPS protections"
   ]
 }

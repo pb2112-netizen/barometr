@@ -1,39 +1,63 @@
 {
   "global_score": 4.0,
-  "rationale": "Colombia earthquake is regional disaster with no direct US impact; TPS ruling continues known policy; Iran rhetoric without action remains background.",
+  "rationale": "Colombia earthquake is major regional disaster; Hormuz oil price surge affects US consumers; South Sudan TPS ruling impacts domestic immigration policy.",
   "top_events": [
     {
-      "title": "Earthquake with 7.4 magnitude hits Colombia, killing at least 20",
-      "label": "Colombia 7.4 quake kills at least 20 people",
-      "summary": "Major earthquake in western Colombia collapsed buildings, killed 20+. Regional disaster with no direct impact on US daily life.",
+      "title": "At least 20 dead as powerful earthquake strikes western Colombia",
+      "label": "Colombia 7.4 quake kills 20, collapses buildings",
+      "summary": "Major 7.4 magnitude earthquake strikes western Colombia, killing at least 20 and collapsing buildings in Cali and Pereira. Regional disaster in US sphere of influence.",
       "score": 4.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "Guardian",
         "Al Jazeera",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
         },
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.513943Z"
     },
     {
+      "title": "Oil prices, stocks surge as Hormuz closure drags on",
+      "label": "Oil prices surge as Hormuz closure persists",
+      "summary": "Strait of Hormuz closure drives oil prices up, threatening to reverse recent nine-cent drop in US petrol prices if closure continues.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-stocks-surge-as-hormuz-closure-drags-on?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-10T04:01:17.108382Z"
+    },
+    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allowed stripping protections for South Sudanese in US. Continues known TPS policy changes affecting small immigrant group.",
-      "score": 2.2,
+      "label": "Judge approves ending South Sudan TPS protections",
+      "summary": "Court allows stripping temporary protected status for South Sudanese nationals in US, following earlier rulings on Haitians and Syrians. Domestic immigration policy change.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
@@ -44,25 +68,6 @@
         }
       ],
       "detected_at": "2026-08-09T17:46:50.862489Z"
-    },
-    {
-      "title": "War on Iran: Phase II: Day 30",
-      "label": "Trump says US semi-negotiating with Iran",
-      "summary": "Trump stated US is 'semi-negotiating' with Iran. Rhetoric without confirmed action or policy change; continues known standoff.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/war-on-iran-phase-ii-day-30?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T16:01:22.224794Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -70,9 +75,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-10T16:01:22.224794Z",
+  "updated_at": "2026-08-10T16:10:17.519312Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.513943Z",
   "score_history": [
-    {
-      "t": "2026-08-08T16:01:25.878724Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-08T16:51:24.313761Z",
       "s": 2.7
@@ -308,6 +309,10 @@
     },
     {
       "t": "2026-08-10T16:01:22.224794Z",
+      "s": 4.0
+    },
+    {
+      "t": "2026-08-10T16:10:17.519312Z",
       "s": 4.0
     }
   ]

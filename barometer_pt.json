@@ -1,15 +1,15 @@
 {
-  "global_score": 2.2,
-  "rationale": "Record ocean temperatures continue climate trend; Colombia earthquake distant; no direct impact on Portuguese economy or daily life this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.1,
+  "rationale": "Record ocean temperatures continue climate trend; distant events have no direct impact on Portuguese daily life.",
   "top_events": [
     {
       "title": "World's oceans hit record-high July temperatures",
-      "label": "Global oceans record hottest July temperatures",
-      "summary": "Oceans hit record July heat, partly from El Niño. Long-term climate concern for Atlantic nation, no immediate change.",
-      "score": 2.2,
+      "label": "Global oceans reach hottest July on record",
+      "summary": "July 2025 sets new ocean temperature record with El Niño influence. Long-term climate concern for Atlantic coastal nation.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
@@ -22,36 +22,12 @@
       "detected_at": "2026-08-10T13:01:28.424736Z"
     },
     {
-      "title": "Earthquake with 7.4 magnitude hits Colombia, killing at least 20",
-      "label": "Colombia 7.4 quake kills at least 20 people",
-      "summary": "Major earthquake in western Colombia collapsed buildings, killed 20+. Distant event with no impact on Portuguese life.",
+      "title": "Record 230 people reach UK on single boat after crossing English Channel",
+      "label": "Record 230 migrants on single UK-bound boat",
+      "summary": "Single boat carries record 230 migrants to UK. Distant migration event with no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.510515Z"
-    },
-    {
-      "title": "Record 230 people reach UK on single boat after crossing English Channel",
-      "label": "Record 230 migrants reach UK on single boat",
-      "summary": "Single boat carried 230 migrants across Channel to UK. Distant migration event with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
       "category": "inne",
       "sources": [
         "Al Jazeera"
@@ -63,14 +39,38 @@
         }
       ],
       "detected_at": "2026-08-10T16:01:22.221963Z"
+    },
+    {
+      "title": "At least 20 dead as powerful earthquake strikes western Colombia",
+      "label": "Colombia 7.4 quake kills 20, collapses buildings",
+      "summary": "Major earthquake in South America with no connection to Portuguese daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.510515Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-10T16:01:22.221963Z",
+  "updated_at": "2026-08-10T16:10:17.516452Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
   "score_history": [
-    {
-      "t": "2026-08-08T16:01:25.875404Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-08T16:51:24.311386Z",
       "s": 3.5
@@ -309,6 +305,10 @@
     {
       "t": "2026-08-10T16:01:22.221963Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-10T16:10:17.516452Z",
+      "s": 2.1
     }
   ]
 }
