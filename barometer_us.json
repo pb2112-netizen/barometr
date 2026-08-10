@@ -1,14 +1,14 @@
 {
-  "global_score": 5.0,
-  "rationale": "Trump signs executive order to limit and split childhood vaccines, a new domestic policy action affecting millions of American families; ICE force-feeding case continues.",
+  "global_score": 4.7,
+  "rationale": "Trump vaccine order continues known policy; Colombia earthquake is regional disaster; ICE force-feeding case continues known detention controversy.",
   "top_events": [
     {
-      "title": "Trump signs order to limit and split childhood vaccines",
-      "label": "Trump orders childhood vaccine limits",
-      "summary": "Trump administration signs executive order to limit and split childhood vaccines, pushing discredited autism link. New federal policy action directly affecting millions of US families.",
-      "score": 5.0,
+      "title": "Trump signs order to limit childhood vaccines and split MMR shots",
+      "label": "Trump orders childhood vaccine limits, splits MMR",
+      "summary": "Executive order separates MMR vaccine into three visits, affecting millions of children. Continuation of known vaccine policy shift with no new implementation details.",
+      "score": 4.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC"
@@ -23,9 +23,9 @@
     },
     {
       "title": "'Shoved the tube so hard it tore my nose': Kurdish film-maker recounts 'inhumane' ICE force-feeding",
-      "label": "Kurdish detainee recounts ICE force-feeding",
-      "summary": "Kurdish film-maker describes eight months of coercive force-feeding in ICE detention, including physical injuries. Continuation of known case with detailed testimony.",
-      "score": 3.6,
+      "label": "Kurdish detainee recounts ICE force-feeding ordeal",
+      "summary": "Film-maker describes eight-month coercive feeding in ICE detention. Continuation of known case with detailed testimony but no new policy or legal outcome.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -41,31 +41,36 @@
       "detected_at": "2026-08-10T17:07:57.752139Z"
     },
     {
-      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
-      "label": "US closes five foreign consulates",
-      "summary": "State Department closing consulates in Canada, Japan, Indonesia, Grenada, and Cameroon. Continuation of known diplomatic retrenchment with limited immediate impact on US residents.",
-      "score": 2.4,
-      "sentiment": "neutral",
+      "title": "More than 100 dead and buildings collapsed after 7.4-magnitude earthquake shakes Colombia",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Major quake collapses buildings in Cali and other cities. Regional humanitarian disaster with no direct impact on US daily life or economy.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/111-dead-after-colombia-quakes-leave-trail-of-destruction?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-06T10:01:24.917288Z"
+      "detected_at": "2026-08-10T15:16:06.513943Z"
     }
   ],
   "short_summary": "Trump orders childhood vaccine limits",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-10T20:03:31.298525Z",
+  "updated_at": "2026-08-10T21:01:44.407500Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-10T20:03:31.298525Z",
   "score_history": [
-    {
-      "t": "2026-08-08T20:47:38.126772Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-08T21:45:03.928381Z",
       "s": 2.5
@@ -296,6 +297,10 @@
     {
       "t": "2026-08-10T20:03:31.298525Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-08-10T21:01:44.407500Z",
+      "s": 4.7
     }
   ]
 }
