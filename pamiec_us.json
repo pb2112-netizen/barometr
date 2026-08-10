@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-10T13:43:02.393983Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-08-10T15:16:06.520629Z",
+  "ostatnia_ocena": 4.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Israel rejects Trump Gaza plan",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
-      "opis": "Netanyahu says no pullout until Hamas disarmed; diplomatic."
-    },
-    {
       "temat": "Judge approves end to South Sudan TPS",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Court allows stripping protections for South Sudanese in US."
     },
     {
       "temat": "Record ocean temperatures July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
+      "temat": "Colombia 7.4 magnitude earthquake",
+      "poziom_bazowy": 7.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Major quake kills 20+, collapses buildings; regional."
+    },
+    {
+      "temat": "Israel rejects Trump Gaza plan",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
+      "opis": "Netanyahu says no pullout until Hamas disarmed; diplomatic."
+    },
+    {
       "temat": "Trump Iran sanctions strategy shift",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 9,
       "opis": "US shifts from military strikes to economic pressure on."
     },
     {
       "temat": "Iran Strait of Hormuz closure threat",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 10,
       "opis": "Tehran demands US concessions to reopen critical oil route."
     },
     {
       "temat": "US $1bn security aid to Colombia under new president",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Trump admin commits major aid to Colombian drug crackdown."
     },
     {
       "temat": "US consulate closures in five countries",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "State Dept to shut consulates in Canada, Grenada, Japan."
-    },
-    {
-      "temat": "F-16 intercept over Trump golf club",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Routine airspace violation response during presidential."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T13:56:08.835687Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-08T14:49:28.046375Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-08T15:44:36.943626Z",
       "s": 2.6
@@ -272,10 +264,34 @@
     {
       "t": "2026-08-10T13:43:02.382848Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-10T15:16:06.513943Z",
+      "s": 4.4
     }
   ],
-  "events_anchor_at": "2026-08-10T04:01:17.108382Z",
+  "events_anchor_at": "2026-08-10T15:16:06.513943Z",
   "event_detected_at": {
+    "7.4-magnitude earthquake hits colombia killing at least 20": {
+      "detected_at": "2026-08-10T15:16:06.513943Z",
+      "peak_at": "2026-08-10T15:16:06.513943Z",
+      "peak_score_at": "2026-08-10T15:16:06.513943Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
     "judge approves trump effort to end south sudan tps protections": {
       "detected_at": "2026-08-09T17:46:50.862489Z",
       "peak_at": "2026-08-10T13:01:28.427660Z",
@@ -289,26 +305,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
-        }
-      ]
-    },
-    "israel rejects trump's 15-point plan for gaza, netanyahu says": {
-      "detected_at": "2026-08-09T13:59:20.347432Z",
-      "peak_at": "2026-08-09T13:59:20.347432Z",
-      "peak_score_at": "2026-08-09T13:59:20.347432Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "peak_label": "Israel rejects Trump Gaza peace plan",
-      "peak_summary": "Netanyahu refuses military withdrawal from Gaza. Distant Middle East rhetoric with no direct US daily life impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss"
         }
       ]
     },
@@ -475,27 +471,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/9/pentagon-urges-faster-us-weapons-production-amid-stockpile-concerns?traffic_source=rss"
         }
       ]
-    },
-    "trump targets birthright citizenship again": {
-      "detected_at": "2026-08-09T14:51:52.676585Z",
-      "peak_at": "2026-08-09T14:51:52.676585Z",
-      "peak_score_at": "2026-08-09T14:51:52.676585Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "Trump targets birthright citizenship again with two new executive orders",
-      "peak_label": "Trump signs birthright citizenship orders",
-      "peak_summary": "President signs two executive orders targeting birthright citizenship; continuation of known immigration policy push with legal challenges expected.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/trump-targets-birthright-citizenship-again?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "7.4-magnitude earthquake hits Colombia killing at least 20",
     "Judge approves Trump effort to end South Sudan TPS protections",
-    "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
     "World's oceans hit record-high July temperatures"
   ]
 }
