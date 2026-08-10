@@ -1,35 +1,49 @@
 {
-  "global_score": 3.9,
-  "rationale": "Ukrainian drone strikes continue at known intensity; no new development affecting Romanian Black Sea security or regional stability.",
+  "global_score": 3.8,
+  "rationale": "Ukrainian drone strikes continue as background; ocean temperature record is new but indirect; no major change to regional security or economy.",
   "top_events": [
     {
       "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-      "label": "Ukraine drone strike kills 13 in Tatarstan",
-      "summary": "Ukrainian drones hit Tatarstan region 1000km from front, killing 13 and injuring 75. Continuation of deep strikes with no change to Black Sea security dynamics for Romania.",
-      "score": 3.9,
-      "sentiment": "neutral",
+      "label": "Ukrainian drones kill 13 in Tatarstan Russia",
+      "summary": "Drone attack 1000km from front kills 13, injures 75 in Tatarstan. War escalation continues in Black Sea region's neighborhood.",
+      "score": 3.8,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-10T10:01:31.854289Z"
     },
     {
+      "title": "World's oceans hit record-high July temperatures",
+      "label": "Global oceans reach hottest July on record",
+      "summary": "July 2025 sets ocean temperature record with El Niño influence. Climate signal with potential long-term effects on Black Sea region weather.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-10T13:01:28.423624Z"
+    },
+    {
       "title": "China evacuates one million from homes as massive storm arrives",
-      "label": "Typhoon Dolphin hits eastern China, million evacuated",
-      "summary": "Typhoon Dolphin made landfall in eastern China with strong winds and heavy rain. Distant weather event with no relevance to Romanian daily life.",
+      "label": "Typhoon Dolphin forces million evacuations in China",
+      "summary": "Typhoon strikes eastern China with heavy rain and winds. Distant weather event with no relevance to Romania.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -49,30 +63,6 @@
         }
       ],
       "detected_at": "2026-08-10T08:51:00.600634Z"
-    },
-    {
-      "title": "World's oceans hit record-high July temperatures",
-      "label": "Global oceans record hottest July temperatures",
-      "summary": "Oceans recorded hottest July on record, partly fueled by El Niño. Indirect climate concern for Black Sea region but no immediate impact on Romanian life.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T13:01:28.423624Z"
     }
   ],
   "short_summary": "Ukraine drones kill 13 deep inside Russia",
@@ -80,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-10T13:01:28.423624Z",
+  "updated_at": "2026-08-10T13:43:02.378184Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine drones kill 13 deep inside Russia",
     "summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks inside Russia. War escalation affects regional security dynamics.",
@@ -100,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-10T10:01:31.854289Z",
   "score_history": [
-    {
-      "t": "2026-08-08T13:11:58.315588Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-08T13:56:08.831342Z",
       "s": 3.1
@@ -319,6 +305,10 @@
     {
       "t": "2026-08-10T13:01:28.423624Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-10T13:43:02.378184Z",
+      "s": 3.8
     }
   ]
 }

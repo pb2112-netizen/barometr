@@ -1,50 +1,46 @@
 {
-  "updated_at": "2026-08-10T13:01:28.558468Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-08-10T13:43:02.392576Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Drones over German Patriot base",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Security incident at base housing air defense parts."
     },
     {
       "temat": "Russian attacks on Odesa port",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 26,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 27,
       "opis": "Brutal strikes on port kill civilians, threaten grain."
-    },
-    {
-      "temat": "Syria-Russia military base agreement",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Joint training centers at Hmeimim and Tartus bases."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Million evacuated in eastern China; no Ukraine relevance."
     },
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 4,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; new."
     },
     {
       "temat": "Ukraine ground robot warfare",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Ground robots carry ammo, conduct kamikaze missions."
+    },
+    {
+      "temat": "Taiwan-China military tensions",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Taiwan holds drills preparing for Chinese invasion; distant."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T13:11:58.318590Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-08T13:56:08.833891Z",
       "s": 3.8
@@ -260,9 +256,13 @@
     {
       "t": "2026-08-10T13:01:28.425643Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-10T13:43:02.380848Z",
+      "s": 4.6
     }
   ],
-  "events_anchor_at": "2026-08-08T18:57:33.997901Z",
+  "events_anchor_at": "2026-08-10T10:01:31.857421Z",
   "event_detected_at": {
     "at least 13 killed in ukrainian drone strike deep into russia": {
       "detected_at": "2026-08-10T10:01:31.857421Z",
@@ -277,6 +277,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "world's oceans hit record-high july temperatures": {
+      "detected_at": "2026-08-10T13:43:02.380848Z",
+      "peak_at": "2026-08-10T13:43:02.380848Z",
+      "peak_score_at": "2026-08-10T13:43:02.380848Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "World's oceans hit record-high July temperatures",
+      "peak_label": "Global oceans reach hottest July on record",
+      "peak_summary": "July 2025 sets ocean temperature record. Global climate signal with no immediate relevance to war-torn Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "taiwan holds military drills to prepare for invasion by china": {
+      "detected_at": "2026-08-10T13:43:02.380848Z",
+      "peak_at": "2026-08-10T13:43:02.380848Z",
+      "peak_score_at": "2026-08-10T13:43:02.380848Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Taiwan holds military drills to prepare for invasion by China",
+      "peak_label": "Taiwan conducts military drills against China threat",
+      "peak_summary": "Taiwan holds invasion preparedness exercises. Distant geopolitical tension with no direct impact on Ukraine's war situation.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/taiwan-holds-military-drills-to-prepare-for-invasion-by-china?traffic_source=rss"
         }
       ]
     },
@@ -341,22 +373,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "israeli forces kill one in gaza as another body recovered from rubble": {
-      "detected_at": "2026-08-08T18:57:33.997901Z",
-      "peak_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score": 6.8,
-      "peak_sentiment": "negative",
-      "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
-      "peak_label": "Russia launches brutal attack on Odesa port",
-      "peak_summary": "Moscow strikes Odesa port with deadly force, killing civilians and threatening Ukraine's grain export lifeline; Zelenskyy accuses Russia of harming global food security.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
         }
       ]
     },
@@ -475,27 +491,11 @@
           "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
         }
       ]
-    },
-    "yemeni army warns houthis after attacks heighten escalation risk": {
-      "detected_at": "2026-08-09T13:15:00.297476Z",
-      "peak_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Yemeni army warns Houthis after attacks heighten escalation risk",
-      "peak_label": "Yemen army warns Houthis after attacks",
-      "peak_summary": "Yemeni government forces counterattack Houthis in Marib; wider regional conflict risk with indirect implications for global stability.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/yemeni-army-warns-houthis-after-attacks-heighten-escalation-risk?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "At least 13 killed in Ukrainian drone strike deep into Russia",
-    "'Long-range sanctions': Ukraine hopes strikes cause Russia fear and losses",
-    "China evacuates one million from homes as massive storm arrives"
+    "World's oceans hit record-high July temperatures",
+    "Taiwan holds military drills to prepare for invasion by China"
   ]
 }

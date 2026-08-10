@@ -1,11 +1,30 @@
 {
-  "global_score": 2.5,
-  "rationale": "Trump's rejection of Gaza plan and Canadian wildfire escalation represent mild indirect concerns; no confirmed policy change affecting US daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Judge approves end to South Sudan TPS protections continues as known policy; Israel rejects Trump Gaza plan remains diplomatic rhetoric without enacted change.",
   "top_events": [
     {
+      "title": "Judge approves Trump effort to end South Sudan TPS protections",
+      "label": "Judge approves ending South Sudan TPS protections",
+      "summary": "Court allows stripping temporary protected status for South Sudanese in US. Continuation of TPS policy changes affecting hundreds of nationals.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+        }
+      ],
+      "detected_at": "2026-08-09T17:46:50.862489Z"
+    },
+    {
       "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "label": "Israel rejects Trump Gaza plan, Netanyahu says",
-      "summary": "Israeli PM says military will not pull out from Gaza until Hamas is disarmed, rejecting Trump's 15-point plan. Diplomatic setback but no immediate impact on US policy or security.",
+      "label": "Israel rejects Trump Gaza plan Netanyahu says",
+      "summary": "Netanyahu says military won't pull out until Hamas disarmed. Diplomatic rhetoric without enacted policy change; ongoing Middle East stalemate.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,42 +41,23 @@
       "detected_at": "2026-08-09T13:59:20.347432Z"
     },
     {
-      "title": "Canadian government steps in as 'out of control' wildfires force thousands to flee",
-      "label": "Canada wildfire escalates, federal aid deployed",
-      "summary": "British Columbia battling 102 fires across province; federal government provides urgent assistance. Escalation of known wildfire situation with potential air quality impact on northern US.",
+      "title": "World's oceans hit record-high July temperatures",
+      "label": "Global oceans reach hottest July on record",
+      "summary": "July 2025 sets ocean temperature record with El Niño influence. Climate signal with long-term implications but no immediate US impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-09T19:48:01.175652Z"
-    },
-    {
-      "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Decision follows Supreme Court ruling allowing government to strip protections for Haitians and Syrians. Confirmed policy change affecting hundreds of South Sudanese nationals in US.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
-        }
-      ],
-      "detected_at": "2026-08-09T17:46:50.862489Z"
+      "detected_at": "2026-08-10T13:43:02.382848Z"
     }
   ],
   "short_summary": "Oil prices rise on Iran Hormuz closure threat",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-10T13:01:28.427660Z",
+  "updated_at": "2026-08-10T13:43:02.382848Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-10T04:01:17.108382Z",
   "score_history": [
-    {
-      "t": "2026-08-08T13:11:58.320385Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-08T13:56:08.835687Z",
       "s": 2.8
@@ -304,6 +300,10 @@
     {
       "t": "2026-08-10T13:01:28.427660Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-10T13:43:02.382848Z",
+      "s": 2.4
     }
   ]
 }
