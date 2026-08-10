@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-10T21:01:44.411436Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-10T21:57:38.221720Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Spain-Italy border checks",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
+      "opis": "Spain introduces checks on Italy visitors; migration."
+    },
+    {
+      "temat": "Record ocean temperatures July 2025",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Hottest July on record for global oceans; climate concern."
+    },
+    {
+      "temat": "Europe heatwave August 2025",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
+    },
+    {
+      "temat": "Finland-Sweden rail connection",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "New service enables Portugal-Lapland rail travel; EU link."
+    },
+    {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 5.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 8,
       "opis": "Major quake kills 20+, collapses buildings; distant."
     },
     {
       "temat": "Canada wildfire evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "12,000 evacuated in Okanagan; distant climate event."
-    },
-    {
-      "temat": "Spain-Italy border checks",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
-      "opis": "Spain introduces checks on Italy visitors; migration."
     },
     {
       "temat": "Record Channel crossing single boat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "230 migrants on one boat to UK; distant migration event."
-    },
-    {
-      "temat": "Record ocean temperatures July 2025",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Million evacuated in eastern China; distant weather event."
-    },
-    {
-      "temat": "Puerto Rico water rationing",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Drought forces water rationing in Atlantic territory."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T21:45:03.925447Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-08T22:01:15.937184Z",
       "s": 2.7
@@ -258,10 +260,34 @@
     {
       "t": "2026-08-10T21:01:44.404576Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-10T21:57:38.213865Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
   "event_detected_at": {
+    "europe braces for another heatwave after record-breaking temperatures": {
+      "detected_at": "2026-08-10T13:01:28.424736Z",
+      "peak_at": "2026-08-10T13:01:28.424736Z",
+      "peak_score_at": "2026-08-10T13:01:28.424736Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "World's oceans hit record-high July temperatures",
+      "peak_label": "Global oceans record hottest July temperatures",
+      "peak_summary": "Oceans recorded hottest July on record, partly fueled by El Niño, as wildfires continue in western Europe. Indirect climate concern for Portugal's Atlantic coast and tourism economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss"
+        }
+      ]
+    },
     "spain to introduce temporary border checks on visitors from italy": {
       "detected_at": "2026-08-04T12:17:57.611249Z",
       "peak_at": "2026-08-10T17:07:57.749017Z",
@@ -275,6 +301,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ]
+    },
+    "new train service connects finland and sweden for first time in decades": {
+      "detected_at": "2026-08-10T21:57:38.213865Z",
+      "peak_at": "2026-08-10T21:57:38.213865Z",
+      "peak_score_at": "2026-08-10T21:57:38.213865Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "New train service connects Finland and Sweden for first time in decades",
+      "peak_label": "Finland-Sweden rail link opens after decades",
+      "peak_summary": "New service enables Portugal-to-Lapland rail travel, Europe's longest train journey. Positive EU connectivity development with indirect tourism benefit for Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2lwpzz6qjo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -338,26 +380,6 @@
         }
       ]
     },
-    "world's oceans hit record-high july temperatures": {
-      "detected_at": "2026-08-10T13:01:28.424736Z",
-      "peak_at": "2026-08-10T13:01:28.424736Z",
-      "peak_score_at": "2026-08-10T13:01:28.424736Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "World's oceans hit record-high July temperatures",
-      "peak_label": "Global oceans record hottest July temperatures",
-      "peak_summary": "Oceans recorded hottest July on record, partly fueled by El Niño, as wildfires continue in western Europe. Indirect climate concern for Portugal's Atlantic coast and tourism economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss"
-        }
-      ]
-    },
     "record 230 people reach uk on single boat after crossing english channel": {
       "detected_at": "2026-08-10T16:01:22.221963Z",
       "peak_at": "2026-08-10T16:01:22.221963Z",
@@ -408,8 +430,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Europe braces for another heatwave after record-breaking temperatures",
     "Spain to introduce temporary border checks on visitors from Italy",
-    "'We've had a lot of close calls': Canada wildfire evacuees wonder if they still have homes",
-    "More than 100 dead and buildings collapsed after 7.4-magnitude earthquake shakes Colombia"
+    "New train service connects Finland and Sweden for first time in decades"
   ]
 }
