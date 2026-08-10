@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Canada wildfire continues as background; F-16 intercept routine; other events distant or rhetorical.",
+  "global_score": 2.4,
+  "rationale": "Canada wildfire continues; judge approves TPS end for South Sudan (policy action); F-16 intercept routine; Colombia aid is rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Judge approves Trump effort to end South Sudan TPS protections",
+      "label": "Judge approves end to South Sudan TPS",
+      "summary": "Court allows stripping of temporary protected status for South Sudanese nationals in the US. Confirmed policy action affecting immigration protections.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+        }
+      ],
+      "detected_at": "2026-08-09T17:46:50.862489Z"
+    },
+    {
       "title": "Residents warned to brace for the worst as Canada wildfire rages out of control",
-      "label": "Canada wildfire spreads to 136 square kilometers",
-      "summary": "British Columbia fire covers 136 sq km, federal government provides urgent assistance; ongoing cross-border climate event affecting northern neighbor.",
-      "score": 2.5,
+      "label": "Canada wildfire spreads to 136 sq km",
+      "summary": "British Columbia wildfire now covers 136 sq km; federal government provides urgent assistance. Ongoing neighbor disaster with indirect air quality impact.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -29,11 +48,11 @@
     {
       "title": "F-16s intercept two aircraft near Trump's New Jersey golf club",
       "label": "F-16s intercept aircraft near Trump golf club",
-      "summary": "Routine airspace violation response at Bedminster during presidential visit; standard security procedure with no broader impact.",
+      "summary": "F-16s intercepted two civilian aircraft entering restricted airspace over Bedminster, NJ. Routine airspace violation response during presidential visit.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
       ],
@@ -44,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-09T23:45:36.025495Z"
-    },
-    {
-      "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allows stripping of temporary protected status for South Sudanese nationals; immigration policy change continues.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
-        }
-      ],
-      "detected_at": "2026-08-09T17:46:50.862489Z"
     }
   ],
   "short_summary": "Trump lawyer Blanche confirmed attorney general",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-10T01:01:16.333717Z",
+  "updated_at": "2026-08-10T02:33:32.332523Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-08T10:50:57.787547Z",
   "score_history": [
-    {
-      "t": "2026-08-08T01:01:27.371913Z",
-      "s": 4.2
-    },
-    {
-      "t": "2026-08-08T02:21:05.936002Z",
-      "s": 4.0
-    },
     {
       "t": "2026-08-08T04:01:24.791168Z",
       "s": 3.0
@@ -325,6 +317,10 @@
     {
       "t": "2026-08-10T01:01:16.333717Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-10T02:33:32.332523Z",
+      "s": 2.4
     }
   ]
 }
