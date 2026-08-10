@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Canada wildfire continues; Spain border controls with Italy are new EU neighbor development; other events distant. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Spain introduces border checks with Italy over migration; indirect EU neighbor concern for Portugal. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain imposes border checks on Italy visitors",
-      "summary": "Spain introduces temporary border checks on Italian visitors in response to Rome's similar measures after Ceuta migration surge. New EU border tension affecting Iberian neighbor.",
+      "label": "Spain introduces border checks with Italy",
+      "summary": "Spain imposes temporary border controls on Italian visitors after Rome's similar measures following Ceuta migration surge; indirect concern for Iberian neighbor Portugal.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,20 +22,25 @@
       "detected_at": "2026-08-04T12:17:57.611249Z"
     },
     {
-      "title": "Residents warned to brace for the worst as Canada wildfire rages out of control",
-      "label": "Canada wildfire spreads to 136 sq km",
-      "summary": "British Columbia wildfire now covers 136 sq km and remains out of control. Distant climate event with no direct impact on Portugal.",
-      "score": 2.0,
+      "title": "Canada wildfire rages out of control",
+      "label": "Canada wildfire kills one, spreads uncontrolled",
+      "summary": "British Columbia wildfire spreads over 53 square miles with one death; distant climate event with no direct impact on Portugal.",
+      "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
         }
       ],
       "detected_at": "2026-08-08T19:43:54.309479Z"
@@ -43,8 +48,8 @@
     {
       "title": "Puerto Rico rations water supplies due to intense drought",
       "label": "Puerto Rico rations water amid drought",
-      "summary": "Hot weather and aging infrastructure lead to water rationing affecting hundreds of thousands. Distant Atlantic territory with no impact on Portugal.",
-      "score": 1.5,
+      "summary": "Hot weather and aging infrastructure force water rationing affecting hundreds of thousands; distant Atlantic territory with no direct impact on Portugal.",
+      "score": 1.2,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "katastrofa",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-10T02:33:32.329420Z",
+  "updated_at": "2026-08-10T04:01:17.104872Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "France arrests hundreds over wildfires",
     "summary": "French government arrested hundreds over unprecedented fires that tore through the country last month, attempting to attribute blame for the disaster.",
@@ -315,6 +320,10 @@
     },
     {
       "t": "2026-08-10T02:33:32.329420Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-10T04:01:17.104872Z",
       "s": 2.0
     }
   ]
