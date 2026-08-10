@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-10T04:01:17.111325Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-08-10T04:53:00.812912Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian missile strikes near Kyiv kill child",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Escalation: attacks near capital kill civilians including."
     },
     {
       "temat": "Russian attacks on Odesa port",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Black Sea port strikes near Romania threaten regional."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
     },
     {
       "temat": "Syria-Russia military base agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Joint training centers at Hmeimim and Tartus bases."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     },
     {
       "temat": "DRC Ebola outbreak escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Over 4000 cases, mutation concerns; distant health crisis."
     },
     {
       "temat": "Wildfires in Albania and Spain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Fires near Tirana and southern Spain force evacuations."
     },
     {
       "temat": "Germany hybrid warfare warning",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Explosive drone found; daily espionage/sabotage threat."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T04:01:24.785992Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-08T04:20:52.573565Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-08T05:56:05.439636Z",
       "s": 4.5
@@ -288,9 +280,13 @@
     {
       "t": "2026-08-10T04:01:17.103359Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-10T04:53:00.805131Z",
+      "s": 2.5
     }
   ],
-  "events_anchor_at": "2026-08-08T05:56:05.439636Z",
+  "events_anchor_at": "2026-08-09T13:01:25.640110Z",
   "event_detected_at": {
     "drones spotted over german base days after leipzig bomb incident": {
       "detected_at": "2026-08-09T17:46:50.857426Z",
@@ -308,19 +304,39 @@
         }
       ]
     },
-    "houthis renew attacks on yemen's al-makha port": {
-      "detected_at": "2026-08-08T05:56:05.439636Z",
-      "peak_at": "2026-08-09T04:01:19.515049Z",
-      "peak_score_at": "2026-08-09T04:01:19.515049Z",
-      "peak_score": 4.4,
-      "peak_sentiment": "negative",
-      "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "peak_label": "Russian missiles kill child near Kyiv",
-      "peak_summary": "Overnight strikes near the Ukrainian capital killed three including a child, as Zelensky warns of dwindling interceptors—escalation continues in Romania's immediate neighborhood.",
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-04T12:17:57.609820Z",
+      "peak_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score_at": "2026-08-09T14:51:52.670534Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
+      "peak_label": "Spain imposes Italy border controls over migrants",
+      "peak_summary": "EU border tensions after 78,000 migrants enter Ceuta; indirect concern for EU migration policy affecting Romania.",
       "peak_source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "canada wildfire rages out of control": {
+      "detected_at": "2026-08-09T10:01:20.966395Z",
+      "peak_at": "2026-08-09T13:59:20.342203Z",
+      "peak_score_at": "2026-08-09T13:59:20.342203Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Canada wildfire rages out of control in British Columbia",
+      "peak_label": "Canada wildfire spreads over 39 sq miles",
+      "peak_summary": "Bald Range fire in BC remains out of control. Distant climate event with no direct effect on Romanian daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
         }
       ]
     },
@@ -357,42 +373,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/9/germany-warns-of-daily-hybrid-warfare-following-suspected-drone-attack?traffic_source=rss"
-        }
-      ]
-    },
-    "residents warned to brace for the worst as canada wildfire rages out of control": {
-      "detected_at": "2026-08-09T10:01:20.966395Z",
-      "peak_at": "2026-08-09T13:59:20.342203Z",
-      "peak_score_at": "2026-08-09T13:59:20.342203Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Canada wildfire rages out of control in British Columbia",
-      "peak_label": "Canada wildfire spreads over 39 sq miles",
-      "peak_summary": "Bald Range fire in BC remains out of control. Distant climate event with no direct effect on Romanian daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/08/wildfire-smoke-unknown-health-impacts"
-        }
-      ]
-    },
-    "spain to introduce temporary border checks on visitors from italy": {
-      "detected_at": "2026-08-04T12:17:57.609820Z",
-      "peak_at": "2026-08-09T14:51:52.670534Z",
-      "peak_score_at": "2026-08-09T14:51:52.670534Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Spain imposes border controls against Italy over Ceuta migrant influx",
-      "peak_label": "Spain imposes Italy border controls over migrants",
-      "peak_summary": "EU border tensions after 78,000 migrants enter Ceuta; indirect concern for EU migration policy affecting Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -495,7 +475,7 @@
   },
   "prev_top_event_titles": [
     "Drones spotted over German base days after Leipzig bomb incident",
-    "Houthis renew attacks on Yemen's al-Makha port",
-    "Israel rejects Trump's 15-point plan for Gaza"
+    "Spain to introduce temporary border checks on visitors from Italy",
+    "Canada wildfire rages out of control"
   ]
 }
