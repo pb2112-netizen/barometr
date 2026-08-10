@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-10T10:01:31.862284Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-08-10T10:35:55.451658Z",
+  "ostatnia_ocena": 4.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 1,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
     },
     {
       "temat": "Germany hybrid warfare warning",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
       "opis": "Explosive drone found; daily espionage/sabotage threat."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Million evacuated in eastern China; distant weather event."
     },
     {
       "temat": "Wildfires in Albania and Spain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Fires near Tirana and southern Spain force evacuations."
     },
     {
       "temat": "DRC Ebola outbreak escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Over 4000 cases, mutation concerns; distant health crisis."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     },
     {
       "temat": "Syria-Russia military base agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Joint training centers at Hmeimim and Tartus bases."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
     }
   ],
@@ -272,23 +272,63 @@
     {
       "t": "2026-08-10T10:01:31.854289Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-08-10T10:35:55.443956Z",
+      "s": 4.3
     }
   ],
   "events_anchor_at": "2026-08-10T10:01:31.854289Z",
   "event_detected_at": {
-    "at least 13 killed in ukrainian drone strike on russia's tatarstan region, officials say": {
+    "at least 13 killed in ukrainian strike on russia's tatarstan region, officials say": {
       "detected_at": "2026-08-10T10:01:31.854289Z",
-      "peak_at": "2026-08-10T10:01:31.854289Z",
-      "peak_score_at": "2026-08-10T10:01:31.854289Z",
-      "peak_score": 4.2,
+      "peak_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score": 4.3,
       "peak_sentiment": "negative",
-      "title": "At least 13 killed in Ukrainian drone strike on Russia's Tatarstan region, officials say",
-      "peak_label": "Ukraine strikes deep inside Russia killing 13",
-      "peak_summary": "Ukrainian drones hit Tatarstan region, over 1000km from front, in one of deadliest strikes on Russian territory. Shows escalation in Black Sea war affecting Romania's neighborhood.",
+      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+      "peak_label": "Ukraine drones kill 13 deep inside Russia",
+      "peak_summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks inside Russia. War escalation affects regional security dynamics.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "china evacuates one million from homes as massive storm arrives": {
+      "detected_at": "2026-08-10T08:51:00.600634Z",
+      "peak_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "China evacuates one million from homes as massive storm arrives",
+      "peak_label": "Typhoon Dolphin evacuates million in China",
+      "peak_summary": "Typhoon Dolphin made landfall in eastern China with heavy rain and strong winds. Distant weather event with no impact on Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/china-evacuates-a-million-from-homes-as-typhoon-dolphin-arrives?traffic_source=rss"
+        }
+      ]
+    },
+    "drones spotted over german base days after leipzig bomb incident": {
+      "detected_at": "2026-08-09T17:46:50.857426Z",
+      "peak_at": "2026-08-10T02:33:32.327997Z",
+      "peak_score_at": "2026-08-10T02:33:32.327997Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Drones spotted over German base days after Leipzig bomb incident",
+      "peak_label": "Drones over German military base after bomb",
+      "peak_summary": "Police investigate drone sighting over German base housing Patriot missile parts. Ongoing hybrid warfare threat in EU member state near Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -305,38 +345,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/anguished-locals-watch-as-israel-demolishes-homes-in-southern-lebanon?traffic_source=rss"
-        }
-      ]
-    },
-    "china evacuates one million from homes as massive storm arrives": {
-      "detected_at": "2026-08-10T08:51:00.600634Z",
-      "peak_at": "2026-08-10T08:51:00.600634Z",
-      "peak_score_at": "2026-08-10T08:51:00.600634Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "China evacuates one million from homes as massive storm arrives",
-      "peak_label": "Typhoon Dolphin hits eastern China, evacuations",
-      "peak_summary": "Major storm in distant Asia with no connection to Romanian daily life or economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "drones spotted over german base days after leipzig bomb incident": {
-      "detected_at": "2026-08-09T17:46:50.857426Z",
-      "peak_at": "2026-08-10T02:33:32.327997Z",
-      "peak_score_at": "2026-08-10T02:33:32.327997Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Drones spotted over German base days after Leipzig bomb incident",
-      "peak_label": "Drones over German military base after bomb",
-      "peak_summary": "Police investigate drone sighting over German base housing Patriot missile parts. Ongoing hybrid warfare threat in EU member state near Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -494,8 +502,8 @@
     }
   },
   "prev_top_event_titles": [
-    "At least 13 killed in Ukrainian drone strike on Russia's Tatarstan region, officials say",
-    "Anguished locals watch as Israel demolishes homes in southern Lebanon",
-    "China evacuates one million from homes as massive storm arrives"
+    "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+    "China evacuates one million from homes as massive storm arrives",
+    "Drones spotted over German base days after Leipzig bomb incident"
   ]
 }
