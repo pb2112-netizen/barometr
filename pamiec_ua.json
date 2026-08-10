@@ -1,48 +1,46 @@
 {
-  "updated_at": "2026-08-10T07:01:16.712681Z",
+  "updated_at": "2026-08-10T08:51:00.610614Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Israel advances West Bank settlement plan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "New settlement tender in West Bank; distant Middle East."
     },
     {
       "temat": "Drones over German Patriot base",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Security incident at base housing air defense parts."
     },
     {
       "temat": "Russian attacks on Odesa port",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 22,
       "opis": "Brutal strikes on port kill civilians, threaten grain."
     },
     {
       "temat": "Yemen government forces attack Houthis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Counterattacks in Marib; wider conflict risk affects region."
     },
     {
       "temat": "Syria-Russia military base agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Joint training centers at Hmeimim and Tartus bases."
+    },
+    {
+      "temat": "Typhoon Dolphin hits China",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Million evacuated in eastern China; no Ukraine relevance."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T07:13:04.647864Z",
-      "s": 5.9
-    },
-    {
-      "t": "2026-08-08T07:58:48.660646Z",
-      "s": 5.6
-    },
     {
       "t": "2026-08-08T08:59:18.923868Z",
       "s": 5.3
@@ -266,23 +264,27 @@
     {
       "t": "2026-08-10T07:01:16.705235Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-10T08:51:00.603112Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-08T18:57:33.997901Z",
   "event_detected_at": {
-    "drones spotted over german base days after leipzig bomb incident": {
-      "detected_at": "2026-08-09T16:53:48.511126Z",
-      "peak_at": "2026-08-09T16:53:48.511126Z",
-      "peak_score_at": "2026-08-09T16:53:48.511126Z",
-      "peak_score": 2.0,
+    "israeli forces kill one in gaza as another body recovered from rubble": {
+      "detected_at": "2026-08-08T18:57:33.997901Z",
+      "peak_at": "2026-08-09T13:15:00.297476Z",
+      "peak_score_at": "2026-08-09T13:15:00.297476Z",
+      "peak_score": 6.9,
       "peak_sentiment": "negative",
-      "title": "Drones spotted over German base days after Leipzig bomb incident",
-      "peak_label": "Drones spotted over German Patriot base",
-      "peak_summary": "Police investigate drone sighting over military base housing Patriot missile system parts—potential security threat to Western air defense supplies.",
+      "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
+      "peak_label": "Russia launches brutal attack on Odesa port",
+      "peak_summary": "Moscow strikes Odesa port with deadly force, killing civilians and threatening Ukraine's grain export lifeline; Zelenskyy accuses Russia of harming global food security.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
         }
       ]
     },
@@ -299,6 +301,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "china evacuates one million from homes as massive storm arrives": {
+      "detected_at": "2026-08-10T08:51:00.603112Z",
+      "peak_at": "2026-08-10T08:51:00.603112Z",
+      "peak_score_at": "2026-08-10T08:51:00.603112Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "neutral",
+      "title": "China evacuates one million from homes as massive storm arrives",
+      "peak_label": "Typhoon Dolphin hits eastern China, evacuations",
+      "peak_summary": "Distant Asian weather event with no connection to Ukraine's war or daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "drones spotted over german base days after leipzig bomb incident": {
+      "detected_at": "2026-08-09T16:53:48.511126Z",
+      "peak_at": "2026-08-09T16:53:48.511126Z",
+      "peak_score_at": "2026-08-09T16:53:48.511126Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Drones spotted over German base days after Leipzig bomb incident",
+      "peak_label": "Drones spotted over German Patriot base",
+      "peak_summary": "Police investigate drone sighting over military base housing Patriot missile system parts—potential security threat to Western air defense supplies.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -418,22 +452,6 @@
         }
       ]
     },
-    "russian forces kill several in ukraine, launch 'brutal' attack in odesa": {
-      "detected_at": "2026-08-08T18:57:33.997901Z",
-      "peak_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score_at": "2026-08-09T13:15:00.297476Z",
-      "peak_score": 7.0,
-      "peak_sentiment": "negative",
-      "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
-      "peak_label": "Russia launches brutal attack on Odesa port",
-      "peak_summary": "Moscow strikes Odesa port with deadly force, killing civilians and threatening Ukraine's grain export lifeline; Zelenskyy accuses Russia of harming global food security.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
-        }
-      ]
-    },
     "yemeni army warns houthis after attacks heighten escalation risk": {
       "detected_at": "2026-08-09T13:15:00.297476Z",
       "peak_at": "2026-08-09T13:15:00.297476Z",
@@ -447,22 +465,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/yemeni-army-warns-houthis-after-attacks-heighten-escalation-risk?traffic_source=rss"
-        }
-      ]
-    },
-    "israel accused of weaponising archaeology at ancient west bank sites": {
-      "detected_at": "2026-08-09T07:15:32.131265Z",
-      "peak_at": "2026-08-09T07:15:32.131265Z",
-      "peak_score_at": "2026-08-09T07:15:32.131265Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Israel announces tender for 627 settler units in occupied West Bank",
-      "peak_label": "Israel announces 627 West Bank settler units",
-      "peak_summary": "Israel announces new settlement tender in West Bank, deepening efforts to sever Palestinian ties to Jerusalem—distant conflict with no direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
         }
       ]
     },
@@ -484,7 +486,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Drones spotted over German base days after Leipzig bomb incident",
-    "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says"
+    "Israeli forces kill one in Gaza as another body recovered from rubble",
+    "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+    "China evacuates one million from homes as massive storm arrives"
   ]
 }

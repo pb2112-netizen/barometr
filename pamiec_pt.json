@@ -1,60 +1,58 @@
 {
-  "updated_at": "2026-08-10T07:01:16.711468Z",
+  "updated_at": "2026-08-10T08:51:00.609324Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canada wildfire emergency escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "BC fire doubles in size; global wildfire climate concern."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Iberian neighbor tightens borders after 78k migrants enter."
     },
     {
       "temat": "DRC Ebola outbreak escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Over 4000 cases, mutation concerns; distant health crisis."
     },
     {
       "temat": "Israel rejects Trump Gaza plan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Netanyahu refuses withdrawal; prolonged Middle East."
     },
     {
       "temat": "Wildfires in Albania and Spain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Fires near Tirana and southern Spain force evacuations."
     },
     {
       "temat": "Anti-tourism protests in Mallorca",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Hundreds march against mass tourism in Spanish island."
     },
     {
       "temat": "Puerto Rico water rationing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Drought forces water rationing in Atlantic territory."
+    },
+    {
+      "temat": "Typhoon Dolphin hits China",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Million evacuated in eastern China; distant weather event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T07:13:04.646759Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-08T07:58:48.659288Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-08T08:59:18.922395Z",
       "s": 2.0
@@ -278,6 +276,10 @@
     {
       "t": "2026-08-10T07:01:16.704355Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-10T08:51:00.602085Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-09T19:48:01.172815Z",
@@ -295,22 +297,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "puerto rico rations water supplies due to intense drought": {
-      "detected_at": "2026-08-10T02:33:32.329420Z",
-      "peak_at": "2026-08-10T06:22:29.645784Z",
-      "peak_score_at": "2026-08-10T06:22:29.645784Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Puerto Rico rations water supplies due to intense drought",
-      "peak_label": "Puerto Rico rations water amid drought",
-      "peak_summary": "Atlantic territory faces water rationing from heat and aging infrastructure; distant concern with no effect on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxgk7r2vwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -335,6 +321,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
+        }
+      ]
+    },
+    "china evacuates one million from homes as massive storm arrives": {
+      "detected_at": "2026-08-10T08:51:00.602085Z",
+      "peak_at": "2026-08-10T08:51:00.602085Z",
+      "peak_score_at": "2026-08-10T08:51:00.602085Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "China evacuates one million from homes as massive storm arrives",
+      "peak_label": "Typhoon Dolphin hits eastern China, evacuations",
+      "peak_summary": "Major storm in distant Asia with no connection to Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "puerto rico rations water supplies due to intense drought": {
+      "detected_at": "2026-08-10T02:33:32.329420Z",
+      "peak_at": "2026-08-10T06:22:29.645784Z",
+      "peak_score_at": "2026-08-10T06:22:29.645784Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Puerto Rico rations water supplies due to intense drought",
+      "peak_label": "Puerto Rico rations water amid drought",
+      "peak_summary": "Atlantic territory faces water rationing from heat and aging infrastructure; distant concern with no effect on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqlxgk7r2vwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -393,7 +411,7 @@
   },
   "prev_top_event_titles": [
     "Spain to introduce temporary border checks on visitors from Italy",
-    "Puerto Rico rations water supplies due to intense drought",
-    "Residents warned to brace for the worst as Canada wildfire rages out of control"
+    "Residents warned to brace for the worst as Canada wildfire rages out of control",
+    "China evacuates one million from homes as massive storm arrives"
   ]
 }
