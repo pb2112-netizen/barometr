@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-10T11:58:18.710142Z",
-  "ostatnia_ocena": 4.1,
+  "updated_at": "2026-08-10T13:01:28.556558Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 3,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
     },
     {
       "temat": "Germany hybrid warfare warning",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Explosive drone found; daily espionage/sabotage threat."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Million evacuated in eastern China; distant weather event."
     },
     {
       "temat": "Wildfires in Albania and Spain",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Fires near Tirana and southern Spain force evacuations."
     },
     {
       "temat": "DRC Ebola outbreak escalation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Over 4000 cases, mutation concerns; distant health crisis."
     },
     {
       "temat": "Spain-Italy border controls over Ceuta migration",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "EU border tensions after 78k migrants enter Spanish exclave."
     },
     {
       "temat": "Syria-Russia military base agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Joint training centers at Hmeimim and Tartus bases."
+    },
+    {
+      "temat": "Record ocean temperatures July 2025",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Hottest July on record for global oceans; climate concern."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T13:01:19.521248Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-08T13:11:58.315588Z",
       "s": 3.2
@@ -266,11 +268,15 @@
     {
       "t": "2026-08-10T11:58:18.702535Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-08-10T13:01:28.423624Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-08-10T10:01:31.854289Z",
   "event_detected_at": {
-    "at least 13 killed in ukrainian strike on russia's tatarstan region, officials say": {
+    "at least 13 killed in ukrainian drone strike deep into russia": {
       "detected_at": "2026-08-10T10:01:31.854289Z",
       "peak_at": "2026-08-10T10:35:55.443956Z",
       "peak_score_at": "2026-08-10T10:35:55.443956Z",
@@ -306,6 +312,26 @@
         }
       ]
     },
+    "world's oceans hit record-high july temperatures": {
+      "detected_at": "2026-08-10T13:01:28.423624Z",
+      "peak_at": "2026-08-10T13:01:28.423624Z",
+      "peak_score_at": "2026-08-10T13:01:28.423624Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "World's oceans hit record-high July temperatures",
+      "peak_label": "Global oceans record hottest July temperatures",
+      "peak_summary": "Oceans recorded hottest July on record, partly fueled by El Niño. Indirect climate concern for Black Sea region but no immediate impact on Romanian life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss"
+        }
+      ]
+    },
     "drones spotted over german base days after leipzig bomb incident": {
       "detected_at": "2026-08-09T17:46:50.857426Z",
       "peak_at": "2026-08-10T02:33:32.327997Z",
@@ -335,26 +361,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/anguished-locals-watch-as-israel-demolishes-homes-in-southern-lebanon?traffic_source=rss"
-        }
-      ]
-    },
-    "israel rejects trump's 15-point plan for gaza, netanyahu says": {
-      "detected_at": "2026-08-09T13:01:25.640110Z",
-      "peak_at": "2026-08-09T13:01:25.640110Z",
-      "peak_score_at": "2026-08-09T13:01:25.640110Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "peak_label": "Israel rejects Trump Gaza withdrawal plan",
-      "peak_summary": "Netanyahu's refusal to withdraw from Gaza prolongs Middle East conflict with potential spillover effects on EU migration and energy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss"
         }
       ]
     },
@@ -473,27 +479,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases?traffic_source=rss"
         }
       ]
-    },
-    "russian forces kill several in ukraine, launch 'brutal' attack in odesa": {
-      "detected_at": "2026-08-09T13:01:25.640110Z",
-      "peak_at": "2026-08-09T13:01:25.640110Z",
-      "peak_score_at": "2026-08-09T13:01:25.640110Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "negative",
-      "title": "Russian forces kill several in Ukraine, launch 'brutal' attack in Odesa",
-      "peak_label": "Russia strikes Odesa port near Romanian waters",
-      "peak_summary": "Moscow attacks Ukraine's Black Sea port infrastructure near Romania, threatening regional security and grain export routes critical to the area.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/russian-forces-kill-several-in-ukraine-launch-brutal-attack-in-odesa?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+    "At least 13 killed in Ukrainian drone strike deep into Russia",
     "China evacuates one million from homes as massive storm arrives",
-    "Drones spotted over German base days after Leipzig bomb incident"
+    "World's oceans hit record-high July temperatures"
   ]
 }
