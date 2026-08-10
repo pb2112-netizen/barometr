@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-10T22:01:20.668881Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-08-10T22:56:22.990805Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy border checks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Spain introduces checks on Italy visitors; migration."
     },
     {
       "temat": "Record ocean temperatures July 2025",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
       "temat": "Europe heatwave August 2025",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
     },
     {
       "temat": "Finland-Sweden rail connection",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "New service enables Portugal-Lapland rail travel; EU link."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 10,
       "opis": "Major quake kills 20+, collapses buildings; distant."
     },
     {
       "temat": "Canada wildfire evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "12,000 evacuated in Okanagan; distant climate event."
     },
     {
       "temat": "Record Channel crossing single boat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "230 migrants on one boat to UK; distant migration event."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Million evacuated in eastern China; distant weather event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-08T22:45:45.953309Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-08T23:44:11.307207Z",
       "s": 2.5
@@ -264,6 +260,10 @@
     {
       "t": "2026-08-10T22:01:20.662390Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-10T22:56:22.983012Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
@@ -272,7 +272,7 @@
       "detected_at": "2026-08-10T13:01:28.424736Z",
       "peak_at": "2026-08-10T13:01:28.424736Z",
       "peak_score_at": "2026-08-10T13:01:28.424736Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "negative",
       "title": "World's oceans hit record-high July temperatures",
       "peak_label": "Global oceans record hottest July temperatures",
@@ -288,19 +288,19 @@
         }
       ]
     },
-    "new train service connects finland and sweden for first time in decades": {
-      "detected_at": "2026-08-10T21:57:38.213865Z",
-      "peak_at": "2026-08-10T21:57:38.213865Z",
-      "peak_score_at": "2026-08-10T21:57:38.213865Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "New train service connects Finland and Sweden for first time in decades",
-      "peak_label": "Finland-Sweden rail link opens after decades",
-      "peak_summary": "New service enables Portugal-to-Lapland rail travel, Europe's longest train journey. Positive EU connectivity development with indirect tourism benefit for Portugal.",
+    "world's oceans hit record-high july temperatures": {
+      "detected_at": "2026-08-10T22:56:22.983012Z",
+      "peak_at": "2026-08-10T22:56:22.983012Z",
+      "peak_score_at": "2026-08-10T22:56:22.983012Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "World's oceans hit record-high July temperatures",
+      "peak_label": "Global oceans reach hottest July on record",
+      "peak_summary": "Record ocean temperatures in July driven by El Niño. Indirect climate concern for Atlantic coast with no immediate daily life impact.",
       "peak_source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2lwpzz6qjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -317,6 +317,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ]
+    },
+    "new train service connects finland and sweden for first time in decades": {
+      "detected_at": "2026-08-10T21:57:38.213865Z",
+      "peak_at": "2026-08-10T21:57:38.213865Z",
+      "peak_score_at": "2026-08-10T21:57:38.213865Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "New train service connects Finland and Sweden for first time in decades",
+      "peak_label": "Finland-Sweden rail link opens after decades",
+      "peak_summary": "New service enables Portugal-to-Lapland rail travel, Europe's longest train journey. Positive EU connectivity development with indirect tourism benefit for Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2lwpzz6qjo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -431,7 +447,7 @@
   },
   "prev_top_event_titles": [
     "Europe braces for another heatwave after record-breaking temperatures",
-    "New train service connects Finland and Sweden for first time in decades",
+    "World's oceans hit record-high July temperatures",
     "Spain to introduce temporary border checks on visitors from Italy"
   ]
 }
