@@ -1,12 +1,12 @@
 {
-  "global_score": 4.1,
-  "rationale": "Trump childhood vaccine order continues as known policy; social media addiction lawsuits proceed as expected; no new major domestic policy change this cycle.",
+  "global_score": 3.9,
+  "rationale": "Trump childhood vaccine order continues as top domestic policy impact; Colombia quake and other events remain distant or rhetorical with no new US policy change.",
   "top_events": [
     {
       "title": "Trump signs order to limit childhood vaccines and split MMR shots",
-      "label": "Trump orders childhood vaccine limits, MMR split",
-      "summary": "Executive order recommends separating MMR vaccine into three shots. Continuation of known vaccine policy affecting millions of US families.",
-      "score": 4.1,
+      "label": "Trump limits childhood vaccines in US order",
+      "summary": "Executive order restricts childhood vaccines, splits MMR shots. Continues major domestic health policy change affecting millions of American families.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -22,42 +22,47 @@
       "detected_at": "2026-08-10T20:03:31.298525Z"
     },
     {
-      "title": "US appeals court says social media addiction lawsuits can proceed",
-      "label": "Court allows social media addiction lawsuits",
-      "summary": "Appeals court rules Meta, Google, TikTok face addiction lawsuits; Meta trial this week. Continuation of known legal process with no new policy impact yet.",
-      "score": 2.8,
-      "sentiment": "neutral",
+      "title": "Scores dead after powerful earthquake strikes western Colombia",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "7.4 magnitude quake in Colombia kills 100+, collapses buildings. Regional disaster with no direct impact on US economy, security, or population.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/us-appeals-court-says-social-media-addiction-lawsuits-can-proceed?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/moment-of-terror-as-powerful-earthquake-shakes-airport-in-colombia?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-10T21:57:38.217583Z"
+      "detected_at": "2026-08-10T15:16:06.513943Z"
     },
     {
-      "title": "'Shoved the tube so hard it tore my nose': Kurdish film-maker recounts 'inhumane' ICE force-feeding",
-      "label": "Kurdish detainee recounts ICE force-feeding ordeal",
-      "summary": "Film-maker describes eight months of coercive feeding in ICE detention. Continuation of known immigration detention case with no new policy change.",
-      "score": 3.1,
+      "title": "Judge approves Trump effort to end South Sudan TPS protections",
+      "label": "Judge approves Trump TPS termination order",
+      "summary": "Court allows end of protections for South Sudanese in US. Continues Trump immigration policy changes affecting hundreds of nationals already in memory.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli"
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
         }
       ],
-      "detected_at": "2026-08-10T17:07:57.752139Z"
+      "detected_at": "2026-08-09T17:46:50.862489Z"
     }
   ],
   "short_summary": "Trump orders childhood vaccine limits",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-10T22:56:22.986788Z",
+  "updated_at": "2026-08-10T23:50:46.624847Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-10T20:03:31.298525Z",
   "score_history": [
-    {
-      "t": "2026-08-08T23:44:11.310620Z",
-      "s": 4.2
-    },
     {
       "t": "2026-08-09T01:01:16.340777Z",
       "s": 4.0
@@ -296,6 +297,10 @@
     {
       "t": "2026-08-10T22:56:22.986788Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-08-10T23:50:46.624847Z",
+      "s": 3.9
     }
   ]
 }
