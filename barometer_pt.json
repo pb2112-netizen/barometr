@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Colombia quake continues as distant tragedy; Spain-Italy border checks continue; no events with meaningful impact on Portuguese daily life this cycle.",
+  "global_score": 2.6,
+  "rationale": "Colombia earthquake continues; France telemarketing ban is minor EU consumer news; no events directly affecting Portugal.",
   "top_events": [
     {
-      "title": "At least 169 killed in Colombia's largest earthquake in years",
-      "label": "Colombia earthquake kills over 169 people",
-      "summary": "Major 7.4 magnitude quake collapses buildings in western Colombia. Distant tragedy with no connection to Portuguese economy or daily life.",
-      "score": 2.7,
+      "title": "Colombia earthquake",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Major 7.4 magnitude quake in western Colombia, over 100 dead. Tragic but geographically distant with no Portugal link.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -17,7 +17,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/videos/cwyl3w1e6zxo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Guardian",
@@ -27,42 +27,47 @@
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain introduces border checks on Italy visitors",
-      "summary": "Spain responds to Italy's migration controls with reciprocal checks. Neighboring country action but no direct impact on Portugal.",
+      "title": "France bans unsolicited telemarketing calls",
+      "label": "France bans cold calling telemarketing nationwide",
+      "summary": "France ends unsolicited telemarketing calls, consumer group calls it a 'small revolution.' Minor EU consumer policy; no direct Portugal impact.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
-      "title": "Drone captures devastating aftermath of Spokane wildfires",
-      "label": "Spokane wildfires destroy homes in US",
-      "summary": "Aerial footage shows homes burned to foundations in Washington state. Distant climate event with no relevance to Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/c80nm9melpmo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-11T15:15:51.269323Z"
+      "detected_at": "2026-08-11T16:01:26.754722Z"
+    },
+    {
+      "title": "Lebanon parliament votes to abolish death penalty",
+      "label": "Lebanon votes to end death penalty nationwide",
+      "summary": "Lebanon becomes first Middle East country to abolish capital punishment. Distant regional milestone; no Portugal relevance.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T16:01:26.754722Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -70,17 +75,17 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-11T15:15:51.269323Z",
+  "updated_at": "2026-08-11T16:01:26.754722Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Portugal.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 3.1,
+    "score": 3.0,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.510515Z",
-    "peak_at": "2026-08-10T15:16:06.510515Z",
+    "peak_at": "2026-08-11T16:01:26.754722Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -94,14 +99,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
   "score_history": [
-    {
-      "t": "2026-08-09T15:46:09.582707Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-09T16:01:13.354494Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-09T16:53:48.509362Z",
       "s": 2.0
@@ -285,6 +282,10 @@
     {
       "t": "2026-08-11T15:15:51.269323Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-11T16:01:26.754722Z",
+      "s": 2.6
     }
   ]
 }

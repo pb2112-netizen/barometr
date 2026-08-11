@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "North Korean missiles in Ukraine continues as known background; Colombia quake and Assad verdict distant; no new direct impact on Poland this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "North Korean missiles in Ukraine continues as known background; other events distant or symbolic.",
   "top_events": [
     {
       "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
       "label": "Russia uses North Korean missiles in Ukraine",
-      "summary": "Continuation of known escalation: DPRK ballistic missiles strike Zaporizhzhia, killing six. No new qualitative change for Poland's security situation this cycle.",
+      "summary": "Continuation of known escalation: DPRK ballistic missiles struck Zaporizhzhia, killing six. No new qualitative change for Poland's security environment.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,34 +22,10 @@
       "detected_at": "2026-08-10T10:01:31.851981Z"
     },
     {
-      "title": "At least 169 killed in Colombia's largest earthquake in years",
-      "label": "Colombia earthquake kills over 169 people",
-      "summary": "Major 7.4 magnitude quake collapses buildings in western Colombia. Distant tragedy with no direct link to Polish daily life or economy.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.507444Z"
-    },
-    {
       "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-      "label": "Assad sentenced to death in absentia",
-      "summary": "Syrian court convicts Assad of war crimes. Symbolic justice with no practical impact on Poland; Assad remains in exile.",
-      "score": 2.2,
+      "label": "Assad sentenced to death in absentia by court",
+      "summary": "Symbolic justice: Syrian court convicts Assad of war crimes. No direct impact on Poland; distant legal milestone.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -63,6 +39,30 @@
         }
       ],
       "detected_at": "2026-08-11T11:04:37.047183Z"
+    },
+    {
+      "title": "Colombia earthquake",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Major 7.4 magnitude quake in western Colombia with over 100 dead. Tragic but geographically distant with no Poland link.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cwyl3w1e6zxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.507444Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -70,17 +70,17 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-11T15:15:51.266186Z",
+  "updated_at": "2026-08-11T16:01:26.751356Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 6.1,
+    "score": 6.0,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.507444Z",
-    "peak_at": "2026-08-10T15:16:06.507444Z",
+    "peak_at": "2026-08-11T16:01:26.751356Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -94,14 +94,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "score_history": [
-    {
-      "t": "2026-08-09T15:46:09.579605Z",
-      "s": 2.1
-    },
-    {
-      "t": "2026-08-09T16:01:13.352356Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T16:53:48.506288Z",
       "s": 2.0
@@ -284,6 +276,10 @@
     },
     {
       "t": "2026-08-11T15:15:51.266186Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-11T16:01:26.751356Z",
       "s": 3.0
     }
   ]
