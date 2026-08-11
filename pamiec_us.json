@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-11T17:11:49.560037Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-11T18:06:16.025330Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 26,
+      "cykle_bez_zmian": 0,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
       "temat": "Trump plane swap over Iran threat",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "President used decoy plane at NATO summit; security theater."
     },
     {
       "temat": "Trump childhood vaccine order",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 21,
       "opis": "Executive order limits vaccines; affects millions of."
     },
     {
       "temat": "Luigi Mangione murder trial proceedings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "High-profile case continues; no verdict yet; legal process."
     },
     {
       "temat": "US to shut five foreign consulates",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "State Dept closes consulates in Canada, Japan, Indonesia."
     },
     {
       "temat": "Judge approves Trump TPS termination",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Court allows end of protections for South Sudanese in US."
     },
     {
       "temat": "Trump administration visa revocations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Over 175,000 visas revoked, mostly for criminal activity."
     },
     {
       "temat": "Social media addiction lawsuits proceed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Court allows Meta, Google, TikTok addiction cases; trial."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T17:46:50.862489Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-09T19:00:26.210144Z",
       "s": 2.5
@@ -244,6 +240,10 @@
     {
       "t": "2026-08-11T17:11:49.554016Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-11T18:06:16.020603Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-10T20:03:31.298525Z",
@@ -252,7 +252,7 @@
       "detected_at": "2026-08-10T04:53:00.810090Z",
       "peak_at": "2026-08-11T06:03:47.464013Z",
       "peak_score_at": "2026-08-10T04:53:00.810090Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "neutral",
       "title": "Trump signals shift to economic pressure on Iran over new military strikes",
       "peak_label": "Trump shifts to sanctions over Iran strikes",
@@ -261,6 +261,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
+        }
+      ]
+    },
+    "scores dead in colombia after powerful earthquake strikes west of country": {
+      "detected_at": "2026-08-10T15:16:06.513943Z",
+      "peak_at": "2026-08-11T16:01:26.757952Z",
+      "peak_score_at": "2026-08-10T15:16:06.513943Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "luigi mangione appears in court as questions remain in case ahead of murder trial": {
+      "detected_at": "2026-08-11T16:01:26.757952Z",
+      "peak_at": "2026-08-11T16:01:26.757952Z",
+      "peak_score_at": "2026-08-11T16:01:26.757952Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Luigi Mangione back in court as key questions remain over case ahead of murder trial",
+      "peak_label": "Luigi Mangione appears in court before trial",
+      "peak_summary": "Mangione's lawyers have not signaled defense; prosecutors battle over evidence. Ongoing high-profile case; no new verdict or policy impact yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -277,42 +313,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "scores dead in colombia after powerful earthquake strikes west of country": {
-      "detected_at": "2026-08-10T15:16:06.513943Z",
-      "peak_at": "2026-08-11T16:01:26.757952Z",
-      "peak_score_at": "2026-08-10T15:16:06.513943Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
-    "luigi mangione back in court as key questions remain over case ahead of murder trial": {
-      "detected_at": "2026-08-11T16:01:26.757952Z",
-      "peak_at": "2026-08-11T16:01:26.757952Z",
-      "peak_score_at": "2026-08-11T16:01:26.757952Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Luigi Mangione back in court as key questions remain over case ahead of murder trial",
-      "peak_label": "Luigi Mangione appears in court before trial",
-      "peak_summary": "Mangione's lawyers have not signaled defense; prosecutors battle over evidence. Ongoing high-profile case; no new verdict or policy impact yet.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -383,7 +383,7 @@
   },
   "prev_top_event_titles": [
     "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
-    "Russia releases former US Marine reported in poor health",
-    "Scores dead in Colombia after powerful earthquake strikes west of country"
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
+    "Luigi Mangione appears in court as questions remain in case ahead of murder trial"
   ]
 }
