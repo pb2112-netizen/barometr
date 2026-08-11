@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "North Korean missiles in Ukraine (Zaporizhzhia strikes) represent a new escalation in the Black Sea region conflict, indirectly raising security concerns for Romania. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "North Korean missiles in Ukraine continue as regional security concern; other events distant or symbolic. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
       "label": "Russia deploys North Korean missiles in Ukraine",
-      "summary": "DPRK ballistic missiles hit Zaporizhzhia, killing six. This escalation in the nearby war raises regional security concerns for Romania.",
+      "summary": "Continuation of known escalation: DPRK ballistic missiles hit Zaporizhzhia. Regional security concern for Black Sea neighbor Romania.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-10T10:01:31.854289Z"
     },
     {
+      "title": "Libyan authorities battle big blaze at major oil refinery",
+      "label": "Libya Zawiya refinery hit by drone strike",
+      "summary": "Continuation: third drone strike in two days on Libya's largest refinery. Indirect energy market concern for Romania.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T10:01:26.780321Z"
+    },
+    {
       "title": "At least 132 killed in Colombia's largest earthquake in years",
-      "label": "Colombia earthquake kills over 130 people",
-      "summary": "A 7.4 magnitude quake struck western Colombia, killing at least 132. Distant tragedy with no direct impact on Romania.",
-      "score": 3.0,
+      "label": "Colombia earthquake kills 132, hundreds missing",
+      "summary": "Distant tragedy: 7.4 magnitude quake devastates western Colombia. No relevance to Romanian daily life.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -41,7 +60,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/east-libya-military-intelligence-chief-killed-in-car-bomb?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/baby-among-those-rescued-as-hundreds-feared-missing-after-colombia-quake?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -49,25 +68,6 @@
         }
       ],
       "detected_at": "2026-08-10T15:16:06.508911Z"
-    },
-    {
-      "title": "Libyan authorities battle big blaze at major oil refinery",
-      "label": "Drone strike ignites Libya's Zawiya refinery",
-      "summary": "Third drone attack in two days on Libya's largest refinery. Continued instability in Mediterranean oil supply, minor indirect energy concern.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-11T10:01:26.780321Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -75,14 +75,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-11T11:04:37.048866Z",
+  "updated_at": "2026-08-11T11:56:06.099319Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 6.4,
+    "score": 6.3,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.508911Z",
     "peak_at": "2026-08-10T15:16:06.508911Z",
@@ -99,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "score_history": [
-    {
-      "t": "2026-08-09T11:43:58.700183Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-09T13:01:25.640110Z",
       "s": 3.5
@@ -297,6 +293,10 @@
     },
     {
       "t": "2026-08-11T11:04:37.048866Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-11T11:56:06.099319Z",
       "s": 3.0
     }
   ]

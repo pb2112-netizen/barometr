@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Colombia earthquake is a distant tragedy with no direct impact on Portugal; other headlines are routine or distant political events.",
+  "global_score": 2.9,
+  "rationale": "Colombia earthquake distant; other events lack direct connection to Portuguese daily life or economy.",
   "top_events": [
     {
       "title": "At least 132 killed in Colombia's largest earthquake in years",
-      "label": "Colombia earthquake kills over 130 people",
-      "summary": "A 7.4 magnitude quake killed at least 132 in western Colombia. Distant event with no impact on Portugal.",
-      "score": 3.0,
+      "label": "Colombia earthquake kills 132, buildings collapse",
+      "summary": "Distant tragedy: 7.4 magnitude quake devastates western Colombia. No impact on Portugal's economy or daily life.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,7 +22,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/east-libya-military-intelligence-chief-killed-in-car-bomb?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/baby-among-those-rescued-as-hundreds-feared-missing-after-colombia-quake?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -32,32 +32,13 @@
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain introduces border checks on Italy visitors",
-      "summary": "Spain responds to Italy's migration measures with temporary checks. Minor indirect relevance to Iberian travel, no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
-    },
-    {
       "title": "World's oceans hit record-high July temperatures",
-      "label": "Global oceans record hottest July ever",
-      "summary": "July 2025 set ocean temperature records, fueled by El Niño. Ongoing climate concern with no immediate change to daily life in Portugal.",
+      "label": "Global oceans record hottest July temperatures",
+      "summary": "Continuation: climate concern as oceans hit record July heat. Indirect relevance to Portugal's Atlantic coast and climate.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "nauka",
       "sources": [
         "BBC"
       ],
@@ -68,21 +49,40 @@
         }
       ],
       "detected_at": "2026-08-10T13:01:28.424736Z"
+    },
+    {
+      "title": "Canadian government steps in as 'out of control' wildfires force thousands to flee",
+      "label": "Canada wildfires force thousands to evacuate",
+      "summary": "Distant climate event: British Columbia battles 102 fires. No connection to Portuguese daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
+        }
+      ],
+      "detected_at": "2026-08-10T10:35:55.445653Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-11T11:04:37.050542Z",
+  "updated_at": "2026-08-11T11:56:06.100891Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Portugal.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 3.4,
+    "score": 3.3,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.510515Z",
     "peak_at": "2026-08-10T15:16:06.510515Z",
@@ -99,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
   "score_history": [
-    {
-      "t": "2026-08-09T11:43:58.701734Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T13:01:25.642419Z",
       "s": 2.0
@@ -298,6 +294,10 @@
     {
       "t": "2026-08-11T11:04:37.050542Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-11T11:56:06.100891Z",
+      "s": 2.9
     }
   ]
 }
