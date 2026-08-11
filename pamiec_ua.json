@@ -1,54 +1,46 @@
 {
-  "updated_at": "2026-08-11T09:13:17.655962Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-11T10:01:26.791062Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Typhoon Dolphin hits China",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Million evacuated in eastern China; no Ukraine relevance."
-    },
-    {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 23,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; new."
     },
     {
       "temat": "Ukraine ground robot warfare",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Ground robots carry ammo, conduct kamikaze missions."
     },
     {
       "temat": "Taiwan-China military tensions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Taiwan holds drills preparing for Chinese invasion; distant."
     },
     {
       "temat": "Russia bars anti-war party from elections",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Moscow blocks liberal party from September vote; internal."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Major quake kills 100+ in Colombia; no Ukraine relevance."
+    },
+    {
+      "temat": "Russia using North Korean missiles in Ukraine",
+      "poziom_bazowy": 7.5,
+      "cykle_bez_zmian": 0,
+      "opis": "DPRK ballistic missiles strike Zaporizhzhia, 6 killed; new."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T09:55:25.287313Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-08-09T10:01:20.969493Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T10:52:21.625547Z",
       "s": 2.0
@@ -240,15 +232,19 @@
     {
       "t": "2026-08-11T09:13:17.649033Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-11T10:01:26.783862Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-11T07:35:47.985479Z",
   "event_detected_at": {
-    "at least 13 killed in ukrainian drone strike deep into russia": {
+    "russia using north korean missiles to strike ukraine, zelensky says": {
       "detected_at": "2026-08-10T10:01:31.857421Z",
       "peak_at": "2026-08-10T10:35:55.447050Z",
       "peak_score_at": "2026-08-10T10:35:55.447050Z",
-      "peak_score": 3.7,
+      "peak_score": 3.6,
       "peak_sentiment": "positive",
       "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
       "peak_label": "Ukrainian drones kill 13 in Tatarstan strike",
@@ -257,22 +253,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "ukraine's 40-day campaign has not brought the war closer to an end": {
-      "detected_at": "2026-08-11T09:13:17.649033Z",
-      "peak_at": "2026-08-11T09:13:17.649033Z",
-      "peak_score_at": "2026-08-11T09:13:17.649033Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Ukraine's 40-day campaign has not brought the war closer to an end",
-      "peak_label": "Ukraine campaign stalls, Russian response brutal",
-      "peak_summary": "Kyiv faces brutal Russian response as air defense stocks dwindle. Ongoing war reality with no qualitative change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/opinions/2026/8/11/ukraines-40-day-campaign-has-not-brought-the-war-closer-to-an-end?traffic_source=rss"
         }
       ]
     },
@@ -293,6 +273,42 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "ousted syrian dictator bashar al-assad sentenced to death in absentia": {
+      "detected_at": "2026-08-11T10:01:26.783862Z",
+      "peak_at": "2026-08-11T10:01:26.783862Z",
+      "peak_score_at": "2026-08-11T10:01:26.783862Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
+      "peak_label": "Assad sentenced to death for war crimes",
+      "peak_summary": "Former Syrian president convicted of war crimes and crimes against humanity. Symbolic justice but no direct impact on Ukraine's war.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial?traffic_source=rss"
+        }
+      ]
+    },
+    "ukraine's 40-day campaign has not brought the war closer to an end": {
+      "detected_at": "2026-08-11T09:13:17.649033Z",
+      "peak_at": "2026-08-11T09:13:17.649033Z",
+      "peak_score_at": "2026-08-11T09:13:17.649033Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Ukraine's 40-day campaign has not brought the war closer to an end",
+      "peak_label": "Ukraine campaign stalls, Russian response brutal",
+      "peak_summary": "Kyiv faces brutal Russian response as air defense stocks dwindle. Ongoing war reality with no qualitative change.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2026/8/11/ukraines-40-day-campaign-has-not-brought-the-war-closer-to-an-end?traffic_source=rss"
         }
       ]
     },
@@ -446,8 +462,8 @@
     }
   },
   "prev_top_event_titles": [
-    "At least 13 killed in Ukrainian drone strike deep into Russia",
-    "Ukraine's 40-day campaign has not brought the war closer to an end",
-    "At least 132 killed in Colombia's largest earthquake in years"
+    "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+    "At least 132 killed in Colombia's largest earthquake in years",
+    "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia"
   ]
 }

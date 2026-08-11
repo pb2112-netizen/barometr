@@ -1,49 +1,59 @@
 {
-  "global_score": 3.4,
-  "rationale": "Trump vaccine order is a significant new domestic policy affecting millions of children; Colombia earthquake is a major regional disaster; judge approves TPS termination for South Sudanese. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Colombia earthquake is a major regional disaster but does not directly affect US daily life. Other headlines involve distant conflicts or continuation of known situations with minimal new impact on Americans.",
   "top_events": [
     {
-      "title": "Trump signs order to limit childhood vaccines and split MMR shots",
-      "label": "Trump limits childhood vaccines, splits MMR shots",
-      "summary": "Executive order changes vaccine policy for millions of children, splitting MMR shots. Pediatricians call it dangerous; significant domestic health policy shift.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T20:03:31.298525Z"
-    },
-    {
       "title": "At least 132 killed in Colombia's largest earthquake in years",
-      "label": "Colombia earthquake kills 132, injures 480",
-      "summary": "Major 7.4 magnitude quake collapses buildings in western Colombia. Regional humanitarian disaster with indirect US concern.",
-      "score": 3.4,
+      "label": "Colombia earthquake kills 132, thousands missing",
+      "summary": "A 7.4 magnitude earthquake struck western Colombia, killing at least 132 and leaving over 2,700 missing. Regional disaster with humanitarian concern but no direct US impact.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/colombia-quake-frantic-search-for-survivors-as-over-2700-reported-missing?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.513943Z"
     },
     {
+      "title": "US to shut five consulates as critics fear China could fill diplomatic vacuum",
+      "label": "US closes five foreign consulates globally",
+      "summary": "State Department closing consulates in Canada, Japan, Indonesia, Grenada, and Cameroon. Continuation of known policy with minimal immediate impact on Americans.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+        }
+      ],
+      "detected_at": "2026-08-06T10:01:24.917288Z"
+    },
+    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end of South Sudan TPS",
-      "summary": "Court allows termination of protections for South Sudanese nationals in US. Continuation of immigration policy changes already in motion.",
+      "label": "Court allows end of South Sudan TPS protections",
+      "summary": "Court approved termination of temporary protected status for South Sudanese nationals in the US. Continuation of known immigration policy changes.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-11T09:13:17.650673Z",
+  "updated_at": "2026-08-11T10:01:26.785663Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,14 +95,6 @@
   },
   "events_anchor_at": "2026-08-10T20:03:31.298525Z",
   "score_history": [
-    {
-      "t": "2026-08-09T09:55:25.289104Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-09T10:01:20.971302Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-09T10:52:21.627043Z",
       "s": 3.4
@@ -284,6 +286,10 @@
     {
       "t": "2026-08-11T09:13:17.650673Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-11T10:01:26.785663Z",
+      "s": 3.2
     }
   ]
 }
