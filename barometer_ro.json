@@ -1,12 +1,55 @@
 {
-  "global_score": 2.4,
-  "rationale": "Ukrainian drone strikes continue without new regional spillover; Colombia quake and other events remain distant with no Black Sea or EU economic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.0,
+  "rationale": "Colombia earthquake continues as distant event; no new regional security or energy developments affecting Romania.",
   "top_events": [
+    {
+      "title": "At least 132 killed in Colombia's largest earthquake in years",
+      "label": "Colombia earthquake kills 132, collapses buildings",
+      "summary": "Magnitude 7.4 quake struck western Colombia, collapsing over 1,500 buildings. Distant tragedy with no direct impact on Romania.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.508911Z"
+    },
+    {
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+      "label": "DRC Ebola outbreak exceeds 4,000 cases, mutation feared",
+      "summary": "Cases surpass 4,000 in Congo; virus may be mutating. Distant health crisis with no immediate effect on Romania.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
+        }
+      ],
+      "detected_at": "2026-08-11T02:26:50.125690Z"
+    },
     {
       "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
       "label": "Ukrainian drones kill 13 in Russia strike",
-      "summary": "Drone attack kills 13, injures 75 deep inside Russia. Continues war pattern with no new threat to Romania's Black Sea security or borders.",
-      "score": 2.4,
+      "summary": "Drone attack injured 75 in Russia, one of deadliest Ukrainian strikes. Continuation of known war dynamics in Black Sea region.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,64 +63,21 @@
         }
       ],
       "detected_at": "2026-08-10T10:01:31.854289Z"
-    },
-    {
-      "title": "Scores dead after powerful earthquake strikes western Colombia",
-      "label": "Colombia earthquake kills over 100 people",
-      "summary": "7.4 magnitude quake in Colombia kills 100+, collapses buildings. Distant disaster with no relevance to Romania's economy or regional security.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/moment-of-terror-as-powerful-earthquake-shakes-airport-in-colombia?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.508911Z"
-    },
-    {
-      "title": "Europe braces for another heatwave after record-breaking temperatures",
-      "label": "Europe faces new heatwave mid-30s forecast",
-      "summary": "Britain and France expect mid-30s Celsius this week. Continues summer heat pattern with mild indirect effect on Romania's climate and agriculture.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/europe-braces-for-another-heatwave-after-record-breaking-temperatures?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T13:01:28.423624Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-10T23:50:46.619968Z",
+  "updated_at": "2026-08-11T02:26:50.125690Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 7.3,
+    "score": 7.2,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.508911Z",
     "peak_at": "2026-08-10T15:16:06.508911Z",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "score_history": [
-    {
-      "t": "2026-08-09T01:01:16.335115Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-09T02:28:11.313922Z",
       "s": 2.1
@@ -305,6 +301,10 @@
     {
       "t": "2026-08-10T23:50:46.619968Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-11T02:26:50.125690Z",
+      "s": 4.0
     }
   ]
 }
