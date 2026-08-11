@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-11T07:35:47.990139Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-08-11T09:13:17.653316Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Million evacuated in eastern China; distant weather event."
     },
     {
       "temat": "Record ocean temperatures July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 17,
       "opis": "Major quake kills 20+, collapses buildings; distant."
     },
     {
       "temat": "Hormuz closure oil price surge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Strait closure drives oil prices up; indirect energy cost."
     },
     {
       "temat": "Europe heatwave August 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
     },
     {
       "temat": "DRC Ebola outbreak mutation concern",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "Over 4,000 cases, virus may be mutating; distant health."
     },
     {
       "temat": "Libya Zawiya refinery drone attack",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "Drone strike ignites Libya's largest refinery; oil market."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T08:02:56.040281Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-08-09T09:01:42.761789Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-09T09:55:25.284267Z",
       "s": 3.6
@@ -256,15 +248,35 @@
     {
       "t": "2026-08-11T07:35:47.982321Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-11T09:13:17.646123Z",
+      "s": 3.4
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "event_detected_at": {
+    "at least 13 killed in ukrainian drone strike deep into russia": {
+      "detected_at": "2026-08-10T10:01:31.854289Z",
+      "peak_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score_at": "2026-08-10T10:35:55.443956Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+      "peak_label": "Ukraine drones kill 13 deep inside Russia",
+      "peak_summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks inside Russia. War escalation affects regional security dynamics.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "at least 132 killed in colombia's largest earthquake in years": {
       "detected_at": "2026-08-10T15:16:06.508911Z",
       "peak_at": "2026-08-10T15:16:06.508911Z",
       "peak_score_at": "2026-08-10T15:16:06.508911Z",
-      "peak_score": 6.8,
+      "peak_score": 6.7,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -277,6 +289,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "trump signs order to limit childhood vaccines and split mmr shots": {
+      "detected_at": "2026-08-11T09:13:17.646123Z",
+      "peak_at": "2026-08-11T09:13:17.646123Z",
+      "peak_score_at": "2026-08-11T09:13:17.646123Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Trump signs order to limit childhood vaccines and split MMR shots",
+      "peak_label": "Trump limits childhood vaccines, splits MMR shots",
+      "peak_summary": "US executive order changes vaccine policy, affecting millions. Distant policy with no direct impact on Romanian healthcare or daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -309,22 +337,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
-        }
-      ]
-    },
-    "at least 13 killed in ukrainian drone strike deep into russia": {
-      "detected_at": "2026-08-10T10:01:31.854289Z",
-      "peak_at": "2026-08-10T10:35:55.443956Z",
-      "peak_score_at": "2026-08-10T10:35:55.443956Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-      "peak_label": "Ukraine drones kill 13 deep inside Russia",
-      "peak_summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks inside Russia. War escalation affects regional security dynamics.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -446,8 +458,8 @@
     }
   },
   "prev_top_event_titles": [
+    "At least 13 killed in Ukrainian drone strike deep into Russia",
     "At least 132 killed in Colombia's largest earthquake in years",
-    "Fire rages after drone strikes Libya's largest oil refinery",
-    "Russian attacks kill six in Ukraine's Zaporizhzhia"
+    "Trump signs order to limit childhood vaccines and split MMR shots"
   ]
 }
