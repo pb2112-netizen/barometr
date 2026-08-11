@@ -1,12 +1,36 @@
 {
-  "global_score": 2.4,
-  "rationale": "Quiet cycle; Trump plane swap continues known security theater; no new policy actions or domestic events affecting American life.",
+  "global_score": 2.3,
+  "rationale": "Colombia earthquake updated death toll; Trump plane security theater continues; other events lack significant US domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "label": "Colombia earthquake death toll reaches 180",
+      "summary": "Major 7.4 magnitude quake in western Colombia with rising casualties. Regional disaster with no direct US impact beyond humanitarian concern.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.513943Z"
+    },
     {
       "title": "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
       "label": "Trump used decoy plane over Iran threat",
-      "summary": "President reportedly used ruse at NATO summit with decoy Air Force One; security theater with no policy impact on US residents.",
-      "score": 2.4,
+      "summary": "President reportedly used ruse at NATO summit with catering truck and false Air Force One reports. Security theater with no policy impact.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,28 +46,9 @@
       "detected_at": "2026-08-10T04:53:00.810090Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia earthquake kills over 100 people",
-      "summary": "7.4 magnitude quake collapses buildings in Cali and Pereira; regional disaster with no direct US impact.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.513943Z"
-    },
-    {
-      "title": "Luigi Mangione appears in court as questions remain in case ahead of murder trial",
-      "label": "Mangione court appearance before murder trial",
-      "summary": "High-profile case continues with anonymous jury; legal process ongoing with no verdict yet.",
+      "title": "Luigi Mangione murder trial to have anonymous jury and overflow seating",
+      "label": "Mangione trial sets anonymous jury rules",
+      "summary": "High-profile murder case procedural decisions announced. Legal process continues with no verdict yet.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -70,9 +75,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-11T18:06:16.020603Z",
+  "updated_at": "2026-08-11T19:18:52.686269Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump orders childhood vaccine limits",
     "summary": "Trump administration signs executive order to limit and split childhood vaccines, pushing discredited autism link. New federal policy action directly affecting millions of US families.",
@@ -90,14 +95,6 @@
   },
   "events_anchor_at": "2026-08-10T20:03:31.298525Z",
   "score_history": [
-    {
-      "t": "2026-08-09T19:00:26.210144Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-09T19:00:50.370983Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-09T19:48:01.175652Z",
       "s": 2.0
@@ -281,6 +278,10 @@
     {
       "t": "2026-08-11T18:06:16.020603Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-11T19:18:52.686269Z",
+      "s": 2.3
     }
   ]
 }

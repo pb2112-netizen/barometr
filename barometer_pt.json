@@ -1,19 +1,24 @@
 {
-  "global_score": 2.3,
-  "rationale": "Quiet cycle for Portugal; distant earthquake and minor EU policy changes with no impact on daily life in Iberia.",
+  "global_score": 2.2,
+  "rationale": "Colombia earthquake is distant; Hungary political change is internal EU matter with no direct Portuguese impact; other events lack relevance to daily life.",
   "top_events": [
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia earthquake kills over 100 people",
-      "summary": "Major 7.4 magnitude quake collapses buildings; distant tragedy with no relevance to Portuguese residents.",
-      "score": 2.3,
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "label": "Colombia earthquake kills over 180 people",
+      "summary": "Major 7.4 magnitude quake in western Colombia. Geographically distant with no impact on Portuguese economy or daily life.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
@@ -22,11 +27,30 @@
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
+      "title": "Former judge removed by Orbán elected Hungarian president",
+      "label": "Hungary elects new president after Orbán era",
+      "summary": "New Hungarian government dismantles Orbán legacy. Internal EU political shift with no direct Portuguese impact.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T19:18:52.683101Z"
+    },
+    {
       "title": "France bans unsolicited telemarketing calls",
-      "label": "France bans cold calling nationwide",
-      "summary": "Consumer protection law ends telemarketing; minor EU policy with no direct effect on Portugal.",
+      "label": "France bans cold calling telemarketing",
+      "summary": "Consumer protection law ends unsolicited calls. Minor EU policy change with no direct Portuguese impact.",
       "score": 2.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
@@ -39,30 +63,6 @@
         }
       ],
       "detected_at": "2026-08-11T16:01:26.754722Z"
-    },
-    {
-      "title": "Lebanon parliament votes to abolish death penalty",
-      "label": "Lebanon ends death penalty nationwide",
-      "summary": "First Middle East country to abolish capital punishment; distant legal reform irrelevant to Portuguese life.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-11T16:01:26.754722Z"
     }
   ],
   "short_summary": "DRC Ebola outbreak exceeds 4,000 cases, mutation feared",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-11T18:06:16.018417Z",
+  "updated_at": "2026-08-11T19:18:52.683101Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-11T02:26:50.127499Z",
   "score_history": [
-    {
-      "t": "2026-08-09T19:00:26.207573Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-09T19:00:50.368073Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-09T19:48:01.172815Z",
       "s": 2.2
@@ -281,6 +273,10 @@
     {
       "t": "2026-08-11T18:06:16.018417Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-11T19:18:52.683101Z",
+      "s": 2.2
     }
   ]
 }
