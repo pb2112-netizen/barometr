@@ -1,23 +1,52 @@
 {
-  "global_score": 2.2,
-  "rationale": "Colombia earthquake is distant; Hungary political change is internal EU matter with no direct Portuguese impact; other events lack relevance to daily life.",
+  "global_score": 2.3,
+  "rationale": "Distant events with no direct impact on Portugal's economy, tourism, or daily life; Colombia quake continues, US-Iran action is new but remote.",
   "top_events": [
     {
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "label": "US fires on vessel breaking Iran blockade",
+      "summary": "US helicopter struck cargo ship in Gulf of Oman. Distant military action with no direct effect on Portugal's Atlantic economy or energy.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T21:03:17.487030Z"
+    },
+    {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia earthquake kills over 180 people",
-      "summary": "Major 7.4 magnitude quake in western Colombia. Geographically distant with no impact on Portuguese economy or daily life.",
-      "score": 2.2,
+      "label": "Colombia earthquake kills 180, rescue underway",
+      "summary": "Major 7.4 magnitude quake in western Colombia; distant event with no relevance to Portuguese daily life.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/search-for-survivors-underway-in-colombias-earthquake-aftermath?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -28,11 +57,11 @@
     },
     {
       "title": "Former judge removed by Orbán elected Hungarian president",
-      "label": "Hungary elects new president after Orbán era",
-      "summary": "New Hungarian government dismantles Orbán legacy. Internal EU political shift with no direct Portuguese impact.",
-      "score": 2.3,
+      "label": "Hungary elects president, dismantles Orbán legacy",
+      "summary": "New Hungarian government reverses Orbán policies. Distant EU political shift with no direct impact on Portugal.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -44,25 +73,6 @@
         }
       ],
       "detected_at": "2026-08-11T19:18:52.683101Z"
-    },
-    {
-      "title": "France bans unsolicited telemarketing calls",
-      "label": "France bans cold calling telemarketing",
-      "summary": "Consumer protection law ends unsolicited calls. Minor EU policy change with no direct Portuguese impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-11T16:01:26.754722Z"
     }
   ],
   "short_summary": "DRC Ebola outbreak exceeds 4,000 cases, mutation feared",
@@ -70,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-11T19:18:52.683101Z",
+  "updated_at": "2026-08-11T21:03:17.487030Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,14 +100,6 @@
   },
   "events_anchor_at": "2026-08-11T02:26:50.127499Z",
   "score_history": [
-    {
-      "t": "2026-08-09T19:48:01.172815Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-09T20:50:58.090588Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-09T21:47:10.438737Z",
       "s": 2.0
@@ -277,6 +279,10 @@
     {
       "t": "2026-08-11T19:18:52.683101Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-11T21:03:17.487030Z",
+      "s": 2.3
     }
   ]
 }

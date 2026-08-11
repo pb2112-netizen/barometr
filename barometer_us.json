@@ -1,23 +1,52 @@
 {
-  "global_score": 2.3,
-  "rationale": "Colombia earthquake updated death toll; Trump plane security theater continues; other events lack significant US domestic impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "US military action in Gulf of Oman is new but limited; Colombia quake continues; no major domestic policy changes or direct threats this cycle.",
   "top_events": [
     {
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "label": "US fires on vessel breaking Iran blockade",
+      "summary": "US helicopter struck cargo ship's engine room in Gulf of Oman. Limited military action; no broader escalation or direct US casualty impact yet.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T21:03:17.490549Z"
+    },
+    {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia earthquake death toll reaches 180",
-      "summary": "Major 7.4 magnitude quake in western Colombia with rising casualties. Regional disaster with no direct US impact beyond humanitarian concern.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "label": "Colombia earthquake kills 180, rescue underway",
+      "summary": "Major 7.4 magnitude quake in western Colombia; regional disaster with no direct impact on US daily life or economy.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/search-for-survivors-underway-in-colombias-earthquake-aftermath?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -27,82 +56,50 @@
       "detected_at": "2026-08-10T15:16:06.513943Z"
     },
     {
-      "title": "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
-      "label": "Trump used decoy plane over Iran threat",
-      "summary": "President reportedly used ruse at NATO summit with catering truck and false Air Force One reports. Security theater with no policy impact.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T04:53:00.810090Z"
-    },
-    {
-      "title": "Luigi Mangione murder trial to have anonymous jury and overflow seating",
-      "label": "Mangione trial sets anonymous jury rules",
-      "summary": "High-profile murder case procedural decisions announced. Legal process continues with no verdict yet.",
+      "title": "Trump warns of 'jihadists' ruling in Washington as Democrats show momentum",
+      "label": "Trump labels Democratic nominees jihadists",
+      "summary": "Inflammatory campaign rhetoric from Oval Office. No policy action; continuation of political noise without real-world impact.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/us-jury-in-luigi-mangione-murder-trial-to-remain-anonymous?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/11/trump-warns-of-jihadists-ruling-in-washington-as-democrats-show-momentum?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-11T16:01:26.757952Z"
+      "detected_at": "2026-08-11T21:03:17.490549Z"
     }
   ],
-  "short_summary": "Trump orders childhood vaccine limits",
+  "short_summary": "Court allows social media addiction lawsuits",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-11T19:18:52.686269Z",
+  "updated_at": "2026-08-11T21:03:17.490549Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Trump orders childhood vaccine limits",
-    "summary": "Trump administration signs executive order to limit and split childhood vaccines, pushing discredited autism link. New federal policy action directly affecting millions of US families.",
-    "title": "Trump signs order to limit and split childhood vaccines",
-    "score": 4.1,
-    "sentiment": "negative",
-    "detected_at": "2026-08-10T20:03:31.298525Z",
-    "peak_at": "2026-08-10T20:03:31.298525Z",
+    "label": "Court allows social media addiction lawsuits",
+    "summary": "Federal court rules Meta, Google, TikTok face addiction lawsuits; Meta trial starts this week. Legal action advancing on child safety; potential industry impact if plaintiffs prevail.",
+    "title": "US appeals court says social media addiction lawsuits can proceed",
+    "score": 3.0,
+    "sentiment": "positive",
+    "detected_at": "2026-08-10T21:57:38.217583Z",
+    "peak_at": "2026-08-10T21:57:38.217583Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/10/us-appeals-court-says-social-media-addiction-lawsuits-can-proceed?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-10T20:03:31.298525Z",
+  "events_anchor_at": "2026-08-10T21:57:38.217583Z",
   "score_history": [
-    {
-      "t": "2026-08-09T19:48:01.175652Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-09T20:50:58.093372Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T21:47:10.442120Z",
       "s": 2.0
@@ -282,6 +279,10 @@
     {
       "t": "2026-08-11T19:18:52.686269Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-11T21:03:17.490549Z",
+      "s": 2.5
     }
   ]
 }

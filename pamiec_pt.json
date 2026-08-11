@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-11T19:18:52.690101Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-11T21:03:17.494130Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 28,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 29,
       "opis": "Major quake kills 20+, collapses buildings; distant."
+    },
+    {
+      "temat": "US fires on vessel breaking Iran blockade in Gulf",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 0,
+      "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
+    },
+    {
+      "temat": "Hungary post-Orbán political transition",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
+      "opis": "New president elected, government dismantles Orbán legacy."
     },
     {
       "temat": "France bans telemarketing calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Consumer protection law ends cold calling; minor EU policy."
-    },
-    {
-      "temat": "Hungary post-Orbán political transition",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
-      "opis": "New president elected, government dismantles Orbán legacy."
     },
     {
       "temat": "Lebanon abolishes death penalty",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "First Middle East country to end capital punishment."
     },
     {
       "temat": "DRC Ebola outbreak mutation concern",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Over 4,000 cases, virus may be mutating; distant health."
     },
     {
       "temat": "Spain-Italy border checks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Spain introduces checks on Italy visitors; migration."
     },
     {
       "temat": "Record ocean temperatures July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Hottest July on record for global oceans; climate concern."
-    },
-    {
-      "temat": "Europe heatwave August 2025",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T19:48:01.172815Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-09T20:50:58.090588Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-09T21:47:10.438737Z",
       "s": 2.0
@@ -240,15 +232,39 @@
     {
       "t": "2026-08-11T19:18:52.683101Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-11T21:03:17.487030Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-08-11T02:26:50.127499Z",
   "event_detected_at": {
+    "us says helicopter fired missiles to disable ship breaking iran blockade": {
+      "detected_at": "2026-08-11T21:03:17.487030Z",
+      "peak_at": "2026-08-11T21:03:17.487030Z",
+      "peak_score_at": "2026-08-11T21:03:17.487030Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "peak_label": "US fires on vessel breaking Iran blockade",
+      "peak_summary": "US helicopter struck cargo ship in Gulf of Oman. Distant military action with no direct effect on Portugal's Atlantic economy or energy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.510515Z",
       "peak_at": "2026-08-11T16:01:26.754722Z",
       "peak_score_at": "2026-08-10T15:16:06.510515Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -454,8 +470,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Former judge removed by Orbán elected Hungarian president",
-    "France bans unsolicited telemarketing calls"
+    "Former judge removed by Orbán elected Hungarian president"
   ]
 }

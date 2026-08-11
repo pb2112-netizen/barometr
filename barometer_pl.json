@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Colombia earthquake is distant; Russia-North Korea missile use continues known escalation pattern; other events lack direct Polish impact. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Continuation of known Russia-Ukraine war dynamics; no new qualitative change affecting Poland's security or economy this cycle.",
   "top_events": [
     {
       "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
       "label": "Russia uses North Korean missiles in Ukraine",
-      "summary": "Zaporizhzhia strikes with DPRK ballistic missiles killed seven. Continues known escalation pattern near Poland's eastern border with new weapon source.",
+      "summary": "Ballistic missiles from North Korea struck Zaporizhzhia, killing seven. Continues known escalation pattern on Poland's eastern border without new qualitative shift.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,20 +23,25 @@
     },
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia earthquake kills over 180 people",
-      "summary": "Major 7.4 magnitude quake in western Colombia. Geographically distant with no direct impact on Polish daily life or economy.",
+      "label": "Colombia earthquake kills 180, rescue underway",
+      "summary": "Major 7.4 magnitude quake in western Colombia; distant event with no direct impact on Polish daily life or economy.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/search-for-survivors-underway-in-colombias-earthquake-aftermath?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -46,12 +51,12 @@
       "detected_at": "2026-08-10T15:16:06.507444Z"
     },
     {
-      "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-      "label": "Assad sentenced to death by Syrian court",
-      "summary": "Symbolic justice verdict with no enforcement mechanism. No impact on Poland's security or economy.",
-      "score": 2.0,
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "label": "US fires on vessel breaking Iran blockade",
+      "summary": "US helicopter struck cargo ship in Gulf of Oman. Distant military action with no direct link to Poland's energy or security.",
+      "score": 2.3,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -60,14 +65,14 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/syrian-court-sentences-bashar-al-assad-and-atef-najib-to-death?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-11T11:04:37.047183Z"
+      "detected_at": "2026-08-11T21:03:17.483452Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -75,14 +80,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-11T19:18:52.679514Z",
+  "updated_at": "2026-08-11T21:03:17.483452Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 5.8,
+    "score": 5.7,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.507444Z",
     "peak_at": "2026-08-11T16:01:26.751356Z",
@@ -99,14 +104,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "score_history": [
-    {
-      "t": "2026-08-09T19:48:01.169688Z",
-      "s": 2.1
-    },
-    {
-      "t": "2026-08-09T20:50:58.087530Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T21:47:10.435484Z",
       "s": 3.0
@@ -285,6 +282,10 @@
     },
     {
       "t": "2026-08-11T19:18:52.679514Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-11T21:03:17.483452Z",
       "s": 3.0
     }
   ]

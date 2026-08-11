@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-11T19:18:52.692713Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-11T21:03:17.496287Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 2,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
-      "temat": "Trump plane swap over Iran threat",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
-      "opis": "President used decoy plane at NATO summit; security theater."
+      "temat": "US fires on vessel breaking Iran blockade in Gulf",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "US helicopter struck cargo ship; limited military action."
     },
     {
-      "temat": "Trump childhood vaccine order",
+      "temat": "Trump labels Democratic nominees jihadists",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Executive order limits vaccines; affects millions of."
+      "cykle_bez_zmian": 0,
+      "opis": "Inflammatory campaign rhetoric; no policy action yet."
+    },
+    {
+      "temat": "Trump plane swap over Iran threat",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
+      "opis": "President used decoy plane at NATO summit; security theater."
     },
     {
       "temat": "Luigi Mangione murder trial proceedings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "High-profile case continues; no verdict yet; legal process."
     },
     {
       "temat": "US to shut five foreign consulates",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "State Dept closes consulates in Canada, Japan, Indonesia."
     },
     {
       "temat": "Judge approves Trump TPS termination",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Court allows end of protections for South Sudanese in US."
     },
     {
       "temat": "Trump administration visa revocations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Over 175,000 visas revoked, mostly for criminal activity."
-    },
-    {
-      "temat": "Social media addiction lawsuits proceed",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 20,
-      "opis": "Court allows Meta, Google, TikTok addiction cases; trial."
+      "opis": "Over 175,000 visas revoked, mostly for criminal activity."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T19:48:01.175652Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-09T20:50:58.093372Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-09T21:47:10.442120Z",
       "s": 2.0
@@ -240,15 +232,39 @@
     {
       "t": "2026-08-11T19:18:52.686269Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-11T21:03:17.490549Z",
+      "s": 2.5
     }
   ],
-  "events_anchor_at": "2026-08-10T20:03:31.298525Z",
+  "events_anchor_at": "2026-08-10T21:57:38.217583Z",
   "event_detected_at": {
+    "us says helicopter fired missiles to disable ship breaking iran blockade": {
+      "detected_at": "2026-08-11T21:03:17.490549Z",
+      "peak_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "peak_label": "US fires on vessel breaking Iran blockade",
+      "peak_summary": "US helicopter struck cargo ship's engine room in Gulf of Oman. Limited military action; no broader escalation or direct US casualty impact yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.513943Z",
       "peak_at": "2026-08-11T16:01:26.757952Z",
       "peak_score_at": "2026-08-10T15:16:06.513943Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -261,6 +277,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "trump warns of 'jihadists' ruling in washington as democrats show momentum": {
+      "detected_at": "2026-08-11T21:03:17.490549Z",
+      "peak_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump warns of 'jihadists' ruling in Washington as Democrats show momentum",
+      "peak_label": "Trump labels Democratic nominees jihadists",
+      "peak_summary": "Inflammatory campaign rhetoric from Oval Office. No policy action; continuation of political noise without real-world impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/trump-warns-of-jihadists-ruling-in-washington-as-democrats-show-momentum?traffic_source=rss"
         }
       ]
     },
@@ -328,22 +360,6 @@
         }
       ]
     },
-    "trump signs order to limit childhood vaccines and split mmr shots": {
-      "detected_at": "2026-08-10T20:03:31.298525Z",
-      "peak_at": "2026-08-10T20:03:31.298525Z",
-      "peak_score_at": "2026-08-10T20:03:31.298525Z",
-      "peak_score": 4.1,
-      "peak_sentiment": "negative",
-      "title": "Trump signs order to limit and split childhood vaccines",
-      "peak_label": "Trump orders childhood vaccine limits",
-      "peak_summary": "Trump administration signs executive order to limit and split childhood vaccines, pushing discredited autism link. New federal policy action directly affecting millions of US families.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "judge approves trump effort to end south sudan tps protections": {
       "detected_at": "2026-08-09T17:46:50.862489Z",
       "peak_at": "2026-08-10T23:50:46.624847Z",
@@ -378,8 +394,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
-    "Luigi Mangione murder trial to have anonymous jury and overflow seating"
+    "Trump warns of 'jihadists' ruling in Washington as Democrats show momentum"
   ]
 }
