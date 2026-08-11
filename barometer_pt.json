@@ -1,18 +1,19 @@
 {
-  "global_score": 4.0,
-  "rationale": "Colombia earthquake continues as distant tragedy; no new developments affecting Portugal's economy or climate directly.",
+  "global_score": 3.9,
+  "rationale": "Colombia earthquake is distant tragedy; Canada wildfires continue known pattern; no events directly affecting Portuguese daily life this cycle.",
   "top_events": [
     {
       "title": "At least 132 killed in Colombia's largest earthquake in years",
       "label": "Colombia earthquake kills 132, collapses buildings",
-      "summary": "Magnitude 7.4 quake struck western Colombia, collapsing over 1,500 buildings. Distant tragedy with no direct impact on Portugal.",
-      "score": 4.0,
+      "summary": "Magnitude 7.4 quake strikes western Colombia near Pacific Coast. Distant disaster with no connection to Portugal or Iberian Peninsula.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -22,17 +23,40 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
-      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak exceeds 4,000 cases, mutation feared",
-      "summary": "Cases surpass 4,000 in Congo; virus may be mutating. Distant health crisis with no immediate effect on Portugal.",
-      "score": 2.8,
+      "title": "Canadian government steps in as 'out of control' wildfires force thousands to flee",
+      "label": "Canada wildfires force thousands to evacuate",
+      "summary": "British Columbia battles 102 fires, federal government provides urgent assistance. Distant climate event with no impact on Portugal.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
+        }
+      ],
+      "detected_at": "2026-08-10T10:35:55.445653Z"
+    },
+    {
+      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+      "label": "DRC Ebola outbreak exceeds 4,000 cases",
+      "summary": "Cases pass 4,000 in Congo, virus may be mutating. Distant health concern with no immediate impact on Portuguese daily life.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -44,40 +68,21 @@
         }
       ],
       "detected_at": "2026-08-11T02:26:50.127499Z"
-    },
-    {
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain introduces border checks on Italy visitors",
-      "summary": "Spain responds to Italy's migration measures with temporary border checks. Continuation of known migration pressures in Iberia.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ],
-      "detected_at": "2026-08-04T12:17:57.611249Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-11T02:26:50.127499Z",
+  "updated_at": "2026-08-11T04:01:27.117310Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Portugal.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.510515Z",
     "peak_at": "2026-08-10T15:16:06.510515Z",
@@ -94,14 +99,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.510515Z",
   "score_history": [
-    {
-      "t": "2026-08-09T02:28:11.315159Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-09T04:01:19.516596Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-09T04:36:07.988907Z",
       "s": 2.1
@@ -305,6 +302,10 @@
     {
       "t": "2026-08-11T02:26:50.127499Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-11T04:01:27.117310Z",
+      "s": 3.9
     }
   ]
 }

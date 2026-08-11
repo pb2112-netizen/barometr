@@ -1,18 +1,19 @@
 {
-  "global_score": 4.0,
-  "rationale": "Colombia earthquake continues as distant tragedy; no new developments affecting Poland directly.",
+  "global_score": 3.9,
+  "rationale": "Colombia earthquake is distant tragedy; Ukraine drone strikes continue known pattern; no new direct impact on Poland this cycle.",
   "top_events": [
     {
       "title": "At least 132 killed in Colombia's largest earthquake in years",
       "label": "Colombia earthquake kills 132, collapses buildings",
-      "summary": "Magnitude 7.4 quake struck western Colombia, collapsing over 1,500 buildings. Distant tragedy with no direct impact on Poland.",
-      "score": 4.0,
+      "summary": "Magnitude 7.4 quake strikes Chocó province near Pacific Coast, felt hundreds of kilometers away. Distant humanitarian tragedy with no direct impact on Poland.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -22,34 +23,19 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.507444Z"
     },
     {
-      "title": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
-      "label": "DRC Ebola outbreak exceeds 4,000 cases, mutation feared",
-      "summary": "Cases surpass 4,000 in Congo; virus may be mutating. Distant health crisis with no immediate effect on Poland.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ],
-      "detected_at": "2026-08-11T02:26:50.124237Z"
-    },
-    {
       "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-      "label": "Ukrainian drones kill 13 in Russia strike",
-      "summary": "Drone attack injured 75 in Russia, one of deadliest Ukrainian strikes. Continuation of known war dynamics near Poland's eastern border.",
-      "score": 2.5,
+      "label": "Ukrainian drones strike Russia, 13 killed",
+      "summary": "Attack injures 75 in Russia, one of deadliest Ukrainian drone strikes since invasion began. Continuation of known war pattern with no qualitative change for Poland.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -63,21 +49,45 @@
         }
       ],
       "detected_at": "2026-08-10T10:01:31.851981Z"
+    },
+    {
+      "title": "Trump signs order to limit childhood vaccines and split MMR shots",
+      "label": "Trump orders fewer childhood vaccines, splits MMR",
+      "summary": "Executive order limits childhood vaccinations in US. Distant policy change with no direct impact on Polish healthcare or daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-10T21:01:44.401763Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-11T02:26:50.124237Z",
+  "updated_at": "2026-08-11T04:01:27.115168Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 7.2,
+    "score": 7.1,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.507444Z",
     "peak_at": "2026-08-10T15:16:06.507444Z",
@@ -94,14 +104,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "score_history": [
-    {
-      "t": "2026-08-09T02:28:11.312531Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-09T04:01:19.513349Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-09T04:36:07.985777Z",
       "s": 4.3
@@ -305,6 +307,10 @@
     {
       "t": "2026-08-11T02:26:50.124237Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-08-11T04:01:27.115168Z",
+      "s": 3.9
     }
   ]
 }
