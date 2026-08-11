@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-11T04:38:53.719618Z",
-  "ostatnia_ocena": 3.8,
+  "updated_at": "2026-08-11T06:03:47.466669Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
     },
     {
       "temat": "Typhoon Dolphin hits China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Million evacuated in eastern China; distant weather event."
     },
     {
       "temat": "Record ocean temperatures July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Hottest July on record for global oceans; climate concern."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 15,
       "opis": "Major quake kills 20+, collapses buildings; distant."
     },
     {
       "temat": "Hormuz closure oil price surge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Strait closure drives oil prices up; indirect energy cost."
     },
     {
       "temat": "Europe heatwave August 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
     },
     {
       "temat": "DRC Ebola outbreak mutation concern",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "Over 4,000 cases, virus may be mutating; distant health."
+    },
+    {
+      "temat": "Libya Zawiya refinery drone attack",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone strike ignites Libya's largest refinery; oil market."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T05:57:39.473367Z",
-      "s": 4.4
-    },
     {
       "t": "2026-08-09T07:01:17.344782Z",
       "s": 4.2
@@ -254,6 +256,10 @@
     {
       "t": "2026-08-11T04:38:53.712288Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-11T06:03:47.459734Z",
+      "s": 3.6
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
@@ -262,7 +268,7 @@
       "detected_at": "2026-08-10T15:16:06.508911Z",
       "peak_at": "2026-08-10T15:16:06.508911Z",
       "peak_score_at": "2026-08-10T15:16:06.508911Z",
-      "peak_score": 7.0,
+      "peak_score": 6.9,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -282,7 +288,7 @@
       "detected_at": "2026-08-10T10:01:31.854289Z",
       "peak_at": "2026-08-10T10:35:55.443956Z",
       "peak_score_at": "2026-08-10T10:35:55.443956Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
       "peak_label": "Ukraine drones kill 13 deep inside Russia",
@@ -291,6 +297,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "huge fire breaks out at libya's zawiya refinery after drone attack": {
+      "detected_at": "2026-08-11T06:03:47.459734Z",
+      "peak_at": "2026-08-11T06:03:47.459734Z",
+      "peak_score_at": "2026-08-11T06:03:47.459734Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Huge fire breaks out at Libya's Zawiya refinery after drone attack",
+      "peak_label": "Drone attack ignites Libya oil refinery",
+      "peak_summary": "Drone strike causes fire at Libya's largest refinery. Distant event with potential indirect effect on global oil markets and Romania's energy costs.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss"
         }
       ]
     },
@@ -414,6 +436,6 @@
   "prev_top_event_titles": [
     "At least 132 killed in Colombia's largest earthquake in years",
     "At least 13 killed in Ukrainian drone strike deep into Russia",
-    "Ebola virus behind massive outbreak in DRC could be mutating, officials say"
+    "Huge fire breaks out at Libya's Zawiya refinery after drone attack"
   ]
 }
