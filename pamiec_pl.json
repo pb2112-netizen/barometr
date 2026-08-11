@@ -1,56 +1,46 @@
 {
-  "updated_at": "2026-08-11T23:01:48.408374Z",
+  "updated_at": "2026-08-11T23:58:47.461159Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 16,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
-    },
-    {
-      "temat": "Record ocean temperatures July 2025",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Hottest July on record for global oceans; climate concern."
-    },
-    {
-      "temat": "Europe heatwave August 2025",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Mid-30s Celsius forecast for Britain, France; climate event."
     },
     {
       "temat": "DRC Ebola outbreak mutation concern",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Over 4,000 cases, virus may be mutating; distant health."
     },
     {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 15,
       "opis": "DPRK ballistic missiles used in Zaporizhzhia strikes; new."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
+    },
+    {
+      "temat": "Colombia 7.4 magnitude earthquake",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Over 250 killed in western Colombia quake; distant disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-09T23:45:36.018611Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-10T01:01:16.326985Z",
       "s": 2.8
@@ -230,31 +220,19 @@
     {
       "t": "2026-08-11T23:01:48.401656Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-11T23:58:47.454977Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "event_detected_at": {
-    "russia using north korean missiles to strike ukraine, zelensky says": {
-      "detected_at": "2026-08-10T10:01:31.851981Z",
-      "peak_at": "2026-08-11T09:13:17.644530Z",
-      "peak_score_at": "2026-08-11T09:13:17.644530Z",
-      "peak_score": 4.2,
-      "peak_sentiment": "negative",
-      "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-      "peak_label": "Ukrainian drones kill 13 deep in Russia",
-      "peak_summary": "One of deadliest Ukrainian drone attacks hits Russian territory far from front, 75 injured. Escalation in neighboring war raises regional security concern.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.507444Z",
       "peak_at": "2026-08-11T16:01:26.751356Z",
       "peak_score_at": "2026-08-10T15:16:06.507444Z",
-      "peak_score": 5.4,
+      "peak_score": 5.3,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -267,6 +245,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "russia using north korean missiles to strike ukraine, zelensky says": {
+      "detected_at": "2026-08-10T10:01:31.851981Z",
+      "peak_at": "2026-08-11T09:13:17.644530Z",
+      "peak_score_at": "2026-08-11T09:13:17.644530Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "negative",
+      "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
+      "peak_label": "Ukrainian drones kill 13 deep in Russia",
+      "peak_summary": "One of deadliest Ukrainian drone attacks hits Russian territory far from front, 75 injured. Escalation in neighboring war raises regional security concern.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "dr congo ebola death toll surpasses 2,000": {
+      "detected_at": "2026-08-11T23:58:47.454977Z",
+      "peak_at": "2026-08-11T23:58:47.454977Z",
+      "peak_score_at": "2026-08-11T23:58:47.454977Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "DR Congo Ebola death toll surpasses 2,000",
+      "peak_label": "DRC Ebola deaths exceed 2,000 amid mutation fears",
+      "peak_summary": "Ebola outbreak in DRC passes 2,000 deaths with possible virus mutation. Distant health crisis with no immediate impact on Poland.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/dr-congo-ebola-death-toll-surpasses-2000?traffic_source=rss"
         }
       ]
     },
@@ -396,8 +406,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russia using North Korean missiles to strike Ukraine, Zelensky says",
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "US says helicopter fired missiles to disable ship breaking Iran blockade"
+    "Russia using North Korean missiles to strike Ukraine, Zelensky says",
+    "DR Congo Ebola death toll surpasses 2,000"
   ]
 }
