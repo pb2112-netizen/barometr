@@ -1,33 +1,38 @@
 {
   "global_score": 2.0,
-  "rationale": "No new developments in the war affecting Ukraine; distant events like Colombia earthquake and Hormuz tensions have no direct impact on Ukrainian daily life.",
+  "rationale": "No new developments directly affecting Ukraine; Colombia earthquake and other events are distant with no Ukrainian impact.",
   "top_events": [
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no impact on Ukraine.",
+      "label": "Colombia quake kills over 180",
+      "summary": "A 7.4 magnitude earthquake in western Colombia leaves more than 180 dead; distant disaster with no Ukrainian impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-11T21:03:17.488534Z"
     },
     {
-      "title": "N Korea launches ballistic missile as S Korea, US plan military drills",
-      "label": "North Korea fires missile before US drills",
-      "summary": "Pyongyang conducts second weapons test in a week. Distant security event with no connection to the war in Ukraine.",
+      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+      "label": "Houthi attack kills six sailors",
+      "summary": "First shipping deaths in Red Sea linked to Houthis since Iran conflict escalation; distant event with no Ukrainian impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -35,18 +40,18 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T04:01:17.192042Z"
+      "detected_at": "2026-08-12T05:01:27.868681Z"
     }
   ],
   "short_summary": "Russian strikes kill six, hit Kyiv hospital",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-12T04:01:17.192042Z",
+  "updated_at": "2026-08-12T05:01:27.868681Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -66,10 +71,6 @@
   },
   "events_anchor_at": "2026-08-11T07:35:47.985479Z",
   "score_history": [
-    {
-      "t": "2026-08-10T04:53:00.807898Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T06:22:29.646936Z",
       "s": 2.0
@@ -244,6 +245,10 @@
     },
     {
       "t": "2026-08-12T04:01:17.192042Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-12T05:01:27.868681Z",
       "s": 2.0
     }
   ]

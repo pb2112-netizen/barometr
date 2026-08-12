@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Oil price rise from Hormuz tensions could indirectly affect Romanian energy costs; other events are distant with no regional connection.",
+  "global_score": 2.9,
+  "rationale": "Oil price rise from Hormuz tensions affects Romanian energy costs indirectly; Colombia earthquake and other events are distant.",
   "top_events": [
     {
       "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "label": "Oil prices climb on Hormuz strait tensions",
-      "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Romania through global market effects.",
-      "score": 3.0,
+      "label": "Oil prices rise on Hormuz tensions",
+      "summary": "Attacks in the Strait of Hormuz push oil prices higher, indirectly impacting Romanian energy costs through global market dynamics.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -23,30 +23,35 @@
     },
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no impact on Romania.",
+      "label": "Colombia earthquake kills over 180",
+      "summary": "Major earthquake in western Colombia causes over 180 deaths; distant disaster with no direct Romanian impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.508911Z"
     },
     {
-      "title": "N Korea launches ballistic missile as S Korea, US plan military drills",
-      "label": "North Korea fires missile before US drills",
-      "summary": "Pyongyang conducts second weapons test in a week. Distant security event with no Black Sea or regional connection.",
+      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+      "label": "Houthi attack kills six sailors",
+      "summary": "First shipping deaths in Red Sea linked to Houthis since Iran conflict escalation; distant event with minimal Romanian impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -54,25 +59,25 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T04:01:17.189619Z"
+      "detected_at": "2026-08-12T05:01:27.865558Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-12T04:01:17.189619Z",
+  "updated_at": "2026-08-12T05:01:27.865558Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 5.1,
+    "score": 5.0,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.508911Z",
     "peak_at": "2026-08-11T16:01:26.752884Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "score_history": [
-    {
-      "t": "2026-08-10T04:53:00.805131Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-10T06:22:29.644220Z",
       "s": 2.4
@@ -268,6 +269,10 @@
     {
       "t": "2026-08-12T04:01:17.189619Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T05:01:27.865558Z",
+      "s": 2.9
     }
   ]
 }

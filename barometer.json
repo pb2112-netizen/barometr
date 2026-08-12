@@ -1,33 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Colombia earthquake is distant tragedy; Strait of Hormuz tensions and North Korea missile test are background noise with no direct link to Polish daily life.",
+  "global_score": 2.9,
+  "rationale": "Strait of Hormuz tensions continue affecting oil prices; Colombia earthquake is distant; other events lack direct Polish impact.",
   "top_events": [
     {
-      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Major earthquake in western Colombia kills over 180 people and collapses buildings in several cities. Distant disaster with no impact on Poland.",
-      "score": 2.0,
+      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+      "label": "Oil prices climb on Hormuz attacks",
+      "summary": "Renewed violence in the Strait of Hormuz pushes oil prices higher, indirectly affecting energy costs in Poland through global market pressure.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.507444Z"
-    },
-    {
-      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "label": "Oil prices climb on Hormuz strait tensions",
-      "summary": "Renewed violence in the Strait of Hormuz pushes oil prices higher, potentially affecting energy costs indirectly for Poland through global markets.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -41,12 +22,36 @@
       "detected_at": "2026-08-12T04:01:17.188062Z"
     },
     {
-      "title": "N Korea launches ballistic missile as S Korea, US plan military drills",
-      "label": "North Korea fires missile before US drills",
-      "summary": "Pyongyang conducts second weapons test in a week as Seoul and Washington prepare annual exercises. Distant security event with no direct Polish impact.",
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "label": "Colombia quake kills over 180 people",
+      "summary": "A 7.4 magnitude earthquake in western Colombia leaves more than 180 dead; distant disaster with no direct impact on Polish residents.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.507444Z"
+    },
+    {
+      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+      "label": "Houthi attack kills six on ship",
+      "summary": "First shipping deaths linked to Houthis since US-Israel-Iran conflict escalated; distant event with minimal Polish impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -54,25 +59,25 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T04:01:17.188062Z"
+      "detected_at": "2026-08-12T05:01:27.863802Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-12T04:01:17.188062Z",
+  "updated_at": "2026-08-12T05:01:27.863802Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 5.1,
+    "score": 5.0,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.507444Z",
     "peak_at": "2026-08-11T16:01:26.751356Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "score_history": [
-    {
-      "t": "2026-08-10T04:53:00.803481Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-10T06:22:29.642437Z",
       "s": 2.4
@@ -268,6 +269,10 @@
     {
       "t": "2026-08-12T04:01:17.188062Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T05:01:27.863802Z",
+      "s": 2.9
     }
   ]
 }

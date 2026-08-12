@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Oil price rise from Hormuz tensions could indirectly affect Portuguese energy costs; other events are distant with no Iberian or EU-wide economic link.",
+  "global_score": 2.9,
+  "rationale": "Oil price rise from Hormuz tensions indirectly affects Portuguese energy costs; other events are distant with minimal impact.",
   "top_events": [
     {
       "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "label": "Oil prices climb on Hormuz strait tensions",
-      "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Portugal through global market effects.",
-      "score": 3.0,
+      "label": "Oil prices climb on Hormuz attacks",
+      "summary": "Renewed violence in the Strait of Hormuz pushes oil prices higher, indirectly affecting Portuguese energy costs through global markets.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -23,30 +23,54 @@
     },
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no impact on Portugal.",
+      "label": "Colombia quake kills over 180",
+      "summary": "A 7.4 magnitude earthquake in western Colombia leaves more than 180 dead; distant disaster with no direct Portuguese impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
+    },
+    {
+      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+      "label": "Houthi attack kills six on ship",
+      "summary": "First shipping deaths linked to Houthis since Iran conflict escalation; distant event with minimal Portuguese impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T05:01:27.867282Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
-  "level_label": "Low",
-  "trend": "rising",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-12T04:01:17.191008Z",
+  "updated_at": "2026-08-12T05:01:27.867282Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -66,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "score_history": [
-    {
-      "t": "2026-08-10T04:53:00.806624Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T06:22:29.645784Z",
       "s": 2.0
@@ -245,6 +265,10 @@
     {
       "t": "2026-08-12T04:01:17.191008Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T05:01:27.867282Z",
+      "s": 2.9
     }
   ]
 }
