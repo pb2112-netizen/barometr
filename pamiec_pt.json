@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-12T08:39:34.109156Z",
+  "updated_at": "2026-08-12T10:01:23.021258Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Hungary post-Orbán political transition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "New president elected, government dismantles Orbán legacy."
     },
     {
       "temat": "France bans telemarketing calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Consumer protection law ends cold calling; minor EU policy."
     },
     {
       "temat": "Lebanon abolishes death penalty",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "First Middle East country to end capital punishment."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Zimbabwe ferry capsizes killing 15+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T08:51:00.602085Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T10:01:31.856048Z",
       "s": 2.0
@@ -232,11 +228,35 @@
     {
       "t": "2026-08-12T08:39:34.103497Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T10:01:23.010976Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "event_detected_at": {
-    "scores dead in colombia after powerful earthquake strikes west of country": {
+    "us says helicopter fired missiles to disable ship breaking iran blockade": {
+      "detected_at": "2026-08-11T21:03:17.487030Z",
+      "peak_at": "2026-08-11T21:03:17.487030Z",
+      "peak_score_at": "2026-08-11T21:03:17.487030Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "peak_label": "US fires on vessel breaking Iran blockade",
+      "peak_summary": "US helicopter struck cargo ship in Gulf of Oman. Distant military action with no direct effect on Portugal's Atlantic economy or energy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ]
+    },
+    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.510515Z",
       "peak_at": "2026-08-11T16:01:26.754722Z",
       "peak_score_at": "2026-08-10T15:16:06.510515Z",
@@ -253,26 +273,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
-    "lebanon parliament votes to abolish death penalty": {
-      "detected_at": "2026-08-11T16:01:26.754722Z",
-      "peak_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "Lebanon parliament votes to abolish death penalty",
-      "peak_label": "Lebanon votes to end death penalty nationwide",
-      "peak_summary": "Lebanon becomes first Middle East country to abolish capital punishment. Distant regional milestone; no Portugal relevance.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
         }
       ]
     },
@@ -293,6 +293,26 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe?traffic_source=rss"
+        }
+      ]
+    },
+    "lebanon parliament votes to abolish death penalty": {
+      "detected_at": "2026-08-11T16:01:26.754722Z",
+      "peak_at": "2026-08-11T16:01:26.754722Z",
+      "peak_score_at": "2026-08-11T16:01:26.754722Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Lebanon parliament votes to abolish death penalty",
+      "peak_label": "Lebanon votes to end death penalty nationwide",
+      "peak_summary": "Lebanon becomes first Middle East country to abolish capital punishment. Distant regional milestone; no Portugal relevance.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
         }
       ]
     },
@@ -357,26 +377,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/dr-congo-ebola-death-toll-surpasses-2000?traffic_source=rss"
-        }
-      ]
-    },
-    "us says helicopter fired missiles to disable ship breaking iran blockade": {
-      "detected_at": "2026-08-11T21:03:17.487030Z",
-      "peak_at": "2026-08-11T21:03:17.487030Z",
-      "peak_score_at": "2026-08-11T21:03:17.487030Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
-      "peak_label": "US fires on vessel breaking Iran blockade",
-      "peak_summary": "US helicopter struck cargo ship in Gulf of Oman. Distant military action with no direct effect on Portugal's Atlantic economy or energy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
         }
       ]
     },
@@ -479,27 +479,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "'we've had a lot of close calls': canada wildfire evacuees wonder if they still have homes": {
-      "detected_at": "2026-08-11T09:13:17.647656Z",
-      "peak_at": "2026-08-11T09:13:17.647656Z",
-      "peak_score_at": "2026-08-11T09:13:17.647656Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "'We've had a lot of close calls': Canada wildfire evacuees wonder if they still have homes",
-      "peak_label": "Canada wildfire forces 12,000 to evacuate",
-      "peak_summary": "Wildfire tears through Okanagan region, 12,000 evacuated. Distant climate event with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Scores dead in Colombia after powerful earthquake strikes west of country",
-    "Lebanon parliament votes to abolish death penalty",
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
     "At least 15 die as boat sinks in Zimbabwe's Lake Kariba"
   ]
 }
