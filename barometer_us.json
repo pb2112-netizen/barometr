@@ -1,30 +1,35 @@
 {
   "global_score": 2.0,
-  "rationale": "US military action in Gulf of Oman is confirmed action (not rhetoric); Hormuz tensions sustain oil price pressure; Colombia earthquake is regional; Wisconsin primary shows centrist win. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Wisconsin Democratic primary shows centrist victory breaking left-wing trend (domestic politics); Colombia earthquake is regional disaster; Trump plane swap is security theater rhetoric without policy impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
-      "label": "US helicopter strikes ship in Gulf of Oman",
-      "summary": "US Central Command confirms helicopter hit cargo vessel's engine room breaking Iran blockade. Direct US military action in ongoing Gulf tensions affecting oil markets.",
+      "title": "Wisconsin result halts winning streak for Democratic Party's left wing",
+      "label": "Wisconsin centrist defeats socialist in primary",
+      "summary": "David Crowley defeats Francesca Hong in Wisconsin Democratic primary, breaking recent left-wing trend. Signals potential shift in party direction ahead of 2026 midterms.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/wisconsin-race-tight-key-takeaways-from-us-primary-election-results?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-11T21:03:17.490549Z"
+      "detected_at": "2026-08-12T10:01:23.014417Z"
     },
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
       "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Powerful 7.4 magnitude earthquake in western Colombia with ongoing rescue operations. Regional disaster with no direct US impact.",
+      "summary": "Major earthquake in western Colombia kills over 180 people. Regional disaster with limited direct impact on US daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -46,12 +51,12 @@
       "detected_at": "2026-08-10T15:16:06.513943Z"
     },
     {
-      "title": "Wisconsin result halts winning streak for Democratic Party's left wing",
-      "label": "Centrist Crowley defeats socialist Hong in Wisconsin",
-      "summary": "Democratic centrist David Crowley projected to beat democratic socialist Francesca Hong, breaking recent left-wing trend. Domestic political shift without immediate policy impact.",
+      "title": "Trump confirms he switched planes after Nato summit because of possible threat",
+      "label": "Trump used decoy plane over Iran threat",
+      "summary": "President used decoy plane at NATO summit due to possible Iran threat. Security theater without policy change or confirmed action.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -59,10 +64,17 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-12T10:01:23.014417Z"
+      "detected_at": "2026-08-12T04:01:17.193285Z"
+    }
+  ],
+  "nove_tematy": [
+    {
+      "temat": "Wisconsin Democratic primary centrist victory",
+      "poziom_bazowy": 3.0,
+      "opis": "Crowley defeats socialist Hong, breaking left-wing trend."
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
@@ -70,9 +82,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-12T10:01:23.014417Z",
+  "updated_at": "2026-08-12T10:19:37.353781Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially affecting US energy costs and inflation through global market effects.",
@@ -90,10 +102,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "score_history": [
-    {
-      "t": "2026-08-10T10:01:31.859226Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-10T10:35:55.448798Z",
       "s": 2.2
@@ -268,6 +276,10 @@
     },
     {
       "t": "2026-08-12T10:01:23.014417Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-12T10:19:37.353781Z",
       "s": 2.0
     }
   ]

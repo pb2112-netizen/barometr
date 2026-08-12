@@ -1,56 +1,46 @@
 {
-  "updated_at": "2026-08-12T10:01:23.019188Z",
+  "updated_at": "2026-08-12T10:19:37.356300Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Libya Zawiya refinery drone attack",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Drone strike ignites Libya's largest refinery; oil market."
-    },
-    {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 22,
       "opis": "DPRK ballistic missiles used in Zaporizhzhia strikes; new."
     },
     {
       "temat": "Lebanon abolishes death penalty",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "First Middle East country to end capital punishment."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T10:01:31.854289Z",
-      "s": 4.2
-    },
     {
       "t": "2026-08-10T10:35:55.443956Z",
       "s": 4.3
@@ -226,15 +216,39 @@
     {
       "t": "2026-08-12T10:01:23.009140Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T10:19:37.348755Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "event_detected_at": {
+    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
+      "detected_at": "2026-08-10T15:16:06.508911Z",
+      "peak_at": "2026-08-11T16:01:26.752884Z",
+      "peak_score_at": "2026-08-10T15:16:06.508911Z",
+      "peak_score": 4.6,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
     "us says helicopter fired missiles to disable ship breaking iran blockade": {
       "detected_at": "2026-08-11T21:03:17.484976Z",
       "peak_at": "2026-08-11T21:03:17.484976Z",
       "peak_score_at": "2026-08-11T21:03:17.484976Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "neutral",
       "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
       "peak_label": "US fires on vessel breaking Iran blockade",
@@ -250,23 +264,23 @@
         }
       ]
     },
-    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
-      "detected_at": "2026-08-10T15:16:06.508911Z",
+    "lebanon parliament votes to abolish death penalty": {
+      "detected_at": "2026-08-11T16:01:26.752884Z",
       "peak_at": "2026-08-11T16:01:26.752884Z",
-      "peak_score_at": "2026-08-10T15:16:06.508911Z",
-      "peak_score": 4.7,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
+      "peak_score_at": "2026-08-11T16:01:26.752884Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Lebanon parliament votes to abolish death penalty",
+      "peak_label": "Lebanon votes to end death penalty nationwide",
+      "peak_summary": "Lebanon becomes first Middle East country to abolish capital punishment. Symbolic regional milestone; no direct Romania impact.",
       "peak_source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
         }
       ]
     },
@@ -354,22 +368,6 @@
         }
       ]
     },
-    "russia using north korean missiles to strike ukraine, zelensky says": {
-      "detected_at": "2026-08-10T10:01:31.854289Z",
-      "peak_at": "2026-08-11T10:01:26.780321Z",
-      "peak_score_at": "2026-08-11T10:01:26.780321Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-      "peak_label": "Russia uses North Korean missiles against Ukraine",
-      "peak_summary": "Russia deployed North Korean ballistic missiles in strikes on Zaporizhzhia, killing six. This escalation introduces new weapons to the regional conflict and deepens Russia-DPRK military ties.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "iran holds firm on hormuz conditions as pakistan's naqvi visits tehran": {
       "detected_at": "2026-08-12T02:43:07.120446Z",
       "peak_at": "2026-08-12T02:43:07.120446Z",
@@ -402,26 +400,6 @@
         }
       ]
     },
-    "lebanon parliament votes to abolish death penalty": {
-      "detected_at": "2026-08-11T16:01:26.752884Z",
-      "peak_at": "2026-08-11T16:01:26.752884Z",
-      "peak_score_at": "2026-08-11T16:01:26.752884Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "Lebanon parliament votes to abolish death penalty",
-      "peak_label": "Lebanon votes to end death penalty nationwide",
-      "peak_summary": "Lebanon becomes first Middle East country to abolish capital punishment. Symbolic regional milestone; no direct Romania impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
-        }
-      ]
-    },
     "ousted syrian dictator bashar al-assad sentenced to death in absentia": {
       "detected_at": "2026-08-11T16:12:15.772951Z",
       "peak_at": "2026-08-11T16:12:15.772951Z",
@@ -437,27 +415,11 @@
           "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "libyan authorities battle big blaze at major oil refinery": {
-      "detected_at": "2026-08-11T10:01:26.780321Z",
-      "peak_at": "2026-08-11T10:01:26.780321Z",
-      "peak_score_at": "2026-08-11T10:01:26.780321Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "negative",
-      "title": "Libyan authorities battle big blaze at major oil refinery",
-      "peak_label": "Libya's Zawiya refinery hit by drone strike",
-      "peak_summary": "Third drone attack in two days on Libya's largest refinery could affect Mediterranean oil markets, indirectly impacting Romanian energy costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Four killed in overnight attacks in southern Russia, Ukraine"
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
+    "Lebanon parliament votes to abolish death penalty"
   ]
 }
