@@ -1,66 +1,46 @@
 {
-  "updated_at": "2026-08-11T23:58:47.466205Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-12T02:43:07.130056Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
       "opis": "US helicopter struck cargo ship; limited military action."
     },
     {
       "temat": "Trump labels Democratic nominees jihadists",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Inflammatory campaign rhetoric; no policy action yet."
     },
     {
       "temat": "Trump plane swap over Iran threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "President used decoy plane at NATO summit; security theater."
     },
     {
       "temat": "Luigi Mangione murder trial proceedings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "High-profile case continues; no verdict yet; legal process."
     },
     {
       "temat": "US to shut five foreign consulates",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "State Dept closes consulates in Canada, Japan, Indonesia."
-    },
-    {
-      "temat": "Judge approves Trump TPS termination",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Court allows end of protections for South Sudanese in US."
-    },
-    {
-      "temat": "Trump administration visa revocations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Over 175,000 visas revoked, mostly for criminal activity."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T01:01:16.333717Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-10T02:33:32.332523Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-10T04:01:17.108382Z",
       "s": 3.5
@@ -236,10 +216,66 @@
     {
       "t": "2026-08-11T23:58:47.460165Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-12T02:43:07.124137Z",
+      "s": 2.0
     }
   ],
-  "events_anchor_at": "2026-08-10T04:53:00.810090Z",
+  "events_anchor_at": "2026-08-11T21:03:17.490549Z",
   "event_detected_at": {
+    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
+      "detected_at": "2026-08-10T15:16:06.513943Z",
+      "peak_at": "2026-08-11T16:01:26.757952Z",
+      "peak_score_at": "2026-08-10T15:16:06.513943Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "trump's dramatic plane swap hints at personal stakes of iran war": {
+      "detected_at": "2026-08-10T04:53:00.810090Z",
+      "peak_at": "2026-08-11T06:03:47.464013Z",
+      "peak_score_at": "2026-08-10T04:53:00.810090Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Trump signals shift to economic pressure on Iran over new military strikes",
+      "peak_label": "Trump shifts to sanctions over Iran strikes",
+      "peak_summary": "US relies on sanctions and naval blockade as oil prices stabilize, easing economic strain on American consumers; policy shift from military action.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
+        }
+      ]
+    },
+    "iran holds firm on hormuz conditions as pakistan's naqvi visits tehran": {
+      "detected_at": "2026-08-12T02:43:07.124137Z",
+      "peak_at": "2026-08-12T02:43:07.124137Z",
+      "peak_score_at": "2026-08-12T02:43:07.124137Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
+      "peak_label": "Iran refuses Hormuz reopening terms",
+      "peak_summary": "Iran maintains Strait of Hormuz closure unless US meets conditions; negotiations ongoing. Rhetoric without confirmed action or oil market spike.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
+        }
+      ]
+    },
     "us says helicopter fired missiles to disable ship breaking iran blockade": {
       "detected_at": "2026-08-11T21:03:17.490549Z",
       "peak_at": "2026-08-11T21:03:17.490549Z",
@@ -260,26 +296,6 @@
         }
       ]
     },
-    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
-      "detected_at": "2026-08-10T15:16:06.513943Z",
-      "peak_at": "2026-08-11T16:01:26.757952Z",
-      "peak_score_at": "2026-08-10T15:16:06.513943Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Significant Western Hemisphere disaster affecting US regional partner.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
     "trump warns of 'jihadists' ruling in washington as democrats show momentum": {
       "detected_at": "2026-08-11T21:03:17.490549Z",
       "peak_at": "2026-08-11T21:03:17.490549Z",
@@ -293,22 +309,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/11/trump-warns-of-jihadists-ruling-in-washington-as-democrats-show-momentum?traffic_source=rss"
-        }
-      ]
-    },
-    "trump hid in catering truck in secret plane swap over iran threat, reports say": {
-      "detected_at": "2026-08-10T04:53:00.810090Z",
-      "peak_at": "2026-08-11T06:03:47.464013Z",
-      "peak_score_at": "2026-08-10T04:53:00.810090Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump signals shift to economic pressure on Iran over new military strikes",
-      "peak_label": "Trump shifts to sanctions over Iran strikes",
-      "peak_summary": "US relies on sanctions and naval blockade as oil prices stabilize, easing economic strain on American consumers; policy shift from military action.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss"
         }
       ]
     },
@@ -346,8 +346,8 @@
     }
   },
   "prev_top_event_titles": [
-    "US says helicopter fired missiles to disable ship breaking Iran blockade",
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Trump warns of 'jihadists' ruling in Washington as Democrats show momentum"
+    "Trump's dramatic plane swap hints at personal stakes of Iran war",
+    "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran"
   ]
 }
