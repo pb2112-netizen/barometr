@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-12T10:19:37.354961Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-12T11:57:30.241767Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 23,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 24,
       "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
     },
     {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 23,
       "opis": "DPRK ballistic missiles used in Zaporizhzhia strikes; new."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
+    },
+    {
+      "temat": "Putin threatens European vessel seizures",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Russia warns tit-for-tat ship seizures; EU-Russia tension."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T10:35:55.442299Z",
-      "s": 4.7
-    },
     {
       "t": "2026-08-10T11:58:18.700907Z",
       "s": 4.5
@@ -226,6 +228,10 @@
     {
       "t": "2026-08-12T10:19:37.347064Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T11:57:30.234185Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
@@ -234,7 +240,7 @@
       "detected_at": "2026-08-10T15:16:06.507444Z",
       "peak_at": "2026-08-11T16:01:26.751356Z",
       "peak_score_at": "2026-08-10T15:16:06.507444Z",
-      "peak_score": 4.6,
+      "peak_score": 4.5,
       "peak_sentiment": "negative",
       "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
       "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
@@ -247,6 +253,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "iran refutes trump's claim to 'control' hormuz: what's the latest in talks?": {
+      "detected_at": "2026-08-12T02:43:07.119010Z",
+      "peak_at": "2026-08-12T02:43:07.119010Z",
+      "peak_score_at": "2026-08-12T02:43:07.119010Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
+      "peak_label": "Iran maintains Hormuz closure stance",
+      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions; negotiations ongoing. Distant Gulf tensions with no immediate energy impact on Poland.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
+        }
+      ]
+    },
+    "putin warns of tit-for-tat seizures of european vessels": {
+      "detected_at": "2026-08-12T11:57:30.234185Z",
+      "peak_at": "2026-08-12T11:57:30.234185Z",
+      "peak_score_at": "2026-08-12T11:57:30.234185Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Putin warns of tit-for-tat seizures of European vessels",
+      "peak_label": "Putin threatens European vessel seizures in response",
+      "peak_summary": "Russia warns it will seize European ships if EU seizes Russian cargo vessels. Escalatory rhetoric affecting EU-Russia tensions but no action yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
         }
       ]
     },
@@ -354,22 +392,6 @@
         }
       ]
     },
-    "iran holds firm on hormuz conditions as pakistan's naqvi visits tehran": {
-      "detected_at": "2026-08-12T02:43:07.119010Z",
-      "peak_at": "2026-08-12T02:43:07.119010Z",
-      "peak_score_at": "2026-08-12T02:43:07.119010Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
-      "peak_label": "Iran maintains Hormuz closure stance",
-      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions; negotiations ongoing. Distant Gulf tensions with no immediate energy impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
-        }
-      ]
-    },
     "dr congo ebola death toll surpasses 2,000": {
       "detected_at": "2026-08-11T23:58:47.454977Z",
       "peak_at": "2026-08-11T23:58:47.454977Z",
@@ -383,26 +405,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/dr-congo-ebola-death-toll-surpasses-2000?traffic_source=rss"
-        }
-      ]
-    },
-    "ousted syrian dictator bashar al-assad sentenced to death in absentia": {
-      "detected_at": "2026-08-11T11:04:37.047183Z",
-      "peak_at": "2026-08-11T11:04:37.047183Z",
-      "peak_score_at": "2026-08-11T11:04:37.047183Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-      "peak_label": "Assad sentenced to death in absentia",
-      "peak_summary": "Syria's transitional court convicted Assad of war crimes. Symbolic justice with no immediate impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad?traffic_source=rss"
         }
       ]
     },
@@ -429,7 +431,7 @@
   },
   "prev_top_event_titles": [
     "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "US says helicopter fired missiles to disable ship breaking Iran blockade",
-    "Wildberries under fire: Why is Ukraine targeting a Russian retail giant?"
+    "Iran refutes Trump's claim to 'control' Hormuz: What's the latest in talks?",
+    "Putin warns of tit-for-tat seizures of European vessels"
   ]
 }

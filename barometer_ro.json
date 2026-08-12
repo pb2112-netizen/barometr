@@ -1,83 +1,78 @@
 {
-  "global_score": 2.0,
-  "rationale": "Ongoing Strait of Hormuz tensions maintain indirect energy price pressure; Colombia earthquake and other events remain geographically distant with no direct impact on Romanian life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Colombia earthquake distant; Hormuz tensions continue affecting energy prices; Putin vessel threat is rhetoric affecting EU-Russia relations but no action yet.",
   "top_events": [
+    {
+      "title": "Iran refutes Trump's claim to 'control' Hormuz: What's the latest in talks?",
+      "label": "Iran rejects Trump Hormuz control claim, talks stall",
+      "summary": "Iran maintains Strait of Hormuz closure until US changes behavior. Continues indirect pressure on energy prices affecting Romania.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/iran-refutes-trumps-claim-to-control-hormuz-whats-the-latest-in-talks?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T02:43:07.120446Z"
+    },
+    {
+      "title": "Putin warns of tit-for-tat seizures of European vessels",
+      "label": "Putin threatens European vessel seizures in response",
+      "summary": "Russia warns it will seize European ships if EU seizes Russian cargo. Escalatory rhetoric affecting EU-Russia tensions but no confirmed action.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T11:57:30.235653Z"
+    },
     {
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
       "label": "Colombia quake kills 180, rescue efforts continue",
-      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no connection to Romania.",
+      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no direct impact on Romanian daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.508911Z"
-    },
-    {
-      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
-      "label": "US helicopter strikes ship in Gulf of Oman",
-      "summary": "US military action in Gulf of Oman continues regional tensions. Indirect impact on Romania through energy markets already reflected in ongoing situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-11T21:03:17.484976Z"
-    },
-    {
-      "title": "Lebanon parliament votes to abolish death penalty",
-      "label": "Lebanon votes to abolish death penalty",
-      "summary": "Lebanon becomes first Middle East country to end capital punishment. Symbolic regional development with no impact on Romanian daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-11T16:01:26.752884Z"
     }
   ],
   "short_summary": "Colombia 7.4 quake kills 20, buildings collapse",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-12T10:19:37.348755Z",
+  "updated_at": "2026-08-12T11:57:30.235653Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 4.6,
+    "score": 4.5,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.508911Z",
     "peak_at": "2026-08-11T16:01:26.752884Z",
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "score_history": [
-    {
-      "t": "2026-08-10T10:35:55.443956Z",
-      "s": 4.3
-    },
     {
       "t": "2026-08-10T11:58:18.702535Z",
       "s": 4.1
@@ -273,6 +264,10 @@
     {
       "t": "2026-08-12T10:19:37.348755Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T11:57:30.235653Z",
+      "s": 2.5
     }
   ]
 }

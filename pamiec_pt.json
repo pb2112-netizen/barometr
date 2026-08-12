@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-12T10:19:37.357595Z",
+  "updated_at": "2026-08-12T11:57:30.244342Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Colombia 7.4 magnitude earthquake",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 9,
+      "opis": "Over 250 killed in western Colombia quake; distant disaster."
+    },
+    {
+      "temat": "Spain-Italy temporary border checks",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Spain introduces checks on Italian visitors; minor Schengen."
+    },
+    {
+      "temat": "Strait of Hormuz tensions affecting oil prices",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
+      "opis": "Attacks and blockade push oil prices up; indirect energy."
+    },
+    {
+      "temat": "Zimbabwe ferry capsizes killing 15+",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 4,
+      "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
+    },
+    {
+      "temat": "Houthi attack kills six on Bab al-Mandeb ship",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
+      "opis": "First shipping deaths in Red Sea since Iran war escalation."
+    },
+    {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Hungary post-Orbán political transition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "New president elected, government dismantles Orbán legacy."
     },
     {
       "temat": "France bans telemarketing calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Consumer protection law ends cold calling; minor EU policy."
-    },
-    {
-      "temat": "Lebanon abolishes death penalty",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "First Middle East country to end capital punishment."
-    },
-    {
-      "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Over 250 killed in western Colombia quake; distant disaster."
-    },
-    {
-      "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
-      "opis": "Attacks and blockade push oil prices up; indirect energy."
-    },
-    {
-      "temat": "Houthi attack kills six on Bab al-Mandeb ship",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
-      "opis": "First shipping deaths in Red Sea since Iran war escalation."
-    },
-    {
-      "temat": "Zimbabwe ferry capsizes killing 15+",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T10:35:55.445653Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T11:58:18.704186Z",
       "s": 2.0
@@ -232,10 +228,46 @@
     {
       "t": "2026-08-12T10:19:37.350533Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T11:57:30.237712Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "event_detected_at": {
+    "iran refutes trump's claim to 'control' hormuz: what's the latest in talks?": {
+      "detected_at": "2026-08-12T02:43:07.121741Z",
+      "peak_at": "2026-08-12T02:43:07.121741Z",
+      "peak_score_at": "2026-08-12T02:43:07.121741Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
+      "peak_label": "Iran maintains Hormuz closure stance",
+      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions. Distant Gulf tensions with no immediate Atlantic shipping impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
+        }
+      ]
+    },
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-12T11:57:30.237712Z",
+      "peak_at": "2026-08-12T11:57:30.237712Z",
+      "peak_score_at": "2026-08-12T11:57:30.237712Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "peak_label": "Spain introduces temporary Italy border checks",
+      "peak_summary": "Spain responds to Italian border measures with own checks. Minor Schengen disruption affecting Iberian travel but not daily life in Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.510515Z",
       "peak_at": "2026-08-11T16:01:26.754722Z",
@@ -348,22 +380,6 @@
         }
       ]
     },
-    "iran holds firm on hormuz conditions as pakistan's naqvi visits tehran": {
-      "detected_at": "2026-08-12T02:43:07.121741Z",
-      "peak_at": "2026-08-12T02:43:07.121741Z",
-      "peak_score_at": "2026-08-12T02:43:07.121741Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
-      "peak_label": "Iran maintains Hormuz closure stance",
-      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions. Distant Gulf tensions with no immediate Atlantic shipping impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
-        }
-      ]
-    },
     "dr congo ebola death toll surpasses 2,000": {
       "detected_at": "2026-08-11T23:58:47.457944Z",
       "peak_at": "2026-08-11T23:58:47.457944Z",
@@ -450,8 +466,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "US says helicopter fired missiles to disable ship breaking Iran blockade",
-    "At least 15 die as boat sinks in Zimbabwe's Lake Kariba"
+    "Iran refutes Trump's claim to 'control' Hormuz: What's the latest in talks?",
+    "Spain to introduce temporary border checks on visitors from Italy",
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake"
   ]
 }
