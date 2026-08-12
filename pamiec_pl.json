@@ -1,70 +1,58 @@
 {
-  "updated_at": "2026-08-12T11:57:30.241767Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-12T13:45:32.509607Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
-      "temat": "Ukrainian drone strikes deep inside Russia",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Drones hit Tatarstan 1000km from front, 13 killed; war."
-    },
-    {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 23,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 24,
       "opis": "DPRK ballistic missiles used in Zaporizhzhia strikes; new."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Putin threatens European vessel seizures",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "Russia warns tit-for-tat ship seizures; EU-Russia tension."
+    },
+    {
+      "temat": "US inflation eases to 3.4%",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "US inflation slows; food costs cool; indirect global signal."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T11:58:18.700907Z",
-      "s": 4.5
-    },
-    {
-      "t": "2026-08-10T13:01:28.422319Z",
-      "s": 4.3
-    },
-    {
-      "t": "2026-08-10T13:43:02.376646Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-10T15:16:06.507444Z",
       "s": 7.4
@@ -232,10 +220,66 @@
     {
       "t": "2026-08-12T11:57:30.234185Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-12T13:45:32.503949Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "event_detected_at": {
+    "putin warns of tit-for-tat seizures of european vessels": {
+      "detected_at": "2026-08-12T11:57:30.234185Z",
+      "peak_at": "2026-08-12T11:57:30.234185Z",
+      "peak_score_at": "2026-08-12T11:57:30.234185Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Putin warns of tit-for-tat seizures of European vessels",
+      "peak_label": "Putin threatens European vessel seizures in response",
+      "peak_summary": "Russia warns it will seize European ships if EU seizes Russian cargo vessels. Escalatory rhetoric affecting EU-Russia tensions but no action yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
+        }
+      ]
+    },
+    "trump confirms he switched planes after nato summit because of possible threat": {
+      "detected_at": "2026-08-12T08:39:34.100621Z",
+      "peak_at": "2026-08-12T08:39:34.100621Z",
+      "peak_score_at": "2026-08-12T08:39:34.100621Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump confirms he switched planes after Nato summit because of possible threat",
+      "peak_label": "Trump used decoy plane after NATO summit",
+      "peak_summary": "US president switched to decoy aircraft after NATO summit due to possible Iran threat. Security measure with no impact on Poland's daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/trump-says-his-decoy-plane-faced-greater-risk-in-secret-flight-change?traffic_source=rss"
+        }
+      ]
+    },
+    "us inflation eases as food costs cool": {
+      "detected_at": "2026-08-12T13:45:32.503949Z",
+      "peak_at": "2026-08-12T13:45:32.503949Z",
+      "peak_score_at": "2026-08-12T13:45:32.503949Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "US inflation eases as food costs cool",
+      "peak_label": "US inflation dips to 3.4% in July",
+      "peak_summary": "US inflation slows to 3.4% as food costs cool; indirect signal for global economy but no immediate change for Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.507444Z",
       "peak_at": "2026-08-11T16:01:26.751356Z",
@@ -272,22 +316,6 @@
         }
       ]
     },
-    "putin warns of tit-for-tat seizures of european vessels": {
-      "detected_at": "2026-08-12T11:57:30.234185Z",
-      "peak_at": "2026-08-12T11:57:30.234185Z",
-      "peak_score_at": "2026-08-12T11:57:30.234185Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Putin warns of tit-for-tat seizures of European vessels",
-      "peak_label": "Putin threatens European vessel seizures in response",
-      "peak_summary": "Russia warns it will seize European ships if EU seizes Russian cargo vessels. Escalatory rhetoric affecting EU-Russia tensions but no action yet.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/putin-warns-of-tit-for-tat-seizures-of-european-vessels?traffic_source=rss"
-        }
-      ]
-    },
     "us says helicopter fired missiles to disable ship breaking iran blockade": {
       "detected_at": "2026-08-11T21:03:17.483452Z",
       "peak_at": "2026-08-11T21:03:17.483452Z",
@@ -321,26 +349,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
-        }
-      ]
-    },
-    "trump confirms he switched planes after nato summit because of possible threat": {
-      "detected_at": "2026-08-12T08:39:34.100621Z",
-      "peak_at": "2026-08-12T08:39:34.100621Z",
-      "peak_score_at": "2026-08-12T08:39:34.100621Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump confirms he switched planes after Nato summit because of possible threat",
-      "peak_label": "Trump used decoy plane after NATO summit",
-      "peak_summary": "US president switched to decoy aircraft after NATO summit due to possible Iran threat. Security measure with no impact on Poland's daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/trump-says-his-decoy-plane-faced-greater-risk-in-secret-flight-change?traffic_source=rss"
         }
       ]
     },
@@ -430,8 +438,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Iran refutes Trump's claim to 'control' Hormuz: What's the latest in talks?",
-    "Putin warns of tit-for-tat seizures of European vessels"
+    "Putin warns of tit-for-tat seizures of European vessels",
+    "Trump confirms he switched planes after Nato summit because of possible threat",
+    "US inflation eases as food costs cool"
   ]
 }
