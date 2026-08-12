@@ -1,62 +1,52 @@
 {
-  "global_score": 3.0,
-  "rationale": "North Korean missiles continue striking Ukraine (Zaporizhzhia) — ongoing war pattern already known; no qualitative escalation or new front reported.",
+  "global_score": 2.0,
+  "rationale": "No new developments in the war affecting Ukraine; distant events like Colombia earthquake and Hormuz tensions have no direct impact on Ukrainian daily life.",
   "top_events": [
     {
-      "title": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-      "label": "North Korean missiles strike Zaporizhzhia",
-      "summary": "Russia continues using DPRK ballistic missiles in strikes on Zaporizhzhia, killing seven. Ongoing war pattern already known to Ukrainian residents.",
-      "score": 3.0,
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "label": "Colombia quake kills 180, rescue efforts continue",
+      "summary": "Major earthquake in western Colombia kills over 180 people. Distant disaster with no impact on Ukraine.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-10T10:01:31.857421Z"
-    },
-    {
-      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "label": "Colombia earthquake kills over 250",
-      "summary": "Major quake struck western Colombia. Distant disaster with no impact on Ukraine.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/features/longform/2026/8/11/colombia-scrambles-to-find-survivors-after-deadly-earthquake?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
       "detected_at": "2026-08-11T21:03:17.488534Z"
+    },
+    {
+      "title": "N Korea launches ballistic missile as S Korea, US plan military drills",
+      "label": "North Korea fires missile before US drills",
+      "summary": "Pyongyang conducts second weapons test in a week. Distant security event with no connection to the war in Ukraine.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T04:01:17.192042Z"
     }
   ],
   "short_summary": "Russian strikes kill six, hit Kyiv hospital",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-12T02:43:07.122785Z",
+  "updated_at": "2026-08-12T04:01:17.192042Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -76,10 +66,6 @@
   },
   "events_anchor_at": "2026-08-11T07:35:47.985479Z",
   "score_history": [
-    {
-      "t": "2026-08-10T04:01:17.106168Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T04:53:00.807898Z",
       "s": 2.0
@@ -255,6 +241,10 @@
     {
       "t": "2026-08-12T02:43:07.122785Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T04:01:17.192042Z",
+      "s": 2.0
     }
   ]
 }

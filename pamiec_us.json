@@ -1,50 +1,46 @@
 {
-  "updated_at": "2026-08-12T02:43:07.130056Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-12T04:01:17.199368Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "US helicopter struck cargo ship; limited military action."
     },
     {
       "temat": "Trump labels Democratic nominees jihadists",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Inflammatory campaign rhetoric; no policy action yet."
     },
     {
       "temat": "Trump plane swap over Iran threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "President used decoy plane at NATO summit; security theater."
     },
     {
       "temat": "Luigi Mangione murder trial proceedings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "High-profile case continues; no verdict yet; legal process."
     },
     {
-      "temat": "US to shut five foreign consulates",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "State Dept closes consulates in Canada, Japan, Indonesia."
+      "temat": "Strait of Hormuz tensions affecting oil prices",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Attacks and blockade push oil prices up; energy market."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T04:01:17.108382Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-10T04:53:00.810090Z",
       "s": 3.4
@@ -220,10 +216,46 @@
     {
       "t": "2026-08-12T02:43:07.124137Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T04:01:17.193285Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-08-11T21:03:17.490549Z",
+  "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "event_detected_at": {
+    "oil prices rise as attacks dent hopes for strait of hormuz reopening": {
+      "detected_at": "2026-08-12T04:01:17.193285Z",
+      "peak_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+      "peak_label": "Oil prices climb on Hormuz strait tensions",
+      "peak_summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially affecting US energy costs and inflation through global market effects.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
+        }
+      ]
+    },
+    "trump says he switched planes after nato summit because of possible threat": {
+      "detected_at": "2026-08-12T04:01:17.193285Z",
+      "peak_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump says he switched planes after Nato summit because of possible threat",
+      "peak_label": "Trump switched planes over Iran threat claim",
+      "peak_summary": "President claims he used decoy plane due to possible threat, but says replacement was at greater risk. Security theater rhetoric with no policy change.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.513943Z",
       "peak_at": "2026-08-11T16:01:26.757952Z",
@@ -346,8 +378,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Trump's dramatic plane swap hints at personal stakes of Iran war",
-    "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran"
+    "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+    "Trump says he switched planes after Nato summit because of possible threat",
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake"
   ]
 }

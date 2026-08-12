@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-12T02:43:07.127639Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-12T04:01:17.196992Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Hungary post-Orbán political transition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "New president elected, government dismantles Orbán legacy."
     },
     {
       "temat": "France bans telemarketing calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Consumer protection law ends cold calling; minor EU policy."
     },
     {
       "temat": "Lebanon abolishes death penalty",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "First Middle East country to end capital punishment."
     },
     {
       "temat": "DRC Ebola outbreak mutation concern",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Over 4,000 cases, virus may be mutating; distant health."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
+    },
+    {
+      "temat": "Strait of Hormuz tensions affecting oil prices",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Attacks and blockade push oil prices up; indirect energy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T04:01:17.104872Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T04:53:00.806624Z",
       "s": 2.0
@@ -220,10 +222,30 @@
     {
       "t": "2026-08-12T02:43:07.121741Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T04:01:17.191008Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-08-11T10:01:26.781933Z",
+  "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "event_detected_at": {
+    "oil prices rise as attacks dent hopes for strait of hormuz reopening": {
+      "detected_at": "2026-08-12T04:01:17.191008Z",
+      "peak_at": "2026-08-12T04:01:17.191008Z",
+      "peak_score_at": "2026-08-12T04:01:17.191008Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+      "peak_label": "Oil prices climb on Hormuz strait tensions",
+      "peak_summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Portugal through global market effects.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
+        }
+      ]
+    },
     "rescuers scramble for survivors with 180 dead in colombia earthquake": {
       "detected_at": "2026-08-10T15:16:06.510515Z",
       "peak_at": "2026-08-11T16:01:26.754722Z",
@@ -454,7 +476,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-    "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran"
+    "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+    "Rescuers scramble for survivors with 180 dead in Colombia earthquake"
   ]
 }
