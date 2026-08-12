@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-12T22:01:27.700018Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-12T23:00:13.875008Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "White House press secretary Leavitt departure",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
+      "opis": "Press secretary leaving for family time; personnel change."
+    },
+    {
+      "temat": "ICE to spend $20m on electric shock gloves",
       "poziom_bazowy": 2.9,
       "cykle_bez_zmian": 1,
-      "opis": "Press secretary leaving for family time; personnel change."
+      "opis": "US immigration agency plans electric shock gloves."
+    },
+    {
+      "temat": "Pentagon reports 153 civilian deaths in Yemen strikes",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "New transparency on US Houthi campaign casualties."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "US inflation slows; food costs cool; positive economic."
-    },
-    {
-      "temat": "ICE to spend $20m on electric shock gloves",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
-      "opis": "US immigration agency plans electric shock gloves."
     },
     {
       "temat": "Judge approves end to South Sudan TPS",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Court allows stripping TPS for South Sudanese; policy."
     },
     {
       "temat": "Wisconsin Democratic primary centrist victory",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Crowley defeats socialist Hong, breaking left-wing trend."
     },
     {
       "temat": "Zelenskyy sends war-end proposals to US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Ukraine sends proposals to US to end war; diplomatic move."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Attacks and blockade push oil prices up; energy market."
-    },
-    {
-      "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Major quake kills 20+, collapses buildings; regional."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T22:56:22.986788Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-10T23:50:46.624847Z",
       "s": 3.9
@@ -216,10 +212,30 @@
     {
       "t": "2026-08-12T22:01:27.687135Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T23:00:13.871230Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "event_detected_at": {
+    "ice plans to equip agents with gloves that can deliver electric shocks": {
+      "detected_at": "2026-08-12T22:01:27.687135Z",
+      "peak_at": "2026-08-12T22:01:27.687135Z",
+      "peak_score_at": "2026-08-12T22:01:27.687135Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
+      "peak_label": "ICE to spend $20m on electric shock gloves",
+      "peak_summary": "US immigration agency plans to equip agents with electric shock gloves to compel compliance, a new enforcement tool raising civil rights questions.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20d292gdp4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "trump says white house press secretary karoline leavitt to leave post": {
       "detected_at": "2026-08-12T21:02:45.585227Z",
       "peak_at": "2026-08-12T21:02:45.585227Z",
@@ -240,19 +256,19 @@
         }
       ]
     },
-    "ice plans to equip agents with gloves that can deliver electric shocks": {
-      "detected_at": "2026-08-12T22:01:27.687135Z",
-      "peak_at": "2026-08-12T22:01:27.687135Z",
-      "peak_score_at": "2026-08-12T22:01:27.687135Z",
-      "peak_score": 3.0,
+    "us strikes in yemen killed 153 civilians in 2025, says pentagon review": {
+      "detected_at": "2026-08-12T23:00:13.871230Z",
+      "peak_at": "2026-08-12T23:00:13.871230Z",
+      "peak_score_at": "2026-08-12T23:00:13.871230Z",
+      "peak_score": 2.5,
       "peak_sentiment": "negative",
-      "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
-      "peak_label": "ICE to spend $20m on electric shock gloves",
-      "peak_summary": "US immigration agency plans to equip agents with electric shock gloves to compel compliance, a new enforcement tool raising civil rights questions.",
+      "title": "US strikes in Yemen killed 153 civilians in 2025, says Pentagon review",
+      "peak_label": "Pentagon reports 153 civilian deaths in Yemen strikes",
+      "peak_summary": "Pentagon review reveals civilian casualties from US campaign against Houthis; new transparency on ongoing operations with mild domestic accountability relevance.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20d292gdp4o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/us-strikes-in-yemen-killed-153-civilians-in-2025-says-pentagon-review?traffic_source=rss"
         }
       ]
     },
@@ -422,8 +438,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump says White House press secretary Karoline Leavitt to leave post",
     "ICE plans to equip agents with gloves that can deliver electric shocks",
-    "US inflation eases as food and fuel costs cool"
+    "Trump says White House press secretary Karoline Leavitt to leave post",
+    "US strikes in Yemen killed 153 civilians in 2025, says Pentagon review"
   ]
 }

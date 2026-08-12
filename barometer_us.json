@@ -1,12 +1,36 @@
 {
-  "global_score": 3.0,
-  "rationale": "White House press secretary departure continues as known personnel change; other events are distant or routine.",
+  "global_score": 2.9,
+  "rationale": "ICE electric shock glove spending continues as known policy; press secretary departure is routine personnel change; other events remain distant background.",
   "top_events": [
+    {
+      "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
+      "label": "ICE plans $20m electric shock glove purchase",
+      "summary": "US immigration agency continues $20m spending on electric shock gloves for agent use, maintaining controversial enforcement policy already known from previous cycle.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20d292gdp4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/trump-administration-plans-to-give-ice-officers-electric-shock-gloves?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T22:01:27.687135Z"
+    },
     {
       "title": "Trump says White House press secretary Karoline Leavitt to leave post",
       "label": "White House press secretary Leavitt to depart",
-      "summary": "Press secretary Karoline Leavitt will leave her role to spend time with family, a personnel change with minimal policy impact.",
-      "score": 2.9,
+      "summary": "Press secretary leaving for family time; routine personnel change with no policy impact on daily American life.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,52 +46,33 @@
       "detected_at": "2026-08-12T21:02:45.585227Z"
     },
     {
-      "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
-      "label": "ICE to spend $20m on electric shock gloves",
-      "summary": "US immigration agency plans to equip agents with electric shock gloves to compel compliance, a new enforcement tool raising civil rights questions.",
-      "score": 3.0,
+      "title": "US strikes in Yemen killed 153 civilians in 2025, says Pentagon review",
+      "label": "Pentagon reports 153 civilian deaths in Yemen strikes",
+      "summary": "Pentagon review reveals civilian casualties from US campaign against Houthis; new transparency on ongoing operations with mild domestic accountability relevance.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20d292gdp4o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/us-strikes-in-yemen-killed-153-civilians-in-2025-says-pentagon-review?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T22:01:27.687135Z"
-    },
-    {
-      "title": "US inflation eases as food and fuel costs cool",
-      "label": "US inflation drops to 3.4% as costs cool",
-      "summary": "US inflation slows to 3.4% with food and fuel costs easing, a positive economic signal for American households.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T13:45:32.508754Z"
+      "detected_at": "2026-08-12T23:00:13.871230Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-12T22:01:27.687135Z",
+  "updated_at": "2026-08-12T23:00:13.871230Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially affecting US energy costs and inflation through global market effects.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "score_history": [
-    {
-      "t": "2026-08-10T22:56:22.986788Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-10T23:50:46.624847Z",
       "s": 3.9
@@ -248,6 +249,10 @@
     {
       "t": "2026-08-12T22:01:27.687135Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T23:00:13.871230Z",
+      "s": 2.9
     }
   ]
 }
