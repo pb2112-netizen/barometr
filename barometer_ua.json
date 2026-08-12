@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Ukraine's strikes on Russian grain terminals represent continued active military operations affecting war economy and Black Sea control; qualitatively new phase of infrastructure targeting. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Ukraine's strikes on Russian grain terminals represent continued military action in the Black Sea theater of the ongoing war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-      "label": "Ukraine strikes major Russian grain export terminals",
-      "summary": "Ukrainian forces hit Russian grain terminals in Black Sea, escalating infrastructure war and affecting enemy's export revenue and logistics.",
-      "score": 2.7,
+      "label": "Ukraine strikes Russian grain terminals in Black Sea",
+      "summary": "Ukrainian forces continue attacks on Russian Black Sea infrastructure, part of ongoing campaign to disrupt Russian logistics and bring war home to Russia.",
+      "score": 2.6,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-11T07:35:47.985479Z"
     },
     {
-      "title": "Israel vows to keep troops in Lebanon, Gaza and Syria",
-      "label": "Israel vows to maintain troops in occupied territories",
-      "summary": "Israeli defense minister states Israel will not withdraw troops from Lebanon, Gaza, and Syria; distant regional conflict.",
+      "title": "Israeli settlers besieging Palestinian families in West Bank village",
+      "label": "Israeli settlers besiege Palestinian families in West Bank",
+      "summary": "Israeli security forces withdraw as settlers besiege Palestinian families, a distant conflict with no direct impact on Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T18:06:34.582283Z"
+    },
+    {
+      "title": "11-year-old boy shot by Israeli forces in Gaza",
+      "label": "Israeli forces shoot 11-year-old boy in Gaza",
+      "summary": "Israeli forces shoot child in Khan Younis, a distant tragedy with no direct impact on Ukraine's war situation.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/israel-vows-to-keep-troops-in-lebanon-gaza-and-syria?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/11-year-old-boy-shot-by-israeli-forces-in-gaza?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T21:02:45.582973Z"
-    },
-    {
-      "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
-      "label": "Woman rescued 36 hours after Colombia earthquake",
-      "summary": "Emergency workers pull survivor from rubble after major quake in western Colombia; distant disaster with no impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T19:19:12.399110Z"
+      "detected_at": "2026-08-12T22:01:27.685009Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian logistics giant Wildberries",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-12T21:02:45.582973Z",
+  "updated_at": "2026-08-12T22:01:27.685009Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-10T10:01:31.857421Z",
   "score_history": [
-    {
-      "t": "2026-08-10T21:57:38.215231Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-10T22:01:20.663508Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-10T22:56:22.984385Z",
       "s": 3.0
@@ -252,6 +244,10 @@
     {
       "t": "2026-08-12T21:02:45.582973Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-12T22:01:27.685009Z",
+      "s": 2.6
     }
   ]
 }
