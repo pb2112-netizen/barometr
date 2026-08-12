@@ -1,37 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of distant events; no new developments affecting Portugal's economy, tourism, or cost of living.",
+  "rationale": "US inflation easing provides mild positive signal for global economy; other events remain distant from Portuguese daily life.",
   "top_events": [
     {
-      "title": "Colombia declares three days of mourning after deadly earthquake",
-      "label": "Colombia quake kills over 100 in western cities",
-      "summary": "Magnitude 7.4 earthquake collapses buildings in Cali and Pereira; distant disaster with no impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/colombia-declares-three-days-of-mourning-after-deadly-earthquake?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.510515Z"
-    },
-    {
       "title": "US inflation eases as food and fuel costs cool",
-      "label": "US inflation dips to 3.4% in July",
-      "summary": "US inflation slows with cooling food and energy costs; indirect positive signal for global economy.",
+      "label": "US inflation drops to 3.4% in July",
+      "summary": "US inflation slowed with cooling food and energy costs; indirect positive signal for global economic stability and potential EU spillover effects.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -51,23 +27,47 @@
       "detected_at": "2026-08-12T13:45:32.506470Z"
     },
     {
-      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
-      "label": "Hormuz transit drops to eight vessels daily",
-      "summary": "Shipping through strait falls sharply as peace talks stall; ongoing tension with indirect energy implications.",
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Magnitude 7.4 quake collapsed buildings in Colombian cities; distant disaster with no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/colombia-declares-three-days-of-mourning-after-deadly-earthquake?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T02:43:07.121741Z"
+      "detected_at": "2026-08-10T15:16:06.510515Z"
+    },
+    {
+      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+      "label": "Ukraine strikes Russian grain terminals in Black Sea",
+      "summary": "Ukraine attacked Russian grain facilities; distant regional conflict with minimal direct impact on Portuguese life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T18:06:34.580806Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
@@ -75,9 +75,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-12T17:11:30.284226Z",
+  "updated_at": "2026-08-12T18:06:34.580806Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Portugal through global market effects.",
@@ -95,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "score_history": [
-    {
-      "t": "2026-08-10T18:02:52.402095Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-10T19:15:58.048581Z",
       "s": 2.3
@@ -265,6 +261,10 @@
     },
     {
       "t": "2026-08-12T17:11:30.284226Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-12T18:06:34.580806Z",
       "s": 2.0
     }
   ]

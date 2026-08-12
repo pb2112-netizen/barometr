@@ -1,12 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "Continuation of known situations; inflation data continues positive trend, no new policy actions or military deployments.",
+  "global_score": 2.1,
+  "rationale": "US inflation continues easing trend; other events involve distant conflicts or routine political matters with minimal direct impact on American daily life.",
   "top_events": [
     {
       "title": "US inflation eases as food and fuel costs cool",
-      "label": "US inflation dips to 3.4% in July",
-      "summary": "Inflation slows to 3.4% with cooling food and energy costs; positive economic signal for US households.",
-      "score": 2.2,
+      "label": "US inflation drops to 3.4% in July",
+      "summary": "Annual inflation dipped to 3.4% with cooling food costs; housing remains slightly elevated. Positive economic signal for American households.",
+      "score": 2.1,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -28,8 +28,8 @@
     },
     {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allows stripping temporary protected status for South Sudanese nationals; policy change affecting hundreds.",
+      "label": "Judge approves ending South Sudan TPS protections",
+      "summary": "Court allowed stripping temporary protected status for South Sudanese nationals; policy change affecting small immigrant population.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -46,23 +46,28 @@
       "detected_at": "2026-08-12T13:45:32.508754Z"
     },
     {
-      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
-      "label": "Hormuz transit drops to eight vessels daily",
-      "summary": "Shipping through strait falls sharply as peace talks stall; rhetoric without new US military action.",
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Magnitude 7.4 quake collapsed buildings in Colombian cities; distant regional disaster with no direct US impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/colombia-declares-three-days-of-mourning-after-deadly-earthquake?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T02:43:07.124137Z"
+      "detected_at": "2026-08-12T18:06:34.583921Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-12T17:11:30.287364Z",
+  "updated_at": "2026-08-12T18:06:34.583921Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "score_history": [
-    {
-      "t": "2026-08-10T18:02:52.404465Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-10T19:15:58.051588Z",
       "s": 3.8
@@ -261,6 +262,10 @@
     {
       "t": "2026-08-12T17:11:30.287364Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-12T18:06:34.583921Z",
+      "s": 2.1
     }
   ]
 }
