@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-12T05:01:27.875053Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-12T06:41:54.959128Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia using North Korean missiles in Ukraine",
       "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 0,
       "opis": "DPRK ballistic missiles strike Zaporizhzhia, 6 killed; new."
     },
     {
       "temat": "Trump plane swap over Iran threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "US president used decoy plane at NATO summit; distant event."
     },
     {
       "temat": "Russia releases US Marine Gilman",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Former Marine freed after poor health detention; distant."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
+    },
+    {
+      "temat": "Zelenskyy sends war-end proposals to US",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukraine sends proposals to US to end war; diplomatic move."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T06:22:29.646936Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T07:01:16.705235Z",
       "s": 2.0
@@ -220,15 +222,35 @@
     {
       "t": "2026-08-12T05:01:27.868681Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T06:41:54.952159Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-11T07:35:47.985479Z",
   "event_detected_at": {
-    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
+    "zelenskyy says ukraine has sent proposals to us to end war with russia": {
+      "detected_at": "2026-08-10T10:01:31.857421Z",
+      "peak_at": "2026-08-11T11:04:37.052098Z",
+      "peak_score_at": "2026-08-10T10:35:55.447050Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+      "peak_label": "Ukrainian drones kill 13 in Tatarstan strike",
+      "peak_summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks deep inside Russia—demonstrating expanded strike capability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "scores dead in colombia after powerful earthquake strikes west of country": {
       "detected_at": "2026-08-11T21:03:17.488534Z",
       "peak_at": "2026-08-11T21:03:17.488534Z",
       "peak_score_at": "2026-08-11T21:03:17.488534Z",
-      "peak_score": 2.0,
+      "peak_score": 1.9,
       "peak_sentiment": "neutral",
       "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
       "peak_label": "Colombia earthquake kills 180, rescue underway",
@@ -277,22 +299,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/12/n-korea-launches-ballistic-missile-as-s-korea-us-plan-military-drills?traffic_source=rss"
-        }
-      ]
-    },
-    "russia using north korean missiles to strike ukraine, zelensky says": {
-      "detected_at": "2026-08-10T10:01:31.857421Z",
-      "peak_at": "2026-08-11T11:04:37.052098Z",
-      "peak_score_at": "2026-08-10T10:35:55.447050Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "positive",
-      "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-      "peak_label": "Ukrainian drones kill 13 in Tatarstan strike",
-      "peak_summary": "Ukrainian drones struck Tatarstan 1,000 km from the front, killing 13 in one of the deadliest attacks deep inside Russia—demonstrating expanded strike capability.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -398,7 +404,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+    "Zelenskyy says Ukraine has sent proposals to US to end war with Russia",
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
     "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says"
   ]
 }
