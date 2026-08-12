@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-12T13:45:32.610398Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-12T15:13:55.764575Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy temporary border checks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Spain introduces checks on Italian visitors; minor Schengen."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "US inflation slows; food costs cool; indirect global signal."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Zimbabwe ferry capsizes killing 15+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Hungary post-Orbán political transition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "New president elected, government dismantles Orbán legacy."
     }
   ],
@@ -224,6 +224,10 @@
     {
       "t": "2026-08-12T13:45:32.506470Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T15:13:55.757785Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
@@ -244,7 +248,7 @@
         }
       ]
     },
-    "us inflation eases as food costs cool": {
+    "us inflation eases as food and fuel costs cool": {
       "detected_at": "2026-08-12T13:45:32.506470Z",
       "peak_at": "2026-08-12T13:45:32.506470Z",
       "peak_score_at": "2026-08-12T13:45:32.506470Z",
@@ -257,6 +261,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "as strait of hormuz transit drops, trump again says us has 'control'": {
+      "detected_at": "2026-08-12T02:43:07.121741Z",
+      "peak_at": "2026-08-12T15:13:55.757785Z",
+      "peak_score_at": "2026-08-12T15:13:55.757785Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
+      "peak_label": "Strait of Hormuz transit drops sharply",
+      "peak_summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices indirectly.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
         }
       ]
     },
@@ -281,22 +301,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ]
-    },
-    "iran refutes trump's claim to 'control' hormuz: what's the latest in talks?": {
-      "detected_at": "2026-08-12T02:43:07.121741Z",
-      "peak_at": "2026-08-12T02:43:07.121741Z",
-      "peak_score_at": "2026-08-12T02:43:07.121741Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
-      "peak_label": "Iran maintains Hormuz closure stance",
-      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions. Distant Gulf tensions with no immediate Atlantic shipping impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
         }
       ]
     },
@@ -479,7 +483,7 @@
   },
   "prev_top_event_titles": [
     "Spain to introduce temporary border checks on visitors from Italy",
-    "US inflation eases as food costs cool",
-    "Woman pulled alive from rubble 36 hours after Colombia quake"
+    "US inflation eases as food and fuel costs cool",
+    "As Strait of Hormuz transit drops, Trump again says US has 'control'"
   ]
 }

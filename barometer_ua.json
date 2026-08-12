@@ -1,71 +1,62 @@
 {
-  "global_score": 3.5,
-  "rationale": "North Korean missiles continue striking Ukraine; no new qualitative change; background decay applies.",
+  "global_score": 2.0,
+  "rationale": "Continuation of known background: Russia using North Korean missiles (already tracked), Ukrainian strikes on Russian logistics (already tracked), Colombia quake (distant disaster); no new qualitative change affecting Ukraine. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia using North Korean missiles in Ukraine",
-      "label": "Russia uses North Korean missiles in Ukraine",
-      "summary": "DPRK ballistic missiles continue striking Ukrainian cities including Zaporizhzhia; ongoing threat with no new escalation this cycle.",
-      "score": 3.5,
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia 7.4 quake kills over 110",
+      "summary": "Powerful 7.4 magnitude earthquake in western Colombia killed over 110 people, collapsing buildings in Cali and Pereira. Distant disaster with no link to Ukraine.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/why-has-north-korea-fired-a-missile-ahead-of-us-south-korea-drills?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
-      "detected_at": "2026-08-10T10:01:31.857421Z"
+      "detected_at": "2026-08-11T21:03:17.488534Z"
     },
     {
-      "title": "Why has North Korea fired a missile ahead of US-South Korea drills?",
-      "label": "North Korea fires missile before US-ROK drills",
-      "summary": "Pyongyang launches missile condemning US-South Korea military drills; distant event with no direct impact on Ukraine.",
+      "title": "US inflation eases as food and fuel costs cool",
+      "label": "US inflation dips to 3.4% in July",
+      "summary": "US inflation slowed to 3.4% in July with cooling food and fuel costs. Indirect positive signal for global economy, but no direct impact on Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/why-has-north-korea-fired-a-missile-ahead-of-us-south-korea-drills?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T04:01:17.192042Z"
-    },
-    {
-      "title": "Sudanese army intercepts RSF drones over el-Obeid",
-      "label": "Sudanese army intercepts RSF drones over el-Obeid",
-      "summary": "Sudanese army air defenses intercept RSF drones over el-Obeid; distant conflict with no link to Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/12-08-sv-sudan-intercepts-rsf-drones-su?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/12/us-consumer-inflation-slows-in-july-as-energy-prices-briefly-retreat?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T13:45:32.507494Z"
+      "detected_at": "2026-08-12T15:13:55.759337Z"
     }
   ],
   "short_summary": "Russian strikes kill six, hit Kyiv hospital",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-12T13:45:32.507494Z",
+  "updated_at": "2026-08-12T15:13:55.759337Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -256,6 +247,10 @@
     {
       "t": "2026-08-12T13:45:32.507494Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-12T15:13:55.759337Z",
+      "s": 2.0
     }
   ]
 }

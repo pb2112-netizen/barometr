@@ -1,52 +1,38 @@
 {
-  "global_score": 2.6,
-  "rationale": "US inflation eases to 3.4%; food costs cool; positive economic signal but no dramatic change.",
+  "global_score": 2.5,
+  "rationale": "Continuation of known background: US inflation easing (already tracked), Judge approves end to South Sudan TPS (already tracked), Strait of Hormuz tensions (already tracked); no new qualitative change affecting US.",
   "top_events": [
     {
-      "title": "US inflation eases as food costs cool",
+      "title": "US inflation eases as food and fuel costs cool",
       "label": "US inflation dips to 3.4% in July",
-      "summary": "Annual US inflation slows to 3.4% in July as food costs cool and housing keeps prices slightly higher; positive economic signal for consumers.",
-      "score": 2.6,
+      "summary": "US inflation slowed to 3.4% in July with cooling food and fuel costs. Positive economic signal for US residents, continuing trend of easing price pressures.",
+      "score": 2.5,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/12/us-consumer-inflation-slows-in-july-as-energy-prices-briefly-retreat?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-12T13:45:32.508754Z"
     },
     {
-      "title": "Trump confirms he switched planes after Nato summit because of possible threat",
-      "label": "Trump switched planes after NATO summit threat",
-      "summary": "President used decoy aircraft due to Iran threat at NATO summit; security theater with no policy impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T04:01:17.193285Z"
-    },
-    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS protections",
-      "summary": "Court allows US government to strip temporary protected status for South Sudanese nationals; policy action affecting hundreds.",
+      "label": "Judge approves end to South Sudan TPS",
+      "summary": "Court allows US government to strip temporary protected status for hundreds of South Sudanese nationals. Domestic policy change affecting immigration.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -58,14 +44,33 @@
         }
       ],
       "detected_at": "2026-08-12T13:45:32.508754Z"
+    },
+    {
+      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
+      "label": "Strait of Hormuz transit drops sharply",
+      "summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices and US energy markets.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T02:43:07.124137Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-12T13:45:32.508754Z",
+  "updated_at": "2026-08-12T15:13:55.760624Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -256,6 +261,10 @@
     {
       "t": "2026-08-12T13:45:32.508754Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-12T15:13:55.760624Z",
+      "s": 2.5
     }
   ]
 }

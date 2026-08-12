@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-12T13:45:32.509607Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-08-12T15:13:55.761880Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 24,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 25,
       "opis": "DPRK ballistic missiles used in Zaporizhzhia strikes; new."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Putin threatens European vessel seizures",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Russia warns tit-for-tat ship seizures; EU-Russia tension."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "US inflation slows; food costs cool; indirect global signal."
     }
   ],
@@ -224,10 +224,66 @@
     {
       "t": "2026-08-12T13:45:32.503949Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-12T15:13:55.754253Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-10T15:16:06.507444Z",
   "event_detected_at": {
+    "us inflation eases as food and fuel costs cool": {
+      "detected_at": "2026-08-12T13:45:32.503949Z",
+      "peak_at": "2026-08-12T13:45:32.503949Z",
+      "peak_score_at": "2026-08-12T13:45:32.503949Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "US inflation eases as food costs cool",
+      "peak_label": "US inflation dips to 3.4% in July",
+      "peak_summary": "US inflation slows to 3.4% as food costs cool; indirect signal for global economy but no immediate change for Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "scores dead in colombia after powerful earthquake strikes west of country": {
+      "detected_at": "2026-08-10T15:16:06.507444Z",
+      "peak_at": "2026-08-11T16:01:26.751356Z",
+      "peak_score_at": "2026-08-10T15:16:06.507444Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "as strait of hormuz transit drops, trump again says us has 'control'": {
+      "detected_at": "2026-08-12T02:43:07.119010Z",
+      "peak_at": "2026-08-12T15:13:55.754253Z",
+      "peak_score_at": "2026-08-12T15:13:55.754253Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
+      "peak_label": "Strait of Hormuz transit drops sharply",
+      "peak_summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices indirectly.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
+        }
+      ]
+    },
     "putin warns of tit-for-tat seizures of european vessels": {
       "detected_at": "2026-08-12T11:57:30.234185Z",
       "peak_at": "2026-08-12T11:57:30.234185Z",
@@ -261,58 +317,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/12/trump-says-his-decoy-plane-faced-greater-risk-in-secret-flight-change?traffic_source=rss"
-        }
-      ]
-    },
-    "us inflation eases as food costs cool": {
-      "detected_at": "2026-08-12T13:45:32.503949Z",
-      "peak_at": "2026-08-12T13:45:32.503949Z",
-      "peak_score_at": "2026-08-12T13:45:32.503949Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US inflation eases as food costs cool",
-      "peak_label": "US inflation dips to 3.4% in July",
-      "peak_summary": "US inflation slows to 3.4% as food costs cool; indirect signal for global economy but no immediate change for Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
-      "detected_at": "2026-08-10T15:16:06.507444Z",
-      "peak_at": "2026-08-11T16:01:26.751356Z",
-      "peak_score_at": "2026-08-10T15:16:06.507444Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
-    "iran refutes trump's claim to 'control' hormuz: what's the latest in talks?": {
-      "detected_at": "2026-08-12T02:43:07.119010Z",
-      "peak_at": "2026-08-12T02:43:07.119010Z",
-      "peak_score_at": "2026-08-12T02:43:07.119010Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran holds firm on Hormuz conditions as Pakistan's Naqvi visits Tehran",
-      "peak_label": "Iran maintains Hormuz closure stance",
-      "peak_summary": "Iran refuses to reopen Strait of Hormuz without US meeting conditions; negotiations ongoing. Distant Gulf tensions with no immediate energy impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss"
         }
       ]
     },
@@ -438,8 +442,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Putin warns of tit-for-tat seizures of European vessels",
-    "Trump confirms he switched planes after Nato summit because of possible threat",
-    "US inflation eases as food costs cool"
+    "US inflation eases as food and fuel costs cool",
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
+    "As Strait of Hormuz transit drops, Trump again says US has 'control'"
   ]
 }

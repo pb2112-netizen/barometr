@@ -1,11 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "Spain-Italy border checks minor Schengen friction; US inflation eases; Colombia quake continues; all distant or indirect.",
+  "global_score": 2.2,
+  "rationale": "Continuation of known background: US inflation easing (indirect global signal), Strait of Hormuz tensions (indirect energy), Spain-Italy border checks (minor Schengen); no new qualitative change affecting Portugal.",
   "top_events": [
     {
       "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "label": "Spain introduces temporary checks on Italian visitors",
-      "summary": "Spain imposes border checks on Italy in response to Rome's migration measures; minor Schengen friction with no direct impact on Portugal.",
+      "label": "Spain adds border checks on Italy visitors",
+      "summary": "Spain introduces temporary border checks on Italian visitors in response to Rome's similar measures after migration rush to Ceuta. Minor Schengen friction, no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,52 +22,47 @@
       "detected_at": "2026-08-12T11:57:30.237712Z"
     },
     {
-      "title": "US inflation eases as food costs cool",
+      "title": "US inflation eases as food and fuel costs cool",
       "label": "US inflation dips to 3.4% in July",
-      "summary": "US inflation slows to 3.4% as food costs cool; indirect signal for global economy but no immediate change for Portugal.",
+      "summary": "US inflation slowed to 3.4% in July with cooling food and fuel costs. Indirect positive signal for global economy and energy markets, but no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/12/us-consumer-inflation-slows-in-july-as-energy-prices-briefly-retreat?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-12T13:45:32.506470Z"
     },
     {
-      "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
-      "label": "Woman rescued 36 hours after Colombia quake",
-      "summary": "32-year-old woman rescued after 36 hours under rubble following 7.4-magnitude earthquake in Colombia; distant disaster with no link to Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
+      "label": "Strait of Hormuz transit drops sharply",
+      "summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices indirectly.",
+      "score": 2.2,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera",
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/12-08-sv-colombia-earthquake-rescue-co?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T13:45:32.506470Z"
+      "detected_at": "2026-08-12T02:43:07.121741Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
@@ -75,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-12T13:45:32.506470Z",
+  "updated_at": "2026-08-12T15:13:55.757785Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Portugal through global market effects.",
@@ -266,6 +261,10 @@
     {
       "t": "2026-08-12T13:45:32.506470Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-12T15:13:55.757785Z",
+      "s": 2.2
     }
   ]
 }
