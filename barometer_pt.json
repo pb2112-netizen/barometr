@@ -1,78 +1,84 @@
 {
-  "global_score": 2.8,
-  "rationale": "Oil price rise from Hormuz tensions has mild indirect energy impact; Colombia earthquake and Red Sea shipping deaths are distant events with no link to Portuguese life.",
+  "global_score": 2.0,
+  "rationale": "Colombia earthquake is major distant disaster; Lebanon death penalty abolition is symbolic Middle East reform; port attacks and Trump security measures have no Portuguese impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
-      "label": "Oil prices climb on Hormuz violence",
-      "summary": "Renewed attacks in the Strait of Hormuz push oil prices higher, indirectly affecting energy costs in Portugal through global market pressure.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T04:01:17.191008Z"
-    },
-    {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia quake kills over 180 people",
-      "summary": "A 7.4 magnitude earthquake in western Colombia has killed more than 180, collapsing buildings in major cities; distant disaster with no direct impact on Portugal.",
+      "label": "Colombia quake kills over 180 in western cities",
+      "summary": "Major 7.4 magnitude earthquake collapses buildings in western Colombia, killing over 180. Distant disaster with no impact on Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Guardian"
+        "Guardian",
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
-      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
-      "label": "Houthi attack kills six on Red Sea ship",
-      "summary": "First shipping deaths in the Red Sea since Iran war escalation; distant maritime violence with no direct effect on Portuguese daily life.",
+      "title": "Lebanon parliament votes to abolish death penalty",
+      "label": "Lebanon parliament votes to abolish death penalty",
+      "summary": "Lebanon becomes first Middle East country to end capital punishment. Symbolic human rights milestone with no direct Portuguese impact.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-12T05:01:27.867282Z"
+      "detected_at": "2026-08-11T16:01:26.754722Z"
+    },
+    {
+      "title": "At least 15 die as boat sinks in Zimbabwe's Lake Kariba",
+      "label": "Ferry capsizes in Zimbabwe killing at least 15",
+      "summary": "Overcrowded ferry capsizes in Lake Kariba, killing at least 15 with dozens missing. Distant African tragedy with no Portuguese connection.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czxe2vyxd7do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-12T08:39:34.103497Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-12T06:41:54.950326Z",
+  "updated_at": "2026-08-12T08:39:34.103497Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially raising energy costs for Portugal through global market effects.",
@@ -90,10 +96,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "score_history": [
-    {
-      "t": "2026-08-10T07:01:16.704355Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-10T08:51:00.602085Z",
       "s": 2.0
@@ -269,6 +271,10 @@
     {
       "t": "2026-08-12T06:41:54.950326Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-12T08:39:34.103497Z",
+      "s": 2.0
     }
   ]
 }

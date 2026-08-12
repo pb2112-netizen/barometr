@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-12T06:41:54.960436Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-12T08:39:34.111143Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Major quake kills 20+, collapses buildings; regional."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "US helicopter struck cargo ship; limited military action."
     },
     {
       "temat": "Trump labels Democratic nominees jihadists",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Inflammatory campaign rhetoric; no policy action yet."
     },
     {
       "temat": "Trump plane swap over Iran threat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "President used decoy plane at NATO summit; security theater."
     },
     {
       "temat": "Luigi Mangione murder trial proceedings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "High-profile case continues; no verdict yet; legal process."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Attacks and blockade push oil prices up; energy market."
     },
     {
       "temat": "Zelenskyy sends war-end proposals to US",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "Ukraine sends proposals to US to end war; diplomatic move."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T07:01:16.707140Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-10T08:51:00.604835Z",
       "s": 2.4
@@ -226,26 +222,14 @@
     {
       "t": "2026-08-12T06:41:54.953695Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T08:39:34.106045Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "event_detected_at": {
-    "trump confirms he switched planes after nato summit because of possible threat": {
-      "detected_at": "2026-08-12T04:01:17.193285Z",
-      "peak_at": "2026-08-12T04:01:17.193285Z",
-      "peak_score_at": "2026-08-12T04:01:17.193285Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump says he switched planes after Nato summit because of possible threat",
-      "peak_label": "Trump switched planes over Iran threat claim",
-      "peak_summary": "President claims he used decoy plane due to possible threat, but says replacement was at greater risk. Security theater rhetoric with no policy change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "scores dead in colombia after powerful earthquake strikes west of country": {
       "detected_at": "2026-08-10T15:16:06.513943Z",
       "peak_at": "2026-08-11T16:01:26.757952Z",
@@ -263,6 +247,42 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
+    "us says helicopter fired missiles to disable ship breaking iran blockade": {
+      "detected_at": "2026-08-11T21:03:17.490549Z",
+      "peak_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score_at": "2026-08-11T21:03:17.490549Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "peak_label": "US fires on vessel breaking Iran blockade",
+      "peak_summary": "US helicopter struck cargo ship's engine room in Gulf of Oman. Limited military action; no broader escalation or direct US casualty impact yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+        }
+      ]
+    },
+    "trump confirms he switched planes after nato summit because of possible threat": {
+      "detected_at": "2026-08-12T04:01:17.193285Z",
+      "peak_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score_at": "2026-08-12T04:01:17.193285Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump says he switched planes after Nato summit because of possible threat",
+      "peak_label": "Trump switched planes over Iran threat claim",
+      "peak_summary": "President claims he used decoy plane due to possible threat, but says replacement was at greater risk. Security theater rhetoric with no policy change.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -295,26 +315,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/12/oil-prices-rise-as-attacks-dent-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
-        }
-      ]
-    },
-    "us says helicopter fired missiles to disable ship breaking iran blockade": {
-      "detected_at": "2026-08-11T21:03:17.490549Z",
-      "peak_at": "2026-08-11T21:03:17.490549Z",
-      "peak_score_at": "2026-08-11T21:03:17.490549Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
-      "peak_label": "US fires on vessel breaking Iran blockade",
-      "peak_summary": "US helicopter struck cargo ship's engine room in Gulf of Oman. Limited military action; no broader escalation or direct US casualty impact yet.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
         }
       ]
     },
@@ -384,8 +384,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump confirms he switched planes after Nato summit because of possible threat",
     "Scores dead in Colombia after powerful earthquake strikes west of country",
-    "Zelenskyy says Ukraine has sent proposals to US to end war with Russia"
+    "US says helicopter fired missiles to disable ship breaking Iran blockade",
+    "Trump confirms he switched planes after Nato summit because of possible threat"
   ]
 }

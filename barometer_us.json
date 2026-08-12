@@ -1,11 +1,54 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump plane swap over Iran threat continues as background; Colombia earthquake is distant; Zelenskyy proposals are rhetoric without confirmed US policy change yet.",
+  "global_score": 2.0,
+  "rationale": "Colombia earthquake is major regional disaster; Trump plane swap is security theater already known; US helicopter action in Gulf continues limited military engagement pattern. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia quake kills over 180 in western cities",
+      "summary": "Major 7.4 magnitude earthquake strikes western Colombia, killing over 180 and collapsing buildings. Regional disaster with no direct US impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-10T15:16:06.513943Z"
+    },
+    {
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "label": "US helicopter disables ship breaking Iran blockade",
+      "summary": "US helicopter fires on Panama-flagged cargo vessel breaking Iran blockade in Gulf of Oman. Continuation of limited military action already in US awareness.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T21:03:17.490549Z"
+    },
+    {
       "title": "Trump confirms he switched planes after Nato summit because of possible threat",
-      "label": "Trump confirms plane swap over Iran threat",
-      "summary": "President Trump confirms he switched planes after NATO summit due to possible Iranian threat; journalists and staff were unaware; security theater continues.",
+      "label": "Trump used decoy plane after NATO summit",
+      "summary": "President switched to decoy aircraft after NATO summit due to Iran threat. Security measure already known, no policy change.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -21,63 +64,20 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_-trump-keep-his-irritation-with-netanyahu-in-check-120826?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/12/trump-says-his-decoy-plane-faced-greater-risk-in-secret-flight-change?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-12T04:01:17.193285Z"
-    },
-    {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia quake kills over 180 people",
-      "summary": "A 7.4 magnitude earthquake in western Colombia has killed more than 180, collapsing buildings in major cities; regional disaster with no direct US impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-10T15:16:06.513943Z"
-    },
-    {
-      "title": "Zelenskyy says Ukraine has sent proposals to US to end war with Russia",
-      "label": "Zelenskyy sends war-end proposals to US",
-      "summary": "Ukraine's president announces proposals sent to the US to end the war with Russia; diplomatic move but no confirmed US policy change yet.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/zelenskyy-says-ukraine-has-sent-proposals-to-us-to-end-war-with-russia?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T06:41:54.953695Z"
     }
   ],
   "short_summary": "Oil prices climb on Hormuz strait tensions",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-12T06:41:54.953695Z",
+  "updated_at": "2026-08-12T08:39:34.106045Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Oil prices climb on Hormuz strait tensions",
     "summary": "Violence in the Strait of Hormuz drives oil prices higher, potentially affecting US energy costs and inflation through global market effects.",
@@ -95,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-12T04:01:17.193285Z",
   "score_history": [
-    {
-      "t": "2026-08-10T07:01:16.707140Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-10T08:51:00.604835Z",
       "s": 2.4
@@ -274,6 +270,10 @@
     {
       "t": "2026-08-12T06:41:54.953695Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-12T08:39:34.106045Z",
+      "s": 2.0
     }
   ]
 }
