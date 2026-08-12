@@ -1,60 +1,46 @@
 {
-  "updated_at": "2026-08-12T19:19:12.405492Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-12T21:02:45.590310Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 11,
       "opis": "DPRK ballistic missiles strike Zaporizhzhia, 6 killed; new."
-    },
-    {
-      "temat": "Russia releases US Marine Gilman",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Former Marine freed after poor health detention; distant."
     },
     {
       "temat": "Assad sentenced to death in absentia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Syrian court convicts Assad of war crimes; symbolic justice."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Zelenskyy sends war-end proposals to US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Ukraine sends proposals to US to end war; diplomatic move."
     },
     {
       "temat": "Ukrainian strikes on Russian Wildberries logistics",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 11,
       "opis": "Ukraine targets major Russian company to bring war home."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T20:03:31.296280Z",
-      "s": 3.5
-    },
-    {
-      "t": "2026-08-10T21:01:44.405852Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-10T21:57:38.215231Z",
       "s": 3.2
@@ -218,15 +204,19 @@
     {
       "t": "2026-08-12T19:19:12.399110Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-12T21:02:45.582973Z",
+      "s": 2.7
     }
   ],
-  "events_anchor_at": "2026-08-11T07:35:47.985479Z",
+  "events_anchor_at": "2026-08-10T10:01:31.857421Z",
   "event_detected_at": {
     "major russian grain export terminals hit in ukraine black sea port attack": {
       "detected_at": "2026-08-11T07:35:47.985479Z",
       "peak_at": "2026-08-12T08:39:34.104821Z",
       "peak_score_at": "2026-08-11T07:35:47.985479Z",
-      "peak_score": 4.1,
+      "peak_score": 4.0,
       "peak_sentiment": "negative",
       "title": "Russian attacks kill six in Ukraine's Zaporizhzhia",
       "peak_label": "Russian strikes kill six, hit Kyiv hospital",
@@ -238,15 +228,31 @@
         }
       ]
     },
+    "israel vows to keep troops in lebanon, gaza and syria": {
+      "detected_at": "2026-08-12T21:02:45.582973Z",
+      "peak_at": "2026-08-12T21:02:45.582973Z",
+      "peak_score_at": "2026-08-12T21:02:45.582973Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Israel vows to keep troops in Lebanon, Gaza and Syria",
+      "peak_label": "Israel vows to maintain troops in occupied territories",
+      "peak_summary": "Israeli defense minister states Israel will not withdraw troops from Lebanon, Gaza, and Syria; distant regional conflict.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/israel-vows-to-keep-troops-in-lebanon-gaza-and-syria?traffic_source=rss"
+        }
+      ]
+    },
     "woman pulled alive from rubble 36 hours after colombia quake": {
       "detected_at": "2026-08-12T19:19:12.399110Z",
-      "peak_at": "2026-08-12T19:19:12.399110Z",
-      "peak_score_at": "2026-08-12T19:19:12.399110Z",
-      "peak_score": 1.0,
+      "peak_at": "2026-08-12T21:02:45.582973Z",
+      "peak_score_at": "2026-08-12T21:02:45.582973Z",
+      "peak_score": 2.0,
       "peak_sentiment": "neutral",
       "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
-      "peak_label": "Colombia quake survivor rescued after 36 hours",
-      "peak_summary": "Distant humanitarian story from Colombia earthquake; no impact on Ukrainian war situation or daily life.",
+      "peak_label": "Woman rescued 36 hours after Colombia earthquake",
+      "peak_summary": "Emergency workers pull survivor from rubble after major quake in western Colombia; distant disaster with no impact on Ukraine.",
       "peak_source_links": [
         {
           "name": "BBC",
@@ -420,6 +426,7 @@
   },
   "prev_top_event_titles": [
     "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+    "Israel vows to keep troops in Lebanon, Gaza and Syria",
     "Woman pulled alive from rubble 36 hours after Colombia quake"
   ]
 }
