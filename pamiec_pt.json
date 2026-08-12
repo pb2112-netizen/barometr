@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-12T15:13:55.764575Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-12T16:01:27.969690Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Italy temporary border checks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Spain introduces checks on Italian visitors; minor Schengen."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "US inflation slows; food costs cool; indirect global signal."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 9,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Zimbabwe ferry capsizes killing 15+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "US fires on vessel breaking Iran blockade in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US helicopter struck cargo ship; Gulf tensions; distant."
     },
     {
       "temat": "Hungary post-Orbán political transition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "New president elected, government dismantles Orbán legacy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-10T15:16:06.510515Z",
-      "s": 4.4
-    },
-    {
-      "t": "2026-08-10T16:01:22.221963Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-10T16:10:17.516452Z",
       "s": 2.1
@@ -228,26 +220,14 @@
     {
       "t": "2026-08-12T15:13:55.757785Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-12T16:01:27.962245Z",
+      "s": 2.1
     }
   ],
   "events_anchor_at": "2026-08-12T04:01:17.191008Z",
   "event_detected_at": {
-    "spain to introduce temporary border checks on visitors from italy": {
-      "detected_at": "2026-08-12T11:57:30.237712Z",
-      "peak_at": "2026-08-12T11:57:30.237712Z",
-      "peak_score_at": "2026-08-12T11:57:30.237712Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "peak_label": "Spain introduces temporary Italy border checks",
-      "peak_summary": "Spain responds to Italian border measures with own checks. Minor Schengen disruption affecting Iberian travel but not daily life in Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ]
-    },
     "us inflation eases as food and fuel costs cool": {
       "detected_at": "2026-08-12T13:45:32.506470Z",
       "peak_at": "2026-08-12T13:45:32.506470Z",
@@ -264,6 +244,26 @@
         }
       ]
     },
+    "scores dead in colombia after powerful earthquake strikes west of country": {
+      "detected_at": "2026-08-10T15:16:06.510515Z",
+      "peak_at": "2026-08-12T16:01:27.962245Z",
+      "peak_score_at": "2026-08-10T15:16:06.510515Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
     "as strait of hormuz transit drops, trump again says us has 'control'": {
       "detected_at": "2026-08-12T02:43:07.121741Z",
       "peak_at": "2026-08-12T15:13:55.757785Z",
@@ -277,6 +277,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
+        }
+      ]
+    },
+    "spain to introduce temporary border checks on visitors from italy": {
+      "detected_at": "2026-08-12T11:57:30.237712Z",
+      "peak_at": "2026-08-12T11:57:30.237712Z",
+      "peak_score_at": "2026-08-12T11:57:30.237712Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "peak_label": "Spain introduces temporary Italy border checks",
+      "peak_summary": "Spain responds to Italian border measures with own checks. Minor Schengen disruption affecting Iberian travel but not daily life in Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
         }
       ]
     },
@@ -301,26 +317,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ]
-    },
-    "rescuers scramble for survivors with 180 dead in colombia earthquake": {
-      "detected_at": "2026-08-10T15:16:06.510515Z",
-      "peak_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score_at": "2026-08-10T15:16:06.510515Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
         }
       ]
     },
@@ -361,26 +357,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe?traffic_source=rss"
-        }
-      ]
-    },
-    "lebanon parliament votes to abolish death penalty": {
-      "detected_at": "2026-08-11T16:01:26.754722Z",
-      "peak_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "Lebanon parliament votes to abolish death penalty",
-      "peak_label": "Lebanon votes to end death penalty nationwide",
-      "peak_summary": "Lebanon becomes first Middle East country to abolish capital punishment. Distant regional milestone; no Portugal relevance.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
         }
       ]
     },
@@ -447,43 +423,11 @@
           "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "france bans unsolicited telemarketing calls": {
-      "detected_at": "2026-08-11T16:01:26.754722Z",
-      "peak_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score_at": "2026-08-11T16:01:26.754722Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "France bans unsolicited telemarketing calls",
-      "peak_label": "France bans cold calling telemarketing nationwide",
-      "peak_summary": "France ends unsolicited telemarketing calls, consumer group calls it a 'small revolution.' Minor EU consumer policy; no direct Portugal impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "drone captures devastating aftermath of spokane wildfires": {
-      "detected_at": "2026-08-11T15:15:51.269323Z",
-      "peak_at": "2026-08-11T15:15:51.269323Z",
-      "peak_score_at": "2026-08-11T15:15:51.269323Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Drone captures devastating aftermath of Spokane wildfires",
-      "peak_label": "Spokane wildfires destroy homes in US",
-      "peak_summary": "Aerial footage shows homes burned to foundations in Washington state. Distant climate event with no relevance to Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/c80nm9melpmo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Spain to introduce temporary border checks on visitors from Italy",
     "US inflation eases as food and fuel costs cool",
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
     "As Strait of Hormuz transit drops, Trump again says US has 'control'"
   ]
 }

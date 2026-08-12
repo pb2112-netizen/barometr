@@ -1,13 +1,13 @@
 {
-  "global_score": 2.2,
-  "rationale": "Continuation of known background: US inflation easing (indirect global signal), Strait of Hormuz tensions (indirect energy), Colombia quake (distant disaster); no new qualitative change affecting Romania.",
+  "global_score": 2.1,
+  "rationale": "Continuation of background tensions; no new direct impact on Romania this cycle.",
   "top_events": [
     {
       "title": "US inflation eases as food and fuel costs cool",
-      "label": "US inflation dips to 3.4% in July",
-      "summary": "US inflation slowed to 3.4% in July with cooling food and fuel costs. Indirect positive signal for global economy and energy markets, but no direct impact on Romania.",
+      "label": "US inflation eases to 3.4% in July",
+      "summary": "US inflation slows to 3.4% with cooling food and fuel costs; indirect positive signal for global economy and energy markets.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -28,15 +28,16 @@
     },
     {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 110",
-      "summary": "Powerful 7.4 magnitude earthquake in western Colombia killed over 110 people, collapsing buildings in Cali and Pereira. Distant disaster with no link to Romania.",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Magnitude 7.4 quake in western Colombia kills over 100; distant disaster with no link to Romania.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -46,6 +47,10 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/colombia-declares-three-days-of-mourning-after-deadly-earthquake?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.508911Z"
@@ -53,11 +58,11 @@
     {
       "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
       "label": "Strait of Hormuz transit drops sharply",
-      "summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices indirectly.",
-      "score": 2.2,
+      "summary": "Vessel traffic through Hormuz falls from 130-140 to just eight; ongoing energy market tension with indirect impact on oil prices.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
@@ -75,17 +80,17 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-12T15:13:55.756039Z",
+  "updated_at": "2026-08-12T16:01:27.960304Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Colombia 7.4 quake kills 20, buildings collapse",
     "summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
     "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-08-10T15:16:06.508911Z",
-    "peak_at": "2026-08-11T16:01:26.752884Z",
+    "peak_at": "2026-08-12T16:01:27.960304Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -99,14 +104,6 @@
   },
   "events_anchor_at": "2026-08-10T15:16:06.508911Z",
   "score_history": [
-    {
-      "t": "2026-08-10T15:16:06.508911Z",
-      "s": 7.4
-    },
-    {
-      "t": "2026-08-10T16:01:22.220557Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-10T16:10:17.514977Z",
       "s": 3.4
@@ -274,6 +271,10 @@
     {
       "t": "2026-08-12T15:13:55.756039Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-12T16:01:27.960304Z",
+      "s": 2.1
     }
   ]
 }
