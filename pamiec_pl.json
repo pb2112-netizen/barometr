@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-13T11:59:17.975694Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-13T13:46:13.862324Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake kills 100+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Major quake in western Colombia; distant disaster."
     },
     {
-      "temat": "Ukraine civilian deaths surge July 2025",
-      "poziom_bazowy": 3.0,
+      "temat": "Romania nuclear plant shutdown due to Danube drought",
+      "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 0,
+      "opis": "Low Danube water forces closure of Romania's nuclear plant."
+    },
+    {
+      "temat": "Ukraine civilian deaths surge July 2025",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "Highest monthly civilian toll in Ukraine since May 2022."
     },
     {
       "temat": "Ukraine strikes Russian grain terminals in Black Sea",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Mutual attacks on shipping infrastructure reduce grain."
     },
     {
       "temat": "UK drought threatens farmers",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Severe drought imperils UK agriculture; distant crisis."
     },
     {
       "temat": "Oman oil spill from tanker reaches coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Up to 40km of Omani coastline affected by oil pollution."
     },
     {
       "temat": "Ebola outbreak in DRC becomes deadliest ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Over 2,000 deaths in DRC; distant health crisis."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "US inflation slows; food costs cool; indirect global signal."
-    },
-    {
-      "temat": "Putin threatens European vessel seizures",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 19,
-      "opis": "Russia warns tit-for-tat ship seizures; EU-Russia tension."
+      "opis": "US inflation slows; food costs cool; indirect global signal."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-11T13:41:54.183907Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-11T15:15:51.266186Z",
       "s": 3.0
@@ -208,10 +204,66 @@
     {
       "t": "2026-08-13T11:59:17.965093Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-13T13:46:13.852927Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-11T07:35:47.980743Z",
   "event_detected_at": {
+    "uk defends seizing shadow fleet tanker after putin threat": {
+      "detected_at": "2026-08-13T10:21:33.427464Z",
+      "peak_at": "2026-08-13T13:46:13.852927Z",
+      "peak_score_at": "2026-08-13T13:46:13.852927Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "UK defends seizing shadow fleet tanker after Putin threat",
+      "peak_label": "UK seizes Russian shadow tanker after Putin threat",
+      "peak_summary": "Britain defends seizing a shadow fleet vessel as Putin threatens retaliation. Rhetoric escalation in EU-Russia tension, no enacted policy change yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "falling danube flow forces shutdown of romania's sole nuclear plant": {
+      "detected_at": "2026-08-13T13:46:13.852927Z",
+      "peak_at": "2026-08-13T13:46:13.852927Z",
+      "peak_score_at": "2026-08-13T13:46:13.852927Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
+      "peak_label": "Romania shuts nuclear plant as Danube flow drops",
+      "peak_summary": "Low Danube water forces closure of Romania's nuclear plant, which supplies a fifth of the country's electricity. Regional energy supply disruption.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/13/falling-danube-flow-forces-shutdown-of-romanias-sole-nuclear-plant?traffic_source=rss"
+        }
+      ]
+    },
+    "colombia earthquake response tests new far-right government": {
+      "detected_at": "2026-08-10T15:16:06.507444Z",
+      "peak_at": "2026-08-12T16:01:27.958320Z",
+      "peak_score_at": "2026-08-10T15:16:06.507444Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
+        }
+      ]
+    },
     "civilian deaths in ukraine in july hit highest level since may 2022: un": {
       "detected_at": "2026-08-13T11:59:17.965093Z",
       "peak_at": "2026-08-13T11:59:17.965093Z",
@@ -225,42 +277,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/13/civilian-deaths-in-ukraine-in-july-hit-highest-level-since-may-2022-un?traffic_source=rss"
-        }
-      ]
-    },
-    "uk defends seizing shadow fleet tanker after putin threat": {
-      "detected_at": "2026-08-13T10:21:33.427464Z",
-      "peak_at": "2026-08-13T10:21:33.427464Z",
-      "peak_score_at": "2026-08-13T10:21:33.427464Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "UK defends seizing shadow fleet tanker after Putin threat",
-      "peak_label": "UK seizes shadow fleet tanker after Putin threat",
-      "peak_summary": "UK government defends seizure of shadow fleet vessel in response to Putin's earlier warnings about tit-for-tat ship seizures. Continues known EU-Russia maritime tension without new escalation.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "colombia earthquake response tests new far-right government": {
-      "detected_at": "2026-08-10T15:16:06.507444Z",
-      "peak_at": "2026-08-12T16:01:27.958320Z",
-      "peak_score_at": "2026-08-10T15:16:06.507444Z",
-      "peak_score": 3.3,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with over a dozen buildings collapsed. Distant event with no direct impact on Poland but significant global humanitarian concern.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
         }
       ]
     },
@@ -444,22 +460,6 @@
         }
       ]
     },
-    "us inflation eases as food and fuel costs cool": {
-      "detected_at": "2026-08-12T13:45:32.503949Z",
-      "peak_at": "2026-08-12T13:45:32.503949Z",
-      "peak_score_at": "2026-08-12T13:45:32.503949Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US inflation eases as food costs cool",
-      "peak_label": "US inflation dips to 3.4% in July",
-      "peak_summary": "US inflation slows to 3.4% as food costs cool; indirect signal for global economy but no immediate change for Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "as strait of hormuz transit drops, trump again says us has 'control'": {
       "detected_at": "2026-08-12T02:43:07.119010Z",
       "peak_at": "2026-08-12T15:13:55.754253Z",
@@ -478,8 +478,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Civilian deaths in Ukraine in July hit highest level since May 2022: UN",
     "UK defends seizing shadow fleet tanker after Putin threat",
+    "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
     "Colombia earthquake response tests new far-right government"
   ]
 }
