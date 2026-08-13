@@ -1,38 +1,52 @@
 {
-  "global_score": 2.6,
-  "rationale": "Three executions scheduled same day continues rising trend; Colombia earthquake distant; other headlines are rhetoric or distant events with no direct US impact.",
+  "global_score": 2.5,
+  "rationale": "Three executions scheduled same day continues known rising trend in death penalties; no new policy change affecting daily life.",
   "top_events": [
     {
       "title": "Three men will be executed on the same day as death penalties rise in US",
-      "label": "Three US executions scheduled same day",
-      "summary": "One state schedules three executions on same day amid rising death penalty trend. Continuation of domestic policy shift.",
-      "score": 2.6,
+      "label": "Three executions scheduled same day in US",
+      "summary": "One state schedules three executions on same day despite growing opposition to death penalty. Continues known rising trend in executions without new policy change.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/13/three-us-states-to-hold-executions-on-same-day-for-first-time-since-2010?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-13T05:03:15.792688Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 100",
-      "summary": "Major earthquake in western Colombia kills over 100, collapses buildings. Distant disaster; no direct US impact.",
+      "title": "Judge approves Trump effort to end South Sudan TPS protections",
+      "label": "Judge approves end to South Sudan TPS",
+      "summary": "Court allows stripping TPS for South Sudanese nationals following Supreme Court ruling on Haitians and Syrians. Continues known policy direction affecting immigration status.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
+        }
+      ],
+      "detected_at": "2026-08-12T13:45:32.508754Z"
+    },
+    {
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Powerful 7.4 magnitude quake collapses buildings in Cali and Pereira. Distant disaster with no connection to daily life in United States.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian",
@@ -49,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-12T18:06:34.583921Z"
-    },
-    {
-      "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allows stripping TPS for South Sudanese nationals. Continuation of policy change already in stan_swiata.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps"
-        }
-      ],
-      "detected_at": "2026-08-12T13:45:32.508754Z"
     }
   ],
   "short_summary": "ICE to spend $20m on electric shock gloves",
@@ -75,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-13T10:01:38.893371Z",
+  "updated_at": "2026-08-13T10:21:33.434445Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -95,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T22:01:27.687135Z",
   "score_history": [
-    {
-      "t": "2026-08-11T10:10:04.672660Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-11T11:04:37.053904Z",
       "s": 3.0
@@ -254,6 +245,10 @@
     {
       "t": "2026-08-13T10:01:38.893371Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-13T10:21:33.434445Z",
+      "s": 2.5
     }
   ]
 }

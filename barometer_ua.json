@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Ukraine war rhetoric from Nobel winner; no new military action or aid change; Colombia earthquake and other events are distant and irrelevant to war-focused Ukrainian life.",
+  "rationale": "Putin interview claims he can only destroy Ukraine, not conquer it; rhetoric without new military action or policy change affecting Ukraine. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-      "label": "Nobel winner: Putin cannot conquer Ukraine",
-      "summary": "Muratov says Russia can only destroy, not conquer Ukraine. Rhetoric from observer; no new military development or aid change.",
+      "label": "Nobel winner says Putin cannot conquer Ukraine",
+      "summary": "Dmitry Muratov tells BBC that Putin can only destroy Ukraine, not conquer it, as war enters fifth year. Rhetoric and analysis without new military action or policy change.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-13T05:03:15.790491Z"
     },
     {
+      "title": "UK defends seizing shadow fleet tanker after Putin threat",
+      "label": "UK seizes shadow fleet tanker after Putin threat",
+      "summary": "UK government defends seizure of shadow fleet vessel following Putin's earlier warnings. Continues known EU-Russia maritime tension without direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T10:21:33.432659Z"
+    },
+    {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 100",
-      "summary": "Major earthquake in western Colombia kills over 100. Distant disaster; no relevance to Ukraine's war situation.",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Powerful 7.4 magnitude quake collapses buildings in Cali and Pereira. Distant disaster with no connection to daily life in Ukraine.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian",
@@ -44,30 +63,6 @@
         }
       ],
       "detected_at": "2026-08-11T21:03:17.488534Z"
-    },
-    {
-      "title": "More troops to be sent to West Bank village besieged by Israeli settlers",
-      "label": "Israeli settlers besiege Palestinian families",
-      "summary": "Two families trapped in Qusra since Sunday with utilities cut. Distant Middle East crisis; no impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/13/us-diplomat-calls-israeli-settler-siege-of-west-bank-homes-act-of-terror?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T18:06:34.582283Z"
     }
   ],
   "short_summary": "Ukraine targets Russian logistics company infrastructure",
@@ -75,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-13T10:01:38.890974Z",
+  "updated_at": "2026-08-13T10:21:33.432659Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-12T11:57:30.239148Z",
   "score_history": [
-    {
-      "t": "2026-08-11T10:10:04.670777Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-11T11:04:37.052098Z",
       "s": 3.0
@@ -248,6 +239,10 @@
     },
     {
       "t": "2026-08-13T10:01:38.890974Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-13T10:21:33.432659Z",
       "s": 2.0
     }
   ]
