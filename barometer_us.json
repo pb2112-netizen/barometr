@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "Press secretary departure continues; death penalty executions and policy rulings are domestic actions with limited immediate impact.",
+  "global_score": 2.8,
+  "rationale": "Continuation of domestic policy stories and distant conflicts; no new major policy enacted or US forces deployed this cycle.",
   "top_events": [
     {
+      "title": "Three men will be executed on the same day as death penalties rise in US",
+      "label": "Three executions scheduled same day in one state",
+      "summary": "One US state schedules three executions on the same day as death penalty numbers rise despite growing opposition. Continuation of domestic trend.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T05:03:15.792688Z"
+    },
+    {
       "title": "Leavitt to leave as White House press secretary",
-      "label": "White House press secretary Leavitt departs",
-      "summary": "Karoline Leavitt steps down from White House press secretary position. Personnel change with no policy impact.",
-      "score": 2.4,
+      "label": "White House press secretary Leavitt stepping down",
+      "summary": "Karoline Leavitt announces departure as White House press secretary. Routine personnel change with no policy impact.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-12T21:02:45.585227Z"
     },
     {
-      "title": "Three men will be executed on the same day as death penalties rise in US",
-      "label": "Three executions scheduled same day in US",
-      "summary": "One state schedules three executions on same day amid rising death penalty numbers. Domestic policy action reflecting ongoing trend.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T05:03:15.792688Z"
-    },
-    {
       "title": "Judge approves Trump effort to end South Sudan TPS protections",
-      "label": "Judge approves end to South Sudan TPS",
-      "summary": "Court allows stripping temporary protected status for South Sudanese nationals. Policy action affecting immigration status.",
+      "label": "Judge approves end to South Sudan TPS protections",
+      "summary": "Court allows US government to strip temporary protected status for South Sudanese nationals following Supreme Court ruling. Policy continuation.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-13T05:03:15.792688Z",
+  "updated_at": "2026-08-13T06:44:56.563217Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-12T22:01:27.687135Z",
   "score_history": [
-    {
-      "t": "2026-08-11T06:03:47.464013Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-11T07:35:47.987173Z",
       "s": 3.5
@@ -248,6 +244,10 @@
     {
       "t": "2026-08-13T05:03:15.792688Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-13T06:44:56.563217Z",
+      "s": 2.8
     }
   ]
 }
