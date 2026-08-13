@@ -1,44 +1,52 @@
 {
-  "updated_at": "2026-08-12T23:57:08.903345Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-08-13T02:46:02.181205Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia using North Korean missiles in Ukraine",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 15,
       "opis": "DPRK ballistic missiles strike Zaporizhzhia, 6 killed; new."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Zelenskyy sends war-end proposals to US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Ukraine sends proposals to US to end war; diplomatic move."
     },
     {
       "temat": "Ukrainian strikes on Russian Wildberries logistics",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 15,
       "opis": "Ukraine targets major Russian company to bring war home."
+    },
+    {
+      "temat": "Israeli settlers besiege Palestinian families in West Bank",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Settlers besiege families after security withdrawal."
+    },
+    {
+      "temat": "Ebola outbreak in DRC becomes deadliest ever",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Over 2,000 deaths in DRC; distant health crisis."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-11T02:26:50.128852Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-11T04:01:27.118283Z",
       "s": 2.7
@@ -198,6 +206,10 @@
     {
       "t": "2026-08-12T23:57:08.896369Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-13T02:46:02.174035Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-08-10T10:01:31.857421Z",
@@ -206,7 +218,7 @@
       "detected_at": "2026-08-11T07:35:47.985479Z",
       "peak_at": "2026-08-12T08:39:34.104821Z",
       "peak_score_at": "2026-08-11T07:35:47.985479Z",
-      "peak_score": 3.7,
+      "peak_score": 3.6,
       "peak_sentiment": "negative",
       "title": "Russian attacks kill six in Ukraine's Zaporizhzhia",
       "peak_label": "Russian strikes kill six, hit Kyiv hospital",
@@ -215,6 +227,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
+        }
+      ]
+    },
+    "israeli settlers besieging palestinian families in west bank village": {
+      "detected_at": "2026-08-12T18:06:34.582283Z",
+      "peak_at": "2026-08-12T18:06:34.582283Z",
+      "peak_score_at": "2026-08-12T18:06:34.582283Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Israeli settlers besieging Palestinian families in West Bank village",
+      "peak_label": "Israeli settlers besiege Palestinian families in West Bank",
+      "peak_summary": "Israeli security forces withdrew as settlers continue siege; distant Middle East conflict with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ebola outbreak on track to be deadliest ever, who chief says": {
+      "detected_at": "2026-08-13T02:46:02.174035Z",
+      "peak_at": "2026-08-13T02:46:02.174035Z",
+      "peak_score_at": "2026-08-13T02:46:02.174035Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
+      "peak_label": "Ebola outbreak in DRC becomes deadliest ever",
+      "peak_summary": "Over 2,000 deaths in DRC Ebola outbreak; distant health crisis with no impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
         }
       ]
     },
@@ -251,22 +299,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "israeli settlers besieging palestinian families in west bank village": {
-      "detected_at": "2026-08-12T18:06:34.582283Z",
-      "peak_at": "2026-08-12T18:06:34.582283Z",
-      "peak_score_at": "2026-08-12T18:06:34.582283Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Israeli settlers besieging Palestinian families in West Bank village",
-      "peak_label": "Israeli settlers besiege Palestinian families in West Bank",
-      "peak_summary": "Israeli security forces withdrew as settlers continue siege; distant Middle East conflict with no direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -432,7 +464,7 @@
   },
   "prev_top_event_titles": [
     "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-    "11-year-old boy shot by Israeli forces in Gaza",
-    "Scores dead in Colombia after powerful earthquake strikes west of country"
+    "Israeli settlers besieging Palestinian families in West Bank village",
+    "Ebola outbreak on track to be deadliest ever, WHO chief says"
   ]
 }
