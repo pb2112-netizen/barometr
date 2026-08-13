@@ -1,31 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Poland arrests Russian planning assassination of Ukrainian American is the highest-impact event; other headlines are distant or rhetoric.",
+  "global_score": 2.5,
+  "rationale": "Continuation of known situation: Russian detained in Warsaw for plotting assassination of Ukrainian American remains highest-impact event; no new qualitative developments in Ukraine this cycle.",
   "top_events": [
     {
-      "title": "Poland arrests man who allegedly tried to kill Ukrainian American",
-      "label": "Poland arrests Russian planning Ukrainian assassination",
-      "summary": "Polish authorities detained a Russian citizen who allegedly planned to kill a Ukrainian American critic of Moscow in Warsaw, highlighting ongoing Russian covert operations targeting Ukrainians abroad.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/13/poland-arrests-man-who-allegedly-tried-to-kill-ukrainian-american?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T19:19:08.180248Z"
-    },
-    {
       "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-      "label": "Nobel winner says Putin cannot conquer Ukraine",
-      "summary": "Dmitry Muratov states Putin can only destroy Ukraine, not conquer it, as war enters fifth year; rhetoric without new military or policy change.",
-      "score": 1.5,
+      "label": "Nobel laureate says Putin cannot conquer Ukraine",
+      "summary": "Dmitry Muratov states Kremlin can only destroy, not conquer Ukraine in fifth year of war. Rhetoric without policy change; ongoing war already in Ukrainian background.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,22 +22,41 @@
       "detected_at": "2026-08-13T05:03:15.790491Z"
     },
     {
-      "title": "Israeli forces order families to evacuate homes in Qusra",
-      "label": "Israeli forces order Palestinian families to evacuate Qusra",
-      "summary": "Israeli troops order Palestinian families to leave homes in Qusra, using some as barracks; distant Middle East conflict with no direct impact on Ukraine.",
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "7.4 magnitude quake collapses buildings in Cali and Pereira. Distant disaster with no impact on Ukrainian daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
-        "BBC"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/israeli-forces-order-families-to-evacuate-homes-in-qusra?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/13/mexico-says-colombia-rejected-its-earthquake-rescue-team?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T21:03:17.488534Z"
+    },
+    {
+      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+      "label": "Israeli troops evict Palestinian families in Qusra",
+      "summary": "Israeli forces tell families to leave homes in Qusra after settler siege. Distant Middle East conflict with no direct link to Ukrainian daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss"
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-13T21:02:31.473546Z",
+  "updated_at": "2026-08-13T22:01:22.498829Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Civilian deaths in Ukraine surge to 2022 high",
     "summary": "UN reports 437 civilians killed and 2,610 injured in Ukraine in July, the highest monthly toll in over two years. Signals intensified fighting and direct threat to Ukrainian residents.",
@@ -90,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T11:59:17.972532Z",
   "score_history": [
-    {
-      "t": "2026-08-11T21:03:17.488534Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-11T22:01:17.897571Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-11T22:03:01.343560Z",
       "s": 3.0
@@ -249,6 +241,10 @@
     {
       "t": "2026-08-13T21:02:31.473546Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-13T22:01:22.498829Z",
+      "s": 2.5
     }
   ]
 }
