@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-13T13:46:13.863742Z",
-  "ostatnia_ocena": 5.0,
+  "updated_at": "2026-08-13T15:14:24.872466Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Romania nuclear plant shutdown due to Danube drought",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Low Danube water forces closure of Romania's nuclear plant."
     },
     {
       "temat": "Ukraine strikes Russian grain terminals in Black Sea",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 15,
       "opis": "Escalating attacks on Black Sea shipping infrastructure."
     },
     {
       "temat": "Ukraine civilian deaths surge July 2025",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Highest monthly civilian toll in Ukraine since May 2022."
     },
     {
       "temat": "Europe extreme heat wave 135m affected",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Over 135 million Europeans face temperatures over 35C."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake kills 100+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Major quake in western Colombia; distant disaster."
     },
     {
       "temat": "UK drought threatens farmers",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Severe drought imperils UK agriculture; distant crisis."
     },
     {
       "temat": "Oman oil spill from tanker reaches coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Up to 40km of Omani coastline affected by oil pollution."
     },
     {
       "temat": "Ebola outbreak in DRC becomes deadliest ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Over 2,000 deaths in DRC; distant health crisis."
     }
   ],
@@ -208,6 +208,10 @@
     {
       "t": "2026-08-13T13:46:13.855356Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-08-13T15:14:24.864603Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-08-13T13:46:13.855356Z",
@@ -225,6 +229,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/13/falling-danube-flow-forces-shutdown-of-romanias-sole-nuclear-plant?traffic_source=rss"
+        }
+      ]
+    },
+    "ukraine attacks key russian grain terminal on black sea port": {
+      "detected_at": "2026-08-11T07:35:47.982321Z",
+      "peak_at": "2026-08-12T19:19:12.396199Z",
+      "peak_score_at": "2026-08-12T19:19:12.396199Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "negative",
+      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+      "peak_label": "Ukraine strikes Russian grain terminals in Black Sea",
+      "peak_summary": "Escalating attacks on Black Sea shipping infrastructure directly threaten Romanian waters and regional grain export routes.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "scores dead in colombia after powerful earthquake strikes west of country": {
+      "detected_at": "2026-08-10T15:16:06.508911Z",
+      "peak_at": "2026-08-12T16:01:27.960304Z",
+      "peak_score_at": "2026-08-10T15:16:06.508911Z",
+      "peak_score": 3.3,
+      "peak_sentiment": "negative",
+      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
+      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
+      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
         }
       ]
     },
@@ -292,26 +332,6 @@
         }
       ]
     },
-    "scores dead in colombia after powerful earthquake strikes west of country": {
-      "detected_at": "2026-08-10T15:16:06.508911Z",
-      "peak_at": "2026-08-12T16:01:27.960304Z",
-      "peak_score_at": "2026-08-10T15:16:06.508911Z",
-      "peak_score": 3.4,
-      "peak_sentiment": "negative",
-      "title": "7.4-magnitude earthquake hits Colombia killing at least 20",
-      "peak_label": "Colombia 7.4 quake kills 20, buildings collapse",
-      "peak_summary": "Major earthquake struck western Colombia with multiple building collapses and at least 20 dead. Distant humanitarian disaster with no direct impact on Romania.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
     "putin can no longer claim victory in ukraine, nobel peace prize winner tells bbc": {
       "detected_at": "2026-08-13T05:03:15.786611Z",
       "peak_at": "2026-08-13T05:03:15.786611Z",
@@ -325,22 +345,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russian strike sparks fire at ukraine port; zelenskyy seeks interceptors": {
-      "detected_at": "2026-08-11T07:35:47.982321Z",
-      "peak_at": "2026-08-12T19:19:12.396199Z",
-      "peak_score_at": "2026-08-12T19:19:12.396199Z",
-      "peak_score": 4.9,
-      "peak_sentiment": "negative",
-      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-      "peak_label": "Ukraine strikes Russian grain terminals in Black Sea",
-      "peak_summary": "Escalating attacks on Black Sea shipping infrastructure directly threaten Romanian waters and regional grain export routes.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -443,27 +447,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/12/morocco-says-working-to-prevent-potential-new-ceuta-crossings-surge?traffic_source=rss"
         }
       ]
-    },
-    "as strait of hormuz transit drops, trump again says us has 'control'": {
-      "detected_at": "2026-08-12T02:43:07.120446Z",
-      "peak_at": "2026-08-12T15:13:55.756039Z",
-      "peak_score_at": "2026-08-12T15:13:55.756039Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
-      "peak_label": "Strait of Hormuz transit drops sharply",
-      "peak_summary": "Vessel traffic through Strait of Hormuz fell to just eight on Tuesday from 130-140 before the war. Continues to affect global oil prices indirectly.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-    "UK defends seizing shadow fleet tanker after Putin threat",
-    "More than 135 million people in Europe face temperatures over 35C"
+    "Ukraine attacks key Russian grain terminal on Black Sea port",
+    "Scores dead in Colombia after powerful earthquake strikes west of country"
   ]
 }

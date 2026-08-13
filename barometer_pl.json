@@ -1,33 +1,14 @@
 {
-  "global_score": 2.9,
-  "rationale": "Ukraine civilian deaths surge continues as known background; UK tanker seizure and Putin threat are rhetoric without enacted change; distant disasters remain low.",
+  "global_score": 2.7,
+  "rationale": "Romania nuclear shutdown continues; distant disasters and rhetoric dominate; no direct change to Polish life this cycle.",
   "top_events": [
     {
-      "title": "UK defends seizing shadow fleet tanker after Putin threat",
-      "label": "UK seizes Russian shadow tanker after Putin threat",
-      "summary": "Britain defends seizing a shadow fleet vessel as Putin threatens retaliation. Rhetoric escalation in EU-Russia tension, no enacted policy change yet.",
-      "score": 2.9,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T10:21:33.427464Z"
-    },
-    {
       "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-      "label": "Romania shuts nuclear plant as Danube flow drops",
-      "summary": "Low Danube water forces closure of Romania's nuclear plant, which supplies a fifth of the country's electricity. Regional energy supply disruption.",
-      "score": 2.5,
+      "label": "Romania nuclear plant shut by low Danube",
+      "summary": "Drought forces closure of Romania's nuclear plant, which normally supplies a fifth of the country's electricity. Regional energy stability concern for EU neighbors.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -41,28 +22,42 @@
       "detected_at": "2026-08-13T13:46:13.852927Z"
     },
     {
-      "title": "Colombia earthquake response tests new far-right government",
-      "label": "Colombia quake kills 100+ in western region",
-      "summary": "Major earthquake in western Colombia kills over 100. Distant disaster with no direct link to Poland.",
+      "title": "Ukraine attacks key Russian grain terminal on Black Sea port",
+      "label": "Ukraine strikes Russian grain terminal Novorossiysk",
+      "summary": "Ukraine damages Russian grain export terminals at Novorossiysk. Continuation of mutual attacks on Black Sea shipping infrastructure.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/13-08-sv-ukraine-russia-grain-attack-ur?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-11T07:35:47.980743Z"
+    },
+    {
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia 7.4 quake kills over 100",
+      "summary": "Major earthquake in western Colombia collapses buildings in Cali and Pereira. Distant disaster with no link to Polish daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/13/colombia-earthquake-response-tests-new-far-right-government?traffic_source=rss"
-        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
         }
       ],
-      "detected_at": "2026-08-10T15:16:06.507444Z"
+      "detected_at": "2026-08-12T21:02:45.577937Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian grain terminals in Black Sea",
@@ -70,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-13T13:46:13.852927Z",
+  "updated_at": "2026-08-13T15:14:24.862671Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Ukraine strikes Russian grain terminals in Black Sea",
     "summary": "Mutual attacks on Black Sea shipping infrastructure reduce grain exports from both Russia and Ukraine, affecting regional food supply chains and prices.",
     "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-08-11T07:35:47.980743Z",
     "peak_at": "2026-08-12T19:19:12.394567Z",
@@ -245,6 +240,10 @@
     {
       "t": "2026-08-13T13:46:13.852927Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-13T15:14:24.862671Z",
+      "s": 2.7
     }
   ]
 }
