@@ -1,60 +1,58 @@
 {
-  "updated_at": "2026-08-13T04:01:20.086251Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-08-13T05:03:15.793967Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Strait of Hormuz tensions affecting oil prices",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Attacks and blockade push oil prices up; indirect energy."
     },
     {
       "temat": "Houthi attack kills six on Bab al-Mandeb ship",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "First shipping deaths in Red Sea since Iran war escalation."
     },
     {
       "temat": "Putin threatens European vessel seizures",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Russia warns tit-for-tat ship seizures; EU-Russia tension."
     },
     {
       "temat": "US inflation eases to 3.4%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "US inflation slows; food costs cool; indirect global signal."
     },
     {
       "temat": "Ukraine strikes Russian grain terminals in Black Sea",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Mutual attacks on shipping infrastructure reduce grain."
     },
     {
       "temat": "Ebola outbreak in DRC becomes deadliest ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Over 2,000 deaths in DRC; distant health crisis."
+    },
+    {
+      "temat": "Oman oil spill from tanker reaches coast",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Up to 40km of Omani coastline affected by oil pollution."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-11T04:01:27.115168Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-08-11T04:38:53.710726Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-11T06:03:47.458165Z",
       "s": 3.6
@@ -214,10 +212,62 @@
     {
       "t": "2026-08-13T04:01:20.078057Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-13T05:03:15.784296Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-11T07:35:47.980743Z",
   "event_detected_at": {
+    "putin can no longer claim victory in ukraine, nobel peace prize winner tells bbc": {
+      "detected_at": "2026-08-13T05:03:15.784296Z",
+      "peak_at": "2026-08-13T05:03:15.784296Z",
+      "peak_score_at": "2026-08-13T05:03:15.784296Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
+      "peak_label": "Nobel winner: Putin cannot conquer Ukraine",
+      "peak_summary": "Dmitry Muratov states Russia can only destroy, not conquer Ukraine after five years of war. Commentary on ongoing conflict without new military developments.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "search efforts in colombia enter 'final phase' as quake toll reaches 265": {
+      "detected_at": "2026-08-12T21:02:45.577937Z",
+      "peak_at": "2026-08-12T21:02:45.577937Z",
+      "peak_score_at": "2026-08-12T21:02:45.577937Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
+      "peak_label": "Woman rescued 36 hours after Colombia earthquake",
+      "peak_summary": "Emergency workers pull survivor from rubble after major quake in western Colombia; distant disaster with no direct impact on Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "oman says oil spill from stricken tanker has reached its coast": {
+      "detected_at": "2026-08-13T05:03:15.784296Z",
+      "peak_at": "2026-08-13T05:03:15.784296Z",
+      "peak_score_at": "2026-08-13T05:03:15.784296Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Oman says oil spill from stricken tanker has reached its coast",
+      "peak_label": "Oil spill reaches Oman coast",
+      "peak_summary": "Up to 40km of Omani coastline affected by oil pollution from tanker incident. Distant environmental event with no direct energy price impact yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/13/oman-says-oil-spill-from-stricken-tanker-has-reached-its-coast?traffic_source=rss"
+        }
+      ]
+    },
     "major russian grain export terminals hit in ukraine black sea port attack": {
       "detected_at": "2026-08-11T07:35:47.980743Z",
       "peak_at": "2026-08-12T19:19:12.394567Z",
@@ -270,22 +320,6 @@
         }
       ]
     },
-    "woman pulled alive from rubble 36 hours after colombia quake": {
-      "detected_at": "2026-08-12T21:02:45.577937Z",
-      "peak_at": "2026-08-12T21:02:45.577937Z",
-      "peak_score_at": "2026-08-12T21:02:45.577937Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
-      "peak_label": "Woman rescued 36 hours after Colombia earthquake",
-      "peak_summary": "Emergency workers pull survivor from rubble after major quake in western Colombia; distant disaster with no direct impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "scores dead in colombia after powerful earthquake strikes west of country": {
       "detected_at": "2026-08-10T15:16:06.507444Z",
       "peak_at": "2026-08-12T16:01:27.958320Z",
@@ -303,22 +337,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
-    "us strikes in yemen killed 153 civilians in 2025, says pentagon review": {
-      "detected_at": "2026-08-12T05:01:27.863802Z",
-      "peak_at": "2026-08-12T05:01:27.863802Z",
-      "peak_score_at": "2026-08-12T05:01:27.863802Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
-      "peak_label": "Houthi attack kills six on ship",
-      "peak_summary": "First shipping deaths linked to Houthis since US-Israel-Iran conflict escalated; distant event with minimal Polish impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says?traffic_source=rss"
         }
       ]
     },
@@ -424,8 +442,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-    "Ebola outbreak on track to be deadliest ever, WHO chief says",
-    "Thousands of Canadians call for US ambassador's expulsion"
+    "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
+    "Search efforts in Colombia enter 'final phase' as quake toll reaches 265",
+    "Oman says oil spill from stricken tanker has reached its coast"
   ]
 }
