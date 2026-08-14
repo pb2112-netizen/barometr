@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Nuclear plant shutdown continues; no new developments affecting Romania directly.",
+  "global_score": 2.4,
+  "rationale": "Russia strikes Ukrainian infrastructure (regional security background); Romania nuclear shutdown continues (direct energy impact); China tariff evasion (indirect EU trade noise). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
+      "label": "Russia strikes Ukrainian rail and ports",
+      "summary": "Russia reports new strikes on Ukrainian infrastructure; Kyiv drones target Baltic oil hub. Ongoing war background affecting Black Sea regional security.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/russia-says-hit-ukrainian-railway-and-port-facilities-in-new-strikes?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T10:01:21.686214Z"
+    },
     {
       "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
       "label": "Romania nuclear plant shut by Danube drought",
-      "summary": "Cernavodă plant producing 20% of electricity remains closed for at least 10 days due to low Danube levels. Continuation of known energy disruption.",
-      "score": 2.5,
+      "summary": "Cernavodă plant (20% of Romania's electricity) closed due to low Danube water; no restart expected for 10 days. Direct energy supply impact continues.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,57 +41,43 @@
       "detected_at": "2026-08-13T13:46:13.855356Z"
     },
     {
-      "title": "'Unprecedented' rain in Japan kills six people",
-      "label": "Japan floods kill six, strand thousands",
-      "summary": "Record rainfall cuts power to 20,000 households and strands 7,000 at Tokyo airport. Distant disaster with no Romanian connection.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "title": "US accuses dozens of countries of helping China avoid Trump's tariffs",
+      "label": "US claims China evaded tariffs via third countries",
+      "summary": "White House report alleges China routed goods through lower-tariff nations. Indirect noise for EU trade; no immediate policy change affecting Romania.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T10:01:21.686214Z"
-    },
-    {
-      "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
-      "label": "Russia strikes Ukrainian rail and ports",
-      "summary": "Russia reports hitting Ukrainian infrastructure; Kyiv targets Baltic oil hub with drones. Continuation of regional conflict, no qualitative change.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/russia-says-hit-ukrainian-railway-and-port-facilities-in-new-strikes?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-14T10:01:21.686214Z"
+      "detected_at": "2026-08-14T10:16:21.917068Z"
     }
   ],
   "short_summary": "Danube drought shuts Romania's nuclear plant",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-14T10:01:21.686214Z",
+  "updated_at": "2026-08-14T10:16:21.917068Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Danube drought shuts Romania's nuclear plant",
     "summary": "Low Danube water forces total shutdown of Romania's nuclear plant, which generates a fifth of national electricity. Direct energy supply crisis.",
     "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-    "score": 3.9,
+    "score": 3.8,
     "sentiment": "negative",
     "detected_at": "2026-08-13T13:46:13.855356Z",
     "peak_at": "2026-08-13T13:46:13.855356Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T13:46:13.855356Z",
   "score_history": [
-    {
-      "t": "2026-08-12T10:01:23.009140Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T10:19:37.348755Z",
       "s": 2.0
@@ -244,6 +245,10 @@
     {
       "t": "2026-08-14T10:01:21.686214Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-14T10:16:21.917068Z",
+      "s": 2.4
     }
   ]
 }

@@ -1,35 +1,11 @@
 {
-  "global_score": 2.8,
-  "rationale": "Continuation of China tariff evasion report and USS Lincoln conditions; no new direct impact.",
+  "global_score": 2.7,
+  "rationale": "USS Abraham Lincoln conditions raise alarms (direct US military concern); China tariff evasion report (ongoing trade issue); distant disasters and rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "label": "US accuses nations of aiding China tariff evasion",
-      "summary": "White House report claims tens of billions lost to transshipments through lower-tariff countries. Continuation of known trade issue, no new policy action.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T04:01:32.190248Z"
-    },
-    {
       "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-      "label": "USS Lincoln sailors face food shortages at sea",
-      "summary": "Thousands on carrier reportedly face food shortages and broken plumbing after 250+ days deployed. Continuation of known conditions, no new policy change.",
+      "label": "USS Abraham Lincoln conditions raise alarms",
+      "summary": "Sailors on carrier face food shortages, broken plumbing after 250+ days at sea; some reportedly considered jumping overboard. Direct US military welfare concern.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -46,13 +22,37 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
+      "title": "US accuses dozens of countries of helping China avoid Trump's tariffs",
+      "label": "US claims China evaded tariffs via third countries",
+      "summary": "White House report alleges China routed goods through lower-tariff nations, costing billions in revenue. Ongoing trade issue; no new policy action.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.190248Z"
+    },
+    {
       "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
-      "label": "Ryanair window breach caused by engine failure",
-      "summary": "US investigators report fan blade broke on European flight, causing window breach. Continuation of known investigation, no new safety action.",
-      "score": 2.1,
+      "label": "Ryanair engine failure caused window breach",
+      "summary": "US investigators report engine fan blade broke on flight from Greece to Germany, causing window breach. Aviation safety concern; no policy change yet.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T10:01:21.692169Z",
+  "updated_at": "2026-08-14T10:16:21.922476Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "UAE accuses Iran of attacking vessels in Hormuz",
     "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T10:01:23.014417Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T10:19:37.353781Z",
       "s": 2.0
@@ -249,6 +245,10 @@
     {
       "t": "2026-08-14T10:01:21.692169Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-14T10:16:21.922476Z",
+      "s": 2.7
     }
   ]
 }
