@@ -1,11 +1,35 @@
 {
-  "global_score": 2.0,
-  "rationale": "Distant events with no direct link to Portugal; continuation of known situations.",
+  "global_score": 2.4,
+  "rationale": "Japan rainfall and Colombia quake are distant disasters; no direct Portuguese impact this cycle.",
   "top_events": [
     {
+      "title": "'Unprecedented' rains in Japan kill four people",
+      "label": "Japan rains kill four, strand thousands at airport",
+      "summary": "Record rainfall in Japan claims four lives, cuts power to 20,000 households, strands 7,000 at Narita. Distant Asian disaster.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T06:42:08.446606Z"
+    },
+    {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia earthquake kills over 100 in western region",
-      "summary": "Magnitude 7.4 quake collapses buildings in Cali and Pereira. Distant South American disaster with no connection to Portugal.",
+      "label": "Colombia 7.4 quake kills over 100 in west",
+      "summary": "Major earthquake collapses buildings in Cali and Pereira, killing over 100. Distant South American disaster; no Portuguese link.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -24,10 +48,10 @@
     {
       "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
       "label": "Zimbabwe ferry capsizes on Lake Kariba killing 44",
-      "summary": "Overcrowded ferry overturned by waves on Lake Kariba. Distant African disaster with no impact on Portugal.",
+      "summary": "Overcrowded ferry overturned by waves on Lake Kariba; dozens missing. Distant African disaster with no Portuguese connection.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -39,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-13T10:01:38.889212Z"
-    },
-    {
-      "title": "Water supply for three US states drips down, Lake Mead at record low",
-      "label": "Lake Mead hits record low affecting three US states",
-      "summary": "Largest US reservoir reaches record low on Arizona-Nevada border. Distant American water crisis with no link to Portugal.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/water-supply-for-three-us-states-drips-down-lake-mead-at-record-low?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T05:01:04.354523Z"
     }
   ],
   "short_summary": "UK wildfire sets homes ablaze in Stourbridge",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-14T05:01:04.354523Z",
+  "updated_at": "2026-08-14T06:42:08.446606Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T22:01:22.497428Z",
   "score_history": [
-    {
-      "t": "2026-08-12T05:01:27.867282Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-12T06:41:54.950326Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-12T08:39:34.103497Z",
       "s": 2.0
@@ -244,6 +241,10 @@
     {
       "t": "2026-08-14T05:01:04.354523Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T06:42:08.446606Z",
+      "s": 2.4
     }
   ]
 }
