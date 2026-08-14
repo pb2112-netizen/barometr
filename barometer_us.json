@@ -1,63 +1,73 @@
 {
-  "global_score": 2.4,
-  "rationale": "USS Abraham Lincoln poor conditions update continues; US missionary freed from Niger (minor positive); distant disasters and routine news with no domestic US impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Continuation of known background (China tariff evasion, USS Lincoln conditions, Niger missionary release); Colombia earthquake is new but distant with no direct US impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-      "label": "USS Lincoln sailors face food shortages at sea",
-      "summary": "Sailors on USS Abraham Lincoln reported food shortages and broken plumbing after 250+ days at sea. Continuation of deployment strain with no new policy change.",
-      "score": 2.4,
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia earthquake kills over 100 people",
+      "summary": "Powerful 7.4 magnitude quake collapses buildings in Cali and Pereira. Distant disaster with no direct impact on US daily life.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-12T18:06:34.583921Z"
+    },
+    {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US report: China evaded tariffs via third countries",
+      "summary": "US claims China routed goods through lower-tariff nations. Continuation of known trade tensions; no new policy change.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-13T17:11:25.524220Z"
+      "detected_at": "2026-08-14T04:01:32.190248Z"
     },
     {
       "title": "US missionary released following kidnap in Niger, Christian group says",
       "label": "US missionary freed after Niger kidnapping",
-      "summary": "Kevin Rideout released after October kidnapping in Niger and is now with US officials. Minor positive news with no broader domestic impact.",
+      "summary": "Kevin Rideout released after October kidnapping in Niger. Continuation of known case; positive resolution but limited impact.",
       "score": 2.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/us-missionary-kidnapped-in-niger-released-after-nine-months-in-captivity?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
         }
       ],
       "detected_at": "2026-08-14T11:09:57.503605Z"
-    },
-    {
-      "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall in Japan caused eight deaths and stranded 7,000 at Tokyo airport. Distant disaster with no impact on US daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T15:06:50.218323Z"
     }
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T15:06:50.218323Z",
+  "updated_at": "2026-08-14T16:01:18.103318Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T15:13:55.760624Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-12T16:01:27.965745Z",
       "s": 2.4
@@ -248,6 +254,10 @@
     {
       "t": "2026-08-14T15:06:50.218323Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-14T16:01:18.103318Z",
+      "s": 2.3
     }
   ]
 }
