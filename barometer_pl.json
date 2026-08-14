@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Croatia wildfire continues as regional climate event; distant disasters and rhetoric dominate cycle.",
+  "global_score": 2.8,
+  "rationale": "Croatia wildfire continues as regional climate event; USS Lincoln carrier issues persist as distant US military story; other events lack direct Polish impact.",
   "top_events": [
     {
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire forces thousands to evacuate",
-      "summary": "Major blaze near Omis continues as one of Croatia's worst fires, affecting neighboring Balkan region with climate implications for Central Europe.",
-      "score": 2.9,
+      "label": "Croatia wildfire injures dozens evacuates thousands",
+      "summary": "Major blaze near Omis continues as one of Croatia's worst fires, affecting neighboring EU region and highlighting climate risks across Central Europe.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,50 +22,55 @@
       "detected_at": "2026-08-14T20:44:52.701575Z"
     },
     {
-      "title": "Wildfires rage across Europe as heatwaves drive record temperatures",
-      "label": "Europe wildfires burn 500,000 hectares",
-      "summary": "Record heat fuels fires across Europe, burning vast areas and forcing evacuations; regional climate crisis continues with indirect impact on Poland.",
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
+      "label": "USS Lincoln relief carrier deployed after conditions",
+      "summary": "US Navy sends replacement carrier after Lincoln sailors faced food shortages and broken plumbing on extended deployment; distant military logistics issue.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T23:36:14.196641Z"
+    },
+    {
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "label": "Japan unprecedented rain kills eight strands thousands",
+      "summary": "Record rainfall in Japan causes deaths and strands 7,000 at Tokyo airport; distant disaster with no Polish connection.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/wildfires-rage-across-europe-as-heatwaves-drive-record-temperatures?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-14T22:39:34.375173Z"
-    },
-    {
-      "title": "Trump says he will declare Strait of Hormuz a US 'territory' amid Iran war",
-      "label": "Trump claims Hormuz Strait as US territory",
-      "summary": "US president's rhetoric on Iran strait control; no enacted policy yet, indirect potential impact on global energy markets.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/trump-says-he-will-declare-strait-of-hormuz-a-us-territory?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T22:39:34.375173Z"
+      "detected_at": "2026-08-14T08:37:30.767361Z"
     }
   ],
   "short_summary": "Croatia wildfire forces thousands to evacuate",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T22:39:34.375173Z",
+  "updated_at": "2026-08-14T23:36:14.196641Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-14T20:44:52.701575Z",
   "score_history": [
-    {
-      "t": "2026-08-12T23:00:13.866278Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-12T23:57:08.891217Z",
       "s": 3.9
@@ -256,6 +257,10 @@
     {
       "t": "2026-08-14T22:39:34.375173Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-14T23:36:14.196641Z",
+      "s": 2.8
     }
   ]
 }
