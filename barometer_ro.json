@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Distant disasters (Japan, Colombia, Zimbabwe) and routine continuations; no change to Romania's regional security, energy, or economy.",
+  "rationale": "No events affecting Romania's security, energy, or regional stability; distant disasters and routine news.",
   "top_events": [
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall in Japan caused eight deaths and stranded 7,000 at Narita airport. Distant disaster with no link to Romania.",
+      "label": "Japan storm kills eight, strands thousands",
+      "summary": "Severe weather in distant Asia with no relevance to Romania's Black Sea region or daily life.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,30 +22,11 @@
       "detected_at": "2026-08-14T10:01:21.686214Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia quake kills over 100 people",
-      "summary": "A 7.4 magnitude earthquake struck western Colombia, killing over 100. Distant tragedy with no impact on Romania.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-12T21:02:45.579628Z"
-    },
-    {
       "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "label": "Zimbabwe ferry capsizes, 44 dead",
-      "summary": "Overcrowded ferry sank on Lake Kariba, killing at least 44. Distant disaster with no connection to Romania.",
+      "label": "Zimbabwe ferry capsizes killing 44 people",
+      "summary": "African disaster with no connection to Romania's regional security or economic interests.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-13T18:06:52.387559Z"
+    },
+    {
+      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
+      "label": "DRC Ebola outbreak spreads to sixth province",
+      "summary": "Continuation of distant health crisis in Central Africa with no impact on Romania.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
+        }
+      ],
+      "detected_at": "2026-08-14T11:09:57.498232Z"
     }
   ],
   "short_summary": "Europe wildfires force thousands to evacuate",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-14T16:05:00.043415Z",
+  "updated_at": "2026-08-14T17:10:36.680266Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Europe wildfires force thousands to evacuate",
     "summary": "Wildfires swept across Europe, hospitalizing a dozen in Croatia's tourist town of Omis. Regional climate threat raises concern for Romania's own fire risk and tourism.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-14T08:37:30.769719Z",
   "score_history": [
-    {
-      "t": "2026-08-12T16:08:47.894262Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T17:11:30.282402Z",
       "s": 2.0
@@ -247,6 +243,10 @@
     },
     {
       "t": "2026-08-14T16:05:00.043415Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T17:10:36.680266Z",
       "s": 2.0
     }
   ]
