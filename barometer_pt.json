@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Distant disasters and cultural news; no events affecting Portugal or Iberian economy.",
+  "rationale": "No events affecting Portugal or Iberian region; distant disasters and cultural news continue background.",
   "top_events": [
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
       "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall in Japan causes deaths and airport chaos. No impact on Portugal.",
+      "summary": "Record rainfall causes deaths and airport disruption in Japan. Distant disaster with no relevance to Portuguese life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,39 +22,25 @@
       "detected_at": "2026-08-14T06:42:08.446606Z"
     },
     {
-      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "label": "Zimbabwe ferry capsizes, kills 44 people",
-      "summary": "Ferry disaster in Zimbabwe. Distant tragedy with no connection to Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
-        }
-      ],
-      "detected_at": "2026-08-13T10:01:38.889212Z"
-    },
-    {
       "title": "Stolen Matisse artworks recovered by police in Brazil",
-      "label": "Stolen Matisse artworks recovered in Brazil",
-      "summary": "Eight Matisse works found in Brazil. Cultural news with no impact on Portugal.",
+      "label": "Police recover stolen Matisse works in Brazil",
+      "summary": "Eight artworks found in São Paulo. Cultural news with no impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c1l1ym96ydvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/italian-police-recover-stolen-paintings-worth-over-10m?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-14T10:01:21.688343Z"
@@ -65,9 +51,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-14T19:13:01.514999Z",
+  "updated_at": "2026-08-14T19:56:02.130077Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK wildfire sets homes ablaze in Stourbridge",
     "summary": "At least six homes set alight by extensive wildfire in Stourbridge. New European climate event with indirect relevance to Portugal's own wildfire vulnerability.",
@@ -85,10 +71,6 @@
   },
   "events_anchor_at": "2026-08-13T22:01:22.497428Z",
   "score_history": [
-    {
-      "t": "2026-08-12T19:19:12.397770Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T21:02:45.581338Z",
       "s": 2.0
@@ -247,6 +229,10 @@
     },
     {
       "t": "2026-08-14T19:13:01.514999Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T19:56:02.130077Z",
       "s": 2.0
     }
   ]
