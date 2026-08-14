@@ -1,17 +1,18 @@
 {
   "global_score": 2.0,
-  "rationale": "No new military developments on Ukrainian territory; distant news continues.",
+  "rationale": "West Bank settler violence continues; mild regional concern but no direct impact on Ukraine's war situation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers",
-      "label": "Palestinians besieged by Israeli settlers",
-      "summary": "Two families trapped in West Bank homes by settlers. Distant conflict with no impact on Ukraine.",
+      "label": "Settlers besiege Palestinian families in West Bank",
+      "summary": "Israeli settlers trap Palestinian families in homes. Regional conflict continues with no direct impact on Ukraine.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -24,9 +25,9 @@
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
       "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall in Japan causes deaths and airport disruptions. Distant disaster with no impact on Ukrainian daily life.",
+      "summary": "Record rainfall in Japan causes deaths and disruptions. No impact on Ukraine.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -39,6 +40,25 @@
         }
       ],
       "detected_at": "2026-08-14T08:37:30.773866Z"
+    },
+    {
+      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+      "label": "Zimbabwe ferry capsizes, kills 44 people",
+      "summary": "Ferry disaster in Zimbabwe. Distant tragedy with no connection to Ukrainian daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        }
+      ],
+      "detected_at": "2026-08-14T19:13:01.516654Z"
     }
   ],
   "short_summary": "Ukraine claims advance in Dnipropetrovsk region",
@@ -46,7 +66,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-14T18:05:34.046233Z",
+  "updated_at": "2026-08-14T19:13:01.516654Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -66,10 +86,6 @@
   },
   "events_anchor_at": "2026-08-13T15:14:24.868087Z",
   "score_history": [
-    {
-      "t": "2026-08-12T18:06:34.582283Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-12T19:19:12.399110Z",
       "s": 2.8
@@ -228,6 +244,10 @@
     },
     {
       "t": "2026-08-14T18:05:34.046233Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T19:13:01.516654Z",
       "s": 2.0
     }
   ]
