@@ -1,12 +1,55 @@
 {
   "global_score": 2.6,
-  "rationale": "US report on China tariff evasion continues; USS Abraham Lincoln conditions raise alarms but no new policy action; other events distant or routine.",
+  "rationale": "US missionary freed in Niger (positive but minor); USS Abraham Lincoln conditions continue as background; China tariff report is continuation; US blockade threat against Iran is rhetoric without confirmed action.",
   "top_events": [
+    {
+      "title": "US missionary released following kidnap in Niger, Christian group says",
+      "label": "US missionary freed after Niger kidnapping",
+      "summary": "Kevin Rideout, kidnapped in Niamey last October, released and now with US officials. Positive outcome for one American; minor impact on daily life.",
+      "score": 2.1,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+        }
+      ],
+      "detected_at": "2026-08-14T11:09:57.503605Z"
+    },
+    {
+      "title": "US threatens 'indefinite' blockade against Iran: How long can it last?",
+      "label": "US threatens indefinite Iran blockade",
+      "summary": "Defense Secretary Hegseth claims US Navy can sustain blockade despite poor conditions on carriers. Rhetoric without confirmed action; no immediate impact.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T11:56:41.831306Z"
+    },
     {
       "title": "US says dozens of countries helped China dodge Trump's tariffs",
       "label": "US report: China evaded tariffs via third countries",
-      "summary": "New US report claims China routed goods through lower-tariff nations to dodge higher levies; continuation of ongoing trade investigation with no new policy action.",
-      "score": 2.6,
+      "summary": "US claims China routed goods through lower-tariff nations. Continuation of trade tensions; background economic noise.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -20,44 +63,6 @@
         }
       ],
       "detected_at": "2026-08-14T04:01:32.190248Z"
-    },
-    {
-      "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-      "label": "USS Abraham Lincoln conditions raise alarms",
-      "summary": "Sailors on USS Abraham Lincoln face food shortages and broken plumbing after 250+ days at sea; continuation of ongoing deployment issues with no new policy action.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T17:11:25.524220Z"
-    },
-    {
-      "title": "US missionary released following kidnap in Niger, Christian group says",
-      "label": "US missionary freed after Niger kidnapping",
-      "summary": "Kevin Rideout, kidnapped in Niger in October, released and now with US officials; positive resolution to individual case with no broader policy impact.",
-      "score": 2.2,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T11:09:57.503605Z"
     }
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T11:09:57.503605Z",
+  "updated_at": "2026-08-14T11:56:41.831306Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -243,6 +248,10 @@
     },
     {
       "t": "2026-08-14T11:09:57.503605Z",
+      "s": 2.6
+    },
+    {
+      "t": "2026-08-14T11:56:41.831306Z",
       "s": 2.6
     }
   ]

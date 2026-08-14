@@ -1,12 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "Romania nuclear plant shutdown continues due to Danube drought; other events distant or routine.",
+  "global_score": 2.2,
+  "rationale": "Romania nuclear plant shutdown continues (background); distant disasters (Colombia quake, Japan rain, Zimbabwe ferry, DRC Ebola) remain far from Romanian daily life; no new qualitative change.",
   "top_events": [
     {
       "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
       "label": "Romania nuclear plant shut by Danube drought",
-      "summary": "Cernavodă plant producing 20% of Romania's electricity remains shut due to low Danube water levels, not expected to restart within 10 days; ongoing energy crisis.",
-      "score": 2.3,
+      "summary": "Cernavodă plant (20% of electricity) closed due to low Danube water; not expected to restart within 10 days. Ongoing energy concern.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-13T13:46:13.855356Z"
     },
     {
-      "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan unprecedented rain kills eight people",
-      "summary": "Record rainfall in Japan killed eight and stranded thousands at Tokyo airport; distant disaster with no direct impact on Romania.",
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia 7.4 quake kills over 100",
+      "summary": "Major earthquake collapsed buildings in Cali and Pereira. Distant tragedy with no impact on Romania.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-12T21:02:45.579628Z"
+    },
+    {
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "label": "Japan floods kill eight, strand thousands",
+      "summary": "Record rainfall in Japan caused deaths and stranded 7,000 at Tokyo's Narita airport. Distant disaster with no link to Romania.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-14T10:01:21.686214Z"
-    },
-    {
-      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
-      "label": "DRC Ebola outbreak spreads to sixth province",
-      "summary": "Ebola outbreak in Democratic Republic of Congo spreads to sixth province, WHO head says on track to be deadliest ever; distant health crisis.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-        }
-      ],
-      "detected_at": "2026-08-14T11:09:57.498232Z"
     }
   ],
   "short_summary": "Danube drought shuts Romania's nuclear plant",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-14T11:09:57.498232Z",
+  "updated_at": "2026-08-14T11:56:41.826661Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Danube drought shuts Romania's nuclear plant",
     "summary": "Low Danube water forces total shutdown of Romania's nuclear plant, which generates a fifth of national electricity. Direct energy supply crisis.",
     "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "negative",
     "detected_at": "2026-08-13T13:46:13.855356Z",
     "peak_at": "2026-08-13T13:46:13.855356Z",
@@ -244,6 +244,10 @@
     {
       "t": "2026-08-14T11:09:57.498232Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-14T11:56:41.826661Z",
+      "s": 2.2
     }
   ]
 }

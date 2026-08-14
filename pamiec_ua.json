@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-14T11:09:57.508663Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-14T11:56:41.835232Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Japan unprecedented rainfall kills six",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Record rains in Japan; distant disaster."
+    },
+    {
+      "temat": "Ukraine claims advance in Dnipropetrovsk region",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukraine reports liberating 26 settlements in the south."
     },
     {
       "temat": "Israeli troops order Palestinians from Qusra homes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Troops tell families to leave houses in West Bank village."
     },
     {
       "temat": "North Korea condemns US-South Korea military drills",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Pyongyang rhetoric on nuclear war; distant noise."
     },
     {
       "temat": "Zimbabwe ferry capsizes on Lake Kariba killing 44+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Overcrowded ferry sinks in Zimbabwe; distant disaster."
     },
     {
       "temat": "Mali frees 82 soldiers held by armed groups",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Soldiers held by Tuareg and al-Qaeda groups released."
     },
     {
       "temat": "Poland arrests Russian planning assassination of Ukrainian American",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Russian detained in Warsaw for plotting to kill Ukrainian."
     },
     {
       "temat": "Ukraine civilian deaths surge July 2025",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Highest monthly civilian toll in Ukraine since May 2022."
-    },
-    {
-      "temat": "Colombia 7.4 magnitude earthquake",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Over 250 killed in western Colombia quake; distant disaster."
     }
   ],
   "score_history": [
@@ -212,10 +212,30 @@
     {
       "t": "2026-08-14T11:09:57.501574Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T11:56:41.829680Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-13T11:59:17.972532Z",
   "event_detected_at": {
+    "russian ballistic attacks intensify as kyiv claims dnipropetrovsk advance": {
+      "detected_at": "2026-08-13T15:14:24.868087Z",
+      "peak_at": "2026-08-14T11:56:41.829680Z",
+      "peak_score_at": "2026-08-14T11:56:41.829680Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Russian ballistic attacks intensify as Kyiv claims Dnipropetrovsk advance",
+      "peak_label": "Ukraine claims advance in Dnipropetrovsk region",
+      "peak_summary": "Ukraine reports liberating 26 settlements in the south under heavy Russian bombardment. New territorial claim amid intensified strikes directly affects war dynamics.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks?traffic_source=rss"
+        }
+      ]
+    },
     "russia says hit ukrainian railway and port facilities in new strikes": {
       "detected_at": "2026-08-14T10:01:21.690376Z",
       "peak_at": "2026-08-14T10:01:21.690376Z",
@@ -360,22 +380,6 @@
         }
       ]
     },
-    "ukraine attacks key russian grain terminal on black sea port": {
-      "detected_at": "2026-08-13T15:14:24.868087Z",
-      "peak_at": "2026-08-13T15:14:24.868087Z",
-      "peak_score_at": "2026-08-13T15:14:24.868087Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Ukraine attacks key Russian grain terminal on Black Sea port",
-      "peak_label": "Ukraine damages Russian grain terminal Novorossiysk",
-      "peak_summary": "Ukraine strikes Russian grain export terminals at Novorossiysk port. Continuation of mutual attacks on Black Sea shipping infrastructure.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/13-08-sv-ukraine-russia-grain-attack-ur?traffic_source=rss"
-        }
-      ]
-    },
     "uk defends seizing shadow fleet tanker after putin threat": {
       "detected_at": "2026-08-13T10:21:33.432659Z",
       "peak_at": "2026-08-13T16:01:31.162937Z",
@@ -410,8 +414,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Russian ballistic attacks intensify as Kyiv claims Dnipropetrovsk advance",
     "Russia says hit Ukrainian railway and port facilities in new strikes",
-    "'Unprecedented' rain in Japan kills eight people",
-    "Palestinians told to leave homes in village where Israeli settlers besieged houses"
+    "'Unprecedented' rain in Japan kills eight people"
   ]
 }

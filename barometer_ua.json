@@ -1,11 +1,30 @@
 {
-  "global_score": 2.0,
-  "rationale": "Russia reports new strikes on Ukrainian infrastructure; continuation of ongoing war with no qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Russian ballistic attacks intensify and Ukraine claims territorial advance in Dnipropetrovsk region — a qualitative new development in the ongoing war directly affecting Ukrainian residents. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Russian ballistic attacks intensify as Kyiv claims Dnipropetrovsk advance",
+      "label": "Ukraine claims advance in Dnipropetrovsk region",
+      "summary": "Ukraine reports liberating 26 settlements in the south under heavy Russian bombardment. New territorial claim amid intensified strikes directly affects war dynamics.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T15:14:24.868087Z"
+    },
+    {
       "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
-      "label": "Russia strikes Ukrainian rail and port facilities",
-      "summary": "Russia reports new strikes on Ukrainian infrastructure while Kyiv targets Baltic oil hub; continuation of ongoing war with no qualitative change.",
+      "label": "Russia strikes Ukrainian rail and ports",
+      "summary": "Russia reports hitting railway and port facilities; Kyiv targeted Baltic oil hub and Moscow warehouse with drones. Continuation of infrastructure attacks.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,10 +42,10 @@
     },
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan unprecedented rain kills eight people",
-      "summary": "Record rainfall in Japan killed eight and stranded thousands at Tokyo airport; distant disaster with no direct impact on Ukraine.",
+      "label": "Japan floods kill eight, strand thousands",
+      "summary": "Record rainfall in Japan caused deaths and stranded 7,000 at Tokyo's Narita airport. Distant disaster with no link to Ukraine.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -39,35 +58,16 @@
         }
       ],
       "detected_at": "2026-08-14T08:37:30.773866Z"
-    },
-    {
-      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
-      "label": "Israeli troops order Palestinians from Qusra homes",
-      "summary": "Israeli troops tell families to leave houses in West Bank village of Qusra, using some as barracks; distant conflict with no direct impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T22:01:27.685009Z"
     }
   ],
   "short_summary": "Civilian deaths in Ukraine surge to 2022 high",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-14T11:09:57.501574Z",
+  "updated_at": "2026-08-14T11:56:41.829680Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Civilian deaths in Ukraine surge to 2022 high",
     "summary": "UN reports 437 civilians killed and 2,610 injured in Ukraine in July, the highest monthly toll in over two years. Signals intensified fighting and direct threat to Ukrainian residents.",
@@ -244,6 +244,10 @@
     {
       "t": "2026-08-14T11:09:57.501574Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T11:56:41.829680Z",
+      "s": 3.0
     }
   ]
 }
