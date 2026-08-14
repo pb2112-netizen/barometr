@@ -1,30 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "No events affecting Portugal or Iberian region; distant disasters and cultural news continue background.",
+  "rationale": "No events directly affecting Portugal; distant disasters and cultural recoveries only.",
   "top_events": [
     {
-      "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall causes deaths and airport disruption in Japan. Distant disaster with no relevance to Portuguese life.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T06:42:08.446606Z"
-    },
-    {
       "title": "Stolen Matisse artworks recovered by police in Brazil",
-      "label": "Police recover stolen Matisse works in Brazil",
-      "summary": "Eight artworks found in São Paulo. Cultural news with no impact on Portugal.",
+      "label": "Stolen Matisse artworks recovered in Brazil",
+      "summary": "Eight works by French artist found in São Paulo; cultural news with no impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -44,6 +25,25 @@
         }
       ],
       "detected_at": "2026-08-14T10:01:21.688343Z"
+    },
+    {
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "label": "Croatia wildfire injures dozens, evacuates thousands",
+      "summary": "Major wildfire in Croatia continues regional climate concerns but has no direct effect on Portugal.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T20:44:52.703473Z"
     }
   ],
   "short_summary": "UK wildfire sets homes ablaze in Stourbridge",
@@ -51,9 +51,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-14T19:56:02.130077Z",
+  "updated_at": "2026-08-14T20:44:52.703473Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "UK wildfire sets homes ablaze in Stourbridge",
     "summary": "At least six homes set alight by extensive wildfire in Stourbridge. New European climate event with indirect relevance to Portugal's own wildfire vulnerability.",
@@ -233,6 +233,10 @@
     },
     {
       "t": "2026-08-14T19:56:02.130077Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T20:44:52.703473Z",
       "s": 2.0
     }
   ]

@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "No events directly affecting Poland; distant disasters and cultural news continue background noise.",
+  "rationale": "No events directly affecting Poland; distant disasters and cultural news only.",
   "top_events": [
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan rain kills eight, strands thousands",
-      "summary": "Record rainfall in Japan causes deaths and airport disruption. Distant disaster with no impact on Polish daily life.",
+      "label": "Japan storm kills eight, strands thousands",
+      "summary": "Heavy rainfall in Japan caused deaths and power outages, but has no direct impact on daily life in Poland.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,28 +22,23 @@
       "detected_at": "2026-08-14T08:37:30.767361Z"
     },
     {
-      "title": "Stolen Matisse artworks recovered by police in Brazil",
-      "label": "Police recover stolen Matisse works in Brazil",
-      "summary": "Eight artworks by French artist found in São Paulo. Cultural news with no relevance to Poland.",
-      "score": 1.0,
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "label": "Croatia wildfire injures dozens, evacuates thousands",
+      "summary": "Major wildfire near Omis affects regional neighbor, but no direct spillover to Poland yet.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1l1ym96ydvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/italian-police-recover-stolen-paintings-worth-over-10m?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-14T19:56:02.128146Z"
+      "detected_at": "2026-08-14T20:44:52.701575Z"
     }
   ],
   "short_summary": "Nobel laureate says Putin cannot conquer Ukraine",
@@ -51,9 +46,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T19:56:02.128146Z",
+  "updated_at": "2026-08-14T20:44:52.701575Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Nobel laureate says Putin cannot conquer Ukraine",
     "summary": "Dmitry Muratov states Kremlin can only destroy, not conquer Ukraine in fifth year of war. Rhetoric without policy change; ongoing war already in Polish background awareness.",
@@ -233,6 +228,10 @@
     },
     {
       "t": "2026-08-14T19:56:02.128146Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T20:44:52.701575Z",
       "s": 2.0
     }
   ]
