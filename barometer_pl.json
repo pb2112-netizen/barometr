@@ -1,30 +1,49 @@
 {
   "global_score": 2.0,
-  "rationale": "Romania nuclear shutdown continues as known background; no new direct impact on Poland this cycle.",
+  "rationale": "Distant disasters (Japan rain, Colombia quake, Zimbabwe ferry) and routine continuations (Ryanair report, China tariff evasion) have no direct link to Polish daily life.",
   "top_events": [
     {
-      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-      "label": "Romania nuclear plant shut by Danube drought",
-      "summary": "Cernavodă plant closure continues due to low Danube water, affecting regional energy supply. No new change from previous cycles.",
+      "title": "'Unprecedented' rains in Japan kill six people",
+      "label": "Japan floods kill six, strand thousands",
+      "summary": "Record rainfall in Japan caused six deaths and stranded 7,000 at Tokyo's Narita airport. Distant disaster with no impact on Poland.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-13T13:46:13.852927Z"
+      "detected_at": "2026-08-14T08:37:30.767361Z"
+    },
+    {
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "label": "Colombia 7.4 quake kills over 100 people",
+      "summary": "Major earthquake in western Colombia collapsed buildings in Cali and Pereira, killing over 100. Distant tragedy with no connection to Polish life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ],
+      "detected_at": "2026-08-12T21:02:45.577937Z"
     },
     {
       "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "label": "US report: China evaded tariffs via third countries",
-      "summary": "US claims China routed goods through lower-tariff nations to avoid levies. Indirect trade policy noise; no immediate Polish impact.",
+      "label": "US claims China evaded tariffs via third nations",
+      "summary": "US report alleges China routed goods through lower-tariff countries to avoid levies. Indirect trade issue with no immediate Polish impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,26 +58,6 @@
         }
       ],
       "detected_at": "2026-08-14T04:01:32.185347Z"
-    },
-    {
-      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
-      "label": "Israeli troops order Palestinians from Qusra homes",
-      "summary": "Israeli forces tell families to leave houses in Qusra, using some as barracks. Distant Middle East escalation; no Polish link.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T21:02:45.577937Z"
     }
   ],
   "short_summary": "Poland arrests Russian planning Warsaw assassination",
@@ -66,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T06:42:08.442462Z",
+  "updated_at": "2026-08-14T08:37:30.767361Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -240,6 +239,10 @@
     },
     {
       "t": "2026-08-14T06:42:08.442462Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T08:37:30.767361Z",
       "s": 2.0
     }
   ]

@@ -1,35 +1,49 @@
 {
-  "global_score": 2.4,
-  "rationale": "Japan rainfall and Colombia quake are distant disasters; no direct Portuguese impact this cycle.",
+  "global_score": 3.0,
+  "rationale": "Wildfires spreading across Europe including tourist areas directly concern Portugal given its own wildfire vulnerability and tourism economy.",
   "top_events": [
     {
-      "title": "'Unprecedented' rains in Japan kill four people",
-      "label": "Japan rains kill four, strand thousands at airport",
-      "summary": "Record rainfall in Japan claims four lives, cuts power to 20,000 households, strands 7,000 at Narita. Distant Asian disaster.",
-      "score": 2.4,
+      "title": "Wildfires force thousands to flee as blazes spread across Europe",
+      "label": "Europe wildfires force thousands to evacuate",
+      "summary": "Wildfires swept Europe, hospitalizing a dozen in Croatia's Omis. Regional climate threat heightens Portugal's own wildfire and tourism concerns.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC",
         "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/wildfires-force-thousands-to-flee-as-blazes-spread-across-europe?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T08:37:30.771835Z"
+    },
+    {
+      "title": "'Unprecedented' rains in Japan kill six people",
+      "label": "Japan floods kill six, strand thousands",
+      "summary": "Record rainfall in Japan caused six deaths and stranded 7,000 at Narita airport. Distant disaster with no Portuguese impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-14T06:42:08.446606Z"
     },
     {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 100 in west",
-      "summary": "Major earthquake collapses buildings in Cali and Pereira, killing over 100. Distant South American disaster; no Portuguese link.",
+      "label": "Colombia 7.4 quake kills over 100 people",
+      "summary": "Major earthquake in western Colombia collapsed buildings, killing over 100. Distant tragedy with no connection to Portuguese life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -44,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
-    },
-    {
-      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "label": "Zimbabwe ferry capsizes on Lake Kariba killing 44",
-      "summary": "Overcrowded ferry overturned by waves on Lake Kariba; dozens missing. Distant African disaster with no Portuguese connection.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
-        }
-      ],
-      "detected_at": "2026-08-13T10:01:38.889212Z"
     }
   ],
   "short_summary": "UK wildfire sets homes ablaze in Stourbridge",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-14T06:42:08.446606Z",
+  "updated_at": "2026-08-14T08:37:30.771835Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -245,6 +240,10 @@
     {
       "t": "2026-08-14T06:42:08.446606Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-14T08:37:30.771835Z",
+      "s": 3.0
     }
   ]
 }
