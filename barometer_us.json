@@ -1,11 +1,30 @@
 {
-  "global_score": 2.7,
-  "rationale": "USS Abraham Lincoln conditions raise alarms (direct US military concern); China tariff evasion report (ongoing trade issue); distant disasters and rhetoric. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "US report on China tariff evasion continues; USS Abraham Lincoln conditions raise alarms but no new policy action; other events distant or routine.",
   "top_events": [
+    {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US report: China evaded tariffs via third countries",
+      "summary": "New US report claims China routed goods through lower-tariff nations to dodge higher levies; continuation of ongoing trade investigation with no new policy action.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.190248Z"
+    },
     {
       "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
       "label": "USS Abraham Lincoln conditions raise alarms",
-      "summary": "Sailors on carrier face food shortages, broken plumbing after 250+ days at sea; some reportedly considered jumping overboard. Direct US military welfare concern.",
+      "summary": "Sailors on USS Abraham Lincoln face food shortages and broken plumbing after 250+ days at sea; continuation of ongoing deployment issues with no new policy action.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,47 +41,23 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "US accuses dozens of countries of helping China avoid Trump's tariffs",
-      "label": "US claims China evaded tariffs via third countries",
-      "summary": "White House report alleges China routed goods through lower-tariff nations, costing billions in revenue. Ongoing trade issue; no new policy action.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T04:01:32.190248Z"
-    },
-    {
-      "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
-      "label": "Ryanair engine failure caused window breach",
-      "summary": "US investigators report engine fan blade broke on flight from Greece to Germany, causing window breach. Aviation safety concern; no policy change yet.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "US missionary released following kidnap in Niger, Christian group says",
+      "label": "US missionary freed after Niger kidnapping",
+      "summary": "Kevin Rideout, kidnapped in Niger in October, released and now with US officials; positive resolution to individual case with no broader policy impact.",
+      "score": 2.2,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-13T22:01:22.501352Z"
+      "detected_at": "2026-08-14T11:09:57.503605Z"
     }
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T10:16:21.922476Z",
+  "updated_at": "2026-08-14T11:09:57.503605Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T10:19:37.353781Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T11:57:30.240579Z",
       "s": 2.0
@@ -249,6 +240,10 @@
     {
       "t": "2026-08-14T10:16:21.922476Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-14T11:09:57.503605Z",
+      "s": 2.6
     }
   ]
 }

@@ -1,11 +1,49 @@
 {
   "global_score": 2.0,
-  "rationale": "Russia strikes Ukrainian infrastructure (ongoing war background); China tariff evasion report (indirect EU trade noise); Romania nuclear shutdown continues; distant disasters. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US tariff report on China routing goods through third countries has indirect economic relevance; other events distant or routine continuation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US report: China evaded tariffs via third countries",
+      "summary": "New US report claims China routed goods through lower-tariff nations to dodge higher levies, potentially affecting global trade flows and EU economic ties.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.185347Z"
+    },
+    {
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "label": "Japan unprecedented rain kills eight people",
+      "summary": "Record rainfall in Japan killed eight, cut power to 20,000 households, and stranded 7,000 at Narita airport; distant disaster with no direct impact on Poland.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T08:37:30.767361Z"
+    },
+    {
       "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
-      "label": "Russia strikes Ukrainian rail and ports",
-      "summary": "Russia reports new strikes on Ukrainian infrastructure; Kyiv drones target Baltic oil hub. Continuation of ongoing war background near Poland's eastern border.",
+      "label": "Russia strikes Ukrainian rail and port facilities",
+      "summary": "Russia reports new strikes on Ukrainian infrastructure while Kyiv targets Baltic oil hub; continuation of ongoing war with no qualitative change for Poland.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -20,49 +58,6 @@
         }
       ],
       "detected_at": "2026-08-14T10:01:21.684038Z"
-    },
-    {
-      "title": "US accuses dozens of countries of helping China avoid Trump's tariffs",
-      "label": "US claims China evaded tariffs via third countries",
-      "summary": "White House report alleges China routed goods through lower-tariff nations. Indirect noise for EU trade; no immediate policy change affecting Poland.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T04:01:32.185347Z"
-    },
-    {
-      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-      "label": "Romania nuclear plant shut by Danube drought",
-      "summary": "Cernavodă plant (20% of Romania's power) closed due to low Danube water; no restart expected for 10 days. Regional energy concern continues.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T13:46:13.852927Z"
     }
   ],
   "short_summary": "Poland arrests Russian planning Warsaw assassination",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T10:16:21.915124Z",
+  "updated_at": "2026-08-14T11:09:57.496192Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Poland arrests Russian planning Warsaw assassination",
     "summary": "Polish authorities detained a Russian citizen who allegedly planned to kill a Ukrainian American critic of Moscow in Warsaw, a confirmed security threat on Polish territory.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-13T19:19:08.176333Z",
   "score_history": [
-    {
-      "t": "2026-08-12T10:19:37.347064Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T11:57:30.234185Z",
       "s": 2.5
@@ -248,6 +239,10 @@
     },
     {
       "t": "2026-08-14T10:16:21.915124Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T11:09:57.496192Z",
       "s": 2.0
     }
   ]
