@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-14T11:56:41.834308Z",
+  "updated_at": "2026-08-14T13:41:33.081237Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Japan unprecedented rainfall kills four, strands thousands",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Record rains in Japan; distant disaster."
     },
     {
       "temat": "Stolen Matisse artworks recovered in Brazil",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Eight works by French artist found in São Paulo."
     },
     {
       "temat": "Europe wildfires spread across multiple countries",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Blazes force evacuations in Croatia, regional climate."
     },
     {
       "temat": "UK wildfire sets homes ablaze in Stourbridge",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "At least six homes destroyed by wildfire in UK town."
     },
     {
       "temat": "Zimbabwe ferry capsizes killing 15+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     },
     {
       "temat": "Lake Mead record low threatens US water supply",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Largest US reservoir hits record low; distant crisis."
     },
     {
       "temat": "Europe extreme heat wave 135m affected",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Over 135 million Europeans face temperatures over 35C."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake kills 100+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
+      "cykle_bez_zmian": 25,
       "opis": "Major quake in western Colombia; distant disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-12T11:57:30.237712Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T13:45:32.506470Z",
       "s": 2.0
@@ -216,10 +212,34 @@
     {
       "t": "2026-08-14T11:56:41.827946Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T13:41:33.076473Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-13T22:01:22.497428Z",
   "event_detected_at": {
+    "'unprecedented' rain in japan kills eight people": {
+      "detected_at": "2026-08-14T06:42:08.446606Z",
+      "peak_at": "2026-08-14T06:42:08.446606Z",
+      "peak_score_at": "2026-08-14T06:42:08.446606Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "'Unprecedented' rains in Japan kill four people",
+      "peak_label": "Japan rains kill four, strand thousands at airport",
+      "peak_summary": "Record rainfall in Japan claims four lives, cuts power to 20,000 households, strands 7,000 at Narita. Distant Asian disaster.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss"
+        }
+      ]
+    },
     "scores dead in colombia after powerful earthquake strikes west of country": {
       "detected_at": "2026-08-10T15:16:06.510515Z",
       "peak_at": "2026-08-13T16:01:31.161401Z",
@@ -237,26 +257,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
-        }
-      ]
-    },
-    "'unprecedented' rain in japan kills eight people": {
-      "detected_at": "2026-08-14T06:42:08.446606Z",
-      "peak_at": "2026-08-14T06:42:08.446606Z",
-      "peak_score_at": "2026-08-14T06:42:08.446606Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "'Unprecedented' rains in Japan kill four people",
-      "peak_label": "Japan rains kill four, strand thousands at airport",
-      "peak_summary": "Record rainfall in Japan claims four lives, cuts power to 20,000 households, strands 7,000 at Narita. Distant Asian disaster.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan?traffic_source=rss"
         }
       ]
     },
@@ -391,43 +391,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/13/europe-swelters-in-latest-wave-of-extreme-heat?traffic_source=rss"
         }
       ]
-    },
-    "spain to introduce temporary border checks on visitors from italy": {
-      "detected_at": "2026-08-12T11:57:30.237712Z",
-      "peak_at": "2026-08-13T11:59:17.970172Z",
-      "peak_score_at": "2026-08-12T11:57:30.237712Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "peak_label": "Spain introduces temporary Italy border checks",
-      "peak_summary": "Spain responds to Italian border measures with own checks. Minor Schengen disruption affecting Iberian travel but not daily life in Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-        }
-      ]
-    },
-    "more than 135 million people in europe face temperatures over 35c": {
-      "detected_at": "2026-08-13T11:59:17.970172Z",
-      "peak_at": "2026-08-13T11:59:17.970172Z",
-      "peak_score_at": "2026-08-13T11:59:17.970172Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "More than 135 million people in Europe set for temperatures over 35C",
-      "peak_label": "Europe faces extreme heat wave over 35C",
-      "peak_summary": "Over 135 million Europeans face temperatures exceeding 35C as the continent continues to warm faster than any other. Affects Iberia directly with implications for agriculture and tourism.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/13/more-than-135-million-people-in-europe-set-for-temperatures-over-35c?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Scores dead in Colombia after powerful earthquake strikes west of country",
     "'Unprecedented' rain in Japan kills eight people",
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
     "Stolen Matisse artworks recovered by police in Brazil"
   ]
 }

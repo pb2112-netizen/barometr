@@ -1,55 +1,31 @@
 {
-  "global_score": 2.6,
-  "rationale": "US missionary freed in Niger (positive but minor); USS Abraham Lincoln conditions continue as background; China tariff report is continuation; US blockade threat against Iran is rhetoric without confirmed action.",
+  "global_score": 2.5,
+  "rationale": "Conditions on USS Abraham Lincoln raise concerns about US Navy readiness, but no confirmed policy change yet. Other events (China tariff report continuation, missionary release, distant disasters) remain background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US missionary released following kidnap in Niger, Christian group says",
-      "label": "US missionary freed after Niger kidnapping",
-      "summary": "Kevin Rideout, kidnapped in Niamey last October, released and now with US officials. Positive outcome for one American; minor impact on daily life.",
-      "score": 2.1,
-      "sentiment": "positive",
+      "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+      "label": "USS Lincoln sailors face food shortages, broken plumbing",
+      "summary": "Sailors on USS Abraham Lincoln reportedly faced food shortages and broken plumbing after extended deployment. Raises concerns about Navy readiness but no confirmed policy change.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+          "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-14T11:09:57.503605Z"
-    },
-    {
-      "title": "US threatens 'indefinite' blockade against Iran: How long can it last?",
-      "label": "US threatens indefinite Iran blockade",
-      "summary": "Defense Secretary Hegseth claims US Navy can sustain blockade despite poor conditions on carriers. Rhetoric without confirmed action; no immediate impact.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T11:56:41.831306Z"
+      "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
       "title": "US says dozens of countries helped China dodge Trump's tariffs",
       "label": "US report: China evaded tariffs via third countries",
-      "summary": "US claims China routed goods through lower-tariff nations. Continuation of trade tensions; background economic noise.",
-      "score": 2.5,
+      "summary": "US claims China routed goods through lower-tariff nations. Continuation of known trade tensions with no new US impact.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -63,6 +39,35 @@
         }
       ],
       "detected_at": "2026-08-14T04:01:32.190248Z"
+    },
+    {
+      "title": "US missionary released following kidnap in Niger, Christian group says",
+      "label": "US missionary freed after Niger kidnapping",
+      "summary": "Kevin Rideout released after October kidnapping in Niger. Positive outcome to known case with minimal broader US impact.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/us-missionary-kidnapped-in-niger-released-after-nine-months-in-captivity?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+        }
+      ],
+      "detected_at": "2026-08-14T11:09:57.503605Z"
     }
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T11:56:41.831306Z",
+  "updated_at": "2026-08-14T13:41:33.078951Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T11:57:30.240579Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T13:45:32.508754Z",
       "s": 2.6
@@ -253,6 +254,10 @@
     {
       "t": "2026-08-14T11:56:41.831306Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-14T13:41:33.078951Z",
+      "s": 2.5
     }
   ]
 }
