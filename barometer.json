@@ -1,14 +1,38 @@
 {
   "global_score": 2.0,
-  "rationale": "Distant disasters (Japan rain, Colombia quake, Zimbabwe ferry) and routine continuations (Ryanair report, China tariff evasion) have no direct link to Polish daily life.",
+  "rationale": "Continuation of distant disasters and routine reports; no new direct impact on Poland.",
   "top_events": [
     {
-      "title": "'Unprecedented' rains in Japan kill six people",
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US accuses nations of aiding China tariff evasion",
+      "summary": "White House report claims tens of billions lost to transshipments through lower-tariff countries. Indirect EU trade implications, but no immediate Polish impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.185347Z"
+    },
+    {
+      "title": "'Unprecedented' rain in Japan kills six people",
       "label": "Japan floods kill six, strand thousands",
-      "summary": "Record rainfall in Japan caused six deaths and stranded 7,000 at Tokyo's Narita airport. Distant disaster with no impact on Poland.",
+      "summary": "Record rainfall cuts power to 20,000 households and strands 7,000 at Tokyo airport. Distant disaster with no Polish connection.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -22,42 +46,23 @@
       "detected_at": "2026-08-14T08:37:30.767361Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 100 people",
-      "summary": "Major earthquake in western Colombia collapsed buildings in Cali and Pereira, killing over 100. Distant tragedy with no connection to Polish life.",
+      "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
+      "label": "Russia strikes Ukrainian rail and ports",
+      "summary": "Russia reports hitting Ukrainian infrastructure; Kyiv targets Baltic oil hub with drones. Continuation of known conflict, no qualitative change.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/russia-says-hit-ukrainian-railway-and-port-facilities-in-new-strikes?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-12T21:02:45.577937Z"
-    },
-    {
-      "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "label": "US claims China evaded tariffs via third nations",
-      "summary": "US report alleges China routed goods through lower-tariff countries to avoid levies. Indirect trade issue with no immediate Polish impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T04:01:32.185347Z"
+      "detected_at": "2026-08-14T10:01:21.684038Z"
     }
   ],
   "short_summary": "Poland arrests Russian planning Warsaw assassination",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T08:37:30.767361Z",
+  "updated_at": "2026-08-14T10:01:21.684038Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Poland arrests Russian planning Warsaw assassination",
     "summary": "Polish authorities detained a Russian citizen who allegedly planned to kill a Ukrainian American critic of Moscow in Warsaw, a confirmed security threat on Polish territory.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T19:19:08.176333Z",
   "score_history": [
-    {
-      "t": "2026-08-12T08:39:34.100621Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-12T10:01:23.007352Z",
       "s": 2.0
@@ -243,6 +244,10 @@
     },
     {
       "t": "2026-08-14T08:37:30.767361Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T10:01:21.684038Z",
       "s": 2.0
     }
   ]

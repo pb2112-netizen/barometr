@@ -1,31 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Wildfires spreading across Europe including Croatia (regional neighbor) directly affect Romanian tourism and climate concerns, raising awareness of similar risks.",
+  "global_score": 2.5,
+  "rationale": "Nuclear plant shutdown continues; no new developments affecting Romania directly.",
   "top_events": [
-    {
-      "title": "Wildfires force thousands to flee as blazes spread across Europe",
-      "label": "Europe wildfires force thousands to evacuate",
-      "summary": "Wildfires swept across Europe, hospitalizing a dozen in Croatia's tourist town of Omis. Regional climate threat raises concern for Romania's own fire risk and tourism.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/wildfires-force-thousands-to-flee-as-blazes-spread-across-europe?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T08:37:30.769719Z"
-    },
     {
       "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
       "label": "Romania nuclear plant shut by Danube drought",
-      "summary": "Cernavodă plant, producing 20% of Romania's electricity, closed due to low Danube levels and won't restart for 10+ days. Ongoing energy crisis.",
-      "score": 2.6,
+      "summary": "Cernavodă plant producing 20% of electricity remains closed for at least 10 days due to low Danube levels. Continuation of known energy disruption.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -41,38 +22,57 @@
       "detected_at": "2026-08-13T13:46:13.855356Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia 7.4 quake kills over 100 people",
-      "summary": "Major earthquake in western Colombia collapsed buildings, killing over 100. Distant disaster with no Romanian connection.",
+      "title": "'Unprecedented' rain in Japan kills six people",
+      "label": "Japan floods kill six, strand thousands",
+      "summary": "Record rainfall cuts power to 20,000 households and strands 7,000 at Tokyo airport. Distant disaster with no Romanian connection.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-12T21:02:45.579628Z"
+      "detected_at": "2026-08-14T10:01:21.686214Z"
+    },
+    {
+      "title": "Russia says hit Ukrainian railway and port facilities in new strikes",
+      "label": "Russia strikes Ukrainian rail and ports",
+      "summary": "Russia reports hitting Ukrainian infrastructure; Kyiv targets Baltic oil hub with drones. Continuation of regional conflict, no qualitative change.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/russia-says-hit-ukrainian-railway-and-port-facilities-in-new-strikes?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T10:01:21.686214Z"
     }
   ],
   "short_summary": "Danube drought shuts Romania's nuclear plant",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-14T08:37:30.769719Z",
+  "updated_at": "2026-08-14T10:01:21.686214Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Danube drought shuts Romania's nuclear plant",
     "summary": "Low Danube water forces total shutdown of Romania's nuclear plant, which generates a fifth of national electricity. Direct energy supply crisis.",
     "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-    "score": 4.0,
+    "score": 3.9,
     "sentiment": "negative",
     "detected_at": "2026-08-13T13:46:13.855356Z",
     "peak_at": "2026-08-13T13:46:13.855356Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-13T13:46:13.855356Z",
   "score_history": [
-    {
-      "t": "2026-08-12T08:39:34.102069Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-12T10:01:23.009140Z",
       "s": 2.0
@@ -244,6 +240,10 @@
     {
       "t": "2026-08-14T08:37:30.769719Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-14T10:01:21.686214Z",
+      "s": 2.5
     }
   ]
 }

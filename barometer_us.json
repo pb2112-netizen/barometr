@@ -1,11 +1,35 @@
 {
-  "global_score": 2.9,
-  "rationale": "USS Abraham Lincoln conditions after extended deployment raise domestic military readiness concerns; China tariff evasion report continues trade policy debate.",
+  "global_score": 2.8,
+  "rationale": "Continuation of China tariff evasion report and USS Lincoln conditions; no new direct impact.",
   "top_events": [
     {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US accuses nations of aiding China tariff evasion",
+      "summary": "White House report claims tens of billions lost to transshipments through lower-tariff countries. Continuation of known trade issue, no new policy action.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/14/us-accuses-dozens-of-countries-of-helping-china-avoid-trumps-tariffs?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.190248Z"
+    },
+    {
       "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-      "label": "USS Lincoln crew faces food shortages at sea",
-      "summary": "Thousands of sailors on the USS Abraham Lincoln reportedly faced food shortages and broken plumbing after 250+ days at sea. Ongoing military readiness concern.",
+      "label": "USS Lincoln sailors face food shortages at sea",
+      "summary": "Thousands on carrier reportedly face food shortages and broken plumbing after 250+ days deployed. Continuation of known conditions, no new policy change.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,32 +46,13 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "label": "US claims China evaded tariffs via third nations",
-      "summary": "US report alleges China routed goods through lower-tariff countries to avoid levies. Continuation of trade policy debate with indirect economic impact.",
-      "score": 2.9,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T04:01:32.190248Z"
-    },
-    {
       "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
       "label": "Ryanair window breach caused by engine failure",
-      "summary": "US investigators report a broken engine fan blade caused the window breach on a Ryanair flight from Greece to Germany. Ongoing aviation safety investigation.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "summary": "US investigators report fan blade broke on European flight, causing window breach. Continuation of known investigation, no new safety action.",
+      "score": 2.1,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T08:37:30.775545Z",
+  "updated_at": "2026-08-14T10:01:21.692169Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UAE accuses Iran of attacking vessels in Hormuz",
     "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T08:39:34.106045Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T10:01:23.014417Z",
       "s": 2.0
@@ -244,6 +245,10 @@
     {
       "t": "2026-08-14T08:37:30.775545Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-14T10:01:21.692169Z",
+      "s": 2.8
     }
   ]
 }
