@@ -1,15 +1,15 @@
 {
-  "global_score": 2.9,
-  "rationale": "Romania's nuclear plant shutdown continues (already known background); distant disasters (Colombia quake, Zimbabwe ferry) and Mali prisoner release have no direct impact on Romanian daily life.",
+  "global_score": 2.8,
+  "rationale": "Romania nuclear plant shutdown continues; no new qualitative change this cycle.",
   "top_events": [
     {
       "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-      "label": "Romania nuclear plant shut by low Danube",
-      "summary": "Cernavodă plant, supplying 20% of Romania's electricity, remains offline due to extreme heat and low Danube water—no restart for 10+ days. Direct energy supply concern for residents.",
-      "score": 2.9,
+      "label": "Romania closes nuclear plant due to Danube drought",
+      "summary": "Cernavodă plant, producing 20% of Romania's electricity, remains shut due to low Danube levels. Continuation of known energy crisis affecting daily life.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
@@ -22,31 +22,12 @@
       "detected_at": "2026-08-13T13:46:13.855356Z"
     },
     {
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "label": "Colombia earthquake kills over 100 people",
-      "summary": "7.4 magnitude quake in western Colombia collapses buildings in Cali and Pereira, killing 100+. Distant disaster with no connection to Romanian daily life.",
+      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+      "label": "Zimbabwe ferry capsizes on Lake Kariba killing 44",
+      "summary": "Overcrowded ferry overturned by waves on Lake Kariba. Distant African disaster with no connection to Romania.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        }
-      ],
-      "detected_at": "2026-08-12T21:02:45.579628Z"
-    },
-    {
-      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "label": "Zimbabwe ferry capsizes killing 44 people",
-      "summary": "Overcrowded ferry overturned by waves on Lake Kariba; dozens missing. Distant African disaster with no impact on Romania.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -58,6 +39,30 @@
         }
       ],
       "detected_at": "2026-08-13T18:06:52.387559Z"
+    },
+    {
+      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+      "label": "Israeli troops order Palestinians from Qusra homes",
+      "summary": "Israeli forces tell families to leave West Bank village houses. Distant Middle East conflict with no direct impact on Romania.",
+      "score": 1.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/un-palestinian-ministry-condemn-israeli-settler-siege-of-west-bank-homes?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T02:45:26.141940Z"
     }
   ],
   "short_summary": "Danube drought shuts Romania's nuclear plant",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-14T04:01:32.186585Z",
+  "updated_at": "2026-08-14T05:01:04.352833Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Danube drought shuts Romania's nuclear plant",
     "summary": "Low Danube water forces total shutdown of Romania's nuclear plant, which generates a fifth of national electricity. Direct energy supply crisis.",
     "title": "Falling Danube flow forces shutdown of Romania's sole nuclear plant",
-    "score": 4.3,
+    "score": 4.2,
     "sentiment": "negative",
     "detected_at": "2026-08-13T13:46:13.855356Z",
     "peak_at": "2026-08-13T13:46:13.855356Z",
@@ -240,6 +245,10 @@
     {
       "t": "2026-08-14T04:01:32.186585Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-14T05:01:04.352833Z",
+      "s": 2.8
     }
   ]
 }
