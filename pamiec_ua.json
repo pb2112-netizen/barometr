@@ -1,50 +1,58 @@
 {
-  "updated_at": "2026-08-14T02:45:26.151948Z",
+  "updated_at": "2026-08-14T04:01:32.193384Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Israeli settlers besiege Palestinian families in West Bank",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Settlers besiege families after security withdrawal."
     },
     {
       "temat": "Ukraine civilian deaths surge July 2025",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
       "opis": "Highest monthly civilian toll in Ukraine since May 2022."
     },
     {
       "temat": "Colombia 7.4 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Over 250 killed in western Colombia quake; distant disaster."
     },
     {
       "temat": "Putin visits disputed Kuril islands",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Russian leader visits Kuril islands, prompting Japan."
     },
     {
       "temat": "Ebola outbreak in DRC becomes deadliest ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Over 2,000 deaths in DRC; distant health crisis."
     },
     {
       "temat": "Poland arrests Russian planning assassination of Ukrainian American",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Russian detained in Warsaw for plotting to kill Ukrainian."
+    },
+    {
+      "temat": "Zimbabwe ferry capsizes on Lake Kariba killing 44+",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Overcrowded ferry sinks in Zimbabwe; distant disaster."
+    },
+    {
+      "temat": "Mali frees 82 soldiers held by armed groups",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Soldiers held by Tuareg and al-Qaeda groups released."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-12T04:01:17.192042Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T05:01:27.868681Z",
       "s": 2.0
@@ -196,10 +204,62 @@
     {
       "t": "2026-08-14T02:45:26.145142Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T04:01:32.188753Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-13T11:59:17.972532Z",
   "event_detected_at": {
+    "scores dead in colombia after powerful earthquake strikes west of country": {
+      "detected_at": "2026-08-11T21:03:17.488534Z",
+      "peak_at": "2026-08-14T04:01:32.188753Z",
+      "peak_score_at": "2026-08-14T04:01:32.188753Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "peak_label": "Colombia earthquake kills over 100 people",
+      "peak_summary": "7.4 magnitude quake in western Colombia collapses buildings in Cali and Pereira, killing 100+. Distant disaster with no connection to Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+        }
+      ]
+    },
+    "at least 44 dead after overcrowded ferry capsizes on lake kariba in zimbabwe": {
+      "detected_at": "2026-08-13T17:11:25.521949Z",
+      "peak_at": "2026-08-13T17:11:25.521949Z",
+      "peak_score_at": "2026-08-13T17:11:25.521949Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+      "peak_label": "Zimbabwe ferry capsizes killing 44 on Lake Kariba",
+      "peak_summary": "Overcrowded ferry overturned by waves on Lake Kariba; distant tragedy with no impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        }
+      ]
+    },
+    "mali says 82 soldiers captured by armed groups have been freed": {
+      "detected_at": "2026-08-14T04:01:32.188753Z",
+      "peak_at": "2026-08-14T04:01:32.188753Z",
+      "peak_score_at": "2026-08-14T04:01:32.188753Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Mali says 82 soldiers captured by armed groups have been freed",
+      "peak_label": "Mali frees 82 soldiers held by armed groups",
+      "peak_summary": "Malian army reports soldiers held by Tuareg and al-Qaeda-linked groups in northern region have been released. Distant African conflict with no relevance to Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/mali-says-82-soldiers-captured-by-armed-groups-have-been-freed?traffic_source=rss"
+        }
+      ]
+    },
     "putin can no longer claim victory in ukraine, nobel peace prize winner tells bbc": {
       "detected_at": "2026-08-13T05:03:15.790491Z",
       "peak_at": "2026-08-13T22:01:22.498829Z",
@@ -213,26 +273,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "scores dead in colombia after powerful earthquake strikes west of country": {
-      "detected_at": "2026-08-11T21:03:17.488534Z",
-      "peak_at": "2026-08-13T08:43:01.665376Z",
-      "peak_score_at": "2026-08-12T08:39:34.104821Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "negative",
-      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
-      "peak_label": "Colombia quake kills over 180 in western cities",
-      "peak_summary": "Major 7.4 magnitude earthquake strikes western Colombia, killing over 180. Distant disaster with no impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -265,22 +305,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/13/poland-arrests-man-who-allegedly-tried-to-kill-ukrainian-american?traffic_source=rss"
-        }
-      ]
-    },
-    "at least 44 dead after overcrowded ferry capsizes on lake kariba in zimbabwe": {
-      "detected_at": "2026-08-13T17:11:25.521949Z",
-      "peak_at": "2026-08-13T17:11:25.521949Z",
-      "peak_score_at": "2026-08-13T17:11:25.521949Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "peak_label": "Zimbabwe ferry capsizes killing 44 on Lake Kariba",
-      "peak_summary": "Overcrowded ferry overturned by waves on Lake Kariba; distant tragedy with no impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
         }
       ]
     },
@@ -347,30 +371,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "ebola outbreak on track to be deadliest ever, who chief says": {
-      "detected_at": "2026-08-13T02:46:02.174035Z",
-      "peak_at": "2026-08-13T02:46:02.174035Z",
-      "peak_score_at": "2026-08-13T02:46:02.174035Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
-      "peak_label": "Ebola outbreak in DRC becomes deadliest ever",
-      "peak_summary": "Over 2,000 deaths in DRC Ebola outbreak; distant health crisis with no impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-    "Scores dead in Colombia after powerful earthquake strikes west of country"
+    "Scores dead in Colombia after powerful earthquake strikes west of country",
+    "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+    "Mali says 82 soldiers captured by armed groups have been freed"
   ]
 }

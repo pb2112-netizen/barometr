@@ -1,62 +1,52 @@
 {
-  "updated_at": "2026-08-14T02:45:26.150792Z",
+  "updated_at": "2026-08-14T04:01:32.192715Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Colombia 7.4 magnitude earthquake kills 100+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Major quake in western Colombia; distant disaster."
     },
     {
       "temat": "Europe extreme heat wave 135m affected",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Over 135 million Europeans face temperatures over 35C."
     },
     {
       "temat": "Zimbabwe ferry capsizes killing 15+",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 0,
       "opis": "Overcrowded ferry sinks in Lake Kariba; distant disaster."
     },
     {
       "temat": "UK drought threatens farmers",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Severe drought imperils UK agriculture; distant crisis."
     },
     {
       "temat": "Oman oil spill from tanker reaches coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Up to 40km of Omani coastline affected by oil pollution."
     },
     {
       "temat": "Ebola outbreak in DRC becomes deadliest ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Over 2,000 deaths in DRC; distant health crisis."
     },
     {
-      "temat": "Morocco increases security at Spanish enclave borders",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Morocco boosts border security at Ceuta and Melilla."
-    },
-    {
       "temat": "UK wildfire sets homes ablaze in Stourbridge",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "At least six homes destroyed by wildfire in UK town."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-12T04:01:17.191008Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-12T05:01:27.867282Z",
       "s": 2.9
@@ -208,6 +198,10 @@
     {
       "t": "2026-08-14T02:45:26.143889Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T04:01:32.187775Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-13T22:01:22.497428Z",
@@ -245,6 +239,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        }
+      ]
+    },
+    "oil slick from tanker carrying sanctioned russian crude reaches oman": {
+      "detected_at": "2026-08-13T05:03:15.788829Z",
+      "peak_at": "2026-08-13T05:03:15.788829Z",
+      "peak_score_at": "2026-08-13T05:03:15.788829Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Oman says oil spill from stricken tanker has reached its coast",
+      "peak_label": "Oil spill reaches Oman coast",
+      "peak_summary": "Up to 40km of Omani coastline affected by oil pollution from tanker. Distant environmental event with no energy price impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/13/oman-says-oil-spill-from-stricken-tanker-has-reached-its-coast?traffic_source=rss"
         }
       ]
     },
@@ -293,42 +303,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/13/europe-swelters-in-latest-wave-of-extreme-heat?traffic_source=rss"
-        }
-      ]
-    },
-    "oman says massive oil spill reaches coastline: what damage could it do?": {
-      "detected_at": "2026-08-13T05:03:15.788829Z",
-      "peak_at": "2026-08-13T05:03:15.788829Z",
-      "peak_score_at": "2026-08-13T05:03:15.788829Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Oman says oil spill from stricken tanker has reached its coast",
-      "peak_label": "Oil spill reaches Oman coast",
-      "peak_summary": "Up to 40km of Omani coastline affected by oil pollution from tanker. Distant environmental event with no energy price impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/13/oman-says-oil-spill-from-stricken-tanker-has-reached-its-coast?traffic_source=rss"
-        }
-      ]
-    },
-    "ebola outbreak on track to be deadliest ever, who chief says": {
-      "detected_at": "2026-08-13T02:46:02.172521Z",
-      "peak_at": "2026-08-13T02:46:02.172521Z",
-      "peak_score_at": "2026-08-13T02:46:02.172521Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
-      "peak_label": "Ebola outbreak in DRC becomes deadliest ever",
-      "peak_summary": "Over 2,000 deaths in DRC Ebola outbreak; distant health crisis with no link to Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating"
         }
       ]
     },
@@ -384,6 +358,6 @@
   "prev_top_event_titles": [
     "Scores dead in Colombia after powerful earthquake strikes west of country",
     "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-    "Romania shuts only nuclear plant as heat causes huge drop in Danube River level"
+    "Oil slick from tanker carrying sanctioned Russian crude reaches Oman"
   ]
 }

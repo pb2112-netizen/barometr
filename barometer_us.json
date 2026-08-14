@@ -1,12 +1,31 @@
 {
-  "global_score": 3.2,
-  "rationale": "USS Abraham Lincoln conditions worsen with food shortages and broken plumbing; UAE accuses Iran of attacking vessels in Strait of Hormuz.",
+  "global_score": 3.0,
+  "rationale": "Iran asserts control over Strait of Hormuz continues as known background; USS Abraham Lincoln conditions remain ongoing concern; new US report on China tariff evasion is rhetoric without immediate policy action.",
   "top_events": [
     {
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "label": "US report: countries helped China dodge tariffs",
+      "summary": "New US report claims China routed goods through lower-tariff nations to evade levies. Rhetoric without immediate policy change; no direct impact on US daily life yet.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.190248Z"
+    },
+    {
       "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
-      "label": "USS Abraham Lincoln faces food shortages at sea",
-      "summary": "Thousands of sailors on carrier deployed over 250 days report food shortages, broken plumbing, and morale concerns—direct impact on US naval readiness.",
-      "score": 2.2,
+      "label": "USS Abraham Lincoln conditions raise alarms",
+      "summary": "Thousands of sailors on USS Abraham Lincoln face food shortages and broken plumbing after 250+ days at sea. Ongoing concern for military readiness and morale.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
-      "label": "UAE accuses Iran of attacking vessels in Hormuz",
-      "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-12T02:43:07.124137Z"
-    },
-    {
       "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
-      "label": "Ryanair engine failure caused window breach",
-      "summary": "US investigators report fan blade broke on flight from Greece to Germany, causing window breach—aviation safety incident involving US investigation.",
-      "score": 2.6,
+      "label": "Ryanair window breach caused by engine failure",
+      "summary": "US investigators report fan blade broke on European flight, causing window breach. Ongoing aviation safety concern; no new policy action.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -62,12 +62,12 @@
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T02:45:26.146622Z",
+  "updated_at": "2026-08-14T04:01:32.190248Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "UAE accuses Iran of attacking vessels in Hormuz",
     "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-12T04:01:17.193285Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-12T05:01:27.869881Z",
       "s": 2.9
@@ -240,6 +236,10 @@
     {
       "t": "2026-08-14T02:45:26.146622Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-14T04:01:32.190248Z",
+      "s": 3.0
     }
   ]
 }

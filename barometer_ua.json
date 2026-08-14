@@ -1,49 +1,63 @@
 {
   "global_score": 2.0,
-  "rationale": "Nobel winner's rhetoric about Ukraine war offers no new military facts; no escalation or change in battlefield situation this cycle.",
+  "rationale": "No new developments in Ukraine war this cycle; distant disasters (Colombia quake, Zimbabwe ferry, DRC Ebola) and Mali prisoner release have no impact on Ukrainian daily life.",
   "top_events": [
-    {
-      "title": "Putin can no longer claim victory in Ukraine, Nobel Peace Prize winner tells BBC",
-      "label": "Nobel laureate says Putin cannot conquer Ukraine",
-      "summary": "Dmitry Muratov states Russia can only destroy, not conquer Ukraine in war's fifth year—rhetoric without new military developments or policy changes.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T05:03:15.790491Z"
-    },
     {
       "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
       "label": "Colombia earthquake kills over 100 people",
-      "summary": "A 7.4 magnitude quake struck western Colombia—distant disaster with no relevance to Ukraine's war situation.",
-      "score": 1.0,
-      "sentiment": "neutral",
+      "summary": "7.4 magnitude quake in western Colombia collapses buildings in Cali and Pereira, killing 100+. Distant disaster with no connection to Ukraine.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian",
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/un-palestinian-ministry-condemn-israeli-settler-siege-of-west-bank-homes?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-11T21:03:17.488534Z"
+    },
+    {
+      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+      "label": "Zimbabwe ferry capsizes killing 44 people",
+      "summary": "Overcrowded ferry overturned by waves on Lake Kariba; dozens missing. Distant African disaster with no impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        }
+      ],
+      "detected_at": "2026-08-13T17:11:25.521949Z"
+    },
+    {
+      "title": "Mali says 82 soldiers captured by armed groups have been freed",
+      "label": "Mali frees 82 soldiers held by armed groups",
+      "summary": "Malian army reports soldiers held by Tuareg and al-Qaeda-linked groups in northern region have been released. Distant African conflict with no relevance to Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/mali-says-82-soldiers-captured-by-armed-groups-have-been-freed?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T04:01:32.188753Z"
     }
   ],
   "short_summary": "Civilian deaths in Ukraine surge to 2022 high",
@@ -51,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-14T02:45:26.145142Z",
+  "updated_at": "2026-08-14T04:01:32.188753Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Civilian deaths in Ukraine surge to 2022 high",
     "summary": "UN reports 437 civilians killed and 2,610 injured in Ukraine in July, the highest monthly toll in over two years. Signals intensified fighting and direct threat to Ukrainian residents.",
@@ -71,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-13T11:59:17.972532Z",
   "score_history": [
-    {
-      "t": "2026-08-12T04:01:17.192042Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T05:01:27.868681Z",
       "s": 2.0
@@ -225,6 +235,10 @@
     },
     {
       "t": "2026-08-14T02:45:26.145142Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T04:01:32.188753Z",
       "s": 2.0
     }
   ]
