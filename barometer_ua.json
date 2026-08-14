@@ -1,13 +1,13 @@
 {
-  "global_score": 2.0,
-  "rationale": "No new military developments on Ukrainian territory; distant news only.",
+  "global_score": 2.5,
+  "rationale": "No new direct military developments on Ukrainian territory; distant disasters and cultural news dominate cycle.",
   "top_events": [
     {
       "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers",
       "label": "Palestinians besieged by settlers in West Bank",
-      "summary": "Two families trapped in West Bank homes by settlers; distant conflict with no direct impact on Ukraine.",
+      "summary": "Two families trapped in homes by settlers in occupied West Bank. Distant conflict with no impact on Ukraine.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-12T22:01:27.685009Z"
     },
     {
+      "title": "Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule",
+      "label": "Afghan women describe life under Taliban rule",
+      "summary": "Women report public floggings, job losses, healthcare barriers after five years of Taliban control. Distant humanitarian crisis with no link to Ukraine.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T21:39:36.312335Z"
+    },
+    {
       "title": "'Unprecedented' rain in Japan kills eight people",
       "label": "Japan storm kills eight, strands thousands",
-      "summary": "Heavy rainfall in Japan caused deaths and airport disruptions, but has no relevance to Ukrainian daily life.",
+      "summary": "Record rainfall in Japan causes deaths and power outages. Distant disaster with no connection to Ukraine.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -43,12 +62,12 @@
   ],
   "short_summary": "Ukraine claims advance in Dnipropetrovsk region",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-14T20:44:52.704656Z",
+  "updated_at": "2026-08-14T21:39:36.312335Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine claims advance in Dnipropetrovsk region",
     "summary": "Ukraine reports liberating 26 settlements in the south under heavy Russian bombardment. New territorial claim amid intensified strikes directly affects war dynamics.",
@@ -66,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-13T15:14:24.868087Z",
   "score_history": [
-    {
-      "t": "2026-08-12T21:02:45.582973Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-12T22:01:27.685009Z",
       "s": 2.6
@@ -233,6 +248,10 @@
     {
       "t": "2026-08-14T20:44:52.704656Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T21:39:36.312335Z",
+      "s": 2.5
     }
   ]
 }

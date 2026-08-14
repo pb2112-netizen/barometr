@@ -1,13 +1,32 @@
 {
   "global_score": 2.0,
-  "rationale": "No events directly affecting Poland; distant disasters and cultural news only.",
+  "rationale": "Distant disasters and cultural news; Croatia wildfire is regional climate concern but no direct impact on Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "label": "Croatia wildfire forces thousands to evacuate",
+      "summary": "One of Croatia's worst wildfires near Omis forces mass evacuations. Regional climate event with no direct impact on Poland.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T20:44:52.701575Z"
+    },
     {
       "title": "'Unprecedented' rain in Japan kills eight people",
       "label": "Japan storm kills eight, strands thousands",
-      "summary": "Heavy rainfall in Japan caused deaths and power outages, but has no direct impact on daily life in Poland.",
+      "summary": "Record rainfall in Japan causes deaths and power outages. Distant disaster with no connection to Polish daily life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,23 +41,28 @@
       "detected_at": "2026-08-14T08:37:30.767361Z"
     },
     {
-      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire injures dozens, evacuates thousands",
-      "summary": "Major wildfire near Omis affects regional neighbor, but no direct spillover to Poland yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "title": "Stolen Matisse artworks recovered by police in Brazil",
+      "label": "Police recover stolen Matisse works in Brazil",
+      "summary": "Eight Matisse paintings found in São Paulo. Cultural news with no relevance to Poland.",
+      "score": 1.5,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c1l1ym96ydvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/italian-police-recover-stolen-paintings-worth-over-10m?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-14T20:44:52.701575Z"
+      "detected_at": "2026-08-14T19:56:02.128146Z"
     }
   ],
   "short_summary": "Nobel laureate says Putin cannot conquer Ukraine",
@@ -46,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-14T20:44:52.701575Z",
+  "updated_at": "2026-08-14T21:39:36.307456Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -66,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T05:03:15.784296Z",
   "score_history": [
-    {
-      "t": "2026-08-12T21:02:45.577937Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-12T22:01:27.679509Z",
       "s": 4.3
@@ -232,6 +252,10 @@
     },
     {
       "t": "2026-08-14T20:44:52.701575Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-14T21:39:36.307456Z",
       "s": 2.0
     }
   ]

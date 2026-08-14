@@ -1,37 +1,13 @@
 {
-  "global_score": 2.0,
-  "rationale": "No events directly affecting Portugal; distant disasters and cultural recoveries only.",
+  "global_score": 2.8,
+  "rationale": "Croatia wildfire is European climate event; other headlines are distant disasters or cultural news.",
   "top_events": [
     {
-      "title": "Stolen Matisse artworks recovered by police in Brazil",
-      "label": "Stolen Matisse artworks recovered in Brazil",
-      "summary": "Eight works by French artist found in São Paulo; cultural news with no impact on Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1l1ym96ydvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/italian-police-recover-stolen-paintings-worth-over-10m?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T10:01:21.688343Z"
-    },
-    {
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire injures dozens, evacuates thousands",
-      "summary": "Major wildfire in Croatia continues regional climate concerns but has no direct effect on Portugal.",
+      "label": "Croatia wildfire forces thousands to evacuate",
+      "summary": "One of Croatia's worst wildfires forces mass evacuations. European climate event with indirect relevance to Portugal.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -44,16 +20,54 @@
         }
       ],
       "detected_at": "2026-08-14T20:44:52.703473Z"
+    },
+    {
+      "title": "Mount Etna eruption and volcanic ash shut Sicily's busiest airport",
+      "label": "Mount Etna eruption closes Sicily airport",
+      "summary": "Volcanic ash from Etna shuts Catania airport, stranding travelers. European travel disruption with minor indirect impact on Portuguese tourism.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/mount-etna-eruption-and-volcanic-ash-shut-sicilys-busiest-airport?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T21:39:36.310278Z"
+    },
+    {
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "label": "Japan storm kills eight, strands thousands",
+      "summary": "Record rainfall in Japan causes deaths and power outages. Distant disaster with no connection to Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T06:42:08.446606Z"
     }
   ],
   "short_summary": "UK wildfire sets homes ablaze in Stourbridge",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-14T20:44:52.703473Z",
+  "updated_at": "2026-08-14T21:39:36.310278Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK wildfire sets homes ablaze in Stourbridge",
     "summary": "At least six homes set alight by extensive wildfire in Stourbridge. New European climate event with indirect relevance to Portugal's own wildfire vulnerability.",
@@ -71,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-13T22:01:22.497428Z",
   "score_history": [
-    {
-      "t": "2026-08-12T21:02:45.581338Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-12T22:01:27.683629Z",
       "s": 2.0
@@ -238,6 +248,10 @@
     {
       "t": "2026-08-14T20:44:52.703473Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-14T21:39:36.310278Z",
+      "s": 2.8
     }
   ]
 }
