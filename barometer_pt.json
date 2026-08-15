@@ -1,11 +1,35 @@
 {
   "global_score": 2.0,
-  "rationale": "Distant disasters and regional events with no direct impact on Portugal; background noise continues. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No events directly affect Portugal; distant disasters and migration events remain background noise.",
   "top_events": [
     {
-      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores",
-      "summary": "Major earthquake strikes eastern Indonesia with search and rescue underway. Distant disaster with no Portuguese connection.",
+      "title": "Moroccan police arrest more than 100 people as they attempt to enter Ceuta",
+      "label": "Morocco arrests 100+ migrants heading to Spanish Ceuta",
+      "summary": "Moroccan police detained over 100 migrants attempting to cross into Spain's Ceuta enclave. The event reflects ongoing Iberian migration pressure but remains a continuation of known patterns.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        }
+      ],
+      "detected_at": "2026-08-15T20:37:49.739550Z"
+    },
+    {
+      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
+      "label": "Indonesia quake kills 47, destroys hundreds of buildings",
+      "summary": "A powerful earthquake in Indonesia has killed 47 people and destroyed hundreds of buildings. The disaster remains geographically distant with no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -16,84 +40,36 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
-    },
-    {
-      "title": "Morocco detains dozens of migrants trying to cross into Ceuta",
-      "label": "Morocco detains migrants heading to Ceuta",
-      "summary": "Security stepped up after social media calls for mass crossing into Spanish enclave. Iberian neighbor's border management issue.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC",
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-        }
-      ],
-      "detected_at": "2026-08-15T21:34:41.070510Z"
-    },
-    {
-      "title": "Death toll from Zimbabwe ferry disaster rises to 72",
-      "label": "Zimbabwe ferry death toll reaches 72",
-      "summary": "Overloaded vessel capsized on Lake Kariba; 26 more bodies recovered. Distant African tragedy with no Portuguese impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.586739Z"
     }
   ],
-  "short_summary": "Mount Etna eruption closes Sicily airport",
+  "short_summary": "Croatia wildfire forces mass evacuations",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-15T21:34:41.070510Z",
+  "updated_at": "2026-08-15T22:01:11.975264Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Mount Etna eruption closes Sicily airport",
-    "summary": "Volcanic ash from Etna shuts Catania airport, stranding travelers. European travel disruption with minor indirect impact on Portuguese tourism.",
-    "title": "Mount Etna eruption and volcanic ash shut Sicily's busiest airport",
-    "score": 2.8,
+    "label": "Croatia wildfire forces mass evacuations",
+    "summary": "Major fire in Croatia continues as one of worst in country's history; European climate event with indirect regional impact.",
+    "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+    "score": 2.3,
     "sentiment": "negative",
-    "detected_at": "2026-08-14T21:39:36.310278Z",
-    "peak_at": "2026-08-14T21:39:36.310278Z",
+    "detected_at": "2026-08-14T20:44:52.703473Z",
+    "peak_at": "2026-08-14T22:39:34.377327Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/mount-etna-eruption-and-volcanic-ash-shut-sicilys-busiest-airport?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-14T21:39:36.310278Z",
+  "events_anchor_at": "2026-08-14T20:44:52.703473Z",
   "score_history": [
     {
       "t": "2026-08-13T22:01:22.497428Z",
@@ -293,6 +269,10 @@
     },
     {
       "t": "2026-08-15T21:34:41.070510Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T22:01:11.975264Z",
       "s": 2.0
     }
   ]
