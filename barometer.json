@@ -1,13 +1,32 @@
 {
   "global_score": 2.0,
-  "rationale": "Ukraine's strike on Russian satellite network continues as the only event with indirect security relevance; all other headlines are distant disasters or routine noise. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Belgium wildfire continues as known European climate event; distant disasters and rhetoric dominate cycle with no direct impact on Polish daily life.",
   "top_events": [
     {
-      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores",
-      "summary": "Major earthquake strikes eastern Indonesia; search and rescue underway. Distant disaster with no impact on Polish daily life.",
+      "title": "Firefighters battle wildfire tearing through Belgian nature reserve",
+      "label": "Belgium wildfire burns through major nature reserve",
+      "summary": "Major wildfire continues in Belgium, described as worst in recent years. European climate event with no direct impact on Poland.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T19:33:32.785306Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "label": "Indonesia 7.7 quake kills 47 in Flores Island",
+      "summary": "Deadly earthquake in eastern Indonesia with search operations ongoing. Distant disaster with no connection to Polish life.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,52 +41,38 @@
       "detected_at": "2026-08-15T03:04:05.339278Z"
     },
     {
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill 11 in south Lebanon",
-      "summary": "Israel hits Hezbollah targets in Lebanon. Distant Middle East conflict with no direct link to Poland.",
+      "title": "Moroccan police arrest more than 100 people as they attempt to enter Ceuta",
+      "label": "Morocco arrests 100 migrants heading to Ceuta",
+      "summary": "Morocco intercepts migrants attempting to cross into Spanish enclave. Continuation of known EU migration pressure point.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.584889Z"
-    },
-    {
-      "title": "Firefighters battle wildfire tearing through Belgian nature reserve",
-      "label": "Major wildfire hits Belgian nature reserve",
-      "summary": "Belgium faces worst wildfire in recent years. EU neighbor event but no direct impact on Polish residents.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-15T19:33:32.785306Z"
+      "detected_at": "2026-08-15T20:37:49.736225Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian satellite network with missiles",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-15T19:33:32.785306Z",
+  "updated_at": "2026-08-15T20:37:49.736225Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine strikes Russian satellite network with missiles",
     "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Poland's eastern security environment.",
@@ -279,6 +284,10 @@
     },
     {
       "t": "2026-08-15T19:33:32.785306Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T20:37:49.736225Z",
       "s": 2.0
     }
   ]

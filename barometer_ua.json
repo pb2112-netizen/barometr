@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Ukraine's strike on Russian satellite network continues as the only event with direct war relevance; all other headlines are distant disasters or routine military movements with no impact on Ukrainian war situation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No new developments in Ukraine's war; distant disasters and US carrier movements remain background noise with no impact on Ukrainian daily life.",
   "top_events": [
     {
       "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores",
-      "summary": "Major earthquake strikes eastern Indonesia; search and rescue underway. Distant disaster with no impact on Ukrainian war effort.",
+      "label": "Indonesia 7.7 quake kills 47 in Flores Island",
+      "summary": "Deadly earthquake in eastern Indonesia with search operations ongoing. Distant disaster with no connection to Ukrainian life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,28 +22,9 @@
       "detected_at": "2026-08-11T21:03:17.488534Z"
     },
     {
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill 11 in south Lebanon",
-      "summary": "Israel hits Hezbollah targets in Lebanon. Distant Middle East conflict with no relevance to Ukraine's war with Russia.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.587321Z"
-    },
-    {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "USS Washington relieves Lincoln in Middle East",
-      "summary": "New carrier deployed after reports of poor conditions on Lincoln. Routine US naval rotation with no impact on Ukraine.",
+      "label": "US carrier relieves Lincoln after crew issues",
+      "summary": "USS Washington replaces Lincoln due to poor conditions aboard. Routine US naval rotation with no impact on Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,16 +44,35 @@
         }
       ],
       "detected_at": "2026-08-15T05:40:11.179625Z"
+    },
+    {
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "label": "Israeli strikes kill 11 in southern Lebanon",
+      "summary": "Israel hits Hezbollah targets in Lebanon. Distant Middle East conflict with no relevance to Ukraine's war.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.587321Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian satellite network in Samara",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-15T19:33:32.789538Z",
+  "updated_at": "2026-08-15T20:37:49.740686Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine strikes Russian satellite network in Samara",
     "summary": "Ukraine used domestically produced Flamingo missiles to hit Russian communications infrastructure in Samara region. Demonstrates Ukraine's continued capability to strike strategic targets deep inside.",
@@ -284,6 +284,10 @@
     },
     {
       "t": "2026-08-15T19:33:32.789538Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T20:37:49.740686Z",
       "s": 2.0
     }
   ]

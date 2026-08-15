@@ -1,11 +1,49 @@
 {
   "global_score": 2.0,
-  "rationale": "USS Lincoln relief continues as routine naval rotation; Virginia shooting is local crime; BP Venezuela deal is corporate news without enacted policy impact; all other headlines are distant or rhetoric.",
+  "rationale": "Virginia shooting and carrier rotation continue as known background; BP Venezuela investment and Canadian petition are rhetoric without enacted policy impact.",
   "top_events": [
     {
+      "title": "Multiple suspects at large after five shot at Virginia State University, police say",
+      "label": "Five shot at Virginia State University campus",
+      "summary": "Shooting outside residence halls at Virginia State University with suspects at large. Continuation of domestic gun violence.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T13:43:34.759437Z"
+    },
+    {
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "label": "BP invests in Venezuela offshore gasfield",
+      "summary": "BP announces Venezuela gas investment following Trump policy shift. First large foreign investment but no immediate market impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.588723Z"
+    },
+    {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "USS Washington relieves Lincoln in Middle East",
-      "summary": "New carrier deployed after reports of food shortages and broken plumbing on Lincoln. Routine naval rotation addressing crew welfare.",
+      "label": "US carrier relieves Lincoln after crew issues",
+      "summary": "USS Washington replaces Lincoln due to poor conditions aboard. Routine naval rotation with no policy or operational change.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -25,70 +63,32 @@
         }
       ],
       "detected_at": "2026-08-13T17:11:25.524220Z"
-    },
-    {
-      "title": "Multiple suspects at large after five shot at Virginia State University, police say",
-      "label": "Five shot at Virginia State University",
-      "summary": "Shooting outside residence halls early Saturday; suspects at large. Local crime incident with no broader policy impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0l5583903yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T13:43:34.759437Z"
-    },
-    {
-      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP invests in Venezuela offshore gasfield",
-      "summary": "First large-scale foreign investment since US ousted Maduro. Corporate deal but no enacted policy change yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.588723Z"
     }
   ],
-  "short_summary": "Five wounded in Virginia State University shooting",
+  "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T19:33:32.791091Z",
+  "updated_at": "2026-08-15T20:37:49.742164Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Five wounded in Virginia State University shooting",
-    "summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
-    "title": "Five wounded in shooting at Virginia State University",
-    "score": 2.5,
+    "label": "UAE accuses Iran of attacking vessels in Hormuz",
+    "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
+    "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+    "score": 2.4,
     "sentiment": "negative",
-    "detected_at": "2026-08-15T13:43:34.759437Z",
-    "peak_at": "2026-08-15T13:43:34.759437Z",
+    "detected_at": "2026-08-12T02:43:07.124137Z",
+    "peak_at": "2026-08-15T03:04:05.350502Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/15/five-wounded-in-shooting-at-virginia-state?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-15T13:43:34.759437Z",
+  "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
     {
       "t": "2026-08-13T21:02:31.475323Z",
@@ -284,6 +284,10 @@
     },
     {
       "t": "2026-08-15T19:33:32.791091Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T20:37:49.742164Z",
       "s": 2.0
     }
   ]
