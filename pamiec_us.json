@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-15T13:43:34.763007Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-15T14:38:31.580450Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US carrier deployed to relieve USS Lincoln",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "New carrier sent to relieve Lincoln after poor conditions."
     },
     {
       "temat": "BP to develop Venezuela gasfield",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "BP invests in Venezuela offshore gas; Trump policy impact."
     },
     {
       "temat": "Virginia State University shooting",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "Five wounded in shooting near university residence halls."
     },
     {
       "temat": "BBC subpoenas Trump family in lawsuit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Legal action over January 6 speech; no policy impact yet."
     },
     {
       "temat": "South Korea proposes talks to end Korean War",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Seoul president proposes formal talks with North Korea."
     },
     {
       "temat": "Trump claims Strait of Hormuz as US territory",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Rhetoric on Iran strait control; no policy enacted yet."
     },
     {
       "temat": "Trump dismisses USS Lincoln mental health concerns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Congress probe called after sailor jump ship reports."
     },
     {
       "temat": "Trump ballroom project Supreme Court case",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Admin seeks court approval to bypass Congress for project."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T13:46:13.861027Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-13T15:14:24.869817Z",
       "s": 2.0
@@ -248,10 +244,46 @@
     {
       "t": "2026-08-15T13:43:34.759437Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-15T14:38:31.574491Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-15T13:43:34.759437Z",
   "event_detected_at": {
+    "five wounded in shooting at virginia state university, multiple suspects": {
+      "detected_at": "2026-08-15T13:43:34.759437Z",
+      "peak_at": "2026-08-15T13:43:34.759437Z",
+      "peak_score_at": "2026-08-15T13:43:34.759437Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Five wounded in shooting at Virginia State University",
+      "peak_label": "Five wounded in Virginia State University shooting",
+      "peak_summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/five-wounded-in-shooting-at-virginia-state?traffic_source=rss"
+        }
+      ]
+    },
+    "us aircraft carrier on way to relieve uss lincoln after issues reported aboard": {
+      "detected_at": "2026-08-13T17:11:25.524220Z",
+      "peak_at": "2026-08-14T21:39:36.314580Z",
+      "peak_score_at": "2026-08-14T21:39:36.314580Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
+      "peak_label": "Trump dismisses USS Lincoln mental health concerns",
+      "peak_summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
+        }
+      ]
+    },
     "bp to develop offshore gasfield in venezuela with firms linked to trump administration": {
       "detected_at": "2026-08-15T11:33:32.588723Z",
       "peak_at": "2026-08-15T11:33:32.588723Z",
@@ -265,38 +297,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        }
-      ]
-    },
-    "us aircraft carrier on way to relieve uss lincoln after issues reported aboard": {
-      "detected_at": "2026-08-13T17:11:25.524220Z",
-      "peak_at": "2026-08-14T21:39:36.314580Z",
-      "peak_score_at": "2026-08-14T21:39:36.314580Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
-      "peak_label": "Trump dismisses USS Lincoln mental health concerns",
-      "peak_summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
-        }
-      ]
-    },
-    "five wounded in shooting at virginia state university": {
-      "detected_at": "2026-08-15T13:43:34.759437Z",
-      "peak_at": "2026-08-15T13:43:34.759437Z",
-      "peak_score_at": "2026-08-15T13:43:34.759437Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Five wounded in shooting at Virginia State University",
-      "peak_label": "Five wounded in Virginia State University shooting",
-      "peak_summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/five-wounded-in-shooting-at-virginia-state?traffic_source=rss"
         }
       ]
     },
@@ -418,8 +418,8 @@
     }
   },
   "prev_top_event_titles": [
-    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+    "Five wounded in shooting at Virginia State University, multiple suspects",
     "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-    "Five wounded in shooting at Virginia State University"
+    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration"
   ]
 }
