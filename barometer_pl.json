@@ -1,14 +1,32 @@
 {
-  "global_score": 2.0,
-  "short_summary": "USS Lincoln relief carrier deployed after conditions",
-  "rationale": "Distant disasters and Middle East strikes continue with no direct link to Polish daily life; no new developments affecting Poland's security, energy, or economy.",
+  "global_score": 3.5,
+  "rationale": "Ukraine strikes Russian satellite network — indirect security relevance for Poland; other events distant or background noise.",
   "top_events": [
     {
-      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores",
-      "summary": "Powerful earthquake strikes eastern Indonesia with search and rescue underway. Distant disaster with no impact on Poland.",
-      "score": 2.0,
+      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "label": "Ukraine strikes Russian satellite network with missiles",
+      "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Poland's eastern security environment.",
+      "score": 3.5,
       "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T16:39:58.216363Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "label": "Indonesia earthquake kills 47 in Flores Island",
+      "summary": "Powerful 7.7 magnitude quake struck eastern Indonesia with search and rescue under way. Distant disaster with no impact on Polish daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -24,10 +42,10 @@
     },
     {
       "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill 11 in south Lebanon",
-      "summary": "Israel hits Hezbollah infrastructure in response to earlier action. Ongoing Middle East conflict with no Polish connection.",
+      "label": "Israeli strikes kill eleven in southern Lebanon",
+      "summary": "Israel hit Hezbollah infrastructure in Lebanon after earlier action against its soldiers. Distant Middle East conflict with no direct link to Poland.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -42,42 +60,31 @@
       "detected_at": "2026-08-15T11:33:32.584889Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Ukraine strikes Russian satellite network with missiles",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-15T16:00:49.188083Z",
+  "updated_at": "2026-08-15T16:39:58.216363Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "USS Lincoln relief carrier deployed after conditions",
-    "summary": "US Navy sends replacement carrier after Lincoln sailors faced food shortages and broken plumbing on extended deployment; distant military logistics issue.",
-    "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
-    "score": 2.5,
+    "label": "Ukraine strikes Russian satellite network with missiles",
+    "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Poland's eastern security environment.",
+    "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+    "score": 3.5,
     "sentiment": "neutral",
-    "detected_at": "2026-08-14T23:36:14.196641Z",
-    "peak_at": "2026-08-14T23:36:14.196641Z",
+    "detected_at": "2026-08-15T16:39:58.216363Z",
+    "peak_at": "2026-08-15T16:39:58.216363Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-      },
-      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-14T23:36:14.196641Z",
+  "events_anchor_at": "2026-08-15T16:39:58.216363Z",
   "score_history": [
-    {
-      "t": "2026-08-13T16:01:31.157598Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-13T16:09:39.727328Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-13T17:11:25.517040Z",
       "s": 2.4
@@ -269,6 +276,10 @@
     {
       "t": "2026-08-15T16:00:49.188083Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T16:39:58.216363Z",
+      "s": 3.5
     }
   ]
 }

@@ -1,14 +1,32 @@
 {
-  "global_score": 2.0,
-  "short_summary": "Afghan women describe life under Taliban rule",
-  "rationale": "Distant disasters and Middle East strikes continue; no new developments affecting Ukraine's war situation, infrastructure, or Western aid.",
+  "global_score": 4.0,
+  "rationale": "Ukraine strikes Russian satellite network — significant new military action directly involving Ukrainian forces; other events distant or background noise. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "label": "Ukraine strikes Russian satellite network with missiles",
+      "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Significant new military action directly involving Ukrainian forces.",
+      "score": 4.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T16:39:58.220224Z"
+    },
+    {
       "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores",
-      "summary": "Major earthquake in Indonesia with search operations ongoing. Distant disaster irrelevant to Ukraine's war situation.",
+      "label": "Indonesia earthquake kills 47 in Flores Island",
+      "summary": "Powerful 7.7 magnitude quake struck eastern Indonesia with search and rescue under way. Distant disaster with no impact on Ukrainian daily life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -24,10 +42,10 @@
     },
     {
       "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill 11 in south Lebanon",
-      "summary": "Israel targets Hezbollah infrastructure in Lebanon. Distant Middle East conflict with no Ukrainian relevance.",
+      "label": "Israeli strikes kill eleven in southern Lebanon",
+      "summary": "Israel hit Hezbollah infrastructure in Lebanon after earlier action against its soldiers. Distant Middle East conflict with no direct link to Ukraine.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -42,38 +60,31 @@
       "detected_at": "2026-08-15T11:33:32.587321Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Ukraine strikes Russian satellite network with missiles",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-15T16:00:49.190362Z",
+  "updated_at": "2026-08-15T16:39:58.220224Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
-    "label": "Afghan women describe life under Taliban rule",
-    "summary": "Women report public floggings, job losses, healthcare barriers after five years of Taliban control. Distant humanitarian crisis with no link to Ukraine.",
-    "title": "Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule",
-    "score": 2.3,
-    "sentiment": "negative",
-    "detected_at": "2026-08-14T21:39:36.312335Z",
-    "peak_at": "2026-08-14T21:39:36.312335Z",
+    "label": "Ukraine strikes Russian satellite network with missiles",
+    "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Significant new military action directly involving Ukrainian forces.",
+    "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+    "score": 4.0,
+    "sentiment": "positive",
+    "detected_at": "2026-08-15T16:39:58.220224Z",
+    "peak_at": "2026-08-15T16:39:58.220224Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-14T21:39:36.312335Z",
+  "events_anchor_at": "2026-08-15T16:39:58.220224Z",
   "score_history": [
-    {
-      "t": "2026-08-13T16:01:31.162937Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-13T16:09:39.731156Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-13T17:11:25.521949Z",
       "s": 2.1
@@ -265,6 +276,10 @@
     {
       "t": "2026-08-15T16:00:49.190362Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T16:39:58.220224Z",
+      "s": 4.0
     }
   ]
 }

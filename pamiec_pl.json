@@ -1,36 +1,34 @@
 {
-  "updated_at": "2026-08-15T16:00:49.192362Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-15T16:39:58.222971Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Croatia wildfire forces mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "One of worst fires in Croatia's history; regional climate."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Powerful quake near Flores Island; distant disaster."
     },
     {
       "temat": "Israeli strikes on southern Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Israel hits Hezbollah targets; distant Middle East clash."
+    },
+    {
+      "temat": "Ukraine strikes Russian satellite network",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukraine hits Russian Starlink-style network in Samara."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T16:01:31.157598Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-13T16:09:39.727328Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-13T17:11:25.517040Z",
       "s": 2.4
@@ -222,10 +220,30 @@
     {
       "t": "2026-08-15T16:00:49.188083Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T16:39:58.216363Z",
+      "s": 3.5
     }
   ],
-  "events_anchor_at": "2026-08-14T23:36:14.196641Z",
+  "events_anchor_at": "2026-08-15T16:39:58.216363Z",
   "event_detected_at": {
+    "ukraine hits russian starlink-style network, moscow tracks arms package": {
+      "detected_at": "2026-08-15T16:39:58.216363Z",
+      "peak_at": "2026-08-15T16:39:58.216363Z",
+      "peak_score_at": "2026-08-15T16:39:58.216363Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "peak_label": "Ukraine strikes Russian satellite network with missiles",
+      "peak_summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Poland's eastern security environment.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+        }
+      ]
+    },
     "powerful magnitude 7.7 earthquake kills at least 47 in indonesia": {
       "detected_at": "2026-08-15T03:04:05.339278Z",
       "peak_at": "2026-08-15T03:04:05.339278Z",
@@ -456,6 +474,7 @@
     }
   },
   "prev_top_event_titles": [
+    "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
     "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
     "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
   ]

@@ -1,42 +1,40 @@
 {
-  "updated_at": "2026-08-15T16:00:49.194998Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-15T16:39:58.226319Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Afghan women describe life under Taliban rule",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Five years of Taliban rule; distant humanitarian crisis."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Powerful quake near Flores Island; distant disaster."
     },
     {
       "temat": "Taiwan passes defense budget after delay",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Taiwan ends budget deadlock; distant geopolitical noise."
     },
     {
       "temat": "Israeli strikes on southern Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Israel hits Hezbollah targets; distant Middle East clash."
+    },
+    {
+      "temat": "Ukraine strikes Russian satellite network",
+      "poziom_bazowy": 6.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukraine hits Russian Starlink-style network in Samara."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T16:01:31.162937Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-13T16:09:39.731156Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-13T17:11:25.521949Z",
       "s": 2.1
@@ -228,10 +226,30 @@
     {
       "t": "2026-08-15T16:00:49.190362Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T16:39:58.220224Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-08-14T21:39:36.312335Z",
+  "events_anchor_at": "2026-08-15T16:39:58.220224Z",
   "event_detected_at": {
+    "ukraine hits russian starlink-style network, moscow tracks arms package": {
+      "detected_at": "2026-08-15T16:39:58.220224Z",
+      "peak_at": "2026-08-15T16:39:58.220224Z",
+      "peak_score_at": "2026-08-15T16:39:58.220224Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "positive",
+      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
+      "peak_label": "Ukraine strikes Russian satellite network with missiles",
+      "peak_summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Significant new military action directly involving Ukrainian forces.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+        }
+      ]
+    },
     "powerful magnitude 7.7 earthquake kills at least 47 in indonesia": {
       "detected_at": "2026-08-11T21:03:17.488534Z",
       "peak_at": "2026-08-15T04:46:24.178216Z",
@@ -419,25 +437,10 @@
           "url": "https://www.aljazeera.com/news/2026/8/14/kushner-to-visit-israel-after-netanyahu-rejects-gaza-board-of-peace-plan?traffic_source=rss"
         }
       ]
-    },
-    "us missionary released following kidnap in niger, christian group says": {
-      "detected_at": "2026-08-14T16:05:00.046281Z",
-      "peak_at": "2026-08-14T16:05:00.046281Z",
-      "peak_score_at": "2026-08-14T16:05:00.046281Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "US missionary released following kidnap in Niger, Christian group says",
-      "peak_label": "US missionary freed after Niger kidnapping",
-      "peak_summary": "Kevin Rideout was released after nine months in captivity in Niger. Distant event with no connection to Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
     "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
     "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
   ]
