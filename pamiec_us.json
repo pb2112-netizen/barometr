@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-15T06:57:19.773322Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-15T07:43:44.024432Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Mangione guilty plea in UnitedHealthcare CEO killing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Federal guilty plea in high-profile CEO murder case."
     },
     {
       "temat": "US carrier deployed to relieve USS Lincoln",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "New carrier sent to relieve Lincoln after poor conditions."
     },
     {
       "temat": "BBC subpoenas Trump family in lawsuit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Legal action over January 6 speech; no policy impact yet."
     },
     {
-      "temat": "Trump dismisses USS Lincoln mental health concerns",
+      "temat": "South Korea proposes talks to end Korean War",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 1,
+      "opis": "Seoul president proposes formal talks with North Korea."
+    },
+    {
+      "temat": "Trump dismisses USS Lincoln mental health concerns",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 11,
       "opis": "Congress probe called after sailor jump ship reports."
     },
     {
       "temat": "Trump claims Strait of Hormuz as US territory",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Rhetoric on Iran strait control; no policy enacted yet."
     },
     {
       "temat": "Trump ballroom project Supreme Court case",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Admin seeks court approval to bypass Congress for project."
     },
     {
       "temat": "Colombia earthquake kills over 100",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "7.4 magnitude quake strikes western Colombia; distant."
-    },
-    {
-      "temat": "USS Abraham Lincoln poor conditions after extended deployment",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Sailors face food shortages, broken plumbing after 250+."
     }
   ],
   "score_history": [
@@ -232,31 +232,19 @@
     {
       "t": "2026-08-15T06:57:19.767434Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-15T07:43:44.018311Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-13T17:11:25.524220Z",
   "event_detected_at": {
-    "mangione admits killing healthcare ceo and pleads guilty to federal charges": {
-      "detected_at": "2026-08-13T19:19:08.182259Z",
-      "peak_at": "2026-08-14T16:05:00.048445Z",
-      "peak_score_at": "2026-08-14T16:05:00.048445Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Mangione pleads guilty to federal charges in UnitedHealthcare CEO killing",
-      "peak_label": "Mangione pleads guilty in CEO killing",
-      "peak_summary": "Luigi Mangione admitted to shooting Brian Thompson in federal court; still faces state charges. Legal conclusion to known case.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/mangione-pleads-guilty-to-federal-charges-in-unitedhealthcare-ceo-killing?traffic_source=rss"
-        }
-      ]
-    },
     "us aircraft carrier on way to relieve uss lincoln after issues reported aboard": {
       "detected_at": "2026-08-13T17:11:25.524220Z",
       "peak_at": "2026-08-14T21:39:36.314580Z",
       "peak_score_at": "2026-08-14T21:39:36.314580Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
       "peak_label": "Trump dismisses USS Lincoln mental health concerns",
@@ -265,6 +253,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
+        }
+      ]
+    },
+    "'i shot mr thompson'- what it was like inside court as mangione pleaded guilty": {
+      "detected_at": "2026-08-13T19:19:08.182259Z",
+      "peak_at": "2026-08-14T16:05:00.048445Z",
+      "peak_score_at": "2026-08-14T16:05:00.048445Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Mangione pleads guilty to federal charges in UnitedHealthcare CEO killing",
+      "peak_label": "Mangione pleads guilty in CEO killing",
+      "peak_summary": "Luigi Mangione admitted to shooting Brian Thompson in federal court; still faces state charges. Legal conclusion to known case.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/mangione-pleads-guilty-to-federal-charges-in-unitedhealthcare-ceo-killing?traffic_source=rss"
         }
       ]
     },
@@ -386,8 +390,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
     "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+    "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
     "BBC seeks to subpoena Trump's family members in Panorama lawsuit"
   ]
 }

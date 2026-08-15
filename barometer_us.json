@@ -1,13 +1,37 @@
 {
-  "global_score": 2.5,
-  "rationale": "Mangione federal guilty plea in CEO killing is confirmed action in high-profile domestic case. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "USS Lincoln relief deployment continues as known issue; Mangione guilty plea is continuation of known case.",
   "top_events": [
     {
-      "title": "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
-      "label": "Mangione pleads guilty in CEO murder case",
-      "summary": "Luigi Mangione pleads guilty to federal charges in UnitedHealthcare CEO killing; confirmed action in high-profile domestic case.",
-      "score": 2.0,
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+      "label": "Carrier deployed to relieve troubled USS Lincoln",
+      "summary": "New carrier sent to relieve Lincoln after sailors faced food shortages and broken plumbing. Continuation of known military readiness issue.",
+      "score": 2.4,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/what-we-know-about-the-crisis-aboard-the-uss-lincoln?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T17:11:25.524220Z"
+    },
+    {
+      "title": "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
+      "label": "Mangione pleads guilty in CEO killing case",
+      "summary": "First time court heard Mangione describe committing the high-profile UnitedHealthcare CEO murder. Legal proceeding in known case.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
@@ -16,37 +40,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-13T19:19:08.182259Z"
     },
     {
-      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "New carrier deployed to relieve USS Lincoln",
-      "summary": "New carrier sent to relieve Lincoln after reports of food shortages and broken plumbing; continues known deployment issue.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T17:11:25.524220Z"
-    },
-    {
       "title": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
-      "label": "BBC seeks Trump family subpoenas in lawsuit",
-      "summary": "BBC lawyers argue Trump family has knowledge of his January 6 intentions; legal maneuvering without policy impact.",
+      "label": "BBC subpoenas Trump family in lawsuit",
+      "summary": "BBC lawyers argue Trump family has knowledge of his January 6 speech intentions. Legal action without policy impact yet.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T06:57:19.767434Z",
+  "updated_at": "2026-08-15T07:43:44.018311Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Trump dismisses USS Lincoln mental health concerns",
     "summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
     "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
-    "score": 3.0,
+    "score": 2.9,
     "sentiment": "negative",
     "detected_at": "2026-08-13T17:11:25.524220Z",
     "peak_at": "2026-08-14T21:39:36.314580Z",
@@ -264,6 +269,10 @@
     {
       "t": "2026-08-15T06:57:19.767434Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-15T07:43:44.018311Z",
+      "s": 2.4
     }
   ]
 }
