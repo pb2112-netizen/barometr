@@ -1,11 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "BP Venezuela investment is new but indirect; USS Lincoln relief continues; BBC lawsuit and other events remain background noise.",
+  "global_score": 2.5,
+  "rationale": "USS Lincoln relief deployment continues; BP Venezuela investment is new but indirect; other events are distant disasters or rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP invests in Venezuela offshore gasfield",
-      "summary": "First major foreign investment in Venezuela since US ousted Maduro. Signals policy shift but no immediate domestic impact.",
+      "label": "BP invests in Venezuela gasfield under Trump policy",
+      "summary": "BP announces first large-scale foreign investment in Venezuela since US ousted Maduro. Signals shift in US-Venezuela relations under Trump administration.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -23,10 +23,10 @@
     },
     {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "Carrier deployed to relieve USS Lincoln",
-      "summary": "New carrier sent after Lincoln sailors faced food shortages and broken plumbing. Continues ongoing military readiness issue.",
+      "label": "New carrier deployed to relieve USS Lincoln",
+      "summary": "New carrier sent to relieve Lincoln after reports of food shortages and broken plumbing. Continuation of ongoing deployment issue.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -41,49 +41,49 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
-      "label": "BBC subpoenas Trump family in lawsuit",
-      "summary": "Legal action over January 6 speech continues with no policy impact. Ongoing litigation without domestic consequences.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "Five wounded in shooting at Virginia State University",
+      "label": "Five wounded in Virginia State University shooting",
+      "summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "inne",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/five-wounded-in-shooting-at-virginia-state?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-15T06:57:19.767434Z"
+      "detected_at": "2026-08-15T13:43:34.759437Z"
     }
   ],
-  "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
+  "short_summary": "Five wounded in Virginia State University shooting",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T12:58:34.967633Z",
+  "updated_at": "2026-08-15T13:43:34.759437Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "UAE accuses Iran of attacking vessels in Hormuz",
-    "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
-    "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
-    "score": 2.4,
+    "label": "Five wounded in Virginia State University shooting",
+    "summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
+    "title": "Five wounded in shooting at Virginia State University",
+    "score": 2.5,
     "sentiment": "negative",
-    "detected_at": "2026-08-12T02:43:07.124137Z",
-    "peak_at": "2026-08-15T03:04:05.350502Z",
+    "detected_at": "2026-08-15T13:43:34.759437Z",
+    "peak_at": "2026-08-15T13:43:34.759437Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/15/five-wounded-in-shooting-at-virginia-state?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-12T02:43:07.124137Z",
+  "events_anchor_at": "2026-08-15T13:43:34.759437Z",
   "score_history": [
     {
       "t": "2026-08-13T13:46:13.861027Z",
@@ -276,6 +276,10 @@
     {
       "t": "2026-08-15T12:58:34.967633Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T13:43:34.759437Z",
+      "s": 2.5
     }
   ]
 }
