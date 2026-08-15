@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Indonesia earthquake continues; distant events with no connection to Ukrainian war situation or daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No events directly affecting Ukraine's war situation; distant disasters and Middle East conflicts remain background noise.",
   "top_events": [
     {
-      "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-      "label": "Indonesia quake kills 38 in Flores Island",
-      "summary": "Search and rescue underway after 7.7-magnitude earthquake strikes eastern Indonesia. Distant disaster with no impact on Ukrainian daily life.",
+      "title": "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
+      "label": "Indonesia 7.7 quake kills 38 people",
+      "summary": "Major earthquake strikes Flores Island with rescue operations ongoing. Distant disaster with no Ukrainian relevance.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,9 +22,28 @@
       "detected_at": "2026-08-11T21:03:17.488534Z"
     },
     {
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "label": "Israeli strikes kill eleven in Lebanon",
+      "summary": "Israel targets Hezbollah infrastructure in southern Lebanon. Middle East conflict has no bearing on Ukraine's war.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.587321Z"
+    },
+    {
       "title": "South Korea proposes talks to officially end war with North",
-      "label": "South Korea proposes talks with North",
-      "summary": "Lee Jae Myung offers chance to end conflict frozen since 1953 armistice. Distant geopolitical development with no Ukrainian connection.",
+      "label": "South Korea proposes talks with North Korea",
+      "summary": "Seoul offers chance to end conflict frozen since 1953 armistice. Distant geopolitical development with no Ukrainian impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,61 +58,33 @@
         }
       ],
       "detected_at": "2026-08-15T09:39:41.259838Z"
-    },
-    {
-      "title": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
-      "label": "Israeli strike kills seven in Lebanon",
-      "summary": "Strike on Ansar kills three children and two women. Distant Middle East conflict with no Ukrainian connection.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.587321Z"
     }
   ],
-  "short_summary": "Ukraine claims advance in Dnipropetrovsk region",
+  "short_summary": "Afghan women describe life under Taliban rule",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-15T11:33:32.587321Z",
+  "updated_at": "2026-08-15T12:58:34.965934Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Ukraine claims advance in Dnipropetrovsk region",
-    "summary": "Ukraine reports liberating 26 settlements in the south under heavy Russian bombardment. New territorial claim amid intensified strikes directly affects war dynamics.",
-    "title": "Russian ballistic attacks intensify as Kyiv claims Dnipropetrovsk advance",
-    "score": 3.0,
-    "sentiment": "positive",
-    "detected_at": "2026-08-13T15:14:24.868087Z",
-    "peak_at": "2026-08-14T11:56:41.829680Z",
+    "label": "Afghan women describe life under Taliban rule",
+    "summary": "Women report public floggings, job losses, healthcare barriers after five years of Taliban control. Distant humanitarian crisis with no link to Ukraine.",
+    "title": "Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule",
+    "score": 2.3,
+    "sentiment": "negative",
+    "detected_at": "2026-08-14T21:39:36.312335Z",
+    "peak_at": "2026-08-14T21:39:36.312335Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/ukraine-liberates-dnipropetrovsk-as-russia-intensifies-missile-attacks?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-13T15:14:24.868087Z",
+  "events_anchor_at": "2026-08-14T21:39:36.312335Z",
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.972532Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T13:46:13.858885Z",
       "s": 2.5
@@ -280,6 +271,10 @@
     },
     {
       "t": "2026-08-15T11:33:32.587321Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.965934Z",
       "s": 2.0
     }
   ]

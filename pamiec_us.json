@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-15T11:33:32.592408Z",
+  "updated_at": "2026-08-15T12:58:34.973813Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US carrier deployed to relieve USS Lincoln",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "New carrier sent to relieve Lincoln after poor conditions."
     },
     {
       "temat": "BBC subpoenas Trump family in lawsuit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Legal action over January 6 speech; no policy impact yet."
     },
     {
       "temat": "BP to develop Venezuela gasfield",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "BP invests in Venezuela offshore gas; Trump policy impact."
     },
     {
       "temat": "South Korea proposes talks to end Korean War",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Seoul president proposes formal talks with North Korea."
     },
     {
       "temat": "Trump claims Strait of Hormuz as US territory",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Rhetoric on Iran strait control; no policy enacted yet."
     },
     {
       "temat": "Trump dismisses USS Lincoln mental health concerns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Congress probe called after sailor jump ship reports."
     },
     {
       "temat": "Trump ballroom project Supreme Court case",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Admin seeks court approval to bypass Congress for project."
     },
     {
       "temat": "Mangione guilty plea in UnitedHealthcare CEO killing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Federal guilty plea in high-profile CEO murder case."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.974407Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-13T13:46:13.861027Z",
       "s": 2.0
@@ -244,15 +240,35 @@
     {
       "t": "2026-08-15T11:33:32.588723Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.967633Z",
+      "s": 2.0
     }
   ],
-  "events_anchor_at": "2026-08-14T11:56:41.831306Z",
+  "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "event_detected_at": {
+    "bp to develop offshore gasfield in venezuela with firms linked to trump administration": {
+      "detected_at": "2026-08-15T11:33:32.588723Z",
+      "peak_at": "2026-08-15T11:33:32.588723Z",
+      "peak_score_at": "2026-08-15T11:33:32.588723Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "peak_label": "BP to develop Venezuela gasfield",
+      "peak_summary": "BP answers Trump call for foreign investment in Venezuela. First large-scale foreign investment since Maduro ousted.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ]
+    },
     "us aircraft carrier on way to relieve uss lincoln after issues reported aboard": {
       "detected_at": "2026-08-13T17:11:25.524220Z",
       "peak_at": "2026-08-14T21:39:36.314580Z",
       "peak_score_at": "2026-08-14T21:39:36.314580Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "negative",
       "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
       "peak_label": "Trump dismisses USS Lincoln mental health concerns",
@@ -277,22 +293,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "bp to develop offshore gasfield in venezuela with firms linked to trump administration": {
-      "detected_at": "2026-08-15T11:33:32.588723Z",
-      "peak_at": "2026-08-15T11:33:32.588723Z",
-      "peak_score_at": "2026-08-15T11:33:32.588723Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "peak_label": "BP to develop Venezuela gasfield",
-      "peak_summary": "BP answers Trump call for foreign investment in Venezuela. First large-scale foreign investment since Maduro ousted.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
         }
       ]
     },
@@ -395,27 +395,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "us threatens 'indefinite' blockade against iran: how long can it last?": {
-      "detected_at": "2026-08-14T11:56:41.831306Z",
-      "peak_at": "2026-08-14T11:56:41.831306Z",
-      "peak_score_at": "2026-08-14T11:56:41.831306Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "US threatens 'indefinite' blockade against Iran: How long can it last?",
-      "peak_label": "US threatens indefinite Iran blockade",
-      "peak_summary": "Defense Secretary Hegseth claims US Navy can sustain blockade despite poor conditions on carriers. Rhetoric without confirmed action; no immediate impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
     "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-    "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
-    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration"
+    "BBC seeks to subpoena Trump's family members in Panorama lawsuit"
   ]
 }

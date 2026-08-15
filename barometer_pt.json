@@ -1,13 +1,32 @@
 {
   "global_score": 2.0,
-  "rationale": "Indonesia earthquake continues as background; distant events with no direct impact on Portuguese daily life or economy. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Zimbabwe ferry disaster is distant tragedy; other events have no meaningful connection to Portuguese daily life.",
   "top_events": [
     {
-      "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-      "label": "Indonesia quake kills 38 in Flores Island",
-      "summary": "Search and rescue underway after 7.7-magnitude earthquake strikes eastern Indonesia. Distant disaster with no impact on Portuguese daily life.",
+      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
+      "label": "Zimbabwe ferry capsizes killing 44 people",
+      "summary": "Overcrowded boat overturned by waves on Lake Kariba with dozens missing. Distant African disaster with no Portuguese impact.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.586739Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
+      "label": "Indonesia 7.7 quake kills 38 people",
+      "summary": "Major earthquake strikes Flores Island with search underway. Distant disaster with no Portuguese connection.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,42 +41,23 @@
       "detected_at": "2026-08-10T15:16:06.510515Z"
     },
     {
-      "title": "France's top court blocks social media ban for under-15s",
-      "label": "France court blocks social media ban",
-      "summary": "Constitutional Council blocks law on freedom of expression grounds. EU policy debate with no immediate Portuguese impact.",
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "label": "Israeli strikes kill eleven in Lebanon",
+      "summary": "Israel targets Hezbollah infrastructure after soldier incident. Middle East conflict remains distant from Iberian concerns.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-15T01:48:57.852595Z"
-    },
-    {
-      "title": "At least 44 dead after overcrowded ferry capsizes on Lake Kariba in Zimbabwe",
-      "label": "Zimbabwe ferry capsizes killing 44",
-      "summary": "Overcrowded boat overturned by waves on Lake Kariba. Distant African disaster with no Portuguese connection.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.586739Z"
+      "detected_at": "2026-08-15T12:58:34.965024Z"
     }
   ],
   "short_summary": "Mount Etna eruption closes Sicily airport",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-15T11:33:32.586739Z",
+  "updated_at": "2026-08-15T12:58:34.965024Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Mount Etna eruption closes Sicily airport",
     "summary": "Volcanic ash from Etna shuts Catania airport, stranding travelers. European travel disruption with minor indirect impact on Portuguese tourism.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-14T21:39:36.310278Z",
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.970172Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-13T13:46:13.857197Z",
       "s": 2.3
@@ -275,6 +271,10 @@
     },
     {
       "t": "2026-08-15T11:33:32.586739Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.965024Z",
       "s": 2.0
     }
   ]

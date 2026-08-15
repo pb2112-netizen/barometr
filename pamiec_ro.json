@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-08-15T11:33:32.590260Z",
+  "updated_at": "2026-08-15T12:58:34.970101Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Croatia wildfire forces mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Major fire in neighboring Balkan country; regional climate."
     },
     {
       "temat": "Houthi attack on Yemen government port kills four",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Ballistic missiles hit al-Makha; distant Middle East clash."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Powerful quake near Flores Island; distant disaster."
     },
     {
       "temat": "Morocco boosts Ceuta security amid crossing calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Morocco adds security at Ceuta border; regional migration."
     },
     {
       "temat": "Instagram network fueling Ceuta migration",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Social media profiles selling migration advice; digital."
+    },
+    {
+      "temat": "Israeli strikes on southern Lebanon",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Israel hits Hezbollah targets; distant Middle East clash."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.967742Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T13:46:13.855356Z",
       "s": 5.0
@@ -226,11 +228,15 @@
     {
       "t": "2026-08-15T11:33:32.585848Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.963644Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-15T06:57:19.762044Z",
   "event_detected_at": {
-    "powerful 7.7-magnitude earthquake kills at least 38 in indonesia": {
+    "powerful magnitude 7.7 earthquake kills at least 38 in indonesia": {
       "detected_at": "2026-08-15T03:04:05.341889Z",
       "peak_at": "2026-08-15T03:04:05.341889Z",
       "peak_score_at": "2026-08-15T03:04:05.341889Z",
@@ -246,23 +252,7 @@
         }
       ]
     },
-    "dozens injured and thousands evacuated in croatia wildfire": {
-      "detected_at": "2026-08-14T20:44:52.702471Z",
-      "peak_at": "2026-08-14T22:39:34.376178Z",
-      "peak_score_at": "2026-08-14T22:39:34.376178Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "peak_label": "Croatia wildfire forces mass evacuations",
-      "peak_summary": "One of Croatia's worst fires continues near Omis, affecting neighboring Balkan country with regional climate implications for Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "seven killed in israeli strike on southern lebanon, country's pm says": {
+    "eleven killed in israeli strikes on southern lebanon, authorities say": {
       "detected_at": "2026-08-15T11:33:32.585848Z",
       "peak_at": "2026-08-15T11:33:32.585848Z",
       "peak_score_at": "2026-08-15T11:33:32.585848Z",
@@ -279,6 +269,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss"
+        }
+      ]
+    },
+    "dozens injured and thousands evacuated in croatia wildfire": {
+      "detected_at": "2026-08-14T20:44:52.702471Z",
+      "peak_at": "2026-08-14T22:39:34.376178Z",
+      "peak_score_at": "2026-08-14T22:39:34.376178Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "peak_label": "Croatia wildfire forces mass evacuations",
+      "peak_summary": "One of Croatia's worst fires continues near Omis, affecting neighboring Balkan country with regional climate implications for Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -412,8 +418,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-    "Dozens injured and thousands evacuated in Croatia wildfire",
-    "Seven killed in Israeli strike on southern Lebanon, country's PM says"
+    "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
+    "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "Dozens injured and thousands evacuated in Croatia wildfire"
   ]
 }

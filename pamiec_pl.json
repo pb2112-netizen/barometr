@@ -1,26 +1,28 @@
 {
-  "updated_at": "2026-08-15T11:33:32.589420Z",
+  "updated_at": "2026-08-15T12:58:34.968715Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": "2026-08-11T09:13:17.651706Z",
   "stan_swiata": [
     {
       "temat": "Croatia wildfire forces mass evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "One of worst fires in Croatia's history; regional climate."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Powerful quake near Flores Island; distant disaster."
+    },
+    {
+      "temat": "Israeli strikes on southern Lebanon",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Israel hits Hezbollah targets; distant Middle East clash."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.965093Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T13:46:13.852927Z",
       "s": 2.9
@@ -208,11 +210,15 @@
     {
       "t": "2026-08-15T11:33:32.584889Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.962218Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-14T23:36:14.196641Z",
   "event_detected_at": {
-    "powerful 7.7-magnitude earthquake kills at least 38 in indonesia": {
+    "powerful magnitude 7.7 earthquake kills at least 38 in indonesia": {
       "detected_at": "2026-08-15T03:04:05.339278Z",
       "peak_at": "2026-08-15T03:04:05.339278Z",
       "peak_score_at": "2026-08-15T03:04:05.339278Z",
@@ -228,23 +234,7 @@
         }
       ]
     },
-    "dozens injured and thousands evacuated in croatia wildfire": {
-      "detected_at": "2026-08-14T20:44:52.701575Z",
-      "peak_at": "2026-08-14T22:39:34.375173Z",
-      "peak_score_at": "2026-08-14T22:39:34.375173Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "peak_label": "Croatia wildfire forces thousands to evacuate",
-      "peak_summary": "Major blaze near Omis continues as one of Croatia's worst fires, affecting neighboring Balkan region with climate implications for Central Europe.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "seven killed in israeli strike on southern lebanon, country's pm says": {
+    "eleven killed in israeli strikes on southern lebanon, authorities say": {
       "detected_at": "2026-08-15T11:33:32.584889Z",
       "peak_at": "2026-08-15T11:33:32.584889Z",
       "peak_score_at": "2026-08-15T11:33:32.584889Z",
@@ -261,6 +251,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss"
+        }
+      ]
+    },
+    "dozens injured and thousands evacuated in croatia wildfire": {
+      "detected_at": "2026-08-14T20:44:52.701575Z",
+      "peak_at": "2026-08-14T22:39:34.375173Z",
+      "peak_score_at": "2026-08-14T22:39:34.375173Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Dozens injured and thousands evacuated in Croatia wildfire",
+      "peak_label": "Croatia wildfire forces thousands to evacuate",
+      "peak_summary": "Major blaze near Omis continues as one of Croatia's worst fires, affecting neighboring Balkan region with climate implications for Central Europe.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9342wn2x27o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -442,8 +448,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-    "Dozens injured and thousands evacuated in Croatia wildfire",
-    "Seven killed in Israeli strike on southern Lebanon, country's PM says"
+    "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
+    "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+    "Dozens injured and thousands evacuated in Croatia wildfire"
   ]
 }

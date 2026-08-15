@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "Indonesia earthquake continues as background; distant events with no direct link to Polish daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Indonesia earthquake is distant tragedy; Lebanon strikes and other events have no direct link to Polish daily life.",
   "top_events": [
     {
-      "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-      "label": "Indonesia quake kills 38 in Flores Island",
-      "summary": "Search and rescue underway after 7.7-magnitude earthquake strikes eastern Indonesia. Distant disaster with no impact on Polish daily life.",
+      "title": "Powerful magnitude 7.7 earthquake kills at least 38 in Indonesia",
+      "label": "Indonesia 7.7 quake kills 38 people",
+      "summary": "Major earthquake strikes Flores Island with search and rescue underway. Distant disaster with no impact on Poland.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,9 +22,28 @@
       "detected_at": "2026-08-15T03:04:05.339278Z"
     },
     {
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "label": "Israeli strikes kill eleven in Lebanon",
+      "summary": "Israel hits Hezbollah targets after soldier incident. Middle East conflict remains distant from Polish concerns.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.584889Z"
+    },
+    {
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire injures dozens near Omis",
-      "summary": "Major wildfire near Croatian port town forces mass evacuations. Regional climate event in neighboring Balkan country.",
+      "label": "Croatia wildfire evacuates thousands near Omis",
+      "summary": "Major blaze near Omis port town, one of Croatia's worst fires. Regional climate event in neighboring EU country.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -39,30 +58,6 @@
         }
       ],
       "detected_at": "2026-08-14T20:44:52.701575Z"
-    },
-    {
-      "title": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
-      "label": "Israeli strike kills seven in Lebanon",
-      "summary": "Strike on Ansar kills three children and two women. Distant Middle East conflict with no direct Polish connection.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.584889Z"
     }
   ],
   "short_summary": "USS Lincoln relief carrier deployed after conditions",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-15T11:33:32.584889Z",
+  "updated_at": "2026-08-15T12:58:34.962218Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "USS Lincoln relief carrier deployed after conditions",
     "summary": "US Navy sends replacement carrier after Lincoln sailors faced food shortages and broken plumbing on extended deployment; distant military logistics issue.",
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-14T23:36:14.196641Z",
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.965093Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T13:46:13.852927Z",
       "s": 2.9
@@ -284,6 +275,10 @@
     },
     {
       "t": "2026-08-15T11:33:32.584889Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.962218Z",
       "s": 2.0
     }
   ]

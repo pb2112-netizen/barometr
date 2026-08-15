@@ -1,13 +1,32 @@
 {
   "global_score": 2.0,
-  "rationale": "USS Lincoln carrier relief continues as background; BBC lawsuit and other events are rhetoric or distant with no direct US policy impact. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "BP Venezuela investment is new but indirect; USS Lincoln relief continues; BBC lawsuit and other events remain background noise.",
   "top_events": [
+    {
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "label": "BP invests in Venezuela offshore gasfield",
+      "summary": "First major foreign investment in Venezuela since US ousted Maduro. Signals policy shift but no immediate domestic impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.588723Z"
+    },
     {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
       "label": "Carrier deployed to relieve USS Lincoln",
-      "summary": "New carrier sent to relieve Lincoln after sailors faced food shortages and broken plumbing. Continuation of known deployment issue.",
+      "summary": "New carrier sent after Lincoln sailors faced food shortages and broken plumbing. Continues ongoing military readiness issue.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -24,7 +43,7 @@
     {
       "title": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
       "label": "BBC subpoenas Trump family in lawsuit",
-      "summary": "Legal action over January 6 speech continues. No policy impact yet, ongoing litigation.",
+      "summary": "Legal action over January 6 speech continues with no policy impact. Ongoing litigation without domestic consequences.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,56 +58,33 @@
         }
       ],
       "detected_at": "2026-08-15T06:57:19.767434Z"
-    },
-    {
-      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP to develop Venezuela gasfield",
-      "summary": "BP answers Trump call for foreign investment in Venezuela. First large-scale foreign investment since Maduro ousted.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.588723Z"
     }
   ],
-  "short_summary": "US threatens indefinite Iran blockade",
+  "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T11:33:32.588723Z",
+  "updated_at": "2026-08-15T12:58:34.967633Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "US threatens indefinite Iran blockade",
-    "summary": "Defense Secretary Hegseth claims US Navy can sustain blockade despite poor conditions on carriers. Rhetoric without confirmed action; no immediate impact.",
-    "title": "US threatens 'indefinite' blockade against Iran: How long can it last?",
-    "score": 2.6,
-    "sentiment": "neutral",
-    "detected_at": "2026-08-14T11:56:41.831306Z",
-    "peak_at": "2026-08-14T11:56:41.831306Z",
+    "label": "UAE accuses Iran of attacking vessels in Hormuz",
+    "summary": "UAE calls Iranian attacks on two ADNOC vessels 'piracy' threatening global energy security—new escalation in strategic waterway affecting oil markets.",
+    "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+    "score": 2.4,
+    "sentiment": "negative",
+    "detected_at": "2026-08-12T02:43:07.124137Z",
+    "peak_at": "2026-08-15T03:04:05.350502Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-14T11:56:41.831306Z",
+  "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-13T11:59:17.974407Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-13T13:46:13.861027Z",
       "s": 2.0
@@ -275,6 +271,10 @@
     },
     {
       "t": "2026-08-15T11:33:32.588723Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T12:58:34.967633Z",
       "s": 2.0
     }
   ]
