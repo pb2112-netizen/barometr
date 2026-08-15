@@ -1,35 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of known distant events; Morocco-Ceuta migration and Indonesia earthquake remain background noise with no link to Romanian daily life.",
+  "rationale": "Distant disasters and migration events with no direct impact on Romania; background noise continues. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Moroccan police arrest more than 100 people as they attempt to enter Ceuta",
-      "label": "Morocco arrests 100 migrants heading to Ceuta",
-      "summary": "Morocco intercepts migrants at Ceuta border after social media campaign. Continuation of known EU migration pressure point.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T20:37:49.737971Z"
-    },
-    {
       "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores Island",
-      "summary": "Deadly earthquake in eastern Indonesia with search operations ongoing. Distant disaster with no connection to Romanian life.",
+      "label": "Indonesia 7.7 quake kills 47 in Flores",
+      "summary": "Major earthquake strikes eastern Indonesia with search and rescue underway. Distant disaster with no Romanian connection.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -46,23 +22,52 @@
       "detected_at": "2026-08-15T03:04:05.341889Z"
     },
     {
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill 11 in southern Lebanon",
-      "summary": "Israel hits Hezbollah targets in Lebanon. Continuation of distant Middle East conflict with no regional spillover.",
+      "title": "Death toll from Zimbabwe ferry disaster rises to 72",
+      "label": "Zimbabwe ferry death toll reaches 72",
+      "summary": "Overloaded vessel capsized on Lake Kariba; 26 more bodies recovered. Distant African tragedy with no regional impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T21:34:41.068938Z"
+    },
+    {
+      "title": "Morocco detains dozens of migrants trying to cross into Ceuta",
+      "label": "Morocco detains migrants heading to Ceuta",
+      "summary": "Security stepped up after social media calls for mass crossing into Spanish enclave. Distant EU border management issue.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
         }
       ],
-      "detected_at": "2026-08-15T11:33:32.585848Z"
+      "detected_at": "2026-08-15T05:40:11.176177Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian satellite network with missiles",
@@ -70,9 +75,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-15T20:37:49.737971Z",
+  "updated_at": "2026-08-15T21:34:41.068938Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukraine strikes Russian satellite network with missiles",
     "summary": "Ukraine used Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Romania's Black Sea security environment.",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-15T16:39:58.218009Z",
   "score_history": [
-    {
-      "t": "2026-08-13T21:02:31.470169Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-13T22:01:22.495531Z",
       "s": 3.5
@@ -288,6 +289,10 @@
     },
     {
       "t": "2026-08-15T20:37:49.737971Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T21:34:41.068938Z",
       "s": 2.0
     }
   ]

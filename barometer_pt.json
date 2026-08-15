@@ -1,54 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Belgium wildfire continues as known European climate event; distant disasters and migration news remain background with no impact on Portuguese daily life.",
+  "rationale": "Distant disasters and regional events with no direct impact on Portugal; background noise continues. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Firefighters battle wildfire tearing through Belgian nature reserve",
-      "label": "Belgium wildfire burns through major nature reserve",
-      "summary": "Major wildfire continues in Belgium, worst in recent years. European climate event with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T18:47:02.250245Z"
-    },
-    {
-      "title": "Moroccan police arrest more than 100 people as they attempt to enter Ceuta",
-      "label": "Morocco arrests 100 migrants heading to Ceuta",
-      "summary": "Morocco intercepts migrants at Spanish enclave border. Iberian migration issue but no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T20:37:49.739550Z"
-    },
-    {
       "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 47 in Flores Island",
-      "summary": "Deadly earthquake in eastern Indonesia with search operations ongoing. Distant disaster with no connection to Portuguese life.",
+      "label": "Indonesia 7.7 quake kills 47 in Flores",
+      "summary": "Major earthquake strikes eastern Indonesia with search and rescue underway. Distant disaster with no Portuguese connection.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -63,6 +20,54 @@
         }
       ],
       "detected_at": "2026-08-10T15:16:06.510515Z"
+    },
+    {
+      "title": "Morocco detains dozens of migrants trying to cross into Ceuta",
+      "label": "Morocco detains migrants heading to Ceuta",
+      "summary": "Security stepped up after social media calls for mass crossing into Spanish enclave. Iberian neighbor's border management issue.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        }
+      ],
+      "detected_at": "2026-08-15T21:34:41.070510Z"
+    },
+    {
+      "title": "Death toll from Zimbabwe ferry disaster rises to 72",
+      "label": "Zimbabwe ferry death toll reaches 72",
+      "summary": "Overloaded vessel capsized on Lake Kariba; 26 more bodies recovered. Distant African tragedy with no Portuguese impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.586739Z"
     }
   ],
   "short_summary": "Mount Etna eruption closes Sicily airport",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-15T20:37:49.739550Z",
+  "updated_at": "2026-08-15T21:34:41.070510Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-14T21:39:36.310278Z",
   "score_history": [
-    {
-      "t": "2026-08-13T21:02:31.472109Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-13T22:01:22.497428Z",
       "s": 3.0
@@ -288,6 +289,10 @@
     },
     {
       "t": "2026-08-15T20:37:49.739550Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T21:34:41.070510Z",
       "s": 2.0
     }
   ]

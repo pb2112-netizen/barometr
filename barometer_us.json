@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Virginia shooting and carrier rotation continue as known background; BP Venezuela investment and Canadian petition are rhetoric without enacted policy impact.",
+  "rationale": "Domestic shooting and carrier deployment continue; distant disasters and rhetoric with no policy impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Multiple suspects at large after five shot at Virginia State University, police say",
-      "label": "Five shot at Virginia State University campus",
-      "summary": "Shooting outside residence halls at Virginia State University with suspects at large. Continuation of domestic gun violence.",
+      "label": "Five shot at Virginia State University",
+      "summary": "Shooting outside residence halls early Saturday; suspects at large. Domestic gun violence continues as background noise.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,28 +22,9 @@
       "detected_at": "2026-08-15T13:43:34.759437Z"
     },
     {
-      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP invests in Venezuela offshore gasfield",
-      "summary": "BP announces Venezuela gas investment following Trump policy shift. First large foreign investment but no immediate market impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        }
-      ],
-      "detected_at": "2026-08-15T11:33:32.588723Z"
-    },
-    {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "US carrier relieves Lincoln after crew issues",
-      "summary": "USS Washington replaces Lincoln due to poor conditions aboard. Routine naval rotation with no policy or operational change.",
+      "label": "Carrier deployed to relieve USS Lincoln",
+      "summary": "USS Washington sent to Middle East after reports of food shortages and broken plumbing on Lincoln. Routine deployment continuation.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,6 +44,25 @@
         }
       ],
       "detected_at": "2026-08-13T17:11:25.524220Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "label": "Indonesia 7.7 quake kills 47 in Flores",
+      "summary": "Major earthquake strikes eastern Indonesia with search and rescue underway. Distant disaster with no US impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T21:34:41.074256Z"
     }
   ],
   "short_summary": "UAE accuses Iran of attacking vessels in Hormuz",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T20:37:49.742164Z",
+  "updated_at": "2026-08-15T21:34:41.074256Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-12T02:43:07.124137Z",
   "score_history": [
-    {
-      "t": "2026-08-13T21:02:31.475323Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-13T22:01:22.501352Z",
       "s": 3.0
@@ -288,6 +284,10 @@
     },
     {
       "t": "2026-08-15T20:37:49.742164Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T21:34:41.074256Z",
       "s": 2.0
     }
   ]
