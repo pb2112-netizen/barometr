@@ -1,12 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Croatia wildfire continues as regional climate event; distant disasters and rhetoric dominate cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Croatia wildfire continues as regional climate event; other headlines distant or rhetoric without policy change.",
   "top_events": [
     {
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire injures dozens evacuates thousands",
-      "summary": "Major blaze near Omis continues as one of Croatia's worst fires, affecting neighboring Balkan region with climate implications for Central Europe.",
-      "score": 2.6,
+      "label": "Croatia wildfire evacuates thousands near Omis",
+      "summary": "Major blaze near Omis port continues, one of Croatia's worst fires. Regional climate concern for Poland as EU neighbor faces severe wildfire season.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,12 +22,31 @@
       "detected_at": "2026-08-14T20:44:52.701575Z"
     },
     {
-      "title": "7.7-magnitude earthquake strikes eastern Indonesia",
-      "label": "Indonesia hit by magnitude 7.7 earthquake",
-      "summary": "Powerful quake near Flores Island damages buildings and prompts evacuations; distant disaster with no direct impact on Poland.",
+      "title": "'Unprecedented' rain in Japan kills eight people",
+      "label": "Japan rain kills eight strands thousands",
+      "summary": "Storm cuts power to 20,000 households and strands 7,000 at Narita airport. Distant disaster with no link to Polish daily life.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-14T08:37:30.767361Z"
+    },
+    {
+      "title": "7.7-magnitude earthquake strikes eastern Indonesia",
+      "label": "Indonesia 7.7 quake damages buildings evacuates coast",
+      "summary": "Powerful quake near Flores Island damages buildings and prompts coastal evacuations. Distant disaster with no impact on Poland.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-15T03:04:05.339278Z"
-    },
-    {
-      "title": "US President Trump says he will declare Strait of Hormuz US territory",
-      "label": "Trump claims Strait of Hormuz as US territory",
-      "summary": "Rhetoric on Iran strait control without enacted policy; no immediate impact on Polish energy or security.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/us-president-trump-says-he-will-declare-strait-of-hormuz-us-territory?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T22:39:34.375173Z"
     }
   ],
   "short_summary": "Croatia wildfire forces thousands to evacuate",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-15T03:04:05.339278Z",
+  "updated_at": "2026-08-15T03:53:18.784948Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -256,6 +256,10 @@
     {
       "t": "2026-08-15T03:04:05.339278Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-15T03:53:18.784948Z",
+      "s": 2.5
     }
   ]
 }
