@@ -1,12 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "Carrier deployment continues as background; court case and Korean War talks are rhetoric without enacted policy impact.",
+  "global_score": 2.2,
+  "rationale": "Carrier deployment and Korean War talks continue as background; Mangione plea and BBC lawsuit remain rhetoric without policy impact.",
   "top_events": [
     {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "Carrier deployed to relieve USS Lincoln",
-      "summary": "New carrier sent to replace Lincoln after reports of food shortages and broken plumbing. Continuation of known deployment issue with no new policy impact.",
-      "score": 2.3,
+      "label": "US carrier deployed to relieve USS Lincoln",
+      "summary": "New carrier sent to relieve Lincoln after food shortages and plumbing issues. Routine military rotation addressing crew welfare concerns.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,17 +22,22 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "South Korea's president wants talks with North to end Korean War",
-      "label": "South Korea proposes North Korea talks",
-      "summary": "Seoul president proposes formal talks with North Korea to end Korean War. Rhetoric without enacted policy; no confirmed action yet.",
-      "score": 2.3,
+      "title": "South Korea proposes talks to officially end war with North",
+      "label": "South Korea proposes talks to end Korean War",
+      "summary": "Seoul offers formal talks to end 1953 armistice. Diplomatic proposal with no immediate US policy or security impact.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/south-koreas-president-wants-talks-with-north-to-end-korean-war?traffic_source=rss"
@@ -41,23 +46,23 @@
       "detected_at": "2026-08-15T08:44:17.758435Z"
     },
     {
-      "title": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
-      "label": "BBC subpoenas Trump family in lawsuit",
-      "summary": "BBC lawyers seek testimony from Trump family over January 6 speech. Legal action with no policy impact on US daily life.",
+      "title": "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
+      "label": "Mangione pleads guilty in CEO killing case",
+      "summary": "Federal guilty plea in high-profile UnitedHealthcare CEO murder. Legal proceeding with no broader policy or economic impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-15T06:57:19.767434Z"
+      "detected_at": "2026-08-13T19:19:08.182259Z"
     }
   ],
   "short_summary": "Trump dismisses USS Lincoln mental health concerns",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T08:44:17.758435Z",
+  "updated_at": "2026-08-15T09:39:41.261413Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Trump dismisses USS Lincoln mental health concerns",
     "summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
     "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
-    "score": 2.8,
+    "score": 2.7,
     "sentiment": "negative",
     "detected_at": "2026-08-13T17:11:25.524220Z",
     "peak_at": "2026-08-14T21:39:36.314580Z",
@@ -268,6 +273,10 @@
     {
       "t": "2026-08-15T08:44:17.758435Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-15T09:39:41.261413Z",
+      "s": 2.2
     }
   ]
 }
