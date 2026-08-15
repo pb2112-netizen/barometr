@@ -1,15 +1,34 @@
 {
-  "global_score": 3.1,
-  "rationale": "USS Lincoln relief deployment continues carrier issues story; Mangione guilty plea advances high-profile CEO murder case; Trump Hormuz rhetoric remains words not action.",
+  "global_score": 3.0,
+  "rationale": "USS Lincoln conditions continue as domestic military concern; Trump Hormuz rhetoric is not enacted policy.",
   "top_events": [
     {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
-      "label": "Navy deploys carrier to relieve troubled USS Lincoln",
-      "summary": "Navy sends replacement carrier after Lincoln sailors faced food shortages and broken plumbing on extended deployment, addressing ongoing military readiness concerns.",
-      "score": 3.1,
-      "sentiment": "neutral",
+      "label": "US carrier relieves USS Lincoln after conditions reported",
+      "summary": "Thousands of sailors faced food shortages and broken plumbing; domestic military readiness concern continues.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T17:11:25.524220Z"
+    },
+    {
+      "title": "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
+      "label": "Mangione pleads guilty to UnitedHealthcare CEO killing",
+      "summary": "Federal guilty plea concludes high-profile CEO murder case; no broader policy impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
         "BBC",
         "Al Jazeera"
@@ -17,38 +36,19 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T17:11:25.524220Z"
-    },
-    {
-      "title": "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
-      "label": "Mangione pleads guilty to killing healthcare CEO",
-      "summary": "28-year-old admits shooting UnitedHealthcare CEO Brian Thompson in Manhattan, entering federal guilty plea in high-profile murder case.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/mangione-pleads-guilty-as-polarising-ceo-killing-reaches-new-phase?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-13T19:19:08.182259Z"
     },
     {
       "title": "Trump says he will declare Strait of Hormuz a US 'territory' amid Iran war",
-      "label": "Trump claims Strait of Hormuz as US territory",
-      "summary": "President makes rhetorical claim about Iran strait control during ceasefire talks; no policy enacted or military action taken yet.",
+      "label": "Trump vows to declare Hormuz US territory soon",
+      "summary": "Rhetoric on Iran strait control; no policy enacted yet, no confirmed action.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-14T23:36:14.203033Z",
+  "updated_at": "2026-08-15T01:48:57.855997Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump dismisses USS Lincoln mental health concerns",
     "summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-13T17:11:25.524220Z",
   "score_history": [
-    {
-      "t": "2026-08-12T23:57:08.898248Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-13T02:46:02.175874Z",
       "s": 3.1
@@ -261,6 +257,10 @@
     {
       "t": "2026-08-14T23:36:14.203033Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-15T01:48:57.855997Z",
+      "s": 3.0
     }
   ]
 }
