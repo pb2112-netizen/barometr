@@ -1,11 +1,35 @@
 {
   "global_score": 2.0,
-  "rationale": "Virginia State University shooting adds to domestic gun violence background; carrier deployment and other events continue without new policy impact.",
+  "rationale": "Routine carrier deployment and distant events; no confirmed policy changes or direct domestic impact.",
   "top_events": [
     {
-      "title": "Five injured, one critically, in shooting at Virginia State University",
-      "label": "Virginia State University shooting injures five",
-      "summary": "Multiple suspects involved in early Saturday shooting near university. Continuation of domestic gun violence pattern with no broader policy change.",
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+      "label": "USS Washington relieves Lincoln after crew issues",
+      "summary": "The USS Washington is being deployed to relieve the USS Lincoln in the Middle East after reports of food shortages and broken plumbing aboard the Lincoln.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T17:11:25.524220Z"
+    },
+    {
+      "title": "Multiple suspects at large after five shot at Virginia State University, police say",
+      "label": "Five shot at Virginia State University campus",
+      "summary": "Police responded to a shooting outside residence halls at Virginia State University early Saturday morning. Five people were wounded and suspects remain at large.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,28 +46,9 @@
       "detected_at": "2026-08-15T13:43:34.759437Z"
     },
     {
-      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "Carrier deployed to relieve troubled USS Lincoln",
-      "summary": "New carrier sent to replace Lincoln after reports of food shortages and broken plumbing. Continuation of ongoing Navy readiness concerns.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T17:11:25.524220Z"
-    },
-    {
       "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP invests in Venezuela offshore gasfield",
-      "summary": "BP moves forward with Venezuela gas development, one of first major foreign investments since US policy shift. Continuation of Trump administration's Venezuela engagement.",
+      "label": "BP invests in Venezuela offshore gasfield project",
+      "summary": "BP will develop an offshore gasfield in Venezuela, marking one of the first large-scale foreign investments since the US ousted Nicolás Maduro in January.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T17:34:23.369708Z",
+  "updated_at": "2026-08-15T18:47:02.252839Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Five wounded in Virginia State University shooting",
     "summary": "Gunshot victims found near university residence halls. Domestic incident with no broader policy impact.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-15T13:43:34.759437Z",
   "score_history": [
-    {
-      "t": "2026-08-13T18:06:52.392021Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-13T19:19:08.182259Z",
       "s": 2.8
@@ -279,6 +280,10 @@
     },
     {
       "t": "2026-08-15T17:34:23.369708Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T18:47:02.252839Z",
       "s": 2.0
     }
   ]
