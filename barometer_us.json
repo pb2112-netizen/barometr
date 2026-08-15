@@ -1,12 +1,31 @@
 {
-  "global_score": 2.2,
-  "rationale": "Carrier deployment and Korean War talks continue as background; Mangione plea and BBC lawsuit remain rhetoric without policy impact.",
+  "global_score": 2.1,
+  "rationale": "Mangione guilty plea continues known case; carrier deployment and Korea talks are ongoing rhetoric without policy change.",
   "top_events": [
     {
+      "title": "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
+      "label": "Mangione pleads guilty in CEO killing case",
+      "summary": "Federal guilty plea in UnitedHealthcare CEO murder case, first time defendant described crime in court. High-profile case continuation with no broader policy impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-13T19:19:08.182259Z"
+    },
+    {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "US carrier deployed to relieve USS Lincoln",
-      "summary": "New carrier sent to relieve Lincoln after food shortages and plumbing issues. Routine military rotation addressing crew welfare concerns.",
-      "score": 2.2,
+      "label": "Carrier deployed to relieve troubled USS Lincoln",
+      "summary": "New carrier sent to replace Lincoln after reports of food shortages and broken plumbing. Continuation of known military logistics issue.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,8 +43,8 @@
     {
       "title": "South Korea proposes talks to officially end war with North",
       "label": "South Korea proposes talks to end Korean War",
-      "summary": "Seoul offers formal talks to end 1953 armistice. Diplomatic proposal with no immediate US policy or security impact.",
-      "score": 2.2,
+      "summary": "Seoul president offers formal talks with North Korea to end 1953 armistice. Diplomatic proposal without US policy action or confirmed outcome yet.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-15T08:44:17.758435Z"
-    },
-    {
-      "title": "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
-      "label": "Mangione pleads guilty in CEO killing case",
-      "summary": "Federal guilty plea in high-profile UnitedHealthcare CEO murder. Legal proceeding with no broader policy or economic impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T19:19:08.182259Z"
     }
   ],
   "short_summary": "Trump dismisses USS Lincoln mental health concerns",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T09:39:41.261413Z",
+  "updated_at": "2026-08-15T10:01:13.977311Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Trump dismisses USS Lincoln mental health concerns",
     "summary": "Congress calls for probe into conditions after reports of sailors attempting to jump ship. New development in ongoing carrier deployment issue.",
     "title": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
-    "score": 2.7,
+    "score": 2.6,
     "sentiment": "negative",
     "detected_at": "2026-08-13T17:11:25.524220Z",
     "peak_at": "2026-08-14T21:39:36.314580Z",
@@ -277,6 +277,10 @@
     {
       "t": "2026-08-15T09:39:41.261413Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-15T10:01:13.977311Z",
+      "s": 2.1
     }
   ]
 }

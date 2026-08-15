@@ -1,13 +1,32 @@
 {
   "global_score": 2.0,
-  "rationale": "No events directly affect Romania; distant disasters and routine international developments continue.",
+  "rationale": "Israeli-Palestinian tensions continue in West Bank; no qualitative change affecting Romania's security or economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-      "label": "Indonesia 7.7 quake kills 38 in Flores",
-      "summary": "Major earthquake in eastern Indonesia with ongoing rescue operations. Distant disaster with no impact on Romanian life.",
+      "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers",
+      "label": "Settlers besiege Palestinian families in West Bank",
+      "summary": "Two families trapped in homes by Israeli settlers in occupied West Bank for several days. Distant Middle East conflict with no direct Romanian impact.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T10:01:13.973513Z"
+    },
+    {
+      "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
+      "label": "Indonesia quake kills 38 in Flores Island",
+      "summary": "Major earthquake strikes eastern Indonesia with ongoing rescue operations. Distant disaster with no connection to Romanian daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -20,25 +39,6 @@
         }
       ],
       "detected_at": "2026-08-15T03:04:05.341889Z"
-    },
-    {
-      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
-      "label": "DRC Ebola outbreak spreads to sixth province",
-      "summary": "Ebola spreads further in Congo, WHO warns of deadliest outbreak. Distant health crisis with no direct Romanian connection.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-        }
-      ],
-      "detected_at": "2026-08-14T11:09:57.498232Z"
     }
   ],
   "short_summary": "Instagram network fuels Ceuta migration crisis",
@@ -46,9 +46,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-15T09:39:41.257813Z",
+  "updated_at": "2026-08-15T10:01:13.973513Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Instagram network fuels Ceuta migration crisis",
     "summary": "BBC finds Instagram profiles selling advice to migrants attempting dangerous swim around Morocco-Ceuta border fence; adds digital dimension to regional migration pressure.",
@@ -252,6 +252,10 @@
     },
     {
       "t": "2026-08-15T09:39:41.257813Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T10:01:13.973513Z",
       "s": 2.0
     }
   ]
