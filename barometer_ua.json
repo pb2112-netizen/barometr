@@ -1,32 +1,13 @@
 {
-  "global_score": 5.4,
-  "rationale": "Ukraine's strike on Russian satellite network continues as the leading event; other headlines are distant or irrelevant to the war.",
+  "global_score": 2.0,
+  "rationale": "Ukraine's strike on Russian satellite network continues as the only event with direct war relevance; all other headlines are distant disasters or routine military movements with no impact on Ukrainian war situation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
-      "label": "Ukraine strikes Russian satellite network in Samara",
-      "summary": "Ukraine used domestically produced Flamingo missiles to hit targets in Russia's southwestern Samara region, continuing its campaign against Russian military infrastructure.",
-      "score": 5.4,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T16:39:58.220224Z"
-    },
-    {
       "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "label": "Indonesia earthquake kills 47 in Flores Island",
-      "summary": "A powerful 7.7 magnitude earthquake struck Flores Island in eastern Indonesia, killing at least 47 people. Search and rescue operations are underway.",
+      "label": "Indonesia 7.7 quake kills 47 in Flores",
+      "summary": "Major earthquake strikes eastern Indonesia; search and rescue underway. Distant disaster with no impact on Ukrainian war effort.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -42,10 +23,10 @@
     },
     {
       "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "label": "Israeli strikes kill eleven in southern Lebanon",
-      "summary": "Israel struck Hezbollah targets in southern Lebanon, killing eleven people in response to earlier actions against Israeli soldiers.",
+      "label": "Israeli strikes kill 11 in south Lebanon",
+      "summary": "Israel hits Hezbollah targets in Lebanon. Distant Middle East conflict with no relevance to Ukraine's war with Russia.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -58,16 +39,40 @@
         }
       ],
       "detected_at": "2026-08-15T11:33:32.587321Z"
+    },
+    {
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+      "label": "USS Washington relieves Lincoln in Middle East",
+      "summary": "New carrier deployed after reports of poor conditions on Lincoln. Routine US naval rotation with no impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/us-aircraft-carrier-expected-to-relieve-uss-lincoln-in-middle-east?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T05:40:11.179625Z"
     }
   ],
   "short_summary": "Ukraine strikes Russian satellite network in Samara",
-  "level_label": "Elevated",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-15T18:47:02.251290Z",
+  "updated_at": "2026-08-15T19:33:32.789538Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Ukraine strikes Russian satellite network in Samara",
     "summary": "Ukraine used domestically produced Flamingo missiles to hit Russian communications infrastructure in Samara region. Demonstrates Ukraine's continued capability to strike strategic targets deep inside.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-15T16:39:58.220224Z",
   "score_history": [
-    {
-      "t": "2026-08-13T19:19:08.180248Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T21:02:31.473546Z",
       "s": 2.9
@@ -280,6 +281,10 @@
     {
       "t": "2026-08-15T18:47:02.251290Z",
       "s": 5.4
+    },
+    {
+      "t": "2026-08-15T19:33:32.789538Z",
+      "s": 2.0
     }
   ]
 }
