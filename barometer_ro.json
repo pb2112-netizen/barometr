@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Croatia wildfire continues as neighboring Balkan climate event; Houthi attack on Yemen port is distant Middle East clash.",
+  "global_score": 2.6,
+  "rationale": "Croatia wildfire continues as neighboring Balkan event; distant disasters and rhetoric fill cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
-      "label": "Croatia wildfire forces mass evacuations near Omis",
-      "summary": "Major fire in neighboring Balkan country continues; regional climate concern for Romania.",
-      "score": 2.7,
+      "label": "Croatia wildfire injures dozens evacuates thousands",
+      "summary": "Major fire near Omis continues as one of Croatia's worst, affecting neighboring Balkan country with regional climate implications.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-14T20:44:52.702471Z"
     },
     {
-      "title": "Houthi attack on port kills four eroding truce with Yemen's government",
-      "label": "Houthi missiles strike Yemen government port killing four",
-      "summary": "Ballistic missiles hit al-Makha port; distant Middle East conflict with no link to Romania.",
+      "title": "7.7-magnitude earthquake strikes eastern Indonesia",
+      "label": "Indonesia hit by magnitude 7.7 earthquake",
+      "summary": "Powerful quake near Flores Island damages buildings; distant disaster with no direct impact on Romania.",
       "score": 2.0,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T03:04:05.341889Z"
+    },
+    {
+      "title": "US President Trump says he will declare Strait of Hormuz US territory",
+      "label": "Trump claims Strait of Hormuz as US territory",
+      "summary": "Rhetoric on Iran strait control without enacted policy; no immediate impact on Romanian energy or Black Sea security.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/houthi-attack-on-port-kills-four-eroding-truce-with-yemens-government?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/us-president-trump-says-he-will-declare-strait-of-hormuz-us-territory?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-14T23:36:14.198056Z"
-    },
-    {
-      "title": "'Unprecedented' rain in Japan kills eight people",
-      "label": "Japan unprecedented rainfall kills eight people",
-      "summary": "Distant natural disaster in Asia; no connection to Romanian daily life.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-14T10:01:21.686214Z"
+      "detected_at": "2026-08-15T03:04:05.341889Z"
     }
   ],
   "short_summary": "Europe wildfires force thousands to evacuate",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-15T01:48:57.851151Z",
+  "updated_at": "2026-08-15T03:04:05.341889Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-14T08:37:30.769719Z",
   "score_history": [
-    {
-      "t": "2026-08-13T02:46:02.170171Z",
-      "s": 4.2
-    },
     {
       "t": "2026-08-13T04:01:20.079795Z",
       "s": 4.0
@@ -256,6 +252,10 @@
     {
       "t": "2026-08-15T01:48:57.851151Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-15T03:04:05.341889Z",
+      "s": 2.6
     }
   ]
 }
