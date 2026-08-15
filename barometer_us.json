@@ -1,31 +1,11 @@
 {
   "global_score": 2.0,
-  "short_summary": "US threatens indefinite Iran blockade",
-  "rationale": "Mangione guilty plea continues known case; carrier deployment and Korea talks are ongoing rhetoric without policy change.",
+  "rationale": "USS Lincoln carrier relief continues as background; BBC lawsuit and other events are rhetoric or distant with no direct US policy impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "'I shot Mr Thompson'- What it was like inside court as Mangione pleaded guilty",
-      "label": "Mangione pleads guilty in CEO killing case",
-      "summary": "Federal guilty plea in UnitedHealthcare CEO murder case, first time defendant described crime in court. High-profile case continuation with no broader policy impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gkyez7195o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-13T19:19:08.182259Z"
-    },
-    {
       "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-      "label": "Carrier deployed to relieve troubled USS Lincoln",
-      "summary": "New carrier sent to replace Lincoln after reports of food shortages and broken plumbing. Continuation of known military logistics issue.",
+      "label": "Carrier deployed to relieve USS Lincoln",
+      "summary": "New carrier sent to relieve Lincoln after sailors faced food shortages and broken plumbing. Continuation of known deployment issue.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -42,35 +22,50 @@
       "detected_at": "2026-08-13T17:11:25.524220Z"
     },
     {
-      "title": "South Korea proposes talks to officially end war with North",
-      "label": "South Korea proposes talks to end Korean War",
-      "summary": "Seoul president offers formal talks with North Korea to end 1953 armistice. Diplomatic proposal without US policy action or confirmed outcome yet.",
+      "title": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
+      "label": "BBC subpoenas Trump family in lawsuit",
+      "summary": "Legal action over January 6 speech continues. No policy impact yet, ongoing litigation.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/south-koreas-president-wants-talks-with-north-to-end-korean-war?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-15T08:44:17.758435Z"
+      "detected_at": "2026-08-15T06:57:19.767434Z"
+    },
+    {
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "label": "BP to develop Venezuela gasfield",
+      "summary": "BP answers Trump call for foreign investment in Venezuela. First large-scale foreign investment since Maduro ousted.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ],
+      "detected_at": "2026-08-15T11:33:32.588723Z"
     }
   ],
+  "short_summary": "US threatens indefinite Iran blockade",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T10:37:23.150094Z",
+  "updated_at": "2026-08-15T11:33:32.588723Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -276,6 +271,10 @@
     },
     {
       "t": "2026-08-15T10:37:23.150094Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-15T11:33:32.588723Z",
       "s": 2.0
     }
   ]
