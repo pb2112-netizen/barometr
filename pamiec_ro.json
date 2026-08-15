@@ -1,50 +1,52 @@
 {
-  "updated_at": "2026-08-15T04:46:24.182002Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-15T05:40:11.183730Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Japan unprecedented rainfall kills six",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Record rains in Japan; distant disaster."
     },
     {
       "temat": "DRC Ebola outbreak spreads to sixth province",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Ebola in DRC spreads; WHO says deadliest ever; distant."
     },
     {
       "temat": "Europe wildfires spread across multiple countries",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Blazes force evacuations in Croatia, regional climate."
     },
     {
       "temat": "Croatia wildfire forces mass evacuations",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 10,
       "opis": "Major fire in neighboring Balkan country; regional climate."
     },
     {
       "temat": "Houthi attack on Yemen government port kills four",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Ballistic missiles hit al-Makha; distant Middle East clash."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Powerful quake near Flores Island; distant disaster."
+    },
+    {
+      "temat": "Morocco boosts Ceuta security amid crossing calls",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Morocco adds security at Ceuta border; regional migration."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T05:03:15.786611Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-13T06:44:56.558723Z",
       "s": 3.0
@@ -220,6 +222,10 @@
     {
       "t": "2026-08-15T04:46:24.175457Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-15T05:40:11.176177Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-14T08:37:30.769719Z",
@@ -228,7 +234,7 @@
       "detected_at": "2026-08-14T20:44:52.702471Z",
       "peak_at": "2026-08-14T22:39:34.376178Z",
       "peak_score_at": "2026-08-14T22:39:34.376178Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Dozens injured and thousands evacuated in Croatia wildfire",
       "peak_label": "Croatia wildfire forces mass evacuations",
@@ -240,7 +246,23 @@
         }
       ]
     },
-    "indonesia 7.7 magnitude earthquake": {
+    "morocco boosts ceuta security amid calls for mass migrant crossing": {
+      "detected_at": "2026-08-15T05:40:11.176177Z",
+      "peak_at": "2026-08-15T05:40:11.176177Z",
+      "peak_score_at": "2026-08-15T05:40:11.176177Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Morocco boosts Ceuta security amid calls for mass migrant crossing",
+      "peak_label": "Morocco boosts Ceuta security amid crossing calls",
+      "peak_summary": "Morocco adds barbed wire and police near Spain's Ceuta after online calls for mass crossing; regional migration pressure but not directly affecting Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-26-morocco-ceuta-foritfication-clip-mp4?traffic_source=rss"
+        }
+      ]
+    },
+    "five dead after 7.7 magnitude earthquake strikes indonesia": {
       "detected_at": "2026-08-15T03:04:05.341889Z",
       "peak_at": "2026-08-15T03:04:05.341889Z",
       "peak_score_at": "2026-08-15T03:04:05.341889Z",
@@ -407,7 +429,7 @@
   },
   "prev_top_event_titles": [
     "Dozens injured and thousands evacuated in Croatia wildfire",
-    "Indonesia 7.7 magnitude earthquake",
-    "Japan unprecedented rainfall kills eight"
+    "Morocco boosts Ceuta security amid calls for mass migrant crossing",
+    "Five dead after 7.7 magnitude earthquake strikes Indonesia"
   ]
 }

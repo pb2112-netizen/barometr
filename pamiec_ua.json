@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-15T04:46:24.184292Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-15T05:40:11.186244Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Afghan women describe life under Taliban rule",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Five years of Taliban rule; distant humanitarian crisis."
     },
     {
       "temat": "Indonesia 7.7 magnitude earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Powerful quake near Flores Island; distant disaster."
     },
     {
       "temat": "Ukraine claims advance in Dnipropetrovsk region",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 19,
       "opis": "Ukraine reports liberating 26 settlements in the south."
     },
     {
       "temat": "Kushner visits Israel over Gaza peace plan rejection",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Diplomatic visit after Netanyahu rejects peace proposal."
     },
     {
       "temat": "Japan unprecedented rainfall kills six",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Record rains in Japan; distant disaster."
     },
     {
       "temat": "Israeli troops order Palestinians from Qusra homes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Troops tell families to leave houses in West Bank village."
     },
     {
       "temat": "North Korea condemns US-South Korea military drills",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Pyongyang rhetoric on nuclear war; distant noise."
+    },
+    {
+      "temat": "Taiwan passes defense budget after delay",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Taiwan ends budget deadlock; distant geopolitical noise."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-13T05:03:15.790491Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-13T06:44:56.561553Z",
       "s": 2.0
@@ -226,11 +228,51 @@
     {
       "t": "2026-08-15T04:46:24.178216Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-15T05:40:11.179625Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-13T15:14:24.868087Z",
   "event_detected_at": {
-    "indonesia 7.7 magnitude earthquake": {
+    "us aircraft carrier on way to relieve uss lincoln after issues reported aboard": {
+      "detected_at": "2026-08-15T05:40:11.179625Z",
+      "peak_at": "2026-08-15T05:40:11.179625Z",
+      "peak_score_at": "2026-08-15T05:40:11.179625Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+      "peak_label": "US carrier deployed to relieve troubled Lincoln",
+      "peak_summary": "New carrier sent to relieve USS Lincoln after sailors faced food shortages and broken plumbing; distant US military matter with no impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/what-we-know-about-the-crisis-aboard-the-uss-lincoln?traffic_source=rss"
+        }
+      ]
+    },
+    "taiwan passes defence budget after record delay, retains drone funding": {
+      "detected_at": "2026-08-15T05:40:11.179625Z",
+      "peak_at": "2026-08-15T05:40:11.179625Z",
+      "peak_score_at": "2026-08-15T05:40:11.179625Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Taiwan passes defence budget after record delay, retains drone funding",
+      "peak_label": "Taiwan passes defense budget after delay",
+      "peak_summary": "Taiwan parliament ends deadlock on defense budget, ensuring drone funding amid tensions with Beijing; distant geopolitical development.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding?traffic_source=rss"
+        }
+      ]
+    },
+    "five dead after 7.7 magnitude earthquake strikes indonesia": {
       "detected_at": "2026-08-11T21:03:17.488534Z",
       "peak_at": "2026-08-15T04:46:24.178216Z",
       "peak_score_at": "2026-08-14T04:01:32.188753Z",
@@ -408,7 +450,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Indonesia 7.7 magnitude earthquake",
-    "Japan unprecedented rainfall kills eight"
+    "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+    "Taiwan passes defence budget after record delay, retains drone funding",
+    "Five dead after 7.7 magnitude earthquake strikes Indonesia"
   ]
 }
