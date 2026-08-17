@@ -1,13 +1,32 @@
 {
-  "global_score": 3.5,
-  "rationale": "Russia-Ukraine strikes continue killing 13 in past day; Trump's Oman threat and US alliance posture shifts raise concerns about Western commitment to Ukraine. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Trump's threat to Oman and Iran escalation raise serious concern about Western focus shifting away from Ukraine; Russia-Ukraine strikes continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia and Ukraine trade more deadly strikes",
-      "label": "Russia and Ukraine trade deadly strikes",
-      "summary": "Ongoing strikes kill 13 in past day across both countries; continuation of war background with no qualitative change in intensity or front lines.",
-      "score": 3.5,
+      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran issue",
+      "label": "Trump threatens military action against Oman",
+      "summary": "US president threatens to bomb ally Oman over Iran dispute. Raises serious concern in Ukraine about Western attention and military resources shifting away from Ukrainian defense.",
+      "score": 3.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T09:39:41.259838Z"
+    },
+    {
+      "title": "Russia and Ukraine trade more deadly strikes",
+      "label": "Russia and Ukraine exchange deadly strikes",
+      "summary": "Nine killed in Russia, four in Ukraine in past 24 hours. Continuation of ongoing war with no qualitative change in intensity or front lines.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-17T14:43:31.952353Z"
     },
     {
-      "title": "Trump threatens to bomb Oman if it 'gets in the way' over Iran issue",
-      "label": "Trump threatens Oman over Iran issue",
-      "summary": "US president threatens military action against Oman, signaling unpredictable escalation that raises concerns about US focus and commitment to supporting Ukraine.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-15T09:39:41.259838Z"
-    },
-    {
       "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
-      "label": "US reduces South Korea military drills",
-      "summary": "Continuation of US alliance posture shift already tracked; reinforces concerns about Western commitment to allies including Ukraine.",
+      "label": "US reduces South Korea military exercises",
+      "summary": "Trump downsizes ally exercises citing North Korea ties. Continuation of US alliance commitment concerns already tracked; reinforces Western focus shift worry.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -65,7 +65,7 @@
   "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-17T15:38:35.238645Z",
+  "updated_at": "2026-08-17T16:01:19.696234Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-17T14:43:31.952353Z",
   "score_history": [
-    {
-      "t": "2026-08-15T16:00:49.190362Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-15T16:39:58.220224Z",
       "s": 4.0
@@ -124,6 +120,10 @@
     {
       "t": "2026-08-17T15:38:35.238645Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-17T16:01:19.696234Z",
+      "s": 3.0
     }
   ]
 }
