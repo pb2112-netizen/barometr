@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-17T20:43:03.675806Z",
+  "updated_at": "2026-08-17T21:39:48.515824Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump threatens Oman over Iran",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 7,
       "opis": "President threatens military action against Oman; ME risk."
     },
     {
       "temat": "Supreme Court rejects Trump Carroll appeal",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
       "opis": "Court denies Trump bid to overturn $5m Carroll verdict."
     },
     {
       "temat": "DRC Ebola outbreak deadliest in history",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "2,325 deaths, spreads to sixth province; distant crisis."
     },
     {
       "temat": "Trump reduces US-South Korea military drills",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
       "opis": "President downsizes exercises; alliance policy shift."
     },
     {
       "temat": "Hawaii braces for Hurricane Lala",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 11,
       "opis": "Category one hurricane could hit Big Island; first in 34."
     },
     {
       "temat": "US hiker dies on Mount Etna",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "American killed by lightning on volcano; individual tragedy."
     },
     {
       "temat": "American missionary freed in Niger",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Kevin Rideout released after nine months captivity."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Grifols halts donations after two deaths, investigation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-15T21:34:41.074256Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-15T22:01:11.977546Z",
       "s": 3.2
@@ -91,6 +87,10 @@
     },
     {
       "t": "2026-08-17T20:43:03.672223Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-17T21:39:48.511211Z",
       "s": 3.0
     }
   ],
@@ -132,6 +132,22 @@
         }
       ]
     },
+    "trump loses second supreme court bid over e jean carroll sex abuse case": {
+      "detected_at": "2026-08-17T16:01:19.697854Z",
+      "peak_at": "2026-08-17T16:44:56.783558Z",
+      "peak_score_at": "2026-08-17T16:44:56.783558Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Supreme Court again rejects Trump's bid to overturn E Jean Carroll sex abuse case",
+      "peak_label": "Supreme Court rejects Trump Carroll appeal",
+      "peak_summary": "Court denies president's bid to overturn $5m verdict; legal process continues with no policy impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canadian plasma clinics pause collections after deaths of two donors": {
       "detected_at": "2026-08-15T22:01:11.977546Z",
       "peak_at": "2026-08-17T14:43:31.954526Z",
@@ -165,22 +181,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-        }
-      ]
-    },
-    "supreme court again rejects trump's bid to overturn e jean carroll sex abuse case": {
-      "detected_at": "2026-08-17T16:01:19.697854Z",
-      "peak_at": "2026-08-17T16:44:56.783558Z",
-      "peak_score_at": "2026-08-17T16:44:56.783558Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Supreme Court again rejects Trump's bid to overturn E Jean Carroll sex abuse case",
-      "peak_label": "Supreme Court rejects Trump Carroll appeal",
-      "peak_summary": "Court denies president's bid to overturn $5m verdict; legal process continues with no policy impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -220,6 +220,6 @@
   "prev_top_event_titles": [
     "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
     "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
-    "Canadian plasma clinics pause collections after deaths of two donors"
+    "Trump loses second Supreme Court bid over E Jean Carroll sex abuse case"
   ]
 }
