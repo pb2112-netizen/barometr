@@ -1,55 +1,36 @@
 {
-  "global_score": 3.4,
-  "rationale": "European wildfires spread across continent including Britain deploying military; climate event affecting EU region; DRC Ebola outbreak continues as deadliest in history.",
+  "global_score": 3.2,
+  "rationale": "European wildfires spread with military deployment (direct EU climate threat); Trump threatens Oman (distant ME rhetoric); DRC Ebola spreads (distant health crisis).",
   "top_events": [
     {
-      "title": "French PM heckled over wildfire response as blazes continue across Europe",
-      "label": "European wildfires spread, military deployed",
-      "summary": "Wildfires across Europe; France announces €12m aid, Britain deploys military. Climate event affecting Iberian peninsula and broader EU region.",
-      "score": 3.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-17T18:57:03.200575Z"
-    },
-    {
-      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-      "label": "DRC Ebola outbreak deadliest in history",
-      "summary": "At least 2,325 deaths, spread to sixth province; distant African health crisis with no direct link to Portugal.",
-      "score": 3.0,
+      "title": "Britain deploys military as wildfires spread across Europe",
+      "label": "Britain deploys military as Europe fires spread",
+      "summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region including Iberia; France announces €12m aid.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Al Jazeera",
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-17T14:43:31.951069Z"
+      "detected_at": "2026-08-17T19:41:06.661097Z"
     },
     {
       "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
-      "label": "Trump threatens Oman over Iran deal",
-      "summary": "US president threatens military action against Oman as 60-day peace window expires; Middle East escalation risk with indirect EU energy implications.",
-      "score": 3.0,
+      "label": "Trump threatens Oman over Iran deal talks",
+      "summary": "US president threatens military action against Oman as 60-day peace window expires. Distant Middle East rhetoric with no direct impact on Portugal.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -63,14 +44,33 @@
         }
       ],
       "detected_at": "2026-08-17T15:38:35.237698Z"
+    },
+    {
+      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
+      "label": "DRC Ebola outbreak spreads to sixth province",
+      "summary": "Ebola spreads to Bas-Uele province; WHO says outbreak on track to be deadliest ever. Distant African health crisis with no direct link to Portugal.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
+        }
+      ],
+      "detected_at": "2026-08-17T14:43:31.951069Z"
     }
   ],
   "short_summary": "European wildfires spread, military deployed",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-17T18:57:03.200575Z",
+  "updated_at": "2026-08-17T19:41:06.661097Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-17T18:57:03.200575Z",
   "score_history": [
-    {
-      "t": "2026-08-15T19:33:32.788425Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-15T20:37:49.739550Z",
       "s": 2.0
@@ -133,6 +129,10 @@
     {
       "t": "2026-08-17T18:57:03.200575Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-17T19:41:06.661097Z",
+      "s": 3.2
     }
   ]
 }

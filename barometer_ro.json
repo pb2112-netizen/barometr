@@ -1,12 +1,31 @@
 {
-  "global_score": 4.6,
-  "rationale": "Russia jails anti-war politician; repression signal continues; ongoing strikes in Ukraine remain background; European wildfires spread to multiple countries.",
+  "global_score": 4.4,
+  "rationale": "Russia-Ukraine strikes continue (background); Russia jails anti-war politician (repression signal near Black Sea region); European wildfires spread with military deployment.",
   "top_events": [
     {
+      "title": "Russia and Ukraine trade more deadly strikes",
+      "label": "Russia-Ukraine strikes kill 13 in 24 hours",
+      "summary": "Moscow reports nine deaths, Kyiv four, in latest exchange. War continues at background level with no new shift for Romania's Black Sea security.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-17T14:43:31.949196Z"
+    },
+    {
       "title": "Russia's prominent anti-war politician jailed for 11 years",
-      "label": "Russia jails anti-war politician Schlosberg",
-      "summary": "Lev Schlosberg convicted for 'discrediting' army; signals continued repression in Russia, relevant to Black Sea regional security concerns.",
-      "score": 4.6,
+      "label": "Russia jails anti-war politician for 11 years",
+      "summary": "Lev Schlosberg convicted of 'discrediting' army. Signals intensified repression in Russia, indirect concern for Romania's regional security environment.",
+      "score": 4.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -27,47 +46,28 @@
       "detected_at": "2026-08-17T17:43:17.535697Z"
     },
     {
-      "title": "French PM heckled over wildfire response as blazes continue across Europe",
-      "label": "European wildfires spread, military deployed",
-      "summary": "Wildfires across Europe; France announces €12m aid, Britain deploys military. Climate event affecting EU region including Romania's neighbors.",
-      "score": 3.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-17T18:57:03.198958Z"
-    },
-    {
-      "title": "Russia and Ukraine trade more deadly strikes",
-      "label": "Russia and Ukraine trade deadly strikes",
-      "summary": "Nine killed in Russia, four in Ukraine; continuation of ongoing war near Black Sea region with no qualitative change.",
-      "score": 2.2,
+      "title": "Britain deploys military as wildfires spread across Europe",
+      "label": "Britain deploys military as Europe fires spread",
+      "summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region; France announces €12m aid for affected areas.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
         {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
+        },
+        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-17T14:43:31.949196Z"
+      "detected_at": "2026-08-17T19:41:06.659715Z"
     }
   ],
   "short_summary": "Russia jails anti-war politician for 11 years",
@@ -75,7 +75,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-17T18:57:03.198958Z",
+  "updated_at": "2026-08-17T19:41:06.659715Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -95,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-17T17:43:17.535697Z",
   "score_history": [
-    {
-      "t": "2026-08-15T19:33:32.786928Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-15T20:37:49.737971Z",
       "s": 2.0
@@ -134,6 +130,10 @@
     {
       "t": "2026-08-17T18:57:03.198958Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-17T19:41:06.659715Z",
+      "s": 4.4
     }
   ]
 }
