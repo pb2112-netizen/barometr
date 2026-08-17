@@ -1,31 +1,55 @@
 {
-  "global_score": 3.2,
-  "rationale": "Hurricane Lala threatens Hawaii with potential first direct hit in 34 years; other events remain background noise.",
+  "global_score": 3.0,
+  "rationale": "Trump announces reduction of US-South Korea military drills, a real policy shift affecting alliance posture; Canadian plasma clinic deaths trigger investigation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years",
-      "label": "Hurricane Lala threatens Hawaii with direct hit",
-      "summary": "Category one Hurricane Lala could directly hit Hawaii's Big Island, potentially dumping up to 25 inches of rain. This would be the first direct hurricane hit in 34 years.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
+      "label": "Trump reduces US-South Korea military drills",
+      "summary": "President announces downsizing of exercises citing Seoul's Iran stance and North Korea ties. Real policy change affecting US military posture in Asia.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-15T08:44:17.758435Z"
+    },
+    {
+      "title": "Canadian plasma clinics pause collections after deaths of two donors",
+      "label": "Canadian plasma clinics pause after donor deaths",
+      "summary": "Grifols halts donations after two deaths, investigation launched. North American health safety issue affecting cross-border medical industry.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/14/canadian-plasma-clinics-pause-collections-after-deaths-of-donors-grifols"
         }
       ],
       "detected_at": "2026-08-15T22:01:11.977546Z"
     },
     {
       "title": "American missionary kidnapped in Niger freed after nine months",
-      "label": "US missionary Kevin Rideout freed after Niger captivity",
-      "summary": "Kevin Rideout, an American missionary kidnapped in Niger in October, has been released after nine months in captivity and is in good health.",
-      "score": 2.3,
+      "label": "American missionary freed in Niger",
+      "summary": "Kevin Rideout released after nine months captivity in Niamey, in good health. Positive outcome for US citizen abroad.",
+      "score": 2.2,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,220 +63,37 @@
         }
       ],
       "detected_at": "2026-08-15T22:01:11.977546Z"
-    },
-    {
-      "title": "Canadian plasma clinics pause collections after deaths of two donors",
-      "label": "Grifols halts plasma donations after two donor deaths",
-      "summary": "Grifols, a private plasma clinic chain in Canada, has paused donations after two donor deaths prompted a government investigation.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/14/canadian-plasma-clinics-pause-collections-after-deaths-of-donors-grifols"
-        }
-      ],
-      "detected_at": "2026-08-15T22:01:11.977546Z"
     }
   ],
-  "short_summary": "Hurricane Lala threatens Hawaii with direct hit",
+  "short_summary": "Trump reduces US-South Korea military drills",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-15T22:01:11.977546Z",
+  "updated_at": "2026-08-17T14:43:31.954526Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Hurricane Lala threatens Hawaii with direct hit",
-    "summary": "Category one Hurricane Lala could directly hit Hawaii's Big Island, potentially dumping up to 25 inches of rain. This would be the first direct hurricane hit in 34 years.",
-    "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years",
-    "score": 3.2,
-    "sentiment": "negative",
-    "detected_at": "2026-08-15T22:01:11.977546Z",
-    "peak_at": "2026-08-15T22:01:11.977546Z",
+    "label": "Trump reduces US-South Korea military drills",
+    "summary": "President announces downsizing of exercises citing Seoul's Iran stance and North Korea ties. Real policy change affecting US military posture in Asia.",
+    "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
+    "score": 3.0,
+    "sentiment": "neutral",
+    "detected_at": "2026-08-15T08:44:17.758435Z",
+    "peak_at": "2026-08-17T14:43:31.954526Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-15T22:01:11.977546Z",
+  "events_anchor_at": "2026-08-15T08:44:17.758435Z",
   "score_history": [
-    {
-      "t": "2026-08-13T22:01:22.501352Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-13T22:02:02.527002Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-13T23:00:58.347043Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-13T23:57:50.987969Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-14T02:45:26.146622Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-14T04:01:32.190248Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T05:01:04.358269Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T06:42:08.450655Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T08:37:30.775545Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-14T10:01:21.692169Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-14T10:16:21.922476Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-14T11:09:57.503605Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-14T11:56:41.831306Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-14T13:41:33.078951Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-14T15:06:50.218323Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-08-14T16:01:18.103318Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-14T16:05:00.048445Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T17:10:36.684880Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-14T18:05:34.047777Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-14T19:13:01.518338Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-14T19:56:02.133396Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-14T20:44:52.706201Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-14T21:39:36.314580Z",
-      "s": 3.5
-    },
-    {
-      "t": "2026-08-14T22:00:52.483335Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-08-14T22:39:34.380300Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-14T23:36:14.203033Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-08-15T01:48:57.855997Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-15T03:04:05.350502Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-15T03:53:18.792032Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-15T04:00:54.081663Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-15T04:46:24.179753Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-15T05:40:11.181395Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-15T06:57:19.767434Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-15T07:43:44.018311Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-08-15T08:44:17.758435Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-15T09:39:41.261413Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-15T10:01:13.977311Z",
-      "s": 2.1
-    },
-    {
-      "t": "2026-08-15T10:37:23.150094Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T11:33:32.588723Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T12:58:34.967633Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T13:43:34.759437Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-15T14:38:31.574491Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-15T15:34:05.486945Z",
       "s": 2.3
@@ -288,6 +129,10 @@
     {
       "t": "2026-08-15T22:01:11.977546Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-17T14:43:31.954526Z",
+      "s": 3.0
     }
   ]
 }

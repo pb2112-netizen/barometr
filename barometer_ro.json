@@ -1,249 +1,99 @@
 {
-  "global_score": 2.0,
-  "rationale": "No events directly affect Romania; distant disasters and migration events remain background noise.",
+  "global_score": 3.0,
+  "rationale": "Russia-Ukraine strikes continue near Black Sea region; Trump-South Korea drill reduction signals potential US alliance shift affecting regional security. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered",
-      "label": "Zimbabwe ferry disaster death toll rises to 68",
-      "summary": "The death toll from a ferry capsizing on Lake Kariba has risen to 68, including 18 children. The distant African disaster has no direct impact on Romania.",
-      "score": 2.0,
+      "title": "Russia and Ukraine trade more deadly strikes",
+      "label": "Russia and Ukraine exchange deadly strikes",
+      "summary": "Nine killed in Russia, four in Ukraine in latest strikes. War continues near Black Sea with no new escalation affecting Romania directly.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-17T14:43:31.949196Z"
+    },
+    {
+      "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
+      "label": "Trump scales down US-South Korea military drills",
+      "summary": "US reduces exercises with ally, citing Iran stance. Signals potential broader shift in US security commitments affecting NATO allies.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-15T21:34:41.068938Z"
+      "detected_at": "2026-08-17T14:43:31.949196Z"
     },
     {
-      "title": "Moroccan police arrest more than 100 people as they attempt to enter Ceuta",
-      "label": "Morocco arrests 100+ migrants heading to Spanish Ceuta",
-      "summary": "Moroccan police detained over 100 migrants attempting to cross into Spain's Ceuta enclave. The event reflects ongoing EU migration pressure but remains distant from Romania's regional concerns.",
+      "title": "Global condemnation of Israeli settler violence against Palestinians",
+      "label": "Global condemnation of Israeli settler violence",
+      "summary": "International criticism of settler attacks. Distant Middle East issue with no direct impact on Romania.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/global-condemnation-of-israeli-settler-violence-against-palestinians?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-15T20:37:49.737971Z"
+      "detected_at": "2026-08-15T10:01:13.973513Z"
     }
   ],
-  "short_summary": "Ukraine strikes Russian satellite network with missiles",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Trump scales down US-South Korea military drills",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-15T22:01:11.974043Z",
+  "updated_at": "2026-08-17T14:43:31.949196Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Ukraine strikes Russian satellite network with missiles",
-    "summary": "Ukraine used Flamingo missiles to hit targets in Russia's Samara region, targeting satellite infrastructure. Indirect relevance to Romania's Black Sea security environment.",
-    "title": "Ukraine hits Russian Starlink-style network, Moscow tracks arms package",
-    "score": 3.5,
+    "label": "Trump scales down US-South Korea military drills",
+    "summary": "US reduces exercises with ally, citing Iran stance. Signals potential broader shift in US security commitments affecting NATO allies.",
+    "title": "Trump says US to reduce military drills with South Korea after it stayed out of Iran war",
+    "score": 3.0,
     "sentiment": "neutral",
-    "detected_at": "2026-08-15T16:39:58.218009Z",
-    "peak_at": "2026-08-15T16:39:58.218009Z",
+    "detected_at": "2026-08-17T14:43:31.949196Z",
+    "peak_at": "2026-08-17T14:43:31.949196Z",
     "source_links": [
       {
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/15/ukraine-hits-russian-starlink-style-network-moscow-tracks-arms-package?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-15T16:39:58.218009Z",
+  "events_anchor_at": "2026-08-17T14:43:31.949196Z",
   "score_history": [
-    {
-      "t": "2026-08-13T22:01:22.495531Z",
-      "s": 3.5
-    },
-    {
-      "t": "2026-08-13T22:02:02.523348Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-08-13T23:00:58.342282Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-13T23:57:50.982947Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-08-14T02:45:26.141940Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T04:01:32.186585Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-14T05:01:04.352833Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-14T06:42:08.444331Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-14T08:37:30.769719Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-14T10:01:21.686214Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-14T10:16:21.917068Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-08-14T11:09:57.498232Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-14T11:56:41.826661Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-14T13:41:33.075440Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T15:06:50.213283Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T16:01:18.097679Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T16:05:00.043415Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T17:10:36.680266Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T18:05:34.043552Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T19:13:01.513655Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T19:56:02.129040Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T20:44:52.702471Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T21:39:36.308772Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T22:00:52.478901Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-14T22:39:34.376178Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-14T23:36:14.198056Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-15T01:48:57.851151Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-15T03:04:05.341889Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-15T03:53:18.786549Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-15T04:00:54.077021Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-08-15T04:46:24.175457Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-15T05:40:11.176177Z",
-      "s": 2.2
-    },
-    {
-      "t": "2026-08-15T06:57:19.762044Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-15T07:43:44.013141Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T08:44:17.755512Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T09:39:41.257813Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T10:01:13.973513Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T10:37:23.147294Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T11:33:32.585848Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T12:58:34.963644Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T13:43:34.756295Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-15T14:38:31.570296Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-15T15:34:05.483597Z",
       "s": 2.0
@@ -279,6 +129,10 @@
     {
       "t": "2026-08-15T22:01:11.974043Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-17T14:43:31.949196Z",
+      "s": 3.0
     }
   ]
 }
