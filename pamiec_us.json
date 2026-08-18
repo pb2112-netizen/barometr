@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-08-18T16:47:56.994596Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-18T17:42:36.036322Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "BP Venezuela gasfield development",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "First major foreign investment since Maduro ousted; energy."
-    },
-    {
       "temat": "American missionary freed in Niger",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Kevin Rideout released after 9 months; positive outcome."
     },
     {
       "temat": "Disney sues FCC over ABC licence renewal",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Media giant claims political retaliation by federal."
     },
     {
+      "temat": "Tropical Storm Lala floods Hawaii",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Storm causes flooding and power outages in Hawaii."
+    },
+    {
       "temat": "Canada-US tariff negotiations",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 12,
       "opis": "Canada scrambles to avoid 50% tariffs; major trade risk."
     },
     {
       "temat": "DRC Ebola outbreak deadliest in country's history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "2,325 deaths; spread to sixth province; distant health."
     },
     {
       "temat": "Ontario court allows removal of Toronto bike lanes",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Regional court ruling; distant Canadian municipal issue."
     },
     {
       "temat": "Brazil's Lula launches fourth term bid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "President, 80, campaigns; Bolsonaro's son stands in his way."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Grifols halts donations after deaths; health safety concern."
     }
   ],
@@ -176,11 +176,15 @@
     {
       "t": "2026-08-18T16:47:56.989226Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-18T17:42:36.030484Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-08-18T08:52:54.554694Z",
   "event_detected_at": {
-    "disney and abc sue trump's media regulator": {
+    "disney and abc sue trump's media regulator to stop early licence renewal": {
       "detected_at": "2026-08-18T16:47:56.989226Z",
       "peak_at": "2026-08-18T16:47:56.989226Z",
       "peak_score_at": "2026-08-18T16:47:56.989226Z",
@@ -200,6 +204,38 @@
         }
       ]
     },
+    "tropical storm lala leaves hawaii flooded and without power": {
+      "detected_at": "2026-08-18T17:42:36.030484Z",
+      "peak_at": "2026-08-18T17:42:36.030484Z",
+      "peak_score_at": "2026-08-18T17:42:36.030484Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Tropical Storm Lala leaves Hawaii flooded and without power",
+      "peak_label": "Tropical Storm Lala floods Hawaii",
+      "peak_summary": "Storm causes flooding and power outages in Hawaii. Domestic natural disaster affecting US state; real but localized impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/tropical-storm-lala-leaves-hawaii-flooded-and-without-power?traffic_source=rss"
+        }
+      ]
+    },
+    "american missionary kidnapped in niger freed after nine months": {
+      "detected_at": "2026-08-15T22:01:11.977546Z",
+      "peak_at": "2026-08-18T14:52:04.850686Z",
+      "peak_score_at": "2026-08-15T22:01:11.977546Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "American missionary kidnapped in Niger freed after nine months",
+      "peak_label": "US missionary Kevin Rideout freed after Niger captivity",
+      "peak_summary": "Kevin Rideout, an American missionary kidnapped in Niger in October, has been released after nine months in captivity and is in good health.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
+        }
+      ]
+    },
     "bp to develop offshore gasfield in venezuela": {
       "detected_at": "2026-08-18T03:08:19.425400Z",
       "peak_at": "2026-08-18T03:08:19.425400Z",
@@ -213,22 +249,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
-        }
-      ]
-    },
-    "american missionary kidnapped in niger freed": {
-      "detected_at": "2026-08-15T22:01:11.977546Z",
-      "peak_at": "2026-08-18T14:52:04.850686Z",
-      "peak_score_at": "2026-08-15T22:01:11.977546Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "American missionary kidnapped in Niger freed after nine months",
-      "peak_label": "US missionary Kevin Rideout freed after Niger captivity",
-      "peak_summary": "Kevin Rideout, an American missionary kidnapped in Niger in October, has been released after nine months in captivity and is in good health.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping"
         }
       ]
     },
@@ -350,8 +370,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Disney and ABC sue Trump's media regulator",
-    "BP to develop offshore gasfield in Venezuela",
-    "American missionary kidnapped in Niger freed"
+    "Disney and ABC sue Trump's media regulator to stop early licence renewal",
+    "Tropical Storm Lala leaves Hawaii flooded and without power",
+    "American missionary kidnapped in Niger freed after nine months"
   ]
 }
