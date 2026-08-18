@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-18T07:53:22.430732Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-18T08:52:54.560634Z",
+  "ostatnia_ocena": 2.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Vessel struck in Strait of Hormuz",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
-      "opis": "Ship hit in oil route; distant energy risk."
-    },
-    {
       "temat": "BP Venezuela gasfield development",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "First major foreign investment since Maduro ousted; energy."
+    },
+    {
+      "temat": "Germany anti-smuggling raids",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 1,
+      "opis": "First raids under new law targeting migration smugglers."
+    },
+    {
+      "temat": "Canada-US tariff negotiations",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Canada scrambles to avoid 50% US tariffs; distant trade."
+    },
+    {
+      "temat": "Vessel struck in Strait of Hormuz",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "Ship hit in oil route; distant energy risk."
     },
     {
       "temat": "Zambia presidential election result",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Hichilema wins second term; distant African political event."
     },
     {
       "temat": "European wildfires spread, military deployed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Fires across Europe; Britain deploys military; EU climate."
     },
     {
       "temat": "DRC Ebola outbreak deadliest in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "2,325 deaths, spreads to sixth province; distant crisis."
     },
     {
       "temat": "Trump threatens Oman over Iran",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "US president threatens military action; ME escalation risk."
-    },
-    {
-      "temat": "Greek island twin fires",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 19,
-      "opis": "Two dead, evacuations on Salamina; Mediterranean climate."
-    },
-    {
-      "temat": "Brazil presidential race begins",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Lula vs Bolsonaro's son; Lusophone political event."
+      "opis": "US president threatens military action; ME escalation risk."
     }
   ],
   "score_history": [
@@ -132,23 +132,43 @@
     {
       "t": "2026-08-18T07:53:22.424408Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-18T08:52:54.551386Z",
+      "s": 2.2
     }
   ],
   "events_anchor_at": "2026-08-17T14:43:31.951069Z",
   "event_detected_at": {
-    "vessel hit by 'unknown projectile' in strait of hormuz, ukmto says": {
-      "detected_at": "2026-08-18T07:03:39.214402Z",
-      "peak_at": "2026-08-18T07:03:39.214402Z",
-      "peak_score_at": "2026-08-18T07:03:39.214402Z",
+    "inside secret police warehouse as germany targets small boats gangs": {
+      "detected_at": "2026-08-18T08:52:54.551386Z",
+      "peak_at": "2026-08-18T08:52:54.551386Z",
+      "peak_score_at": "2026-08-18T08:52:54.551386Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "Inside secret police warehouse as Germany targets small boats gangs",
+      "peak_label": "Germany raids smuggling gangs under new law",
+      "peak_summary": "German authorities seize smuggling equipment in first raids under new anti-trafficking law. Distant EU enforcement event.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "canada battles the clock, politics in scramble to avert trump's tariffs": {
+      "detected_at": "2026-08-18T08:52:54.551386Z",
+      "peak_at": "2026-08-18T08:52:54.551386Z",
+      "peak_score_at": "2026-08-18T08:52:54.551386Z",
       "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Vessel hit by 'unknown projectile' in Strait of Hormuz, UKMTO says",
-      "peak_label": "Vessel struck in Strait of Hormuz",
-      "peak_summary": "Ship damaged in key oil transit route. Distant escalation with potential indirect impact on global energy prices affecting Portugal's economy.",
+      "peak_sentiment": "neutral",
+      "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
+      "peak_label": "Canada scrambles to avert Trump 50% tariffs",
+      "peak_summary": "Canadian officials negotiate to avoid major US tariffs. Distant North American trade event with no direct Portuguese impact.",
       "peak_source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/18/canada-battles-the-clock-politics-in-scramble-to-avert-trumps-tariffs?traffic_source=rss"
         }
       ]
     },
@@ -165,6 +185,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ]
+    },
+    "vessel hit by 'unknown projectile' in strait of hormuz, ukmto says": {
+      "detected_at": "2026-08-18T07:03:39.214402Z",
+      "peak_at": "2026-08-18T07:03:39.214402Z",
+      "peak_score_at": "2026-08-18T07:03:39.214402Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Vessel hit by 'unknown projectile' in Strait of Hormuz, UKMTO says",
+      "peak_label": "Vessel struck in Strait of Hormuz",
+      "peak_summary": "Ship damaged in key oil transit route. Distant escalation with potential indirect impact on global energy prices affecting Portugal's economy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss"
         }
       ]
     },
@@ -346,8 +382,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Vessel hit by 'unknown projectile' in Strait of Hormuz, UKMTO says",
-    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-    "Brazil's Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way"
+    "Inside secret police warehouse as Germany targets small boats gangs",
+    "Canada battles the clock, politics in scramble to avert Trump's tariffs",
+    "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration"
   ]
 }
