@@ -1,13 +1,32 @@
 {
-  "global_score": 2.9,
-  "rationale": "Trump's threat to Oman over Iran continues as background rhetoric; BP Venezuela deal is new but indirect; other events remain distant or routine.",
+  "global_score": 3.0,
+  "rationale": "Confirmed vessel strike in Strait of Hormuz represents first concrete action in escalating Middle East tensions; Trump-Kim talks remain rhetoric; other events routine or distant.",
   "top_events": [
+    {
+      "title": "Vessel hit by 'unknown projectile' in Strait of Hormuz, UKMTO says",
+      "label": "Vessel struck in Strait of Hormuz",
+      "summary": "Ship damaged with one casualty in key oil transit route. First confirmed attack in region as Trump's Iran peace window expires, raising energy security and military involvement risk.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T07:03:39.217287Z"
+    },
     {
       "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
       "label": "Trump threatens Oman over Iran negotiations",
-      "summary": "President threatens military action against ally Oman as 60-day Iran peace window expires. Rhetoric continues without confirmed action.",
-      "score": 2.9,
-      "sentiment": "negative",
+      "summary": "President threatens military action against Oman as 60-day Iran peace window expires. Rhetoric without confirmed action; continues pattern of presidential threats.",
+      "score": 2.8,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -23,9 +42,9 @@
     },
     {
       "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "label": "BP develops Venezuela gasfield with Trump-linked firms",
-      "summary": "First large-scale foreign investment in Venezuela since US ousted Maduro. Energy sector development with potential indirect impact on oil markets.",
-      "score": 2.6,
+      "label": "BP develops Venezuela gasfield",
+      "summary": "First large-scale foreign investment in Venezuela since US ousted Maduro. Confirms shift in Venezuela policy with potential impact on oil markets and regional relations.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-18T03:08:19.425400Z"
-    },
-    {
-      "title": "Trump says talking to North Korea's Kim makes the south safer",
-      "label": "Trump says talks with Kim make Korea safer",
-      "summary": "President reveals positive response from Kim Jong Un while reducing South Korea military drills. Alliance policy shift continues.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/trump-says-talking-to-north-koreas-kim-makes-the-south-safer?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-17T15:38:35.240497Z"
     }
   ],
   "short_summary": "DRC Ebola outbreak now deadliest in history",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-18T05:44:25.126736Z",
+  "updated_at": "2026-08-18T07:03:39.217287Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -160,6 +160,10 @@
     {
       "t": "2026-08-18T05:44:25.126736Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-18T07:03:39.217287Z",
+      "s": 3.0
     }
   ]
 }
