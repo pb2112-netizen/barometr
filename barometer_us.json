@@ -1,66 +1,69 @@
 {
-  "global_score": 3.0,
-  "rationale": "Tropical Storm Lala continues to affect Hawaii with flooding and power outages. Other headlines involve distant conflicts or routine legal proceedings with no direct impact on American daily life.",
+  "global_score": 2.9,
+  "rationale": "Tropical Storm Lala continues causing flooding and power outages in Hawaii; other headlines remain routine or distant from US daily life.",
   "top_events": [
     {
       "title": "Tropical Storm Lala floods Hawaii",
-      "label": "Tropical Storm Lala floods Hawaii",
-      "summary": "Storm continues to cause flooding and power outages in Hawaii. Ongoing domestic weather event affecting US state residents.",
-      "score": 3.0,
+      "label": "Tropical Storm Lala floods Hawaii, cuts power",
+      "summary": "Storm continues causing flooding and power outages in Hawaii; ongoing domestic weather event affecting US state residents.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
-      "sources": [
-        "memory"
-      ],
+      "sources": [],
       "source_links": [],
       "detected_at": "2026-08-18T17:42:36.030484Z"
     },
     {
-      "title": "Landmark trial on Meta's impact on children's mental health begins in US",
-      "label": "Meta trial on children's mental health begins",
-      "summary": "Case examines Meta's profit-driven disregard for young people's mental health following 2021 whistleblower claims. Continuation of ongoing legal proceedings.",
-      "score": 2.6,
+      "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
+      "label": "Disney sues FCC over ABC licence renewal",
+      "summary": "Media giant claims political retaliation by federal regulator; legal challenge to administration action affecting major US broadcaster.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump"
+        }
+      ],
+      "detected_at": "2026-08-18T16:47:56.989226Z"
+    },
+    {
+      "title": "Trump and Carney speak ahead of US tariff deadline",
+      "label": "Trump speaks with Carney before tariff deadline",
+      "summary": "US president and Canadian PM discuss tariffs covering $20bn in imports; rhetoric continues without confirmed policy change yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/18/landmark-trial-on-metas-impact-on-childrens-mental-health-begins-in-us?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/18/trump-and-carney-speak-ahead-of-us-tariff-deadline?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-18T18:55:52.251870Z"
-    },
-    {
-      "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
-      "label": "Disney sues FCC over ABC licence",
-      "summary": "ABC accuses Trump administration of political retaliation over broadcast content. Continuation of media-government tensions with no immediate policy impact.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T16:47:56.989226Z"
+      "detected_at": "2026-08-18T21:37:06.130198Z"
     }
   ],
   "short_summary": "Canada scrambles to avert Trump 50% tariffs",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-18T20:39:54.898531Z",
+  "updated_at": "2026-08-18T21:37:06.130198Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -219,6 +222,10 @@
     {
       "t": "2026-08-18T20:39:54.898531Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-18T21:37:06.130198Z",
+      "s": 2.9
     }
   ]
 }
