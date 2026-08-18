@@ -1,38 +1,14 @@
 {
-  "global_score": 3.2,
-  "rationale": "Disney sues FCC over ABC licence renewal claiming political retaliation; Tropical Storm Lala floods Hawaii; both are domestic events with real impact.",
+  "global_score": 3.1,
+  "rationale": "Tropical Storm Lala continues flooding Hawaii; Meta trial on children's mental health begins as landmark domestic case.",
   "top_events": [
     {
-      "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
-      "label": "Disney sues FCC over ABC licence renewal",
-      "summary": "Media giant claims federal regulator is retaliating politically against ABC broadcasts. Significant domestic legal dispute over media regulation.",
-      "score": 2.7,
+      "title": "Tropical Storm Lala leaves Hawaii flooded and without power",
+      "label": "Tropical Storm Lala floods Hawaii, cuts power",
+      "summary": "Storm causes flooding and power outages across Hawaii. Ongoing domestic weather event affecting US state residents.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/18/disney-sues-us-regulator-claiming-political-retaliation-over-abc-stations?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T16:47:56.989226Z"
-    },
-    {
-      "title": "Tropical Storm Lala leaves Hawaii flooded and without power",
-      "label": "Tropical Storm Lala floods Hawaii",
-      "summary": "Storm causes flooding and power outages across Hawaii. Domestic weather disaster affecting US state.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -48,10 +24,10 @@
     {
       "title": "Landmark trial on Meta's impact on children's mental health begins in US",
       "label": "Meta trial on children's mental health begins",
-      "summary": "Case follows whistleblower claims about profit-driven disregard for young users' safety. Significant domestic legal case on tech regulation.",
-      "score": 2.8,
+      "summary": "Landmark case examines Meta's impact on young users' mental health, following 2021 whistleblower claims. Significant domestic legal action starting.",
+      "score": 2.7,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "Al Jazeera"
@@ -63,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-18T18:55:52.251870Z"
+    },
+    {
+      "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
+      "label": "Disney sues FCC over ABC licence renewal",
+      "summary": "Media giant claims federal retaliation over ABC broadcasts. Ongoing domestic political-legal dispute without policy change yet.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rzr49vr2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T16:47:56.989226Z"
     }
   ],
   "short_summary": "Canada scrambles to avert Trump 50% tariffs",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-18T18:55:52.251870Z",
+  "updated_at": "2026-08-18T19:40:21.666844Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -221,6 +216,10 @@
     {
       "t": "2026-08-18T18:55:52.251870Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-18T19:40:21.666844Z",
+      "s": 3.1
     }
   ]
 }
