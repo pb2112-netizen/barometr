@@ -1,14 +1,14 @@
 {
   "global_score": 3.0,
-  "rationale": "Russia warns UK over drone supply is a qualitative new escalation targeting Ukraine's key military supporter; UK response reaffirms aid commitment. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Russia's threat to UK over drone supply directly affects Ukraine's military aid flow from a key Western supporter. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia warns UK over supplying drones to Ukraine",
       "label": "Russia warns UK over Ukraine drone supply",
-      "summary": "Moscow issues warning to Britain over drone deliveries; UK reaffirms standing with Ukraine. New escalation in rhetoric targeting key military supporter.",
+      "summary": "Moscow threatens Britain over military aid to Ukraine. UK is a key supplier of drones and weapons; threat signals pressure on Western support Ukraine depends on.",
       "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -24,8 +24,8 @@
     {
       "title": "Russia and Ukraine trade more deadly strikes",
       "label": "Russia and Ukraine trade deadly strikes",
-      "summary": "Nine killed in Russia, four in Ukraine in past 24 hours. Ongoing war continues with no qualitative change in intensity or territory.",
-      "score": 2.7,
+      "summary": "Ongoing combat with four deaths reported in Ukraine. War continues without qualitative change this cycle.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,23 +41,28 @@
       "detected_at": "2026-08-18T01:50:26.146341Z"
     },
     {
-      "title": "Russia's prominent anti-war politician jailed for 11 years",
-      "label": "Russia jails anti-war politician Schlosberg",
-      "summary": "Lev Schlosberg sentenced for 'discrediting' army. Continuation of Russian repression; no change in Ukraine's situation.",
+      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
+      "label": "Trump threatens to bomb ally Oman over Iran",
+      "summary": "US president threatens military action as Iran talks expire. Signals unpredictable US foreign policy, raising concerns about reliability of American support.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/18/iran-war-live-trump-rejects-mou-extension-as-us-claims-control-of-hormuz?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-17T17:43:17.538317Z"
+      "detected_at": "2026-08-17T21:39:48.509991Z"
     }
   ],
   "short_summary": "Russia jails anti-war politician for 11 years",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-18T01:50:26.146341Z",
+  "updated_at": "2026-08-18T03:08:19.423482Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russia jails anti-war politician for 11 years",
     "summary": "Lev Schlosberg convicted for 'discrediting' army; intensified repression in aggressor state signals hardening stance, concern for Ukraine.",
@@ -135,6 +140,10 @@
     },
     {
       "t": "2026-08-18T01:50:26.146341Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-18T03:08:19.423482Z",
       "s": 3.0
     }
   ]
