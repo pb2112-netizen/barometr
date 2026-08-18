@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-18T21:37:06.138564Z",
-  "ostatnia_ocena": 8.2,
+  "updated_at": "2026-08-18T22:01:22.402253Z",
+  "ostatnia_ocena": 7.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia warns UK over Ukraine drone supply",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "poziom_bazowy": 7.8,
+      "cykle_bez_zmian": 0,
       "opis": "Moscow threatens key military supporter over aid to Ukraine."
     },
     {
+      "temat": "Drone strike near Zaporizhzhia nuclear plant",
+      "poziom_bazowy": 7.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone activity near Europe's largest nuclear plant in war."
+    },
+    {
+      "temat": "Syria opens Assad nuclear programme to UN probe",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "UN finds material at undisclosed sites; distant ME event."
+    },
+    {
       "temat": "Russian missile strike kills 10 in Kharkiv",
-      "poziom_bazowy": 8.2,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 7.7,
+      "cykle_bez_zmian": 2,
       "opis": "Major escalation: deadly civilian strike in eastern Ukraine."
     },
     {
       "temat": "US sanctions ICC officials",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 3,
       "opis": "Trump targets international court Ukraine needs for justice."
     },
     {
       "temat": "UK pledges full support for Ukraine",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 5,
       "opis": "PM vows support in 'hour of need' amid Russian threats."
     },
     {
       "temat": "Israeli strike on Gaza City cafe",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Strike kills six in Gaza; distant ME conflict."
     },
     {
       "temat": "Pakistan court orders Khan to hospital",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Ex-PM moved from jail; distant South Asian political case."
-    },
-    {
-      "temat": "Russia summons Japan envoy over Kuril remarks",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
-      "opis": "Russia-Japan diplomatic spat; distant from Ukraine."
-    },
-    {
-      "temat": "Israeli strikes on Syrian airbase",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Eight strikes hit Idlib airbase; distant ME military action."
     }
   ],
   "score_history": [
@@ -196,10 +196,62 @@
     {
       "t": "2026-08-18T21:37:06.128462Z",
       "s": 8.2
+    },
+    {
+      "t": "2026-08-18T22:01:22.394526Z",
+      "s": 7.8
     }
   ],
   "events_anchor_at": "2026-08-18T18:55:52.249595Z",
   "event_detected_at": {
+    "russia reports ukrainian drone strike near zaporizhzhia nuclear plant": {
+      "detected_at": "2026-08-17T14:43:31.952353Z",
+      "peak_at": "2026-08-18T22:01:22.394526Z",
+      "peak_score_at": "2026-08-18T22:01:22.394526Z",
+      "peak_score": 7.8,
+      "peak_sentiment": "negative",
+      "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+      "peak_label": "Drone strike reported near Zaporizhzhia nuclear plant",
+      "peak_summary": "Drone activity near Europe's largest nuclear plant in active war zone raises immediate safety threat. No reactor damage confirmed yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
+        }
+      ]
+    },
+    "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
+      "detected_at": "2026-08-18T07:53:22.425795Z",
+      "peak_at": "2026-08-18T07:53:22.425795Z",
+      "peak_score_at": "2026-08-18T07:53:22.425795Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "positive",
+      "title": "Russia says more than 600 drones targeted Moscow region",
+      "peak_label": "Ukraine drone strikes hit Moscow region",
+      "peak_summary": "Large-scale Ukrainian drone attack on Russian capital area injures three, damages warehouse. Signals continued offensive capability but no new escalation on Ukrainian territory.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/russia-says-more-than-600-drones-targeted-moscow-region?traffic_source=rss"
+        }
+      ]
+    },
+    "syria opens assad-era nuclear programme to un probe": {
+      "detected_at": "2026-08-18T09:48:07.853080Z",
+      "peak_at": "2026-08-18T22:01:22.394526Z",
+      "peak_score_at": "2026-08-18T22:01:22.394526Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Syria opens Assad-era nuclear programme to UN probe",
+      "peak_label": "Syria opens Assad nuclear programme to UN probe",
+      "peak_summary": "UN watchdog reports large amounts of material found at undisclosed Syrian sites. Distant Middle East development with no Ukraine impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/syria-opens-assad-era-nuclear-programme-to-un-probe?traffic_source=rss"
+        }
+      ]
+    },
     "russian missile strike kills 10 civilians in kharkiv": {
       "detected_at": "2026-08-18T18:55:52.249595Z",
       "peak_at": "2026-08-18T21:37:06.128462Z",
@@ -232,22 +284,6 @@
         }
       ]
     },
-    "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
-      "detected_at": "2026-08-17T14:43:31.952353Z",
-      "peak_at": "2026-08-18T14:52:04.849089Z",
-      "peak_score_at": "2026-08-17T14:43:31.952353Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Russia and Ukraine trade more deadly strikes",
-      "peak_label": "Russia and Ukraine exchange deadly strikes",
-      "peak_summary": "Four Ukrainians killed, nine Russians dead in past 24 hours. War continues with casualties but no major new escalation or territorial change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "pakistan top court orders ex-pm imran khan be moved to hospital from jail": {
       "detected_at": "2026-08-18T10:45:41.400767Z",
       "peak_at": "2026-08-18T18:55:52.249595Z",
@@ -277,38 +313,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/tropical-storm-lala-leaves-hawaii-flooded-and-without-power?traffic_source=rss"
-        }
-      ]
-    },
-    "why is russia threatening uk with 'consequences' over ukraine drones?": {
-      "detected_at": "2026-08-18T07:53:22.425795Z",
-      "peak_at": "2026-08-18T07:53:22.425795Z",
-      "peak_score_at": "2026-08-18T07:53:22.425795Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "Russia says more than 600 drones targeted Moscow region",
-      "peak_label": "Ukraine drone strikes hit Moscow region",
-      "peak_summary": "Large-scale Ukrainian drone attack on Russian capital area injures three, damages warehouse. Signals continued offensive capability but no new escalation on Ukrainian territory.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/russia-says-more-than-600-drones-targeted-moscow-region?traffic_source=rss"
-        }
-      ]
-    },
-    "bashar al-assad's cousin wassim sentenced to death in syria": {
-      "detected_at": "2026-08-18T09:48:07.853080Z",
-      "peak_at": "2026-08-18T09:48:07.853080Z",
-      "peak_score_at": "2026-08-18T09:48:07.853080Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "neutral",
-      "title": "Syrian court sentences Wassim al-Assad to death",
-      "peak_label": "Syrian court sentences Assad cousin to death",
-      "peak_summary": "Former regime figure convicted of murder and torture. Distant Middle East justice case; no impact on Ukraine's war or security.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/syrian-court-sentences-wassim-al-assad-to?traffic_source=rss"
         }
       ]
     },
@@ -391,27 +395,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump threatens to bomb us ally oman if it 'gets in the way' over iran deal": {
-      "detected_at": "2026-08-17T21:39:48.509991Z",
-      "peak_at": "2026-08-17T21:39:48.509991Z",
-      "peak_score_at": "2026-08-17T21:39:48.509991Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
-      "peak_label": "Trump threatens to bomb Oman over Iran",
-      "peak_summary": "US president threatens military action against Oman as peace window expires. Western focus on Middle East raises concerns about sustained Ukraine support.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Russian missile strike kills 10 civilians in Kharkiv",
-    "US sanctions International Criminal Court president and trial lawyer",
-    "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning"
+    "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+    "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
+    "Syria opens Assad-era nuclear programme to UN probe"
   ]
 }

@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-18T21:37:06.135440Z",
-  "ostatnia_ocena": 6.2,
+  "updated_at": "2026-08-18T22:01:22.399596Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian missile strike kills 10 in Kharkiv",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 1,
-      "opis": "Major civilian casualties in Ukraine escalation near."
-    },
-    {
       "temat": "Drone strike near Zaporizhzhia nuclear plant",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Drone activity near Europe's largest nuclear plant in war."
     },
     {
-      "temat": "US sanctions ICC officials",
-      "poziom_bazowy": 3.6,
+      "temat": "Congo Ebola outbreak declared global emergency",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "WHO escalates status as infections pass 5,000; distant."
+    },
+    {
+      "temat": "Russian missile strike kills 10 in Kharkiv",
+      "poziom_bazowy": 5.9,
       "cykle_bez_zmian": 2,
+      "opis": "Major civilian casualties in Ukraine escalation near."
+    },
+    {
+      "temat": "US sanctions ICC officials",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 3,
       "opis": "Trump administration targets international court leadership."
     },
     {
       "temat": "Granada earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Earthquake damages historic Spanish city; nearby EU event."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Grifols halts donations after deaths; distant health issue."
     },
     {
       "temat": "Israeli strikes on Syrian airbase",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Eight strikes hit Idlib airbase; distant ME military action."
-    },
-    {
-      "temat": "Germany anti-smuggling raids",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "First raids under new law targeting migration smugglers."
     }
   ],
   "score_history": [
@@ -196,10 +196,62 @@
     {
       "t": "2026-08-18T21:37:06.124722Z",
       "s": 6.2
+    },
+    {
+      "t": "2026-08-18T22:01:22.390062Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-08-18T18:55:52.245699Z",
   "event_detected_at": {
+    "russia reports ukrainian drone strike near zaporizhzhia nuclear plant": {
+      "detected_at": "2026-08-18T21:37:06.124722Z",
+      "peak_at": "2026-08-18T21:37:06.124722Z",
+      "peak_score_at": "2026-08-18T21:37:06.124722Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Russian drone strike reported near Zaporizhzhia nuclear plant",
+      "peak_label": "Ukrainian drone strike near Zaporizhzhia plant",
+      "peak_summary": "Drone activity near Europe's largest nuclear plant raises regional safety concerns; ongoing risk to Black Sea region from nuclear facility in war zone.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
+        }
+      ]
+    },
+    "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
+      "detected_at": "2026-08-17T14:43:31.949196Z",
+      "peak_at": "2026-08-18T22:01:22.390062Z",
+      "peak_score_at": "2026-08-18T22:01:22.390062Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
+      "peak_label": "UK vows Ukraine support after Russia drone warning",
+      "peak_summary": "Russia accuses UK of escalating war by supplying drones; UK PM pledges continued support. Rhetoric only, no new military action confirmed.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "congo ebola outbreak 'global emergency' as infections pass 5,000: who": {
+      "detected_at": "2026-08-18T22:01:22.390062Z",
+      "peak_at": "2026-08-18T22:01:22.390062Z",
+      "peak_score_at": "2026-08-18T22:01:22.390062Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
+      "peak_label": "Congo Ebola outbreak declared global emergency by WHO",
+      "peak_summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
+        }
+      ]
+    },
     "russian missile strike kills 10 civilians in kharkiv": {
       "detected_at": "2026-08-18T18:55:52.245699Z",
       "peak_at": "2026-08-18T21:37:06.124722Z",
@@ -229,38 +281,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
-        }
-      ]
-    },
-    "russian drone strike reported near zaporizhzhia nuclear plant": {
-      "detected_at": "2026-08-18T21:37:06.124722Z",
-      "peak_at": "2026-08-18T21:37:06.124722Z",
-      "peak_score_at": "2026-08-18T21:37:06.124722Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Russian drone strike reported near Zaporizhzhia nuclear plant",
-      "peak_label": "Ukrainian drone strike near Zaporizhzhia plant",
-      "peak_summary": "Drone activity near Europe's largest nuclear plant raises regional safety concerns; ongoing risk to Black Sea region from nuclear facility in war zone.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
-        }
-      ]
-    },
-    "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
-      "detected_at": "2026-08-17T14:43:31.949196Z",
-      "peak_at": "2026-08-18T01:50:26.143622Z",
-      "peak_score_at": "2026-08-18T01:50:26.143622Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Russia warns UK over supplying drones to Ukraine",
-      "peak_label": "Russia warns UK over Ukraine drone supply",
-      "peak_summary": "Moscow issues warning to Britain over drone deliveries to Ukraine; UK stands firm. Escalation in rhetoric targeting NATO ally affects Black Sea security environment.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -442,8 +462,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian missile strike kills 10 civilians in Kharkiv",
-    "US sanctions International Criminal Court president and trial lawyer",
-    "Russian drone strike reported near Zaporizhzhia nuclear plant"
+    "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+    "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
+    "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO"
   ]
 }

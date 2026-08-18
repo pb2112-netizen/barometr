@@ -1,25 +1,13 @@
 {
   "global_score": 2.9,
-  "rationale": "Tropical Storm Lala continues causing flooding and power outages in Hawaii; other headlines remain routine or distant from US daily life.",
+  "rationale": "Disney sues FCC over ABC licence renewal in domestic legal action; Ebola emergency distant; other headlines lack direct US policy or economic impact.",
   "top_events": [
-    {
-      "title": "Tropical Storm Lala floods Hawaii",
-      "label": "Tropical Storm Lala floods Hawaii, cuts power",
-      "summary": "Storm continues causing flooding and power outages in Hawaii; ongoing domestic weather event affecting US state residents.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [],
-      "source_links": [],
-      "detected_at": "2026-08-18T17:42:36.030484Z"
-    },
     {
       "title": "Disney and ABC sue Trump's media regulator to stop early licence renewal",
       "label": "Disney sues FCC over ABC licence renewal",
-      "summary": "Media giant claims political retaliation by federal regulator; legal challenge to administration action affecting major US broadcaster.",
-      "score": 2.4,
-      "sentiment": "neutral",
+      "summary": "Media giant claims federal retaliation over ABC broadcasts. Domestic legal action with potential First Amendment implications for US media.",
+      "score": 2.3,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -39,23 +27,47 @@
       "detected_at": "2026-08-18T16:47:56.989226Z"
     },
     {
-      "title": "Trump and Carney speak ahead of US tariff deadline",
-      "label": "Trump speaks with Carney before tariff deadline",
-      "summary": "US president and Canadian PM discuss tariffs covering $20bn in imports; rhetoric continues without confirmed policy change yet.",
-      "score": 2.0,
+      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
+      "label": "Congo Ebola outbreak declared global emergency by WHO",
+      "summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct US impact yet.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        }
+      ],
+      "detected_at": "2026-08-18T22:01:22.396869Z"
+    },
+    {
+      "title": "Trump administration moves to end rule protecting swaths of forest land",
+      "label": "Trump moves to end forest protection rule",
+      "summary": "Agriculture Department rescinds 2001 rule to reduce wildfire risk and return control to local managers. Domestic policy change affecting federal lands.",
+      "score": 2.9,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/18/trump-and-carney-speak-ahead-of-us-tariff-deadline?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/18/trump-administration-moves-to-end-rule-protecting-swaths-of-forest-land?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-18T21:37:06.130198Z"
+      "detected_at": "2026-08-18T03:08:19.425400Z"
     }
   ],
   "short_summary": "Canada scrambles to avert Trump 50% tariffs",
@@ -63,9 +75,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-18T21:37:06.130198Z",
+  "updated_at": "2026-08-18T22:01:22.396869Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Canada scrambles to avert Trump 50% tariffs",
     "summary": "Canadian officials make last-ditch effort to negotiate reprieve from 50% tariffs. Major trade policy affecting largest US trading partner; real economic impact.",
@@ -225,6 +237,10 @@
     },
     {
       "t": "2026-08-18T21:37:06.130198Z",
+      "s": 2.9
+    },
+    {
+      "t": "2026-08-18T22:01:22.396869Z",
       "s": 2.9
     }
   ]
