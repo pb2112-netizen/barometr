@@ -1,11 +1,30 @@
 {
-  "global_score": 5.9,
-  "rationale": "Kharkiv strike continues as background; UK-Russia drone rhetoric adds no new action; other events distant from Polish daily life.",
+  "global_score": 5.6,
+  "rationale": "Drone strike near Zaporizhzhia nuclear plant continues as highest concern; UK support for Ukraine reaffirms existing aid pattern without new escalation.",
   "top_events": [
     {
+      "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+      "label": "Drone strike near Zaporizhzhia nuclear plant",
+      "summary": "Continued drone activity near Europe's largest nuclear facility maintains elevated risk for regional energy security and potential radiological threat to Poland.",
+      "score": 5.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T22:01:22.387865Z"
+    },
+    {
       "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-      "label": "UK vows Ukraine support after Russia drone warning",
-      "summary": "Russia accuses UK of escalating war by supplying drones; UK PM pledges continued support. Rhetoric only, no new military action confirmed.",
+      "label": "UK reaffirms full support for Ukraine",
+      "summary": "British PM's statement reinforces existing NATO ally commitment to Ukraine without announcing new military measures or policy shifts affecting Poland's security posture.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,31 +41,12 @@
       "detected_at": "2026-08-17T14:43:31.947524Z"
     },
     {
-      "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
-      "label": "Drone strike reported near Zaporizhzhia nuclear plant",
-      "summary": "Drone activity near Europe's largest nuclear plant raises safety concerns in ongoing war zone. No confirmed damage to reactor reported.",
-      "score": 5.9,
+      "title": "DR Congo's Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
+      "label": "Congo Ebola outbreak declared global emergency",
+      "summary": "WHO escalates outbreak status as cases exceed 5,000; distant African health crisis with minimal direct impact on Polish daily life despite global emergency label.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T22:01:22.387865Z"
-    },
-    {
-      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
-      "label": "Congo Ebola outbreak declared global emergency by WHO",
-      "summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Poland.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-18T22:01:22.387865Z",
+  "updated_at": "2026-08-18T22:40:43.106709Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -232,6 +232,10 @@
     {
       "t": "2026-08-18T22:01:22.387865Z",
       "s": 5.9
+    },
+    {
+      "t": "2026-08-18T22:40:43.106709Z",
+      "s": 5.6
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "global_score": 3.1,
-  "rationale": "Zaporizhzhia nuclear plant drone strike raises regional safety concerns; Kharkiv casualties continue as background; Ebola emergency distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Zaporizhzhia drone strike continues as top regional security concern; DRC Ebola escalation to deadliest outbreak adds minor global health dimension. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
-      "label": "Drone strike reported near Zaporizhzhia nuclear plant",
-      "summary": "Drone activity near Europe's largest nuclear plant in war zone raises Black Sea region safety concerns. No reactor damage confirmed yet.",
-      "score": 3.1,
+      "label": "Drone strike near Zaporizhzhia nuclear plant",
+      "summary": "Ongoing drone activity near Europe's largest nuclear plant maintains elevated Black Sea regional security risk and potential energy infrastructure threat.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
       ],
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-18T21:37:06.124722Z"
     },
     {
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "DRC Ebola becomes deadliest in country history",
+      "summary": "At least 2,325 deaths mark outbreak as DRC's worst ever; distant African health crisis with minimal direct impact on Romanian daily life despite record toll.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        }
+      ],
+      "detected_at": "2026-08-18T22:01:22.390062Z"
+    },
+    {
       "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-      "label": "UK vows Ukraine support after Russia drone warning",
-      "summary": "Russia accuses UK of escalating war by supplying drones; UK PM pledges continued support. Rhetoric only, no new military action confirmed.",
-      "score": 2.6,
+      "label": "UK reaffirms full support for Ukraine",
+      "summary": "British PM's statement reinforces existing NATO ally commitment without new military measures affecting Romania's regional security posture.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-17T14:43:31.949196Z"
-    },
-    {
-      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
-      "label": "Congo Ebola outbreak declared global emergency by WHO",
-      "summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Romania.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T22:01:22.390062Z"
     }
   ],
   "short_summary": "Russian missile kills 10 civilians in Kharkiv",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-18T22:01:22.390062Z",
+  "updated_at": "2026-08-18T22:40:43.109072Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -232,6 +232,10 @@
     {
       "t": "2026-08-18T22:01:22.390062Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-18T22:40:43.109072Z",
+      "s": 3.0
     }
   ]
 }

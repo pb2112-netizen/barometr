@@ -1,12 +1,31 @@
 {
-  "global_score": 2.8,
-  "rationale": "Granada earthquake continues as nearby Iberian event; other headlines distant from Portuguese daily life; no major economic or energy changes.",
+  "global_score": 2.7,
+  "rationale": "Granada earthquake continues as nearest event; DRC Ebola escalation adds minor global health dimension; no significant changes to Portuguese daily life.",
   "top_events": [
     {
+      "title": "DR Congo's Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
+      "label": "Congo Ebola outbreak declared global emergency",
+      "summary": "WHO escalates outbreak status as cases exceed 5,000; distant African health crisis with minimal direct impact on Portuguese daily life despite global emergency label.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T22:01:22.392250Z"
+    },
+    {
       "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "label": "Earthquake damages Granada, injures three people",
-      "summary": "Earthquake damages buildings and cars in historic Spanish city; Alhambra palace temporarily closed. Nearby Iberian event with no Portugal impact.",
-      "score": 2.1,
+      "label": "Earthquake damages historic Granada Spain",
+      "summary": "Earthquake injures three and damages buildings in nearby Iberian city; Alhambra palace temporarily closed but no major regional infrastructure impact.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -23,8 +42,8 @@
     },
     {
       "title": "Brazil's President Lula hails oil discovery near Amazon river",
-      "label": "Brazil announces oil discovery near Amazon river",
-      "summary": "Exploratory drilling near Amazon criticized by environmentalists. Distant energy development with no direct link to Portuguese economy.",
+      "label": "Brazil announces oil discovery near Amazon",
+      "summary": "Exploratory drilling near Amazon mouth draws environmental criticism; distant energy development with no direct impact on Portuguese economy or energy supply.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-17T14:43:31.951069Z"
-    },
-    {
-      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
-      "label": "Congo Ebola outbreak declared global emergency by WHO",
-      "summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Portugal.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T22:01:22.392250Z"
     }
   ],
   "short_summary": "Congo Ebola outbreak declared global emergency by WHO",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-18T22:01:22.392250Z",
+  "updated_at": "2026-08-18T22:40:43.110974Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -232,6 +232,10 @@
     {
       "t": "2026-08-18T22:01:22.392250Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-18T22:40:43.110974Z",
+      "s": 2.7
     }
   ]
 }
