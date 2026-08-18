@@ -1,11 +1,30 @@
 {
-  "global_score": 2.0,
-  "rationale": "UK reaffirms Ukraine support amid Russian threats; continuation of known background tension with no new qualitative change affecting Poland.",
+  "global_score": 4.0,
+  "rationale": "Russian missile strike killing 10 civilians in Kharkiv represents a significant escalation in the war next door, raising security concerns for Poland on NATO's eastern flank. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Russian missile strike kills 10 civilians in Kharkiv",
+      "label": "Russian missile kills 10 in Kharkiv",
+      "summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17, marking a significant escalation in attacks on civilian areas near Poland's eastern border.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T20:39:54.890683Z"
+    },
     {
       "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
       "label": "UK vows full Ukraine support after Russia warning",
-      "summary": "UK PM pledges continued support for Ukraine as Russia accuses Britain of escalating war by supplying drones. Rhetoric without new action; ongoing background tension.",
+      "summary": "Russia accuses UK of escalating war by supplying drones as PM pledges continued support. Continuation of existing tensions between NATO ally and Moscow over military aid.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,53 +41,49 @@
       "detected_at": "2026-08-17T14:43:31.947524Z"
     },
     {
-      "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "label": "Earthquake damages Granada, injures three people",
-      "summary": "Earthquake hits historic Spanish city, damaging buildings and temporarily closing Alhambra palace. Distant EU event with no direct impact on Poland.",
-      "score": 2.0,
+      "title": "US sanctions International Criminal Court president and trial lawyer",
+      "label": "US sanctions ICC president and lawyer",
+      "summary": "Trump administration sanctions ICC officials as part of campaign to dismantle the court. Signals potential weakening of international justice mechanisms relevant to European security architecture.",
+      "score": 3.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-18T18:55:52.244007Z"
+      "detected_at": "2026-08-18T20:39:54.890683Z"
     }
   ],
-  "short_summary": "Britain deploys military as Europe fires spread",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Russian missile kills 10 in Kharkiv",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-18T19:40:21.661402Z",
+  "updated_at": "2026-08-18T20:39:54.890683Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Britain deploys military as Europe fires spread",
-    "summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region including Poland's neighbors; France announces €12m aid.",
-    "title": "Britain deploys military as wildfires spread across Europe",
-    "score": 3.2,
+    "label": "Russian missile kills 10 in Kharkiv",
+    "summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17, marking a significant escalation in attacks on civilian areas near Poland's eastern border.",
+    "title": "Russian missile strike kills 10 civilians in Kharkiv",
+    "score": 4.0,
     "sentiment": "negative",
-    "detected_at": "2026-08-17T19:41:06.658339Z",
-    "peak_at": "2026-08-17T19:41:06.658339Z",
+    "detected_at": "2026-08-18T20:39:54.890683Z",
+    "peak_at": "2026-08-18T20:39:54.890683Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-      },
-      {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-17T19:41:06.658339Z",
+  "events_anchor_at": "2026-08-18T20:39:54.890683Z",
   "score_history": [
     {
       "t": "2026-08-17T14:43:31.947524Z",
@@ -205,6 +220,10 @@
     {
       "t": "2026-08-18T19:40:21.661402Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-18T20:39:54.890683Z",
+      "s": 4.0
     }
   ]
 }

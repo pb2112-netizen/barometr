@@ -1,43 +1,55 @@
 {
-  "updated_at": "2026-08-18T19:40:21.667935Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-18T20:39:54.899713Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": "2026-08-17T17:43:17.541013Z",
   "stan_swiata": [
     {
       "temat": "Russia warns UK over Ukraine drone supply",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Moscow threatens NATO ally over military aid to Ukraine."
     },
     {
       "temat": "Vessel struck in Strait of Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Ship hit by projectile in key oil route; energy risk signal."
     },
     {
       "temat": "Canada-US tariff negotiations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Canada scrambles to avoid 50% US tariffs; trade risk."
     },
     {
       "temat": "Germany anti-smuggling raids",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "First raids under new law targeting migration smugglers."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Grifols halts donations after deaths; distant health issue."
     },
     {
       "temat": "Granada earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Earthquake damages historic Spanish city; distant EU event."
+    },
+    {
+      "temat": "Russian missile strike kills 10 in Kharkiv",
+      "poziom_bazowy": 6.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Significant civilian casualties in eastern Ukraine."
+    },
+    {
+      "temat": "US sanctions ICC officials",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump administration targets international court leadership."
     }
   ],
   "score_history": [
@@ -176,10 +188,30 @@
     {
       "t": "2026-08-18T19:40:21.661402Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-18T20:39:54.890683Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-08-17T19:41:06.658339Z",
+  "events_anchor_at": "2026-08-18T20:39:54.890683Z",
   "event_detected_at": {
+    "russian missile strike kills 10 civilians in kharkiv": {
+      "detected_at": "2026-08-18T20:39:54.890683Z",
+      "peak_at": "2026-08-18T20:39:54.890683Z",
+      "peak_score_at": "2026-08-18T20:39:54.890683Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Russian missile strike kills 10 civilians in Kharkiv",
+      "peak_label": "Russian missile kills 10 in Kharkiv",
+      "peak_summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17, marking a significant escalation in attacks on civilian areas near Poland's eastern border.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        }
+      ]
+    },
     "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
       "detected_at": "2026-08-17T14:43:31.947524Z",
       "peak_at": "2026-08-18T01:50:26.142291Z",
@@ -193,6 +225,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us sanctions international criminal court president and trial lawyer": {
+      "detected_at": "2026-08-18T20:39:54.890683Z",
+      "peak_at": "2026-08-18T20:39:54.890683Z",
+      "peak_score_at": "2026-08-18T20:39:54.890683Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "negative",
+      "title": "US sanctions International Criminal Court president and trial lawyer",
+      "peak_label": "US sanctions ICC president and lawyer",
+      "peak_summary": "Trump administration sanctions ICC officials as part of campaign to dismantle the court. Signals potential weakening of international justice mechanisms relevant to European security architecture.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
         }
       ]
     },
@@ -359,30 +407,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/18/russia-says-more-than-600-drones-targeted-moscow-region?traffic_source=rss"
         }
       ]
-    },
-    "britain deploys military as wildfires spread across europe": {
-      "detected_at": "2026-08-17T19:41:06.658339Z",
-      "peak_at": "2026-08-17T19:41:06.658339Z",
-      "peak_score_at": "2026-08-17T19:41:06.658339Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Britain deploys military as wildfires spread across Europe",
-      "peak_label": "Britain deploys military as Europe fires spread",
-      "peak_summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region including Poland's neighbors; France announces €12m aid.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Russian missile strike kills 10 civilians in Kharkiv",
     "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-    "Earthquake rocks Spain's historic Granada, injuring three"
+    "US sanctions International Criminal Court president and trial lawyer"
   ]
 }

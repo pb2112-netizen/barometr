@@ -1,11 +1,30 @@
 {
-  "global_score": 2.1,
-  "rationale": "UK reaffirms Ukraine support and Granada earthquake continues; no new developments affecting Romania's regional security or economy.",
+  "global_score": 4.1,
+  "rationale": "Russian missile strike killing 10 civilians in Kharkiv is a major escalation in the war directly affecting Romania's Black Sea neighbor, raising immediate regional security concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Russian missile strike kills 10 civilians in Kharkiv",
+      "label": "Russian missile kills 10 in Kharkiv",
+      "summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17. This escalation in Ukraine directly impacts security calculations for Romania on the Black Sea.",
+      "score": 4.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T18:55:52.245699Z"
+    },
+    {
       "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-      "label": "UK pledges full Ukraine support amid Russia threats",
-      "summary": "UK PM vows continued support for Ukraine as Russia accuses Britain of escalating war. Rhetoric without new action; ongoing regional background tension.",
+      "label": "UK vows full Ukraine support after Russia warning",
+      "summary": "Russia accuses UK of escalating war by supplying drones as PM pledges continued support. Continuation of existing NATO-Russia tensions over military aid to Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,53 +41,49 @@
       "detected_at": "2026-08-17T14:43:31.949196Z"
     },
     {
-      "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "label": "Earthquake damages Granada, injures three people",
-      "summary": "Earthquake hits historic Spanish city, damaging buildings and temporarily closing Alhambra. Nearby EU event but no direct impact on Romania.",
-      "score": 2.1,
+      "title": "US sanctions International Criminal Court president and trial lawyer",
+      "label": "US sanctions ICC president and lawyer",
+      "summary": "Trump administration sanctions ICC officials in campaign to dismantle the court. Threatens international justice mechanisms relevant to regional security and accountability.",
+      "score": 3.9,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-18T18:55:52.245699Z"
+      "detected_at": "2026-08-18T20:39:54.892914Z"
     }
   ],
-  "short_summary": "Britain deploys military as Europe fires spread",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Russian missile kills 10 in Kharkiv",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-18T19:40:21.662725Z",
+  "updated_at": "2026-08-18T20:39:54.892914Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Britain deploys military as Europe fires spread",
-    "summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region; France announces €12m aid for affected areas.",
-    "title": "Britain deploys military as wildfires spread across Europe",
-    "score": 3.2,
+    "label": "Russian missile kills 10 in Kharkiv",
+    "summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17. This escalation in Ukraine directly impacts security calculations for Romania on the Black Sea.",
+    "title": "Russian missile strike kills 10 civilians in Kharkiv",
+    "score": 4.1,
     "sentiment": "negative",
-    "detected_at": "2026-08-17T19:41:06.659715Z",
-    "peak_at": "2026-08-17T19:41:06.659715Z",
+    "detected_at": "2026-08-18T18:55:52.245699Z",
+    "peak_at": "2026-08-18T20:39:54.892914Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-      },
-      {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-17T19:41:06.659715Z",
+  "events_anchor_at": "2026-08-18T18:55:52.245699Z",
   "score_history": [
     {
       "t": "2026-08-17T14:43:31.949196Z",
@@ -205,6 +220,10 @@
     {
       "t": "2026-08-18T19:40:21.662725Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-18T20:39:54.892914Z",
+      "s": 4.1
     }
   ]
 }

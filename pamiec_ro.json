@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-18T19:40:21.669183Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-18T20:39:54.901028Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia warns UK over Ukraine drone supply",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Moscow threatens NATO ally over military aid to Ukraine."
+    },
+    {
+      "temat": "Russian missile strike kills 10 in Kharkiv",
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Major civilian casualties in Ukraine escalation near."
+    },
+    {
+      "temat": "US sanctions ICC officials",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump administration targets international court leadership."
+    },
+    {
+      "temat": "Granada earthquake",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "Earthquake damages historic Spanish city; nearby EU event."
+    },
+    {
+      "temat": "Spain builds camps for migrants in Ceuta",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
+      "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Grifols halts donations after deaths; distant health issue."
-    },
-    {
-      "temat": "Vessel struck in Strait of Hormuz",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
-      "opis": "Ship hit by projectile in key oil route; energy risk signal."
     },
     {
       "temat": "Israeli strikes on Syrian airbase",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Eight strikes hit Idlib airbase; distant ME military action."
     },
     {
       "temat": "Germany anti-smuggling raids",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "First raids under new law targeting migration smugglers."
-    },
-    {
-      "temat": "Canada-US tariff negotiations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Canada scrambles to avoid 50% US tariffs; distant trade."
-    },
-    {
-      "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Spain constructs reception sites for 5,000 migrants."
-    },
-    {
-      "temat": "Granada earthquake",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
-      "opis": "Earthquake damages historic Spanish city; nearby EU event."
     }
   ],
   "score_history": [
@@ -188,10 +188,30 @@
     {
       "t": "2026-08-18T19:40:21.662725Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-18T20:39:54.892914Z",
+      "s": 4.1
     }
   ],
-  "events_anchor_at": "2026-08-17T19:41:06.659715Z",
+  "events_anchor_at": "2026-08-18T18:55:52.245699Z",
   "event_detected_at": {
+    "russian missile strike kills 10 civilians in kharkiv": {
+      "detected_at": "2026-08-18T18:55:52.245699Z",
+      "peak_at": "2026-08-18T20:39:54.892914Z",
+      "peak_score_at": "2026-08-18T20:39:54.892914Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "negative",
+      "title": "Russian missile strike kills 10 civilians in Kharkiv",
+      "peak_label": "Russian missile kills 10 in Kharkiv",
+      "peak_summary": "A Russian strike on Pechenihy killed at least 10 civilians and wounded 17. This escalation in Ukraine directly impacts security calculations for Romania on the Black Sea.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        }
+      ]
+    },
     "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
       "detected_at": "2026-08-17T14:43:31.949196Z",
       "peak_at": "2026-08-18T01:50:26.143622Z",
@@ -208,6 +228,22 @@
         }
       ]
     },
+    "us sanctions international criminal court president and trial lawyer": {
+      "detected_at": "2026-08-18T20:39:54.892914Z",
+      "peak_at": "2026-08-18T20:39:54.892914Z",
+      "peak_score_at": "2026-08-18T20:39:54.892914Z",
+      "peak_score": 3.9,
+      "peak_sentiment": "negative",
+      "title": "US sanctions International Criminal Court president and trial lawyer",
+      "peak_label": "US sanctions ICC president and lawyer",
+      "peak_summary": "Trump administration sanctions ICC officials in campaign to dismantle the court. Threatens international justice mechanisms relevant to regional security and accountability.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
+        }
+      ]
+    },
     "earthquake rocks spain's historic granada, injuring three": {
       "detected_at": "2026-08-18T18:55:52.245699Z",
       "peak_at": "2026-08-18T18:55:52.245699Z",
@@ -221,22 +257,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "israeli strike on gaza city cafe kills six, including child": {
-      "detected_at": "2026-08-18T18:55:52.245699Z",
-      "peak_at": "2026-08-18T18:55:52.245699Z",
-      "peak_score_at": "2026-08-18T18:55:52.245699Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "negative",
-      "title": "Israeli strike on Gaza City cafe kills six, including child",
-      "peak_label": "Israeli strike kills six in Gaza City",
-      "peak_summary": "Strike hits cafe in port area; six Palestinians killed including child. Distant Middle East conflict with no direct impact on Romania.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss"
         }
       ]
     },
@@ -399,30 +419,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/18/russia-says-more-than-600-drones-targeted-moscow-region?traffic_source=rss"
         }
       ]
-    },
-    "britain deploys military as wildfires spread across europe": {
-      "detected_at": "2026-08-17T19:41:06.659715Z",
-      "peak_at": "2026-08-17T19:41:06.659715Z",
-      "peak_score_at": "2026-08-17T19:41:06.659715Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Britain deploys military as wildfires spread across Europe",
-      "peak_label": "Britain deploys military as Europe fires spread",
-      "peak_summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region; France announces €12m aid for affected areas.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Russian missile strike kills 10 civilians in Kharkiv",
     "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-    "Earthquake rocks Spain's historic Granada, injuring three"
+    "US sanctions International Criminal Court president and trial lawyer"
   ]
 }
