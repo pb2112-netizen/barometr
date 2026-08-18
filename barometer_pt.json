@@ -1,14 +1,33 @@
 {
-  "global_score": 2.0,
-  "rationale": "Brazil's Lula announces oil discovery near Amazon; distant environmental concern with no direct impact on Portugal's economy or daily life.",
+  "global_score": 2.5,
+  "rationale": "Granada earthquake is nearby Iberian event; Brazil oil discovery near Amazon is distant; no direct impact on Portugal.",
   "top_events": [
+    {
+      "title": "Earthquake rocks Spain's historic Granada, injuring three",
+      "label": "Earthquake damages Granada, injures three",
+      "summary": "Historic city suffers building damage; Alhambra palace closed. Nearby Iberian event but no direct impact on Portugal.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T18:55:52.247893Z"
+    },
     {
       "title": "Brazil's President Lula hails oil discovery near Amazon river",
       "label": "Brazil announces oil discovery near Amazon",
-      "summary": "Brazil announces exploratory drilling near Amazon mouth, drawing environmental criticism. Distant South American energy development with no direct impact on Portugal.",
-      "score": 2.0,
+      "summary": "Exploratory drilling off Amazon mouth draws environmental criticism. Distant energy development with no direct impact on Portugal.",
+      "score": 1.8,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -22,31 +41,12 @@
       "detected_at": "2026-08-17T14:43:31.951069Z"
     },
     {
-      "title": "Spain builds tent cities for the thousands stuck in Ceuta",
-      "label": "Spain builds camps for migrants in Ceuta",
-      "summary": "Spain constructs temporary reception sites for 5,000 migrants in Ceuta. Iberian neighbor's migration management; indirect signal but no direct impact on Portugal.",
-      "score": 1.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/spain-builds-tent-cities-for-the-thousands-stuck-in-ceuta?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T17:42:36.027400Z"
-    },
-    {
-      "title": "Brazil's Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way",
-      "label": "Brazil's Lula launches fourth term campaign",
-      "summary": "President Lula, 80, announces re-election bid facing Bolsonaro's son. Distant Brazilian politics with no direct impact on Portugal.",
+      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+      "label": "Morocco arrests 111 trying to enter Ceuta",
+      "summary": "Border security tightened after social media calls for mass crossing into Spanish territory. Distant North African migration event.",
       "score": 1.5,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -54,20 +54,20 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro"
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
         }
       ],
-      "detected_at": "2026-08-18T17:42:36.027400Z"
+      "detected_at": "2026-08-18T18:55:52.247893Z"
     }
   ],
   "short_summary": "Britain deploys military as Europe fires spread",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-18T17:42:36.027400Z",
+  "updated_at": "2026-08-18T18:55:52.247893Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Britain deploys military as Europe fires spread",
     "summary": "Wildfires across Europe prompt military deployment in Britain. Direct climate threat to EU region including Iberia; France announces €12m aid.",
@@ -216,6 +216,10 @@
     {
       "t": "2026-08-18T17:42:36.027400Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-18T18:55:52.247893Z",
+      "s": 2.5
     }
   ]
 }

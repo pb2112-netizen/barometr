@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-18T17:42:36.034103Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-18T18:55:52.255728Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Brazil announces oil discovery near Amazon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Exploratory drilling near Amazon; distant energy."
     },
     {
-      "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 1.8,
+      "temat": "Granada earthquake",
+      "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 0,
+      "opis": "Earthquake damages historic Spanish city; nearby Iberian."
+    },
+    {
+      "temat": "Spain builds camps for migrants in Ceuta",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Zimbabwe ferry disaster death toll reaches 68",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Ferry capsized on Lake Kariba; distant African tragedy."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Grifols halts donations after deaths; distant health issue."
     },
     {
       "temat": "BP Venezuela gasfield development",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "First major foreign investment since Maduro ousted; energy."
     },
     {
       "temat": "Germany anti-smuggling raids",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "First raids under new law targeting migration smugglers."
     },
     {
       "temat": "Canada-US tariff negotiations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Canada scrambles to avoid 50% US tariffs; distant trade."
-    },
-    {
-      "temat": "Vessel struck in Strait of Hormuz",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 13,
-      "opis": "Ship hit in oil route; distant energy risk."
+      "opis": "Canada scrambles to avoid 50% US tariffs; distant trade."
     }
   ],
   "score_history": [
@@ -180,15 +180,35 @@
     {
       "t": "2026-08-18T17:42:36.027400Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-18T18:55:52.247893Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-17T19:41:06.661097Z",
   "event_detected_at": {
+    "earthquake rocks spain's historic granada, injuring three": {
+      "detected_at": "2026-08-18T18:55:52.247893Z",
+      "peak_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Earthquake rocks Spain's historic Granada, injuring three",
+      "peak_label": "Earthquake damages Granada, injures three",
+      "peak_summary": "Historic city suffers building damage; Alhambra palace closed. Nearby Iberian event but no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "brazil's president lula hails oil discovery near amazon river": {
       "detected_at": "2026-08-17T14:43:31.951069Z",
       "peak_at": "2026-08-18T15:45:23.094018Z",
       "peak_score_at": "2026-08-17T15:38:35.237698Z",
-      "peak_score": 2.0,
+      "peak_score": 1.9,
       "peak_sentiment": "neutral",
       "title": "Brazil's Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way",
       "peak_label": "Lula launches Brazil presidential campaign",
@@ -201,6 +221,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/lula-and-bolsonaros-son-launch-rival-bids-for-brazil-presidency?traffic_source=rss"
+        }
+      ]
+    },
+    "moroccan police arrest more than 100 people attempting to enter ceuta": {
+      "detected_at": "2026-08-18T18:55:52.247893Z",
+      "peak_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+      "peak_label": "Morocco arrests 111 trying to enter Ceuta",
+      "peak_summary": "Border security tightened after social media calls for mass crossing into Spanish territory. Distant North African migration event.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
         }
       ]
     },
@@ -406,8 +442,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Earthquake rocks Spain's historic Granada, injuring three",
     "Brazil's President Lula hails oil discovery near Amazon river",
-    "Spain builds tent cities for the thousands stuck in Ceuta",
-    "Brazil's Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way"
+    "Moroccan police arrest more than 100 people attempting to enter Ceuta"
   ]
 }
