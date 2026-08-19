@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Continuation of known background: Ukraine political tension, distant North American trade, and remote health/migration stories with no direct impact on Romanian Black Sea security or economy.",
+  "global_score": 3.2,
+  "rationale": "Nord Stream arrest in neighboring Croatia is a new regional security development; other events remain background continuation.",
   "top_events": [
     {
+      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+      "label": "Ukrainian arrested over Nord Stream pipeline blasts",
+      "summary": "Croatian authorities arrest Ukrainian man allegedly involved in 2022 Nord Stream pipeline sabotage. Regional security event in neighboring Black Sea area.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T13:07:59.971874Z"
+    },
+    {
       "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "label": "Ukraine minister demands wartime election",
-      "summary": "Dismissed defense chief challenges election suspension under martial law. Internal political strain in neighboring Ukraine, no new military escalation affecting Romania.",
-      "score": 2.5,
+      "label": "Sacked Ukraine minister demands wartime election",
+      "summary": "Dismissed defense chief challenges election suspension under martial law. Continues internal political strain in neighboring Ukraine.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,8 +42,8 @@
     },
     {
       "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "label": "US pauses Canada tariffs for three days",
-      "summary": "Three-day delay on 50% tariffs as US-Canada finalize trade documents. Distant North American trade dispute with no direct impact on Romanian economy.",
+      "label": "Trump pauses Canada tariffs for three days",
+      "summary": "US delays 50% tariffs on Canada; agreement reportedly near. Distant trade news with no direct impact on Romanian economy.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -44,33 +63,14 @@
         }
       ],
       "detected_at": "2026-08-18T08:52:54.549165Z"
-    },
-    {
-      "title": "US condemns 'unnecessary escalation' after Israeli airstrikes on Syrian airbase",
-      "label": "Israeli strikes hit Syrian airbase",
-      "summary": "Damascus calls attacks unjustified aggression. Distant Middle East escalation with no link to Romanian security or Black Sea region.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62vy3wl31lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T08:53:52.947318Z"
     }
   ],
   "short_summary": "Russian missile kills 10 civilians in Kharkiv",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-19T11:38:53.864215Z",
+  "updated_at": "2026-08-19T13:07:59.971874Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -297,6 +297,10 @@
     {
       "t": "2026-08-19T11:38:53.864215Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-19T13:07:59.971874Z",
+      "s": 3.2
     }
   ]
 }

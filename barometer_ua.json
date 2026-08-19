@@ -1,13 +1,32 @@
 {
-  "global_score": 3.6,
-  "rationale": "Internal political tension rises as dismissed defense minister publicly challenges wartime election suspension; new Russian air attacks kill five civilians, continuing deadly pattern. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.5,
+  "rationale": "Forcible military recruitment escalating into violence is a new qualitative development directly affecting Ukrainian residents' daily life and safety.",
   "top_events": [
     {
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "label": "Dismissed minister demands wartime election",
-      "summary": "Former defense chief publicly challenges election suspension under martial law, escalating internal political strain during war. New public confrontation adds pressure on leadership.",
-      "score": 3.6,
+      "title": "In Ukraine, forcible military recruitment efforts escalate into violence",
+      "label": "Forcible military recruitment turns violent",
+      "summary": "Street recruitment ('busification') escalates into abuse and corruption. New qualitative change directly affecting Ukrainian residents' safety and freedom of movement.",
+      "score": 4.5,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/in-ukraine-forcible-military-recruitment-efforts-escalate-into-violence?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T13:07:59.975714Z"
+    },
+    {
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "label": "Sacked minister demands wartime election",
+      "summary": "Dismissed defense chief challenges election suspension under martial law. Continues internal political strain without new impact on daily life.",
+      "score": 3.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,55 +41,31 @@
       "detected_at": "2026-08-19T03:10:39.553730Z"
     },
     {
-      "title": "At least five killed in Russian air attacks on Ukraine",
-      "label": "Russian strikes kill five in Ukraine",
-      "summary": "Russia claims downing 453 Ukrainian drones overnight; at least five civilians killed in air attacks. Continuation of deadly air campaign targeting Ukrainian territory.",
-      "score": 3.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/at-least-five-killed-in-russian-air-attacks-on-ukraine?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T10:01:16.328115Z"
-    },
-    {
-      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "label": "US pauses Canada tariffs for three days",
-      "summary": "Three-day delay on 50% tariffs as US-Canada finalize trade documents. May indirectly affect Western economic capacity to sustain aid to Ukraine.",
+      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+      "label": "Ukrainian arrested over Nord Stream blasts",
+      "summary": "Croatian authorities arrest Ukrainian man allegedly involved in 2022 pipeline sabotage. Distant legal case with no direct impact on Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+          "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-18T08:52:54.552694Z"
+      "detected_at": "2026-08-19T13:07:59.975714Z"
     }
   ],
   "short_summary": "Russian missile kills 10 in Kharkiv region",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T11:38:53.867821Z",
+  "updated_at": "2026-08-19T13:07:59.975714Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -297,6 +292,10 @@
     {
       "t": "2026-08-19T11:38:53.867821Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-19T13:07:59.975714Z",
+      "s": 4.5
     }
   ]
 }

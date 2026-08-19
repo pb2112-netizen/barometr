@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-19T11:38:53.879096Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-08-19T13:07:59.983573Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Sacked defense minister demands election",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 12,
       "opis": "Internal political strain: dismissed minister challenges."
     },
     {
-      "temat": "US-Canada tariff deal near",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Three-day pause; may affect Western aid capacity."
+      "temat": "Forcible military recruitment turns violent",
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Street recruitment escalates into abuse and corruption."
     },
     {
-      "temat": "South Korea shortens war games with US",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
-      "opis": "Trump curtails joint exercises; distant military news."
+      "temat": "Russian missile strike kills 10 in Kharkiv",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 18,
+      "opis": "Major escalation: deadly civilian strike in eastern Ukraine."
     },
     {
       "temat": "Russia warns UK over Ukraine drone supply",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 16,
       "opis": "Moscow threatens key military supporter over aid to Ukraine."
     },
     {
       "temat": "Drone strike near Zaporizhzhia nuclear plant",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 16,
       "opis": "Drone activity near Europe's largest nuclear plant in war."
     },
     {
-      "temat": "Russian missile strike kills 10 in Kharkiv",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 17,
-      "opis": "Major escalation: deadly civilian strike in eastern Ukraine."
+      "temat": "South Korea shortens war games with US",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 8,
+      "opis": "Trump curtails joint exercises; distant military news."
+    },
+    {
+      "temat": "US-Canada tariff deal near",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "Three-day pause; may affect Western aid capacity."
     },
     {
       "temat": "US sanctions ICC officials",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 18,
-      "opis": "Trump targets international court Ukraine needs for justice."
-    },
-    {
-      "temat": "UK pledges full support for Ukraine",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "PM vows support in 'hour of need' amid Russian threats."
+      "cykle_bez_zmian": 19,
+      "opis": "Trump targets international court Ukraine needs for justice."
     }
   ],
   "score_history": [
@@ -260,15 +260,35 @@
     {
       "t": "2026-08-19T11:38:53.867821Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-19T13:07:59.975714Z",
+      "s": 4.5
     }
   ],
   "events_anchor_at": "2026-08-18T18:55:52.249595Z",
   "event_detected_at": {
+    "in ukraine, forcible military recruitment efforts escalate into violence": {
+      "detected_at": "2026-08-19T13:07:59.975714Z",
+      "peak_at": "2026-08-19T13:07:59.975714Z",
+      "peak_score_at": "2026-08-19T13:07:59.975714Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "In Ukraine, forcible military recruitment efforts escalate into violence",
+      "peak_label": "Forcible military recruitment turns violent",
+      "peak_summary": "Street recruitment ('busification') escalates into abuse and corruption. New qualitative change directly affecting Ukrainian residents' safety and freedom of movement.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/in-ukraine-forcible-military-recruitment-efforts-escalate-into-violence?traffic_source=rss"
+        }
+      ]
+    },
     "sacked ukrainian defence minister calls for presidential election": {
       "detected_at": "2026-08-19T03:10:39.553730Z",
       "peak_at": "2026-08-19T03:57:53.502132Z",
       "peak_score_at": "2026-08-19T03:57:53.502132Z",
-      "peak_score": 5.4,
+      "peak_score": 5.3,
       "peak_sentiment": "negative",
       "title": "Sacked Ukrainian defence minister calls for presidential election",
       "peak_label": "Dismissed minister demands wartime election",
@@ -277,6 +297,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ukrainian man arrested in croatia over nord stream pipeline blasts": {
+      "detected_at": "2026-08-19T13:07:59.975714Z",
+      "peak_at": "2026-08-19T13:07:59.975714Z",
+      "peak_score_at": "2026-08-19T13:07:59.975714Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+      "peak_label": "Ukrainian arrested over Nord Stream blasts",
+      "peak_summary": "Croatian authorities arrest Ukrainian man allegedly involved in 2022 pipeline sabotage. Distant legal case with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -475,27 +511,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/tropical-storm-lala-leaves-hawaii-flooded-and-without-power?traffic_source=rss"
         }
       ]
-    },
-    "russia protests japan pm's comments after putin's kuril visit": {
-      "detected_at": "2026-08-18T13:06:49.081825Z",
-      "peak_at": "2026-08-18T13:06:49.081825Z",
-      "peak_score_at": "2026-08-18T13:06:49.081825Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Russia protests Japan PM's comments after Putin's Kuril visit",
-      "peak_label": "Russia summons Japan envoy over Kuril remarks",
-      "peak_summary": "Russia summons Japan's ambassador after PM criticizes Putin's Kuril visit. Distant diplomatic spat with no link to Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/russia-protests-japan-pms-comments-after-putins-kuril-visit?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "In Ukraine, forcible military recruitment efforts escalate into violence",
     "Sacked Ukrainian defence minister calls for presidential election",
-    "At least five killed in Russian air attacks on Ukraine",
-    "Trump pauses new tariffs on Canada for three days, saying deal close"
+    "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts"
   ]
 }
