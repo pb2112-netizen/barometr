@@ -1,31 +1,12 @@
 {
-  "global_score": 3.9,
-  "rationale": "Russian air attacks kill at least five; continuation of war with fresh casualties but no qualitative escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "Continuation of known background: internal political tensions, ongoing Russian air attacks, and distant international developments with no qualitative change to war situation.",
   "top_events": [
-    {
-      "title": "At least five killed in Russian air attacks on Ukraine",
-      "label": "Russian air attacks kill five in Ukraine",
-      "summary": "Russia downed 453 Ukrainian drones overnight; at least five killed in air attacks. Continuation of war with fresh casualties but no major escalation.",
-      "score": 3.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/at-least-five-killed-in-russian-air-attacks-on-ukraine?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T10:01:16.328115Z"
-    },
     {
       "title": "Sacked Ukrainian defence minister calls for presidential election",
       "label": "Sacked minister demands wartime election",
-      "summary": "Dismissed defense chief challenges election suspension under martial law. Internal political strain continues without changing war situation.",
-      "score": 3.9,
+      "summary": "Dismissed defense chief challenges election suspension under martial law. Internal political strain continues without qualitative change to war situation or mobilization.",
+      "score": 3.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -46,9 +27,28 @@
       "detected_at": "2026-08-19T03:10:39.553730Z"
     },
     {
+      "title": "At least five killed in Russian air attacks on Ukraine",
+      "label": "Russian air attacks kill five Ukrainians",
+      "summary": "Russia claims 453 Ukrainian drones downed overnight. Continuation of ongoing air war with no qualitative escalation beyond known background.",
+      "score": 3.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/at-least-five-killed-in-russian-air-attacks-on-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T10:01:16.328115Z"
+    },
+    {
       "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "label": "Trump pauses Canada tariffs for three days",
-      "summary": "US delays 50% tariffs on Canadian goods. Distant trade issue with no direct impact on Ukraine's war effort or Western aid.",
+      "label": "US pauses Canada tariffs for three days",
+      "summary": "Three-day delay on 50% tariffs as US-Canada finalize trade agreement. Distant North American trade issue with no direct impact on Western aid capacity.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -75,9 +75,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T10:01:16.328115Z",
+  "updated_at": "2026-08-19T10:45:21.383040Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russian missile kills 10 in Kharkiv region",
     "summary": "Confirmed missile strike on Pechenihy killed 10 civilians and wounded 17; major escalation with significant casualties in eastern Ukraine.",
@@ -294,6 +294,10 @@
     {
       "t": "2026-08-19T10:01:16.328115Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-19T10:45:21.383040Z",
+      "s": 3.8
     }
   ]
 }
