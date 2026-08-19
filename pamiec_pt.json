@@ -1,62 +1,52 @@
 {
-  "updated_at": "2026-08-19T15:45:41.349716Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-19T16:01:21.662222Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Brazil announces oil discovery near Amazon",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Exploratory drilling near Amazon; distant energy."
-    },
-    {
       "temat": "US-Canada tariff deal near",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Three-day pause on 50% tariffs; trade risk eases."
     },
     {
       "temat": "Brazil's Lula launches fourth term bid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "President campaigns against far-right; distant politics."
     },
     {
       "temat": "Moroccan police arrest 111 trying to enter Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Border security tightened; distant Iberian migration."
     },
     {
       "temat": "Congo Ebola outbreak declared global emergency",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "WHO escalates status as infections pass 5,000; distant."
     },
     {
       "temat": "Granada earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Earthquake damages historic Spanish city; nearby Iberian."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Brazil bus crash kills over 20",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
       "opis": "Fatal bus-lorry collision in Brazil; distant tragedy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-17T16:01:19.695282Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-17T16:44:56.781142Z",
       "s": 3.0
@@ -268,10 +258,30 @@
     {
       "t": "2026-08-19T15:45:41.341542Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-19T16:01:21.648984Z",
+      "s": 2.1
     }
   ],
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "event_detected_at": {
+    "moroccan police arrest more than 100 people attempting to enter ceuta": {
+      "detected_at": "2026-08-18T18:55:52.247893Z",
+      "peak_at": "2026-08-19T08:53:52.948684Z",
+      "peak_score_at": "2026-08-19T08:53:52.948684Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+      "peak_label": "Morocco arrests 111 trying to enter Ceuta",
+      "peak_summary": "Border security tightened after social media calls for mass crossing into Spain's north African territory. Distant Iberian migration issue.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        }
+      ]
+    },
     "head-on collision between bus and lorry in brazil kills more than 20": {
       "detected_at": "2026-08-19T14:52:41.460025Z",
       "peak_at": "2026-08-19T14:52:41.460025Z",
@@ -285,6 +295,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "spain to allow 500 children in ceuta to go to mainland in immigration u-turn": {
+      "detected_at": "2026-08-18T17:42:36.027400Z",
+      "peak_at": "2026-08-19T16:01:21.648984Z",
+      "peak_score_at": "2026-08-19T16:01:21.648984Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "positive",
+      "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
+      "peak_label": "Spain allows 500 Ceuta children to mainland",
+      "peak_summary": "Spanish government reverses stance and will allow 500 children who entered Ceuta illegally to move to mainland, easing immediate humanitarian pressure.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
         }
       ]
     },
@@ -340,22 +366,6 @@
         }
       ]
     },
-    "moroccan police arrest more than 100 people attempting to enter ceuta": {
-      "detected_at": "2026-08-18T18:55:52.247893Z",
-      "peak_at": "2026-08-19T08:53:52.948684Z",
-      "peak_score_at": "2026-08-19T08:53:52.948684Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
-      "peak_label": "Morocco arrests 111 trying to enter Ceuta",
-      "peak_summary": "Border security tightened after social media calls for mass crossing into Spain's north African territory. Distant Iberian migration issue.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-        }
-      ]
-    },
     "brazil's president lula hails oil discovery near amazon river": {
       "detected_at": "2026-08-17T14:43:31.951069Z",
       "peak_at": "2026-08-18T19:40:21.664041Z",
@@ -387,27 +397,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "spain builds tent cities for the thousands stuck in ceuta": {
-      "detected_at": "2026-08-18T17:42:36.027400Z",
-      "peak_at": "2026-08-18T17:42:36.027400Z",
-      "peak_score_at": "2026-08-18T17:42:36.027400Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "neutral",
-      "title": "Spain builds tent cities for the thousands stuck in Ceuta",
-      "peak_label": "Spain builds camps for migrants in Ceuta",
-      "peak_summary": "Spain constructs temporary reception sites for 5,000 migrants in Ceuta. Iberian neighbor's migration management; indirect signal but no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/spain-builds-tent-cities-for-the-thousands-stuck-in-ceuta?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Moroccan police arrest more than 100 people attempting to enter Ceuta",
     "Head-on collision between bus and lorry in Brazil kills more than 20",
-    "Trump pauses new tariffs on Canada for three days, saying deal close",
-    "Brazil's Lula launches historic fourth term bid"
+    "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn"
   ]
 }
