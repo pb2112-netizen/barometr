@@ -1,42 +1,42 @@
 {
-  "updated_at": "2026-08-19T16:46:22.018607Z",
+  "updated_at": "2026-08-19T17:39:23.673947Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Canada tariff deal near",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Three-day pause on 50% tariffs; trade risk eases."
     },
     {
       "temat": "Brazil's Lula launches fourth term bid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "President campaigns against far-right; distant politics."
     },
     {
       "temat": "Moroccan police arrest 111 trying to enter Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Border security tightened; distant Iberian migration."
     },
     {
       "temat": "Congo Ebola outbreak declared global emergency",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "WHO escalates status as infections pass 5,000; distant."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Brazil bus crash kills over 20",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Fatal bus-lorry collision in Brazil; distant tragedy."
     }
   ],
@@ -256,10 +256,66 @@
     {
       "t": "2026-08-19T16:46:22.011856Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-19T17:39:23.667175Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "event_detected_at": {
+    "trump pauses new tariffs on canada for three days, saying deal close": {
+      "detected_at": "2026-08-18T08:52:54.551386Z",
+      "peak_at": "2026-08-19T03:10:39.551998Z",
+      "peak_score_at": "2026-08-19T03:10:39.551998Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
+      "peak_label": "US delays Canada tariffs, deal near",
+      "peak_summary": "Three-day pause on 50% US tariffs on Canada reduces risk of broader trade disruption affecting EU economy and Portuguese exports indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        }
+      ]
+    },
+    "brazil's lula launches historic fourth term bid": {
+      "detected_at": "2026-08-18T17:42:36.027400Z",
+      "peak_at": "2026-08-19T04:51:01.964778Z",
+      "peak_score_at": "2026-08-19T04:51:01.964778Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Brazil's Lula launches historic fourth term bid",
+      "peak_label": "Lula launches fourth term campaign in Brazil",
+      "peak_summary": "President vows to keep far-right from power as Bolsonaro's son campaigns. Distant political development in Portuguese-speaking Brazil, no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro"
+        }
+      ]
+    },
+    "head-on collision between bus and lorry in brazil kills more than 20": {
+      "detected_at": "2026-08-19T14:52:41.460025Z",
+      "peak_at": "2026-08-19T14:52:41.460025Z",
+      "peak_score_at": "2026-08-19T14:52:41.460025Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
+      "peak_label": "Brazil bus crash kills over 20 people",
+      "peak_summary": "Fatal bus-lorry collision in Brazil kills more than 20. Distant tragedy with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "moroccan police arrest more than 100 people attempting to enter ceuta": {
       "detected_at": "2026-08-18T18:55:52.247893Z",
       "peak_at": "2026-08-19T08:53:52.948684Z",
@@ -289,58 +345,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
-        }
-      ]
-    },
-    "trump pauses new tariffs on canada for three days, saying deal close": {
-      "detected_at": "2026-08-18T08:52:54.551386Z",
-      "peak_at": "2026-08-19T03:10:39.551998Z",
-      "peak_score_at": "2026-08-19T03:10:39.551998Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
-      "peak_label": "US delays Canada tariffs, deal near",
-      "peak_summary": "Three-day pause on 50% US tariffs on Canada reduces risk of broader trade disruption affecting EU economy and Portuguese exports indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
-        }
-      ]
-    },
-    "head-on collision between bus and lorry in brazil kills more than 20": {
-      "detected_at": "2026-08-19T14:52:41.460025Z",
-      "peak_at": "2026-08-19T14:52:41.460025Z",
-      "peak_score_at": "2026-08-19T14:52:41.460025Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
-      "peak_label": "Brazil bus crash kills over 20 people",
-      "peak_summary": "Fatal bus-lorry collision in Brazil kills more than 20. Distant tragedy with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "brazil's lula launches historic fourth term bid": {
-      "detected_at": "2026-08-18T17:42:36.027400Z",
-      "peak_at": "2026-08-19T04:51:01.964778Z",
-      "peak_score_at": "2026-08-19T04:51:01.964778Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Brazil's Lula launches historic fourth term bid",
-      "peak_label": "Lula launches fourth term campaign in Brazil",
-      "peak_summary": "President vows to keep far-right from power as Bolsonaro's son campaigns. Distant political development in Portuguese-speaking Brazil, no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro"
         }
       ]
     },
@@ -394,8 +398,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Moroccan police arrest more than 100 people attempting to enter Ceuta",
-    "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-    "Trump pauses new tariffs on Canada for three days, saying deal close"
+    "Trump pauses new tariffs on Canada for three days, saying deal close",
+    "Brazil's Lula launches historic fourth term bid",
+    "Head-on collision between bus and lorry in Brazil kills more than 20"
   ]
 }
