@@ -1,12 +1,36 @@
 {
-  "global_score": 2.1,
-  "rationale": "Kenya helicopter crash kills five Americans including NBC executive; confirmed US casualties raise score modestly. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.0,
+  "rationale": "US-Canada tariff deal paused for three days shows progress but no final enacted outcome yet; five Americans killed in Kenya crash is a new tragedy but limited domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Canada and US say they are finalising a trade deal, but details remain murky",
+      "label": "US-Canada tariff deal paused for three days",
+      "summary": "US and Canada paused 50% tariffs for three days to finalize a trade deal, with Prime Minister Carney citing significant progress. No final enacted outcome yet; rhetoric-driven.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ],
+      "detected_at": "2026-08-18T08:52:54.554694Z"
+    },
+    {
       "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Safari helicopter crash kills five US citizens including Telemundo executive and Ecuador intelligence chief. Confirmed US casualties in foreign accident.",
-      "score": 2.1,
+      "label": "Five Americans killed in Kenya helicopter crash",
+      "summary": "Five Americans, including a Telemundo executive, were killed in a safari helicopter crash in Kenya along with Ecuador's intelligence chief. Tragic loss but limited domestic impact.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -32,33 +56,9 @@
       "detected_at": "2026-08-19T18:52:36.576877Z"
     },
     {
-      "title": "Canada and US say they are finalising a trade deal, but details remain murky",
-      "label": "Trump pauses Canada tariffs three days",
-      "summary": "President delays 50% tariffs on Canada by three days as trade talks continue. No enacted policy change yet; rhetoric and negotiation phase.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-        }
-      ],
-      "detected_at": "2026-08-18T08:52:54.554694Z"
-    },
-    {
       "title": "South Korea shortens war games with US, citing Washington request",
-      "label": "South Korea shortens US joint exercises",
-      "summary": "Trump curtails joint military exercises with South Korea citing North Korea relations. Continuation of distant military policy shift.",
+      "label": "South Korea shortens US war games",
+      "summary": "South Korea shortened joint military exercises with the US after Trump announced plans to curtail them, citing good relations with North Korea. Continuation of known policy shift.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -85,9 +85,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T22:01:20.457410Z",
+  "updated_at": "2026-08-19T22:40:12.525745Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US-Canada trade deal finalized, tariffs avoided",
     "summary": "Trump announces new trade agreement ensuring no tariffs for US farmers and businesses exporting to Canada. Confirmed action resolving trade standoff.",
@@ -109,10 +109,6 @@
   },
   "events_anchor_at": "2026-08-18T08:52:54.554694Z",
   "score_history": [
-    {
-      "t": "2026-08-17T22:39:49.827149Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-17T23:35:24.703391Z",
       "s": 3.0
@@ -324,6 +320,10 @@
     {
       "t": "2026-08-19T22:01:20.457410Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-19T22:40:12.525745Z",
+      "s": 2.0
     }
   ]
 }
