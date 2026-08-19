@@ -1,31 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "Continuation of known background: sacked defense minister's election call (no new development), Nord Stream arrest (no change), and protests supporting Fedorov (continuation of internal political strain already tracked). Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Protests in Kyiv supporting ousted defense minister represent a new domestic political development, raising internal strain during wartime. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "label": "Dismissed defense minister demands wartime election",
-      "summary": "Mykailo Fedorov continues to challenge election suspension under martial law. Internal political strain continues without qualitative change.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T03:10:39.553730Z"
-    },
-    {
       "title": "Protests in Kyiv back ex-defence minister Fedorov's call for elections",
-      "label": "Kyiv protests support Fedorov's election call",
-      "summary": "Ukrainians in Kyiv held protests supporting ousted defense minister's demand for elections. Continuation of internal political strain already tracked.",
-      "score": 2.5,
+      "label": "Kyiv protests support ousted defense minister",
+      "summary": "Ukrainians in Kyiv held protests backing dismissed defense minister's call for wartime elections. New domestic political strain during ongoing war.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,9 +23,9 @@
     },
     {
       "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "label": "Ukrainian arrested over Nord Stream pipeline sabotage",
-      "summary": "Croatian authorities detained a Ukrainian suspect allegedly involved in 2022 pipeline explosions. No new development affecting Ukrainian war effort or security.",
-      "score": 2.5,
+      "label": "Croatian arrest in Nord Stream sabotage case",
+      "summary": "Croatian authorities detained a Ukrainian suspect in the 2022 pipeline explosions. Continuation of known story, no new impact on Ukraine.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,32 +39,51 @@
         }
       ],
       "detected_at": "2026-08-19T13:07:59.975714Z"
+    },
+    {
+      "title": "South Korea shortens war games with US, citing Washington request",
+      "label": "South Korea shortens US joint war games",
+      "summary": "Trump curtails joint military exercises citing North Korea relations. Distant military news with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T04:51:01.966708Z"
     }
   ],
-  "short_summary": "Russian missile kills 10 in Kharkiv region",
+  "short_summary": "Drone strike reported near Zaporizhzhia nuclear plant",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T20:55:03.856898Z",
+  "updated_at": "2026-08-19T21:39:47.070632Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Russian missile kills 10 in Kharkiv region",
-    "summary": "Confirmed missile strike on Pechenihy killed 10 civilians and wounded 17; major escalation with significant casualties in eastern Ukraine.",
-    "title": "Russian missile strike kills 10 civilians in Kharkiv",
-    "score": 8.2,
+    "label": "Drone strike reported near Zaporizhzhia nuclear plant",
+    "summary": "Drone activity near Europe's largest nuclear plant in active war zone raises immediate safety threat. No reactor damage confirmed yet.",
+    "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+    "score": 7.8,
     "sentiment": "negative",
-    "detected_at": "2026-08-18T18:55:52.249595Z",
-    "peak_at": "2026-08-18T21:37:06.128462Z",
+    "detected_at": "2026-08-17T14:43:31.952353Z",
+    "peak_at": "2026-08-18T22:01:22.394526Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-18T18:55:52.249595Z",
+  "events_anchor_at": "2026-08-17T14:43:31.952353Z",
   "score_history": [
     {
       "t": "2026-08-17T21:39:48.509991Z",
@@ -300,6 +300,10 @@
     {
       "t": "2026-08-19T20:55:03.856898Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-19T21:39:47.070632Z",
+      "s": 2.4
     }
   ]
 }

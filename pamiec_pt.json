@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-08-19T20:55:03.863332Z",
+  "updated_at": "2026-08-19T21:39:47.076813Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Canada tariff deal near",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Three-day pause on 50% tariffs; trade risk eases."
     },
     {
       "temat": "Brazil's Lula launches fourth term bid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "President campaigns against far-right; distant politics."
     },
     {
       "temat": "Moroccan police arrest 111 trying to enter Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Border security tightened; distant Iberian migration."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Brazil bus crash kills over 20",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Fatal bus-lorry collision in Brazil; distant tragedy."
     }
   ],
@@ -250,26 +250,14 @@
     {
       "t": "2026-08-19T20:55:03.855408Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-19T21:39:47.068964Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "event_detected_at": {
-    "head-on collision between bus and lorry in brazil kills more than 20": {
-      "detected_at": "2026-08-19T14:52:41.460025Z",
-      "peak_at": "2026-08-19T14:52:41.460025Z",
-      "peak_score_at": "2026-08-19T14:52:41.460025Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
-      "peak_label": "Brazil bus crash kills over 20 people",
-      "peak_summary": "Fatal bus-lorry collision in Brazil kills more than 20. Distant tragedy with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "spain to allow 500 children in ceuta to go to mainland in immigration u-turn": {
       "detected_at": "2026-08-18T17:42:36.027400Z",
       "peak_at": "2026-08-19T16:01:21.648984Z",
@@ -283,6 +271,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+        }
+      ]
+    },
+    "moroccan police arrest more than 100 people attempting to enter ceuta": {
+      "detected_at": "2026-08-18T18:55:52.247893Z",
+      "peak_at": "2026-08-19T08:53:52.948684Z",
+      "peak_score_at": "2026-08-19T08:53:52.948684Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+      "peak_label": "Morocco arrests 111 trying to enter Ceuta",
+      "peak_summary": "Border security tightened after social media calls for mass crossing into Spain's north African territory. Distant Iberian migration issue.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+        }
+      ]
+    },
+    "head-on collision between bus and lorry in brazil kills more than 20": {
+      "detected_at": "2026-08-19T14:52:41.460025Z",
+      "peak_at": "2026-08-19T14:52:41.460025Z",
+      "peak_score_at": "2026-08-19T14:52:41.460025Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
+      "peak_label": "Brazil bus crash kills over 20 people",
+      "peak_summary": "Fatal bus-lorry collision in Brazil kills more than 20. Distant tragedy with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -303,22 +323,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
-        }
-      ]
-    },
-    "moroccan police arrest more than 100 people attempting to enter ceuta": {
-      "detected_at": "2026-08-18T18:55:52.247893Z",
-      "peak_at": "2026-08-19T08:53:52.948684Z",
-      "peak_score_at": "2026-08-19T08:53:52.948684Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
-      "peak_label": "Morocco arrests 111 trying to enter Ceuta",
-      "peak_summary": "Border security tightened after social media calls for mass crossing into Spain's north African territory. Distant Iberian migration issue.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
         }
       ]
     },
@@ -376,8 +380,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Head-on collision between bus and lorry in Brazil kills more than 20",
     "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-    "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash"
+    "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+    "Head-on collision between bus and lorry in Brazil kills more than 20"
   ]
 }

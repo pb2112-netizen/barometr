@@ -1,12 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "Continuation of known background: Nord Stream arrest (no new development), distant tragedies (Brazil crash, Kenya helicopter), and Middle East events with no direct link to Polish daily life.",
+  "global_score": 2.2,
+  "rationale": "Continuation of known background (Nord Stream arrest, distant conflicts); no new qualitative change affecting Poland this cycle.",
   "top_events": [
     {
       "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "label": "Ukrainian arrested over Nord Stream pipeline sabotage",
-      "summary": "Croatian authorities detained a Ukrainian suspect allegedly involved in planting explosives on Nord Stream pipelines in 2022. No new impact on Polish energy security.",
-      "score": 2.3,
+      "label": "Croatian arrest in Nord Stream sabotage case",
+      "summary": "Croatian authorities detained a Ukrainian suspect in the 2022 pipeline explosions. No new impact on Polish energy security this cycle.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,35 +22,41 @@
       "detected_at": "2026-08-19T13:07:59.969395Z"
     },
     {
-      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
-      "label": "Brazil bus-lorry crash kills over 20 people",
-      "summary": "Fatal collision in Brazil early Wednesday morning. Distant tragedy with no connection to Polish residents' daily life.",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "label": "Dismissed Ukraine minister demands wartime election",
+      "summary": "Internal Ukrainian political strain as ousted defense chief challenges election suspension. Distant political noise for Poland.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/19-08-reported-audreymacalpine-kyiv-ua?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-19T18:52:36.568326Z"
+      "detected_at": "2026-08-19T03:10:39.548281Z"
     },
     {
       "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "label": "Ecuador official and five Americans die in Kenya crash",
-      "summary": "Helicopter crash in Kenya kills seven including Ecuador intelligence chief and US citizens. Distant tragedy with no Polish impact.",
-      "score": 2.0,
+      "label": "Seven killed in Kenya safari helicopter crash",
+      "summary": "Tragic accident in Kenya involving foreign tourists and officials. No connection to Polish daily life.",
+      "score": 1.5,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
@@ -60,35 +66,39 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
         }
       ],
       "detected_at": "2026-08-19T20:55:03.851998Z"
     }
   ],
-  "short_summary": "Russian missile kills 10 civilians in Kharkiv",
+  "short_summary": "Drone strike reported near Zaporizhzhia nuclear plant",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-19T20:55:03.851998Z",
+  "updated_at": "2026-08-19T21:39:47.065309Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Russian missile kills 10 civilians in Kharkiv",
-    "summary": "Confirmed strike on Pechenihy killed 10 civilians and wounded 17 in eastern Ukraine, representing significant escalation in war near Poland's border.",
-    "title": "Russian missile strike kills 10 civilians in Kharkiv",
+    "label": "Drone strike reported near Zaporizhzhia nuclear plant",
+    "summary": "Drone activity near Europe's largest nuclear plant raises safety concerns in ongoing war zone. No confirmed damage to reactor reported.",
+    "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
     "score": 5.9,
     "sentiment": "negative",
-    "detected_at": "2026-08-18T20:39:54.890683Z",
-    "peak_at": "2026-08-18T21:37:06.121585Z",
+    "detected_at": "2026-08-18T22:01:22.387865Z",
+    "peak_at": "2026-08-18T22:01:22.387865Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-18T20:39:54.890683Z",
+  "events_anchor_at": "2026-08-18T22:01:22.387865Z",
   "score_history": [
     {
       "t": "2026-08-17T21:39:48.506252Z",
@@ -305,6 +315,10 @@
     {
       "t": "2026-08-19T20:55:03.851998Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-19T21:39:47.065309Z",
+      "s": 2.2
     }
   ]
 }
