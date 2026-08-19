@@ -1,38 +1,14 @@
 {
-  "global_score": 2.5,
-  "rationale": "US-Canada trade deal finalized (Trump announcement) is a confirmed action affecting tariffs and trade; Ecuador intelligence chief killed in Kenya crash involves US citizens; other events are distant or rhetoric. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Continuation of known situations: Ecuador crash with US victims, Canada tariff pause, and rhetoric without confirmed new actions affecting US daily life.",
   "top_events": [
     {
-      "title": "US and Canada reach 'very fair' trade agreement, Trump says",
-      "label": "US-Canada trade deal finalized, tariffs avoided",
-      "summary": "Trump announces new trade agreement ensuring no tariffs for US farmers and businesses exporting to Canada. Confirmed action resolving trade standoff.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-        }
-      ],
-      "detected_at": "2026-08-18T08:52:54.554694Z"
-    },
-    {
       "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "label": "Ecuador intel chief, five Americans die in Kenya crash",
-      "summary": "Michele Sensi-Contugi, his wife Stephany Hollihan, and five other Americans killed in helicopter crash in Kenya. Tragic loss of US citizens abroad.",
-      "score": 2.5,
+      "label": "Ecuador official, five Americans die in Kenya crash",
+      "summary": "Helicopter crash in Kenya killed Ecuador's intelligence chief and five US citizens. Tragic accident with limited broader impact on US daily life.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -46,12 +22,36 @@
       "detected_at": "2026-08-19T18:52:36.576877Z"
     },
     {
-      "title": "NATO 'prepared' to defend allies amid report of Iranian strike plans",
-      "label": "NATO prepared amid Iran strike report",
-      "summary": "NATO states readiness to defend allies following media report Iran considered strikes against US targets in Europe. Rhetoric without confirmed action.",
+      "title": "Canada and US say they are finalising a trade deal, but details remain murky",
+      "label": "US-Canada trade deal nears completion",
+      "summary": "Three-day tariff pause as negotiations continue. Rhetoric about progress without a signed agreement; continuation of known trade talks.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ],
+      "detected_at": "2026-08-18T08:52:54.554694Z"
+    },
+    {
+      "title": "NATO 'prepared' to defend allies amid report of Iranian strike plans",
+      "label": "NATO readiness statement on Iran threat report",
+      "summary": "NATO issued preparedness statement following media reports of potential Iranian strikes. Rhetoric only; no confirmed action or direct threat to US territory.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -65,35 +65,35 @@
       "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
-  "short_summary": "Tropical Storm Lala floods Hawaii",
+  "short_summary": "US-Canada trade deal finalized, tariffs avoided",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T18:52:36.576877Z",
+  "updated_at": "2026-08-19T19:37:46.443307Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Tropical Storm Lala floods Hawaii",
-    "summary": "Storm causes flooding and power outages across Hawaii. Domestic weather disaster affecting US state.",
-    "title": "Tropical Storm Lala leaves Hawaii flooded and without power",
-    "score": 3.2,
-    "sentiment": "negative",
-    "detected_at": "2026-08-18T17:42:36.030484Z",
-    "peak_at": "2026-08-18T18:55:52.251870Z",
+    "label": "US-Canada trade deal finalized, tariffs avoided",
+    "summary": "Trump announces new trade agreement ensuring no tariffs for US farmers and businesses exporting to Canada. Confirmed action resolving trade standoff.",
+    "title": "US and Canada reach 'very fair' trade agreement, Trump says",
+    "score": 3.0,
+    "sentiment": "positive",
+    "detected_at": "2026-08-18T08:52:54.554694Z",
+    "peak_at": "2026-08-19T18:52:36.576877Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/tropical-storm-lala-leaves-hawaii-flooded-and-without-power?traffic_source=rss"
+        "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss"
+      },
+      {
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
       }
     ]
   },
-  "events_anchor_at": "2026-08-18T17:42:36.030484Z",
+  "events_anchor_at": "2026-08-18T08:52:54.554694Z",
   "score_history": [
-    {
-      "t": "2026-08-17T18:57:03.203248Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-17T19:41:06.663647Z",
       "s": 3.0
@@ -309,6 +309,10 @@
     {
       "t": "2026-08-19T18:52:36.576877Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-19T19:37:46.443307Z",
+      "s": 2.4
     }
   ]
 }
