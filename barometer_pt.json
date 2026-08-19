@@ -1,38 +1,33 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of known background: distant tragedies, rhetoric without confirmed actions, and no new developments affecting Portugal's economy or daily life.",
+  "rationale": "Continuation of known background: distant tragedies (Brazil crash, Kenya helicopter), Spain migration policy shift (indirect Iberian neighbor news), and Middle East events with no direct Portuguese impact.",
   "top_events": [
     {
-      "title": "Brazil bus crash kills at least 23 and injures five in Parana state",
-      "label": "Brazil bus crash kills over 20 people",
-      "summary": "Fatal collision in southern Brazil. Distant tragedy with no connection to Portugal despite linguistic ties.",
+      "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
+      "label": "Brazil bus-lorry crash kills over 20 people",
+      "summary": "Fatal collision in Brazil early Wednesday morning. Lusophone connection but distant tragedy with no impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/brazil-bus-crash-kills-at-least-23-and-injures-five-in-parana-state?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-19T14:52:41.460025Z"
     },
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain allows Ceuta children to mainland",
-      "summary": "Madrid reverses policy, permitting 500 children from Ceuta to move to mainland Spain. Iberian migration policy shift with minimal direct impact on Portugal.",
+      "label": "Spain allows 500 Ceuta children to mainland",
+      "summary": "Madrid reverses policy, permitting children who entered Ceuta illegally to move to mainland Spain. Iberian neighbor migration policy shift with minimal Portuguese impact.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -46,23 +41,28 @@
       "detected_at": "2026-08-18T17:42:36.027400Z"
     },
     {
-      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
-      "label": "Morocco arrests 111 trying to enter Ceuta",
-      "summary": "Moroccan authorities detained people attempting to cross into Spanish territory. Continuation of known border security situation.",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "label": "Ecuador official and five Americans die in Kenya crash",
+      "summary": "Helicopter crash in Kenya kills seven including Ecuador intelligence chief and US citizens. Distant tragedy with no Portuguese impact.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-18T18:55:52.247893Z"
+      "detected_at": "2026-08-19T20:55:03.855408Z"
     }
   ],
   "short_summary": "Congo Ebola outbreak declared global emergency by WHO",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-19T19:37:46.439918Z",
+  "updated_at": "2026-08-19T20:55:03.855408Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "score_history": [
-    {
-      "t": "2026-08-17T19:41:06.661097Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-17T20:43:03.669787Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-17T21:39:48.508838Z",
       "s": 3.0
@@ -308,6 +300,10 @@
     },
     {
       "t": "2026-08-19T19:37:46.439918Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-19T20:55:03.855408Z",
       "s": 2.0
     }
   ]

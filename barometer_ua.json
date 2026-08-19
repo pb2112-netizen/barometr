@@ -1,31 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Continuation of known situations: Nord Stream arrest, sacked minister's election call, and distant events without new military escalation on Ukrainian territory.",
+  "global_score": 2.5,
+  "rationale": "Continuation of known background: sacked defense minister's election call (no new development), Nord Stream arrest (no change), and protests supporting Fedorov (continuation of internal political strain already tracked). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-      "label": "Ukrainian arrested over Nord Stream sabotage",
-      "summary": "Croatian authorities detained a Ukrainian suspect in the 2022 pipeline explosions. Continuation of known case with no new impact on Ukraine's war situation.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T13:07:59.975714Z"
-    },
-    {
       "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "label": "Dismissed defense minister demands election",
-      "summary": "Former defense minister challenges election suspension under martial law. Continuation of known internal political strain without new military impact.",
-      "score": 2.6,
+      "label": "Dismissed defense minister demands wartime election",
+      "summary": "Mykailo Fedorov continues to challenge election suspension under martial law. Internal political strain continues without qualitative change.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,10 +22,29 @@
       "detected_at": "2026-08-19T03:10:39.553730Z"
     },
     {
-      "title": "South Korea shortens war games with US, citing Washington request",
-      "label": "South Korea shortens US war games",
-      "summary": "Trump curtails joint military exercises citing North Korea relations. Distant military news with no direct impact on Ukraine's war effort.",
-      "score": 2.0,
+      "title": "Protests in Kyiv back ex-defence minister Fedorov's call for elections",
+      "label": "Kyiv protests support Fedorov's election call",
+      "summary": "Ukrainians in Kyiv held protests supporting ousted defense minister's demand for elections. Continuation of internal political strain already tracked.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/19-08-reported-audreymacalpine-kyiv-ua?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T20:55:03.856898Z"
+    },
+    {
+      "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
+      "label": "Ukrainian arrested over Nord Stream pipeline sabotage",
+      "summary": "Croatian authorities detained a Ukrainian suspect allegedly involved in 2022 pipeline explosions. No new development affecting Ukrainian war effort or security.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -54,10 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-19T04:51:01.966708Z"
+      "detected_at": "2026-08-19T13:07:59.975714Z"
     }
   ],
   "short_summary": "Russian missile kills 10 in Kharkiv region",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T19:37:46.441409Z",
+  "updated_at": "2026-08-19T20:55:03.856898Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-18T18:55:52.249595Z",
   "score_history": [
-    {
-      "t": "2026-08-17T19:41:06.662281Z",
-      "s": 5.2
-    },
-    {
-      "t": "2026-08-17T20:43:03.670954Z",
-      "s": 4.9
-    },
     {
       "t": "2026-08-17T21:39:48.509991Z",
       "s": 3.1
@@ -304,6 +296,10 @@
     {
       "t": "2026-08-19T19:37:46.441409Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-19T20:55:03.856898Z",
+      "s": 2.5
     }
   ]
 }

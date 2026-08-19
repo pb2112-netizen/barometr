@@ -1,32 +1,13 @@
 {
-  "global_score": 2.4,
-  "rationale": "Continuation of known situations: Ecuador crash with US victims, Canada tariff pause, and rhetoric without confirmed new actions affecting US daily life.",
+  "global_score": 2.3,
+  "rationale": "New development: Canada-US tariff deal finalized (trade agreement close, pausing 50% tariffs). Kenya helicopter crash kills five Americans (confirmed US casualties). Trump FDA nomination is rhetoric without enacted policy change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "label": "Ecuador official, five Americans die in Kenya crash",
-      "summary": "Helicopter crash in Kenya killed Ecuador's intelligence chief and five US citizens. Tragic accident with limited broader impact on US daily life.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
-    },
-    {
       "title": "Canada and US say they are finalising a trade deal, but details remain murky",
-      "label": "US-Canada trade deal nears completion",
-      "summary": "Three-day tariff pause as negotiations continue. Rhetoric about progress without a signed agreement; continuation of known trade talks.",
+      "label": "US-Canada finalize trade deal, pause tariffs",
+      "summary": "Canada and US reached Tuesday agreement pausing 50% tariffs by three days as final trade deal details are hammered out. Real policy action affecting US-Canada trade.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -46,12 +27,41 @@
       "detected_at": "2026-08-18T08:52:54.554694Z"
     },
     {
-      "title": "NATO 'prepared' to defend allies amid report of Iranian strike plans",
-      "label": "NATO readiness statement on Iran threat report",
-      "summary": "NATO issued preparedness statement following media reports of potential Iranian strikes. Rhetoric only; no confirmed action or direct threat to US territory.",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "label": "Five Americans killed in Kenya helicopter crash",
+      "summary": "Helicopter crash in Kenya kills seven including five US citizens and Ecuador intelligence chief. Confirmed US casualties in distant accident.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
+    },
+    {
+      "title": "Trump nominates Heidi Overton to lead US Food and Drug Administration",
+      "label": "Trump nominates Overton to lead FDA",
+      "summary": "President nominates former policy officer to head FDA. Nomination only, no enacted policy change yet affecting daily life.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -59,10 +69,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/19/trump-nominates-heidi-overton-to-lead-us-food-and-drug-administration?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
+      "detected_at": "2026-08-18T03:08:19.425400Z"
     }
   ],
   "short_summary": "US-Canada trade deal finalized, tariffs avoided",
@@ -70,9 +80,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T19:37:46.443307Z",
+  "updated_at": "2026-08-19T20:55:03.859409Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US-Canada trade deal finalized, tariffs avoided",
     "summary": "Trump announces new trade agreement ensuring no tariffs for US farmers and businesses exporting to Canada. Confirmed action resolving trade standoff.",
@@ -94,14 +104,6 @@
   },
   "events_anchor_at": "2026-08-18T08:52:54.554694Z",
   "score_history": [
-    {
-      "t": "2026-08-17T19:41:06.663647Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-17T20:43:03.672223Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-17T21:39:48.511211Z",
       "s": 3.0
@@ -313,6 +315,10 @@
     {
       "t": "2026-08-19T19:37:46.443307Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-19T20:55:03.859409Z",
+      "s": 2.3
     }
   ]
 }

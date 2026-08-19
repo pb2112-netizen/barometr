@@ -1,54 +1,40 @@
 {
-  "updated_at": "2026-08-19T19:37:46.447664Z",
+  "updated_at": "2026-08-19T20:55:03.863332Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Canada tariff deal near",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Three-day pause on 50% tariffs; trade risk eases."
     },
     {
       "temat": "Brazil's Lula launches fourth term bid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "President campaigns against far-right; distant politics."
     },
     {
       "temat": "Moroccan police arrest 111 trying to enter Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Border security tightened; distant Iberian migration."
-    },
-    {
-      "temat": "Congo Ebola outbreak declared global emergency",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "WHO escalates status as infections pass 5,000; distant."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Brazil bus crash kills over 20",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Fatal bus-lorry collision in Brazil; distant tragedy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-17T19:41:06.661097Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-08-17T20:43:03.669787Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-17T21:39:48.508838Z",
       "s": 3.0
@@ -260,15 +246,19 @@
     {
       "t": "2026-08-19T19:37:46.439918Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-19T20:55:03.855408Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "event_detected_at": {
-    "brazil bus crash kills at least 23 and injures five in parana state": {
+    "head-on collision between bus and lorry in brazil kills more than 20": {
       "detected_at": "2026-08-19T14:52:41.460025Z",
       "peak_at": "2026-08-19T14:52:41.460025Z",
       "peak_score_at": "2026-08-19T14:52:41.460025Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "negative",
       "title": "Head-on collision between bus and lorry in Brazil kills more than 20",
       "peak_label": "Brazil bus crash kills over 20 people",
@@ -293,6 +283,26 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+        }
+      ]
+    },
+    "ecuador intelligence chief and five americans killed in kenya helicopter crash": {
+      "detected_at": "2026-08-19T20:55:03.855408Z",
+      "peak_at": "2026-08-19T20:55:03.855408Z",
+      "peak_score_at": "2026-08-19T20:55:03.855408Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "peak_label": "Ecuador official and five Americans die in Kenya crash",
+      "peak_summary": "Helicopter crash in Kenya kills seven including Ecuador intelligence chief and US citizens. Distant tragedy with no Portuguese impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/seven-mostly-tourists-killed-in-helicopter-crash-in-northern-kenya?traffic_source=rss"
         }
       ]
     },
@@ -363,27 +373,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
         }
       ]
-    },
-    "brazil's president lula hails oil discovery near amazon river": {
-      "detected_at": "2026-08-17T14:43:31.951069Z",
-      "peak_at": "2026-08-18T19:40:21.664041Z",
-      "peak_score_at": "2026-08-18T19:40:21.664041Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Brazil's President Lula hails oil discovery near Amazon river",
-      "peak_label": "Brazil announces oil discovery near Amazon river",
-      "peak_summary": "Brazil discovers oil near Amazon mouth; environmentalists criticize exploratory drilling. Distant energy news with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gd7xd8e8lo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Brazil bus crash kills at least 23 and injures five in Parana state",
+    "Head-on collision between bus and lorry in Brazil kills more than 20",
     "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-    "Moroccan police arrest more than 100 people attempting to enter Ceuta"
+    "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash"
   ]
 }
