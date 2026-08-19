@@ -1,18 +1,19 @@
 {
   "global_score": 3.0,
-  "rationale": "Trump announces three-day tariff pause and near-deal with Canada, directly affecting US trade policy and economic stability; Meta trial on children's mental health continues. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Tariff pause with Canada is a real policy action affecting major trade relationship; Meta trial continues as background; other events distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
-      "label": "Trump delays Canada tariffs, deal near",
-      "summary": "President announces three-day pause on 50% tariffs on Canadian goods as countries finalize trade agreement, directly affecting US economic policy and market stability.",
+      "label": "US-Canada tariff deal pauses 50% duties",
+      "summary": "Three-day delay on steep tariffs as trade agreement nears. Real policy action affecting major US trade relationship and economic stability.",
       "score": 3.0,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
@@ -22,47 +23,56 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ],
       "detected_at": "2026-08-18T08:52:54.554694Z"
     },
     {
       "title": "Meta hooked children on Facebook and Instagram, US court hears",
-      "label": "Meta trial on child addiction continues",
-      "summary": "Landmark trial continues as US states argue Meta designed platforms to addict young users; company denies social media addiction exists.",
+      "label": "Meta trial on children's mental health",
+      "summary": "Landmark case alleges Meta designed platforms to be addictive. Ongoing trial with no verdict yet, indirect impact on tech regulation.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/trial-begins-that-could-force-meta-to-change-facebook-and-instagram?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-18T18:55:52.251870Z"
     },
     {
-      "title": "US announces new sanctions on top ICC figures",
+      "title": "US sanctions International Criminal Court's president and top lawyer",
       "label": "US sanctions ICC officials",
-      "summary": "Trump administration imposes new sanctions on international court leadership, continuing policy of targeting ICC.",
+      "summary": "Trump administration targets international court leadership. Rhetoric-driven action with minimal direct impact on US daily life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/us-sanctions-international-criminal-courts-president-and-top-lawyer?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-19T03:10:39.555380Z"
+      "detected_at": "2026-08-19T03:57:53.504354Z"
     }
   ],
   "short_summary": "Canada scrambles to avert Trump 50% tariffs",
@@ -70,14 +80,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T03:10:39.555380Z",
+  "updated_at": "2026-08-19T03:57:53.504354Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Canada scrambles to avert Trump 50% tariffs",
     "summary": "Canadian officials make last-ditch effort to negotiate reprieve from 50% tariffs. Major trade policy affecting largest US trading partner; real economic impact.",
     "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
-    "score": 3.4,
+    "score": 3.3,
     "sentiment": "negative",
     "detected_at": "2026-08-18T08:52:54.554694Z",
     "peak_at": "2026-08-18T08:52:54.554694Z",
@@ -252,6 +262,10 @@
     },
     {
       "t": "2026-08-19T03:10:39.555380Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-19T03:57:53.504354Z",
       "s": 3.0
     }
   ]

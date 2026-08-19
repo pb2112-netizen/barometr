@@ -1,14 +1,14 @@
 {
-  "global_score": 5.5,
-  "rationale": "Sacked defense minister calling for elections reveals significant internal political strain during wartime; US-Canada tariff pause may indirectly affect Western aid capacity. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.7,
+  "rationale": "Sacked defense minister's election demand is a significant internal political development during wartime; tariff pause may indirectly affect Western aid capacity.",
   "top_events": [
     {
       "title": "Sacked Ukrainian defence minister calls for presidential election",
       "label": "Dismissed minister demands wartime election",
-      "summary": "Sacked defense minister challenges wartime election suspension, exposing internal political tension and potential leadership instability during ongoing war with Russia.",
-      "score": 5.5,
+      "summary": "Former defense chief challenges election suspension under martial law. Internal political strain during war, potential distraction from defense efforts.",
+      "score": 5.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,15 +23,16 @@
     },
     {
       "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
-      "label": "US delays Canada tariffs, deal near",
-      "summary": "Three-day pause on US tariffs may indirectly affect Western economic capacity to sustain military and financial aid to Ukraine.",
-      "score": 2.8,
+      "label": "US-Canada tariff deal pauses 50% duties",
+      "summary": "Three-day delay on tariffs as agreement nears. May indirectly affect Western economic capacity to support Ukraine.",
+      "score": 2.7,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
@@ -41,36 +42,21 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ],
       "detected_at": "2026-08-18T08:52:54.552694Z"
-    },
-    {
-      "title": "US announces new sanctions on top ICC figures",
-      "label": "US sanctions ICC officials",
-      "summary": "Trump administration targets international court leadership; continuation of policy affecting Ukraine's pursuit of justice for war crimes.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T23:35:22.309436Z"
     }
   ],
   "short_summary": "Russian missile kills 10 in Kharkiv region",
   "level_label": "Elevated",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T03:10:39.553730Z",
+  "updated_at": "2026-08-19T03:57:53.502132Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -253,6 +239,10 @@
     {
       "t": "2026-08-19T03:10:39.553730Z",
       "s": 5.5
+    },
+    {
+      "t": "2026-08-19T03:57:53.502132Z",
+      "s": 5.7
     }
   ]
 }
