@@ -1,14 +1,14 @@
 {
-  "global_score": 3.5,
-  "rationale": "UK reaffirms support amid Russia's drone supply accusations; continuation of known tensions without new military action or aid changes affecting Ukraine's war effort. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.5,
+  "rationale": "Sacked defense minister calling for elections reveals significant internal political strain during wartime; US-Canada tariff pause may indirectly affect Western aid capacity. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-      "label": "UK vows full Ukraine support after Russia warning",
-      "summary": "UK PM pledges continued support as Russia accuses Britain of escalating war with drone supplies. Rhetoric reaffirming known position; no new military aid or policy change announced.",
-      "score": 3.4,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "label": "Dismissed minister demands wartime election",
+      "summary": "Sacked defense minister challenges wartime election suspension, exposing internal political tension and potential leadership instability during ongoing war with Russia.",
+      "score": 5.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -16,16 +16,40 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-18T07:53:22.425795Z"
+      "detected_at": "2026-08-19T03:10:39.553730Z"
+    },
+    {
+      "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
+      "label": "US delays Canada tariffs, deal near",
+      "summary": "Three-day pause on US tariffs may indirectly affect Western economic capacity to sustain military and financial aid to Ukraine.",
+      "score": 2.8,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T08:52:54.552694Z"
     },
     {
       "title": "US announces new sanctions on top ICC figures",
-      "label": "US imposes new sanctions on ICC officials",
-      "summary": "Trump administration targets international court leadership with fresh sanctions. Continuation of US-ICC tensions; complicates Ukraine's pursuit of justice for war crimes.",
-      "score": 3.5,
+      "label": "US sanctions ICC officials",
+      "summary": "Trump administration targets international court leadership; continuation of policy affecting Ukraine's pursuit of justice for war crimes.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,35 +63,16 @@
         }
       ],
       "detected_at": "2026-08-18T23:35:22.309436Z"
-    },
-    {
-      "title": "Meta hooked children on Facebook and Instagram, court hears",
-      "label": "Meta trial on children's social media addiction begins",
-      "summary": "US states' lawsuit claims Meta designed platforms to addict young users. Distant legal case with no impact on Ukraine's war situation or daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T01:52:26.194251Z"
     }
   ],
   "short_summary": "Russian missile kills 10 in Kharkiv region",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-19T01:52:26.194251Z",
+  "updated_at": "2026-08-19T03:10:39.553730Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russian missile kills 10 in Kharkiv region",
     "summary": "Confirmed missile strike on Pechenihy killed 10 civilians and wounded 17; major escalation with significant casualties in eastern Ukraine.",
@@ -244,6 +249,10 @@
     {
       "t": "2026-08-19T01:52:26.194251Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-08-19T03:10:39.553730Z",
+      "s": 5.5
     }
   ]
 }

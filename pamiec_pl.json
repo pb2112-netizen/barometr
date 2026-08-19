@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-08-19T01:52:26.197393Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-08-19T03:10:39.556352Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": "2026-08-18T21:37:06.133708Z",
   "stan_swiata": [
     {
       "temat": "Drone strike near Zaporizhzhia nuclear plant",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 4,
       "opis": "Drone activity near Europe's largest nuclear plant in war."
     },
     {
       "temat": "Congo Ebola outbreak declared global emergency",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "WHO escalates status as infections pass 5,000; distant."
     },
     {
       "temat": "Russian missile strike kills 10 in Kharkiv",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 6,
       "opis": "Significant civilian casualties in eastern Ukraine."
     },
     {
       "temat": "US sanctions ICC officials",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 7,
       "opis": "Trump administration targets international court leadership."
     },
     {
       "temat": "Granada earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Earthquake damages historic Spanish city; distant EU event."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Grifols halts donations after deaths; distant health issue."
     },
     {
       "temat": "Canada-US tariff negotiations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Canada scrambles to avoid 50% US tariffs; trade risk."
+    },
+    {
+      "temat": "Ukraine minister calls for wartime election",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Dismissed defense chief challenges election suspension."
     }
   ],
   "score_history": [
@@ -206,10 +212,62 @@
     {
       "t": "2026-08-19T01:52:26.188454Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-19T03:10:39.548281Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-08-18T20:39:54.890683Z",
   "event_detected_at": {
+    "sacked ukrainian defence minister calls for presidential election": {
+      "detected_at": "2026-08-19T03:10:39.548281Z",
+      "peak_at": "2026-08-19T03:10:39.548281Z",
+      "peak_score_at": "2026-08-19T03:10:39.548281Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "neutral",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "peak_label": "Ukraine minister demands election amid war",
+      "peak_summary": "Political tension rises in neighboring Ukraine as dismissed defense chief challenges wartime suspension of elections, potentially signaling internal instability near Poland's eastern border.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump pauses new tariffs on canada and says countries close to a deal": {
+      "detected_at": "2026-08-18T08:52:54.547672Z",
+      "peak_at": "2026-08-18T08:52:54.547672Z",
+      "peak_score_at": "2026-08-18T08:52:54.547672Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
+      "peak_label": "Canada scrambles to avert Trump 50% tariffs",
+      "peak_summary": "Canadian officials negotiate to avoid major US tariffs. Indirect EU trade risk if North American markets destabilize, but no direct Polish impact yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/18/canada-battles-the-clock-politics-in-scramble-to-avert-trumps-tariffs?traffic_source=rss"
+        }
+      ]
+    },
+    "earthquake rocks spain's historic granada, injuring three": {
+      "detected_at": "2026-08-18T18:55:52.244007Z",
+      "peak_at": "2026-08-18T18:55:52.244007Z",
+      "peak_score_at": "2026-08-18T18:55:52.244007Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Earthquake rocks Spain's historic Granada, injuring three",
+      "peak_label": "Earthquake damages Granada, injures three people",
+      "peak_summary": "Historic city suffers building and car damage; Alhambra palace temporarily closed. Distant EU event with no direct impact on Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "uk 'supports ukraine 100%', burnham says, after russia's drone warning": {
       "detected_at": "2026-08-17T14:43:31.947524Z",
       "peak_at": "2026-08-18T23:35:22.303820Z",
@@ -303,22 +361,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss"
-        }
-      ]
-    },
-    "earthquake rocks spain's historic granada, injuring three": {
-      "detected_at": "2026-08-18T18:55:52.244007Z",
-      "peak_at": "2026-08-18T18:55:52.244007Z",
-      "peak_score_at": "2026-08-18T18:55:52.244007Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "peak_label": "Earthquake damages Granada, injures three people",
-      "peak_summary": "Historic city suffers building and car damage; Alhambra palace temporarily closed. Distant EU event with no direct impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -422,22 +464,6 @@
         }
       ]
     },
-    "canada battles the clock, politics in scramble to avert trump's tariffs": {
-      "detected_at": "2026-08-18T08:52:54.547672Z",
-      "peak_at": "2026-08-18T08:52:54.547672Z",
-      "peak_score_at": "2026-08-18T08:52:54.547672Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
-      "peak_label": "Canada scrambles to avert Trump 50% tariffs",
-      "peak_summary": "Canadian officials negotiate to avoid major US tariffs. Indirect EU trade risk if North American markets destabilize, but no direct Polish impact yet.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/18/canada-battles-the-clock-politics-in-scramble-to-avert-trumps-tariffs?traffic_source=rss"
-        }
-      ]
-    },
     "vessel hit by 'unknown projectile' in strait of hormuz, ukmto says": {
       "detected_at": "2026-08-18T07:03:39.211805Z",
       "peak_at": "2026-08-18T07:03:39.211805Z",
@@ -472,8 +498,8 @@
     }
   },
   "prev_top_event_titles": [
-    "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-    "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-    "US announces new sanctions on top ICC figures"
+    "Sacked Ukrainian defence minister calls for presidential election",
+    "Trump pauses new tariffs on Canada and says countries close to a deal",
+    "Earthquake rocks Spain's historic Granada, injuring three"
   ]
 }

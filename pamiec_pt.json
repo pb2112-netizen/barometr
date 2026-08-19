@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-19T01:52:26.200276Z",
+  "updated_at": "2026-08-19T03:10:39.558467Z",
   "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Brazil announces oil discovery near Amazon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Exploratory drilling near Amazon; distant energy."
     },
     {
       "temat": "Granada earthquake",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Earthquake damages historic Spanish city; nearby Iberian."
     },
     {
-      "temat": "Congo Ebola outbreak declared global emergency",
+      "temat": "US-Canada tariff deal near",
       "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
+      "opis": "Three-day pause on 50% tariffs; trade risk eases."
+    },
+    {
+      "temat": "Congo Ebola outbreak declared global emergency",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "WHO escalates status as infections pass 5,000; distant."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Zimbabwe ferry disaster death toll reaches 68",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Ferry capsized on Lake Kariba; distant African tragedy."
     },
     {
       "temat": "Canadian plasma clinics pause after donor deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Grifols halts donations after deaths; distant health issue."
     },
     {
       "temat": "BP Venezuela gasfield development",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "First major foreign investment since Maduro ousted; energy."
-    },
-    {
-      "temat": "Germany anti-smuggling raids",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "First raids under new law targeting migration smugglers."
     }
   ],
   "score_history": [
@@ -212,23 +212,47 @@
     {
       "t": "2026-08-19T01:52:26.192468Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-19T03:10:39.551998Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-18T22:01:22.392250Z",
   "event_detected_at": {
-    "ebola outbreak in democratic republic of the congo now deadliest in country's history": {
-      "detected_at": "2026-08-18T22:01:22.392250Z",
-      "peak_at": "2026-08-18T22:01:22.392250Z",
-      "peak_score_at": "2026-08-18T22:01:22.392250Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
-      "peak_label": "Congo Ebola outbreak declared global emergency by WHO",
-      "peak_summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Portugal.",
+    "trump pauses new tariffs on canada and says countries close to a deal": {
+      "detected_at": "2026-08-18T08:52:54.551386Z",
+      "peak_at": "2026-08-19T03:10:39.551998Z",
+      "peak_score_at": "2026-08-19T03:10:39.551998Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "positive",
+      "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
+      "peak_label": "US delays Canada tariffs, deal near",
+      "peak_summary": "Three-day pause on 50% US tariffs on Canada reduces risk of broader trade disruption affecting EU economy and Portuguese exports indirectly.",
       "peak_source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        }
+      ]
+    },
+    "earthquake rocks spain's historic granada, injuring three": {
+      "detected_at": "2026-08-18T18:55:52.247893Z",
+      "peak_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score_at": "2026-08-18T18:55:52.247893Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Earthquake rocks Spain's historic Granada, injuring three",
+      "peak_label": "Earthquake damages Granada, injures three",
+      "peak_summary": "Historic city suffers building damage; Alhambra palace closed. Nearby Iberian event but no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -248,19 +272,19 @@
         }
       ]
     },
-    "earthquake rocks spain's historic granada, injuring three": {
-      "detected_at": "2026-08-18T18:55:52.247893Z",
-      "peak_at": "2026-08-18T18:55:52.247893Z",
-      "peak_score_at": "2026-08-18T18:55:52.247893Z",
-      "peak_score": 2.4,
+    "ebola outbreak in democratic republic of the congo now deadliest in country's history": {
+      "detected_at": "2026-08-18T22:01:22.392250Z",
+      "peak_at": "2026-08-18T22:01:22.392250Z",
+      "peak_score_at": "2026-08-18T22:01:22.392250Z",
+      "peak_score": 2.8,
       "peak_sentiment": "negative",
-      "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "peak_label": "Earthquake damages Granada, injures three",
-      "peak_summary": "Historic city suffers building damage; Alhambra palace closed. Nearby Iberian event but no direct impact on Portugal.",
+      "title": "Congo Ebola outbreak 'global emergency' as infections pass 5,000: WHO",
+      "peak_label": "Congo Ebola outbreak declared global emergency by WHO",
+      "peak_summary": "WHO escalates status as infections exceed 5,000 and spread continues. Distant African health crisis with no direct link to Portugal.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss"
         }
       ]
     },
@@ -392,22 +416,6 @@
         }
       ]
     },
-    "canada battles the clock, politics in scramble to avert trump's tariffs": {
-      "detected_at": "2026-08-18T08:52:54.551386Z",
-      "peak_at": "2026-08-18T08:52:54.551386Z",
-      "peak_score_at": "2026-08-18T08:52:54.551386Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
-      "peak_label": "Canada scrambles to avert Trump 50% tariffs",
-      "peak_summary": "Canadian officials negotiate to avoid major US tariffs. Distant North American trade event with no direct Portuguese impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/18/canada-battles-the-clock-politics-in-scramble-to-avert-trumps-tariffs?traffic_source=rss"
-        }
-      ]
-    },
     "vessel hit by 'unknown projectile' in strait of hormuz, ukmto says": {
       "detected_at": "2026-08-18T07:03:39.214402Z",
       "peak_at": "2026-08-18T07:03:39.214402Z",
@@ -426,8 +434,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-    "Brazil's President Lula hails oil discovery near Amazon river",
-    "Earthquake rocks Spain's historic Granada, injuring three"
+    "Trump pauses new tariffs on Canada and says countries close to a deal",
+    "Earthquake rocks Spain's historic Granada, injuring three",
+    "Brazil's President Lula hails oil discovery near Amazon river"
   ]
 }

@@ -1,12 +1,36 @@
 {
-  "global_score": 2.6,
-  "rationale": "Meta trial continues; Trump forest rule change ongoing; Ebola remains distant; no new domestic policy actions or economic changes this cycle.",
+  "global_score": 3.0,
+  "rationale": "Trump announces three-day tariff pause and near-deal with Canada, directly affecting US trade policy and economic stability; Meta trial on children's mental health continues. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Meta hooked children on Facebook and Instagram, court hears",
-      "label": "Meta trial on children's social media addiction begins",
-      "summary": "Landmark lawsuit by US states claims Meta designed platforms to addict young users; company denies social media addiction exists. Major legal case with potential regulatory implications.",
-      "score": 2.1,
+      "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
+      "label": "Trump delays Canada tariffs, deal near",
+      "summary": "President announces three-day pause on 50% tariffs on Canadian goods as countries finalize trade agreement, directly affecting US economic policy and market stability.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/19/us-canada-reach-trade-deal-to-avert-steep-tariffs-trump-says?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-18T08:52:54.554694Z"
+    },
+    {
+      "title": "Meta hooked children on Facebook and Instagram, US court hears",
+      "label": "Meta trial on child addiction continues",
+      "summary": "Landmark trial continues as US states argue Meta designed platforms to addict young users; company denies social media addiction exists.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -22,62 +46,38 @@
       "detected_at": "2026-08-18T18:55:52.251870Z"
     },
     {
-      "title": "Trump administration moves to end rule protecting swaths of forest land",
-      "label": "Trump ends forest protection rule from 2001",
-      "summary": "USDA rescinds 2001 rule protecting forest land; administration cites wildfire risk reduction and local control. Continuation of known policy rollback; long-term environmental impact unclear.",
-      "score": 2.6,
-      "sentiment": "negative",
+      "title": "US announces new sanctions on top ICC figures",
+      "label": "US sanctions ICC officials",
+      "summary": "Trump administration imposes new sanctions on international court leadership, continuing policy of targeting ICC.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/trump-administration-moves-to-end-rule-protecting-swaths-of-forest-land?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-18T03:08:19.425400Z"
-    },
-    {
-      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-      "label": "Congo Ebola outbreak becomes deadliest in DRC history",
-      "summary": "Death toll reaches 2,325 as outbreak spreads to sixth province. Distant African health crisis with no direct impact on US; WHO monitoring continues.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-18T22:01:22.396869Z"
+      "detected_at": "2026-08-19T03:10:39.555380Z"
     }
   ],
   "short_summary": "Canada scrambles to avert Trump 50% tariffs",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T01:52:26.196077Z",
+  "updated_at": "2026-08-19T03:10:39.555380Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Canada scrambles to avert Trump 50% tariffs",
     "summary": "Canadian officials make last-ditch effort to negotiate reprieve from 50% tariffs. Major trade policy affecting largest US trading partner; real economic impact.",
     "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
-    "score": 3.5,
+    "score": 3.4,
     "sentiment": "negative",
     "detected_at": "2026-08-18T08:52:54.554694Z",
     "peak_at": "2026-08-18T08:52:54.554694Z",
@@ -249,6 +249,10 @@
     {
       "t": "2026-08-19T01:52:26.196077Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-19T03:10:39.555380Z",
+      "s": 3.0
     }
   ]
 }
