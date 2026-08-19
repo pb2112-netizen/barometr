@@ -1,25 +1,20 @@
 {
-  "global_score": 2.2,
-  "rationale": "Tariff pause continues existing situation; other events distant or rhetorical with no policy change.",
+  "global_score": 2.5,
+  "rationale": "US-Canada trade deal finalized (Trump announcement) is a confirmed action affecting tariffs and trade; Ecuador intelligence chief killed in Kenya crash involves US citizens; other events are distant or rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "label": "Trump pauses Canada tariffs for three days",
-      "summary": "US president delays 50% tariffs on Canadian goods by three days, citing near-final trade agreement. Rhetoric about a deal, not enacted policy; continues existing trade uncertainty.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "US and Canada reach 'very fair' trade agreement, Trump says",
+      "label": "US-Canada trade deal finalized, tariffs avoided",
+      "summary": "Trump announces new trade agreement ensuring no tariffs for US farmers and businesses exporting to Canada. Confirmed action resolving trade standoff.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
-        "BBC",
         "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss"
@@ -32,42 +27,42 @@
       "detected_at": "2026-08-18T08:52:54.554694Z"
     },
     {
-      "title": "Apparent human remains found in US reservoir as water levels hit record low",
-      "label": "Human remains found in Lake Mead reservoir",
-      "summary": "Skeletal remains including a human jaw discovered in Lake Mead at record low water levels. Continues pattern of discoveries in drought-affected reservoir; no broader impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "label": "Ecuador intel chief, five Americans die in Kenya crash",
+      "summary": "Michele Sensi-Contugi, his wife Stephany Hollihan, and five other Americans killed in helicopter crash in Kenya. Tragic loss of US citizens abroad.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp87gvmedlmo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-19T13:07:59.977616Z"
+      "detected_at": "2026-08-19T18:52:36.576877Z"
     },
     {
-      "title": "South Korea shortens war games with US, citing Washington request",
-      "label": "South Korea shortens war games with US",
-      "summary": "Joint military exercises curtailed after Trump cites good relationship with North Korea. Continues existing policy shift with no immediate impact on US security or daily life.",
+      "title": "NATO 'prepared' to defend allies amid report of Iranian strike plans",
+      "label": "NATO prepared amid Iran strike report",
+      "summary": "NATO states readiness to defend allies following media report Iran considered strikes against US targets in Europe. Rhetoric without confirmed action.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-17T15:38:35.240497Z"
+      "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
   "short_summary": "Tropical Storm Lala floods Hawaii",
@@ -75,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T17:39:23.670346Z",
+  "updated_at": "2026-08-19T18:52:36.576877Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -95,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-18T17:42:36.030484Z",
   "score_history": [
-    {
-      "t": "2026-08-17T17:43:17.540218Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-17T18:57:03.203248Z",
       "s": 3.0
@@ -314,6 +305,10 @@
     {
       "t": "2026-08-19T17:39:23.670346Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-19T18:52:36.576877Z",
+      "s": 2.5
     }
   ]
 }
