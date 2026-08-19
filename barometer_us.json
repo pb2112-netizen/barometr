@@ -1,11 +1,11 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Canada tariff pause is confirmed action averting trade disruption; Meta trial continues; no new domestic policy changes this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "US-Canada tariff pause is confirmed action affecting major trade relationship; Meta trial on children's mental health continues; South Korea war games shortened is confirmed policy change affecting US military posture. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump pauses new tariffs on Canada and says countries close to a deal",
-      "label": "US pauses Canada tariffs, deal near",
-      "summary": "Three-day delay on 50% tariffs as US-Canada trade agreement nears completion; confirmed action averting immediate trade disruption.",
+      "label": "Trump delays Canada tariffs three days",
+      "summary": "President postpones 50% tariffs on Canadian goods as trade deal nears. Confirmed action affecting major US trade relationship and potentially consumer prices.",
       "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -32,9 +32,28 @@
       "detected_at": "2026-08-18T08:52:54.554694Z"
     },
     {
+      "title": "South Korea shortens war games with US, citing Washington request",
+      "label": "US curtails South Korea military exercises",
+      "summary": "Trump cuts joint drills citing good relations with North Korea. Confirmed policy change affecting US military posture in Asia, no immediate threat.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-17T15:38:35.240497Z"
+    },
+    {
       "title": "Meta hooked children on Facebook and Instagram, US court hears",
-      "label": "Meta trial on children's mental health",
-      "summary": "Landmark trial begins over allegations Meta designed platforms to be addictive; Meta argues social media addiction does not exist.",
+      "label": "Meta trial on child addiction begins",
+      "summary": "Landmark case alleges platforms deliberately designed to be addictive; Meta denies social media addiction exists. Major trial continues, no verdict yet.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -54,51 +73,32 @@
         }
       ],
       "detected_at": "2026-08-18T18:55:52.251870Z"
-    },
-    {
-      "title": "US sanctions International Criminal Court's president and top lawyer",
-      "label": "US sanctions ICC president and lawyer",
-      "summary": "Trump administration targets international court leadership; confirmed action affecting US relations with international justice system.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/us-sanctions-international-criminal-courts-president-and-top-lawyer?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T03:57:53.504354Z"
     }
   ],
-  "short_summary": "Canada scrambles to avert Trump 50% tariffs",
+  "short_summary": "US curtails South Korea military exercises",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-19T04:01:21.215333Z",
+  "updated_at": "2026-08-19T04:51:01.968718Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Canada scrambles to avert Trump 50% tariffs",
-    "summary": "Canadian officials make last-ditch effort to negotiate reprieve from 50% tariffs. Major trade policy affecting largest US trading partner; real economic impact.",
-    "title": "Canada battles the clock, politics in scramble to avert Trump's tariffs",
+    "label": "US curtails South Korea military exercises",
+    "summary": "Trump cuts joint drills citing good relations with North Korea. Confirmed policy change affecting US military posture in Asia, no immediate threat.",
+    "title": "South Korea shortens war games with US, citing Washington request",
     "score": 3.2,
-    "sentiment": "negative",
-    "detected_at": "2026-08-18T08:52:54.554694Z",
-    "peak_at": "2026-08-18T08:52:54.554694Z",
+    "sentiment": "neutral",
+    "detected_at": "2026-08-17T15:38:35.240497Z",
+    "peak_at": "2026-08-19T04:51:01.968718Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/8/18/canada-battles-the-clock-politics-in-scramble-to-avert-trumps-tariffs?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-18T08:52:54.554694Z",
+  "events_anchor_at": "2026-08-17T15:38:35.240497Z",
   "score_history": [
     {
       "t": "2026-08-17T14:43:31.954526Z",
@@ -271,6 +271,10 @@
     {
       "t": "2026-08-19T04:01:21.215333Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-19T04:51:01.968718Z",
+      "s": 3.2
     }
   ]
 }
