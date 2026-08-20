@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-20T03:14:57.366368Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-20T03:58:12.498218Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian arrested over Nord Stream blasts",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Croatian arrest of Ukrainian in 2022 pipeline sabotage case."
     },
     {
       "temat": "Forcible military recruitment turns violent",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 16,
       "opis": "Street recruitment escalates into abuse and corruption."
     },
     {
       "temat": "South Korea shortens war games with US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Trump curtails joint exercises; distant military news."
     },
     {
       "temat": "Sacked minister calls for wartime election",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 2,
       "opis": "Ex-defense minister demands presidential vote amid martial."
+    },
+    {
+      "temat": "Russian strike on Kyiv kills three",
+      "poziom_bazowy": 7.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Direct Russian attack on capital with casualties."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T03:57:10.409178Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T04:00:50.976420Z",
       "s": 3.0
@@ -244,15 +246,35 @@
     {
       "t": "2026-08-20T03:14:57.359412Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-20T03:58:12.492913Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-08-19T13:07:59.975714Z",
   "event_detected_at": {
+    "russian strike kills 3 in ukraine as zelenskyy faces pressure at home": {
+      "detected_at": "2026-08-19T10:01:16.328115Z",
+      "peak_at": "2026-08-20T03:58:12.492913Z",
+      "peak_score_at": "2026-08-20T03:58:12.492913Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
+      "peak_label": "Russian strike kills three in Kyiv",
+      "peak_summary": "At least three killed and 14 hospitalized in a Russian strike on Kyiv, a direct attack on the capital that seriously affects residents' safety and daily life.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss"
+        }
+      ]
+    },
     "sacked ukrainian defence minister calls for presidential election": {
       "detected_at": "2026-08-19T03:10:39.553730Z",
-      "peak_at": "2026-08-19T03:57:53.502132Z",
+      "peak_at": "2026-08-20T03:58:12.492913Z",
       "peak_score_at": "2026-08-19T03:57:53.502132Z",
-      "peak_score": 3.9,
+      "peak_score": 3.8,
       "peak_sentiment": "negative",
       "title": "Sacked Ukrainian defence minister calls for presidential election",
       "peak_label": "Dismissed minister demands wartime election",
@@ -268,7 +290,7 @@
       "detected_at": "2026-08-19T13:07:59.975714Z",
       "peak_at": "2026-08-19T13:56:49.940765Z",
       "peak_score_at": "2026-08-19T13:56:49.940765Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
       "peak_label": "Ukrainian arrested in Nord Stream sabotage case",
@@ -359,25 +381,10 @@
           "url": "https://www.aljazeera.com/news/2026/8/19/in-ukraine-forcible-military-recruitment-efforts-escalate-into-violence?traffic_source=rss"
         }
       ]
-    },
-    "at least five killed in russian air attacks on ukraine": {
-      "detected_at": "2026-08-19T10:01:16.328115Z",
-      "peak_at": "2026-08-19T10:01:16.328115Z",
-      "peak_score_at": "2026-08-19T10:01:16.328115Z",
-      "peak_score": 3.9,
-      "peak_sentiment": "negative",
-      "title": "At least five killed in Russian air attacks on Ukraine",
-      "peak_label": "Russian air attacks kill five in Ukraine",
-      "peak_summary": "Russia downed 453 Ukrainian drones overnight; at least five killed in air attacks. Continuation of war with fresh casualties but no major escalation.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/at-least-five-killed-in-russian-air-attacks-on-ukraine?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
     "Sacked Ukrainian defence minister calls for presidential election",
     "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts"
   ]

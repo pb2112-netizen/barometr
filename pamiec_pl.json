@@ -1,50 +1,46 @@
 {
-  "updated_at": "2026-08-20T03:14:57.362841Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-20T03:58:12.495378Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": "2026-08-18T21:37:06.133708Z",
   "stan_swiata": [
     {
       "temat": "Ukrainian arrested over Nord Stream blasts",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Croatian arrest of Ukrainian in 2022 pipeline sabotage case."
     },
     {
       "temat": "Brazil bus crash kills over 20",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Fatal bus-lorry collision in Brazil; distant tragedy."
     },
     {
       "temat": "Israel confirms fire on Gaza child's vehicle",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Israeli forces acknowledge 2024 Gaza shooting; distant ME."
     },
     {
       "temat": "Israeli airstrikes on Syrian airbase",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Damascus calls attacks unjustified; distant ME escalation."
     },
     {
       "temat": "South Korea shortens war games with US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Trump curtails joint exercises; distant military news."
     },
     {
-      "temat": "UAE imposes trade embargo on Iran",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "UAE blocks trade over alleged missile attacks; distant ME."
+      "temat": "Russian strike on Kyiv kills three",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Fresh Russian attack on Ukrainian capital with casualties."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T03:57:10.406149Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T04:00:50.972681Z",
       "s": 3.0
@@ -256,15 +252,35 @@
     {
       "t": "2026-08-20T03:14:57.355987Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-20T03:58:12.490311Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-08-19T13:07:59.969395Z",
+  "events_anchor_at": "2026-08-20T03:58:12.490311Z",
   "event_detected_at": {
+    "russian strike kills 3 in ukraine as zelenskyy faces pressure at home": {
+      "detected_at": "2026-08-20T03:58:12.490311Z",
+      "peak_at": "2026-08-20T03:58:12.490311Z",
+      "peak_score_at": "2026-08-20T03:58:12.490311Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
+      "peak_label": "Russian strike kills three in Kyiv",
+      "peak_summary": "At least three killed and 14 hospitalized in a Russian strike on Kyiv, marking a fresh escalation in attacks on the Ukrainian capital near Poland's eastern border.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss"
+        }
+      ]
+    },
     "ukrainian man arrested in croatia over nord stream pipeline blasts": {
       "detected_at": "2026-08-19T13:07:59.969395Z",
       "peak_at": "2026-08-19T13:07:59.969395Z",
       "peak_score_at": "2026-08-19T13:07:59.969395Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "neutral",
       "title": "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
       "peak_label": "Ukrainian arrested over Nord Stream pipeline blasts",
@@ -273,6 +289,26 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
+      "detected_at": "2026-08-18T08:52:54.547672Z",
+      "peak_at": "2026-08-19T07:53:47.595044Z",
+      "peak_score_at": "2026-08-19T07:53:47.595044Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
+      "peak_label": "US pauses Canada tariffs for three days",
+      "peak_summary": "Three-day delay on 50% tariffs as US-Canada finalize trade deal; indirect EU trade stability signal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ]
     },
@@ -337,26 +373,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "canada and us say they are finalising a trade deal, but details remain murky": {
-      "detected_at": "2026-08-18T08:52:54.547672Z",
-      "peak_at": "2026-08-19T07:53:47.595044Z",
-      "peak_score_at": "2026-08-19T07:53:47.595044Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "Trump pauses new tariffs on Canada for three days, saying deal close",
-      "peak_label": "US pauses Canada tariffs for three days",
-      "peak_summary": "Three-day delay on 50% tariffs as US-Canada finalize trade deal; indirect EU trade stability signal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ]
     },
@@ -434,8 +450,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home",
     "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts",
-    "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-    "Sacked Ukrainian defence minister calls for presidential election"
+    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline"
   ]
 }
