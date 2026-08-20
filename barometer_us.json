@@ -1,33 +1,14 @@
 {
-  "global_score": 2.3,
-  "rationale": "US deportation of 20 people to Liberia under Trump deal represents enforcement action but affects small numbers; no major domestic policy or economic impact this cycle.",
+  "global_score": 2.2,
+  "rationale": "Five Americans killed in Kenya helicopter crash is confirmed action affecting US citizens; other events are rhetoric or distant with no direct US policy impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports 20 to Liberia under Trump deal",
-      "summary": "United States sent first 20 deportees to Liberia as part of agreement for 1,200 migrants, marking enforcement action under Trump immigration crackdown.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
-        }
-      ],
-      "detected_at": "2026-08-20T15:48:36.002517Z"
-    },
     {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
       "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Seven people including five US citizens and Telemundo executive killed when safari helicopter crashed in Kenya on Wednesday.",
-      "score": 2.2,
+      "summary": "Safari helicopter crashes in Kenya, killing seven including five US citizens, Telemundo executive, and Ecuador intelligence chief. Tragic accident with no broader policy or security implications.",
+      "score": 2.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -42,8 +23,8 @@
     },
     {
       "title": "Trump vows tougher economic measures on Iran and supporting countries",
-      "label": "Trump threatens Iran sanctions after ceasefire ends",
-      "summary": "President warns of economic consequences for Iran and partners after 60-day ceasefire expired; rhetoric without enacted policy change yet.",
+      "label": "Trump threatens Iran sanctions after ceasefire",
+      "summary": "President warns of economic consequences for Iran and partners after 60-day ceasefire expires. Rhetoric only; no enacted sanctions or policy changes affecting US economy or security yet.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-20T01:50:54.086014Z"
+    },
+    {
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "label": "US deports 20 to Liberia under Trump deal",
+      "summary": "First of 1,200 deportations to Liberia under Trump administration agreement. Continuation of known enforcement policy with no new impact on daily life for most US residents.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        }
+      ],
+      "detected_at": "2026-08-20T15:48:36.002517Z"
     }
   ],
   "short_summary": "Pentagon surveys NATO allies on US loyalty",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T16:01:26.575051Z",
+  "updated_at": "2026-08-20T16:50:19.177115Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T05:45:53.939809Z",
   "score_history": [
-    {
-      "t": "2026-08-18T16:47:56.989226Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-18T17:42:36.030484Z",
       "s": 2.8
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-20T16:01:26.575051Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-20T16:50:19.177115Z",
+      "s": 2.2
     }
   ]
 }
