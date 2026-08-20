@@ -1,14 +1,33 @@
 {
-  "global_score": 2.1,
-  "rationale": "Five Americans killed in Kenya helicopter crash is the most direct impact on US residents this cycle; other events remain distant or rhetorical without enacted policy changes. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "FBI raid on ex-Representative Swalwell's home over sexual misconduct allegations is a significant domestic political development involving a prominent Trump critic.",
   "top_events": [
     {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Seven people including five US citizens and a Telemundo executive died when safari helicopter crashed in Kenya, directly affecting American families.",
-      "score": 2.0,
+      "title": "FBI raids ex-US Representative Swalwell's home amid sexual misconduct probe",
+      "label": "FBI raids Swalwell home in misconduct probe",
+      "summary": "FBI raids home of former Representative and vocal Trump critic Eric Swalwell over sexual misconduct allegations, following his resignation and withdrawal from California governor's race.",
+      "score": 3.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/fbi-raids-ex-us-representative-swalwells-home-amid-sexual-misconduct-probe?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T18:58:40.789457Z"
+    },
+    {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans killed in Kenya helicopter crash",
+      "summary": "Seven people including five US citizens and a Telemundo executive died in safari helicopter crash in Kenya.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-19T18:52:36.576877Z"
     },
     {
-      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "label": "Trump delays Canada tariffs by three days",
-      "summary": "President postponed 50% tariffs on Canada by three days and signaled possible Keystone XL revival, continuing trade negotiation without final policy enacted.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-        }
-      ],
-      "detected_at": "2026-08-18T08:52:54.554694Z"
-    },
-    {
       "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports first 20 migrants to Liberia",
-      "summary": "First of 1,200 deportations to Liberia completed under Trump administration immigration enforcement agreement, continuing existing policy direction.",
-      "score": 2.1,
+      "label": "US deports first 20 to Liberia under deal",
+      "summary": "First of 1,200 deportations to Liberia under Trump administration's third-country deportation agreement.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -60,35 +60,31 @@
       "detected_at": "2026-08-20T15:48:36.002517Z"
     }
   ],
-  "short_summary": "Pentagon surveys NATO allies on US loyalty",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "FBI raids Swalwell home in misconduct probe",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T17:44:41.031598Z",
+  "updated_at": "2026-08-20T18:58:40.789457Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Pentagon surveys NATO allies on US loyalty",
-    "summary": "Pentagon sent questionnaire to 31 NATO allies to determine political loyalty to the US. New policy action affecting military alliances, though domestic impact indirect.",
-    "title": "Exclusive: Pentagon sends 'political loyalty' survey to US allies",
-    "score": 3.4,
-    "sentiment": "neutral",
-    "detected_at": "2026-08-20T05:45:53.939809Z",
-    "peak_at": "2026-08-20T05:45:53.939809Z",
+    "label": "FBI raids Swalwell home in misconduct probe",
+    "summary": "FBI raids home of former Representative and vocal Trump critic Eric Swalwell over sexual misconduct allegations, following his resignation and withdrawal from California governor's race.",
+    "title": "FBI raids ex-US Representative Swalwell's home amid sexual misconduct probe",
+    "score": 3.8,
+    "sentiment": "negative",
+    "detected_at": "2026-08-20T18:58:40.789457Z",
+    "peak_at": "2026-08-20T18:58:40.789457Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/exclusive-pentagon-sends-political-loyalty-survey-to-us-allies?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/8/20/fbi-raids-ex-us-representative-swalwells-home-amid-sexual-misconduct-probe?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-20T05:45:53.939809Z",
+  "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-18T18:55:52.251870Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-18T19:40:21.666844Z",
       "s": 3.1
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-20T17:44:41.031598Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-20T18:58:40.789457Z",
+      "s": 3.8
     }
   ]
 }
