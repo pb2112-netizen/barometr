@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-20T04:00:49.402553Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-20T04:52:11.248814Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
     },
     {
       "temat": "Trump pauses Canada tariffs, eyes Keystone XL",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Three-day tariff delay; Keystone pipeline revival signaled."
     },
     {
+      "temat": "Trump threatens Iran sanctions rhetoric",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
+      "opis": "President warns economic consequences for Iran partners."
+    },
+    {
       "temat": "US national debt passes $40 trillion",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "National debt milestone; doubled over past decade."
     },
     {
       "temat": "Trump nominates Heidi Overton to lead FDA",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Nomination for FDA chief; no enacted policy change yet."
     },
     {
       "temat": "NATO prepared amid Iran strike report",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "NATO readiness statement; media report of Iran plans."
     },
     {
       "temat": "Target receives $1bn tariff refund",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "US retailer gets $994M reimbursement; corporate earnings."
     },
     {
       "temat": "Human remains found in Lake Mead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Skeletal remains discovered in US reservoir at record low."
-    },
-    {
-      "temat": "US charges 17 Iranians over cyber theft",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
-      "opis": "DOJ charges 17 Iranians for massive cyber attacks on US."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T04:00:50.977728Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-18T04:51:05.645366Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T05:44:25.126736Z",
       "s": 2.9
@@ -272,15 +264,39 @@
     {
       "t": "2026-08-20T04:00:49.398265Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-20T04:52:11.239617Z",
+      "s": 2.7
     }
   ],
   "events_anchor_at": "2026-08-20T01:50:54.086014Z",
   "event_detected_at": {
+    "trump threatens 'tremendous economic consequences' on any country helping iran": {
+      "detected_at": "2026-08-20T01:50:54.086014Z",
+      "peak_at": "2026-08-20T04:52:11.239617Z",
+      "peak_score_at": "2026-08-20T04:52:11.239617Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "neutral",
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "peak_label": "Trump warns economic action against Iran partners",
+      "peak_summary": "President threatens sanctions on countries aiding Iran after ceasefire expired. Rhetoric without enacted measures; no immediate policy change.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss"
+        }
+      ]
+    },
     "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
       "detected_at": "2026-08-18T08:52:54.554694Z",
       "peak_at": "2026-08-19T18:52:36.576877Z",
       "peak_score_at": "2026-08-19T18:52:36.576877Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "positive",
       "title": "US and Canada reach 'very fair' trade agreement, Trump says",
       "peak_label": "US-Canada trade deal finalized, tariffs avoided",
@@ -296,27 +312,11 @@
         }
       ]
     },
-    "trump threatens 'tremendous economic consequences' on any country helping iran": {
-      "detected_at": "2026-08-20T01:50:54.086014Z",
-      "peak_at": "2026-08-20T03:58:12.494286Z",
-      "peak_score_at": "2026-08-20T03:58:12.494286Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-      "peak_label": "Trump threatens Iran-aiding countries",
-      "peak_summary": "US president warns of economic consequences for countries helping Iran after 60-day ceasefire expired; rhetoric without enacted policy change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "five americans among seven killed in safari helicopter crash in kenya": {
+    "ecuador intelligence chief and five americans killed in kenya helicopter crash": {
       "detected_at": "2026-08-19T18:52:36.576877Z",
       "peak_at": "2026-08-19T18:52:36.576877Z",
       "peak_score_at": "2026-08-19T18:52:36.576877Z",
-      "peak_score": 2.1,
+      "peak_score": 2.0,
       "peak_sentiment": "negative",
       "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
       "peak_label": "Ecuador intel chief, five Americans die in Kenya crash",
@@ -341,22 +341,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/19/us-national-debt-passes-record-40-trillion?traffic_source=rss"
-        }
-      ]
-    },
-    "south korea shortens war games with us, citing washington request": {
-      "detected_at": "2026-08-17T15:38:35.240497Z",
-      "peak_at": "2026-08-19T04:51:01.968718Z",
-      "peak_score_at": "2026-08-19T04:51:01.968718Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "South Korea shortens war games with US, citing Washington request",
-      "peak_label": "US curtails South Korea military exercises",
-      "peak_summary": "Trump cuts joint drills citing good relations with North Korea. Confirmed policy change affecting US military posture in Asia, no immediate threat.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -423,27 +407,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "us sanctions international criminal court's president and top lawyer": {
-      "detected_at": "2026-08-19T03:57:53.504354Z",
-      "peak_at": "2026-08-19T04:01:21.215333Z",
-      "peak_score_at": "2026-08-19T04:01:21.215333Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "US sanctions International Criminal Court's president and top lawyer",
-      "peak_label": "US sanctions ICC president and lawyer",
-      "peak_summary": "Trump administration targets international court leadership; confirmed action affecting US relations with international justice system.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/us-sanctions-international-criminal-courts-president-and-top-lawyer?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
     "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-    "Five Americans among seven killed in safari helicopter crash in Kenya"
+    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+    "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash"
   ]
 }

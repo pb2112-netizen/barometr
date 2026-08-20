@@ -1,13 +1,36 @@
 {
-  "global_score": 2.8,
-  "short_summary": "US national debt surpasses $40 trillion",
-  "rationale": "Trump pauses Canada tariffs by three days, a short-term policy shift; other events are rhetoric or distant; no major change to US daily life.",
+  "global_score": 2.7,
+  "rationale": "Trump threatens Iran sanctions and pauses Canada tariffs; rhetoric without enacted policy changes yet.",
   "top_events": [
+    {
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "label": "Trump warns economic action against Iran partners",
+      "summary": "President threatens sanctions on countries aiding Iran after ceasefire expired. Rhetoric without enacted measures; no immediate policy change.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T01:50:54.086014Z"
+    },
     {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
       "label": "Trump delays Canada tariffs three days",
-      "summary": "US president postpones 50% tariffs on Canada by three days and signals possible revival of Keystone XL oil pipeline; short-term policy shift with uncertain outcome.",
-      "score": 2.8,
+      "summary": "President delayed 50% tariffs on Canada by three days and signaled possible Keystone XL revival. Temporary pause without final resolution.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -23,54 +46,36 @@
       "detected_at": "2026-08-18T08:52:54.554694Z"
     },
     {
-      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-      "label": "Trump threatens Iran-aiding countries",
-      "summary": "US president warns of economic consequences for countries helping Iran after 60-day ceasefire expired; rhetoric without enacted policy change.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T01:50:54.086014Z"
-    },
-    {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans die in Kenya crash",
-      "summary": "Seven people, including five Americans and a Telemundo executive, killed in a safari helicopter crash in Kenya; tragic but isolated incident.",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Seven people including five US citizens and Ecuador intelligence chief killed in safari helicopter crash. Tragic accident without broader US impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian",
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        },
-        {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
         }
       ],
       "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
+  "short_summary": "US national debt surpasses $40 trillion",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T04:00:49.398265Z",
+  "updated_at": "2026-08-20T04:52:11.239617Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,14 +95,6 @@
   },
   "events_anchor_at": "2026-08-20T01:50:54.086014Z",
   "score_history": [
-    {
-      "t": "2026-08-18T04:00:50.977728Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-18T04:51:05.645366Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T05:44:25.126736Z",
       "s": 2.9
@@ -309,6 +306,10 @@
     {
       "t": "2026-08-20T04:00:49.398265Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-20T04:52:11.239617Z",
+      "s": 2.7
     }
   ]
 }
