@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-08-20T16:50:19.181111Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-20T17:44:41.035363Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 7,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Evergrande founder sentenced to life",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Chinese property collapse; distant global market event."
     },
     {
       "temat": "Heatwaves and Iran war raise EU energy costs",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 7,
       "opis": "Heat and conflict drive European energy prices higher."
     },
     {
       "temat": "French heatwave damages PSG pitch",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Extreme heat forces stadium relocation; climate impact."
     },
     {
       "temat": "CAR goldmine collapse kills over 100",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Distant mining disaster in Central Africa."
+    },
+    {
+      "temat": "Major wildfire in western Spain",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Large wildfire forces 800 evacuations in Iberia."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T17:42:36.027400Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-18T18:55:52.247893Z",
       "s": 2.5
@@ -250,10 +252,30 @@
     {
       "t": "2026-08-20T16:50:19.173585Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-20T17:44:41.027976Z",
+      "s": 2.6
     }
   ],
   "events_anchor_at": "2026-08-20T11:41:39.425132Z",
   "event_detected_at": {
+    "at least 800 people evacuated from major wildfire in western spain": {
+      "detected_at": "2026-08-20T17:44:41.027976Z",
+      "peak_at": "2026-08-20T17:44:41.027976Z",
+      "peak_score_at": "2026-08-20T17:44:41.027976Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "At least 800 people evacuated from major wildfire in western Spain",
+      "peak_label": "Major wildfire forces 800 evacuations in Spain",
+      "peak_summary": "Large wildfire in western Spain forced evacuation of over 800 people, demonstrating climate-driven disaster risks in Iberian Peninsula affecting Portugal's region.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/at-least-800-people-evacuated-from-major-wildfire-in-western-spain?traffic_source=rss"
+        }
+      ]
+    },
     "spanish police evict hundreds of migrants from ceuta beach to shelters": {
       "detected_at": "2026-08-20T16:50:19.173585Z",
       "peak_at": "2026-08-20T16:50:19.173585Z",
@@ -267,6 +289,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/spanish-police-evict-hundreds-of-migrants-from-ceuta-beach-to-shelters?traffic_source=rss"
+        }
+      ]
+    },
+    "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
+      "detected_at": "2026-08-20T17:44:41.027976Z",
+      "peak_at": "2026-08-20T17:44:41.027976Z",
+      "peak_score_at": "2026-08-20T17:44:41.027976Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+      "peak_label": "Trump delays Canada tariffs by three days",
+      "peak_summary": "US president postponed 50% tariffs on Canada by three days, affecting transatlantic trade stability indirectly for EU periphery economies.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ]
     },
@@ -424,7 +462,8 @@
     }
   },
   "prev_top_event_titles": [
+    "At least 800 people evacuated from major wildfire in western Spain",
     "Spanish police evict hundreds of migrants from Ceuta beach to shelters",
-    "Trump vows tougher economic measures on Iran and supporting countries"
+    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline"
   ]
 }
