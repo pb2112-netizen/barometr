@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-20T04:52:11.247530Z",
-  "ostatnia_ocena": 3.9,
+  "updated_at": "2026-08-20T05:45:53.944912Z",
+  "ostatnia_ocena": 5.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukrainian arrested over Nord Stream blasts",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Croatian arrest of Ukrainian in 2022 pipeline sabotage case."
     },
     {
       "temat": "Forcible military recruitment turns violent",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 19,
       "opis": "Street recruitment escalates into abuse and corruption."
     },
     {
       "temat": "Sacked minister calls for wartime election",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "Ex-defense minister demands presidential vote amid martial."
     },
     {
       "temat": "Russian strike on Kyiv kills three",
-      "poziom_bazowy": 6.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 6.2,
+      "cykle_bez_zmian": 3,
       "opis": "Direct Russian attack on capital with casualties."
+    },
+    {
+      "temat": "Russia strikes Kyiv killing eight",
+      "poziom_bazowy": 7.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Massive missile attack on capital with significant."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T05:44:25.125308Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-18T07:03:39.215431Z",
       "s": 3.0
@@ -244,10 +246,70 @@
     {
       "t": "2026-08-20T04:52:11.237315Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-20T05:45:53.937733Z",
+      "s": 5.9
     }
   ],
-  "events_anchor_at": "2026-08-19T13:07:59.975714Z",
+  "events_anchor_at": "2026-08-20T05:45:53.937733Z",
   "event_detected_at": {
+    "russia launches missile strikes on kyiv and surrounding region, killing at least eight": {
+      "detected_at": "2026-08-20T05:45:53.937733Z",
+      "peak_at": "2026-08-20T05:45:53.937733Z",
+      "peak_score_at": "2026-08-20T05:45:53.937733Z",
+      "peak_score": 5.9,
+      "peak_sentiment": "negative",
+      "title": "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
+      "peak_label": "Russia strikes Kyiv killing eight civilians",
+      "peak_summary": "Massive Russian ballistic missile attack hit Kyiv apartment blocks and warehouses Thursday, killing at least eight and injuring over two dozen. Direct escalation in capital.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/at-least-6-killed-in-multiple-russian-missile-strikes-across-ukraine?traffic_source=rss"
+        }
+      ]
+    },
+    "sacked ukrainian defence minister calls for presidential election": {
+      "detected_at": "2026-08-19T03:10:39.553730Z",
+      "peak_at": "2026-08-20T03:58:12.492913Z",
+      "peak_score_at": "2026-08-19T03:57:53.502132Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "peak_label": "Dismissed minister demands wartime election",
+      "peak_summary": "Former defense chief challenges election suspension under martial law. Internal political strain during war, potential distraction from defense efforts.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump threatens 'tremendous economic consequences' on any country helping iran": {
+      "detected_at": "2026-08-20T01:50:54.084420Z",
+      "peak_at": "2026-08-20T05:45:53.937733Z",
+      "peak_score_at": "2026-08-20T05:45:53.937733Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "peak_label": "Trump warns Iran partners of sanctions",
+      "peak_summary": "US president threatens economic consequences for countries helping Iran. Rhetoric without direct impact on Ukraine's war situation or Western aid.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss"
+        }
+      ]
+    },
     "russian forces kill 6 in ukraine as zelenskyy faces pressure over elections": {
       "detected_at": "2026-08-19T10:01:16.328115Z",
       "peak_at": "2026-08-20T03:58:12.492913Z",
@@ -264,22 +326,6 @@
         }
       ]
     },
-    "sacked ukrainian defence minister calls for presidential election": {
-      "detected_at": "2026-08-19T03:10:39.553730Z",
-      "peak_at": "2026-08-20T03:58:12.492913Z",
-      "peak_score_at": "2026-08-19T03:57:53.502132Z",
-      "peak_score": 3.6,
-      "peak_sentiment": "negative",
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "peak_label": "Dismissed minister demands wartime election",
-      "peak_summary": "Former defense chief challenges election suspension under martial law. Internal political strain during war, potential distraction from defense efforts.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "ukrainian man arrested in croatia over nord stream pipeline blasts": {
       "detected_at": "2026-08-19T13:07:59.975714Z",
       "peak_at": "2026-08-19T13:56:49.940765Z",
@@ -293,22 +339,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "trump threatens 'tremendous economic consequences' on any country helping iran": {
-      "detected_at": "2026-08-20T01:50:54.084420Z",
-      "peak_at": "2026-08-20T01:50:54.084420Z",
-      "peak_score_at": "2026-08-20T01:50:54.084420Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-      "peak_label": "Trump warns Iran-aiding nations of sanctions",
-      "peak_summary": "US president threatens economic penalties for countries supporting Iran. Rhetoric without enacted policy; no direct impact on Ukraine's war situation or Western aid.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -362,8 +392,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian forces kill 6 in Ukraine as Zelenskyy faces pressure over elections",
+    "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
     "Sacked Ukrainian defence minister calls for presidential election",
-    "Ukrainian man arrested in Croatia over Nord Stream pipeline blasts"
+    "Trump threatens 'tremendous economic consequences' on any country helping Iran"
   ]
 }
