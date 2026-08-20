@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-20T13:58:45.816106Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-20T14:54:25.097182Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump pauses Canada tariffs, eyes Keystone XL",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Three-day tariff delay; Keystone pipeline revival signaled."
     },
     {
       "temat": "Trump threatens Iran sanctions rhetoric",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "President warns economic consequences for Iran partners."
     },
     {
       "temat": "Pentagon loyalty survey to NATO allies",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 10,
       "opis": "Questionnaire to 31 allies on political loyalty to US."
     },
     {
       "temat": "US national debt passes $40 trillion",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "National debt milestone; doubled over past decade."
     },
     {
       "temat": "Trump nominates Heidi Overton to lead FDA",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Nomination for FDA chief; no enacted policy change yet."
     },
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
     },
     {
       "temat": "NATO prepared amid Iran strike report",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "NATO readiness statement; media report of Iran plans."
+    },
+    {
+      "temat": "Stars and Stripes publisher resigns",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Military newspaper chief quits over Pentagon clashes."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-18T14:52:04.850686Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-18T15:45:23.096979Z",
       "s": 2.0
@@ -262,23 +264,27 @@
     {
       "t": "2026-08-20T13:58:45.809893Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-20T14:54:25.090936Z",
+      "s": 2.6
     }
   ],
   "events_anchor_at": "2026-08-20T05:45:53.939809Z",
   "event_detected_at": {
-    "five americans among seven killed in safari helicopter crash in kenya": {
-      "detected_at": "2026-08-19T18:52:36.576877Z",
-      "peak_at": "2026-08-20T10:46:27.337286Z",
-      "peak_score_at": "2026-08-20T10:46:27.337286Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "peak_label": "Five Americans killed in Kenya helicopter crash",
-      "peak_summary": "Seven people including five US citizens and Telemundo executive die in safari helicopter crash in Kenya. Confirmed tragedy with no broader policy implications.",
+    "trump's war on stars and stripes: why has military newspaper chief quit?": {
+      "detected_at": "2026-08-20T14:54:25.090936Z",
+      "peak_at": "2026-08-20T14:54:25.090936Z",
+      "peak_score_at": "2026-08-20T14:54:25.090936Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "Trump's war on Stars and Stripes: Why has military newspaper chief quit?",
+      "peak_label": "Stars and Stripes publisher quits over Pentagon",
+      "peak_summary": "Longtime military newspaper publisher Max Lederer resigns after clashes with Pentagon. Internal military media conflict with unclear policy impact on US forces.",
       "peak_source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/trumps-war-on-stars-and-stripes-why-has-military-newspaper-chief-quit?traffic_source=rss"
         }
       ]
     },
@@ -286,7 +292,7 @@
       "detected_at": "2026-08-20T01:50:54.086014Z",
       "peak_at": "2026-08-20T05:45:53.939809Z",
       "peak_score_at": "2026-08-20T05:45:53.939809Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "neutral",
       "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
       "peak_label": "Trump threatens Iran sanctions on partners",
@@ -319,6 +325,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ]
+    },
+    "five americans among seven killed in safari helicopter crash in kenya": {
+      "detected_at": "2026-08-19T18:52:36.576877Z",
+      "peak_at": "2026-08-20T10:46:27.337286Z",
+      "peak_score_at": "2026-08-20T10:46:27.337286Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "peak_label": "Five Americans killed in Kenya helicopter crash",
+      "peak_summary": "Seven people including five US citizens and Telemundo executive die in safari helicopter crash in Kenya. Confirmed tragedy with no broader policy implications.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
         }
       ]
     },
@@ -388,7 +410,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Five Americans among seven killed in safari helicopter crash in Kenya",
+    "Trump's war on Stars and Stripes: Why has military newspaper chief quit?",
     "Trump vows tougher economic measures on Iran and supporting countries",
     "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline"
   ]
