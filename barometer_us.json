@@ -1,55 +1,12 @@
 {
-  "global_score": 3.8,
-  "rationale": "US Treasury announces aggressive Iran sanctions requiring allied alignment, representing significant new foreign policy action with potential economic and diplomatic consequences.",
+  "global_score": 3.5,
+  "rationale": "Treasury Secretary announces major Iran sanctions action requiring allied alignment, moving beyond rhetoric to policy implementation; Walmart sales drop signals consumer spending pressure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
-      "label": "US Treasury announces Iran economic collapse plan",
-      "summary": "Treasury Secretary Bessent announces aggressive sanctions to collapse Iran's economy, requiring allies to choose sides in major new foreign policy action with diplomatic and economic implications.",
+      "label": "Treasury announces Iran economic collapse plan",
+      "summary": "Treasury Secretary Bessent announces aggressive sanctions requiring allies to choose sides, escalating from previous rhetoric to concrete policy action affecting global energy markets.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T19:45:05.652352Z"
-    },
-    {
-      "title": "Walmart sees sales drop as US consumer spending retreats",
-      "label": "Walmart sales drop as consumers cut spending",
-      "summary": "Walmart reports sales decline as fuel prices above $4 per gallon force consumer spending trade-offs, signaling economic pressure on American households.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/20/walmart-sees-sales-drop-as-us-consumer-spending-retreats?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T20:45:46.146556Z"
-    },
-    {
-      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
-      "label": "Russia strikes Kyiv killing 17 civilians",
-      "summary": "Massive Russian attack on Ukrainian capital killed 17, continuing distant conflict with no direct US involvement or impact on American daily life.",
-      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -59,10 +16,48 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-20T20:45:46.146556Z"
+      "detected_at": "2026-08-20T19:45:05.652352Z"
+    },
+    {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Safari helicopter crash kills five US citizens including Telemundo executive, along with Ecuador intelligence chief and others in Kenya.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
+    },
+    {
+      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+      "label": "Trump delays Canada tariffs three days",
+      "summary": "President pauses 50% tariffs on Canada by three days and signals possible revival of Keystone XL oil pipeline project.",
+      "score": 3.2,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ],
+      "detected_at": "2026-08-20T21:42:38.064600Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T20:45:46.146556Z",
+  "updated_at": "2026-08-20T21:42:38.064600Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "FBI raids Swalwell home in misconduct probe",
     "summary": "FBI raids home of former Representative and vocal Trump critic Eric Swalwell over sexual misconduct allegations, following his resignation and withdrawal from California governor's race.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-18T21:37:06.130198Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-18T22:01:22.396869Z",
       "s": 2.9
@@ -305,6 +296,10 @@
     {
       "t": "2026-08-20T20:45:46.146556Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-20T21:42:38.064600Z",
+      "s": 3.5
     }
   ]
 }
