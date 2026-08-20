@@ -1,33 +1,14 @@
 {
-  "global_score": 2.3,
-  "rationale": "Trump pauses Canada tariffs and signals Keystone XL revival represents concrete policy action affecting trade and energy; five Americans killed in Kenya crash is confirmed tragedy. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "rationale": "Five Americans killed in Kenya helicopter crash represents confirmed US citizen casualties abroad, a genuine new development affecting American families directly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "label": "Trump delays Canada tariffs, eyes Keystone revival",
-      "summary": "President delays 50% Canadian tariffs by three days after reaching agreement. Signals potential revival of contentious Keystone XL oil pipeline project, affecting US-Canada trade and energy policy.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-        }
-      ],
-      "detected_at": "2026-08-18T08:52:54.554694Z"
-    },
-    {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans killed in Kenya helicopter crash",
-      "summary": "Seven people including five US citizens and Telemundo executive die in safari helicopter crash in Kenya. Confirmed tragedy with no broader policy implications.",
-      "score": 2.3,
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Safari helicopter crash in Kenya kills seven including five US citizens and a Telemundo executive. Confirmed American casualties abroad directly affecting US families.",
+      "score": 2.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -42,9 +23,9 @@
     },
     {
       "title": "Trump vows tougher economic measures on Iran and supporting countries",
-      "label": "Trump threatens tougher Iran economic measures",
-      "summary": "President warns of economic consequences for Iran and supporting countries after 60-day ceasefire expires. Rhetoric without enacted policy change yet.",
-      "score": 2.2,
+      "label": "Trump threatens Iran sanctions after ceasefire",
+      "summary": "President warns economic consequences for Iran and partners after 60-day ceasefire expires. Rhetoric only with no enacted sanctions yet—no immediate policy change.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-20T01:50:54.086014Z"
+    },
+    {
+      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+      "label": "Trump delays Canada tariffs three days",
+      "summary": "President delays 50% Canada tariffs by three days and signals Keystone XL pipeline revival. Temporary pause only—no final policy enacted yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ],
+      "detected_at": "2026-08-18T08:52:54.554694Z"
     }
   ],
   "short_summary": "Pentagon surveys NATO allies on US loyalty",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T10:46:27.337286Z",
+  "updated_at": "2026-08-20T11:41:39.427988Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T05:45:53.939809Z",
   "score_history": [
-    {
-      "t": "2026-08-18T11:39:15.655125Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-18T13:06:49.083054Z",
       "s": 2.2
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-20T10:46:27.337286Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-20T11:41:39.427988Z",
+      "s": 2.2
     }
   ]
 }
