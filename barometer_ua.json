@@ -1,14 +1,14 @@
 {
-  "global_score": 6.7,
-  "rationale": "Massive Russian missile attack on Kyiv killing at least 12 people represents major escalation directly affecting Ukrainian capital and residents. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.4,
+  "rationale": "Massive Russian missile attack on Kyiv killed at least 13 people, representing a significant escalation in strikes on the capital with direct impact on residents' safety and infrastructure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "At least 12 killed in Kyiv as Ukraine grapples with air defence shortages",
-      "label": "Russia kills 12 in massive Kyiv attack",
-      "summary": "Russia launched massive missile attack on Kyiv targeting apartment blocks and warehouses, killing at least 12 people amid critical air defense shortages—major escalation directly hitting capital.",
-      "score": 7.8,
+      "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages",
+      "label": "Russia kills 13 in massive Kyiv attack",
+      "summary": "Major Russian missile strike on Kyiv killed at least 13, hitting apartment blocks and warehouses. Represents significant escalation in capital attacks amid air defense shortages.",
+      "score": 6.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -27,31 +27,55 @@
       "detected_at": "2026-08-19T20:55:03.856898Z"
     },
     {
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "label": "Ex-defense minister demands wartime election",
-      "summary": "Former defense minister calls for presidential election despite martial law—continuation of political pressure without policy change.",
-      "score": 3.2,
+      "title": "Pentagon sends 'political loyalty' survey to US allies",
+      "label": "Pentagon surveys NATO allies on US loyalty",
+      "summary": "Pentagon sent questionnaire to 31 NATO allies to assess political loyalty to US. Potential implications for Ukraine's Western military aid and alliance support.",
+      "score": 3.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/exclusive-pentagon-sends-political-loyalty-survey-to-us-allies?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T07:56:26.525023Z"
+    },
+    {
+      "title": "Trump vows tougher economic measures on Iran and supporting countries",
+      "label": "Trump threatens Iran economic warfare",
+      "summary": "US President threatens economic consequences for countries helping Iran. Rhetoric without enacted policy; minimal direct impact on Ukraine's war situation.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/trump-vows-economic-warfare-on-countries-helping-iran?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-19T03:10:39.553730Z"
+      "detected_at": "2026-08-20T01:50:54.084420Z"
     }
   ],
   "short_summary": "Russia kills 12 in massive Kyiv attack",
   "level_label": "Elevated",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-20T07:06:02.082865Z",
+  "updated_at": "2026-08-20T07:56:26.525023Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -75,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-19T20:55:03.856898Z",
   "score_history": [
-    {
-      "t": "2026-08-18T07:53:22.425795Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T08:52:54.552694Z",
       "s": 3.0
@@ -290,6 +310,10 @@
     {
       "t": "2026-08-20T07:06:02.082865Z",
       "s": 6.7
+    },
+    {
+      "t": "2026-08-20T07:56:26.525023Z",
+      "s": 6.4
     }
   ]
 }
