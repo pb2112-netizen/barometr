@@ -1,51 +1,56 @@
 {
-  "global_score": 3.6,
-  "rationale": "FBI raid on ex-Rep Swalwell's home over sexual misconduct probe continues as top domestic story; five Americans killed in Kenya helicopter crash is new tragedy.",
+  "global_score": 3.8,
+  "rationale": "US Treasury announces aggressive Iran sanctions requiring allied alignment, representing significant new foreign policy action with potential economic and diplomatic consequences.",
   "top_events": [
     {
-      "title": "FBI raids ex-US Representative Swalwell's home amid sexual misconduct probe",
-      "label": "FBI raids Swalwell home misconduct probe",
-      "summary": "FBI raided former Representative Swalwell's home over sexual misconduct allegations, continuing high-profile domestic investigation.",
-      "score": 3.6,
-      "sentiment": "negative",
+      "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
+      "label": "US Treasury announces Iran economic collapse plan",
+      "summary": "Treasury Secretary Bessent announces aggressive sanctions to collapse Iran's economy, requiring allies to choose sides in major new foreign policy action with diplomatic and economic implications.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T19:45:05.652352Z"
+    },
+    {
+      "title": "Walmart sees sales drop as US consumer spending retreats",
+      "label": "Walmart sales drop as consumers cut spending",
+      "summary": "Walmart reports sales decline as fuel prices above $4 per gallon force consumer spending trade-offs, signaling economic pressure on American households.",
+      "score": 3.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/20/fbi-raids-ex-us-representative-swalwells-home-amid-sexual-misconduct-probe?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/20/walmart-sees-sales-drop-as-us-consumer-spending-retreats?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T18:58:40.789457Z"
+      "detected_at": "2026-08-20T20:45:46.146556Z"
     },
     {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans killed Kenya helicopter crash",
-      "summary": "Seven people including five US citizens and Telemundo executive died in safari helicopter crash in Kenya on Wednesday.",
-      "score": 3.2,
+      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
+      "label": "Russia strikes Kyiv killing 17 civilians",
+      "summary": "Massive Russian attack on Ukrainian capital killed 17, continuing distant conflict with no direct US involvement or impact on American daily life.",
+      "score": 2.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
-    },
-    {
-      "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
-      "label": "US threatens Iran sanctions collapse regime",
-      "summary": "US treasury secretary warns allies to choose sides on Iran sanctions, escalating rhetoric without confirmed policy action yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -54,10 +59,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-20T19:45:05.652352Z"
+      "detected_at": "2026-08-20T20:45:46.146556Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T19:45:05.652352Z",
+  "updated_at": "2026-08-20T20:45:46.146556Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-18T20:39:54.898531Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T21:37:06.130198Z",
       "s": 2.9
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-20T19:45:05.652352Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-20T20:45:46.146556Z",
+      "s": 3.8
     }
   ]
 }

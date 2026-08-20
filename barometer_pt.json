@@ -1,63 +1,73 @@
 {
-  "global_score": 2.4,
-  "rationale": "US-Iran sanctions rhetoric may indirectly affect EU energy costs; Spain's immigration policy shift in Ceuta has mild regional relevance for Portugal. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "US Iran sanctions requiring EU alignment may indirectly affect energy markets, while distant conflicts and disasters have minimal direct impact on Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
-      "label": "US threatens Iran sanctions collapse regime",
-      "summary": "US treasury secretary warns allies to choose sides on Iran sanctions, potentially affecting EU energy markets and Portugal's economy indirectly.",
-      "score": 2.4,
+      "label": "US threatens Iran with economic collapse",
+      "summary": "US Treasury announces aggressive Iran sanctions requiring EU allies to choose sides, potentially affecting European energy markets and Portugal's economic ties.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-20T18:58:40.784179Z"
     },
     {
-      "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain allows Ceuta children to mainland",
-      "summary": "Madrid reverses policy to allow 500 children from Ceuta to mainland, affecting Iberian migration dynamics near Portugal.",
+      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
+      "label": "Russia strikes Kyiv killing 17 people",
+      "summary": "Massive Russian attack on Ukrainian capital killed 17, continuing distant eastern European conflict with minimal direct impact on Portugal.",
       "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
-        }
-      ],
-      "detected_at": "2026-08-18T17:42:36.027400Z"
-    },
-    {
-      "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-      "label": "Evergrande founder sentenced to life prison",
-      "summary": "Sentencing marks key moment in Chinese property collapse with distant global market implications.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-20T05:45:53.936499Z"
+      "detected_at": "2026-08-20T20:45:46.143479Z"
+    },
+    {
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "Congo Ebola outbreak kills 2,325 people",
+      "summary": "DRC Ebola becomes deadliest in country's history, raising distant global health concerns with no direct impact on Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/dr-congo-to-receive-70000-doses-of-ervebo-vaccine-as-ebola-infections-surge?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T20:45:46.143479Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war raise EU energy costs",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-20T19:45:05.648999Z",
+  "updated_at": "2026-08-20T20:45:46.143479Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-20T11:41:39.425132Z",
   "score_history": [
-    {
-      "t": "2026-08-18T20:39:54.894756Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-18T21:37:06.126650Z",
       "s": 2.2
@@ -300,6 +306,10 @@
     {
       "t": "2026-08-20T19:45:05.648999Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-20T20:45:46.143479Z",
+      "s": 2.3
     }
   ]
 }
