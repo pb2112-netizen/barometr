@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-19T23:35:04.100318Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-20T01:50:54.092494Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
-    },
-    {
-      "temat": "US-Canada tariff deal near",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Three-day pause on 50% tariffs; trade agreement close."
     },
     {
       "temat": "Trump nominates Heidi Overton to lead FDA",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Nomination for FDA chief; no enacted policy change yet."
     },
     {
       "temat": "NATO prepared amid Iran strike report",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "NATO readiness statement; media report of Iran plans."
     },
     {
       "temat": "Target receives $1bn tariff refund",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "US retailer gets $994M reimbursement; corporate earnings."
     },
     {
       "temat": "Human remains found in Lake Mead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Skeletal remains discovered in US reservoir at record low."
     },
     {
       "temat": "US charges 17 Iranians over cyber theft",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "DOJ charges 17 Iranians for massive cyber attacks on US."
     },
     {
       "temat": "South Korea shortens war games with US",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Trump curtails joint exercises citing NK relations."
+    },
+    {
+      "temat": "US national debt passes $40 trillion",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "National debt milestone; doubled over past decade."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-17T23:35:24.703391Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-08-18T01:50:26.147739Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-18T03:08:19.425400Z",
       "s": 3.0
@@ -272,10 +264,62 @@
     {
       "t": "2026-08-19T23:35:04.094642Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-20T01:50:54.086014Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-18T08:52:54.554694Z",
   "event_detected_at": {
+    "trump threatens 'tremendous economic consequences' on any country helping iran": {
+      "detected_at": "2026-08-20T01:50:54.086014Z",
+      "peak_at": "2026-08-20T01:50:54.086014Z",
+      "peak_score_at": "2026-08-20T01:50:54.086014Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "peak_label": "Trump warns Iran-aiding nations of sanctions",
+      "peak_summary": "President threatens economic penalties for countries supporting Iran after ceasefire expired. Rhetoric without enacted measures; no immediate impact on US economy or security.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us national debt passes record $40 trillion": {
+      "detected_at": "2026-08-20T01:50:54.086014Z",
+      "peak_at": "2026-08-20T01:50:54.086014Z",
+      "peak_score_at": "2026-08-20T01:50:54.086014Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "US national debt passes record $40 trillion",
+      "peak_label": "US national debt surpasses $40 trillion",
+      "peak_summary": "National debt milestone reached, doubling over the past decade. Long-term fiscal concern with no immediate change to daily life or markets.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/19/us-national-debt-passes-record-40-trillion?traffic_source=rss"
+        }
+      ]
+    },
+    "ecuador intelligence chief and five americans killed in kenya helicopter crash": {
+      "detected_at": "2026-08-19T18:52:36.576877Z",
+      "peak_at": "2026-08-19T18:52:36.576877Z",
+      "peak_score_at": "2026-08-19T18:52:36.576877Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
+      "peak_label": "Ecuador intel chief, five Americans die in Kenya crash",
+      "peak_summary": "Michele Sensi-Contugi, his wife Stephany Hollihan, and five other Americans killed in helicopter crash in Kenya. Tragic loss of US citizens abroad.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada and us say they are finalising a trade deal, but details remain murky": {
       "detected_at": "2026-08-18T08:52:54.554694Z",
       "peak_at": "2026-08-19T18:52:36.576877Z",
@@ -293,22 +337,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
-        }
-      ]
-    },
-    "ecuador intelligence chief and five americans killed in kenya helicopter crash": {
-      "detected_at": "2026-08-19T18:52:36.576877Z",
-      "peak_at": "2026-08-19T18:52:36.576877Z",
-      "peak_score_at": "2026-08-19T18:52:36.576877Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-      "peak_label": "Ecuador intel chief, five Americans die in Kenya crash",
-      "peak_summary": "Michele Sensi-Contugi, his wife Stephany Hollihan, and five other Americans killed in helicopter crash in Kenya. Tragic loss of US citizens abroad.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkv4z59vo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -426,8 +454,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Canada and US say they are finalising a trade deal, but details remain murky",
-    "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash",
-    "South Korea shortens war games with US, citing Washington request"
+    "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+    "US national debt passes record $40 trillion",
+    "Ecuador intelligence chief and five Americans killed in Kenya helicopter crash"
   ]
 }
