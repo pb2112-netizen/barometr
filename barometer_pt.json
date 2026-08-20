@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Spain's immigration U-turn allowing 500 children from Ceuta to mainland affects Iberian migration policy, while heatwave damages PSG pitch showing climate impact on infrastructure. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Spain's decision to allow 500 children from Ceuta to mainland represents policy shift on migration issue affecting Iberian peninsula, though impact on Portugal remains indirect.",
   "top_events": [
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain reverses policy on Ceuta child migrants",
-      "summary": "Madrid government U-turns on immigration stance, allowing 500 children who entered Ceuta illegally to move to mainland—significant policy shift affecting Iberian migration management.",
-      "score": 2.7,
+      "label": "Spain reverses Ceuta child migration policy",
+      "summary": "Spanish government U-turns on immigration stance, allowing 500 children from Ceuta to mainland after initially threatening deportation. Policy shift on Iberian migration issue.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,52 +22,57 @@
       "detected_at": "2026-08-18T17:42:36.027400Z"
     },
     {
-      "title": "PSG forced to move opening league match as heatwave in France damages pitch",
-      "label": "French heatwave damages PSG stadium pitch",
-      "summary": "Paris Saint-Germain relocates opening match after extreme heat damages Parc des Princes pitch—illustrating climate impact on European infrastructure and events.",
-      "score": 2.8,
+      "title": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
+      "label": "Russia kills 15 in Kyiv strike",
+      "summary": "Russian attack on Ukrainian capital kills at least 15 people. Distant eastern European conflict with minimal direct impact on Portuguese daily life.",
+      "score": 2.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T05:45:53.936499Z"
+    },
+    {
+      "title": "Trump vows tougher economic measures on Iran and supporting countries",
+      "label": "Trump threatens Iran economic isolation",
+      "summary": "US president announces campaign to isolate Iran economically. Rhetoric without enacted policy; indirect potential impact on global energy markets.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/8/20/psg-forced-to-move-opening-league-match-as-heatwave-in-france-damages-pitch?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T13:11:00.058392Z"
-    },
-    {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "Over 100 die in CAR goldmine collapse",
-      "summary": "Landslide causes artisanal goldmine collapse in Central African Republic with death toll expected to rise—distant tragedy with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/war-on-iran-trump-announces-a-new-campaign-to-isolate-iran-economically?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T03:58:12.492071Z"
+      "detected_at": "2026-08-20T13:58:45.806562Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war raise EU energy costs",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-20T13:11:00.058392Z",
+  "updated_at": "2026-08-20T13:58:45.806562Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Heatwaves and Iran war raise EU energy costs",
     "summary": "Extreme heat and Iran conflict push European energy prices higher, indirectly affecting Portugal's electricity costs and cost of living amid ongoing inflation.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T11:41:39.425132Z",
   "score_history": [
-    {
-      "t": "2026-08-18T13:56:15.322029Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-18T14:52:04.847701Z",
       "s": 2.0
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-20T13:11:00.058392Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-20T13:58:45.806562Z",
+      "s": 2.6
     }
   ]
 }
