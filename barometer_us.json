@@ -1,56 +1,13 @@
 {
-  "global_score": 2.6,
-  "rationale": "Stars and Stripes publisher resignation over Pentagon clashes represents internal military media conflict, while Trump's Iran rhetoric and Canada tariff pause remain policy-light.",
+  "global_score": 2.4,
+  "rationale": "Trump pauses Canada tariffs and signals Keystone XL revival represents concrete policy shift affecting US-Canada trade and energy, though only a three-day delay. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump's war on Stars and Stripes: Why has military newspaper chief quit?",
-      "label": "Stars and Stripes publisher quits over Pentagon",
-      "summary": "Longtime military newspaper publisher Max Lederer resigns after clashes with Pentagon. Internal military media conflict with unclear policy impact on US forces.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/20/trumps-war-on-stars-and-stripes-why-has-military-newspaper-chief-quit?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T14:54:25.090936Z"
-    },
-    {
-      "title": "Trump vows tougher economic measures on Iran and supporting countries",
-      "label": "Trump announces Iran isolation campaign",
-      "summary": "President announces new economic campaign against Iran after ceasefire expired. Rhetoric without enacted sanctions or military action; no immediate policy change.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/war-on-iran-trump-announces-a-new-campaign-to-isolate-iran-economically?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T01:50:54.086014Z"
-    },
-    {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "label": "Trump delays Canada tariffs three days",
-      "summary": "President pauses 50% Canada tariffs by three days, signals Keystone XL revival. Temporary delay without enacted policy; continuation of tariff threat.",
+      "label": "Trump delays Canada tariffs, eyes Keystone revival",
+      "summary": "President delays 50% tariffs on Canada by three days and signals possible revival of Keystone XL pipeline. Concrete policy shift affecting US-Canada trade and energy sector.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -63,14 +20,52 @@
         }
       ],
       "detected_at": "2026-08-18T08:52:54.554694Z"
+    },
+    {
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "label": "US deports 20 to Liberia under Trump deal",
+      "summary": "First deportation flight to Liberia under agreement for 1,200 migrants. Immigration enforcement action with limited immediate impact on daily life.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        }
+      ],
+      "detected_at": "2026-08-20T15:48:36.002517Z"
+    },
+    {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Tragic accident with no broader policy or security implications.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
   "short_summary": "Pentagon surveys NATO allies on US loyalty",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T14:54:25.090936Z",
+  "updated_at": "2026-08-20T15:48:36.002517Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T05:45:53.939809Z",
   "score_history": [
-    {
-      "t": "2026-08-18T15:45:23.096979Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-18T16:00:51.069554Z",
       "s": 2.0
@@ -305,6 +296,10 @@
     {
       "t": "2026-08-20T14:54:25.090936Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-20T15:48:36.002517Z",
+      "s": 2.4
     }
   ]
 }
