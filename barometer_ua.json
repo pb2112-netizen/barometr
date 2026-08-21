@@ -1,99 +1,90 @@
 {
-  "global_score": 2.0,
-  "rationale": "No new direct military developments on Ukrainian territory; distant events (Hong Kong, CAR, Kenya) have no impact on daily life during war.",
+  "global_score": 3.3,
+  "rationale": "Australia charges man for passing Ukrainian military intel to Russia; Israeli settlers attack Palestinian home; Hong Kong convicts Tiananmen activists; other events distant from Ukrainian war concerns.",
   "top_events": [
     {
-      "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-      "label": "Hong Kong convicts activists under security law",
-      "summary": "Distant legal precedent in China-controlled Hong Kong; no connection to Ukraine's war or daily life.",
+      "title": "Australia charges man for passing Ukrainian military intel to Russia",
+      "label": "Australia charges man for Ukraine intel leak",
+      "summary": "Australian-Russian citizen allegedly joined Ukrainian military to send information to Russian intelligence. Direct security threat to Ukrainian operations.",
+      "score": 3.3,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T09:51:58.415152Z"
+    },
+    {
+      "title": "Israeli settlers set fire to Palestinian home while family asleep",
+      "label": "Israeli settlers attack Palestinian home",
+      "summary": "Settlers set fire to home with family inside. Distant Middle East violence with no direct Ukrainian impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-palestinian-home-while-family-asleep?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T09:51:58.415152Z"
+    },
+    {
+      "title": "Hong Kong's Tiananmen activists guilty in national security trial",
+      "label": "Hong Kong convicts Tiananmen activists",
+      "summary": "Three activists convicted under China-introduced security law. Distant precedent with no direct Ukrainian relevance.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/hong-kong-tiananmen-activists-found-guilty-of-national-security-charges?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-21T07:07:08.665543Z"
-    },
-    {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "CAR goldmine collapse kills over 100 miners",
-      "summary": "Distant mining disaster in Central Africa with no link to Ukraine; humanitarian tragedy but irrelevant to war context.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ],
-      "detected_at": "2026-08-21T08:57:47.851632Z"
-    },
-    {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Helicopter crash kills seven in Kenya safari",
-      "summary": "Distant accident in Kenya involving Americans and Ecuadorian official; no connection to Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ],
-      "detected_at": "2026-08-21T08:57:47.851632Z"
     }
   ],
-  "short_summary": "US ends South Korea military exercises early",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Australia charges man for Ukraine intel leak",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-21T08:57:47.851632Z",
+  "updated_at": "2026-08-21T09:51:58.415152Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "US ends South Korea military exercises early",
-    "summary": "US military exercises with South Korea end early as Trump pursues North Korea diplomacy, potentially affecting Western military posture and alliance reliability signals.",
-    "title": "Trump wants to be friends with Kim - but South Korea could pay the price",
-    "score": 3.0,
-    "sentiment": "neutral",
-    "detected_at": "2026-08-20T17:44:41.029609Z",
-    "peak_at": "2026-08-21T01:56:57.852645Z",
+    "label": "Australia charges man for Ukraine intel leak",
+    "summary": "Australian-Russian citizen allegedly joined Ukrainian military to send information to Russian intelligence. Direct security threat to Ukrainian operations.",
+    "title": "Australia charges man for passing Ukrainian military intel to Russia",
+    "score": 3.3,
+    "sentiment": "negative",
+    "detected_at": "2026-08-21T09:51:58.415152Z",
+    "peak_at": "2026-08-21T09:51:58.415152Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-20T17:44:41.029609Z",
+  "events_anchor_at": "2026-08-21T09:51:58.415152Z",
   "score_history": [
-    {
-      "t": "2026-08-19T09:48:37.908764Z",
-      "s": 4.0
-    },
     {
       "t": "2026-08-19T10:01:16.328115Z",
       "s": 3.9
@@ -305,6 +296,10 @@
     {
       "t": "2026-08-21T08:57:47.851632Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-21T09:51:58.415152Z",
+      "s": 3.3
     }
   ]
 }

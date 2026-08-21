@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T08:57:47.860805Z",
+  "updated_at": "2026-08-21T09:51:58.425158Z",
   "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump delays Canada tariffs three days",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
       "opis": "President pauses 50% tariffs; hints at Keystone XL revival."
     },
     {
       "temat": "US deports 20 to Liberia under Trump deal",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
       "opis": "First deportations to Liberia; expanding third-country."
     },
     {
-      "temat": "Panama Canal limits ships due to El Niño",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
-      "opis": "Drought forces canal traffic reduction; shipping impact."
+      "temat": "Flash flooding hits New York City",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "Torrential rain floods NYC streets and subway."
     },
     {
       "temat": "US deports 2,300 Mexicans to Guatemala",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "Major third-country deportation straining Mexico relations."
     },
     {
+      "temat": "Panama Canal limits ships due to El Niño",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
+      "opis": "Drought forces canal traffic reduction; shipping impact."
+    },
+    {
       "temat": "US announces Iran economic collapse plan",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 15,
       "opis": "Treasury sanctions requiring allied alignment; major action."
     },
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
     },
     {
       "temat": "Walmart sales drop as consumers cut spending",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
-      "opis": "Retail decline signals economic pressure on households."
-    },
-    {
-      "temat": "US hits debt milestone raising alarm",
       "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
-      "opis": "US reaches debt milestone; economic concerns raised."
+      "cykle_bez_zmian": 14,
+      "opis": "Retail decline signals economic pressure on households."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T09:48:37.910496Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-19T10:01:16.330390Z",
       "s": 3.0
@@ -268,6 +264,10 @@
     {
       "t": "2026-08-21T08:57:47.853624Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-21T09:51:58.417761Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
@@ -290,17 +290,33 @@
     },
     "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
       "detected_at": "2026-08-20T21:42:38.064600Z",
-      "peak_at": "2026-08-20T21:42:38.064600Z",
-      "peak_score_at": "2026-08-20T21:42:38.064600Z",
-      "peak_score": 3.0,
+      "peak_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score": 3.2,
       "peak_sentiment": "positive",
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "peak_label": "Trump delays Canada tariffs three days",
-      "peak_summary": "President pauses 50% tariffs on Canada by three days and signals possible revival of Keystone XL oil pipeline project.",
+      "peak_label": "Trump delays Canada tariffs hints Keystone revival",
+      "peak_summary": "President delays 50% tariffs by three days and signals possible Keystone XL restart. Temporary pause with potential energy policy shift.",
       "peak_source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+        }
+      ]
+    },
+    "torrential rain floods new york city's streets and subway": {
+      "detected_at": "2026-08-21T09:51:58.417761Z",
+      "peak_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Torrential rain floods New York City's streets and subway",
+      "peak_label": "Flash flooding hits New York City",
+      "peak_summary": "Torrential rainfall causes flash flooding in NYC streets and subway. Localized disruption with no lasting economic impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/torrential-rain-floods-new-york-citys-streets-and-subway?traffic_source=rss"
         }
       ]
     },
@@ -492,6 +508,6 @@
   "prev_top_event_titles": [
     "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
     "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-    "Panama Canal to cut number of ships passing through due to El Niño"
+    "Torrential rain floods New York City's streets and subway"
   ]
 }
