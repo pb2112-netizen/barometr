@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T22:40:39.381537Z",
-  "ostatnia_ocena": 4.7,
+  "updated_at": "2026-08-21T23:37:33.994331Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": "2026-08-21T19:36:36.222166Z",
   "stan_swiata": [
     {
       "temat": "Sword attack at Swedish school",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 11,
       "opis": "Violent attack at EU school raises regional security."
     },
     {
       "temat": "Russian drone strike on Ukrainian shopping mall",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 6,
       "opis": "Deliberate civilian target strike; 15 dead, 130 injured."
     },
     {
       "temat": "Israel reopens West Bank settlement",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "Thirty families settle defying international protests."
     },
     {
       "temat": "Germany investigates Russian assassination weapons cache",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "Weapons found in German woods linked to Russian operations."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Civilian plane crash at remote US radar site; distant."
     },
     {
       "temat": "Fuel shortages hit Russia as war impact grows",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Russians wait hours in fuel queues; war economy strain."
     },
     {
       "temat": "Flash flooding hits New York City",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Torrential rain floods NYC streets and subway; distant."
     },
     {
       "temat": "Panama Canal limits ships due to El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Drought forces canal traffic reduction; shipping impact."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T23:35:04.088945Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-20T01:50:54.080365Z",
       "s": 2.0
@@ -268,6 +264,10 @@
     {
       "t": "2026-08-21T22:40:39.373172Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-08-21T23:37:33.986898Z",
+      "s": 4.5
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.890561Z",
@@ -308,6 +308,26 @@
         }
       ]
     },
+    "one killed in sword attack at swedish school": {
+      "detected_at": "2026-08-21T14:53:13.732610Z",
+      "peak_at": "2026-08-21T14:53:13.732610Z",
+      "peak_score_at": "2026-08-21T14:53:13.732610Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Several injured after sword attack at Swedish school",
+      "peak_label": "Sword attack injures several at Swedish school",
+      "peak_summary": "A violent attack at a Swedish high school injured multiple people, raising security concerns across EU member states including Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss"
+        }
+      ]
+    },
     "germany investigates russia links to weapons cache discovered in woods, reports say": {
       "detected_at": "2026-08-21T19:36:36.211361Z",
       "peak_at": "2026-08-21T19:36:36.211361Z",
@@ -321,26 +341,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "one killed in sword attack at swedish school": {
-      "detected_at": "2026-08-21T14:53:13.732610Z",
-      "peak_at": "2026-08-21T14:53:13.732610Z",
-      "peak_score_at": "2026-08-21T14:53:13.732610Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "negative",
-      "title": "Several injured after sword attack at Swedish school",
-      "peak_label": "Sword attack injures several at Swedish school",
-      "peak_summary": "A violent attack at a Swedish high school injured multiple people, raising security concerns across EU member states including Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss"
         }
       ]
     },
@@ -464,6 +464,6 @@
   "prev_top_event_titles": [
     "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
     "Israel re-establishes closed West Bank settlement, defying growing international protests",
-    "Germany investigates Russia links to weapons cache discovered in woods, reports say"
+    "One killed in sword attack at Swedish school"
   ]
 }

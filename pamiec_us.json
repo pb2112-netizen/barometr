@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-21T22:40:39.387625Z",
+  "updated_at": "2026-08-21T23:37:33.998389Z",
   "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump delays Canada tariffs three days",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "President pauses 50% tariffs; hints at Keystone XL revival."
     },
     {
       "temat": "US deports 20 to Liberia under Trump deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "First deportations to Liberia; expanding third-country."
     },
     {
@@ -24,19 +24,19 @@
     {
       "temat": "Flash flooding hits New York City",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Torrential rain floods NYC streets and subway."
     },
     {
       "temat": "US deports 2,300 Mexicans to Guatemala",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Major third-country deportation straining Mexico relations."
     },
     {
       "temat": "Panama Canal limits ships due to El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Drought forces canal traffic reduction; shipping impact."
     },
     {
@@ -44,13 +44,15 @@
       "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 0,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
+    },
+    {
+      "temat": "US debt crosses $40 trillion",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Historic debt milestone; fiscal policy implications ahead."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T23:35:04.094642Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-20T01:50:54.086014Z",
       "s": 3.0
@@ -262,23 +264,27 @@
     {
       "t": "2026-08-21T22:40:39.380212Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-21T23:37:33.993367Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-21T04:53:50.473953Z",
   "event_detected_at": {
-    "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
-      "detected_at": "2026-08-20T21:42:38.064600Z",
-      "peak_at": "2026-08-21T09:51:58.417761Z",
-      "peak_score_at": "2026-08-21T09:51:58.417761Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "positive",
-      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "peak_label": "Trump delays Canada tariffs hints Keystone revival",
-      "peak_summary": "President delays 50% tariffs by three days and signals possible Keystone XL restart. Temporary pause with potential energy policy shift.",
+    "us debt tops $40 trillion, americans left with the bill": {
+      "detected_at": "2026-08-21T23:37:33.993367Z",
+      "peak_at": "2026-08-21T23:37:33.993367Z",
+      "peak_score_at": "2026-08-21T23:37:33.993367Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "US debt tops $40 trillion, Americans left with the bill",
+      "peak_label": "US national debt surpasses $40 trillion",
+      "peak_summary": "National debt crosses historic $40 trillion threshold and continues growing rapidly. May affect future fiscal policy, interest rates, and economic stability for Americans.",
       "peak_source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/us-debt-tops-40-trillion-americans-left-with-the-bill-3?traffic_source=rss"
         }
       ]
     },
@@ -295,6 +301,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ]
+    },
+    "trump pauses canada tariffs threat, and hints at revival of keystone xl pipeline": {
+      "detected_at": "2026-08-20T21:42:38.064600Z",
+      "peak_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score_at": "2026-08-21T09:51:58.417761Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "positive",
+      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+      "peak_label": "Trump delays Canada tariffs hints Keystone revival",
+      "peak_summary": "President delays 50% tariffs by three days and signals possible Keystone XL restart. Temporary pause with potential energy policy shift.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-delay-canada-tariffs-keystone-xl-oil-pipeline"
         }
       ]
     },
@@ -436,8 +458,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+    "US debt tops $40 trillion, Americans left with the bill",
     "Five Americans among seven killed in safari helicopter crash in Kenya",
-    "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal"
+    "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline"
   ]
 }
