@@ -1,37 +1,66 @@
 {
-  "global_score": 3.1,
-  "rationale": "Treasury Secretary announces aggressive Iran sanctions requiring allied alignment, marking major foreign policy action; Canada tariff pause affects trade but is temporary delay. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "US Treasury announces aggressive Iran sanctions plan requiring allied alignment, representing major foreign policy action, while FBI arrests woman for alleged New York capitol bombing plot. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
-      "label": "Treasury announces Iran economic collapse plan",
-      "summary": "Treasury Secretary declares aggressive sanctions to 'squash' Iran's economy, demanding allies choose sides in major foreign policy action beyond previous rhetoric.",
+      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+      "label": "US Treasury launches Iran economic collapse plan",
+      "summary": "Treasury announces aggressive sanctions aimed at collapsing Iranian government, requiring allied alignment in major foreign policy action beyond previous rhetoric.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
-      "nowosc": "kontynuacja",
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T19:45:05.652352Z"
+      "detected_at": "2026-08-20T01:50:54.086014Z"
+    },
+    {
+      "title": "FBI arrests woman over alleged plot to bomb New York capitol building",
+      "label": "FBI arrests woman in NY capitol bomb plot",
+      "summary": "FBI arrests Albany woman who allegedly pledged allegiance to Islamic State and planned to bomb state capitol to kill lawmakers.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y615l2w46o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/us-charges-woman-for-allegedly-plotting-attack-on-new-york-state-capitol?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T23:39:28.696759Z"
     },
     {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
       "label": "Trump delays Canada tariffs three days",
-      "summary": "President pauses 50% tariffs by three days and hints at Keystone XL revival, providing temporary relief but no permanent resolution to trade dispute.",
-      "score": 2.9,
+      "summary": "President pauses 50% tariffs on Canada by three days and hints at reviving Keystone XL pipeline, continuing trade policy uncertainty.",
+      "score": 2.8,
       "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
       ],
-      "nowosc": "kontynuacja",
       "source_links": [
         {
           "name": "Guardian",
@@ -39,33 +68,14 @@
         }
       ],
       "detected_at": "2026-08-20T21:42:38.064600Z"
-    },
-    {
-      "title": "US charges woman for allegedly plotting attack on New York State Capitol",
-      "label": "Woman charged in New York Capitol plot",
-      "summary": "Jessica Bowie, 35, arrested on terrorism charges for allegedly plotting attack on New York State Capitol, marking domestic security threat.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja",
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/20/us-charges-woman-for-allegedly-plotting-attack-on-new-york-state-capitol?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T23:39:28.696759Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-20T23:39:28.696759Z",
+  "updated_at": "2026-08-21T01:56:57.853799Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-19T01:52:26.196077Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-19T03:10:39.555380Z",
       "s": 3.0
@@ -300,6 +306,10 @@
     {
       "t": "2026-08-20T23:39:28.696759Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-21T01:56:57.853799Z",
+      "s": 2.9
     }
   ]
 }
