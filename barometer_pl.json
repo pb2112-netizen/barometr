@@ -1,31 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Israel settlement expansion continues with European condemnation; Panama Canal restrictions may affect shipping costs; other events distant from Polish daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Continuation of known situations; no qualitative new change affecting Polish daily life this cycle.",
   "top_events": [
     {
-      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-      "label": "Israel reopens West Bank settlement amid protests",
-      "summary": "Thirty families settle in defiance of international opposition, including EU condemnation. Continues regional tension with no direct Polish impact beyond diplomatic alignment.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T21:42:38.056275Z"
-    },
-    {
       "title": "Panama Canal to cut number of ships passing through due to El Niño",
-      "label": "Panama Canal reduces traffic due to drought",
-      "summary": "El Niño-driven drought forces canal operator to limit ship passages. May indirectly raise shipping costs for Polish imports over time.",
-      "score": 2.7,
+      "label": "Panama Canal cuts ship traffic due to drought",
+      "summary": "El Niño-driven drought forces canal operator to reduce traffic, potentially raising shipping costs for goods reaching European markets including Poland.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -41,23 +22,47 @@
       "detected_at": "2026-08-21T07:56:24.261499Z"
     },
     {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "Trump announces Iran economic collapse plan",
-      "summary": "Rhetoric about sanctions on Iran continues. No new confirmed policy action affecting Polish economy or energy supply this cycle.",
-      "score": 2.3,
+      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+      "label": "Israel reopens West Bank settlement amid protests",
+      "summary": "Thirty families settle in defiance of international condemnation. Distant regional tension with no direct impact on Poland, though EU allies are involved in diplomatic response.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/europe-canada-condemn-israeli-plans-for-new-west-bank-settlement?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T01:50:54.080365Z"
+      "detected_at": "2026-08-20T21:42:38.056275Z"
+    },
+    {
+      "title": "Torrential rain floods New York City's streets and subway",
+      "label": "Flash flooding hits New York City infrastructure",
+      "summary": "Heavy rainfall floods NYC streets and subway. Distant weather event with no connection to Polish daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/torrential-rain-floods-new-york-citys-streets-and-subway?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T10:01:22.670228Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war drive EU energy costs",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-21T09:51:58.408307Z",
+  "updated_at": "2026-08-21T10:01:22.670228Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T10:46:27.332052Z",
   "score_history": [
-    {
-      "t": "2026-08-19T10:01:16.322441Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-19T10:45:21.379329Z",
       "s": 2.4
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-21T09:51:58.408307Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-21T10:01:22.670228Z",
+      "s": 2.6
     }
   ]
 }

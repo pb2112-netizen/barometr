@@ -1,14 +1,14 @@
 {
-  "global_score": 3.3,
-  "rationale": "Australia charges man for passing Ukrainian military intel to Russia; Israeli settlers attack Palestinian home; Hong Kong convicts Tiananmen activists; other events distant from Ukrainian war concerns.",
+  "global_score": 3.1,
+  "rationale": "Espionage case involving Ukrainian military intelligence is a continuation of known security threats; no new strikes or escalation this cycle.",
   "top_events": [
     {
       "title": "Australia charges man for passing Ukrainian military intel to Russia",
-      "label": "Australia charges man for Ukraine intel leak",
-      "summary": "Australian-Russian citizen allegedly joined Ukrainian military to send information to Russian intelligence. Direct security threat to Ukrainian operations.",
-      "score": 3.3,
+      "label": "Australia charges spy for leaking Ukraine intel",
+      "summary": "Australian-Russian citizen accused of infiltrating Ukrainian military to pass intelligence to Russia. Continuation of espionage threats against Ukrainian forces.",
+      "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -22,30 +22,35 @@
       "detected_at": "2026-08-21T09:51:58.415152Z"
     },
     {
-      "title": "Israeli settlers set fire to Palestinian home while family asleep",
-      "label": "Israeli settlers attack Palestinian home",
-      "summary": "Settlers set fire to home with family inside. Distant Middle East violence with no direct Ukrainian impact.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+      "label": "Israel reopens West Bank settlement amid protests",
+      "summary": "Thirty families settle despite international condemnation. Distant Middle East issue with no connection to Ukraine's war situation.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-palestinian-home-while-family-asleep?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/21/europe-canada-condemn-israeli-plans-for-new-west-bank-settlement?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-21T09:51:58.415152Z"
+      "detected_at": "2026-08-20T20:45:46.144769Z"
     },
     {
       "title": "Hong Kong's Tiananmen activists guilty in national security trial",
-      "label": "Hong Kong convicts Tiananmen activists",
-      "summary": "Three activists convicted under China-introduced security law. Distant precedent with no direct Ukrainian relevance.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "label": "Hong Kong convicts Tiananmen activists under security law",
+      "summary": "Three activists convicted of inciting subversion under China-introduced law. Distant legal precedent with no direct impact on Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -62,10 +67,10 @@
   ],
   "short_summary": "Australia charges man for Ukraine intel leak",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-21T09:51:58.415152Z",
+  "updated_at": "2026-08-21T10:01:22.675876Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-21T09:51:58.415152Z",
   "score_history": [
-    {
-      "t": "2026-08-19T10:01:16.328115Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-19T10:45:21.383040Z",
       "s": 3.8
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-21T09:51:58.415152Z",
       "s": 3.3
+    },
+    {
+      "t": "2026-08-21T10:01:22.675876Z",
+      "s": 3.1
     }
   ]
 }

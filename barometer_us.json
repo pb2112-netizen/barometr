@@ -1,33 +1,14 @@
 {
-  "global_score": 3.2,
-  "rationale": "US deports 20 to Liberia under new Trump deal, expanding third-country deportations; Trump pauses Canada tariffs and hints at Keystone XL revival; NYC flash flooding; other events distant.",
+  "global_score": 3.1,
+  "rationale": "Canada tariff pause is a continuation of known trade tensions; NYC flooding is a new domestic event but localized impact.",
   "top_events": [
     {
-      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports 20 to Liberia under Trump deal",
-      "summary": "First deportations to Liberia under new agreement, part of expanded third-country deportation policy. Continues Trump immigration crackdown with confirmed action.",
+      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
+      "label": "Trump delays Canada tariffs, hints at Keystone revival",
+      "summary": "President delays 50% tariffs by three days and signals possible revival of contentious Keystone XL oil pipeline. Continuation of trade tensions with temporary reprieve.",
       "score": 3.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
-        }
-      ],
-      "detected_at": "2026-08-20T15:48:36.002517Z"
-    },
-    {
-      "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "label": "Trump delays Canada tariffs hints Keystone revival",
-      "summary": "President delays 50% tariffs by three days and signals possible Keystone XL restart. Temporary pause with potential energy policy shift.",
-      "score": 3.2,
-      "sentiment": "positive",
-      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -42,8 +23,8 @@
     },
     {
       "title": "Torrential rain floods New York City's streets and subway",
-      "label": "Flash flooding hits New York City",
-      "summary": "Torrential rainfall causes flash flooding in NYC streets and subway. Localized disruption with no lasting economic impact.",
+      "label": "Torrential rain floods New York City subway",
+      "summary": "Flash flooding hits NYC streets and subway system. New localized weather event affecting major metropolitan area but not a national-scale crisis.",
       "score": 2.9,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-21T09:51:58.417761Z"
+    },
+    {
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "label": "US deports 20 to Liberia under Trump deal",
+      "summary": "First deportations to Liberia under new agreement, part of Trump administration's expanded third-country deportation policy. Continuation of known immigration crackdown.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        }
+      ],
+      "detected_at": "2026-08-20T15:48:36.002517Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-21T09:51:58.417761Z",
+  "updated_at": "2026-08-21T10:01:22.677861Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-19T10:01:16.330390Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-19T10:45:21.384249Z",
       "s": 3.0
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-21T09:51:58.417761Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-21T10:01:22.677861Z",
+      "s": 3.1
     }
   ]
 }
