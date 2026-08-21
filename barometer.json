@@ -1,12 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "Continuation of known situations: Western allies condemn Israeli settlements (already tracked), US Iran sanctions rhetoric (ongoing), El Niño warnings (background). No new qualitative change affecting Polish daily life.",
+  "global_score": 2.9,
+  "rationale": "Continuation of known situations: West Bank settlement expansion (already tracked), Iran sanctions rhetoric (no new action), El Niño warnings (ongoing). No qualitative change affecting Poland this cycle.",
   "top_events": [
     {
       "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "label": "Western allies condemn Israel West Bank settlements",
-      "summary": "European countries and Canada increase diplomatic pressure over Israeli settlement expansion in occupied West Bank. No direct impact on Poland.",
-      "score": 2.2,
+      "label": "EU allies condemn Israel West Bank settlements",
+      "summary": "Major European allies condemn Israeli settlement expansion in occupied West Bank, continuing diplomatic pressure without new policy impact on Poland.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,12 +23,31 @@
     },
     {
       "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "US vows toughest Iran sanctions ever",
-      "summary": "US Treasury announces aggressive economic measures against Iran, requiring allied coordination. Indirect potential for energy market volatility affecting EU.",
+      "label": "Trump threatens Iran economic collapse plan",
+      "summary": "US rhetoric on Iran sanctions continues without new enacted measures; no immediate change to Polish energy or security situation.",
       "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T01:50:54.080365Z"
+    },
+    {
+      "title": "Panama Canal to cut number of ships passing through due to El Niño",
+      "label": "Panama Canal limits ships due to drought",
+      "summary": "El Niño-driven drought forces canal traffic reduction, potentially affecting global shipping costs with mild indirect impact on Polish imports.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "BBC",
         "Al Jazeera"
@@ -36,33 +55,14 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T01:50:54.080365Z"
-    },
-    {
-      "title": "El Niño set to be 'strongest in living memory', says Met Office",
-      "label": "Met Office warns strongest El Niño ever",
-      "summary": "Scientists forecast unprecedented weather pattern making 2027 likely hottest year on record. Long-term climate concern with indirect agricultural and energy implications.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T04:01:21.866637Z"
+      "detected_at": "2026-08-21T07:56:24.261499Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war drive EU energy costs",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-21T07:07:08.659007Z",
+  "updated_at": "2026-08-21T07:56:24.261499Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Heatwaves and Iran war drive EU energy costs",
     "summary": "Extreme heat and Iran conflict push European energy prices higher, directly affecting Poland's electricity and gas costs amid ongoing cost-of-living pressures.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T10:46:27.332052Z",
   "score_history": [
-    {
-      "t": "2026-08-19T07:53:47.595044Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-19T08:53:52.945910Z",
       "s": 2.7
@@ -305,6 +301,10 @@
     {
       "t": "2026-08-21T07:07:08.659007Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-21T07:56:24.261499Z",
+      "s": 2.9
     }
   ]
 }

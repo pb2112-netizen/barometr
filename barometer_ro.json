@@ -1,54 +1,11 @@
 {
-  "global_score": 2.4,
-  "rationale": "Ongoing situations continue without qualitative change: US-Iran sanctions rhetoric, Western condemnation of Israeli settlements, El Niño warnings. No new developments affecting Romanian daily life.",
+  "global_score": 2.6,
+  "rationale": "Continuation of known situations: West Bank settlements, Iran sanctions rhetoric, El Niño warnings. Panama Canal shipping limits are a new development with mild indirect economic impact.",
   "top_events": [
     {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "US announces toughest Iran sanctions yet",
-      "summary": "US Treasury unveils aggressive economic measures against Iran requiring EU coordination. Potential indirect energy market effects for Black Sea region.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-19T13:56:49.936901Z"
-    },
-    {
-      "title": "El Niño set to be 'strongest in living memory', says Met Office",
-      "label": "Unprecedented El Niño threatens 2027 heat record",
-      "summary": "Scientists warn of strongest El Niño pattern in living memory, forecasting 2027 as hottest year. Long-term climate implications for agriculture and energy.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T04:01:21.868804Z"
-    },
-    {
       "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "label": "Western allies condemn Israel settlement expansion",
-      "summary": "Major European countries and Canada increase diplomatic pressure on Israeli West Bank settlement plans. Distant Middle East diplomatic issue.",
+      "label": "EU allies condemn Israel West Bank expansion",
+      "summary": "Major European allies condemn Israeli settlement expansion, continuing diplomatic pressure without direct impact on Romania.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,6 +20,49 @@
         }
       ],
       "detected_at": "2026-08-20T21:42:38.058242Z"
+    },
+    {
+      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+      "label": "Trump threatens Iran economic collapse plan",
+      "summary": "US rhetoric on Iran sanctions continues without new enacted measures; no immediate change to Romanian energy or security situation.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-19T13:56:49.936901Z"
+    },
+    {
+      "title": "Panama Canal to cut number of ships passing through due to El Niño",
+      "label": "Panama Canal limits ships due to drought",
+      "summary": "El Niño-driven drought forces canal traffic reduction, potentially affecting global shipping costs with mild indirect impact on Romanian imports.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T07:56:24.263787Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war raise EU energy prices",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-21T07:07:08.660917Z",
+  "updated_at": "2026-08-21T07:56:24.263787Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Heatwaves and Iran war raise EU energy prices",
     "summary": "Extreme heat and Iran conflict drive European energy costs higher, directly affecting Romania's electricity and gas prices amid ongoing inflation pressures.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T09:49:55.919345Z",
   "score_history": [
-    {
-      "t": "2026-08-19T07:53:47.597130Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-19T08:53:52.947318Z",
       "s": 2.9
@@ -305,6 +301,10 @@
     {
       "t": "2026-08-21T07:07:08.660917Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-21T07:56:24.263787Z",
+      "s": 2.6
     }
   ]
 }
