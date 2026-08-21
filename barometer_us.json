@@ -1,31 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "Five Americans killed in Kenya safari helicopter crash; new incident with confirmed US casualties. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Trump pauses Canada tariffs by three days and hints at Keystone XL revival—a concrete policy action affecting trade and energy, though temporary pause limits immediate impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans killed in Kenya helicopter crash",
-      "summary": "Seven people, including five US citizens and a Telemundo executive, died in a safari helicopter crash in Kenya on Wednesday.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
-    },
     {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
       "label": "Trump delays Canada tariffs hints Keystone revival",
-      "summary": "President delays 50% tariffs by three days, hints at Keystone XL revival. Temporary pause continues ongoing trade rhetoric.",
-      "score": 2.2,
+      "summary": "President delays 50% tariffs by three days and suggests reviving Keystone XL pipeline. Concrete policy action affecting trade and energy markets.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -41,10 +22,29 @@
       "detected_at": "2026-08-20T21:42:38.064600Z"
     },
     {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Seven killed including five US citizens, Telemundo executive, and Ecuador intelligence chief in safari helicopter crash. Tragic accident with no policy impact.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
+    },
+    {
       "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports 20 to Liberia under Trump deal",
-      "summary": "First deportations to Liberia under new agreement; part of expanding third-country deportation policy.",
-      "score": 2.1,
+      "label": "US deports first 20 migrants to Liberia",
+      "summary": "First deportations to Liberia under new Trump agreement; part of expanding third-country deportation policy. Continuation of immigration enforcement.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-21T17:44:04.722578Z",
+  "updated_at": "2026-08-21T18:55:38.899040Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "FBI raids Swalwell home in misconduct probe",
     "summary": "FBI raids home of former Representative and vocal Trump critic Eric Swalwell over sexual misconduct allegations, following his resignation and withdrawal from California governor's race.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-19T18:52:36.576877Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-19T19:37:46.443307Z",
       "s": 2.4
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-21T17:44:04.722578Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-21T18:55:38.899040Z",
+      "s": 2.3
     }
   ]
 }

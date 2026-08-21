@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T17:44:04.725519Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-08-21T18:55:38.901570Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Sword attack at Swedish school",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Violent attack at EU school raises regional security."
+    },
+    {
+      "temat": "Russian drone strike on Ukrainian shopping mall",
+      "poziom_bazowy": 5.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Deliberate civilian target strike; 15 dead, 130 injured."
+    },
+    {
+      "temat": "Fuel shortages hit Russia as war impact grows",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 9,
+      "opis": "Russians wait hours in fuel queues; war economy strain."
     },
     {
       "temat": "DRC Ebola outbreak becomes deadliest in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Over 2,500 deaths; epidemic out of control; distant crisis."
-    },
-    {
-      "temat": "Fuel shortages hit Russia as war impact grows",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 8,
-      "opis": "Russians wait hours in fuel queues; war economy strain."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Civilian plane crash at remote US radar site; distant."
     },
     {
       "temat": "Australia charges alleged Russian spy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Espionage case involving Ukrainian military intel; distant."
     },
     {
       "temat": "Panama Canal limits ships due to El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Drought forces canal traffic reduction; shipping impact."
     },
     {
       "temat": "Met Office warns strongest El Niño ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Unprecedented weather pattern; 2027 hottest year forecast."
-    },
-    {
-      "temat": "EU states condemn Israel West Bank settlements",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Major European allies condemn Israeli settlement expansion."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T18:52:36.570781Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-19T19:37:46.438226Z",
       "s": 2.4
@@ -268,10 +264,34 @@
     {
       "t": "2026-08-21T17:44:04.716004Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-21T18:55:38.892746Z",
+      "s": 4.6
     }
   ],
-  "events_anchor_at": "2026-08-20T18:58:40.782349Z",
+  "events_anchor_at": "2026-08-21T18:55:38.892746Z",
   "event_detected_at": {
+    "russian double-tap drone strike kills 15 in ukrainian mall, officials say": {
+      "detected_at": "2026-08-21T18:55:38.892746Z",
+      "peak_at": "2026-08-21T18:55:38.892746Z",
+      "peak_score_at": "2026-08-21T18:55:38.892746Z",
+      "peak_score": 4.6,
+      "peak_sentiment": "negative",
+      "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
+      "peak_label": "Russian drone kills 15 at Ukraine mall",
+      "peak_summary": "Deliberate strike on shopping center in Kryvyi Rih killed 15, injured 130 including children. Escalation in civilian targeting raises Black Sea security concerns for Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss"
+        }
+      ]
+    },
     "two teenagers seriously injured after sword attack at swedish school": {
       "detected_at": "2026-08-21T14:53:13.735149Z",
       "peak_at": "2026-08-21T14:53:13.735149Z",
@@ -292,22 +312,6 @@
         }
       ]
     },
-    "rosenberg: shortage of petrol but not patriotism as russians feel growing impact of war": {
-      "detected_at": "2026-08-21T11:40:47.408941Z",
-      "peak_at": "2026-08-21T11:40:47.408941Z",
-      "peak_score_at": "2026-08-21T11:40:47.408941Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "neutral",
-      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "peak_label": "Fuel shortages hit Russia as war impact grows",
-      "peak_summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in neighboring Black Sea region but no direct spillover to Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "ebola vaccine trial to start in dr congo as warning issued over speed of infections": {
       "detected_at": "2026-08-20T20:45:46.142133Z",
       "peak_at": "2026-08-21T15:47:42.739283Z",
@@ -325,6 +329,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
+        }
+      ]
+    },
+    "rosenberg: shortage of petrol but not patriotism as russians feel growing impact of war": {
+      "detected_at": "2026-08-21T11:40:47.408941Z",
+      "peak_at": "2026-08-21T11:40:47.408941Z",
+      "peak_score_at": "2026-08-21T11:40:47.408941Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+      "peak_label": "Fuel shortages hit Russia as war impact grows",
+      "peak_summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in neighboring Black Sea region but no direct spillover to Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -444,22 +464,6 @@
         }
       ]
     },
-    "russia 'purposefully' hit critical infrastructure in latest strikes, kyiv mayor says": {
-      "detected_at": "2026-08-20T17:44:41.026410Z",
-      "peak_at": "2026-08-20T17:44:41.026410Z",
-      "peak_score_at": "2026-08-20T17:44:41.026410Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
-      "peak_label": "Russia strikes Kyiv infrastructure killing 17",
-      "peak_summary": "Massive Russian attack on Ukrainian capital killed 17 and disrupted utilities, escalating conflict in Black Sea region near Romania's borders and raising regional security concerns.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "trump wants to be friends with kim - but south korea could pay the price": {
       "detected_at": "2026-08-21T03:15:49.618992Z",
       "peak_at": "2026-08-21T03:15:49.618992Z",
@@ -495,27 +499,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss"
         }
       ]
-    },
-    "at least 800 people evacuated from major wildfire in western spain": {
-      "detected_at": "2026-08-20T17:44:41.026410Z",
-      "peak_at": "2026-08-20T17:44:41.026410Z",
-      "peak_score_at": "2026-08-20T17:44:41.026410Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "At least 800 people evacuated from major wildfire in western Spain",
-      "peak_label": "Major wildfire forces 800 evacuations in Spain",
-      "peak_summary": "Large wildfire in western Spain forced evacuation of over 800 people, highlighting climate-driven disaster risks across southern Europe.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/at-least-800-people-evacuated-from-major-wildfire-in-western-spain?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
     "Two teenagers seriously injured after sword attack at Swedish school",
-    "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
     "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections"
   ]
 }
