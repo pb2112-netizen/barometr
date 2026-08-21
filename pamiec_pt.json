@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T11:40:47.417089Z",
-  "ostatnia_ocena": 2.7,
+  "updated_at": "2026-08-21T13:09:57.954837Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Panama Canal limits ships due to El Niño",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Drought forces canal traffic reduction; shipping impact."
-    },
-    {
       "temat": "Spain builds camps for migrants in Ceuta",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "EU states condemn Israel West Bank settlements",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Major European allies condemn Israeli settlement expansion."
     },
     {
       "temat": "Spain allows 500 migrant children to mainland",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 5,
       "opis": "Madrid reverses Ceuta policy; Iberian migration shift."
+    },
+    {
+      "temat": "Over 100 die in Central African goldmine collapse",
+      "poziom_bazowy": 1.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Landslide at artisanal mine; distant tragedy."
+    },
+    {
+      "temat": "Panama Canal limits ships due to El Niño",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 7,
+      "opis": "Drought forces canal traffic reduction; shipping impact."
     },
     {
       "temat": "Migrants land on Spanish coast",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Boat arrivals on Spain's southeastern beaches; regional."
     },
     {
       "temat": "Met Office warns strongest El Niño ever",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Unprecedented weather pattern; 2027 hottest year forecast."
     },
     {
       "temat": "US demands EU alignment on Iran sanctions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Treasury announces aggressive sanctions requiring."
-    },
-    {
-      "temat": "US threatens Iran economic collapse",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 18,
-      "opis": "Sanctions requiring EU alignment; potential energy impact."
+      "opis": "Treasury announces aggressive sanctions requiring."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T13:07:59.973790Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-19T13:56:49.938730Z",
       "s": 2.0
@@ -268,9 +264,13 @@
     {
       "t": "2026-08-21T11:40:47.410330Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-21T13:09:57.945157Z",
+      "s": 2.6
     }
   ],
-  "events_anchor_at": "2026-08-20T11:41:39.425132Z",
+  "events_anchor_at": "2026-08-20T18:58:40.784179Z",
   "event_detected_at": {
     "spain to allow 500 children in ceuta to go to mainland in immigration u-turn": {
       "detected_at": "2026-08-18T17:42:36.027400Z",
@@ -285,6 +285,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+        }
+      ]
+    },
+    "israel re-establishes closed west bank settlement, defying growing international protests": {
+      "detected_at": "2026-08-20T21:42:38.060220Z",
+      "peak_at": "2026-08-20T21:42:38.060220Z",
+      "peak_score_at": "2026-08-20T21:42:38.060220Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
+      "peak_label": "Major EU states condemn Israeli settlements",
+      "peak_summary": "European powers jointly oppose Israeli West Bank expansion, signaling coordinated EU Middle East policy affecting Portugal's diplomatic alignment.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "more than 100 dead after goldmine collapses in central african republic": {
+      "detected_at": "2026-08-20T03:58:12.492071Z",
+      "peak_at": "2026-08-20T13:11:00.058392Z",
+      "peak_score_at": "2026-08-20T13:11:00.058392Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "negative",
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "peak_label": "Over 100 die in CAR goldmine collapse",
+      "peak_summary": "Landslide causes artisanal goldmine collapse in Central African Republic with death toll expected to rise—distant tragedy with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
         }
       ]
     },
@@ -305,22 +337,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
-        }
-      ]
-    },
-    "israel re-establishes closed west bank settlement, defying growing international protests": {
-      "detected_at": "2026-08-20T21:42:38.060220Z",
-      "peak_at": "2026-08-20T21:42:38.060220Z",
-      "peak_score_at": "2026-08-20T21:42:38.060220Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "peak_label": "Major EU states condemn Israeli settlements",
-      "peak_summary": "European powers jointly oppose Israeli West Bank expansion, signaling coordinated EU Middle East policy affecting Portugal's diplomatic alignment.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -460,22 +476,6 @@
         }
       ]
     },
-    "more than 100 dead after goldmine collapses in central african republic": {
-      "detected_at": "2026-08-20T03:58:12.492071Z",
-      "peak_at": "2026-08-20T13:11:00.058392Z",
-      "peak_score_at": "2026-08-20T13:11:00.058392Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "peak_label": "Over 100 die in CAR goldmine collapse",
-      "peak_summary": "Landslide causes artisanal goldmine collapse in Central African Republic with death toll expected to rise—distant tragedy with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ]
-    },
     "psg forced to move opening league match as heatwave in france damages pitch": {
       "detected_at": "2026-08-20T13:11:00.058392Z",
       "peak_at": "2026-08-20T13:11:00.058392Z",
@@ -491,26 +491,11 @@
           "url": "https://www.aljazeera.com/sports/2026/8/20/psg-forced-to-move-opening-league-match-as-heatwave-in-france-damages-pitch?traffic_source=rss"
         }
       ]
-    },
-    "heatwaves and energy crunch: can europe withstand a double shock?": {
-      "detected_at": "2026-08-20T11:41:39.425132Z",
-      "peak_at": "2026-08-20T11:41:39.425132Z",
-      "peak_score_at": "2026-08-20T11:41:39.425132Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "negative",
-      "title": "Heatwaves and energy crunch: Can Europe withstand a double shock?",
-      "peak_label": "Heatwaves and Iran war raise EU energy costs",
-      "peak_summary": "Extreme heat and Iran conflict push European energy prices higher, indirectly affecting Portugal's electricity costs and cost of living amid ongoing inflation.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/20/heatwaves-and-energy-crunch-can-europe-withstand-a-double-shock?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-    "Panama Canal to cut number of ships passing through due to El Niño"
+    "Israel re-establishes closed West Bank settlement, defying growing international protests",
+    "More than 100 dead after goldmine collapses in Central African Republic"
   ]
 }
