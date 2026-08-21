@@ -1,12 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "Swedish school sword attack is a new violent incident in the EU region; other headlines continue known background (Russian fuel queues, Ebola, rhetoric on Iran).",
+  "global_score": 3.0,
+  "rationale": "Swedish school sword attack is a new violent incident in the EU region, raising mild security concern; other events are distant or continuing background.",
   "top_events": [
     {
       "title": "Several injured after sword attack at Swedish school",
       "label": "Sword attack injures several at Swedish school",
-      "summary": "A violent attack at a Swedish high school injured multiple people, with one suspect arrested. The incident raises security concerns across the EU region.",
-      "score": 3.1,
+      "summary": "A violent attack at a Swedish high school injured multiple people, with one suspect arrested. The incident raises mild regional security awareness within the EU.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -28,12 +28,12 @@
     },
     {
       "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "label": "Russian fuel shortages grow as war impact deepens",
-      "summary": "Russians wait hours in fuel queues as war economy strain continues, showing ongoing pressure on Russia's domestic situation.",
-      "score": 2.4,
+      "label": "Russian fuel shortages grow as war strains economy",
+      "summary": "Russians wait hours in fuel queues as war economy pressures mount. Continuation of known strain on Russia's domestic situation.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -46,23 +46,33 @@
       "detected_at": "2026-08-21T11:40:47.406962Z"
     },
     {
-      "title": "War on Iran: The US could focus on economically isolating Iran",
-      "label": "US Treasury signals Iran economic isolation strategy",
-      "summary": "US Treasury Secretary indicates shift toward economic isolation of Iran, but no concrete actions enacted yet.",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "DRC Ebola outbreak becomes deadliest in history",
+      "summary": "Over 2,500 deaths recorded, with half occurring in the last 20 days. Distant African crisis with no direct impact on Poland.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "BBC",
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czxe9n0vxzdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-21T14:53:13.732610Z"
+      "detected_at": "2026-08-20T20:45:46.140749Z"
     }
   ],
   "short_summary": "Sword attack injures several at Swedish school",
@@ -70,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-21T15:47:42.736705Z",
+  "updated_at": "2026-08-21T16:01:18.503866Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -309,6 +319,10 @@
     {
       "t": "2026-08-21T15:47:42.736705Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-21T16:01:18.503866Z",
+      "s": 3.0
     }
   ]
 }
