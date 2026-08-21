@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "Russian fuel shortages continue showing war economy strain; Swedish school attack is distant; no direct military escalation on Ukrainian territory this cycle.",
+  "global_score": 2.8,
+  "rationale": "Russian expert warns of social crisis as Ukraine death toll rises, continuing known war background; other headlines remain distant from Ukrainian daily life.",
   "top_events": [
     {
+      "title": "Russian expert warns of impending social crisis as Ukraine death toll rises",
+      "label": "Russian expert warns social crisis as Ukraine toll rises",
+      "summary": "Russian expert highlights growing social strain as Ukrainian civilian casualties continue, while Kyiv targets Russian infrastructure.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/russian-expert-warns-of-impending-social-crisis-as-ukraine-death-toll-rises?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T15:47:42.744276Z"
+    },
+    {
       "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "label": "Russian fuel shortages worsen as war strains economy",
-      "summary": "Russians wait hours in fuel queues as war economy pressures mount, showing continued strain on Russia's capacity to sustain the war against Ukraine.",
-      "score": 2.9,
+      "label": "Russian fuel shortages grow as war impact deepens",
+      "summary": "Russians face long fuel queues as war economy strain continues, showing ongoing pressure on Russia's capacity to sustain the conflict.",
+      "score": 2.8,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,47 +41,28 @@
       "detected_at": "2026-08-21T11:40:47.411982Z"
     },
     {
-      "title": "Several injured after sword attack at Swedish school",
-      "label": "Sword attack injures several at Swedish school",
-      "summary": "A violent attack at a Swedish high school injured multiple people, a distant incident with no impact on Ukraine's war situation.",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "DRC Ebola outbreak becomes country's deadliest ever",
+      "summary": "Over 2,500 deaths recorded in DRC Ebola outbreak, now the deadliest in the country's history, though geographically very distant.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-21T14:53:13.739273Z"
-    },
-    {
-      "title": "War on Iran: The US could focus on economically isolating Iran",
-      "label": "US signals economic isolation strategy for Iran",
-      "summary": "US Treasury indicates shift toward economic isolation of Iran, but remains rhetoric without impact on Western aid to Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T14:53:13.739273Z"
+      "detected_at": "2026-08-21T15:47:42.744276Z"
     }
   ],
   "short_summary": "German authorities name Ukrainian Nord Stream suspect",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-21T14:53:13.739273Z",
+  "updated_at": "2026-08-21T15:47:42.744276Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "German authorities name Ukrainian Nord Stream suspect",
     "summary": "German authorities allege Ukrainian scuba diver Volodymyr Zhuravlev involved in Nord Stream explosions, creating new diplomatic pressure on Ukraine.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-21T10:46:39.843135Z",
   "score_history": [
-    {
-      "t": "2026-08-19T15:45:41.343157Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-19T16:01:21.650721Z",
       "s": 3.0
@@ -305,6 +301,10 @@
     {
       "t": "2026-08-21T14:53:13.739273Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-21T15:47:42.744276Z",
+      "s": 2.8
     }
   ]
 }

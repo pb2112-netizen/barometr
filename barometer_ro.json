@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Swedish school attack is a new EU security incident; Russian fuel shortages continue showing war strain near Black Sea region; other events distant.",
+  "global_score": 2.9,
+  "rationale": "Swedish school attack continues EU security concerns; other headlines remain background (Russian fuel issues, Ebola outbreak, US-Iran rhetoric).",
   "top_events": [
     {
       "title": "Several injured after sword attack at Swedish school",
       "label": "Sword attack injures several at Swedish school",
-      "summary": "A violent attack at a Swedish high school injured multiple people, raising security concerns across EU member states including Romania.",
-      "score": 3.0,
+      "summary": "A violent attack at a Swedish high school injured multiple people. The incident adds to regional security concerns within the EU.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC",
@@ -28,8 +28,8 @@
     },
     {
       "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "label": "Russian fuel shortages worsen as war strains economy",
-      "summary": "Russians wait hours in fuel queues as war economy pressures mount, showing continued strain on Russia's capacity near Black Sea region.",
+      "label": "Russian fuel shortages grow as war impact deepens",
+      "summary": "Russians face long fuel queues as war economy strain continues, showing ongoing pressure on Russia's domestic capacity.",
       "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -46,31 +46,36 @@
       "detected_at": "2026-08-21T11:40:47.408941Z"
     },
     {
-      "title": "War on Iran: The US could focus on economically isolating Iran",
-      "label": "US signals economic isolation strategy for Iran",
-      "summary": "US Treasury indicates shift toward economic isolation of Iran, but remains rhetoric without enacted policy affecting Romania.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "DRC Ebola outbreak becomes country's deadliest ever",
+      "summary": "Over 2,500 deaths recorded in DRC Ebola outbreak, now the deadliest in the country's history, though geographically distant from Romania.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
+        "Guardian",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-21T14:53:13.735149Z"
+      "detected_at": "2026-08-20T20:45:46.142133Z"
     }
   ],
   "short_summary": "US announces aggressive Iran sanctions regime",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-21T14:53:13.735149Z",
+  "updated_at": "2026-08-21T15:47:42.739283Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.782349Z",
   "score_history": [
-    {
-      "t": "2026-08-19T15:45:41.339637Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-19T16:01:21.647086Z",
       "s": 2.8
@@ -309,6 +310,10 @@
     {
       "t": "2026-08-21T14:53:13.735149Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-21T15:47:42.739283Z",
+      "s": 2.9
     }
   ]
 }
