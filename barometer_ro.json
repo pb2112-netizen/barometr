@@ -1,12 +1,36 @@
 {
-  "global_score": 2.7,
-  "rationale": "Russian fuel shortages continue as background; other events remain distant with no direct impact on Romanian daily life or Black Sea security.",
+  "global_score": 3.0,
+  "rationale": "Swedish school attack is a new EU security incident; Russian fuel shortages continue showing war strain near Black Sea region; other events distant.",
   "top_events": [
     {
+      "title": "Several injured after sword attack at Swedish school",
+      "label": "Sword attack injures several at Swedish school",
+      "summary": "A violent attack at a Swedish high school injured multiple people, raising security concerns across EU member states including Romania.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T14:53:13.735149Z"
+    },
+    {
       "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "label": "Russians wait hours in fuel queues",
-      "summary": "Fuel shortages persist in Russia as war economy strain continues. No new change from Romanian perspective; ongoing background situation.",
-      "score": 2.7,
+      "label": "Russian fuel shortages worsen as war strains economy",
+      "summary": "Russians wait hours in fuel queues as war economy pressures mount, showing continued strain on Russia's capacity near Black Sea region.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,33 +46,33 @@
       "detected_at": "2026-08-21T11:40:47.408941Z"
     },
     {
-      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-      "label": "Israel reopens West Bank settlement",
-      "summary": "Thirty families settle in West Bank amid international protests. Distant diplomatic issue with no direct impact on Romania.",
+      "title": "War on Iran: The US could focus on economically isolating Iran",
+      "label": "US signals economic isolation strategy for Iran",
+      "summary": "US Treasury indicates shift toward economic isolation of Iran, but remains rhetoric without enacted policy affecting Romania.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-20T21:42:38.058242Z"
+      "detected_at": "2026-08-21T14:53:13.735149Z"
     }
   ],
   "short_summary": "US announces aggressive Iran sanctions regime",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-21T13:58:04.362004Z",
+  "updated_at": "2026-08-21T14:53:13.735149Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US announces aggressive Iran sanctions regime",
     "summary": "US Treasury threatens Iran economic collapse, requiring allies to choose sides and potentially affecting EU energy costs and regional stability.",
@@ -70,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.782349Z",
   "score_history": [
-    {
-      "t": "2026-08-19T14:52:41.458195Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-19T15:45:41.339637Z",
       "s": 2.9
@@ -285,6 +305,10 @@
     {
       "t": "2026-08-21T13:58:04.362004Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-21T14:53:13.735149Z",
+      "s": 3.0
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "global_score": 3.0,
-  "rationale": "Russian fuel shortages continue as background indicator of war economy strain; no new military developments directly affecting Ukraine this cycle.",
+  "global_score": 2.9,
+  "rationale": "Russian fuel shortages continue showing war economy strain; Swedish school attack is distant; no direct military escalation on Ukrainian territory this cycle.",
   "top_events": [
     {
       "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "label": "Russians wait hours in fuel queues",
-      "summary": "Fuel shortages persist in Russia as war economy strain continues. No new change; ongoing background situation.",
-      "score": 3.0,
-      "sentiment": "neutral",
+      "label": "Russian fuel shortages worsen as war strains economy",
+      "summary": "Russians wait hours in fuel queues as war economy pressures mount, showing continued strain on Russia's capacity to sustain the war against Ukraine.",
+      "score": 2.9,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -20,16 +20,59 @@
         }
       ],
       "detected_at": "2026-08-21T11:40:47.411982Z"
+    },
+    {
+      "title": "Several injured after sword attack at Swedish school",
+      "label": "Sword attack injures several at Swedish school",
+      "summary": "A violent attack at a Swedish high school injured multiple people, a distant incident with no impact on Ukraine's war situation.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-at-swedish-school?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T14:53:13.739273Z"
+    },
+    {
+      "title": "War on Iran: The US could focus on economically isolating Iran",
+      "label": "US signals economic isolation strategy for Iran",
+      "summary": "US Treasury indicates shift toward economic isolation of Iran, but remains rhetoric without impact on Western aid to Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/war-on-iran-the-us-could-focus-on-economically-isolating-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T14:53:13.739273Z"
     }
   ],
   "short_summary": "German authorities name Ukrainian Nord Stream suspect",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-21T13:58:04.364460Z",
+  "updated_at": "2026-08-21T14:53:13.739273Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "German authorities name Ukrainian Nord Stream suspect",
     "summary": "German authorities allege Ukrainian scuba diver Volodymyr Zhuravlev involved in Nord Stream explosions, creating new diplomatic pressure on Ukraine.",
@@ -47,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-21T10:46:39.843135Z",
   "score_history": [
-    {
-      "t": "2026-08-19T14:52:41.461500Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-19T15:45:41.343157Z",
       "s": 3.1
@@ -262,6 +301,10 @@
     {
       "t": "2026-08-21T13:58:04.364460Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-21T14:53:13.739273Z",
+      "s": 2.9
     }
   ]
 }
