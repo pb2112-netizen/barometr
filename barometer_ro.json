@@ -1,11 +1,30 @@
 {
-  "global_score": 2.2,
-  "rationale": "New West Bank settlement escalates EU-Israel tensions requiring Romanian diplomatic response; Australian spy case involving Ukrainian intel is new but distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "West Bank settlement expansion continues known pattern; fuel shortages in Russia signal war strain near Black Sea region; no direct Romanian impact.",
   "top_events": [
+    {
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+      "label": "Fuel shortages hit Russia as war impact grows",
+      "summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in neighboring Black Sea region but no direct spillover to Romania.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T11:40:47.408941Z"
+    },
     {
       "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
       "label": "Israel reopens West Bank settlement amid protests",
-      "summary": "Thirty families settle in defiance of international condemnation, creating fresh EU diplomatic pressure and requiring Romania to navigate bloc response.",
+      "summary": "Thirty families settle in closed West Bank site, escalating tensions. Continues known pattern of settlement expansion despite international condemnation.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-20T21:42:38.058242Z"
     },
     {
-      "title": "Australia charges man for passing Ukrainian military intel to Russia",
-      "label": "Australia charges alleged Russian spy",
-      "summary": "Australian-Russian citizen accused of infiltrating Ukrainian military to pass intelligence to Russia; distant espionage case with no direct Romanian impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T10:01:22.672130Z"
-    },
-    {
       "title": "Panama Canal to cut number of ships passing through due to El Niño",
       "label": "Panama Canal reduces traffic due to drought",
-      "summary": "Ongoing canal restrictions from El Niño drought continue to affect global shipping routes, with indirect impact on Black Sea trade and European supply chains.",
-      "score": 2.2,
+      "summary": "El Niño-driven drought forces canal operator to limit ship passages. Continues known shipping disruption with mild indirect cost impact.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -62,12 +62,12 @@
   ],
   "short_summary": "Heatwaves and Iran war raise EU energy prices",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-21T10:46:39.839414Z",
+  "updated_at": "2026-08-21T11:40:47.408941Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Heatwaves and Iran war raise EU energy prices",
     "summary": "Extreme heat and Iran conflict drive European energy costs higher, directly affecting Romania's electricity and gas prices amid ongoing inflation pressures.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T09:49:55.919345Z",
   "score_history": [
-    {
-      "t": "2026-08-19T11:38:53.864215Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-19T13:07:59.971874Z",
       "s": 3.2
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-21T10:46:39.839414Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-21T11:40:47.408941Z",
+      "s": 2.9
     }
   ]
 }

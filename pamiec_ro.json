@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T10:46:39.847139Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-08-21T11:40:47.415988Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US threatens Iran economic collapse",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
-      "opis": "Aggressive sanctions requiring EU allies to choose sides."
-    },
-    {
       "temat": "EU states condemn Israel West Bank settlements",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Major European allies condemn Israeli settlement expansion."
     },
     {
       "temat": "Panama Canal limits ships due to El Niño",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 5,
       "opis": "Drought forces canal traffic reduction; shipping impact."
     },
     {
-      "temat": "US demands EU alignment on Iran sanctions",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 15,
-      "opis": "Treasury announces aggressive sanctions requiring Romanian."
-    },
-    {
-      "temat": "Met Office warns strongest El Niño ever",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Unprecedented weather pattern; 2027 hottest year forecast."
-    },
-    {
-      "temat": "Russia strikes Kyiv killing eight",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Escalated missile attack on Ukrainian capital near Black."
-    },
-    {
-      "temat": "Pirates seize tanker off Yemen coast",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Gulf of Aden piracy resurgence; distant maritime threat."
+      "temat": "Fuel shortages hit Russia as war impact grows",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Russians wait hours in fuel queues; war economy strain."
     },
     {
       "temat": "Australia charges alleged Russian spy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Espionage case involving Ukrainian military intel; distant."
+    },
+    {
+      "temat": "Met Office warns strongest El Niño ever",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
+      "opis": "Unprecedented weather pattern; 2027 hottest year forecast."
+    },
+    {
+      "temat": "US threatens Iran economic collapse",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
+      "opis": "Aggressive sanctions requiring EU allies to choose sides."
+    },
+    {
+      "temat": "US demands EU alignment on Iran sanctions",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
+      "opis": "Treasury announces aggressive sanctions requiring Romanian."
+    },
+    {
+      "temat": "Russia strikes Kyiv killing eight",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
+      "opis": "Escalated missile attack on Ukrainian capital near Black."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T11:38:53.864215Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-19T13:07:59.971874Z",
       "s": 3.2
@@ -268,15 +264,35 @@
     {
       "t": "2026-08-21T10:46:39.839414Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-21T11:40:47.408941Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-20T09:49:55.919345Z",
   "event_detected_at": {
+    "rosenberg: shortage of petrol but not patriotism as russians feel growing impact of war": {
+      "detected_at": "2026-08-21T11:40:47.408941Z",
+      "peak_at": "2026-08-21T11:40:47.408941Z",
+      "peak_score_at": "2026-08-21T11:40:47.408941Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+      "peak_label": "Fuel shortages hit Russia as war impact grows",
+      "peak_summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in neighboring Black Sea region but no direct spillover to Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "israel re-establishes closed west bank settlement, defying growing international protests": {
       "detected_at": "2026-08-20T21:42:38.058242Z",
       "peak_at": "2026-08-20T21:42:38.058242Z",
       "peak_score_at": "2026-08-20T21:42:38.058242Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "neutral",
       "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
       "peak_label": "Major EU states condemn Israeli settlements",
@@ -285,22 +301,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "australia charges man for passing ukrainian military intel to russia": {
-      "detected_at": "2026-08-21T10:01:22.672130Z",
-      "peak_at": "2026-08-21T10:01:22.672130Z",
-      "peak_score_at": "2026-08-21T10:01:22.672130Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Australia charges man for passing Ukrainian military intel to Russia",
-      "peak_label": "Australia charges alleged Russian spy in Ukraine case",
-      "peak_summary": "Australian-Russian citizen accused of infiltrating Ukrainian military to pass intelligence to Russia. Distant espionage case with no direct Black Sea security impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
         }
       ]
     },
@@ -321,6 +321,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
+        }
+      ]
+    },
+    "australia charges man for passing ukrainian military intel to russia": {
+      "detected_at": "2026-08-21T10:01:22.672130Z",
+      "peak_at": "2026-08-21T10:01:22.672130Z",
+      "peak_score_at": "2026-08-21T10:01:22.672130Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Australia charges man for passing Ukrainian military intel to Russia",
+      "peak_label": "Australia charges alleged Russian spy in Ukraine case",
+      "peak_summary": "Australian-Russian citizen accused of infiltrating Ukrainian military to pass intelligence to Russia. Distant espionage case with no direct Black Sea security impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/australia-charges-man-for-passing-ukrainian-military-intel-to-russia?traffic_source=rss"
         }
       ]
     },
@@ -526,8 +542,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
     "Israel re-establishes closed West Bank settlement, defying growing international protests",
-    "Australia charges man for passing Ukrainian military intel to Russia",
     "Panama Canal to cut number of ships passing through due to El Niño"
   ]
 }

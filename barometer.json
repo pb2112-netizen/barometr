@@ -1,11 +1,11 @@
 {
-  "global_score": 2.5,
-  "rationale": "New West Bank settlement defying international protests creates fresh EU diplomatic pressure; other events remain background or distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "West Bank settlement expansion continues known pattern; fuel queues in Russia signal war strain but remain distant; no direct Polish impact this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-      "label": "Israel reopens West Bank settlement defying protests",
-      "summary": "Thirty families settle in defiance of international condemnation, escalating EU-Israel tensions and forcing Poland to navigate diplomatic pressure within the bloc.",
+      "label": "Israel reopens West Bank settlement amid protests",
+      "summary": "Thirty families settle in closed West Bank site, escalating tensions with Palestinians. Continues known pattern of settlement expansion despite international condemnation.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-20T21:42:38.056275Z"
     },
     {
+      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+      "label": "Fuel shortages hit Russia as war impact grows",
+      "summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in Russia but no direct spillover to Poland yet.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T11:40:47.406962Z"
+    },
+    {
       "title": "Panama Canal to cut number of ships passing through due to El Niño",
       "label": "Panama Canal reduces traffic due to drought",
-      "summary": "Ongoing canal restrictions from El Niño drought continue to affect global shipping routes, with indirect impact on European supply chains and costs.",
-      "score": 2.5,
+      "summary": "El Niño-driven drought forces canal operator to limit ship passages. Continues known shipping disruption with mild indirect cost impact.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-21T07:56:24.261499Z"
-    },
-    {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "Trump announces Iran economic collapse plan",
-      "summary": "Continued US sanctions rhetoric on Iran with no new enacted measures; Poland faces ongoing pressure to align but no immediate policy change.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T01:50:54.080365Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war drive EU energy costs",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-21T10:46:39.837695Z",
+  "updated_at": "2026-08-21T11:40:47.406962Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Heatwaves and Iran war drive EU energy costs",
     "summary": "Extreme heat and Iran conflict push European energy prices higher, directly affecting Poland's electricity and gas costs amid ongoing cost-of-living pressures.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T10:46:27.332052Z",
   "score_history": [
-    {
-      "t": "2026-08-19T11:38:53.862220Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-19T13:07:59.969395Z",
       "s": 3.2
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-21T10:46:39.837695Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-21T11:40:47.406962Z",
+      "s": 2.7
     }
   ]
 }
