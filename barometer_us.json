@@ -1,11 +1,49 @@
 {
   "global_score": 3.0,
-  "rationale": "US Iran sanctions plan continues as confirmed policy action; other events remain unchanged or distant.",
+  "rationale": "Woman charged in New York Capitol plot is a confirmed domestic terrorism arrest; US debt milestone and Iran sanctions rhetoric continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US charges woman for allegedly plotting attack on New York State Capitol",
+      "label": "Woman charged in New York Capitol plot",
+      "summary": "Jessica Bowie, 35, arrested on terrorism charges for allegedly plotting attack on New York State Capitol. Confirmed domestic security action.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/20/us-charges-woman-for-allegedly-plotting-attack-on-new-york-state-capitol?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-20T23:39:28.696759Z"
+    },
+    {
+      "title": "Why the US economy is ringing alarm bells",
+      "label": "US hits debt milestone raising alarm",
+      "summary": "US reaches debt milestone this week, raising economic concerns. Ongoing fiscal pressure without immediate policy change.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T04:01:21.874446Z"
+    },
+    {
       "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "US announces Iran economic collapse plan",
-      "summary": "US Treasury announces aggressive new sanctions designed to collapse Iranian government, requiring allied alignment and potentially affecting oil markets.",
+      "label": "US vows toughest Iran sanctions ever",
+      "summary": "Treasury Secretary announces aggressive Iran sanctions. Rhetoric without confirmed policy enactment; Iran has evaded past sanctions.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -25,44 +63,6 @@
         }
       ],
       "detected_at": "2026-08-20T01:50:54.086014Z"
-    },
-    {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive, along with Ecuador intelligence chief and pilot.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
-    },
-    {
-      "title": "Why the US economy is ringing alarm bells",
-      "label": "US hits debt milestone raising alarm",
-      "summary": "United States reaches significant debt milestone this week, raising concerns about the world's largest economy.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T04:01:21.874446Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-21T04:01:21.874446Z",
+  "updated_at": "2026-08-21T04:03:19.707096Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -300,6 +300,10 @@
     },
     {
       "t": "2026-08-21T04:01:21.874446Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-21T04:03:19.707096Z",
       "s": 3.0
     }
   ]
