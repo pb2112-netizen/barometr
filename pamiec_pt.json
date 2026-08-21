@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-21T22:01:23.420586Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-08-21T22:40:39.384602Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "DRC Ebola outbreak becomes deadliest in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Over 2,500 deaths; epidemic out of control; distant crisis."
     },
     {
       "temat": "Spain allows 500 migrant children to mainland",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 0,
       "opis": "Madrid reverses Ceuta policy; Iberian migration shift."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 0,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "Israel reopens West Bank settlement",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
       "opis": "Thirty families settle defying international protests."
     },
     {
       "temat": "Hong Kong activists convicted under national security law",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Three Tiananmen activists guilty; distant Asian politics."
     },
     {
       "temat": "Sword attack at Swedish school",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Violent attack at EU school; distant security incident."
     },
     {
       "temat": "Over 100 die in Central African goldmine collapse",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Landslide at artisanal mine; distant tragedy."
     },
     {
       "temat": "Panama Canal limits ships due to El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Drought forces canal traffic reduction; shipping impact."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-19T22:40:12.522157Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-19T23:35:04.091723Z",
       "s": 2.0
@@ -268,10 +264,30 @@
     {
       "t": "2026-08-21T22:01:23.412068Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-21T22:40:39.376707Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-21T03:15:49.621528Z",
   "event_detected_at": {
+    "israel re-establishes closed west bank settlement, defying growing international protests": {
+      "detected_at": "2026-08-20T21:42:38.060220Z",
+      "peak_at": "2026-08-21T22:01:23.412068Z",
+      "peak_score_at": "2026-08-20T21:42:38.060220Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
+      "peak_label": "Major EU states condemn Israeli settlements",
+      "peak_summary": "European powers jointly oppose Israeli West Bank expansion, signaling coordinated EU Middle East policy affecting Portugal's diplomatic alignment.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "spain to allow 500 children in ceuta to go to mainland in immigration u-turn": {
       "detected_at": "2026-08-18T17:42:36.027400Z",
       "peak_at": "2026-08-21T07:56:24.265767Z",
@@ -285,22 +301,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
-        }
-      ]
-    },
-    "israel re-establishes closed west bank settlement, defying growing international protests": {
-      "detected_at": "2026-08-20T21:42:38.060220Z",
-      "peak_at": "2026-08-21T22:01:23.412068Z",
-      "peak_score_at": "2026-08-20T21:42:38.060220Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "peak_label": "Major EU states condemn Israeli settlements",
-      "peak_summary": "European powers jointly oppose Israeli West Bank expansion, signaling coordinated EU Middle East policy affecting Portugal's diplomatic alignment.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -450,8 +450,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
     "Israel re-establishes closed West Bank settlement, defying growing international protests",
-    "Ebola vaccine trial to start in DR Congo as warning issued over speed of infections"
+    "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn"
   ]
 }
