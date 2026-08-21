@@ -1,31 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "US deports 20 to Liberia under new deal, expanding third-country deportations; Trump pauses Canada tariffs continues; Alaska crash is domestic but routine accident.",
+  "global_score": 2.7,
+  "rationale": "Canada tariff pause continues as background; deportations and other events remain routine with no new significant policy changes affecting daily life.",
   "top_events": [
     {
-      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports 20 to Liberia under Trump deal",
-      "summary": "First deportations to Liberia under new agreement; expands third-country deportation policy but scale remains limited.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
-        }
-      ],
-      "detected_at": "2026-08-20T15:48:36.002517Z"
-    },
-    {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
-      "label": "Trump delays Canada tariffs hints Keystone revival",
-      "summary": "President pauses 50% tariffs by three days, mentions Keystone XL; continues trade uncertainty without final resolution.",
-      "score": 2.8,
+      "label": "Trump delays Canada tariffs three days",
+      "summary": "President pauses 50% tariffs by three days, hints at Keystone XL revival. Continuation of ongoing trade negotiations.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -41,12 +22,31 @@
       "detected_at": "2026-08-20T21:42:38.064600Z"
     },
     {
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "label": "US deports 20 to Liberia under deal",
+      "summary": "First deportations to Liberia under Trump agreement. Continuation of third-country deportation policy already tracked.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        }
+      ],
+      "detected_at": "2026-08-20T15:48:36.002517Z"
+    },
+    {
       "title": "Eight killed in plane crash at remote Alaskan military site, air force says",
-      "label": "Eight die in Alaska military site plane crash",
-      "summary": "Civilian-contracted plane crashes at remote radar site; tragic but routine accident with no broader security impact.",
+      "label": "Eight killed in Alaska plane crash",
+      "summary": "Civilian plane crashes at remote radar site in Alaska. Routine accident with no broader impact on US security or daily life.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-21T13:09:57.950218Z",
+  "updated_at": "2026-08-21T13:58:04.365772Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-19T13:56:49.943106Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-19T14:52:41.463308Z",
       "s": 2.6
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-21T13:09:57.950218Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-21T13:58:04.365772Z",
+      "s": 2.7
     }
   ]
 }
