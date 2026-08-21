@@ -1,36 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "US Treasury announces aggressive Iran sanctions plan requiring allied alignment, representing major foreign policy action, while FBI arrests woman for alleged New York capitol bombing plot. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "FBI arrests woman for alleged New York capitol bombing plot — domestic terrorism arrest with confirmed action (arrest made), not rhetoric; continuation of homeland security concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "US Treasury launches Iran economic collapse plan",
-      "summary": "Treasury announces aggressive sanctions aimed at collapsing Iranian government, requiring allied alignment in major foreign policy action beyond previous rhetoric.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/21/iran-war-live-us-vows-toughest-iran-sanctions-urges-china-support?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T01:50:54.086014Z"
-    },
     {
       "title": "FBI arrests woman over alleged plot to bomb New York capitol building",
       "label": "FBI arrests woman in NY capitol bomb plot",
-      "summary": "FBI arrests Albany woman who allegedly pledged allegiance to Islamic State and planned to bomb state capitol to kill lawmakers.",
-      "score": 2.9,
+      "summary": "Albany woman charged with pledging allegiance to ISIS and plotting statehouse attack. Domestic terrorism arrest signals ongoing homeland security threat.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -53,8 +29,8 @@
     {
       "title": "Trump pauses Canada tariffs threat, and hints at revival of Keystone XL pipeline",
       "label": "Trump delays Canada tariffs three days",
-      "summary": "President pauses 50% tariffs on Canada by three days and hints at reviving Keystone XL pipeline, continuing trade policy uncertainty.",
-      "score": 2.8,
+      "summary": "President pauses 50% tariffs by three days, hints at Keystone XL revival. Continuation of trade rhetoric with temporary delay, no final policy change.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -68,6 +44,25 @@
         }
       ],
       "detected_at": "2026-08-20T21:42:38.064600Z"
+    },
+    {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Safari helicopter crash kills five US citizens including Telemundo executive. Tragic accident with no broader policy or security implications.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
   "short_summary": "FBI raids Swalwell home in misconduct probe",
@@ -75,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-21T01:56:57.853799Z",
+  "updated_at": "2026-08-21T03:15:49.625877Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -95,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-20T18:58:40.789457Z",
   "score_history": [
-    {
-      "t": "2026-08-19T03:10:39.555380Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-19T03:57:53.504354Z",
       "s": 3.0
@@ -310,6 +301,10 @@
     {
       "t": "2026-08-21T01:56:57.853799Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-21T03:15:49.625877Z",
+      "s": 2.8
     }
   ]
 }
