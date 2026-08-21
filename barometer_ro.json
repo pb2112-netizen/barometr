@@ -1,11 +1,11 @@
 {
-  "global_score": 2.6,
-  "rationale": "Continuation of known situations: West Bank settlements, Iran sanctions rhetoric, El Niño warnings. Panama Canal shipping limits are a new development with mild indirect economic impact.",
+  "global_score": 2.5,
+  "rationale": "European condemnation of Israeli settlements (Romania included); Panama Canal restrictions may affect Black Sea shipping routes; other events distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "label": "EU allies condemn Israel West Bank expansion",
-      "summary": "Major European allies condemn Israeli settlement expansion, continuing diplomatic pressure without direct impact on Romania.",
+      "label": "Europe condemns Israel West Bank settlement plans",
+      "summary": "Romania joins EU diplomatic pressure on Israel over settlement expansion, reflecting coordinated European foreign policy stance.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-20T21:42:38.058242Z"
     },
     {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "Trump threatens Iran economic collapse plan",
-      "summary": "US rhetoric on Iran sanctions continues without new enacted measures; no immediate change to Romanian energy or security situation.",
-      "score": 2.3,
-      "sentiment": "neutral",
+      "title": "Panama Canal to cut number of ships passing through due to El Niño",
+      "label": "Panama Canal reduces traffic due to El Niño",
+      "summary": "Drought-driven canal restrictions may indirectly affect Romanian shipping costs and Black Sea trade routes.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T07:56:24.263787Z"
+    },
+    {
+      "title": "Hong Kong's Tiananmen activists guilty in national security trial",
+      "label": "Hong Kong convicts Tiananmen activists under security law",
+      "summary": "Distant legal precedent in China-controlled Hong Kong; no direct impact on Romanian daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,34 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-19T13:56:49.936901Z"
-    },
-    {
-      "title": "Panama Canal to cut number of ships passing through due to El Niño",
-      "label": "Panama Canal limits ships due to drought",
-      "summary": "El Niño-driven drought forces canal traffic reduction, potentially affecting global shipping costs with mild indirect impact on Romanian imports.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T07:56:24.263787Z"
+      "detected_at": "2026-08-21T08:57:47.847743Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war raise EU energy prices",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-21T07:56:24.263787Z",
+  "updated_at": "2026-08-21T08:57:47.847743Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T09:49:55.919345Z",
   "score_history": [
-    {
-      "t": "2026-08-19T08:53:52.947318Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-19T09:48:37.905242Z",
       "s": 2.8
@@ -305,6 +296,10 @@
     {
       "t": "2026-08-21T07:56:24.263787Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-21T08:57:47.847743Z",
+      "s": 2.5
     }
   ]
 }

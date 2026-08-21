@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Continuation of known situations: West Bank settlement expansion (already tracked), Iran sanctions rhetoric (no new action), El Niño warnings (ongoing). No qualitative change affecting Poland this cycle.",
+  "global_score": 2.8,
+  "rationale": "West Bank settlement expansion continues with European condemnation (Poland included); Panama Canal restrictions may indirectly affect shipping costs; other events distant.",
   "top_events": [
     {
       "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "label": "EU allies condemn Israel West Bank settlements",
-      "summary": "Major European allies condemn Israeli settlement expansion in occupied West Bank, continuing diplomatic pressure without new policy impact on Poland.",
-      "score": 2.1,
+      "label": "Europe condemns Israel West Bank settlement expansion",
+      "summary": "Poland joins major EU allies in condemning Israeli settlement plans in occupied territory, signaling coordinated European diplomatic stance.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,47 +22,42 @@
       "detected_at": "2026-08-20T21:42:38.056275Z"
     },
     {
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "label": "Trump threatens Iran economic collapse plan",
-      "summary": "US rhetoric on Iran sanctions continues without new enacted measures; no immediate change to Polish energy or security situation.",
-      "score": 2.5,
-      "sentiment": "neutral",
+      "title": "Panama Canal to cut number of ships passing through due to El Niño",
+      "label": "Panama Canal cuts ship traffic due to drought",
+      "summary": "El Niño-driven drought forces canal operator to reduce traffic, potentially raising shipping costs for Polish imports and exports.",
+      "score": 2.8,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-20T01:50:54.080365Z"
-    },
-    {
-      "title": "Panama Canal to cut number of ships passing through due to El Niño",
-      "label": "Panama Canal limits ships due to drought",
-      "summary": "El Niño-driven drought forces canal traffic reduction, potentially affecting global shipping costs with mild indirect impact on Polish imports.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-21T07:56:24.261499Z"
+    },
+    {
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "label": "CAR goldmine collapse kills over 100 miners",
+      "summary": "Distant mining disaster in Central Africa with no direct link to Poland; humanitarian tragedy but no impact on daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
+        }
+      ],
+      "detected_at": "2026-08-20T13:11:00.056026Z"
     }
   ],
   "short_summary": "Heatwaves and Iran war drive EU energy costs",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-21T07:56:24.261499Z",
+  "updated_at": "2026-08-21T08:57:47.845940Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-20T10:46:27.332052Z",
   "score_history": [
-    {
-      "t": "2026-08-19T08:53:52.945910Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-19T09:48:37.903357Z",
       "s": 2.6
@@ -305,6 +296,10 @@
     {
       "t": "2026-08-21T07:56:24.261499Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-21T08:57:47.845940Z",
+      "s": 2.8
     }
   ]
 }
