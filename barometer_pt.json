@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Canada tariff war continues with 50% levy enacted, creating EU economic uncertainty; distant events in Africa and elsewhere have minimal Portuguese impact.",
+  "global_score": 3.2,
+  "rationale": "US-Canada tariff war continues; Spain immigration U-turn on Ceuta children affects Iberian migration policy; distant events otherwise.",
   "top_events": [
     {
       "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-      "label": "Canada matches US 50% tariffs after talks fail",
-      "summary": "Trade war escalates with 50% levy on $20bn imports, creating uncertainty for EU exports and Portuguese economic ties to North America.",
-      "score": 3.0,
+      "label": "Canada matches US tariffs after talks fail",
+      "summary": "50% levy on $20bn Canadian imports takes effect. Creates EU economic uncertainty affecting Portuguese export competitiveness and Atlantic trade.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -27,12 +27,31 @@
       "detected_at": "2026-08-22T03:06:42.851565Z"
     },
     {
+      "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
+      "label": "Spain allows Ceuta migrant children to mainland",
+      "summary": "Madrid reverses policy, permitting 500 children who entered illegally to move to mainland. Significant Iberian migration policy shift affecting regional approach.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+        }
+      ],
+      "detected_at": "2026-08-18T17:42:36.027400Z"
+    },
+    {
       "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-      "label": "DRC Ebola outbreak deadliest in history",
-      "summary": "At least 2,325 deaths in distant African health crisis; minimal direct impact on Portugal but signals global health risks.",
+      "label": "DRC Ebola outbreak deadliest ever recorded",
+      "summary": "At least 2,325 deaths confirmed in ongoing outbreak. Distant African health crisis with no direct Portuguese impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian",
@@ -49,35 +68,16 @@
         }
       ],
       "detected_at": "2026-08-20T20:45:46.143479Z"
-    },
-    {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "Goldmine collapse kills over 100 in CAR",
-      "summary": "Landslide at artisanal goldmine causes mass casualties in distant African tragedy with no direct Portuguese impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ],
-      "detected_at": "2026-08-22T13:00:03.975119Z"
     }
   ],
   "short_summary": "Spain reverses Ceuta child migration policy",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-22T13:00:03.975119Z",
+  "updated_at": "2026-08-22T13:44:20.589293Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Spain reverses Ceuta child migration policy",
     "summary": "Madrid U-turns on immigration stance, allowing 500 children to mainland. Reflects shifting Iberian migration policy with potential spillover to Portugal.",
@@ -95,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-18T17:42:36.027400Z",
   "score_history": [
-    {
-      "t": "2026-08-20T13:11:00.058392Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-20T13:58:45.806562Z",
       "s": 2.6
@@ -314,6 +310,10 @@
     {
       "t": "2026-08-22T13:00:03.975119Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-22T13:44:20.589293Z",
+      "s": 3.2
     }
   ]
 }
