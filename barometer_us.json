@@ -1,31 +1,36 @@
 {
-  "global_score": 2.6,
-  "rationale": "US-Canada tariff war continues at same level; no new policy change beyond existing 50% levy already enacted and in background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "US enacts 50% tariffs on Canadian goods affecting $20bn in imports and consumer prices; TikTok settlement continues; deportation policy actions ongoing; other events distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-      "label": "Canada matches US tariffs after talks fail",
-      "summary": "Trade war continues with 50% levy on Canadian imports; affects consumer prices and cross-border economy without new escalation.",
-      "score": 2.3,
+      "label": "US enacts 50% tariffs on Canadian goods",
+      "summary": "New 50% levy on $20bn of Canadian imports takes effect after trade talks collapse, directly affecting US economy and consumer prices.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
       "detected_at": "2026-08-20T21:42:38.064600Z"
     },
     {
       "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports first 20 migrants to Liberia",
-      "summary": "First of 1,200 deportees under new agreement; Trump immigration crackdown continues with third-country removals.",
-      "score": 2.6,
+      "label": "US deports 20 to Liberia under new deal",
+      "summary": "First 20 of 1,200 deportees arrive in Liberia under new agreement, continuing Trump administration immigration crackdown policy.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,12 +47,12 @@
     },
     {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m child privacy settlement",
-      "summary": "Major settlement over data collection on under-13 users; significant tech policy enforcement action.",
-      "score": 2.6,
+      "label": "TikTok pays $400m in child privacy settlement",
+      "summary": "Major settlement over data collection on under-13 users; ByteDance resolves 2024 lawsuit in one of largest privacy cases.",
+      "score": 2.5,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T11:34:18.930726Z",
+  "updated_at": "2026-08-22T13:00:03.978838Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "score_history": [
-    {
-      "t": "2026-08-20T11:41:39.427988Z",
-      "s": 2.2
-    },
     {
       "t": "2026-08-20T13:11:00.060853Z",
       "s": 2.1
@@ -304,6 +305,10 @@
     {
       "t": "2026-08-22T11:34:18.930726Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-22T13:00:03.978838Z",
+      "s": 2.5
     }
   ]
 }

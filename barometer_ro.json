@@ -1,31 +1,36 @@
 {
   "global_score": 3.0,
-  "rationale": "US-Canada tariff war continues without new escalation; no fresh developments affecting Romanian economy or Black Sea security beyond existing background. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada tariff war continues with enacted 50% levy, threatening EU economic stability; ongoing Ukraine conflict near Black Sea region; distant events have minimal Romanian impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-      "label": "Canada matches US tariffs after talks fail",
-      "summary": "Trade war continues with 50% levy; threatens EU economic stability and Romanian export sectors through broader transatlantic uncertainty.",
+      "label": "Canada matches US 50% tariffs after talks fail",
+      "summary": "Trade war escalates with 50% levy on $20bn imports, creating uncertainty for EU exports and Romanian economic ties to North America.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
       "detected_at": "2026-08-22T01:49:45.499999Z"
     },
     {
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-      "label": "Ukraine mall strike rescue continues",
-      "summary": "Nine still missing after Russian strike; ongoing civilian targeting maintains regional security concern near Black Sea.",
-      "score": 2.7,
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "label": "Ukraine mall strike kills 16, injures 130",
+      "summary": "Russian attack on civilian shopping center continues pattern of strikes in Black Sea region, maintaining security concerns for Romania.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,23 +46,28 @@
       "detected_at": "2026-08-21T18:55:38.892746Z"
     },
     {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "Goldmine collapse kills over 100 in CAR",
-      "summary": "Landslide at artisanal mine; distant African tragedy with no direct link to Romanian daily life.",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "label": "DRC Ebola outbreak deadliest in history",
+      "summary": "At least 2,325 deaths in distant African health crisis; minimal direct impact on Romania but signals global health risks.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-22T07:45:14.076199Z"
+      "detected_at": "2026-08-20T20:45:46.142133Z"
     }
   ],
   "short_summary": "Russian drone strike kills 15 at Ukraine mall",
@@ -65,14 +75,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-22T11:34:18.924742Z",
+  "updated_at": "2026-08-22T13:00:03.973157Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian drone strike kills 15 at Ukraine mall",
     "summary": "Deliberate double-tap attack on civilian shopping center in Kryvyi Rih killed 15 and injured 130, including 23 children. War continues in Black Sea neighbor.",
     "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.892746Z",
     "peak_at": "2026-08-21T19:36:36.213581Z",
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.892746Z",
   "score_history": [
-    {
-      "t": "2026-08-20T11:41:39.423961Z",
-      "s": 4.0
-    },
     {
       "t": "2026-08-20T13:11:00.057274Z",
       "s": 3.9
@@ -307,6 +313,10 @@
     },
     {
       "t": "2026-08-22T11:34:18.924742Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-22T13:00:03.973157Z",
       "s": 3.0
     }
   ]

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-22T11:34:18.939076Z",
+  "updated_at": "2026-08-22T13:00:03.981530Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian drone strike on Ukrainian shopping mall",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 20,
       "opis": "Deliberate civilian target strike; 15 dead, 130 injured."
     },
     {
       "temat": "US-Canada trade war with 50% tariffs",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 8,
       "opis": "Major tariffs threaten EU economic stability and exports."
+    },
+    {
+      "temat": "DRC Ebola outbreak deadliest in history",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Over 2,325 deaths; distant African health crisis."
+    },
+    {
+      "temat": "US-Canada 50% tariff war escalates",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 9,
+      "opis": "New levy enacted; threatens EU economic stability and."
     },
     {
       "temat": "Goldmine collapse in Central African Republic",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Over 100 dead in landslide; distant African tragedy."
-    },
-    {
-      "temat": "US-Canada 50% tariff war escalates",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 8,
-      "opis": "New levy enacted; threatens EU economic stability and."
     },
     {
       "temat": "US judge blocks Trump immigrant visa ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Federal ruling against visa suspension; distant US policy."
     },
     {
       "temat": "Canada Sikh temple stabbing attack",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Two injured in suspected hate crime; distant incident."
     },
     {
       "temat": "TikTok $400m US child privacy settlement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "ByteDance settles data collection lawsuit; policy signal."
-    },
-    {
-      "temat": "Israel reopens West Bank settlement",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "Thirty families settle defying international protests."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-20T11:41:39.423961Z",
-      "s": 4.0
-    },
     {
       "t": "2026-08-20T13:11:00.057274Z",
       "s": 3.9
@@ -272,6 +268,10 @@
     {
       "t": "2026-08-22T11:34:18.924742Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-22T13:00:03.973157Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.892746Z",
@@ -300,11 +300,11 @@
         }
       ]
     },
-    "rescuers dig through ukraine mall wreckage as zelensky condemns 'despicable' strike": {
+    "rescuers dig through ukraine mall wreckage as zelensky condemns 'despicable' russian strike": {
       "detected_at": "2026-08-21T18:55:38.892746Z",
       "peak_at": "2026-08-21T19:36:36.213581Z",
       "peak_score_at": "2026-08-21T19:36:36.213581Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "negative",
       "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
       "peak_label": "Russian drone strike kills 15 at Ukraine mall",
@@ -317,6 +317,26 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss"
+        }
+      ]
+    },
+    "ebola outbreak in democratic republic of the congo now deadliest in country's history": {
+      "detected_at": "2026-08-20T20:45:46.142133Z",
+      "peak_at": "2026-08-21T15:47:42.739283Z",
+      "peak_score_at": "2026-08-21T15:47:42.739283Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
+      "peak_label": "DRC Ebola outbreak becomes country's deadliest ever",
+      "peak_summary": "Over 2,500 deaths recorded in DRC Ebola outbreak, now the deadliest in the country's history, though geographically distant from Romania.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
         }
       ]
     },
@@ -452,42 +472,6 @@
         }
       ]
     },
-    "ebola vaccine trial to start in dr congo as warning issued over speed of infections": {
-      "detected_at": "2026-08-20T20:45:46.142133Z",
-      "peak_at": "2026-08-21T15:47:42.739283Z",
-      "peak_score_at": "2026-08-21T15:47:42.739283Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history",
-      "peak_label": "DRC Ebola outbreak becomes country's deadliest ever",
-      "peak_summary": "Over 2,500 deaths recorded in DRC Ebola outbreak, now the deadliest in the country's history, though geographically distant from Romania.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/ebola-outbreak-growing-faster-%e2%81%a0%e2%81%a0wider-as-drc-death-toll-passes-2500-un?traffic_source=rss"
-        }
-      ]
-    },
-    "rosenberg: shortage of petrol but not patriotism as russians feel growing impact of war": {
-      "detected_at": "2026-08-21T11:40:47.408941Z",
-      "peak_at": "2026-08-21T11:40:47.408941Z",
-      "peak_score_at": "2026-08-21T11:40:47.408941Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "neutral",
-      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "peak_label": "Fuel shortages hit Russia as war impact grows",
-      "peak_summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in neighboring Black Sea region but no direct spillover to Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "war on iran: the us could focus on economically isolating iran": {
       "detected_at": "2026-08-21T14:53:13.735149Z",
       "peak_at": "2026-08-21T14:53:13.735149Z",
@@ -523,7 +507,7 @@
   },
   "prev_top_event_titles": [
     "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-    "More than 100 dead after goldmine collapses in Central African Republic"
+    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "Ebola outbreak in Democratic Republic of the Congo now deadliest in country's history"
   ]
 }

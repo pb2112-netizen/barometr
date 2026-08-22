@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-22T11:34:18.943063Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-08-22T13:00:03.984443Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian drone strike on Kryvyi Rih shopping mall",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 20,
       "opis": "Double-tap strike on civilian mall; 15 dead, 130 injured."
     },
     {
       "temat": "Myanmar military bombs Buddhist monastery",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Airstrike kills 14 at religious retreat; distant Asian."
     },
     {
       "temat": "Ukraine sanctions Russian cartoon Masha and Bear",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Zelenskyy signs decree; cultural policy in information war."
     },
     {
       "temat": "US-Canada trade war with 50% tariffs",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 8,
       "opis": "Major tariffs; potential indirect effects on Western aid."
     },
     {
       "temat": "Western allies condemn Israel aid worker probe refusal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "UK, Canada, Australia criticize Israel over 2024 strike."
     },
     {
       "temat": "Israel reopens West Bank settlement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Thirty families settle defying international protests."
     },
     {
       "temat": "Hong Kong activists convicted under national security law",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Three Tiananmen activists guilty; distant Asian politics."
     },
     {
       "temat": "Germany investigates Russian assassination weapons cache",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Weapons found in German woods linked to Russian operations."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-20T11:41:39.426301Z",
-      "s": 4.9
-    },
     {
       "t": "2026-08-20T13:11:00.059400Z",
       "s": 4.8
@@ -272,15 +268,19 @@
     {
       "t": "2026-08-22T11:34:18.928603Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-22T13:00:03.976817Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
   "event_detected_at": {
-    "rescuers dig through ukraine mall wreckage as zelensky condemns 'despicable' strike": {
+    "rescuers dig through ukraine mall wreckage as zelensky condemns 'despicable' russian strike": {
       "detected_at": "2026-08-21T18:55:38.896853Z",
       "peak_at": "2026-08-21T19:36:36.216752Z",
       "peak_score_at": "2026-08-21T19:36:36.216752Z",
-      "peak_score": 6.6,
+      "peak_score": 6.5,
       "peak_sentiment": "negative",
       "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
       "peak_label": "Russian drone kills 15 at Kryvyi Rih mall",
@@ -296,11 +296,27 @@
         }
       ]
     },
+    "russian strikes kill 6 people in ukraine, day after shopping complex attack": {
+      "detected_at": "2026-08-21T15:47:42.744276Z",
+      "peak_at": "2026-08-22T13:00:03.976817Z",
+      "peak_score_at": "2026-08-22T13:00:03.976817Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
+      "peak_label": "Russian strikes kill six more in Ukraine",
+      "peak_summary": "Additional Russian attacks kill six people across Ukraine, continuing pattern of strikes on civilian areas day after mall attack.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack?traffic_source=rss"
+        }
+      ]
+    },
     "canada says it will match us tariffs 'dollar for dollar' as trade talks break down": {
       "detected_at": "2026-08-22T03:06:42.853006Z",
       "peak_at": "2026-08-22T05:41:28.618506Z",
       "peak_score_at": "2026-08-22T05:41:28.618506Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
       "peak_label": "US imposes 50% tariffs on Canadian goods",
@@ -420,38 +436,6 @@
         }
       ]
     },
-    "ukraine sanctions popular russian cartoon 'masha and the bear'": {
-      "detected_at": "2026-08-21T15:47:42.744276Z",
-      "peak_at": "2026-08-21T17:44:04.720342Z",
-      "peak_score_at": "2026-08-21T17:44:04.720342Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "neutral",
-      "title": "Ukraine sanctions popular Russian cartoon 'Masha and the Bear'",
-      "peak_label": "Ukraine sanctions Russian cartoon Masha and Bear",
-      "peak_summary": "Zelenskyy signs decree sanctioning cartoon producers for spreading pro-Russian propaganda. New cultural policy action in information war.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/ukraine-sanctions-popular-russian-cartoon-masha-and-the?traffic_source=rss"
-        }
-      ]
-    },
-    "rosenberg: shortage of petrol but not patriotism as russians feel growing impact of war": {
-      "detected_at": "2026-08-21T11:40:47.411982Z",
-      "peak_at": "2026-08-21T11:40:47.411982Z",
-      "peak_score_at": "2026-08-21T11:40:47.411982Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "positive",
-      "title": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
-      "peak_label": "Fuel shortages hit Russia as war impact grows",
-      "peak_summary": "Russians wait hours in fuel queues as war strains economy. Signals resource pressure in aggressor state but no direct battlefield change for Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "ebola vaccine trial to start in dr congo as warning issued over speed of infections": {
       "detected_at": "2026-08-21T15:47:42.744276Z",
       "peak_at": "2026-08-21T15:47:42.744276Z",
@@ -523,27 +507,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "russia says ready for 'new ideas' on ukraine war that match putin's goals": {
-      "detected_at": "2026-08-21T11:40:47.411982Z",
-      "peak_at": "2026-08-21T11:40:47.411982Z",
-      "peak_score_at": "2026-08-21T11:40:47.411982Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia says ready for 'new ideas' on Ukraine war that match Putin's goals",
-      "peak_label": "Russia signals readiness for talks on Putin terms",
-      "peak_summary": "Deputy FM suggests Moscow eager for US to revive support for Russian agenda. Rhetoric without confirmed action; continues known negotiation posture.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/21/russia-ready-for-new-ideas-on-ukraine-war-that-match-putins-goals?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-    "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza"
+    "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+    "Russian strikes kill 6 people in Ukraine, day after shopping complex attack",
+    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down"
   ]
 }
