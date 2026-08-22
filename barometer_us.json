@@ -1,16 +1,53 @@
 {
-  "global_score": 3.6,
-  "short_summary": "TikTok pays $400m child privacy settlement",
-  "rationale": "TikTok settlement continues as major child privacy enforcement action; other headlines represent ongoing negotiations or distant events without confirmed US policy impact.",
+  "global_score": 3.4,
+  "rationale": "US enacts 50% tariffs on Canada after failed negotiations, escalating major trade war with immediate economic impact on American consumers and businesses. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "US imposes 50% tariffs on $20bn worth of Canadian goods after talks fail",
+      "label": "US imposes 50% tariffs on Canada",
+      "summary": "Trump administration enacts major tariffs on $20bn Canadian goods after negotiations collapse. Direct impact on US consumer prices, supply chains, and business costs.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-22T04:48:12.013758Z"
+    },
+    {
+      "title": "Canada vows to match Trump's 50% tariffs after trade deal talks fail",
+      "label": "Canada vows retaliatory tariffs on US",
+      "summary": "Canadian PM promises dollar-for-dollar retaliation, escalating trade war. Will directly affect US exports, jobs, and cross-border commerce.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        }
+      ],
+      "detected_at": "2026-08-20T21:42:38.064600Z"
+    },
     {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
       "label": "TikTok pays $400m child privacy settlement",
-      "summary": "Major settlement over data collection on under-13 users represents significant enforcement action on tech platform accountability and child protection.",
-      "score": 3.6,
+      "summary": "Major settlement over data collection on under-13 users. Continuation of existing case with payment now finalized, affecting tech regulation landscape.",
+      "score": 3.4,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -21,53 +58,16 @@
         }
       ],
       "detected_at": "2026-08-22T01:49:45.505633Z"
-    },
-    {
-      "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
-      "label": "Judge blocks Trump immigrant visa ban",
-      "summary": "Federal court ruling against State Department visa suspension represents judicial check on executive immigration policy affecting 75 countries.",
-      "score": 3.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-22T03:55:51.709223Z"
-    },
-    {
-      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
-      "label": "Canada-US trade talks approach deadline",
-      "summary": "Ongoing negotiations without confirmed outcome represent rhetoric rather than enacted policy change affecting US economy or trade.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-22T01:49:45.505633Z"
     }
   ],
+  "short_summary": "TikTok pays $400m child privacy settlement",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T04:00:47.856957Z",
+  "updated_at": "2026-08-22T04:48:12.013758Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "TikTok pays $400m child privacy settlement",
     "summary": "ByteDance settles 2024 lawsuit over collecting data on millions of under-13 US users—major confirmed regulatory action affecting American families and tech policy.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-22T01:49:45.505633Z",
   "score_history": [
-    {
-      "t": "2026-08-20T04:00:49.398265Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-20T04:52:11.239617Z",
       "s": 2.7
@@ -304,6 +300,10 @@
     {
       "t": "2026-08-22T04:00:47.856957Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-22T04:48:12.013758Z",
+      "s": 3.4
     }
   ]
 }

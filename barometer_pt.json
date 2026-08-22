@@ -1,13 +1,31 @@
 {
-  "global_score": 2.1,
-  "short_summary": "US national debt surpasses $40 trillion milestone",
-  "rationale": "US debt milestone continues as background economic signal; Spain migration policy shift affects Iberian neighbor but represents continuation of existing situation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US-Canada trade war escalates with enacted tariffs, creating uncertainty for EU economy and Portuguese exports; Spain migration policy shift continues. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "US imposes 50% tariffs on $20bn worth of Canadian goods after talks fail",
+      "label": "US imposes 50% tariffs on Canada",
+      "summary": "Major trade conflict erupts as US enacts tariffs on Canada. Creates economic uncertainty for EU markets and Portuguese export sectors.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-22T04:48:12.008977Z"
+    },
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
       "label": "Spain allows Ceuta migrant children to mainland",
-      "summary": "Madrid reverses policy on 500 children in Ceuta, continuing Iberian migration management shifts that indirectly affect Portugal's regional context.",
-      "score": 2.1,
+      "summary": "Madrid reverses policy, allowing 500 children from Ceuta to mainland. Signals shift in Iberian migration approach with regional implications.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,51 +41,33 @@
       "detected_at": "2026-08-18T17:42:36.027400Z"
     },
     {
-      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m US privacy settlement",
-      "summary": "Major tech settlement signals global regulatory trend on data protection, with distant implications for Portugal.",
+      "title": "Canada vows to match Trump's 50% tariffs after trade deal talks fail",
+      "label": "Canada promises retaliatory tariffs on US",
+      "summary": "Canadian PM vows dollar-for-dollar retaliation, deepening North American trade war with potential spillover effects on EU and Portuguese economy.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-22T01:49:45.501779Z"
-    },
-    {
-      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
-      "label": "Canada-US trade talks near deadline",
-      "summary": "Ongoing negotiations between North American partners represent rhetoric without confirmed outcome, minimal impact on Portuguese economy.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
       "detected_at": "2026-08-22T03:06:42.851565Z"
     }
   ],
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "US national debt surpasses $40 trillion milestone",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-22T04:00:47.852577Z",
+  "updated_at": "2026-08-22T04:48:12.008977Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US national debt surpasses $40 trillion milestone",
     "summary": "US debt crosses $40 trillion for first time, growing rapidly. May have indirect effects on global markets and EU economy over time.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-21T23:37:33.990219Z",
   "score_history": [
-    {
-      "t": "2026-08-20T04:00:49.396365Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-20T04:52:11.236274Z",
       "s": 2.6
@@ -304,6 +300,10 @@
     {
       "t": "2026-08-22T04:00:47.852577Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-22T04:48:12.008977Z",
+      "s": 3.0
     }
   ]
 }

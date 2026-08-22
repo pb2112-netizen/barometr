@@ -1,13 +1,31 @@
 {
-  "global_score": 3.8,
-  "short_summary": "Russian drone strike kills 15 at Ukraine mall",
-  "rationale": "Continuation of Russian strikes on Ukraine maintains regional security concern; no qualitative change from Polish perspective.",
+  "global_score": 3.6,
+  "rationale": "US-Canada trade war escalates with 50% tariffs enacted, threatening EU trade stability and Polish exports; ongoing Ukraine strikes continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "US imposes 50% tariffs on $20bn worth of Canadian goods after talks fail",
+      "label": "US imposes 50% tariffs on Canadian goods",
+      "summary": "Trade war escalates as US enacts major tariffs on Canada after failed negotiations. Threatens broader EU-US trade stability and Polish export sectors.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-22T04:48:12.003806Z"
+    },
     {
       "title": "Russian strikes on Ukraine kill two, officials say, a day after deadly attack on mall",
       "label": "Russian strikes kill two in Ukraine",
-      "summary": "Ongoing Russian attacks on Ukrainian civilians continue regional security threat near Poland's eastern border, maintaining existing tension without qualitative escalation.",
-      "score": 3.8,
+      "summary": "Continuation of Russian attacks on Ukraine following yesterday's mall strike. No qualitative change to ongoing conflict affecting Polish border security.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,56 +41,38 @@
       "detected_at": "2026-08-21T18:55:38.890561Z"
     },
     {
-      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m US child privacy settlement",
-      "summary": "Major tech privacy settlement signals regulatory tightening on data collection, with indirect implications for EU digital policy framework.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "title": "Canada vows to match Trump's 50% tariffs after trade deal talks fail",
+      "label": "Canada vows retaliatory tariffs on US",
+      "summary": "Canadian PM promises dollar-for-dollar retaliation, deepening North American trade conflict with potential spillover to EU markets and Polish economy.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
       "detected_at": "2026-08-22T01:49:45.498147Z"
-    },
-    {
-      "title": "One killed in sword attack at Swedish school",
-      "label": "Sword attack kills one at Swedish school",
-      "summary": "Violent incident at EU member school continues pattern of regional security concerns, though geographically distant from Poland.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T14:53:13.732610Z"
     }
   ],
+  "short_summary": "Russian drone strike kills 15 at Ukraine mall",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-22T04:00:47.849172Z",
+  "updated_at": "2026-08-22T04:48:12.003806Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian drone strike kills 15 at Ukraine mall",
     "summary": "Deliberate double-tap attack on civilian shopping center in Kryvyi Rih killed 15 and injured 130, including 23 children. Ongoing war spillover risk near Poland's eastern border.",
     "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "score": 5.5,
+    "score": 5.4,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.890561Z",
     "peak_at": "2026-08-21T19:36:36.211361Z",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.890561Z",
   "score_history": [
-    {
-      "t": "2026-08-20T04:00:49.394862Z",
-      "s": 4.0
-    },
     {
       "t": "2026-08-20T04:52:11.233763Z",
       "s": 3.9
@@ -308,6 +304,10 @@
     {
       "t": "2026-08-22T04:00:47.849172Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-22T04:48:12.003806Z",
+      "s": 3.6
     }
   ]
 }
