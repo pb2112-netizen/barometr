@@ -1,22 +1,27 @@
 {
-  "global_score": 2.9,
-  "rationale": "US-Canada tariff war continues at 50% with talks collapsed; TikTok settlement and Liberia deportations are ongoing policy actions. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "US-Canada tariff war continues with 50% levy enacted; domestic policy actions on immigration and privacy settlements; distant events have minimal US impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-      "label": "US-Canada 50% tariffs take effect after talks fail",
-      "summary": "Trade negotiations collapse as 50% levy on $20bn Canadian imports takes effect, affecting US economy and consumer prices with retaliatory Canadian tariffs.",
-      "score": 2.6,
+      "label": "Canada vows to match US 50% tariffs",
+      "summary": "US enacts 50% tariffs on $20bn Canadian imports after last-minute trade talks collapse. Canada promises dollar-for-dollar retaliation, affecting US economy and consumer prices.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
       "detected_at": "2026-08-20T21:42:38.064600Z"
@@ -24,8 +29,8 @@
     {
       "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
       "label": "US deports first 20 migrants to Liberia",
-      "summary": "First deportees arrive in Liberia under new agreement, part of Trump administration's immigration crackdown targeting 1,200 migrants.",
-      "score": 2.9,
+      "summary": "First 20 of 1,200 deportees arrive in Liberia under new Trump administration agreement. Part of broader immigration crackdown with third-country deportation deals.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,12 +47,12 @@
     },
     {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m in child privacy settlement",
-      "summary": "Major settlement over data collection on under-13 users; ByteDance resolves 2024 lawsuit in one of largest child privacy cases.",
-      "score": 2.9,
+      "label": "TikTok pays $400m child privacy settlement",
+      "summary": "ByteDance settles 2024 lawsuit over data collection on millions of users under 13. One of largest child privacy settlements in US history.",
+      "score": 2.8,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
@@ -60,39 +65,31 @@
       "detected_at": "2026-08-22T01:49:45.505633Z"
     }
   ],
-  "short_summary": "TikTok pays $400m child privacy settlement",
+  "short_summary": "Judge blocks Trump visa ban for 75 countries",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T09:41:21.450645Z",
+  "updated_at": "2026-08-22T10:01:26.036065Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "TikTok pays $400m child privacy settlement",
-    "summary": "ByteDance settles 2024 lawsuit over collecting data on millions of under-13 US users—major confirmed regulatory action affecting American families and tech policy.",
-    "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+    "label": "Judge blocks Trump visa ban for 75 countries",
+    "summary": "Federal judge in Manhattan rules against State Department's suspension of immigrant visas. Significant domestic policy development affecting immigration.",
+    "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
     "score": 3.8,
     "sentiment": "positive",
-    "detected_at": "2026-08-22T01:49:45.505633Z",
-    "peak_at": "2026-08-22T01:49:45.505633Z",
+    "detected_at": "2026-08-22T03:55:51.709223Z",
+    "peak_at": "2026-08-22T05:41:28.621699Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-22T01:49:45.505633Z",
+  "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "score_history": [
-    {
-      "t": "2026-08-20T09:49:55.923167Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-08-20T10:00:50.374665Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-20T10:46:27.337286Z",
       "s": 2.3
@@ -304,6 +301,10 @@
     {
       "t": "2026-08-22T09:41:21.450645Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-22T10:01:26.036065Z",
+      "s": 2.8
     }
   ]
 }
