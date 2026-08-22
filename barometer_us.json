@@ -1,35 +1,49 @@
 {
-  "global_score": 2.8,
-  "rationale": "US-Canada tariff war escalates with Canada's formal retaliation announcement; direct impact on US economy and consumer prices as trade conflict intensifies. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliation; confirmed action affecting US economy, consumer prices, and jobs after trade talks collapse. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "Canada announces dollar-for-dollar tariff retaliation",
-      "summary": "Canada formally announces retaliatory tariffs starting September 8 after US imposed 50% levies on $20bn goods; escalates trade war affecting US jobs and prices.",
-      "score": 2.8,
+      "label": "US enacts tariffs, Canada retaliates immediately",
+      "summary": "US implements 50% tariffs on Canadian goods; Canada announces matching retaliation after trade talks collapse. Direct impact on US economy, consumer prices, and jobs.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian",
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-20T21:42:38.064600Z"
     },
     {
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "label": "Five Americans die in Kenya helicopter crash",
+      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Tragic accident; no broader impact on US daily life or policy.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ],
+      "detected_at": "2026-08-19T18:52:36.576877Z"
+    },
+    {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok settles $400m child privacy case",
-      "summary": "Major settlement over data collection on under-13 users; continuation of known lawsuit from 2024 with no new policy impact this cycle.",
+      "label": "TikTok settles child privacy case for $400m",
+      "summary": "TikTok and ByteDance settle lawsuit over data collection on under-13 users. Continuation of known case; settlement confirms policy enforcement but no new daily impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -44,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-22T01:49:45.505633Z"
-    },
-    {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Routine accident during safari; tragic but no broader impact on US policy or daily life for residents.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
   "short_summary": "Judge blocks Trump visa ban for 75 countries",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T20:38:57.486490Z",
+  "updated_at": "2026-08-22T21:35:01.159585Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "score_history": [
-    {
-      "t": "2026-08-20T20:45:46.146556Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-20T21:42:38.064600Z",
       "s": 3.5
@@ -309,6 +300,10 @@
     {
       "t": "2026-08-22T20:38:57.486490Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-22T21:35:01.159585Z",
+      "s": 2.7
     }
   ]
 }

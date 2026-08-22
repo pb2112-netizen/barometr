@@ -1,12 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "Russian mall strike in Kryvyi Rih continues as background; Putin rhetoric without new military action; no qualitative escalation this cycle.",
+  "global_score": 2.2,
+  "rationale": "Confirmed Russian strike on Kryvyi Rih shopping mall kills 16 civilians, injures 130 including children; continuation of civilian targeting pattern but significant fresh casualties. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Rescue efforts continue after mall strike",
-      "summary": "Continuation of Friday's Kryvyi Rih mall attack aftermath; 16 dead, 4 missing. No new strike or escalation—recovery phase of known event.",
-      "score": 2.3,
+      "label": "Russian mall strike kills sixteen in Kryvyi Rih",
+      "summary": "Confirmed strike on shopping mall: 16 dead, 130 injured including children, 4 still missing. Direct civilian attack in central Ukraine; continuation of known targeting pattern with fresh casualties.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,8 +24,8 @@
     {
       "title": "Putin warns Ukraine has opened 'Pandora's box', rejects peace proposals",
       "label": "Putin rejects peace talks, threatens Ukraine",
-      "summary": "Rhetoric only—Putin threatens economic sectors but no confirmed new military action or policy change affecting Ukrainian daily life this cycle.",
-      "score": 2.0,
+      "summary": "Putin threatens Ukraine's economic sectors in interview, rejects peace proposals. Rhetoric only; no confirmed action or policy change affecting daily life.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-22T20:38:57.484881Z"
+    },
+    {
+      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
+      "label": "US-Canada tariff war escalates globally",
+      "summary": "US enacts 50% tariffs; Canada retaliates. Distant trade war; potential indirect effects on Western aid flows to Ukraine but no confirmed impact yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        }
+      ],
+      "detected_at": "2026-08-22T03:06:42.853006Z"
     }
   ],
   "short_summary": "Russian drone kills 15 at Kryvyi Rih mall",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-22T20:38:57.484881Z",
+  "updated_at": "2026-08-22T21:35:01.158335Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian drone kills 15 at Kryvyi Rih mall",
     "summary": "Deliberate double-tap drone attack on shopping center in Kryvyi Rih killed 15 and injured 130, including 23 children. Direct civilian casualty event in Ukraine.",
     "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "score": 5.6,
+    "score": 5.5,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.896853Z",
     "peak_at": "2026-08-22T20:38:57.484881Z",
@@ -70,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
   "score_history": [
-    {
-      "t": "2026-08-20T20:45:46.144769Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-20T21:42:38.062163Z",
       "s": 3.0
@@ -289,6 +304,10 @@
     {
       "t": "2026-08-22T20:38:57.484881Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-22T21:35:01.158335Z",
+      "s": 2.2
     }
   ]
 }

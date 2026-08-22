@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "US-Canada tariff war continues without qualitative change; distant events (Myanmar, Kenya, Liberia) have no link to Polish daily life.",
+  "global_score": 2.8,
+  "rationale": "US-Canada tariff war escalates with 50% tariffs enacted and Canadian retaliation, threatening EU trade and Polish exports; continuation of known situation with new confirmed action. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
       "label": "Canada retaliates against US 50% tariffs",
-      "summary": "US-Canada trade war continues with mutual tariffs, creating ongoing uncertainty for EU exports and Polish economic ties to North America.",
-      "score": 2.9,
+      "summary": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliation. Threatens EU trade stability and Polish export markets through broader economic uncertainty.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,9 +22,28 @@
       "detected_at": "2026-08-22T04:48:12.003806Z"
     },
     {
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "label": "Russian strike on Ukraine mall kills sixteen",
+      "summary": "Confirmed civilian strike on shopping mall leaves 16 dead, 130 injured. Continuation of known pattern near Polish border; regional security concern remains elevated.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T18:55:38.890561Z"
+    },
+    {
       "title": "One killed in sword attack at Swedish school",
-      "label": "Sword attack kills one at Swedish school",
-      "summary": "Violent attack at EU school continues regional security concerns, though geographically distant from Poland with no direct spillover.",
+      "label": "Sword attack at Swedish school kills one",
+      "summary": "Violent attack at EU school kills one, injures three. Continuation of regional security concerns within EU space; indirect relevance to Polish security climate.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-21T14:53:13.732610Z"
-    },
-    {
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Russian strike on Ukraine mall kills 16",
-      "summary": "Continuation of Russian civilian strikes in Ukraine; no qualitative escalation affecting Poland's eastern border security beyond existing background.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T18:55:38.890561Z"
     }
   ],
   "short_summary": "Russian drone strike kills 15 at Ukraine mall",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-22T20:38:57.481313Z",
+  "updated_at": "2026-08-22T21:35:01.155200Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian drone strike kills 15 at Ukraine mall",
     "summary": "Deliberate double-tap attack on civilian shopping center in Kryvyi Rih killed 15 and injured 130, including 23 children. Ongoing war spillover risk near Poland's eastern border.",
     "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "score": 3.6,
+    "score": 3.5,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.890561Z",
     "peak_at": "2026-08-22T20:38:57.481313Z",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.890561Z",
   "score_history": [
-    {
-      "t": "2026-08-20T20:45:46.140749Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-20T21:42:38.056275Z",
       "s": 3.5
@@ -308,6 +304,10 @@
     {
       "t": "2026-08-22T20:38:57.481313Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-22T21:35:01.155200Z",
+      "s": 2.8
     }
   ]
 }
