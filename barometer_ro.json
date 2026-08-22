@@ -1,49 +1,40 @@
 {
-  "global_score": 2.5,
+  "global_score": 2.4,
   "rationale": "US-Canada tariff war escalates with 50% levy; threatens EU economic stability and Romanian exports indirectly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
       "label": "US enacts 50% tariffs on Canadian goods",
-      "summary": "US imposes 50% tariffs on Canadian imports after trade talks collapse. Creates EU economic uncertainty and threatens Romanian export markets through global trade disruption.",
-      "score": 2.5,
+      "summary": "US imposed 50% tariffs on Canadian goods; Canada vows matching retaliation. Creates EU economic uncertainty and threatens Romanian export markets.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera",
+        "BBC"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-22T01:49:45.499999Z"
     },
     {
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Russian strike on Ukraine mall kills 16",
-      "summary": "Continued Russian civilian strikes in Ukraine; 16 dead, 130 injured. Regional Black Sea security concern but no new escalation pattern affecting Romania.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-21T18:55:38.892746Z"
-    },
-    {
       "title": "More than 100 dead after goldmine collapses in Central African Republic",
       "label": "Goldmine collapse kills over 100 in CAR",
-      "summary": "Landslide at artisanal goldmine kills over 100 in Central African Republic. Distant African tragedy with no direct impact on Romania.",
+      "summary": "Landslide at artisanal goldmine killed over 100 in Central African Republic. Distant African tragedy with no direct impact on Romania.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -58,6 +49,25 @@
         }
       ],
       "detected_at": "2026-08-22T07:45:14.076199Z"
+    },
+    {
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "label": "Russian strike on Ukraine mall kills 16",
+      "summary": "Russian strike on Kryvyi Rih mall killed 16, injured 130. Continuation of civilian targeting in neighboring Ukraine; no new escalation.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-21T18:55:38.892746Z"
     }
   ],
   "short_summary": "Russian drone strike kills 15 at Ukraine mall",
@@ -65,14 +75,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-22T18:48:27.445510Z",
+  "updated_at": "2026-08-22T19:34:14.023063Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian drone strike kills 15 at Ukraine mall",
     "summary": "Deliberate double-tap attack on civilian shopping center in Kryvyi Rih killed 15 and injured 130, including 23 children. War continues in Black Sea neighbor.",
     "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "score": 3.4,
+    "score": 3.3,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.892746Z",
     "peak_at": "2026-08-21T19:36:36.213581Z",
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.892746Z",
   "score_history": [
-    {
-      "t": "2026-08-20T18:58:40.782349Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-20T19:45:05.647501Z",
       "s": 2.9
@@ -308,6 +314,10 @@
     {
       "t": "2026-08-22T18:48:27.445510Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-22T19:34:14.023063Z",
+      "s": 2.4
     }
   ]
 }
