@@ -1,39 +1,52 @@
 {
-  "global_score": 2.9,
-  "short_summary": "Judge blocks Trump visa ban for 75 countries",
-  "rationale": "US enacts 50% tariffs on Canadian goods triggering full trade war with major ally; Canadian retaliation threatens US economy, jobs, and consumer prices directly. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Trump administration enacts 50% tariffs on Canada after trade talks collapse; Canada retaliates, directly affecting US economy and consumer prices. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-      "label": "US enacts 50% Canada tariffs, trade war begins",
-      "summary": "US implements 50% tariffs on Canadian goods after trade talks collapse; Canada announces dollar-for-dollar retaliation. Trade war with major ally threatens US economy, jobs, and consumer prices.",
-      "score": 2.9,
+      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
+      "label": "US enacts 50% tariffs on Canada",
+      "summary": "Trump administration imposes 50% tariffs on Canadian goods after trade talks fail; Canada announces matching retaliation. Directly affects US economy, jobs, and consumer prices.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
-      "detected_at": "2026-08-22T04:48:12.013758Z"
+      "detected_at": "2026-08-20T21:42:38.064600Z"
+    },
+    {
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "label": "TikTok pays $400m child privacy settlement",
+      "summary": "TikTok and ByteDance settle lawsuit for collecting data on millions of users under 13. Major privacy enforcement action affecting US tech regulation.",
+      "score": 2.8,
+      "sentiment": "positive",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "nowosc": "kontynuacja",
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-22T01:49:45.505633Z"
     },
     {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Routine accident abroad with no broader impact on US life.",
+      "label": "Five Americans die in Kenya crash",
+      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Routine accident abroad; no domestic impact.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -45,32 +58,14 @@
         }
       ],
       "detected_at": "2026-08-19T18:52:36.576877Z"
-    },
-    {
-      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m in child privacy settlement",
-      "summary": "TikTok and ByteDance settle lawsuit over data collection on under-13 users for $400 million. Major privacy settlement continuing enforcement of child protection laws.",
-      "score": 2.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-22T01:49:45.505633Z"
     }
   ],
+  "short_summary": "Judge blocks Trump visa ban for 75 countries",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T22:36:44.521895Z",
+  "updated_at": "2026-08-22T23:34:43.059134Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "score_history": [
-    {
-      "t": "2026-08-20T22:43:57.655114Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-20T23:39:28.696759Z",
       "s": 3.1
@@ -309,6 +300,10 @@
     {
       "t": "2026-08-22T22:36:44.521895Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-22T23:34:43.059134Z",
+      "s": 2.8
     }
   ]
 }

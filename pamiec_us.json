@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-22T22:36:44.528116Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-22T23:34:43.065101Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "TikTok $400m US child privacy settlement",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 25,
-      "opis": "Major settlement over data collection on under-13 users."
-    },
-    {
       "temat": "Trump delays Canada tariffs three days",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "President pauses 50% tariffs; hints at Keystone XL revival."
     },
     {
       "temat": "US deports migrants to Liberia under new deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "First 20 of 1,200 deportees; Trump immigration crackdown."
     },
     {
       "temat": "US-Canada 50% tariff war full implementation",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 6,
       "opis": "Tariffs enacted; Canada retaliates; affects US economy."
     },
     {
       "temat": "US enacts 50% tariffs on Canadian goods",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 22,
       "opis": "New levy on $20bn imports; affects economy and consumer."
     },
     {
       "temat": "US judge blocks Trump immigrant visa ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Federal ruling strikes down visa suspension for 75."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 0,
       "opis": "Civilian plane crash at remote radar site; routine accident."
     },
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 0,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
+    },
+    {
+      "temat": "TikTok $400m child privacy settlement",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
+      "opis": "Major tech privacy enforcement; data collection case."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-20T22:43:57.655114Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-20T23:39:28.696759Z",
       "s": 3.1
@@ -272,10 +268,62 @@
     {
       "t": "2026-08-22T22:36:44.521895Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-22T23:34:43.059134Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "event_detected_at": {
+    "canada vows 'dollar for dollar' response as us puts 50% tariffs on some goods": {
+      "detected_at": "2026-08-20T21:42:38.064600Z",
+      "peak_at": "2026-08-22T16:01:19.926920Z",
+      "peak_score_at": "2026-08-22T16:01:19.926920Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
+      "peak_label": "US enacts 50% tariffs on Canadian goods",
+      "peak_summary": "New levy on $20bn imports after trade talks collapse; affects consumer prices, job markets, and traditional alliance relationship with major trading partner.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        }
+      ]
+    },
+    "tiktok to pay $400m to us in one of largest child privacy settlements": {
+      "detected_at": "2026-08-22T01:49:45.505633Z",
+      "peak_at": "2026-08-22T23:34:43.059134Z",
+      "peak_score_at": "2026-08-22T23:34:43.059134Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "peak_label": "TikTok pays $400m child privacy settlement",
+      "peak_summary": "TikTok and ByteDance settle lawsuit for collecting data on millions of users under 13. Major privacy enforcement action affecting US tech regulation.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "five americans among seven killed in safari helicopter crash in kenya": {
+      "detected_at": "2026-08-19T18:52:36.576877Z",
+      "peak_at": "2026-08-22T01:49:45.505633Z",
+      "peak_score_at": "2026-08-22T01:49:45.505633Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "peak_label": "Five Americans killed in Kenya helicopter crash",
+      "peak_summary": "Safari helicopter crash in Kenya killed five US citizens including Telemundo executive and Ecuador intelligence chief—tragic accident without broader US security implications.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+        }
+      ]
+    },
     "carney calls trump's fresh tariffs a 'miscalculation' after trade talks collapse": {
       "detected_at": "2026-08-22T04:48:12.013758Z",
       "peak_at": "2026-08-22T04:48:12.013758Z",
@@ -289,54 +337,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss"
-        }
-      ]
-    },
-    "five americans among seven killed in safari helicopter crash in kenya": {
-      "detected_at": "2026-08-19T18:52:36.576877Z",
-      "peak_at": "2026-08-22T01:49:45.505633Z",
-      "peak_score_at": "2026-08-22T01:49:45.505633Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "peak_label": "Five Americans killed in Kenya helicopter crash",
-      "peak_summary": "Safari helicopter crash in Kenya killed five US citizens including Telemundo executive and Ecuador intelligence chief—tragic accident without broader US security implications.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ]
-    },
-    "tiktok to pay $400m to us in one of largest child privacy settlements": {
-      "detected_at": "2026-08-22T01:49:45.505633Z",
-      "peak_at": "2026-08-22T01:49:45.505633Z",
-      "peak_score_at": "2026-08-22T01:49:45.505633Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "peak_label": "TikTok pays $400m child privacy settlement",
-      "peak_summary": "ByteDance settles 2024 lawsuit over collecting data on millions of under-13 US users—major confirmed regulatory action affecting American families and tech policy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "canada vows 'dollar for dollar' response as us puts 50% tariffs on some goods": {
-      "detected_at": "2026-08-20T21:42:38.064600Z",
-      "peak_at": "2026-08-22T16:01:19.926920Z",
-      "peak_score_at": "2026-08-22T16:01:19.926920Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "peak_label": "US enacts 50% tariffs on Canadian goods",
-      "peak_summary": "New levy on $20bn imports after trade talks collapse; affects consumer prices, job markets, and traditional alliance relationship with major trading partner.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ]
     },
@@ -406,8 +406,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-    "Five Americans among seven killed in safari helicopter crash in Kenya",
-    "TikTok to pay $400m to US in one of largest child privacy settlements"
+    "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
+    "TikTok to pay $400m to US in one of largest child privacy settlements",
+    "Five Americans among seven killed in safari helicopter crash in Kenya"
   ]
 }
