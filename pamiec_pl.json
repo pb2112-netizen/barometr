@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-08-21T23:37:33.994331Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-08-22T01:49:45.506632Z",
+  "ostatnia_ocena": 4.3,
   "ostatnie_powiadomienie_at": "2026-08-21T19:36:36.222166Z",
   "stan_swiata": [
     {
-      "temat": "Sword attack at Swedish school",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "Violent attack at EU school raises regional security."
-    },
-    {
       "temat": "Russian drone strike on Ukrainian shopping mall",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 7,
       "opis": "Deliberate civilian target strike; 15 dead, 130 injured."
     },
     {
-      "temat": "Israel reopens West Bank settlement",
+      "temat": "TikTok $400m US child privacy settlement",
       "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
-      "opis": "Thirty families settle defying international protests."
+      "cykle_bez_zmian": 0,
+      "opis": "ByteDance settles data collection lawsuit; policy signal."
     },
     {
       "temat": "Germany investigates Russian assassination weapons cache",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Weapons found in German woods linked to Russian operations."
+    },
+    {
+      "temat": "Israel reopens West Bank settlement",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
+      "opis": "Thirty families settle defying international protests."
+    },
+    {
+      "temat": "Sword attack at Swedish school",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "Violent attack at EU school raises regional security."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Civilian plane crash at remote US radar site; distant."
     },
     {
       "temat": "Fuel shortages hit Russia as war impact grows",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Russians wait hours in fuel queues; war economy strain."
     },
     {
       "temat": "Flash flooding hits New York City",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Torrential rain floods NYC streets and subway; distant."
-    },
-    {
-      "temat": "Panama Canal limits ships due to El Niño",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Drought forces canal traffic reduction; shipping impact."
     }
   ],
   "score_history": [
@@ -268,15 +268,19 @@
     {
       "t": "2026-08-21T23:37:33.986898Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-08-22T01:49:45.498147Z",
+      "s": 4.3
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.890561Z",
   "event_detected_at": {
-    "russian double-tap drone strike kills 15 in ukrainian mall, officials say": {
+    "russian double-tap drone strike kills 16 in ukrainian mall, officials say": {
       "detected_at": "2026-08-21T18:55:38.890561Z",
       "peak_at": "2026-08-21T19:36:36.211361Z",
       "peak_score_at": "2026-08-21T19:36:36.211361Z",
-      "peak_score": 5.9,
+      "peak_score": 5.8,
       "peak_sentiment": "negative",
       "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
       "peak_label": "Russian drone strike kills 15 at Ukraine mall",
@@ -289,6 +293,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss"
+        }
+      ]
+    },
+    "tiktok to pay $400m to us in one of largest child privacy settlements": {
+      "detected_at": "2026-08-22T01:49:45.498147Z",
+      "peak_at": "2026-08-22T01:49:45.498147Z",
+      "peak_score_at": "2026-08-22T01:49:45.498147Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "peak_label": "TikTok pays $400m US child privacy settlement",
+      "peak_summary": "ByteDance settles 2024 lawsuit over collecting data on millions of under-13 users—indirect EU privacy policy signal but no direct Polish impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "'we have more work to do', says canada negotiator as us trade deadline looms": {
+      "detected_at": "2026-08-22T01:49:45.498147Z",
+      "peak_at": "2026-08-22T01:49:45.498147Z",
+      "peak_score_at": "2026-08-22T01:49:45.498147Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
+      "peak_label": "US-Canada trade talks continue before deadline",
+      "peak_summary": "Negotiations ongoing ahead of Friday deadline; Trump paused 50% tariffs by three days—rhetoric without confirmed outcome, minimal Polish economic impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
         }
       ]
     },
@@ -462,8 +502,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
-    "Israel re-establishes closed West Bank settlement, defying growing international protests",
-    "One killed in sword attack at Swedish school"
+    "Russian double-tap drone strike kills 16 in Ukrainian mall, officials say",
+    "TikTok to pay $400m to US in one of largest child privacy settlements",
+    "'We have more work to do', says Canada negotiator as US trade deadline looms"
   ]
 }
