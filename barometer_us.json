@@ -1,33 +1,38 @@
 {
-  "global_score": 2.7,
-  "rationale": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliation; confirmed action affecting US economy, consumer prices, and jobs after trade talks collapse. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US enacts 50% tariffs on Canadian goods triggering full trade war with major ally; Canadian retaliation threatens US economy, jobs, and consumer prices directly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "US enacts tariffs, Canada retaliates immediately",
-      "summary": "US implements 50% tariffs on Canadian goods; Canada announces matching retaliation after trade talks collapse. Direct impact on US economy, consumer prices, and jobs.",
-      "score": 2.7,
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "label": "US enacts 50% Canada tariffs, trade war begins",
+      "summary": "US implements 50% tariffs on Canadian goods after trade talks collapse; Canada announces dollar-for-dollar retaliation. Trade war with major ally threatens US economy, jobs, and consumer prices.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
         }
       ],
-      "detected_at": "2026-08-20T21:42:38.064600Z"
+      "detected_at": "2026-08-22T04:48:12.013758Z"
     },
     {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
       "label": "Five Americans die in Kenya helicopter crash",
-      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Tragic accident; no broader impact on US daily life or policy.",
-      "score": 2.2,
+      "summary": "Safari helicopter crash in Kenya kills five US citizens including Telemundo executive. Routine accident abroad with no broader impact on US life.",
+      "score": 2.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -42,10 +47,10 @@
     },
     {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok settles child privacy case for $400m",
-      "summary": "TikTok and ByteDance settle lawsuit over data collection on under-13 users. Continuation of known case; settlement confirms policy enforcement but no new daily impact.",
+      "label": "TikTok pays $400m in child privacy settlement",
+      "summary": "TikTok and ByteDance settle lawsuit over data collection on under-13 users for $400 million. Major privacy settlement continuing enforcement of child protection laws.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
@@ -61,13 +66,13 @@
     }
   ],
   "short_summary": "Judge blocks Trump visa ban for 75 countries",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-22T21:35:01.159585Z",
+  "updated_at": "2026-08-22T22:01:15.722590Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Judge blocks Trump visa ban for 75 countries",
     "summary": "Federal judge in Manhattan rules against State Department's suspension of immigrant visas. Significant domestic policy development affecting immigration.",
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-22T03:55:51.709223Z",
   "score_history": [
-    {
-      "t": "2026-08-20T21:42:38.064600Z",
-      "s": 3.5
-    },
-    {
-      "t": "2026-08-20T22:00:48.800870Z",
-      "s": 3.4
-    },
     {
       "t": "2026-08-20T22:43:57.655114Z",
       "s": 3.2
@@ -304,6 +301,10 @@
     {
       "t": "2026-08-22T21:35:01.159585Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-22T22:01:15.722590Z",
+      "s": 3.0
     }
   ]
 }
