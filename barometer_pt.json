@@ -1,33 +1,43 @@
 {
   "global_score": 3.0,
-  "rationale": "US-Canada trade war escalates with enacted tariffs, creating uncertainty for EU economy and Portuguese exports; Spain migration policy shift continues. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada tariff war escalates with 50% levy enacted, creating EU economic uncertainty and threatening Portuguese exports. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US imposes 50% tariffs on $20bn worth of Canadian goods after talks fail",
-      "label": "US imposes 50% tariffs on Canada",
-      "summary": "Major trade conflict erupts as US enacts tariffs on Canada. Creates economic uncertainty for EU markets and Portuguese export sectors.",
+      "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+      "label": "US imposes 50% tariffs on Canadian goods",
+      "summary": "New 50% levy on $20bn of Canadian imports takes effect after trade talks collapse. Creates EU economic uncertainty and threatens Portuguese export markets.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
         }
       ],
-      "detected_at": "2026-08-22T04:48:12.008977Z"
+      "detected_at": "2026-08-22T03:06:42.851565Z"
     },
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain allows Ceuta migrant children to mainland",
-      "summary": "Madrid reverses policy, allowing 500 children from Ceuta to mainland. Signals shift in Iberian migration approach with regional implications.",
-      "score": 2.0,
+      "label": "Spain allows 500 migrant children to mainland",
+      "summary": "Madrid reverses policy on Ceuta migrants. Iberian migration policy shift with indirect implications for Portugal.",
+      "score": 2.4,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -41,31 +51,31 @@
       "detected_at": "2026-08-18T17:42:36.027400Z"
     },
     {
-      "title": "Canada vows to match Trump's 50% tariffs after trade deal talks fail",
-      "label": "Canada promises retaliatory tariffs on US",
-      "summary": "Canadian PM vows dollar-for-dollar retaliation, deepening North American trade war with potential spillover effects on EU and Portuguese economy.",
-      "score": 2.0,
+      "title": "At least 13 Tunisians missing as migrant boat headed for Italy capsizes",
+      "label": "Migrant boat capsizes en route to Italy",
+      "summary": "At least 13 Tunisians missing in Mediterranean crossing. Continuation of migration pressure on southern EU routes.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "inne",
       "sources": [
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-22T03:06:42.851565Z"
+      "detected_at": "2026-08-22T05:41:28.616620Z"
     }
   ],
   "short_summary": "US national debt surpasses $40 trillion milestone",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-22T04:48:12.008977Z",
+  "updated_at": "2026-08-22T05:41:28.616620Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-21T23:37:33.990219Z",
   "score_history": [
-    {
-      "t": "2026-08-20T04:52:11.236274Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-20T05:45:53.936499Z",
       "s": 2.5
@@ -303,6 +309,10 @@
     },
     {
       "t": "2026-08-22T04:48:12.008977Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-22T05:41:28.616620Z",
       "s": 3.0
     }
   ]
