@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-22T05:41:28.627939Z",
-  "ostatnia_ocena": 4.4,
+  "updated_at": "2026-08-22T06:58:31.405097Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian drone strike on Kryvyi Rih shopping mall",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 13,
       "opis": "Double-tap strike on civilian mall; 15 dead, 130 injured."
     },
     {
       "temat": "Myanmar military bombs Buddhist monastery",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Airstrike kills 14 at religious retreat; distant Asian."
     },
     {
       "temat": "Ukraine sanctions Russian cartoon Masha and Bear",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Zelenskyy signs decree; cultural policy in information war."
     },
     {
       "temat": "US-Canada trade war with 50% tariffs",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 1,
       "opis": "Major tariffs; potential indirect effects on Western aid."
     },
     {
       "temat": "Western allies condemn Israel aid worker probe refusal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "UK, Canada, Australia criticize Israel over 2024 strike."
     },
     {
       "temat": "Israel reopens West Bank settlement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Thirty families settle defying international protests."
     },
     {
       "temat": "Hong Kong activists convicted under national security law",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Three Tiananmen activists guilty; distant Asian politics."
     },
     {
       "temat": "Germany investigates Russian assassination weapons cache",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Weapons found in German woods linked to Russian operations."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-20T05:45:53.937733Z",
-      "s": 5.9
-    },
     {
       "t": "2026-08-20T07:06:02.082865Z",
       "s": 6.7
@@ -272,15 +268,19 @@
     {
       "t": "2026-08-22T05:41:28.618506Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-08-22T06:58:31.398495Z",
+      "s": 4.2
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
   "event_detected_at": {
-    "russian strikes on ukraine kill two, officials say, a day after deadly attack on mall": {
+    "search for survivors after 16 killed by russian double-tap strike on ukraine mall": {
       "detected_at": "2026-08-21T18:55:38.896853Z",
       "peak_at": "2026-08-21T19:36:36.216752Z",
       "peak_score_at": "2026-08-21T19:36:36.216752Z",
-      "peak_score": 7.3,
+      "peak_score": 7.2,
       "peak_sentiment": "negative",
       "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say",
       "peak_label": "Russian drone kills 15 at Kryvyi Rih mall",
@@ -293,6 +293,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/drone-strike-on-ukraine-shopping-centre-kills-six-injures-103?traffic_source=rss"
+        }
+      ]
+    },
+    "palestinian teen shot and killed in west bank attack, un responds": {
+      "detected_at": "2026-08-21T21:37:12.746461Z",
+      "peak_at": "2026-08-22T06:58:31.398495Z",
+      "peak_score_at": "2026-08-22T06:58:31.398495Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Palestinian teen shot and killed in West Bank attack, UN responds",
+      "peak_label": "Palestinian teen killed in West Bank attack",
+      "peak_summary": "17-year-old killed in settler attack; another critically injured. Distant Middle East violence with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/palestinian-teen-shot-and-killed-in-west-bank-attack-un-responds?traffic_source=rss"
         }
       ]
     },
@@ -317,22 +333,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
-        }
-      ]
-    },
-    "palestinian teen shot and killed in west bank attack, un responds": {
-      "detected_at": "2026-08-21T21:37:12.746461Z",
-      "peak_at": "2026-08-21T23:37:33.991581Z",
-      "peak_score_at": "2026-08-21T23:37:33.991581Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "neutral",
-      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-      "peak_label": "Israel reopens West Bank settlement amid protests",
-      "peak_summary": "Thirty families move into reopened settlement despite international opposition. Distant Middle East development with no impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -698,8 +698,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian strikes on Ukraine kill two, officials say, a day after deadly attack on mall",
-    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-    "Palestinian teen shot and killed in West Bank attack, UN responds"
+    "Search for survivors after 16 killed by Russian double-tap strike on Ukraine mall",
+    "Palestinian teen shot and killed in West Bank attack, UN responds",
+    "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down"
   ]
 }
