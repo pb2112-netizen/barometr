@@ -1,12 +1,12 @@
 {
-  "global_score": 4.2,
-  "rationale": "Sacked defense minister publicly accuses Zelensky government of corruption and calls for elections during wartime, creating significant internal political crisis alongside continued Russian civilian strikes. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.0,
+  "rationale": "Rescue operations continue at mall strike site (16 dead, 4 missing); sacked defense minister publicly criticizes Zelensky on corruption and calls for wartime elections; both stories continue without new escalation.",
   "top_events": [
     {
-      "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
-      "label": "Sacked minister accuses Zelensky of corruption",
-      "summary": "Former defense minister publicly criticizes government corruption and calls for elections during war, creating major internal political crisis threatening wartime unity.",
-      "score": 4.2,
+      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+      "label": "Sacked minister publicly criticizes Zelensky on corruption",
+      "summary": "Former defense minister publicly accuses government of corruption, calls for wartime elections. Continues internal political crisis during war; no new military escalation.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,9 +23,9 @@
     },
     {
       "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Russian mall strike kills 16 civilians",
-      "summary": "Continuation of Russian civilian strikes; 16 dead, 130 injured including children. Four still missing in ongoing rescue operations.",
-      "score": 3.8,
+      "label": "Ukraine mall rescue continues four still missing",
+      "summary": "Rescue efforts at mall strike site; 16 dead, 4 missing. Continuation of Friday's attack; no new strike or escalation reported this cycle.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-21T18:55:38.896853Z"
+    },
+    {
+      "title": "Zelenskyy says wartime elections could 'destroy' Ukraine",
+      "label": "Zelensky rejects wartime elections as destructive tsunami",
+      "summary": "President rejects sacked minister's call for wartime elections, warns it would split country. Continuation of internal political dispute; no policy change enacted.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T13:01:14.164970Z"
     }
   ],
   "short_summary": "Russian mall strike kills 16 in Ukraine",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-23T11:33:57.512851Z",
+  "updated_at": "2026-08-23T13:01:14.164970Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian mall strike kills 16 in Ukraine",
     "summary": "Russian attack on Ukrainian shopping mall killed 16 and injured 130, including children; four still missing. Major civilian casualty event continuing pattern of strikes on populated areas.",
     "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-    "score": 6.0,
+    "score": 5.9,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.896853Z",
     "peak_at": "2026-08-23T01:59:24.252426Z",
@@ -66,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
   "score_history": [
-    {
-      "t": "2026-08-21T11:40:47.411982Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-21T13:09:57.947453Z",
       "s": 3.1
@@ -281,6 +296,10 @@
     {
       "t": "2026-08-23T11:33:57.512851Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-08-23T13:01:14.164970Z",
+      "s": 4.0
     }
   ]
 }
