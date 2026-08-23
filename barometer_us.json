@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "US-Canada trade talks collapse completely with 50% tariffs now in effect and Canadian retaliation confirmed, directly impacting American economy and jobs. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada trade talks collapse completely with 50% tariffs and retaliation now active; Indiana power outage continues 12 days after storms affecting thousands. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, 50% tariffs enacted",
-      "summary": "Negotiations failed completely; Trump imposed 50% tariffs on Canadian goods, Canada retaliating dollar-for-dollar, threatening American jobs and prices.",
+      "label": "US-Canada trade talks collapse, 50% tariffs active",
+      "summary": "Negotiations failed; 50% US tariffs on Canadian goods and Canadian retaliation now in effect, threatening jobs and raising consumer prices across both economies.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -27,31 +27,12 @@
       "detected_at": "2026-08-23T10:01:19.995327Z"
     },
     {
-      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
-      "label": "US deports first 20 to Liberia under Trump deal",
-      "summary": "First deportees of 1,200 under new Trump immigration agreement arrive in Liberia, continuing administration's enforcement policy.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
-        }
-      ],
-      "detected_at": "2026-08-23T10:38:58.588646Z"
-    },
-    {
       "title": "Thousands struggling without power in Indiana 12 days after severe storms",
-      "label": "Indiana residents without power 12 days after storms",
-      "summary": "Thousands in Gary, Indiana remain without electricity nearly two weeks after severe storms, with poverty-stricken residents in survival mode.",
-      "score": 3.0,
+      "label": "Indiana power outage continues 12 days after storms",
+      "summary": "Thousands in Gary, Indiana remain without electricity 12 days after severe storms, with residents in poverty living in survival mode.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -63,6 +44,25 @@
         }
       ],
       "detected_at": "2026-08-23T16:43:02.640432Z"
+    },
+    {
+      "title": "Trump arrives at high-speed IndyCar race through Washington's streets",
+      "label": "Trump attends IndyCar race marking 250th anniversary",
+      "summary": "President takes ceremonial lap at Washington race during 250th birthday celebrations; routine ceremonial event.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qvq24vlj4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T17:33:50.061642Z"
     }
   ],
   "short_summary": "TikTok pays $400m child privacy settlement",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-23T16:43:02.640432Z",
+  "updated_at": "2026-08-23T17:33:50.061642Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-22T01:49:45.505633Z",
   "score_history": [
-    {
-      "t": "2026-08-21T16:50:41.075125Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-21T17:44:04.722578Z",
       "s": 2.2
@@ -304,6 +300,10 @@
     },
     {
       "t": "2026-08-23T16:43:02.640432Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-23T17:33:50.061642Z",
       "s": 3.0
     }
   ]
