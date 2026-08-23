@@ -1,31 +1,37 @@
 {
-  "updated_at": "2026-08-23T16:01:20.001829Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-23T16:43:02.641398Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": "2026-08-21T19:36:36.222166Z",
   "stan_swiata": [
     {
       "temat": "US-Canada trade war with 50% tariffs",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Major tariffs enacted; threatens EU trade and Polish."
     },
     {
       "temat": "Sword attack at Swedish school",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Violent attack at EU school raises regional security."
     },
     {
       "temat": "US-Canada 50% tariff escalation with retaliation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Major tariff war escalates; Canada retaliates Sept 8."
     },
     {
       "temat": "Ukrainian minister publicly criticizes Zelensky, calls for elections",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 5,
       "opis": "Political crisis in Ukraine as former minister attacks govt."
+    },
+    {
+      "temat": "Coordinated arson attacks in southern Thailand",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Multiple attacks create unrest in distant Southeast Asia."
     }
   ],
   "score_history": [
@@ -240,10 +246,38 @@
     {
       "t": "2026-08-23T16:01:19.995713Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-23T16:43:02.634537Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-23T11:33:57.509250Z",
   "event_detected_at": {
+    "trump says canada wants 'benefits' of being us state after trade talks collapse": {
+      "detected_at": "2026-08-22T01:49:45.498147Z",
+      "peak_at": "2026-08-22T19:34:14.021488Z",
+      "peak_score_at": "2026-08-22T19:34:14.021488Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "peak_label": "Canada retaliates against US 50% tariffs",
+      "peak_summary": "US enacted 50% tariffs on Canadian goods; Canada vows dollar-for-dollar retaliation. Threatens EU trade stability and Polish export markets indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
+        }
+      ]
+    },
     "zelensky should be asked what he knew about government corruption, sacked minister tells bbc": {
       "detected_at": "2026-08-23T11:33:57.509250Z",
       "peak_at": "2026-08-23T14:38:11.113857Z",
@@ -264,47 +298,19 @@
         }
       ]
     },
-    "trump says canada wants 'benefits' of being us state after trade talks collapse": {
-      "detected_at": "2026-08-22T01:49:45.498147Z",
-      "peak_at": "2026-08-22T19:34:14.021488Z",
-      "peak_score_at": "2026-08-22T19:34:14.021488Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-      "peak_label": "Canada retaliates against US 50% tariffs",
-      "peak_summary": "US enacted 50% tariffs on Canadian goods; Canada vows dollar-for-dollar retaliation. Threatens EU trade stability and Polish export markets indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
-        }
-      ]
-    },
     "dozens of co-ordinated arson attacks hit southern thailand": {
       "detected_at": "2026-08-23T15:35:52.445647Z",
-      "peak_at": "2026-08-23T15:35:52.445647Z",
-      "peak_score_at": "2026-08-23T15:35:52.445647Z",
-      "peak_score": 1.0,
+      "peak_at": "2026-08-23T16:43:02.634537Z",
+      "peak_score_at": "2026-08-23T16:43:02.634537Z",
+      "peak_score": 2.0,
       "peak_sentiment": "neutral",
       "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
-      "peak_label": "Coordinated arson attacks hit southern Thailand",
-      "peak_summary": "51 attacks on government offices in distant Southeast Asia; no connection to Polish security or economy.",
+      "peak_label": "Coordinated arson attacks strike southern Thailand",
+      "peak_summary": "Multiple simultaneous attacks aimed at creating unrest in distant Southeast Asia; no direct link to Polish security or economy.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/23/dozens-of-attacks-in-southern-thailand-wound-three-people?traffic_source=rss"
         }
       ]
     },
@@ -394,8 +400,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
     "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+    "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
     "Dozens of co-ordinated arson attacks hit southern Thailand"
   ]
 }
