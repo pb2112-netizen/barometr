@@ -1,11 +1,30 @@
 {
-  "global_score": 2.4,
-  "rationale": "US-Canada trade war escalates with 50% tariffs enacted, threatening EU exports and Polish economy indirectly; Ukrainian political crisis continues. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Ongoing Ukraine political crisis continues without qualitative change; US-Canada trade war remains background noise; distant events have no Polish impact.",
   "top_events": [
     {
+      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+      "label": "Fedorov escalates Zelensky corruption accusations",
+      "summary": "Former Ukrainian minister intensifies public attacks on government, calling for wartime elections. Political instability in neighboring Ukraine continues to simmer without major new developments.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T11:33:57.509250Z"
+    },
+    {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US imposes 50% tariffs on Canada after talks fail",
-      "summary": "US enacted 50% tariffs on Canadian goods after negotiations collapsed, with Canada retaliating. The trade war threatens EU exports and Polish economic stability through global market disruption.",
+      "label": "US-Canada trade talks collapse, tariffs enacted",
+      "summary": "Trade negotiations fail completely; 50% tariffs now in effect with Canadian retaliation. Threatens EU exports indirectly but remains distant transatlantic issue.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -27,47 +46,23 @@
       "detected_at": "2026-08-22T01:49:45.498147Z"
     },
     {
-      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "label": "Zelensky should be asked what he knew about government",
-      "summary": "Former minister Fedorov intensifies public attacks on Zelensky, calling for wartime elections and questioning government corruption. Political instability in neighboring Ukraine affects Polish security calculations.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-23T11:33:57.509250Z"
-    },
-    {
-      "title": "Guinea rubbish landfill collapse kills 30",
-      "label": "Guinea landfill collapse kills 30 after rains",
-      "summary": "Waste site disaster in distant African capital; no connection to Polish daily life or regional security.",
-      "score": 2.0,
+      "title": "Serbia requests international assistance to battle wildfires",
+      "label": "Serbia requests EU aid for wildfire crisis",
+      "summary": "Regional neighbor seeks EU assistance for intense wildfires. Modest regional concern but no direct Polish impact yet.",
+      "score": 2.2,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/landfill-collapse-kills-30-in-guineas-capital-after-heavy-rains?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/serbia-requests-international-assistance-to-battle-wildfires?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T18:48:09.710648Z"
+      "detected_at": "2026-08-23T22:01:21.235422Z"
     }
   ],
   "short_summary": "Sacked Ukraine minister criticizes Zelensky publicly",
@@ -75,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-23T21:35:28.483116Z",
+  "updated_at": "2026-08-23T22:01:21.235422Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Sacked Ukraine minister criticizes Zelensky publicly",
     "summary": "Former defense minister publicly accuses Ukrainian government of corruption and calls for elections, potentially destabilizing key Polish ally during war.",
     "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-    "score": 3.1,
+    "score": 3.0,
     "sentiment": "negative",
     "detected_at": "2026-08-23T11:33:57.509250Z",
     "peak_at": "2026-08-23T14:38:11.113857Z",
@@ -99,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-23T11:33:57.509250Z",
   "score_history": [
-    {
-      "t": "2026-08-21T21:37:12.739500Z",
-      "s": 5.3
-    },
     {
       "t": "2026-08-21T22:01:23.408211Z",
       "s": 5.0
@@ -314,6 +305,10 @@
     {
       "t": "2026-08-23T21:35:28.483116Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-23T22:01:21.235422Z",
+      "s": 2.3
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Canada trade talks collapse completely with 50% tariffs enacted and Canadian retaliation; major trade war now in effect affecting American consumers and businesses. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "US-Canada trade talks collapse completely with 50% tariffs enacted; domestic power outage and wildfires continue; Kenya crash kills five Americans but is routine accident.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US enacts 50% Canada tariffs as talks collapse",
-      "summary": "US imposed 50% tariffs on Canadian goods after negotiations failed, with Canada retaliating dollar-for-dollar. Major trade war now in effect, threatening American jobs, consumer prices, and traditional alliance.",
-      "score": 3.0,
+      "label": "US-Canada trade talks collapse, tariffs enacted",
+      "summary": "Negotiations fail; 50% tariffs on Canadian goods now in effect with dollar-for-dollar retaliation. Major trade war with closest ally threatens jobs and economic stability.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -27,28 +27,9 @@
       "detected_at": "2026-08-23T10:01:19.995327Z"
     },
     {
-      "title": "Frustration builds in Indiana town struggling without power for 12 days",
-      "label": "Indiana town without power for 12 days",
-      "summary": "Gary, Indiana residents remain without electricity 12 days after storms, with a third of residents living in poverty in survival mode. Ongoing infrastructure crisis.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-23T16:43:02.640432Z"
-    },
-    {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
       "label": "Five Americans killed in Kenya helicopter crash",
-      "summary": "Seven people including five US citizens died in safari helicopter crash in Kenya, including Telemundo executive. Routine accident abroad.",
+      "summary": "Seven dead including five US citizens in safari helicopter accident. Routine foreign travel accident without broader security implications.",
       "score": 2.3,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -63,14 +44,34 @@
         }
       ],
       "detected_at": "2026-08-19T18:52:36.576877Z"
+    },
+    {
+      "title": "Frustration builds in Indiana town struggling without power for 12 days",
+      "label": "Indiana power outage enters 12th day",
+      "summary": "Gary, Indiana residents remain without electricity in poverty-stricken area. Domestic infrastructure failure continues without resolution.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T16:43:02.640432Z"
     }
   ],
   "short_summary": "TikTok pays $400m child privacy settlement",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-23T21:35:28.489455Z",
+  "updated_at": "2026-08-23T22:01:21.241915Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +91,6 @@
   },
   "events_anchor_at": "2026-08-22T01:49:45.505633Z",
   "score_history": [
-    {
-      "t": "2026-08-21T21:37:12.748701Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-21T22:01:23.416403Z",
       "s": 2.5
@@ -305,6 +302,10 @@
     {
       "t": "2026-08-23T21:35:28.489455Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-23T22:01:21.241915Z",
+      "s": 2.9
     }
   ]
 }
