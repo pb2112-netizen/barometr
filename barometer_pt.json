@@ -1,30 +1,35 @@
 {
   "global_score": 2.0,
-  "rationale": "US-Canada tariff rhetoric continues without new Portuguese impact; Spain child migration is Iberian neighbor policy but no direct effect on Portugal.",
+  "rationale": "US-Canada tariff war escalates with 50% tariffs and retaliation, creating EU-wide economic uncertainty that may affect Portuguese exports and tourism economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "Trump claims Canada wants US statehood after talks",
-      "summary": "US-Canada trade talks collapsed; Trump rhetoric but no new tariff action affecting Portuguese economy this cycle.",
+      "label": "US imposes 50% tariffs on Canada goods",
+      "summary": "US-Canada trade war fully escalates with 50% tariffs and Canadian retaliation, threatening EU economic stability and Portuguese export markets.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
         }
       ],
       "detected_at": "2026-08-22T03:06:42.851565Z"
     },
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain allows 500 migrant children to mainland",
-      "summary": "Madrid reverses Ceuta policy, allowing 500 children to mainland. Iberian neighbor migration shift but no direct Portuguese impact.",
+      "label": "Spain reverses Ceuta migrant policy for children",
+      "summary": "Madrid U-turns on Ceuta migration policy, allowing 500 children to mainland. Iberian migration shift with potential spillover to Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -39,25 +44,6 @@
         }
       ],
       "detected_at": "2026-08-18T17:42:36.027400Z"
-    },
-    {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "Central African goldmine collapse kills over 100",
-      "summary": "Distant African mining disaster; landslide at artisanal mine. No Portuguese connection.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ],
-      "detected_at": "2026-08-22T13:00:03.975119Z"
     }
   ],
   "short_summary": "US enacts 50% tariffs on Canada",
@@ -65,14 +51,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-23T10:38:58.586871Z",
+  "updated_at": "2026-08-23T11:33:57.511875Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US enacts 50% tariffs on Canada",
     "summary": "US imposed 50% tariffs on Canadian goods; Canada vows retaliation. Creates EU economic uncertainty and threatens Portuguese export markets indirectly.",
     "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-    "score": 2.8,
+    "score": 2.7,
     "sentiment": "negative",
     "detected_at": "2026-08-22T03:06:42.851565Z",
     "peak_at": "2026-08-22T19:34:14.024770Z",
@@ -93,10 +79,6 @@
   },
   "events_anchor_at": "2026-08-22T03:06:42.851565Z",
   "score_history": [
-    {
-      "t": "2026-08-21T10:46:39.841155Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-21T11:40:47.410330Z",
       "s": 2.7
@@ -307,6 +289,10 @@
     },
     {
       "t": "2026-08-23T10:38:58.586871Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T11:33:57.511875Z",
       "s": 2.0
     }
   ]

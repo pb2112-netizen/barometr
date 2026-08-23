@@ -1,30 +1,35 @@
 {
   "global_score": 2.0,
-  "rationale": "US-Canada tariff war continues with rhetoric but no new Polish impact; Ukraine mall strike is ongoing background; Swedish attack is EU security noise. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada tariff war escalates with 50% tariffs enacted and Canadian retaliation, creating EU trade uncertainty and potential economic spillover affecting Polish exports and energy costs. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "Trump claims Canada wants US statehood after talks fail",
-      "summary": "US-Canada trade talks collapsed; Trump rhetoric continues but no new tariff action affecting Polish exports or economy this cycle.",
+      "label": "US imposes 50% tariffs on Canada goods",
+      "summary": "US-Canada trade war fully escalates with 50% tariffs enacted and Canadian dollar-for-dollar retaliation, threatening EU trade stability and Polish export markets.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
         }
       ],
       "detected_at": "2026-08-22T01:49:45.498147Z"
     },
     {
       "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Rescuers search Ukraine mall wreckage after strike",
-      "summary": "Continuation of Russian civilian strikes in Ukraine; 16 dead, 4 missing. Already known background for Polish security concerns.",
+      "label": "Russian mall strike kills 16 in Ukraine",
+      "summary": "Continuation of Russian civilian strikes in Ukraine; 16 dead, 130 injured including children. Ongoing war pattern near Polish border.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -41,23 +46,23 @@
       "detected_at": "2026-08-21T18:55:38.890561Z"
     },
     {
-      "title": "Girl, 17, killed in Swedish sword attack, police say",
-      "label": "Swedish sword attack kills teen, injures two",
-      "summary": "Violent incident at Swedish school; one dead, two injured. EU security concern but no direct Polish link.",
+      "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
+      "label": "Sacked Ukraine minister criticizes Zelensky publicly",
+      "summary": "Former defense minister publicly accuses Ukrainian government of corruption and calls for elections, potentially destabilizing key Polish ally during war.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-21T14:53:13.732610Z"
+      "detected_at": "2026-08-23T11:33:57.509250Z"
     }
   ],
   "short_summary": "Canada retaliates against US 50% tariffs",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-23T10:38:58.585062Z",
+  "updated_at": "2026-08-23T11:33:57.509250Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Canada retaliates against US 50% tariffs",
     "summary": "US enacted 50% tariffs on Canadian goods; Canada vows dollar-for-dollar retaliation. Threatens EU trade stability and Polish export markets indirectly.",
     "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-    "score": 2.8,
+    "score": 2.7,
     "sentiment": "negative",
     "detected_at": "2026-08-22T01:49:45.498147Z",
     "peak_at": "2026-08-22T19:34:14.021488Z",
@@ -93,10 +98,6 @@
   },
   "events_anchor_at": "2026-08-22T01:49:45.498147Z",
   "score_history": [
-    {
-      "t": "2026-08-21T10:46:39.837695Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-21T11:40:47.406962Z",
       "s": 2.7
@@ -307,6 +308,10 @@
     },
     {
       "t": "2026-08-23T10:38:58.585062Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T11:33:57.509250Z",
       "s": 2.0
     }
   ]
