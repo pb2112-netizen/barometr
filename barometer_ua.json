@@ -1,12 +1,12 @@
 {
-  "global_score": 4.8,
-  "rationale": "Sacked defense minister publicly criticizes Zelensky over corruption, calling for elections; significant internal political crisis during wartime. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.6,
+  "rationale": "Sacked defense minister publicly criticizes Zelensky on corruption and calls for elections—qualitatively new political crisis during wartime; mall strike continues as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
       "label": "Sacked minister accuses Zelensky of corruption publicly",
-      "summary": "Former defense minister publicly criticizes Zelensky over corruption, calls for elections. Major internal political crisis during ongoing war.",
-      "score": 4.8,
+      "summary": "Former defense minister publicly criticizes president on corruption, calls for elections during war. New internal political crisis—qualitative escalation of government tensions affecting wartime unity.",
+      "score": 4.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,8 +24,8 @@
     {
       "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
       "label": "Rescuers search mall wreckage after Russian strike",
-      "summary": "Rescue efforts continue after Friday's mall strike that killed 16. Continuation of known civilian attack, no new escalation.",
-      "score": 3.0,
+      "summary": "Recovery continues from Friday's Russian mall strike (16 dead, 130 injured). Ongoing war background—no new escalation, search phase of known attack.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-21T18:55:38.896853Z"
+    },
+    {
+      "title": "Syria says Israeli strike near Damascus violation of international law",
+      "label": "Israeli strike near Damascus draws Syrian protest",
+      "summary": "Israeli strike near Damascus continues pattern of regional strikes. Distant Middle East conflict—no direct impact on Ukrainian war or daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T01:59:24.252426Z"
     }
   ],
   "short_summary": "Russian mall strike kills 16 in Ukraine",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-23T09:42:20.231148Z",
+  "updated_at": "2026-08-23T10:01:19.993974Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian mall strike kills 16 in Ukraine",
     "summary": "Russian attack on Ukrainian shopping mall killed 16 and injured 130, including children; four still missing. Major civilian casualty event continuing pattern of strikes on populated areas.",
     "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-    "score": 6.3,
+    "score": 6.2,
     "sentiment": "negative",
     "detected_at": "2026-08-21T18:55:38.896853Z",
     "peak_at": "2026-08-23T01:59:24.252426Z",
@@ -66,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
   "score_history": [
-    {
-      "t": "2026-08-21T09:51:58.415152Z",
-      "s": 3.3
-    },
     {
       "t": "2026-08-21T10:01:22.675876Z",
       "s": 3.1
@@ -281,6 +296,10 @@
     {
       "t": "2026-08-23T09:42:20.231148Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-23T10:01:19.993974Z",
+      "s": 4.6
     }
   ]
 }

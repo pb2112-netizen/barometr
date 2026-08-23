@@ -1,44 +1,63 @@
 {
   "global_score": 2.0,
-  "rationale": "No new developments directly affecting Romania; ongoing distant events continue without qualitative change.",
+  "rationale": "Ukraine mall strike continues as background; Canada-US tariff rhetoric without new enacted measures; distant events dominate cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Girl, 17, killed in Swedish sword attack, police say",
-      "label": "Swedish school sword attack kills 17-year-old girl",
-      "summary": "Violent attack at EU school; regional concern but no direct impact on Romanian daily life.",
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "label": "Ukraine mall rescue continues after Russian strike",
+      "summary": "Recovery phase of Friday's Russian strike on Ukrainian mall (16 dead, 130 injured). Ongoing war background near Black Sea region—no new escalation.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-22T23:34:43.054874Z"
+      "detected_at": "2026-08-22T14:37:25.042768Z"
     },
     {
-      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "Canada retaliates as US enacts 50% tariffs",
-      "summary": "US-Canada tariff war continues; distant trade conflict with minimal direct impact on Romania.",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "label": "Trump-Canada trade talks collapse with rhetoric",
+      "summary": "Trade talks failed; Canada announces retaliatory tariffs. Rhetoric only—no new enacted policy affecting Romanian economy beyond existing tariff war background.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-22T01:49:45.499999Z"
+    },
+    {
+      "title": "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
+      "label": "Magnitude 5.9 earthquake injures 37 in Japan",
+      "summary": "Moderate earthquake in distant Japan with 37 injuries. No connection to Romanian daily life or regional security.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/37-injured-as-magnitude-5-9-earthquake-strikes-eastern-japan?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T10:01:19.991580Z"
     }
   ],
   "short_summary": "DRC Ebola outbreak becomes country's deadliest ever",
@@ -46,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-23T09:42:20.229385Z",
+  "updated_at": "2026-08-23T10:01:19.991580Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -70,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-20T20:45:46.142133Z",
   "score_history": [
-    {
-      "t": "2026-08-21T09:51:58.410169Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-21T10:01:22.672130Z",
       "s": 2.3
@@ -284,6 +299,10 @@
     },
     {
       "t": "2026-08-23T09:42:20.229385Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T10:01:19.991580Z",
       "s": 2.0
     }
   ]

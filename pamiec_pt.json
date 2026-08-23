@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-08-23T09:42:20.235726Z",
+  "updated_at": "2026-08-23T10:01:19.998278Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain allows 500 migrant children to mainland",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Madrid reverses Ceuta policy; Iberian migration shift."
     },
     {
       "temat": "Spain builds camps for migrants in Ceuta",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Spain constructs reception sites for 5,000 migrants."
     },
     {
       "temat": "US-Canada trade war with 50% tariffs",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Major tariffs create EU economic uncertainty and export."
     },
     {
       "temat": "DRC Ebola outbreak deadliest in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Over 2,325 deaths; distant African health crisis."
     },
     {
       "temat": "US-Canada 50% tariff escalation with retaliation",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Major tariff war escalates; Canada retaliates Sept 8."
+    },
+    {
+      "temat": "Central African Republic goldmine collapse over 100 dead",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Distant African mining disaster; no Portuguese link."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-21T09:51:58.412700Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-21T10:01:22.674015Z",
       "s": 2.6
@@ -250,15 +252,43 @@
     {
       "t": "2026-08-23T09:42:20.230260Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-23T10:01:19.992799Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-22T03:06:42.851565Z",
   "event_detected_at": {
+    "trump says canada wants 'benefits' of being us state after trade talks collapse": {
+      "detected_at": "2026-08-22T03:06:42.851565Z",
+      "peak_at": "2026-08-22T19:34:14.024770Z",
+      "peak_score_at": "2026-08-22T19:34:14.024770Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "peak_label": "US enacts 50% tariffs on Canada",
+      "peak_summary": "US imposed 50% tariffs on Canadian goods; Canada vows retaliation. Creates EU economic uncertainty and threatens Portuguese export markets indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
+        }
+      ]
+    },
     "spain to allow 500 children in ceuta to go to mainland in immigration u-turn": {
       "detected_at": "2026-08-18T17:42:36.027400Z",
       "peak_at": "2026-08-23T07:46:44.891858Z",
       "peak_score_at": "2026-08-22T07:45:14.078902Z",
-      "peak_score": 2.1,
+      "peak_score": 2.0,
       "peak_sentiment": "neutral",
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
       "peak_label": "Spain reverses Ceuta child migration policy",
@@ -267,6 +297,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn"
+        }
+      ]
+    },
+    "more than 100 dead after goldmine collapses in central african republic": {
+      "detected_at": "2026-08-22T13:00:03.975119Z",
+      "peak_at": "2026-08-22T13:00:03.975119Z",
+      "peak_score_at": "2026-08-22T13:00:03.975119Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "negative",
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "peak_label": "Goldmine collapse kills over 100 in CAR",
+      "peak_summary": "Landslide at artisanal goldmine causes mass casualties in distant African tragedy with no direct Portuguese impact.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
         }
       ]
     },
@@ -349,50 +395,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "carney calls trump's fresh tariffs a 'miscalculation' after trade talks collapse": {
-      "detected_at": "2026-08-22T03:06:42.851565Z",
-      "peak_at": "2026-08-22T19:34:14.024770Z",
-      "peak_score_at": "2026-08-22T19:34:14.024770Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-      "peak_label": "US enacts 50% tariffs on Canada",
-      "peak_summary": "US imposed 50% tariffs on Canadian goods; Canada vows retaliation. Creates EU economic uncertainty and threatens Portuguese export markets indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss"
-        }
-      ]
-    },
-    "more than 100 dead after goldmine collapses in central african republic": {
-      "detected_at": "2026-08-22T13:00:03.975119Z",
-      "peak_at": "2026-08-22T13:00:03.975119Z",
-      "peak_score_at": "2026-08-22T13:00:03.975119Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "peak_label": "Goldmine collapse kills over 100 in CAR",
-      "peak_summary": "Landslide at artisanal goldmine causes mass casualties in distant African tragedy with no direct Portuguese impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
     "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-    "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods"
+    "More than 100 dead after goldmine collapses in Central African Republic"
   ]
 }

@@ -1,15 +1,34 @@
 {
   "global_score": 2.0,
-  "rationale": "Spain immigration policy shift affects Iberian region; US-Canada tariff war continues with indirect EU economic uncertainty.",
+  "rationale": "Canada-US tariff rhetoric continues without new enacted measures; distant events and ongoing background situations dominate quiet cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "label": "Trump-Canada trade talks fail with tariff threats",
+      "summary": "Trade talks collapsed; Canada announces retaliatory tariffs. Rhetoric escalates but no new policy enacted—existing tariff war continues as indirect EU economic background.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "economia",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-22T03:06:42.851565Z"
+    },
+    {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain reverses Ceuta policy, allows 500 children mainland",
-      "summary": "Madrid U-turns on Ceuta immigration stance, allowing children to mainland. Iberian migration policy shift with indirect relevance to Portugal.",
+      "label": "Spain allows 500 migrant children to mainland",
+      "summary": "Madrid reverses Ceuta policy, allowing 500 children to mainland. Iberian migration shift—indirect relevance to Portuguese border and EU migration flows.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "geopolitica",
       "sources": [
         "Guardian"
       ],
@@ -22,23 +41,23 @@
       "detected_at": "2026-08-18T17:42:36.027400Z"
     },
     {
-      "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "Canada retaliates as US enacts 50% tariffs",
-      "summary": "US-Canada tariff war escalates with retaliation; indirect EU trade uncertainty affects Portuguese economy.",
-      "score": 2.0,
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "label": "Over 100 die in Central African goldmine collapse",
+      "summary": "Artisanal goldmine landslide in distant CAR kills over 100. Tragic but no connection to Portuguese daily life or economy.",
+      "score": 1.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "catastrofe",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
         }
       ],
-      "detected_at": "2026-08-22T04:48:12.008977Z"
+      "detected_at": "2026-08-22T13:00:03.975119Z"
     }
   ],
   "short_summary": "US enacts 50% tariffs on Canada",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-23T09:42:20.230260Z",
+  "updated_at": "2026-08-23T10:01:19.992799Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US enacts 50% tariffs on Canada",
     "summary": "US imposed 50% tariffs on Canadian goods; Canada vows retaliation. Creates EU economic uncertainty and threatens Portuguese export markets indirectly.",
     "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-    "score": 3.0,
+    "score": 2.9,
     "sentiment": "negative",
     "detected_at": "2026-08-22T03:06:42.851565Z",
     "peak_at": "2026-08-22T19:34:14.024770Z",
@@ -74,10 +93,6 @@
   },
   "events_anchor_at": "2026-08-22T03:06:42.851565Z",
   "score_history": [
-    {
-      "t": "2026-08-21T09:51:58.412700Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-21T10:01:22.674015Z",
       "s": 2.6
@@ -288,6 +303,10 @@
     },
     {
       "t": "2026-08-23T09:42:20.230260Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T10:01:19.992799Z",
       "s": 2.0
     }
   ]
