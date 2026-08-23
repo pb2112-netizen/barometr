@@ -1,50 +1,60 @@
 {
-  "global_score": 2.8,
-  "rationale": "Canada-US tariff war escalates with 50% levies and retaliation, threatening EU trade and Polish exports; ongoing Ukraine mall strike remains background.",
+  "global_score": 2.7,
+  "rationale": "US-Canada tariff war escalates with 50% levies and Canadian retaliation, raising EU trade uncertainty and potential indirect impact on Polish exports. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "Canada vows 'dollar for dollar' response as US puts",
-      "summary": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliation starting September 8. Escalation threatens EU trade stability and Polish export markets.",
-      "score": 2.8,
+      "label": "US imposes 50% tariffs, Canada retaliates",
+      "summary": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliatory tariffs starting September 8. Trade war escalation threatens EU economic stability and Polish export markets.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-22T04:48:12.003806Z"
     },
     {
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Ukraine mall strike: 16 dead, 4 missing",
-      "summary": "Russian strike on Ukrainian mall kills 16, injures 130 including children; four still missing. Continuation of known civilian targeting pattern near Polish border.",
-      "score": 2.5,
+      "title": "Swedish sword attack victim was 17-year-old girl, police say",
+      "label": "Swedish school sword attack kills 17-year-old",
+      "summary": "Victim identified as 17-year-old girl; two boys injured. Continuation of EU school security incident with no new qualitative change for Poland.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-21T18:55:38.890561Z"
+      "detected_at": "2026-08-21T14:53:13.732610Z"
     },
     {
       "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
-      "label": "TikTok pays $400m child privacy settlement",
-      "summary": "Major tech privacy enforcement in US market; no direct impact on Polish users or regulations.",
-      "score": 2.0,
+      "label": "TikTok settles US child privacy case",
+      "summary": "Major tech privacy enforcement in US; no direct impact on Polish residents' daily life.",
+      "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-23T03:14:55.966764Z",
+  "updated_at": "2026-08-23T04:01:19.920034Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-21T18:55:38.890561Z",
   "score_history": [
-    {
-      "t": "2026-08-21T03:15:49.616940Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-21T04:01:21.866637Z",
       "s": 3.0
@@ -308,6 +314,10 @@
     {
       "t": "2026-08-23T03:14:55.966764Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-23T04:01:19.920034Z",
+      "s": 2.7
     }
   ]
 }

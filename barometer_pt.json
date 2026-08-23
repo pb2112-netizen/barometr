@@ -1,34 +1,44 @@
 {
-  "global_score": 2.5,
-  "rationale": "US-Canada tariff war escalates with 50% levies and retaliation, creating EU economic uncertainty; Spain's Ceuta migration U-turn affects Iberian policy.",
+  "global_score": 2.4,
+  "rationale": "US-Canada tariff war escalates with retaliatory measures, creating EU economic uncertainty; Spain's migration policy shift on Ceuta affects Iberian region indirectly.",
   "top_events": [
     {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "Canada vows 'dollar for dollar' response as US puts",
-      "summary": "US enacts 50% tariffs on Canadian goods; Canada announces matching retaliation starting September 8. Escalation threatens EU economic stability and Portuguese exports.",
-      "score": 2.5,
+      "label": "US-Canada trade war escalates sharply",
+      "summary": "US enacts 50% tariffs; Canada retaliates with matching tariffs from September 8. Trade war creates EU economic uncertainty and potential export disruption.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-22T04:48:12.008977Z"
     },
     {
       "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
-      "label": "Spain reverses Ceuta migration policy",
-      "summary": "Madrid U-turns on Ceuta policy, allowing 500 migrant children to mainland after previously vowing to send back illegal entrants. Shift in Iberian migration approach.",
-      "score": 2.1,
+      "label": "Spain reverses Ceuta migrant policy",
+      "summary": "Madrid allows 500 migrant children to mainland after policy U-turn. Continuation of Iberian migration management with no major new impact.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
         "Guardian"
       ],
@@ -42,11 +52,11 @@
     },
     {
       "title": "Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds",
-      "label": "Tropical Storm Moke threatens Hawaii",
-      "summary": "Second consecutive week of storm threats to Hawaii's Big Island. Distant US weather event with no impact on Portuguese life.",
-      "score": 1.5,
+      "label": "Tropical Storm Moke threatens Hawaii again",
+      "summary": "Second consecutive week of storm threats to Hawaii; distant Pacific weather event with no impact on Portugal.",
+      "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-23T03:14:55.969380Z",
+  "updated_at": "2026-08-23T04:01:19.922944Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -93,10 +103,6 @@
   },
   "events_anchor_at": "2026-08-22T03:06:42.851565Z",
   "score_history": [
-    {
-      "t": "2026-08-21T03:15:49.621528Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-21T04:01:21.870614Z",
       "s": 2.7
@@ -312,6 +318,10 @@
     {
       "t": "2026-08-23T03:14:55.969380Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-23T04:01:19.922944Z",
+      "s": 2.4
     }
   ]
 }
