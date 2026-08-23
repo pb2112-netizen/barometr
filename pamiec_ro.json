@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-23T10:01:19.997241Z",
+  "updated_at": "2026-08-23T10:38:58.590414Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "DRC Ebola outbreak deadliest in history",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Over 2,325 deaths; distant African health crisis."
     },
     {
       "temat": "Swedish school sword attack",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "One killed in EU school security incident."
     },
     {
       "temat": "US-Canada 50% tariff escalation with retaliation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Major tariff war escalates; Canada retaliates Sept 8."
     },
     {
       "temat": "Japan magnitude 5.9 earthquake with injuries",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Moderate quake in distant Japan; 37 injured, no regional."
+    },
+    {
+      "temat": "Central African Republic goldmine collapse over 100 dead",
       "poziom_bazowy": 1.5,
       "cykle_bez_zmian": 0,
-      "opis": "Moderate quake in distant Japan; 37 injured, no regional."
+      "opis": "Distant African mining disaster; no Romanian link."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-21T10:01:22.672130Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-21T10:46:39.839414Z",
       "s": 2.2
@@ -244,6 +246,10 @@
     {
       "t": "2026-08-23T10:01:19.991580Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-23T10:38:58.585945Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-20T20:45:46.142133Z",
@@ -261,6 +267,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack?traffic_source=rss"
+        }
+      ]
+    },
+    "37 injured as magnitude 5.9 earthquake strikes eastern japan": {
+      "detected_at": "2026-08-23T10:01:19.991580Z",
+      "peak_at": "2026-08-23T10:01:19.991580Z",
+      "peak_score_at": "2026-08-23T10:01:19.991580Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
+      "peak_label": "Magnitude 5.9 earthquake injures 37 in Japan",
+      "peak_summary": "Moderate earthquake in distant Japan with 37 injuries. No connection to Romanian daily life or regional security.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/37-injured-as-magnitude-5-9-earthquake-strikes-eastern-japan?traffic_source=rss"
+        }
+      ]
+    },
+    "more than 100 dead after goldmine collapses in central african republic": {
+      "detected_at": "2026-08-22T07:45:14.076199Z",
+      "peak_at": "2026-08-23T04:01:19.921386Z",
+      "peak_score_at": "2026-08-23T04:01:19.921386Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "negative",
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "peak_label": "Central African goldmine collapse kills 100",
+      "peak_summary": "Landslide at artisanal goldmine; distant African tragedy with no connection to Romanian daily life.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
         }
       ]
     },
@@ -285,22 +323,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
-        }
-      ]
-    },
-    "37 injured as magnitude 5.9 earthquake strikes eastern japan": {
-      "detected_at": "2026-08-23T10:01:19.991580Z",
-      "peak_at": "2026-08-23T10:01:19.991580Z",
-      "peak_score_at": "2026-08-23T10:01:19.991580Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
-      "peak_label": "Magnitude 5.9 earthquake injures 37 in Japan",
-      "peak_summary": "Moderate earthquake in distant Japan with 37 injuries. No connection to Romanian daily life or regional security.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/37-injured-as-magnitude-5-9-earthquake-strikes-eastern-japan?traffic_source=rss"
         }
       ]
     },
@@ -336,22 +358,6 @@
         }
       ]
     },
-    "more than 100 dead after goldmine collapses in central african republic": {
-      "detected_at": "2026-08-22T07:45:14.076199Z",
-      "peak_at": "2026-08-23T04:01:19.921386Z",
-      "peak_score_at": "2026-08-23T04:01:19.921386Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "peak_label": "Central African goldmine collapse kills 100",
-      "peak_summary": "Landslide at artisanal goldmine; distant African tragedy with no connection to Romanian daily life.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
-        }
-      ]
-    },
     "ebola outbreak in democratic republic of the congo now deadliest in country's history": {
       "detected_at": "2026-08-20T20:45:46.142133Z",
       "peak_at": "2026-08-22T16:01:19.921968Z",
@@ -375,7 +381,7 @@
   },
   "prev_top_event_titles": [
     "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-    "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-    "37 injured as magnitude 5.9 earthquake strikes eastern Japan"
+    "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
+    "More than 100 dead after goldmine collapses in Central African Republic"
   ]
 }

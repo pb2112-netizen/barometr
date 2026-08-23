@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Ukraine mall strike continues as background; Canada-US tariff rhetoric without new enacted measures; distant events dominate cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Ukraine mall strike continues known pattern; Japan quake and other events distant with no Romanian impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "label": "Ukraine mall rescue continues after Russian strike",
-      "summary": "Recovery phase of Friday's Russian strike on Ukrainian mall (16 dead, 130 injured). Ongoing war background near Black Sea region—no new escalation.",
+      "label": "Ukraine mall strike kills 16, rescuers search wreckage",
+      "summary": "Russian strike on Ukrainian mall continues civilian targeting pattern; 16 dead, 4 missing. Regional security background for Romania.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,31 +22,12 @@
       "detected_at": "2026-08-22T14:37:25.042768Z"
     },
     {
-      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "Trump-Canada trade talks collapse with rhetoric",
-      "summary": "Trade talks failed; Canada announces retaliatory tariffs. Rhetoric only—no new enacted policy affecting Romanian economy beyond existing tariff war background.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-22T01:49:45.499999Z"
-    },
-    {
       "title": "37 injured as magnitude 5.9 earthquake strikes eastern Japan",
-      "label": "Magnitude 5.9 earthquake injures 37 in Japan",
-      "summary": "Moderate earthquake in distant Japan with 37 injuries. No connection to Romanian daily life or regional security.",
+      "label": "Japan magnitude 5.9 quake injures 37 people",
+      "summary": "Moderate earthquake in distant Japan; 37 injured, no fatalities. No link to Romanian daily life.",
       "score": 1.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Al Jazeera"
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-23T10:01:19.991580Z"
+    },
+    {
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "label": "Central African goldmine collapse kills over 100",
+      "summary": "Distant African mining disaster; landslide at artisanal mine. No Romanian connection.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
+        }
+      ],
+      "detected_at": "2026-08-22T07:45:14.076199Z"
     }
   ],
   "short_summary": "DRC Ebola outbreak becomes country's deadliest ever",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-23T10:01:19.991580Z",
+  "updated_at": "2026-08-23T10:38:58.585945Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-20T20:45:46.142133Z",
   "score_history": [
-    {
-      "t": "2026-08-21T10:01:22.672130Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-21T10:46:39.839414Z",
       "s": 2.2
@@ -303,6 +299,10 @@
     },
     {
       "t": "2026-08-23T10:01:19.991580Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T10:38:58.585945Z",
       "s": 2.0
     }
   ]
