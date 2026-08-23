@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-23T08:47:40.022593Z",
+  "updated_at": "2026-08-23T09:42:20.238125Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump delays Canada tariffs three days",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "President pauses 50% tariffs; hints at Keystone XL revival."
     },
     {
       "temat": "TikTok $400m child privacy settlement",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 10,
       "opis": "Major tech privacy enforcement; data collection case."
     },
     {
       "temat": "Tropical Storm Moke threatens Hawaii",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Second consecutive week of storm threats to Big Island."
     },
     {
       "temat": "US-Canada 50% tariff war full implementation",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 15,
       "opis": "Tariffs enacted; Canada retaliates; affects US economy."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Civilian plane crash at remote radar site; routine accident."
     },
     {
       "temat": "Ecuador intel chief, five Americans die in Kenya crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Helicopter crash kills US citizens and Ecuador official."
     },
     {
       "temat": "Laptop fire on domestic flight",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Cabin fire from laptop on American Airlines flight."
+    },
+    {
+      "temat": "US deports 20 to Liberia under Trump deal",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "First of 1,200 deportees under new Trump immigration."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-21T08:57:47.853624Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-21T09:51:58.417761Z",
       "s": 3.2
@@ -262,6 +264,10 @@
     {
       "t": "2026-08-23T08:47:40.014468Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-23T09:42:20.232542Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-22T01:49:45.505633Z",
@@ -270,7 +276,7 @@
       "detected_at": "2026-08-20T21:42:38.064600Z",
       "peak_at": "2026-08-22T16:01:19.926920Z",
       "peak_score_at": "2026-08-22T16:01:19.926920Z",
-      "peak_score": 2.1,
+      "peak_score": 2.0,
       "peak_sentiment": "negative",
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
       "peak_label": "US enacts 50% tariffs on Canadian goods",
@@ -282,11 +288,27 @@
         }
       ]
     },
+    "laptop catches fire on us flight, with passenger treated at airport": {
+      "detected_at": "2026-08-23T07:00:11.597723Z",
+      "peak_at": "2026-08-23T09:42:20.232542Z",
+      "peak_score_at": "2026-08-23T09:42:20.232542Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Laptop catches fire on US flight, with passenger treated at airport",
+      "peak_label": "Laptop fire on American Airlines flight lands safely",
+      "peak_summary": "Cabin fire from laptop on domestic flight; plane landed safely, passenger treated. Routine incident with no broader impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce979zpjj85o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "five americans among seven killed in safari helicopter crash in kenya": {
       "detected_at": "2026-08-19T18:52:36.576877Z",
       "peak_at": "2026-08-23T01:59:24.253988Z",
       "peak_score_at": "2026-08-22T01:49:45.505633Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "negative",
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
       "peak_label": "Five Americans killed in Kenya helicopter crash",
@@ -295,22 +317,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ]
-    },
-    "laptop catches fire on us flight, with passenger treated at airport": {
-      "detected_at": "2026-08-23T07:00:11.597723Z",
-      "peak_at": "2026-08-23T07:00:11.597723Z",
-      "peak_score_at": "2026-08-23T07:00:11.597723Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Laptop catches fire on US flight, with passenger treated at airport",
-      "peak_label": "Laptop fire on American Airlines flight lands safely",
-      "peak_summary": "American Airlines Flight 2398 lands safely after laptop catches fire in cabin; passenger treated at airport, routine incident with no major consequences.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce979zpjj85o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -349,7 +355,7 @@
   },
   "prev_top_event_titles": [
     "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-    "Five Americans among seven killed in safari helicopter crash in Kenya",
-    "Laptop catches fire on US flight, with passenger treated at airport"
+    "Laptop catches fire on US flight, with passenger treated at airport",
+    "Five Americans among seven killed in safari helicopter crash in Kenya"
   ]
 }
