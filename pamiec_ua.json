@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-23T22:01:21.247260Z",
-  "ostatnia_ocena": 2.7,
+  "updated_at": "2026-08-23T22:37:15.053605Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian shopping mall strike kills 16",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 25,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 26,
       "opis": "Major civilian casualty attack; 16 dead, 130 injured."
     },
     {
       "temat": "Israeli strikes in Syria escalate",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Multiple Israeli strikes near Damascus and Turkish border."
     },
     {
       "temat": "Sacked defense minister publicly criticizes Zelensky",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 17,
       "opis": "Former minister accuses government of corruption, calls for."
     },
     {
       "temat": "Fedorov escalates public attacks on Zelensky, demands elections",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Former minister intensifies corruption accusations, calls."
+    },
+    {
+      "temat": "Gaza hospitals oxygen shortage",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Healthcare collapse threatens patients; distant crisis."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-21T22:01:23.413966Z",
-      "s": 6.6
-    },
     {
       "t": "2026-08-21T22:40:39.378209Z",
       "s": 6.3
@@ -244,6 +246,10 @@
     {
       "t": "2026-08-23T22:01:21.240670Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-23T22:37:15.048623Z",
+      "s": 2.6
     }
   ],
   "events_anchor_at": "2026-08-21T18:55:38.896853Z",
@@ -252,7 +258,7 @@
       "detected_at": "2026-08-23T08:47:40.013352Z",
       "peak_at": "2026-08-23T08:47:40.013352Z",
       "peak_score_at": "2026-08-23T08:47:40.013352Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "negative",
       "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
       "peak_label": "Sacked minister criticizes Zelensky on corruption",
@@ -261,6 +267,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "gaza's hospitals are running out of oxygen as healthcare nears collapse": {
+      "detected_at": "2026-08-23T22:37:15.048623Z",
+      "peak_at": "2026-08-23T22:37:15.048623Z",
+      "peak_score_at": "2026-08-23T22:37:15.048623Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Gaza's hospitals are running out of oxygen as healthcare nears collapse",
+      "peak_label": "Gaza hospitals face oxygen shortage crisis",
+      "peak_summary": "Healthcare system nears collapse with oxygen shortages threatening premature babies and critically ill patients. Distant humanitarian crisis with no direct Ukrainian impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/gazas-hospitals-are-running-out-of-oxygen-as-healthcare-nears-collapse?traffic_source=rss"
         }
       ]
     },
@@ -394,6 +416,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC"
+    "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+    "Gaza's hospitals are running out of oxygen as healthcare nears collapse"
   ]
 }

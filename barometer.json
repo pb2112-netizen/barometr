@@ -1,12 +1,12 @@
 {
-  "global_score": 2.3,
-  "rationale": "Ongoing Ukraine political crisis continues without qualitative change; US-Canada trade war remains background noise; distant events have no Polish impact.",
+  "global_score": 2.2,
+  "rationale": "Serbia wildfire request for EU aid continues as regional neighbor issue; Ukraine political crisis persists; US-Canada trade war remains background noise.",
   "top_events": [
     {
       "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "label": "Fedorov escalates Zelensky corruption accusations",
-      "summary": "Former Ukrainian minister intensifies public attacks on government, calling for wartime elections. Political instability in neighboring Ukraine continues to simmer without major new developments.",
-      "score": 2.3,
+      "label": "Fedorov escalates corruption accusations against Zelensky",
+      "summary": "Former Ukrainian minister intensifies public attacks on Zelensky, demanding wartime elections. Political instability in neighboring Ukraine continues to simmer.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,9 +22,28 @@
       "detected_at": "2026-08-23T11:33:57.509250Z"
     },
     {
+      "title": "Serbia requests international assistance to battle wildfires",
+      "label": "Serbia seeks EU help for intense wildfires",
+      "summary": "Regional EU neighbor requests international assistance for severe wildfire crisis. Indirect concern for Poland as EU member potentially contributing aid.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/serbia-requests-international-assistance-to-battle-wildfires?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T22:01:21.235422Z"
+    },
+    {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, tariffs enacted",
-      "summary": "Trade negotiations fail completely; 50% tariffs now in effect with Canadian retaliation. Threatens EU exports indirectly but remains distant transatlantic issue.",
+      "label": "US-Canada trade talks collapse with 50% tariffs",
+      "summary": "Trade war escalates with full tariff implementation. Distant but creates broader uncertainty for EU exports and Polish economy.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -44,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-22T01:49:45.498147Z"
-    },
-    {
-      "title": "Serbia requests international assistance to battle wildfires",
-      "label": "Serbia requests EU aid for wildfire crisis",
-      "summary": "Regional neighbor seeks EU assistance for intense wildfires. Modest regional concern but no direct Polish impact yet.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/serbia-requests-international-assistance-to-battle-wildfires?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-23T22:01:21.235422Z"
     }
   ],
   "short_summary": "Sacked Ukraine minister criticizes Zelensky publicly",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-23T22:01:21.235422Z",
+  "updated_at": "2026-08-23T22:37:15.045150Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Sacked Ukraine minister criticizes Zelensky publicly",
     "summary": "Former defense minister publicly accuses Ukrainian government of corruption and calls for elections, potentially destabilizing key Polish ally during war.",
     "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-    "score": 3.0,
+    "score": 2.9,
     "sentiment": "negative",
     "detected_at": "2026-08-23T11:33:57.509250Z",
     "peak_at": "2026-08-23T14:38:11.113857Z",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-08-23T11:33:57.509250Z",
   "score_history": [
-    {
-      "t": "2026-08-21T22:01:23.408211Z",
-      "s": 5.0
-    },
     {
       "t": "2026-08-21T22:40:39.373172Z",
       "s": 4.7
@@ -309,6 +305,10 @@
     {
       "t": "2026-08-23T22:01:21.235422Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-23T22:37:15.045150Z",
+      "s": 2.2
     }
   ]
 }
