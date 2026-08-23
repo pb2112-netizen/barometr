@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "All events are distant continuations or irrelevant to Portuguese daily life; US-Canada trade war remains background economic noise; no new Iberian climate or economic developments.",
+  "rationale": "US-Canada trade war escalates with 50% tariffs enacted, creating EU economic uncertainty and potential impact on Portuguese exports. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade war escalates with tariffs",
-      "summary": "Negotiations fail; 50% tariffs and retaliation now active. Creates indirect EU economic uncertainty affecting Portuguese export markets.",
+      "label": "US imposes 50% tariffs on Canada after talks fail",
+      "summary": "US enacted 50% tariffs on Canadian goods after negotiations collapsed, with Canada retaliating. The trade war creates EU economic uncertainty and threatens Portuguese export markets.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -27,28 +27,9 @@
       "detected_at": "2026-08-22T03:06:42.851565Z"
     },
     {
-      "title": "Guinea rubbish landfill collapse kills 30",
-      "label": "Guinea landfill collapse kills 30",
-      "summary": "Waste site disaster in distant African capital. No connection to Portuguese daily life or economic concerns.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-23T18:48:09.714114Z"
-    },
-    {
       "title": "France links sharp rise in drownings to heatwaves",
-      "label": "France reports 301 heatwave drowning deaths",
-      "summary": "French government links drowning spike to summer heatwaves since June. Reflects broader Iberian climate risks affecting Portugal.",
+      "label": "France reports 301 drowning deaths since June heatwaves",
+      "summary": "French government links 301 drowning deaths since June to heatwaves and risky water behavior. Climate pattern affects Iberian region indirectly.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -63,6 +44,30 @@
         }
       ],
       "detected_at": "2026-08-23T15:35:52.448208Z"
+    },
+    {
+      "title": "Guinea rubbish landfill collapse kills 30",
+      "label": "Guinea landfill collapse kills 30 after rains",
+      "summary": "Waste site disaster in distant African capital; no connection to Portuguese daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/landfill-collapse-kills-30-in-guineas-capital-after-heavy-rains?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-23T18:48:09.714114Z"
     }
   ],
   "short_summary": "Spain reverses Ceuta child migration policy",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-23T20:38:05.735392Z",
+  "updated_at": "2026-08-23T21:35:28.486742Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-18T17:42:36.027400Z",
   "score_history": [
-    {
-      "t": "2026-08-21T20:40:14.538754Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-21T21:37:12.744072Z",
       "s": 2.2
@@ -304,6 +305,10 @@
     },
     {
       "t": "2026-08-23T20:38:05.735392Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T21:35:28.486742Z",
       "s": 2.0
     }
   ]
