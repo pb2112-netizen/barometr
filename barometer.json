@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Zelensky corruption allegations and US-Canada tariff war continuation dominate; both indirectly affect Poland through regional stability and EU trade uncertainty. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "Zelensky corruption allegations continue without new facts; US-Canada tariff war remains background noise; distant disasters have no Polish link.",
   "top_events": [
     {
       "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "label": "Sacked minister accuses Zelensky of corruption knowledge",
-      "summary": "Former Ukrainian minister Fedorov publicly escalates corruption allegations against Zelensky and calls for wartime elections, deepening political crisis in Poland's eastern neighbor during ongoing war.",
-      "score": 2.8,
+      "label": "Sacked minister accuses Zelensky of corruption",
+      "summary": "Former Ukrainian minister Fedorov publicly criticizes Zelensky over corruption, calling for wartime elections. Political instability in Ukraine continues to affect Poland's eastern security environment.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,10 +23,10 @@
     },
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, tariffs take effect",
-      "summary": "Negotiations failed completely; 50% US tariffs and Canadian retaliation now active, threatening EU export markets and Polish manufacturing tied to North American supply chains.",
+      "label": "US-Canada trade talks collapse, tariffs imposed",
+      "summary": "US imposes 50% tariffs on Canadian goods after negotiations fail. Indirect risk to Polish exports if EU-US trade tensions escalate, but no immediate impact on Poland.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -46,23 +46,28 @@
       "detected_at": "2026-08-22T01:49:45.498147Z"
     },
     {
-      "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
-      "label": "Coordinated arson attacks strike southern Thailand",
-      "summary": "Multiple simultaneous attacks create regional unrest in distant Southeast Asia with no direct Polish connection.",
-      "score": 2.0,
+      "title": "Guinea rubbish landfill collapse kills 30",
+      "label": "Guinea landfill collapse kills 30 people",
+      "summary": "Waste site collapse in Guinea capital buries homes, killing 30. Distant African disaster with no connection to Polish daily life.",
+      "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T15:35:52.445647Z"
+      "detected_at": "2026-08-23T18:48:09.710648Z"
     }
   ],
   "short_summary": "Sacked Ukraine minister criticizes Zelensky publicly",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-23T17:33:50.056174Z",
+  "updated_at": "2026-08-23T18:48:09.710648Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-23T11:33:57.509250Z",
   "score_history": [
-    {
-      "t": "2026-08-21T17:44:04.713926Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-21T18:55:38.890561Z",
       "s": 4.8
@@ -309,6 +310,10 @@
     {
       "t": "2026-08-23T17:33:50.056174Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-23T18:48:09.710648Z",
+      "s": 2.7
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Ukrainian political crisis escalates with corruption allegations against Zelensky; US-Canada tariff war continues threatening EU economy; both indirectly affect Romania. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "Ukrainian political crisis continues without escalation; US-Canada trade war remains distant background; Guinea disaster has no regional impact.",
   "top_events": [
     {
       "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "label": "Sacked minister accuses Zelensky of corruption knowledge",
-      "summary": "Former minister Fedorov publicly escalates corruption allegations and calls for wartime elections, deepening political instability in Romania's Black Sea neighbor Ukraine during active conflict.",
-      "score": 2.8,
+      "label": "Ukrainian minister attacks Zelensky over corruption",
+      "summary": "Sacked minister Fedorov publicly accuses Zelensky of corruption and calls for elections. Political instability in neighboring Ukraine continues to affect Romania's Black Sea security environment.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,10 +23,10 @@
     },
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, tariffs take effect",
-      "summary": "Complete breakdown of negotiations with 50% tariffs and retaliation now active threatens EU export markets and Romanian economy indirectly through trade uncertainty.",
-      "score": 2.9,
-      "sentiment": "negative",
+      "label": "US imposes 50% tariffs after Canada talks fail",
+      "summary": "Trade negotiations collapse, US enacts 50% tariffs on Canadian goods. Potential indirect risk to Romanian exports if EU-US trade tensions spread, but no immediate impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -46,23 +46,28 @@
       "detected_at": "2026-08-22T01:49:45.499999Z"
     },
     {
-      "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
-      "label": "Coordinated arson attacks strike southern Thailand",
-      "summary": "Multiple simultaneous attacks in distant Southeast Asia with no Romanian regional connection.",
-      "score": 2.0,
+      "title": "Guinea rubbish landfill collapse kills 30",
+      "label": "Guinea landfill collapse kills 30 people",
+      "summary": "Waste site collapse in Guinea buries homes, killing 30. Distant African disaster with no connection to Romanian daily life.",
+      "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T15:35:52.446963Z"
+      "detected_at": "2026-08-23T18:48:09.712263Z"
     }
   ],
   "short_summary": "Zelensky rejects wartime elections amid corruption row",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-23T17:33:50.057760Z",
+  "updated_at": "2026-08-23T18:48:09.712263Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-23T11:33:57.510551Z",
   "score_history": [
-    {
-      "t": "2026-08-21T17:44:04.716004Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-21T18:55:38.892746Z",
       "s": 4.6
@@ -309,6 +310,10 @@
     {
       "t": "2026-08-23T17:33:50.057760Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-23T18:48:09.712263Z",
+      "s": 2.7
     }
   ]
 }

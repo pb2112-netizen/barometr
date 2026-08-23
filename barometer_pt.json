@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "US-Canada tariff war continues threatening EU economy; France heatwave drownings continue in neighboring country; Thailand attacks distant and irrelevant. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada tariff war continues as background noise; Guinea disaster and Nevada wildfire are distant events with no Portuguese connection; no new developments affecting Portugal.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, tariffs take effect",
-      "summary": "Complete failure of negotiations with 50% tariffs and retaliation threatens EU export markets and Portuguese economy through broader trade uncertainty.",
+      "label": "US-Canada trade talks collapse, tariffs imposed",
+      "summary": "US imposes 50% tariffs on Canadian goods after negotiations fail. Potential indirect risk to Portuguese exports if EU-US trade tensions escalate, but no immediate impact on Portugal.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -27,42 +27,47 @@
       "detected_at": "2026-08-22T03:06:42.851565Z"
     },
     {
-      "title": "France links rise in drownings to heatwaves",
-      "label": "France links 301 drowning deaths to heatwaves",
-      "summary": "French government reports 301 drowning deaths since June linked to heatwaves, reflecting broader Iberian climate risks affecting Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "Guinea rubbish landfill collapse kills 30",
+      "label": "Guinea landfill collapse kills 30 people",
+      "summary": "Waste site collapse in Guinea buries homes, killing 30. Distant African disaster with no connection to Portuguese daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T15:35:52.448208Z"
+      "detected_at": "2026-08-23T18:48:09.714114Z"
     },
     {
-      "title": "Dozens of co-ordinated arson attacks hit southern Thailand",
-      "label": "Coordinated arson attacks strike southern Thailand",
-      "summary": "Multiple attacks in distant Southeast Asia with no Portuguese connection.",
-      "score": 2.0,
+      "title": "Thousands displaced as wildfire threatens homes in US state of Nevada",
+      "label": "Nevada wildfire forces evacuations, emergency declared",
+      "summary": "Wildfire in Nevada prompts state of emergency and evacuations. Distant US event with no impact on Portugal, though climate-related disasters resonate broadly.",
+      "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/23/thousands-displaced-as-wildfire-threatens-homes-in-us-state-of-nevada?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T15:35:52.448208Z"
+      "detected_at": "2026-08-23T18:48:09.714114Z"
     }
   ],
   "short_summary": "Spain reverses Ceuta child migration policy",
@@ -70,9 +75,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-23T17:33:50.059247Z",
+  "updated_at": "2026-08-23T18:48:09.714114Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Spain reverses Ceuta child migration policy",
     "summary": "Madrid U-turns on immigration stance, allowing 500 children to mainland. Reflects shifting Iberian migration policy with potential spillover to Portugal.",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-18T17:42:36.027400Z",
   "score_history": [
-    {
-      "t": "2026-08-21T17:44:04.717973Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-21T18:55:38.894458Z",
       "s": 2.0
@@ -304,6 +305,10 @@
     },
     {
       "t": "2026-08-23T17:33:50.059247Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-23T18:48:09.714114Z",
       "s": 2.0
     }
   ]
