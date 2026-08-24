@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-24T10:02:53.456618Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-24T10:53:03.923531Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK official visits Kyiv, Russia warns of consequences",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 5,
       "opis": "British support reaffirmed amid Moscow warnings over drones."
     },
     {
       "temat": "UK delivers long-range missile blueprints to Ukraine",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 5,
       "opis": "Britain escalates military support with missile technology."
     },
     {
       "temat": "Serbia wildfire crisis requests EU aid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Regional neighbor seeks EU help for intense wildfires."
     },
     {
       "temat": "Guinea landfill collapse kills 30",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Distant African waste site disaster; no Romanian link."
     },
     {
       "temat": "US-Canada trade war complete collapse with 50% tariffs",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Negotiations failed; full tariff war threatens EU exports."
     },
     {
       "temat": "Coordinated arson attacks in southern Thailand",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Multiple attacks create unrest in distant Southeast Asia."
     },
     {
       "temat": "Ukrainian minister publicly criticizes Zelensky, calls for elections",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Political crisis in Ukraine as former minister attacks govt."
+    },
+    {
+      "temat": "Ukraine strikes Russian logistics in Black Sea region",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 1,
+      "opis": "Ukrainian forces hit southern Russian infrastructure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T10:39:12.968499Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-22T11:34:18.924742Z",
       "s": 3.0
@@ -254,23 +256,27 @@
     {
       "t": "2026-08-24T10:02:53.449600Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-24T10:53:03.916056Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-08-24T04:01:20.404970Z",
   "event_detected_at": {
-    "eu, russian aircraft help serbia battle wildfires": {
-      "detected_at": "2026-08-23T22:01:21.237524Z",
-      "peak_at": "2026-08-23T22:01:21.237524Z",
-      "peak_score_at": "2026-08-23T22:01:21.237524Z",
-      "peak_score": 2.0,
+    "russia's second-biggest online retailer targeted in ukrainian strikes": {
+      "detected_at": "2026-08-24T10:53:03.916056Z",
+      "peak_at": "2026-08-24T10:53:03.916056Z",
+      "peak_score_at": "2026-08-24T10:53:03.916056Z",
+      "peak_score": 4.0,
       "peak_sentiment": "neutral",
-      "title": "Serbia requests international assistance to battle wildfires",
-      "peak_label": "Serbia seeks EU help for wildfire emergency",
-      "peak_summary": "Regional neighbor requests EU and Russian assistance for intense wildfires. Modest concern for Balkan stability but no direct Romanian impact.",
+      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+      "peak_label": "Ukraine hits Russian targets near Black Sea",
+      "peak_summary": "Ukrainian strikes on Ozon warehouses in Krasnodar and Dagestan mark escalation in southern Russia, directly affecting Black Sea security zone adjacent to Romania.",
       "peak_source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/serbia-requests-international-assistance-to-battle-wildfires?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -294,7 +300,7 @@
       "detected_at": "2026-08-22T01:49:45.499999Z",
       "peak_at": "2026-08-23T16:43:02.636019Z",
       "peak_score_at": "2026-08-23T16:43:02.636019Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "negative",
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
       "peak_label": "US-Canada trade talks collapse, tariffs escalate",
@@ -307,6 +313,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
+        }
+      ]
+    },
+    "eu, russian aircraft help serbia battle wildfires": {
+      "detected_at": "2026-08-23T22:01:21.237524Z",
+      "peak_at": "2026-08-23T22:01:21.237524Z",
+      "peak_score_at": "2026-08-23T22:01:21.237524Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Serbia requests international assistance to battle wildfires",
+      "peak_label": "Serbia seeks EU help for wildfire emergency",
+      "peak_summary": "Regional neighbor requests EU and Russian assistance for intense wildfires. Modest concern for Balkan stability but no direct Romanian impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/serbia-requests-international-assistance-to-battle-wildfires?traffic_source=rss"
         }
       ]
     },
@@ -428,7 +450,7 @@
     }
   },
   "prev_top_event_titles": [
-    "EU, Russian aircraft help Serbia battle wildfires",
+    "Russia's second-biggest online retailer targeted in Ukrainian strikes",
     "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
     "Trump says Canada wants 'benefits' of being US state after trade talks collapse"
   ]

@@ -1,50 +1,58 @@
 {
-  "updated_at": "2026-08-24T10:02:53.459183Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-08-24T10:53:03.926172Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Fedorov escalates public attacks on Zelensky, demands elections",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Former minister intensifies corruption accusations, calls."
     },
     {
       "temat": "Gaza hospitals oxygen shortage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Healthcare collapse threatens patients; distant crisis."
     },
     {
       "temat": "UK official visits Kyiv, Russia warns of consequences",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 5,
       "opis": "British support reaffirmed amid Moscow warnings over drones."
     },
     {
       "temat": "Syria-Israel US-mediated talks in Jordan",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "De-escalation talks after Israeli strike near Turkish."
     },
     {
       "temat": "UK delivers long-range missile blueprints to Ukraine",
-      "poziom_bazowy": 5.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 5.3,
+      "cykle_bez_zmian": 5,
       "opis": "Britain provides missile technology, escalating support."
     },
     {
       "temat": "DRC Ebola outbreak reaches 5,515 cases",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Distant African health crisis with 48% fatality rate."
+    },
+    {
+      "temat": "Ukraine strikes Russian e-commerce logistics infrastructure",
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Ukrainian forces hit Ozon warehouses across southern Russia."
+    },
+    {
+      "temat": "Ukrainian operations trigger Central Asian fuel crisis",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
+      "opis": "War-induced shortages spread beyond Russia to allied states."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T10:39:12.972333Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-22T11:34:18.928603Z",
       "s": 3.4
@@ -248,10 +256,46 @@
     {
       "t": "2026-08-24T10:02:53.452554Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-24T10:53:03.919206Z",
+      "s": 4.1
     }
   ],
   "events_anchor_at": "2026-08-24T04:01:20.407903Z",
   "event_detected_at": {
+    "russia's second-biggest online retailer targeted in ukrainian strikes": {
+      "detected_at": "2026-08-24T10:53:03.919206Z",
+      "peak_at": "2026-08-24T10:53:03.919206Z",
+      "peak_score_at": "2026-08-24T10:53:03.919206Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "positive",
+      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+      "peak_label": "Ukraine strikes Ozon warehouses across south Russia",
+      "peak_summary": "Ukrainian forces hit Russia's second-largest online retailer Ozon across southern Russia including Dagestan and Krasnodar, marking major escalation in economic infrastructure targeting.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ukraine's offensive against russia causes petrol panic across central asia": {
+      "detected_at": "2026-08-24T10:53:03.919206Z",
+      "peak_at": "2026-08-24T10:53:03.919206Z",
+      "peak_score_at": "2026-08-24T10:53:03.919206Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "positive",
+      "title": "Ukraine's offensive against Russia causes petrol panic across Central Asia",
+      "peak_label": "Ukrainian strikes trigger fuel crisis in region",
+      "peak_summary": "War-induced fuel shortages spread to Central Asia, demonstrating wider impact of Ukrainian operations on Russian supply networks and regional energy stability.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/24/ukraines-offensive-against-russia-causes-petrol-panic-across-central-asia?traffic_source=rss"
+        }
+      ]
+    },
     "nearly 90,000 told to evacuate as wildfire approaches reno, nevada": {
       "detected_at": "2026-08-24T10:01:10.213372Z",
       "peak_at": "2026-08-24T10:01:10.213372Z",
@@ -466,7 +510,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
-    "Trump says Canada wants 'benefits' of being US state after trade talks collapse"
+    "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+    "Ukraine's offensive against Russia causes petrol panic across Central Asia",
+    "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada"
   ]
 }

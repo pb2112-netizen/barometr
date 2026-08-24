@@ -1,12 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "Nevada wildfire evacuation continues; US-Canada trade war rhetoric persists without new policy action.",
+  "global_score": 3.0,
+  "rationale": "Nevada wildfire threatening Reno represents significant domestic emergency requiring large-scale evacuations; trade war rhetoric continues without new policy action. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
-      "label": "Nevada wildfire forces 90,000 evacuations near Reno",
-      "summary": "Fire burns 10,500 acres uncontained; state emergency continues with large-scale evacuations threatening homes.",
-      "score": 3.1,
+      "label": "Nevada wildfire threatens Reno, 90,000 evacuate",
+      "summary": "Fire burns 10,500 acres completely uncontained, forcing evacuations near major city. Escalation of ongoing Nevada emergency with direct threat to US residents and property.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "Trump rhetoric after US-Canada trade talks collapse",
-      "summary": "President's statement follows failed negotiations; rhetoric only, tariffs already in effect from previous cycle.",
+      "label": "Trump rhetoric follows Canada trade collapse",
+      "summary": "Presidential rhetoric after known tariff implementation; no new policy action beyond already-enacted 50% tariffs.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -46,23 +46,23 @@
       "detected_at": "2026-08-23T10:01:19.995327Z"
     },
     {
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "label": "Five Americans killed in Kenya helicopter crash",
-      "summary": "Seven dead including US citizens in safari accident; routine overseas civilian tragedy.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "label": "US begins third-country deportations to Liberia",
+      "summary": "First 20 of 1,200 migrants deported under existing Trump policy; continuation of known immigration enforcement program.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
+          "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
         }
       ],
-      "detected_at": "2026-08-19T18:52:36.576877Z"
+      "detected_at": "2026-08-23T10:38:58.588646Z"
     }
   ],
   "short_summary": "Nevada wildfire forces 42,000 to evacuate",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-24T10:02:53.454237Z",
+  "updated_at": "2026-08-24T10:53:03.921237Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Nevada wildfire forces 42,000 to evacuate",
     "summary": "Fast-moving fire near Reno forces 42,000 evacuations with another 45,000 on alert. Major domestic emergency affecting tens of thousands of residents.",
     "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
-    "score": 3.9,
+    "score": 3.8,
     "sentiment": "negative",
     "detected_at": "2026-08-23T18:48:09.716794Z",
     "peak_at": "2026-08-24T04:01:20.409416Z",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-22T10:39:12.974487Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-22T11:34:18.930726Z",
       "s": 2.6
@@ -297,6 +293,10 @@
     {
       "t": "2026-08-24T10:02:53.454237Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-24T10:53:03.921237Z",
+      "s": 3.0
     }
   ]
 }

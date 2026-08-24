@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-24T10:02:53.460481Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-08-24T10:53:03.927518Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Canada trade talks collapse completely",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Negotiations fail; 50% tariffs and retaliation now in."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Civilian plane crash at remote radar site; routine accident."
     },
     {
       "temat": "Kenya safari helicopter crash kills five Americans",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Seven dead including US citizens in Kenya crash."
     },
     {
       "temat": "Nevada wildfire forces evacuations",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
       "opis": "State emergency declared; homes threatened, evacuations."
     },
     {
       "temat": "Trump imposes 50% tariffs, Canada retaliates",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 9,
       "opis": "Trade war escalates; negotiations collapse completely."
     },
     {
       "temat": "Shein Hong Kong stock market debut",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Fast-fashion giant targets $27bn valuation in September IPO."
     },
     {
       "temat": "Indiana power outage 12 days after severe storms",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Thousands without electricity in Gary, Indiana poverty area."
     },
     {
       "temat": "US begins third-country deportations to Liberia",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "First 20 of 1,200 migrants deported under new Trump."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T10:39:12.974487Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-22T11:34:18.930726Z",
       "s": 2.6
@@ -260,6 +256,10 @@
     {
       "t": "2026-08-24T10:02:53.454237Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-24T10:53:03.921237Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
@@ -268,7 +268,7 @@
       "detected_at": "2026-08-23T18:48:09.716794Z",
       "peak_at": "2026-08-24T04:01:20.409416Z",
       "peak_score_at": "2026-08-24T04:01:20.409416Z",
-      "peak_score": 3.9,
+      "peak_score": 3.8,
       "peak_sentiment": "negative",
       "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
       "peak_label": "Nevada wildfire forces 42,000 to evacuate",
@@ -300,22 +300,6 @@
         }
       ]
     },
-    "five americans among seven killed in safari helicopter crash in kenya": {
-      "detected_at": "2026-08-19T18:52:36.576877Z",
-      "peak_at": "2026-08-24T04:01:20.409416Z",
-      "peak_score_at": "2026-08-24T04:01:20.409416Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "peak_label": "Five Americans killed in Kenya helicopter crash",
-      "peak_summary": "Seven dead including five US citizens in safari helicopter crash. Routine accident abroad with American casualties.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ]
-    },
     "us deports 20 people to liberia, the first of 1,200 migrants under trump deal": {
       "detected_at": "2026-08-23T10:38:58.588646Z",
       "peak_at": "2026-08-24T09:03:34.851919Z",
@@ -329,6 +313,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement"
+        }
+      ]
+    },
+    "five americans among seven killed in safari helicopter crash in kenya": {
+      "detected_at": "2026-08-19T18:52:36.576877Z",
+      "peak_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "peak_label": "Five Americans killed in Kenya helicopter crash",
+      "peak_summary": "Seven dead including five US citizens in safari helicopter crash. Routine accident abroad with American casualties.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
         }
       ]
     },
@@ -368,6 +368,6 @@
   "prev_top_event_titles": [
     "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
     "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-    "Five Americans among seven killed in safari helicopter crash in Kenya"
+    "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal"
   ]
 }
