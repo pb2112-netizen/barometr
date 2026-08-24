@@ -1,28 +1,14 @@
 {
-  "global_score": 4.6,
-  "rationale": "Nevada wildfire emergency continues; US-Canada trade war escalates with confirmed 50% tariffs now in effect.",
+  "global_score": 3.0,
+  "rationale": "US-Canada trade war escalates with 50% tariffs enacted (continuation); Iran sanctions campaign continues; Nevada wildfire ongoing. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Nevada wildfire forces evacuations",
-      "label": "Nevada wildfire emergency evacuations continue",
-      "summary": "State emergency remains in effect with homes threatened and evacuations ongoing. Continuation of domestic wildfire crisis with no change in intensity.",
-      "score": 4.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [],
-      "detected_at": "2026-08-23T18:48:09.716794Z"
-    },
-    {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "US enacts 50% tariffs Canada retaliates fully",
-      "summary": "Trade war escalates with tariffs now in effect on goods from hockey sticks to tongue depressors. Confirmed policy change affecting US-Canada trade.",
+      "label": "US imposes 50% tariffs on Canadian goods",
+      "summary": "Trade war escalates with confirmed tariffs on items from hockey sticks to tongue depressors. Negotiations collapsed; potential job losses and higher consumer prices for Americans.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -37,8 +23,8 @@
     },
     {
       "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "label": "US treasury announces total Iran economic isolation",
-      "summary": "Treasury Secretary Bessent announces comprehensive sanctions to sever all economic ties with Iran. Continuation of announced policy with no new action.",
+      "label": "US launches total economic offensive against Iran",
+      "summary": "Treasury Secretary Bessent announces comprehensive sanctions to sever all economic ties with Iran. Continuation of administration's Middle East policy with potential oil market implications.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -53,14 +39,33 @@
         }
       ],
       "detected_at": "2026-08-24T11:43:49.922133Z"
+    },
+    {
+      "title": "Sonya Massey's killer Sean Grayson dies in US prison",
+      "label": "Former officer Grayson dies in prison",
+      "summary": "Former police officer convicted in Sonya Massey killing died undergoing cancer treatment. Closes high-profile police brutality case that reignited national debate.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgrvj28wrxgo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-24T14:01:48.347178Z"
     }
   ],
   "short_summary": "Nevada wildfire forces 90,000 evacuations near Reno",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-24T13:12:31.476934Z",
+  "updated_at": "2026-08-24T14:01:48.347178Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -80,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-22T13:44:20.593391Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-22T14:37:25.048048Z",
       "s": 2.3
@@ -287,6 +288,10 @@
     {
       "t": "2026-08-24T13:12:31.476934Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-08-24T14:01:48.347178Z",
+      "s": 3.0
     }
   ]
 }
