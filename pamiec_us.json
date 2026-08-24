@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-24T11:43:49.928896Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-08-24T13:12:31.483748Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Nevada wildfire forces evacuations",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 1,
       "opis": "State emergency declared; homes threatened, evacuations."
     },
     {
@@ -17,46 +17,42 @@
     },
     {
       "temat": "US launches total economic offensive against Iran",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 1,
       "opis": "Treasury announces comprehensive sanctions and isolation."
     },
     {
+      "temat": "US-Canada 50% tariff war enacted",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Trade war escalates; tariffs in effect on multiple goods."
+    },
+    {
       "temat": "US begins third-country deportations to Liberia",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "First 20 of 1,200 migrants deported under new Trump."
     },
     {
       "temat": "Shein Hong Kong stock market debut",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Fast-fashion giant targets $27bn valuation in September IPO."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Civilian plane crash at remote radar site; routine accident."
     },
     {
       "temat": "Kenya safari helicopter crash kills five Americans",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Seven dead including US citizens in Kenya crash."
-    },
-    {
-      "temat": "Indiana power outage 12 days after severe storms",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Thousands without electricity in Gary, Indiana poverty area."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T13:00:03.978838Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-22T13:44:20.593391Z",
       "s": 2.4
@@ -260,10 +256,30 @@
     {
       "t": "2026-08-24T11:43:49.922133Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-24T13:12:31.476934Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "event_detected_at": {
+    "nevada wildfire forces evacuations": {
+      "detected_at": "2026-08-23T18:48:09.716794Z",
+      "peak_at": "2026-08-24T11:43:49.922133Z",
+      "peak_score_at": "2026-08-24T11:43:49.922133Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "negative",
+      "title": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
+      "peak_label": "Nevada wildfire forces 90,000 evacuations near Reno",
+      "peak_summary": "Fire burned 10,500 acres and remains completely uncontained, prompting mass evacuations as flames approach populated areas.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada vows 'dollar for dollar' response as us puts 50% tariffs on some goods": {
       "detected_at": "2026-08-24T11:43:49.922133Z",
       "peak_at": "2026-08-24T11:43:49.922133Z",
@@ -277,22 +293,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail"
-        }
-      ]
-    },
-    "nearly 90,000 told to evacuate as wildfire approaches reno, nevada": {
-      "detected_at": "2026-08-23T18:48:09.716794Z",
-      "peak_at": "2026-08-24T11:43:49.922133Z",
-      "peak_score_at": "2026-08-24T11:43:49.922133Z",
-      "peak_score": 4.8,
-      "peak_sentiment": "negative",
-      "title": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
-      "peak_label": "Nevada wildfire forces 90,000 evacuations near Reno",
-      "peak_summary": "Fire burned 10,500 acres and remains completely uncontained, prompting mass evacuations as flames approach populated areas.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -398,8 +398,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Nevada wildfire forces evacuations",
     "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-    "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
     "Iran faces 'greatest financial offensive ever', says US treasury secretary"
   ]
 }

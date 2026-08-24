@@ -1,11 +1,25 @@
 {
-  "global_score": 4.8,
-  "rationale": "US-Canada trade war escalates with 50% tariffs enacted and retaliation confirmed; Nevada wildfire forces 90,000 evacuations.",
+  "global_score": 4.6,
+  "rationale": "Nevada wildfire emergency continues; US-Canada trade war escalates with confirmed 50% tariffs now in effect.",
   "top_events": [
     {
+      "title": "Nevada wildfire forces evacuations",
+      "label": "Nevada wildfire emergency evacuations continue",
+      "summary": "State emergency remains in effect with homes threatened and evacuations ongoing. Continuation of domestic wildfire crisis with no change in intensity.",
+      "score": 4.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [],
+      "detected_at": "2026-08-23T18:48:09.716794Z"
+    },
+    {
       "title": "Canada vows 'dollar for dollar' response as US puts 50% tariffs on some goods",
-      "label": "US enacts 50% tariffs, Canada retaliates immediately",
-      "summary": "Trade talks collapsed completely with Washington imposing harsh tariffs on Canadian goods and Ottawa promising matching retaliation, threatening jobs and economic stability.",
+      "label": "US enacts 50% tariffs Canada retaliates fully",
+      "summary": "Trade war escalates with tariffs now in effect on goods from hockey sticks to tongue depressors. Confirmed policy change affecting US-Canada trade.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -22,31 +36,12 @@
       "detected_at": "2026-08-24T11:43:49.922133Z"
     },
     {
-      "title": "Nearly 90,000 told to evacuate as wildfire approaches Reno, Nevada",
-      "label": "Nevada wildfire forces 90,000 evacuations near Reno",
-      "summary": "Fire burned 10,500 acres and remains completely uncontained, prompting mass evacuations as flames approach populated areas.",
-      "score": 4.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-23T18:48:09.716794Z"
-    },
-    {
       "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "label": "Treasury launches total economic offensive against Iran",
-      "summary": "Scott Bessent announces US will sever all economic ties with Iran and isolate any nation partnering financially with Tehran.",
+      "label": "US treasury announces total Iran economic isolation",
+      "summary": "Treasury Secretary Bessent announces comprehensive sanctions to sever all economic ties with Iran. Continuation of announced policy with no new action.",
       "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -62,10 +57,10 @@
   ],
   "short_summary": "Nevada wildfire forces 90,000 evacuations near Reno",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-24T11:43:49.922133Z",
+  "updated_at": "2026-08-24T13:12:31.476934Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +80,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-22T13:00:03.978838Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-22T13:44:20.593391Z",
       "s": 2.4
@@ -292,6 +283,10 @@
     {
       "t": "2026-08-24T11:43:49.922133Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-24T13:12:31.476934Z",
+      "s": 4.6
     }
   ]
 }
