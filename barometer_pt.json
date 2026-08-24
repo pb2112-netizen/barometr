@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "France reports 301 drowning deaths linked to heatwaves since June, a climate-related trend relevant to Iberian peninsula conditions, though no new Portuguese policy impact.",
+  "rationale": "France heatwave drowning toll continues as background; US-Canada trade tensions have mild indirect economic relevance. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "France links sharp rise in drownings to heatwaves",
-      "label": "France reports 301 heatwave drowning deaths",
-      "summary": "French authorities link 301 drowning deaths since June to heatwaves, reflecting climate risks relevant to Iberian conditions, though no new Portuguese impact.",
+      "label": "France reports 301 heatwave drowning deaths since June",
+      "summary": "French authorities link 301 drowning deaths to heatwaves and risky water behavior, reflecting broader Iberian climate pressures.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -22,42 +22,52 @@
       "detected_at": "2026-08-23T15:35:52.448208Z"
     },
     {
-      "title": "Large forest fire burns close to residential areas in Ankara",
-      "label": "Ankara forest fire threatens homes",
-      "summary": "Large wildfire near Turkish capital threatens residential areas in a distant country with no Portuguese connection.",
-      "score": 1.9,
-      "sentiment": "neutral",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "label": "US imposes 50% tariffs on Canada goods",
+      "summary": "US-Canada trade war escalates with tariffs, creating mild indirect risk for Portuguese exports through global trade uncertainty.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/large-forest-fire-burns-close-to-residential-areas-in-ankara?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-24T04:01:20.406663Z"
-    },
-    {
-      "title": "More than 100 dead after goldmine collapses in Central African Republic",
-      "label": "Central African goldmine collapse kills 100",
-      "summary": "Distant African mining disaster with no connection to Portuguese daily life or economy.",
-      "score": 1.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic"
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
         }
       ],
-      "detected_at": "2026-08-22T13:00:03.975119Z"
+      "detected_at": "2026-08-22T03:06:42.851565Z"
+    },
+    {
+      "title": "Maradona's 'Hand of God' ball sells for £2.5m",
+      "label": "Maradona World Cup ball sells for £2.5m",
+      "summary": "Historic football memorabilia auction; no impact on Portuguese daily life.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqxvj8j7gy8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-mardona-ball-sold-clip?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-24T07:19:33.098956Z"
     }
   ],
   "short_summary": "Serbia seeks EU aid for wildfire crisis",
@@ -65,9 +75,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-24T05:53:15.945514Z",
+  "updated_at": "2026-08-24T07:19:33.098956Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Serbia seeks EU aid for wildfire crisis",
     "summary": "EU member neighbor requests international assistance for intense wildfires. Modest regional concern but no direct Portuguese impact.",
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-23T22:01:21.239666Z",
   "score_history": [
-    {
-      "t": "2026-08-22T06:58:31.396992Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-22T07:45:14.078902Z",
       "s": 4.2
@@ -295,6 +301,10 @@
     },
     {
       "t": "2026-08-24T05:53:15.945514Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-24T07:19:33.098956Z",
       "s": 2.0
     }
   ]
