@@ -1,60 +1,58 @@
 {
-  "updated_at": "2026-08-24T03:16:12.873748Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-08-24T04:01:20.416025Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US-Canada trade talks collapse completely",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 15,
       "opis": "Negotiations fail; 50% tariffs and retaliation now in."
     },
     {
       "temat": "Indiana power outage 12 days after severe storms",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Thousands without electricity in Gary, Indiana poverty area."
     },
     {
       "temat": "Eight killed in Alaska military site crash",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
       "opis": "Civilian plane crash at remote radar site; routine accident."
     },
     {
       "temat": "Kenya safari helicopter crash kills five Americans",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
       "opis": "Seven dead including US citizens in Kenya crash."
     },
     {
       "temat": "Nevada wildfire forces evacuations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
       "opis": "State emergency declared; homes threatened, evacuations."
     },
     {
       "temat": "US deports 20 to Liberia under Trump deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "First of 1,200 deportees under new Trump immigration."
     },
     {
       "temat": "Laptop fire on domestic flight",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Cabin fire from laptop on American Airlines flight."
+    },
+    {
+      "temat": "Trump imposes 50% tariffs, Canada retaliates",
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 1,
+      "opis": "Trade war escalates; negotiations collapse completely."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T03:55:51.709223Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-08-22T04:00:47.856957Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-22T04:48:12.013758Z",
       "s": 3.4
@@ -258,15 +256,19 @@
     {
       "t": "2026-08-24T03:16:12.867538Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-24T04:01:20.409416Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-08-23T16:43:02.640432Z",
+  "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "event_detected_at": {
     "trump says canada wants 'benefits' of being us state after trade talks collapse": {
       "detected_at": "2026-08-23T10:01:19.995327Z",
       "peak_at": "2026-08-23T15:35:52.450476Z",
       "peak_score_at": "2026-08-23T15:35:52.450476Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
       "peak_label": "US-Canada trade talks collapse, tariffs active",
@@ -279,6 +281,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
+        }
+      ]
+    },
+    "human-caused nevada wildfire forces 42,000 people to evacuate": {
+      "detected_at": "2026-08-23T18:48:09.716794Z",
+      "peak_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
+      "peak_label": "Nevada wildfire forces 42,000 to evacuate",
+      "peak_summary": "Fast-moving fire near Reno forces 42,000 evacuations with another 45,000 on alert. Major domestic emergency affecting tens of thousands of residents.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss"
+        }
+      ]
+    },
+    "five americans among seven killed in safari helicopter crash in kenya": {
+      "detected_at": "2026-08-19T18:52:36.576877Z",
+      "peak_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score_at": "2026-08-24T04:01:20.409416Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "peak_label": "Five Americans killed in Kenya helicopter crash",
+      "peak_summary": "Seven dead including five US citizens in safari helicopter crash. Routine accident abroad with American casualties.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
         }
       ]
     },
@@ -295,38 +329,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "five americans among seven killed in safari helicopter crash in kenya": {
-      "detected_at": "2026-08-19T18:52:36.576877Z",
-      "peak_at": "2026-08-23T20:38:05.738399Z",
-      "peak_score_at": "2026-08-23T20:38:05.738399Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
-      "peak_label": "Five Americans killed in Kenya helicopter crash",
-      "peak_summary": "Safari helicopter crash kills seven including five US citizens and Telemundo executive. Tragic accident abroad with limited domestic impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash"
-        }
-      ]
-    },
-    "thousands displaced as wildfire threatens homes in us state of nevada": {
-      "detected_at": "2026-08-23T18:48:09.716794Z",
-      "peak_at": "2026-08-23T18:48:09.716794Z",
-      "peak_score_at": "2026-08-23T18:48:09.716794Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Thousands displaced as wildfire threatens homes in US state of Nevada",
-      "peak_label": "Nevada wildfire forces evacuations, emergency declared",
-      "peak_summary": "State of emergency declared in Nevada as wildfire prompts mass evacuations. New domestic disaster affecting US residents directly.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/23/thousands-displaced-as-wildfire-threatens-homes-in-us-state-of-nevada?traffic_source=rss"
         }
       ]
     },
@@ -381,7 +383,7 @@
   },
   "prev_top_event_titles": [
     "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-    "Frustration builds in Indiana town struggling without power for 12 days",
+    "Human-caused Nevada wildfire forces 42,000 people to evacuate",
     "Five Americans among seven killed in safari helicopter crash in Kenya"
   ]
 }

@@ -1,42 +1,40 @@
 {
-  "updated_at": "2026-08-24T03:16:12.872551Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-24T04:01:20.414707Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Israeli strikes in Syria escalate",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Multiple Israeli strikes near Damascus and Turkish border."
     },
     {
       "temat": "Sacked defense minister publicly criticizes Zelensky",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 21,
       "opis": "Former minister accuses government of corruption, calls for."
     },
     {
       "temat": "Fedorov escalates public attacks on Zelensky, demands elections",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Former minister intensifies corruption accusations, calls."
     },
     {
       "temat": "Gaza hospitals oxygen shortage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Healthcare collapse threatens patients; distant crisis."
+    },
+    {
+      "temat": "UK official visits Kyiv, Russia warns of consequences",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
+      "opis": "British support reaffirmed amid Moscow warnings over drones."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-22T03:55:51.706156Z",
-      "s": 5.1
-    },
-    {
-      "t": "2026-08-22T04:00:47.854201Z",
-      "s": 4.8
-    },
     {
       "t": "2026-08-22T04:48:12.011206Z",
       "s": 4.6
@@ -240,15 +238,35 @@
     {
       "t": "2026-08-24T03:16:12.866338Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-24T04:01:20.407903Z",
+      "s": 3.9
     }
   ],
-  "events_anchor_at": "2026-08-23T08:47:40.013352Z",
+  "events_anchor_at": "2026-08-24T04:01:20.407903Z",
   "event_detected_at": {
+    "burnham to visit kyiv on first foreign trip and reaffirm uk support for ukraine": {
+      "detected_at": "2026-08-24T04:01:20.407903Z",
+      "peak_at": "2026-08-24T04:01:20.407903Z",
+      "peak_score_at": "2026-08-24T04:01:20.407903Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "positive",
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "peak_label": "UK reaffirms Ukraine support amid Russia warnings",
+      "peak_summary": "British official visits Kyiv to show continued support after Moscow warns of consequences over reported British drone use. Signals sustained Western backing during war.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "zelensky should be asked what he knew about government corruption, sacked minister tells bbc": {
       "detected_at": "2026-08-23T08:47:40.013352Z",
       "peak_at": "2026-08-23T08:47:40.013352Z",
       "peak_score_at": "2026-08-23T08:47:40.013352Z",
-      "peak_score": 3.8,
+      "peak_score": 3.7,
       "peak_sentiment": "negative",
       "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
       "peak_label": "Sacked minister criticizes Zelensky on corruption",
@@ -355,25 +373,10 @@
           "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine?traffic_source=rss"
         }
       ]
-    },
-    "fourteen killed in strike on myanmar monastery": {
-      "detected_at": "2026-08-23T04:01:19.924075Z",
-      "peak_at": "2026-08-23T04:01:19.924075Z",
-      "peak_score_at": "2026-08-23T04:01:19.924075Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "Fourteen killed in strike on Myanmar monastery",
-      "peak_label": "Myanmar monastery strike kills fourteen",
-      "peak_summary": "Monastery struck twice during meditation retreat; distant Asian conflict with no connection to Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
     "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "US-Canada trade talks collapse completely with 50% tariffs now in effect and Canadian retaliation; domestic political and economic impact continues.",
+  "global_score": 4.0,
+  "rationale": "US-Canada trade war escalates with Trump imposing 50% tariffs and Canada retaliating; Nevada wildfire forces 42,000 evacuations. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "label": "US-Canada trade talks collapse, tariffs enforced",
-      "summary": "Negotiations fail; 50% US tariffs now in effect with Canadian retaliation. Trade war escalates with direct impact on US-Canada economic relations and jobs.",
-      "score": 2.5,
+      "label": "Trump imposes 50% tariffs as Canada talks collapse",
+      "summary": "US imposes 50% tariffs on Canadian goods after negotiations fail. Canada announces retaliatory tariffs. Trade war escalates between major partners, threatening jobs and prices.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -27,31 +27,31 @@
       "detected_at": "2026-08-23T10:01:19.995327Z"
     },
     {
-      "title": "Frustration builds in Indiana town struggling without power for 12 days",
-      "label": "Indiana power outage enters 12th day",
-      "summary": "Gary, Indiana residents remain without electricity 12 days after storms. Poverty-stricken community struggles in survival mode with no resolution.",
-      "score": 2.0,
+      "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
+      "label": "Nevada wildfire forces 42,000 to evacuate",
+      "summary": "Fast-moving fire near Reno forces 42,000 evacuations with another 45,000 on alert. Major domestic emergency affecting tens of thousands of residents.",
+      "score": 4.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-23T16:43:02.640432Z"
+      "detected_at": "2026-08-23T18:48:09.716794Z"
     },
     {
       "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
       "label": "Five Americans killed in Kenya helicopter crash",
-      "summary": "Seven dead including five US citizens in safari helicopter crash. Routine accident abroad with no broader domestic impact.",
-      "score": 2.0,
+      "summary": "Seven dead including five US citizens in safari helicopter crash. Routine accident abroad with American casualties.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -65,39 +65,31 @@
       "detected_at": "2026-08-19T18:52:36.576877Z"
     }
   ],
-  "short_summary": "Indiana residents without power 12 days after storms",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Nevada wildfire forces 42,000 to evacuate",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-24T03:16:12.867538Z",
+  "updated_at": "2026-08-24T04:01:20.409416Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Indiana residents without power 12 days after storms",
-    "summary": "Thousands in Gary, Indiana remain without electricity nearly two weeks after severe storms, with poverty-stricken residents in survival mode.",
-    "title": "Thousands struggling without power in Indiana 12 days after severe storms",
-    "score": 2.7,
+    "label": "Nevada wildfire forces 42,000 to evacuate",
+    "summary": "Fast-moving fire near Reno forces 42,000 evacuations with another 45,000 on alert. Major domestic emergency affecting tens of thousands of residents.",
+    "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate",
+    "score": 4.0,
     "sentiment": "negative",
-    "detected_at": "2026-08-23T16:43:02.640432Z",
-    "peak_at": "2026-08-23T16:43:02.640432Z",
+    "detected_at": "2026-08-23T18:48:09.716794Z",
+    "peak_at": "2026-08-24T04:01:20.409416Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-23T16:43:02.640432Z",
+  "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-22T03:55:51.709223Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-08-22T04:00:47.856957Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-22T04:48:12.013758Z",
       "s": 3.4
@@ -301,6 +293,10 @@
     {
       "t": "2026-08-24T03:16:12.867538Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-24T04:01:20.409416Z",
+      "s": 4.0
     }
   ]
 }
