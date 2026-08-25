@@ -1,30 +1,11 @@
 {
-  "global_score": 3.1,
-  "rationale": "US military strike on Pacific vessel killing two represents new confirmed military action; tariff war and immigration policy continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "US-Canada trade war escalates with new tariff threats; Pacific vessel strike and Iran sanctions continue as background; domestic events remain routine. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "label": "US strikes Pacific vessel killing two",
-      "summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
-      "score": 3.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
-        }
-      ],
-      "detected_at": "2026-08-23T10:38:58.588646Z"
-    },
     {
       "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
       "label": "Trump threatens 50% tariff on Canadian vehicles",
-      "summary": "Trade war with Canada deepens as Trump announces new 50% tariff on autos and steel, escalating economic conflict with major trading partner.",
+      "summary": "Trump announces new 50% tariff on Canadian autos and steel, escalating trade war. Direct impact on US auto industry and consumer prices.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -46,9 +27,28 @@
       "detected_at": "2026-08-24T19:44:16.879193Z"
     },
     {
+      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
+      "label": "US strikes drug trafficking vessel in Pacific",
+      "summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking. Routine counter-narcotics operation.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
+        }
+      ],
+      "detected_at": "2026-08-23T10:38:58.588646Z"
+    },
+    {
       "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "label": "Iran prepares response to expanded US sanctions",
-      "summary": "Tehran responds to US 'economic D-Day' sanctions with countermeasures, continuing Middle East economic pressure campaign.",
+      "label": "Iran prepared to counter US economic sanctions",
+      "summary": "Tehran responds to US 'economic D-Day' sanctions with countermeasures. Ongoing Middle East policy with no immediate domestic impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -67,12 +67,12 @@
   ],
   "short_summary": "Nevada wildfire forces 90,000 evacuations near Reno",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T07:57:23.999184Z",
+  "updated_at": "2026-08-25T08:59:22.664599Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Nevada wildfire forces 90,000 evacuations near Reno",
     "summary": "Fire burned 10,500 acres and remains completely uncontained, prompting mass evacuations as flames approach populated areas.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-23T08:47:40.014468Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T09:42:20.232542Z",
       "s": 2.0
@@ -301,6 +297,10 @@
     {
       "t": "2026-08-25T07:57:23.999184Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-25T08:59:22.664599Z",
+      "s": 3.0
     }
   ]
 }
