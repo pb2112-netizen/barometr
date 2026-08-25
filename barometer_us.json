@@ -1,12 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "US-Canada trade war continues with new tariff announcement; US-Iran sanctions remain rhetoric; Syria terrorism list removal is policy shift but limited domestic impact; Sonya Massey case continues.",
+  "global_score": 2.1,
+  "rationale": "Trump announces new 50% tariff on Canadian cars, trucks, and steel — qualitatively new escalation in US-Canada trade war with direct impact on US consumers and manufacturing supply chains. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariffs on Canadian goods",
-      "summary": "President announces new tariffs on Canadian automobiles and steel. Continuation of trade war escalation with potential consumer price impacts.",
-      "score": 2.2,
+      "label": "Trump imposes 50% tariff on Canadian autos and steel",
+      "summary": "President announces new 50% tariff on Canadian automobiles and raw materials, escalating trade war. New tariff action beyond existing measures, directly affecting US consumers and industry.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,17 +22,22 @@
       "detected_at": "2026-08-24T19:44:16.879193Z"
     },
     {
-      "title": "US removes Syria from 'state sponsor of terrorism' list",
-      "label": "US lifts Syria terrorism designation",
-      "summary": "Washington removes Syria from terrorism list and rescinds HTS designation. Policy shift with limited direct domestic impact.",
+      "title": "US removes Syria from list of state sponsors of terrorism",
+      "label": "US removes Syria from terrorism sponsor list",
+      "summary": "Trump administration delists Syria and HTS, embracing new president Ahmed al-Sharaa. Continuation of US Middle East policy shift; limited domestic impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list?traffic_source=rss"
@@ -42,8 +47,8 @@
     },
     {
       "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "label": "Treasury announces Iran economic isolation campaign",
-      "summary": "Treasury secretary threatens to sever all economic ties with Iran and isolate partnering nations. Rhetoric-only announcement without enacted measures.",
+      "label": "US treasury announces Iran sanctions escalation rhetoric",
+      "summary": "Scott Bessent threatens total economic isolation of Iran and trade partners. Rhetoric without enacted measures; continuation of existing US-Iran sanctions campaign.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -59,7 +64,7 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-24T11:43:49.922133Z"
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-24T23:34:14.891738Z",
+  "updated_at": "2026-08-25T01:51:37.469107Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-22T23:34:43.059134Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-23T01:59:24.253988Z",
       "s": 3.0
@@ -301,6 +302,10 @@
     {
       "t": "2026-08-24T23:34:14.891738Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-08-25T01:51:37.469107Z",
+      "s": 2.1
     }
   ]
 }
