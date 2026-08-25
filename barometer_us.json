@@ -1,33 +1,14 @@
 {
-  "global_score": 2.9,
-  "rationale": "Trump announces new 50% tariff on Canadian autos and steel, escalating trade war with major economic partner; US military strikes vessel in Pacific killing two; US-Iran sanctions expansion is rhetoric-heavy with uncertain market impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "New US military strike in Pacific and mysterious C-17 landing in Moscow are notable developments; tariff escalation continues; no major domestic policy change this cycle.",
   "top_events": [
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos, steel",
-      "summary": "President announces major tariff increase on Canadian automobiles and raw materials, escalating trade dispute with largest trading partner. Confirmed policy action affecting US manufacturing and consumer prices.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.879193Z"
-    },
-    {
       "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "label": "US military strikes Pacific vessel, kills two",
-      "summary": "US Southern Command launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking. Confirmed military action resuming after months of pause.",
-      "score": 2.8,
+      "label": "US strikes drug trafficking vessel in Pacific",
+      "summary": "US military launches deadly strike on vessel in Pacific, killing two accused of drug trafficking. First such attack in months; limited domestic impact.",
+      "score": 2.7,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -41,33 +22,52 @@
       "detected_at": "2026-08-23T10:38:58.588646Z"
     },
     {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US threatens nations trading with Iran, targets China",
-      "summary": "Washington expands Iran sanctions threatening to isolate trading partners including China. Diplomatic rhetoric with uncertain impact on oil markets or US economy; no confirmed policy change yet.",
-      "score": 2.5,
+      "title": "US military transport plane arrives in Moscow in rare occurrence",
+      "label": "US military plane lands in Moscow unexpectedly",
+      "summary": "US C-17 transport plane mysteriously lands at Moscow airport from Riga. Rare occurrence with unclear purpose; potential diplomatic or prisoner exchange activity.",
+      "score": 3.2,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/us-military-transport-plane-arrives-in-moscow-in-rare-occurrence?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-25T07:07:52.327656Z"
+      "detected_at": "2026-08-25T15:03:59.540174Z"
+    },
+    {
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian autos",
+      "summary": "New tariff escalation beyond existing US-Canada trade tensions. Continuation of trade war; potential impact on auto prices and manufacturing.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ],
+      "detected_at": "2026-08-24T19:44:16.879193Z"
     }
   ],
   "short_summary": "US plans largest mass visa revocation ever",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T14:03:14.298815Z",
+  "updated_at": "2026-08-25T15:03:59.540174Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US plans largest mass visa revocation ever",
     "summary": "Administration plans to revoke visas of 200,000 asylum seekers in largest single mass revocation in US history. Major immigration policy action affecting domestic legal status.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T03:58:48.454943Z",
   "score_history": [
-    {
-      "t": "2026-08-23T14:38:11.119517Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T15:35:52.450476Z",
       "s": 3.0
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-25T14:03:14.298815Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-25T15:03:59.540174Z",
+      "s": 3.2
     }
   ]
 }
