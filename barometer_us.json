@@ -1,31 +1,55 @@
 {
   "global_score": 3.0,
-  "rationale": "US-Canada trade war escalates with new 50% tariffs on autos and steel, directly affecting American consumers and industry; talks collapsed with no resolution. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US-Canada trade war escalates with new 50% tariffs on autos and steel, directly affecting American consumers and industry; Iran sanctions widen with potential oil market impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
       "label": "Trump imposes 50% tariff on Canadian autos",
-      "summary": "New 50% tariffs on Canadian vehicles and steel take effect as trade talks collapse. Direct impact on US auto industry, steel prices, and consumer costs.",
-      "score": 3.0,
+      "summary": "New 50% tariff on Canadian vehicles and steel escalates trade war, directly raising costs for American consumers and auto industry. Carney rejects US trade proposal.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "BBC"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-24T19:44:16.879193Z"
     },
     {
+      "title": "China warns it will safeguard its interests after US widens sanctions against Iran",
+      "label": "US widens Iran sanctions threatening China trade",
+      "summary": "Washington threatens to isolate nations trading with Tehran, targeting China's oil imports. Potential oil market disruption if China reacts, affecting US energy prices.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T07:07:52.327656Z"
+    },
+    {
       "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "label": "US strikes Pacific vessel killing two",
-      "summary": "US military launches deadly strike on drug trafficking vessel in Pacific, killing two. Continuation of counter-narcotics operations with limited domestic impact.",
-      "score": 2.7,
+      "label": "US strikes drug vessel killing two Pacific",
+      "summary": "US military launches deadly strike on vessel in Pacific Ocean, killing two accused of drug trafficking. Continuation of counter-narcotics operations.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +63,6 @@
         }
       ],
       "detected_at": "2026-08-23T10:38:58.588646Z"
-    },
-    {
-      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "label": "Iran prepared to counter US economic sanctions",
-      "summary": "US imposes new sanctions on Iran, Tehran claims readiness. Limited direct domestic impact unless oil markets spike or military escalation follows.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T07:07:52.327656Z"
     }
   ],
   "short_summary": "Nevada wildfire forces 90,000 evacuations near Reno",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T10:49:22.759998Z",
+  "updated_at": "2026-08-25T11:42:41.733954Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-23T11:33:57.514394Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T13:01:14.166208Z",
       "s": 2.0
@@ -295,6 +296,10 @@
     },
     {
       "t": "2026-08-25T10:49:22.759998Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-08-25T11:42:41.733954Z",
       "s": 3.0
     }
   ]
