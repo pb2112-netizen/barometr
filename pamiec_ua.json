@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-25T13:10:55.498254Z",
-  "ostatnia_ocena": 4.7,
+  "updated_at": "2026-08-25T14:03:14.303123Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK transfers Storm Shadow production technology to Ukraine",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Britain shares classified missile blueprints for domestic."
     },
     {
       "temat": "Zelenskyy rejects wartime election calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "President faces domestic pressure for elections during war."
     },
     {
       "temat": "Kremlin threatens UK drone factories over Ukraine aid",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 8,
       "opis": "Russia warns of attacks on UK facilities producing weapons."
     },
     {
       "temat": "US widens Iran sanctions threatening China trade",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Washington threatens to isolate nations trading with Tehran."
+    },
+    {
+      "temat": "Ukraine strikes Russian oil refinery in Krasnodar",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Successful drone attack on Afipsky refinery kills two."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T13:45:12.074040Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-23T14:38:11.117619Z",
       "s": 3.8
@@ -240,10 +242,30 @@
     {
       "t": "2026-08-25T13:10:55.491783Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-08-25T14:03:14.297205Z",
+      "s": 5.0
     }
   ],
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "event_detected_at": {
+    "two killed, refinery on fire in russia's krasnodar after drone attack": {
+      "detected_at": "2026-08-25T14:03:14.297205Z",
+      "peak_at": "2026-08-25T14:03:14.297205Z",
+      "peak_score_at": "2026-08-25T14:03:14.297205Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "positive",
+      "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
+      "peak_label": "Ukrainian drones strike Russian oil refinery",
+      "peak_summary": "Ukraine successfully hits Afipsky refinery and gas plant in Krasnodar, killing two and causing fires. Confirmed military action targeting Russian energy infrastructure, part of ongoing campaign.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack?traffic_source=rss"
+        }
+      ]
+    },
     "uk to back ukraine with missile blueprints amid russia-ukraine strikes": {
       "detected_at": "2026-08-24T17:46:47.309000Z",
       "peak_at": "2026-08-25T13:10:55.491783Z",
@@ -260,6 +282,22 @@
         }
       ]
     },
+    "china hits out at 'illegal' new us sanctions on iran and trading partners": {
+      "detected_at": "2026-08-25T07:07:52.325521Z",
+      "peak_at": "2026-08-25T07:07:52.325521Z",
+      "peak_score_at": "2026-08-25T07:07:52.325521Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
+      "peak_label": "Iran vows to counter expanded US sanctions",
+      "peak_summary": "US launches major sanctions offensive against Iran; Tehran's response could affect regional stability and indirectly impact Ukraine's geopolitical environment.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "russia mobilisation fears grow amid reports of intimidating tactics": {
       "detected_at": "2026-08-25T13:10:55.491783Z",
       "peak_at": "2026-08-25T13:10:55.491783Z",
@@ -273,22 +311,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/25/russia-mobilisation-fears-grow-amid-reports-of-intimidating-tactics?traffic_source=rss"
-        }
-      ]
-    },
-    "china warns it will protect its interests after us widens sanctions against iran": {
-      "detected_at": "2026-08-25T07:07:52.325521Z",
-      "peak_at": "2026-08-25T07:07:52.325521Z",
-      "peak_score_at": "2026-08-25T07:07:52.325521Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "peak_label": "Iran vows to counter expanded US sanctions",
-      "peak_summary": "US launches major sanctions offensive against Iran; Tehran's response could affect regional stability and indirectly impact Ukraine's geopolitical environment.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -375,27 +397,11 @@
           "url": "https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss"
         }
       ]
-    },
-    "south korea says us cancelled upcoming joint marine exercises over iran war": {
-      "detected_at": "2026-08-24T13:12:31.474644Z",
-      "peak_at": "2026-08-24T13:12:31.474644Z",
-      "peak_score_at": "2026-08-24T13:12:31.474644Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "South Korea says US cancelled upcoming joint marine exercises over Iran war",
-      "peak_label": "US cancels South Korea drills over Iran conflict",
-      "peak_summary": "Washington scales back joint military exercises following Trump's order. Signals potential shift in US military priorities away from allies.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/24/south-korea-says-us-cancelled-upcoming-joint-marine-exercises-over-iran-war?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
     "UK to back Ukraine with missile blueprints amid Russia-Ukraine strikes",
-    "Russia mobilisation fears grow amid reports of intimidating tactics",
-    "China warns it will protect its interests after US widens sanctions against Iran"
+    "China hits out at 'illegal' new US sanctions on Iran and trading partners"
   ]
 }

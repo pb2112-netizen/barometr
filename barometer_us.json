@@ -1,36 +1,50 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump announces new 50% tariff on Canadian autos and steel—a confirmed policy action escalating the US-Canada trade war with direct impact on American auto industry and consumer prices. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Trump announces new 50% tariff on Canadian autos and steel, escalating trade war with major economic partner; US military strikes vessel in Pacific killing two; US-Iran sanctions expansion is rhetoric-heavy with uncertain market impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
-      "label": "Trump announces 50% tariff on Canadian autos",
-      "summary": "New 50% tariff on Canadian vehicles and steel confirmed—a major escalation in US-Canada trade war directly affecting American auto industry and consumer prices.",
-      "score": 3.0,
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian autos, steel",
+      "summary": "President announces major tariff increase on Canadian automobiles and raw materials, escalating trade dispute with largest trading partner. Confirmed policy action affecting US manufacturing and consumer prices.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/25/first-thing-us-supreme-court-midterms-mail-in-voting-trump-plan"
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
         }
       ],
       "detected_at": "2026-08-24T19:44:16.879193Z"
     },
     {
-      "title": "China warns it will protect its interests after US widens sanctions against Iran",
-      "label": "US widens Iran sanctions threatening China trade",
-      "summary": "Washington threatens to isolate nations trading with Tehran; continuation of sanctions rhetoric without confirmed new domestic economic impact or oil price spike.",
-      "score": 2.9,
+      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
+      "label": "US military strikes Pacific vessel, kills two",
+      "summary": "US Southern Command launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking. Confirmed military action resuming after months of pause.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
+        }
+      ],
+      "detected_at": "2026-08-23T10:38:58.588646Z"
+    },
+    {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "label": "US threatens nations trading with Iran, targets China",
+      "summary": "Washington expands Iran sanctions threatening to isolate trading partners including China. Diplomatic rhetoric with uncertain impact on oil markets or US economy; no confirmed policy change yet.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-25T07:07:52.327656Z"
-    },
-    {
-      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "label": "US strikes drug vessel in Pacific killing two",
-      "summary": "US military launches deadly strike on vessel in Pacific Ocean; continuation of counter-narcotics operations with minimal domestic impact.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
-        }
-      ],
-      "detected_at": "2026-08-23T10:38:58.588646Z"
     }
   ],
   "short_summary": "US plans largest mass visa revocation ever",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T13:10:55.493409Z",
+  "updated_at": "2026-08-25T14:03:14.298815Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T03:58:48.454943Z",
   "score_history": [
-    {
-      "t": "2026-08-23T13:45:12.075478Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T14:38:11.119517Z",
       "s": 2.0
@@ -301,6 +292,10 @@
     {
       "t": "2026-08-25T13:10:55.493409Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-25T14:03:14.298815Z",
+      "s": 2.9
     }
   ]
 }

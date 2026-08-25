@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-25T13:10:55.499567Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-25T14:03:14.304359Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "New tariff escalation beyond existing US-Canada trade war."
     },
     {
       "temat": "US strikes drug trafficking vessel in Pacific",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
       "opis": "Military launches deadly strike killing two in eastern."
     },
     {
       "temat": "Trump plans to revoke 200,000 asylum seeker visas",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 12,
       "opis": "Largest mass visa revocation in US history; major domestic."
     },
     {
       "temat": "US removes Syria from terrorism list",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Washington shifts Middle East policy; limited domestic."
     },
     {
       "temat": "Violence flares in Haiti as gang attack kills 30",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Gang violence kills 30 as Haiti prepares for first."
     },
     {
       "temat": "Israel threatens Gaza attacks over children's kites",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Israel warns of forceful response to kites from Gaza."
     },
     {
       "temat": "US imposes new economic sanctions on Iran",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Washington calls it 'economic D-Day'; potential oil market."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T13:45:12.075478Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T14:38:11.119517Z",
       "s": 2.0
@@ -258,15 +254,19 @@
     {
       "t": "2026-08-25T13:10:55.493409Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-25T14:03:14.298815Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-08-25T03:58:48.454943Z",
   "event_detected_at": {
-    "us-canada trade war escalates as trump threatens tariff hike on vehicles": {
+    "trump announces new 50% tariff on canadian cars, trucks and steel": {
       "detected_at": "2026-08-24T19:44:16.879193Z",
       "peak_at": "2026-08-25T03:12:31.828816Z",
       "peak_score_at": "2026-08-25T03:12:31.828816Z",
-      "peak_score": 4.0,
+      "peak_score": 3.9,
       "peak_sentiment": "negative",
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
       "peak_label": "Trump imposes 50% tariff on Canadian autos, steel",
@@ -278,7 +278,23 @@
         }
       ]
     },
-    "china warns it will protect its interests after us widens sanctions against iran": {
+    "us strikes a vessel in the eastern pacific, killing 2 people in first attack in months": {
+      "detected_at": "2026-08-23T10:38:58.588646Z",
+      "peak_at": "2026-08-25T07:07:52.327656Z",
+      "peak_score_at": "2026-08-25T07:07:52.327656Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
+      "peak_label": "US strikes Pacific vessel killing two",
+      "peak_summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
+        }
+      ]
+    },
+    "china hits out at 'illegal' new us sanctions on iran and trading partners": {
       "detected_at": "2026-08-25T07:07:52.327656Z",
       "peak_at": "2026-08-25T10:49:22.759998Z",
       "peak_score_at": "2026-08-25T10:49:22.759998Z",
@@ -291,22 +307,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us strikes a vessel in the eastern pacific, killing 2 people in first attack in months": {
-      "detected_at": "2026-08-23T10:38:58.588646Z",
-      "peak_at": "2026-08-25T07:07:52.327656Z",
-      "peak_score_at": "2026-08-25T07:07:52.327656Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "neutral",
-      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "peak_label": "US strikes Pacific vessel killing two",
-      "peak_summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
         }
       ]
     },
@@ -341,27 +341,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list?traffic_source=rss"
         }
       ]
-    },
-    "sonya massey's killer sean grayson dies in us prison": {
-      "detected_at": "2026-08-24T14:01:48.347178Z",
-      "peak_at": "2026-08-24T14:01:48.347178Z",
-      "peak_score_at": "2026-08-24T14:01:48.347178Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Sonya Massey's killer Sean Grayson dies in US prison",
-      "peak_label": "Former officer Grayson dies in prison",
-      "peak_summary": "Former police officer convicted in Sonya Massey killing died undergoing cancer treatment. Closes high-profile police brutality case that reignited national debate.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgrvj28wrxgo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
-    "China warns it will protect its interests after US widens sanctions against Iran",
-    "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months"
+    "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+    "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
+    "China hits out at 'illegal' new US sanctions on Iran and trading partners"
   ]
 }
