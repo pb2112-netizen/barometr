@@ -1,37 +1,13 @@
 {
-  "global_score": 3.8,
-  "rationale": "CIA chief in Moscow for rare talks; Washington asked Ukraine to pause strikes during visit, directly affecting Ukraine's military operations and war dynamics.",
+  "global_score": 3.6,
+  "rationale": "CIA director makes rare Moscow visit for unannounced talks, potential shift in US-Russia relations affecting Ukraine war; North American tariff war may strain Western aid capacity. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA chief holds rare Moscow talks",
-      "summary": "US intelligence director travels to Moscow for unannounced talks confirmed by flight tracking. Washington reportedly asked Ukraine to refrain from strikes during visit, directly constraining Ukrainian military operations.",
-      "score": 3.8,
+      "label": "CIA director makes rare unannounced Moscow visit",
+      "summary": "Rare US-Russia diplomatic contact confirmed by flight tracking; unclear purpose but potential shift in war dynamics or negotiations affecting Ukraine's future.",
+      "score": 3.6,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T15:59:20.700663Z"
-    },
-    {
-      "title": "Swedish military seeks to take over Russian-owned estate near naval base",
-      "label": "Sweden seizes Russian estate near base",
-      "summary": "Swedish armed forces request seizure of Russian property near Muskö Naval Base citing drone threats. NATO member tightens security posture against Russian intelligence activity.",
-      "score": 2.2,
-      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,31 +16,45 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy3jplvd3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-25T16:54:36.891686Z"
+      "detected_at": "2026-08-25T15:59:20.700663Z"
+    },
+    {
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian autos steel",
+      "summary": "New 50% tariff on Canadian vehicles and steel escalates North American trade war, may strain Western economies and capacity to sustain Ukraine aid.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ],
+      "detected_at": "2026-08-25T11:42:41.732287Z"
     },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% US tariffs",
-      "summary": "Canada imposes $19.9bn tariffs on US goods after trade talks collapse. Distant trade war but creates global economic uncertainty affecting Western aid capacity.",
-      "score": 2.2,
+      "label": "Canada retaliates with 50% tariffs on US goods",
+      "summary": "Canada matches US tariffs up to 50%, deepening North American trade conflict that may indirectly affect Western capacity to support Ukraine.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-25T19:45:31.337228Z"
@@ -75,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-25T19:45:31.337228Z",
+  "updated_at": "2026-08-25T20:45:17.154334Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -95,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "score_history": [
-    {
-      "t": "2026-08-23T20:38:05.736449Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-23T21:35:28.487899Z",
       "s": 2.8
@@ -306,6 +292,10 @@
     {
       "t": "2026-08-25T19:45:31.337228Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-25T20:45:17.154334Z",
+      "s": 3.6
     }
   ]
 }

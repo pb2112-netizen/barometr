@@ -1,44 +1,52 @@
 {
-  "updated_at": "2026-08-25T19:45:31.343677Z",
-  "ostatnia_ocena": 3.8,
+  "updated_at": "2026-08-25T20:45:17.161075Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Kremlin threatens UK drone factories over Ukraine aid",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 16,
       "opis": "Russia warns of attacks on UK facilities producing weapons."
     },
     {
       "temat": "US widens Iran sanctions threatening China trade",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Washington threatens to isolate nations trading with Tehran."
     },
     {
       "temat": "Ukraine strikes Russian oil refinery in Krasnodar",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Successful drone attack on Afipsky refinery kills two."
     },
     {
       "temat": "CIA chief in Moscow for unannounced talks",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 6,
       "opis": "Rare US-Russia diplomatic contact; potential shift in war."
     },
     {
       "temat": "Sweden seizes Russian estate near naval base",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Swedish military requests seizure of Russian property."
+    },
+    {
+      "temat": "CIA director makes rare Moscow visit",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Unannounced US-Russia talks; potential shift in war."
+    },
+    {
+      "temat": "Trump imposes 50% tariff on Canadian autos and steel",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "New 50% tariff on Canadian vehicles/steel; may strain aid."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T20:38:05.736449Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-23T21:35:28.487899Z",
       "s": 2.8
@@ -246,6 +254,10 @@
     {
       "t": "2026-08-25T19:45:31.337228Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-08-25T20:45:17.154334Z",
+      "s": 3.6
     }
   ],
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
@@ -266,6 +278,38 @@
         }
       ]
     },
+    "trump announces new 50% tariff on canadian cars, trucks and steel": {
+      "detected_at": "2026-08-25T11:42:41.732287Z",
+      "peak_at": "2026-08-25T20:45:17.154334Z",
+      "peak_score_at": "2026-08-25T20:45:17.154334Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "peak_label": "Trump imposes 50% tariff on Canadian autos steel",
+      "peak_summary": "New 50% tariff on Canadian vehicles and steel escalates North American trade war, may strain Western economies and capacity to sustain Ukraine aid.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ]
+    },
+    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
+      "detected_at": "2026-08-25T19:45:31.337228Z",
+      "peak_at": "2026-08-25T20:45:17.154334Z",
+      "peak_score_at": "2026-08-25T20:45:17.154334Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "peak_label": "Canada retaliates with 50% tariffs on US goods",
+      "peak_summary": "Canada matches US tariffs up to 50%, deepening North American trade conflict that may indirectly affect Western capacity to support Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "swedish military seeks to take over russian-owned estate near naval base": {
       "detected_at": "2026-08-25T16:54:36.891686Z",
       "peak_at": "2026-08-25T16:54:36.891686Z",
@@ -279,26 +323,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgy3jplvd3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
-      "detected_at": "2026-08-25T19:45:31.337228Z",
-      "peak_at": "2026-08-25T19:45:31.337228Z",
-      "peak_score_at": "2026-08-25T19:45:31.337228Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "peak_label": "Canada retaliates with 50% US tariffs",
-      "peak_summary": "Canada imposes $19.9bn tariffs on US goods after trade talks collapse. Distant trade war but creates global economic uncertainty affecting Western aid capacity.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
         }
       ]
     },
@@ -347,22 +371,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/gaza-child-breaks-down-in-tears-after-an-israeli-threat-over-kites?traffic_source=rss"
-        }
-      ]
-    },
-    "trump announces new 50% tariff on canadian cars, trucks and steel": {
-      "detected_at": "2026-08-25T11:42:41.732287Z",
-      "peak_at": "2026-08-25T15:59:20.700663Z",
-      "peak_score_at": "2026-08-25T15:59:20.700663Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "peak_label": "Trump imposes 50% tariff on Canadian autos",
-      "peak_summary": "US-Canada trade tensions remain distant from Ukraine's immediate security concerns and have no direct impact on the war or daily life.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
         }
       ]
     },
@@ -469,7 +477,7 @@
   },
   "prev_top_event_titles": [
     "CIA chief travels to Moscow for unannounced talks, US media reports",
-    "Swedish military seeks to take over Russian-owned estate near naval base",
+    "Trump announces new 50% tariff on Canadian cars, trucks and steel",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%"
   ]
 }
