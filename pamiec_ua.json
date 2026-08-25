@@ -1,38 +1,40 @@
 {
-  "updated_at": "2026-08-25T15:03:59.544481Z",
+  "updated_at": "2026-08-25T15:59:20.706963Z",
   "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Zelenskyy rejects wartime election calls",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "President faces domestic pressure for elections during war."
     },
     {
       "temat": "Kremlin threatens UK drone factories over Ukraine aid",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 10,
       "opis": "Russia warns of attacks on UK facilities producing weapons."
     },
     {
       "temat": "US widens Iran sanctions threatening China trade",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Washington threatens to isolate nations trading with Tehran."
     },
     {
       "temat": "Ukraine strikes Russian oil refinery in Krasnodar",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Successful drone attack on Afipsky refinery kills two."
+    },
+    {
+      "temat": "CIA chief in Moscow for unannounced talks",
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 0,
+      "opis": "Rare US-Russia diplomatic contact; potential shift in war."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T15:35:52.449144Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-23T16:01:19.999349Z",
       "s": 3.5
@@ -240,23 +242,27 @@
     {
       "t": "2026-08-25T15:03:59.538475Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-08-25T15:59:20.700663Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "event_detected_at": {
-    "two killed, refinery on fire in russia's krasnodar after drone attack": {
-      "detected_at": "2026-08-25T14:03:14.297205Z",
-      "peak_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score": 5.0,
-      "peak_sentiment": "positive",
-      "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
-      "peak_label": "Ukrainian drones strike Russian oil refinery",
-      "peak_summary": "Ukraine successfully hits Afipsky refinery and gas plant in Krasnodar, killing two and causing fires. Confirmed military action targeting Russian energy infrastructure, part of ongoing campaign.",
+    "cia chief in moscow for unannounced talks, us media reports": {
+      "detected_at": "2026-08-25T15:59:20.700663Z",
+      "peak_at": "2026-08-25T15:59:20.700663Z",
+      "peak_score_at": "2026-08-25T15:59:20.700663Z",
+      "peak_score": 4.7,
+      "peak_sentiment": "neutral",
+      "title": "CIA chief in Moscow for unannounced talks, US media reports",
+      "peak_label": "CIA chief holds unannounced talks in Moscow",
+      "peak_summary": "Rare US-Russia diplomatic contact raises questions about potential negotiations affecting Ukraine's security and Western support, though outcomes remain unclear.",
       "peak_source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -273,6 +279,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump announces new 50% tariff on canadian cars, trucks and steel": {
+      "detected_at": "2026-08-25T11:42:41.732287Z",
+      "peak_at": "2026-08-25T15:59:20.700663Z",
+      "peak_score_at": "2026-08-25T15:59:20.700663Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "peak_label": "Trump imposes 50% tariff on Canadian autos",
+      "peak_summary": "US-Canada trade tensions remain distant from Ukraine's immediate security concerns and have no direct impact on the war or daily life.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ]
+    },
+    "two killed, refinery on fire in russia's krasnodar after drone attack": {
+      "detected_at": "2026-08-25T14:03:14.297205Z",
+      "peak_at": "2026-08-25T14:03:14.297205Z",
+      "peak_score_at": "2026-08-25T14:03:14.297205Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "positive",
+      "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
+      "peak_label": "Ukrainian drones strike Russian oil refinery",
+      "peak_summary": "Ukraine successfully hits Afipsky refinery and gas plant in Krasnodar, killing two and causing fires. Confirmed military action targeting Russian energy infrastructure, part of ongoing campaign.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack?traffic_source=rss"
         }
       ]
     },
@@ -340,22 +378,6 @@
         }
       ]
     },
-    "trump announces new 50% tariff on canadian cars, trucks and steel": {
-      "detected_at": "2026-08-25T11:42:41.732287Z",
-      "peak_at": "2026-08-25T11:42:41.732287Z",
-      "peak_score_at": "2026-08-25T11:42:41.732287Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "peak_label": "Trump imposes 50% tariff on Canadian autos",
-      "peak_summary": "US-Canada trade war escalates with new tariffs. Distant North American friction with no Ukrainian impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ]
-    },
     "us removes syria from list of state sponsors of terrorism": {
       "detected_at": "2026-08-25T07:07:52.325521Z",
       "peak_at": "2026-08-25T07:07:52.325521Z",
@@ -394,8 +416,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
+    "CIA chief in Moscow for unannounced talks, US media reports",
     "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-    "Gaza child breaks down in tears after an Israeli threat over kites"
+    "Trump announces new 50% tariff on Canadian cars, trucks and steel"
   ]
 }
