@@ -1,44 +1,46 @@
 {
-  "updated_at": "2026-08-25T22:44:27.087404Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-08-25T23:36:49.694505Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": "2026-08-25T20:45:17.156867Z",
   "stan_swiata": [
     {
       "temat": "Kremlin threatens UK drone factories over Ukraine aid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Russia warns of attacks on UK facilities producing weapons."
     },
     {
       "temat": "UK transfers Storm Shadow blueprints to Ukraine",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 13,
       "opis": "Britain shares classified missile designs for domestic."
     },
     {
       "temat": "Canada retaliates with US counter-tariffs",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 4,
       "opis": "Canada imposes $19.9bn tariffs on US goods as trade talks."
     },
     {
       "temat": "US-Canada tariff war escalates to 50%",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 6,
       "opis": "Major North American trade conflict threatens global supply."
     },
     {
       "temat": "Trump imposes 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 1,
       "opis": "New 50% tariff on Canadian vehicles/steel; major trade war."
+    },
+    {
+      "temat": "Syrian Democratic Forces dissolve under Damascus agreement",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Kurdish-led SDF to dissolve; Middle East power shift."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T23:34:46.794588Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-24T01:56:53.221487Z",
       "s": 2.0
@@ -246,6 +248,10 @@
     {
       "t": "2026-08-25T22:44:27.082621Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-25T23:36:49.687102Z",
+      "s": 4.1
     }
   ],
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
@@ -266,22 +272,6 @@
         }
       ]
     },
-    "trump announces new 50% tariff on canadian cars, trucks and steel": {
-      "detected_at": "2026-08-25T04:53:20.641639Z",
-      "peak_at": "2026-08-25T19:45:31.332917Z",
-      "peak_score_at": "2026-08-25T19:45:31.332917Z",
-      "peak_score": 5.0,
-      "peak_sentiment": "negative",
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "peak_label": "Trump imposes 50% tariff on Canadian autos",
-      "peak_summary": "US announces new 50% tariff on Canadian automobiles and steel, further deteriorating trade relations. Part of broader trade war that threatens global supply chains and EU economic stability.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ]
-    },
     "cia chief travels to moscow for unannounced talks, us media reports": {
       "detected_at": "2026-08-25T15:59:20.697241Z",
       "peak_at": "2026-08-25T20:45:17.150214Z",
@@ -295,6 +285,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "syrian democratic forces announce their dissolution": {
+      "detected_at": "2026-08-25T23:36:49.687102Z",
+      "peak_at": "2026-08-25T23:36:49.687102Z",
+      "peak_score_at": "2026-08-25T23:36:49.687102Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Syrian Democratic Forces announce their dissolution",
+      "peak_label": "Kurdish-led Syrian forces to dissolve under Damascus deal",
+      "peak_summary": "Syrian Democratic Forces agree to dissolve as independent military force under agreement with Damascus, reshaping Middle East power dynamics with potential refugee flow implications for EU.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss"
+        }
+      ]
+    },
+    "trump announces new 50% tariff on canadian cars, trucks and steel": {
+      "detected_at": "2026-08-25T04:53:20.641639Z",
+      "peak_at": "2026-08-25T19:45:31.332917Z",
+      "peak_score_at": "2026-08-25T19:45:31.332917Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "peak_label": "Trump imposes 50% tariff on Canadian autos",
+      "peak_summary": "US announces new 50% tariff on Canadian automobiles and steel, further deteriorating trade relations. Part of broader trade war that threatens global supply chains and EU economic stability.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
         }
       ]
     },
@@ -417,7 +439,7 @@
   },
   "prev_top_event_titles": [
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-    "CIA chief travels to Moscow for unannounced talks, US media reports"
+    "CIA chief travels to Moscow for unannounced talks, US media reports",
+    "Syrian Democratic Forces announce their dissolution"
   ]
 }

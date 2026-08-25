@@ -1,12 +1,12 @@
 {
-  "global_score": 4.8,
-  "rationale": "Canada's 50% retaliatory tariffs on US goods escalate the North American trade war, threatening EU supply chains and global economic stability—indirect but real impact on Poland's export-dependent economy.",
+  "global_score": 4.1,
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, threatening EU supply chains and Polish exports to both markets. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods in direct response to Trump's tariffs. The escalating North American trade war threatens global supply chains and EU economic stability.",
-      "score": 4.3,
+      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods in response to Trump's tariffs, escalating a trade war that threatens global supply chains and Polish exports to North America.",
+      "score": 4.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,28 +22,9 @@
       "detected_at": "2026-08-25T17:45:26.767499Z"
     },
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos, steel",
-      "summary": "US president announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Threatens global automotive supply chains affecting European manufacturers.",
-      "score": 4.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-25T04:53:20.641639Z"
-    },
-    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare unannounced Moscow visit",
-      "summary": "US intelligence chief travels to Moscow for undisclosed talks, confirmed by flight tracking. Rare diplomatic contact may signal shift in Ukraine war dynamics affecting Poland's security.",
+      "label": "CIA chief makes rare unannounced Moscow visit",
+      "summary": "US intelligence director travels to Russia for talks, confirmed by flight tracking. Potential shift in US-Russia relations could affect Ukraine war dynamics and Polish security concerns.",
       "score": 3.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-08-25T15:59:20.697241Z"
+    },
+    {
+      "title": "Syrian Democratic Forces announce their dissolution",
+      "label": "Kurdish-led Syrian forces to dissolve under Damascus deal",
+      "summary": "Syrian Democratic Forces agree to dissolve as independent military force under agreement with Damascus, reshaping Middle East power dynamics with potential refugee flow implications for EU.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T23:36:49.687102Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-25T22:44:27.082621Z",
+  "updated_at": "2026-08-25T23:36:49.687102Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
   "score_history": [
-    {
-      "t": "2026-08-23T23:34:46.794588Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-24T01:56:53.221487Z",
       "s": 2.0
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-25T22:44:27.082621Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-08-25T23:36:49.687102Z",
+      "s": 4.1
     }
   ]
 }

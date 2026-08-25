@@ -1,12 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Canada's 50% retaliatory tariffs escalate the North American trade war, with distant but real potential impact on EU economy and Portugal's export markets. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, with indirect effects on EU economy and Portuguese exports; distant but notable. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods in response to Trump's tariffs. The escalating trade war is distant but threatens global supply chains.",
-      "score": 3.1,
+      "summary": "Canada imposes up to 50% tariffs on US goods, escalating trade war that may indirectly affect EU economy and Portuguese exports through global supply chain disruptions.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,31 +22,12 @@
       "detected_at": "2026-08-25T17:45:26.769774Z"
     },
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos, steel",
-      "summary": "US president announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Distant event with potential ripple effects on global economy.",
-      "score": 3.2,
+      "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
+      "label": "Tornado ravages French village injuring dozens",
+      "summary": "Tornado hits Pomas in southwestern France, damaging hundreds of homes and injuring fifteen. Climate event in neighboring country raises concerns about extreme weather in Iberia.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.875497Z"
-    },
-    {
-      "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-      "label": "Tornado strikes southern France, dozens injured",
-      "summary": "Severe tornado hits Pomas village in southwestern France, injuring dozens and damaging hundreds of homes. Fifteen hospitalized in nearby Iberian region.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-25T01:51:37.465892Z"
+    },
+    {
+      "title": "Syrian Democratic Forces announce their dissolution",
+      "label": "Kurdish-led Syrian forces to dissolve under Damascus deal",
+      "summary": "Syrian Democratic Forces agree to dissolve under Damascus agreement, reshaping Middle East power balance with potential long-term implications for EU migration flows.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T23:36:49.690107Z"
     }
   ],
   "short_summary": "Canada retaliates with 50% tariffs on US goods",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-25T22:44:27.084448Z",
+  "updated_at": "2026-08-25T23:36:49.690107Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T17:45:26.769774Z",
   "score_history": [
-    {
-      "t": "2026-08-23T23:34:46.797843Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T01:56:53.224315Z",
       "s": 2.0
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-25T22:44:27.084448Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-25T23:36:49.690107Z",
+      "s": 3.0
     }
   ]
 }

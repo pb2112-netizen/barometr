@@ -1,38 +1,46 @@
 {
-  "updated_at": "2026-08-25T22:44:27.088928Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-08-25T23:36:49.697353Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "New tariff escalation in North America; potential EU export."
     },
     {
       "temat": "Global ocean temperatures hit record high",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "El Nino and climate change drive unprecedented ocean."
     },
     {
       "temat": "Canada retaliates with US counter-tariffs",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 4,
       "opis": "Canada imposes $19.9bn tariffs on US goods; distant from."
     },
     {
       "temat": "US-Canada tariff war escalates to 50%",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Major North American trade conflict; distant but global."
+    },
+    {
+      "temat": "Tornado hits French village injuring dozens",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Tornado damages hundreds of homes in southwestern France."
+    },
+    {
+      "temat": "Syrian Democratic Forces dissolve under Damascus agreement",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Kurdish-led SDF to dissolve; Middle East power shift."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T23:34:46.797843Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T01:56:53.224315Z",
       "s": 2.0
@@ -240,6 +248,10 @@
     {
       "t": "2026-08-25T22:44:27.084448Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-25T23:36:49.690107Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-25T17:45:26.769774Z",
@@ -260,6 +272,38 @@
         }
       ]
     },
+    "tornado tears through french village, leaving dozens hurt and homes ravaged": {
+      "detected_at": "2026-08-25T01:51:37.465892Z",
+      "peak_at": "2026-08-25T03:12:31.825161Z",
+      "peak_score_at": "2026-08-25T03:12:31.825161Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Moment tornado tears through southern France",
+      "peak_label": "Tornado injures 40+ in southern France villages",
+      "peak_summary": "Severe tornado destroys homes and injures over 40 people in southern France. Direct impact on neighboring EU country.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "syrian democratic forces announce their dissolution": {
+      "detected_at": "2026-08-25T23:36:49.690107Z",
+      "peak_at": "2026-08-25T23:36:49.690107Z",
+      "peak_score_at": "2026-08-25T23:36:49.690107Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Syrian Democratic Forces announce their dissolution",
+      "peak_label": "Kurdish-led Syrian forces to dissolve under Damascus deal",
+      "peak_summary": "Syrian Democratic Forces agree to dissolve under Damascus agreement, reshaping Middle East power balance with potential long-term implications for EU migration flows.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss"
+        }
+      ]
+    },
     "trump announces new 50% tariff on canadian cars, trucks and steel": {
       "detected_at": "2026-08-24T19:44:16.875497Z",
       "peak_at": "2026-08-25T22:44:27.084448Z",
@@ -273,22 +317,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ]
-    },
-    "tornado tears through french village, leaving dozens hurt and homes ravaged": {
-      "detected_at": "2026-08-25T01:51:37.465892Z",
-      "peak_at": "2026-08-25T03:12:31.825161Z",
-      "peak_score_at": "2026-08-25T03:12:31.825161Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Moment tornado tears through southern France",
-      "peak_label": "Tornado injures 40+ in southern France villages",
-      "peak_summary": "Severe tornado destroys homes and injures over 40 people in southern France. Direct impact on neighboring EU country.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -343,7 +371,7 @@
   },
   "prev_top_event_titles": [
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-    "Tornado tears through French village, leaving dozens hurt and homes ravaged"
+    "Tornado tears through French village, leaving dozens hurt and homes ravaged",
+    "Syrian Democratic Forces announce their dissolution"
   ]
 }
