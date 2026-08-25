@@ -1,33 +1,14 @@
 {
-  "global_score": 3.6,
-  "rationale": "Trump announces new 50% tariff on Canadian vehicles and steel, escalating existing trade war with major economic implications. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.1,
+  "rationale": "US military strike on Pacific vessel killing two represents new confirmed military action; tariff war and immigration policy continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian vehicles",
-      "summary": "President announces new 50% tariff on Canadian automobiles and steel, significantly escalating trade war with largest trading partner and threatening auto industry supply chains.",
-      "score": 3.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.879193Z"
-    },
     {
       "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
       "label": "US strikes Pacific vessel killing two",
       "summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
-      "score": 3.2,
+      "score": 3.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -41,11 +22,35 @@
       "detected_at": "2026-08-23T10:38:58.588646Z"
     },
     {
-      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "label": "Iran vows to counter expanded US sanctions",
-      "summary": "US launches 'economic D-Day' against Iran with comprehensive sanctions; Tehran's response could affect regional stability and oil markets.",
-      "score": 2.0,
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
+      "label": "Trump threatens 50% tariff on Canadian vehicles",
+      "summary": "Trade war with Canada deepens as Trump announces new 50% tariff on autos and steel, escalating economic conflict with major trading partner.",
+      "score": 3.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
+        }
+      ],
+      "detected_at": "2026-08-24T19:44:16.879193Z"
+    },
+    {
+      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
+      "label": "Iran prepares response to expanded US sanctions",
+      "summary": "Tehran responds to US 'economic D-Day' sanctions with countermeasures, continuing Middle East economic pressure campaign.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -62,12 +67,12 @@
   ],
   "short_summary": "Nevada wildfire forces 90,000 evacuations near Reno",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T07:07:52.327656Z",
+  "updated_at": "2026-08-25T07:57:23.999184Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Nevada wildfire forces 90,000 evacuations near Reno",
     "summary": "Fire burned 10,500 acres and remains completely uncontained, prompting mass evacuations as flames approach populated areas.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-23T07:46:44.894169Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-23T08:47:40.014468Z",
       "s": 2.0
@@ -296,6 +297,10 @@
     {
       "t": "2026-08-25T07:07:52.327656Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-08-25T07:57:23.999184Z",
+      "s": 3.1
     }
   ]
 }
