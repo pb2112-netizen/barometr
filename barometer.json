@@ -1,73 +1,83 @@
 {
-  "global_score": 2.8,
-  "rationale": "CIA chief in Moscow is a significant diplomatic development in the Russia-Ukraine war context, but no direct change to Poland's security situation this cycle; other events remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Canada-US tariff war escalates with direct counter-tariffs; indirect risk to EU trade and global supply chains raises mild concern for Poland's export economy.",
   "top_events": [
     {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA chief holds rare Moscow talks",
-      "summary": "Unannounced US-Russia diplomatic contact suggests potential shift in war dynamics, though no concrete outcome yet. Relevant to Poland's eastern security concerns.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T15:59:20.697241Z"
-    },
-    {
-      "title": "Swedish military seeks to take over Russian-owned estate near naval base",
-      "label": "Sweden seizes Russian estate near base",
-      "summary": "Nordic NATO ally takes security measures against Russian assets near critical infrastructure, reflecting broader regional tensions.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy3jplvd3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.767499Z"
-    },
-    {
-      "title": "Canada hits US with counter-tariffs targeting hundreds of products",
-      "label": "Canada retaliates with US counter-tariffs",
-      "summary": "North American trade war escalates with $19.9bn Canadian tariffs on US goods, potentially affecting global trade patterns and EU export markets indirectly.",
-      "score": 2.3,
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada hits US with 50% counter-tariffs",
+      "summary": "Canada imposes $19.9bn in tariffs on US goods including steel, furniture, and makeup, escalating North American trade war. Indirect risk to EU exporters and Polish supply chains if conflict spreads.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-25T17:45:26.767499Z"
+    },
+    {
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "label": "CIA chief holds unannounced Moscow talks",
+      "summary": "Rare US-Russia diplomatic contact continues; no breakthrough reported. Background noise for Poland as war dynamics remain unchanged this cycle.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T15:59:20.697241Z"
+    },
+    {
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian autos",
+      "summary": "New US tariff on Canadian vehicles and steel deepens trade conflict. Potential ripple effects on global auto supply chains touching Polish manufacturing.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ],
+      "detected_at": "2026-08-25T04:53:20.641639Z"
     }
   ],
   "short_summary": "UK transfers Storm Shadow blueprints to Ukraine",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-25T17:45:26.767499Z",
+  "updated_at": "2026-08-25T18:56:22.817034Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK transfers Storm Shadow blueprints to Ukraine",
     "summary": "Britain shares classified cruise missile designs with Ukraine, enabling domestic production—a significant escalation in Western military support near Poland's eastern border.",
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-24T17:46:47.305071Z",
   "score_history": [
-    {
-      "t": "2026-08-23T18:48:09.710648Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-23T19:33:33.576449Z",
       "s": 2.6
@@ -296,6 +302,10 @@
     {
       "t": "2026-08-25T17:45:26.767499Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-25T18:56:22.817034Z",
+      "s": 3.2
     }
   ]
 }

@@ -1,12 +1,36 @@
 {
-  "global_score": 2.3,
-  "rationale": "Tornado in southern France is a regional weather event with no direct impact on Portugal; other headlines remain distant from Portuguese daily life.",
+  "global_score": 2.4,
+  "rationale": "Canada-US tariff war escalates but remains distant; tornado in southern France causes local damage but no spillover to Portugal; no direct impact on Portuguese economy or daily life.",
   "top_events": [
     {
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada imposes 50% US counter-tariffs",
+      "summary": "Canada retaliates with $19.9bn in tariffs on US goods. Distant from Portugal but signals broader trade tensions that could indirectly affect EU export markets.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.769774Z"
+    },
+    {
       "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-      "label": "Tornado strikes southern France village",
-      "summary": "Severe weather in neighboring France injures dozens and damages hundreds of homes, but no direct impact on Portugal.",
-      "score": 2.3,
+      "label": "Tornado strikes French village, dozens hurt",
+      "summary": "Severe tornado damages hundreds of homes in Pomas, France, injuring dozens. Regional weather event with no direct impact on Portugal.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,42 +46,23 @@
       "detected_at": "2026-08-25T01:51:37.465892Z"
     },
     {
-      "title": "Canada hits US with counter-tariffs targeting hundreds of products",
-      "label": "Canada retaliates with US counter-tariffs",
-      "summary": "North American trade dispute escalates with Canadian tariffs on $19.9bn of US goods, distant from Portuguese economy.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.769774Z"
-    },
-    {
-      "title": "US firefighters say major blaze near Reno about a quarter contained",
-      "label": "Nevada wildfire partially contained",
-      "summary": "US wildfire continues with evacuation orders, no connection to Portugal's daily life.",
-      "score": 1.8,
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump adds 50% tariff on Canadian autos",
+      "summary": "New US tariff deepens North American trade conflict. Distant from Portugal with minimal direct impact on Iberian economy.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "gospodarka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gqlp0yzyjo?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
         }
       ],
-      "detected_at": "2026-08-25T14:03:14.295847Z"
+      "detected_at": "2026-08-24T19:44:16.875497Z"
     }
   ],
   "short_summary": "Tornado injures 40+ in southern France villages",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-25T17:45:26.769774Z",
+  "updated_at": "2026-08-25T18:56:22.819983Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Tornado injures 40+ in southern France villages",
     "summary": "Severe tornado destroys homes and injures over 40 people in southern France. Direct impact on neighboring EU country.",
     "title": "Moment tornado tears through southern France",
-    "score": 3.6,
+    "score": 3.5,
     "sentiment": "negative",
     "detected_at": "2026-08-25T01:51:37.465892Z",
     "peak_at": "2026-08-25T03:12:31.825161Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-25T01:51:37.465892Z",
   "score_history": [
-    {
-      "t": "2026-08-23T18:48:09.714114Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-23T19:33:33.579869Z",
       "s": 2.0
@@ -296,6 +297,10 @@
     {
       "t": "2026-08-25T17:45:26.769774Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-25T18:56:22.819983Z",
+      "s": 2.4
     }
   ]
 }

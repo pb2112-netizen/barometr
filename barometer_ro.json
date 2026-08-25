@@ -1,22 +1,51 @@
 {
   "global_score": 2.8,
-  "rationale": "CIA-Moscow talks are a notable diplomatic development in the regional war context, though no immediate change to Romania's Black Sea security; other events continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Canada-US trade war escalates but remains distant; CIA-Moscow talks continue without breakthrough; no direct impact on Romania's Black Sea security or economy this cycle.",
   "top_events": [
     {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA chief holds rare Moscow talks",
-      "summary": "Rare US-Russia diplomatic contact amid ongoing Ukraine war suggests potential shift in regional security dynamics, relevant to Romania's eastern border concerns.",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada retaliates with 50% US tariffs",
+      "summary": "Canada imposes $19.9bn in counter-tariffs on US goods. Distant from Romania but signals broader trade instability that could indirectly affect EU markets.",
       "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.768586Z"
+    },
+    {
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "label": "CIA chief in Moscow for rare talks",
+      "summary": "US-Russia diplomatic contact continues; no reported change in regional security posture. Background noise for Romania as Black Sea dynamics unchanged.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-25T15:59:20.698201Z"
@@ -24,8 +53,8 @@
     {
       "title": "Swedish military seeks to take over Russian-owned estate near naval base",
       "label": "Sweden seizes Russian estate near base",
-      "summary": "Fellow NATO member takes security measures against Russian assets, reflecting broader alliance posture in the region.",
-      "score": 2.4,
+      "summary": "Swedish military requests seizure of Russian property near Muskö Naval Base. Continuation of Nordic security measures; no direct impact on Romania.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +68,6 @@
         }
       ],
       "detected_at": "2026-08-25T16:54:36.889391Z"
-    },
-    {
-      "title": "Canada hits US with counter-tariffs targeting hundreds of products",
-      "label": "Canada retaliates with US counter-tariffs",
-      "summary": "North American trade war escalates, potentially affecting global trade flows and EU markets indirectly.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.768586Z"
     }
   ],
   "short_summary": "UK transfers Storm Shadow blueprints to Ukraine",
@@ -65,9 +75,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-25T17:45:26.768586Z",
+  "updated_at": "2026-08-25T18:56:22.818496Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "UK transfers Storm Shadow blueprints to Ukraine",
     "summary": "Britain shares classified cruise missile designs with Ukraine, enabling domestic production—a significant escalation in Western military support affecting Black Sea regional security.",
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-24T11:43:49.916114Z",
   "score_history": [
-    {
-      "t": "2026-08-23T18:48:09.712263Z",
-      "s": 2.7
-    },
     {
       "t": "2026-08-23T19:33:33.578243Z",
       "s": 2.6
@@ -295,6 +301,10 @@
     },
     {
       "t": "2026-08-25T17:45:26.768586Z",
+      "s": 2.8
+    },
+    {
+      "t": "2026-08-25T18:56:22.818496Z",
       "s": 2.8
     }
   ]
