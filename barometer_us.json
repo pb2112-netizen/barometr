@@ -1,31 +1,12 @@
 {
-  "global_score": 3.9,
-  "rationale": "Continuation of known situations: Trump tariff escalation on Canada, asylum visa revocation plan; no qualitative change in domestic policy this cycle.",
+  "global_score": 3.8,
+  "rationale": "Visa revocation plan and tariff escalation continue as leading domestic events; other headlines are rhetoric or distant.",
   "top_events": [
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump adds 50% tariff on Canadian autos, steel",
-      "summary": "President announces new 50% tariffs on Canadian vehicles and steel, escalating trade war beyond existing measures. Direct impact on US-Canada economic relations.",
-      "score": 3.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.879193Z"
-    },
-    {
       "title": "Trump administration plans to revoke B1, B2 visas of 200,000 asylum seekers",
-      "label": "Trump plans to revoke 200,000 asylum seeker visas",
-      "summary": "Administration plans largest single mass visa revocation in US history, targeting 200,000 asylum seekers. Major domestic immigration policy action.",
-      "score": 3.9,
+      "label": "Trump plans to revoke 200,000 asylum visas",
+      "summary": "Administration plans largest single mass visa revocation in US history. Major domestic immigration action affecting 200,000 asylum seekers already in the country.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,25 +22,39 @@
       "detected_at": "2026-08-25T03:58:48.454943Z"
     },
     {
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian goods",
+      "summary": "New tariff escalation on Canadian automobiles and steel beyond existing trade war. Direct impact on US-Canada trade and consumer prices for vehicles and construction.",
+      "score": 3.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ],
+      "detected_at": "2026-08-24T19:44:16.879193Z"
+    },
+    {
       "title": "Iran says it is ready for what US calls 'greatest financial offensive ever'",
-      "label": "US launches new Iran sanctions, Tehran responds",
-      "summary": "US announces comprehensive sanctions on Iran; Tehran claims readiness to counter. Continuation of existing sanctions policy with no immediate domestic impact.",
+      "label": "US launches economic offensive against Iran",
+      "summary": "US announces comprehensive sanctions on Iran; Tehran claims readiness to counter. Continuation of sanctions policy with no immediate domestic US impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-24T11:43:49.922133Z"
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T04:53:20.650639Z",
+  "updated_at": "2026-08-25T05:47:02.973565Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-23T18:48:09.716794Z",
   "score_history": [
-    {
-      "t": "2026-08-23T05:43:56.819425Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-23T07:00:11.597723Z",
       "s": 2.7
@@ -301,6 +292,10 @@
     {
       "t": "2026-08-25T04:53:20.650639Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-25T05:47:02.973565Z",
+      "s": 3.8
     }
   ]
 }
