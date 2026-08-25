@@ -1,12 +1,12 @@
 {
-  "global_score": 3.9,
-  "rationale": "Tornado in southern France continues as leading event; other headlines are distant rhetoric or continuation.",
+  "global_score": 3.8,
+  "rationale": "Southern France tornado continues as most significant event; other headlines remain distant from Portuguese daily life.",
   "top_events": [
     {
       "title": "Moment tornado tears through southern France",
-      "label": "Tornado injures 40 destroys homes in France",
-      "summary": "Severe tornado strikes southern France, injuring over 40 and destroying homes. Regional weather event with indirect concern for Iberian climate patterns.",
-      "score": 3.9,
+      "label": "Tornado injures 40 in southern France villages",
+      "summary": "Severe tornado destroys homes and injures over 40 in southern France, demonstrating extreme weather risks in neighboring Iberian region.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -27,11 +27,35 @@
       "detected_at": "2026-08-25T01:51:37.465892Z"
     },
     {
-      "title": "Iran says it is ready for what US calls 'greatest financial offensive ever'",
-      "label": "Iran prepares for US sanctions offensive",
-      "summary": "US announces comprehensive Iran sanctions; Tehran claims readiness. Distant economic pressure with no direct Portuguese impact.",
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles",
+      "label": "Trump threatens 50% tariff hike on Canada",
+      "summary": "North American trade war deepens with new auto tariffs, raising concerns about global trade environment and potential EU export impacts.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war"
+        }
+      ],
+      "detected_at": "2026-08-24T19:44:16.875497Z"
+    },
+    {
+      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
+      "label": "Iran vows to counter expanded US sanctions",
+      "summary": "US launches major sanctions offensive against Iran; potential energy market disruption could indirectly affect Portuguese fuel costs.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -43,26 +67,7 @@
           "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-24T11:43:49.917671Z"
-    },
-    {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian goods",
-      "summary": "North American trade war escalates with new tariffs. Potential indirect ripple to EU exports but no confirmed Portuguese impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.875497Z"
+      "detected_at": "2026-08-25T07:07:52.323741Z"
     }
   ],
   "short_summary": "Tornado injures 40+ in southern France villages",
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-25T05:47:02.969974Z",
+  "updated_at": "2026-08-25T07:07:52.323741Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-08-25T01:51:37.465892Z",
   "score_history": [
-    {
-      "t": "2026-08-23T07:00:11.595704Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-23T07:46:44.891858Z",
       "s": 2.0
@@ -301,6 +302,10 @@
     {
       "t": "2026-08-25T05:47:02.969974Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-25T07:07:52.323741Z",
+      "s": 3.8
     }
   ]
 }
