@@ -1,12 +1,31 @@
 {
-  "global_score": 5.1,
-  "rationale": "Canada retaliates with $19.9bn in counter-tariffs on US goods, escalating trade war; Trump adds new 50% tariff on Canadian autos and steel; direct impact on US consumers, manufacturers, and cross-border supply chains.",
+  "global_score": 6.1,
+  "rationale": "Trump announces new 50% tariff on Canadian autos and steel; Canada retaliates with $19.9bn counter-tariffs, escalating trade war with major impact on US manufacturing, supply chains, and consumer prices.",
   "top_events": [
+    {
+      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+      "label": "Trump imposes 50% tariff on Canadian goods",
+      "summary": "President announces new 50% tariff on Canadian automobiles and steel, sharply escalating trade war. Major impact on US manufacturing supply chains, auto industry, and consumer prices for vehicles and construction materials.",
+      "score": 4.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
+        }
+      ],
+      "detected_at": "2026-08-24T19:44:16.879193Z"
+    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada hits US with 50% counter-tariffs",
-      "summary": "Canada imposes $19.9bn in tariffs on over 700 US products including steel, furniture, and food, effective September 8. Direct impact on US exporters and consumers as trade war escalates.",
-      "score": 5.1,
+      "summary": "Canada imposes $19.9bn in retaliatory tariffs on US goods including steel, furniture, food, and makeup after trade talks collapse. Escalating trade war will raise prices for American consumers and businesses.",
+      "score": 6.1,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "gospodarka",
@@ -27,31 +46,12 @@
       "detected_at": "2026-08-25T17:45:26.772832Z"
     },
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos",
-      "summary": "New 50% tariff on Canadian vehicles and steel deepens trade conflict. Direct impact on US auto industry supply chains and consumer prices for cars and trucks.",
-      "score": 4.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.879193Z"
-    },
-    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA chief holds unannounced Moscow talks",
-      "summary": "Rare US-Russia diplomatic contact confirmed via flight tracking. No breakthrough reported; continuation of back-channel negotiations with unclear domestic impact.",
-      "score": 2.6,
+      "label": "CIA director travels to Moscow secretly",
+      "summary": "CIA Director Ratcliffe makes rare unannounced trip to Moscow confirmed by flight tracking. Significant diplomatic contact with Russia; purpose unclear but represents potential shift in US-Russia relations.",
+      "score": 3.4,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -75,17 +75,17 @@
   "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T18:56:22.823151Z",
+  "updated_at": "2026-08-25T19:45:31.338992Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Canada hits US with 50% counter-tariffs",
-    "summary": "Canada imposes $19.9bn in tariffs on over 700 US products including steel, furniture, and food, effective September 8. Direct impact on US exporters and consumers as trade war escalates.",
+    "summary": "Canada imposes $19.9bn in retaliatory tariffs on US goods including steel, furniture, food, and makeup after trade talks collapse. Escalating trade war will raise prices for American consumers and.",
     "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "score": 5.1,
+    "score": 6.1,
     "sentiment": "negative",
     "detected_at": "2026-08-25T17:45:26.772832Z",
-    "peak_at": "2026-08-25T18:56:22.823151Z",
+    "peak_at": "2026-08-25T19:45:31.338992Z",
     "source_links": [
       {
         "name": "BBC",
@@ -99,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-25T17:45:26.772832Z",
   "score_history": [
-    {
-      "t": "2026-08-23T19:33:33.582393Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-23T20:38:05.738399Z",
       "s": 3.0
@@ -310,6 +306,10 @@
     {
       "t": "2026-08-25T18:56:22.823151Z",
       "s": 5.1
+    },
+    {
+      "t": "2026-08-25T19:45:31.338992Z",
+      "s": 6.1
     }
   ]
 }
