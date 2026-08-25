@@ -1,62 +1,52 @@
 {
-  "updated_at": "2026-08-25T16:54:36.898853Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-08-25T17:45:26.779063Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "New tariff escalation beyond existing US-Canada trade war."
     },
     {
       "temat": "US strikes drug trafficking vessel in Pacific",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "Military launches deadly strike killing two in eastern."
     },
     {
       "temat": "Trump plans to revoke 200,000 asylum seeker visas",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 17,
       "opis": "Largest mass visa revocation in US history; major domestic."
     },
     {
       "temat": "US removes Syria from terrorism list",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Washington shifts Middle East policy; limited domestic."
     },
     {
-      "temat": "Violence flares in Haiti as gang attack kills 30",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Gang violence kills 30 as Haiti prepares for first."
-    },
-    {
-      "temat": "Israel threatens Gaza attacks over children's kites",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Israel warns of forceful response to kites from Gaza."
-    },
-    {
       "temat": "US imposes new economic sanctions on Iran",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Washington calls it 'economic D-Day'; potential oil market."
     },
     {
       "temat": "US military plane lands in Moscow",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "Rare US C-17 transport flight to Moscow from Riga; unclear."
+    },
+    {
+      "temat": "Canada retaliates with US counter-tariffs",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Canada imposes $19.9bn tariffs on US goods after trade."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-23T17:33:50.061642Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-23T18:48:09.716794Z",
       "s": 3.0
@@ -264,11 +254,31 @@
     {
       "t": "2026-08-25T16:54:36.893267Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-25T17:45:26.772832Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-08-25T03:58:48.454943Z",
   "event_detected_at": {
-    "cia chief in moscow for unannounced talks, us media reports": {
+    "canada hits us with counter-tariffs targeting hundreds of products": {
+      "detected_at": "2026-08-25T17:45:26.772832Z",
+      "peak_at": "2026-08-25T17:45:26.772832Z",
+      "peak_score_at": "2026-08-25T17:45:26.772832Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Canada hits US with counter-tariffs targeting hundreds of products",
+      "peak_label": "Canada retaliates with US counter-tariffs",
+      "peak_summary": "Canada imposes $19.9bn tariffs on US goods effective September 8 after trade talks collapse, escalating North American trade war with direct impact on US exports.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
+        }
+      ]
+    },
+    "cia chief travels to moscow for unannounced talks, us media reports": {
       "detected_at": "2026-08-25T15:59:20.702257Z",
       "peak_at": "2026-08-25T15:59:20.702257Z",
       "peak_score_at": "2026-08-25T15:59:20.702257Z",
@@ -281,6 +291,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us strikes a vessel in the eastern pacific, killing 2 people in first attack in months": {
+      "detected_at": "2026-08-23T10:38:58.588646Z",
+      "peak_at": "2026-08-25T07:07:52.327656Z",
+      "peak_score_at": "2026-08-25T07:07:52.327656Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
+      "peak_label": "US strikes Pacific vessel killing two",
+      "peak_summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
         }
       ]
     },
@@ -297,22 +323,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ]
-    },
-    "us strikes a vessel in the eastern pacific, killing 2 people in first attack in months": {
-      "detected_at": "2026-08-23T10:38:58.588646Z",
-      "peak_at": "2026-08-25T07:07:52.327656Z",
-      "peak_score_at": "2026-08-25T07:07:52.327656Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "peak_label": "US strikes Pacific vessel killing two",
-      "peak_summary": "US military launches deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking in first such attack in months.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/24/vessel-strike-eastern-pacific"
         }
       ]
     },
@@ -382,8 +392,8 @@
     }
   },
   "prev_top_event_titles": [
-    "CIA chief in Moscow for unannounced talks, US media reports",
-    "Trump announces new 50% tariff on Canadian cars, trucks and steel",
+    "Canada hits US with counter-tariffs targeting hundreds of products",
+    "CIA chief travels to Moscow for unannounced talks, US media reports",
     "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months"
   ]
 }

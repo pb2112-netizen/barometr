@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "CIA chief in Moscow represents rare diplomatic contact with Russia, but no confirmed policy change; Trump tariff escalation continues existing trade war; other events are routine or distant.",
+  "global_score": 3.2,
+  "rationale": "Canada's counter-tariffs represent a new escalation in the trade war with confirmed policy action affecting US goods; CIA Moscow trip continues as diplomatic background.",
   "top_events": [
     {
-      "title": "CIA chief in Moscow for unannounced talks, US media reports",
-      "label": "CIA chief holds rare talks in Moscow",
-      "summary": "US military aircraft flew to Moscow for unannounced talks. Rare diplomatic contact with Russia during Ukraine war, but no confirmed policy outcomes yet.",
-      "score": 2.9,
+      "title": "Canada hits US with counter-tariffs targeting hundreds of products",
+      "label": "Canada retaliates with US counter-tariffs",
+      "summary": "Canada imposes $19.9bn tariffs on US goods effective September 8 after trade talks collapse, escalating North American trade war with direct impact on US exports.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/25/canada-hits-us-with-counter-tariffs-targeting-hundreds-of-products?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.772832Z"
+    },
+    {
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "label": "CIA chief holds rare Moscow talks",
+      "summary": "Rare US-Russia diplomatic contact confirmed by military aircraft tracking, though purpose and outcome remain unclear.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-25T15:59:20.702257Z"
     },
     {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos",
-      "summary": "New tariff escalation beyond existing US-Canada trade war. Potential impact on auto prices and manufacturing, but continuation of existing trade conflict.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto"
-        }
-      ],
-      "detected_at": "2026-08-24T19:44:16.879193Z"
-    },
-    {
       "title": "US strikes a vessel in the eastern Pacific, killing 2 people in first attack in months",
-      "label": "US strikes drug vessel in Pacific killing two",
-      "summary": "US military launched deadly strike on vessel in eastern Pacific, killing two accused of drug trafficking. Routine counter-narcotics operation, no major policy shift.",
-      "score": 2.4,
+      "label": "US strikes Pacific drug vessel",
+      "summary": "Military launches deadly strike on suspected drug trafficking vessel in Pacific, killing two in counter-narcotics operation.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -61,13 +61,13 @@
     }
   ],
   "short_summary": "US plans largest mass visa revocation ever",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T16:54:36.893267Z",
+  "updated_at": "2026-08-25T17:45:26.772832Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US plans largest mass visa revocation ever",
     "summary": "Administration plans to revoke visas of 200,000 asylum seekers in largest single mass revocation in US history. Major immigration policy action affecting domestic legal status.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T03:58:48.454943Z",
   "score_history": [
-    {
-      "t": "2026-08-23T17:33:50.061642Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-23T18:48:09.716794Z",
       "s": 3.0
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-25T16:54:36.893267Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-25T17:45:26.772832Z",
+      "s": 3.2
     }
   ]
 }
