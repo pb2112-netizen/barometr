@@ -1,12 +1,31 @@
 {
-  "global_score": 6.5,
-  "rationale": "Trump announces new 50% tariff on Canadian autos and steel, major escalation in trade war directly affecting US consumers, manufacturers, and supply chains; Canada retaliates with matching tariffs.",
+  "global_score": 6.2,
+  "rationale": "Canada's 50% retaliatory tariffs directly hit US economy with major levies on American goods, escalating trade war to new level affecting consumers and industries. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada retaliates with 50% US tariffs",
+      "summary": "Canada imposes up to 50% tariffs on US goods from steel to furniture, directly hitting American exports and escalating trade war to unprecedented level affecting US economy and consumers.",
+      "score": 6.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.772832Z"
+    },
+    {
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel",
-      "label": "Trump imposes 50% tariff on Canadian autos steel",
-      "summary": "New 50% tariff on Canadian vehicles and steel marks major escalation in trade war, directly affecting US auto industry, steel prices, and consumer costs.",
-      "score": 4.4,
+      "label": "Trump imposes 50% tariff on Canadian goods",
+      "summary": "US announces 50% tariff on Canadian automobiles and steel, further deteriorating trade relations with major trading partner and threatening domestic supply chains.",
+      "score": 4.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-24T19:44:16.879193Z"
     },
     {
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes matching tariffs up to 50% on US goods from steel to furniture, directly affecting US exporters and deepening bilateral trade conflict.",
-      "score": 6.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.772832Z"
-    },
-    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare unannounced Moscow visit",
-      "summary": "Rare US-Russia diplomatic contact confirmed by flight tracking; unclear purpose but significant development in US-Russia relations.",
-      "score": 3.8,
+      "label": "CIA chief makes rare Moscow visit",
+      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking; rare high-level talks signal potential shift in bilateral relations or Ukraine policy.",
+      "score": 3.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-25T20:45:17.156031Z",
+  "updated_at": "2026-08-25T21:43:23.635286Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T17:45:26.772832Z",
   "score_history": [
-    {
-      "t": "2026-08-23T21:35:28.489455Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-23T22:01:21.241915Z",
       "s": 2.9
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-25T20:45:17.156031Z",
       "s": 6.5
+    },
+    {
+      "t": "2026-08-25T21:43:23.635286Z",
+      "s": 6.2
     }
   ]
 }
