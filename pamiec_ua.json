@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-26T13:16:16.359323Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-26T14:05:30.291442Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "CIA chief in Moscow for unannounced talks",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Rare US-Russia diplomatic contact; potential shift in war."
-    },
-    {
       "temat": "Canada retaliates with 50% tariffs on US goods",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 4,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "CIA director makes rare Moscow visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Unannounced US-Russia talks; potential shift in war."
     },
     {
       "temat": "Syrian Democratic Forces announce dissolution",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Kurdish-led SDF to dissolve under agreement with Damascus."
     },
     {
       "temat": "Trump imposes 50% tariff on Canadian autos and steel",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "New 50% tariff on Canadian vehicles/steel; may strain aid."
     },
     {
       "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 5,
       "opis": "Drone strike destroys Wildberries center in Tambov."
     },
     {
       "temat": "Hormuz Strait reopened to shipping",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 2,
       "opis": "US claims vital oil waterway cleared; potential energy."
+    },
+    {
+      "temat": "Drone attack on Leipzig Airport in Germany",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone incident at German airport raises security concerns."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T14:01:48.344789Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-24T14:59:25.838354Z",
       "s": 3.5
@@ -268,10 +264,62 @@
     {
       "t": "2026-08-26T13:16:16.354174Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-26T14:05:30.284301Z",
+      "s": 2.8
     }
   ],
-  "events_anchor_at": "2026-08-25T14:03:14.297205Z",
+  "events_anchor_at": "2026-08-25T15:59:20.700663Z",
   "event_detected_at": {
+    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
+      "detected_at": "2026-08-25T19:45:31.337228Z",
+      "peak_at": "2026-08-25T21:43:23.633425Z",
+      "peak_score_at": "2026-08-25T21:43:23.633425Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "peak_label": "Canada retaliates with 50% US tariffs",
+      "peak_summary": "Canada imposes up to 50% tariffs on US goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "iran, oman agree on temporary hormuz route: what we know": {
+      "detected_at": "2026-08-26T14:05:30.284301Z",
+      "peak_at": "2026-08-26T14:05:30.284301Z",
+      "peak_score_at": "2026-08-26T14:05:30.284301Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "Iran, Oman agree on temporary Hormuz route: What we know",
+      "peak_label": "Iran and Oman agree temporary Hormuz route",
+      "peak_summary": "Iran's deputy foreign minister announces a temporary shipping corridor in the Strait of Hormuz, potentially easing global energy supply concerns.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know?traffic_source=rss"
+        }
+      ]
+    },
+    "germany's merz warns attackers will 'pay price' after drone incident": {
+      "detected_at": "2026-08-26T14:05:30.284301Z",
+      "peak_at": "2026-08-26T14:05:30.284301Z",
+      "peak_score_at": "2026-08-26T14:05:30.284301Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Germany's Merz warns attackers will 'pay price' after drone incident",
+      "peak_label": "Germany warns attackers after Leipzig drone incident",
+      "peak_summary": "A drone attack on Leipzig Airport prompts German chancellor to warn of 'very real threat,' highlighting security concerns across Europe.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cddv71p4j2jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "trump says all mines cleared from strait of hormuz": {
       "detected_at": "2026-08-26T11:43:53.849865Z",
       "peak_at": "2026-08-26T11:43:53.849865Z",
@@ -288,22 +336,6 @@
         }
       ]
     },
-    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
-      "detected_at": "2026-08-25T19:45:31.337228Z",
-      "peak_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "peak_label": "Canada retaliates with 50% US tariffs",
-      "peak_summary": "Canada imposes up to 50% tariffs on US goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "deadly flash floods sweep through northern nepal": {
       "detected_at": "2026-08-26T13:16:16.354174Z",
       "peak_at": "2026-08-26T13:16:16.354174Z",
@@ -317,22 +349,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/deadly-flash-floods-sweep-through-northern-nepal?traffic_source=rss"
-        }
-      ]
-    },
-    "ukrainian air attacks kill three in russia as kyiv steps up drone campaign": {
-      "detected_at": "2026-08-25T14:03:14.297205Z",
-      "peak_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score": 4.6,
-      "peak_sentiment": "positive",
-      "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
-      "peak_label": "Ukrainian drones strike Russian oil refinery",
-      "peak_summary": "Ukraine successfully hits Afipsky refinery and gas plant in Krasnodar, killing two and causing fires. Confirmed military action targeting Russian energy infrastructure, part of ongoing campaign.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack?traffic_source=rss"
         }
       ]
     },
@@ -450,8 +466,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump says all mines cleared from Strait of Hormuz",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "Deadly flash floods sweep through northern Nepal"
+    "Iran, Oman agree on temporary Hormuz route: What we know",
+    "Germany's Merz warns attackers will 'pay price' after drone incident"
   ]
 }

@@ -1,31 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Hormuz reopening (continued) offers potential oil price stabilization; Canada-US tariff war escalates with new 50% levies on Canadian goods; other events lack direct US impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Canada's 50% retaliatory tariffs directly hit US consumers and industries, escalating trade war with immediate economic impact; military spouse deportation marks policy shift. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Trump says all mines cleared from Strait of Hormuz",
-      "label": "Trump announces Hormuz Strait cleared",
-      "summary": "President claims vital oil waterway reopened after Iranian closure. Potential for oil price stabilization affecting US fuel costs and markets.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T10:51:12.597452Z"
-    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada escalates trade war with up to 50% tariffs on US steel, furniture, and other goods. Direct impact on US exporters and supply chains.",
-      "score": 2.9,
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, fresh tuna, and makeup, directly escalating trade war and threatening consumer prices and jobs.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -42,11 +23,11 @@
     },
     {
       "title": "Wife of US soldier deported after Trump rollback on military family protections",
-      "label": "US soldier's wife deported to Honduras",
-      "summary": "Military spouse Cristy Villafranca-Trejo deported to Honduras after Trump rollback of protections. Affects military families under new immigration policy.",
+      "label": "US military spouse deported under new policy",
+      "summary": "Cristy Maryori Villafranca-Trejo deported to Honduras as Trump administration rolls back military family protections, marking a significant policy shift.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -58,16 +39,35 @@
         }
       ],
       "detected_at": "2026-08-25T22:01:22.462264Z"
+    },
+    {
+      "title": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
+      "label": "US toilet paper prices surge in trade war",
+      "summary": "Paper products face 25-50% tariff increases as US-Canada trade negotiations collapse, directly hitting American consumers with higher prices.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada"
+        }
+      ],
+      "detected_at": "2026-08-26T14:05:30.286103Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos, steel",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-26T13:16:16.355498Z",
+  "updated_at": "2026-08-26T14:05:30.286103Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos, steel",
     "summary": "President announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Threatens US auto industry supply chains and consumer prices.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T19:44:16.879193Z",
   "score_history": [
-    {
-      "t": "2026-08-24T14:01:48.347178Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-24T14:59:25.840159Z",
       "s": 3.0
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-26T13:16:16.355498Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-26T14:05:30.286103Z",
+      "s": 2.9
     }
   ]
 }

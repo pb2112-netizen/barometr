@@ -1,32 +1,13 @@
 {
-  "global_score": 2.6,
-  "rationale": "Hormuz reopening (continued) offers potential energy price relief for EU; Canada-US tariff war escalates but remains distant from Iberian economy; other events lack Portuguese relevance. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war with potential indirect effects on EU economy; other events remain distant.",
   "top_events": [
     {
-      "title": "Trump says all mines cleared from Strait of Hormuz",
-      "label": "Hormuz Strait reopened to shipping",
-      "summary": "US claims vital oil waterway cleared after Iranian closure. Potential for energy price stabilization affecting Portuguese fuel costs, though impact uncertain.",
-      "score": 2.6,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T10:51:12.594527Z"
-    },
-    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada imposes 50% tariffs on US",
-      "summary": "Canada escalates trade war with up to 50% tariffs on US goods. Distant North American conflict with minimal direct impact on Portuguese economy.",
-      "score": 2.1,
-      "sentiment": "neutral",
+      "label": "Canada imposes 50% tariffs on US goods",
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating a trade war that may indirectly affect EU economy.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -41,10 +22,29 @@
       "detected_at": "2026-08-25T17:45:26.769774Z"
     },
     {
+      "title": "Iran, Oman agree on temporary Hormuz route: What we know",
+      "label": "Iran and Oman agree temporary Hormuz route",
+      "summary": "Iran's deputy foreign minister announces a temporary shipping corridor in the Strait of Hormuz, potentially easing energy supply concerns.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T14:05:30.282626Z"
+    },
+    {
       "title": "Deadly flash floods sweep through northern Nepal",
-      "label": "Nepal flash floods kill eight",
-      "summary": "At least eight dead, hundreds missing in Himalayan floods. Distant humanitarian crisis with no connection to Portuguese daily life.",
-      "score": 1.0,
+      "label": "Flash floods kill eight in northern Nepal",
+      "summary": "Flash floods in northern Nepal kill at least eight people and wash away homes, a distant humanitarian crisis with no direct impact on Portugal.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-26T13:16:16.353048Z",
+  "updated_at": "2026-08-26T14:05:30.282626Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos, steel",
     "summary": "US president announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Distant event with potential ripple effects on global economy.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T19:44:16.875497Z",
   "score_history": [
-    {
-      "t": "2026-08-24T14:01:48.342942Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-24T14:59:25.836376Z",
       "s": 2.0
@@ -300,6 +296,10 @@
     {
       "t": "2026-08-26T13:16:16.353048Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-26T14:05:30.282626Z",
+      "s": 2.5
     }
   ]
 }
