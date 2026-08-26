@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-26T10:01:23.453571Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-08-26T10:51:12.604076Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "New tariff escalation in North America; potential EU export."
     },
     {
       "temat": "Canada retaliates with US counter-tariffs",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Canada imposes $19.9bn tariffs on US goods; distant from."
     },
     {
       "temat": "US-Canada tariff war escalates to 50%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Major North American trade conflict; distant but global."
     },
     {
       "temat": "Tornado hits French village injuring dozens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Tornado damages hundreds of homes in southwestern France."
     },
     {
       "temat": "Syrian Democratic Forces dissolve under Damascus agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Kurdish-led SDF to dissolve; Middle East power shift."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 7,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "Tornado damages hundreds of homes in southwestern France",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 10,
       "opis": "Tornado hits French village near Iberia; dozens injured."
+    },
+    {
+      "temat": "Trump claims Hormuz Strait mines cleared",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "US announces vital waterway reopened; potential energy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T10:02:53.451292Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T10:53:03.917589Z",
       "s": 2.0
@@ -266,15 +268,35 @@
     {
       "t": "2026-08-26T10:01:23.446899Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-26T10:51:12.594527Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-08-24T19:44:16.875497Z",
   "event_detected_at": {
+    "trump says all mines cleared from strait of hormuz": {
+      "detected_at": "2026-08-26T10:51:12.594527Z",
+      "peak_at": "2026-08-26T10:51:12.594527Z",
+      "peak_score_at": "2026-08-26T10:51:12.594527Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "Trump says all mines cleared from Strait of Hormuz",
+      "peak_label": "Trump claims Hormuz Strait mines cleared",
+      "peak_summary": "US president announces vital waterway reopened after Iranian closure caused oil price volatility. Potential relief for energy costs if confirmed.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
       "detected_at": "2026-08-25T17:45:26.769774Z",
       "peak_at": "2026-08-25T20:45:17.153004Z",
       "peak_score_at": "2026-08-25T20:45:17.153004Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "peak_label": "Canada retaliates with 50% tariffs on US goods",
@@ -283,6 +305,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "at least 17 killed as flash flood sweeps part of nepal-tibet border": {
+      "detected_at": "2026-08-26T10:51:12.594527Z",
+      "peak_at": "2026-08-26T10:51:12.594527Z",
+      "peak_score_at": "2026-08-26T10:51:12.594527Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "At least 17 killed as flash flood sweeps part of Nepal-Tibet border",
+      "peak_label": "Flash flood kills 17 on Nepal-Tibet border",
+      "peak_summary": "Flood in Rasuwa area feared to have swept away villages. Distant tragedy with no direct link to Portuguese daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -368,8 +406,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Trump says all mines cleared from Strait of Hormuz",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-    "China hits out at 'illegal' new US sanctions on Iran and trading partners"
+    "At least 17 killed as flash flood sweeps part of Nepal-Tibet border"
   ]
 }

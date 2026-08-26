@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-08-26T10:01:23.456150Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-08-26T10:51:12.607454Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 13,
       "opis": "New tariff escalation beyond existing US-Canada trade war."
     },
     {
       "temat": "US strikes drug trafficking vessel in Pacific",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
+      "cykle_bez_zmian": 24,
       "opis": "Military launches deadly strike killing two in eastern."
     },
     {
       "temat": "US imposes new economic sanctions on Iran",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 7,
       "opis": "Washington calls it 'economic D-Day'; potential oil market."
     },
     {
       "temat": "US military plane lands in Moscow",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Rare US C-17 transport flight to Moscow from Riga; unclear."
     },
     {
       "temat": "Canada retaliates with US counter-tariffs",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 16,
       "opis": "Canada imposes $19.9bn tariffs on US goods after trade."
     },
     {
       "temat": "CIA director makes rare Moscow visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Unannounced US-Russia diplomatic contact; purpose unclear."
     },
     {
       "temat": "US soldier faces charges for Trump impeachment call",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Major Watson charged under military law for criticizing."
+    },
+    {
+      "temat": "Trump claims Hormuz Strait mines cleared",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 0,
+      "opis": "President announces vital waterway reopened; potential oil."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T10:02:53.454237Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-24T10:53:03.921237Z",
       "s": 3.0
@@ -266,6 +268,10 @@
     {
       "t": "2026-08-26T10:01:23.450034Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-26T10:51:12.597452Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-08-24T19:44:16.879193Z",
@@ -274,7 +280,7 @@
       "detected_at": "2026-08-25T17:45:26.772832Z",
       "peak_at": "2026-08-25T20:45:17.156031Z",
       "peak_score_at": "2026-08-25T20:45:17.156031Z",
-      "peak_score": 5.5,
+      "peak_score": 5.4,
       "peak_sentiment": "negative",
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "peak_label": "Canada retaliates with 50% tariffs on US goods",
@@ -283,6 +289,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump says all mines cleared from strait of hormuz": {
+      "detected_at": "2026-08-26T10:51:12.597452Z",
+      "peak_at": "2026-08-26T10:51:12.597452Z",
+      "peak_score_at": "2026-08-26T10:51:12.597452Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Trump says all mines cleared from Strait of Hormuz",
+      "peak_label": "Trump claims Hormuz Strait mines cleared",
+      "peak_summary": "President announces vital waterway reopened after Iranian closure caused oil price volatility. Potential relief for energy costs if confirmed.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "cia chief travels to moscow for unannounced talks, us media reports": {
+      "detected_at": "2026-08-25T15:59:20.702257Z",
+      "peak_at": "2026-08-25T20:45:17.156031Z",
+      "peak_score_at": "2026-08-25T20:45:17.156031Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "neutral",
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "peak_label": "CIA director makes rare unannounced Moscow visit",
+      "peak_summary": "Rare US-Russia diplomatic contact confirmed by flight tracking; unclear purpose but significant development in US-Russia relations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -299,22 +337,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "cia chief travels to moscow for unannounced talks, us media reports": {
-      "detected_at": "2026-08-25T15:59:20.702257Z",
-      "peak_at": "2026-08-25T20:45:17.156031Z",
-      "peak_score_at": "2026-08-25T20:45:17.156031Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "peak_label": "CIA director makes rare unannounced Moscow visit",
-      "peak_summary": "Rare US-Russia diplomatic contact confirmed by flight tracking; unclear purpose but significant development in US-Russia relations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -369,7 +391,7 @@
   },
   "prev_top_event_titles": [
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+    "Trump says all mines cleared from Strait of Hormuz",
     "CIA chief travels to Moscow for unannounced talks, US media reports"
   ]
 }
