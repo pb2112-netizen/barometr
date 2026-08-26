@@ -1,33 +1,13 @@
 {
-  "global_score": 2.4,
-  "short_summary": "Trump imposes 50% tariff on Canadian autos steel",
-  "rationale": "CIA-Russia talks continue without clear outcome; Canada-US trade war escalates but remains distant; no direct military developments affecting Ukraine this cycle.",
+  "global_score": 2.3,
+  "rationale": "Canada's 50% retaliatory tariffs escalate US-Canada trade war, potentially straining Western economic capacity to support Ukraine aid. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
-      "label": "CIA chief meets Russian intelligence in Moscow",
-      "summary": "CIA Director Ratcliffe held talks with Russian intelligence officials in Moscow, described as 'positive' by the Kremlin. No concrete outcome reported; potential shift in US-Russia relations.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T18:56:22.821448Z"
-    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods. Escalates trade war but remains distant from Ukrainian daily life and aid flows.",
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -42,22 +22,36 @@
       "detected_at": "2026-08-25T19:45:31.337228Z"
     },
     {
-      "title": "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns",
+      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
+      "label": "Putin discusses Syria bases with new leadership",
+      "summary": "Russia negotiates to maintain Khmeimim and Tartous military bases in Syria with new leadership, preserving Russian military projection capacity in the region.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "nowosc": "kontynuacja",
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T16:58:59.728605Z"
+    },
+    {
+      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
       "label": "Pakistan hospital fire kills 14 newborns",
-      "summary": "A fire in a locked nursery ward at an Islamabad hospital killed 14 babies. Distant humanitarian tragedy with no impact on Ukraine.",
-      "score": 1.5,
+      "summary": "Locked nursery ward fire in Islamabad kills 14 babies; distant tragedy with no direct impact on Ukrainian residents.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns?traffic_source=rss"
-        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
@@ -66,13 +60,14 @@
       "detected_at": "2026-08-26T15:52:18.017300Z"
     }
   ],
+  "short_summary": "Trump imposes 50% tariff on Canadian autos steel",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T16:00:52.902100Z",
+  "updated_at": "2026-08-26T16:58:59.728605Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos steel",
     "summary": "New 50% tariff on Canadian vehicles and steel escalates North American trade war, may strain Western economies and capacity to sustain Ukraine aid.",
@@ -90,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T11:42:41.732287Z",
   "score_history": [
-    {
-      "t": "2026-08-24T16:00:53.379269Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-08-24T16:54:45.158809Z",
-      "s": 3.8
-    },
     {
       "t": "2026-08-24T17:46:47.309000Z",
       "s": 3.6
@@ -305,6 +292,10 @@
     {
       "t": "2026-08-26T16:00:52.902100Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-26T16:58:59.728605Z",
+      "s": 2.3
     }
   ]
 }
