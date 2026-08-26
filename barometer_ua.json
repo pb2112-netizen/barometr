@@ -1,12 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "CIA director's Moscow visit continues as potential shift in war dynamics; US-Canada tariff war may strain Western aid capacity; other events remain distant.",
+  "global_score": 2.9,
+  "rationale": "CIA chief's rare Moscow visit continues diplomatic contact that may affect war trajectory; new US sanctions on Iran could indirectly impact Russian war funding. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit for talks",
-      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in war dynamics affecting Ukraine's security situation.",
-      "score": 3.0,
+      "label": "CIA chief makes rare Moscow visit",
+      "summary": "Unannounced US-Russia diplomatic contact continues, potentially signaling shift in war dynamics affecting Ukrainian battlefield and Western aid.",
+      "score": 2.9,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-08-25T15:59:20.700663Z"
     },
     {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "label": "US sanctions Iran and trading partners",
+      "summary": "Washington threatens to isolate nations trading with Tehran, potentially affecting Russian war funding through Iranian military cooperation.",
+      "score": 2.8,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T07:07:52.325521Z"
+    },
+    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods. Escalating trade war may strain Western capacity to provide aid.",
-      "score": 3.1,
+      "label": "Canada retaliates with 50% US tariffs",
+      "summary": "North American trade war escalation may strain Western economic capacity to sustain military and financial aid to Ukraine.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -39,35 +58,16 @@
         }
       ],
       "detected_at": "2026-08-25T19:45:31.337228Z"
-    },
-    {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US imposes new sanctions on Iran and partners",
-      "summary": "US threatens to isolate nations trading with Iran. Potential for energy market disruption affecting global aid capacity.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T07:07:52.325521Z"
     }
   ],
   "short_summary": "UK transfers Storm Shadow blueprints to Ukraine",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T01:57:54.895767Z",
+  "updated_at": "2026-08-26T03:17:40.189623Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "UK transfers Storm Shadow blueprints to Ukraine",
     "summary": "Britain shares classified cruise missile designs with Ukraine, enabling domestic production—a major escalation in Western military support directly strengthening Ukrainian defense capacity.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "score_history": [
-    {
-      "t": "2026-08-24T03:16:12.866338Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-24T04:01:20.407903Z",
       "s": 3.9
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-26T01:57:54.895767Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-26T03:17:40.189623Z",
+      "s": 2.9
     }
   ]
 }

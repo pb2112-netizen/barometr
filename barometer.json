@@ -1,12 +1,31 @@
 {
-  "global_score": 3.9,
-  "rationale": "US-Canada tariff war escalation to 50% continues to threaten EU economy and supply chains; other events remain distant or background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "New US sanctions on Iran and trading partners create indirect economic pressure on EU energy markets and trade; Canada-US tariff war continuation at 50% threatens global supply chains affecting Polish exports.",
   "top_events": [
     {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "label": "US sanctions Iran and trading partners",
+      "summary": "Washington threatens to isolate nations trading with Tehran, potentially disrupting EU energy markets and Polish trade relationships with Asian partners.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T07:07:52.320914Z"
+    },
+    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods in response to Trump's tariffs. The escalating North American trade war threatens global supply chains and EU economic stability.",
-      "score": 3.9,
+      "label": "Canada retaliates with 50% US tariffs",
+      "summary": "Escalating North American trade war threatens global supply chains and Polish manufacturing exports dependent on transatlantic stability.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-25T17:45:26.767499Z"
     },
     {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US imposes new sanctions on Iran and partners",
-      "summary": "US threatens to isolate nations trading with Iran, targeting China's oil imports. Potential for energy market disruption affecting EU prices.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T07:07:52.320914Z"
-    },
-    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit for talks",
-      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in Ukraine war dynamics affecting Poland's eastern security.",
-      "score": 3.5,
+      "label": "CIA chief makes rare Moscow visit",
+      "summary": "Unannounced US-Russia diplomatic contact may signal shift in Ukraine war dynamics affecting Poland's eastern border security.",
+      "score": 3.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-26T01:57:54.890652Z",
+  "updated_at": "2026-08-26T03:17:40.185322Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
   "score_history": [
-    {
-      "t": "2026-08-24T03:16:12.862834Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T04:01:20.403174Z",
       "s": 3.4
@@ -296,6 +292,10 @@
     {
       "t": "2026-08-26T01:57:54.890652Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-08-26T03:17:40.185322Z",
+      "s": 3.8
     }
   ]
 }
