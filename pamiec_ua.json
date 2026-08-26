@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-26T14:05:30.291442Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-08-26T15:52:18.024727Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canada retaliates with 50% tariffs on US goods",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 0,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
+    },
+    {
+      "temat": "Pakistan hospital fire kills 14 newborns",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Locked nursery ward fire in Islamabad; distant tragedy."
+    },
+    {
+      "temat": "Ukrainian drones destroy Russian logistics warehouse",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
+      "opis": "Drone strike destroys Wildberries center in Tambov."
+    },
+    {
+      "temat": "Hormuz Strait reopened to shipping",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
+      "opis": "US claims vital oil waterway cleared; potential energy."
+    },
+    {
+      "temat": "Drone attack on Leipzig Airport in Germany",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
+      "opis": "Drone incident at German airport raises security concerns."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "US threatens isolation of nations trading with Tehran."
-    },
-    {
-      "temat": "CIA director makes rare Moscow visit",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Unannounced US-Russia talks; potential shift in war."
     },
     {
       "temat": "Syrian Democratic Forces announce dissolution",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Kurdish-led SDF to dissolve under agreement with Damascus."
     },
     {
       "temat": "Trump imposes 50% tariff on Canadian autos and steel",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "New 50% tariff on Canadian vehicles/steel; may strain aid."
-    },
-    {
-      "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
-      "opis": "Drone strike destroys Wildberries center in Tambov."
-    },
-    {
-      "temat": "Hormuz Strait reopened to shipping",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
-      "opis": "US claims vital oil waterway cleared; potential energy."
-    },
-    {
-      "temat": "Drone attack on Leipzig Airport in Germany",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
-      "opis": "Drone incident at German airport raises security concerns."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T14:59:25.838354Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-24T15:55:27.754871Z",
       "s": 4.1
@@ -268,15 +264,35 @@
     {
       "t": "2026-08-26T14:05:30.284301Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-26T15:52:18.017300Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-08-25T15:59:20.700663Z",
   "event_detected_at": {
+    "kremlin says cia head met russian intelligence officials, but not putin": {
+      "detected_at": "2026-08-25T18:56:22.821448Z",
+      "peak_at": "2026-08-25T18:56:22.821448Z",
+      "peak_score_at": "2026-08-25T18:56:22.821448Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
+      "peak_label": "Kremlin denies US talks despite CIA visit",
+      "peak_summary": "Moscow denies planned negotiations despite confirmed CIA presence. US reportedly asked Ukraine to pause strikes during visit; no confirmed policy change.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
+        }
+      ]
+    },
     "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
       "detected_at": "2026-08-25T19:45:31.337228Z",
       "peak_at": "2026-08-25T21:43:23.633425Z",
       "peak_score_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "negative",
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "peak_label": "Canada retaliates with 50% US tariffs",
@@ -285,6 +301,26 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "locked inside: grief and anger as pakistan hospital fire kills 14 newborns": {
+      "detected_at": "2026-08-26T15:52:18.017300Z",
+      "peak_at": "2026-08-26T15:52:18.017300Z",
+      "peak_score_at": "2026-08-26T15:52:18.017300Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns",
+      "peak_label": "Pakistan hospital fire kills 14 newborns",
+      "peak_summary": "A fire in a locked nursery ward at an Islamabad hospital killed 14 babies. Distant humanitarian tragedy with no impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -431,43 +467,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cvgy3jplvd3o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "kremlin denies planned talks with us envoys amid reports cia head in russia": {
-      "detected_at": "2026-08-25T18:56:22.821448Z",
-      "peak_at": "2026-08-25T18:56:22.821448Z",
-      "peak_score_at": "2026-08-25T18:56:22.821448Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "neutral",
-      "title": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
-      "peak_label": "Kremlin denies US talks despite CIA visit",
-      "peak_summary": "Moscow denies planned negotiations despite confirmed CIA presence. US reportedly asked Ukraine to pause strikes during visit; no confirmed policy change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
-        }
-      ]
-    },
-    "gaza marks one year since mariam dagga was killed in israeli strike": {
-      "detected_at": "2026-08-25T15:03:59.538475Z",
-      "peak_at": "2026-08-25T15:03:59.538475Z",
-      "peak_score_at": "2026-08-25T15:03:59.538475Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Gaza child breaks down in tears after an Israeli threat over kites",
-      "peak_label": "Israel threatens Gaza over children's kites",
-      "peak_summary": "Israeli threats over kites from Gaza. Distant Middle East conflict with no connection to Ukraine's war.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/gaza-child-breaks-down-in-tears-after-an-israeli-threat-over-kites?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Kremlin says CIA head met Russian intelligence officials, but not Putin",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "Iran, Oman agree on temporary Hormuz route: What we know",
-    "Germany's Merz warns attackers will 'pay price' after drone incident"
+    "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns"
   ]
 }

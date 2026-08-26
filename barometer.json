@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, indirectly threatening EU economy and supply chains; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, indirectly threatening EU supply chains and economic stability; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating a trade war that may disrupt global supply chains and EU economic stability.",
-      "score": 2.3,
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating the trade war. This threatens global supply chains and may indirectly affect EU economic stability.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,30 +22,11 @@
       "detected_at": "2026-08-25T17:45:26.767499Z"
     },
     {
-      "title": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
-      "label": "US toilet paper prices surge in trade war",
-      "summary": "Paper products face 25-50% tariff increases as US-Canada trade negotiations collapse, signaling broader consumer price impacts from the escalating conflict.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada"
-        }
-      ],
-      "detected_at": "2026-08-26T14:05:30.279063Z"
-    },
-    {
-      "title": "Iran, Oman agree on temporary Hormuz route: What we know",
-      "label": "Iran and Oman agree temporary Hormuz route",
-      "summary": "Iran's deputy foreign minister announces a temporary shipping corridor in the Strait of Hormuz, potentially easing energy supply concerns after recent tensions.",
-      "score": 2.7,
-      "sentiment": "positive",
+      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
+      "label": "CIA chief meets Russian intelligence in Moscow",
+      "summary": "CIA Director Ratcliffe held talks with Russian intelligence officials in Moscow, described as 'positive' by the Kremlin. Potential shift in US-Russia relations, indirectly relevant to Ukraine war dynamics.",
+      "score": 2.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -54,10 +35,34 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-26T14:05:30.279063Z"
+      "detected_at": "2026-08-26T15:52:18.010643Z"
+    },
+    {
+      "title": "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns",
+      "label": "Pakistan hospital fire kills 14 newborns",
+      "summary": "A fire in a locked nursery ward at an Islamabad hospital killed 14 babies. Distant humanitarian tragedy with no direct impact on Poland.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T15:52:18.010643Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-26T14:05:30.279063Z",
+  "updated_at": "2026-08-26T15:52:18.010643Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
   "score_history": [
-    {
-      "t": "2026-08-24T14:59:25.832299Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-24T15:55:27.749717Z",
       "s": 3.5
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-26T14:05:30.279063Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-08-26T15:52:18.010643Z",
+      "s": 2.5
     }
   ]
 }

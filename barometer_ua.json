@@ -1,14 +1,33 @@
 {
-  "global_score": 2.8,
-  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, potentially straining Western economic capacity to support Ukraine; Hormuz corridor eases energy concerns.",
+  "global_score": 2.5,
+  "rationale": "CIA-Russia talks continue without clear outcome; Canada-US trade war escalates but remains distant; no direct military developments affecting Ukraine this cycle.",
   "top_events": [
+    {
+      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
+      "label": "CIA chief meets Russian intelligence in Moscow",
+      "summary": "CIA Director Ratcliffe held talks with Russian intelligence officials in Moscow, described as 'positive' by the Kremlin. No concrete outcome reported; potential shift in US-Russia relations.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T18:56:22.821448Z"
+    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating a trade war that may strain Western economic capacity to support Ukraine.",
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods. Escalates trade war but remains distant from Ukrainian daily life and aid flows.",
       "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -22,42 +41,28 @@
       "detected_at": "2026-08-25T19:45:31.337228Z"
     },
     {
-      "title": "Iran, Oman agree on temporary Hormuz route: What we know",
-      "label": "Iran and Oman agree temporary Hormuz route",
-      "summary": "Iran's deputy foreign minister announces a temporary shipping corridor in the Strait of Hormuz, potentially easing global energy supply concerns.",
-      "score": 2.8,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T14:05:30.284301Z"
-    },
-    {
-      "title": "Germany's Merz warns attackers will 'pay price' after drone incident",
-      "label": "Germany warns attackers after Leipzig drone incident",
-      "summary": "A drone attack on Leipzig Airport prompts German chancellor to warn of 'very real threat,' highlighting security concerns across Europe.",
-      "score": 2.5,
+      "title": "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns",
+      "label": "Pakistan hospital fire kills 14 newborns",
+      "summary": "A fire in a locked nursery ward at an Islamabad hospital killed 14 babies. Distant humanitarian tragedy with no impact on Ukraine.",
+      "score": 1.5,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
         {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns?traffic_source=rss"
+        },
+        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cddv71p4j2jo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-26T14:05:30.284301Z"
+      "detected_at": "2026-08-26T15:52:18.017300Z"
     }
   ],
   "short_summary": "CIA chief holds unannounced talks in Moscow",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T14:05:30.284301Z",
+  "updated_at": "2026-08-26T15:52:18.017300Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-25T15:59:20.700663Z",
   "score_history": [
-    {
-      "t": "2026-08-24T14:59:25.838354Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-24T15:55:27.754871Z",
       "s": 4.1
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-26T14:05:30.284301Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-26T15:52:18.017300Z",
+      "s": 2.5
     }
   ]
 }

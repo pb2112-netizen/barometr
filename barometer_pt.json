@@ -1,11 +1,11 @@
 {
-  "global_score": 2.5,
-  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war with potential indirect effects on EU economy; other events remain distant.",
+  "global_score": 2.0,
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war, posing indirect risk to EU economy; other events remain distant from Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating a trade war that may indirectly affect EU economy.",
+      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods. This escalates the trade war and may indirectly affect EU economic stability.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,11 +22,35 @@
       "detected_at": "2026-08-25T17:45:26.769774Z"
     },
     {
-      "title": "Iran, Oman agree on temporary Hormuz route: What we know",
-      "label": "Iran and Oman agree temporary Hormuz route",
-      "summary": "Iran's deputy foreign minister announces a temporary shipping corridor in the Strait of Hormuz, potentially easing energy supply concerns.",
-      "score": 2.5,
-      "sentiment": "positive",
+      "title": "Locked inside: Grief and anger as Pakistan hospital fire kills 14 newborns",
+      "label": "Pakistan hospital fire kills 14 newborns",
+      "summary": "A fire in a locked nursery ward at an Islamabad hospital killed 14 babies. Distant humanitarian tragedy with no direct impact on Portugal.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/locked-inside-grief-and-anger-as-pakistan-hospital-fire-kills-14-newborns?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T15:52:18.015277Z"
+    },
+    {
+      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
+      "label": "CIA chief meets Russian intelligence in Moscow",
+      "summary": "CIA Director Ratcliffe held talks with Russian intelligence officials in Moscow. Potential shift in US-Russia relations, but distant from Portuguese daily life.",
+      "score": 1.8,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,39 +59,20 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-26T14:05:30.282626Z"
-    },
-    {
-      "title": "Deadly flash floods sweep through northern Nepal",
-      "label": "Flash floods kill eight in northern Nepal",
-      "summary": "Flash floods in northern Nepal kill at least eight people and wash away homes, a distant humanitarian crisis with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/deadly-flash-floods-sweep-through-northern-nepal?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T10:51:12.594527Z"
+      "detected_at": "2026-08-26T15:52:18.015277Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos, steel",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-26T14:05:30.282626Z",
+  "updated_at": "2026-08-26T15:52:18.015277Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos, steel",
     "summary": "US president announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Distant event with potential ripple effects on global economy.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-24T19:44:16.875497Z",
   "score_history": [
-    {
-      "t": "2026-08-24T14:59:25.836376Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T15:55:27.753120Z",
       "s": 2.0
@@ -300,6 +301,10 @@
     {
       "t": "2026-08-26T14:05:30.282626Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-26T15:52:18.015277Z",
+      "s": 2.0
     }
   ]
 }
