@@ -1,12 +1,31 @@
 {
-  "global_score": 2.6,
-  "rationale": "Canada-US tariff war continues; US-Iran sanctions rhetoric persists; CIA Moscow visit continues without confirmed outcome; distant events (Nigeria, Guinea, Haiti) have no link to Ukrainian war situation.",
+  "global_score": 2.3,
+  "rationale": "CIA Moscow talks continue with no concrete outcomes; Canada-US tariff war persists as distant background; no new military developments on Ukrainian territory.",
   "top_events": [
+    {
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "label": "CIA director makes rare Moscow visit for talks",
+      "summary": "US-Russia diplomatic contact continues with CIA chief in Moscow. Potentially relevant for war trajectory but no concrete outcomes yet.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T15:59:20.700663Z"
+    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes tariffs up to 50% on US steel and other goods. Continuation of North American trade war with potential indirect risk to Western aid flows.",
-      "score": 2.6,
+      "summary": "North American trade war continues. Distant from Ukraine with no direct impact on Western aid or war effort.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -23,9 +42,9 @@
     },
     {
       "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "China condemns US Iran sanctions and trade threats",
-      "summary": "US threatens to isolate nations trading with Iran. Rhetoric continues without new enacted measures affecting Ukraine's war situation or aid.",
-      "score": 2.4,
+      "label": "US threatens Iran trade partners with isolation",
+      "summary": "US sanctions on Iran and trading partners continue. No direct relevance to Ukrainian war effort or security.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-08-25T07:07:52.325521Z"
-    },
-    {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare unannounced Moscow visit",
-      "summary": "US military aircraft traveled to Moscow via Latvia for talks. Purpose unclear; potential diplomatic shift but no confirmed outcome affecting Ukraine's war yet.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T15:59:20.700663Z"
     }
   ],
   "short_summary": "UK transfers Storm Shadow blueprints to Ukraine",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T07:58:31.987540Z",
+  "updated_at": "2026-08-26T09:01:32.689490Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -300,6 +300,10 @@
     {
       "t": "2026-08-26T07:58:31.987540Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-08-26T09:01:32.689490Z",
+      "s": 2.3
     }
   ]
 }
