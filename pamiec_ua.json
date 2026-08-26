@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-26T10:51:12.605997Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-08-26T11:43:53.856739Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "CIA chief in Moscow for unannounced talks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Rare US-Russia diplomatic contact; potential shift in war."
     },
     {
       "temat": "Canada retaliates with 50% tariffs on US goods",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 2,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "CIA director makes rare Moscow visit",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 18,
       "opis": "Unannounced US-Russia talks; potential shift in war."
-    },
-    {
-      "temat": "Ukraine strikes Russian oil refinery in Krasnodar",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Successful drone attack on Afipsky refinery kills two."
     },
     {
       "temat": "Syrian Democratic Forces announce dissolution",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Kurdish-led SDF to dissolve under agreement with Damascus."
     },
     {
       "temat": "Trump imposes 50% tariff on Canadian autos and steel",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "New 50% tariff on Canadian vehicles/steel; may strain aid."
     },
     {
       "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 3,
       "opis": "Drone strike destroys Wildberries center in Tambov."
+    },
+    {
+      "temat": "Hormuz Strait reopened to shipping",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "US claims vital oil waterway cleared; potential energy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T10:53:03.919206Z",
-      "s": 4.1
-    },
-    {
-      "t": "2026-08-24T11:43:49.919830Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-24T13:12:31.474644Z",
       "s": 3.8
@@ -272,15 +264,35 @@
     {
       "t": "2026-08-26T10:51:12.595904Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-08-26T11:43:53.849865Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "event_detected_at": {
-    "ukrainian drone attacks kill 3 as fire destroys wildberries warehouse": {
+    "trump says all mines cleared from strait of hormuz": {
+      "detected_at": "2026-08-26T11:43:53.849865Z",
+      "peak_at": "2026-08-26T11:43:53.849865Z",
+      "peak_score_at": "2026-08-26T11:43:53.849865Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "positive",
+      "title": "Trump says all mines cleared from Strait of Hormuz",
+      "peak_label": "Trump announces Hormuz Strait reopened to shipping",
+      "peak_summary": "US claims vital oil waterway now clear, potentially stabilizing global energy prices that affect Ukraine's wartime economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ukrainian air attacks kill three in russia as kyiv steps up drone campaign": {
       "detected_at": "2026-08-25T14:03:14.297205Z",
       "peak_at": "2026-08-25T14:03:14.297205Z",
       "peak_score_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score": 4.7,
+      "peak_score": 4.6,
       "peak_sentiment": "positive",
       "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
       "peak_label": "Ukrainian drones strike Russian oil refinery",
@@ -296,7 +308,7 @@
       "detected_at": "2026-08-25T19:45:31.337228Z",
       "peak_at": "2026-08-25T21:43:23.633425Z",
       "peak_score_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "peak_label": "Canada retaliates with 50% US tariffs",
@@ -454,8 +466,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Ukrainian drone attacks kill 3 as fire destroys Wildberries warehouse",
-    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "CIA chief travels to Moscow for unannounced talks, US media reports"
+    "Trump says all mines cleared from Strait of Hormuz",
+    "Ukrainian air attacks kill three in Russia as Kyiv steps up drone campaign",
+    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%"
   ]
 }

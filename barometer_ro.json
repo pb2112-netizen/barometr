@@ -1,13 +1,32 @@
 {
-  "global_score": 2.8,
-  "rationale": "Canada's 50% retaliatory tariffs continue the North American trade war with indirect EU economic impact; Hormuz reopening could ease energy costs; other events remain distant from Romanian daily life.",
+  "global_score": 2.7,
+  "rationale": "Hormuz reopening could stabilize energy costs for EU; Canada-US tariff war continues but remains distant; other events lack direct Romanian impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Trump says all mines cleared from Strait of Hormuz",
+      "label": "Trump announces Hormuz Strait reopened to shipping",
+      "summary": "US claims vital oil waterway now clear after Iran's closure, potentially easing energy prices for EU countries including Romania.",
+      "score": 2.7,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T10:51:12.592997Z"
+    },
+    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods. Escalating trade war poses indirect risk to EU economy and supply chains.",
-      "score": 2.6,
-      "sentiment": "negative",
+      "label": "Canada imposes 50% retaliatory tariffs on US goods",
+      "summary": "North American trade war escalates with new levies; distant but could affect global trade and EU economy indirectly.",
+      "score": 2.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,42 +41,23 @@
       "detected_at": "2026-08-25T17:45:26.768586Z"
     },
     {
-      "title": "Trump says all mines cleared from Strait of Hormuz",
-      "label": "Trump claims Hormuz Strait mines cleared",
-      "summary": "US president announces vital waterway reopened after Iranian closure caused oil price volatility. Potential relief for energy costs if confirmed.",
-      "score": 2.8,
-      "sentiment": "positive",
+      "title": "At least eight killed, hundreds missing after Nepal flash flood",
+      "label": "Nepal flash flood kills eight, hundreds missing",
+      "summary": "Major flooding in Nepal with casualties reported; distant humanitarian crisis with no direct Romanian impact.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-26T10:51:12.592997Z"
-    },
-    {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit",
-      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in regional security dynamics, but no concrete outcome yet.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T15:59:20.698201Z"
+      "detected_at": "2026-08-26T11:43:53.846230Z"
     }
   ],
   "short_summary": "Trump adds 50% tariff on Canadian goods",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-26T10:51:12.592997Z",
+  "updated_at": "2026-08-26T11:43:53.846230Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.643254Z",
   "score_history": [
-    {
-      "t": "2026-08-24T10:53:03.916056Z",
-      "s": 4.0
-    },
-    {
-      "t": "2026-08-24T11:43:49.916114Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-24T13:12:31.470349Z",
       "s": 3.8
@@ -304,6 +296,10 @@
     {
       "t": "2026-08-26T10:51:12.592997Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-26T11:43:53.846230Z",
+      "s": 2.7
     }
   ]
 }

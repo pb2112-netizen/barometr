@@ -1,13 +1,32 @@
 {
-  "global_score": 4.5,
-  "rationale": "Ukrainian drone attack destroys major Russian logistics warehouse in Tambov, killing three—a significant operational success; Canada's 50% tariffs on US goods continue the trade war with potential indirect impact on Western aid capacity.",
+  "global_score": 3.0,
+  "rationale": "Hormuz reopening could ease energy costs; Ukraine drone strikes continue as background; Canada-US tariff war remains distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukrainian drone attacks kill 3 as fire destroys Wildberries warehouse",
-      "label": "Ukrainian drones destroy Russian logistics warehouse",
-      "summary": "Drone strike completely destroys Wildberries logistics center in Tambov, killing three. Significant operational success disrupting Russian supply chains.",
-      "score": 4.5,
+      "title": "Trump says all mines cleared from Strait of Hormuz",
+      "label": "Trump announces Hormuz Strait reopened to shipping",
+      "summary": "US claims vital oil waterway now clear, potentially stabilizing global energy prices that affect Ukraine's wartime economy.",
+      "score": 3.0,
       "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T11:43:53.849865Z"
+    },
+    {
+      "title": "Ukrainian air attacks kill three in Russia as Kyiv steps up drone campaign",
+      "label": "Ukraine drone strikes hit Russian refinery and warehouse",
+      "summary": "Attacks spark fires at Lukoil refinery and Wildberries logistics hub; continuation of ongoing drone campaign against Russian targets.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -23,10 +42,10 @@
     },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods. Escalating trade war may strain Western economic capacity to support Ukraine.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "label": "Canada imposes 50% retaliatory tariffs on US goods",
+      "summary": "North American trade war escalates; distant but could affect Western aid flows if US economy weakens.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-08-25T19:45:31.337228Z"
-    },
-    {
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit",
-      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in war dynamics, but no concrete outcome yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T15:59:20.700663Z"
     }
   ],
   "short_summary": "UK transfers Storm Shadow blueprints to Ukraine",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T10:51:12.595904Z",
+  "updated_at": "2026-08-26T11:43:53.849865Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
   "score_history": [
-    {
-      "t": "2026-08-24T10:53:03.919206Z",
-      "s": 4.1
-    },
-    {
-      "t": "2026-08-24T11:43:49.919830Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-24T13:12:31.474644Z",
       "s": 3.8
@@ -304,6 +296,10 @@
     {
       "t": "2026-08-26T10:51:12.595904Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-08-26T11:43:53.849865Z",
+      "s": 3.0
     }
   ]
 }
