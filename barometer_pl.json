@@ -1,32 +1,13 @@
 {
-  "global_score": 3.1,
-  "rationale": "US-Iran sanctions continue with no new direct impact on Poland; Canada-US tariff war persists as background noise; no fresh developments affecting Polish security or economy.",
+  "global_score": 3.0,
+  "rationale": "Canada's 50% retaliatory tariffs on US goods escalate North American trade war, threatening EU supply chains and export markets; US sanctions on Iran and trading partners (including China) risk global economic instability affecting Poland's energy costs and trade. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US threatens Iran trade partners with isolation",
-      "summary": "US sanctions on Iran and its trading partners continue, with China protesting. No direct impact on Polish economy or energy supply yet.",
-      "score": 3.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T07:07:52.320914Z"
-    },
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
       "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "North American trade war continues with Canada imposing tariffs on steel, furniture, and other goods. Distant from Poland but may indirectly affect global trade climate.",
-      "score": 2.9,
-      "sentiment": "neutral",
+      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods in escalating trade war. Threatens EU supply chains and Polish export markets through global economic disruption.",
+      "score": 2.8,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -41,10 +22,29 @@
       "detected_at": "2026-08-25T17:45:26.767499Z"
     },
     {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "label": "US threatens isolation of Iran trading partners",
+      "summary": "US sanctions target nations trading with Iran, including China. Risk of energy market disruption and global economic instability affecting Poland's energy costs and trade relations.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T07:07:52.320914Z"
+    },
+    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit for talks",
-      "summary": "Unannounced US-Russia diplomatic contact continues. Potential relevance for Ukraine war trajectory but no concrete outcomes yet.",
-      "score": 2.3,
+      "label": "CIA director makes rare Moscow visit",
+      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in Ukraine war dynamics affecting Poland's eastern border security.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-26T09:01:32.685221Z",
+  "updated_at": "2026-08-26T09:57:02.113721Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos",
     "summary": "US announces new 50% tariff on Canadian automobiles and steel, further deteriorating trade relations. Part of broader trade war that threatens global supply chains and EU economic stability.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
   "score_history": [
-    {
-      "t": "2026-08-24T09:03:34.846547Z",
-      "s": 2.9
-    },
     {
       "t": "2026-08-24T10:01:10.210796Z",
       "s": 2.0
@@ -304,6 +300,10 @@
     {
       "t": "2026-08-26T09:01:32.685221Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-26T09:57:02.113721Z",
+      "s": 3.0
     }
   ]
 }
