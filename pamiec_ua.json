@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-26T09:57:02.124933Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-08-26T10:01:23.454810Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "CIA chief in Moscow for unannounced talks",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 21,
       "opis": "Rare US-Russia diplomatic contact; potential shift in war."
     },
     {
       "temat": "Canada retaliates with 50% tariffs on US goods",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 0,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 6,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "CIA director makes rare Moscow visit",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 16,
       "opis": "Unannounced US-Russia talks; potential shift in war."
     },
     {
       "temat": "Ukraine strikes Russian oil refinery in Krasnodar",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Successful drone attack on Afipsky refinery kills two."
     },
     {
       "temat": "Syrian Democratic Forces announce dissolution",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Kurdish-led SDF to dissolve under agreement with Damascus."
     },
     {
       "temat": "Trump imposes 50% tariff on Canadian autos and steel",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "New 50% tariff on Canadian vehicles/steel; may strain aid."
     },
     {
       "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Drone strike destroys Wildberries center in Tambov."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T10:01:10.213372Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T10:02:53.452554Z",
       "s": 2.0
@@ -272,6 +268,10 @@
     {
       "t": "2026-08-26T09:57:02.118244Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-08-26T10:01:23.448402Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-08-24T17:46:47.309000Z",
@@ -280,7 +280,7 @@
       "detected_at": "2026-08-25T14:03:14.297205Z",
       "peak_at": "2026-08-25T14:03:14.297205Z",
       "peak_score_at": "2026-08-25T14:03:14.297205Z",
-      "peak_score": 4.9,
+      "peak_score": 4.8,
       "peak_sentiment": "positive",
       "title": "Two killed, refinery on fire in Russia's Krasnodar after drone attack",
       "peak_label": "Ukrainian drones strike Russian oil refinery",
@@ -289,6 +289,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack?traffic_source=rss"
+        }
+      ]
+    },
+    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
+      "detected_at": "2026-08-25T19:45:31.337228Z",
+      "peak_at": "2026-08-25T21:43:23.633425Z",
+      "peak_score_at": "2026-08-25T21:43:23.633425Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "peak_label": "Canada retaliates with 50% US tariffs",
+      "peak_summary": "Canada imposes up to 50% tariffs on US goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "china hits out at 'illegal' new us sanctions on iran and trading partners": {
+      "detected_at": "2026-08-25T07:07:52.325521Z",
+      "peak_at": "2026-08-26T01:57:54.895767Z",
+      "peak_score_at": "2026-08-26T01:57:54.895767Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "peak_label": "US imposes new sanctions on Iran and partners",
+      "peak_summary": "US threatens to isolate nations trading with Iran. Potential for energy market disruption affecting global aid capacity.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -305,38 +337,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
-      "detected_at": "2026-08-25T19:45:31.337228Z",
-      "peak_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score_at": "2026-08-25T21:43:23.633425Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "negative",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "peak_label": "Canada retaliates with 50% US tariffs",
-      "peak_summary": "Canada imposes up to 50% tariffs on US goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "china hits out at 'illegal' new us sanctions on iran and trading partners": {
-      "detected_at": "2026-08-25T07:07:52.325521Z",
-      "peak_at": "2026-08-26T01:57:54.895767Z",
-      "peak_score_at": "2026-08-26T01:57:54.895767Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "peak_label": "US imposes new sanctions on Iran and partners",
-      "peak_summary": "US threatens to isolate nations trading with Iran. Potential for energy market disruption affecting global aid capacity.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -455,7 +455,7 @@
   },
   "prev_top_event_titles": [
     "Ukrainian drone attacks kill 3 as fire destroys Wildberries warehouse",
-    "CIA chief travels to Moscow for unannounced talks, US media reports",
-    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%"
+    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+    "China hits out at 'illegal' new US sanctions on Iran and trading partners"
   ]
 }

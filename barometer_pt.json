@@ -1,11 +1,30 @@
 {
   "global_score": 2.4,
-  "rationale": "Tornado in southwestern France near Iberian border injures dozens and damages hundreds of homes; Canada-US tariff war threatens EU economic stability and Portuguese export markets.",
+  "rationale": "Canada's 50% retaliatory tariffs escalate North American trade war; distant from Portugal but potential indirect effects on global trade and EU economy.",
   "top_events": [
     {
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada hits back with 50% tariffs on US",
+      "summary": "Canada imposes tariffs up to 50% on US steel, furniture, and other goods. Distant North American trade war with potential indirect effects on EU exports.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.769774Z"
+    },
+    {
       "title": "Tornado tears through French village, leaving dozens hurt and homes ravaged",
-      "label": "Tornado damages French village near Iberia",
-      "summary": "Tornado hits Pomas in southwestern France, damaging hundreds of homes and injuring fifteen. Geographic proximity to Portugal raises concern about similar extreme weather events.",
+      "label": "Tornado damages French village near Iberia border",
+      "summary": "Tornado hits Pomas in southwestern France, damaging hundreds of homes and injuring fifteen. Geographic proximity to Iberia raises mild concern about extreme weather.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,30 +41,11 @@
       "detected_at": "2026-08-25T01:51:37.465892Z"
     },
     {
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods. Escalating North American trade war threatens EU economic stability and Portuguese export markets.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.769774Z"
-    },
-    {
       "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US threatens isolation of Iran trading partners",
-      "summary": "US sanctions target nations trading with Iran, including China. Risk of global economic instability and energy market disruption indirectly affecting Portugal's economy.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "label": "China condemns US sanctions on Iran traders",
+      "summary": "US threatens isolation of nations trading with Iran. Distant economic tensions with no direct impact on Portugal's economy or energy costs.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-26T09:57:02.116689Z",
+  "updated_at": "2026-08-26T10:01:23.446899Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos, steel",
     "summary": "US president announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Distant event with potential ripple effects on global economy.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T19:44:16.875497Z",
   "score_history": [
-    {
-      "t": "2026-08-24T10:01:10.212775Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T10:02:53.451292Z",
       "s": 2.0
@@ -303,6 +299,10 @@
     },
     {
       "t": "2026-08-26T09:57:02.116689Z",
+      "s": 2.4
+    },
+    {
+      "t": "2026-08-26T10:01:23.446899Z",
       "s": 2.4
     }
   ]

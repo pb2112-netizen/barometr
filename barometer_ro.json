@@ -1,13 +1,32 @@
 {
   "global_score": 2.7,
-  "rationale": "US sanctions on Iran and trading partners risk energy market disruption affecting Romania's Black Sea region; Canada-US tariff war threatens EU economic stability and Romanian exports.",
+  "rationale": "Canada's 50% retaliatory tariffs continue North American trade war with indirect effects on EU economy; no direct impact on Romania's regional security or energy.",
   "top_events": [
     {
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "label": "US threatens isolation of Iran trading partners",
-      "summary": "US sanctions target nations trading with Iran, including China. Risk of energy market disruption in Black Sea region and global economic instability affecting Romanian trade.",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "label": "Canada imposes 50% retaliatory tariffs on US",
+      "summary": "Canada escalates trade war with tariffs up to 50% on US goods including steel and furniture. Distant conflict with potential indirect effects on EU economy.",
       "score": 2.7,
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-25T17:45:26.768586Z"
+    },
+    {
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "label": "China opposes US sanctions on Iran traders",
+      "summary": "US threatens isolation of nations trading with Iran, targeting China's oil purchases. No direct impact on Romania's Black Sea security or energy costs.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,29 +41,10 @@
       "detected_at": "2026-08-25T07:07:52.322269Z"
     },
     {
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada retaliates with 50% tariffs on US goods",
-      "summary": "Canada imposes up to 50% tariffs on US steel, furniture, and other goods. Escalating North American trade war threatens EU economic stability and Romanian export markets.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-25T17:45:26.768586Z"
-    },
-    {
       "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "label": "CIA director makes rare Moscow visit",
-      "summary": "Unannounced US-Russia diplomatic contact confirmed by flight tracking. Potential shift in Ukraine war dynamics affecting Black Sea regional security.",
-      "score": 2.5,
+      "label": "CIA chief makes rare Moscow visit for talks",
+      "summary": "US intelligence director travels to Russia for unannounced talks. Potential shift in US-Russia relations but no immediate impact on Romania's regional security.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-08-26T09:57:02.115228Z",
+  "updated_at": "2026-08-26T10:01:23.445343Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump adds 50% tariff on Canadian goods",
     "summary": "US imposes new 50% tariff on Canadian automobiles and steel. Trade war escalation threatens global supply chains and EU economic stability.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.643254Z",
   "score_history": [
-    {
-      "t": "2026-08-24T10:01:10.211862Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T10:02:53.449600Z",
       "s": 2.0
@@ -303,6 +299,10 @@
     },
     {
       "t": "2026-08-26T09:57:02.115228Z",
+      "s": 2.7
+    },
+    {
+      "t": "2026-08-26T10:01:23.445343Z",
       "s": 2.7
     }
   ]

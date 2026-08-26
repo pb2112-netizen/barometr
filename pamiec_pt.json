@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-08-26T09:57:02.123583Z",
+  "updated_at": "2026-08-26T10:01:23.453571Z",
   "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump announces new 50% tariff on Canadian autos and steel",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
       "opis": "New tariff escalation in North America; potential EU export."
     },
     {
       "temat": "Canada retaliates with US counter-tariffs",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "Canada imposes $19.9bn tariffs on US goods; distant from."
     },
     {
       "temat": "US-Canada tariff war escalates to 50%",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Major North American trade conflict; distant but global."
     },
     {
       "temat": "Tornado hits French village injuring dozens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Tornado damages hundreds of homes in southwestern France."
     },
     {
       "temat": "Syrian Democratic Forces dissolve under Damascus agreement",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Kurdish-led SDF to dissolve; Middle East power shift."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "Tornado damages hundreds of homes in southwestern France",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "Tornado hits French village near Iberia; dozens injured."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T10:01:10.212775Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-24T10:02:53.451292Z",
       "s": 2.0
@@ -266,10 +262,30 @@
     {
       "t": "2026-08-26T09:57:02.116689Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-08-26T10:01:23.446899Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-08-24T19:44:16.875497Z",
   "event_detected_at": {
+    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
+      "detected_at": "2026-08-25T17:45:26.769774Z",
+      "peak_at": "2026-08-25T20:45:17.153004Z",
+      "peak_score_at": "2026-08-25T20:45:17.153004Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "peak_label": "Canada retaliates with 50% tariffs on US goods",
+      "peak_summary": "Canada matches US tariffs up to 50% on wide range of goods, deepening trade conflict that may indirectly affect EU economy and Portuguese commerce.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "tornado tears through french village, leaving dozens hurt and homes ravaged": {
       "detected_at": "2026-08-25T01:51:37.465892Z",
       "peak_at": "2026-08-26T03:17:40.188335Z",
@@ -286,27 +302,11 @@
         }
       ]
     },
-    "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
-      "detected_at": "2026-08-25T17:45:26.769774Z",
-      "peak_at": "2026-08-25T20:45:17.153004Z",
-      "peak_score_at": "2026-08-25T20:45:17.153004Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "peak_label": "Canada retaliates with 50% tariffs on US goods",
-      "peak_summary": "Canada matches US tariffs up to 50% on wide range of goods, deepening trade conflict that may indirectly affect EU economy and Portuguese commerce.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "china hits out at 'illegal' new us sanctions on iran and trading partners": {
       "detected_at": "2026-08-25T07:07:52.323741Z",
       "peak_at": "2026-08-26T04:01:17.786353Z",
       "peak_score_at": "2026-08-26T04:01:17.786353Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
       "peak_label": "US widens Iran sanctions threatening China trade",
@@ -368,8 +368,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Tornado tears through French village, leaving dozens hurt and homes ravaged",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+    "Tornado tears through French village, leaving dozens hurt and homes ravaged",
     "China hits out at 'illegal' new US sanctions on Iran and trading partners"
   ]
 }
