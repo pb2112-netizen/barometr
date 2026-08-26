@@ -1,13 +1,13 @@
 {
-  "global_score": 2.3,
-  "rationale": "Canada's 50% retaliatory tariffs escalate US-Canada trade war, indirectly threatening EU supply chains and global economic stability. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "rationale": "Canada-US tariff war continues at 50% level (known background); no new qualitative change affecting Poland's economy or security this cycle.",
   "top_events": [
     {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating North American trade war that may disrupt global supply chains and EU economic ties.",
+      "label": "Canada retaliates with 50% tariffs on US goods",
+      "summary": "Canada escalates trade war with tariffs up to 50% on US steel, furniture, and other goods. Indirect risk to global supply chains and EU trade stability.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,28 +22,9 @@
       "detected_at": "2026-08-25T17:45:26.767499Z"
     },
     {
-      "title": "Meta agrees to settlement, platform changes in youth addiction case",
-      "label": "Meta settles youth addiction lawsuit for $16.68bn",
-      "summary": "Meta agrees to major changes in Facebook and Instagram features after settling massive lawsuit over child addiction claims, affecting platform use in Poland.",
-      "score": 2.3,
-      "sentiment": "positive",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja",
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/26/meta-agrees-to-settlement-platform-changes-in-youth-addiction-case?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T16:58:59.721508Z"
-    },
-    {
       "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
       "label": "Pakistan hospital fire kills 14 newborns",
-      "summary": "Locked nursery ward fire in Islamabad kills 14 babies; distant tragedy with no direct impact on Polish residents.",
+      "summary": "Locked nursery ward fire in Islamabad kills 14 babies. Distant tragedy with no link to Polish daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-08-26T15:52:18.010643Z"
+    },
+    {
+      "title": "US inflation holds at 3.7 percent in July, above Fed target",
+      "label": "US inflation remains elevated at 3.7 percent",
+      "summary": "US inflation stays above target, worsened by energy price spikes from Middle East conflict. Indirect pressure on global markets and EU inflation outlook.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/26/us-inflation-remains-sticky-in-july?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T19:19:16.679683Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-26T16:58:59.721508Z",
+  "updated_at": "2026-08-26T19:19:16.679683Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos",
     "summary": "US announces new 50% tariff on Canadian automobiles and steel, further deteriorating trade relations. Part of broader trade war that threatens global supply chains and EU economic stability.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T04:53:20.641639Z",
   "score_history": [
-    {
-      "t": "2026-08-24T17:46:47.305071Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-08-24T18:58:38.787386Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-24T19:44:16.872311Z",
       "s": 2.9
@@ -296,6 +288,10 @@
     {
       "t": "2026-08-26T16:58:59.721508Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-26T19:19:16.679683Z",
+      "s": 2.2
     }
   ]
 }

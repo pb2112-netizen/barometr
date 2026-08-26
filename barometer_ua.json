@@ -1,13 +1,32 @@
 {
-  "global_score": 2.3,
-  "rationale": "Canada's 50% retaliatory tariffs escalate US-Canada trade war, potentially straining Western economic capacity to support Ukraine aid. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Putin-Syria base negotiations continue (known background); no new strikes or aid changes affecting Ukraine's war situation this cycle.",
   "top_events": [
     {
+      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
+      "label": "Putin negotiates Syria military base retention",
+      "summary": "Russia negotiates to maintain Khmeimim and Tartous bases in Syria. Continuation of known Russian military posture with no immediate Ukraine impact.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-26T16:58:59.728605Z"
+    },
+    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, and other goods, escalating North American trade war that may strain Western economic capacity to support Ukraine.",
+      "label": "Canada retaliates with 50% US tariffs",
+      "summary": "Canada escalates trade war with up to 50% tariffs on US goods. Distant from Ukraine's war situation with no direct impact on aid or security.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,28 +41,9 @@
       "detected_at": "2026-08-25T19:45:31.337228Z"
     },
     {
-      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
-      "label": "Putin discusses Syria bases with new leadership",
-      "summary": "Russia negotiates to maintain Khmeimim and Tartous military bases in Syria with new leadership, preserving Russian military projection capacity in the region.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "nowosc": "kontynuacja",
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-26T16:58:59.728605Z"
-    },
-    {
       "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
       "label": "Pakistan hospital fire kills 14 newborns",
-      "summary": "Locked nursery ward fire in Islamabad kills 14 babies; distant tragedy with no direct impact on Ukrainian residents.",
+      "summary": "Locked nursery ward fire in Islamabad kills 14 babies. Distant tragedy with no relevance to Ukraine's ongoing war.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-26T16:58:59.728605Z",
+  "updated_at": "2026-08-26T19:19:16.684856Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos steel",
     "summary": "New 50% tariff on Canadian vehicles and steel escalates North American trade war, may strain Western economies and capacity to sustain Ukraine aid.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-25T11:42:41.732287Z",
   "score_history": [
-    {
-      "t": "2026-08-24T17:46:47.309000Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-24T18:58:38.792645Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-24T19:44:16.877366Z",
       "s": 3.4
@@ -296,6 +288,10 @@
     {
       "t": "2026-08-26T16:58:59.728605Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-26T19:19:16.684856Z",
+      "s": 2.6
     }
   ]
 }

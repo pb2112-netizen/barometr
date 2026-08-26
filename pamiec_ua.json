@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-08-26T16:58:59.736437Z",
-  "ostatnia_ocena": 2.3,
+  "updated_at": "2026-08-26T19:19:16.691855Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canada retaliates with 50% tariffs on US goods",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
     },
     {
       "temat": "Pakistan hospital fire kills 14 newborns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Locked nursery ward fire in Islamabad; distant tragedy."
     },
     {
       "temat": "Putin discusses Syria bases with new leadership",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "Russia negotiates to maintain military bases in Syria."
     },
     {
       "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 9,
       "opis": "Drone strike destroys Wildberries center in Tambov."
     },
     {
       "temat": "Hormuz Strait reopened to shipping",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 6,
       "opis": "US claims vital oil waterway cleared; potential energy."
     },
     {
       "temat": "Drone attack on Leipzig Airport in Germany",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Drone incident at German airport raises security concerns."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "US threatens isolation of nations trading with Tehran."
     },
     {
       "temat": "Syrian Democratic Forces announce dissolution",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Kurdish-led SDF to dissolve under agreement with Damascus."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T17:46:47.309000Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-08-24T18:58:38.792645Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-24T19:44:16.877366Z",
       "s": 3.4
@@ -264,10 +256,30 @@
     {
       "t": "2026-08-26T16:58:59.728605Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-08-26T19:19:16.684856Z",
+      "s": 2.6
     }
   ],
   "events_anchor_at": "2026-08-25T11:42:41.732287Z",
   "event_detected_at": {
+    "putin and al-sharaa discuss russia-syria relations, deal on military bases": {
+      "detected_at": "2026-08-26T16:58:59.728605Z",
+      "peak_at": "2026-08-26T19:19:16.684856Z",
+      "peak_score_at": "2026-08-26T19:19:16.684856Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
+      "peak_label": "Putin negotiates Syria military base retention",
+      "peak_summary": "Russia negotiates to maintain Khmeimim and Tartous bases in Syria. Continuation of known Russian military posture with no immediate Ukraine impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
+        }
+      ]
+    },
     "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
       "detected_at": "2026-08-25T19:45:31.337228Z",
       "peak_at": "2026-08-25T21:43:23.633425Z",
@@ -284,22 +296,6 @@
         }
       ]
     },
-    "putin and al-sharaa discuss russia-syria relations, deal on military bases": {
-      "detected_at": "2026-08-26T16:58:59.728605Z",
-      "peak_at": "2026-08-26T16:58:59.728605Z",
-      "peak_score_at": "2026-08-26T16:58:59.728605Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
-      "peak_label": "Putin discusses Syria bases with new leadership",
-      "peak_summary": "Russia negotiates to maintain Khmeimim and Tartous military bases in Syria with new leadership, preserving Russian military projection capacity in the region.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
-        }
-      ]
-    },
     "door was locked at pakistan hospital where fire killed 14 babies, witnesses say": {
       "detected_at": "2026-08-26T15:52:18.017300Z",
       "peak_at": "2026-08-26T16:58:59.728605Z",
@@ -313,22 +309,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "kremlin says cia head met russian intelligence officials, but not putin": {
-      "detected_at": "2026-08-25T18:56:22.821448Z",
-      "peak_at": "2026-08-25T18:56:22.821448Z",
-      "peak_score_at": "2026-08-25T18:56:22.821448Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Kremlin denies planned talks with US envoys amid reports CIA head in Russia",
-      "peak_label": "Kremlin denies US talks despite CIA visit",
-      "peak_summary": "Moscow denies planned negotiations despite confirmed CIA presence. US reportedly asked Ukraine to pause strikes during visit; no confirmed policy change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia?traffic_source=rss"
         }
       ]
     },
@@ -446,8 +426,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
     "Putin and al-Sharaa discuss Russia-Syria relations, deal on military bases",
+    "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
     "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say"
   ]
 }

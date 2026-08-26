@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Canada imposes up to 50% retaliatory tariffs on US goods, directly escalating trade war and affecting American consumers and businesses. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "Toilet paper prices surge due to Canadian tariffs (new household cost impact); Canada retaliates with 50% tariffs (known escalation continues).",
   "top_events": [
     {
+      "title": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
+      "label": "US toilet paper prices surge in trade war",
+      "summary": "Paper products face 25-50% tariffs after US-Canada trade breakdown. Direct household cost increase for Americans buying everyday essentials.",
+      "score": 3.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada"
+        }
+      ],
+      "detected_at": "2026-08-26T14:05:30.286103Z"
+    },
+    {
       "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "label": "Canada imposes 50% tariffs on US goods",
-      "summary": "Canada retaliates with up to 50% tariffs on US steel, furniture, fresh tuna, and makeup, directly escalating trade war and raising costs for American consumers and businesses.",
-      "score": 2.5,
+      "label": "Canada retaliates with 50% tariffs on US",
+      "summary": "Canada imposes tariffs up to 50% on US steel, furniture, and other goods. Escalation of known trade war with direct impact on US exporters and prices.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,52 +41,33 @@
       "detected_at": "2026-08-25T17:45:26.772832Z"
     },
     {
-      "title": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
-      "label": "US toilet paper prices surge in trade war",
-      "summary": "Paper products face 25-50% tariffs after US-Canada trade negotiations broke down, directly raising costs for American households on essential goods.",
-      "score": 2.5,
+      "title": "US inflation holds at 3.7 percent in July, above Fed target",
+      "label": "US inflation stays at 3.7% above target",
+      "summary": "Inflation remains elevated at 3.7%, worsened by energy price spikes from Middle East conflict. Continued pressure on household budgets and Fed policy.",
+      "score": 2.4,
       "sentiment": "negative",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
       "nowosc": "kontynuacja",
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada"
-        }
-      ],
-      "detected_at": "2026-08-26T14:05:30.286103Z"
-    },
-    {
-      "title": "Meta agrees to settlement, platform changes in youth addiction case",
-      "label": "Meta settles youth addiction lawsuit for $16.68bn",
-      "summary": "Meta agrees to major changes in Facebook and Instagram features after settling massive lawsuit over child addiction claims, affecting platform use for American families.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
         "Al Jazeera"
       ],
-      "nowosc": "kontynuacja",
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/26/meta-agrees-to-settlement-platform-changes-in-youth-addiction-case?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/8/26/us-inflation-remains-sticky-in-july?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-26T16:58:59.731088Z"
+      "detected_at": "2026-08-26T19:19:16.686500Z"
     }
   ],
   "short_summary": "Trump imposes 50% tariff on Canadian autos, steel",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-26T16:58:59.731088Z",
+  "updated_at": "2026-08-26T19:19:16.686500Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump imposes 50% tariff on Canadian autos, steel",
     "summary": "President announces new 50% tariff on Canadian vehicles and steel, further escalating trade conflict. Threatens US auto industry supply chains and consumer prices.",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-08-24T19:44:16.879193Z",
   "score_history": [
-    {
-      "t": "2026-08-24T17:46:47.310366Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-08-24T18:58:38.794535Z",
-      "s": 2.8
-    },
     {
       "t": "2026-08-24T19:44:16.879193Z",
       "s": 2.7
@@ -296,6 +288,10 @@
     {
       "t": "2026-08-26T16:58:59.731088Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-26T19:19:16.686500Z",
+      "s": 3.5
     }
   ]
 }
