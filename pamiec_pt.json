@@ -1,78 +1,58 @@
 {
-  "updated_at": "2026-08-26T23:31:06.011144Z",
+  "updated_at": "2026-08-27T04:01:16.279029Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canada retaliates with US counter-tariffs",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Canada imposes $19.9bn tariffs on US goods; distant from."
     },
     {
       "temat": "FDA approves breakthrough pancreatic cancer treatment",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "US approves daraxonrasib; distant medical advance."
+    },
+    {
+      "temat": "Algeria wildfires kill 12 amid severe heatwave",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "154 fires across Algeria; distant North African disaster."
     },
     {
       "temat": "Meta settles $16.68bn youth addiction lawsuit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Major platform changes to Facebook/Instagram after settle."
     },
     {
       "temat": "Pakistan hospital fire kills 14 newborns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Locked nursery ward fire in Islamabad; distant tragedy."
     },
     {
       "temat": "Nepal flash flood kills eight, hundreds missing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Major flooding in Nepal; distant humanitarian crisis."
     },
     {
       "temat": "Trump claims Hormuz Strait mines cleared",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "US announces vital waterway reopened; potential energy."
     },
     {
       "temat": "US imposes new sanctions on Iran and trading partners",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "US threatens isolation of nations trading with Tehran."
-    },
-    {
-      "temat": "Tornado damages hundreds of homes in southwestern France",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
-      "opis": "Tornado hits French village near Iberia; dozens injured."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T23:34:14.887831Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-25T01:51:37.465892Z",
-      "s": 4.0
-    },
-    {
-      "t": "2026-08-25T03:12:31.825161Z",
-      "s": 4.7
-    },
-    {
-      "t": "2026-08-25T03:58:48.451673Z",
-      "s": 4.5
-    },
-    {
-      "t": "2026-08-25T04:00:44.730760Z",
-      "s": 4.3
-    },
     {
       "t": "2026-08-25T04:53:20.645560Z",
       "s": 4.1
@@ -248,10 +228,30 @@
     {
       "t": "2026-08-26T23:31:06.003975Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-27T04:01:16.271419Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-26T10:51:12.594527Z",
   "event_detected_at": {
+    "us drug agency approves breakthrough treatment for pancreatic cancer": {
+      "detected_at": "2026-08-26T23:31:06.003975Z",
+      "peak_at": "2026-08-26T23:31:06.003975Z",
+      "peak_score_at": "2026-08-26T23:31:06.003975Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
+      "peak_label": "FDA approves breakthrough pancreatic cancer drug",
+      "peak_summary": "US approves daraxonrasib for pancreatic cancer, hailed as a game changer. Distant medical advance with no immediate impact on Portuguese healthcare.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
       "detected_at": "2026-08-25T17:45:26.769774Z",
       "peak_at": "2026-08-26T22:01:19.025155Z",
@@ -268,19 +268,19 @@
         }
       ]
     },
-    "us drug agency approves breakthrough treatment for pancreatic cancer": {
-      "detected_at": "2026-08-26T23:31:06.003975Z",
-      "peak_at": "2026-08-26T23:31:06.003975Z",
-      "peak_score_at": "2026-08-26T23:31:06.003975Z",
+    "at least 12 dead as wildfires sweep through northern algeria": {
+      "detected_at": "2026-08-26T10:51:12.594527Z",
+      "peak_at": "2026-08-26T11:43:53.848276Z",
+      "peak_score_at": "2026-08-26T11:43:53.848276Z",
       "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
-      "peak_label": "FDA approves breakthrough pancreatic cancer drug",
-      "peak_summary": "US approves daraxonrasib for pancreatic cancer, hailed as a game changer. Distant medical advance with no immediate impact on Portuguese healthcare.",
+      "peak_sentiment": "negative",
+      "title": "At least eight killed, hundreds missing after Nepal flash flood",
+      "peak_label": "Nepal flash flood kills eight, hundreds missing",
+      "peak_summary": "Major flooding in Nepal with casualties reported; distant humanitarian crisis with no direct Portuguese impact.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss"
         }
       ]
     },
@@ -364,22 +364,6 @@
         }
       ]
     },
-    "deadly flash floods sweep through northern nepal": {
-      "detected_at": "2026-08-26T10:51:12.594527Z",
-      "peak_at": "2026-08-26T11:43:53.848276Z",
-      "peak_score_at": "2026-08-26T11:43:53.848276Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "At least eight killed, hundreds missing after Nepal flash flood",
-      "peak_label": "Nepal flash flood kills eight, hundreds missing",
-      "peak_summary": "Major flooding in Nepal with casualties reported; distant humanitarian crisis with no direct Portuguese impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss"
-        }
-      ]
-    },
     "trump says all mines cleared from strait of hormuz": {
       "detected_at": "2026-08-26T10:51:12.594527Z",
       "peak_at": "2026-08-26T10:51:12.594527Z",
@@ -393,22 +377,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "tornado tears through french village, leaving dozens hurt and homes ravaged": {
-      "detected_at": "2026-08-25T01:51:37.465892Z",
-      "peak_at": "2026-08-26T03:17:40.188335Z",
-      "peak_score_at": "2026-08-25T03:12:31.825161Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Moment tornado tears through southern France",
-      "peak_label": "Tornado injures 40+ in southern France villages",
-      "peak_summary": "Severe tornado destroys homes and injures over 40 people in southern France. Direct impact on neighboring EU country.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -427,26 +395,11 @@
           "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "syrian democratic forces announce their dissolution": {
-      "detected_at": "2026-08-25T23:36:49.690107Z",
-      "peak_at": "2026-08-25T23:36:49.690107Z",
-      "peak_score_at": "2026-08-25T23:36:49.690107Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Syrian Democratic Forces announce their dissolution",
-      "peak_label": "Kurdish-led Syrian forces to dissolve under Damascus deal",
-      "peak_summary": "Syrian Democratic Forces agree to dissolve under Damascus agreement, reshaping Middle East power balance with potential long-term implications for EU migration flows.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-democratic-forces-announce-their-dissolution?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US drug agency approves breakthrough treatment for pancreatic cancer",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "US drug agency approves breakthrough treatment for pancreatic cancer"
+    "At least 12 dead as wildfires sweep through northern Algeria"
   ]
 }

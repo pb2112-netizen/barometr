@@ -1,78 +1,58 @@
 {
-  "updated_at": "2026-08-26T23:31:06.012321Z",
+  "updated_at": "2026-08-27T04:01:16.280296Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Canada retaliates with 50% tariffs on US goods",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Canada imposes up to 50% tariffs on US steel, furniture."
     },
     {
       "temat": "FDA approves breakthrough pancreatic cancer treatment",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "US approves daraxonrasib; distant medical advance."
     },
     {
+      "temat": "Algeria wildfires kill 12 amid severe heatwave",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "154 fires across Algeria; distant North African disaster."
+    },
+    {
       "temat": "Ukrainian drones destroy Russian logistics warehouse",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "Drone strike destroys Wildberries center in Tambov."
     },
     {
       "temat": "Hormuz Strait reopened to shipping",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 9,
       "opis": "US claims vital oil waterway cleared; potential energy."
     },
     {
       "temat": "Putin discusses Syria bases with new leadership",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "Russia negotiates to maintain military bases in Syria."
     },
     {
       "temat": "Pakistan hospital fire kills 14 newborns",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Locked nursery ward fire in Islamabad; distant tragedy."
     },
     {
       "temat": "Drone attack on Leipzig Airport in Germany",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Drone incident at German airport raises security concerns."
-    },
-    {
-      "temat": "US imposes new sanctions on Iran and trading partners",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "US threatens isolation of nations trading with Tehran."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-24T23:34:14.889851Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-25T01:51:37.467284Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-25T03:12:31.827020Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-25T03:58:48.453149Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-08-25T04:00:44.732699Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-25T04:53:20.648208Z",
       "s": 2.3
@@ -248,10 +228,30 @@
     {
       "t": "2026-08-26T23:31:06.005564Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-27T04:01:16.273561Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-08-26T22:01:19.026906Z",
   "event_detected_at": {
+    "us drug agency approves breakthrough treatment for pancreatic cancer": {
+      "detected_at": "2026-08-26T23:31:06.005564Z",
+      "peak_at": "2026-08-26T23:31:06.005564Z",
+      "peak_score_at": "2026-08-26T23:31:06.005564Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
+      "peak_label": "FDA approves breakthrough pancreatic cancer drug",
+      "peak_summary": "US approves daraxonrasib for pancreatic cancer, hailed as a game changer. Distant medical advance with no immediate impact on Ukrainian healthcare.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada announces 'dollar-for-dollar' retaliatory tariffs on us as high as 50%": {
       "detected_at": "2026-08-26T23:31:06.005564Z",
       "peak_at": "2026-08-26T23:31:06.005564Z",
@@ -268,19 +268,23 @@
         }
       ]
     },
-    "us drug agency approves breakthrough treatment for pancreatic cancer": {
-      "detected_at": "2026-08-26T23:31:06.005564Z",
-      "peak_at": "2026-08-26T23:31:06.005564Z",
-      "peak_score_at": "2026-08-26T23:31:06.005564Z",
+    "at least 12 dead as wildfires sweep through northern algeria": {
+      "detected_at": "2026-08-26T13:16:16.354174Z",
+      "peak_at": "2026-08-27T04:01:16.273561Z",
+      "peak_score_at": "2026-08-27T04:01:16.273561Z",
       "peak_score": 2.0,
-      "peak_sentiment": "positive",
-      "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
-      "peak_label": "FDA approves breakthrough pancreatic cancer drug",
-      "peak_summary": "US approves daraxonrasib for pancreatic cancer, hailed as a game changer. Distant medical advance with no immediate impact on Ukrainian healthcare.",
+      "peak_sentiment": "negative",
+      "title": "At least 12 dead as wildfires sweep through northern Algeria",
+      "peak_label": "Wildfires kill 12 in northern Algeria",
+      "peak_summary": "Severe heatwave fuels 154 fires across Algeria, killing 12 and injuring 54. Distant North African tragedy with no Ukrainian connection.",
       "peak_source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvgyd4x6nj4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/27/at-least-12-dead-54-injured-as-wildfires-ravage-northeastern-algeria?traffic_source=rss"
         }
       ]
     },
@@ -395,42 +399,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "deadly flash floods sweep through northern nepal": {
-      "detected_at": "2026-08-26T13:16:16.354174Z",
-      "peak_at": "2026-08-26T13:16:16.354174Z",
-      "peak_score_at": "2026-08-26T13:16:16.354174Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "negative",
-      "title": "Deadly flash floods sweep through northern Nepal",
-      "peak_label": "Flash floods kill eight in Nepal",
-      "peak_summary": "At least eight dead, hundreds missing in Himalayan floods. Distant humanitarian crisis with no connection to Ukrainian war situation.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/deadly-flash-floods-sweep-through-northern-nepal?traffic_source=rss"
-        }
-      ]
-    },
-    "china hits out at 'illegal' new us sanctions on iran and trading partners": {
-      "detected_at": "2026-08-25T07:07:52.325521Z",
-      "peak_at": "2026-08-26T01:57:54.895767Z",
-      "peak_score_at": "2026-08-26T01:57:54.895767Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "peak_label": "US imposes new sanctions on Iran and partners",
-      "peak_summary": "US threatens to isolate nations trading with Iran. Potential for energy market disruption affecting global aid capacity.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US drug agency approves breakthrough treatment for pancreatic cancer",
     "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-    "US drug agency approves breakthrough treatment for pancreatic cancer"
+    "At least 12 dead as wildfires sweep through northern Algeria"
   ]
 }
