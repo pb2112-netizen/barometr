@@ -1,14 +1,33 @@
 {
-  "global_score": 2.0,
-  "rationale": "No events with meaningful impact on Portuguese daily life; distant or symbolic news only.",
+  "global_score": 2.5,
+  "rationale": "Berlin cyber-attack and Ceuta migrant violence are distant EU concerns with no direct impact on Portuguese daily life.",
   "top_events": [
     {
-      "title": "Violence breaks out in Ceuta as migrant crisis continues",
-      "label": "Migrants clash with military in Spanish Ceuta",
-      "summary": "Violence in Ceuta between migrants and military continues, reflecting Iberian migration pressures but no direct change to Portuguese life.",
-      "score": 2.0,
+      "title": "Berlin is being blackmailed by hackers, mayor says",
+      "label": "Berlin mayor reports city blackmailed by hackers",
+      "summary": "German capital faces ransom demand after cyber-attack on city systems, raising EU concerns about infrastructure vulnerability but no direct impact on Portugal.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-28T22:01:31.310353Z"
+    },
+    {
+      "title": "Violence breaks out in Ceuta as migrant crisis continues",
+      "label": "Violence erupts in Ceuta over migrant crisis",
+      "summary": "Migrants clash with military and locals set fire to camps in Spanish enclave, reflecting ongoing Mediterranean migration pressure but geographically distant from Portugal.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,58 +41,50 @@
       "detected_at": "2026-08-28T18:40:14.814465Z"
     },
     {
-      "title": "Tropical Storm Dolly downgraded to 'open tropical wave' as it heads to Caribbean",
-      "label": "Tropical Storm Dolly downgraded to wave",
-      "summary": "Storm Dolly downgraded as it moves toward Caribbean; no impact on Atlantic shipping or Portuguese interests at this stage.",
-      "score": 1.0,
+      "title": "Norway mourns King Harald as Haakon VIII ascends throne",
+      "label": "Norway's King Harald mourned as son ascends",
+      "summary": "Norwegians gather to remember beloved monarch as succession proceeds smoothly; symbolic European event with no policy impact on Portugal.",
+      "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/weather/2026/aug/28/tropical-storm-dolly-caribbean"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-28T18:40:14.814465Z"
+      "detected_at": "2026-08-28T10:01:21.525183Z"
     }
   ],
-  "short_summary": "DRC begins Ebola vaccination campaign",
+  "short_summary": "Violence erupts in Ceuta over migrant crisis",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-28T18:40:14.814465Z",
+  "updated_at": "2026-08-28T22:01:31.310353Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "DRC begins Ebola vaccination campaign",
-    "summary": "Vaccination drive starts in Congo; distant health crisis with no direct link to Portugal.",
-    "title": "Congo launches Ebola vaccination drive to tackle deadly outbreak",
-    "score": 2.0,
-    "sentiment": "neutral",
-    "detected_at": "2026-08-28T05:22:50.727775Z",
-    "peak_at": "2026-08-28T05:22:50.727775Z",
+    "label": "Violence erupts in Ceuta over migrant crisis",
+    "summary": "Migrants clash with military and locals set fire to camps in Spanish enclave, reflecting ongoing Mediterranean migration pressure but geographically distant from Portugal.",
+    "title": "Violence breaks out in Ceuta as migrant crisis continues",
+    "score": 2.5,
+    "sentiment": "negative",
+    "detected_at": "2026-08-28T18:40:14.814465Z",
+    "peak_at": "2026-08-28T22:01:31.310353Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/congo-launches-ebola-vaccination-drive-to-tackle-deadly-outbreak?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cy9zj11gwzxo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-28T05:22:50.727775Z",
+  "events_anchor_at": "2026-08-28T18:40:14.814465Z",
   "score_history": [
-    {
-      "t": "2026-08-26T19:19:16.683189Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-08-26T22:01:19.025155Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-26T23:31:06.003975Z",
       "s": 2.0
@@ -121,6 +132,10 @@
     {
       "t": "2026-08-28T18:40:14.814465Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-08-28T22:01:31.310353Z",
+      "s": 2.5
     }
   ]
 }
