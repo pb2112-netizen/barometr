@@ -1,63 +1,68 @@
 {
-  "global_score": 3.2,
-  "rationale": "Judge ruling on Trump Pentagon retaliation against Anthropic continues; US-Canada trade war rhetoric (Lake Ontario renaming) is symbolic only, no policy impact.",
+  "global_score": 3.0,
+  "rationale": "Fed chair signals possible rate hikes and judge denies injunction against birthright citizenship order; modest policy developments affecting economy and immigration.",
   "top_events": [
     {
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "label": "Judge rules Trump retaliated against Anthropic",
-      "summary": "Federal court finds Pentagon illegally retaliated against AI startup over military AI use dispute. Continuation of existing legal matter.",
-      "score": 3.2,
+      "title": "US Fed chair warns inflation progress insufficient, hints at rate hikes",
+      "label": "Fed chair Warsh hints at rate hikes",
+      "summary": "Fed chair Kevin Warsh warns inflation progress is insufficient and hints rate hikes may be necessary, signaling potential tightening ahead for US economy.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/28/us-fed-chair-warns-inflation-progress-insufficient-hints-at-rate-hikes?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-28T18:40:14.817965Z"
+    },
+    {
+      "title": "US judge denies injunction against Trump's new birthright citizenship order",
+      "label": "Judge denies birthright citizenship injunction",
+      "summary": "Federal judge rejects temporary injunction against Trump's birthright citizenship order, a setback for immigrant rights advocates who must revise their petition.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-denies-injunction-against-trumps-new-birthright-citizenship-order?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-28T05:22:50.731726Z"
     },
     {
-      "title": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
-      "label": "US toilet paper prices surge in trade war",
-      "summary": "Paper products face 25-50% tariffs after trade negotiations broke down with Canada. Continuation of trade war impact on household costs.",
-      "score": 2.2,
-      "sentiment": "negative",
+      "title": "Trump signs executive order to rename Lake Ontario as Lake America",
+      "label": "Trump renames Lake Ontario as Lake America",
+      "summary": "Trump signs symbolic order renaming Lake Ontario; Canada and several US governors reject the move with no actual policy impact on daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada"
-        }
-      ],
-      "detected_at": "2026-08-28T04:01:14.724016Z"
-    },
-    {
-      "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
-      "label": "Fed's Warsh signals possible rate hikes",
-      "summary": "Kevin Warsh suggests interest rates could rise if inflation stays high. Rhetoric only, no policy action yet.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america"
         }
       ],
-      "detected_at": "2026-08-28T16:01:29.690527Z"
+      "detected_at": "2026-08-27T20:29:35.262308Z"
     }
   ],
   "short_summary": "Trump bans foreign equipment in energy grid",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-28T16:01:29.690527Z",
+  "updated_at": "2026-08-28T18:40:14.817965Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-27T20:29:35.262308Z",
   "score_history": [
-    {
-      "t": "2026-08-26T16:58:59.731088Z",
-      "s": 2.5
-    },
     {
       "t": "2026-08-26T19:19:16.686500Z",
       "s": 3.5
@@ -140,6 +141,10 @@
     {
       "t": "2026-08-28T16:01:29.690527Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-28T18:40:14.817965Z",
+      "s": 3.0
     }
   ]
 }
