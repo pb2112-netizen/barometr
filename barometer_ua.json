@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of background events with no new military developments affecting Ukraine directly. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "No new developments in the war; cycle dominated by distant events (Nepal floods, US legal matters, celebrity news) with no relevance to Ukrainian daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Tracing the deadly path of the Nepal-Tibet flash flood",
-      "label": "Nepal-Tibet flood path traced by BBC",
-      "summary": "Verification of flood path continues; distant humanitarian disaster with no impact on Ukrainian daily life.",
+      "title": "'High risk' of lake breaching and causing second flood, warns China",
+      "label": "China warns Nepal-Tibet lake may breach soon",
+      "summary": "Authorities warn landslide-formed lake near Nepal-Tibet border may breach in coming days, threatening second deadly flood. Distant humanitarian crisis with no impact on Ukraine.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -16,56 +16,61 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/cp80m87pez3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckg8l2x8wr8o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-27T09:45:39.336038Z"
+      "detected_at": "2026-08-28T10:01:21.527044Z"
     },
     {
-      "title": "Congo launches Ebola vaccination drive to tackle deadly outbreak",
-      "label": "DRC begins Ebola vaccination campaign",
-      "summary": "Vaccination drive starts in Congo; distant health crisis with no direct link to Ukraine.",
+      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
+      "label": "US judge blocks Pentagon blacklisting AI firm Anthropic",
+      "summary": "Federal court rules Pentagon illegally retaliated against AI startup for criticizing government. Distant US legal matter with no effect on Ukrainian life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "katastrofa",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-28T05:22:50.729644Z"
+    },
+    {
+      "title": "Norway's King Harald V dies, succeeded by son",
+      "label": "Norway's King Harald V dies at 89",
+      "summary": "Europe's oldest reigning monarch dies; son becomes King Haakon VIII. Symbolic European event with no relevance to Ukraine during wartime.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/28/congo-launches-ebola-vaccination-drive-to-tackle-deadly-outbreak?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/28/norways-king-harald-v-dies-succeeded-by-son?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-28T05:22:50.729644Z"
-    },
-    {
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "label": "US judge rules against Pentagon AI retaliation",
-      "summary": "Court ruling on AI startup dispute with Pentagon; distant US legal matter with no impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-28T05:22:50.729644Z"
+      "detected_at": "2026-08-28T10:01:21.527044Z"
     }
   ],
   "short_summary": "Iran to name terms for reopening Hormuz Strait",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-28T05:22:50.729644Z",
+  "updated_at": "2026-08-28T10:01:21.527044Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,26 +90,6 @@
   },
   "events_anchor_at": "2026-08-28T04:01:14.722656Z",
   "score_history": [
-    {
-      "t": "2026-08-26T05:49:55.318911Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-08-26T07:08:08.308321Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-08-26T07:58:31.987540Z",
-      "s": 2.6
-    },
-    {
-      "t": "2026-08-26T09:01:32.689490Z",
-      "s": 2.3
-    },
-    {
-      "t": "2026-08-26T09:57:02.118244Z",
-      "s": 4.3
-    },
     {
       "t": "2026-08-26T10:01:23.448402Z",
       "s": 4.7
@@ -179,6 +164,10 @@
     },
     {
       "t": "2026-08-28T05:22:50.729644Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-28T10:01:21.527044Z",
       "s": 2.0
     }
   ]
