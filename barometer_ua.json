@@ -1,57 +1,76 @@
 {
-  "global_score": 7.0,
-  "rationale": "Major strike on Kyiv weapons depot killing 37+ is a serious escalation in the capital region, directly affecting Ukrainian residents and war dynamics. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.5,
+  "rationale": "Kyiv weapons depot strike kills 37 in capital region; continues serious escalation pattern in ongoing war with no qualitative change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-      "label": "Kyiv weapons depot strike kills 37+",
-      "summary": "Major attack on capital region military storage near residential area kills at least 37, marking serious escalation in ongoing war.",
-      "score": 7.0,
+      "label": "Kyiv weapons depot strike kills 37 people",
+      "summary": "Russian strike on arms storage near residential area in capital region kills at least 37, sparks investigation. Continues pattern of major attacks on Kyiv area infrastructure.",
+      "score": 6.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/29-08-sv-russia-strikes-arms-depot-kyiv-fm?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-29T10:01:23.522385Z"
+    },
+    {
+      "title": "Turkiye summons Ukraine ambassador over Black Sea attacks",
+      "label": "Turkey summons Ukraine envoy over Black Sea strikes",
+      "summary": "Two Turkish-operated vessels struck this week in Black Sea. New diplomatic complication as Turkey raises concerns over Ukrainian operations affecting neutral shipping.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/29/turkiye-summons-ukraine-ambassador-over-black-sea-attacks-2?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-29T18:27:36.246193Z"
+    },
+    {
+      "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+      "label": "Milo Yiannopoulos deported from US to UK",
+      "summary": "British commentator detained by ICE and deported; distant Western enforcement action with no relevance to Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-29T10:01:23.522385Z"
-    },
-    {
-      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-      "label": "US claims control of Venezuela oil reserves",
-      "summary": "Distant Americas energy deal with no direct impact on Ukrainian war effort or Western aid.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
-        }
-      ],
-      "detected_at": "2026-08-29T09:01:25.065150Z"
+      "detected_at": "2026-08-29T18:27:36.246193Z"
     }
   ],
   "short_summary": "Kyiv weapons depot strike kills 37+",
-  "level_label": "High",
-  "trend": "rising",
+  "level_label": "Elevated",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-29T16:01:18.455454Z",
+  "updated_at": "2026-08-29T18:27:36.246193Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -71,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-29T10:01:23.522385Z",
   "score_history": [
-    {
-      "t": "2026-08-27T16:01:25.812619Z",
-      "s": 2.4
-    },
     {
       "t": "2026-08-27T20:29:35.260729Z",
       "s": 2.0
@@ -130,6 +145,10 @@
     {
       "t": "2026-08-29T16:01:18.455454Z",
       "s": 7.0
+    },
+    {
+      "t": "2026-08-29T18:27:36.246193Z",
+      "s": 6.5
     }
   ]
 }
