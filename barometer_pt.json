@@ -1,11 +1,30 @@
 {
-  "global_score": 2.5,
-  "rationale": "No events directly affect Portuguese daily life; distant conflicts and symbolic events remain background noise.",
+  "global_score": 2.4,
+  "rationale": "Distant events with no direct impact on Portuguese daily life; King Harald's death is symbolic EU news but does not change life in Portugal.",
   "top_events": [
     {
+      "title": "Norway mourns King Harald as Haakon VIII ascends throne",
+      "label": "Norway's King Harald dies, Haakon VIII ascends",
+      "summary": "Europe's oldest monarch dies; symbolic EU event with no impact on Portuguese cost of living, tourism, or economy.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-28T10:01:21.525183Z"
+    },
+    {
       "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-      "label": "US claims control of Venezuela's oil reserves",
-      "summary": "Trump announces US will control majority of Venezuela's 65 billion barrels of proven oil reserves, potentially affecting global energy markets indirectly.",
+      "label": "US claims control of Venezuela oil reserves",
+      "summary": "Distant Americas energy deal with no direct impact on Portuguese energy prices or Atlantic economy.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -27,28 +46,9 @@
       "detected_at": "2026-08-29T09:01:25.062655Z"
     },
     {
-      "title": "Norway mourns King Harald as Haakon VIII ascends throne",
-      "label": "Norway's King Haakon VIII ascends throne",
-      "summary": "Following King Harald's death, his son becomes King Haakon VIII as Norway completes royal succession within EU ally.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-28T10:01:21.525183Z"
-    },
-    {
       "title": "Close race as Iceland votes on whether to restart talks on joining EU",
       "label": "Iceland votes on restarting EU membership talks",
-      "summary": "Iceland holds referendum on whether to restart EU accession negotiations, with fishing industry dominating campaign debate.",
+      "summary": "Distant Nordic referendum on EU accession with no immediate impact on Portuguese EU membership or economy.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-29T14:28:08.436338Z",
+  "updated_at": "2026-08-29T16:01:18.453927Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -145,6 +145,10 @@
     {
       "t": "2026-08-29T14:28:08.436338Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-08-29T16:01:18.453927Z",
+      "s": 2.4
     }
   ]
 }
