@@ -1,11 +1,54 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Canada trade war escalates with Detroit economic impact and Trump's Lake Ontario renaming; US aid cut to Iraqi Kurdistan is confirmed policy change. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Trump announces major Venezuela oil deal claiming US control of 65 billion barrels; significant new energy policy action.",
   "top_events": [
     {
+      "title": "Trump announces new US oil agreement with Venezuela",
+      "label": "Trump announces Venezuela oil deal for US",
+      "summary": "US president claims majority control of 65 billion barrels of proven Venezuelan oil reserves; major new energy policy action with potential market impact.",
+      "score": 5.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-29T02:10:35.988486Z"
+    },
+    {
+      "title": "US judge rejects Trump's bid to switch hush-money case to federal court",
+      "label": "Judge rejects Trump hush-money case transfer",
+      "summary": "Court denies president's attempt to overturn criminal conviction; ongoing legal process without new policy impact.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/29/us-judge-rejects-trumps-bid-to-switch-hush-money-case-to-federal-court?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-28T05:22:50.731726Z"
+    },
+    {
       "title": "Detroit despairs as 'insanity' of Trump's Canada trade war punishes city",
-      "label": "Detroit suffers as Trump's Canada trade war escalates",
-      "summary": "Daily $1 billion in cross-border trade disrupted as tariff war hits Detroit economy hard, with midterm elections approaching and Michigan races potentially decisive for Congress control.",
+      "label": "Detroit suffers from Trump Canada trade war",
+      "summary": "One billion dollars in daily cross-border trade affected; ongoing trade policy impact as midterms approach.",
       "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -20,75 +63,37 @@
         }
       ],
       "detected_at": "2026-08-28T04:01:14.724016Z"
-    },
-    {
-      "title": "US plans to cut off military aid to key Middle East ally, BBC told",
-      "label": "US plans to cut military aid to Iraqi Kurdistan",
-      "summary": "Trump administration plans to end support for Iraqi Kurdistan, raising concerns about regional vulnerability to Iranian attacks and marking significant Middle East policy shift.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn74m8e5rleo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-28T22:01:31.314476Z"
-    },
-    {
-      "title": "Trump signs executive order to rename Lake Ontario as Lake America",
-      "label": "Trump renames Lake Ontario as Lake America",
-      "summary": "Symbolic executive order rejected by Canada and several US governors; no policy impact but reflects escalating US-Canada tensions over trade.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america"
-        }
-      ],
-      "detected_at": "2026-08-27T20:29:35.262308Z"
     }
   ],
-  "short_summary": "Judge rules Trump retaliated against AI startup",
-  "level_label": "Low",
-  "trend": "stable",
+  "short_summary": "Trump announces Venezuela oil deal for US",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-28T22:01:31.314476Z",
+  "updated_at": "2026-08-29T02:10:35.988486Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "positive",
   "most_significant_event": {
-    "label": "Judge rules Trump retaliated against AI startup",
-    "summary": "Federal court finds Pentagon illegally retaliated against Anthropic over military AI use; legal check on executive power.",
-    "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-    "score": 3.3,
-    "sentiment": "neutral",
-    "detected_at": "2026-08-28T05:22:50.731726Z",
-    "peak_at": "2026-08-28T05:22:50.731726Z",
+    "label": "Trump announces Venezuela oil deal for US",
+    "summary": "US president claims majority control of 65 billion barrels of proven Venezuelan oil reserves; major new energy policy action with potential market impact.",
+    "title": "Trump announces new US oil agreement with Venezuela",
+    "score": 5.0,
+    "sentiment": "positive",
+    "detected_at": "2026-08-29T02:10:35.988486Z",
+    "peak_at": "2026-08-29T02:10:35.988486Z",
     "source_links": [
       {
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
+      },
+      {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-28T05:22:50.731726Z",
+  "events_anchor_at": "2026-08-29T02:10:35.988486Z",
   "score_history": [
-    {
-      "t": "2026-08-26T23:31:06.007473Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-27T04:01:16.275254Z",
       "s": 3.1
@@ -136,6 +141,10 @@
     {
       "t": "2026-08-28T22:01:31.314476Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-29T02:10:35.988486Z",
+      "s": 5.0
     }
   ]
 }

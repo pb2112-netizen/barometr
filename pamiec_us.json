@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-08-28T22:01:31.319723Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-08-29T02:10:35.992383Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Trump renames Lake Ontario as Lake America",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Symbolic executive order; Canada rejects; no policy impact."
-    },
-    {
-      "temat": "Trump bans foreign equipment in US energy grid",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 7,
-      "opis": "National emergency declared over foreign threats to grid."
-    },
-    {
       "temat": "Judge rules Trump retaliated against AI startup",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Federal court finds Pentagon illegally retaliated against."
     },
     {
+      "temat": "Supreme Court backs Trump mail-in voting restrictions",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 9,
+      "opis": "Court decision threatens midterm mail-in ballot access."
+    },
+    {
+      "temat": "Trump announces Venezuela oil deal",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "US claims majority control of 65bn barrels; major energy."
+    },
+    {
+      "temat": "Trump bans foreign equipment in US energy grid",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 8,
+      "opis": "National emergency declared over foreign threats to grid."
+    },
+    {
       "temat": "Fed's Warsh signals possible rate hikes on inflation",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Warsh suggests rates could rise if inflation persists."
     },
     {
       "temat": "US cuts military aid to Iraqi Kurdistan",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Trump ends support; Middle East policy shift confirmed."
     },
     {
       "temat": "Military journalists sue Trump for censorship",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "Stars and Stripes staff allege First Amendment violations."
-    },
-    {
-      "temat": "Supreme Court backs Trump mail-in voting restrictions",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 8,
-      "opis": "Court decision threatens midterm mail-in ballot access."
     },
     {
       "temat": "Judge denies injunction against birthright order",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Court rejects temporary block on citizenship order."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-26T23:31:06.007473Z",
-      "s": 3.2
-    },
     {
       "t": "2026-08-27T04:01:16.275254Z",
       "s": 3.1
@@ -104,10 +100,50 @@
     {
       "t": "2026-08-28T22:01:31.314476Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-29T02:10:35.988486Z",
+      "s": 5.0
     }
   ],
-  "events_anchor_at": "2026-08-28T05:22:50.731726Z",
+  "events_anchor_at": "2026-08-29T02:10:35.988486Z",
   "event_detected_at": {
+    "trump announces new us oil agreement with venezuela": {
+      "detected_at": "2026-08-29T02:10:35.988486Z",
+      "peak_at": "2026-08-29T02:10:35.988486Z",
+      "peak_score_at": "2026-08-29T02:10:35.988486Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "positive",
+      "title": "Trump announces new US oil agreement with Venezuela",
+      "peak_label": "Trump announces Venezuela oil deal for US",
+      "peak_summary": "US president claims majority control of 65 billion barrels of proven Venezuelan oil reserves; major new energy policy action with potential market impact.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us judge rejects trump's bid to switch hush-money case to federal court": {
+      "detected_at": "2026-08-28T05:22:50.731726Z",
+      "peak_at": "2026-08-28T05:22:50.731726Z",
+      "peak_score_at": "2026-08-28T05:22:50.731726Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
+      "peak_label": "Judge rules Trump retaliated against AI startup",
+      "peak_summary": "Federal court finds Pentagon illegally retaliated against Anthropic over military AI use; legal check on executive power.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "detroit despairs as 'insanity' of trump's canada trade war punishes city": {
       "detected_at": "2026-08-28T04:01:14.724016Z",
       "peak_at": "2026-08-28T22:01:31.314476Z",
@@ -180,22 +216,6 @@
         }
       ]
     },
-    "us judge denies injunction against trump's new birthright citizenship order": {
-      "detected_at": "2026-08-28T05:22:50.731726Z",
-      "peak_at": "2026-08-28T05:22:50.731726Z",
-      "peak_score_at": "2026-08-28T05:22:50.731726Z",
-      "peak_score": 3.3,
-      "peak_sentiment": "neutral",
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "peak_label": "Judge rules Trump retaliated against AI startup",
-      "peak_summary": "Federal court finds Pentagon illegally retaliated against Anthropic over military AI use; legal check on executive power.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "fed has 'work to do' if price rises don't ease for americans, warsh says": {
       "detected_at": "2026-08-28T16:01:29.690527Z",
       "peak_at": "2026-08-28T16:01:29.690527Z",
@@ -246,8 +266,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Detroit despairs as 'insanity' of Trump's Canada trade war punishes city",
-    "US plans to cut off military aid to key Middle East ally, BBC told",
-    "Trump signs executive order to rename Lake Ontario as Lake America"
+    "Trump announces new US oil agreement with Venezuela",
+    "US judge rejects Trump's bid to switch hush-money case to federal court",
+    "Detroit despairs as 'insanity' of Trump's Canada trade war punishes city"
   ]
 }
