@@ -1,57 +1,43 @@
 {
-  "global_score": 5.0,
-  "rationale": "Trump announces major Venezuela oil deal claiming US control of 65 billion barrels; significant new energy policy action.",
+  "global_score": 4.7,
+  "rationale": "Trump announces major Venezuela oil deal claiming US majority control of 65bn barrels; confirmed action with significant energy implications.",
   "top_events": [
     {
-      "title": "Trump announces new US oil agreement with Venezuela",
+      "title": "Trump announces 'biggest oil deal in world history' with Venezuela",
       "label": "Trump announces Venezuela oil deal for US",
-      "summary": "US president claims majority control of 65 billion barrels of proven Venezuelan oil reserves; major new energy policy action with potential market impact.",
-      "score": 5.0,
+      "summary": "Trump announces US will have majority control of 65bn barrels of Venezuelan oil reserves. Major energy agreement with direct impact on US energy policy.",
+      "score": 4.7,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Guardian",
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
-        },
-        {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
         }
       ],
       "detected_at": "2026-08-29T02:10:35.988486Z"
     },
     {
-      "title": "US judge rejects Trump's bid to switch hush-money case to federal court",
-      "label": "Judge rejects Trump hush-money case transfer",
-      "summary": "Court denies president's attempt to overturn criminal conviction; ongoing legal process without new policy impact.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/29/us-judge-rejects-trumps-bid-to-switch-hush-money-case-to-federal-court?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-28T05:22:50.731726Z"
-    },
-    {
       "title": "Detroit despairs as 'insanity' of Trump's Canada trade war punishes city",
       "label": "Detroit suffers from Trump Canada trade war",
-      "summary": "One billion dollars in daily cross-border trade affected; ongoing trade policy impact as midterms approach.",
-      "score": 2.9,
+      "summary": "Detroit faces economic pain from Trump's Canada trade policy as $1bn daily cross-border trade is disrupted. Direct impact on Michigan economy ahead of midterms.",
+      "score": 4.2,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -63,16 +49,35 @@
         }
       ],
       "detected_at": "2026-08-28T04:01:14.724016Z"
+    },
+    {
+      "title": "Right-wing commentator Milo Yiannopoulos detained by ICE",
+      "label": "Milo Yiannopoulos detained by ICE agents",
+      "summary": "British citizen and Trump supporter Milo Yiannopoulos detained by ICE. Domestic enforcement action, limited broader impact.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-29T04:01:16.565573Z"
     }
   ],
   "short_summary": "Trump announces Venezuela oil deal for US",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-29T02:10:35.988486Z",
+  "updated_at": "2026-08-29T04:01:16.565573Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump announces Venezuela oil deal for US",
     "summary": "US president claims majority control of 65 billion barrels of proven Venezuelan oil reserves; major new energy policy action with potential market impact.",
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-08-29T02:10:35.988486Z",
   "score_history": [
-    {
-      "t": "2026-08-27T04:01:16.275254Z",
-      "s": 3.1
-    },
     {
       "t": "2026-08-27T09:45:39.337963Z",
       "s": 3.0
@@ -145,6 +146,10 @@
     {
       "t": "2026-08-29T02:10:35.988486Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-08-29T04:01:16.565573Z",
+      "s": 4.7
     }
   ]
 }
