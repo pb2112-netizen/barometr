@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "US strikes Iran's Larak Island continues as known action; Grand Canyon flash flooding is new domestic disaster with missing hikers.",
+  "global_score": 2.8,
+  "rationale": "Grand Canyon flash flooding is new domestic disaster with search underway; US strikes on Iran continue as background; Venezuela oil deal rhetoric continues without new confirmed action.",
   "top_events": [
     {
+      "title": "Hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
+      "label": "Grand Canyon flash flooding, hikers missing",
+      "summary": "Domestic disaster with search and rescue operation underway for missing hikers; new qualitative event affecting US national park safety.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-30T22:01:24.850502Z"
+    },
+    {
       "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
-      "label": "US strikes Iranian launchers on Larak Island",
-      "summary": "First US military attack on Iran since late July; IRGC reports soldier casualties but no broader escalation or oil market impact yet.",
-      "score": 2.9,
+      "label": "US strikes Iran's Larak Island launchers",
+      "summary": "First US military attack on Iran in weeks kills IRGC soldiers; continues Middle East military engagement pattern without major escalation.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -27,29 +46,10 @@
       "detected_at": "2026-08-30T21:04:14.048553Z"
     },
     {
-      "title": "Hikers feared missing after flash flooding hits Grand Canyon",
-      "label": "Flash flooding hits Grand Canyon, hikers missing",
-      "summary": "More than 20 people unaccounted for after Saturday flash flooding; new domestic disaster requiring search and rescue operations.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-30T22:01:24.850502Z"
-    },
-    {
       "title": "Trump announces new US oil agreement with Venezuela",
-      "label": "Trump announces new Venezuela oil agreement",
-      "summary": "US president claims majority control of 65bn barrels; continuation of known deal with no new policy enacted this cycle.",
-      "score": 2.5,
+      "label": "Trump announces Venezuela oil deal",
+      "summary": "US president claims majority control of 65bn barrels; announcement continues rhetoric without confirmed enacted policy change.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-30T22:01:24.850502Z",
+  "updated_at": "2026-08-30T23:29:12.259761Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-30T17:28:30.839745Z",
   "score_history": [
-    {
-      "t": "2026-08-28T22:01:31.314476Z",
-      "s": 3.0
-    },
     {
       "t": "2026-08-29T02:10:35.988486Z",
       "s": 5.0
@@ -165,6 +161,10 @@
     {
       "t": "2026-08-30T22:01:24.850502Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-08-30T23:29:12.259761Z",
+      "s": 2.8
     }
   ]
 }
