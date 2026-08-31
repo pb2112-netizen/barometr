@@ -1,13 +1,37 @@
 {
-  "global_score": 3.1,
-  "rationale": "Trump announces major Venezuela oil deal claiming US control of 65bn barrels — significant new energy development; Grand Canyon flash flood continues with 15 missing. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "US military strike on Iran (first in weeks) is confirmed action involving US forces; Venezuela oil deal rhetoric continues; other events are distant or symbolic. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US and Iran trade strikes for first time in weeks",
+      "label": "US strikes Iran's Larak Island killing two",
+      "summary": "First confirmed US military attack on Iran since late July hits Strait of Hormuz facility, killing two IRGC personnel. Direct US military action in Middle East escalation.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/israeli-strikes-kill-at-least-five-palestinians-in-gaza-city?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-30T21:04:14.048553Z"
+    },
+    {
       "title": "Trump announces new US oil agreement with Venezuela",
-      "label": "Trump announces Venezuela oil deal",
-      "summary": "US claims majority control of 65bn barrels of Venezuelan oil reserves. Major new energy agreement with potential domestic economic impact.",
-      "score": 3.1,
-      "sentiment": "positive",
+      "label": "Trump announces Venezuela oil deal details",
+      "summary": "Trump claims US will have majority control of 65 billion barrels of Venezuelan oil reserves. Continuation of announced deal with no enacted policy change yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,52 +46,33 @@
       "detected_at": "2026-08-31T10:01:22.332591Z"
     },
     {
-      "title": "One dead and more than a dozen missing after 'terrifying' flash flood hits Grand Canyon",
-      "label": "Grand Canyon flash flood, 15 missing",
-      "summary": "One dead, 15 missing after flash flood hits Grand Canyon on beautiful day. Domestic disaster with ongoing search and rescue operations.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "title": "Trump pushes Apple to change 'Lake Ontario' to 'Lake America' on its maps",
+      "label": "Trump pushes Apple on Lake Ontario name",
+      "summary": "Trump requests Apple change Lake Ontario name after Google made switch for US users. Symbolic naming dispute with no policy impact on daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-30T22:01:24.850502Z"
-    },
-    {
-      "title": "US and Iran trade strikes for first time in weeks",
-      "label": "US strikes Iran's Larak Island",
-      "summary": "First US military attack on Iran since late July kills two on Larak Island. Resumption of direct US-Iran strikes after weeks of calm.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-30T21:04:14.048553Z"
+      "detected_at": "2026-08-31T16:01:39.451972Z"
     }
   ],
   "short_summary": "Libya factions sign deal for national elections",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-31T13:46:01.381347Z",
+  "updated_at": "2026-08-31T16:01:39.451972Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Libya factions sign deal for national elections",
     "summary": "Rival Libyan factions signed agreement in Tripoli to hold elections within two years after UN-backed committee draft. Confirmed action affecting regional stability and potential migration flows.",
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-08-30T17:28:30.839745Z",
   "score_history": [
-    {
-      "t": "2026-08-29T14:28:08.440124Z",
-      "s": 4.1
-    },
-    {
-      "t": "2026-08-29T16:01:18.457077Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-29T18:27:36.247622Z",
       "s": 3.8
@@ -160,6 +157,10 @@
     {
       "t": "2026-08-31T13:46:01.381347Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-08-31T16:01:39.451972Z",
+      "s": 2.3
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Distant events with no direct link to Polish daily life; US-Iran strikes and ferry accidents remain far from eastern border concerns.",
+  "rationale": "Distant events (US-Iran strikes, South African airline stunt, Cyprus ferry, sports retirements) with no direct link to Polish daily life; ongoing background noise continues.",
   "top_events": [
     {
       "title": "US and Iran trade strikes for first time in weeks",
-      "label": "US strikes Iran's Larak Island",
-      "summary": "First US attack on Iran since late July kills two on Larak Island in Strait of Hormuz. Distant Middle East escalation with no direct impact on Poland's energy or security.",
+      "label": "US strikes Iran's Larak Island killing two",
+      "summary": "First US attack on Iran since late July hits Strait of Hormuz facility, killing two IRGC personnel. Distant Middle East escalation with no direct impact on Poland.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,63 +22,69 @@
       "detected_at": "2026-08-31T10:01:22.325955Z"
     },
     {
-      "title": "Search continues for 18 passengers after ferry capsized in northern Cyprus",
-      "label": "Ferry capsizes off Cyprus, 18 missing",
-      "summary": "Eight dead, 18 missing after ferry took on water en route to Turkey. Distant Mediterranean maritime accident with no Polish connection.",
+      "title": "Man arrested after Swiss rave shooting that killed woman",
+      "label": "Swiss rave shooting kills Italian woman",
+      "summary": "22-year-old Italian woman killed at techno event in Aarau, Switzerland. Isolated incident in neighboring EU country with no broader security implications for Poland.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/31/rescue-teams-continue-search-for-missing-after-north-cyprus-ferry-sinking?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-08-30T22:01:24.845178Z"
+    },
+    {
+      "title": "Greece signs $3.5bn air defence deal with Israel",
+      "label": "Greece buys Israeli air defense system",
+      "summary": "Greece acquires multi-layered air defense network by 2029 amid concerns over regional threats. Distant EU ally's military procurement with no direct Polish impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/31/greece-signs-3-5bn-air-defence-deal-with-israel?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-31T16:01:39.445751Z"
     }
   ],
-  "short_summary": "Strike on Kyiv weapons depot kills 37+",
+  "short_summary": "US strikes Iran's Larak Island in Hormuz",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-08-31T13:46:01.376196Z",
+  "updated_at": "2026-08-31T16:01:39.445751Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Strike on Kyiv weapons depot kills 37+",
-    "summary": "Major attack on Ukrainian military storage near residential area kills at least 37, raising concerns about war spillover and eastern border security for Poland.",
-    "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-    "score": 5.3,
-    "sentiment": "negative",
-    "detected_at": "2026-08-29T10:01:23.517246Z",
-    "peak_at": "2026-08-30T16:01:19.399409Z",
+    "label": "US strikes Iran's Larak Island in Hormuz",
+    "summary": "First US attack on Iran since July kills two on Larak Island. Distant Middle East escalation with no direct link to Polish energy or security.",
+    "title": "US and Iran trade strikes for first time in weeks",
+    "score": 2.7,
+    "sentiment": "neutral",
+    "detected_at": "2026-08-31T10:01:22.325955Z",
+    "peak_at": "2026-08-31T10:01:22.325955Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-29T10:01:23.517246Z",
+  "events_anchor_at": "2026-08-31T10:01:22.325955Z",
   "score_history": [
-    {
-      "t": "2026-08-29T14:28:08.432261Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-08-29T16:01:18.450352Z",
-      "s": 6.5
-    },
     {
       "t": "2026-08-29T18:27:36.241495Z",
       "s": 6.2
@@ -145,6 +151,10 @@
     },
     {
       "t": "2026-08-31T13:46:01.376196Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-08-31T16:01:39.445751Z",
       "s": 2.0
     }
   ]
