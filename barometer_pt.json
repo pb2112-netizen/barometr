@@ -1,52 +1,14 @@
 {
-  "global_score": 2.1,
-  "rationale": "Continuation of distant background events; no qualitative change affecting Portuguese cost of living, tourism, or Iberian climate this cycle.",
+  "global_score": 2.0,
+  "rationale": "Distant events with no connection to Portuguese daily life; Algeria wildfires and ferry accidents remain background noise for western Iberia.",
   "top_events": [
-    {
-      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
-      "label": "Ferry capsizes off Cyprus, eight dead",
-      "summary": "Maritime accident in eastern Mediterranean with 270 aboard. Distant event with no impact on Portuguese Atlantic shipping or economy.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-30T22:01:24.847849Z"
-    },
-    {
-      "title": "Iceland votes against restarting EU membership talks",
-      "label": "Iceland rejects EU membership talks again",
-      "summary": "52.8% vote against resuming accession. Distant Nordic referendum with no effect on Portuguese EU position or economy.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-29T09:01:25.062655Z"
-    },
     {
       "title": "Algeria president seeks death penalty for arsonists after deadly forest fires",
       "label": "Algeria seeks death penalty for arsonists",
-      "summary": "President Tebboune responds to 100 wildfires. North African climate event with no direct link to Portuguese wildfire risk or policy.",
+      "summary": "President proposes death penalty after 100 wildfires recorded. Distant North African event with no impact on Portuguese climate or economy.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -58,6 +20,30 @@
         }
       ],
       "detected_at": "2026-08-31T10:01:22.329316Z"
+    },
+    {
+      "title": "Search continues for 18 passengers after ferry capsized in northern Cyprus",
+      "label": "Cyprus ferry search continues, 18 missing",
+      "summary": "Eight dead, 18 missing after ferry capsized near Cyprus. Distant eastern Mediterranean maritime accident with no Portuguese connection.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/31/rescue-teams-continue-search-for-missing-after-north-cyprus-ferry-sinking?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-30T22:01:24.847849Z"
     }
   ],
   "short_summary": "Ferry capsizes off Cyprus, eight dead, missing",
@@ -65,14 +51,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-08-31T10:01:22.329316Z",
+  "updated_at": "2026-08-31T13:46:01.378625Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Ferry capsizes off Cyprus, eight dead, missing",
     "summary": "Maritime accident in eastern Mediterranean; distant from Portugal with no impact on Atlantic shipping or tourism economy.",
     "title": "Eight killed and others missing after ferry capsizes off northern Cyprus",
-    "score": 2.3,
+    "score": 2.2,
     "sentiment": "negative",
     "detected_at": "2026-08-30T22:01:24.847849Z",
     "peak_at": "2026-08-30T22:01:24.847849Z",
@@ -85,10 +71,6 @@
   },
   "events_anchor_at": "2026-08-30T22:01:24.847849Z",
   "score_history": [
-    {
-      "t": "2026-08-29T10:01:23.520552Z",
-      "s": 2.1
-    },
     {
       "t": "2026-08-29T14:28:08.436338Z",
       "s": 2.5
@@ -160,6 +142,10 @@
     {
       "t": "2026-08-31T10:01:22.329316Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-08-31T13:46:01.378625Z",
+      "s": 2.0
     }
   ]
 }

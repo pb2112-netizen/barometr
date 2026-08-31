@@ -1,38 +1,14 @@
 {
-  "global_score": 3.2,
-  "rationale": "New US military action in Middle East (first strike on Iran in weeks) and new Venezuela oil deal represent qualitative changes in US foreign policy.",
+  "global_score": 3.1,
+  "rationale": "Trump announces major Venezuela oil deal claiming US control of 65bn barrels — significant new energy development; Grand Canyon flash flood continues with 15 missing. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "US and Iran trade strikes for first time in weeks",
-      "label": "US strikes Iran's Larak Island killing two",
-      "summary": "First US attack on Iran since July targets Larak Island in Strait of Hormuz, killing two. Direct US military action in Middle East after weeks of calm.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/31/iran-attacks-jordan-uae-after-us-bombs-larak-island-whats-the-latest?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-08-30T21:04:14.048553Z"
-    },
     {
       "title": "Trump announces new US oil agreement with Venezuela",
       "label": "Trump announces Venezuela oil deal",
-      "summary": "US claims majority control of 65 billion barrels of Venezuelan oil. Major energy agreement with geopolitical implications, though details remain unclear.",
-      "score": 3.2,
+      "summary": "US claims majority control of 65bn barrels of Venezuelan oil reserves. Major new energy agreement with potential domestic economic impact.",
+      "score": 3.1,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -46,23 +22,42 @@
       "detected_at": "2026-08-31T10:01:22.332591Z"
     },
     {
-      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
-      "label": "NASA launches new space telescope mission",
-      "summary": "Multi-year mission to map universe and study dark energy begins. Major domestic science achievement with long-term research implications.",
-      "score": 2.9,
-      "sentiment": "positive",
+      "title": "One dead and more than a dozen missing after 'terrifying' flash flood hits Grand Canyon",
+      "label": "Grand Canyon flash flood, 15 missing",
+      "summary": "One dead, 15 missing after flash flood hits Grand Canyon on beautiful day. Domestic disaster with ongoing search and rescue operations.",
+      "score": 2.3,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "nauka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-08-31T04:01:20.084647Z"
+      "detected_at": "2026-08-30T22:01:24.850502Z"
+    },
+    {
+      "title": "US and Iran trade strikes for first time in weeks",
+      "label": "US strikes Iran's Larak Island",
+      "summary": "First US military attack on Iran since late July kills two on Larak Island. Resumption of direct US-Iran strikes after weeks of calm.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-30T21:04:14.048553Z"
     }
   ],
   "short_summary": "Libya factions sign deal for national elections",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-31T10:01:22.332591Z",
+  "updated_at": "2026-08-31T13:46:01.381347Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-30T17:28:30.839745Z",
   "score_history": [
-    {
-      "t": "2026-08-29T10:01:23.523809Z",
-      "s": 4.3
-    },
     {
       "t": "2026-08-29T14:28:08.440124Z",
       "s": 4.1
@@ -165,6 +156,10 @@
     {
       "t": "2026-08-31T10:01:22.332591Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-08-31T13:46:01.381347Z",
+      "s": 3.1
     }
   ]
 }
