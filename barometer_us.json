@@ -1,50 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "NASA telescope launch continues as known major domestic science mission; Grand Canyon flooding continues as known domestic disaster; no new qualitative change this cycle.",
+  "global_score": 3.2,
+  "rationale": "New US military action in Middle East (first strike on Iran in weeks) and new Venezuela oil deal represent qualitative changes in US foreign policy.",
   "top_events": [
     {
-      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
-      "label": "NASA launches new space telescope",
-      "summary": "US space agency begins multi-year mission to map universe and study dark energy; major domestic science achievement already known.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-31T04:01:20.084647Z"
-    },
-    {
-      "title": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-      "label": "Grand Canyon flash flooding, 15 missing",
-      "summary": "Domestic disaster with search and rescue underway continues; hikers airlifted to safety after sudden flooding.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-30T22:01:24.850502Z"
-    },
-    {
       "title": "US and Iran trade strikes for first time in weeks",
-      "label": "US strikes Iran's Larak Island",
-      "summary": "First US military attack on Iran in a month hits Larak Island, killing two; Middle East escalation continues known pattern.",
-      "score": 2.6,
+      "label": "US strikes Iran's Larak Island killing two",
+      "summary": "First US attack on Iran since July targets Larak Island in Strait of Hormuz, killing two. Direct US military action in Middle East after weeks of calm.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -59,10 +21,48 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/iran-targets-jordan-after-first-us-attack-in-a-month?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/31/iran-attacks-jordan-uae-after-us-bombs-larak-island-whats-the-latest?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-30T21:04:14.048553Z"
+    },
+    {
+      "title": "Trump announces new US oil agreement with Venezuela",
+      "label": "Trump announces Venezuela oil deal",
+      "summary": "US claims majority control of 65 billion barrels of Venezuelan oil. Major energy agreement with geopolitical implications, though details remain unclear.",
+      "score": 3.2,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
+        }
+      ],
+      "detected_at": "2026-08-31T10:01:22.332591Z"
+    },
+    {
+      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
+      "label": "NASA launches new space telescope mission",
+      "summary": "Multi-year mission to map universe and study dark energy begins. Major domestic science achievement with long-term research implications.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-31T04:01:20.084647Z"
     }
   ],
   "short_summary": "Libya factions sign deal for national elections",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-31T05:32:14.189940Z",
+  "updated_at": "2026-08-31T10:01:22.332591Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-30T17:28:30.839745Z",
   "score_history": [
-    {
-      "t": "2026-08-29T09:01:25.067066Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-29T10:01:23.523809Z",
       "s": 4.3
@@ -165,6 +161,10 @@
     {
       "t": "2026-08-31T05:32:14.189940Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-08-31T10:01:22.332591Z",
+      "s": 3.2
     }
   ]
 }

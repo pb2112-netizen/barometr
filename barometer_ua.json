@@ -1,13 +1,13 @@
 {
-  "global_score": 3.4,
-  "rationale": "Kyiv weapons depot strike continues as known background in ongoing war; no new qualitative escalation or change in military situation this cycle.",
+  "global_score": 2.0,
+  "rationale": "Continuation of known background: ongoing war, distant events; no qualitative change in Ukrainian war zone or infrastructure this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-      "label": "Kyiv weapons depot strike kills 37",
-      "summary": "Major attack on capital region military storage continues known pattern of Russian strikes; investigation into storage near residential area.",
-      "score": 3.4,
-      "sentiment": "negative",
+      "title": "US and Iran trade strikes for first time in weeks",
+      "label": "US strikes Iran's Larak Island in Hormuz",
+      "summary": "First US attack on Iran since July kills two. Distant Middle East escalation with no direct link to Ukrainian war or Western aid.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,63 +16,58 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-08-29T10:01:23.522385Z"
-    },
-    {
-      "title": "US and Iran trade strikes for first time in weeks",
-      "label": "US strikes Iran's Larak Island",
-      "summary": "First US attack on Iran in a month hits Larak Island; distant Middle East escalation with no direct impact on Ukraine war.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/iran-targets-jordan-after-first-us-attack-in-a-month?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-30T21:04:14.046413Z"
     },
     {
-      "title": "Two Palestinians reported dead as Israeli forces raid Nablus",
-      "label": "Israeli forces raid Nablus, two dead",
-      "summary": "Israeli military operation in occupied West Bank continues; distant Middle East conflict with no impact on Ukraine.",
+      "title": "Nepal races to rescue trapped workers, as flood death toll surpasses 900",
+      "label": "Nepal flood death toll surpasses 900",
+      "summary": "Rescuers focus on trapped hydropower workers. Distant Asian disaster with no impact on Ukrainian war zone or infrastructure.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/two-palestinians-reported-dead-as-israeli-forces-raid-nablus?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/8/31/nepal-races-to-rescue-hydropower-workers-as-flood-death-toll-reaches-903?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-08-31T05:32:14.188303Z"
+      "detected_at": "2026-08-30T10:01:20.612304Z"
+    },
+    {
+      "title": "Iceland votes against restarting EU membership talks",
+      "label": "Iceland rejects EU membership talks again",
+      "summary": "52.8% vote against resuming accession. Distant Nordic referendum with no effect on Ukrainian EU aspirations or war support.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-31T04:01:20.082420Z"
     }
   ],
   "short_summary": "Kyiv weapons depot strike kills 37+",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-08-31T05:32:14.188303Z",
+  "updated_at": "2026-08-31T10:01:22.330849Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Kyiv weapons depot strike kills 37+",
     "summary": "Major attack on capital region military storage near residential area kills at least 37, marking serious escalation in ongoing war.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-08-29T10:01:23.522385Z",
   "score_history": [
-    {
-      "t": "2026-08-29T09:01:25.065150Z",
-      "s": 2.6
-    },
     {
       "t": "2026-08-29T10:01:23.522385Z",
       "s": 4.6
@@ -165,6 +156,10 @@
     {
       "t": "2026-08-31T05:32:14.188303Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-08-31T10:01:22.330849Z",
+      "s": 2.0
     }
   ]
 }
