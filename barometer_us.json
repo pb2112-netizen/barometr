@@ -1,22 +1,46 @@
 {
-  "global_score": 2.8,
-  "rationale": "Grand Canyon flash flooding is new domestic disaster with search underway; US strikes on Iran continue as background; Venezuela oil deal rhetoric continues without new confirmed action.",
+  "global_score": 3.1,
+  "rationale": "NASA telescope launch is major science mission; Grand Canyon flooding continues; US-Iran strike and Venezuela oil deal are ongoing background.",
   "top_events": [
     {
-      "title": "Hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-      "label": "Grand Canyon flash flooding, hikers missing",
-      "summary": "Domestic disaster with search and rescue operation underway for missing hikers; new qualitative event affecting US national park safety.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
+      "label": "NASA launches powerful new space telescope",
+      "summary": "US space agency begins multi-year mission to map universe and study dark energy and dark matter; major domestic science achievement with long-term research impact.",
+      "score": 3.1,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "nauka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-08-31T04:01:20.084647Z"
+    },
+    {
+      "title": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
+      "label": "Grand Canyon flash flooding, 15 missing",
+      "summary": "More than 60 evacuated after flash floods swept large boulders into Colorado River; domestic disaster with ongoing search and rescue operation.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/31/dozens-evacuated-and-about-15-missing-after-grand-canyon-flash-flood?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-30T22:01:24.850502Z"
@@ -24,8 +48,8 @@
     {
       "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
       "label": "US strikes Iran's Larak Island launchers",
-      "summary": "First US military attack on Iran in weeks kills IRGC soldiers; continues Middle East military engagement pattern without major escalation.",
-      "score": 2.8,
+      "summary": "First US military attack on Iran since late July killed two; continues Middle East military engagement with no major escalation or policy change.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -40,39 +64,20 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/iran-targets-jordan-after-first-us-attack-in-a-month?traffic_source=rss"
         }
       ],
       "detected_at": "2026-08-30T21:04:14.048553Z"
-    },
-    {
-      "title": "Trump announces new US oil agreement with Venezuela",
-      "label": "Trump announces Venezuela oil deal",
-      "summary": "US president claims majority control of 65bn barrels; announcement continues rhetoric without confirmed enacted policy change.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
-        }
-      ],
-      "detected_at": "2026-08-29T02:10:35.988486Z"
     }
   ],
   "short_summary": "Libya factions sign deal for national elections",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-08-30T23:29:12.259761Z",
+  "updated_at": "2026-08-31T04:01:20.084647Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Libya factions sign deal for national elections",
     "summary": "Rival Libyan factions signed agreement in Tripoli to hold elections within two years after UN-backed committee draft. Confirmed action affecting regional stability and potential migration flows.",
@@ -90,14 +95,6 @@
   },
   "events_anchor_at": "2026-08-30T17:28:30.839745Z",
   "score_history": [
-    {
-      "t": "2026-08-29T02:10:35.988486Z",
-      "s": 5.0
-    },
-    {
-      "t": "2026-08-29T04:01:16.565573Z",
-      "s": 4.7
-    },
     {
       "t": "2026-08-29T09:01:25.067066Z",
       "s": 4.5
@@ -165,6 +162,10 @@
     {
       "t": "2026-08-30T23:29:12.259761Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-08-31T04:01:20.084647Z",
+      "s": 3.1
     }
   ]
 }
