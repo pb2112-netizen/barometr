@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T14:53:00.035839Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-09-01T16:01:36.876623Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": "2026-08-29T16:01:18.457944Z",
   "stan_swiata": [
     {
       "temat": "Russian strikes on Kyiv rail workers",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
       "opis": "Fresh attacks on capital region injure 20; eastern threat."
     },
     {
+      "temat": "Russia drone attack on German airport",
+      "poziom_bazowy": 6.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Explosive drone at Leipzig airport near Ukrainian cargo."
+    },
+    {
+      "temat": "France fast fashion import fees",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "EU levy on Shein/Temu could affect Polish consumer costs."
+    },
+    {
       "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 3,
       "opis": "Major attack on Ukrainian storage near civilians."
     },
     {
       "temat": "Trump reviews Falklands position",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 2,
       "opis": "US questions UK sovereignty; NATO alliance uncertainty."
     },
     {
       "temat": "UK energy prices rise on Iran tensions",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
       "opis": "Energy cost pressure from Middle East escalation; EU-wide."
     },
     {
       "temat": "Poland drone factory fire terror probe",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Investigation into suspected Russian sabotage on Polish."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
-    },
-    {
-      "temat": "British woman killed in German railway stabbing",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Isolated stabbing in Bavaria; no broader EU security."
-    },
-    {
-      "temat": "Swiss shooting leaves one dead",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Isolated shooting in Switzerland; manhunt underway."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T16:01:19.399409Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-30T17:28:30.833157Z",
       "s": 3.9
@@ -124,10 +120,30 @@
     {
       "t": "2026-09-01T14:53:00.029404Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-09-01T16:01:36.869214Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-01T10:01:31.469820Z",
   "event_detected_at": {
+    "germany says russia behind leipzig airport drone attack": {
+      "detected_at": "2026-09-01T16:01:36.869214Z",
+      "peak_at": "2026-09-01T16:01:36.869214Z",
+      "peak_score_at": "2026-09-01T16:01:36.869214Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Germany says Russia behind Leipzig airport drone attack",
+      "peak_label": "Russia drone attack targets German airport cargo",
+      "peak_summary": "Explosive drone discovered at Leipzig airport near Ukrainian cargo planes confirms Russian hybrid warfare escalation in NATO territory, raising direct security threat to Poland and eastern EU.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "russian attack hits rail workers in new deadly strikes on kyiv": {
       "detected_at": "2026-09-01T10:01:31.469820Z",
       "peak_at": "2026-09-01T14:53:00.029404Z",
@@ -141,6 +157,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "france targets shein and temu with fast fashion fees": {
+      "detected_at": "2026-09-01T16:01:36.869214Z",
+      "peak_at": "2026-09-01T16:01:36.869214Z",
+      "peak_score_at": "2026-09-01T16:01:36.869214Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "France targets Shein and Temu with fast fashion fees",
+      "peak_label": "France imposes fees on ultra-fast fashion imports",
+      "peak_summary": "New EU member levy on cheap imports could affect Polish consumer prices and retail competition.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2792pendro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -310,8 +342,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Germany says Russia behind Leipzig airport drone attack",
     "Russian attack hits rail workers in new deadly strikes on Kyiv",
-    "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
-    "Trump suggests he is reviewing US support for UK over Falkland Islands"
+    "France targets Shein and Temu with fast fashion fees"
   ]
 }

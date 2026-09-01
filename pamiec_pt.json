@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T14:53:00.037275Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-01T16:01:36.878272Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain-Morocco Ceuta border dispute",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Spanish PM clears Morocco on breach; Iberian neighbor issue."
     },
     {
       "temat": "Ceuta sexual assault crisis",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Daily assaults in Spanish enclave; Iberian security concern."
     },
     {
+      "temat": "France fast fashion import fees",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "EU levy on Shein/Temu could affect Portuguese consumer."
+    },
+    {
       "temat": "UK energy prices rise on Iran tensions",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Energy cost pressure from Middle East escalation; EU-wide."
     },
     {
       "temat": "Shein Hong Kong IPO at $26bn",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Fast-fashion retailer lists in Hong Kong; distant corporate."
     },
     {
       "temat": "British woman killed in German railway stabbing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Isolated stabbing in Bavaria; no broader EU security."
     },
     {
       "temat": "Swiss shooting leaves one dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Isolated shooting in Switzerland; manhunt underway."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
-      "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
-    },
-    {
-      "temat": "UN slavery reparations guidance",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 8,
-      "opis": "UN committee says states must address slavery legacy."
+      "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T16:01:19.401929Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-30T17:28:30.836004Z",
       "s": 2.0
@@ -124,10 +120,30 @@
     {
       "t": "2026-09-01T14:53:00.032364Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-01T16:01:36.872734Z",
+      "s": 3.5
     }
   ],
-  "events_anchor_at": "2026-09-01T14:53:00.032364Z",
+  "events_anchor_at": "2026-09-01T16:01:36.872734Z",
   "event_detected_at": {
+    "france targets shein and temu with fast fashion fees": {
+      "detected_at": "2026-09-01T16:01:36.872734Z",
+      "peak_at": "2026-09-01T16:01:36.872734Z",
+      "peak_score_at": "2026-09-01T16:01:36.872734Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "France targets Shein and Temu with fast fashion fees",
+      "peak_label": "France imposes fees on ultra-fast fashion imports",
+      "peak_summary": "New EU levy reaching €20 per garment by 2030 could raise consumer costs in Portugal and affect retail competition.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2792pendro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "sexual assaults happening almost every day in ceuta, prosecutors say": {
       "detected_at": "2026-09-01T14:53:00.032364Z",
       "peak_at": "2026-09-01T14:53:00.032364Z",
@@ -144,22 +160,6 @@
         }
       ]
     },
-    "amazon rigged $20bn worth of ad prices, us lawsuit alleges": {
-      "detected_at": "2026-09-01T14:53:00.032364Z",
-      "peak_at": "2026-09-01T14:53:00.032364Z",
-      "peak_score_at": "2026-09-01T14:53:00.032364Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
-      "peak_label": "Amazon sued over $20bn ad price manipulation",
-      "peak_summary": "FTC alleges major antitrust violation; continuation of regulatory pressure on tech platforms affecting EU digital economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "morocco not to blame for ceuta border breach, says spanish pm": {
       "detected_at": "2026-09-01T10:05:10.505214Z",
       "peak_at": "2026-09-01T10:05:10.505214Z",
@@ -173,6 +173,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez"
+        }
+      ]
+    },
+    "amazon rigged $20bn worth of ad prices, us lawsuit alleges": {
+      "detected_at": "2026-09-01T14:53:00.032364Z",
+      "peak_at": "2026-09-01T14:53:00.032364Z",
+      "peak_score_at": "2026-09-01T14:53:00.032364Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
+      "peak_label": "Amazon sued over $20bn ad price manipulation",
+      "peak_summary": "FTC alleges major antitrust violation; continuation of regulatory pressure on tech platforms affecting EU digital economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -322,8 +338,8 @@
     }
   },
   "prev_top_event_titles": [
+    "France targets Shein and Temu with fast fashion fees",
     "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-    "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
     "Morocco not to blame for Ceuta border breach, says Spanish PM"
   ]
 }
