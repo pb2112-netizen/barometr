@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-01T05:05:41.100924Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-09-01T10:01:31.476138Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": "2026-08-29T16:01:18.457944Z",
   "stan_swiata": [
     {
-      "temat": "Poland drone factory fire terror probe",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
-      "opis": "Investigation into suspected Russian sabotage on Polish."
-    },
-    {
       "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 25,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
       "opis": "Major attack on Ukrainian storage near civilians."
     },
     {
+      "temat": "UK energy prices rise on Iran tensions",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Energy cost pressure from Middle East escalation; EU-wide."
+    },
+    {
+      "temat": "Poland drone factory fire terror probe",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
+      "opis": "Investigation into suspected Russian sabotage on Polish."
+    },
+    {
       "temat": "Russia strikes near Kyiv kill 27+",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 25,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 26,
       "opis": "Major attack near Ukrainian capital; eastern border."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
     },
     {
       "temat": "British woman killed in German railway stabbing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Isolated stabbing in Bavaria; no broader EU security."
     },
     {
       "temat": "Swiss shooting leaves one dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Isolated shooting in Switzerland; manhunt underway."
     },
     {
       "temat": "Greece-Israel air defense deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Greece acquires $3.5bn Israeli system by 2029; distant ally."
-    },
-    {
-      "temat": "Iceland rejects EU membership talks",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "52.8% vote against resuming accession; distant Nordic event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T06:38:20.449198Z",
-      "s": 4.7
-    },
-    {
-      "t": "2026-08-30T10:01:20.608108Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-30T12:52:28.950866Z",
       "s": 4.3
@@ -124,11 +116,31 @@
     {
       "t": "2026-09-01T05:05:41.093854Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-01T10:01:31.469820Z",
+      "s": 4.0
     }
   ],
-  "events_anchor_at": "2026-08-31T22:01:28.866507Z",
+  "events_anchor_at": "2026-09-01T10:01:31.469820Z",
   "event_detected_at": {
-    "nepal rescuers blast hillside in search of hydropower workers as families wait anxiously": {
+    "russian drone and missile barrage kills at least 12 in ukraine's kyiv": {
+      "detected_at": "2026-09-01T10:01:31.469820Z",
+      "peak_at": "2026-09-01T10:01:31.469820Z",
+      "peak_score_at": "2026-09-01T10:01:31.469820Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "Russian drone and missile barrage kills at least 12 in Ukraine's Kyiv",
+      "peak_label": "Russian strikes kill 12 in Kyiv",
+      "peak_summary": "Major escalation in attacks on Ukrainian capital as EU defense ministers meet in Ireland to discuss Ukraine air defense shortages — direct concern for Poland's eastern border security.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv?traffic_source=rss"
+        }
+      ]
+    },
+    "nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels": {
       "detected_at": "2026-08-31T20:03:41.966965Z",
       "peak_at": "2026-09-01T05:05:41.093854Z",
       "peak_score_at": "2026-09-01T05:05:41.093854Z",
@@ -141,6 +153,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "britons face 'risk premium' for energy as us-israel war on iran intensifies": {
+      "detected_at": "2026-09-01T10:01:31.469820Z",
+      "peak_at": "2026-09-01T10:01:31.469820Z",
+      "peak_score_at": "2026-09-01T10:01:31.469820Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Britons face 'risk premium' for energy as US-Israel war on Iran intensifies",
+      "peak_label": "UK energy prices rise on Iran tensions",
+      "peak_summary": "Energy price cap increase in UK signals potential EU-wide energy cost pressure from Middle East escalation — indirect concern for Polish energy costs.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/1/uk-energy-price-rise-britons-face-risk-premium-for-supply-amid-iran-war?traffic_source=rss"
         }
       ]
     },
@@ -212,22 +240,6 @@
         }
       ]
     },
-    "us and iran trade strikes for first time in weeks": {
-      "detected_at": "2026-08-31T10:01:22.325955Z",
-      "peak_at": "2026-08-31T10:01:22.325955Z",
-      "peak_score_at": "2026-08-31T10:01:22.325955Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "US and Iran trade strikes for first time in weeks",
-      "peak_label": "US strikes Iran's Larak Island in Hormuz",
-      "peak_summary": "First US attack on Iran since July kills two on Larak Island. Distant Middle East escalation with no direct link to Polish energy or security.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "far-right israeli minister ben-gvir and settlers storm al-aqsa mosque": {
       "detected_at": "2026-08-31T20:03:41.966965Z",
       "peak_at": "2026-08-31T20:03:41.966965Z",
@@ -259,31 +271,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/31/greece-signs-3-5bn-air-defence-deal-with-israel?traffic_source=rss"
         }
       ]
-    },
-    "iceland votes against restarting eu membership talks": {
-      "detected_at": "2026-08-30T10:01:20.608108Z",
-      "peak_at": "2026-08-31T10:01:22.325955Z",
-      "peak_score_at": "2026-08-30T10:01:20.608108Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Iceland votes against restarting talks on joining EU",
-      "peak_label": "Iceland rejects EU accession talks in vote",
-      "peak_summary": "Iceland votes against resuming EU membership talks; distant Nordic decision with no direct impact on Poland's EU position or economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/30/iceland-rejects-eu-membership-plan-in-referendum?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
-    "Man arrested after Swiss rave shooting that killed woman",
-    "US Army Secretary Daniel Driscoll submits resignation, media reports say"
+    "Russian drone and missile barrage kills at least 12 in Ukraine's Kyiv",
+    "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
+    "Britons face 'risk premium' for energy as US-Israel war on Iran intensifies"
   ]
 }
