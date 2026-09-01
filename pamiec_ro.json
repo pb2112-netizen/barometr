@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T18:29:28.186929Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-01T21:46:15.878844Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian strikes on Kyiv rail workers",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 2,
-      "opis": "Fresh attacks on capital region; Black Sea security concern."
-    },
-    {
       "temat": "Ceuta sexual assault crisis",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "Daily assaults in Spanish enclave; EU migration pressure."
     },
     {
       "temat": "Russia drone attack on German airport",
-      "poziom_bazowy": 5.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.4,
+      "cykle_bez_zmian": 2,
       "opis": "Explosive drone at Leipzig airport near Ukrainian cargo."
     },
     {
+      "temat": "US strikes on Iran",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 0,
+      "opis": "US military begins striking Iranian targets; energy impact."
+    },
+    {
+      "temat": "Russian strikes on Kyiv rail workers",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 3,
+      "opis": "Fresh attacks on capital region; Black Sea security concern."
+    },
+    {
       "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "Major attack on Ukrainian storage near civilians."
     },
     {
       "temat": "Trump reviews Falklands position",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 4,
       "opis": "US questions UK sovereignty; NATO alliance uncertainty."
     },
     {
       "temat": "UK energy prices rise on Iran tensions",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Energy cost pressure from Middle East escalation; EU-wide."
     },
     {
       "temat": "British woman killed in German railway stabbing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Isolated stabbing in Bavaria; no broader EU security."
-    },
-    {
-      "temat": "Israeli minister storms Al-Aqsa Mosque",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T21:04:14.043132Z",
-      "s": 3.6
-    },
     {
       "t": "2026-08-30T22:01:24.846482Z",
       "s": 3.5
@@ -124,6 +120,10 @@
     {
       "t": "2026-09-01T18:29:28.179531Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-01T21:46:15.870523Z",
+      "s": 3.8
     }
   ],
   "events_anchor_at": "2026-09-01T10:01:31.471195Z",
@@ -144,6 +144,42 @@
         }
       ]
     },
+    "us strikes iran as state media reports four killed at wedding party": {
+      "detected_at": "2026-09-01T21:46:15.870523Z",
+      "peak_at": "2026-09-01T21:46:15.870523Z",
+      "peak_score_at": "2026-09-01T21:46:15.870523Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "negative",
+      "title": "US strikes Iran as state media reports four killed at wedding party",
+      "peak_label": "US begins military strikes on Iranian targets",
+      "peak_summary": "US launches strikes on Iran with casualties reported; escalation raises energy prices affecting Romanian costs and Black Sea stability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/iranian-state-media-announces-numerous-us-strikes-on-the-country?traffic_source=rss"
+        }
+      ]
+    },
+    "sexual assaults happening almost every day in ceuta, prosecutors say": {
+      "detected_at": "2026-09-01T14:53:00.030945Z",
+      "peak_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
+      "peak_label": "Daily assaults reported in Spanish Ceuta enclave",
+      "peak_summary": "Migration crisis in Spanish territory highlights EU border pressure, though geographically distant from Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "trump says us position on falklands 'one of many' under review": {
       "detected_at": "2026-09-01T18:29:28.179531Z",
       "peak_at": "2026-09-01T18:29:28.179531Z",
@@ -161,22 +197,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee"
-        }
-      ]
-    },
-    "sexual assaults happening almost every day in ceuta, prosecutors say": {
-      "detected_at": "2026-09-01T14:53:00.030945Z",
-      "peak_at": "2026-09-01T14:53:00.030945Z",
-      "peak_score_at": "2026-09-01T14:53:00.030945Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-      "peak_label": "Daily assaults reported in Spanish Ceuta enclave",
-      "peak_summary": "Migration crisis in Spanish territory highlights EU border pressure, though geographically distant from Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -244,22 +264,6 @@
         }
       ]
     },
-    "nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels": {
-      "detected_at": "2026-08-31T20:03:41.969227Z",
-      "peak_at": "2026-08-31T20:03:41.969227Z",
-      "peak_score_at": "2026-08-31T20:03:41.969227Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "negative",
-      "title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
-      "peak_label": "Nepal rescuers use explosives, 939 dead",
-      "peak_summary": "Rescuers resort to explosives to reach trapped workers as Nepal flooding death toll reaches 939. Families wait anxiously for news.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "man arrested after swiss rave shooting that killed woman": {
       "detected_at": "2026-08-31T23:50:37.003776Z",
       "peak_at": "2026-08-31T23:50:37.003776Z",
@@ -311,27 +315,11 @@
           "url": "https://www.aljazeera.com/news/2026/8/31/putin-and-xi-affirm-strategic-alliance-amid-unpredictable-world?traffic_source=rss"
         }
       ]
-    },
-    "far-right israeli minister ben-gvir and settlers storm al-aqsa mosque": {
-      "detected_at": "2026-08-31T20:03:41.969227Z",
-      "peak_at": "2026-08-31T20:03:41.969227Z",
-      "peak_score_at": "2026-08-31T20:03:41.969227Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Far-right Israeli Minister Ben-Gvir and settlers storm Al-Aqsa Mosque",
-      "peak_label": "Israeli minister storms Al-Aqsa with settlers",
-      "peak_summary": "Israeli Minister Ben-Gvir entered Al-Aqsa Mosque compound with settlers under military protection, violating long-standing status quo arrangements.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/far-right-israeli-minister-ben-gvir-and-settlers-storm-al-aqsa-mosque?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Germany says Russia behind Leipzig airport drone attack",
-    "Trump says US position on Falklands 'one of many' under review",
+    "US strikes Iran as state media reports four killed at wedding party",
     "Sexual assaults happening almost every day in Ceuta, prosecutors say"
   ]
 }

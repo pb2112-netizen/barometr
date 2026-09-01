@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T18:29:28.189020Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-01T21:46:15.881023Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russia strikes near Kyiv kill 27+",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 1,
-      "opis": "Major attack near capital; serious escalation in war zone."
-    },
-    {
       "temat": "Russia drone attack on German airport",
-      "poziom_bazowy": 5.5,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 2,
       "opis": "Explosive drone at Leipzig airport near Ukrainian cargo."
     },
     {
+      "temat": "US strikes on Iran",
+      "poziom_bazowy": 7.5,
+      "cykle_bez_zmian": 0,
+      "opis": "US military begins striking Iranian targets; major."
+    },
+    {
+      "temat": "Russia strikes near Kyiv kill 27+",
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 2,
+      "opis": "Major attack near capital; serious escalation in war zone."
+    },
+    {
       "temat": "Trump reviews Falklands position",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 4,
       "opis": "US questions UK sovereignty; Western alliance uncertainty."
     },
     {
       "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "Major attack on capital region storage; serious escalation."
     },
     {
       "temat": "Poland drone factory fire terror probe",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Investigation into suspected Russian sabotage on Polish."
     },
     {
       "temat": "Nepal flooding death toll reaches 939",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Distant Asian disaster; rescuers use explosives to reach."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
-    },
-    {
-      "temat": "Iceland rejects EU membership talks",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "52.8% vote against resuming accession; distant Nordic event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T21:04:14.046413Z",
-      "s": 3.9
-    },
     {
       "t": "2026-08-30T22:01:24.848913Z",
       "s": 3.8
@@ -124,10 +120,34 @@
     {
       "t": "2026-09-01T18:29:28.182565Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-01T21:46:15.874682Z",
+      "s": 5.0
     }
   ],
   "events_anchor_at": "2026-08-30T21:04:14.046413Z",
   "event_detected_at": {
+    "us strikes iran as state media reports four killed at wedding party": {
+      "detected_at": "2026-09-01T21:46:15.874682Z",
+      "peak_at": "2026-09-01T21:46:15.874682Z",
+      "peak_score_at": "2026-09-01T21:46:15.874682Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "US strikes Iran as state media reports four killed at wedding party",
+      "peak_label": "US begins military strikes on Iranian targets",
+      "peak_summary": "US launches strikes on Iran with casualties reported; major escalation may shift Western attention and resources away from Ukraine support.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/iranian-state-media-announces-numerous-us-strikes-on-the-country?traffic_source=rss"
+        }
+      ]
+    },
     "germany says russia behind leipzig airport drone attack": {
       "detected_at": "2026-09-01T16:01:36.874396Z",
       "peak_at": "2026-09-01T16:01:36.874396Z",
@@ -141,6 +161,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "zelenskyy warns airlines as ukrainian drones target russian airspace": {
+      "detected_at": "2026-09-01T21:46:15.874682Z",
+      "peak_at": "2026-09-01T21:46:15.874682Z",
+      "peak_score_at": "2026-09-01T21:46:15.874682Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "Zelenskyy warns airlines as Ukrainian drones target Russian airspace",
+      "peak_label": "Zelenskyy warns airlines as drones target Russia",
+      "peak_summary": "President warns Ukrainian drones will continue operating over Russia; ongoing air campaign against Russian territory.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/zelenskyy-warns-airlines-as-ukrainian-drones-target-russian-airspace?traffic_source=rss"
         }
       ]
     },
@@ -327,26 +363,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/ukrainians-mourn-community-leader-killed-in-russian-strike-on-myla?traffic_source=rss"
         }
       ]
-    },
-    "far-right israeli minister ben-gvir and settlers storm al-aqsa mosque": {
-      "detected_at": "2026-08-31T20:03:41.973507Z",
-      "peak_at": "2026-08-31T20:03:41.973507Z",
-      "peak_score_at": "2026-08-31T20:03:41.973507Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Far-right Israeli Minister Ben-Gvir and settlers storm Al-Aqsa Mosque",
-      "peak_label": "Israeli minister storms Al-Aqsa with settlers",
-      "peak_summary": "Israeli Minister Ben-Gvir entered Al-Aqsa Mosque compound with settlers under military protection, violating long-standing status quo arrangements.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/far-right-israeli-minister-ben-gvir-and-settlers-storm-al-aqsa-mosque?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US strikes Iran as state media reports four killed at wedding party",
     "Germany says Russia behind Leipzig airport drone attack",
-    "Trump says US position on Falklands 'one of many' under review"
+    "Zelenskyy warns airlines as Ukrainian drones target Russian airspace"
   ]
 }
