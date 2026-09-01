@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T10:05:10.512878Z",
-  "ostatnia_ocena": 3.9,
+  "updated_at": "2026-09-01T14:53:00.037924Z",
+  "ostatnia_ocena": 5.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Poland drone factory fire terror probe",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
-      "opis": "Investigation into suspected Russian sabotage on Polish."
-    },
-    {
       "temat": "Russia strikes near Kyiv kill 27+",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 27,
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 0,
       "opis": "Major attack near capital; serious escalation in war zone."
     },
     {
-      "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 3.9,
+      "temat": "Trump reviews Falklands position",
+      "poziom_bazowy": 4.0,
       "cykle_bez_zmian": 1,
+      "opis": "US questions UK sovereignty; Western alliance uncertainty."
+    },
+    {
+      "temat": "Kyiv weapons depot strike kills 37+",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 2,
       "opis": "Major attack on capital region storage; serious escalation."
+    },
+    {
+      "temat": "Poland drone factory fire terror probe",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
+      "opis": "Investigation into suspected Russian sabotage on Polish."
     },
     {
       "temat": "Nepal flooding death toll reaches 939",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Distant Asian disaster; rescuers use explosives to reach."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
     },
     {
       "temat": "Iceland rejects EU membership talks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "52.8% vote against resuming accession; distant Nordic event."
     },
     {
       "temat": "Cyprus ferry capsizes with casualties",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Ferry capsized off northern Cyprus; distant maritime event."
-    },
-    {
-      "temat": "US strikes Iran's Larak Island",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 14,
-      "opis": "US attack in southern Iran kills IRGC soldiers; distant ME."
+      "opis": "Ferry capsized off northern Cyprus; distant maritime event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T12:52:28.954374Z",
-      "s": 4.5
-    },
     {
       "t": "2026-08-30T16:01:19.403257Z",
       "s": 4.3
@@ -124,10 +120,62 @@
     {
       "t": "2026-09-01T10:05:10.506903Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-01T14:53:00.033770Z",
+      "s": 5.9
     }
   ],
-  "events_anchor_at": "2026-09-01T10:01:31.473977Z",
+  "events_anchor_at": "2026-08-30T21:04:14.046413Z",
   "event_detected_at": {
+    "russian attack hits rail workers in new deadly strikes on kyiv": {
+      "detected_at": "2026-08-30T21:04:14.046413Z",
+      "peak_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score": 5.9,
+      "peak_sentiment": "negative",
+      "title": "Russian attack hits rail workers in new deadly strikes on Kyiv",
+      "peak_label": "Russian strikes injure 20 in Kyiv region",
+      "peak_summary": "Fresh Russian attacks target rail infrastructure in capital region, injuring 20 including two children in new escalation.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zmdgry3do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "israel says senior hamas member seized as strikes kill three during gaza raid": {
+      "detected_at": "2026-09-01T10:01:31.473977Z",
+      "peak_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Israel says senior Hamas member seized as strikes kill three during Gaza raid",
+      "peak_label": "Israeli raid kills three in Gaza operation",
+      "peak_summary": "Distant Middle East conflict continues with no direct impact on Ukrainian war situation or Western aid.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump suggests he is reviewing us support for uk over falkland islands": {
+      "detected_at": "2026-09-01T14:53:00.033770Z",
+      "peak_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score_at": "2026-09-01T14:53:00.033770Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Trump suggests he is reviewing US support for UK over Falkland Islands",
+      "peak_label": "Trump reviews US stance on Falklands dispute",
+      "peak_summary": "US president signals willingness to reconsider alliance commitments, raising concerns about reliability of Western security guarantees.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands"
+        }
+      ]
+    },
     "russian drone and missile barrage kills at least 12 in ukraine's kyiv": {
       "detected_at": "2026-09-01T10:01:31.473977Z",
       "peak_at": "2026-09-01T10:01:31.473977Z",
@@ -144,22 +192,6 @@
         }
       ]
     },
-    "israeli attacks on gaza kill at least four, including children": {
-      "detected_at": "2026-09-01T10:01:31.473977Z",
-      "peak_at": "2026-09-01T10:05:10.506903Z",
-      "peak_score_at": "2026-09-01T10:05:10.506903Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Israeli attacks on Gaza kill at least four, including children",
-      "peak_label": "Israeli strikes kill four in Gaza",
-      "peak_summary": "Israeli air attack in Gaza kills at least three including children, a distant Middle East conflict with no direct impact on Ukrainian daily life.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/1/israeli-attacks-on-gaza-kill-at-least-four-including-children?traffic_source=rss"
-        }
-      ]
-    },
     "nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels": {
       "detected_at": "2026-08-30T10:01:20.612304Z",
       "peak_at": "2026-09-01T05:05:41.098497Z",
@@ -173,22 +205,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us and iran trade strikes for first time in weeks": {
-      "detected_at": "2026-08-30T21:04:14.046413Z",
-      "peak_at": "2026-08-31T22:01:28.871346Z",
-      "peak_score_at": "2026-08-30T21:04:14.046413Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US strikes Iran's Larak Island in first attack in weeks",
-      "peak_label": "US strikes Iran's Larak Island",
-      "peak_summary": "IRGC reports casualties from US attack in southern Iran; distant Middle East escalation with no direct impact on Ukraine's war situation.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks?traffic_source=rss"
         }
       ]
     },
@@ -310,8 +326,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian drone and missile barrage kills at least 12 in Ukraine's Kyiv",
-    "Israeli attacks on Gaza kill at least four, including children",
-    "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels"
+    "Russian attack hits rail workers in new deadly strikes on Kyiv",
+    "Israel says senior Hamas member seized as strikes kill three during Gaza raid",
+    "Trump suggests he is reviewing US support for UK over Falkland Islands"
   ]
 }

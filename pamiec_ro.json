@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-01T10:05:10.510732Z",
-  "ostatnia_ocena": 3.9,
+  "updated_at": "2026-09-01T14:53:00.036516Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Russian strikes on Kyiv rail workers",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Fresh attacks on capital region; Black Sea security concern."
+    },
+    {
+      "temat": "Ceuta sexual assault crisis",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Daily assaults in Spanish enclave; EU migration pressure."
+    },
+    {
+      "temat": "Kyiv weapons depot strike kills 37+",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 2,
+      "opis": "Major attack on Ukrainian storage near civilians."
+    },
+    {
+      "temat": "Trump reviews Falklands position",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 1,
+      "opis": "US questions UK sovereignty; NATO alliance uncertainty."
+    },
+    {
+      "temat": "UK energy prices rise on Iran tensions",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
+      "opis": "Energy cost pressure from Middle East escalation; EU-wide."
+    },
+    {
       "temat": "British woman killed in German railway stabbing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Isolated stabbing in Bavaria; no broader EU security."
     },
     {
       "temat": "Israeli minister storms Al-Aqsa Mosque",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Ben-Gvir enters holy site with settlers; distant ME event."
     },
     {
       "temat": "Swiss rave shooting kills woman",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Isolated shooting in Switzerland; no broader EU security."
-    },
-    {
-      "temat": "Kyiv weapons depot strike kills 37+",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 1,
-      "opis": "Major attack on Ukrainian storage near civilians."
-    },
-    {
-      "temat": "Ferry capsizes off Cyprus with 260 aboard",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Catamaran capsizes near Cyprus; Black Sea region maritime."
-    },
-    {
-      "temat": "Turkey summons Ukraine envoy over Black Sea strikes",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Turkish vessels hit; Black Sea shipping security concern."
-    },
-    {
-      "temat": "Greece-Israel air defense deal",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 7,
-      "opis": "Greece acquires $3.5bn Israeli system; neighboring EU ally."
-    },
-    {
-      "temat": "UK energy prices rise on Iran tensions",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
-      "opis": "Energy cost pressure from Middle East escalation; EU-wide."
+      "opis": "Isolated shooting in Switzerland; no broader EU security."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-08-30T12:52:28.952291Z",
-      "s": 4.1
-    },
     {
       "t": "2026-08-30T16:01:19.400785Z",
       "s": 3.9
@@ -124,11 +120,15 @@
     {
       "t": "2026-09-01T10:05:10.503124Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-01T14:53:00.030945Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-01T10:01:31.471195Z",
   "event_detected_at": {
-    "russian drone and missile barrage kills at least 12 in ukraine's kyiv": {
+    "russian attack hits rail workers in new deadly strikes on kyiv": {
       "detected_at": "2026-09-01T10:01:31.471195Z",
       "peak_at": "2026-09-01T10:01:31.471195Z",
       "peak_score_at": "2026-09-01T10:01:31.471195Z",
@@ -141,6 +141,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv?traffic_source=rss"
+        }
+      ]
+    },
+    "trump suggests he is reviewing us support for uk over falkland islands": {
+      "detected_at": "2026-09-01T14:53:00.030945Z",
+      "peak_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Trump suggests he is reviewing US support for UK over Falkland Islands",
+      "peak_label": "Trump reviews US stance on Falklands dispute",
+      "peak_summary": "US president signals willingness to reconsider alliance commitments, raising questions about NATO reliability for Black Sea member.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands"
+        }
+      ]
+    },
+    "sexual assaults happening almost every day in ceuta, prosecutors say": {
+      "detected_at": "2026-09-01T14:53:00.030945Z",
+      "peak_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score_at": "2026-09-01T14:53:00.030945Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
+      "peak_label": "Daily assaults reported in Spanish Ceuta enclave",
+      "peak_summary": "Migration crisis in Spanish territory highlights EU border pressure, though geographically distant from Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -189,22 +221,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "'she slipped out of my hand' - children missing after ferry sinks off northern cyprus": {
-      "detected_at": "2026-08-30T12:52:28.952291Z",
-      "peak_at": "2026-08-31T13:46:01.377415Z",
-      "peak_score_at": "2026-08-30T12:52:28.952291Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Ferry carrying 260 people capsizes off coast of northern Cyprus",
-      "peak_label": "Ferry capsizes off Cyprus with 260 aboard",
-      "peak_summary": "Catamaran carrying 260 people capsizes off Cyprus coast; Black Sea region maritime incident, casualties unknown.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/30/ferry-carrying-260-people-capsizes-off-northern-cyprus-coast?traffic_source=rss"
         }
       ]
     },
@@ -310,8 +326,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian drone and missile barrage kills at least 12 in Ukraine's Kyiv",
-    "Britons face 'risk premium' for energy as US-Israel war on Iran intensifies",
-    "Heavy monsoon rains submerge Islamabad roads and underground"
+    "Russian attack hits rail workers in new deadly strikes on Kyiv",
+    "Trump suggests he is reviewing US support for UK over Falkland Islands",
+    "Sexual assaults happening almost every day in Ceuta, prosecutors say"
   ]
 }
