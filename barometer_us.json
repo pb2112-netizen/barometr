@@ -1,31 +1,50 @@
 {
-  "global_score": 2.8,
-  "rationale": "Bank of America VP identified as Times Square stabbing victim adds detail to ongoing domestic incident; other headlines are distant or rhetorical.",
+  "global_score": 3.0,
+  "rationale": "US military begins striking targets in Iran — major escalation involving direct US military action in Middle East. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Bank of America vice president identified as victim in Times Square attack",
-      "label": "Bank of America VP killed in Times Square",
-      "summary": "Erin Piacenti identified as one of two victims in daylight stabbing at iconic New York location, adding detail to isolated domestic incident.",
-      "score": 2.1,
+      "title": "The US military began striking targets in Iran, CENTCOM says",
+      "label": "US military begins striking targets inside Iran",
+      "summary": "US military confirms strikes on Iranian targets, marking major escalation in Middle East conflict with direct American military involvement.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/1/bank-of-america-vice-president-identified-as-killed-in-times-square-attack?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/the-us-military-began-striking-targets-in-iran-centcom-says?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-01T14:53:00.035160Z"
+      "detected_at": "2026-09-01T18:29:28.184514Z"
+    },
+    {
+      "title": "Iran promises to respond to new wave of US strikes despite Trump's threats",
+      "label": "Iran vows response to US strikes despite warnings",
+      "summary": "Iran promises retaliation to US attacks as Trump warns of harder strikes if Iran responds, escalating cycle of military confrontation.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-08-30T21:04:14.048553Z"
     },
     {
       "title": "Trump says US position on Falklands 'one of many' under review",
-      "label": "Trump reviews US position on Falklands dispute",
-      "summary": "President suggests reconsidering support for UK sovereignty to pressure NATO spending, but no policy change enacted yet.",
-      "score": 2.8,
+      "label": "Trump says US position on Falklands 'one of many",
+      "summary": "Trump signals US may reconsider support for UK sovereignty over Falklands to pressure NATO defense spending, shifting long-standing alliance policy.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,35 +63,16 @@
         }
       ],
       "detected_at": "2026-09-01T16:01:36.875755Z"
-    },
-    {
-      "title": "Canada's ruling Liberals sweep special elections in boost to Mark Carney",
-      "label": "Canada Liberals win three special elections",
-      "summary": "Liberal party victories in special elections show voter support for Mark Carney amid US-Canada tensions over Lake Ontario naming dispute.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/01/canada-liberals-special-elections-mark-carney"
-        }
-      ],
-      "detected_at": "2026-09-01T16:01:36.875755Z"
     }
   ],
   "short_summary": "Army Secretary Driscoll resigns amid Pentagon tensions",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-01T16:01:36.875755Z",
+  "updated_at": "2026-09-01T18:29:28.184514Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Army Secretary Driscoll resigns amid Pentagon tensions",
     "summary": "Army Secretary Daniel Driscoll resigns after months of tensions with Defense Secretary Pete Hegseth. Leadership change in Pentagon affects military policy continuity.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-08-31T23:50:37.008914Z",
   "score_history": [
-    {
-      "t": "2026-08-30T17:28:30.839745Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-30T21:04:14.048553Z",
       "s": 3.0
@@ -161,6 +157,10 @@
     {
       "t": "2026-09-01T16:01:36.875755Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-01T18:29:28.184514Z",
+      "s": 3.0
     }
   ]
 }
