@@ -1,12 +1,12 @@
 {
-  "global_score": 6.5,
-  "rationale": "Iran retaliates against US strikes — major escalation involving key ally; Germany confirms Russia behind Leipzig drone attack shows continued Russian hybrid operations; Zelenskyy warns airlines as Ukrainian drones target Russian airspace. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.2,
+  "rationale": "US-Iran conflict continues with Iranian retaliation; major Western military engagement persists affecting global security environment and potential aid flows; no new direct Ukraine developments.",
   "top_events": [
     {
-      "title": "Iran retaliates after US strikes kills four at wedding party, state media reports",
-      "label": "Iran launches retaliatory strikes after US attack",
-      "summary": "Iranian missile and drone attacks on US targets mark major escalation in conflict involving Ukraine's key military supporter, potentially affecting Western focus and aid.",
-      "score": 6.5,
+      "title": "Iran retaliates after US strikes kill four at wedding party, state media reports",
+      "label": "Iran strikes US bases after wedding attack",
+      "summary": "Iran launched attacks on US military bases in Iraq and Jordan following US strikes. Major Western military engagement continues affecting global security and potential Ukrainian aid.",
+      "score": 6.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,57 +22,62 @@
       "detected_at": "2026-09-01T21:46:15.874682Z"
     },
     {
-      "title": "Zelenskyy warns airlines as Ukrainian drones target Russian airspace",
-      "label": "Zelenskyy warns airlines on Ukrainian drone operations",
-      "summary": "President confirms Ukrainian drones will continue operating over Russia, signaling sustained offensive capability and warning to civilian aviation.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/zelenskyy-warns-airlines-as-ukrainian-drones-target-russian-airspace?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-01T21:46:15.874682Z"
-    },
-    {
       "title": "Germany says Russia behind Leipzig airport drone attack",
-      "label": "Germany confirms Russia behind Leipzig drone attack",
-      "summary": "Germany officially attributes explosive drone near Ukrainian cargo planes to Russia, confirming continued Russian hybrid operations targeting Ukrainian supply lines in NATO territory.",
+      "label": "Germany confirms Russia behind Leipzig drone",
+      "summary": "German intelligence officially attributes explosive drone at Leipzig airport to Russia. Confirms escalating Russian hybrid warfare against Western infrastructure.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/2/what-to-know-about-germanys-drone-attack-accusations-against-russia?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-01T16:01:36.874396Z"
+    },
+    {
+      "title": "Trump suggests he is reviewing US support for UK over Falkland Islands",
+      "label": "Trump questions UK sovereignty for leverage",
+      "summary": "US president signals reconsidering support for UK over Falklands to pressure NATO spending. Raises concerns about Western alliance reliability for Ukraine.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands"
+        }
+      ],
+      "detected_at": "2026-09-01T14:53:00.033770Z"
     }
   ],
   "short_summary": "US launches strikes on Iranian territory",
   "level_label": "Elevated",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-02T00:12:31.911189Z",
+  "updated_at": "2026-09-02T04:01:32.354307Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "US launches strikes on Iranian territory",
     "summary": "US military begins striking Iranian targets with casualties reported. Major escalation in Middle East could reshape global security dynamics and Western focus on Ukraine war.",
     "title": "US strikes Iran as state media reports four killed at wedding party",
-    "score": 7.0,
+    "score": 6.9,
     "sentiment": "negative",
     "detected_at": "2026-09-01T21:46:15.874682Z",
     "peak_at": "2026-09-01T22:01:24.391021Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-01T21:46:15.874682Z",
   "score_history": [
-    {
-      "t": "2026-08-31T04:01:20.082420Z",
-      "s": 3.5
-    },
     {
       "t": "2026-08-31T05:32:14.188303Z",
       "s": 3.4
@@ -160,6 +161,10 @@
     {
       "t": "2026-09-02T00:12:31.911189Z",
       "s": 6.5
+    },
+    {
+      "t": "2026-09-02T04:01:32.354307Z",
+      "s": 6.2
     }
   ]
 }
