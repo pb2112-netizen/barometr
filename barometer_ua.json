@@ -1,14 +1,33 @@
 {
   "global_score": 3.0,
-  "rationale": "Zelensky publicly confirms escalated Ukrainian drone operations over Russian airspace, marking qualitative shift in war strategy; Russia threatens intensified attacks in response; EU-NATO pressure on Russia after Leipzig strengthens Western support. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Israeli PM announces plan to overthrow Iran government amid US-Iran war escalation; major shift affecting key ally's strategic focus and regional stability critical to Ukraine. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-      "label": "Zelensky confirms escalated Ukrainian drone operations",
-      "summary": "President publicly warns airlines as Ukraine intensifies drone strikes over Russian territory. Russia vows to intensify its own attacks on Ukraine in response, signaling new phase of conflict.",
+      "title": "Israeli PM says Israel is working to overthrow Iran's government",
+      "label": "Netanyahu announces plan to overthrow Iran regime",
+      "summary": "Israeli PM publicly declares effort to topple Iranian government amid US-Iran conflict, major escalation affecting key Western ally's strategic focus and regional stability.",
       "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/israeli-pm-says-israel-is-working-to-overthrow-irans-government?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-02T21:48:57.732082Z"
+    },
+    {
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+      "label": "Iran strikes Saudi tanker in Hormuz Strait",
+      "summary": "Projectile attack kills sailors in key oil route, escalating US-Iran conflict that diverts Western attention and resources from Ukraine support.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -16,48 +35,29 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-01T21:46:15.874682Z"
+      "detected_at": "2026-09-02T21:48:57.732082Z"
     },
     {
-      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "label": "EU and NATO increase Russia pressure after Leipzig",
-      "summary": "Alliance announces stepped-up measures against Russia following failed drone attack on German airport, strengthening Western support posture relevant to Ukraine's defense.",
-      "score": 2.9,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-01T16:01:36.874396Z"
-    },
-    {
-      "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-      "label": "Iran-US escalation with civilian casualties reported",
-      "summary": "Middle East conflict intensifies with reported civilian deaths and Iranian retaliation. Major US ally involvement affects global security environment around Ukraine's war.",
+      "title": "Two Palestinians killed as settlers, Israeli forces raid West Bank village",
+      "label": "Israeli settlers kill two Palestinian teenagers",
+      "summary": "Teenagers killed in West Bank raid, continuing Middle East instability that competes for Western diplomatic and military focus with Ukraine war.",
       "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/2/two-palestinian-killed-as-settlers-israeli-forces-raid-west-bank-village?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-01T21:46:15.874682Z"
+      "detected_at": "2026-09-02T21:48:57.732082Z"
     }
   ],
   "short_summary": "US launches strikes on Iranian territory",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-02T18:41:27.921077Z",
+  "updated_at": "2026-09-02T21:48:57.732082Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US launches strikes on Iranian territory",
     "summary": "US military begins striking Iranian targets with casualties reported. Major escalation in Middle East could reshape global security dynamics and Western focus on Ukraine war.",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-01T21:46:15.874682Z",
   "score_history": [
-    {
-      "t": "2026-08-31T20:03:41.973507Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-31T22:01:28.871346Z",
       "s": 2.0
@@ -167,6 +163,10 @@
     },
     {
       "t": "2026-09-02T18:41:27.921077Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-02T21:48:57.732082Z",
       "s": 3.0
     }
   ]
