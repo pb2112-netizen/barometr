@@ -1,11 +1,11 @@
 {
-  "global_score": 3.6,
-  "rationale": "Iran claims US strike killed civilians at wedding and launched retaliatory missiles at US targets; continuation of known US-Iran exchange; EU-NATO escalation response to Leipzig continues as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "Iran claims US strike killed civilians at wedding, followed by Iranian missile and drone attacks on US targets and tanker strike killing sailors; marks significant escalation of direct US-Iran military confrontation with American forces under fire. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-      "label": "Iran claims US strike killed four at wedding",
-      "summary": "Iranian media reports civilian casualties from US strike; Iran launched retaliatory missiles at US targets in Middle East. Continuation of known US-Iran exchange; major escalation involving US forces.",
+      "label": "Iran claims US strike killed wedding civilians",
+      "summary": "Iranian media reports civilian deaths including children from US strike, followed by Iranian missile and drone retaliation targeting US forces in Middle East. Major escalation of direct US-Iran conflict.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,11 +22,30 @@
       "detected_at": "2026-08-30T21:04:14.048553Z"
     },
     {
-      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
-      "label": "EU NATO vow pressure on Russia after Leipzig",
-      "summary": "EU and NATO announce stepped-up measures following Leipzig airport drone attack blamed on Russia. Continuation of known escalation; indirect US alliance concern.",
-      "score": 3.6,
+      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
+      "label": "Iran strikes Saudi tanker in Hormuz Strait",
+      "summary": "Attack on oil tanker in critical shipping lane escalates regional conflict involving US ally Saudi Arabia, threatening energy markets and American strategic interests in Gulf.",
+      "score": 3.0,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-02T18:41:27.923212Z"
+    },
+    {
+      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
+      "label": "EU and NATO increase Russia pressure after Leipzig",
+      "summary": "NATO alliance announces stepped-up measures against Russia following failed drone attack on German airport, affecting US security commitments and alliance coordination.",
+      "score": 3.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-09-02T14:28:41.065472Z"
-    },
-    {
-      "title": "MapQuest app reaches No 1 on US Apple list after defying Trump's Lake Ontario order",
-      "label": "MapQuest tops charts defying Trump Lake Ontario order",
-      "summary": "Navigating app surpasses Google and Apple Maps after refusing to rename Lake Ontario per Trump order. Continuation of known domestic politics; viral app chart movement, no policy impact.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/01/mapquest-lake-ontario-trump"
-        }
-      ],
-      "detected_at": "2026-09-02T04:31:21.569988Z"
     }
   ],
   "short_summary": "US begins military strikes on Iranian targets",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-02T16:01:32.398683Z",
+  "updated_at": "2026-09-02T18:41:27.923212Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US begins military strikes on Iranian targets",
     "summary": "US launches strikes on Iran with casualties reported; major escalation involving direct US military action with potential for wider regional conflict.",
     "title": "US strikes Iran as state media reports four killed at wedding party",
-    "score": 6.5,
+    "score": 6.4,
     "sentiment": "negative",
     "detected_at": "2026-08-30T21:04:14.048553Z",
     "peak_at": "2026-09-01T21:46:15.876479Z",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-08-30T21:04:14.048553Z",
   "score_history": [
-    {
-      "t": "2026-08-31T16:01:39.451972Z",
-      "s": 2.3
-    },
     {
       "t": "2026-08-31T20:03:41.975400Z",
       "s": 2.9
@@ -168,6 +164,10 @@
     {
       "t": "2026-09-02T16:01:32.398683Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-09-02T18:41:27.923212Z",
+      "s": 3.5
     }
   ]
 }

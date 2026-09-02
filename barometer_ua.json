@@ -1,13 +1,13 @@
 {
   "global_score": 3.0,
-  "rationale": "Zelensky publicly confirms escalated Ukrainian drone operations over Russia and warns airlines to avoid Russian airspace; continuation of known campaign but new public confirmation and airline warning; Iran-US strikes continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Zelensky publicly confirms escalated Ukrainian drone operations over Russian airspace, marking qualitative shift in war strategy; Russia threatens intensified attacks in response; EU-NATO pressure on Russia after Leipzig strengthens Western support. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
-      "label": "Zelensky warns airlines avoid Russian airspace drones",
-      "summary": "President publicly confirms escalated Ukrainian drone operations over Russia and advises airlines to avoid Russian airspace. Continuation of known campaign with new public confirmation and airline warning.",
+      "label": "Zelensky confirms escalated Ukrainian drone operations",
+      "summary": "President publicly warns airlines as Ukraine intensifies drone strikes over Russian territory. Russia vows to intensify its own attacks on Ukraine in response, signaling new phase of conflict.",
       "score": 3.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,10 +22,29 @@
       "detected_at": "2026-09-01T21:46:15.874682Z"
     },
     {
+      "title": "EU and Nato vow to step up pressure on Russia after 'new escalation' in Germany",
+      "label": "EU and NATO increase Russia pressure after Leipzig",
+      "summary": "Alliance announces stepped-up measures against Russia following failed drone attack on German airport, strengthening Western support posture relevant to Ukraine's defense.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-01T16:01:36.874396Z"
+    },
+    {
       "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-      "label": "Iran claims US strike killed four at wedding",
-      "summary": "Iranian media reports civilian casualties from US strike; Iran launched retaliatory missiles at US targets. Continuation of known US-Iran exchange; key ally involved in major escalation.",
-      "score": 3.0,
+      "label": "Iran-US escalation with civilian casualties reported",
+      "summary": "Middle East conflict intensifies with reported civilian deaths and Iranian retaliation. Major US ally involvement affects global security environment around Ukraine's war.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,56 +58,37 @@
         }
       ],
       "detected_at": "2026-09-01T21:46:15.874682Z"
-    },
-    {
-      "title": "More than 900 killed in Gaza this year despite ceasefire, Hamas-run health ministry says",
-      "label": "Gaza deaths exceed 900 this year despite ceasefire",
-      "summary": "Hamas-run health ministry reports over 900 killed in Gaza this year, total exceeding 1,300 since October. Distant conflict; no direct impact on Ukrainian war or Western aid.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-01T10:01:31.473977Z"
     }
   ],
-  "short_summary": "Six straight days of strikes hit Kyiv",
+  "short_summary": "US launches strikes on Iranian territory",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-02T16:01:32.396940Z",
+  "updated_at": "2026-09-02T18:41:27.921077Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Six straight days of strikes hit Kyiv",
-    "summary": "Russia launches almost continuous strikes on capital and surrounding areas for six days, forcing residents to consider evacuation and representing sustained escalation in war zone.",
-    "title": "Six days of Russian strikes push Kyiv residents to consider leaving",
-    "score": 6.5,
+    "label": "US launches strikes on Iranian territory",
+    "summary": "US military begins striking Iranian targets with casualties reported. Major escalation in Middle East could reshape global security dynamics and Western focus on Ukraine war.",
+    "title": "US strikes Iran as state media reports four killed at wedding party",
+    "score": 6.4,
     "sentiment": "negative",
-    "detected_at": "2026-08-30T21:04:14.046413Z",
-    "peak_at": "2026-09-01T16:01:36.874396Z",
+    "detected_at": "2026-09-01T21:46:15.874682Z",
+    "peak_at": "2026-09-01T22:01:24.391021Z",
     "source_links": [
       {
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/six-days-of-russian-strikes-push-kyiv-residents-to-consider-leaving?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/iranian-state-media-announces-numerous-us-strikes-on-the-country?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-08-30T21:04:14.046413Z",
+  "events_anchor_at": "2026-09-01T21:46:15.874682Z",
   "score_history": [
-    {
-      "t": "2026-08-31T16:01:39.450497Z",
-      "s": 2.0
-    },
     {
       "t": "2026-08-31T20:03:41.973507Z",
       "s": 2.0
@@ -163,6 +163,10 @@
     },
     {
       "t": "2026-09-02T16:01:32.396940Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-02T18:41:27.921077Z",
       "s": 3.0
     }
   ]
