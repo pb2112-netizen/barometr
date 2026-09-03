@@ -1,31 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Hegseth body-shaming Canadian cadets continues domestic political noise; Iran tanker attack and Venezuela oil deal are rhetoric-heavy without new military action or policy change.",
+  "global_score": 2.9,
+  "rationale": "Iran-Hormuz tanker attack continues escalation; Hegseth body-shaming rhetoric and Venezuela oil deal defense are minor domestic noise without policy change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Pete Hegseth criticized for body-shaming Canadian cadets: 'Literally they're kids'",
-      "label": "Hegseth body-shames Canadian military cadets",
-      "summary": "US Defense Secretary faces backlash for social media post mocking female Canadian armed forces members amid trade war. Continues domestic political noise with no policy impact.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/02/pete-hegseth-body-shaming-post"
-        }
-      ],
-      "detected_at": "2026-09-02T21:48:57.734088Z"
-    },
-    {
       "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-      "label": "Iran tanker attack kills two sailors",
-      "summary": "Saudi Arabia confirms two sailors died in Strait of Hormuz projectile strike. Continues Middle East tensions with no new US military action or oil market spike.",
-      "score": 3.0,
+      "label": "Iran strikes Saudi tanker in Hormuz Strait",
+      "summary": "Projectile attack on tanker in key energy route maintains US-Iran escalation, affecting oil markets and US military posture in region.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,12 +23,12 @@
     },
     {
       "title": "Trump ally defends Venezuela oil deal amid 'gunpoint diplomacy' criticism",
-      "label": "Energy chief defends Venezuela oil deal",
-      "summary": "Energy Secretary Chris Wright denies US seeks to commandeer Venezuela's oil, calling deal transformation of relations. Rhetoric-only defense with no confirmed policy change.",
-      "score": 2.5,
+      "label": "Energy chief defends Venezuela oil deal rhetoric",
+      "summary": "Wright denies US oil grab; rhetoric without confirmed policy change or measurable impact on US energy markets.",
+      "score": 2.4,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "Guardian"
       ],
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-09-03T09:47:49.616547Z"
+    },
+    {
+      "title": "Pete Hegseth criticized for body-shaming Canadian cadets: 'Literally they're kids'",
+      "label": "Defense Secretary mocks Canadian cadets online",
+      "summary": "Hegseth's social media post sparks backlash amid trade tensions; rhetoric without policy impact on US-Canada relations.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/02/pete-hegseth-body-shaming-post"
+        }
+      ],
+      "detected_at": "2026-09-02T21:48:57.734088Z"
     }
   ],
   "short_summary": "EU and NATO vow pressure on Russia after drone",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-03T09:47:49.616547Z",
+  "updated_at": "2026-09-03T10:01:29.742876Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -168,6 +168,10 @@
     {
       "t": "2026-09-03T09:47:49.616547Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-03T10:01:29.742876Z",
+      "s": 2.9
     }
   ]
 }
