@@ -1,12 +1,31 @@
 {
-  "global_score": 5.7,
-  "rationale": "Russia sabotage campaign with Leipzig attack threatens EU security including Romania; diesel prices at record highs continue impacting economy.",
+  "global_score": 5.4,
+  "rationale": "Diesel prices remain at record highs from Iran conflict (continuation); Russia sabotage campaign in Europe continues with Leipzig attack; new drone strike on Kyiv security headquarters raises Black Sea regional concerns.",
   "top_events": [
     {
+      "title": "US diesel prices hit an all-time-high",
+      "label": "Diesel prices hit record high",
+      "summary": "Fuel surge since late February Iran conflict directly impacts Romanian transport costs and inflation.",
+      "score": 5.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T14:21:10.824957Z"
+    },
+    {
       "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "label": "Russia blamed for Leipzig airport sabotage",
-      "summary": "Germany blames Russia for Leipzig airport attack as part of escalating sabotage campaign across Europe, raising security concerns for Romania as EU and NATO member.",
-      "score": 5.2,
+      "label": "Russia sabotage campaign hits Europe",
+      "summary": "Leipzig airport attack blamed on Russia; part of broader sabotage threatening EU and Black Sea region security.",
+      "score": 4.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,47 +41,23 @@
       "detected_at": "2026-09-04T14:21:10.824957Z"
     },
     {
-      "title": "US diesel prices hit an all-time-high",
-      "label": "Diesel prices hit record from Iran conflict",
-      "summary": "Diesel reaches all-time high since Iran war began in February, continuing to drive up transport and living costs across Romania through EU fuel markets.",
-      "score": 5.7,
+      "title": "Russian drone strikes Ukraine's security service headquarters",
+      "label": "Russian drone strikes Kyiv headquarters",
+      "summary": "Unmanned strike in central Kyiv without warning; escalation in neighboring Ukraine raises Black Sea security concerns.",
+      "score": 4.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/4/diesel-price-hits-all-time-high-in-us-amid-iran-war-woes?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/4/09-04-russia-targets-ukraine-security-hq-clip-mp4?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-04T14:21:10.824957Z"
-    },
-    {
-      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
-      "label": "US envoys visit Moscow Kyiv for peace talks",
-      "summary": "Trump's peace envoys travel to Moscow and Kyiv this weekend to restart stalled negotiations, potentially affecting regional security dynamics near Romania.",
-      "score": 5.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-03T21:42:26.322055Z"
+      "detected_at": "2026-09-04T18:23:45.542651Z"
     }
   ],
   "short_summary": "Diesel prices hit record from Iran conflict",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-04T16:01:37.095347Z",
+  "updated_at": "2026-09-04T18:23:45.542651Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Diesel prices hit record from Iran conflict",
     "summary": "Diesel reaches all-time high since Iran war began in February, continuing to drive up transport and living costs across Romania through EU fuel markets.",
@@ -173,6 +168,10 @@
     {
       "t": "2026-09-04T16:01:37.095347Z",
       "s": 5.7
+    },
+    {
+      "t": "2026-09-04T18:23:45.542651Z",
+      "s": 5.4
     }
   ]
 }

@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-09-04T16:01:37.105939Z",
-  "ostatnia_ocena": 4.9,
+  "updated_at": "2026-09-04T18:23:45.551524Z",
+  "ostatnia_ocena": 6.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Diesel prices record high from Iran conflict",
-      "poziom_bazowy": 4.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 2,
       "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "Zelensky confirms sustained drone operations",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "President publicly confirms escalated Ukrainian drone."
     },
     {
       "temat": "Russia drone strike on Kyiv security HQ",
-      "poziom_bazowy": 5.0,
+      "poziom_bazowy": 6.0,
       "cykle_bez_zmian": 0,
       "opis": "Drone hit security headquarters in capital without warning."
     },
     {
       "temat": "US envoys return for Russia-Ukraine mediation",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 2,
       "opis": "Washington restarts negotiations; hope for war settlement."
     },
     {
       "temat": "Kyiv intelligence agency shootout",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 13,
       "opis": "Internal security incident in capital; domestic stability."
     },
     {
       "temat": "Ukraine targets Russian space infrastructure",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 6.0,
+      "cykle_bez_zmian": 0,
       "opis": "Strikes on space program facilities; tactical shift in war."
     },
     {
       "temat": "Israel announces plan to overthrow Iran",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 19,
       "opis": "Netanyahu declares effort to topple Iranian government."
     },
     {
       "temat": "Iran tanker attack in Hormuz kills sailors",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 19,
       "opis": "Projectile strike on Saudi tanker; US-Iran escalation."
     }
   ],
@@ -132,11 +132,35 @@
     {
       "t": "2026-09-04T16:01:37.099801Z",
       "s": 4.9
+    },
+    {
+      "t": "2026-09-04T18:23:45.545723Z",
+      "s": 6.0
     }
   ],
-  "events_anchor_at": "2026-09-04T14:21:10.829192Z",
+  "events_anchor_at": "2026-09-04T16:01:37.099801Z",
   "event_detected_at": {
-    "trump's peace envoys to visit moscow and kyiv over weekend, reports say": {
+    "russian drone strikes ukraine's security service headquarters": {
+      "detected_at": "2026-09-04T16:01:37.099801Z",
+      "peak_at": "2026-09-04T18:23:45.545723Z",
+      "peak_score_at": "2026-09-04T18:23:45.545723Z",
+      "peak_score": 6.0,
+      "peak_sentiment": "negative",
+      "title": "Russian drone strikes Ukraine's security service headquarters",
+      "peak_label": "Russian drone hits Kyiv security HQ",
+      "peak_summary": "Unmanned aerial vehicle struck without warning in heart of capital, injuring five people—direct attack on domestic intelligence infrastructure.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/4/09-04-russia-targets-ukraine-security-hq-clip-mp4?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump's peace envoys to visit moscow and kyiv over weekend": {
       "detected_at": "2026-09-03T21:42:26.325072Z",
       "peak_at": "2026-09-04T16:01:37.099801Z",
       "peak_score_at": "2026-09-04T16:01:37.099801Z",
@@ -149,22 +173,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russia hits ukrainian security headquarters in drone attack, zelensky says": {
-      "detected_at": "2026-09-04T16:01:37.099801Z",
-      "peak_at": "2026-09-04T16:01:37.099801Z",
-      "peak_score_at": "2026-09-04T16:01:37.099801Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "peak_label": "Russia drone strikes Kyiv security headquarters",
-      "peak_summary": "Russian drone struck Ukrainian security headquarters in central Kyiv without warning, continuing attacks on capital infrastructure.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -330,8 +338,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
-    "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
+    "Russian drone strikes Ukraine's security service headquarters",
+    "Trump's peace envoys to visit Moscow and Kyiv over weekend",
     "US diesel prices hit an all-time-high"
   ]
 }
