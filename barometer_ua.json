@@ -1,13 +1,51 @@
 {
-  "global_score": 2.0,
-  "rationale": "No new developments directly affecting Ukrainian war situation; distant events with no impact on ongoing conflict.",
+  "global_score": 5.2,
+  "rationale": "US envoys returning to Russia and Ukraine for mediation represents significant new diplomatic push; diesel price surge affects Ukrainian military logistics and economy; Houthi offensive in Yemen is distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Transplanted pig kidney works in US man's body for record 271 days",
-      "label": "Pig kidney transplant sets 271-day record",
-      "summary": "Medical breakthrough in xenotransplantation as patient survives nine months with pig kidney. No direct impact on Ukrainian daily life or war situation.",
-      "score": 2.0,
+      "title": "US envoys headed to Russia and Ukraine to relaunch mediation",
+      "label": "US envoys return to restart Russia-Ukraine talks",
+      "summary": "Washington's negotiators return, raising hope for progress toward settlement. Significant new diplomatic effort directly affecting Ukraine's war trajectory.",
+      "score": 4.0,
       "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/4/us-envoys-headed-to-russia-and-ukraine-to-relaunch-mediation?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-03T14:33:57.019013Z"
+    },
+    {
+      "title": "US diesel prices hit an all-time-high",
+      "label": "Diesel prices reach all-time high from Iran war",
+      "summary": "Fuel costs soar since Iran conflict began. Affects Ukrainian military logistics and civilian transport costs during ongoing war.",
+      "score": 5.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T14:21:10.829192Z"
+    },
+    {
+      "title": "Transplanted pig kidney works in US man's body for record 271 days",
+      "label": "Pig kidney transplant sets 271-day survival record",
+      "summary": "Medical breakthrough in xenotransplantation. Continuation of tracked story with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "nauka",
       "sources": [
@@ -20,51 +58,32 @@
         }
       ],
       "detected_at": "2026-09-04T04:30:25.264839Z"
-    },
-    {
-      "title": "US investigating if missile hit Iran wedding, Vance says",
-      "label": "US probes missile strike on Iran wedding",
-      "summary": "Investigation into civilian casualties from missile shrapnel. Rhetoric-only statement with no impact on Ukrainian war or Western aid.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T00:05:34.311579Z"
     }
   ],
-  "short_summary": "Ukrainian intel agencies in Kyiv firefight",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Diesel prices reach all-time high from Iran war",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-04T10:01:25.267735Z",
+  "updated_at": "2026-09-04T14:21:10.829192Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Ukrainian intel agencies in Kyiv firefight",
-    "summary": "Three intelligence officers wounded in shootout in Kyiv, described by Zelenskyy as disgraceful. Serious internal security incident in the capital during wartime, raising concerns about domestic.",
-    "title": "Ukrainian intel agencies in Kyiv firefight: What happened and why?",
-    "score": 4.2,
+    "label": "Diesel prices reach all-time high from Iran war",
+    "summary": "Fuel costs soar since Iran conflict began. Affects Ukrainian military logistics and civilian transport costs during ongoing war.",
+    "title": "US diesel prices hit an all-time-high",
+    "score": 5.2,
     "sentiment": "negative",
-    "detected_at": "2026-09-03T14:33:57.019013Z",
-    "peak_at": "2026-09-03T14:33:57.019013Z",
+    "detected_at": "2026-09-04T14:21:10.829192Z",
+    "peak_at": "2026-09-04T14:21:10.829192Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/9/3/ukrainian-intel-agencies-in-kyiv-firefight-what-happened-and-why?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-03T14:33:57.019013Z",
+  "events_anchor_at": "2026-09-04T14:21:10.829192Z",
   "score_history": [
     {
       "t": "2026-09-02T14:28:41.063348Z",
@@ -145,6 +164,10 @@
     {
       "t": "2026-09-04T10:01:25.267735Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-04T14:21:10.829192Z",
+      "s": 5.2
     }
   ]
 }

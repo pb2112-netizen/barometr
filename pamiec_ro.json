@@ -1,49 +1,55 @@
 {
-  "updated_at": "2026-09-04T10:01:25.271386Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-09-04T14:21:10.833474Z",
+  "ostatnia_ocena": 5.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Diesel prices record high from Iran conflict",
+      "poziom_bazowy": 6.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Fuel surge since late Feb war; transport/living costs hit."
+    },
+    {
+      "temat": "Russia sabotage campaign in Europe",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Leipzig attack and incidents blamed on Russia; EU security."
+    },
+    {
       "temat": "Volkswagen 50,000 job cuts in Europe",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "Major EU employer announces massive layoffs; regional."
     },
     {
       "temat": "Trump conditions NATO support on Iran war backing",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
-      "opis": "US signals alliance commitments conditional; NATO trust."
-    },
-    {
-      "temat": "Iran-US civilian casualties and tanker attacks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "Wedding strike and Hormuz tanker hit; energy threat."
+      "cykle_bez_zmian": 5,
+      "opis": "US signals alliance commitments conditional; NATO trust."
     },
     {
       "temat": "Southeast Asia wildfire haze from El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Toxic smog from intensified El Niño wildfires; climate."
     },
     {
       "temat": "Kyiv intelligence agency shootout",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Internal security incident in Ukrainian capital; regional."
     },
     {
       "temat": "Netherlands moves gold reserves to London",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Crisis preparedness amid geopolitical unrest; EU hedging."
     },
     {
-      "temat": "US strikes on Iran",
+      "temat": "Iran-US civilian casualties and tanker attacks",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "US military begins striking Iranian targets; energy impact."
+      "cykle_bez_zmian": 19,
+      "opis": "Wedding strike and Hormuz tanker hit; energy threat."
     }
   ],
   "score_history": [
@@ -126,15 +132,51 @@
     {
       "t": "2026-09-04T10:01:25.264660Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-09-04T14:21:10.824957Z",
+      "s": 5.5
     }
   ],
-  "events_anchor_at": "2026-09-04T04:01:27.479570Z",
+  "events_anchor_at": "2026-09-04T14:21:10.824957Z",
   "event_detected_at": {
+    "us diesel prices hit an all-time-high": {
+      "detected_at": "2026-09-04T14:21:10.824957Z",
+      "peak_at": "2026-09-04T14:21:10.824957Z",
+      "peak_score_at": "2026-09-04T14:21:10.824957Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "US diesel prices hit an all-time-high",
+      "peak_label": "Diesel prices reach record high from Iran war",
+      "peak_summary": "Fuel costs soar since Iran conflict began, mirroring oil price surge. Directly impacts Romanian transport sector and household budgets.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "europe targeted by spiralling campaign of sabotage - and russia is the chief suspect": {
+      "detected_at": "2026-09-04T14:21:10.824957Z",
+      "peak_at": "2026-09-04T14:21:10.824957Z",
+      "peak_score_at": "2026-09-04T14:21:10.824957Z",
+      "peak_score": 5.5,
+      "peak_sentiment": "negative",
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "peak_label": "Russia blamed for sabotage wave across Europe",
+      "peak_summary": "Germany attributes Leipzig airport attack to Russia amid series of suspicious incidents. Heightens security concerns for Black Sea NATO member.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "volkswagen board approves plan to cut another 50,000 jobs": {
       "detected_at": "2026-09-04T04:01:27.479570Z",
       "peak_at": "2026-09-04T04:01:27.479570Z",
       "peak_score_at": "2026-09-04T04:01:27.479570Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Volkswagen board approves plan to cut another 50,000 jobs",
       "peak_label": "VW to cut 50,000 jobs across Europe",
@@ -159,22 +201,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "un warns of 'supersized' el niño as countries prepare for impact": {
-      "detected_at": "2026-09-03T10:01:29.738086Z",
-      "peak_at": "2026-09-03T10:01:29.738086Z",
-      "peak_score_at": "2026-09-03T10:01:29.738086Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "UN warns of 'supersized' El Niño as countries prepare for impact",
-      "peak_label": "UN warns supersized El Niño threatens economies",
-      "peak_summary": "WMO warns weather phenomenon could disrupt global economies, indirectly affecting Romania's trade and inflation.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -340,8 +366,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Volkswagen board approves plan to cut another 50,000 jobs",
-    "US investigating if missile hit Iran wedding, Vance says",
-    "UN warns of 'supersized' El Niño as countries prepare for impact"
+    "US diesel prices hit an all-time-high",
+    "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+    "Volkswagen board approves plan to cut another 50,000 jobs"
   ]
 }
