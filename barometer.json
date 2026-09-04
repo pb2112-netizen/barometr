@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "VW job cuts continue as known background; other events distant from Polish daily life.",
+  "global_score": 2.9,
+  "rationale": "VW job cuts continue as known background; other events distant with no direct link to Polish daily life.",
   "top_events": [
     {
       "title": "Volkswagen board approves plan to cut another 50,000 jobs",
       "label": "Volkswagen approves 50,000 more job cuts",
-      "summary": "Major EU employer announces second wave of massive layoffs by 2030, adding to regional economic uncertainty and labor market pressure.",
-      "score": 3.0,
+      "summary": "VW Group plans total 100,000 job cuts by 2030 across Europe, continuing major restructuring already known to Polish workers and suppliers.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -24,9 +24,9 @@
     {
       "title": "US investigating if missile hit Iran wedding, Vance says",
       "label": "US probes missile strike on Iran wedding",
-      "summary": "Investigation into civilian casualties continues as US-Iran conflict persists; indirect energy market risk remains background concern.",
-      "score": 2.4,
-      "sentiment": "negative",
+      "summary": "Investigation into whether US missile killed four at Iranian ceremony; rhetoric without confirmed policy change affecting Poland.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -41,31 +41,36 @@
       "detected_at": "2026-09-04T00:05:34.306113Z"
     },
     {
-      "title": "UN warns of 'supersized' El Niño as countries prepare for impact",
-      "label": "UN warns supersized El Niño threatens economies",
-      "summary": "Global weather disruption warning continues; potential indirect impact on EU food prices and supply chains remains background risk.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
+      "label": "Milei threatens oil sanctions over Falklands",
+      "summary": "Argentina's president renews territorial claim and threatens sanctions on British oil firms; distant diplomatic posturing with no Polish impact.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
         }
       ],
-      "detected_at": "2026-09-03T09:47:49.609718Z"
+      "detected_at": "2026-09-04T09:37:57.904827Z"
     }
   ],
   "short_summary": "Trump links UK Falklands support to Iran war",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-04T04:30:25.259696Z",
+  "updated_at": "2026-09-04T09:37:57.904827Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-09-04T00:05:34.306113Z",
   "score_history": [
-    {
-      "t": "2026-09-02T04:31:21.562107Z",
-      "s": 4.5
-    },
-    {
-      "t": "2026-09-02T09:36:33.154381Z",
-      "s": 4.3
-    },
     {
       "t": "2026-09-02T10:00:57.574764Z",
       "s": 4.1
@@ -168,6 +165,10 @@
     {
       "t": "2026-09-04T04:30:25.259696Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-04T09:37:57.904827Z",
+      "s": 2.9
     }
   ]
 }
