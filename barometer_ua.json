@@ -1,73 +1,78 @@
 {
-  "global_score": 5.2,
-  "rationale": "US envoys returning to Russia and Ukraine for mediation represents significant new diplomatic push; diesel price surge affects Ukrainian military logistics and economy; Houthi offensive in Yemen is distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.9,
+  "rationale": "US envoys visiting Moscow and Kyiv this weekend for peace talks represents significant new diplomatic push; drone strike on security headquarters in Kyiv continues war reality. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US envoys headed to Russia and Ukraine to relaunch mediation",
-      "label": "US envoys return to restart Russia-Ukraine talks",
-      "summary": "Washington's negotiators return, raising hope for progress toward settlement. Significant new diplomatic effort directly affecting Ukraine's war trajectory.",
-      "score": 4.0,
+      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
+      "label": "US envoys visit Moscow Kyiv this weekend",
+      "summary": "Trump's peace envoys travel to Moscow and Kyiv this weekend to restart stalled negotiations, representing renewed diplomatic effort to end the war.",
+      "score": 4.9,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/4/us-envoys-headed-to-russia-and-ukraine-to-relaunch-mediation?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-03T14:33:57.019013Z"
+      "detected_at": "2026-09-03T21:42:26.325072Z"
+    },
+    {
+      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
+      "label": "Russia drone strikes Kyiv security headquarters",
+      "summary": "Russian drone struck Ukrainian security headquarters in central Kyiv without warning, continuing attacks on capital infrastructure.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T16:01:37.099801Z"
     },
     {
       "title": "US diesel prices hit an all-time-high",
-      "label": "Diesel prices reach all-time high from Iran war",
-      "summary": "Fuel costs soar since Iran conflict began. Affects Ukrainian military logistics and civilian transport costs during ongoing war.",
-      "score": 5.2,
+      "label": "Diesel prices hit record from Iran war",
+      "summary": "Diesel reaches all-time high since Iran conflict began, continuing to strain Ukrainian military logistics and civilian fuel supplies.",
+      "score": 4.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/4/diesel-price-hits-all-time-high-in-us-amid-iran-war-woes?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-04T14:21:10.829192Z"
-    },
-    {
-      "title": "Transplanted pig kidney works in US man's body for record 271 days",
-      "label": "Pig kidney transplant sets 271-day survival record",
-      "summary": "Medical breakthrough in xenotransplantation. Continuation of tracked story with no direct impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c305qn2jeggo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T04:30:25.264839Z"
     }
   ],
   "short_summary": "Diesel prices reach all-time high from Iran war",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-04T14:21:10.829192Z",
+  "updated_at": "2026-09-04T16:01:37.099801Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Diesel prices reach all-time high from Iran war",
     "summary": "Fuel costs soar since Iran conflict began. Affects Ukrainian military logistics and civilian transport costs during ongoing war.",
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.829192Z",
   "score_history": [
-    {
-      "t": "2026-09-02T14:28:41.063348Z",
-      "s": 5.5
-    },
-    {
-      "t": "2026-09-02T16:01:32.396940Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-02T18:41:27.921077Z",
       "s": 3.0
@@ -168,6 +165,10 @@
     {
       "t": "2026-09-04T14:21:10.829192Z",
       "s": 5.2
+    },
+    {
+      "t": "2026-09-04T16:01:37.099801Z",
+      "s": 4.9
     }
   ]
 }
