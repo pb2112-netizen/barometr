@@ -1,14 +1,14 @@
 {
-  "global_score": 5.7,
-  "rationale": "Russia drone strike on Kyiv security headquarters is a new direct attack on capital infrastructure (new); US envoys returning for mediation continues (continuation); diesel prices remain high affecting logistics (continuation).",
+  "global_score": 5.4,
+  "rationale": "Russia drone strike on Kyiv security headquarters is a direct attack on capital infrastructure; US envoys returning for mediation continues diplomatic track; diesel prices affect military logistics but no new change. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "label": "Russia drone strikes Kyiv security headquarters",
-      "summary": "Unmanned aerial vehicle hit security headquarters in capital without warning, direct attack on critical government infrastructure in heart of Kyiv.",
+      "label": "Russia drone strikes Kyiv security HQ",
+      "summary": "Unmanned aerial vehicle struck security headquarters in capital without warning, direct attack on critical government infrastructure.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -24,27 +24,32 @@
     {
       "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
       "label": "US envoys visit Moscow and Kyiv",
-      "summary": "Witkoff and Kushner continue mediation efforts after talks stalled. Ongoing diplomatic process with uncertain outcome for war settlement.",
-      "score": 5.7,
+      "summary": "Witkoff and Kushner travel to restart peace negotiations after talks stalled, continuing diplomatic efforts to end war.",
+      "score": 5.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-03T21:42:26.325072Z"
     },
     {
       "title": "US diesel prices hit an all-time-high",
-      "label": "Diesel prices hit record high",
-      "summary": "Fuel surge from Iran conflict affects military logistics and civilian transport costs across Ukraine during ongoing war operations.",
-      "score": 4.6,
+      "label": "US diesel prices hit all-time high",
+      "summary": "Fuel costs surge since late February Iran conflict, affecting military logistics and civilian transport costs in Ukraine.",
+      "score": 4.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-04T21:27:52.651950Z",
+  "updated_at": "2026-09-04T22:01:36.805695Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -89,14 +94,6 @@
   },
   "events_anchor_at": "2026-09-04T16:01:37.099801Z",
   "score_history": [
-    {
-      "t": "2026-09-02T21:48:57.732082Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-09-02T22:01:27.688638Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-03T00:14:33.587422Z",
       "s": 3.0
@@ -172,6 +169,10 @@
     {
       "t": "2026-09-04T21:27:52.651950Z",
       "s": 5.7
+    },
+    {
+      "t": "2026-09-04T22:01:36.805695Z",
+      "s": 5.4
     }
   ]
 }
