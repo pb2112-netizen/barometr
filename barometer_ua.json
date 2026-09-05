@@ -1,30 +1,11 @@
 {
-  "global_score": 3.2,
-  "rationale": "US diplomatic efforts continue with Putin meeting but no breakthrough; military situation unchanged; fuel price pressure persists.",
+  "global_score": 3.0,
+  "rationale": "US envoys meet Putin (rhetoric, no outcome yet); US-Iran strikes continue (tracked at 3.2); no new qualitative change in war situation this cycle.",
   "top_events": [
-    {
-      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
-      "label": "US strikes Iranian oil tankers in Gulf",
-      "summary": "Continued US-Iran military engagement sustains high fuel prices, affecting Ukrainian military logistics and civilian transport costs during wartime.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-05T16:01:36.529581Z"
-    },
     {
       "title": "US envoys meet Putin in Moscow for Ukraine talks",
       "label": "US envoys meet Putin for Ukraine talks",
-      "summary": "Witkoff and Kushner hold Kremlin meeting; diplomatic push continues but Putin says situation 'not so easy,' no concrete progress reported on war settlement.",
+      "summary": "Witkoff and Kushner in Moscow; no deal announced yet, rhetoric only. Ukrainians watch closely for any shift in US mediation.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -44,6 +25,25 @@
         }
       ],
       "detected_at": "2026-09-03T14:33:57.019013Z"
+    },
+    {
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "label": "US and Iran trade retaliatory attacks on ships as",
+      "summary": "Naval strikes continue in Gulf; oil supply risk sustains high diesel prices affecting Ukrainian military logistics and civilian fuel.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T22:54:02.827162Z"
     }
   ],
   "short_summary": "US strikes Iranian oil tankers in Gulf",
@@ -51,9 +51,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-05T22:01:33.310613Z",
+  "updated_at": "2026-09-05T22:54:02.827162Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US strikes Iranian oil tankers in Gulf",
     "summary": "US military action against Iranian oil infrastructure threatens to worsen fuel prices, affecting Ukrainian military logistics and civilian transport costs.",
@@ -158,6 +158,10 @@
     {
       "t": "2026-09-05T22:01:33.310613Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-05T22:54:02.827162Z",
+      "s": 3.0
     }
   ]
 }
