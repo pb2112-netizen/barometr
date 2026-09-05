@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Continuation of known situations: Germany AfD election (already tracked), Falklands dispute (already tracked). UN map resolution and Bolivia explosion are distant events with no direct link to Portuguese daily life.",
+  "global_score": 2.4,
+  "rationale": "Falklands sovereignty dispute rhetoric from Milei and Trump continues without policy change; Germany AfD vote continues; Indonesia wildfire rescue is distant with no direct link to Portugal. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Javier Milei: 'winds of change' support Argentina's claim to Falkland Islands",
+      "label": "Milei claims Falklands sovereignty shift coming",
+      "summary": "Argentine president cites Trump's suggestion on reconsidering US stance and threatens UK oil sanctions; rhetoric continues without confirmed policy change affecting Atlantic region.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
+        }
+      ],
+      "detected_at": "2026-09-04T16:01:37.097727Z"
+    },
+    {
       "title": "Germany's far-right AfD bids for first taste of power in eastern vote",
-      "label": "Germany AfD seeks first state power since WWII",
-      "summary": "Far-right party could win outright majority in Saxony-Anhalt; first state-level power since 1945 would shift EU political landscape.",
-      "score": 2.5,
+      "label": "Germany AfD seeks first state power",
+      "summary": "Far-right party attempts to win Saxony-Anhalt state election; would be first far-right state government in Germany since WWII, affecting EU political climate.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,52 +41,23 @@
       "detected_at": "2026-09-05T00:04:00.659378Z"
     },
     {
-      "title": "UN votes to adopt new world map that shows Africa's true scale",
-      "label": "UN adopts new world map showing Africa's true size",
-      "summary": "Togo-sponsored resolution backed by 164 nations phases out traditional map; symbolic change with no immediate impact on Portuguese life.",
+      "title": "Orangutan mother and infant rescued from wildfire-hit forest in Indonesia",
+      "label": "Orangutan rescued from Indonesia wildfire",
+      "summary": "Mother and infant saved from shrinking forest patch threatened by wildfires; distant environmental story with no direct impact on Portugal.",
       "score": 1.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
-        }
-      ],
-      "detected_at": "2026-09-05T09:03:51.574406Z"
-    },
-    {
-      "title": "Javier Milei: 'winds of change' support Argentina's claim to Falkland Islands",
-      "label": "Argentina restates Falklands sovereignty claims",
-      "summary": "Milei claims momentum favors Argentina; UK rejects claims. Distant Atlantic dispute with no direct impact on Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Guardian"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/orangutan-mother-and-infant-rescued-from-wildfire-hit-forest-in-indonesia?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-04T16:01:37.097727Z"
+      "detected_at": "2026-09-05T10:01:32.880574Z"
     }
   ],
   "short_summary": "Diesel hits record high from Iran war",
@@ -75,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-05T09:03:51.574406Z",
+  "updated_at": "2026-09-05T10:01:32.880574Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Diesel hits record high from Iran war",
     "summary": "Diesel prices reach all-time high since Iran conflict began in February, continuing to raise transport and tourism operating costs across Portugal.",
@@ -99,14 +89,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.827167Z",
   "score_history": [
-    {
-      "t": "2026-09-03T09:47:49.612738Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-09-03T10:01:29.739633Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-03T14:33:57.016765Z",
       "s": 2.6
@@ -182,6 +164,10 @@
     {
       "t": "2026-09-05T09:03:51.574406Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-05T10:01:32.880574Z",
+      "s": 2.4
     }
   ]
 }
