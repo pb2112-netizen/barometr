@@ -1,36 +1,12 @@
 {
-  "global_score": 4.2,
-  "rationale": "Russia sabotage campaign continues as background; Trump envoys restart Ukraine talks (continuation of known mediation); Germany AfD election continues; no qualitative new change to Poland's security or economic situation this cycle.",
+  "global_score": 4.0,
+  "rationale": "Continuation of known threats: Russia sabotage campaign in Europe (Leipzig airport attack already tracked), Trump envoys returning to Moscow/Kyiv (ongoing mediation), Germany AfD election (already tracked). No qualitative new change this cycle.",
   "top_events": [
     {
-      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
-      "label": "Trump envoys visit Moscow and Kyiv for talks",
-      "summary": "US envoys restart Russia-Ukraine negotiations over the weekend, continuing diplomatic push already known from previous cycles. No breakthrough reported yet.",
-      "score": 4.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/trump-sends-envoys-to-russia-ukraine-with-new-peace-plan?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T16:01:37.093529Z"
-    },
-    {
       "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "label": "Russia blamed for Leipzig airport sabotage attack",
-      "summary": "Germany blames Russia for Leipzig airport attack, part of ongoing sabotage series across Europe already tracked in previous cycles.",
-      "score": 4.2,
+      "label": "Russia sabotage campaign targets Europe infrastructure",
+      "summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe continue to threaten regional security and infrastructure.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -46,10 +22,29 @@
       "detected_at": "2026-09-04T14:21:10.822862Z"
     },
     {
+      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
+      "label": "Trump envoys return to Moscow and Kyiv talks",
+      "summary": "US mediators restart negotiations after stall; potential shift in war trajectory affects regional security and NATO dynamics.",
+      "score": 4.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T16:01:37.093529Z"
+    },
+    {
       "title": "Germany's far-right AfD bids for first taste of power in eastern vote",
       "label": "Germany AfD seeks first state power since WWII",
-      "summary": "Far-right party campaigns for outright majority in Saxony-Anhalt state election, continuing known electoral push with potential EU implications.",
-      "score": 3.9,
+      "summary": "Far-right party could win outright majority in Saxony-Anhalt; first state-level power since 1945 would shift EU political landscape.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-05T04:25:46.434164Z",
+  "updated_at": "2026-09-05T09:03:51.571267Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US diesel hits all-time high from Iran war",
     "summary": "Diesel prices reach record levels since Iran conflict began in late February, continuing to drive up transport and living costs across Poland through fuel imports.",
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.822862Z",
   "score_history": [
-    {
-      "t": "2026-09-03T04:34:09.186561Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-03T09:47:49.609718Z",
       "s": 3.0
@@ -177,6 +168,10 @@
     {
       "t": "2026-09-05T04:25:46.434164Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-09-05T09:03:51.571267Z",
+      "s": 4.0
     }
   ]
 }

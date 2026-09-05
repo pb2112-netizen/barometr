@@ -1,12 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Germany AfD election continues; Malaysia haze emergency continues; Falklands rhetoric from Milei (no action); no new change to Portugal's cost of living or economy this cycle.",
+  "global_score": 2.5,
+  "rationale": "Continuation of known situations: Germany AfD election (already tracked), Falklands dispute (already tracked). UN map resolution and Bolivia explosion are distant events with no direct link to Portuguese daily life.",
   "top_events": [
     {
       "title": "Germany's far-right AfD bids for first taste of power in eastern vote",
       "label": "Germany AfD seeks first state power since WWII",
-      "summary": "Far-right party campaigns for state majority in Saxony-Anhalt, continuing known electoral push with potential EU implications.",
-      "score": 2.6,
+      "summary": "Far-right party could win outright majority in Saxony-Anhalt; first state-level power since 1945 would shift EU political landscape.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,44 +22,49 @@
       "detected_at": "2026-09-05T00:04:00.659378Z"
     },
     {
-      "title": "Malaysia declares emergency in Sarawak as haze from Indonesia worsens",
-      "label": "Malaysia declares haze emergency in Sarawak state",
-      "summary": "State of emergency declared as air pollution reaches hazardous levels, continuing known Southeast Asia wildfire crisis.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "UN votes to adopt new world map that shows Africa's true scale",
+      "label": "UN adopts new world map showing Africa's true size",
+      "summary": "Togo-sponsored resolution backed by 164 nations phases out traditional map; symbolic change with no immediate impact on Portuguese life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
-        "Al Jazeera"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/5/malaysia-declares-emergency-in-sarawak-as-haze-from-indonesia-worsens?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
         }
       ],
-      "detected_at": "2026-09-04T18:23:45.544130Z"
+      "detected_at": "2026-09-05T09:03:51.574406Z"
     },
     {
       "title": "Javier Milei: 'winds of change' support Argentina's claim to Falkland Islands",
-      "label": "Milei claims winds favor Argentina Falklands claim",
-      "summary": "Argentine president makes rhetorical claim on Falklands citing Trump; UK rejects. No action taken; continuation of known dispute.",
+      "label": "Argentina restates Falklands sovereignty claims",
+      "summary": "Milei claims momentum favors Argentina; UK rejects claims. Distant Atlantic dispute with no direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Guardian",
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
-        },
-        {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
         }
       ],
       "detected_at": "2026-09-04T16:01:37.097727Z"
@@ -70,7 +75,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-05T04:25:46.437281Z",
+  "updated_at": "2026-09-05T09:03:51.574406Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.827167Z",
   "score_history": [
-    {
-      "t": "2026-09-03T04:34:09.188255Z",
-      "s": 2.7
-    },
     {
       "t": "2026-09-03T09:47:49.612738Z",
       "s": 2.7
@@ -177,6 +178,10 @@
     {
       "t": "2026-09-05T04:25:46.437281Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-05T09:03:51.574406Z",
+      "s": 2.5
     }
   ]
 }
