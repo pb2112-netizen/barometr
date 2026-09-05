@@ -1,31 +1,12 @@
 {
-  "global_score": 5.6,
-  "rationale": "Diesel prices remain at all-time highs from Iran conflict (ongoing); US envoys returning to Moscow/Kyiv continues diplomatic track; Costa Rica signals openness to US military operations is new but low immediate impact.",
+  "global_score": 4.6,
+  "rationale": "US envoys restart Russia-Ukraine mediation continues existing diplomatic track; no new policy actions or market-moving events this cycle.",
   "top_events": [
     {
-      "title": "US diesel prices hit an all-time-high",
-      "label": "US diesel prices hit all-time high",
-      "summary": "Fuel costs surge since late February Iran conflict, driving transport costs and inflation pressures across American economy.",
-      "score": 5.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c7903r0grx0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T14:21:10.831368Z"
-    },
-    {
       "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
-      "label": "US envoys visit Moscow and Kyiv",
-      "summary": "Witkoff and Kushner travel to restart peace negotiations after talks stalled, continuing Trump administration's diplomatic push.",
-      "score": 4.8,
+      "label": "Trump envoys visit Moscow and Kyiv weekend",
+      "summary": "US negotiators restart diplomatic efforts to end Russia-Ukraine war after stalled talks, but no breakthrough or policy change announced yet.",
+      "score": 4.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -47,11 +28,11 @@
     },
     {
       "title": "Costa Rican president signals openness to domestic US military operations",
-      "label": "Costa Rica open to US military operations",
-      "summary": "President Fernandez notes Congress would need to approve any US military operations within the country, signaling potential regional shift.",
+      "label": "Costa Rica open to US military ops",
+      "summary": "President notes Congress approval needed for any US military operations within country, potentially expanding American presence in Central America.",
       "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -63,16 +44,35 @@
         }
       ],
       "detected_at": "2026-09-04T22:01:36.806687Z"
+    },
+    {
+      "title": "US regulator opens safety investigation as Tesla launches driverless taxis",
+      "label": "US probes Tesla driverless taxi safety",
+      "summary": "National Highway Traffic Safety Administration opens investigation into Tesla's new self-driving car as company launches autonomous taxi service.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/4/us-regulator-opens-safety-investigation-as-tesla-launches-driverless-taxis?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T00:04:00.663189Z"
     }
   ],
   "short_summary": "Diesel hits all-time high from Iran war",
-  "level_label": "Elevated",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-04T22:01:36.806687Z",
+  "updated_at": "2026-09-05T00:04:00.663189Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Diesel hits all-time high from Iran war",
     "summary": "Diesel prices reach record levels since Iran conflict began in late February, continuing to drive up transport costs and consumer inflation ahead of midterm elections.",
@@ -173,6 +173,10 @@
     {
       "t": "2026-09-04T22:01:36.806687Z",
       "s": 5.6
+    },
+    {
+      "t": "2026-09-05T00:04:00.663189Z",
+      "s": 4.6
     }
   ]
 }
