@@ -1,31 +1,12 @@
 {
-  "global_score": 4.4,
-  "rationale": "Drone strike on Kyiv security HQ continues known threat pattern; Trump envoys visit is continuation of stalled talks without breakthrough; no qualitative change to war situation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.2,
+  "rationale": "Trump envoys restart mediation talks (continuation of known diplomatic push); Russia drone strike on Kyiv security HQ continues as background; no new qualitative military escalation this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "label": "Russia drone strike hits Kyiv security HQ",
-      "summary": "Unmanned aerial vehicle struck security headquarters in capital without warning, continuing pattern of strikes on government facilities.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T16:01:37.099801Z"
-    },
     {
       "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
       "label": "Trump envoys visit Moscow and Kyiv for talks",
-      "summary": "Kushner and Witkoff return for negotiations after talks stalled; no breakthrough reported, maintaining uncertainty over war settlement.",
-      "score": 4.4,
+      "summary": "US envoys restart negotiations over weekend, continuing known diplomatic effort. Talks have stalled; no breakthrough reported yet.",
+      "score": 4.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,21 +25,59 @@
         }
       ],
       "detected_at": "2026-09-03T21:42:26.325072Z"
+    },
+    {
+      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
+      "label": "Russia drone strikes Kyiv security headquarters",
+      "summary": "Unmanned aerial vehicle struck security HQ in capital without warning, continuing known pattern of drone attacks on Kyiv.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T16:01:37.099801Z"
+    },
+    {
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "label": "Russia blamed for Leipzig airport sabotage attack",
+      "summary": "Germany blames Russia for Leipzig attack, part of ongoing sabotage series. Indirect concern for Ukraine's Western support stability.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T04:25:46.438948Z"
     }
   ],
   "short_summary": "Russian drone hits Kyiv security HQ",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-05T04:01:29.616065Z",
+  "updated_at": "2026-09-05T04:25:46.438948Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Russian drone hits Kyiv security HQ",
     "summary": "Unmanned aerial vehicle struck without warning in heart of capital, injuring five people—direct attack on domestic intelligence infrastructure.",
     "title": "Russian drone strikes Ukraine's security service headquarters",
-    "score": 5.9,
+    "score": 5.8,
     "sentiment": "negative",
     "detected_at": "2026-09-04T16:01:37.099801Z",
     "peak_at": "2026-09-04T18:23:45.545723Z",
@@ -154,6 +173,10 @@
     {
       "t": "2026-09-05T04:01:29.616065Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-09-05T04:25:46.438948Z",
+      "s": 4.2
     }
   ]
 }

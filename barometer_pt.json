@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Germany AfD election continues; Falklands dispute remains rhetoric without policy change; no new developments affecting Portuguese daily life.",
+  "global_score": 2.6,
+  "rationale": "Germany AfD election continues; Malaysia haze emergency continues; Falklands rhetoric from Milei (no action); no new change to Portugal's cost of living or economy this cycle.",
   "top_events": [
     {
       "title": "Germany's far-right AfD bids for first taste of power in eastern vote",
       "label": "Germany AfD seeks first state power since WWII",
-      "summary": "Far-right party attempts to win outright majority in Saxony-Anhalt, potentially affecting EU political direction.",
-      "score": 2.7,
+      "summary": "Far-right party campaigns for state majority in Saxony-Anhalt, continuing known electoral push with potential EU implications.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,25 +22,44 @@
       "detected_at": "2026-09-05T00:04:00.659378Z"
     },
     {
-      "title": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
-      "label": "UK rejects Argentina Falklands sovereignty claim",
-      "summary": "Britain reaffirms position after Milei cites 'winds of change'; rhetoric continues without policy change affecting Atlantic region.",
+      "title": "Malaysia declares emergency in Sarawak as haze from Indonesia worsens",
+      "label": "Malaysia declares haze emergency in Sarawak state",
+      "summary": "State of emergency declared as air pollution reaches hazardous levels, continuing known Southeast Asia wildfire crisis.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/malaysia-declares-emergency-in-sarawak-as-haze-from-indonesia-worsens?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-04T18:23:45.544130Z"
+    },
+    {
+      "title": "Javier Milei: 'winds of change' support Argentina's claim to Falkland Islands",
+      "label": "Milei claims winds favor Argentina Falklands claim",
+      "summary": "Argentine president makes rhetorical claim on Falklands citing Trump; UK rejects. No action taken; continuation of known dispute.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Guardian"
+        "Guardian",
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/sep/04/president-javier-milei-winds-of-change-support-argentina-claim-to-falkland-islands"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-09-04T16:01:37.097727Z"
@@ -51,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-05T04:01:29.614734Z",
+  "updated_at": "2026-09-05T04:25:46.437281Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -154,6 +173,10 @@
     {
       "t": "2026-09-05T04:01:29.614734Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-09-05T04:25:46.437281Z",
+      "s": 2.6
     }
   ]
 }
