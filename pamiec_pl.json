@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-09-05T12:42:11.665448Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-09-05T16:01:36.532883Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": "2026-09-04T14:21:10.832203Z",
   "stan_swiata": [
     {
       "temat": "Russian drone strike on Kyiv security HQ",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "Drone hit security headquarters in capital; regional threat."
     },
     {
       "temat": "Diesel prices all-time high from Iran conflict",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 11,
       "opis": "Fuel surge since late Feb Iran war; transport/inflation hit."
     },
     {
       "temat": "Russia sabotage campaign across Europe",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 11,
       "opis": "Leipzig airport attack blamed on Russia; series of."
     },
     {
       "temat": "Germany AfD state election breakthrough",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 7,
       "opis": "Far-right party seeks first state power since WWII; EU."
     },
     {
       "temat": "Trump conditions NATO support on Iran war backing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "US signals alliance commitments now conditional; NATO trust."
     },
     {
       "temat": "Volkswagen 50,000 job cuts in Europe",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Major EU employer announces massive layoffs; regional."
     },
     {
       "temat": "Southeast Asia wildfire haze from El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
+      "cykle_bez_zmian": 22,
       "opis": "Toxic smog from intensified El Niño wildfires; climate."
+    },
+    {
+      "temat": "US strikes Iranian oil tankers in Gulf",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Military action against Iran oil infrastructure; fuel price."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-03T14:33:57.012293Z",
-      "s": 2.8
-    },
     {
       "t": "2026-09-03T16:01:36.827777Z",
       "s": 2.7
@@ -130,15 +132,39 @@
     {
       "t": "2026-09-05T12:42:11.650548Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-05T16:01:36.523842Z",
+      "s": 4.2
     }
   ],
   "events_anchor_at": "2026-09-04T14:21:10.822862Z",
   "event_detected_at": {
+    "us hits three iranian oil tankers after saying its warships were targeted": {
+      "detected_at": "2026-09-05T16:01:36.523842Z",
+      "peak_at": "2026-09-05T16:01:36.523842Z",
+      "peak_score_at": "2026-09-05T16:01:36.523842Z",
+      "peak_score": 4.2,
+      "peak_sentiment": "negative",
+      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+      "peak_label": "US strikes Iranian oil tankers in Gulf",
+      "peak_summary": "US military action against Iranian oil infrastructure will likely push diesel and gasoline prices higher, directly increasing transport costs and inflation in Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss"
+        }
+      ]
+    },
     "us envoys arrive in moscow ahead of ukraine talks": {
       "detected_at": "2026-09-04T16:01:37.093529Z",
       "peak_at": "2026-09-04T16:01:37.093529Z",
       "peak_score_at": "2026-09-04T16:01:37.093529Z",
-      "peak_score": 5.0,
+      "peak_score": 4.9,
       "peak_sentiment": "positive",
       "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
       "peak_label": "Trump envoys visit Moscow and Kyiv for talks",
@@ -147,6 +173,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "europe targeted by spiralling campaign of sabotage - and russia is the chief suspect": {
+      "detected_at": "2026-09-04T14:21:10.822862Z",
+      "peak_at": "2026-09-05T16:01:36.523842Z",
+      "peak_score_at": "2026-09-04T14:21:10.822862Z",
+      "peak_score": 5.1,
+      "peak_sentiment": "negative",
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "peak_label": "Russia suspected in sabotage campaign across Europe",
+      "peak_summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe. Raises security threat for EU/NATO members including Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -182,22 +224,6 @@
         }
       ]
     },
-    "europe targeted by spiralling campaign of sabotage - and russia is the chief suspect": {
-      "detected_at": "2026-09-04T14:21:10.822862Z",
-      "peak_at": "2026-09-04T14:21:10.822862Z",
-      "peak_score_at": "2026-09-04T14:21:10.822862Z",
-      "peak_score": 5.2,
-      "peak_sentiment": "negative",
-      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "peak_label": "Russia suspected in sabotage campaign across Europe",
-      "peak_summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe. Raises security threat for EU/NATO members including Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "us diesel prices hit an all-time-high": {
       "detected_at": "2026-09-04T14:21:10.822862Z",
       "peak_at": "2026-09-04T16:01:37.093529Z",
@@ -220,8 +246,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US hits three Iranian oil tankers after saying its warships were targeted",
     "US envoys arrive in Moscow ahead of Ukraine talks",
-    "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-    "Germany's far-right AfD bids for first taste of power in eastern vote"
+    "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect"
   ]
 }

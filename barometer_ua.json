@@ -1,14 +1,14 @@
 {
-  "global_score": 4.8,
-  "rationale": "US envoys arrive in Moscow for talks represents new diplomatic push with potential ceasefire implications; drone strike on Kyiv security HQ continues; diesel prices remain elevated.",
+  "global_score": 3.6,
+  "rationale": "US diplomatic mission to Moscow and Kyiv continues as ongoing mediation effort; US strikes on Iranian oil tankers may worsen fuel costs affecting military logistics; no new direct military developments on Ukrainian territory this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US envoys arrive in Moscow ahead of Ukraine talks",
-      "label": "US envoys arrive Moscow for Ukraine talks",
-      "summary": "American diplomats hold talks in Russia before traveling to Kyiv Sunday, representing renewed diplomatic effort that could affect war trajectory.",
+      "label": "US envoys hold Russia talks before Kyiv visit",
+      "summary": "American negotiators continue diplomatic push with Russia before Ukraine visit; ongoing mediation effort without concrete settlement terms yet.",
       "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,50 +22,36 @@
       "detected_at": "2026-09-03T14:33:57.019013Z"
     },
     {
-      "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-      "label": "Russia drone strikes Kyiv security headquarters",
-      "summary": "Drone struck security HQ in capital without warning, continuing pattern of strikes on government infrastructure.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yep7y48x2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T16:01:37.099801Z"
-    },
-    {
-      "title": "At least 5 killed in Russian attacks on Ukraine as US envoys visit Moscow",
-      "label": "Five killed in Russian attacks on Ukraine",
-      "summary": "Russian strikes kill five as US diplomats arrive in Moscow; three-day limited ceasefire announced.",
-      "score": 4.8,
+      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+      "label": "US strikes Iranian oil tankers in Gulf",
+      "summary": "US military action against Iranian oil infrastructure threatens to worsen fuel prices, affecting Ukrainian military logistics and civilian transport costs.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-03T21:42:26.325072Z"
+      "detected_at": "2026-09-05T16:01:36.529581Z"
     }
   ],
   "short_summary": "Russian drone hits Kyiv security HQ",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-05T12:42:11.659748Z",
+  "updated_at": "2026-09-05T16:01:36.529581Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +75,6 @@
   },
   "events_anchor_at": "2026-09-04T16:01:37.099801Z",
   "score_history": [
-    {
-      "t": "2026-09-03T14:33:57.019013Z",
-      "s": 4.0
-    },
     {
       "t": "2026-09-03T16:01:36.831764Z",
       "s": 3.9
@@ -172,6 +154,10 @@
     {
       "t": "2026-09-05T12:42:11.659748Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-09-05T16:01:36.529581Z",
+      "s": 3.6
     }
   ]
 }

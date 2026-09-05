@@ -1,14 +1,38 @@
 {
-  "global_score": 3.1,
-  "rationale": "US envoys travel to Moscow for Ukraine talks represents new diplomatic initiative; Trump signs grey wolf order (already tracked); diesel prices remain elevated; mistrial in domestic case has limited national impact. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.1,
+  "rationale": "US military strikes on Iranian oil tankers mark significant escalation of direct US-Iran conflict, with potential for further retaliation and oil market disruption; ongoing diplomatic mission to Russia-Ukraine continues as background effort.",
   "top_events": [
     {
-      "title": "US envoys arrive in Moscow ahead of Ukraine talks",
-      "label": "US envoys arrive Moscow for Ukraine talks",
-      "summary": "Witkoff and Kushner hold talks with Russia before traveling to Ukraine Sunday, representing renewed US diplomatic push.",
-      "score": 3.0,
-      "sentiment": "positive",
+      "title": "US hits three Iranian oil tankers after saying its warships were targeted",
+      "label": "US strikes Iranian oil tankers after attacks",
+      "summary": "US military directly engages Iranian oil infrastructure after ballistic missile attacks on Navy warships, escalating Middle East conflict and risking further retaliation.",
+      "score": 5.1,
+      "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/us-says-it-hit-iran-oil-tankers-helping-finance-regional-proxies?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T16:01:36.531499Z"
+    },
+    {
+      "title": "US envoys arrive in Moscow ahead of Ukraine talks",
+      "label": "US envoys hold Russia talks before Kyiv visit",
+      "summary": "American diplomatic mission to Moscow and Kyiv continues as ongoing mediation effort without concrete settlement terms yet.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,52 +46,33 @@
       "detected_at": "2026-09-04T14:21:10.831368Z"
     },
     {
-      "title": "Trump signs order to remove endangered species protection for grey wolves",
-      "label": "Trump removes grey wolf endangered protections",
-      "summary": "Executive order signed removing protections to help ranchers, but conservationists warn it could derail population recovery efforts.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62k677d4lzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-05T10:01:32.883475Z"
-    },
-    {
-      "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
-      "label": "Mistrial declared in Clancy murder case",
-      "summary": "Jury deadlock puts murder case in limbo regarding criminal liability for deaths of three children.",
-      "score": 2.1,
+      "title": "Why has the Trump administration ordered staff to take polygraph tests?",
+      "label": "Pentagon polygraphs staff over media leaks",
+      "summary": "Joint Staff officers questioned over weapons stockpile leaks; ongoing internal security investigation continues as background concern.",
+      "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/why-has-the-trump-administration-ordered-staff-to-take-polygraph-tests?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-05T04:01:29.617634Z"
+      "detected_at": "2026-09-05T16:01:36.531499Z"
     }
   ],
   "short_summary": "Diesel hits all-time high from Iran war",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-05T12:42:11.663369Z",
+  "updated_at": "2026-09-05T16:01:36.531499Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Diesel hits all-time high from Iran war",
     "summary": "Diesel prices reach record levels since Iran conflict began in late February, continuing to drive up transport costs and consumer inflation ahead of midterm elections.",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.831368Z",
   "score_history": [
-    {
-      "t": "2026-09-03T14:33:57.021026Z",
-      "s": 2.8
-    },
     {
       "t": "2026-09-03T16:01:36.832931Z",
       "s": 2.7
@@ -172,6 +173,10 @@
     {
       "t": "2026-09-05T12:42:11.663369Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-05T16:01:36.531499Z",
+      "s": 5.1
     }
   ]
 }
