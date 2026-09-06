@@ -1,33 +1,14 @@
 {
-  "global_score": 2.8,
-  "rationale": "US-Ukraine talks continue without breakthrough; Germany AfD election shifts EU politics; ongoing regional security background.",
+  "global_score": 3.0,
+  "rationale": "AfD winning German state government shifts EU political dynamics; Ukraine war continuing into winter maintains Black Sea security concerns and energy uncertainty for Romania. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
-      "label": "Zelensky expects war into winter after US talks",
-      "summary": "US envoys left Kyiv without breakthrough; war continues near Romania's border, maintaining Black Sea regional security concerns.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-03T21:42:26.322055Z"
-    },
-    {
       "title": "German far-right set for big win in eastern state, projections show",
-      "label": "German AfD wins 44% in eastern state election",
-      "summary": "Far-right AfD projected to win over 44% in state vote; shifts EU political landscape with potential impact on Romania's EU relations and funding.",
-      "score": 3.0,
+      "label": "AfD wins first German state since WWII",
+      "summary": "Far-right party projected to win over 44% in Saxony-Anhalt. First state government since 1945 raises concerns about EU cohesion and support for eastern members facing security threats.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -41,10 +22,29 @@
       "detected_at": "2026-09-06T05:56:38.661007Z"
     },
     {
+      "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
+      "label": "Ukraine war to continue into winter",
+      "summary": "No breakthrough after US envoy talks. War extending into winter maintains Black Sea security concerns and refugee pressure on Romania's northern border.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-03T21:42:26.322055Z"
+    },
+    {
       "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-      "label": "Iran warns heavier response to US strikes",
-      "summary": "Tehran threatens escalation after US struck oil tankers; rhetoric continues existing Middle East tension affecting fuel prices already at record highs.",
-      "score": 2.0,
+      "label": "Iran threatens escalation after US strikes",
+      "summary": "Tehran warns of stronger retaliation following US strikes on oil tankers. Continued Middle East tension sustains elevated fuel prices affecting Romanian transport and living costs.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -61,18 +61,18 @@
     }
   ],
   "short_summary": "US envoys visit Moscow Kyiv for peace talks",
-  "level_label": "Stable",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-06T19:09:51.296177Z",
+  "updated_at": "2026-09-06T21:20:14.233057Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "US envoys visit Moscow Kyiv for peace talks",
     "summary": "Trump's peace envoys travel to Moscow and Kyiv this weekend to restart stalled negotiations, potentially affecting regional security dynamics near Romania.",
     "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
-    "score": 3.1,
+    "score": 3.0,
     "sentiment": "positive",
     "detected_at": "2026-09-03T21:42:26.322055Z",
     "peak_at": "2026-09-06T17:01:42.130408Z",
@@ -176,6 +176,10 @@
     {
       "t": "2026-09-06T19:09:51.296177Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-06T21:20:14.233057Z",
+      "s": 3.0
     }
   ]
 }
