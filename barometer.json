@@ -1,60 +1,31 @@
 {
-  "global_score": 2.8,
-  "rationale": "US-Iran tanker strikes continue to drive fuel prices; ongoing sabotage campaign and eastern border threats remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.7,
+  "rationale": "Continuation of known threats: US-Iran tanker strikes (already tracked), Russia sabotage in Europe (Leipzig context continues), Germany AfD election (ongoing). No qualitative new change to Polish security or economy this cycle.",
   "top_events": [
     {
       "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "label": "US hits Iranian oil tankers in Gulf",
-      "summary": "US strikes three Iranian oil tankers while Iran targets US-linked ships, escalating Gulf conflict that continues to push diesel prices higher across Europe.",
-      "score": 2.8,
+      "label": "US strikes Iranian oil tankers in Gulf",
+      "summary": "US hit three Iranian oil tankers; Iran targeted US-linked ships. Continues fuel price pressure already affecting Polish transport and inflation.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-05T22:54:02.823078Z"
     },
     {
-      "title": "US envoys set for Ukraine talks after meeting Putin in Moscow",
-      "label": "US envoys meet Putin before Ukraine talks",
-      "summary": "Witkoff and Kushner hold Moscow talks with hopes for productive Ukraine meetings, signaling renewed US diplomatic push on eastern border war.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-04T16:01:37.093529Z"
-    },
-    {
       "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "label": "Russia blamed for Leipzig airport attack",
-      "summary": "Germany blames Russia for Leipzig airport attack amid series of suspicious incidents across Europe, continuing regional security threat.",
-      "score": 2.8,
+      "label": "Russia sabotage campaign targets Europe infrastructure",
+      "summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe. Regional security threat continues without new escalation.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -68,6 +39,25 @@
         }
       ],
       "detected_at": "2026-09-04T14:21:10.822862Z"
+    },
+    {
+      "title": "German voters head to polls as far-right AfD party eyes historic state win",
+      "label": "Germany AfD seeks first state power since WWII",
+      "summary": "Saxony-Anhalt elections could see far-right party take state government. EU political stability concern continues; no result yet.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-06T05:56:38.659739Z"
     }
   ],
   "short_summary": "Russia suspected in sabotage campaign across Europe",
@@ -75,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-06T04:01:26.396643Z",
+  "updated_at": "2026-09-06T05:56:38.659739Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia suspected in sabotage campaign across Europe",
     "summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe. Raises security threat for EU/NATO members including Poland.",
     "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-09-04T14:21:10.822862Z",
     "peak_at": "2026-09-05T16:01:36.523842Z",
@@ -95,14 +85,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.822862Z",
   "score_history": [
-    {
-      "t": "2026-09-04T04:01:27.477474Z",
-      "s": 3.1
-    },
-    {
-      "t": "2026-09-04T04:30:25.259696Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-04T09:37:57.904827Z",
       "s": 2.9
@@ -186,6 +168,10 @@
     {
       "t": "2026-09-06T04:01:26.396643Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-06T05:56:38.659739Z",
+      "s": 2.7
     }
   ]
 }

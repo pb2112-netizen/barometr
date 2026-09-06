@@ -1,15 +1,34 @@
 {
-  "global_score": 3.1,
-  "rationale": "US-Iran tanker strikes continue to drive fuel prices affecting tourism and transport costs; other events remain distant.",
+  "global_score": 3.0,
+  "rationale": "US-Iran tanker strikes continue (already tracked fuel price impact). Indonesia volcano disrupts Jakarta airport — new event but minimal direct impact on Portuguese tourism or Atlantic shipping. No qualitative change to cost of living or Iberian climate threats.",
   "top_events": [
     {
       "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "label": "US strikes Iranian tankers in Gulf",
-      "summary": "US hits three Iranian oil tankers while Iran targets US-linked ships, escalating Gulf conflict that keeps diesel prices at record highs across EU.",
-      "score": 3.1,
+      "label": "US strikes Iranian oil tankers in Gulf",
+      "summary": "US hit three Iranian oil tankers; Iran targeted US-linked ships. Continues fuel price pressure already affecting Portuguese transport and tourism costs.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T22:54:02.825823Z"
+    },
+    {
+      "title": "Volcano eruption triggers flight suspensions at Indonesia's main airport",
+      "label": "Indonesia volcano disrupts Jakarta airport flights",
+      "summary": "Mount Anak Krakatau ash suspends flights at Soekarno-Hatta; 20,000 passengers stranded. Minimal direct impact on Portuguese air travel or economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC",
         "Al Jazeera"
@@ -17,52 +36,33 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss"
         },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-05T22:54:02.825823Z"
-    },
-    {
-      "title": "UN votes to adopt new world map that shows Africa's true scale",
-      "label": "UN adopts new world map resolution",
-      "summary": "Togo-sponsored resolution phases out traditional map that depicts Africa as similar size to Greenland, changing cartographic standard.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
-        }
-      ],
-      "detected_at": "2026-09-05T09:03:51.574406Z"
-    },
-    {
-      "title": "Indonesia's main airport suspends flights due to Anak Krakatau eruption",
-      "label": "Krakatau eruption disrupts Jakarta flights",
-      "summary": "Volcanic ash from Mount Anak Krakatau disrupts flights at Soekarno-Hatta International airport near Jakarta, affecting global air routes.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/6/indonesias-main-airport-suspends-flights-due-to-anak-krakatoa-eruption?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-06T04:01:26.398481Z"
+    },
+    {
+      "title": "German voters head to polls as far-right AfD party eyes historic state win",
+      "label": "Germany AfD seeks first state power since WWII",
+      "summary": "Saxony-Anhalt elections could see far-right party take state government. EU political stability concern continues; no result yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-06T05:56:38.662387Z"
     }
   ],
   "short_summary": "US strikes Iranian oil tankers in Gulf",
@@ -70,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-06T04:01:26.398481Z",
+  "updated_at": "2026-09-06T05:56:38.662387Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,14 +94,6 @@
   },
   "events_anchor_at": "2026-09-05T16:01:36.527887Z",
   "score_history": [
-    {
-      "t": "2026-09-04T04:01:27.481689Z",
-      "s": 2.7
-    },
-    {
-      "t": "2026-09-04T04:30:25.263244Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-04T09:37:57.908146Z",
       "s": 2.5
@@ -185,6 +177,10 @@
     {
       "t": "2026-09-06T04:01:26.398481Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-06T05:56:38.662387Z",
+      "s": 3.0
     }
   ]
 }
