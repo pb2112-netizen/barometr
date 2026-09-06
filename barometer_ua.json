@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "War confirmed to continue into winter without breakthrough after US envoy talks; this confirms prolonged conflict affecting Ukrainian daily life directly. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Zelensky confirms war will continue into winter without breakthrough, maintaining high baseline of ongoing conflict affecting all aspects of Ukrainian life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
       "label": "War confirmed to extend into winter",
-      "summary": "No breakthrough after US envoy talks in Kyiv. Zelensky confirms fighting will continue through winter, prolonging direct threat to Ukrainian lives and infrastructure.",
+      "summary": "President confirms no breakthrough after US envoy talks. Fighting will continue for months, dashing hopes for near-term resolution.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,11 +22,30 @@
       "detected_at": "2026-09-03T14:33:57.019013Z"
     },
     {
+      "title": "Peace talks rich in symbolism but fundamental differences between Russia and Ukraine remain",
+      "label": "US-mediated talks show no progress",
+      "summary": "Despite US envoy shuttle diplomacy between Moscow and Kyiv, fundamental differences remain unresolved. Expectation in Kyiv is continued fighting.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-06T19:09:51.298132Z"
+    },
+    {
       "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-      "label": "Iran threatens escalation after US strikes",
-      "summary": "Tehran warns of stronger retaliation after US struck Iranian oil tankers. Middle East escalation maintains upward pressure on fuel prices affecting Ukrainian military logistics.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "label": "Iran threatens US escalation in Gulf",
+      "summary": "Tehran warns of retaliation after US struck oil tankers. Rhetoric only; potential fuel price impact if conflict escalates.",
+      "score": 2.1,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -46,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-06T22:01:29.429774Z",
+  "updated_at": "2026-09-06T23:53:07.316763Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -70,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-03T14:33:57.019013Z",
   "score_history": [
-    {
-      "t": "2026-09-04T22:01:36.805695Z",
-      "s": 5.4
-    },
     {
       "t": "2026-09-05T00:04:00.661084Z",
       "s": 5.1
@@ -164,6 +179,10 @@
     },
     {
       "t": "2026-09-06T22:01:29.429774Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-06T23:53:07.316763Z",
       "s": 3.0
     }
   ]
