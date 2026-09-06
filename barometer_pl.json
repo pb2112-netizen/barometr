@@ -1,22 +1,27 @@
 {
-  "global_score": 3.0,
-  "rationale": "US-Iran naval strikes continue (already tracked at 3.6); envoy-Putin meeting is rhetoric without outcome yet; other events distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "US-Iran naval strikes escalate Gulf conflict, directly pushing diesel prices higher and threatening energy supply routes critical to Poland's economy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "label": "US and Iran trade retaliatory attacks on ships as",
-      "summary": "Naval strikes continue in Gulf; oil supply risk sustains high diesel prices affecting Polish transport and inflation.",
-      "score": 3.0,
+      "label": "US-Iran naval strikes escalate Gulf conflict",
+      "summary": "Direct military engagement between US and Iranian forces in the Gulf threatens further fuel price increases and supply disruption for Poland's energy-dependent economy.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-05T22:54:02.823078Z"
@@ -24,8 +29,8 @@
     {
       "title": "US envoys meet Putin in Moscow for Ukraine talks",
       "label": "US envoys meet Putin for Ukraine talks",
-      "summary": "Witkoff and Kushner in Moscow; no deal yet, rhetoric only. Poland watches closely for any shift in regional security.",
-      "score": 3.0,
+      "summary": "Washington diplomatic push in Moscow signals potential shift in war next door, though outcome remains uncertain and rhetoric-focused for now.",
+      "score": 2.9,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -47,9 +52,9 @@
     },
     {
       "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "label": "Russia blamed for Leipzig airport sabotage attack",
-      "summary": "Germany blames Russia for Leipzig attack; ongoing sabotage campaign across EU raises security concerns in Poland.",
-      "score": 3.0,
+      "label": "Russia sabotage campaign targets Europe",
+      "summary": "Leipzig airport attack part of broader Russian sabotage series across EU, maintaining regional security threat level.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -66,18 +71,18 @@
     }
   ],
   "short_summary": "Russia suspected in sabotage campaign across Europe",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-05T22:54:02.823078Z",
+  "updated_at": "2026-09-06T00:55:48.913728Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia suspected in sabotage campaign across Europe",
     "summary": "Germany blames Russia for Leipzig airport attack; series of suspicious incidents across Europe. Raises security threat for EU/NATO members including Poland.",
     "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-    "score": 4.6,
+    "score": 4.5,
     "sentiment": "negative",
     "detected_at": "2026-09-04T14:21:10.822862Z",
     "peak_at": "2026-09-05T16:01:36.523842Z",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-09-04T14:21:10.822862Z",
   "score_history": [
-    {
-      "t": "2026-09-04T00:05:34.306113Z",
-      "s": 3.2
-    },
     {
       "t": "2026-09-04T04:01:27.477474Z",
       "s": 3.1
@@ -177,6 +178,10 @@
     {
       "t": "2026-09-05T22:54:02.823078Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-06T00:55:48.913728Z",
+      "s": 2.9
     }
   ]
 }
