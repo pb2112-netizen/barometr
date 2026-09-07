@@ -1,12 +1,12 @@
 {
-  "global_score": 4.5,
-  "rationale": "Round-the-clock Russian strikes at record high directly disrupt daily life in Kyiv; diesel price surge from Iran conflict continues to affect logistics.",
+  "global_score": 4.3,
+  "rationale": "Kyiv air raid alerts at record high represent continuation of known Russian strike pattern; oil price surge from Hormuz affects fuel logistics but is indirect; no qualitative new military developments on Ukrainian territory.",
   "top_events": [
     {
       "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
       "label": "Kyiv air raid alerts hit record high",
-      "summary": "Round-the-clock Russian strikes disrupt schools, businesses, and public transport across Kyiv, directly affecting daily life for residents.",
-      "score": 4.5,
+      "summary": "Round-the-clock Russian strikes disrupt schools, businesses, and public transport across capital. Continuation of known escalation pattern affecting daily life.",
+      "score": 4.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,11 +22,30 @@
       "detected_at": "2026-09-07T15:53:05.277784Z"
     },
     {
-      "title": "Israeli strikes in southern Lebanese village kill 12",
-      "label": "Israeli strikes kill 12 in Lebanon village",
-      "summary": "Israeli escalation threatens US-brokered ceasefire, continuing Middle East instability with indirect fuel logistics implications.",
-      "score": 2.2,
+      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+      "label": "Oil prices surge from Hormuz strikes",
+      "summary": "US-Iran strikes push oil to six-week highs. Indirect pressure on Ukrainian military logistics and civilian fuel costs during wartime.",
+      "score": 2.5,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-07T04:38:23.148723Z"
+    },
+    {
+      "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
+      "label": "AfD demands coalition talks after state win",
+      "summary": "Far-right party seeks government formation in German state. Potential concern for future EU support to Ukraine, but no immediate policy change.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,10 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-07T10:01:40.857884Z"
+      "detected_at": "2026-09-07T04:38:23.148723Z"
     }
   ],
   "short_summary": "Record air alerts as Russia strikes nonstop",
@@ -46,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-07T19:57:52.089814Z",
+  "updated_at": "2026-09-07T22:01:36.654586Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Record air alerts as Russia strikes nonstop",
     "summary": "Round-the-clock Russian air attacks reach record levels, forcing schools, businesses, and public transport to struggle with constant disruption across Ukraine.",
     "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-    "score": 5.0,
+    "score": 4.9,
     "sentiment": "negative",
     "detected_at": "2026-09-07T15:53:05.277784Z",
     "peak_at": "2026-09-07T15:53:05.277784Z",
@@ -66,14 +85,6 @@
   },
   "events_anchor_at": "2026-09-07T15:53:05.277784Z",
   "score_history": [
-    {
-      "t": "2026-09-05T20:25:53.225867Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-09-05T22:01:33.310613Z",
-      "s": 3.2
-    },
     {
       "t": "2026-09-05T22:54:02.827162Z",
       "s": 3.0
@@ -153,6 +164,10 @@
     {
       "t": "2026-09-07T19:57:52.089814Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-09-07T22:01:36.654586Z",
+      "s": 4.3
     }
   ]
 }
