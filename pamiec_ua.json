@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-07T10:15:52.727685Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-07T15:53:05.281221Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "War confirmed to continue into winter 2025",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 8,
       "opis": "Zelensky confirms no breakthrough; fighting extends months."
     },
     {
       "temat": "US-Iran war fuel cost impact quantified",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "$100bn fuel spending; logistics and civilian fuel pressure."
     },
     {
       "temat": "AfD forms first German state government",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "Far-right party wins Saxony-Anhalt; EU support concern."
     },
     {
       "temat": "Iran Hormuz restricted zone announcement",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "Tehran plans shipping restrictions; fuel logistics risk."
     },
     {
       "temat": "US envoys Moscow-Kyiv diplomatic push",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 23,
       "opis": "Witkoff and Kushner hold Russia talks before Kyiv visit."
     },
     {
       "temat": "Ukraine targets Russian space infrastructure",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Strikes on space program facilities; tactical shift in war."
     },
     {
       "temat": "Diesel prices record high from Iran conflict",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
       "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "US strikes Iranian oil tankers in Gulf",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 19,
+      "cykle_bez_zmian": 20,
       "opis": "Military action against Iran oil infrastructure; fuel price."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-05T12:42:11.659748Z",
-      "s": 4.8
-    },
     {
       "t": "2026-09-05T16:01:36.529581Z",
       "s": 3.6
@@ -144,10 +140,62 @@
     {
       "t": "2026-09-07T10:15:52.723580Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-07T15:53:05.277784Z",
+      "s": 5.0
     }
   ],
-  "events_anchor_at": "2026-09-07T04:38:23.148723Z",
+  "events_anchor_at": "2026-09-07T15:53:05.277784Z",
   "event_detected_at": {
+    "kyiv air raid alerts at record high as russia launches round-the-clock strikes": {
+      "detected_at": "2026-09-07T15:53:05.277784Z",
+      "peak_at": "2026-09-07T15:53:05.277784Z",
+      "peak_score_at": "2026-09-07T15:53:05.277784Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
+      "peak_label": "Record air alerts as Russia strikes nonstop",
+      "peak_summary": "Round-the-clock Russian air attacks reach record levels, forcing schools, businesses, and public transport to struggle with constant disruption across Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "israeli attacks on gaza kill five palestinians, including two children": {
+      "detected_at": "2026-09-07T10:01:40.857884Z",
+      "peak_at": "2026-09-07T10:15:52.723580Z",
+      "peak_score_at": "2026-09-07T10:15:52.723580Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "Israeli strikes in southern Lebanese village kill nine",
+      "peak_label": "Israeli strikes kill nine in southern Lebanon",
+      "peak_summary": "Regional escalation in Lebanon; indirect concern for Ukraine's diplomatic position and Western focus.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "will trump succeed in restarting russia-ukraine peace talks?": {
+      "detected_at": "2026-09-06T19:09:51.298132Z",
+      "peak_at": "2026-09-07T15:53:05.277784Z",
+      "peak_score_at": "2026-09-07T15:53:05.277784Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Will Trump succeed in restarting Russia-Ukraine peace talks?",
+      "peak_label": "Trump envoys visit Moscow and Kyiv",
+      "peak_summary": "Witkoff-Kushner diplomatic visit produces no breakthrough but may begin new peace process; rhetoric without confirmed outcome yet.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2026/9/7/will-trump-succeed-in-restarting-russia-ukraine-peace-talks?traffic_source=rss"
+        }
+      ]
+    },
     "zelensky says he expects war to continue into winter after talks with us envoys": {
       "detected_at": "2026-09-03T14:33:57.019013Z",
       "peak_at": "2026-09-06T16:01:36.268607Z",
@@ -165,22 +213,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/6/us-envoys-hold-substantive-talks-with-zelenskyy-in-first-visit-to-kyiv?traffic_source=rss"
-        }
-      ]
-    },
-    "israeli strikes in southern lebanese village kill nine": {
-      "detected_at": "2026-09-07T10:01:40.857884Z",
-      "peak_at": "2026-09-07T10:15:52.723580Z",
-      "peak_score_at": "2026-09-07T10:15:52.723580Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Israeli strikes in southern Lebanese village kill nine",
-      "peak_label": "Israeli strikes kill nine in southern Lebanon",
-      "peak_summary": "Regional escalation in Lebanon; indirect concern for Ukraine's diplomatic position and Western focus.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -232,22 +264,6 @@
         }
       ]
     },
-    "peace talks rich in symbolism but fundamental differences between russia and ukraine remain": {
-      "detected_at": "2026-09-06T19:09:51.298132Z",
-      "peak_at": "2026-09-06T19:09:51.298132Z",
-      "peak_score_at": "2026-09-06T19:09:51.298132Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Witkoff says peace talks have been 'very meaningful' in Ukraine",
-      "peak_label": "US envoy calls Ukraine peace talks meaningful",
-      "peak_summary": "US envoy characterizes talks positively but no concrete outcome announced; diplomatic process continues without qualitative change to war situation.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss"
-        }
-      ]
-    },
     "eight-year-old gaza girl killed by israel on first day of school": {
       "detected_at": "2026-09-07T04:01:32.805224Z",
       "peak_at": "2026-09-07T04:01:32.805224Z",
@@ -282,8 +298,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Zelensky says he expects war to continue into winter after talks with US envoys",
-    "Israeli strikes in southern Lebanese village kill nine",
-    "Iran war: How US consumers spent an additional $100bn on fuel"
+    "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
+    "Israeli attacks on Gaza kill five Palestinians, including two children",
+    "Will Trump succeed in restarting Russia-Ukraine peace talks?"
   ]
 }
