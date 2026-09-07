@@ -1,33 +1,14 @@
 {
-  "global_score": 2.9,
-  "rationale": "Indonesia volcano disrupts Jakarta airport with potential Atlantic air travel ripple effects; AfD state win continues as EU background; oil price surge from Hormuz strikes is new development affecting fuel costs.",
+  "global_score": 2.8,
+  "rationale": "Hormuz oil surge is new and affects Atlantic energy costs; other events are distant or continuation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Indonesia volcano eruption leaves 340,000 stranded as airports extend closure",
-      "label": "Indonesia volcano strands 340,000 at airports",
-      "summary": "Anak Krakatau eruption near Jakarta extends airport closures, stranding travelers. Potential indirect impact on Atlantic air routes and Portuguese tourism connections.",
-      "score": 2.1,
+      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+      "label": "Oil prices surge from US-Iran Hormuz strikes",
+      "summary": "US-Iran military strikes in the Strait of Hormuz push oil prices to six-week highs, raising fuel costs for Portuguese households and economy.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-06T04:01:26.398481Z"
-    },
-    {
-      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
-      "label": "Oil prices surge from Hormuz strikes",
-      "summary": "US-Iran strikes disrupt Strait of Hormuz traffic, pushing oil to six-week highs. Indirect fuel cost pressure for Portuguese consumers and economy.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -43,8 +24,8 @@
     {
       "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
       "label": "AfD demands coalition talks after state win",
-      "summary": "Far-right party seeks government formation in German state. EU political shift continues with no direct Portuguese policy impact yet.",
-      "score": 2.9,
+      "summary": "AfD tries to form government after falling three seats short of majority, continuing far-right rise in EU member state.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-09-06T05:56:38.662387Z"
+    },
+    {
+      "title": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
+      "label": "Jamaica hands slavery reparations petition to King",
+      "summary": "Jamaican delegation presents petition to King Charles over slavery legacy, continuing debate over historical compensation.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles"
+        }
+      ],
+      "detected_at": "2026-09-07T22:50:07.663121Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-07T22:01:36.653363Z",
+  "updated_at": "2026-09-07T22:50:07.663121Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "AfD wins 44% in German state election",
     "summary": "Far-right party projected to win Saxony-Anhalt with 44%. First far-right state government in Germany since WWII shifts EU political landscape affecting Portugal.",
     "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-    "score": 3.4,
+    "score": 3.3,
     "sentiment": "negative",
     "detected_at": "2026-09-06T05:56:38.662387Z",
     "peak_at": "2026-09-07T22:01:36.653363Z",
@@ -168,6 +168,10 @@
     {
       "t": "2026-09-07T22:01:36.653363Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-07T22:50:07.663121Z",
+      "s": 2.8
     }
   ]
 }

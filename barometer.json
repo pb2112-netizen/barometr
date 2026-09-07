@@ -1,11 +1,30 @@
 {
-  "global_score": 3.1,
-  "rationale": "AfD state election win continues as known background; Kyiv air raid surge and Lebanon strikes are ongoing situations without qualitative change from Polish perspective.",
+  "global_score": 3.4,
+  "rationale": "AfD state election win continues as background; Hormuz oil surge is new but indirect; other events distant.",
   "top_events": [
+    {
+      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+      "label": "Oil prices surge from US-Iran Hormuz strikes",
+      "summary": "US-Iran military strikes in the Strait of Hormuz push oil prices to six-week highs, raising fuel costs for Polish households and businesses.",
+      "score": 3.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-07T04:38:23.145819Z"
+    },
     {
       "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
       "label": "AfD demands coalition talks after state win",
-      "summary": "Far-right party seeks government formation in German state, falling three seats short of majority. EU political landscape shift continues with no direct Polish policy impact yet.",
+      "summary": "AfD tries to form government after falling three seats short of majority, continuing far-right rise in neighboring Germany.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -23,9 +42,9 @@
     },
     {
       "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-      "label": "Kyiv air raid alerts hit record high",
-      "summary": "Round-the-clock Russian strikes disrupt Ukrainian schools, businesses, and transport. Continuation of known escalation pattern affecting eastern neighbor.",
-      "score": 3.1,
+      "label": "Kyiv air raid alerts reach record high",
+      "summary": "Round-the-clock Russian strikes disrupt Ukrainian schools, businesses, and transport, maintaining pressure on Poland's eastern neighbor.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-09-07T15:53:05.275556Z"
-    },
-    {
-      "title": "Israeli strikes in southern Lebanese village kill 12",
-      "label": "Israeli strikes kill 12 in Lebanon",
-      "summary": "Israeli escalation threatens US-brokered ceasefire with Hezbollah. Distant Middle East conflict with no direct Polish impact.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-07T16:01:39.455568Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-07T22:01:36.650456Z",
+  "updated_at": "2026-09-07T22:50:07.660059Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "AfD wins 44% in German state election",
     "summary": "Far-right party projected to win Saxony-Anhalt with 44%, far ahead of conservatives at 17%. First far-right state government in Germany since WWII shifts EU political landscape.",
     "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-09-06T05:56:38.659739Z",
     "peak_at": "2026-09-07T22:01:36.650456Z",
@@ -168,6 +168,10 @@
     {
       "t": "2026-09-07T22:01:36.650456Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-07T22:50:07.660059Z",
+      "s": 3.4
     }
   ]
 }
