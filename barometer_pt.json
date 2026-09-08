@@ -1,52 +1,14 @@
 {
   "global_score": 2.2,
-  "rationale": "Trade war escalation continues with limited direct impact on Portugal; art theft and other events remain distant from daily life.",
+  "rationale": "Distant geopolitical events continue without direct impact on Portuguese daily life; no new qualitative changes.",
   "top_events": [
     {
-      "title": "Canada's retaliatory US tariffs take effect as trade dispute grows",
-      "label": "Canada enacts tariffs on US goods",
-      "summary": "Canada's tariffs on $20 billion of US products take effect, escalating the trade war. EU economies face indirect risk from global trade tensions.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
-        }
-      ],
-      "detected_at": "2026-09-05T22:54:02.825823Z"
-    },
-    {
-      "title": "Four Renoir paintings worth millions stolen in French museum heist",
-      "label": "Renoir paintings stolen in French museum heist",
-      "summary": "Four valuable Renoir paintings were stolen from a French museum, highlighting ongoing security concerns at European cultural institutions.",
-      "score": 1.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T15:09:31.919185Z"
-    },
-    {
       "title": "Hungary expels 10 Russian diplomats as relations worsen",
-      "label": "Hungary expels ten Russian diplomats",
-      "summary": "Hungary's new government drops its pro-Kremlin stance and expels Russian diplomats, marking a shift in EU-Russia relations.",
-      "score": 2.2,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "label": "Hungary expels Russian diplomats, shifts EU policy",
+      "summary": "EU member state changes Russia stance. Distant political shift with minimal direct impact on Portuguese life.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,6 +20,49 @@
         }
       ],
       "detected_at": "2026-09-08T15:09:31.919185Z"
+    },
+    {
+      "title": "Canada's retaliatory US tariffs take effect as trade dispute grows",
+      "label": "Canada enacts retaliatory tariffs on US goods",
+      "summary": "Transatlantic trade tensions continue. Indirect risk to EU economy but no immediate change for Portugal.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T22:54:02.825823Z"
+    },
+    {
+      "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
+      "label": "Houthis attack Saudi cities, injure 73 people",
+      "summary": "Middle East conflict escalation affects oil facilities. Indirect fuel cost risk through global energy markets.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-08T16:01:43.659599Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-08T15:09:31.919185Z",
+  "updated_at": "2026-09-08T16:01:43.659599Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "AfD wins 44% in German state election",
     "summary": "Far-right party projected to win Saxony-Anhalt with 44%. First far-right state government in Germany since WWII shifts EU political landscape affecting Portugal.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-06T05:56:38.662387Z",
   "score_history": [
-    {
-      "t": "2026-09-06T16:01:36.267747Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-06T17:01:42.131517Z",
       "s": 2.5
@@ -167,6 +168,10 @@
     },
     {
       "t": "2026-09-08T15:09:31.919185Z",
+      "s": 2.2
+    },
+    {
+      "t": "2026-09-08T16:01:43.659599Z",
       "s": 2.2
     }
   ]
