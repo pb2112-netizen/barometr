@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-08T16:01:43.666079Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-09-08T18:39:25.737696Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Canada retaliatory US tariffs enacted",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Tariffs on US goods take effect; global trade tensions."
-    },
-    {
-      "temat": "Hungary expels Russian diplomats",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
-      "opis": "New government drops pro-Kremlin stance; EU political shift."
-    },
-    {
       "temat": "Houthi attacks on Saudi Arabia injure dozens",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 1,
       "opis": "Wave of attacks injures 73; Middle East fuel logistics risk."
     },
     {
+      "temat": "UK sanctions Israeli settlements",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Britain bans settlement goods; Israel shuts UK consulate."
+    },
+    {
+      "temat": "Hungary expels Russian diplomats",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
+      "opis": "New government drops pro-Kremlin stance; EU political shift."
+    },
+    {
       "temat": "Germany AfD state election breakthrough",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 18,
       "opis": "Far-right party seeks first state power since WWII; EU."
     },
     {
       "temat": "Trump threatens Bombardier jet ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "US president escalates Canada trade war; EU economic risk."
     },
     {
       "temat": "Turkey Antalya forest fires evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Massive fires near resorts; Mediterranean tourism pressure."
     },
     {
       "temat": "Panama Canal traffic reduction from El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Drought may further reduce ship traffic; Atlantic routes."
     },
     {
-      "temat": "Iran Hormuz restricted zone announcement",
+      "temat": "Canada retaliatory US tariffs enacted",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Tehran plans shipping restrictions near strait; fuel risk."
+      "cykle_bez_zmian": 7,
+      "opis": "Tariffs on US goods take effect; global trade tensions."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-06T17:01:42.131517Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-06T19:09:51.297044Z",
       "s": 2.4
@@ -136,10 +132,50 @@
     {
       "t": "2026-09-08T16:01:43.659599Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-08T18:39:25.731593Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-09-06T05:56:38.662387Z",
   "event_detected_at": {
+    "uk announces sanctions on west bank settlements prompting furious israeli response": {
+      "detected_at": "2026-09-08T18:39:25.731593Z",
+      "peak_at": "2026-09-08T18:39:25.731593Z",
+      "peak_score_at": "2026-09-08T18:39:25.731593Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
+      "peak_label": "UK sanctions Israeli settlements, Israel shuts consulate",
+      "peak_summary": "Britain bans settlement goods and accuses settlers of ethnic cleansing; Israel closes UK consulate in East Jerusalem. EU foreign policy shift, no direct Portuguese impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/09-08-rubio-comments-uk-sanctions-clip-mp4?traffic_source=rss"
+        }
+      ]
+    },
+    "saudi arabia vows to respond after houthis attack cities and energy facilities": {
+      "detected_at": "2026-09-08T16:01:43.659599Z",
+      "peak_at": "2026-09-08T16:01:43.659599Z",
+      "peak_score_at": "2026-09-08T16:01:43.659599Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
+      "peak_label": "Houthis attack Saudi cities, injure 73 people",
+      "peak_summary": "Middle East conflict escalation affects oil facilities. Indirect fuel cost risk through global energy markets.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "hungary expels 10 russian diplomats as relations worsen": {
       "detected_at": "2026-09-08T15:09:31.919185Z",
       "peak_at": "2026-09-08T15:09:31.919185Z",
@@ -169,22 +205,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "saudi arabia vows to respond after houthis attack cities and energy facilities": {
-      "detected_at": "2026-09-08T16:01:43.659599Z",
-      "peak_at": "2026-09-08T16:01:43.659599Z",
-      "peak_score_at": "2026-09-08T16:01:43.659599Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-      "peak_label": "Houthis attack Saudi cities, injure 73 people",
-      "peak_summary": "Middle East conflict escalation affects oil facilities. Indirect fuel cost risk through global energy markets.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -286,8 +306,7 @@
     }
   },
   "prev_top_event_titles": [
-    "Hungary expels 10 Russian diplomats as relations worsen",
-    "Canada's retaliatory US tariffs take effect as trade dispute grows",
+    "UK announces sanctions on West Bank settlements prompting furious Israeli response",
     "Saudi Arabia vows to respond after Houthis attack cities and energy facilities"
   ]
 }
