@@ -1,50 +1,58 @@
 {
-  "updated_at": "2026-09-08T01:11:51.320183Z",
-  "ostatnia_ocena": 3.9,
+  "updated_at": "2026-09-08T04:01:35.879753Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "War confirmed to continue into winter 2025",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 14,
       "opis": "Zelensky confirms no breakthrough; fighting extends months."
     },
     {
       "temat": "US-Iran war fuel cost impact quantified",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "$100bn fuel spending; logistics and civilian fuel pressure."
     },
     {
       "temat": "AfD forms first German state government",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 10,
       "opis": "Far-right party wins Saxony-Anhalt; EU support concern."
     },
     {
       "temat": "Iran Hormuz restricted zone announcement",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Tehran plans shipping restrictions; fuel logistics risk."
     },
     {
       "temat": "Diesel prices record high from Iran conflict",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
       "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "Oil prices surge from Hormuz strikes",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "US-Iran strikes push oil to six-week highs; logistics."
+    },
+    {
+      "temat": "Russia resumes Kyiv strikes after US envoy pause",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Strikes restart after three-day lull; direct safety impact."
+    },
+    {
+      "temat": "Ukraine chief prosecutor resigns over corruption",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Kravchenko resigns amid scandal; wartime governance issue."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-06T04:01:26.399289Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-06T05:56:38.663657Z",
       "s": 2.9
@@ -124,15 +132,19 @@
     {
       "t": "2026-09-08T01:11:51.314328Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-08T04:01:35.873857Z",
+      "s": 4.2
     }
   ],
   "events_anchor_at": "2026-09-07T15:53:05.277784Z",
   "event_detected_at": {
-    "kyiv air raid alerts at record high as russia launches round-the-clock strikes": {
+    "russia strikes kyiv as three-day pause during us envoy visits ends": {
       "detected_at": "2026-09-07T15:53:05.277784Z",
       "peak_at": "2026-09-07T15:53:05.277784Z",
       "peak_score_at": "2026-09-07T15:53:05.277784Z",
-      "peak_score": 4.7,
+      "peak_score": 4.6,
       "peak_sentiment": "negative",
       "title": "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
       "peak_label": "Record air alerts as Russia strikes nonstop",
@@ -141,6 +153,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cjdvx9pz44ro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ukraine's chief prosecutor resigns over call centre corruption scandal": {
+      "detected_at": "2026-09-08T04:01:35.873857Z",
+      "peak_at": "2026-09-08T04:01:35.873857Z",
+      "peak_score_at": "2026-09-08T04:01:35.873857Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "Ukraine's chief prosecutor resigns over call centre corruption scandal",
+      "peak_label": "Ukraine chief prosecutor resigns over corruption scandal",
+      "peak_summary": "Ruslan Kravchenko resigns amid corruption allegations, denying claims and citing political confrontation. Domestic governance issue during wartime.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "yemeni forces launch counteroffensive against houthis, vow to retake sanaa": {
+      "detected_at": "2026-09-08T04:01:35.873857Z",
+      "peak_at": "2026-09-08T04:01:35.873857Z",
+      "peak_score_at": "2026-09-08T04:01:35.873857Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Yemeni forces launch counteroffensive against Houthis, vow to retake Sanaa",
+      "peak_label": "Yemeni forces launch counteroffensive against Houthis",
+      "peak_summary": "Yemeni forces intensify clashes with Houthis in bid to retake capital. Distant conflict; minimal direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/yemeni-forces-launch-counteroffensive-against-houthis-vow-to-retake-sanaa?traffic_source=rss"
         }
       ]
     },
@@ -239,27 +283,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/7/iran-war-how-us-consumers-spent-an-additional-100bn-on-fuel?traffic_source=rss"
         }
       ]
-    },
-    "eight-year-old gaza girl killed by israel on first day of school": {
-      "detected_at": "2026-09-07T04:01:32.805224Z",
-      "peak_at": "2026-09-07T04:01:32.805224Z",
-      "peak_score_at": "2026-09-07T04:01:32.805224Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Eight-year-old Gaza girl killed by Israel on first day of school",
-      "peak_label": "Israeli strike kills Gaza girl on school day",
-      "peak_summary": "Eight-year-old girl and father killed in Israeli strike on first day of school. Distant tragedy with no direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/eight-year-old-gaza-girl-killed-by-israel-on-first-day-of-school?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Kyiv air raid alerts at record high as Russia launches round-the-clock strikes",
-    "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
-    "Israeli strikes in southern Lebanese village kill 12"
+    "Russia strikes Kyiv as three-day pause during US envoy visits ends",
+    "Ukraine's chief prosecutor resigns over call centre corruption scandal",
+    "Yemeni forces launch counteroffensive against Houthis, vow to retake Sanaa"
   ]
 }

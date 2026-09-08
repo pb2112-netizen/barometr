@@ -1,31 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "Hormuz oil disruption continues at same level; Amazon crash investigation ongoing; Canada tariffs enacted but expected; no new qualitative change this cycle.",
+  "global_score": 2.9,
+  "rationale": "Amazon cargo plane crash investigation continues; Trump trade threats remain rhetoric; no new enacted policy. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
-      "label": "Oil prices spike from Hormuz strikes",
-      "summary": "US-Iran strikes push oil to six-week highs, disrupting traffic through the strait. Household fuel costs remain elevated.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-07T04:38:23.149769Z"
-    },
-    {
       "title": "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
-      "label": "Flight recorders recovered from Miami crash",
-      "summary": "Five killed, five seriously injured when Boeing 767 overshot runway at Miami International Airport. Investigation continues.",
-      "score": 3.0,
+      "label": "Flight recorders recovered from Amazon plane crash",
+      "summary": "Five killed, five seriously injured when Boeing 767 overshot runway at Miami International Airport. Investigation continues; direct domestic impact.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -41,12 +22,31 @@
       "detected_at": "2026-09-07T22:50:07.665768Z"
     },
     {
+      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
+      "label": "Trump threatens Canadian Bombardier jet sales ban",
+      "summary": "President threatens to block Canadian aerospace company sales amid escalating trade war. Rhetoric only; no enacted policy yet affecting US economy.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-08T04:01:35.875449Z"
+    },
+    {
       "title": "Canada's retaliatory US tariffs set to take effect as trade dispute grows",
-      "label": "Canada imposes retaliatory US tariffs",
-      "summary": "Counter-measures covering several sectors take effect after Trump announced 50% tariffs on Canadian goods. Trade war escalates.",
-      "score": 2.8,
+      "label": "Canada retaliatory tariffs take effect on US goods",
+      "summary": "Canadian counter-measures covering several sectors come after Trump announced 50% tariffs on Canadian goods. Trade war escalates with enacted policy.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Guardian"
@@ -61,11 +61,11 @@
     }
   ],
   "short_summary": "Iran war adds $100bn to US fuel costs",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-08T01:11:51.316090Z",
+  "updated_at": "2026-09-08T04:01:35.875449Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-07T10:01:40.859641Z",
   "score_history": [
-    {
-      "t": "2026-09-06T04:01:26.400173Z",
-      "s": 3.8
-    },
     {
       "t": "2026-09-06T05:56:38.664993Z",
       "s": 3.6
@@ -168,6 +164,10 @@
     {
       "t": "2026-09-08T01:11:51.316090Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-08T04:01:35.875449Z",
+      "s": 2.9
     }
   ]
 }
