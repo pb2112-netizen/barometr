@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-08T04:01:35.878654Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-09-08T05:57:43.851019Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Germany AfD state election breakthrough",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 13,
       "opis": "Far-right party seeks first state power since WWII; EU."
     },
     {
-      "temat": "Panama Canal traffic reduction from El Niño",
+      "temat": "Canada retaliatory US tariffs enacted",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
+      "opis": "Tariffs on US goods take effect; global trade tensions."
+    },
+    {
+      "temat": "Turkey Antalya forest fires evacuations",
       "poziom_bazowy": 2.4,
       "cykle_bez_zmian": 0,
-      "opis": "Drought may further reduce ship traffic; Atlantic routes."
+      "opis": "Massive fires near resorts; Mediterranean tourism pressure."
     },
     {
       "temat": "Iran Hormuz restricted zone announcement",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "Tehran plans shipping restrictions near strait; fuel risk."
     },
     {
       "temat": "Oil prices surge from Hormuz strikes",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "US-Iran strikes push oil to six-week highs; fuel cost."
     },
     {
       "temat": "AfD wins first German state government",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 15,
       "opis": "Far-right party takes Saxony-Anhalt; EU political shift."
     },
     {
-      "temat": "Canada retaliatory US tariffs enacted",
-      "poziom_bazowy": 2.2,
+      "temat": "Panama Canal traffic reduction from El Niño",
+      "poziom_bazowy": 2.3,
       "cykle_bez_zmian": 1,
-      "opis": "Tariffs on US goods take effect; global trade tensions."
-    },
-    {
-      "temat": "US-Iran war fuel cost impact quantified",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 8,
-      "opis": "$100bn additional fuel spending; Atlantic energy pressure."
+      "opis": "Drought may further reduce ship traffic; Atlantic routes."
     },
     {
       "temat": "Indonesia Krakatau eruption disrupts Jakarta airport",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Volcanic ash suspends flights at main airport; global air."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-06T05:56:38.662387Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-06T10:01:39.999494Z",
       "s": 2.9
@@ -136,15 +132,51 @@
     {
       "t": "2026-09-08T04:01:35.872313Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-08T05:57:43.845011Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-09-06T05:56:38.662387Z",
   "event_detected_at": {
+    "canada's retaliatory us tariffs take effect as trade dispute grows": {
+      "detected_at": "2026-09-05T22:54:02.825823Z",
+      "peak_at": "2026-09-08T01:11:51.312968Z",
+      "peak_score_at": "2026-09-05T22:54:02.825823Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "peak_label": "US and Iran trade retaliatory attacks on ships as",
+      "peak_summary": "Naval strikes continue in Gulf; oil supply risk sustains high diesel prices affecting Portuguese transport and tourism costs.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "forest fires force evacuations near resorts in antalya": {
+      "detected_at": "2026-09-08T05:57:43.845011Z",
+      "peak_at": "2026-09-08T05:57:43.845011Z",
+      "peak_score_at": "2026-09-08T05:57:43.845011Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Forest fires force evacuations near resorts in Antalya",
+      "peak_label": "Forest fires force evacuations in Antalya Turkey",
+      "peak_summary": "Massive fires break out in popular Turkish tourist province. Indirect signal of Mediterranean climate pressure affecting regional tourism economy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/forest-fires-force-evacuations-near-resorts-in-antalya?traffic_source=rss"
+        }
+      ]
+    },
     "germany's far-right afd says 'democracy demands' parties work with them after state election win": {
       "detected_at": "2026-09-06T05:56:38.662387Z",
       "peak_at": "2026-09-07T22:01:36.653363Z",
       "peak_score_at": "2026-09-06T22:01:29.428617Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
       "peak_label": "AfD wins 44% in German state election",
@@ -185,38 +217,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/8/panama-canal-may-cut-ship-traffic-further-as-el-nio-strengthens?traffic_source=rss"
-        }
-      ]
-    },
-    "oil prices surge as us-iran strikes intensify in strait of hormuz": {
-      "detected_at": "2026-09-07T04:38:23.147465Z",
-      "peak_at": "2026-09-07T04:38:23.147465Z",
-      "peak_score_at": "2026-09-07T04:38:23.147465Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Iran to announce restricted zone outside Strait of Hormuz",
-      "peak_label": "Iran announces Hormuz restricted shipping zone",
-      "peak_summary": "Tehran plans new restricted zone near Strait of Hormuz after US strikes — potential fuel price pressure for Portugal if shipping disrupted.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/aje-onl-nf_iran-to-announce-restricted-zone-around-hormuz-060926?traffic_source=rss"
-        }
-      ]
-    },
-    "canada's retaliatory us tariffs set to take effect as trade dispute grows": {
-      "detected_at": "2026-09-05T22:54:02.825823Z",
-      "peak_at": "2026-09-08T01:11:51.312968Z",
-      "peak_score_at": "2026-09-05T22:54:02.825823Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "peak_label": "US and Iran trade retaliatory attacks on ships as",
-      "peak_summary": "Naval strikes continue in Gulf; oil supply risk sustains high diesel prices affecting Portuguese transport and tourism costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -302,8 +302,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-    "Trump threatens to stop sale of Canadian Bombardier jets in US",
-    "Panama Canal may cut ship traffic further as El Niño strengthens"
+    "Canada's retaliatory US tariffs take effect as trade dispute grows",
+    "Forest fires force evacuations near resorts in Antalya",
+    "Germany's far-right AfD says 'democracy demands' parties work with them after state election win"
   ]
 }

@@ -1,12 +1,55 @@
 {
-  "global_score": 2.6,
-  "rationale": "AfD state election continues; trade rhetoric and distant conflicts remain background noise for Portugal.",
+  "global_score": 2.5,
+  "rationale": "Canada-US tariff war continues; forest fires in Turkey affect Mediterranean tourism region; no direct impact on Portugal.",
   "top_events": [
     {
+      "title": "Canada's retaliatory US tariffs take effect as trade dispute grows",
+      "label": "Canada retaliatory tariffs on US goods active",
+      "summary": "Counter-measures covering several sectors now in effect after Trump tariffs. Indirect pressure on global trade environment including Atlantic routes.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/canadas-retaliatory-tariffs-on-20bn-of-us-goods-take-effect?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-05T22:54:02.825823Z"
+    },
+    {
+      "title": "Forest fires force evacuations near resorts in Antalya",
+      "label": "Forest fires force evacuations in Antalya Turkey",
+      "summary": "Massive fires break out in popular Turkish tourist province. Indirect signal of Mediterranean climate pressure affecting regional tourism economy.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/forest-fires-force-evacuations-near-resorts-in-antalya?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-08T05:57:43.845011Z"
+    },
+    {
       "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-      "label": "AfD demands coalition talks after state win",
-      "summary": "Far-right party tries to form government after falling short of majority in German state election. EU political shift continues but no new change for Portugal.",
-      "score": 2.6,
+      "label": "AfD seeks coalition partners after state win",
+      "summary": "Far-right party demands cooperation to form government after falling short of majority. EU political landscape shifts but no immediate policy change.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,44 +63,6 @@
         }
       ],
       "detected_at": "2026-09-06T05:56:38.662387Z"
-    },
-    {
-      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "label": "Trump threatens Canadian Bombardier jet sales ban",
-      "summary": "US president threatens major Canadian aerospace company amid escalating trade war. Rhetoric only; minimal indirect impact on Portugal's economy.",
-      "score": 1.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T04:01:35.872313Z"
-    },
-    {
-      "title": "Panama Canal may cut ship traffic further as El Niño strengthens",
-      "label": "Panama Canal may reduce traffic from drought",
-      "summary": "Canal authorities may further reduce ship traffic if strengthening El Niño worsens drought. Potential indirect impact on Atlantic shipping routes affecting Portugal.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/8/panama-canal-may-cut-ship-traffic-further-as-el-nio-strengthens?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T04:01:35.872313Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-08T04:01:35.872313Z",
+  "updated_at": "2026-09-08T05:57:43.845011Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "AfD wins 44% in German state election",
     "summary": "Far-right party projected to win Saxony-Anhalt with 44%. First far-right state government in Germany since WWII shifts EU political landscape affecting Portugal.",
     "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-    "score": 3.1,
+    "score": 3.0,
     "sentiment": "negative",
     "detected_at": "2026-09-06T05:56:38.662387Z",
     "peak_at": "2026-09-07T22:01:36.653363Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-06T05:56:38.662387Z",
   "score_history": [
-    {
-      "t": "2026-09-06T05:56:38.662387Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-06T10:01:39.999494Z",
       "s": 2.9
@@ -168,6 +169,10 @@
     {
       "t": "2026-09-08T04:01:35.872313Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-08T05:57:43.845011Z",
+      "s": 2.5
     }
   ]
 }
