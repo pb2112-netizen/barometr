@@ -1,12 +1,36 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump threatens to ban Bombardier jet sales, escalating trade war with Canada beyond tariffs to direct corporate targeting; retaliatory Canadian tariffs now in effect on $20bn of US goods; Miami plane crash investigation continues.",
+  "global_score": 2.9,
+  "rationale": "Canada enacts retaliatory tariffs on $20bn of US goods, escalating the trade war; Trump threatens Bombardier jet ban, further raising trade tensions. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "label": "Canada enacts $20bn US tariff retaliation",
+      "summary": "Tariffs on American products now in effect, escalating the trade war and jeopardizing the world's largest bilateral trading relationship.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
+        }
+      ],
+      "detected_at": "2026-09-05T22:54:02.828463Z"
+    },
+    {
       "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "label": "Trump threatens Bombardier jet ban amid trade war",
-      "summary": "President escalates trade conflict with Canada by threatening to block sales of major aerospace firm's jets, moving beyond tariffs to direct corporate targeting.",
-      "score": 3.0,
+      "label": "Trump threatens Bombardier jet sales ban",
+      "summary": "President threatens to ban Canadian aerospace firm's jet sales in the US, escalating the trade war with a major economic partner.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,34 +46,10 @@
       "detected_at": "2026-09-08T04:01:35.875449Z"
     },
     {
-      "title": "Canada's retaliatory US tariffs take effect as trade dispute grows",
-      "label": "Canada retaliatory tariffs on US goods take effect",
-      "summary": "Counter-tariffs covering $20bn of American products now active, jeopardizing world's largest bilateral trade relationship and raising household costs.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-05T22:54:02.828463Z"
-    },
-    {
       "title": "Five killed in Miami plane crash were in two vehicles on ground, investigators say",
-      "label": "Miami plane crash kills five in ground vehicles",
-      "summary": "Boeing 767 overshot runway at Miami airport, killing five in two ground vehicles; investigators describe scene as utter devastation.",
-      "score": 2.5,
+      "label": "Miami plane crash kills five on ground",
+      "summary": "Boeing 767 overshot Miami airport runway, killing five people in two vehicles on the ground; investigators describe scene as utter devastation.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -66,11 +66,11 @@
     }
   ],
   "short_summary": "Oil prices surge from Hormuz strikes",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-08T10:01:41.018463Z",
+  "updated_at": "2026-09-08T11:16:39.480538Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-07T04:38:23.149769Z",
   "score_history": [
-    {
-      "t": "2026-09-06T10:54:25.230043Z",
-      "s": 3.4
-    },
     {
       "t": "2026-09-06T14:09:53.660702Z",
       "s": 3.2
@@ -173,6 +169,10 @@
     {
       "t": "2026-09-08T10:01:41.018463Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-08T11:16:39.480538Z",
+      "s": 2.9
     }
   ]
 }

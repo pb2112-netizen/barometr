@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "North Korea-Russia road bridge opening deepens military-logistical ties affecting Black Sea neighbor Ukraine; Trump's Bombardier threat raises EU-wide trade uncertainty; ongoing situations continue without new developments.",
+  "global_score": 2.7,
+  "rationale": "Russian strikes on Kyiv continue the war in Black Sea neighbor Ukraine; Canada-US trade war escalates with tariffs enacted, posing indirect EU economic risk. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "North Korea and Russia open first road bridge linking both countries",
-      "label": "North Korea-Russia open first direct road bridge",
-      "summary": "First road link between neighbors strengthens Russia-DPRK ties amid Ukraine war, potentially easing logistics for Russian operations near Black Sea region.",
-      "score": 2.8,
+      "title": "At least two people dead after Russian strikes on Kyiv",
+      "label": "Russian drone strikes kill two in Kyiv",
+      "summary": "Early Tuesday strikes on Ukraine's capital continue the pattern of attacks in Romania's Black Sea neighbor, maintaining regional security pressure.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -16,18 +16,42 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj9xvg1kz0mo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-07T15:53:05.276323Z"
+    },
+    {
+      "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "label": "Canada enacts $20bn US tariff retaliation",
+      "summary": "Tariffs on American products now in effect, escalating the trade war and threatening EU economic stability through global trade disruption.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
         }
       ],
       "detected_at": "2026-09-08T05:57:43.843444Z"
     },
     {
       "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "label": "Trump threatens Bombardier jet ban amid trade war",
-      "summary": "US president escalates trade conflict with Canada, raising broader transatlantic economic uncertainty for EU members including Romania.",
-      "score": 2.7,
+      "label": "Trump threatens Bombardier jet sales ban",
+      "summary": "US president escalates Canada trade war with threat against major aerospace firm, raising EU economic uncertainty.",
+      "score": 2.6,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -39,25 +63,6 @@
         }
       ],
       "detected_at": "2026-09-08T04:01:35.870327Z"
-    },
-    {
-      "title": "Ukraine's chief prosecutor resigns over call centre corruption scandal",
-      "label": "Ukraine chief prosecutor resigns over corruption",
-      "summary": "Kravchenko resigns amid scandal in Black Sea neighbor during wartime, raising governance concerns in regional partner state.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T10:01:41.014042Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-08T10:01:41.014042Z",
+  "updated_at": "2026-09-08T11:16:39.475267Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-06T05:56:38.661007Z",
   "score_history": [
-    {
-      "t": "2026-09-06T10:54:25.226046Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-06T14:09:53.656917Z",
       "s": 2.4
@@ -168,6 +169,10 @@
     {
       "t": "2026-09-08T10:01:41.014042Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-08T11:16:39.475267Z",
+      "s": 2.7
     }
   ]
 }

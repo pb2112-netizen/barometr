@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-08T10:01:41.022167Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-08T11:16:39.488601Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Amazon cargo plane crash at Miami airport",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 16,
       "opis": "Boeing 767 overruns runway, collides with vehicles; probe."
     },
     {
       "temat": "Canada retaliatory US tariffs enacted",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "Tariffs on US goods take effect; trade war escalates."
     },
     {
       "temat": "Trump threatens Bombardier jet sales ban",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "President threatens Canadian aerospace firm; trade war."
     },
     {
       "temat": "Iran Hormuz restricted zone announcement",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 6,
       "opis": "Tehran plans shipping restrictions after US strikes; oil."
     },
     {
       "temat": "Oil prices surge from Hormuz strikes",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 6,
       "opis": "US-Iran strikes push oil to six-week highs; household."
     },
     {
       "temat": "US household fuel costs from Iran war quantified",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 11,
       "opis": "$763 average household cost; $100bn total six-month impact."
     },
     {
       "temat": "China $54bn state bank capital injection",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 11,
       "opis": "Major financial system stimulus; US-China trade."
     },
     {
       "temat": "Trump signals Falklands support for Milei",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "President suggests backing Argentina claim; rhetoric only."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-06T10:54:25.230043Z",
-      "s": 3.4
-    },
     {
       "t": "2026-09-06T14:09:53.660702Z",
       "s": 3.2
@@ -136,10 +132,30 @@
     {
       "t": "2026-09-08T10:01:41.018463Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-08T11:16:39.480538Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-09-07T04:38:23.149769Z",
   "event_detected_at": {
+    "canada braces for prolonged trade war as counter-tariffs on us take effect": {
+      "detected_at": "2026-09-05T22:54:02.828463Z",
+      "peak_at": "2026-09-08T01:11:51.316090Z",
+      "peak_score_at": "2026-09-05T22:54:02.828463Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "peak_label": "US and Iran trade retaliatory attacks on ships as",
+      "peak_summary": "Direct US-Iran military engagement continues; Navy warships targeted, oil supply risk sustains high diesel prices affecting US consumers.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "trump threatens to stop sale of canadian bombardier jets in us": {
       "detected_at": "2026-09-08T04:01:35.875449Z",
       "peak_at": "2026-09-08T10:01:41.018463Z",
@@ -156,27 +172,11 @@
         }
       ]
     },
-    "canada's retaliatory us tariffs take effect as trade dispute grows": {
-      "detected_at": "2026-09-05T22:54:02.828463Z",
-      "peak_at": "2026-09-08T01:11:51.316090Z",
-      "peak_score_at": "2026-09-05T22:54:02.828463Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "peak_label": "US and Iran trade retaliatory attacks on ships as",
-      "peak_summary": "Direct US-Iran military engagement continues; Navy warships targeted, oil supply risk sustains high diesel prices affecting US consumers.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "five killed in miami plane crash were in two vehicles on ground, investigators say": {
       "detected_at": "2026-09-07T22:50:07.665768Z",
       "peak_at": "2026-09-07T22:50:07.665768Z",
       "peak_score_at": "2026-09-07T22:50:07.665768Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "negative",
       "title": "Flight recorders recovered from 'devastating' Amazon cargo plane crash",
       "peak_label": "Flight recorders recovered from Miami crash",
@@ -254,8 +254,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Canada braces for prolonged trade war as counter-tariffs on US take effect",
     "Trump threatens to stop sale of Canadian Bombardier jets in US",
-    "Canada's retaliatory US tariffs take effect as trade dispute grows",
     "Five killed in Miami plane crash were in two vehicles on ground, investigators say"
   ]
 }

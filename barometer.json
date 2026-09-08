@@ -1,12 +1,55 @@
 {
-  "global_score": 2.8,
-  "rationale": "Trump's threat to ban Bombardier jet sales escalates US-Canada trade war, raising EU economic uncertainty and potential spillover to transatlantic trade; ongoing background situations continue without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Russian strikes on Kyiv continue the war next door; Canada-US trade war escalates with tariffs enacted, posing indirect EU economic risk.",
   "top_events": [
     {
+      "title": "At least two people dead after Russian strikes on Kyiv",
+      "label": "Russian drone strikes kill two in Kyiv",
+      "summary": "Early Tuesday strikes on Ukraine's capital continue the pattern of attacks near Poland's eastern border, maintaining regional security pressure.",
+      "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-07T15:53:05.275556Z"
+    },
+    {
+      "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+      "label": "Canada enacts $20bn US tariff retaliation",
+      "summary": "Tariffs on American products now in effect, escalating the trade war and threatening EU economic stability through global trade disruption.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
+        }
+      ],
+      "detected_at": "2026-09-08T05:57:43.841650Z"
+    },
+    {
       "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "label": "Trump threatens Bombardier jet ban amid trade war",
-      "summary": "US president escalates trade conflict with Canada by threatening to block sales of major aerospace firm's jets, raising broader transatlantic economic uncertainty for EU partners.",
-      "score": 2.8,
+      "label": "Trump threatens Bombardier jet sales ban",
+      "summary": "US president escalates Canada trade war with threat against major aerospace firm, raising EU economic uncertainty.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -20,57 +63,14 @@
         }
       ],
       "detected_at": "2026-09-08T04:01:35.868798Z"
-    },
-    {
-      "title": "Canada's retaliatory US tariffs take effect as trade dispute grows",
-      "label": "Canada retaliatory tariffs on US goods take effect",
-      "summary": "Counter-tariffs covering $20bn of American products now active, jeopardizing world's largest bilateral trade relationship and raising global economic instability.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T05:57:43.841650Z"
-    },
-    {
-      "title": "North Korea and Russia open first road bridge linking both countries",
-      "label": "North Korea-Russia open first direct road bridge",
-      "summary": "First road link between neighbors deepens Russia-DPRK ties amid Ukraine war, potentially easing logistics for Russian military supply chains on eastern front.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj9xvg1kz0mo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-08T05:57:43.841650Z"
     }
   ],
   "short_summary": "AfD wins 44% in German state election",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-08T10:01:41.012531Z",
+  "updated_at": "2026-09-08T11:16:39.473210Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-06T05:56:38.659739Z",
   "score_history": [
-    {
-      "t": "2026-09-06T10:54:25.224952Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-06T14:09:53.655843Z",
       "s": 2.4
@@ -173,6 +169,10 @@
     {
       "t": "2026-09-08T10:01:41.012531Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-08T11:16:39.473210Z",
+      "s": 3.0
     }
   ]
 }
