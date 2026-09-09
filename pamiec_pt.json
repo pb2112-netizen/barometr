@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-09T09:44:12.657967Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-09-09T14:35:24.204685Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 1,
       "opis": "Brent crude reaches $100; fuel cost surge for Portugal."
     },
     {
       "temat": "US bans Canadian imports escalation",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "US bans Canadian alcohol, dairy, bikes; trade war deepens."
+    },
+    {
+      "temat": "Germany Merz-AfD migration clash",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Chancellor confronts far-right leader; EU political tension."
     },
     {
       "temat": "UK sanctions Israeli settlements",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Britain bans settlement goods; Israel shuts UK consulate."
     },
     {
       "temat": "Houthi attacks on Saudi Arabia injure dozens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Wave of attacks injures 73; Middle East fuel logistics risk."
     },
     {
       "temat": "Hungary expels Russian diplomats",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "New government drops pro-Kremlin stance; EU political shift."
     },
     {
       "temat": "Trump threatens Bombardier jet ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "US president escalates Canada trade war; EU economic risk."
     },
     {
       "temat": "Turkey Antalya forest fires evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Massive fires near resorts; Mediterranean tourism pressure."
-    },
-    {
-      "temat": "Panama Canal traffic reduction from El Niño",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 12,
-      "opis": "Drought may further reduce ship traffic; Atlantic routes."
+      "opis": "Massive fires near resorts; Mediterranean tourism pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-07T10:01:40.856229Z",
-      "s": 3.6
-    },
-    {
-      "t": "2026-09-07T10:15:52.722523Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-07T15:53:05.276977Z",
       "s": 3.0
@@ -136,23 +128,43 @@
     {
       "t": "2026-09-09T09:44:12.651052Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-09-09T14:35:24.197390Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-09-09T09:44:12.651052Z",
   "event_detected_at": {
     "oil hits $100 a barrel for first time since july after us and houthi strikes": {
       "detected_at": "2026-09-09T09:44:12.651052Z",
-      "peak_at": "2026-09-09T09:44:12.651052Z",
-      "peak_score_at": "2026-09-09T09:44:12.651052Z",
-      "peak_score": 4.0,
+      "peak_at": "2026-09-09T14:35:24.197390Z",
+      "peak_score_at": "2026-09-09T14:35:24.197390Z",
+      "peak_score": 4.6,
       "peak_sentiment": "negative",
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
       "peak_label": "Oil hits $100 after US-Houthi strikes",
-      "peak_summary": "Brent crude surges to $100/barrel following US strikes on Iranian tankers, indirectly raising fuel and transport costs for Portuguese economy.",
+      "peak_summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising fuel and energy costs for Portuguese consumers and businesses.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "germany's merz attacks afd in stormy debate after far-right election win": {
+      "detected_at": "2026-09-09T14:35:24.197390Z",
+      "peak_at": "2026-09-09T14:35:24.197390Z",
+      "peak_score_at": "2026-09-09T14:35:24.197390Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+      "peak_label": "Germany's Merz clashes with AfD leader",
+      "peak_summary": "German chancellor confronts AfD's Weidel over migration in heated debate; EU political tension with no direct Portuguese impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -255,27 +267,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cddvzd1z53lo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump threatens to stop sale of canadian bombardier jets in us": {
-      "detected_at": "2026-09-08T04:01:35.872313Z",
-      "peak_at": "2026-09-08T10:01:41.015582Z",
-      "peak_score_at": "2026-09-08T10:01:41.015582Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "peak_label": "Trump threatens Bombardier jet ban amid trade war",
-      "peak_summary": "US president escalates trade conflict with Canada, raising broader transatlantic economic uncertainty for EU periphery members.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-    "'Totally reliant on Mother Nature': UK drought raises water security fears"
+    "Germany's Merz attacks AfD in stormy debate after far-right election win",
+    "US to ban imports of some Canadian alcohol, dairy goods and motorbikes"
   ]
 }

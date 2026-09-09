@@ -1,14 +1,14 @@
 {
-  "global_score": 4.7,
-  "rationale": "Oil hitting $100/barrel directly raises fuel and energy costs for Polish households and businesses, a core sensitivity. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.9,
+  "rationale": "Oil at $100 continues to drive fuel costs; Germany-AfD debate is regional political noise; other events remain distant.",
   "top_events": [
     {
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-      "label": "Oil reaches $100 after US-Houthi strikes",
-      "summary": "Brent crude rises to $100/barrel following US strikes on Iranian tankers, directly increasing fuel and energy costs for Polish consumers and industry.",
-      "score": 4.7,
+      "label": "Oil hits $100 after US-Houthi strikes",
+      "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising fuel and energy costs for Polish consumers and businesses.",
+      "score": 4.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -22,12 +22,31 @@
       "detected_at": "2026-09-09T09:44:12.646413Z"
     },
     {
-      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-      "label": "US bans Canadian alcohol dairy motorbike imports",
-      "summary": "US escalates trade war with Canada by banning select imports; indirect risk to EU-US trade relations and global economic stability.",
+      "title": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+      "label": "Germany's Merz clashes with AfD leader",
+      "summary": "German chancellor confronts AfD's Weidel over migration policy in heated debate following far-right election gains; regional political tension with no direct Polish impact.",
       "score": 2.8,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-09T04:01:35.291410Z"
+    },
+    {
+      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+      "label": "US bans Canadian alcohol, dairy, bikes",
+      "summary": "Latest US-Canada trade war escalation; indirect risk to EU-US trade relations but no immediate Polish life impact.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -39,43 +58,24 @@
         }
       ],
       "detected_at": "2026-09-09T00:13:30.875809Z"
-    },
-    {
-      "title": "Russian drone attack kills two at Ukraine-Moldova border crossing",
-      "label": "Russian drones kill two at Ukraine-Moldova border",
-      "summary": "Strike at Odesa border crossing kills two civilians; highlights ongoing eastern border security threat near Poland's region.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/9/russian-drone-attack-kills-two-at-ukraine-moldova-border-crossing?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-07T15:53:05.275556Z"
     }
   ],
-  "short_summary": "Oil reaches $100 after US-Houthi strikes",
+  "short_summary": "Oil hits $100 after US-Houthi strikes",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-09T09:44:12.646413Z",
+  "updated_at": "2026-09-09T14:35:24.193370Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Oil reaches $100 after US-Houthi strikes",
-    "summary": "Brent crude rises to $100/barrel following US strikes on Iranian tankers, directly increasing fuel and energy costs for Polish consumers and industry.",
+    "label": "Oil hits $100 after US-Houthi strikes",
+    "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising fuel and energy costs for Polish consumers and businesses.",
     "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "score": 4.7,
+    "score": 4.9,
     "sentiment": "negative",
     "detected_at": "2026-09-09T09:44:12.646413Z",
-    "peak_at": "2026-09-09T09:44:12.646413Z",
+    "peak_at": "2026-09-09T14:35:24.193370Z",
     "source_links": [
       {
         "name": "BBC",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-09-09T09:44:12.646413Z",
   "score_history": [
-    {
-      "t": "2026-09-07T10:01:40.854131Z",
-      "s": 4.1
-    },
-    {
-      "t": "2026-09-07T10:15:52.720598Z",
-      "s": 3.1
-    },
     {
       "t": "2026-09-07T15:53:05.275556Z",
       "s": 3.5
@@ -168,6 +160,10 @@
     {
       "t": "2026-09-09T09:44:12.646413Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-09-09T14:35:24.193370Z",
+      "s": 4.9
     }
   ]
 }

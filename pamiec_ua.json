@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-09T09:44:12.658914Z",
-  "ostatnia_ocena": 5.9,
+  "updated_at": "2026-09-09T14:35:24.205699Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian drone strike on Kyiv TV building",
-      "poziom_bazowy": 5.9,
+      "temat": "Russia resumes Kyiv strikes after US envoy pause",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 10,
+      "opis": "Strikes restart after three-day lull; direct safety impact."
+    },
+    {
+      "temat": "Oil hits $100 from US-Iran-Houthi strikes",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Brent crude reaches $100; fuel cost surge for Ukraine."
+    },
+    {
+      "temat": "North Korea uranium enrichment facility",
+      "poziom_bazowy": 2.2,
       "cykle_bez_zmian": 0,
+      "opis": "IAEA reports new facility; distant nuclear proliferation."
+    },
+    {
+      "temat": "Russian drone strike on Kyiv TV building",
+      "poziom_bazowy": 5.6,
+      "cykle_bez_zmian": 1,
       "opis": "Daytime attack kills five; escalation in civilian media."
+    },
+    {
+      "temat": "Diesel prices record high from Iran conflict",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 19,
+      "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "Yemen Saudi-backed forces strike Houthis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Counteroffensive intensifies; indirect fuel logistics."
     },
     {
       "temat": "Jordan intercepts Iranian missile barrage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Air defenses intercept Iranian missiles; regional."
-    },
-    {
-      "temat": "Russia resumes Kyiv strikes after US envoy pause",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 9,
-      "opis": "Strikes restart after three-day lull; direct safety impact."
-    },
-    {
-      "temat": "Diesel prices record high from Iran conflict",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 18,
-      "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "Hungary expels Russian diplomats",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "New government drops pro-Kremlin stance; EU shift."
-    },
-    {
-      "temat": "Ukraine chief prosecutor resigns over corruption",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Kravchenko resigns amid scandal; wartime governance issue."
-    },
-    {
-      "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 0,
-      "opis": "Brent crude reaches $100; fuel cost surge for Ukraine."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-07T10:01:40.857884Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-09-07T10:15:52.723580Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-07T15:53:05.277784Z",
       "s": 5.0
@@ -136,11 +128,15 @@
     {
       "t": "2026-09-09T09:44:12.652651Z",
       "s": 5.9
+    },
+    {
+      "t": "2026-09-09T14:35:24.199366Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-07T15:53:05.277784Z",
   "event_detected_at": {
-    "russian drone attack kills two at ukraine-moldova border crossing": {
+    "russia and ukraine exchange strikes as two killed at moldova border": {
       "detected_at": "2026-09-07T15:53:05.277784Z",
       "peak_at": "2026-09-09T09:44:12.652651Z",
       "peak_score_at": "2026-09-09T09:44:12.652651Z",
@@ -169,6 +165,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "n korea has built two-storey uranium enrichment facility, says watchdog": {
+      "detected_at": "2026-09-09T14:35:24.199366Z",
+      "peak_at": "2026-09-09T14:35:24.199366Z",
+      "peak_score_at": "2026-09-09T14:35:24.199366Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "N Korea has built two-storey uranium enrichment facility, says watchdog",
+      "peak_label": "North Korea builds uranium enrichment facility",
+      "peak_summary": "IAEA reports new two-storey enrichment facility in North Korea; distant nuclear proliferation concern with no direct Ukrainian impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy0zqk2w92lo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -240,22 +252,6 @@
         }
       ]
     },
-    "saudi arabia vows to respond after houthis attack cities and energy facilities": {
-      "detected_at": "2026-09-08T10:01:41.017155Z",
-      "peak_at": "2026-09-08T10:01:41.017155Z",
-      "peak_score_at": "2026-09-08T10:01:41.017155Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Houthi attacks on southern Saudi Arabia reportedly injure dozens",
-      "peak_label": "Houthi attacks on Saudi Arabia injure dozens",
-      "peak_summary": "Wave of attacks injures 73 including civilians; Middle East escalation raises fuel logistics risks for Ukrainian military operations.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/houthi-attacks-on-southern-saudi-arabia-reportedly-injure-dozens?traffic_source=rss"
-        }
-      ]
-    },
     "hungary expels 10 russian diplomats as relations worsen": {
       "detected_at": "2026-09-08T15:09:31.921461Z",
       "peak_at": "2026-09-08T15:09:31.921461Z",
@@ -274,8 +270,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russian drone attack kills two at Ukraine-Moldova border crossing",
+    "Russia and Ukraine exchange strikes as two killed at Moldova border",
     "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "In maps and charts: Russian and Ukrainian attacks on civilian targets"
+    "N Korea has built two-storey uranium enrichment facility, says watchdog"
   ]
 }

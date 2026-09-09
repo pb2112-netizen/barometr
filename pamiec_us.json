@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-09T09:44:12.659873Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-09-09T14:35:24.206715Z",
+  "ostatnia_ocena": 5.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US import ban on Canadian goods enacted",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 1,
       "opis": "Import bans on Canadian goods; trade war escalates directly."
     },
     {
-      "temat": "Canada retaliatory US tariffs enacted",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Tariffs on US goods take effect; trade war escalates."
-    },
-    {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 5.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 5.2,
+      "cykle_bez_zmian": 1,
       "opis": "Brent crude reaches $100; fuel cost surge for US."
     },
     {
       "temat": "US bans Canadian imports escalation",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 1,
       "opis": "US bans Canadian alcohol, dairy, bikes; trade war deepens."
     },
     {
+      "temat": "AI researcher quits Anthropic over safety",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Warns of superintelligent AI risk; rhetoric, no policy."
+    },
+    {
       "temat": "US ambassador Taiwan conflict warning",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
       "opis": "De facto ambassador warns Taiwan conflict would be."
     },
     {
       "temat": "US reading scores hit 25-year low",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "15-year-olds' scores drop 14 points; education crisis."
     },
     {
       "temat": "Jordan intercepts Iranian missile barrage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Air defenses intercept Iranian missiles; regional."
     },
     {
       "temat": "9/11 asbestos documents released",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "New documents reveal air-quality concerns after attacks."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-07T10:01:40.859641Z",
-      "s": 3.9
-    },
-    {
-      "t": "2026-09-07T10:15:52.724706Z",
-      "s": 3.8
-    },
     {
       "t": "2026-09-07T15:53:05.278882Z",
       "s": 3.6
@@ -136,19 +128,23 @@
     {
       "t": "2026-09-09T09:44:12.654759Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-09-09T14:35:24.201241Z",
+      "s": 5.2
     }
   ],
   "events_anchor_at": "2026-09-09T09:44:12.654759Z",
   "event_detected_at": {
     "oil hits $100 a barrel for first time since july after us and houthi strikes": {
       "detected_at": "2026-09-09T09:44:12.654759Z",
-      "peak_at": "2026-09-09T09:44:12.654759Z",
-      "peak_score_at": "2026-09-09T09:44:12.654759Z",
-      "peak_score": 4.3,
+      "peak_at": "2026-09-09T14:35:24.201241Z",
+      "peak_score_at": "2026-09-09T14:35:24.201241Z",
+      "peak_score": 5.2,
       "peak_sentiment": "negative",
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
       "peak_label": "Oil hits $100 after US-Houthi strikes",
-      "peak_summary": "Brent crude surges to $100/barrel following US strikes on Iranian tankers, directly raising fuel costs and inflation pressure for American consumers.",
+      "peak_summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising gasoline and energy costs for American consumers and businesses.",
       "peak_source_links": [
         {
           "name": "BBC",
@@ -169,6 +165,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ai researcher quits anthropic saying ai race 'could kill us all'": {
+      "detected_at": "2026-09-09T14:35:24.201241Z",
+      "peak_at": "2026-09-09T14:35:24.201241Z",
+      "peak_score_at": "2026-09-09T14:35:24.201241Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "AI researcher quits Anthropic saying AI race 'could kill us all'",
+      "peak_label": "AI researcher quits over safety concerns",
+      "peak_summary": "Researcher warns AI industry races toward superintelligent systems beyond human control; rhetoric without confirmed policy change or immediate impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/ai-researcher-quits-anthropic-saying-ai-race-could-kill-us?traffic_source=rss"
         }
       ]
     },
@@ -319,27 +331,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cjdvyk3pm27o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump threatens to stop sale of canadian bombardier jets in us": {
-      "detected_at": "2026-09-08T04:01:35.875449Z",
-      "peak_at": "2026-09-08T10:01:41.018463Z",
-      "peak_score_at": "2026-09-08T10:01:41.018463Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "peak_label": "Trump threatens Bombardier jet ban amid trade war",
-      "peak_summary": "President escalates trade conflict with Canada by threatening to block sales of major aerospace firm's jets, moving beyond tariffs to direct corporate targeting.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
     "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-    "Canada's retaliatory US tariffs take effect as trade dispute grows"
+    "AI researcher quits Anthropic saying AI race 'could kill us all'"
   ]
 }
