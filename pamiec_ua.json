@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-09T00:13:30.885867Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-09-09T04:01:35.306585Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russian drone strike on Kyiv TV building",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 5,
       "opis": "Daytime attack kills five; escalation in civilian media."
     },
     {
+      "temat": "Yemen Saudi-backed forces strike Houthis",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Counteroffensive intensifies; indirect fuel logistics."
+    },
+    {
+      "temat": "Jordan intercepts Iranian missile barrage",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Air defenses intercept Iranian missiles; regional."
+    },
+    {
       "temat": "Russia resumes Kyiv strikes after US envoy pause",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 7,
       "opis": "Strikes restart after three-day lull; direct safety impact."
     },
     {
       "temat": "Diesel prices record high from Iran conflict",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 16,
       "opis": "Fuel surge affects military logistics and civilian."
     },
     {
       "temat": "Hungary expels Russian diplomats",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "New government drops pro-Kremlin stance; EU shift."
     },
     {
       "temat": "War confirmed to continue into winter 2025",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 23,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 24,
       "opis": "Zelensky confirms no breakthrough; fighting extends months."
     },
     {
       "temat": "Ukraine chief prosecutor resigns over corruption",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 10,
       "opis": "Kravchenko resigns amid scandal; wartime governance issue."
-    },
-    {
-      "temat": "North Korea-Russia road bridge opens",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "First direct road link; deepens Russia-DPRK ties amid war."
-    },
-    {
-      "temat": "Houthi attacks on Saudi Arabia injure dozens",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
-      "opis": "Wave of attacks injures 73; Middle East fuel logistics risk."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-07T04:01:32.805224Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-07T04:38:23.148723Z",
       "s": 3.2
@@ -132,6 +128,10 @@
     {
       "t": "2026-09-09T00:13:30.880354Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-09-09T04:01:35.296630Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-07T15:53:05.277784Z",
@@ -140,7 +140,7 @@
       "detected_at": "2026-09-07T15:53:05.277784Z",
       "peak_at": "2026-09-08T21:50:50.953107Z",
       "peak_score_at": "2026-09-08T21:50:50.953107Z",
-      "peak_score": 4.6,
+      "peak_score": 4.5,
       "peak_sentiment": "negative",
       "title": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
       "peak_label": "Russian drone kills five at Kyiv TV building",
@@ -149,6 +149,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "yemen's saudi-backed forces strike houthis on western coast": {
+      "detected_at": "2026-09-08T04:01:35.873857Z",
+      "peak_at": "2026-09-09T04:01:35.296630Z",
+      "peak_score_at": "2026-09-09T04:01:35.296630Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Yemen's Saudi-backed forces strike Houthis on western coast",
+      "peak_label": "Saudi-backed Yemen forces strike Houthis",
+      "peak_summary": "Saudi-backed Yemeni government forces intensify counteroffensive against Houthis. Indirect fuel logistics signal; no direct Ukrainian impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/yemens-saudi-backed-forces-strike-houthis-on-western-coast?traffic_source=rss"
+        }
+      ]
+    },
+    "jordanian air defences intercept iranian missile barrage": {
+      "detected_at": "2026-09-09T04:01:35.296630Z",
+      "peak_at": "2026-09-09T04:01:35.296630Z",
+      "peak_score_at": "2026-09-09T04:01:35.296630Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Jordanian air defences intercept Iranian missile barrage",
+      "peak_label": "Jordan intercepts Iranian missile barrage",
+      "peak_summary": "Jordanian air defenses intercept Iranian ballistic missiles. Regional escalation signal but no direct Ukrainian impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/jordanian-air-defences-intercept-iranian-missile-barrage?traffic_source=rss"
         }
       ]
     },
@@ -255,26 +287,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/8/canadas-retaliatory-tariffs-on-20bn-of-us-goods-take-effect?traffic_source=rss"
         }
       ]
-    },
-    "yemeni forces launch counteroffensive against houthis, vow to retake sanaa": {
-      "detected_at": "2026-09-08T04:01:35.873857Z",
-      "peak_at": "2026-09-08T04:01:35.873857Z",
-      "peak_score_at": "2026-09-08T04:01:35.873857Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Yemeni forces launch counteroffensive against Houthis, vow to retake Sanaa",
-      "peak_label": "Yemeni forces launch counteroffensive against Houthis",
-      "peak_summary": "Yemeni forces intensify clashes with Houthis in bid to retake capital. Distant conflict; minimal direct impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/8/yemeni-forces-launch-counteroffensive-against-houthis-vow-to-retake-sanaa?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
-    "Saudi Arabia vows to respond after Houthis attack cities and energy facilities"
+    "Yemen's Saudi-backed forces strike Houthis on western coast",
+    "Jordanian air defences intercept Iranian missile barrage"
   ]
 }
