@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-08T22:01:34.041486Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-09-09T00:13:30.884927Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Houthi attacks on Saudi Arabia injure dozens",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Wave of attacks injures 73; Middle East fuel logistics risk."
     },
     {
       "temat": "UK sanctions Israeli settlements",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "Britain bans settlement goods; Israel shuts UK consulate."
     },
     {
       "temat": "Hungary expels Russian diplomats",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "New government drops pro-Kremlin stance; EU political shift."
     },
     {
       "temat": "Germany AfD state election breakthrough",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Far-right party seeks first state power since WWII; EU."
     },
     {
       "temat": "Trump threatens Bombardier jet ban",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "US president escalates Canada trade war; EU economic risk."
     },
     {
       "temat": "Turkey Antalya forest fires evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Massive fires near resorts; Mediterranean tourism pressure."
     },
     {
       "temat": "Panama Canal traffic reduction from El Niño",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Drought may further reduce ship traffic; Atlantic routes."
     },
     {
       "temat": "Canada retaliatory US tariffs enacted",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Tariffs on US goods take effect; global trade tensions."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-06T23:53:07.315659Z",
-      "s": 4.0
-    },
     {
       "t": "2026-09-07T04:01:32.803792Z",
       "s": 3.9
@@ -132,9 +128,13 @@
     {
       "t": "2026-09-08T22:01:34.035438Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-09T00:13:30.878929Z",
+      "s": 2.1
     }
   ],
-  "events_anchor_at": "2026-09-06T05:56:38.662387Z",
+  "events_anchor_at": "2026-09-08T04:01:35.872313Z",
   "event_detected_at": {
     "uk announces sanctions on west bank settlements prompting furious israeli response": {
       "detected_at": "2026-09-08T18:39:25.731593Z",
@@ -156,11 +156,27 @@
         }
       ]
     },
+    "us slaps import ban on canadian alcohol and other goods": {
+      "detected_at": "2026-09-09T00:13:30.878929Z",
+      "peak_at": "2026-09-09T00:13:30.878929Z",
+      "peak_score_at": "2026-09-09T00:13:30.878929Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "US slaps import ban on Canadian alcohol and other goods",
+      "peak_label": "US slaps import ban on Canadian alcohol and other",
+      "peak_summary": "US imposes new import bans as Canadian retaliatory tariffs take effect. Trade war between allies continues; indirect risk to EU-US trade climate.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "saudi arabia vows to respond after houthis attack cities and energy facilities": {
       "detected_at": "2026-09-08T16:01:43.659599Z",
       "peak_at": "2026-09-08T16:01:43.659599Z",
       "peak_score_at": "2026-09-08T16:01:43.659599Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "negative",
       "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
       "peak_label": "Houthis attack Saudi cities, injure 73 people",
@@ -252,22 +268,6 @@
         }
       ]
     },
-    "germany's far-right afd says 'democracy demands' parties work with them after state election win": {
-      "detected_at": "2026-09-06T05:56:38.662387Z",
-      "peak_at": "2026-09-07T22:01:36.653363Z",
-      "peak_score_at": "2026-09-06T22:01:29.428617Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-      "peak_label": "AfD wins 44% in German state election",
-      "peak_summary": "Far-right party projected to win Saxony-Anhalt with 44%. First far-right state government in Germany since WWII shifts EU political landscape affecting Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "panama canal may cut ship traffic further as el niño strengthens": {
       "detected_at": "2026-09-08T04:01:35.872313Z",
       "peak_at": "2026-09-08T04:01:35.872313Z",
@@ -283,27 +283,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/8/panama-canal-may-cut-ship-traffic-further-as-el-nio-strengthens?traffic_source=rss"
         }
       ]
-    },
-    "jamaican delegates arrive in uk to hand slavery reparations petition to king charles": {
-      "detected_at": "2026-09-07T22:50:07.663121Z",
-      "peak_at": "2026-09-07T22:50:07.663121Z",
-      "peak_score_at": "2026-09-07T22:50:07.663121Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
-      "peak_label": "Jamaica hands slavery reparations petition to King",
-      "peak_summary": "Jamaican delegation presents petition to King Charles over slavery legacy, continuing debate over historical compensation.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-    "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-    "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs"
+    "US slaps import ban on Canadian alcohol and other goods",
+    "Saudi Arabia vows to respond after Houthis attack cities and energy facilities"
   ]
 }
