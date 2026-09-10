@@ -1,12 +1,31 @@
 {
-  "global_score": 2.9,
-  "rationale": "Oil price rhetoric continues; trade war escalates with new Canadian import bans enacted. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.9,
+  "rationale": "Houthi seizure of Mokha port threatens Bab al-Mandab Strait, a critical shipping route for US energy and goods, raising supply chain and fuel cost risks; US-Canada trade war escalates with new import bans enacted. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "label": "Houthis seize Mokha port near key strait",
+      "summary": "Capture brings Iran-backed group closer to controlling Bab al-Mandab Strait, a vital shipping route for US energy and goods, raising supply chain and fuel cost risks.",
+      "score": 4.9,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-10T18:26:54.281498Z"
+    },
     {
       "title": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
       "label": "US bans Canadian dairy alcohol motorcycles",
-      "summary": "New import bans on Canadian goods enacted as trade war deepens. Direct action affecting US consumers and trade relations.",
-      "score": 2.9,
+      "summary": "US enacts new import bans on Canadian goods after Canada imposed $20bn retaliatory tariffs; trade war escalates directly affecting US consumers and businesses.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-09-09T00:13:30.881801Z"
     },
     {
-      "title": "Trump says every adult American will get $5,000 if Republicans win midterms",
-      "label": "Trump promises $5,000 to Americans if GOP wins",
-      "summary": "President pledges cash to voters before midterms with no funding details. Campaign rhetoric with no enacted policy.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-10T04:42:31.553817Z"
-    },
-    {
       "title": "Iran war won't end until after crucial November elections, says Trump",
-      "label": "Trump says Iran war continues until US elections",
-      "summary": "President claims Iran conflict and oil prices tied to election timing. Rhetoric only; no policy change affecting US fuel costs.",
-      "score": 2.4,
+      "label": "Trump ties Iran war to November elections",
+      "summary": "President claims Iran war and oil prices tied to November elections without evidence; rhetoric only, no policy change.",
+      "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -60,39 +60,31 @@
       "detected_at": "2026-09-10T14:25:44.023775Z"
     }
   ],
-  "short_summary": "Oil hits $100 after US-Houthi strikes",
-  "level_label": "Stable",
-  "trend": "falling",
+  "short_summary": "Houthis seize Mokha port near key strait",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-10T14:25:44.023775Z",
+  "updated_at": "2026-09-10T18:26:54.281498Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Oil hits $100 after US-Houthi strikes",
-    "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising gasoline and energy costs for American consumers and businesses.",
-    "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "score": 4.8,
+    "label": "Houthis seize Mokha port near key strait",
+    "summary": "Capture brings Iran-backed group closer to controlling Bab al-Mandab Strait, a vital shipping route for US energy and goods, raising supply chain and fuel cost risks.",
+    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+    "score": 4.9,
     "sentiment": "negative",
-    "detected_at": "2026-09-09T09:44:12.654759Z",
-    "peak_at": "2026-09-09T14:35:24.201241Z",
+    "detected_at": "2026-09-10T18:26:54.281498Z",
+    "peak_at": "2026-09-10T18:26:54.281498Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-09T09:44:12.654759Z",
+  "events_anchor_at": "2026-09-10T18:26:54.281498Z",
   "score_history": [
-    {
-      "t": "2026-09-08T15:09:31.923703Z",
-      "s": 2.5
-    },
-    {
-      "t": "2026-09-08T16:01:43.663026Z",
-      "s": 2.4
-    },
     {
       "t": "2026-09-08T18:39:25.734642Z",
       "s": 2.3
@@ -148,6 +140,10 @@
     {
       "t": "2026-09-10T14:25:44.023775Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-10T18:26:54.281498Z",
+      "s": 4.9
     }
   ]
 }
