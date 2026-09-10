@@ -1,12 +1,12 @@
 {
-  "global_score": 4.4,
-  "rationale": "Oil at $100 continues to drive fuel costs; Trump $5,000 promise is campaign rhetoric without enacted policy.",
+  "global_score": 4.2,
+  "rationale": "Oil at $100 continues to drive US fuel costs; Trump midterm promises are rhetoric-only; trade war with Canada continues without new policy enacted.",
   "top_events": [
     {
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
       "label": "Oil hits $100 after US-Houthi strikes",
-      "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, continuing fuel cost surge for American households and transport.",
-      "score": 4.4,
+      "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, sustaining high fuel costs for Americans with no new escalation.",
+      "score": 4.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,39 +22,39 @@
       "detected_at": "2026-09-09T09:44:12.654759Z"
     },
     {
-      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-      "label": "US bans Canadian alcohol dairy motorbikes",
-      "summary": "Latest strike in trade war with Canada as US bans imports of alcohol, dairy, and motorcycles after Canadian counter-tariffs take effect.",
-      "score": 3.1,
+      "title": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
+      "label": "US bans Canadian dairy, alcohol, motorcycles",
+      "summary": "US enacts new import bans on Canadian goods; trade war deepens with direct impact on consumer choice and prices.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/trump-canada-trade-war-dairy-alcohol"
+        }
+      ],
+      "detected_at": "2026-09-09T00:13:30.881801Z"
+    },
+    {
+      "title": "Trump says every adult American will get $5,000 if Republicans win midterms",
+      "label": "Trump promises $5,000 if GOP wins midterms",
+      "summary": "President promises $5,000 to every adult if Republicans win; campaign rhetoric with no funding details or enacted policy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-09T00:13:30.881801Z"
-    },
-    {
-      "title": "Trump: Every American gets $5,000 if Republicans win House & Senate",
-      "label": "Trump promises $5,000 dividend to Americans",
-      "summary": "Campaign promise of $5,000 dividend to every adult citizen if Republicans win midterms; rhetoric without enacted policy.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/trump-every-american-gets-5000-if-republicans-win-house-senate?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-09-10T04:42:31.553817Z"
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-10T04:42:31.553817Z",
+  "updated_at": "2026-09-10T09:42:42.052826Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Oil hits $100 after US-Houthi strikes",
     "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, directly raising gasoline and energy costs for American consumers and businesses.",
     "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "score": 4.9,
+    "score": 4.8,
     "sentiment": "negative",
     "detected_at": "2026-09-09T09:44:12.654759Z",
     "peak_at": "2026-09-09T14:35:24.201241Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-09T09:44:12.654759Z",
   "score_history": [
-    {
-      "t": "2026-09-08T05:57:43.848523Z",
-      "s": 2.8
-    },
     {
       "t": "2026-09-08T10:01:41.018463Z",
       "s": 3.0
@@ -152,6 +148,10 @@
     {
       "t": "2026-09-10T04:42:31.553817Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-09-10T09:42:42.052826Z",
+      "s": 4.2
     }
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-10T04:42:31.557455Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-09-10T09:42:42.056626Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "Brent crude reaches $100; fuel cost surge for Ukraine."
     },
     {
+      "temat": "Russian drone strike on Kyiv TV building",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Daytime attack kills five; escalation in civilian media."
+    },
+    {
+      "temat": "Russian strikes kill seven Ukrainians",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "New deadly attack kills seven; ongoing war escalation."
+    },
+    {
+      "temat": "Russia resumes Kyiv strikes after US envoy pause",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 15,
+      "opis": "Strikes restart after three-day lull; direct safety impact."
+    },
+    {
       "temat": "Trump says Putin wants Ukraine deal",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "US president claims Putin wants deal; rhetoric, no action."
     },
     {
       "temat": "Iran referred to UN Security Council",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
-      "opis": "IAEA board refers Iran over nuclear non-compliance."
-    },
-    {
-      "temat": "Russian drone strike on Kyiv TV building",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 5,
-      "opis": "Daytime attack kills five; escalation in civilian media."
-    },
-    {
-      "temat": "Russia resumes Kyiv strikes after US envoy pause",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 14,
-      "opis": "Strikes restart after three-day lull; direct safety impact."
-    },
-    {
-      "temat": "Diesel prices record high from Iran conflict",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Fuel surge affects military logistics and civilian."
+      "cykle_bez_zmian": 3,
+      "opis": "IAEA board refers Iran over nuclear non-compliance."
     },
     {
       "temat": "North Korea uranium enrichment facility",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "IAEA reports new facility; distant nuclear proliferation."
     },
     {
       "temat": "Yemen Saudi-backed forces strike Houthis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Counteroffensive intensifies; indirect fuel logistics."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-08T05:57:43.846744Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-08T10:01:41.017155Z",
       "s": 2.9
@@ -120,15 +116,35 @@
     {
       "t": "2026-09-10T04:42:31.552136Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-10T09:42:42.051378Z",
+      "s": 5.0
     }
   ],
   "events_anchor_at": "2026-09-07T15:53:05.277784Z",
   "event_detected_at": {
+    "russian attacks kill 7 in ukraine as kyiv targets gas plants deep in arctic": {
+      "detected_at": "2026-09-09T09:44:12.652651Z",
+      "peak_at": "2026-09-10T09:42:42.051378Z",
+      "peak_score_at": "2026-09-10T09:42:42.051378Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Russian attacks kill 7 in Ukraine as Kyiv targets gas plants deep in Arctic",
+      "peak_label": "Russian strikes kill seven in Ukraine",
+      "peak_summary": "Russian attacks kill seven Ukrainians; new deadly strike this cycle while Ukraine targets Russian Arctic gas plants in deep counterstrike.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/russian-attacks-kill-7-in-ukraine-as-kyiv-targets-gas-plants-deep-in-arctic?traffic_source=rss"
+        }
+      ]
+    },
     "oil hits $100 a barrel for first time since july after us and houthi strikes": {
       "detected_at": "2026-09-09T09:44:12.652651Z",
       "peak_at": "2026-09-09T09:44:12.652651Z",
       "peak_score_at": "2026-09-09T09:44:12.652651Z",
-      "peak_score": 3.8,
+      "peak_score": 3.7,
       "peak_sentiment": "negative",
       "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
       "peak_label": "Oil hits $100 after US-Houthi strikes",
@@ -137,6 +153,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "iran war won't end until after crucial november elections, says trump": {
+      "detected_at": "2026-09-10T00:14:05.985012Z",
+      "peak_at": "2026-09-10T00:14:05.985012Z",
+      "peak_score_at": "2026-09-10T00:14:05.985012Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "Trump says the US-Iran war will end right after midterms",
+      "peak_label": "Trump says Iran war ends after midterms",
+      "peak_summary": "US president claims war will end after midterm elections, but statement is rhetoric without confirmed ceasefire or policy change.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/trump-says-the-us-iran-war-will-end-right-after-midterms?traffic_source=rss"
         }
       ]
     },
@@ -157,22 +189,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/9/iaea-board-resolves-to-report-iran-to-security-council-over-nuclear-program?traffic_source=rss"
-        }
-      ]
-    },
-    "trump says the us-iran war will end right after midterms": {
-      "detected_at": "2026-09-10T00:14:05.985012Z",
-      "peak_at": "2026-09-10T00:14:05.985012Z",
-      "peak_score_at": "2026-09-10T00:14:05.985012Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Trump says the US-Iran war will end right after midterms",
-      "peak_label": "Trump says Iran war ends after midterms",
-      "peak_summary": "US president claims war will end after midterm elections, but statement is rhetoric without confirmed ceasefire or policy change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/trump-says-the-us-iran-war-will-end-right-after-midterms?traffic_source=rss"
         }
       ]
     },
@@ -223,26 +239,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cy0zqk2w92lo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "in maps and charts: russian and ukrainian attacks on civilian targets": {
-      "detected_at": "2026-09-09T09:44:12.652651Z",
-      "peak_at": "2026-09-09T09:44:12.652651Z",
-      "peak_score_at": "2026-09-09T09:44:12.652651Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "negative",
-      "title": "In maps and charts: Russian and Ukrainian attacks on civilian targets",
-      "peak_label": "Russian Ukrainian attacks on civilian targets doubled",
-      "peak_summary": "Attacks on civilian infrastructure have more than doubled during the war; ongoing threat to Ukrainian daily life and safety.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/9/in-maps-and-charts-russian-and-ukrainian-attacks-on-civilian-targets?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Russian attacks kill 7 in Ukraine as Kyiv targets gas plants deep in Arctic",
     "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-    "Iran referred to UN Security Council for nuclear non-compliance"
+    "Iran war won't end until after crucial November elections, says Trump"
   ]
 }
