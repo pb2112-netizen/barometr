@@ -1,31 +1,12 @@
 {
-  "global_score": 4.2,
-  "rationale": "Oil at $100 continues to drive US fuel costs; Trump midterm promises are rhetoric-only; trade war with Canada continues without new policy enacted.",
+  "global_score": 2.9,
+  "rationale": "Oil price rhetoric continues; trade war escalates with new Canadian import bans enacted. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
-      "label": "Oil hits $100 after US-Houthi strikes",
-      "summary": "Brent crude reaches $100 following US strikes on Iranian tankers, sustaining high fuel costs for Americans with no new escalation.",
-      "score": 4.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-09T09:44:12.654759Z"
-    },
-    {
       "title": "US bans Canadian dairy, alcohol and motorcycles as trade war escalates",
-      "label": "US bans Canadian dairy, alcohol, motorcycles",
-      "summary": "US enacts new import bans on Canadian goods; trade war deepens with direct impact on consumer choice and prices.",
-      "score": 3.0,
+      "label": "US bans Canadian dairy alcohol motorcycles",
+      "summary": "New import bans on Canadian goods enacted as trade war deepens. Direct action affecting US consumers and trade relations.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -42,9 +23,9 @@
     },
     {
       "title": "Trump says every adult American will get $5,000 if Republicans win midterms",
-      "label": "Trump promises $5,000 if GOP wins midterms",
-      "summary": "President promises $5,000 to every adult if Republicans win; campaign rhetoric with no funding details or enacted policy.",
-      "score": 2.0,
+      "label": "Trump promises $5,000 to Americans if GOP wins",
+      "summary": "President pledges cash to voters before midterms with no funding details. Campaign rhetoric with no enacted policy.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-09-10T04:42:31.553817Z"
+    },
+    {
+      "title": "Iran war won't end until after crucial November elections, says Trump",
+      "label": "Trump says Iran war continues until US elections",
+      "summary": "President claims Iran conflict and oil prices tied to election timing. Rhetoric only; no policy change affecting US fuel costs.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-10T14:25:44.023775Z"
     }
   ],
   "short_summary": "Oil hits $100 after US-Houthi strikes",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-10T09:42:42.052826Z",
+  "updated_at": "2026-09-10T14:25:44.023775Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-09-09T09:44:12.654759Z",
   "score_history": [
-    {
-      "t": "2026-09-08T10:01:41.018463Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-09-08T11:16:39.480538Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-08T15:09:31.923703Z",
       "s": 2.5
@@ -152,6 +144,10 @@
     {
       "t": "2026-09-10T09:42:42.052826Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-09-10T14:25:44.023775Z",
+      "s": 2.9
     }
   ]
 }
