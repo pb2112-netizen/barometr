@@ -1,18 +1,37 @@
 {
-  "global_score": 3.5,
-  "rationale": "Hezbollah base destruction continues Middle East instability affecting EU energy and shipping; no new direct impact on Poland this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "Houthis tighten Red Sea grip, threatening EU shipping routes and fuel costs; Israel destroys Hezbollah base escalates Middle East instability affecting energy security.",
   "top_events": [
     {
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "label": "Israel destroys major Hezbollah underground base",
-      "summary": "Powerful blast equivalent to magnitude 4.1 earthquake marks continued Middle East escalation, maintaining indirect pressure on EU energy security and regional stability.",
-      "score": 3.0,
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "label": "Houthis seize Perim island Red Sea route",
+      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, tightening control over Bab al-Mandab Strait and threatening EU supply chains and fuel costs.",
+      "score": 4.2,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
       ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-10T18:26:54.273814Z"
+    },
+    {
+      "title": "Israel says it has destroyed major underground Hezbollah base",
+      "label": "Israel destroys major Hezbollah underground base",
+      "summary": "Powerful blast equivalent to magnitude 4.1 earthquake destroys Hezbollah infrastructure, escalating Middle East tensions with potential energy market impact for EU.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "nowosc": "kontynuacja",
       "source_links": [
         {
           "name": "BBC",
@@ -22,57 +41,38 @@
       "detected_at": "2026-09-11T14:25:26.397890Z"
     },
     {
-      "title": "Russian strikes kill two in Kyiv as Moscow targets capital's fuel stations",
-      "label": "Russian strikes target Kyiv fuel stations",
-      "summary": "Second day of strikes on fuel stations suggests new campaign focused on civilian infrastructure in Ukrainian capital, maintaining eastern border security concerns.",
-      "score": 3.5,
+      "title": "Five dead and dozens injured in coach crash in Swiss Alps",
+      "label": "Coach crash kills five in Swiss Alps",
+      "summary": "Tourist coach carrying Dutch passengers overturns in southeastern Swiss Alps, killing five and injuring dozens in neighboring EU country.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-11T14:25:26.397890Z"
-    },
-    {
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada boosts Ukraine air defense support",
-      "summary": "Canadian PM hosts Zelenskyy, offers air defense and drone replenishment, continuing Western support for regional security near Poland's eastern border.",
-      "score": 2.2,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
-        }
-      ],
-      "detected_at": "2026-09-11T00:09:45.450994Z"
+      "detected_at": "2026-09-11T04:38:02.311557Z"
     }
   ],
   "short_summary": "Houthis seize Mokha port threatening Red Sea shipping",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-11T14:25:26.397890Z",
+  "updated_at": "2026-09-11T18:31:37.138588Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Houthis seize Mokha port threatening Red Sea shipping",
     "summary": "Capture of Mokha brings Houthis closer to controlling Bab al-Mandab Strait, a critical waterway for EU trade and energy imports affecting Poland's supply chains.",
     "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "score": 4.5,
+    "score": 4.4,
     "sentiment": "negative",
     "detected_at": "2026-09-10T18:26:54.273814Z",
     "peak_at": "2026-09-10T21:37:45.363328Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-10T18:26:54.273814Z",
   "score_history": [
-    {
-      "t": "2026-09-09T14:35:24.193370Z",
-      "s": 4.9
-    },
     {
       "t": "2026-09-09T18:34:51.514063Z",
       "s": 4.8
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-11T14:25:26.397890Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-11T18:31:37.138588Z",
+      "s": 3.8
     }
   ]
 }

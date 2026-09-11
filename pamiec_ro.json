@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-11T14:25:26.406083Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-11T18:31:37.148349Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Houthis advance on Yemen Red Sea coast",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
       "opis": "Rebels gain ground near Bab el-Mandeb; shipping risk."
     },
     {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
-      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
-    },
-    {
       "temat": "Canada air defense support Ukraine",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "Canada pledges air defense boost; regional security benefit."
     },
     {
-      "temat": "Russian drone strike Ukraine-Moldova border",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
-      "opis": "Drones kill two at Odesa crossing; Moldova security threat."
+      "temat": "Israel destroys Hezbollah base Lebanon",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 1,
+      "opis": "Major underground base destroyed; regional escalation."
+    },
+    {
+      "temat": "Houthis seize Mokha port Red Sea",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
+      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Brent crude reaches $100; fuel cost surge for Romania."
     },
     {
+      "temat": "Russian drone strike Ukraine-Moldova border",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
+      "opis": "Drones kill two at Odesa crossing; Moldova security threat."
+    },
+    {
       "temat": "Anthropic blocks AI bioweapon attempt",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "AI company reports blocking biological weapons research."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
-    },
-    {
-      "temat": "Hong Kong Tiananmen activists jailed",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Activists sentenced up to seven years under security law."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-09T14:35:24.195405Z",
-      "s": 4.7
-    },
     {
       "t": "2026-09-09T18:34:51.515991Z",
       "s": 4.5
@@ -104,10 +100,30 @@
     {
       "t": "2026-09-11T14:25:26.399501Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-11T18:31:37.140631Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-10T14:25:44.018726Z",
   "event_detected_at": {
+    "houthis claim major advance in yemen and tighten grip on red sea shipping lane": {
+      "detected_at": "2026-09-10T14:25:44.018726Z",
+      "peak_at": "2026-09-10T21:37:45.364517Z",
+      "peak_score_at": "2026-09-10T21:37:45.364517Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "peak_label": "Houthis seize Mokha port threatening Red Sea route",
+      "peak_summary": "Mokha capture brings Houthis closer to controlling Bab al-Mandab Strait, a key waterway for Black Sea region trade and energy logistics affecting Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "israel says it has destroyed major underground hezbollah base": {
       "detected_at": "2026-09-11T14:25:26.399501Z",
       "peak_at": "2026-09-11T14:25:26.399501Z",
@@ -124,6 +140,22 @@
         }
       ]
     },
+    "canada offers air defense support for ukraine as zelenskyy visits": {
+      "detected_at": "2026-09-10T21:37:45.364517Z",
+      "peak_at": "2026-09-10T21:37:45.364517Z",
+      "peak_score_at": "2026-09-10T21:37:45.364517Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "positive",
+      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "peak_label": "Canada offers Ukraine air defense support",
+      "peak_summary": "Canadian PM pledges support to boost Ukraine's air defenses during Zelenskyy visit; indirect benefit to regional security near Romania.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ]
+    },
     "russian strikes kill two in kyiv as moscow targets capital's fuel stations": {
       "detected_at": "2026-09-11T14:25:26.399501Z",
       "peak_at": "2026-09-11T14:25:26.399501Z",
@@ -137,38 +169,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss"
-        }
-      ]
-    },
-    "canada offers air defense support for ukraine as zelenskyy visits": {
-      "detected_at": "2026-09-10T21:37:45.364517Z",
-      "peak_at": "2026-09-10T21:37:45.364517Z",
-      "peak_score_at": "2026-09-10T21:37:45.364517Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "peak_label": "Canada offers Ukraine air defense support",
-      "peak_summary": "Canadian PM pledges support to boost Ukraine's air defenses during Zelenskyy visit; indirect benefit to regional security near Romania.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
-        }
-      ]
-    },
-    "yemen's houthis seize strategic red sea port of mokha": {
-      "detected_at": "2026-09-10T14:25:44.018726Z",
-      "peak_at": "2026-09-10T21:37:45.364517Z",
-      "peak_score_at": "2026-09-10T21:37:45.364517Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "peak_label": "Houthis seize Mokha port threatening Red Sea route",
-      "peak_summary": "Mokha capture brings Houthis closer to controlling Bab al-Mandab Strait, a key waterway for Black Sea region trade and energy logistics affecting Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -203,43 +203,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "us bans canadian dairy, alcohol and motorcycles as trade war escalates": {
-      "detected_at": "2026-09-09T00:13:30.877377Z",
-      "peak_at": "2026-09-10T14:25:44.018726Z",
-      "peak_score_at": "2026-09-09T09:44:12.648762Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
-      "peak_label": "US bans Canadian alcohol dairy motorbike imports",
-      "peak_summary": "US escalates trade war with Canada; indirect risk to EU-US trade relations and global economic stability.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "iran war won't end until after crucial november elections, says trump": {
-      "detected_at": "2026-09-10T14:25:44.018726Z",
-      "peak_at": "2026-09-10T14:25:44.018726Z",
-      "peak_score_at": "2026-09-10T14:25:44.018726Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Iran war won't end until after crucial November elections, says Trump",
-      "peak_label": "Trump says Iran war continues until US elections",
-      "peak_summary": "President claims Iran conflict and oil prices tied to US election. Rhetoric only; no policy change affecting Romanian energy costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
     "Israel says it has destroyed major underground Hezbollah base",
-    "Russian strikes kill two in Kyiv as Moscow targets capital's fuel stations",
     "Canada offers air defense support for Ukraine as Zelenskyy visits"
   ]
 }
