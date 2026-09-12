@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-12T13:36:28.321223Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-09-12T17:08:45.733506Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Philippines ferry fire",
-      "poziom_bazowy": 1.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 12,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 7,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 20,
       "opis": "Brent crude reaches $100; fuel cost surge for Portugal."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T14:25:44.020260Z",
-      "s": 2.3
-    },
     {
       "t": "2026-09-10T18:26:54.277724Z",
       "s": 4.3
@@ -104,6 +100,10 @@
     {
       "t": "2026-09-12T13:36:28.315796Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-12T17:08:45.728355Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-09-10T18:26:54.277724Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-09-12T04:41:08.005586Z",
       "peak_at": "2026-09-12T04:41:08.005586Z",
       "peak_score_at": "2026-09-12T04:41:08.005586Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -121,6 +121,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ]
+    },
+    "death toll from philippines ferry fire rises to 76, with more still missing": {
+      "detected_at": "2026-09-12T13:36:28.315796Z",
+      "peak_at": "2026-09-12T13:36:28.315796Z",
+      "peak_score_at": "2026-09-12T13:36:28.315796Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
+      "peak_label": "Philippines ferry fire kills 35 passengers",
+      "peak_summary": "Ferry fire in Philippines kills 35 with dozens missing; distant tragedy with no link to Portuguese daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "french officials investigate if malicious act caused train derailment": {
+      "detected_at": "2026-09-12T17:08:45.728355Z",
+      "peak_at": "2026-09-12T17:08:45.728355Z",
+      "peak_score_at": "2026-09-12T17:08:45.728355Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "French officials investigate if malicious act caused train derailment",
+      "peak_label": "France probes rail fragment in derailment",
+      "peak_summary": "French authorities investigate possible sabotage after rail fragment found at site of Friday's passenger train crash injuring 44 in Normandy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -140,22 +172,6 @@
         }
       ]
     },
-    "death toll from philippines ferry fire climbs to 35, with dozens still missing": {
-      "detected_at": "2026-09-12T13:36:28.315796Z",
-      "peak_at": "2026-09-12T13:36:28.315796Z",
-      "peak_score_at": "2026-09-12T13:36:28.315796Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
-      "peak_label": "Philippines ferry fire kills 35 passengers",
-      "peak_summary": "Ferry fire in Philippines kills 35 with dozens missing; distant tragedy with no link to Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "houthis claim major advance in yemen and tighten grip on red sea shipping lane": {
       "detected_at": "2026-09-10T18:26:54.277724Z",
       "peak_at": "2026-09-11T18:31:37.142499Z",
@@ -169,22 +185,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "israel says it has destroyed major underground hezbollah base": {
-      "detected_at": "2026-09-11T14:25:26.400987Z",
-      "peak_at": "2026-09-11T14:25:26.400987Z",
-      "peak_score_at": "2026-09-11T14:25:26.400987Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "peak_label": "Israel destroys major Hezbollah underground base",
-      "peak_summary": "Powerful blast equivalent to magnitude 4.1 earthquake marks continued Middle East escalation, maintaining indirect pressure on EU-wide energy costs affecting Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -207,7 +207,7 @@
   },
   "prev_top_event_titles": [
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "Passenger train derails in France leaving at least 44 injured",
-    "Death toll from Philippines ferry fire climbs to 35, with dozens still missing"
+    "Death toll from Philippines ferry fire rises to 76, with more still missing",
+    "French officials investigate if malicious act caused train derailment"
   ]
 }

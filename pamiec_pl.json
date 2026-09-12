@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-12T13:36:28.319475Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-12T17:08:45.731907Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Train derails in Normandy injuring 44; nearby EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 7,
       "opis": "Major underground base destroyed; Middle East escalation."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 20,
       "opis": "Brent crude reaches $100; fuel cost surge for Poland."
     },
     {
       "temat": "Russian strike Pavlohrad Ukraine",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 12,
       "opis": "Shopping center strike kills four; civilian infrastructure."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T14:25:44.016679Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-10T18:26:54.273814Z",
       "s": 4.5
@@ -104,6 +100,10 @@
     {
       "t": "2026-09-12T13:36:28.312618Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-12T17:08:45.725687Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-09-10T18:26:54.273814Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-09-12T04:41:08.003543Z",
       "peak_at": "2026-09-12T04:41:08.003543Z",
       "peak_score_at": "2026-09-12T04:41:08.003543Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -137,6 +137,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "french officials investigate if malicious act caused train derailment": {
+      "detected_at": "2026-09-12T17:08:45.725687Z",
+      "peak_at": "2026-09-12T17:08:45.725687Z",
+      "peak_score_at": "2026-09-12T17:08:45.725687Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "French officials investigate if malicious act caused train derailment",
+      "peak_label": "France probes rail fragment in derailment",
+      "peak_summary": "French authorities investigate possible sabotage after rail fragment found at site of Friday's passenger train crash injuring 44 in Normandy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -171,43 +187,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "israel says it has destroyed major underground hezbollah base": {
-      "detected_at": "2026-09-11T14:25:26.397890Z",
-      "peak_at": "2026-09-11T14:25:26.397890Z",
-      "peak_score_at": "2026-09-11T14:25:26.397890Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "peak_label": "Israel destroys major Hezbollah underground base",
-      "peak_summary": "Powerful blast equivalent to magnitude 4.1 earthquake marks continued Middle East escalation, maintaining indirect pressure on EU energy security and regional stability.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russian strikes kill two in kyiv as moscow targets capital's fuel stations": {
-      "detected_at": "2026-09-11T14:25:26.397890Z",
-      "peak_at": "2026-09-11T14:25:26.397890Z",
-      "peak_score_at": "2026-09-11T14:25:26.397890Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "negative",
-      "title": "Russian strikes kill two in Kyiv as Moscow targets capital's fuel stations",
-      "peak_label": "Russian strikes target Kyiv fuel stations",
-      "peak_summary": "Second day of strikes on fuel stations suggests new campaign focused on civilian infrastructure in Ukrainian capital, maintaining eastern border security concerns.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
     "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
-    "Passenger train derails in France leaving at least 44 injured"
+    "French officials investigate if malicious act caused train derailment"
   ]
 }
