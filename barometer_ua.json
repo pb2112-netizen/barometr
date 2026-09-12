@@ -1,12 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "No new direct strikes on Ukraine this cycle; Houthis tighten Red Sea grip continues indirect fuel logistics threat; Canada air defense support continues as background; regional escalation persists.",
+  "global_score": 3.0,
+  "rationale": "No new direct strikes on Ukrainian territory this cycle; Houthis Red Sea advance and Saudi pipeline shutdown indirectly affect fuel logistics; Canada air defense support continues as background.",
   "top_events": [
     {
       "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "label": "Houthis seize Perim island Red Sea route",
-      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, tightening control over Bab al-Mandab and threatening fuel logistics and Black Sea shipping.",
-      "score": 3.1,
+      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, escalating threat to Black Sea and global fuel logistics for Ukraine.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-09-10T18:26:54.279631Z"
     },
     {
+      "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
+      "label": "Saudi oil pipeline shut after drone strike",
+      "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and Ukrainian fuel costs.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-11T14:25:26.402361Z"
+    },
+    {
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada boosts Ukraine air defense Zelenskyy visit",
-      "summary": "Canadian PM hosts Zelenskyy in Calgary, offering support to boost Ukraine's air defenses and replenish drone stocks. Continuation of Western aid commitment.",
-      "score": 3.1,
+      "label": "Canada boosts Ukraine air defense support",
+      "summary": "Canadian PM hosts Zelenskyy in Calgary, offering air defense boost and drone replenishment; continuation of Western aid commitment.",
+      "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-09-10T21:37:45.366779Z"
-    },
-    {
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "label": "Israel destroys Hezbollah underground base Lebanon",
-      "summary": "Massive blast equivalent to magnitude 4.1 earthquake destroys major Hezbollah base in Lebanon, continuing regional escalation with indirect implications.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-11T18:31:37.144239Z"
     }
   ],
   "short_summary": "Russian strikes target Kyiv fuel stations",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-12T00:17:29.128147Z",
+  "updated_at": "2026-09-12T04:41:08.006434Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -132,6 +132,10 @@
     {
       "t": "2026-09-12T00:17:29.128147Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-12T04:41:08.006434Z",
+      "s": 3.0
     }
   ]
 }

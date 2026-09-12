@@ -1,12 +1,12 @@
 {
-  "global_score": 3.5,
-  "rationale": "Houthis tighten Red Sea grip and Israel destroys Hezbollah base continue regional escalation affecting EU energy and shipping; train derailment in France is a nearby EU incident but no direct Polish impact.",
+  "global_score": 3.4,
+  "rationale": "Houthis tighten Red Sea grip and Saudi pipeline shut down continue to threaten EU shipping and energy costs; France train derailment is a nearby EU incident; other events remain distant.",
   "top_events": [
     {
       "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "label": "Houthis seize Perim island Red Sea route",
-      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, tightening control over Bab al-Mandab Strait and threatening EU supply routes and energy costs.",
-      "score": 3.5,
+      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, escalating threat to EU-bound cargo and energy supplies through Bab al-Mandab Strait.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +22,47 @@
       "detected_at": "2026-09-10T18:26:54.273814Z"
     },
     {
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "label": "Israel destroys Hezbollah underground base Lebanon",
-      "summary": "Massive blast equivalent to magnitude 4.1 earthquake destroys major Hezbollah base in Lebanon, continuing Middle East escalation with indirect energy market risk for Poland.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-11T14:25:26.397890Z"
-    },
-    {
       "title": "Passenger train derails in France leaving at least 44 injured",
-      "label": "France train derails 44 injured Normandy",
-      "summary": "Train operating Rouen-Caen route in Normandy derails with 180 passengers aboard, injuring 44. Nearby EU incident but no direct impact on Polish daily life.",
-      "score": 2.3,
+      "label": "France train derails Normandy injuring 44",
+      "summary": "Train operating Rouen-Caen route derails in Normandy with 180 passengers aboard, injuring 44; nearby EU transport incident affecting regional safety.",
+      "score": 2.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/passenger-train-derails-in-france-leaving-44-injured-1-critical?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-12T00:17:29.123059Z"
+    },
+    {
+      "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
+      "label": "Saudi oil pipeline shut after drone strike",
+      "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and EU fuel costs.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T04:41:08.003543Z"
     }
   ],
   "short_summary": "Houthis seize Mokha port threatening Red Sea shipping",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-12T00:17:29.123059Z",
+  "updated_at": "2026-09-12T04:41:08.003543Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Houthis seize Mokha port threatening Red Sea shipping",
     "summary": "Capture of Mokha brings Houthis closer to controlling Bab al-Mandab Strait, a critical waterway for EU trade and energy imports affecting Poland's supply chains.",
     "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-09-10T18:26:54.273814Z",
     "peak_at": "2026-09-11T21:43:05.414106Z",
@@ -132,6 +137,10 @@
     {
       "t": "2026-09-12T00:17:29.123059Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-12T04:41:08.003543Z",
+      "s": 3.4
     }
   ]
 }

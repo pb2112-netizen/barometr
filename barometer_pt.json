@@ -1,12 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Houthis tighten Red Sea grip continuing threat to Atlantic shipping and energy costs; Israel-Hezbollah escalation persists; France train derailment is nearby but no direct Portuguese impact.",
+  "global_score": 3.1,
+  "rationale": "Houthis tighten Red Sea grip continues to threaten Atlantic shipping and energy costs; Saudi pipeline shutdown adds fuel price pressure; France train derailment is a western EU incident.",
   "top_events": [
     {
       "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
       "label": "Houthis seize Perim island Red Sea route",
-      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, tightening control over Bab al-Mandab and threatening Atlantic shipping connections and fuel costs.",
-      "score": 3.2,
+      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, escalating threat to Atlantic-bound cargo and EU energy supplies.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,39 +22,44 @@
       "detected_at": "2026-09-10T18:26:54.277724Z"
     },
     {
-      "title": "Israel says it has destroyed major underground Hezbollah base",
-      "label": "Israel destroys Hezbollah underground base Lebanon",
-      "summary": "Massive blast equivalent to magnitude 4.1 earthquake destroys major Hezbollah base in Lebanon, continuing Middle East escalation with indirect energy market risk.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
+      "label": "Saudi oil pipeline shut after drone strike",
+      "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and Portuguese fuel costs.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-11T14:25:26.400987Z"
+      "detected_at": "2026-09-12T04:41:08.005586Z"
     },
     {
       "title": "Passenger train derails in France leaving at least 44 injured",
-      "label": "France train derails 44 injured Normandy",
-      "summary": "Train operating Rouen-Caen route in Normandy derails with 180 passengers aboard, injuring 44. Western EU incident but no direct impact on Portuguese life.",
-      "score": 2.2,
+      "label": "France train derails Normandy injuring 44",
+      "summary": "Train operating Rouen-Caen route derails in Normandy with 180 passengers aboard, injuring 44; western EU transport incident.",
+      "score": 2.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/passenger-train-derails-in-france-leaving-44-injured-1-critical?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-12T00:17:29.126709Z"
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-12T00:17:29.126709Z",
+  "updated_at": "2026-09-12T04:41:08.005586Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Houthis seize Mokha port near key strait",
     "summary": "Capture brings Iran-backed group closer to controlling Bab al-Mandab Strait, a vital shipping route for Atlantic-connected energy and goods, raising supply chain risks for Portugal.",
     "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "score": 3.8,
+    "score": 3.7,
     "sentiment": "negative",
     "detected_at": "2026-09-10T18:26:54.277724Z",
     "peak_at": "2026-09-11T18:31:37.142499Z",
@@ -132,6 +137,10 @@
     {
       "t": "2026-09-12T00:17:29.126709Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-12T04:41:08.005586Z",
+      "s": 3.1
     }
   ]
 }
