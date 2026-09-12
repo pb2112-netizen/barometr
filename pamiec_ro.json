@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-12T19:19:42.946290Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-09-12T22:16:15.496843Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Black Sea drone naval battle",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "First USV combat engagement in Black Sea; tech escalation."
+    },
+    {
       "temat": "Houthis advance on Yemen Red Sea coast",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
       "opis": "Rebels gain ground near Bab el-Mandeb; shipping risk."
     },
     {
+      "temat": "Houthis seize Mokha port Red Sea",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
+      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
+    },
+    {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 9,
       "opis": "Major underground base destroyed; regional escalation."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Train derails in Normandy injuring 44; EU incident."
-    },
-    {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
-      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
-    },
-    {
-      "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 21,
-      "opis": "Brent crude reaches $100; fuel cost surge for Romania."
-    },
-    {
-      "temat": "Russian drone strike Ukraine-Moldova border",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 21,
-      "opis": "Drones kill two at Odesa crossing; Moldova security threat."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "AI company reports blocking biological weapons research."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
+    },
+    {
+      "temat": "Oil hits $100 from US-Iran-Houthi strikes",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 22,
+      "opis": "Brent crude reaches $100; fuel cost surge for Romania."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T21:37:45.364517Z",
-      "s": 4.7
-    },
     {
       "t": "2026-09-11T00:09:45.452072Z",
       "s": 4.5
@@ -104,15 +100,19 @@
     {
       "t": "2026-09-12T19:19:42.940259Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-12T22:16:15.492172Z",
+      "s": 2.9
     }
   ],
-  "events_anchor_at": "2026-09-10T14:25:44.018726Z",
+  "events_anchor_at": "2026-09-12T22:16:15.492172Z",
   "event_detected_at": {
     "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.004427Z",
       "peak_at": "2026-09-12T04:41:08.004427Z",
       "peak_score_at": "2026-09-12T04:41:08.004427Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -121,6 +121,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ]
+    },
+    "first naval battle between drones takes place in the black sea": {
+      "detected_at": "2026-09-12T22:16:15.492172Z",
+      "peak_at": "2026-09-12T22:16:15.492172Z",
+      "peak_score_at": "2026-09-12T22:16:15.492172Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "First naval battle between drones takes place in the Black Sea",
+      "peak_label": "First drone naval battle in Black Sea",
+      "peak_summary": "Unmanned surface vessels engage in first naval drone battle in Black Sea, escalating military technology use near Romanian waters.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss"
         }
       ]
     },
@@ -171,27 +187,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "houthis claim major advance in yemen and tighten grip on red sea shipping lane": {
-      "detected_at": "2026-09-10T14:25:44.018726Z",
-      "peak_at": "2026-09-11T21:43:05.415533Z",
-      "peak_score_at": "2026-09-10T21:37:45.364517Z",
-      "peak_score": 4.0,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "peak_label": "Houthis seize Mokha port threatening Red Sea route",
-      "peak_summary": "Mokha capture brings Houthis closer to controlling Bab al-Mandab Strait, a key waterway for Black Sea region trade and energy logistics affecting Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
-    "French officials investigate if malicious act caused train derailment"
+    "First naval battle between drones takes place in the Black Sea",
+    "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Saudi pipeline closure after drone attack from Iraq raises EU energy supply concerns; France train derailment investigation continues nearby; Ukraine winter warning indirectly affects regional stability.",
+  "global_score": 2.7,
+  "rationale": "Saudi pipeline closure after drone attack from Iraq raises EU energy supply concerns; Ukraine winter infrastructure warning indirectly affects Polish refugee/aid burden. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
       "label": "Saudi pipeline shut after Iraq drone strike",
-      "summary": "Iraq-launched drone attack closes major Saudi oil pipeline, raising EU energy supply concerns. Iraq removes military commander and investigates attack from Iran border area.",
-      "score": 2.8,
+      "summary": "Drone attack from Iraq-Iran border area closes major East-West pipeline, raising fuel supply risk for EU markets including Poland.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,29 +22,10 @@
       "detected_at": "2026-09-12T04:41:08.003543Z"
     },
     {
-      "title": "French officials investigate if malicious act caused train derailment",
-      "label": "France probes rail fragment in train derailment",
-      "summary": "Officials investigate possible sabotage after rail fragment found on tracks following Friday's Normandy crash that injured 44 passengers.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-12T17:08:45.725687Z"
-    },
-    {
       "title": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
       "label": "UN warns Ukraine faces toughest winter yet",
-      "summary": "Senior UN official warns of race against time to ensure power and water access through winter, affecting regional stability and refugee pressure on Poland.",
-      "score": 2.5,
+      "summary": "UN official warns of critical race to secure power and water access through winter, indirectly affecting Polish aid and refugee pressure.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,37 +39,52 @@
         }
       ],
       "detected_at": "2026-09-12T13:36:28.312618Z"
+    },
+    {
+      "title": "French officials investigate if malicious act caused train derailment",
+      "label": "France probes possible sabotage in train crash",
+      "summary": "Rail fragment found on tracks after Normandy derailment injuring 44; investigation into potential malicious act in nearby EU member.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T17:08:45.725687Z"
     }
   ],
-  "short_summary": "Houthis seize Mokha port threatening Red Sea shipping",
+  "short_summary": "Saudi oil pipeline shut after drone strike",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-12T19:19:42.938802Z",
+  "updated_at": "2026-09-12T22:16:15.490684Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Houthis seize Mokha port threatening Red Sea shipping",
-    "summary": "Capture of Mokha brings Houthis closer to controlling Bab al-Mandab Strait, a critical waterway for EU trade and energy imports affecting Poland's supply chains.",
-    "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "score": 4.0,
+    "label": "Saudi oil pipeline shut after drone strike",
+    "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and EU fuel costs.",
+    "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
+    "score": 2.8,
     "sentiment": "negative",
-    "detected_at": "2026-09-10T18:26:54.273814Z",
-    "peak_at": "2026-09-11T21:43:05.414106Z",
+    "detected_at": "2026-09-12T04:41:08.003543Z",
+    "peak_at": "2026-09-12T04:41:08.003543Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-10T18:26:54.273814Z",
+  "events_anchor_at": "2026-09-12T04:41:08.003543Z",
   "score_history": [
-    {
-      "t": "2026-09-10T21:37:45.363328Z",
-      "s": 4.7
-    },
     {
       "t": "2026-09-11T00:09:45.450994Z",
       "s": 4.5
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-12T19:19:42.938802Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-12T22:16:15.490684Z",
+      "s": 2.7
     }
   ]
 }

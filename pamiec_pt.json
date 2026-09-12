@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-12T19:19:42.947136Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-09-12T22:16:15.497473Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 5,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 14,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 9,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 22,
       "opis": "Brent crude reaches $100; fuel cost surge for Portugal."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T21:37:45.365602Z",
-      "s": 4.3
-    },
     {
       "t": "2026-09-11T00:09:45.453337Z",
       "s": 4.1
@@ -104,6 +100,10 @@
     {
       "t": "2026-09-12T19:19:42.941596Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-09-12T22:16:15.493189Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-09-12T04:41:08.005586Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-09-12T04:41:08.005586Z",
       "peak_at": "2026-09-12T04:41:08.005586Z",
       "peak_score_at": "2026-09-12T04:41:08.005586Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -121,6 +121,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ]
+    },
+    "french officials investigate if malicious act caused train derailment": {
+      "detected_at": "2026-09-12T17:08:45.728355Z",
+      "peak_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "French officials investigate if malicious act caused train derailment",
+      "peak_label": "France probes possible sabotage in train crash",
+      "peak_summary": "Rail fragment found after Normandy derailment injuring 44; investigation into potential malicious act in western EU.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "fire at nursing home in chile kills 16 residents": {
+      "detected_at": "2026-09-12T22:16:15.493189Z",
+      "peak_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "negative",
+      "title": "Fire at nursing home in Chile kills 16 residents",
+      "peak_label": "Chile nursing home fire kills 16 residents",
+      "peak_summary": "Fire in Araucanía region kills 16 elderly residents; distant tragedy with no direct link to Portuguese daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/fire-at-nursing-home-in-chile-kills-16-elderly-residents?traffic_source=rss"
         }
       ]
     },
@@ -140,22 +176,6 @@
         }
       ]
     },
-    "french officials investigate if malicious act caused train derailment": {
-      "detected_at": "2026-09-12T17:08:45.728355Z",
-      "peak_at": "2026-09-12T17:08:45.728355Z",
-      "peak_score_at": "2026-09-12T17:08:45.728355Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "French officials investigate if malicious act caused train derailment",
-      "peak_label": "France probes rail fragment in derailment",
-      "peak_summary": "French authorities investigate possible sabotage after rail fragment found at site of Friday's passenger train crash injuring 44 in Normandy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "passenger train derails in france leaving at least 44 injured": {
       "detected_at": "2026-09-12T00:17:29.126709Z",
       "peak_at": "2026-09-12T00:17:29.126709Z",
@@ -171,27 +191,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "five dead and dozens injured in coach crash in swiss alps": {
-      "detected_at": "2026-09-10T21:37:45.365602Z",
-      "peak_at": "2026-09-11T21:43:05.416829Z",
-      "peak_score_at": "2026-09-10T21:37:45.365602Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "Coach crash kills several people in Swiss Alps",
-      "peak_label": "Coach crash kills several in Swiss Alps",
-      "peak_summary": "Coach carrying 48 Dutch passengers overturned in Swiss Alps, killing several; nearby EU tragedy affecting regional tourism safety perception.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "Death toll from Philippines ferry fire rises to 76, with more still missing",
-    "French officials investigate if malicious act caused train derailment"
+    "French officials investigate if malicious act caused train derailment",
+    "Fire at nursing home in Chile kills 16 residents"
   ]
 }
