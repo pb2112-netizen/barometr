@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-12T04:41:08.009354Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-09-12T09:19:49.310820Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 10,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 5,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 18,
       "opis": "Brent crude reaches $100; fuel cost surge for Portugal."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "AI company reports blocking biological weapons research."
     },
     {
       "temat": "Hong Kong Tiananmen activists jailed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Activists sentenced up to seven years under security law."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T04:42:31.550953Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-10T09:42:42.049397Z",
       "s": 3.8
@@ -104,27 +100,15 @@
     {
       "t": "2026-09-12T04:41:08.005586Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-12T09:19:49.305080Z",
+      "s": 2.7
     }
   ],
   "events_anchor_at": "2026-09-10T18:26:54.277724Z",
   "event_detected_at": {
-    "houthis claim major advance in yemen and tighten grip on red sea shipping lane": {
-      "detected_at": "2026-09-10T18:26:54.277724Z",
-      "peak_at": "2026-09-11T18:31:37.142499Z",
-      "peak_score_at": "2026-09-10T18:26:54.277724Z",
-      "peak_score": 3.7,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "peak_label": "Houthis seize Mokha port near key strait",
-      "peak_summary": "Capture brings Iran-backed group closer to controlling Bab al-Mandab Strait, a vital shipping route for Atlantic-connected energy and goods, raising supply chain risks for Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "satellite image shows critical saudi pipeline damaged in drone attack": {
+    "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.005586Z",
       "peak_at": "2026-09-12T04:41:08.005586Z",
       "peak_score_at": "2026-09-12T04:41:08.005586Z",
@@ -144,7 +128,7 @@
       "detected_at": "2026-09-12T00:17:29.126709Z",
       "peak_at": "2026-09-12T00:17:29.126709Z",
       "peak_score_at": "2026-09-12T00:17:29.126709Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "negative",
       "title": "Passenger train derails in France leaving at least 44 injured",
       "peak_label": "France train derails 44 injured Normandy",
@@ -153,6 +137,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "houthis claim major advance in yemen and tighten grip on red sea shipping lane": {
+      "detected_at": "2026-09-10T18:26:54.277724Z",
+      "peak_at": "2026-09-11T18:31:37.142499Z",
+      "peak_score_at": "2026-09-10T18:26:54.277724Z",
+      "peak_score": 3.6,
+      "peak_sentiment": "negative",
+      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "peak_label": "Houthis seize Mokha port near key strait",
+      "peak_summary": "Capture brings Iran-backed group closer to controlling Bab al-Mandab Strait, a vital shipping route for Atlantic-connected energy and goods, raising supply chain risks for Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -190,8 +190,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-    "Satellite image shows critical Saudi pipeline damaged in drone attack",
-    "Passenger train derails in France leaving at least 44 injured"
+    "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+    "Passenger train derails in France leaving at least 44 injured",
+    "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane"
   ]
 }

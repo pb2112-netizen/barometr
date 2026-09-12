@@ -1,14 +1,33 @@
 {
-  "global_score": 3.0,
-  "rationale": "No new direct strikes on Ukrainian territory this cycle; Houthis Red Sea advance and Saudi pipeline shutdown indirectly affect fuel logistics; Canada air defense support continues as background.",
+  "global_score": 4.5,
+  "rationale": "Russia struck cargo vessels and steel plants across Ukraine; UN warns of toughest winter since invasion with power and water access threatened.",
   "top_events": [
     {
-      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-      "label": "Houthis seize Perim island Red Sea route",
-      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, escalating threat to Black Sea and global fuel logistics for Ukraine.",
-      "score": 3.0,
+      "title": "Russia strikes cargo vessels, steel plants across Ukraine",
+      "label": "Russia strikes cargo vessels and steel plants",
+      "summary": "Russia's Defence Ministry confirmed forces struck several industrial facilities across Ukraine, including cargo vessels and steel plants, escalating infrastructure attacks.",
+      "score": 4.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/russia-strikes-cargo-vessels-steel-plants-across-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T09:19:49.306888Z"
+    },
+    {
+      "title": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
+      "label": "UN warns Ukraine faces toughest winter yet",
+      "summary": "A senior UN official warned of a race against time to ensure Ukrainian access to power and water through the coming winter, the toughest since the full-scale invasion began.",
+      "score": 3.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -16,35 +35,16 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-10T18:26:54.279631Z"
-    },
-    {
-      "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
-      "label": "Saudi oil pipeline shut after drone strike",
-      "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and Ukrainian fuel costs.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-11T14:25:26.402361Z"
+      "detected_at": "2026-09-12T09:19:49.306888Z"
     },
     {
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada boosts Ukraine air defense support",
-      "summary": "Canadian PM hosts Zelenskyy in Calgary, offering air defense boost and drone replenishment; continuation of Western aid commitment.",
-      "score": 3.0,
+      "label": "Canada pledges air defense boost for Ukraine",
+      "summary": "Canadian PM hosted President Zelenskyy in Calgary, offering support to boost Ukraine's air defenses and help replenish drone capabilities.",
+      "score": 2.9,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -62,12 +62,12 @@
   ],
   "short_summary": "Russian strikes target Kyiv fuel stations",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-12T04:41:08.006434Z",
+  "updated_at": "2026-09-12T09:19:49.306888Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russian strikes target Kyiv fuel stations",
     "summary": "Second day of strikes on fuel stations suggests new campaign focused on civilian areas in Ukrainian capital, killing two and escalating direct threat to Kyiv residents.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-11T14:25:26.402361Z",
   "score_history": [
-    {
-      "t": "2026-09-10T04:42:31.552136Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-10T09:42:42.051378Z",
       "s": 5.0
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-12T04:41:08.006434Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-12T09:19:49.306888Z",
+      "s": 4.5
     }
   ]
 }

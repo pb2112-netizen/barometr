@@ -1,12 +1,31 @@
 {
-  "global_score": 3.6,
-  "rationale": "Houthis seizing Perim island escalates Red Sea shipping threat affecting Black Sea trade routes; Saudi pipeline shutdown adds energy market pressure; France train derailment is a nearby EU incident.",
+  "global_score": 3.1,
+  "rationale": "Saudi pipeline closure affects EU energy indirectly; Houthi Red Sea advance continues threatening Black Sea shipping connections.",
   "top_events": [
     {
+      "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+      "label": "Saudi pipeline shut after Iraq drone strike",
+      "summary": "Saudi Arabia closed a major oil pipeline following a drone attack from Iraq near Iran. Iraq removed a military commander and opened investigations.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T04:41:08.004427Z"
+    },
+    {
       "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-      "label": "Houthis seize Perim island Red Sea route",
-      "summary": "Iran-backed Houthis capture strategic Perim island on major shipping lane, escalating threat to Black Sea and EU-bound cargo through Bab al-Mandab Strait.",
-      "score": 3.6,
+      "label": "Houthis seize strategic island near Red Sea",
+      "summary": "Iran-backed Houthis reportedly seized Perim island on a major shipping route, tightening control over Red Sea lanes affecting Black Sea trade connections.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,44 +41,20 @@
       "detected_at": "2026-09-10T14:25:44.018726Z"
     },
     {
-      "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
-      "label": "Saudi oil pipeline shut after drone strike",
-      "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global energy markets and Romanian fuel costs.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-12T04:41:08.004427Z"
-    },
-    {
       "title": "Passenger train derails in France leaving at least 44 injured",
-      "label": "France train derails Normandy injuring 44",
-      "summary": "Train operating Rouen-Caen route derails in Normandy with 180 passengers aboard, injuring 44; nearby EU transport incident.",
-      "score": 2.1,
+      "label": "French train derails injuring 44 passengers",
+      "summary": "A passenger train in Normandy derailed with 180 passengers on board, injuring at least 44 people in western EU.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/passenger-train-derails-in-france-leaving-44-injured-1-critical?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-12T00:17:29.124933Z"
@@ -67,17 +62,17 @@
   ],
   "short_summary": "Houthis seize Mokha port threatening Red Sea route",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-12T04:41:08.004427Z",
+  "updated_at": "2026-09-12T09:19:49.303879Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Houthis seize Mokha port threatening Red Sea route",
     "summary": "Mokha capture brings Houthis closer to controlling Bab al-Mandab Strait, a key waterway for Black Sea region trade and energy logistics affecting Romania.",
     "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-    "score": 4.1,
+    "score": 4.0,
     "sentiment": "negative",
     "detected_at": "2026-09-10T14:25:44.018726Z",
     "peak_at": "2026-09-11T21:43:05.415533Z",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-10T14:25:44.018726Z",
   "score_history": [
-    {
-      "t": "2026-09-10T04:42:31.549547Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-10T09:42:42.047926Z",
       "s": 3.8
@@ -141,6 +132,10 @@
     {
       "t": "2026-09-12T04:41:08.004427Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-09-12T09:19:49.303879Z",
+      "s": 3.1
     }
   ]
 }
