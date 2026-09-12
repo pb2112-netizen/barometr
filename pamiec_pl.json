@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-11T21:43:05.420511Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-09-12T00:17:29.130685Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
-      "temat": "Swiss Alps coach crash",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
-      "opis": "Coach carrying Dutch passengers overturns; several dead."
-    },
-    {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 3,
       "opis": "Major underground base destroyed; Middle East escalation."
     },
     {
+      "temat": "France train derailment Normandy",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 0,
+      "opis": "Train derails in Normandy injuring 44; nearby EU incident."
+    },
+    {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
     },
     {
       "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 16,
       "opis": "Brent crude reaches $100; fuel cost surge for Poland."
     },
     {
       "temat": "Russian strike Pavlohrad Ukraine",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 8,
       "opis": "Shopping center strike kills four; civilian infrastructure."
     },
     {
-      "temat": "Anthropic blocks AI bioweapon attempt",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
-      "opis": "AI company reports blocking biological weapons research."
-    },
-    {
-      "temat": "Canada air defense support Ukraine",
+      "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 5,
-      "opis": "Canada pledges air defense boost; regional security benefit."
+      "opis": "Coach carrying Dutch passengers overturns; several dead."
+    },
+    {
+      "temat": "Anthropic blocks AI bioweapon attempt",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
+      "opis": "AI company reports blocking biological weapons research."
     },
     {
       "temat": "Hong Kong Tiananmen activists jailed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Activists sentenced up to seven years under security law."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-10T00:14:05.980468Z",
-      "s": 4.4
-    },
     {
       "t": "2026-09-10T04:42:31.548182Z",
       "s": 4.2
@@ -100,6 +96,10 @@
     {
       "t": "2026-09-11T21:43:05.414106Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-09-12T00:17:29.123059Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-09-10T18:26:54.273814Z",
@@ -108,7 +108,7 @@
       "detected_at": "2026-09-10T18:26:54.273814Z",
       "peak_at": "2026-09-11T21:43:05.414106Z",
       "peak_score_at": "2026-09-10T21:37:45.363328Z",
-      "peak_score": 4.3,
+      "peak_score": 4.2,
       "peak_sentiment": "negative",
       "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
       "peak_label": "Houthis seize Mokha port threatening Red Sea shipping",
@@ -133,6 +133,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "passenger train derails in france leaving at least 44 injured": {
+      "detected_at": "2026-09-12T00:17:29.123059Z",
+      "peak_at": "2026-09-12T00:17:29.123059Z",
+      "peak_score_at": "2026-09-12T00:17:29.123059Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Passenger train derails in France leaving at least 44 injured",
+      "peak_label": "France train derails 44 injured Normandy",
+      "peak_summary": "Train operating Rouen-Caen route in Normandy derails with 180 passengers aboard, injuring 44. Nearby EU incident but no direct impact on Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -167,27 +183,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss"
         }
       ]
-    },
-    "canada offers air defense support for ukraine as zelenskyy visits": {
-      "detected_at": "2026-09-11T00:09:45.450994Z",
-      "peak_at": "2026-09-11T00:09:45.450994Z",
-      "peak_score_at": "2026-09-11T00:09:45.450994Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "positive",
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "peak_label": "Canada pledges Ukraine air defense boost support",
-      "peak_summary": "Canadian PM offers air defense support and drone replenishment during Zelenskyy visit, strengthening NATO ally's defense on Poland's eastern border.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
     "Israel says it has destroyed major underground Hezbollah base",
-    "Five dead and dozens injured in coach crash in Swiss Alps"
+    "Passenger train derails in France leaving at least 44 injured"
   ]
 }
