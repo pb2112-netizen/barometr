@@ -1,56 +1,58 @@
 {
-  "updated_at": "2026-09-13T10:16:15.513922Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-09-13T14:25:56.855314Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
-      "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 3,
-      "opis": "Train derails in Normandy injuring 44; nearby EU incident."
+      "temat": "Ukraine drone strikes near Poland border",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
     },
     {
-      "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
-      "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
+      "temat": "Philippines ferry fire",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Ferry fire kills 76 with more missing; distant tragedy."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 18,
       "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
     },
     {
+      "temat": "Saudi oil pipeline shut after drone strike",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
+      "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
+    },
+    {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 13,
       "opis": "Major underground base destroyed; Middle East escalation."
     },
     {
-      "temat": "Russian strike Pavlohrad Ukraine",
+      "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Shopping center strike kills four; civilian infrastructure."
+      "cykle_bez_zmian": 4,
+      "opis": "Train derails in Normandy injuring 44; nearby EU incident."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T14:25:26.397890Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-11T18:31:37.138588Z",
       "s": 3.8
@@ -98,10 +100,62 @@
     {
       "t": "2026-09-13T10:16:15.507356Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-09-13T14:25:56.848177Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-09-12T13:36:28.312618Z",
   "event_detected_at": {
+    "ukraine drone strikes kill four as russia attacks close to poland border": {
+      "detected_at": "2026-09-12T13:36:28.312618Z",
+      "peak_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Ukraine drone strikes kill four as Russia attacks close to Poland border",
+      "peak_label": "Ukraine drones kill four near Poland border",
+      "peak_summary": "Ukrainian strikes killed four Russians while Russia launched drone waves, with attacks reported close to Poland's eastern border—ongoing spillover risk for Polish security.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/ukraine-drone-strikes-kill-four-as-russia-attacks-close-to-poland-border?traffic_source=rss"
+        }
+      ]
+    },
+    "ai staff 'genuinely frightened' for humanity's future, ex-anthropic researcher tells bbc": {
+      "detected_at": "2026-09-13T14:25:56.848177Z",
+      "peak_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+      "peak_label": "AI staff warn of humanity risks",
+      "peak_summary": "Former Anthropic researcher expresses serious concern over AI development risks, with company boss calling for slower progress—indirect tech policy relevance for EU member.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "death toll from philippines ferry fire rises to 76, with more still missing": {
+      "detected_at": "2026-09-13T14:25:56.848177Z",
+      "peak_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
+      "peak_label": "Philippines ferry fire kills 76",
+      "peak_summary": "Ferry fire death toll reaches 76 with more missing—distant tragedy with no direct impact on Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.003543Z",
       "peak_at": "2026-09-13T04:45:03.917878Z",
@@ -181,27 +235,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "ukraine faces 'toughest winter' since russia's full-scale invasion, un official tells bbc": {
-      "detected_at": "2026-09-12T13:36:28.312618Z",
-      "peak_at": "2026-09-12T13:36:28.312618Z",
-      "peak_score_at": "2026-09-12T13:36:28.312618Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
-      "peak_label": "UN warns Ukraine faces toughest winter yet",
-      "peak_summary": "UN official highlights severe winter risks for Ukraine's power and water infrastructure, indirectly affecting regional stability near Poland's eastern border.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "Anthropic boss Dario Amodei calls for AI development to slow down",
-    "Russians seek answers over hundreds missing after Ukraine's 2024 incursion"
+    "Ukraine drone strikes kill four as Russia attacks close to Poland border",
+    "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+    "Death toll from Philippines ferry fire rises to 76, with more still missing"
   ]
 }
