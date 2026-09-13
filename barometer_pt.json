@@ -1,63 +1,68 @@
 {
-  "global_score": 2.1,
-  "rationale": "Yemen fighting and ferry disasters remain distant background events; AI safety concerns add mild tech policy relevance but no direct impact on Portuguese daily life.",
+  "global_score": 2.0,
+  "rationale": "Eastern European military events and distant tragedies have minimal direct impact on Portuguese daily life; no significant changes to EU economy, energy, or Atlantic shipping.",
   "top_events": [
     {
-      "title": "Renewed fighting worsens Yemen's humanitarian crisis",
-      "label": "Yemen fighting worsens crisis",
-      "summary": "Renewed combat in Yemen escalates humanitarian situation—indirect risk to Atlantic shipping routes and EU energy markets.",
-      "score": 2.1,
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "label": "Russia strikes Ukrainian train near border",
+      "summary": "Eastern European military escalation has indirect implications for EU stability but minimal direct effect on Portuguese daily life.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T17:08:45.728355Z"
+    },
+    {
+      "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+      "label": "Indonesian ferry capsizes in Java Sea",
+      "summary": "Distant maritime disaster with no connection to Portugal or Atlantic shipping routes.",
+      "score": 1.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/renewed-fighting-worsens-yemens-humanitarian-crisis?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-13T14:25:56.850935Z"
-    },
-    {
-      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-      "label": "AI staff warn of humanity risks",
-      "summary": "Former Anthropic researcher expresses serious concern over AI development risks—indirect tech policy relevance for EU member.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "nauka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-13T14:25:56.850935Z"
-    },
-    {
-      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
-      "label": "Philippines ferry fire kills 76",
-      "summary": "Ferry fire death toll reaches 76 with more missing—distant tragedy with no direct impact on Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-12T13:36:28.315796Z"
+    },
+    {
+      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+      "label": "Trump dismisses AI safety warnings",
+      "summary": "US policy rhetoric on AI without enacted measures; no immediate impact on Portuguese economy or daily life.",
+      "score": 1.8,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-13T18:12:06.211081Z"
     }
   ],
   "short_summary": "Houthis seize Mayun Island Red Sea",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-13T14:25:56.850935Z",
+  "updated_at": "2026-09-13T18:12:06.211081Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -136,6 +141,10 @@
     {
       "t": "2026-09-13T14:25:56.850935Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-09-13T18:12:06.211081Z",
+      "s": 2.0
     }
   ]
 }

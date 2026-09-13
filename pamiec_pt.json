@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-09-13T14:25:56.857343Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-09-13T18:12:06.217549Z",
+  "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Chile nursing home fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 19,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
@@ -104,10 +104,62 @@
     {
       "t": "2026-09-13T14:25:56.850935Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-09-13T18:12:06.211081Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-09-13T04:45:03.920664Z",
   "event_detected_at": {
+    "russia hits ukrainian train shortly after boris johnson and top european officials leave station": {
+      "detected_at": "2026-09-12T17:08:45.728355Z",
+      "peak_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score_at": "2026-09-12T22:16:15.493189Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "French officials investigate if malicious act caused train derailment",
+      "peak_label": "France probes possible sabotage in train crash",
+      "peak_summary": "Rail fragment found after Normandy derailment injuring 44; investigation into potential malicious act in western EU.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
+      "detected_at": "2026-09-12T13:36:28.315796Z",
+      "peak_at": "2026-09-12T19:19:42.941596Z",
+      "peak_score_at": "2026-09-12T19:19:42.941596Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
+      "peak_label": "Philippines ferry fire toll reaches 76 dead",
+      "peak_summary": "Ferry fire death toll rises to 76 with more missing as toxic fumes and heat slow rescue efforts. Distant tragedy with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump downplays warnings of ai risks, citing rivalry with china": {
+      "detected_at": "2026-09-13T18:12:06.211081Z",
+      "peak_at": "2026-09-13T18:12:06.211081Z",
+      "peak_score_at": "2026-09-13T18:12:06.211081Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "neutral",
+      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+      "peak_label": "Trump dismisses AI safety warnings",
+      "peak_summary": "US policy rhetoric on AI without enacted measures; no immediate impact on Portuguese economy or daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "renewed fighting worsens yemen's humanitarian crisis": {
       "detected_at": "2026-09-13T14:25:56.850935Z",
       "peak_at": "2026-09-13T14:25:56.850935Z",
@@ -137,22 +189,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "death toll from philippines ferry fire rises to 76, with more still missing": {
-      "detected_at": "2026-09-12T13:36:28.315796Z",
-      "peak_at": "2026-09-12T19:19:42.941596Z",
-      "peak_score_at": "2026-09-12T19:19:42.941596Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
-      "peak_label": "Philippines ferry fire toll reaches 76 dead",
-      "peak_summary": "Ferry fire death toll rises to 76 with more missing as toxic fumes and heat slow rescue efforts. Distant tragedy with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -204,22 +240,6 @@
         }
       ]
     },
-    "french officials investigate if malicious act caused train derailment": {
-      "detected_at": "2026-09-12T17:08:45.728355Z",
-      "peak_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "French officials investigate if malicious act caused train derailment",
-      "peak_label": "France probes possible sabotage in train crash",
-      "peak_summary": "Rail fragment found after Normandy derailment injuring 44; investigation into potential malicious act in western EU.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "fire at nursing home in chile kills 16 residents": {
       "detected_at": "2026-09-12T22:16:15.493189Z",
       "peak_at": "2026-09-12T22:16:15.493189Z",
@@ -242,8 +262,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Renewed fighting worsens Yemen's humanitarian crisis",
-    "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-    "Death toll from Philippines ferry fire rises to 76, with more still missing"
+    "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+    "Trump downplays warnings of AI risks, citing rivalry with China"
   ]
 }
