@@ -1,11 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "Rubio's Ecuador visit signals policy shift toward allied cooperation in drug war, but represents rhetoric and approach change rather than enacted policy with immediate domestic impact.",
+  "global_score": 2.2,
+  "rationale": "Rubio's shift in drug war strategy toward allied cooperation represents policy change affecting US approach in Latin America. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
-      "label": "Rubio shifts drug war strategy in Ecuador",
-      "summary": "Secretary of State signals move toward allied cooperation over unilateral strikes in Latin America drug war, but policy details remain unclear.",
+      "label": "Rubio shifts drug war strategy toward allied cooperation",
+      "summary": "Secretary of State signals move from unilateral strikes to cooperation with allies in Ecuador, representing policy shift in US drug war approach.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,12 +22,31 @@
       "detected_at": "2026-09-11T14:25:26.403856Z"
     },
     {
-      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
-      "label": "Trump dismisses AI safety concerns",
-      "summary": "Presidential rhetoric downplaying AI risks without policy action; no immediate impact on US tech regulation or markets.",
-      "score": 1.9,
+      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+      "label": "Trump removes Irish whiskey tariffs after Ireland visit",
+      "summary": "Tariff removal on Irish whiskey represents minor trade policy shift with limited impact on US economy or consumers.",
+      "score": 2.2,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-13T20:49:10.768505Z"
+    },
+    {
+      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+      "label": "Trump dismisses AI risk warnings citing China rivalry",
+      "summary": "President's dismissal of AI safety concerns is rhetoric without immediate policy action affecting daily life.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "inne",
       "sources": [
         "BBC"
@@ -39,30 +58,6 @@
         }
       ],
       "detected_at": "2026-09-13T18:12:06.214578Z"
-    },
-    {
-      "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-      "label": "Indonesian ferry disaster kills six",
-      "summary": "Distant maritime tragedy with no connection to US interests or daily life.",
-      "score": 1.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-13T18:12:06.214578Z"
     }
   ],
   "short_summary": "Houthis seize Mayun Island Red Sea",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-13T18:12:06.214578Z",
+  "updated_at": "2026-09-13T20:49:10.768505Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-13T04:45:03.923558Z",
   "score_history": [
-    {
-      "t": "2026-09-11T18:31:37.146251Z",
-      "s": 4.2
-    },
     {
       "t": "2026-09-11T21:43:05.419538Z",
       "s": 4.0
@@ -145,6 +136,10 @@
     {
       "t": "2026-09-13T18:12:06.214578Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-13T20:49:10.768505Z",
+      "s": 2.2
     }
   ]
 }

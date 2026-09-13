@@ -1,14 +1,33 @@
 {
   "global_score": 2.0,
-  "rationale": "Eastern European military events and distant tragedies have minimal direct impact on Portuguese daily life; no significant changes to EU economy, energy, or Atlantic shipping.",
+  "rationale": "Irish whiskey tariff removal affects EU trade but has minimal direct impact on Portuguese daily life; other events are geographically distant.",
   "top_events": [
     {
+      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+      "label": "Trump removes Irish whiskey tariffs after Ireland visit",
+      "summary": "US tariff removal on Irish whiskey represents minor shift in EU-US trade relations with limited direct impact on Portugal.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-13T20:49:10.765306Z"
+    },
+    {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-      "label": "Russia strikes Ukrainian train near border",
-      "summary": "Eastern European military escalation has indirect implications for EU stability but minimal direct effect on Portuguese daily life.",
-      "score": 2.0,
+      "label": "Russia strikes Ukrainian train near Polish border",
+      "summary": "Russian attack on train in eastern Europe is distant from Portugal with no direct economic or security impact.",
+      "score": 2.1,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,46 +42,22 @@
     },
     {
       "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-      "label": "Indonesian ferry capsizes in Java Sea",
-      "summary": "Distant maritime disaster with no connection to Portugal or Atlantic shipping routes.",
-      "score": 1.3,
+      "label": "Indonesian ferry capsizes killing six, 130 missing",
+      "summary": "Ferry disaster in Java Sea is a distant tragedy with no connection to Portuguese daily life.",
+      "score": 1.7,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-12T13:36:28.315796Z"
-    },
-    {
-      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
-      "label": "Trump dismisses AI safety warnings",
-      "summary": "US policy rhetoric on AI without enacted measures; no immediate impact on Portuguese economy or daily life.",
-      "score": 1.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-13T18:12:06.211081Z"
+      "detected_at": "2026-09-12T13:36:28.315796Z"
     }
   ],
   "short_summary": "Houthis seize Mayun Island Red Sea",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-13T18:12:06.211081Z",
+  "updated_at": "2026-09-13T20:49:10.765306Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Houthis seize Mayun Island Red Sea",
     "summary": "Houthi capture of Mayun Island tightens control over Bab al-Mandeb Strait, escalating shipping risk for Atlantic-bound routes via Suez.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-13T04:45:03.920664Z",
   "score_history": [
-    {
-      "t": "2026-09-11T18:31:37.142499Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-11T21:43:05.416829Z",
       "s": 3.4
@@ -144,6 +135,10 @@
     },
     {
       "t": "2026-09-13T18:12:06.211081Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-09-13T20:49:10.765306Z",
       "s": 2.0
     }
   ]

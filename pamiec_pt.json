@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-13T18:12:06.217549Z",
+  "updated_at": "2026-09-13T20:49:10.771682Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Chile nursing home fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 20,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T18:31:37.142499Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-11T21:43:05.416829Z",
       "s": 3.4
@@ -108,31 +104,51 @@
     {
       "t": "2026-09-13T18:12:06.211081Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-13T20:49:10.765306Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-09-13T04:45:03.920664Z",
   "event_detected_at": {
-    "russia hits ukrainian train shortly after boris johnson and top european officials leave station": {
-      "detected_at": "2026-09-12T17:08:45.728355Z",
-      "peak_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "French officials investigate if malicious act caused train derailment",
-      "peak_label": "France probes possible sabotage in train crash",
-      "peak_summary": "Rail fragment found after Normandy derailment injuring 44; investigation into potential malicious act in western EU.",
+    "trump says he will remove all irish whiskey tariffs as he ends two-day visit": {
+      "detected_at": "2026-09-13T20:49:10.765306Z",
+      "peak_at": "2026-09-13T20:49:10.765306Z",
+      "peak_score_at": "2026-09-13T20:49:10.765306Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+      "peak_label": "Trump removes Irish whiskey tariffs after Ireland visit",
+      "peak_summary": "US tariff removal on Irish whiskey represents minor shift in EU-US trade relations with limited direct impact on Portugal.",
       "peak_source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "russia hits ukrainian train shortly after boris johnson and top european officials leave station": {
+      "detected_at": "2026-09-12T17:08:45.728355Z",
+      "peak_at": "2026-09-13T20:49:10.765306Z",
+      "peak_score_at": "2026-09-13T20:49:10.765306Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "peak_label": "Russia strikes Ukrainian train near Polish border",
+      "peak_summary": "Russian attack on train in eastern Europe is distant from Portugal with no direct economic or security impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     "six dead, 130 missing after indonesian ferry capsizes in java sea": {
       "detected_at": "2026-09-12T13:36:28.315796Z",
-      "peak_at": "2026-09-12T19:19:42.941596Z",
+      "peak_at": "2026-09-13T20:49:10.765306Z",
       "peak_score_at": "2026-09-12T19:19:42.941596Z",
-      "peak_score": 1.9,
+      "peak_score": 1.8,
       "peak_sentiment": "negative",
       "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
       "peak_label": "Philippines ferry fire toll reaches 76 dead",
@@ -262,8 +278,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-    "Trump downplays warnings of AI risks, citing rivalry with China"
+    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea"
   ]
 }
