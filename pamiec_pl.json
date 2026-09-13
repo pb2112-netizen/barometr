@@ -1,62 +1,52 @@
 {
-  "updated_at": "2026-09-13T04:45:03.924494Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-09-13T10:16:15.513922Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 3,
       "opis": "Train derails in Normandy injuring 44; nearby EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 8,
       "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 17,
       "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 12,
       "opis": "Major underground base destroyed; Middle East escalation."
-    },
-    {
-      "temat": "Oil hits $100 from US-Iran-Houthi strikes",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 24,
-      "opis": "Brent crude reaches $100; fuel cost surge for Poland."
     },
     {
       "temat": "Russian strike Pavlohrad Ukraine",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Shopping center strike kills four; civilian infrastructure."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T09:39:59.116558Z",
-      "s": 4.1
-    },
     {
       "t": "2026-09-11T14:25:26.397890Z",
       "s": 3.5
@@ -104,15 +94,19 @@
     {
       "t": "2026-09-13T04:45:03.917878Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-13T10:16:15.507356Z",
+      "s": 2.4
     }
   ],
-  "events_anchor_at": "2026-09-12T04:41:08.003543Z",
+  "events_anchor_at": "2026-09-12T13:36:28.312618Z",
   "event_detected_at": {
     "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.003543Z",
       "peak_at": "2026-09-13T04:45:03.917878Z",
       "peak_score_at": "2026-09-12T04:41:08.003543Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -121,6 +115,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        }
+      ]
+    },
+    "anthropic boss dario amodei calls for ai development to slow down": {
+      "detected_at": "2026-09-13T10:16:15.507356Z",
+      "peak_at": "2026-09-13T10:16:15.507356Z",
+      "peak_score_at": "2026-09-13T10:16:15.507356Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "peak_label": "Anthropic CEO calls for slower AI development",
+      "peak_summary": "AI company leader urges caution amid concerns over potential global damage from advanced models; no immediate policy change.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "russians seek answers over hundreds missing after ukraine's 2024 incursion": {
+      "detected_at": "2026-09-13T10:16:15.507356Z",
+      "peak_at": "2026-09-13T10:16:15.507356Z",
+      "peak_score_at": "2026-09-13T10:16:15.507356Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Russians seek answers over hundreds missing after Ukraine's 2024 incursion",
+      "peak_label": "Russians missing after Ukraine Kursk incursion",
+      "peak_summary": "Over 300 Russians remain unaccounted for after 2024 Kursk offensive; ongoing war background with no new escalation affecting Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -175,7 +201,7 @@
   },
   "prev_top_event_titles": [
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "Yemen's Houthis seize strategic Mayun Island in Red Sea",
-    "French officials investigate if malicious act caused train derailment"
+    "Anthropic boss Dario Amodei calls for AI development to slow down",
+    "Russians seek answers over hundreds missing after Ukraine's 2024 incursion"
   ]
 }
