@@ -1,12 +1,31 @@
 {
-  "global_score": 3.4,
-  "rationale": "UN warns of toughest winter for power and water access; naval drone battle in Black Sea shows escalation; tennis player's flat directly hit by Russian missile in Odesa.",
+  "global_score": 3.2,
+  "rationale": "Continuation of known war situations; Black Sea drone battle and UN winter warning already tracked; tennis player flat strike is individual incident within ongoing pattern.",
   "top_events": [
+    {
+      "title": "First naval battle between drones takes place in the Black Sea",
+      "label": "First drone naval battle in Black Sea",
+      "summary": "First combat engagement between Unmanned Surface Vessels occurs in Black Sea. Technology escalation in waters critical to Ukraine's security and shipping continues.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T22:16:15.494492Z"
+    },
     {
       "title": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
       "label": "UN warns Ukraine faces toughest winter yet",
-      "summary": "UN official warns of critical race to secure power and water access through winter, directly affecting Ukrainian civilian survival.",
-      "score": 3.2,
+      "summary": "UN official warns of race against clock for power and water access through winter. Confirms ongoing infrastructure crisis for Ukrainian residents.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,10 +43,10 @@
     {
       "title": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
       "label": "Russian missile destroys tennis player's Odesa flat",
-      "summary": "Dayana Yastremska's flat in Odesa takes direct hit from Russian missile, illustrating continued strikes on civilian infrastructure.",
+      "summary": "Dayana Yastremska reports direct missile hit on her Odesa flat with only Roland Garros towel surviving. Individual incident within ongoing civilian infrastructure strikes.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-09-12T22:16:15.494492Z"
-    },
-    {
-      "title": "First naval battle between drones takes place in the Black Sea",
-      "label": "First drone naval battle in Black Sea",
-      "summary": "Unmanned surface vessels engage in first naval drone combat in Black Sea, marking escalation in warfare technology near Ukrainian waters.",
-      "score": 3.4,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-12T22:16:15.494492Z"
     }
   ],
   "short_summary": "Russia strikes cargo vessels and steel plants",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-12T22:16:15.494492Z",
+  "updated_at": "2026-09-13T00:01:37.445823Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russia strikes cargo vessels and steel plants",
     "summary": "Russia's Defence Ministry confirmed forces struck several industrial facilities across Ukraine, including cargo vessels and steel plants, escalating infrastructure attacks.",
@@ -136,6 +136,10 @@
     {
       "t": "2026-09-12T22:16:15.494492Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-09-13T00:01:37.445823Z",
+      "s": 3.2
     }
   ]
 }

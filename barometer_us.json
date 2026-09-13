@@ -1,12 +1,31 @@
 {
-  "global_score": 2.8,
-  "rationale": "Saudi pipeline closure after drone attack from Iraq raises oil supply concerns; US court blocks Trump disaster agency workforce cuts; Rubio signals shift in drug war strategy.",
+  "global_score": 2.6,
+  "rationale": "Continuation of known situations; Rubio Ecuador visit and Saudi pipeline closure already tracked; no new qualitative policy changes or direct US impacts this cycle.",
   "top_events": [
+    {
+      "title": "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
+      "label": "Rubio shifts drug war strategy in Ecuador",
+      "summary": "Secretary of State signals allied cooperation approach over unilateral strikes during Ecuador visit. Policy shift from campaign of strikes on alleged narco-terrorists.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking"
+        }
+      ],
+      "detected_at": "2026-09-11T14:25:26.403856Z"
+    },
     {
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
       "label": "Saudi pipeline shut after Iraq drone strike",
-      "summary": "Drone attack from Iraq-Iran border closes major East-West pipeline, raising oil supply risk and potential fuel cost impact for US markets.",
-      "score": 2.7,
+      "summary": "East-West pipeline closure continues after drone attack from Iraq border area. Indirect oil market pressure for US persists without new escalation.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,68 +41,49 @@
       "detected_at": "2026-09-12T04:41:08.007660Z"
     },
     {
-      "title": "US court blocks Trump administration plan to cut disaster agency workforce",
-      "label": "Court blocks Trump disaster agency workforce cuts",
-      "summary": "Federal court blocks Trump administration plan to reduce disaster agency staff, preserving emergency response capacity.",
-      "score": 2.8,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/us-court-blocks-trump-administration-plan-to-cut-disaster-agency-workforce?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-12T17:08:45.731149Z"
-    },
-    {
-      "title": "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
-      "label": "Rubio shifts drug war strategy to allied cooperation",
-      "summary": "Secretary of State signals move toward allied cooperation over unilateral strikes in Ecuador, marking policy shift in drug war approach.",
-      "score": 2.4,
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "label": "Anthropic CEO calls for slower AI development",
+      "summary": "CEO urges slowing AI development amid concerns models may inflict serious worldwide damage. Industry rhetoric without enacted policy change affecting US residents.",
+      "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-11T14:25:26.403856Z"
+      "detected_at": "2026-09-13T00:01:37.447198Z"
     }
   ],
-  "short_summary": "Saudi oil pipeline shut after drone strike",
+  "short_summary": "Court blocks Trump disaster agency workforce cuts",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-12T22:16:15.495510Z",
+  "updated_at": "2026-09-13T00:01:37.447198Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "Saudi oil pipeline shut after drone strike",
-    "summary": "Saudi Arabia shuts East-West oil pipeline following drone attack from Iraq, adding pressure on global oil markets and US fuel costs.",
-    "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
+    "label": "Court blocks Trump disaster agency workforce cuts",
+    "summary": "Federal court blocks Trump administration plan to reduce disaster agency staff, preserving emergency response capacity.",
+    "title": "US court blocks Trump administration plan to cut disaster agency workforce",
     "score": 2.8,
-    "sentiment": "negative",
-    "detected_at": "2026-09-12T04:41:08.007660Z",
-    "peak_at": "2026-09-12T04:41:08.007660Z",
+    "sentiment": "positive",
+    "detected_at": "2026-09-12T17:08:45.731149Z",
+    "peak_at": "2026-09-12T22:16:15.495510Z",
     "source_links": [
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/9/12/us-court-blocks-trump-administration-plan-to-cut-disaster-agency-workforce?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-12T04:41:08.007660Z",
+  "events_anchor_at": "2026-09-12T17:08:45.731149Z",
   "score_history": [
     {
       "t": "2026-09-11T00:09:45.455561Z",
@@ -136,6 +136,10 @@
     {
       "t": "2026-09-12T22:16:15.495510Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-13T00:01:37.447198Z",
+      "s": 2.6
     }
   ]
 }
