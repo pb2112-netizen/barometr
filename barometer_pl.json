@@ -1,33 +1,57 @@
 {
-  "global_score": 3.0,
-  "rationale": "Russian strike on Ukrainian train near Polish border shortly after high-profile Western officials departed is a new escalation with direct proximity implications for Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "Russian strike on train at Polish border immediately after Western officials departed is a new escalation showing direct threat proximity to Poland. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-      "label": "Russia strikes train near Poland after officials leave",
-      "summary": "Russian attack on stationary locomotive at Polish border shortly after Western officials departed raises direct security concerns for Poland's eastern frontier.",
-      "score": 3.0,
+      "label": "Russia strikes train near Poland border after officials",
+      "summary": "Russian attack on locomotive at Polish border immediately after Western officials departed represents escalation and direct threat proximity to Poland's eastern frontier.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-12T17:08:45.725687Z"
+    },
+    {
+      "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+      "label": "Indonesian ferry capsizes Java Sea six dead",
+      "summary": "Ferry disaster in distant Southeast Asia with no connection to Polish daily life or interests.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-12T17:08:45.725687Z"
+      "detected_at": "2026-09-13T14:25:56.848177Z"
     },
     {
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada pledges Ukraine air defense support during visit",
-      "summary": "Canadian commitment to boost Ukrainian air defenses continues Western support for Poland's eastern neighbor, indirectly affecting regional security.",
-      "score": 3.0,
+      "label": "Canada pledges air defense support for Ukraine",
+      "summary": "Canadian commitment to boost Ukrainian air defenses indirectly supports Poland's eastern security buffer against Russian aggression.",
+      "score": 3.5,
       "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -39,33 +63,14 @@
         }
       ],
       "detected_at": "2026-09-13T20:49:10.761562Z"
-    },
-    {
-      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-      "label": "Trump removes Irish whiskey tariffs after Ireland visit",
-      "summary": "US tariff removal on Irish whiskey affects EU trade dynamics but has minimal direct impact on Polish daily life.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-13T20:49:10.761562Z"
     }
   ],
   "short_summary": "Russia strikes train near Polish border",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-13T20:49:10.761562Z",
+  "updated_at": "2026-09-13T23:09:21.993139Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
   "score_history": [
-    {
-      "t": "2026-09-11T21:43:05.414106Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-12T00:17:29.123059Z",
       "s": 3.5
@@ -140,6 +141,10 @@
     {
       "t": "2026-09-13T20:49:10.761562Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-13T23:09:21.993139Z",
+      "s": 3.5
     }
   ]
 }

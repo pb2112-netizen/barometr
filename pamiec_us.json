@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-13T20:49:10.773574Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-09-13T23:09:22.007040Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rubio shifts drug war strategy Ecuador",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Secretary signals allied cooperation over unilateral."
     },
     {
-      "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "East-West pipeline closed; drone attack from Iraq; oil risk."
-    },
-    {
-      "temat": "US court blocks Trump coal plant order Michigan",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 6,
-      "opis": "Court rules Energy Dept exceeded authority on plant."
+      "temat": "Third measles death reported in Pennsylvania",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Pennsylvania reports third US measles death; disease spread."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 21,
       "opis": "Capture threatens Bab al-Mandab Strait; US shipping risk."
+    },
+    {
+      "temat": "US court blocks Trump coal plant order Michigan",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 7,
+      "opis": "Court rules Energy Dept exceeded authority on plant."
+    },
+    {
+      "temat": "US alien terrorist court deportation",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 4,
+      "opis": "First use of alien terrorist court to deport legal resident."
+    },
+    {
+      "temat": "Saudi oil pipeline shut after drone strike",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "East-West pipeline closed; drone attack from Iraq; oil risk."
     },
     {
       "temat": "Iran captures US drone Hormuz",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Iran's navy struck US surface drone at Strait of Hormuz."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "AI company reports blocking biological weapons research."
-    },
-    {
-      "temat": "US designates Ecuador gang terrorists",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "Los Tiguerones designated terrorist group over drug trade."
-    },
-    {
-      "temat": "US alien terrorist court deportation",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "First use of alien terrorist court to deport legal resident."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T21:43:05.419538Z",
-      "s": 4.0
-    },
     {
       "t": "2026-09-12T00:17:29.129796Z",
       "s": 3.9
@@ -108,13 +104,17 @@
     {
       "t": "2026-09-13T20:49:10.768505Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-13T23:09:22.001632Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-09-13T04:45:03.923558Z",
   "event_detected_at": {
     "rubio signals shift to working with allies to fight drug trade as latest boat strike kills three": {
       "detected_at": "2026-09-11T14:25:26.403856Z",
-      "peak_at": "2026-09-12T22:16:15.495510Z",
+      "peak_at": "2026-09-13T23:09:22.001632Z",
       "peak_score_at": "2026-09-12T22:16:15.495510Z",
       "peak_score": 2.0,
       "peak_sentiment": "neutral",
@@ -125,6 +125,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking"
+        }
+      ]
+    },
+    "notorious ecuadorian crime gang designated a terrorist group by us": {
+      "detected_at": "2026-09-11T09:39:59.123743Z",
+      "peak_at": "2026-09-13T14:25:56.854252Z",
+      "peak_score_at": "2026-09-13T14:25:56.854252Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
+      "peak_label": "US designates Ecuador gang terrorists",
+      "peak_summary": "Trump administration designates Los Tiguerones gang as terrorist group over narcotics trafficking—policy action seeking extra Congressional funding.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
+        }
+      ]
+    },
+    "a third person has died of measles in the us, health officials say": {
+      "detected_at": "2026-09-13T23:09:22.001632Z",
+      "peak_at": "2026-09-13T23:09:22.001632Z",
+      "peak_score_at": "2026-09-13T23:09:22.001632Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "A third person has died of measles in the US, health officials say",
+      "peak_label": "Third measles death reported in Pennsylvania US",
+      "peak_summary": "Pennsylvania reports third US measles death, a 40-year-old woman, as disease declared eliminated in 2000 continues to cause fatalities.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/a-third-person-has-died-of-measles-in-the-us-health-officials-say?traffic_source=rss"
         }
       ]
     },
@@ -196,22 +228,6 @@
         }
       ]
     },
-    "notorious ecuadorian crime gang designated a terrorist group by us": {
-      "detected_at": "2026-09-11T09:39:59.123743Z",
-      "peak_at": "2026-09-13T14:25:56.854252Z",
-      "peak_score_at": "2026-09-13T14:25:56.854252Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
-      "peak_label": "US designates Ecuador gang terrorists",
-      "peak_summary": "Trump administration designates Los Tiguerones gang as terrorist group over narcotics trafficking—policy action seeking extra Congressional funding.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
-        }
-      ]
-    },
     "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.007660Z",
       "peak_at": "2026-09-13T04:45:03.923558Z",
@@ -259,27 +275,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "us court blocks trump administration plan to cut disaster agency workforce": {
-      "detected_at": "2026-09-12T17:08:45.731149Z",
-      "peak_at": "2026-09-12T22:16:15.495510Z",
-      "peak_score_at": "2026-09-12T22:16:15.495510Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "positive",
-      "title": "US court blocks Trump administration plan to cut disaster agency workforce",
-      "peak_label": "Court blocks Trump disaster agency workforce cuts",
-      "peak_summary": "Federal court blocks Trump administration plan to reduce disaster agency staff, preserving emergency response capacity.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/us-court-blocks-trump-administration-plan-to-cut-disaster-agency-workforce?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
-    "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-    "Trump downplays warnings of AI risks, citing rivalry with China"
+    "Notorious Ecuadorian crime gang designated a terrorist group by US",
+    "A third person has died of measles in the US, health officials say"
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-13T20:49:10.769639Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-13T23:09:22.002865Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
+      "temat": "Canada pledges air defense support for Ukraine",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Canadian commitment to boost Ukrainian air defenses."
+    },
+    {
       "temat": "Ukraine drone strikes near Poland border",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
+    },
+    {
+      "temat": "Houthis seize Mokha port Red Sea",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 21,
+      "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
-    },
-    {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 20,
-      "opis": "Capture threatens Bab al-Mandab Strait; EU shipping risk."
-    },
-    {
-      "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
-    },
-    {
-      "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 15,
-      "opis": "Major underground base destroyed; Middle East escalation."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Train derails in Normandy injuring 44; nearby EU incident."
+    },
+    {
+      "temat": "Saudi oil pipeline shut after drone strike",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
+    },
+    {
+      "temat": "Israel destroys Hezbollah base Lebanon",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 16,
+      "opis": "Major underground base destroyed; Middle East escalation."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
-    },
-    {
-      "temat": "Anthropic blocks AI bioweapon attempt",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
-      "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T21:43:05.414106Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-12T00:17:29.123059Z",
       "s": 3.5
@@ -108,6 +104,10 @@
     {
       "t": "2026-09-13T20:49:10.761562Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-13T23:09:21.993139Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
@@ -128,15 +128,31 @@
         }
       ]
     },
+    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
+      "detected_at": "2026-09-13T14:25:56.848177Z",
+      "peak_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score_at": "2026-09-13T14:25:56.848177Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
+      "peak_label": "Philippines ferry fire kills 76",
+      "peak_summary": "Ferry fire death toll reaches 76 with more missing—distant tragedy with no direct impact on Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "canada offers air defense support for ukraine as zelenskyy visits": {
       "detected_at": "2026-09-13T20:49:10.761562Z",
-      "peak_at": "2026-09-13T20:49:10.761562Z",
-      "peak_score_at": "2026-09-13T20:49:10.761562Z",
-      "peak_score": 3.0,
+      "peak_at": "2026-09-13T23:09:21.993139Z",
+      "peak_score_at": "2026-09-13T23:09:21.993139Z",
+      "peak_score": 3.5,
       "peak_sentiment": "positive",
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "peak_label": "Canada pledges Ukraine air defense support during visit",
-      "peak_summary": "Canadian commitment to boost Ukrainian air defenses continues Western support for Poland's eastern neighbor, indirectly affecting regional security.",
+      "peak_label": "Canada pledges air defense support for Ukraine",
+      "peak_summary": "Canadian commitment to boost Ukrainian air defenses indirectly supports Poland's eastern security buffer against Russian aggression.",
       "peak_source_links": [
         {
           "name": "Guardian",
@@ -173,22 +189,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss"
-        }
-      ]
-    },
-    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
-      "detected_at": "2026-09-13T14:25:56.848177Z",
-      "peak_at": "2026-09-13T14:25:56.848177Z",
-      "peak_score_at": "2026-09-13T14:25:56.848177Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
-      "peak_label": "Philippines ferry fire kills 76",
-      "peak_summary": "Ferry fire death toll reaches 76 with more missing—distant tragedy with no direct impact on Polish daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -291,7 +291,7 @@
   },
   "prev_top_event_titles": [
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit"
+    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+    "Canada offers air defense support for Ukraine as Zelenskyy visits"
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-13T20:49:10.771682Z",
+  "updated_at": "2026-09-13T23:09:22.005042Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "France train derailment Normandy",
+      "temat": "Trump removes Irish whiskey tariffs",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
+      "opis": "US removes tariffs on Irish whiskey; minor EU trade signal."
+    },
+    {
+      "temat": "Philippines ferry fire",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
+      "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
+    },
+    {
+      "temat": "Chile nursing home fire",
       "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 6,
+      "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
+    },
+    {
+      "temat": "France train derailment Normandy",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 7,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
-    },
-    {
-      "temat": "Chile nursing home fire",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
-    },
-    {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Major underground base destroyed; energy market risk."
-    },
-    {
-      "temat": "Philippines ferry fire",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T21:43:05.416829Z",
-      "s": 3.4
-    },
     {
       "t": "2026-09-12T00:17:29.126709Z",
       "s": 3.2
@@ -108,6 +104,10 @@
     {
       "t": "2026-09-13T20:49:10.765306Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-13T23:09:21.997729Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-09-13T04:45:03.920664Z",
@@ -128,6 +128,22 @@
         }
       ]
     },
+    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
+      "detected_at": "2026-09-12T13:36:28.315796Z",
+      "peak_at": "2026-09-13T20:49:10.765306Z",
+      "peak_score_at": "2026-09-12T19:19:42.941596Z",
+      "peak_score": 1.7,
+      "peak_sentiment": "negative",
+      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
+      "peak_label": "Philippines ferry fire toll reaches 76 dead",
+      "peak_summary": "Ferry fire death toll rises to 76 with more missing as toxic fumes and heat slow rescue efforts. Distant tragedy with no direct impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "russia hits ukrainian train shortly after boris johnson and top european officials leave station": {
       "detected_at": "2026-09-12T17:08:45.728355Z",
       "peak_at": "2026-09-13T20:49:10.765306Z",
@@ -141,22 +157,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
-      "detected_at": "2026-09-12T13:36:28.315796Z",
-      "peak_at": "2026-09-13T20:49:10.765306Z",
-      "peak_score_at": "2026-09-12T19:19:42.941596Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "negative",
-      "title": "Death toll from Philippines ferry fire rises to 76, with more still missing",
-      "peak_label": "Philippines ferry fire toll reaches 76 dead",
-      "peak_summary": "Ferry fire death toll rises to 76 with more missing as toxic fumes and heat slow rescue efforts. Distant tragedy with no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -255,31 +255,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "fire at nursing home in chile kills 16 residents": {
-      "detected_at": "2026-09-12T22:16:15.493189Z",
-      "peak_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "negative",
-      "title": "Fire at nursing home in Chile kills 16 residents",
-      "peak_label": "Chile nursing home fire kills 16 residents",
-      "peak_summary": "Fire in Araucanía region kills 16 elderly residents; distant tragedy with no direct link to Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/fire-at-nursing-home-in-chile-kills-16-elderly-residents?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-    "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea"
+    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+    "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station"
   ]
 }
