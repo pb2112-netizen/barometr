@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-13T00:01:37.449329Z",
-  "ostatnia_ocena": 2.2,
+  "updated_at": "2026-09-13T04:45:03.926423Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
       "opis": "Train derails in Normandy injuring 44; western EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 7,
       "opis": "East-West pipeline closed; drone attack from Iraq; fuel."
     },
     {
       "temat": "Chile nursing home fire",
-      "poziom_bazowy": 1.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 16,
       "opis": "Capture threatens Bab al-Mandab Strait; Atlantic shipping."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 11,
       "opis": "Major underground base destroyed; energy market risk."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Swiss Alps coach crash",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Coach carrying Dutch passengers overturns; several dead."
     },
     {
       "temat": "Anthropic blocks AI bioweapon attempt",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-11T00:09:45.453337Z",
-      "s": 4.1
-    },
-    {
-      "t": "2026-09-11T04:38:02.314935Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-11T09:39:59.120377Z",
       "s": 3.8
@@ -108,15 +100,35 @@
     {
       "t": "2026-09-13T00:01:37.444537Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-13T04:45:03.920664Z",
+      "s": 2.4
     }
   ],
-  "events_anchor_at": "2026-09-12T04:41:08.005586Z",
+  "events_anchor_at": "2026-09-13T04:45:03.920664Z",
   "event_detected_at": {
+    "yemen's houthis seize strategic mayun island in red sea": {
+      "detected_at": "2026-09-13T04:45:03.920664Z",
+      "peak_at": "2026-09-13T04:45:03.920664Z",
+      "peak_score_at": "2026-09-13T04:45:03.920664Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Yemen's Houthis seize strategic Mayun Island in Red Sea",
+      "peak_label": "Houthis seize Mayun Island Red Sea",
+      "peak_summary": "Houthi capture of Mayun Island tightens control over Bab al-Mandeb Strait, escalating shipping risk for Atlantic-bound routes via Suez.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss"
+        }
+      ]
+    },
     "saudi arabia shuts key oil pipeline after drone attack launched from iraq": {
       "detected_at": "2026-09-12T04:41:08.005586Z",
-      "peak_at": "2026-09-12T04:41:08.005586Z",
+      "peak_at": "2026-09-13T04:45:03.920664Z",
       "peak_score_at": "2026-09-12T04:41:08.005586Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "negative",
       "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
       "peak_label": "Saudi oil pipeline shut after drone strike",
@@ -132,7 +144,7 @@
       "detected_at": "2026-09-12T17:08:45.728355Z",
       "peak_at": "2026-09-12T22:16:15.493189Z",
       "peak_score_at": "2026-09-12T22:16:15.493189Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "negative",
       "title": "French officials investigate if malicious act caused train derailment",
       "peak_label": "France probes possible sabotage in train crash",
@@ -179,27 +191,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "passenger train derails in france leaving at least 44 injured": {
-      "detected_at": "2026-09-12T00:17:29.126709Z",
-      "peak_at": "2026-09-12T00:17:29.126709Z",
-      "peak_score_at": "2026-09-12T00:17:29.126709Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Passenger train derails in France leaving at least 44 injured",
-      "peak_label": "France train derails 44 injured Normandy",
-      "peak_summary": "Train operating Rouen-Caen route in Normandy derails with 180 passengers aboard, injuring 44. Western EU incident but no direct impact on Portuguese life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Yemen's Houthis seize strategic Mayun Island in Red Sea",
     "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-    "French officials investigate if malicious act caused train derailment",
-    "Fire at nursing home in Chile kills 16 residents"
+    "French officials investigate if malicious act caused train derailment"
   ]
 }
