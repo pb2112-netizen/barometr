@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-14T06:16:25.596323Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-09-14T12:52:55.049584Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Rubio shifts drug war strategy Ecuador",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Secretary signals allied cooperation over unilateral."
     },
     {
+      "temat": "US designates Los Tiguerones terrorist group",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Ecuador gang designated terrorist; Trump admin seeks."
+    },
+    {
+      "temat": "Oil prices cross $107 on Hormuz disruptions",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
+    },
+    {
       "temat": "Third measles death reported in Pennsylvania",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Pennsylvania reports third US measles death; disease spread."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 23,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 24,
       "opis": "Capture threatens Bab al-Mandab Strait; US shipping risk."
-    },
-    {
-      "temat": "US court blocks Trump coal plant order Michigan",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Court rules Energy Dept exceeded authority on plant."
     },
     {
       "temat": "US alien terrorist court deportation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "First use of alien terrorist court to deport legal resident."
+    },
+    {
+      "temat": "US court blocks Trump coal plant order Michigan",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
+      "opis": "Court rules Energy Dept exceeded authority on plant."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "East-West pipeline closed; drone attack from Iraq; oil risk."
-    },
-    {
-      "temat": "Iran captures US drone Hormuz",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Iran's navy struck US surface drone at Strait of Hormuz."
-    },
-    {
-      "temat": "Anthropic blocks AI bioweapon attempt",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "AI company reports blocking biological weapons research."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-12T09:19:49.308235Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-12T13:36:28.318650Z",
       "s": 3.0
@@ -108,10 +104,30 @@
     {
       "t": "2026-09-14T06:16:25.590459Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-14T12:52:55.044773Z",
+      "s": 2.9
     }
   ],
-  "events_anchor_at": "2026-09-13T23:09:22.001632Z",
+  "events_anchor_at": "2026-09-14T12:52:55.044773Z",
   "event_detected_at": {
+    "us says it's clearing hormuz traffic: why are oil futures beyond $100?": {
+      "detected_at": "2026-09-14T12:52:55.044773Z",
+      "peak_at": "2026-09-14T12:52:55.044773Z",
+      "peak_score_at": "2026-09-14T12:52:55.044773Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
+      "peak_label": "Oil prices cross $107 on Hormuz disruptions",
+      "peak_summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising fuel costs affect US inflation and consumer prices.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
+        }
+      ]
+    },
     "rubio signals shift to working with allies to fight drug trade as latest boat strike kills three": {
       "detected_at": "2026-09-11T14:25:26.403856Z",
       "peak_at": "2026-09-13T23:09:22.001632Z",
@@ -125,6 +141,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking"
+        }
+      ]
+    },
+    "notorious ecuadorian crime gang designated a terrorist group by us": {
+      "detected_at": "2026-09-11T09:39:59.123743Z",
+      "peak_at": "2026-09-13T14:25:56.854252Z",
+      "peak_score_at": "2026-09-13T14:25:56.854252Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
+      "peak_label": "US designates Ecuador gang terrorists",
+      "peak_summary": "Trump administration designates Los Tiguerones gang as terrorist group over narcotics trafficking—policy action seeking extra Congressional funding.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
         }
       ]
     },
@@ -180,22 +212,6 @@
         }
       ]
     },
-    "notorious ecuadorian crime gang designated a terrorist group by us": {
-      "detected_at": "2026-09-11T09:39:59.123743Z",
-      "peak_at": "2026-09-13T14:25:56.854252Z",
-      "peak_score_at": "2026-09-13T14:25:56.854252Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
-      "peak_label": "US designates Ecuador gang terrorists",
-      "peak_summary": "Trump administration designates Los Tiguerones gang as terrorist group over narcotics trafficking—policy action seeking extra Congressional funding.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
-        }
-      ]
-    },
     "a third person has died of measles in the us, health officials say": {
       "detected_at": "2026-09-13T23:09:22.001632Z",
       "peak_at": "2026-09-13T23:09:22.001632Z",
@@ -231,27 +247,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss"
         }
       ]
-    },
-    "afghan woman deported from us in first use of 'alien terrorist' court": {
-      "detected_at": "2026-09-13T10:16:15.513027Z",
-      "peak_at": "2026-09-13T10:16:15.513027Z",
-      "peak_score_at": "2026-09-13T10:16:15.513027Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Afghan woman deported from US in first use of 'alien terrorist' court",
-      "peak_label": "US deports Afghan woman under terrorist court",
-      "peak_summary": "Legal US resident deported due to family terrorism links without criminal charges; first use of 'alien terrorist' court process.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3eqpd9zgl9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
     "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
-    "Trump downplays warnings of AI risks, citing rivalry with China",
-    "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit"
+    "Notorious Ecuadorian crime gang designated a terrorist group by US"
   ]
 }

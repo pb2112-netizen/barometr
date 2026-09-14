@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-14T06:16:25.595346Z",
-  "ostatnia_ocena": 5.2,
+  "updated_at": "2026-09-14T12:52:55.048673Z",
+  "ostatnia_ocena": 4.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian drone strike on Kyiv TV building",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 5,
-      "opis": "Daytime attack kills five; escalation in civilian media."
-    },
-    {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 5.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.9,
+      "cykle_bez_zmian": 3,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Russia strikes cargo vessels steel plants Ukraine",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "Russia struck cargo vessels and steel plants across Ukraine."
     },
     {
       "temat": "Russian strikes kill seven Ukrainians",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "New deadly attack kills seven; ongoing war escalation."
     },
     {
       "temat": "Russian missile destroys Odesa flat",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "Tennis player's flat hit by Russian missile in Odesa."
     },
     {
+      "temat": "Oil prices cross $107 on Hormuz disruptions",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
+    },
+    {
+      "temat": "Russian drone strike on Kyiv TV building",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 6,
+      "opis": "Daytime attack kills five; escalation in civilian media."
+    },
+    {
       "temat": "Black Sea drone naval battle",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 10,
       "opis": "First USV combat engagement in Black Sea."
     },
     {
       "temat": "UN warns Ukraine toughest winter",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 14,
       "opis": "UN official warns of toughest winter; power and water risk."
-    },
-    {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-12T09:19:49.306888Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-12T13:36:28.317145Z",
       "s": 3.6
@@ -108,6 +104,10 @@
     {
       "t": "2026-09-14T06:16:25.588958Z",
       "s": 5.2
+    },
+    {
+      "t": "2026-09-14T12:52:55.042513Z",
+      "s": 4.9
     }
   ],
   "events_anchor_at": "2026-09-13T18:12:06.213105Z",
@@ -116,7 +116,7 @@
       "detected_at": "2026-09-13T04:45:03.922034Z",
       "peak_at": "2026-09-13T23:09:21.999474Z",
       "peak_score_at": "2026-09-13T23:09:21.999474Z",
-      "peak_score": 5.7,
+      "peak_score": 5.6,
       "peak_sentiment": "positive",
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
       "peak_label": "Canada pledges air defense support for Ukraine",
@@ -132,7 +132,7 @@
       "detected_at": "2026-09-13T18:12:06.213105Z",
       "peak_at": "2026-09-13T18:12:06.213105Z",
       "peak_score_at": "2026-09-13T18:12:06.213105Z",
-      "peak_score": 5.9,
+      "peak_score": 5.8,
       "peak_sentiment": "negative",
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "peak_label": "Russia strikes train after officials depart",
@@ -141,6 +141,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us says it's clearing hormuz traffic: why are oil futures beyond $100?": {
+      "detected_at": "2026-09-14T12:52:55.042513Z",
+      "peak_at": "2026-09-14T12:52:55.042513Z",
+      "peak_score_at": "2026-09-14T12:52:55.042513Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
+      "peak_label": "Oil prices cross $107 on Hormuz disruptions",
+      "peak_summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions threaten supply. Rising energy costs affect Ukrainian wartime economy and fuel availability.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
         }
       ]
     },
@@ -223,27 +239,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/13/ukraine-drone-strikes-kill-four-as-russia-attacks-close-to-poland-border?traffic_source=rss"
         }
       ]
-    },
-    "russians seek answers over hundreds missing after ukraine's 2024 incursion": {
-      "detected_at": "2026-09-13T10:16:15.511470Z",
-      "peak_at": "2026-09-13T10:16:15.511470Z",
-      "peak_score_at": "2026-09-13T10:16:15.511470Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Russians seek answers over hundreds missing after Ukraine's 2024 incursion",
-      "peak_label": "Russians missing after Ukraine Kursk incursion",
-      "peak_summary": "Over 300 Russians remain unaccounted for after 2024 Kursk offensive; ongoing war background with no new escalation.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Canada offers air defense support for Ukraine as Zelenskyy visits",
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Trump downplays warnings of AI risks, citing rivalry with China"
+    "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?"
   ]
 }

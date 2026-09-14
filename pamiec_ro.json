@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-14T06:16:25.593280Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-14T12:52:55.046813Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia strikes train near Poland border after officials",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "Russian attack on locomotive at Polish border after Western."
     },
     {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
-      "temat": "Houthis advance on Yemen Red Sea coast",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 17,
-      "opis": "Rebels gain ground near Bab el-Mandeb; shipping risk."
-    },
-    {
-      "temat": "Black Sea drone naval battle",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "First USV combat engagement in Black Sea; tech escalation."
-    },
-    {
-      "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 23,
-      "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
+      "temat": "Oil prices cross $107 on Hormuz disruptions",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
+    },
+    {
+      "temat": "Black Sea drone naval battle",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
+      "opis": "First USV combat engagement in Black Sea; tech escalation."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Train derails in Normandy injuring 44; EU incident."
+    },
+    {
+      "temat": "Houthis advance on Yemen Red Sea coast",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 18,
+      "opis": "Rebels gain ground near Bab el-Mandeb; shipping risk."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
+      "cykle_bez_zmian": 19,
       "opis": "Major underground base destroyed; regional escalation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-12T09:19:49.303879Z",
-      "s": 3.1
-    },
     {
       "t": "2026-09-12T13:36:28.314064Z",
       "s": 3.0
@@ -108,6 +104,10 @@
     {
       "t": "2026-09-14T06:16:25.585775Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-14T12:52:55.038363Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-09-13T20:49:10.763709Z",
@@ -116,7 +116,7 @@
       "detected_at": "2026-09-12T17:08:45.727089Z",
       "peak_at": "2026-09-13T23:09:21.995477Z",
       "peak_score_at": "2026-09-13T23:09:21.995477Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "negative",
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "peak_label": "Russia strikes train near Poland border after officials",
@@ -136,7 +136,7 @@
       "detected_at": "2026-09-13T20:49:10.763709Z",
       "peak_at": "2026-09-13T23:09:21.995477Z",
       "peak_score_at": "2026-09-13T23:09:21.995477Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "positive",
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
       "peak_label": "Canada pledges air defense support for Ukraine",
@@ -145,6 +145,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ]
+    },
+    "us says it's clearing hormuz traffic: why are oil futures beyond $100?": {
+      "detected_at": "2026-09-14T12:52:55.038363Z",
+      "peak_at": "2026-09-14T12:52:55.038363Z",
+      "peak_score_at": "2026-09-14T12:52:55.038363Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
+      "peak_label": "Oil prices cross $107 on Hormuz disruptions",
+      "peak_summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising energy costs affect Romanian economy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
         }
       ]
     },
@@ -211,27 +227,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/renewed-fighting-worsens-yemens-humanitarian-crisis?traffic_source=rss"
         }
       ]
-    },
-    "anthropic boss dario amodei calls for ai development to slow down": {
-      "detected_at": "2026-09-13T10:16:15.508755Z",
-      "peak_at": "2026-09-13T10:16:15.508755Z",
-      "peak_score_at": "2026-09-13T10:16:15.508755Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "peak_label": "Anthropic CEO calls for slower AI development",
-      "peak_summary": "AI company leader urges caution amid concerns over potential global damage from advanced models; no immediate policy change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
     "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea"
+    "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?"
   ]
 }
