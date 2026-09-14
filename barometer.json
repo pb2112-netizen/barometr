@@ -1,31 +1,36 @@
 {
-  "global_score": 3.4,
-  "rationale": "Russia strikes Ukrainian train near Polish border immediately after Western officials depart — qualitatively new escalation in proximity and timing, raising security concerns for Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Russian drone strike on Ukrainian train near Polish border shortly after Boris Johnson's visit continues known pattern of escalation in the immediate border region; no qualitative change from existing threat level.",
   "top_events": [
     {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-      "label": "Russia strikes train after Western officials leave",
-      "summary": "Russia attacked a stationary Ukrainian locomotive at the Polish border shortly after Boris Johnson and European officials departed, escalating security risks near Poland's eastern frontier.",
-      "score": 3.4,
+      "label": "Russia strikes train near Poland border after officials",
+      "summary": "Russian drone hit a stationary locomotive at the Ukraine-Poland border shortly after Boris Johnson departed. Continues pattern of strikes near Polish territory without direct spillover.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/russia-hits-ukrainian-train-shortly-after-boris-johnson-leaves-station?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-12T17:08:45.725687Z"
     },
     {
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada pledges air defense aid to Ukraine",
-      "summary": "Canada commits to boosting Ukraine's air defenses during Zelenskyy's visit to Calgary, continuing Western support for Ukrainian defense capabilities.",
-      "score": 3.4,
+      "label": "Canada pledges air defense support for Ukraine",
+      "summary": "Canadian PM offered support to boost Ukraine's air defenses during Zelenskyy's visit to Calgary. Indirect benefit to Polish security by strengthening Ukraine's defensive capacity.",
+      "score": 3.2,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,19 +47,24 @@
     },
     {
       "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-      "label": "Indonesian ferry capsizes killing six people",
-      "summary": "Ferry disaster in Java Sea leaves six dead and 130 missing after encountering bad weather; distant tragedy with no direct impact on Poland.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "label": "Indonesian ferry capsizes in Java Sea",
+      "summary": "Ferry disaster in distant Southeast Asia with no connection to Polish daily life or interests.",
+      "score": 1.0,
+      "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/indonesia-intensifies-search-for-129-people-missing-after-ship-capsizes?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-13T14:25:56.848177Z"
@@ -65,14 +75,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-14T01:03:30.287388Z",
+  "updated_at": "2026-09-14T06:16:25.583981Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Russia strikes train near Polish border",
     "summary": "Russian attack on Ukrainian locomotive at Polish border shortly after Western officials departed raises direct security concerns for Poland's eastern frontier.",
     "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "score": 5.1,
+    "score": 5.0,
     "sentiment": "negative",
     "detected_at": "2026-09-12T17:08:45.725687Z",
     "peak_at": "2026-09-13T18:12:06.207864Z",
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
   "score_history": [
-    {
-      "t": "2026-09-12T04:41:08.003543Z",
-      "s": 3.4
-    },
     {
       "t": "2026-09-12T09:19:49.302580Z",
       "s": 3.1
@@ -140,6 +146,10 @@
     {
       "t": "2026-09-14T01:03:30.287388Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-09-14T06:16:25.583981Z",
+      "s": 3.2
     }
   ]
 }
