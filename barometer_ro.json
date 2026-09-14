@@ -1,12 +1,31 @@
 {
   "global_score": 2.8,
-  "rationale": "Boris Johnson train strike near Polish border continues known pattern; Canadian air defense pledge for Ukraine is ongoing support; oil price spike affects regional energy costs.",
+  "rationale": "Oil above $100 continues energy cost pressure; Boris Johnson train strike and Canada air defense pledge continue known regional security patterns.",
   "top_events": [
     {
-      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-      "label": "Russia strikes train near Poland border",
-      "summary": "Russian attack on locomotive at Polish border shortly after Western officials departed. Continues pattern of strikes near NATO territory.",
+      "title": "Why Middle East tensions are pushing oil prices above $100",
+      "label": "Oil prices exceed $100 on Middle East tensions",
+      "summary": "Brent crude rises above $100 per barrel due to Iran war disrupting Strait of Hormuz shipping; continuation of energy cost pressure for Romanian households.",
       "score": 2.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-14T18:37:42.461061Z"
+    },
+    {
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "label": "Russia strikes train near Poland after officials depart",
+      "summary": "Russian attack on locomotive at Polish border after Western officials left; continuation of regional security threat pattern near Black Sea neighbor.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,8 +42,8 @@
     },
     {
       "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada offers Ukraine air defense support",
-      "summary": "Canadian PM pledges air defense and drone support during Zelenskyy visit. Continues Western military aid pattern for neighboring Ukraine.",
+      "label": "Canada pledges air defense support for Ukraine",
+      "summary": "Canadian commitment to boost Ukrainian air defenses; continuation of Western support for Black Sea neighbor's defense capabilities.",
       "score": 2.8,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-09-13T20:49:10.763709Z"
-    },
-    {
-      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
-      "label": "Oil prices cross $107 on Hormuz disruptions",
-      "summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising energy costs affect Romanian economy.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T12:52:55.038363Z"
     }
   ],
   "short_summary": "Canada pledges air defense support for Ukraine",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-14T12:52:55.038363Z",
+  "updated_at": "2026-09-14T18:37:42.461061Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Canada pledges air defense support for Ukraine",
     "summary": "Canadian commitment to boost Ukrainian air defenses indirectly supports stability in Romania's Black Sea region and eastern border security.",
     "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "score": 3.0,
+    "score": 2.9,
     "sentiment": "positive",
     "detected_at": "2026-09-13T20:49:10.763709Z",
     "peak_at": "2026-09-13T23:09:21.995477Z",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-09-13T20:49:10.763709Z",
   "score_history": [
-    {
-      "t": "2026-09-12T13:36:28.314064Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-09-12T17:08:45.727089Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-12T19:19:42.940259Z",
       "s": 2.8
@@ -139,6 +131,10 @@
     },
     {
       "t": "2026-09-14T12:52:55.038363Z",
+      "s": 2.8
+    },
+    {
+      "t": "2026-09-14T18:37:42.461061Z",
       "s": 2.8
     }
   ]
