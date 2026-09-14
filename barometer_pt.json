@@ -1,52 +1,14 @@
 {
-  "global_score": 2.6,
-  "rationale": "Oil above $100 continues indirect energy cost pressure; other events distant with no direct link to Portuguese daily life.",
+  "global_score": 2.0,
+  "rationale": "Swedish election and US climate policy shift are distant political developments with minimal direct impact on Portuguese daily life.",
   "top_events": [
-    {
-      "title": "Why Middle East tensions are pushing oil prices above $100",
-      "label": "Oil prices rise above $100 on Hormuz disruptions",
-      "summary": "Brent crude exceeds $100 per barrel due to Strait of Hormuz shipping disruptions; continuation of energy cost pressure indirectly affecting Portuguese households.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T18:37:42.462941Z"
-    },
-    {
-      "title": "Carney pitches Canada to global investors amid US trade war",
-      "label": "Canada pitches investors amid US trade tensions",
-      "summary": "Toronto hosts investment summit with $120 trillion in assets as Canada seeks to attract capital during US trade disputes; minor signal for EU-Atlantic economic ties.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/14/carney-pitches-canada-to-global-investors-amid-us-trade-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T18:37:42.462941Z"
-    },
     {
       "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
       "label": "Swedish election too close to call",
-      "summary": "Left-wing bloc leads by 20,000 votes with 90% counted; outcome uncertain; minor indirect relevance to western EU periphery.",
+      "summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,16 +20,59 @@
         }
       ],
       "detected_at": "2026-09-14T18:37:42.462941Z"
+    },
+    {
+      "title": "US repeals rules limiting greenhouse gas emissions by power plants",
+      "label": "US repeals power plant emission limits",
+      "summary": "Trump administration removes greenhouse gas rules for power plants; distant climate policy shift with indirect long-term implications.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-repeals-rules-limiting-greenhouse-gas-emissions-by-power-plants?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-14T22:30:07.976447Z"
+    },
+    {
+      "title": "Africa's richest man launches continent's biggest share sale",
+      "label": "Dangote launches Africa's biggest IPO",
+      "summary": "Nigerian billionaire Aliko Dangote launches major oil refinery share sale; distant economic event with no direct Portuguese impact.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxly50gzldz9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo"
+        }
+      ],
+      "detected_at": "2026-09-14T22:30:07.976447Z"
     }
   ],
   "short_summary": "Oil prices cross $107 on Hormuz disruptions",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-14T18:37:42.462941Z",
+  "updated_at": "2026-09-14T22:30:07.976447Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Oil prices cross $107 on Hormuz disruptions",
     "summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising fuel costs affect Portuguese economy.",
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-09-14T12:52:55.040459Z",
   "score_history": [
-    {
-      "t": "2026-09-12T19:19:42.941596Z",
-      "s": 2.4
-    },
-    {
-      "t": "2026-09-12T22:16:15.493189Z",
-      "s": 2.3
-    },
     {
       "t": "2026-09-13T00:01:37.444537Z",
       "s": 2.2
@@ -136,6 +133,10 @@
     {
       "t": "2026-09-14T18:37:42.462941Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-14T22:30:07.976447Z",
+      "s": 2.0
     }
   ]
 }

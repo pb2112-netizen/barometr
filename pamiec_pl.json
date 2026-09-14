@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-14T18:37:42.468216Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-14T22:30:07.981310Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
+      "temat": "Swedish election too close to call",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
+    },
+    {
+      "temat": "US repeals power plant emission limits",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Trump removes greenhouse gas rules; climate policy shift."
+    },
+    {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 5,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Ukraine drone strikes near Poland border",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 8,
       "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Train derails in Normandy injuring 44; nearby EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
-    },
-    {
-      "temat": "Israel destroys Hezbollah base Lebanon",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
-      "opis": "Major underground base destroyed; Middle East escalation."
-    },
-    {
-      "temat": "Swiss Alps coach crash",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
-      "opis": "Coach carrying Dutch passengers overturns; several dead."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-12T19:19:42.938802Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-09-12T22:16:15.490684Z",
-      "s": 2.7
-    },
     {
       "t": "2026-09-13T00:01:37.441581Z",
       "s": 2.6
@@ -104,6 +96,10 @@
     {
       "t": "2026-09-14T18:37:42.459511Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-14T22:30:07.972709Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
@@ -112,7 +108,7 @@
       "detected_at": "2026-09-12T17:08:45.725687Z",
       "peak_at": "2026-09-14T18:37:42.459511Z",
       "peak_score_at": "2026-09-13T18:12:06.207864Z",
-      "peak_score": 4.8,
+      "peak_score": 4.7,
       "peak_sentiment": "negative",
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "peak_label": "Russia strikes train near Polish border",
@@ -121,6 +117,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "swedish left-wing bloc narrowly ahead with election too close to call": {
+      "detected_at": "2026-09-14T22:30:07.972709Z",
+      "peak_at": "2026-09-14T22:30:07.972709Z",
+      "peak_score_at": "2026-09-14T22:30:07.972709Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "peak_label": "Swedish election too close to call",
+      "peak_summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us repeals rules limiting greenhouse gas emissions by power plants": {
+      "detected_at": "2026-09-14T22:30:07.972709Z",
+      "peak_at": "2026-09-14T22:30:07.972709Z",
+      "peak_score_at": "2026-09-14T22:30:07.972709Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "US repeals rules limiting greenhouse gas emissions by power plants",
+      "peak_label": "US repeals power plant emission limits",
+      "peak_summary": "Trump administration removes greenhouse gas rules for power plants; indirect signal on global climate policy direction.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-repeals-rules-limiting-greenhouse-gas-emissions-by-power-plants?traffic_source=rss"
         }
       ]
     },
@@ -187,27 +215,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump says he will remove all irish whiskey tariffs as he ends two-day visit": {
-      "detected_at": "2026-09-13T20:49:10.761562Z",
-      "peak_at": "2026-09-13T20:49:10.761562Z",
-      "peak_score_at": "2026-09-13T20:49:10.761562Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-      "peak_label": "Trump removes Irish whiskey tariffs after Ireland visit",
-      "peak_summary": "US tariff removal on Irish whiskey affects EU trade dynamics but has minimal direct impact on Polish daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Why Middle East tensions are pushing oil prices above $100",
-    "Canada offers air defense support for Ukraine as Zelenskyy visits"
+    "Swedish left-wing bloc narrowly ahead with election too close to call",
+    "US repeals rules limiting greenhouse gas emissions by power plants"
   ]
 }
