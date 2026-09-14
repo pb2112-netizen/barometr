@@ -1,11 +1,54 @@
 {
-  "global_score": 2.5,
-  "rationale": "Rubio signals shift in drug war strategy toward allied cooperation in Ecuador, a confirmed policy change affecting US approach in Latin America. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Trump dismisses AI risk warnings citing China rivalry — rhetoric without policy action; congressman survives plane emergency landing — local incident; other events remain background or distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+      "label": "Trump dismisses AI risk warnings citing China",
+      "summary": "President downplays AI safety concerns as 'negative forces' warning about 'things that won't happen,' citing competition with China; rhetoric without enacted policy change.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-13T18:12:06.214578Z"
+    },
+    {
+      "title": "US congressman swims to safety after his plane is forced to land on a lake",
+      "label": "Congressman survives emergency plane landing on lake",
+      "summary": "Rep Tom Tiffany's small plane makes emergency landing on Wisconsin lake due to mechanical issue; congressman swims to safety in local incident.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-14T01:03:30.294151Z"
+    },
+    {
       "title": "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
-      "label": "Rubio shifts drug war strategy toward allied cooperation",
-      "summary": "Secretary of State signals confirmed policy shift toward allied cooperation in Ecuador after campaign of unilateral strikes, affecting US approach to Latin American drug trade.",
+      "label": "Rubio signals allied cooperation on drug trade",
+      "summary": "Secretary of State visits Ecuador and signals shift toward allied cooperation after unilateral strike campaign; continuing policy adjustment without major change.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -20,44 +63,6 @@
         }
       ],
       "detected_at": "2026-09-11T14:25:26.403856Z"
-    },
-    {
-      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
-      "label": "US designates Ecuador gang Los Tiguerones terrorists",
-      "summary": "Trump administration designates Los Tiguerones as terrorist group over narcotics trafficking, a formal policy action affecting US counter-drug operations.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
-        }
-      ],
-      "detected_at": "2026-09-11T09:39:59.123743Z"
-    },
-    {
-      "title": "A third person has died of measles in the US, health officials say",
-      "label": "Third measles death reported in Pennsylvania US",
-      "summary": "Pennsylvania reports third US measles death, a 40-year-old woman, as disease declared eliminated in 2000 continues to cause fatalities.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/13/a-third-person-has-died-of-measles-in-the-us-health-officials-say?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-13T23:09:22.001632Z"
     }
   ],
   "short_summary": "Houthis seize Mayun Island Red Sea",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-13T23:09:22.001632Z",
+  "updated_at": "2026-09-14T01:03:30.294151Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Houthis seize Mayun Island Red Sea",
     "summary": "Houthi capture of Mayun Island strengthens control over Bab al-Mandeb Strait, escalating risk to US shipping and global oil supply routes.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-13T04:45:03.923558Z",
   "score_history": [
-    {
-      "t": "2026-09-12T00:17:29.129796Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-12T04:41:08.007660Z",
       "s": 3.8
@@ -140,6 +141,10 @@
     {
       "t": "2026-09-13T23:09:22.001632Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-14T01:03:30.294151Z",
+      "s": 2.4
     }
   ]
 }

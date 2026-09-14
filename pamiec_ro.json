@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-13T23:09:22.003969Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-14T01:03:30.296484Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Russia strikes train near Poland border after officials",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Russian attack on locomotive at Polish border after Western."
     },
     {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Houthis advance on Yemen Red Sea coast",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 16,
       "opis": "Rebels gain ground near Bab el-Mandeb; shipping risk."
     },
     {
       "temat": "Black Sea drone naval battle",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 8,
       "opis": "First USV combat engagement in Black Sea; tech escalation."
     },
     {
       "temat": "Houthis seize Mokha port Red Sea",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 22,
       "opis": "Capture threatens Bab al-Mandab Strait; Black Sea shipping."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Train derails in Normandy injuring 44; EU incident."
     },
     {
       "temat": "Israel destroys Hezbollah base Lebanon",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Major underground base destroyed; regional escalation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-12T00:17:29.124933Z",
-      "s": 3.8
-    },
     {
       "t": "2026-09-12T04:41:08.004427Z",
       "s": 3.6
@@ -108,6 +104,10 @@
     {
       "t": "2026-09-13T23:09:21.995477Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-14T01:03:30.289286Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-09-13T20:49:10.763709Z",
@@ -145,6 +145,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ]
+    },
+    "yemen's houthis advance on government strongholds of marib, taiz": {
+      "detected_at": "2026-09-13T04:45:03.919278Z",
+      "peak_at": "2026-09-13T04:45:03.919278Z",
+      "peak_score_at": "2026-09-13T04:45:03.919278Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "Yemen's Houthis seize strategic Mayun Island in Red Sea",
+      "peak_label": "Houthis seize Mayun Island Red Sea",
+      "peak_summary": "Houthi capture of Mayun Island strengthens control over Bab al-Mandeb Strait, escalating shipping risk for Black Sea-Mediterranean routes.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss"
         }
       ]
     },
@@ -228,22 +244,6 @@
         }
       ]
     },
-    "yemen's houthis seize strategic mayun island in red sea": {
-      "detected_at": "2026-09-13T04:45:03.919278Z",
-      "peak_at": "2026-09-13T04:45:03.919278Z",
-      "peak_score_at": "2026-09-13T04:45:03.919278Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "negative",
-      "title": "Yemen's Houthis seize strategic Mayun Island in Red Sea",
-      "peak_label": "Houthis seize Mayun Island Red Sea",
-      "peak_summary": "Houthi capture of Mayun Island strengthens control over Bab al-Mandeb Strait, escalating shipping risk for Black Sea-Mediterranean routes.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss"
-        }
-      ]
-    },
     "anthropic boss dario amodei calls for ai development to slow down": {
       "detected_at": "2026-09-13T10:16:15.508755Z",
       "peak_at": "2026-09-13T10:16:15.508755Z",
@@ -280,6 +280,6 @@
   "prev_top_event_titles": [
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
     "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea"
+    "Yemen's Houthis advance on government strongholds of Marib, Taiz"
   ]
 }
