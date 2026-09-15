@@ -1,30 +1,11 @@
 {
-  "global_score": 5.0,
-  "rationale": "US bond yields hit 19-year high at 5.02% amid oil price surge; significant tightening of financial conditions affecting borrowing costs and markets.",
+  "global_score": 4.5,
+  "rationale": "US Treasury yields remain at 19-year peak, continuing financial tightening pressure on markets and borrowing costs; space weapons deployment and Hormuz tanker attack add security concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Benchmark US government bond yield hits 19-year peak as oil prices surge",
-      "label": "US bond yields hit 19-year high",
-      "summary": "10-year Treasury yield reaches 5.02%, highest since 2007 financial crisis, as oil prices surge. Tightens financial conditions; affects mortgage rates, business borrowing, and household costs.",
-      "score": 5.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/15/benchmark-us-government-bond-yield-hits-19-year-peak-as-oil-prices-surge?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-15T13:32:11.385897Z"
-    },
-    {
-      "title": "US confirms for first time it has deployed space weapons",
-      "label": "US confirms space weapons deployment",
-      "summary": "Air Force Secretary confirms space weapons deployed for defense. Continues existing military posture; no immediate change to daily life.",
+      "title": "What weapon could the US have put into space?",
+      "label": "US deploys space weapons orbital defense",
+      "summary": "US Air Force confirms deployment of space-based weapons for defense, marking new phase in orbital military capability and strategic posture.",
       "score": 2.9,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -35,37 +16,56 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-15T07:43:10.396867Z"
+      "detected_at": "2026-09-15T18:11:09.229856Z"
     },
     {
-      "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
-      "label": "US designates Ecuador gang terrorist group",
-      "summary": "Trump administration designates Los Tiguerones as terrorist organization; seeks extra funding to dismantle gang. Continues drug war policy; no direct domestic impact yet.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+      "label": "Tanker attacked in Hormuz Strait sailors missing",
+      "summary": "Oil tanker struck by missile and drone in Hormuz, two sailors missing; threatens energy supply routes and could spike US fuel prices.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-11T09:39:59.123743Z"
+      "detected_at": "2026-09-15T18:11:09.229856Z"
+    },
+    {
+      "title": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+      "label": "Pentagon confirms munitions shortfalls from Iran war",
+      "summary": "Pentagon inspector confirms US munitions shortfalls and resupply bottleneck from Iran conflict, contradicting Trump's claims of limitless supplies.",
+      "score": 4.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-15T18:11:09.229856Z"
     }
   ],
   "short_summary": "US bond yields hit 19-year high",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-15T13:32:11.385897Z",
+  "updated_at": "2026-09-15T18:11:09.229856Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-15T13:32:11.385897Z",
   "score_history": [
-    {
-      "t": "2026-09-13T14:25:56.854252Z",
-      "s": 2.3
-    },
     {
       "t": "2026-09-13T18:12:06.214578Z",
       "s": 2.0
@@ -132,6 +128,10 @@
     {
       "t": "2026-09-15T13:32:11.385897Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-09-15T18:11:09.229856Z",
+      "s": 4.5
     }
   ]
 }
