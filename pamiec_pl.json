@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-15T01:27:31.877739Z",
-  "ostatnia_ocena": 3.0,
-  "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
+  "updated_at": "2026-09-15T07:43:10.397700Z",
+  "ostatnia_ocena": 5.0,
+  "ostatnie_powiadomienie_at": "2026-09-15T07:43:10.397585Z",
   "stan_swiata": [
     {
-      "temat": "Swedish election too close to call",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
-      "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
-    },
-    {
-      "temat": "US repeals power plant emission limits",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
-      "opis": "Trump removes greenhouse gas rules; climate policy shift."
-    },
-    {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 7,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
+      "temat": "NATO drone shootdown Lithuania",
+      "poziom_bazowy": 5.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Drone from Belarus shot down over Lithuania; new border."
+    },
+    {
+      "temat": "Trump rejects AI safety regulation",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "US president calls AI fears hoax; policy shift on tech."
+    },
+    {
+      "temat": "US repeals power plant emission limits",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump removes greenhouse gas rules; climate policy shift."
+    },
+    {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Ukraine drone strikes near Poland border",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 10,
       "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
+    },
+    {
+      "temat": "Swedish election too close to call",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
-    },
-    {
-      "temat": "France train derailment Normandy",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Train derails in Normandy injuring 44; nearby EU incident."
-    },
-    {
-      "temat": "Saudi oil pipeline shut after drone strike",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-13T04:45:03.917878Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-13T10:16:15.507356Z",
       "s": 2.4
@@ -100,10 +96,62 @@
     {
       "t": "2026-09-15T01:27:31.869097Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-15T07:43:10.388998Z",
+      "s": 5.0
     }
   ],
-  "events_anchor_at": "2026-09-12T17:08:45.725687Z",
+  "events_anchor_at": "2026-09-15T07:43:10.388998Z",
   "event_detected_at": {
+    "nato jets down drone that entered lithuanian airspace": {
+      "detected_at": "2026-09-15T07:43:10.388998Z",
+      "peak_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Nato jets down drone that entered Lithuanian airspace",
+      "peak_label": "NATO shoots down drone over Lithuania",
+      "peak_summary": "Drone of unknown origin, likely from Belarus, shot down over Lithuania—first such incident near Poland's eastern border, raising regional security concerns.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump says ai safety fears a 'hoax' as he rejects calls for greater safeguards": {
+      "detected_at": "2026-09-15T07:43:10.388998Z",
+      "peak_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+      "peak_label": "Trump dismisses AI safety fears as hoax",
+      "peak_summary": "US president rejects AI safety regulation, calling fears a hoax—indirect long-term tech policy shift with no immediate impact on Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "canada offers air defense support for ukraine as zelenskyy visits": {
+      "detected_at": "2026-09-15T07:43:10.388998Z",
+      "peak_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score_at": "2026-09-15T07:43:10.388998Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "peak_label": "Canada pledges Ukraine air defense support",
+      "peak_summary": "Canadian PM reaffirms air defense aid during Zelenskyy visit—continuation of existing commitment with no new qualitative change.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ]
+    },
     "russia hits ukrainian train shortly after boris johnson and top european officials leave station": {
       "detected_at": "2026-09-12T17:08:45.725687Z",
       "peak_at": "2026-09-14T18:37:42.459511Z",
@@ -186,8 +234,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "US repeals rules limiting greenhouse gas emissions by power plants",
-    "Swedish left-wing bloc narrowly ahead with election too close to call"
+    "Nato jets down drone that entered Lithuanian airspace",
+    "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+    "Canada offers air defense support for Ukraine as Zelenskyy visits"
   ]
 }
