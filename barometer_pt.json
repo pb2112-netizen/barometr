@@ -1,33 +1,14 @@
 {
   "global_score": 2.0,
-  "rationale": "Swedish election and US climate policy shift are distant political developments with minimal direct impact on Portuguese daily life.",
+  "rationale": "US climate policy reversal is a confirmed action with indirect long-term impact on EU climate efforts; other headlines are distant or lack direct connection to Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
-    {
-      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
-      "label": "Swedish election too close to call",
-      "summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T18:37:42.462941Z"
-    },
     {
       "title": "US repeals rules limiting greenhouse gas emissions by power plants",
       "label": "US repeals power plant emission limits",
-      "summary": "Trump administration removes greenhouse gas rules for power plants; distant climate policy shift with indirect long-term implications.",
+      "summary": "Trump administration removes greenhouse gas rules for power plants, enacted policy shift affecting global climate efforts and indirectly EU energy transition.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "Al Jazeera"
@@ -41,9 +22,33 @@
       "detected_at": "2026-09-14T22:30:07.976447Z"
     },
     {
-      "title": "Africa's richest man launches continent's biggest share sale",
-      "label": "Dangote launches Africa's biggest IPO",
-      "summary": "Nigerian billionaire Aliko Dangote launches major oil refinery share sale; distant economic event with no direct Portuguese impact.",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "label": "Swedish election too close to call",
+      "summary": "Left bloc leads narrowly with 90% counted; outcome uncertain in fellow EU member state.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/15/sweden-election-is-too-close-to-call-as-far-right-loses-ground?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-14T18:37:42.462941Z"
+    },
+    {
+      "title": "Africa's richest man aiming to make $23bn from continent's biggest-ever IPO",
+      "label": "Dangote launches Africa's biggest share sale",
+      "summary": "Nigerian billionaire Aliko Dangote launches continent's largest IPO for oil refinery; distant economic event with no direct impact on Portugal.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
@@ -67,12 +72,12 @@
   ],
   "short_summary": "Oil prices cross $107 on Hormuz disruptions",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-14T22:30:07.976447Z",
+  "updated_at": "2026-09-15T01:27:31.872249Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Oil prices cross $107 on Hormuz disruptions",
     "summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising fuel costs affect Portuguese economy.",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-09-14T12:52:55.040459Z",
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.444537Z",
-      "s": 2.2
-    },
     {
       "t": "2026-09-13T04:45:03.920664Z",
       "s": 2.4
@@ -136,6 +137,10 @@
     },
     {
       "t": "2026-09-14T22:30:07.976447Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-09-15T01:27:31.872249Z",
       "s": 2.0
     }
   ]

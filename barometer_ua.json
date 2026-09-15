@@ -1,12 +1,31 @@
 {
-  "global_score": 4.0,
-  "rationale": "Russian strike on train near Polish border after Western officials departed is a continuation of known cross-border attacks; Canada air defense pledge continues.",
+  "global_score": 4.4,
+  "rationale": "Canadian air defense support continues as key aid commitment; Russian strike near Poland border is continuation without qualitative change; no new major escalation this cycle.",
   "top_events": [
+    {
+      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "label": "Canada pledges air defense support for Ukraine",
+      "summary": "Canadian PM hosts Zelenskyy in Calgary, offers support to boost Ukraine's air defenses and replenish drones; continuation of Western aid commitment.",
+      "score": 4.4,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ],
+      "detected_at": "2026-09-13T04:45:03.922034Z"
+    },
     {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "label": "Russia strikes train near Poland border",
-      "summary": "Russian attack on locomotive at Polish border shortly after Boris Johnson and European officials departed; continuation of cross-border strike pattern.",
-      "score": 4.0,
+      "summary": "Russian attack on stationary locomotive at Polish border shortly after Western officials departed; continuation of strikes on infrastructure.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,10 +43,10 @@
     {
       "title": "Israeli attack targets Gaza displacement camp",
       "label": "Israeli attack targets Gaza camp",
-      "summary": "Israeli strike on Gaza displacement camp; distant Middle East conflict with no direct Ukrainian impact.",
+      "summary": "Israeli strike on Gaza displacement camp; distant conflict with no direct impact on Ukraine.",
       "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -39,40 +58,21 @@
         }
       ],
       "detected_at": "2026-09-14T01:03:30.292437Z"
-    },
-    {
-      "title": "US blocks Iran nuclear chief from attending key Vienna conference",
-      "label": "US blocks Iran nuclear chief Vienna visit",
-      "summary": "US pressures Austria to revoke visa for Iranian nuclear chief; distant diplomatic incident without Ukrainian impact.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/us-blocks-iran-nuclear-chief-from-attending-key-vienna-conference?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T22:30:07.977996Z"
     }
   ],
   "short_summary": "Russia strikes train after officials depart",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-14T22:30:07.977996Z",
+  "updated_at": "2026-09-15T01:27:31.873810Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Russia strikes train after officials depart",
     "summary": "Russian attack on Ukrainian locomotive near Polish border immediately after high-profile Western officials left represents dangerous escalation in targeting and timing.",
     "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "score": 5.6,
+    "score": 5.5,
     "sentiment": "negative",
     "detected_at": "2026-09-13T18:12:06.213105Z",
     "peak_at": "2026-09-14T18:37:42.464482Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-13T18:12:06.213105Z",
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.445823Z",
-      "s": 3.2
-    },
     {
       "t": "2026-09-13T04:45:03.922034Z",
       "s": 3.0
@@ -132,6 +128,10 @@
     {
       "t": "2026-09-14T22:30:07.977996Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-09-15T01:27:31.873810Z",
+      "s": 4.4
     }
   ]
 }

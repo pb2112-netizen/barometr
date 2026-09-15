@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-14T22:30:07.981310Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-09-15T01:27:31.877739Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-09-06T22:01:29.431934Z",
   "stan_swiata": [
     {
       "temat": "Swedish election too close to call",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
     },
     {
       "temat": "US repeals power plant emission limits",
-      "poziom_bazowy": 2.0,
+      "poziom_bazowy": 3.0,
       "cykle_bez_zmian": 0,
       "opis": "Trump removes greenhouse gas rules; climate policy shift."
     },
     {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 6,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Ukraine drone strikes near Poland border",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Ferry fire kills 76 with more missing; distant tragedy."
     },
     {
       "temat": "France train derailment Normandy",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Train derails in Normandy injuring 44; nearby EU incident."
     },
     {
       "temat": "Saudi oil pipeline shut after drone strike",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "East-West pipeline closed; drone attack from Iraq; EU fuel."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.441581Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-13T04:45:03.917878Z",
       "s": 2.6
@@ -100,6 +96,10 @@
     {
       "t": "2026-09-14T22:30:07.972709Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-15T01:27:31.869097Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
@@ -108,7 +108,7 @@
       "detected_at": "2026-09-12T17:08:45.725687Z",
       "peak_at": "2026-09-14T18:37:42.459511Z",
       "peak_score_at": "2026-09-13T18:12:06.207864Z",
-      "peak_score": 4.7,
+      "peak_score": 4.6,
       "peak_sentiment": "negative",
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "peak_label": "Russia strikes train near Polish border",
@@ -117,6 +117,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us repeals rules limiting greenhouse gas emissions by power plants": {
+      "detected_at": "2026-09-14T22:30:07.972709Z",
+      "peak_at": "2026-09-15T01:27:31.869097Z",
+      "peak_score_at": "2026-09-15T01:27:31.869097Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "US repeals rules limiting greenhouse gas emissions by power plants",
+      "peak_label": "US repeals power plant emission limits",
+      "peak_summary": "Trump administration removes greenhouse gas rules for power plants, enacted policy shift affecting global climate efforts and indirectly EU energy transition costs.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/14/us-repeals-rules-limiting-greenhouse-gas-emissions-by-power-plants?traffic_source=rss"
         }
       ]
     },
@@ -136,22 +152,6 @@
         }
       ]
     },
-    "us repeals rules limiting greenhouse gas emissions by power plants": {
-      "detected_at": "2026-09-14T22:30:07.972709Z",
-      "peak_at": "2026-09-14T22:30:07.972709Z",
-      "peak_score_at": "2026-09-14T22:30:07.972709Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "US repeals rules limiting greenhouse gas emissions by power plants",
-      "peak_label": "US repeals power plant emission limits",
-      "peak_summary": "Trump administration removes greenhouse gas rules for power plants; indirect signal on global climate policy direction.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/us-repeals-rules-limiting-greenhouse-gas-emissions-by-power-plants?traffic_source=rss"
-        }
-      ]
-    },
     "why middle east tensions are pushing oil prices above $100": {
       "detected_at": "2026-09-14T18:37:42.459511Z",
       "peak_at": "2026-09-14T18:37:42.459511Z",
@@ -165,22 +165,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss"
-        }
-      ]
-    },
-    "canada offers air defense support for ukraine as zelenskyy visits": {
-      "detected_at": "2026-09-13T20:49:10.761562Z",
-      "peak_at": "2026-09-13T23:09:21.993139Z",
-      "peak_score_at": "2026-09-13T23:09:21.993139Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "positive",
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "peak_label": "Canada pledges air defense support for Ukraine",
-      "peak_summary": "Canadian commitment to boost Ukrainian air defenses indirectly supports Poland's eastern security buffer against Russian aggression.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
         }
       ]
     },
@@ -199,27 +183,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
         }
       ]
-    },
-    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
-      "detected_at": "2026-09-13T14:25:56.848177Z",
-      "peak_at": "2026-09-14T01:03:30.287388Z",
-      "peak_score_at": "2026-09-14T01:03:30.287388Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-      "peak_label": "Indonesian ferry capsizes killing six people",
-      "peak_summary": "Ferry disaster in Java Sea leaves six dead and 130 missing after encountering bad weather; distant tragedy with no direct impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "Swedish left-wing bloc narrowly ahead with election too close to call",
-    "US repeals rules limiting greenhouse gas emissions by power plants"
+    "US repeals rules limiting greenhouse gas emissions by power plants",
+    "Swedish left-wing bloc narrowly ahead with election too close to call"
   ]
 }

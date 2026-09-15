@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-14T22:30:07.983215Z",
+  "updated_at": "2026-09-15T01:27:31.879492Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Swedish election too close to call",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
     },
     {
       "temat": "US repeals power plant emission limits",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Trump removes greenhouse gas rules; climate policy shift."
     },
     {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Canada investment summit amid trade war",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Toronto hosts $120T investor summit; US trade tensions."
     },
     {
       "temat": "Indonesian ferry capsizes in Java Sea",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Ferry capsizes in bad weather; six dead, 130 missing."
     },
     {
       "temat": "Trump removes Irish whiskey tariffs",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "US removes tariffs on Irish whiskey; minor EU trade signal."
     },
     {
       "temat": "Philippines ferry fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Ferry fire kills 35 with dozens missing; distant tragedy."
     },
     {
       "temat": "Chile nursing home fire",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Fire kills 16 elderly residents in Araucanía; distant event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.444537Z",
-      "s": 2.2
-    },
     {
       "t": "2026-09-13T04:45:03.920664Z",
       "s": 2.4
@@ -100,26 +96,14 @@
     {
       "t": "2026-09-14T22:30:07.976447Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-15T01:27:31.872249Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-09-14T12:52:55.040459Z",
   "event_detected_at": {
-    "swedish left-wing bloc narrowly ahead with election too close to call": {
-      "detected_at": "2026-09-14T18:37:42.462941Z",
-      "peak_at": "2026-09-14T18:37:42.462941Z",
-      "peak_score_at": "2026-09-14T18:37:42.462941Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
-      "peak_label": "Swedish election too close to call",
-      "peak_summary": "Left-wing bloc leads by 20,000 votes with 90% counted; outcome uncertain; minor indirect relevance to western EU periphery.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "us repeals rules limiting greenhouse gas emissions by power plants": {
       "detected_at": "2026-09-14T22:30:07.976447Z",
       "peak_at": "2026-09-14T22:30:07.976447Z",
@@ -136,7 +120,23 @@
         }
       ]
     },
-    "africa's richest man launches continent's biggest share sale": {
+    "swedish left-wing bloc narrowly ahead with election too close to call": {
+      "detected_at": "2026-09-14T18:37:42.462941Z",
+      "peak_at": "2026-09-14T18:37:42.462941Z",
+      "peak_score_at": "2026-09-14T18:37:42.462941Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "peak_label": "Swedish election too close to call",
+      "peak_summary": "Left-wing bloc leads by 20,000 votes with 90% counted; outcome uncertain; minor indirect relevance to western EU periphery.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "africa's richest man aiming to make $23bn from continent's biggest-ever ipo": {
       "detected_at": "2026-09-14T22:30:07.976447Z",
       "peak_at": "2026-09-14T22:30:07.976447Z",
       "peak_score_at": "2026-09-14T22:30:07.976447Z",
@@ -204,22 +204,6 @@
         }
       ]
     },
-    "six dead, 130 missing after indonesian ferry capsizes in java sea": {
-      "detected_at": "2026-09-12T13:36:28.315796Z",
-      "peak_at": "2026-09-14T01:03:30.290784Z",
-      "peak_score_at": "2026-09-14T01:03:30.290784Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-      "peak_label": "Indonesian ferry capsizes killing six people",
-      "peak_summary": "Ferry disaster in Java Sea leaves six dead and 130 missing after bad weather; distant tragedy with no connection to Portuguese life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "residents help battle forest fires threatening homes in ecuadorian capital": {
       "detected_at": "2026-09-14T06:16:25.587338Z",
       "peak_at": "2026-09-14T06:16:25.587338Z",
@@ -235,27 +219,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/13-09-sv-residents-battle-wildfire-in-quito-ecuador?traffic_source=rss"
         }
       ]
-    },
-    "swedish party blocs tied after sunday vote, projections say": {
-      "detected_at": "2026-09-14T01:03:30.290784Z",
-      "peak_at": "2026-09-14T01:03:30.290784Z",
-      "peak_score_at": "2026-09-14T01:03:30.290784Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Swedish party blocs tied after Sunday vote, projections say",
-      "peak_label": "Swedish election shows tied party blocs",
-      "peak_summary": "Partial count projects left-wing opposition bloc winning one-seat majority; EU political development with no direct Portuguese impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Swedish left-wing bloc narrowly ahead with election too close to call",
     "US repeals rules limiting greenhouse gas emissions by power plants",
-    "Africa's richest man launches continent's biggest share sale"
+    "Swedish left-wing bloc narrowly ahead with election too close to call",
+    "Africa's richest man aiming to make $23bn from continent's biggest-ever IPO"
   ]
 }

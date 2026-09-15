@@ -1,12 +1,12 @@
 {
-  "global_score": 2.9,
-  "rationale": "Boris Johnson train strike near Polish border continues known pattern; no new direct threat to Poland this cycle.",
+  "global_score": 3.0,
+  "rationale": "US climate policy reversal is a confirmed action but has only indirect long-term impact on Poland; other headlines are distant or rhetoric-only.",
   "top_events": [
     {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "label": "Russia strikes train near Poland border",
-      "summary": "Russian attack on locomotive at Polish border after Western officials departed; continuation of known cross-border strike pattern without new escalation.",
-      "score": 2.9,
+      "summary": "Russian attack on locomotive at Polish border shortly after Western officials departed; continuation of strikes near Poland's eastern frontier.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,29 +22,10 @@
       "detected_at": "2026-09-12T17:08:45.725687Z"
     },
     {
-      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
-      "label": "Swedish election too close to call",
-      "summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-14T22:30:07.972709Z"
-    },
-    {
       "title": "US repeals rules limiting greenhouse gas emissions by power plants",
       "label": "US repeals power plant emission limits",
-      "summary": "Trump administration removes greenhouse gas rules for power plants; indirect signal on global climate policy direction.",
-      "score": 2.0,
+      "summary": "Trump administration removes greenhouse gas rules for power plants, enacted policy shift affecting global climate efforts and indirectly EU energy transition costs.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "inne",
@@ -58,21 +39,45 @@
         }
       ],
       "detected_at": "2026-09-14T22:30:07.972709Z"
+    },
+    {
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "label": "Swedish election too close to call",
+      "summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/15/sweden-election-is-too-close-to-call-as-far-right-loses-ground?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-14T22:30:07.972709Z"
     }
   ],
   "short_summary": "Russia strikes train near Polish border",
-  "level_label": "Stable",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-14T22:30:07.972709Z",
+  "updated_at": "2026-09-15T01:27:31.869097Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia strikes train near Polish border",
     "summary": "Russian attack on Ukrainian locomotive at Polish border shortly after Western officials departed raises direct security concerns for Poland's eastern frontier.",
     "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-    "score": 4.7,
+    "score": 4.6,
     "sentiment": "negative",
     "detected_at": "2026-09-12T17:08:45.725687Z",
     "peak_at": "2026-09-14T18:37:42.459511Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-12T17:08:45.725687Z",
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.441581Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-13T04:45:03.917878Z",
       "s": 2.6
@@ -132,6 +133,10 @@
     {
       "t": "2026-09-14T22:30:07.972709Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-15T01:27:31.869097Z",
+      "s": 3.0
     }
   ]
 }

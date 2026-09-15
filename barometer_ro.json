@@ -1,12 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "Boris Johnson train strike near Ukraine-Poland border continues known regional pattern; Swedish election is new but distant EU political event. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Russia-Ukraine border strike continues without qualitative change; other events are distant or rhetoric; no new direct impact on Romania.",
   "top_events": [
     {
       "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
       "label": "Russia strikes train near Poland border",
-      "summary": "Russian attack on locomotive at Polish border after Western officials left; continuation of known cross-border strike pattern in neighboring region.",
-      "score": 2.5,
+      "summary": "Russian attack on locomotive at Polish border after Western officials left; ongoing strikes near EU eastern frontier with no new escalation.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,18 +24,23 @@
     {
       "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
       "label": "Swedish election too close to call",
-      "summary": "Left bloc leads by 20,000 votes with 90% counted; outcome uncertain in fellow EU member state.",
+      "summary": "Left bloc leads narrowly with 90% counted; outcome uncertain in fellow EU member.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/15/sweden-election-is-too-close-to-call-as-far-right-loses-ground?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-14T22:30:07.974684Z"
@@ -43,10 +48,10 @@
     {
       "title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
       "label": "Iran-Gulf talks postponed in Oman",
-      "summary": "Postponement of Iran-Gulf negotiations in Oman reduces near-term hope for regional de-escalation; indirect impact on energy security.",
+      "summary": "Postponement of Iran-Gulf talks reduces hope for regional de-escalation; indirect impact on energy security.",
       "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -60,35 +65,31 @@
       "detected_at": "2026-09-14T22:30:07.974684Z"
     }
   ],
-  "short_summary": "Canada pledges air defense support for Ukraine",
+  "short_summary": "Oil prices cross $107 on Hormuz disruptions",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-14T22:30:07.974684Z",
+  "updated_at": "2026-09-15T01:27:31.870682Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Canada pledges air defense support for Ukraine",
-    "summary": "Canadian commitment to boost Ukrainian air defenses indirectly supports stability in Romania's Black Sea region and eastern border security.",
-    "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "score": 2.9,
-    "sentiment": "positive",
-    "detected_at": "2026-09-13T20:49:10.763709Z",
-    "peak_at": "2026-09-13T23:09:21.995477Z",
+    "label": "Oil prices cross $107 on Hormuz disruptions",
+    "summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising energy costs affect Romanian economy.",
+    "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
+    "score": 2.8,
+    "sentiment": "negative",
+    "detected_at": "2026-09-14T12:52:55.038363Z",
+    "peak_at": "2026-09-14T12:52:55.038363Z",
     "source_links": [
       {
-        "name": "Guardian",
-        "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-13T20:49:10.763709Z",
+  "events_anchor_at": "2026-09-14T12:52:55.038363Z",
   "score_history": [
-    {
-      "t": "2026-09-13T00:01:37.442917Z",
-      "s": 2.8
-    },
     {
       "t": "2026-09-13T04:45:03.919278Z",
       "s": 2.7
@@ -132,6 +133,10 @@
     {
       "t": "2026-09-14T22:30:07.974684Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-15T01:27:31.870682Z",
+      "s": 2.4
     }
   ]
 }
