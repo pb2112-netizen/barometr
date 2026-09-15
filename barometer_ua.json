@@ -1,14 +1,52 @@
 {
-  "global_score": 5.0,
-  "rationale": "NATO drone shootdown over Lithuania (Belarus border) is a new regional security incident affecting eastern flank, indirectly relevant to Ukraine's security context.",
+  "global_score": 4.7,
+  "rationale": "Zelenskyy offers conditional pause in Ukrainian attacks if Russia spares infrastructure; significant new diplomatic signal in ongoing war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Nato jets down drone that entered Lithuanian airspace",
-      "label": "NATO shoots down drone over Lithuania",
-      "summary": "Drone likely from Belarus shot down over Lithuania—first such NATO incident on eastern flank, raising regional tension relevant to Ukraine's security environment.",
-      "score": 5.0,
+      "title": "Zelenskyy says Ukraine will pause attacks if Russia spares infrastructure",
+      "label": "Zelenskyy offers conditional attack pause",
+      "summary": "President proposes Ukraine pause attacks if Russia stops targeting infrastructure; depends on US ensuring Russia's genuine readiness. New diplomatic signal in war; potential shift in strategy.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/15/zelenskyy-says-ukraine-will-pause-attacks-if-russia-spares-infrastructure?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-13T04:45:03.922034Z"
+    },
+    {
+      "title": "Denmark says Russian warship fired flares at military helicopter",
+      "label": "Russian warship fires at Danish helicopter",
+      "summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea. NATO-Russia confrontation escalates regional tensions; indirect signal of Russian aggression.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-15T13:32:11.383923Z"
+    },
+    {
+      "title": "Nato jets down drone that entered Lithuanian airspace",
+      "label": "NATO downs drone over Lithuania from Belarus",
+      "summary": "Drone likely from Belarus shot down over Lithuania by NATO jets. Continues pattern of border violations; ongoing pressure on NATO eastern flank.",
+      "score": 4.7,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -20,52 +58,14 @@
         }
       ],
       "detected_at": "2026-09-15T07:43:10.394877Z"
-    },
-    {
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "label": "Canada pledges Ukraine air defense support",
-      "summary": "Canadian PM reaffirms air defense aid during Zelenskyy visit—continuation of existing commitment with no new qualitative change in support.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
-        }
-      ],
-      "detected_at": "2026-09-13T04:45:03.922034Z"
-    },
-    {
-      "title": "US confirms for first time it has deployed space weapons",
-      "label": "US confirms deployment of space weapons",
-      "summary": "US Air Force confirms space weapons deployment for defense—distant strategic shift with no immediate impact on Ukrainian battlefield.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-15T07:43:10.394877Z"
     }
   ],
   "short_summary": "Russia strikes train after officials depart",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-15T07:43:10.394877Z",
+  "updated_at": "2026-09-15T13:32:11.383923Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-13T18:12:06.213105Z",
   "score_history": [
-    {
-      "t": "2026-09-13T10:16:15.511470Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-13T14:25:56.852739Z",
       "s": 4.1
@@ -132,6 +128,10 @@
     {
       "t": "2026-09-15T07:43:10.394877Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-09-15T13:32:11.383923Z",
+      "s": 4.7
     }
   ]
 }

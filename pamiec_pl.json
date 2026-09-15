@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-15T07:43:10.397700Z",
-  "ostatnia_ocena": 5.0,
+  "updated_at": "2026-09-15T13:32:11.386913Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": "2026-09-15T07:43:10.397585Z",
   "stan_swiata": [
     {
-      "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 7,
-      "opis": "Canadian commitment to boost Ukrainian air defenses."
-    },
-    {
       "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Drone from Belarus shot down over Lithuania; new border."
     },
     {
-      "temat": "Trump rejects AI safety regulation",
-      "poziom_bazowy": 2.0,
+      "temat": "Russian warship fires at Danish helicopter Baltic",
+      "poziom_bazowy": 6.5,
       "cykle_bez_zmian": 0,
-      "opis": "US president calls AI fears hoax; policy shift on tech."
+      "opis": "Russian vessel fired flares at Danish military helicopter."
+    },
+    {
+      "temat": "US Treasury yields hit 19-year peak",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
+      "opis": "10-year yield reaches 5.02%; global financial tightening."
     },
     {
       "temat": "US repeals power plant emission limits",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Trump removes greenhouse gas rules; climate policy shift."
     },
     {
+      "temat": "Canada pledges air defense support for Ukraine",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 8,
+      "opis": "Canadian commitment to boost Ukrainian air defenses."
+    },
+    {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     },
     {
       "temat": "Ukraine drone strikes near Poland border",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 11,
       "opis": "Ukrainian strikes kill four; Russia attacks near Polish."
     },
     {
-      "temat": "Swedish election too close to call",
+      "temat": "Trump rejects AI safety regulation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Left bloc leads narrowly; outcome uncertain; EU context."
-    },
-    {
-      "temat": "Philippines ferry fire",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
-      "opis": "Ferry fire kills 76 with more missing; distant tragedy."
+      "cykle_bez_zmian": 1,
+      "opis": "US president calls AI fears hoax; policy shift on tech."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-13T10:16:15.507356Z",
-      "s": 2.4
-    },
     {
       "t": "2026-09-13T14:25:56.848177Z",
       "s": 3.2
@@ -100,10 +96,30 @@
     {
       "t": "2026-09-15T07:43:10.388998Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-09-15T13:32:11.378047Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-09-15T07:43:10.388998Z",
   "event_detected_at": {
+    "denmark says russian warship fired flares at military helicopter": {
+      "detected_at": "2026-09-15T13:32:11.378047Z",
+      "peak_at": "2026-09-15T13:32:11.378047Z",
+      "peak_score_at": "2026-09-15T13:32:11.378047Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Denmark says Russian warship fired flares at military helicopter",
+      "peak_label": "Russian warship fires at Danish helicopter",
+      "peak_summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea; Denmark calls behavior reckless. Direct NATO-Russia confrontation in Poland's immediate maritime neighborhood escalates.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "nato jets down drone that entered lithuanian airspace": {
       "detected_at": "2026-09-15T07:43:10.388998Z",
       "peak_at": "2026-09-15T07:43:10.388998Z",
@@ -117,6 +133,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "benchmark us government bond yield hits 19-year peak as oil prices surge": {
+      "detected_at": "2026-09-15T13:32:11.378047Z",
+      "peak_at": "2026-09-15T13:32:11.378047Z",
+      "peak_score_at": "2026-09-15T13:32:11.378047Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Benchmark US government bond yield hits 19-year peak as oil prices surge",
+      "peak_label": "US bond yields hit 19-year high",
+      "peak_summary": "10-year Treasury yield reaches 5.02%, highest since 2007 crisis, as oil prices surge. Signals tightening global financial conditions that may affect EU economy and Polish borrowing costs.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/15/benchmark-us-government-bond-yield-hits-19-year-peak-as-oil-prices-surge?traffic_source=rss"
         }
       ]
     },
@@ -215,27 +247,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss"
         }
       ]
-    },
-    "us says it's clearing hormuz traffic: why are oil futures beyond $100?": {
-      "detected_at": "2026-09-14T12:52:55.036304Z",
-      "peak_at": "2026-09-14T12:52:55.036304Z",
-      "peak_score_at": "2026-09-14T12:52:55.036304Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
-      "peak_label": "Oil prices cross $107 on Hormuz disruptions",
-      "peak_summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions and Saudi pipeline shutdown threaten supply. Rising energy costs affect Polish fuel and electricity prices.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Denmark says Russian warship fired flares at military helicopter",
     "Nato jets down drone that entered Lithuanian airspace",
-    "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-    "Canada offers air defense support for Ukraine as Zelenskyy visits"
+    "Benchmark US government bond yield hits 19-year peak as oil prices surge"
   ]
 }

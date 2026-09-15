@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-15T07:43:10.400209Z",
-  "ostatnia_ocena": 5.0,
+  "updated_at": "2026-09-15T13:32:11.389606Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 7,
-      "opis": "Canadian commitment to boost Ukrainian air defenses."
-    },
-    {
       "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Drone from Belarus shot down over Lithuania; new NATO."
     },
     {
-      "temat": "US deploys space weapons",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
-      "opis": "US Air Force confirms space weapons deployment for defense."
-    },
-    {
       "temat": "Russia strikes cargo vessels steel plants Ukraine",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "Russia struck cargo vessels and steel plants across Ukraine."
     },
     {
+      "temat": "Zelenskyy proposes conditional attack pause",
+      "poziom_bazowy": 6.0,
+      "cykle_bez_zmian": 0,
+      "opis": "President offers pause if Russia stops infrastructure."
+    },
+    {
+      "temat": "Russian warship fires at Danish helicopter Baltic",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Russian vessel fired flares at Danish helicopter."
+    },
+    {
+      "temat": "Canada pledges air defense support for Ukraine",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 8,
+      "opis": "Canadian commitment to boost Ukrainian air defenses."
+    },
+    {
       "temat": "Russian strikes kill seven Ukrainians",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 11,
       "opis": "New deadly attack kills seven; ongoing war escalation."
     },
     {
       "temat": "Russian missile destroys Odesa flat",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 11,
       "opis": "Tennis player's flat hit by Russian missile in Odesa."
     },
     {
       "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
-    },
-    {
-      "temat": "Russian drone strike on Kyiv TV building",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 10,
-      "opis": "Daytime attack kills five; escalation in civilian media."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-13T10:16:15.511470Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-13T14:25:56.852739Z",
       "s": 4.1
@@ -100,10 +96,46 @@
     {
       "t": "2026-09-15T07:43:10.394877Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-09-15T13:32:11.383923Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-09-13T18:12:06.213105Z",
   "event_detected_at": {
+    "zelenskyy says ukraine will pause attacks if russia spares infrastructure": {
+      "detected_at": "2026-09-13T04:45:03.922034Z",
+      "peak_at": "2026-09-15T01:27:31.873810Z",
+      "peak_score_at": "2026-09-13T23:09:21.999474Z",
+      "peak_score": 5.2,
+      "peak_sentiment": "positive",
+      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "peak_label": "Canada pledges air defense support for Ukraine",
+      "peak_summary": "Canadian commitment to boost Ukrainian air defenses is concrete new support that directly strengthens protection against Russian strikes on Ukrainian cities and infrastructure.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
+        }
+      ]
+    },
+    "denmark says russian warship fired flares at military helicopter": {
+      "detected_at": "2026-09-15T13:32:11.383923Z",
+      "peak_at": "2026-09-15T13:32:11.383923Z",
+      "peak_score_at": "2026-09-15T13:32:11.383923Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Denmark says Russian warship fired flares at military helicopter",
+      "peak_label": "Russian warship fires at Danish helicopter",
+      "peak_summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea. NATO-Russia confrontation escalates regional tensions; indirect signal of Russian aggression.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "nato jets down drone that entered lithuanian airspace": {
       "detected_at": "2026-09-15T07:43:10.394877Z",
       "peak_at": "2026-09-15T07:43:10.394877Z",
@@ -117,22 +149,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "canada offers air defense support for ukraine as zelenskyy visits": {
-      "detected_at": "2026-09-13T04:45:03.922034Z",
-      "peak_at": "2026-09-15T01:27:31.873810Z",
-      "peak_score_at": "2026-09-13T23:09:21.999474Z",
-      "peak_score": 5.3,
-      "peak_sentiment": "positive",
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
-      "peak_label": "Canada pledges air defense support for Ukraine",
-      "peak_summary": "Canadian commitment to boost Ukrainian air defenses is concrete new support that directly strengthens protection against Russian strikes on Ukrainian cities and infrastructure.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit"
         }
       ]
     },
@@ -215,27 +231,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss"
         }
       ]
-    },
-    "us says it's clearing hormuz traffic: why are oil futures beyond $100?": {
-      "detected_at": "2026-09-14T12:52:55.042513Z",
-      "peak_at": "2026-09-14T12:52:55.042513Z",
-      "peak_score_at": "2026-09-14T12:52:55.042513Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "US says it's clearing Hormuz traffic: Why are oil futures beyond $100?",
-      "peak_label": "Oil prices cross $107 on Hormuz disruptions",
-      "peak_summary": "Brent crude exceeds $107 as Strait of Hormuz disruptions threaten supply. Rising energy costs affect Ukrainian wartime economy and fuel availability.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Nato jets down drone that entered Lithuanian airspace",
-    "Canada offers air defense support for Ukraine as Zelenskyy visits",
-    "US confirms for first time it has deployed space weapons"
+    "Zelenskyy says Ukraine will pause attacks if Russia spares infrastructure",
+    "Denmark says Russian warship fired flares at military helicopter",
+    "Nato jets down drone that entered Lithuanian airspace"
   ]
 }
