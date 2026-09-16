@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-16T16:53:19.792997Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-16T22:55:42.684918Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Canada-EU alliance proposal",
-      "poziom_bazowy": 2.3,
+      "temat": "Iranian strikes damage US bases",
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Photos confirm widespread damage at US sites from Iran."
+    },
+    {
+      "temat": "US Fed rate hike Trump opposition",
+      "poziom_bazowy": 4.7,
       "cykle_bez_zmian": 1,
-      "opis": "Canada seeks closer EU ties; potential economic benefit."
+      "opis": "Fed raised rates despite Trump; tightens EU credit markets."
     },
     {
       "temat": "Russian warship fires at Danish helicopter Baltic",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 7,
       "opis": "Russian vessel fired flares at Danish military helicopter."
     },
     {
       "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Drone from Belarus shot down over Lithuania; new NATO."
     },
     {
       "temat": "Netherlands rail sabotage",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "Suspected sabotage disrupts Dutch rail; EU infrastructure."
     },
     {
       "temat": "Hormuz tanker attack sailors missing",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 6,
       "opis": "Tanker struck by missile/drone in Hormuz; crew missing."
     },
     {
       "temat": "US Treasury yields hit 19-year peak",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 7,
       "opis": "10-year yield reaches 5.02%; global financial tightening."
     },
     {
       "temat": "Romanian farmers clash with police over export ban",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "2,000 farmers backed by far-right protest livestock ban."
-    },
-    {
-      "temat": "Oil prices cross $107 on Hormuz disruptions",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Brent crude exceeds $107; Hormuz and Saudi pipeline threats."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-14T18:37:42.461061Z",
-      "s": 2.8
-    },
-    {
-      "t": "2026-09-14T22:30:07.974684Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-15T01:27:31.870682Z",
       "s": 2.4
@@ -96,15 +88,51 @@
     {
       "t": "2026-09-16T16:53:19.784957Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-16T22:55:42.676539Z",
+      "s": 4.7
     }
   ],
-  "events_anchor_at": "2026-09-15T18:11:09.224360Z",
+  "events_anchor_at": "2026-09-16T22:55:42.676539Z",
   "event_detected_at": {
+    "us interest rates raised for first time in three years": {
+      "detected_at": "2026-09-16T22:55:42.676539Z",
+      "peak_at": "2026-09-16T22:55:42.676539Z",
+      "peak_score_at": "2026-09-16T22:55:42.676539Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "US interest rates raised for first time in three years",
+      "peak_label": "US Fed hikes rates despite Trump pressure",
+      "peak_summary": "Federal Reserve raised rates unanimously against Trump's wishes. This tightens global credit, raising costs for Romanian government and businesses dependent on EU financial markets.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "photos show widespread damage at us sites from iranian attacks": {
+      "detected_at": "2026-09-16T22:55:42.676539Z",
+      "peak_at": "2026-09-16T22:55:42.676539Z",
+      "peak_score_at": "2026-09-16T22:55:42.676539Z",
+      "peak_score": 4.6,
+      "peak_sentiment": "negative",
+      "title": "Photos show widespread damage at US sites from Iranian attacks",
+      "peak_label": "Iranian attacks wreck US military facilities",
+      "peak_summary": "Images show destroyed aircraft and buildings from Iranian strikes on US bases. Escalation threatens regional stability and energy routes critical to Romanian economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "eu chief backs plan for canada to become 'associate member'": {
       "detected_at": "2026-09-16T16:53:19.784957Z",
       "peak_at": "2026-09-16T16:53:19.784957Z",
       "peak_score_at": "2026-09-16T16:53:19.784957Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "positive",
       "title": "EU chief backs plan for Canada to become 'associate member'",
       "peak_label": "EU backs Canada associate membership plan",
@@ -188,38 +216,6 @@
         }
       ]
     },
-    "suspected sabotage causes major netherlands rail disruption": {
-      "detected_at": "2026-09-15T18:11:09.224360Z",
-      "peak_at": "2026-09-15T18:11:09.224360Z",
-      "peak_score_at": "2026-09-15T18:11:09.224360Z",
-      "peak_score": 3.9,
-      "peak_sentiment": "negative",
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "peak_label": "Sabotage disrupts Netherlands rail network",
-      "peak_summary": "Objects placed on tracks at multiple locations caused widespread train cancellations in EU member, raising infrastructure security concerns across bloc.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "two sailors missing after tanker attacked in strait of hormuz, oman says": {
-      "detected_at": "2026-09-15T18:11:09.224360Z",
-      "peak_at": "2026-09-15T18:11:09.224360Z",
-      "peak_score_at": "2026-09-15T18:11:09.224360Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-      "peak_label": "Tanker attacked in Hormuz Strait sailors missing",
-      "peak_summary": "Oil tanker struck by missile and drone in Hormuz, two sailors missing; threatens energy supply routes affecting Romanian fuel costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "romanian shepards and farmers clash with police": {
       "detected_at": "2026-09-16T00:18:23.411951Z",
       "peak_at": "2026-09-16T00:18:23.411951Z",
@@ -238,8 +234,8 @@
     }
   },
   "prev_top_event_titles": [
-    "EU chief backs plan for Canada to become 'associate member'",
-    "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-    "US accuses Russia of trying to kill Ukrainian allies overseas"
+    "US interest rates raised for first time in three years",
+    "Photos show widespread damage at US sites from Iranian attacks",
+    "EU chief backs plan for Canada to become 'associate member'"
   ]
 }
