@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-16T05:59:52.773035Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-16T11:30:10.069802Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russian warship fires at Danish helicopter Baltic",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 4,
-      "opis": "Russian vessel fired flares at Danish helicopter."
-    },
-    {
       "temat": "Gaza building collapse",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Residential building collapsed in Gaza; 10 dead, 70 missing."
     },
     {
+      "temat": "Canada-EU alliance proposal",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Canada seeks closer EU ties; potential Western cohesion."
+    },
+    {
       "temat": "Zelenskyy proposes conditional attack pause",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 5,
       "opis": "President offers pause if Russia stops infrastructure."
     },
     {
-      "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 3.9,
+      "temat": "Russian warship fires at Danish helicopter Baltic",
+      "poziom_bazowy": 4.4,
       "cykle_bez_zmian": 5,
+      "opis": "Russian vessel fired flares at Danish helicopter."
+    },
+    {
+      "temat": "NATO drone shootdown Lithuania",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
       "opis": "Drone from Belarus shot down over Lithuania; new NATO."
     },
     {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 13,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Russia strikes cargo vessels steel plants Ukraine",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Russia struck cargo vessels and steel plants across Ukraine."
     },
     {
       "temat": "Russian strikes kill seven Ukrainians",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 16,
       "opis": "New deadly attack kills seven; ongoing war escalation."
-    },
-    {
-      "temat": "Russian missile destroys Odesa flat",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 15,
-      "opis": "Tennis player's flat hit by Russian missile in Odesa."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-14T06:16:25.588958Z",
-      "s": 5.2
-    },
     {
       "t": "2026-09-14T12:52:55.042513Z",
       "s": 4.9
@@ -96,10 +92,66 @@
     {
       "t": "2026-09-16T05:59:52.767896Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-16T11:30:10.063906Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-09-15T07:43:10.394877Z",
   "event_detected_at": {
+    "at least five killed in russian drone strike near ukraine front line": {
+      "detected_at": "2026-09-15T07:43:10.394877Z",
+      "peak_at": "2026-09-16T11:30:10.063906Z",
+      "peak_score_at": "2026-09-15T07:43:10.394877Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "negative",
+      "title": "Nato jets down drone that entered Lithuanian airspace",
+      "peak_label": "NATO shoots down drone over Lithuania",
+      "peak_summary": "Drone likely from Belarus shot down over Lithuania—first such NATO incident on eastern flank, raising regional tension relevant to Ukraine's security environment.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "at least 20 killed after war-damaged gaza building collapses": {
+      "detected_at": "2026-09-16T05:59:52.767896Z",
+      "peak_at": "2026-09-16T05:59:52.767896Z",
+      "peak_score_at": "2026-09-16T05:59:52.767896Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "At least 10 dead, dozens missing in Gaza building collapse",
+      "peak_label": "Gaza building collapse kills 10, dozens missing",
+      "peak_summary": "Residential building collapsed in Gaza City; at least 10 dead and up to 70 missing. Humanitarian disaster in ongoing conflict zone.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss"
+        }
+      ]
+    },
+    "carney says canada will pursue 'unique security and economic alliance' with eu amid us trade spat": {
+      "detected_at": "2026-09-16T11:30:10.063906Z",
+      "peak_at": "2026-09-16T11:30:10.063906Z",
+      "peak_score_at": "2026-09-16T11:30:10.063906Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Carney says Canada will pursue 'unique security and economic alliance' with EU amid US trade spat",
+      "peak_label": "Canada seeks closer EU ties amid trade war",
+      "peak_summary": "Canadian PM proposes strengthening EU alliance. Potential indirect benefit for Ukraine through stronger Western bloc cohesion.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "denmark says russian warship fired flares at military helicopter": {
       "detected_at": "2026-09-15T13:32:11.383923Z",
       "peak_at": "2026-09-15T13:32:11.383923Z",
@@ -113,22 +165,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "at least 10 dead, dozens missing in gaza building collapse": {
-      "detected_at": "2026-09-16T05:59:52.767896Z",
-      "peak_at": "2026-09-16T05:59:52.767896Z",
-      "peak_score_at": "2026-09-16T05:59:52.767896Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "At least 10 dead, dozens missing in Gaza building collapse",
-      "peak_label": "Gaza building collapse kills 10, dozens missing",
-      "peak_summary": "Residential building collapsed in Gaza City; at least 10 dead and up to 70 missing. Humanitarian disaster in ongoing conflict zone.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss"
         }
       ]
     },
@@ -147,43 +183,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "nato jet shoots down suspected russian drone over lithuania": {
-      "detected_at": "2026-09-15T07:43:10.394877Z",
-      "peak_at": "2026-09-15T07:43:10.394877Z",
-      "peak_score_at": "2026-09-15T07:43:10.394877Z",
-      "peak_score": 4.9,
-      "peak_sentiment": "negative",
-      "title": "Nato jets down drone that entered Lithuanian airspace",
-      "peak_label": "NATO shoots down drone over Lithuania",
-      "peak_summary": "Drone likely from Belarus shot down over Lithuania—first such NATO incident on eastern flank, raising regional tension relevant to Ukraine's security environment.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us confirms for first time it has deployed space weapons": {
-      "detected_at": "2026-09-15T07:43:10.394877Z",
-      "peak_at": "2026-09-15T07:43:10.394877Z",
-      "peak_score_at": "2026-09-15T07:43:10.394877Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US confirms for first time it has deployed space weapons",
-      "peak_label": "US confirms deployment of space weapons",
-      "peak_summary": "US Air Force confirms space weapons deployment for defense—distant strategic shift with no immediate impact on Ukrainian battlefield.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck790xg41ygro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Denmark says Russian warship fired flares at military helicopter",
-    "At least 10 dead, dozens missing in Gaza building collapse",
-    "Iran war has led to US munitions shortfalls, Pentagon inspector confirms"
+    "At least five killed in Russian drone strike near Ukraine front line",
+    "At least 20 killed after war-damaged Gaza building collapses",
+    "Carney says Canada will pursue 'unique security and economic alliance' with EU amid US trade spat"
   ]
 }
