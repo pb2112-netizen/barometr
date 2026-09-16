@@ -1,11 +1,11 @@
 {
-  "global_score": 4.0,
-  "rationale": "Russian warship firing at Danish helicopter in Baltic continues as highest direct security threat to Poland's region; Netherlands rail sabotage adds to EU infrastructure vulnerability concerns. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Russian warship firing at Danish helicopter in Baltic continues as highest direct security threat to Poland's region; other events remain background or distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Denmark says Russian warship fired flares at military helicopter",
-      "label": "Russian warship fires at Danish helicopter Baltic",
-      "summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea, escalating regional tensions near Poland's maritime zone.",
+      "label": "Russian warship fires flares at Danish helicopter",
+      "summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea; Danish PM calls behavior reckless. Direct security concern in Poland's immediate maritime neighborhood.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,28 +22,9 @@
       "detected_at": "2026-09-15T13:32:11.378047Z"
     },
     {
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "label": "Netherlands rail sabotage disrupts EU transport",
-      "summary": "Suspected sabotage disrupted Dutch rail network at multiple locations, raising EU infrastructure security concerns.",
-      "score": 4.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-15T18:11:09.222322Z"
-    },
-    {
       "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-      "label": "Tanker attacked in Hormuz sailors missing",
-      "summary": "Oil tanker struck by missile and drone in Strait of Hormuz with crew missing, threatening energy supply routes.",
+      "label": "Tanker attacked in Hormuz Strait sailors missing",
+      "summary": "Oil tanker struck by missile and drone in Hormuz; two sailors missing. Indirect impact on Poland through potential energy price pressure.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-09-15T18:11:09.222322Z"
+    },
+    {
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "label": "Netherlands rail disruption suspected sabotage",
+      "summary": "Objects found on Dutch rail tracks cause major delays; suspected sabotage. EU infrastructure vulnerability concern for Poland.",
+      "score": 3.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-15T18:11:09.222322Z"
     }
   ],
   "short_summary": "NATO shoots down drone over Lithuania",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-15T21:19:29.062085Z",
+  "updated_at": "2026-09-16T00:18:23.410358Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-15T07:43:10.388998Z",
   "score_history": [
-    {
-      "t": "2026-09-13T23:09:21.993139Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-14T01:03:30.287388Z",
       "s": 3.4
@@ -128,6 +124,10 @@
     {
       "t": "2026-09-15T21:19:29.062085Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-09-16T00:18:23.410358Z",
+      "s": 3.9
     }
   ]
 }

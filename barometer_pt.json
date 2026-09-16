@@ -1,26 +1,50 @@
 {
-  "global_score": 3.2,
-  "rationale": "US Treasury yields at 19-year peak continue to tighten global financial conditions affecting Portugal's borrowing costs; Hormuz tanker attack indirectly threatens energy prices.",
+  "global_score": 2.6,
+  "rationale": "US Treasury yields remain highest indirect concern for Portugal's borrowing costs; Etna eruption affects regional travel; other events distant or background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US Treasury yields hit 19-year peak",
-      "label": "US Treasury yields reach 19-year high",
-      "summary": "10-year Treasury yield hits 5.02%, tightening global financial conditions and raising borrowing costs for Portugal.",
-      "score": 3.2,
+      "title": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+      "label": "Pentagon confirms munitions shortfalls from Iran war",
+      "summary": "Pentagon inspector confirms US munitions shortfalls and resupply bottleneck despite Trump claims. Indirect concern for Portugal through global security stability.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
-      "source_links": [],
-      "detected_at": "2026-09-15T13:32:11.382007Z"
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-16T00:18:23.413577Z"
+    },
+    {
+      "title": "Ash from Mount Etna grounds flights at Sicily airport",
+      "label": "Mount Etna ash grounds Sicily flights",
+      "summary": "Volcanic ash suspends all flights at Sicily airport until Tuesday night. Direct impact on Portugal's regional travel and tourism connections.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ym3rdmkzjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-15T21:19:29.065196Z"
     },
     {
       "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
-      "label": "Tanker attacked in Hormuz sailors missing",
-      "summary": "Oil tanker struck by missile and drone in Strait of Hormuz, indirectly threatening energy supply routes.",
-      "score": 2.7,
+      "label": "Tanker attacked in Hormuz Strait sailors missing",
+      "summary": "Oil tanker struck by missile and drone in Hormuz; two sailors missing. Indirect concern for Portugal through potential energy price impact.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -34,33 +58,14 @@
         }
       ],
       "detected_at": "2026-09-15T18:11:09.226350Z"
-    },
-    {
-      "title": "Ash from Mount Etna grounds flights at Sicily airport",
-      "label": "Mount Etna ash grounds Sicily flights",
-      "summary": "Volcanic ash from Mount Etna suspends all flights at Sicily airport, disrupting Mediterranean travel routes.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ym3rdmkzjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-15T21:19:29.065196Z"
     }
   ],
   "short_summary": "US bond yields hit 19-year high",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-15T21:19:29.065196Z",
+  "updated_at": "2026-09-16T00:18:23.413577Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -80,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-15T13:32:11.382007Z",
   "score_history": [
-    {
-      "t": "2026-09-13T23:09:21.997729Z",
-      "s": 2.0
-    },
     {
       "t": "2026-09-14T01:03:30.290784Z",
       "s": 2.3
@@ -123,6 +124,10 @@
     {
       "t": "2026-09-15T21:19:29.065196Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-16T00:18:23.413577Z",
+      "s": 2.6
     }
   ]
 }
