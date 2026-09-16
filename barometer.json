@@ -1,78 +1,83 @@
 {
-  "global_score": 2.8,
-  "rationale": "No new qualitative changes affecting Poland; existing security and economic background continues without escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Canada-EU alliance proposal offers modest economic benefit; other events remain distant or unchanged background.",
   "top_events": [
     {
-      "title": "At least 20 killed after war-damaged Gaza building collapses",
-      "label": "Gaza building collapse kills 20 civilians",
-      "summary": "Residential building in Gaza City collapsed, killing at least 20 with dozens missing. Humanitarian tragedy in ongoing conflict zone, no direct impact on Poland.",
-      "score": 2.8,
+      "title": "EU chief backs plan for Canada to become 'associate member'",
+      "label": "EU backs Canada associate membership plan",
+      "summary": "Canada seeks closer EU ties after US relations breakdown under Trump. Potential economic benefit for Poland through strengthened transatlantic trade and security cooperation.",
+      "score": 3.2,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance"
+        }
+      ],
+      "detected_at": "2026-09-16T16:53:19.783300Z"
+    },
+    {
+      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+      "label": "Gaza building collapse kills 21 including children",
+      "summary": "Building hit by Israeli strike last year collapsed, killing 21 with dozens missing. Distant humanitarian tragedy with no direct impact on Poland.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-16T11:30:10.057839Z"
-    },
-    {
-      "title": "Carney says Canada will pursue 'unique security and economic alliance' with EU amid US trade spat",
-      "label": "Canada seeks closer EU ties amid US tensions",
-      "summary": "Canadian PM proposes strengthening economic and security alliance with EU after US trade breakdown. Potential indirect benefit for EU economy including Poland.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Guardian",
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance"
         },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/israeli-double-tap-air-strike-responsible-for-killing-schoolboy-in-gaza?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-16T11:30:10.057839Z"
     },
     {
-      "title": "At least five killed in Russian drone strike near Ukraine front line",
-      "label": "Russian drone strike kills five in Ukraine",
-      "summary": "Drone attack near Nikopol killed five, injured seven. Continuation of ongoing war pattern, no new escalation affecting Poland's security posture.",
-      "score": 2.3,
+      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
+      "label": "FBI: Russia conspired to kill Ukrainian allies",
+      "summary": "FBI alleges five men conspired to threaten or murder people globally. Rhetoric-only accusation without confirmed action; no immediate change to Polish security.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-16T11:30:10.057839Z"
+      "detected_at": "2026-09-16T16:53:19.783300Z"
     }
   ],
   "short_summary": "Sabotage disrupts Netherlands rail network",
-  "level_label": "Stable",
-  "trend": "falling",
+  "level_label": "Low",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-16T11:30:10.057839Z",
+  "updated_at": "2026-09-16T16:53:19.783300Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Sabotage disrupts Netherlands rail network",
     "summary": "Objects placed on tracks at multiple locations caused widespread train cancellations in EU neighbor, raising infrastructure security concerns across bloc.",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-09-15T18:11:09.222322Z",
   "score_history": [
-    {
-      "t": "2026-09-14T12:52:55.036304Z",
-      "s": 3.1
-    },
     {
       "t": "2026-09-14T18:37:42.459511Z",
       "s": 3.0
@@ -133,6 +134,10 @@
     {
       "t": "2026-09-16T11:30:10.057839Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-09-16T16:53:19.783300Z",
+      "s": 3.2
     }
   ]
 }

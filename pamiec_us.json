@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-16T11:30:10.070638Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-09-16T16:53:19.795799Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "LA news helicopter crash",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
       "opis": "NBCLA helicopter crash kills three including journalist."
     },
     {
+      "temat": "FBI accuses Russia of plot to kill Ukrainian allies",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "FBI alleges conspiracy to threaten or murder people."
+    },
+    {
       "temat": "House votes to end Iran war",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "House passed war powers resolution halting Iran military."
     },
     {
       "temat": "GOP congressman calls Hegseth impeachment",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 2,
       "opis": "Republican calls to impeach Defense Secretary over Iran war."
     },
     {
       "temat": "US Treasury yields hit 19-year peak",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
       "opis": "10-year yield reaches 5.02%; tightens financial conditions."
     },
     {
       "temat": "Pentagon confirms munitions shortfalls Iran war",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 5,
       "opis": "Inspector confirms US munitions shortfalls and resupply."
     },
     {
       "temat": "Hormuz tanker attack sailors missing",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 5,
       "opis": "Tanker struck by missile/drone in Hormuz; crew missing."
     },
     {
       "temat": "US court blocks Trump coal plant order Michigan",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 7,
       "opis": "Court rules Energy Dept exceeded authority on plant."
-    },
-    {
-      "temat": "US visa restrictions South Africa",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
-      "opis": "Visa limits over alleged anti-white discrimination claims."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-14T12:52:55.044773Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-14T18:37:42.465878Z",
       "s": 2.8
@@ -96,9 +92,13 @@
     {
       "t": "2026-09-16T11:30:10.065868Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-16T16:53:19.790557Z",
+      "s": 3.4
     }
   ],
-  "events_anchor_at": "2026-09-15T13:32:11.385897Z",
+  "events_anchor_at": "2026-09-15T18:11:09.229856Z",
   "event_detected_at": {
     "journalist and pilot among three killed after news helicopter crashes in la": {
       "detected_at": "2026-09-16T11:30:10.065868Z",
@@ -120,7 +120,23 @@
         }
       ]
     },
-    "us limits visas for south african officials over alleged anti-white discrimination": {
+    "us accuses russia of trying to kill ukrainian allies overseas": {
+      "detected_at": "2026-09-16T16:53:19.790557Z",
+      "peak_at": "2026-09-16T16:53:19.790557Z",
+      "peak_score_at": "2026-09-16T16:53:19.790557Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
+      "peak_label": "FBI: Russia conspired to kill Ukrainian allies",
+      "peak_summary": "FBI alleges five men conspired to threaten or murder people on US soil and globally. Rhetoric-only accusation without confirmed action or arrests.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us to bar some south africans over claims of anti-white discrimination": {
       "detected_at": "2026-09-16T11:30:10.065868Z",
       "peak_at": "2026-09-16T11:30:10.065868Z",
       "peak_score_at": "2026-09-16T11:30:10.065868Z",
@@ -220,22 +236,6 @@
         }
       ]
     },
-    "us treasury yields hit 19-year peak": {
-      "detected_at": "2026-09-15T13:32:11.385897Z",
-      "peak_at": "2026-09-15T13:32:11.385897Z",
-      "peak_score_at": "2026-09-15T13:32:11.385897Z",
-      "peak_score": 4.9,
-      "peak_sentiment": "negative",
-      "title": "Benchmark US government bond yield hits 19-year peak as oil prices surge",
-      "peak_label": "US bond yields hit 19-year high",
-      "peak_summary": "10-year Treasury yield reaches 5.02%, highest since 2007 financial crisis, as oil prices surge. Tightens financial conditions; affects mortgage rates, business borrowing, and household costs.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/15/benchmark-us-government-bond-yield-hits-19-year-peak-as-oil-prices-surge?traffic_source=rss"
-        }
-      ]
-    },
     "what weapon could the us have put into space?": {
       "detected_at": "2026-09-15T18:11:09.229856Z",
       "peak_at": "2026-09-15T18:11:09.229856Z",
@@ -255,7 +255,7 @@
   },
   "prev_top_event_titles": [
     "Journalist and pilot among three killed after news helicopter crashes in LA",
-    "US limits visas for South African officials over alleged anti-white discrimination",
-    "At least 20 killed after war-damaged Gaza building collapses"
+    "US accuses Russia of trying to kill Ukrainian allies overseas",
+    "US to bar some South Africans over claims of anti-white discrimination"
   ]
 }

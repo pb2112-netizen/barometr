@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-16T11:30:10.069802Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-09-16T16:53:19.794934Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Gaza building collapse",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Residential building collapsed in Gaza; 10 dead, 70 missing."
     },
     {
       "temat": "Canada-EU alliance proposal",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Canada seeks closer EU ties; potential Western cohesion."
     },
     {
       "temat": "Zelenskyy proposes conditional attack pause",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 6,
       "opis": "President offers pause if Russia stops infrastructure."
     },
     {
       "temat": "Russian warship fires at Danish helicopter Baltic",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 6,
       "opis": "Russian vessel fired flares at Danish helicopter."
     },
     {
       "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 7,
       "opis": "Drone from Belarus shot down over Lithuania; new NATO."
     },
     {
       "temat": "Canada pledges air defense support for Ukraine",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 14,
       "opis": "Canadian commitment to boost Ukrainian air defenses."
     },
     {
       "temat": "Russia strikes cargo vessels steel plants Ukraine",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Russia struck cargo vessels and steel plants across Ukraine."
     },
     {
       "temat": "Russian strikes kill seven Ukrainians",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 17,
       "opis": "New deadly attack kills seven; ongoing war escalation."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-14T12:52:55.042513Z",
-      "s": 4.9
-    },
     {
       "t": "2026-09-14T18:37:42.464482Z",
       "s": 4.8
@@ -96,10 +92,66 @@
     {
       "t": "2026-09-16T11:30:10.063906Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-16T16:53:19.788862Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-09-15T07:43:10.394877Z",
   "event_detected_at": {
+    "eu chief backs plan for canada to become 'associate member'": {
+      "detected_at": "2026-09-16T16:53:19.788862Z",
+      "peak_at": "2026-09-16T16:53:19.788862Z",
+      "peak_score_at": "2026-09-16T16:53:19.788862Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "positive",
+      "title": "EU chief backs plan for Canada to become 'associate member'",
+      "peak_label": "EU backs Canada associate membership plan",
+      "peak_summary": "Canada seeks closer EU ties after US breakdown. Strengthens Western cohesion and potential support network for Ukraine amid ongoing war.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance"
+        }
+      ]
+    },
+    "us accuses russia of trying to kill ukrainian allies overseas": {
+      "detected_at": "2026-09-16T16:53:19.788862Z",
+      "peak_at": "2026-09-16T16:53:19.788862Z",
+      "peak_score_at": "2026-09-16T16:53:19.788862Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
+      "peak_label": "FBI: Russia conspired to kill Ukrainian allies",
+      "peak_summary": "FBI alleges five men conspired to threaten or murder people globally. Rhetoric-only accusation without confirmed action; no immediate change to Ukrainian security.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjp3077led9qo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "eight children among 21 killed after war-damaged gaza building collapses, rescuers say": {
+      "detected_at": "2026-09-16T05:59:52.767896Z",
+      "peak_at": "2026-09-16T05:59:52.767896Z",
+      "peak_score_at": "2026-09-16T05:59:52.767896Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "At least 10 dead, dozens missing in Gaza building collapse",
+      "peak_label": "Gaza building collapse kills 10, dozens missing",
+      "peak_summary": "Residential building collapsed in Gaza City; at least 10 dead and up to 70 missing. Humanitarian disaster in ongoing conflict zone.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss"
+        }
+      ]
+    },
     "at least five killed in russian drone strike near ukraine front line": {
       "detected_at": "2026-09-15T07:43:10.394877Z",
       "peak_at": "2026-09-16T11:30:10.063906Z",
@@ -113,22 +165,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "at least 20 killed after war-damaged gaza building collapses": {
-      "detected_at": "2026-09-16T05:59:52.767896Z",
-      "peak_at": "2026-09-16T05:59:52.767896Z",
-      "peak_score_at": "2026-09-16T05:59:52.767896Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "At least 10 dead, dozens missing in Gaza building collapse",
-      "peak_label": "Gaza building collapse kills 10, dozens missing",
-      "peak_summary": "Residential building collapsed in Gaza City; at least 10 dead and up to 70 missing. Humanitarian disaster in ongoing conflict zone.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss"
         }
       ]
     },
@@ -152,22 +188,6 @@
         }
       ]
     },
-    "denmark says russian warship fired flares at military helicopter": {
-      "detected_at": "2026-09-15T13:32:11.383923Z",
-      "peak_at": "2026-09-15T13:32:11.383923Z",
-      "peak_score_at": "2026-09-15T13:32:11.383923Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Denmark says Russian warship fired flares at military helicopter",
-      "peak_label": "Russian warship fires at Danish helicopter",
-      "peak_summary": "Russian vessel fired flares at Danish military helicopter in Baltic Sea. NATO-Russia confrontation escalates regional tensions; indirect signal of Russian aggression.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "iran war has led to us munitions shortfalls, pentagon inspector confirms": {
       "detected_at": "2026-09-16T00:18:23.415233Z",
       "peak_at": "2026-09-16T00:18:23.415233Z",
@@ -186,8 +206,8 @@
     }
   },
   "prev_top_event_titles": [
-    "At least five killed in Russian drone strike near Ukraine front line",
-    "At least 20 killed after war-damaged Gaza building collapses",
-    "Carney says Canada will pursue 'unique security and economic alliance' with EU amid US trade spat"
+    "EU chief backs plan for Canada to become 'associate member'",
+    "US accuses Russia of trying to kill Ukrainian allies overseas",
+    "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say"
   ]
 }
