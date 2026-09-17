@@ -1,12 +1,31 @@
 {
-  "global_score": 4.6,
-  "rationale": "Iranian strikes on US bases continue as known background; Fed rate hike already scored last cycle; no new qualitative change affecting Poland's security or economy this cycle.",
+  "global_score": 4.4,
+  "rationale": "US rate hike continues to tighten EU credit markets; no new qualitative change to Poland's security or economic situation this cycle.",
   "top_events": [
     {
+      "title": "US interest rates raised for first time in three years",
+      "label": "US Fed raises rates despite Trump opposition",
+      "summary": "Federal Reserve hiked rates unanimously, tightening credit across EU markets and raising borrowing costs for Polish businesses and consumers.",
+      "score": 4.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-16T22:55:42.674438Z"
+    },
+    {
       "title": "Photos show widespread damage at US sites from Iranian attacks",
-      "label": "Iranian strikes damage US bases confirmed",
-      "summary": "Images confirm wrecked aircraft and destroyed buildings at US military sites from Iranian attacks. Continues known Middle East escalation with indirect implications for NATO ally Poland.",
-      "score": 4.6,
+      "label": "Iran strikes wreck US aircraft and buildings",
+      "summary": "Images confirm extensive damage from Iranian attacks on US bases; raises regional instability but no direct impact on Poland.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-09-16T22:55:42.674438Z"
     },
     {
-      "title": "Congress passes sweeping US sanctions bill targeting Russia",
-      "label": "US Congress passes Russia sanctions bill",
-      "summary": "First Ukraine-support legislation in over two years from US Congress. Strengthens Western pressure on Russia, indirectly supporting Poland's eastern security concerns.",
-      "score": 4.5,
+      "title": "EU chief backs plan for Canada to become 'associate member'",
+      "label": "EU backs Canada associate membership amid US tensions",
+      "summary": "EU supports closer ties with Canada as Trump threatens trade cuts; potential long-term economic benefit for EU members including Poland.",
+      "score": 3.2,
       "sentiment": "positive",
       "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/17/congress-passes-sweeping-us-sanctions-bill-targeting-russia?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-17T01:24:21.084438Z"
-    },
-    {
-      "title": "EU chief backs plan for Canada to become 'associate member'",
-      "label": "EU backs Canada associate membership plan",
-      "summary": "EU supports closer Canada ties amid US-Canada trade tensions. Potential economic benefit for Poland through expanded EU trade network, though Trump threatens tariffs in response.",
-      "score": 3.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-17T01:24:21.084438Z",
+  "updated_at": "2026-09-17T07:37:38.343165Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US Fed raises rates despite Trump opposition",
     "summary": "Federal Reserve hiked rates unanimously despite fierce presidential opposition calling for cuts. This tightens global financial conditions, raising borrowing costs for Poland and EU economies.",
     "title": "US interest rates raised for first time in three years",
-    "score": 5.2,
+    "score": 5.1,
     "sentiment": "negative",
     "detected_at": "2026-09-16T22:55:42.674438Z",
     "peak_at": "2026-09-16T22:55:42.674438Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-16T22:55:42.674438Z",
   "score_history": [
-    {
-      "t": "2026-09-15T01:27:31.869097Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-15T07:43:10.388998Z",
       "s": 5.0
@@ -128,6 +124,10 @@
     {
       "t": "2026-09-17T01:24:21.084438Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-09-17T07:37:38.343165Z",
+      "s": 4.4
     }
   ]
 }

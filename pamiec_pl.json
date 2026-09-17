@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-17T01:24:21.092264Z",
-  "ostatnia_ocena": 4.6,
+  "updated_at": "2026-09-17T07:37:38.347305Z",
+  "ostatnia_ocena": 4.4,
   "ostatnie_powiadomienie_at": "2026-09-15T07:43:10.397585Z",
   "stan_swiata": [
     {
       "temat": "Iranian strikes damage US bases",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 2,
       "opis": "Photos confirm widespread damage at US sites from Iran."
     },
     {
-      "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 4.5,
+      "temat": "EU-Canada associate membership proposal",
+      "poziom_bazowy": 3.2,
       "cykle_bez_zmian": 0,
-      "opis": "First Ukraine-support legislation in two years; strengthens."
+      "opis": "EU backs closer Canada ties; potential economic benefit."
     },
     {
       "temat": "US Fed rate hike Trump opposition",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 3,
       "opis": "Fed raised rates despite Trump; tightens EU borrowing costs."
     },
     {
-      "temat": "Russian warship fires at Danish helicopter Baltic",
+      "temat": "US Congress passes Russia sanctions bill",
       "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 1,
+      "opis": "First Ukraine-support legislation in two years; strengthens."
+    },
+    {
+      "temat": "Russian warship fires at Danish helicopter Baltic",
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 9,
       "opis": "Russian vessel fired flares at Danish military helicopter."
     },
     {
       "temat": "NATO drone shootdown Lithuania",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 10,
       "opis": "Drone from Belarus shot down over Lithuania; new border."
     },
     {
       "temat": "Netherlands rail sabotage",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "Suspected sabotage disrupts Dutch rail; EU infrastructure."
     },
     {
       "temat": "Hormuz tanker attack sailors missing",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 7,
-      "opis": "Tanker struck by missile/drone in Hormuz; crew missing."
-    },
-    {
-      "temat": "US Treasury yields hit 19-year peak",
-      "poziom_bazowy": 2.6,
+      "poziom_bazowy": 2.8,
       "cykle_bez_zmian": 8,
-      "opis": "10-year yield reaches 5.02%; global financial tightening."
+      "opis": "Tanker struck by missile/drone in Hormuz; crew missing."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-15T01:27:31.869097Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-15T07:43:10.388998Z",
       "s": 5.0
@@ -96,15 +92,35 @@
     {
       "t": "2026-09-17T01:24:21.084438Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-09-17T07:37:38.343165Z",
+      "s": 4.4
     }
   ],
   "events_anchor_at": "2026-09-16T22:55:42.674438Z",
   "event_detected_at": {
+    "us interest rates raised for first time in three years": {
+      "detected_at": "2026-09-16T22:55:42.674438Z",
+      "peak_at": "2026-09-16T22:55:42.674438Z",
+      "peak_score_at": "2026-09-16T22:55:42.674438Z",
+      "peak_score": 5.1,
+      "peak_sentiment": "negative",
+      "title": "US interest rates raised for first time in three years",
+      "peak_label": "US Fed raises rates despite Trump opposition",
+      "peak_summary": "Federal Reserve hiked rates unanimously despite fierce presidential opposition calling for cuts. This tightens global financial conditions, raising borrowing costs for Poland and EU economies.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "photos show widespread damage at us sites from iranian attacks": {
       "detected_at": "2026-09-16T22:55:42.674438Z",
       "peak_at": "2026-09-16T22:55:42.674438Z",
       "peak_score_at": "2026-09-16T22:55:42.674438Z",
-      "peak_score": 4.8,
+      "peak_score": 4.7,
       "peak_sentiment": "negative",
       "title": "Photos show widespread damage at US sites from Iranian attacks",
       "peak_label": "Iranian strikes cause widespread US base damage",
@@ -113,22 +129,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "congress passes sweeping us sanctions bill targeting russia": {
-      "detected_at": "2026-09-17T01:24:21.084438Z",
-      "peak_at": "2026-09-17T01:24:21.084438Z",
-      "peak_score_at": "2026-09-17T01:24:21.084438Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "positive",
-      "title": "Congress passes sweeping US sanctions bill targeting Russia",
-      "peak_label": "US Congress passes Russia sanctions bill",
-      "peak_summary": "First Ukraine-support legislation in over two years from US Congress. Strengthens Western pressure on Russia, indirectly supporting Poland's eastern security concerns.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/17/congress-passes-sweeping-us-sanctions-bill-targeting-russia?traffic_source=rss"
         }
       ]
     },
@@ -148,19 +148,19 @@
         }
       ]
     },
-    "us interest rates raised for first time in three years": {
-      "detected_at": "2026-09-16T22:55:42.674438Z",
-      "peak_at": "2026-09-16T22:55:42.674438Z",
-      "peak_score_at": "2026-09-16T22:55:42.674438Z",
-      "peak_score": 5.2,
-      "peak_sentiment": "negative",
-      "title": "US interest rates raised for first time in three years",
-      "peak_label": "US Fed raises rates despite Trump opposition",
-      "peak_summary": "Federal Reserve hiked rates unanimously despite fierce presidential opposition calling for cuts. This tightens global financial conditions, raising borrowing costs for Poland and EU economies.",
+    "congress passes sweeping us sanctions bill targeting russia": {
+      "detected_at": "2026-09-17T01:24:21.084438Z",
+      "peak_at": "2026-09-17T01:24:21.084438Z",
+      "peak_score_at": "2026-09-17T01:24:21.084438Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "positive",
+      "title": "Congress passes sweeping US sanctions bill targeting Russia",
+      "peak_label": "US Congress passes Russia sanctions bill",
+      "peak_summary": "First Ukraine-support legislation in over two years from US Congress. Strengthens Western pressure on Russia, indirectly supporting Poland's eastern security concerns.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/17/congress-passes-sweeping-us-sanctions-bill-targeting-russia?traffic_source=rss"
         }
       ]
     },
@@ -234,8 +234,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US interest rates raised for first time in three years",
     "Photos show widespread damage at US sites from Iranian attacks",
-    "Congress passes sweeping US sanctions bill targeting Russia",
     "EU chief backs plan for Canada to become 'associate member'"
   ]
 }
