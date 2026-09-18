@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-09-18T18:27:35.995157Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-09-18T21:40:45.517060Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "New wild cat species discovered Bolivia",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Scientists identify new cat species in Bolivia cloud forest."
     },
     {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
+      "temat": "Trump bans major outlets from White House",
+      "poziom_bazowy": 1.9,
+      "cykle_bez_zmian": 0,
+      "opis": "US president restricts media access; rhetoric-only move."
+    },
+    {
       "temat": "US Fed rate hike Trump opposition",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "Fed raised rates despite Trump; tightens EU borrowing."
     },
     {
       "temat": "Spain Barcelona floods",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 8,
       "opis": "Torrential rain causes flooding in Catalonia; Iberian event."
     },
     {
       "temat": "EU social media age restriction proposal",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "EU proposes minimum age 15 for social media accounts."
     },
     {
       "temat": "Sweden government change left-wing",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "PM Kristersson resigns after election loss; distant EU."
     },
     {
       "temat": "Panama Canal drought traffic cuts",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "El Niño worsens drought; further maritime traffic cuts."
-    },
-    {
-      "temat": "Canada-EU alliance proposal",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 12,
-      "opis": "Canada seeks closer EU ties; potential economic benefit."
+      "opis": "El Niño worsens drought; further maritime traffic cuts."
     }
   ],
   "score_history": [
@@ -96,10 +96,62 @@
     {
       "t": "2026-09-18T18:27:35.988782Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-18T21:40:45.510732Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-09-16T22:55:42.678656Z",
   "event_detected_at": {
+    "russia seizes french assets uk envoy summoned": {
+      "detected_at": "2026-09-18T14:31:15.538937Z",
+      "peak_at": "2026-09-18T14:31:15.538937Z",
+      "peak_score_at": "2026-09-18T14:31:15.538937Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support",
+      "peak_label": "Russia seizes French assets over Ukraine aid",
+      "peak_summary": "Kremlin escalates pressure on EU allies supporting Ukraine, seizing French company assets—raises EU economic uncertainty but limited direct impact on Portugal's daily life.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss"
+        }
+      ]
+    },
+    "trump bans cnn, ms now, politico from the white house for 'fake news'": {
+      "detected_at": "2026-09-18T21:40:45.510732Z",
+      "peak_at": "2026-09-18T21:40:45.510732Z",
+      "peak_score_at": "2026-09-18T21:40:45.510732Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "neutral",
+      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
+      "peak_label": "Trump bans major outlets from White House",
+      "peak_summary": "US president restricts media access; rhetoric-only move with no effect on Portuguese life or transatlantic relations.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
+        }
+      ]
+    },
+    "new cat species identified for first time in more than a century in bolivia": {
+      "detected_at": "2026-09-16T22:55:42.678656Z",
+      "peak_at": "2026-09-18T00:16:35.566516Z",
+      "peak_score_at": "2026-09-16T22:55:42.678656Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "negative",
+      "title": "US interest rates raised for first time in three years",
+      "peak_label": "US Fed raises rates against Trump wishes",
+      "peak_summary": "Federal Reserve hiked rates unanimously despite Trump opposition. This tightens global financial conditions, raising borrowing costs for Portugal and pressuring EU peripheral economies.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "japan raises interest rate to new 31-year high to curb rising prices": {
       "detected_at": "2026-09-18T04:48:11.150231Z",
       "peak_at": "2026-09-18T18:27:35.988782Z",
@@ -152,38 +204,6 @@
         }
       ]
     },
-    "russia seizes assets of french firms, summons uk envoy over ukraine support": {
-      "detected_at": "2026-09-18T14:31:15.538937Z",
-      "peak_at": "2026-09-18T14:31:15.538937Z",
-      "peak_score_at": "2026-09-18T14:31:15.538937Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support",
-      "peak_label": "Russia seizes French assets over Ukraine aid",
-      "peak_summary": "Kremlin escalates pressure on EU allies supporting Ukraine, seizing French company assets—raises EU economic uncertainty but limited direct impact on Portugal's daily life.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss"
-        }
-      ]
-    },
-    "new cat species identified for first time in more than a century in bolivia": {
-      "detected_at": "2026-09-16T22:55:42.678656Z",
-      "peak_at": "2026-09-18T00:16:35.566516Z",
-      "peak_score_at": "2026-09-16T22:55:42.678656Z",
-      "peak_score": 4.2,
-      "peak_sentiment": "negative",
-      "title": "US interest rates raised for first time in three years",
-      "peak_label": "US Fed raises rates against Trump wishes",
-      "peak_summary": "Federal Reserve hiked rates unanimously despite Trump opposition. This tightens global financial conditions, raising borrowing costs for Portugal and pressuring EU peripheral economies.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "battle of chile director patricio guzmán dies aged 85": {
       "detected_at": "2026-09-18T09:44:45.771684Z",
       "peak_at": "2026-09-18T09:44:45.771684Z",
@@ -202,8 +222,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Japan raises interest rate to new 31-year high to curb rising prices",
-    "Russian hybrid attacks against Europe intensifying, says Macron",
-    "New wild cat species discovered - with only one known living member"
+    "Russia seizes French assets UK envoy summoned",
+    "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
+    "New cat species identified for first time in more than a century in Bolivia"
   ]
 }
