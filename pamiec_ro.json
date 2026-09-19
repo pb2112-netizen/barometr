@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-19T00:19:52.816585Z",
+  "updated_at": "2026-09-19T05:52:17.961214Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 4,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Trump bans major outlets from White House",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "US president restricts media access; rhetoric-only move."
     },
     {
+      "temat": "US Denmark Greenland security deal signed",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump claims permanent US security control over Greenland."
+    },
+    {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 4,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
       "temat": "Russia strikes Ukraine-Moldova border crossings",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 4,
       "opis": "Russian drones target border with Moldova; regional threat."
     },
     {
       "temat": "Iranian strikes damage US bases",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 13,
       "opis": "Photos confirm widespread damage at US sites from Iran."
     },
     {
       "temat": "US Fed rate hike Trump opposition",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Fed raised rates despite Trump; tightens EU credit markets."
     },
     {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 12,
       "opis": "First Ukraine-support legislation in two years; regional."
-    },
-    {
-      "temat": "Russian warship fires at Danish helicopter Baltic",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 19,
-      "opis": "Russian vessel fired flares at Danish military helicopter."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-17T01:24:21.086239Z",
-      "s": 4.4
-    },
     {
       "t": "2026-09-17T07:37:38.344248Z",
       "s": 4.2
@@ -100,6 +96,10 @@
     {
       "t": "2026-09-19T00:19:52.809984Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-19T05:52:17.955491Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-18T18:27:35.987145Z",
@@ -124,6 +124,22 @@
         }
       ]
     },
+    "trump bans cnn and politico from white house": {
+      "detected_at": "2026-09-18T21:40:45.508918Z",
+      "peak_at": "2026-09-18T21:40:45.508918Z",
+      "peak_score_at": "2026-09-18T21:40:45.508918Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
+      "peak_label": "Trump bans major outlets from White House",
+      "peak_summary": "US president restricts media access; rhetoric-only action with no impact on Romanian security or EU relations.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
+        }
+      ]
+    },
     "russian hybrid attacks against europe intensifying, says macron": {
       "detected_at": "2026-09-18T14:31:15.537872Z",
       "peak_at": "2026-09-18T14:31:15.537872Z",
@@ -137,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "trump says he is banning cnn and politico from white house": {
-      "detected_at": "2026-09-18T21:40:45.508918Z",
-      "peak_at": "2026-09-18T21:40:45.508918Z",
-      "peak_score_at": "2026-09-18T21:40:45.508918Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
-      "peak_label": "Trump bans major outlets from White House",
-      "peak_summary": "US president restricts media access; rhetoric-only action with no impact on Romanian security or EU relations.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
         }
       ]
     },
@@ -255,7 +255,7 @@
   },
   "prev_top_event_titles": [
     "US and Denmark reach deal over Greenland after Trump annexation threats",
-    "Russian hybrid attacks against Europe intensifying, says Macron",
-    "Trump says he is banning CNN and Politico from White House"
+    "Trump bans CNN and Politico from White House",
+    "Russian hybrid attacks against Europe intensifying, says Macron"
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-19T00:19:52.815696Z",
+  "updated_at": "2026-09-19T05:52:17.960485Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-09-15T07:43:10.397585Z",
   "stan_swiata": [
     {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 4,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Trump bans major outlets from White House",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "US president restricts media access; rhetoric-only move."
     },
     {
+      "temat": "US Denmark Greenland security deal signed",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump claims permanent US security control over Greenland."
+    },
+    {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 4,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
       "temat": "Russia strikes Ukraine-Poland border crossings",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 4,
       "opis": "Russian drones target border crossings with Poland/Moldova."
     },
     {
       "temat": "US Fed rate hike Trump opposition",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 14,
       "opis": "Fed raised rates despite Trump; tightens EU borrowing costs."
     },
     {
       "temat": "Iranian strikes damage US bases",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 13,
       "opis": "Photos confirm widespread damage at US sites from Iran."
     },
     {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 11,
-      "opis": "First Ukraine-support legislation in two years; strengthens."
-    },
-    {
-      "temat": "Russian warship fires at Danish helicopter Baltic",
       "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 19,
-      "opis": "Russian vessel fired flares at Danish military helicopter."
+      "cykle_bez_zmian": 12,
+      "opis": "First Ukraine-support legislation in two years; strengthens."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-17T01:24:21.084438Z",
-      "s": 4.6
-    },
     {
       "t": "2026-09-17T07:37:38.343165Z",
       "s": 4.4
@@ -100,6 +96,10 @@
     {
       "t": "2026-09-19T00:19:52.808452Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-19T05:52:17.953709Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-17T21:21:00.872739Z",
@@ -124,6 +124,22 @@
         }
       ]
     },
+    "trump bans cnn and politico from white house": {
+      "detected_at": "2026-09-18T21:40:45.507081Z",
+      "peak_at": "2026-09-18T21:40:45.507081Z",
+      "peak_score_at": "2026-09-18T21:40:45.507081Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
+      "peak_label": "Trump bans major outlets from White House",
+      "peak_summary": "US president restricts media access; rhetoric-only move with no direct impact on Polish daily life or transatlantic security policy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
+        }
+      ]
+    },
     "russian hybrid attacks against europe intensifying, says macron": {
       "detected_at": "2026-09-18T14:31:15.536679Z",
       "peak_at": "2026-09-18T14:31:15.536679Z",
@@ -137,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "trump says he is banning cnn and politico from white house": {
-      "detected_at": "2026-09-18T21:40:45.507081Z",
-      "peak_at": "2026-09-18T21:40:45.507081Z",
-      "peak_score_at": "2026-09-18T21:40:45.507081Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
-      "peak_label": "Trump bans major outlets from White House",
-      "peak_summary": "US president restricts media access; rhetoric-only move with no direct impact on Polish daily life or transatlantic security policy.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
         }
       ]
     },
@@ -220,22 +220,6 @@
         }
       ]
     },
-    "canada welcomes eu proposal to become 'associate member'": {
-      "detected_at": "2026-09-16T16:53:19.783300Z",
-      "peak_at": "2026-09-18T04:48:11.148089Z",
-      "peak_score_at": "2026-09-17T01:24:21.084438Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "EU chief backs plan for Canada to become 'associate member'",
-      "peak_label": "EU backs Canada associate membership plan",
-      "peak_summary": "EU supports closer Canada ties amid US-Canada trade tensions. Potential economic benefit for Poland through expanded EU trade network, though Trump threatens tariffs in response.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "us to allow iran delegation to attend un meetings in new york as war passes half-year mark": {
       "detected_at": "2026-09-18T09:44:45.768894Z",
       "peak_at": "2026-09-18T09:44:45.768894Z",
@@ -255,7 +239,7 @@
   },
   "prev_top_event_titles": [
     "US and Denmark reach deal over Greenland after Trump annexation threats",
-    "Russian hybrid attacks against Europe intensifying, says Macron",
-    "Trump says he is banning CNN and Politico from White House"
+    "Trump bans CNN and Politico from White House",
+    "Russian hybrid attacks against Europe intensifying, says Macron"
   ]
 }
