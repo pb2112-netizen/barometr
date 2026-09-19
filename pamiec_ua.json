@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-19T18:00:24.353297Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-09-19T20:38:21.644927Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Trump bans major outlets from White House",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "US president restricts media access; rhetoric-only move."
-    },
-    {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 4,
       "opis": "First Ukraine-support legislation in two years; critical."
     },
     {
-      "temat": "US Denmark Greenland security deal",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
-      "opis": "Trump claims permanent US control over Greenland; distant."
+      "temat": "Pakistan mosque suicide attack",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Vehicle bomb kills 21 at mosque; distant South Asian event."
     },
     {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 8,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 8,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Russia strikes Ukraine border crossings Poland Moldova",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 8,
       "opis": "Russian drones target border crossings; threatens aid."
     },
     {
       "temat": "Zelenskyy-Trump UN meeting planned",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 17,
       "opis": "Diplomatic push for presidential meeting; critical for aid."
     },
     {
       "temat": "US sanctions Russian oil buyers",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 14,
       "opis": "New US tariffs target China/India buying Russian oil; war."
+    },
+    {
+      "temat": "US Denmark Greenland security deal",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
+      "opis": "Trump claims permanent US control over Greenland; distant."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-17T18:12:36.223389Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-17T21:21:00.876031Z",
       "s": 3.5
@@ -104,15 +100,19 @@
     {
       "t": "2026-09-19T18:00:24.347978Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-09-19T20:38:21.641024Z",
+      "s": 4.1
     }
   ],
-  "events_anchor_at": "2026-09-18T18:27:35.990456Z",
+  "events_anchor_at": "2026-09-19T05:52:17.958358Z",
   "event_detected_at": {
     "trump signs sweeping russia sanctions bill": {
       "detected_at": "2026-09-19T05:52:17.958358Z",
       "peak_at": "2026-09-19T05:52:17.958358Z",
       "peak_score_at": "2026-09-19T05:52:17.958358Z",
-      "peak_score": 4.8,
+      "peak_score": 4.7,
       "peak_sentiment": "positive",
       "title": "Trump signs sweeping Russia sanctions bill",
       "peak_label": "Trump signs Russia sanctions bill",
@@ -121,6 +121,42 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "at least 21 killed after vehicle loaded with explosives rams pakistan mosque": {
+      "detected_at": "2026-09-19T10:56:33.933879Z",
+      "peak_at": "2026-09-19T10:56:33.933879Z",
+      "peak_score_at": "2026-09-19T10:56:33.933879Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
+      "peak_label": "Pakistan mosque attack 21 killed explosives",
+      "peak_summary": "Vehicle bomb and gunfire at mosque and police facility in Pakistan. Distant event with no impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "millions without power as cuba hit by latest major blackout": {
+      "detected_at": "2026-09-19T20:38:21.641024Z",
+      "peak_at": "2026-09-19T20:38:21.641024Z",
+      "peak_score_at": "2026-09-19T20:38:21.641024Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Millions without power as Cuba hit by latest major blackout",
+      "peak_label": "Cuba suffers sixth nationwide blackout",
+      "peak_summary": "Fuel shortages cause widespread power outages. Distant Caribbean event with no relevance to Ukrainian energy grid or war situation.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9x4387lzxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/19/cuba-works-to-restore-power-after-another-major-nationwide-blackout?traffic_source=rss"
         }
       ]
     },
@@ -160,22 +196,6 @@
         }
       ]
     },
-    "at least 21 killed after vehicle loaded with explosives rams pakistan mosque": {
-      "detected_at": "2026-09-19T10:56:33.933879Z",
-      "peak_at": "2026-09-19T10:56:33.933879Z",
-      "peak_score_at": "2026-09-19T10:56:33.933879Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
-      "peak_label": "Pakistan mosque attack 21 killed explosives",
-      "peak_summary": "Vehicle bomb and gunfire at mosque and police facility in Pakistan. Distant event with no impact on Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "syria arrests five former al-assad-era officers over strikes on civilians": {
       "detected_at": "2026-09-18T21:40:45.512531Z",
       "peak_at": "2026-09-18T21:40:45.512531Z",
@@ -191,27 +211,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/18/syria-arrests-five-former-al-assad-era-officers-over-strikes-on-civilians?traffic_source=rss"
         }
       ]
-    },
-    "russia's drones threaten kyiv-bound western officials as war effort stalls": {
-      "detected_at": "2026-09-18T18:27:35.990456Z",
-      "peak_at": "2026-09-18T18:27:35.990456Z",
-      "peak_score_at": "2026-09-18T18:27:35.990456Z",
-      "peak_score": 5.4,
-      "peak_sentiment": "negative",
-      "title": "Russia's drones threaten Kyiv-bound Western officials as war effort stalls",
-      "peak_label": "Russia's drones threaten Kyiv-bound Western officials as",
-      "peak_summary": "Russian drones target Ukraine's border crossings with Poland and Moldova, directly threatening critical Western aid supply routes as Moscow's eastern offensives peter out.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/18/russia-targets-ukraines-peaceful-borders?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Trump signs sweeping Russia sanctions bill",
-    "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-    "Trump says he is banning CNN and Politico from White House"
+    "At least 21 killed after vehicle loaded with explosives rams Pakistan mosque",
+    "Millions without power as Cuba hit by latest major blackout"
   ]
 }

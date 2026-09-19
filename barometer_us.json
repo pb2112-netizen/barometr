@@ -1,50 +1,36 @@
 {
   "global_score": 3.0,
-  "rationale": "Greenland deal formalized (continuation); Trump bans media outlets (rhetoric escalation but no policy change); sanctions bill signed (known). Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Greenland deal formalized with NATO backing represents new security commitment; sanctions bill continues existing policy; media access restrictions are rhetoric-only. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "label": "NATO welcomes US-Denmark Greenland security deal",
-      "summary": "Agreement formalizes US security role in Greenland after months of Trump rhetoric. NATO endorsement signals alliance cohesion; continues existing policy direction.",
+      "label": "US formalizes Greenland security control deal",
+      "summary": "Denmark-US agreement establishes permanent US security presence in Greenland with NATO endorsement. Represents new Arctic strategic commitment affecting US defense posture.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-19T00:19:52.814793Z"
     },
     {
-      "title": "Trump says he is banning CNN and Politico from White House",
-      "label": "Trump bans CNN Politico from White House",
-      "summary": "US president restricts media access in ongoing press tensions. Escalation of rhetoric but no immediate policy impact on daily life; affects press freedom debate.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-18T21:40:45.514193Z"
-    },
-    {
       "title": "Trump signs sweeping Russia sanctions bill",
-      "label": "Trump signs Russia sanctions bill into law",
-      "summary": "First Ukraine-support legislation in two years becomes law. Foreign policy action with no immediate domestic impact on US economy or security.",
-      "score": 2.7,
+      "label": "Trump signs Russia sanctions into law",
+      "summary": "First Ukraine-support legislation in two years enacted. Continues existing foreign policy direction with limited direct impact on US domestic life.",
+      "score": 2.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,21 +44,45 @@
         }
       ],
       "detected_at": "2026-09-19T05:52:17.959770Z"
+    },
+    {
+      "title": "Journalists denied White House access after Trump banned some media outlets",
+      "label": "White House bars CNN Politico reporters",
+      "summary": "Press badges confiscated from three outlets. Rhetoric-only move affecting media access but not policy or daily life for US residents.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/19/a-ban-on-the-free-press-white-house-bars-journalists-from-three-outlets?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-18T21:40:45.514193Z"
     }
   ],
   "short_summary": "US Denmark Greenland security deal signed",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-19T18:00:24.349519Z",
+  "updated_at": "2026-09-19T20:38:21.642230Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "US Denmark Greenland security deal signed",
     "summary": "Trump claims permanent US security control over Greenland under new agreement with Denmark, though Danish officials have not confirmed specifics. Shifts US Arctic military posture and NATO.",
     "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
-    "score": 3.9,
+    "score": 3.8,
     "sentiment": "neutral",
     "detected_at": "2026-09-19T00:19:52.814793Z",
     "peak_at": "2026-09-19T00:19:52.814793Z",
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-09-19T00:19:52.814793Z",
   "score_history": [
-    {
-      "t": "2026-09-17T18:12:36.225376Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-17T21:21:00.877604Z",
       "s": 4.3
@@ -139,6 +145,10 @@
     },
     {
       "t": "2026-09-19T18:00:24.349519Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-19T20:38:21.642230Z",
       "s": 3.0
     }
   ]
