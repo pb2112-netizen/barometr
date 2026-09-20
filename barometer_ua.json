@@ -1,13 +1,13 @@
 {
-  "global_score": 3.9,
-  "rationale": "US-Russia sanctions bill signed (continuation of tracked congressional passage); no new military escalation or infrastructure strikes on Ukrainian territory this cycle.",
+  "global_score": 3.8,
+  "rationale": "Russia sanctions bill signed (continuation of existing support); Greenland deal (distant); Houthi strikes on Saudi Arabia (no link to Ukraine war); no new military escalation on Ukrainian territory.",
   "top_events": [
     {
       "title": "Trump signs sweeping Russia sanctions bill",
-      "label": "Trump signs Russia sanctions bill into law",
-      "summary": "US president enacts Russia sanctions legislation named after late Senator Graham. Continuation of previously tracked congressional passage; critical for Ukraine aid.",
-      "score": 3.9,
-      "sentiment": "positive",
+      "label": "Trump signs Russia sanctions bill named for Graham",
+      "summary": "US president signs Russia sanctions legislation, first Ukraine-support bill in two years. Continues existing policy direction without new qualitative change in aid flow.",
+      "score": 3.8,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,28 +22,9 @@
       "detected_at": "2026-09-19T05:52:17.958358Z"
     },
     {
-      "title": "Iran says conditions to re-engage in talks, end war sent to US via Qatar",
-      "label": "Iran sends conditions for talks to US",
-      "summary": "Iran's security council sends conditions to end war via Qatar, awaiting Trump response. Distant Middle East diplomacy with no direct impact on Ukraine war.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/iran-says-conditions-to-re-engage-in-talks-end-war-sent-to-us-via-qatar?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-19T23:02:40.161197Z"
-    },
-    {
       "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "label": "Houthis fire ballistic missiles at Riyadh airport",
-      "summary": "Yemen-based Houthis strike Saudi capital fuel depot. Distant Middle East escalation with no link to Ukraine's war or Western aid.",
+      "label": "Houthis strike Riyadh airport fuel depot",
+      "summary": "Houthi ballistic missiles target Saudi capital. Distant Middle East escalation with no connection to Ukraine war or Western aid.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
@@ -59,10 +40,29 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-19T23:02:40.161197Z"
+    },
+    {
+      "title": "DR Congo rolls out Ebola vaccine for health workers as death toll rises",
+      "label": "DR Congo rolls out Ebola vaccine for workers",
+      "summary": "Congo vaccinates 50,000 health workers against Ebola. Distant African health crisis with no impact on Ukraine.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/20/dr-congo-rolls-out-ebola-vaccine-for-health-workers-as-death-toll-rises?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-20T01:07:13.538709Z"
     }
   ],
   "short_summary": "Trump signs Russia sanctions bill",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-19T23:02:40.161197Z",
+  "updated_at": "2026-09-20T01:07:13.538709Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump signs Russia sanctions bill",
     "summary": "First Ukraine-support legislation in two years, named after late Senator Graham. Qualitatively new action strengthening sanctions regime critical to Ukraine's war effort.",
     "title": "Trump signs sweeping Russia sanctions bill",
-    "score": 4.6,
+    "score": 4.5,
     "sentiment": "positive",
     "detected_at": "2026-09-19T05:52:17.958358Z",
     "peak_at": "2026-09-19T05:52:17.958358Z",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-19T05:52:17.958358Z",
   "score_history": [
-    {
-      "t": "2026-09-18T00:16:35.567359Z",
-      "s": 3.4
-    },
     {
       "t": "2026-09-18T04:48:11.151710Z",
       "s": 3.2
@@ -141,6 +137,10 @@
     {
       "t": "2026-09-19T23:02:40.161197Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-20T01:07:13.538709Z",
+      "s": 3.8
     }
   ]
 }

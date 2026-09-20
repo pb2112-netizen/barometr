@@ -1,31 +1,12 @@
 {
-  "global_score": 2.4,
-  "rationale": "Distant geopolitical rhetoric continues (Greenland, Russia sanctions); no new events affecting Portugal's cost of living, tourism economy, or Iberian climate concerns this cycle.",
+  "global_score": 2.1,
+  "rationale": "Russia sanctions bill signed (distant continuation); Greenland deal (distant); Houthi strikes on Saudi Arabia (no link to Portugal); no new impact on cost of living or Iberian events.",
   "top_events": [
     {
-      "title": "Millions without power as Cuba hit by latest major blackout",
-      "label": "Cuba suffers major blackout fuel shortages worsen",
-      "summary": "Widespread power outages in Cuba due to fuel shortages and US blockade. Continuation of tracked situation; no direct impact on Portugal's energy or economy.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6j9x4387lzxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-19T10:56:33.932168Z"
-    },
-    {
       "title": "Trump signs sweeping Russia sanctions bill",
-      "label": "Trump signs Russia sanctions bill into law",
-      "summary": "US enacts Russia sanctions legislation. Distant geopolitical move with no direct effect on Portugal's western EU economy or cost of living.",
-      "score": 2.2,
+      "label": "Trump signs Russia sanctions bill named for Graham",
+      "summary": "US president signs Russia sanctions legislation. Distant policy continuation with no direct impact on Portuguese economy or daily life.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -42,10 +23,10 @@
     },
     {
       "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "label": "Houthis fire ballistic missiles at Riyadh airport",
-      "summary": "Yemen-based Houthis strike Saudi capital. Distant Middle East escalation with no link to Portugal's Atlantic economy or energy prices.",
+      "label": "Houthis strike Riyadh airport fuel depot",
+      "summary": "Houthi ballistic missiles hit Saudi capital. Distant Middle East escalation with no link to Portuguese energy or economy.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -59,10 +40,29 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-19T23:02:40.159860Z"
+    },
+    {
+      "title": "New cat species identified for first time in more than a century in Bolivia",
+      "label": "New wild cat species discovered in Bolivia",
+      "summary": "Scientists identify new feline species in Bolivia's cloud forest. Interesting scientific discovery with no impact on Portuguese daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "nauka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/17/new-cat-species-identified-bolivia"
+        }
+      ],
+      "detected_at": "2026-09-16T22:55:42.678656Z"
     }
   ],
   "short_summary": "US Fed raises rates against Trump wishes",
@@ -70,17 +70,17 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-19T23:02:40.159860Z",
+  "updated_at": "2026-09-20T01:07:13.536780Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "US Fed raises rates against Trump wishes",
     "summary": "Federal Reserve hiked rates unanimously despite Trump opposition. This tightens global financial conditions, raising borrowing costs for Portugal and pressuring EU peripheral economies.",
     "title": "US interest rates raised for first time in three years",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "negative",
     "detected_at": "2026-09-16T22:55:42.678656Z",
-    "peak_at": "2026-09-19T00:19:52.811521Z",
+    "peak_at": "2026-09-20T01:07:13.536780Z",
     "source_links": [
       {
         "name": "BBC",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-16T22:55:42.678656Z",
   "score_history": [
-    {
-      "t": "2026-09-18T00:16:35.566516Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-18T04:48:11.150231Z",
       "s": 2.7
@@ -141,6 +137,10 @@
     {
       "t": "2026-09-19T23:02:40.159860Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-09-20T01:07:13.536780Z",
+      "s": 2.1
     }
   ]
 }

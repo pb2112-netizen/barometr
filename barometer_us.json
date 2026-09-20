@@ -1,14 +1,33 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump signs Russia sanctions bill (continuation of tracked congressional passage); Greenland deal formalized (rhetoric continues); no new domestic policy impact this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Russia sanctions bill signed (continuation); Greenland deal welcomed by NATO (continuation); Houthi strikes on Saudi Arabia (indirect concern for regional ally); AI Force announcement (rhetoric only).",
   "top_events": [
     {
       "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "label": "US-Denmark Greenland security deal formalized",
-      "summary": "Denmark-US agreement on Greenland security reached after months of Trump annexation threats. Continuation of tracked rhetoric; no new military deployment or policy change.",
+      "label": "NATO welcomes US-Denmark Greenland security deal",
+      "summary": "NATO endorses US-Denmark agreement giving US permanent security control over Greenland. Continues existing policy direction with diplomatic validation.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-19T00:19:52.814793Z"
+    },
+    {
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "label": "Houthis strike Riyadh airport fuel depot",
+      "summary": "Houthi ballistic missiles hit Saudi capital, targeting Riyadh airport. Escalation affecting US regional ally but no direct US involvement or oil market spike yet.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -17,20 +36,20 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-19T00:19:52.814793Z"
+      "detected_at": "2026-09-20T01:07:13.540103Z"
     },
     {
       "title": "Trump signs sweeping Russia sanctions bill",
-      "label": "Trump signs Russia sanctions bill into law",
-      "summary": "President enacts Russia sanctions legislation named after late Senator Graham. Continuation of previously tracked congressional passage; foreign policy move.",
-      "score": 2.5,
+      "label": "Trump signs Russia sanctions bill named for Graham",
+      "summary": "President signs Russia sanctions legislation named after late Senator Graham. Continues existing foreign policy without new domestic impact.",
+      "score": 2.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,25 +63,6 @@
         }
       ],
       "detected_at": "2026-09-19T05:52:17.959770Z"
-    },
-    {
-      "title": "Journalists denied White House access after Trump banned some media outlets",
-      "label": "White House confiscates press badges from outlets",
-      "summary": "CNN, MSNBC, Politico reporters' White House press badges confiscated. Continuation of tracked media access restrictions; rhetoric-only move affecting press.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-18T21:40:45.514193Z"
     }
   ],
   "short_summary": "US Denmark Greenland security deal signed",
@@ -70,17 +70,17 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-19T23:02:40.162663Z",
+  "updated_at": "2026-09-20T01:07:13.540103Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US Denmark Greenland security deal signed",
     "summary": "Trump claims permanent US security control over Greenland under new agreement with Denmark, though Danish officials have not confirmed specifics. Shifts US Arctic military posture and NATO.",
     "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "neutral",
     "detected_at": "2026-09-19T00:19:52.814793Z",
-    "peak_at": "2026-09-19T00:19:52.814793Z",
+    "peak_at": "2026-09-20T01:07:13.540103Z",
     "source_links": [
       {
         "name": "BBC",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-19T00:19:52.814793Z",
   "score_history": [
-    {
-      "t": "2026-09-18T00:16:35.568737Z",
-      "s": 4.8
-    },
     {
       "t": "2026-09-18T04:48:11.153018Z",
       "s": 3.9
@@ -145,6 +141,10 @@
     {
       "t": "2026-09-19T23:02:40.162663Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-20T01:07:13.540103Z",
+      "s": 3.2
     }
   ]
 }
