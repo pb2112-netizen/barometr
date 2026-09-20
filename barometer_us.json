@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Trump administration forms AI Force and appoints AI tsar, marking new domestic policy initiative; media access restrictions continue; Ukrainian strike on Moscow and Houthi attack are distant conflicts.",
+  "global_score": 2.9,
+  "rationale": "Trump announces creation of AI Force and AI tsar appointment, representing new domestic policy initiative with potential long-term implications for US technology and defense sectors.",
   "top_events": [
     {
       "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
-      "label": "Trump announces AI Force and AI tsar",
-      "summary": "President announces creation of AI Force and appointment of AI tsar. New domestic policy initiative with potential long-term impact on US tech sector.",
-      "score": 3.0,
+      "label": "Trump creates AI Force appoints AI tsar",
+      "summary": "President announces creation of AI Force and appointment of AI tsar. New policy initiative signals administration focus on artificial intelligence development.",
+      "score": 2.9,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "nauka",
       "sources": [
         "BBC"
@@ -22,10 +22,34 @@
       "detected_at": "2026-09-20T06:14:22.952105Z"
     },
     {
-      "title": "Journalists denied White House access after Trump banned some media outlets",
-      "label": "CNN Politico reporters lose White House access",
-      "summary": "CNN, MS NOW, and Politico reporters' White House press badges confiscated. Continuation of media restrictions with limited impact on daily life.",
+      "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
+      "label": "Ukraine drones strike Moscow oil refinery",
+      "summary": "Ukrainian drones hit Moscow region oil refinery. Distant foreign conflict escalation with no direct impact on US daily life or markets.",
       "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-20T06:14:22.952105Z"
+    },
+    {
+      "title": "Journalists denied White House access after Trump banned some media outlets",
+      "label": "Trump bans outlets White House access denied",
+      "summary": "CNN, MS NOW and Politico reporters' White House press badges confiscated. Rhetoric-only move affecting press access without policy change.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,33 +68,14 @@
         }
       ],
       "detected_at": "2026-09-18T21:40:45.514193Z"
-    },
-    {
-      "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia",
-      "label": "Ukraine drones strike Moscow oil refinery",
-      "summary": "Ukrainian drones hit Moscow region oil refinery. Foreign conflict escalation with minimal direct impact on US daily life.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T06:14:22.952105Z"
     }
   ],
   "short_summary": "US Denmark Greenland security deal signed",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-20T06:14:22.952105Z",
+  "updated_at": "2026-09-20T11:24:25.741162Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-09-19T00:19:52.814793Z",
   "score_history": [
-    {
-      "t": "2026-09-18T09:44:45.774792Z",
-      "s": 4.4
-    },
     {
       "t": "2026-09-18T14:31:15.540945Z",
       "s": 3.6
@@ -145,6 +146,10 @@
     {
       "t": "2026-09-20T06:14:22.952105Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-20T11:24:25.741162Z",
+      "s": 2.9
     }
   ]
 }
