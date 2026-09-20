@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-20T16:04:23.648608Z",
+  "updated_at": "2026-09-20T18:46:50.467905Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Houthis strike Saudi Arabia Riyadh airport",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Ballistic missiles hit Riyadh; distant Middle East event."
-    },
-    {
       "temat": "Ukrainian drones strike Moscow region oil refinery",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 1,
       "opis": "Major Ukrainian drone attack on Moscow region; deep-strike."
     },
     {
       "temat": "German state elections Merz political pressure",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "German elections may affect EU leadership and Ukraine."
     },
     {
+      "temat": "US Canada trade war 50% dairy tariff",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Trump tariffs disrupt trade; protectionism signal."
+    },
+    {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 14,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 10,
       "opis": "First Ukraine-support legislation in two years; critical."
     },
     {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 14,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Russia strikes Ukraine border crossings Poland Moldova",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 14,
       "opis": "Russian drones target border crossings; threatens aid."
     },
     {
       "temat": "Zelenskyy-Trump UN meeting planned",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 23,
       "opis": "Diplomatic push for presidential meeting; critical for aid."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-18T18:27:35.990456Z",
-      "s": 5.4
-    },
     {
       "t": "2026-09-18T21:40:45.512531Z",
       "s": 3.0
@@ -104,6 +100,10 @@
     {
       "t": "2026-09-20T16:04:23.642743Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-20T18:46:50.462793Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-20T06:14:22.950002Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-09-20T06:14:22.950002Z",
       "peak_at": "2026-09-20T11:24:25.739775Z",
       "peak_score_at": "2026-09-20T11:24:25.739775Z",
-      "peak_score": 6.2,
+      "peak_score": 6.1,
       "peak_sentiment": "positive",
       "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
       "peak_label": "Ukrainian drones hit Moscow oil refinery",
@@ -125,6 +125,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
+        }
+      ]
+    },
+    "german chancellor merz calls state election a 'disaster' for his party but vows to stay on": {
+      "detected_at": "2026-09-20T11:24:25.739775Z",
+      "peak_at": "2026-09-20T18:46:50.462793Z",
+      "peak_score_at": "2026-09-20T18:46:50.462793Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+      "peak_label": "German CDU loses badly in state elections",
+      "peak_summary": "Centre-right party suffers major losses in two German states. Could affect Germany's Ukraine support and EU leadership stability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump tariffs hit canada's dairy farmers as us sales stall": {
+      "detected_at": "2026-09-20T18:46:50.462793Z",
+      "peak_at": "2026-09-20T18:46:50.462793Z",
+      "peak_score_at": "2026-09-20T18:46:50.462793Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Trump tariffs hit Canada's dairy farmers as US sales stall",
+      "peak_label": "US imposes 50% tariff on Canadian dairy",
+      "peak_summary": "Major US-Canada trade disruption. Signals broader protectionist trend that could affect Western support and aid flows.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/9/20/trump-tariffs-hit-canadas-dairy-farmers-as-us-sales-stall?traffic_source=rss"
         }
       ]
     },
@@ -161,22 +193,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
-        }
-      ]
-    },
-    "german elections under way which could decide fate of chancellor merz": {
-      "detected_at": "2026-09-20T11:24:25.739775Z",
-      "peak_at": "2026-09-20T11:24:25.739775Z",
-      "peak_score_at": "2026-09-20T11:24:25.739775Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "German elections under way which could decide fate of Chancellor Merz",
-      "peak_label": "German state elections test Chancellor Merz",
-      "peak_summary": "German state elections could affect Chancellor Merz's position. Outcome may influence EU support for Ukraine, critical for continued aid.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cme8xj6g2ny7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -235,7 +251,7 @@
   },
   "prev_top_event_titles": [
     "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-    "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-    "Houthis say they targeted Saudi capital with ballistic missiles"
+    "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+    "Trump tariffs hit Canada's dairy farmers as US sales stall"
   ]
 }

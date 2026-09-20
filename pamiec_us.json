@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-20T16:04:23.649579Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-20T18:46:50.468671Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Trump bans major outlets from White House",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "President restricts media access; affects press but not."
-    },
-    {
       "temat": "Ukraine drones strike Moscow region oil refinery",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 1,
       "opis": "Ukrainian drones hit Moscow region; distant foreign event."
     },
     {
       "temat": "Trump arch to include military ammunition storage",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Triumphal arch updated to store ammunition; DC policy."
     },
     {
+      "temat": "US Canada trade war 50% dairy tariff",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Trump tariffs disrupt Canadian dairy exports; trade action."
+    },
+    {
       "temat": "US Denmark Greenland security deal signed",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 11,
       "opis": "Trump claims permanent US security control over Greenland."
     },
     {
       "temat": "Trump announces AI Force and AI tsar appointment",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "President creates AI Force and appoints AI tsar; new policy."
     },
     {
       "temat": "Trump approves F-35 sale to Saudi Arabia",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 17,
       "opis": "Major arms deal approved as Riyadh seeks US help in Yemen."
     },
     {
       "temat": "Warren Buffett retires Berkshire Hathaway",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 13,
       "opis": "Legendary investor steps down after 60 years; market shift."
     },
     {
       "temat": "Iranian strikes damage US bases photos",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 23,
       "opis": "Images show wrecked aircraft, buildings from Iran attacks."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-18T18:27:35.992367Z",
-      "s": 3.8
-    },
     {
       "t": "2026-09-18T21:40:45.514193Z",
       "s": 3.6
@@ -104,11 +100,15 @@
     {
       "t": "2026-09-20T16:04:23.644825Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-20T18:46:50.464724Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-09-19T00:19:52.814793Z",
   "event_detected_at": {
-    "trump says his planned triumphal arch will double as a military complex to store ammunition": {
+    "trump says triumphal arch will be military complex with drones and snipers": {
       "detected_at": "2026-09-20T16:04:23.644825Z",
       "peak_at": "2026-09-20T16:04:23.644825Z",
       "peak_score_at": "2026-09-20T16:04:23.644825Z",
@@ -128,11 +128,27 @@
         }
       ]
     },
+    "trump tariffs hit canada's dairy farmers as us sales stall": {
+      "detected_at": "2026-09-20T18:46:50.464724Z",
+      "peak_at": "2026-09-20T18:46:50.464724Z",
+      "peak_score_at": "2026-09-20T18:46:50.464724Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Trump tariffs hit Canada's dairy farmers as US sales stall",
+      "peak_label": "US 50% tariff disrupts Canadian dairy exports",
+      "peak_summary": "Major trade disruption with Canada as 50% tariff stalls dairy exports. Confirmed policy action affecting US-Canada trade relations.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/9/20/trump-tariffs-hit-canadas-dairy-farmers-as-us-sales-stall?traffic_source=rss"
+        }
+      ]
+    },
     "largest attack on moscow sees ukraine fire hundreds of drones, mayor says": {
       "detected_at": "2026-09-20T06:14:22.952105Z",
       "peak_at": "2026-09-20T06:14:22.952105Z",
       "peak_score_at": "2026-09-20T06:14:22.952105Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "neutral",
       "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia",
       "peak_label": "Ukraine drones strike Moscow oil refinery",
@@ -222,8 +238,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump says his planned triumphal arch will double as a military complex to store ammunition",
-    "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-    "Journalists denied White House access after Trump banned some media outlets"
+    "Trump says triumphal arch will be military complex with drones and snipers",
+    "Trump tariffs hit Canada's dairy farmers as US sales stall",
+    "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says"
   ]
 }

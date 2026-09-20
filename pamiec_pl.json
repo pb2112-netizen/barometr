@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-20T16:04:23.645738Z",
+  "updated_at": "2026-09-20T18:46:50.465572Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-09-15T07:43:10.397585Z",
   "stan_swiata": [
     {
-      "temat": "US Denmark Greenland security deal signed",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 10,
-      "opis": "Trump claims permanent US security control over Greenland."
-    },
-    {
-      "temat": "Houthis strike Saudi Arabia Riyadh airport",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Ballistic missiles hit Riyadh fuel depot; Middle East."
-    },
-    {
       "temat": "Ukraine drones strike Moscow region oil refinery",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
       "opis": "Ukrainian drones hit Moscow region, killing two; escalation."
     },
     {
+      "temat": "German CDU state election losses Merz weakened",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "CDU disaster in Berlin/Mecklenburg; EU leadership impact."
+    },
+    {
+      "temat": "US Canada trade war 50% dairy tariff",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Trump tariffs disrupt Canadian exports; protectionism."
+    },
+    {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 14,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 9,
       "opis": "First Ukraine-support legislation in two years; strengthens."
     },
     {
+      "temat": "US Denmark Greenland security deal signed",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 11,
+      "opis": "Trump claims permanent US security control over Greenland."
+    },
+    {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Russia strikes Ukraine-Poland border crossings",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 14,
       "opis": "Russian drones target border crossings with Poland/Moldova."
-    },
-    {
-      "temat": "US Fed rate hike Trump opposition",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 23,
-      "opis": "Fed raised rates despite Trump; tightens EU borrowing costs."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-18T18:27:35.985142Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-18T21:40:45.507081Z",
       "s": 3.0
@@ -104,6 +100,10 @@
     {
       "t": "2026-09-20T16:04:23.638254Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-20T18:46:50.457973Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-20T06:14:22.944369Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-09-20T06:14:22.944369Z",
       "peak_at": "2026-09-20T11:24:25.735497Z",
       "peak_score_at": "2026-09-20T11:24:25.735497Z",
-      "peak_score": 4.0,
+      "peak_score": 3.9,
       "peak_sentiment": "neutral",
       "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
       "peak_label": "Ukraine drones strike Moscow oil refinery",
@@ -125,6 +125,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
+        }
+      ]
+    },
+    "german chancellor merz calls state election a 'disaster' for his party but vows to stay on": {
+      "detected_at": "2026-09-20T11:24:25.735497Z",
+      "peak_at": "2026-09-20T18:46:50.457973Z",
+      "peak_score_at": "2026-09-20T18:46:50.457973Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+      "peak_label": "German CDU suffers heavy losses in state elections",
+      "peak_summary": "Merz's centre-right party lost badly in Berlin and Mecklenburg-Vorpommern. Weakens Germany's political stability, affecting EU leadership and Poland's key ally.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump tariffs hit canada's dairy farmers as us sales stall": {
+      "detected_at": "2026-09-20T18:46:50.457973Z",
+      "peak_at": "2026-09-20T18:46:50.457973Z",
+      "peak_score_at": "2026-09-20T18:46:50.457973Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Trump tariffs hit Canada's dairy farmers as US sales stall",
+      "peak_label": "US 50% tariff disrupts Canadian dairy exports",
+      "peak_summary": "Major trade disruption between US and Canada. Signals broader protectionist trend that could affect EU-US trade and Polish agricultural exports.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/9/20/trump-tariffs-hit-canadas-dairy-farmers-as-us-sales-stall?traffic_source=rss"
         }
       ]
     },
@@ -163,27 +195,11 @@
           "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
         }
       ]
-    },
-    "german elections under way which could decide fate of chancellor merz": {
-      "detected_at": "2026-09-20T11:24:25.735497Z",
-      "peak_at": "2026-09-20T11:24:25.735497Z",
-      "peak_score_at": "2026-09-20T11:24:25.735497Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "German elections under way which could decide fate of Chancellor Merz",
-      "peak_label": "German state elections test Chancellor Merz",
-      "peak_summary": "German state elections underway with Chancellor Merz facing intense political pressure. Outcome affects EU's largest economy and Poland's key western partner.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cme8xj6g2ny7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-    "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-    "Houthis say they targeted Saudi capital with ballistic missiles"
+    "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+    "Trump tariffs hit Canada's dairy farmers as US sales stall"
   ]
 }

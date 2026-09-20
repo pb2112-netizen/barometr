@@ -1,14 +1,33 @@
 {
-  "global_score": 2.2,
-  "rationale": "Distant eastern European escalation and Middle East strikes have minimal direct impact on Portuguese daily life; no significant changes to EU economy or energy.",
+  "global_score": 2.5,
+  "rationale": "Distant eastern European military escalation and German political losses have minimal direct impact on Portuguese daily life; no major changes to Iberian economy or energy.",
   "top_events": [
     {
-      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "label": "Ukraine fires 450 drones at Moscow",
-      "summary": "Ukraine launched its largest drone attack on Moscow with 450 drones downed and two deaths. The distant eastern European escalation has minimal direct impact on Portuguese life.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "title": "Trump tariffs hit Canada's dairy farmers as US sales stall",
+      "label": "US imposes 50% tariff on Canadian dairy",
+      "summary": "Major trade disruption between US and Canada. Signals protectionist trend that could eventually affect EU-US trade relations.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/9/20/trump-tariffs-hit-canadas-dairy-farmers-as-us-sales-stall?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-20T18:46:50.461004Z"
+    },
+    {
+      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
+      "label": "Ukraine launches 450 drones at Moscow",
+      "summary": "Major Ukrainian drone strike on Moscow kills two. Distant eastern European escalation with no direct link to Portuguese life.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,12 +41,12 @@
       "detected_at": "2026-09-20T06:14:22.948088Z"
     },
     {
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "label": "Houthis strike Riyadh airport fuel depot",
-      "summary": "Houthi missiles hit a fuel depot at Riyadh airport, causing delays. The distant Middle East event has no direct impact on Portugal.",
-      "score": 2.0,
+      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+      "label": "German CDU suffers state election losses",
+      "summary": "Centre-right party loses in two German states. Distant EU political shift with minimal immediate impact on Portugal.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-19T23:02:40.159860Z"
-    },
-    {
-      "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "label": "US Denmark sign Greenland security pact",
-      "summary": "Denmark and the US reached a Greenland security agreement after Trump's annexation threats. The distant Atlantic deal has minimal impact on Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T16:04:23.641276Z"
+      "detected_at": "2026-09-20T11:24:25.738131Z"
     }
   ],
   "short_summary": "US Fed raises rates against Trump wishes",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-20T16:04:23.641276Z",
+  "updated_at": "2026-09-20T18:46:50.461004Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US Fed raises rates against Trump wishes",
     "summary": "Federal Reserve hiked rates unanimously despite Trump opposition. This tightens global financial conditions, raising borrowing costs for Portugal and pressuring EU peripheral economies.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-16T22:55:42.678656Z",
   "score_history": [
-    {
-      "t": "2026-09-18T18:27:35.988782Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-18T21:40:45.510732Z",
       "s": 2.8
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-20T16:04:23.641276Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-20T18:46:50.461004Z",
+      "s": 2.5
     }
   ]
 }
