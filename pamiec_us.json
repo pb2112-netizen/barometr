@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-20T01:07:13.544531Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-20T06:14:22.956364Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump bans major outlets from White House",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "President restricts media access; affects press but not."
     },
     {
+      "temat": "Trump announces AI Force and AI tsar appointment",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "President creates AI Force and appoints AI tsar; new policy."
+    },
+    {
+      "temat": "Ukraine drones strike Moscow region oil refinery",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Ukrainian drones hit Moscow region; distant foreign event."
+    },
+    {
       "temat": "US Denmark Greenland security deal signed",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "Trump claims permanent US security control over Greenland."
     },
     {
-      "temat": "Trump signs Russia sanctions bill",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
-      "opis": "First Ukraine-support legislation in two years; foreign."
-    },
-    {
       "temat": "Trump approves F-35 sale to Saudi Arabia",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Major arms deal approved as Riyadh seeks US help in Yemen."
     },
     {
       "temat": "Warren Buffett retires Berkshire Hathaway",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 10,
       "opis": "Legendary investor steps down after 60 years; market shift."
     },
     {
       "temat": "Iranian strikes damage US bases photos",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 20,
       "opis": "Images show wrecked aircraft, buildings from Iran attacks."
     },
     {
       "temat": "Fed rate hike Trump opposition",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 20,
-      "opis": "Fed raised rates despite Trump; tightens US credit markets."
-    },
-    {
-      "temat": "UN finds possible US war crimes Iran strikes",
       "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 15,
-      "opis": "UN mission cites February strikes on Iranian civilians."
+      "cykle_bez_zmian": 21,
+      "opis": "Fed raised rates despite Trump; tightens US credit markets."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-18T04:48:11.153018Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-18T09:44:45.774792Z",
       "s": 4.4
@@ -104,10 +100,66 @@
     {
       "t": "2026-09-20T01:07:13.540103Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-20T06:14:22.952105Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-19T00:19:52.814793Z",
   "event_detected_at": {
+    "trump says us will form 'ai force' and appoint an artificial intelligence tsar": {
+      "detected_at": "2026-09-20T06:14:22.952105Z",
+      "peak_at": "2026-09-20T06:14:22.952105Z",
+      "peak_score_at": "2026-09-20T06:14:22.952105Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
+      "peak_label": "Trump announces AI Force and AI tsar",
+      "peak_summary": "President announces creation of AI Force and appointment of AI tsar. New domestic policy initiative with potential long-term impact on US tech sector.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqlykr2vrv04o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "journalists denied white house access after trump banned some media outlets": {
+      "detected_at": "2026-09-18T21:40:45.514193Z",
+      "peak_at": "2026-09-19T23:02:40.162663Z",
+      "peak_score_at": "2026-09-18T21:40:45.514193Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
+      "peak_label": "Trump bans major outlets from White House",
+      "peak_summary": "President restricts media access to White House; rhetoric-only move affecting press access but not policy or daily life for most Americans.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "two killed in 'massive' ukrainian drone attack on moscow region, says russia": {
+      "detected_at": "2026-09-20T06:14:22.952105Z",
+      "peak_at": "2026-09-20T06:14:22.952105Z",
+      "peak_score_at": "2026-09-20T06:14:22.952105Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia",
+      "peak_label": "Ukraine drones strike Moscow oil refinery",
+      "peak_summary": "Ukrainian drones hit Moscow region oil refinery. Foreign conflict escalation with minimal direct impact on US daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "nato welcomes greenland deal as trump says it will give us 'permanent security control'": {
       "detected_at": "2026-09-19T00:19:52.814793Z",
       "peak_at": "2026-09-20T01:07:13.540103Z",
@@ -147,47 +199,11 @@
           "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
         }
       ]
-    },
-    "trump signs sweeping russia sanctions bill": {
-      "detected_at": "2026-09-19T05:52:17.959770Z",
-      "peak_at": "2026-09-19T05:52:17.959770Z",
-      "peak_score_at": "2026-09-19T05:52:17.959770Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump signs sweeping Russia sanctions bill",
-      "peak_label": "Trump signs Russia sanctions bill",
-      "peak_summary": "First Ukraine-support legislation in two years; indirect impact on US foreign policy but no immediate domestic change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "journalists denied white house access after trump banned some media outlets": {
-      "detected_at": "2026-09-18T21:40:45.514193Z",
-      "peak_at": "2026-09-19T23:02:40.162663Z",
-      "peak_score_at": "2026-09-18T21:40:45.514193Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Trump bans CNN, MS NOW, Politico from the White House for 'fake news'",
-      "peak_label": "Trump bans major outlets from White House",
-      "peak_summary": "President restricts media access to White House; rhetoric-only move affecting press access but not policy or daily life for most Americans.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/18/trump-bans-news-outlets-cnn-ms-now-and-politico-from-white-house?traffic_source=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-    "Houthis say they targeted Saudi capital with ballistic missiles",
-    "Trump signs sweeping Russia sanctions bill"
+    "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
+    "Journalists denied White House access after Trump banned some media outlets",
+    "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia"
   ]
 }

@@ -1,13 +1,32 @@
 {
-  "global_score": 3.4,
-  "rationale": "Greenland deal continues with NATO welcome; Russia sanctions bill signed (continuation); Houthi strikes on Saudi Arabia distant; no new direct impact on Poland.",
+  "global_score": 3.0,
+  "rationale": "Ukrainian drone attack on Moscow region marks escalation near Poland's eastern security zone; Houthi strike on Riyadh continues Middle East instability affecting energy markets. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump signs sweeping Russia sanctions bill",
-      "label": "Trump signs Russia sanctions bill named for Graham",
-      "summary": "US president signs Russia sanctions legislation named after late Senator Graham, first Ukraine-support bill in two years. Continues existing policy direction without new qualitative change.",
-      "score": 3.4,
-      "sentiment": "neutral",
+      "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia",
+      "label": "Ukraine drones strike Moscow oil refinery",
+      "summary": "Ukrainian drones hit Moscow region oil refinery, killing two and suspending flights. Escalation near Poland's eastern border raises regional security concerns.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-20T06:14:22.944369Z"
+    },
+    {
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "label": "Houthis strike Riyadh airport fuel depot",
+      "summary": "Ballistic missiles hit fuel depot at Riyadh airport, causing flight delays. Continued Middle East instability indirectly affects EU energy security.",
+      "score": 2.1,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,16 +35,16 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-19T10:56:33.928257Z"
+      "detected_at": "2026-09-19T23:02:40.157088Z"
     },
     {
       "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "label": "NATO welcomes US-Denmark Greenland security deal",
-      "summary": "NATO endorses US-Denmark agreement on Greenland security. Continues existing situation with diplomatic validation but no new facts on ground for Poland.",
-      "score": 3.0,
+      "label": "NATO welcomes US Greenland security deal",
+      "summary": "NATO endorses US-Denmark Greenland agreement. Continuation of known arrangement with no new impact on Poland's security or economy.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,30 +58,6 @@
         }
       ],
       "detected_at": "2026-09-19T00:19:52.808452Z"
-    },
-    {
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "label": "Houthis strike Riyadh airport fuel depot",
-      "summary": "Houthi ballistic missiles target Saudi capital, hitting Riyadh airport fuel depot. Distant Middle East escalation with no direct link to Polish security or energy.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-19T23:02:40.157088Z"
     }
   ],
   "short_summary": "Trump signs Russia sanctions bill for Ukraine",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-20T01:07:13.533287Z",
+  "updated_at": "2026-09-20T06:14:22.944369Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump signs Russia sanctions bill for Ukraine",
     "summary": "First Ukraine-support legislation in two years enacted, strengthening sanctions on Russia. Confirmed action may indirectly bolster Poland's eastern security environment.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-19T10:56:33.928257Z",
   "score_history": [
-    {
-      "t": "2026-09-18T04:48:11.148089Z",
-      "s": 3.1
-    },
     {
       "t": "2026-09-18T09:44:45.768894Z",
       "s": 2.6
@@ -141,6 +132,10 @@
     {
       "t": "2026-09-20T01:07:13.533287Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-09-20T06:14:22.944369Z",
+      "s": 3.0
     }
   ]
 }
