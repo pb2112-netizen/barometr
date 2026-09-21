@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-21T10:42:12.334519Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-09-21T17:02:30.576820Z",
+  "ostatnia_ocena": 2.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Ukraine Pelican weapon military analysis",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 0,
+      "opis": "Analysts examine whether Pelican is missile or drone."
+    },
+    {
       "temat": "Ukrainian drones strike Moscow region oil refinery",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 6,
       "opis": "Major Ukrainian drone attack on Moscow region; deep-strike."
     },
     {
-      "temat": "German state elections Merz political pressure",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
-      "opis": "German elections may affect EU leadership and Ukraine."
-    },
-    {
-      "temat": "US Canada trade war 50% dairy tariff",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
-      "opis": "Trump tariffs disrupt trade; protectionism signal."
-    },
-    {
       "temat": "Russia seizes French assets UK envoy summoned",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 19,
       "opis": "Kremlin seizes French firms' assets, calls UK support."
     },
     {
+      "temat": "Russia election results Putin landslide",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 2,
+      "opis": "United Russia wins; Putin claims mandate for Ukraine war."
+    },
+    {
+      "temat": "German state elections Merz political pressure",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
+      "opis": "German elections may affect EU leadership and Ukraine."
+    },
+    {
       "temat": "US Congress passes Russia sanctions bill",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 15,
       "opis": "First Ukraine-support legislation in two years; critical."
     },
     {
       "temat": "Macron warns Russian hybrid attacks intensifying",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 19,
       "opis": "French president orders protection of critical."
     },
     {
       "temat": "Russia strikes Ukraine border crossings Poland Moldova",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 18,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 19,
       "opis": "Russian drones target border crossings; threatens aid."
-    },
-    {
-      "temat": "Russia election results Putin landslide",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 1,
-      "opis": "United Russia wins; Putin claims mandate for Ukraine war."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-19T10:56:33.933879Z",
-      "s": 4.7
-    },
-    {
-      "t": "2026-09-19T14:24:31.431211Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-19T18:00:24.347978Z",
       "s": 4.3
@@ -108,11 +100,15 @@
     {
       "t": "2026-09-21T10:42:12.328839Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-09-21T17:02:30.570966Z",
+      "s": 2.8
     }
   ],
   "events_anchor_at": "2026-09-20T06:14:22.950002Z",
   "event_detected_at": {
-    "german chancellor merz calls state election a 'disaster' for his party but vows to stay on": {
+    "merz vows to keep coalition together for germany's 'democratic future'": {
       "detected_at": "2026-09-20T11:24:25.739775Z",
       "peak_at": "2026-09-20T18:46:50.462793Z",
       "peak_score_at": "2026-09-20T18:46:50.462793Z",
@@ -125,6 +121,42 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "is it a missile? is it a drone? what's the pelican used by ukraine?": {
+      "detected_at": "2026-09-20T06:14:22.950002Z",
+      "peak_at": "2026-09-21T17:02:30.570966Z",
+      "peak_score_at": "2026-09-20T11:24:25.739775Z",
+      "peak_score": 5.7,
+      "peak_sentiment": "positive",
+      "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
+      "peak_label": "Ukrainian drones hit Moscow oil refinery",
+      "peak_summary": "Major Ukrainian drone attack on Moscow region oil refinery kills two. Moscow claims 450 drones intercepted in unprecedented strike, demonstrating Ukraine's deep-strike capability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
+        }
+      ]
+    },
+    "us threatens to ground iranian airlines worldwide from wednesday": {
+      "detected_at": "2026-09-21T17:02:30.570966Z",
+      "peak_at": "2026-09-21T17:02:30.570966Z",
+      "peak_score_at": "2026-09-21T17:02:30.570966Z",
+      "peak_score": 1.9,
+      "peak_sentiment": "neutral",
+      "title": "US threatens to ground Iranian airlines worldwide from Wednesday",
+      "peak_label": "US threatens Iranian airline global grounding",
+      "peak_summary": "Treasury Secretary warns airports servicing Iranian carriers risk dollar system cutoff. Distant rhetoric with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/21/us-threatens-to-ground-iranian-airlines-worldwide-from-wednesday?traffic_source=rss"
         }
       ]
     },
@@ -161,26 +193,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/features/2026/9/20/trump-tariffs-hit-canadas-dairy-farmers-as-us-sales-stall?traffic_source=rss"
-        }
-      ]
-    },
-    "largest attack on moscow sees ukraine fire hundreds of drones, mayor says": {
-      "detected_at": "2026-09-20T06:14:22.950002Z",
-      "peak_at": "2026-09-20T11:24:25.739775Z",
-      "peak_score_at": "2026-09-20T11:24:25.739775Z",
-      "peak_score": 5.8,
-      "peak_sentiment": "positive",
-      "title": "'Massive' drone attack on Moscow region sees Ukraine hit oil refinery",
-      "peak_label": "Ukrainian drones hit Moscow oil refinery",
-      "peak_summary": "Major Ukrainian drone attack on Moscow region oil refinery kills two. Moscow claims 450 drones intercepted in unprecedented strike, demonstrating Ukraine's deep-strike capability.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
         }
       ]
     },
@@ -235,27 +247,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "nato welcomes greenland deal as trump says it will give us 'permanent security control'": {
-      "detected_at": "2026-09-20T06:14:22.950002Z",
-      "peak_at": "2026-09-20T16:04:23.642743Z",
-      "peak_score_at": "2026-09-20T16:04:23.642743Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
-      "peak_label": "US Denmark finalize Greenland security deal",
-      "peak_summary": "Denmark and the US signed a Greenland security agreement after Trump's annexation threats. NATO welcomed the deal, which may affect broader Western alliance dynamics.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-    "Russia's elections had few surprises - but how the Kremlin uses the result will be crucial",
-    "Macron and Carney announce closer France-Canada ties amid Trump tensions"
+    "Merz vows to keep coalition together for Germany's 'democratic future'",
+    "Is it a missile? Is it a drone? What's the Pelican used by Ukraine?",
+    "US threatens to ground Iranian airlines worldwide from Wednesday"
   ]
 }
