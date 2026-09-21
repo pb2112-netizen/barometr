@@ -1,31 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Ukraine's own 450-drone strike on Moscow represents major offensive escalation; German political shifts may affect future EU support for Ukraine. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "German CDU losses may affect EU leadership and Ukraine support; Russian election results likely used to justify continued war effort.",
   "top_events": [
     {
-      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "label": "Ukraine launches 450 drones at Moscow",
-      "summary": "Ukraine conducted its largest drone attack on Moscow with 450 drones, killing two. Major offensive escalation demonstrating deep-strike capability.",
-      "score": 3.0,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T06:14:22.950002Z"
-    },
-    {
       "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "label": "German CDU suffers election disaster",
-      "summary": "CDU lost heavily in two German states. May affect future EU leadership and continued support for Ukraine's war effort.",
-      "score": 2.9,
+      "label": "Merz calls German state election disaster for CDU",
+      "summary": "Exit polls show damaging CDU losses in German states, weakening Merz's position and potentially affecting EU leadership and Ukraine support levels.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,31 +22,55 @@
       "detected_at": "2026-09-20T11:24:25.739775Z"
     },
     {
-      "title": "Massive explosions at Syrian army weapons depot near Aleppo",
-      "label": "Syrian army ammunition depot explodes near Aleppo",
-      "summary": "Explosions at Syrian ammunition depot injured four. Distant Middle East event with no direct impact on Ukraine's war situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "title": "Russia's elections had few surprises - but how the Kremlin uses the result will be crucial",
+      "label": "Putin's party wins Russian election landslide",
+      "summary": "United Russia appears poised for a landslide win, likely used by Putin to claim domestic backing for the Ukraine war and justify continued military operations.",
+      "score": 2.9,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/21/09-21-aleppo-depot-explosions-reported-mp4?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/9/21/russia-election-results-show-putins-party-winning-what-we-know?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-21T04:58:35.804433Z"
+      "detected_at": "2026-09-21T10:42:12.328839Z"
+    },
+    {
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "label": "France Canada strengthen ties amid Trump trade war",
+      "summary": "French and Canadian leaders pledge closer cooperation, indirectly supporting European unity and potentially Ukraine support during trade tensions.",
+      "score": 2.3,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney"
+        }
+      ],
+      "detected_at": "2026-09-20T18:46:50.462793Z"
     }
   ],
   "short_summary": "Ukrainian drones hit Moscow oil refinery",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-21T04:58:35.804433Z",
+  "updated_at": "2026-09-21T10:42:12.328839Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-20T06:14:22.950002Z",
   "score_history": [
-    {
-      "t": "2026-09-19T05:52:17.958358Z",
-      "s": 5.0
-    },
     {
       "t": "2026-09-19T10:56:33.933879Z",
       "s": 4.7
@@ -144,6 +145,10 @@
     {
       "t": "2026-09-21T04:58:35.804433Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-21T10:42:12.328839Z",
+      "s": 2.9
     }
   ]
 }

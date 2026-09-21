@@ -1,30 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Major Ukrainian drone escalation on Moscow (450 drones, 2 dead) signals intensified war in Black Sea region; German political instability affects EU cohesion. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "German CDU election losses continue to affect EU political stability; Russian election results may influence regional security posture.",
   "top_events": [
     {
-      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "label": "Ukraine launches 450 drones at Moscow region",
-      "summary": "Ukraine's largest drone attack hit Moscow with 450 drones, killing two. Escalation in the war affecting Romania's Black Sea security environment.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T06:14:22.946312Z"
-    },
-    {
       "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "label": "German CDU faces election disaster in states",
-      "summary": "CDU suffered major losses in Berlin and Mecklenburg-Vorpommern. Weakens EU leadership stability affecting Romania's regional security and economic ties.",
+      "label": "Merz calls German state election disaster for CDU",
+      "summary": "Exit polls show damaging CDU losses in Mecklenburg-Vorpommern and Berlin, weakening Merz's position and potentially affecting EU leadership and regional stability.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -41,23 +22,47 @@
       "detected_at": "2026-09-20T11:24:25.736857Z"
     },
     {
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "label": "Houthis strike Riyadh airport fuel depot",
-      "summary": "Ballistic missile hit fuel depot at Riyadh airport causing delays. Distant Middle East event with minimal direct impact on Romanian daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "Russia's elections had few surprises - but how the Kremlin uses the result will be crucial",
+      "label": "Putin's party wins Russian election landslide",
+      "summary": "United Russia appears poised for a landslide win, likely used by Putin to claim domestic backing for the Ukraine war, affecting regional security calculations.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/21/russia-election-results-show-putins-party-winning-what-we-know?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-19T23:02:40.158543Z"
+      "detected_at": "2026-09-21T10:42:12.326059Z"
+    },
+    {
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "label": "France Canada strengthen ties amid Trump trade war",
+      "summary": "French and Canadian leaders pledge closer cooperation as Ottawa seeks stronger EU relations, indirectly supporting European unity during trade tensions.",
+      "score": 2.2,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney"
+        }
+      ],
+      "detected_at": "2026-09-21T10:42:12.326059Z"
     }
   ],
   "short_summary": "Ukraine drones strike Moscow oil refinery",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-21T04:58:35.802930Z",
+  "updated_at": "2026-09-21T10:42:12.326059Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Ukraine drones strike Moscow oil refinery",
     "summary": "Ukrainian drones hit Moscow region oil refinery, killing two. Moscow claims 450 drones intercepted in unprecedented attack, escalating war near Romania's Black Sea region.",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-20T06:14:22.946312Z",
   "score_history": [
-    {
-      "t": "2026-09-19T05:52:17.955491Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-19T10:56:33.929998Z",
       "s": 3.9
@@ -143,6 +144,10 @@
     },
     {
       "t": "2026-09-21T04:58:35.802930Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-21T10:42:12.326059Z",
       "s": 3.0
     }
   ]
