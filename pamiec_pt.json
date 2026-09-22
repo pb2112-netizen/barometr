@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-22T04:53:16.086066Z",
+  "updated_at": "2026-09-22T09:56:41.553415Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK air traffic control glitch flight disruptions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Second system failure disrupts UK flights; EasyJet."
     },
     {
       "temat": "Colombia wildfire Villa de Leyva tourist area",
-      "poziom_bazowy": 1.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Wildfire threatens Colombian tourist region; distant event."
     },
     {
       "temat": "German state elections Berlin Mecklenburg far-right",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "3.8 million vote in two German states amid far-right gains."
     },
     {
       "temat": "Ukraine drones strike Moscow region oil refinery",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Ukrainian drones hit Moscow region; distant eastern event."
     },
     {
       "temat": "US Canada trade war 50% dairy tariff",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Trump tariffs disrupt Canadian exports; protectionism."
     },
     {
       "temat": "Houthis strike Saudi Arabia Riyadh airport",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Ballistic missiles hit Riyadh; distant Middle East event."
     },
     {
       "temat": "Trump signs Russia sanctions bill",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "First Ukraine-support legislation in two years; distant."
     },
     {
       "temat": "Cuba major blackout fuel shortages",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 17,
+      "cykle_bez_zmian": 18,
       "opis": "Millions without power due to fuel shortages and US."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-20T06:14:22.948088Z",
-      "s": 2.3
-    },
     {
       "t": "2026-09-20T11:24:25.738131Z",
       "s": 2.2
@@ -100,10 +96,62 @@
     {
       "t": "2026-09-22T04:53:16.079162Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-22T09:56:41.549435Z",
+      "s": 2.0
     }
   ],
   "events_anchor_at": "2026-09-21T10:42:12.327480Z",
   "event_detected_at": {
+    "colombia declares public calamity as wildfire threatens popular tourist area": {
+      "detected_at": "2026-09-22T04:53:16.079162Z",
+      "peak_at": "2026-09-22T09:56:41.549435Z",
+      "peak_score_at": "2026-09-22T09:56:41.549435Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
+      "peak_label": "Colombia wildfire threatens Villa de Leyva tourist area",
+      "peak_summary": "Wildfire forces evacuations in popular Colombian tourist region Villa de Leyva, indirectly relevant to Portugal's tourism economy and climate event awareness but geographically distant.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/colombia-wildfire-villa-de-leyva"
+        }
+      ]
+    },
+    "four dead after powerful typhoon dujuan lashes japan": {
+      "detected_at": "2026-09-21T17:02:30.569082Z",
+      "peak_at": "2026-09-21T21:03:36.467963Z",
+      "peak_score_at": "2026-09-21T21:03:36.467963Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan",
+      "peak_label": "Typhoon Dujuan strikes Japan millions evacuate",
+      "peak_summary": "Major typhoon hits Japan with threat downgraded; distant natural disaster with no connection to Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "macron and carney announce closer france-canada ties amid trump tensions": {
+      "detected_at": "2026-09-22T04:53:16.079162Z",
+      "peak_at": "2026-09-22T09:56:41.549435Z",
+      "peak_score_at": "2026-09-22T09:56:41.549435Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "peak_label": "France Canada strengthen ties amid Trump trade war",
+      "peak_summary": "France and Canada pledge closer cooperation as Ottawa fights trade war with US, indirectly affecting EU economic stability relevant to Portugal's western EU position.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney"
+        }
+      ]
+    },
     "airlines criticise air traffic control as second glitch causes more disruption in uk": {
       "detected_at": "2026-09-21T17:02:30.569082Z",
       "peak_at": "2026-09-21T17:02:30.569082Z",
@@ -117,54 +165,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "colombia declares public calamity as wildfire threatens popular tourist area": {
-      "detected_at": "2026-09-22T04:53:16.079162Z",
-      "peak_at": "2026-09-22T04:53:16.079162Z",
-      "peak_score_at": "2026-09-22T04:53:16.079162Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "neutral",
-      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
-      "peak_label": "Colombia wildfire forces evacuations near tourist area",
-      "peak_summary": "Wildfire threatens Villa de Leyva tourist region in Colombia, a distant event with no direct impact on Portuguese daily life or economy.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/21/colombia-wildfire-villa-de-leyva"
-        }
-      ]
-    },
-    "macron and carney announce closer france-canada ties amid trump tensions": {
-      "detected_at": "2026-09-22T04:53:16.079162Z",
-      "peak_at": "2026-09-22T04:53:16.079162Z",
-      "peak_score_at": "2026-09-22T04:53:16.079162Z",
-      "peak_score": 1.0,
-      "peak_sentiment": "neutral",
-      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
-      "peak_label": "France Canada strengthen ties amid trade tensions",
-      "peak_summary": "France and Canada pledge closer cooperation during US trade disputes, with minimal direct impact on Portugal's western EU periphery position.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney"
-        }
-      ]
-    },
-    "millions urged to evacuate as powerful typhoon dujuan hits japan": {
-      "detected_at": "2026-09-21T17:02:30.569082Z",
-      "peak_at": "2026-09-21T21:03:36.467963Z",
-      "peak_score_at": "2026-09-21T21:03:36.467963Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan",
-      "peak_label": "Typhoon Dujuan strikes Japan millions evacuate",
-      "peak_summary": "Major typhoon hits Japan with threat downgraded; distant natural disaster with no connection to Portugal.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -190,8 +190,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Airlines criticise air traffic control as second glitch causes more disruption in UK",
     "Colombia declares public calamity as wildfire threatens popular tourist area",
+    "Four dead after powerful Typhoon Dujuan lashes Japan",
     "Macron and Carney announce closer France-Canada ties amid Trump tensions"
   ]
 }

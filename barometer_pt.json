@@ -1,33 +1,14 @@
 {
   "global_score": 2.0,
-  "rationale": "UK air traffic control glitch causes flight disruptions; mild indirect impact on Portuguese tourism and travel. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Colombia wildfire threatens tourist area, indirectly relevant to Portugal's tourism-dependent economy and climate concerns, but geographically distant.",
   "top_events": [
     {
-      "title": "Airlines criticise air traffic control as second glitch causes more disruption in UK",
-      "label": "UK air traffic control glitch disrupts flights again",
-      "summary": "Second UK air traffic control failure causes flight disruptions, affecting travel connections to Portugal and raising concerns about European aviation infrastructure reliability.",
+      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
+      "label": "Colombia wildfire threatens Villa de Leyva tourist area",
+      "summary": "Wildfire forces evacuations in popular Colombian tourist region Villa de Leyva, indirectly relevant to Portugal's tourism economy and climate event awareness but geographically distant.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-21T17:02:30.569082Z"
-    },
-    {
-      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
-      "label": "Colombia wildfire forces evacuations near tourist area",
-      "summary": "Wildfire threatens Villa de Leyva tourist region in Colombia, a distant event with no direct impact on Portuguese daily life or economy.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -41,10 +22,29 @@
       "detected_at": "2026-09-22T04:53:16.079162Z"
     },
     {
+      "title": "Four dead after powerful Typhoon Dujuan lashes Japan",
+      "label": "Typhoon Dujuan kills four in Japan",
+      "summary": "Storm brought heavy rains and strong winds to Tokyo area, killing four people; distant natural disaster with no direct link to Portuguese daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-21T17:02:30.569082Z"
+    },
+    {
       "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
-      "label": "France Canada strengthen ties amid trade tensions",
-      "summary": "France and Canada pledge closer cooperation during US trade disputes, with minimal direct impact on Portugal's western EU periphery position.",
-      "score": 1.0,
+      "label": "France Canada strengthen ties amid Trump trade war",
+      "summary": "France and Canada pledge closer cooperation as Ottawa fights trade war with US, indirectly affecting EU economic stability relevant to Portugal's western EU position.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-22T04:53:16.079162Z",
+  "updated_at": "2026-09-22T09:56:41.549435Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-21T10:42:12.327480Z",
   "score_history": [
-    {
-      "t": "2026-09-20T06:14:22.948088Z",
-      "s": 2.3
-    },
     {
       "t": "2026-09-20T11:24:25.738131Z",
       "s": 2.2
@@ -135,6 +131,10 @@
     },
     {
       "t": "2026-09-22T04:53:16.079162Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-09-22T09:56:41.549435Z",
       "s": 2.0
     }
   ]

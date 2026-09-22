@@ -1,52 +1,33 @@
 {
-  "global_score": 2.5,
-  "rationale": "Putin uses election results to claim mandate for Ukraine war; continuation of existing threat.",
+  "global_score": 4.5,
+  "rationale": "Lithuania's evacuation planning and fight-back readiness signals escalating NATO-Russia tensions on Ukraine's western flank, affecting regional security calculations during ongoing war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
-      "label": "Putin claims election mandate for Ukraine war continuation",
-      "summary": "Kremlin uses election results to justify ongoing military operations in Ukraine, reinforcing existing war context without qualitative change to battlefield situation.",
-      "score": 2.4,
+      "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
+      "label": "Lithuania prepares evacuation plans amid Russia threats",
+      "summary": "Lithuania's PM says nation feels constantly threatened by Moscow but prepared to fight back, signaling escalating NATO-Russia tensions on Ukraine's western flank and affecting regional security calculations.",
+      "score": 4.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-22T09:56:41.550510Z"
+    },
+    {
+      "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+      "label": "Russian strikes kill three in Ukraine overnight",
+      "summary": "Overnight missile and drone attacks hit several Ukrainian regions, continuing the established pattern of strikes as president attends UN summit seeking international support.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-21T10:42:12.328839Z"
-    },
-    {
-      "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
-      "label": "German chancellor pledges coalition stability after defeats",
-      "summary": "German coalition stability commitment may affect EU support dynamics for Ukraine, though no immediate policy change announced.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T11:24:25.739775Z"
-    },
-    {
-      "title": "UK to refuel Saudi jets to help counter Houthi attacks",
-      "label": "UK agrees to refuel Saudi jets against Houthis",
-      "summary": "UK provides defensive air-to-air refueling for Saudi jets against Houthi attacks, a distant Middle East development with no direct impact on Ukraine.",
-      "score": 1.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -54,20 +35,39 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/22/uk-to-refuel-saudi-jets-to-help-counter-houthi-attacks?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-22T04:53:16.080980Z"
+      "detected_at": "2026-09-22T09:56:41.550510Z"
+    },
+    {
+      "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "label": "G7 condemns Iran arming Houthis in Yemen",
+      "summary": "G7 condemns Houthi attacks on Saudi Arabia and calls on Iran to stop arming them, indirectly relevant to Ukraine's efforts to secure international support at UN summit.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-22T09:56:41.550510Z"
     }
   ],
   "short_summary": "Ukrainian drones hit Moscow oil refinery",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-22T04:53:16.080980Z",
+  "updated_at": "2026-09-22T09:56:41.550510Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukrainian drones hit Moscow oil refinery",
     "summary": "Major Ukrainian drone attack on Moscow region oil refinery kills two. Moscow claims 450 drones intercepted in unprecedented strike, demonstrating Ukraine's deep-strike capability.",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-20T06:14:22.950002Z",
   "score_history": [
-    {
-      "t": "2026-09-20T06:14:22.950002Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-20T11:24:25.739775Z",
       "s": 6.2
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-22T04:53:16.080980Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-22T09:56:41.550510Z",
+      "s": 4.5
     }
   ]
 }
