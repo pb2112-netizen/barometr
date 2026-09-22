@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-22T00:06:01.778129Z",
+  "updated_at": "2026-09-22T04:53:16.086066Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "UK air traffic control glitch flight disruptions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Second system failure disrupts UK flights; EasyJet."
+    },
+    {
+      "temat": "Colombia wildfire Villa de Leyva tourist area",
+      "poziom_bazowy": 1.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Wildfire threatens Colombian tourist region; distant event."
     },
     {
       "temat": "German state elections Berlin Mecklenburg far-right",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "3.8 million vote in two German states amid far-right gains."
     },
     {
       "temat": "Ukraine drones strike Moscow region oil refinery",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Ukrainian drones hit Moscow region; distant eastern event."
     },
     {
       "temat": "US Canada trade war 50% dairy tariff",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Trump tariffs disrupt Canadian exports; protectionism."
     },
     {
       "temat": "Houthis strike Saudi Arabia Riyadh airport",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Ballistic missiles hit Riyadh; distant Middle East event."
     },
     {
       "temat": "Trump signs Russia sanctions bill",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "First Ukraine-support legislation in two years; distant."
     },
     {
       "temat": "Cuba major blackout fuel shortages",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "Millions without power due to fuel shortages and US."
-    },
-    {
-      "temat": "Bolivia IMF loan fuel subsidy cuts",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 17,
-      "opis": "Congress approves $1.9bn IMF loan; unions warn of protests."
+      "opis": "Millions without power due to fuel shortages and US."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-20T01:07:13.536780Z",
-      "s": 2.1
-    },
     {
       "t": "2026-09-20T06:14:22.948088Z",
       "s": 2.3
@@ -100,9 +96,13 @@
     {
       "t": "2026-09-22T00:06:01.771983Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-09-22T04:53:16.079162Z",
+      "s": 2.0
     }
   ],
-  "events_anchor_at": "2026-09-19T23:02:40.159860Z",
+  "events_anchor_at": "2026-09-21T10:42:12.327480Z",
   "event_detected_at": {
     "airlines criticise air traffic control as second glitch causes more disruption in uk": {
       "detected_at": "2026-09-21T17:02:30.569082Z",
@@ -120,19 +120,35 @@
         }
       ]
     },
-    "merz vows to keep coalition together for germany's 'democratic future'": {
-      "detected_at": "2026-09-20T11:24:25.738131Z",
-      "peak_at": "2026-09-21T00:15:33.453532Z",
-      "peak_score_at": "2026-09-21T00:15:33.453532Z",
-      "peak_score": 2.0,
+    "colombia declares public calamity as wildfire threatens popular tourist area": {
+      "detected_at": "2026-09-22T04:53:16.079162Z",
+      "peak_at": "2026-09-22T04:53:16.079162Z",
+      "peak_score_at": "2026-09-22T04:53:16.079162Z",
+      "peak_score": 1.0,
       "peak_sentiment": "neutral",
-      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "peak_label": "German CDU faces election disaster in two states",
-      "peak_summary": "CDU suffers losses in Berlin and Mecklenburg-Vorpommern; distant German political instability with minimal immediate impact on Portugal.",
+      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
+      "peak_label": "Colombia wildfire forces evacuations near tourist area",
+      "peak_summary": "Wildfire threatens Villa de Leyva tourist region in Colombia, a distant event with no direct impact on Portuguese daily life or economy.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/colombia-wildfire-villa-de-leyva"
+        }
+      ]
+    },
+    "macron and carney announce closer france-canada ties amid trump tensions": {
+      "detected_at": "2026-09-22T04:53:16.079162Z",
+      "peak_at": "2026-09-22T04:53:16.079162Z",
+      "peak_score_at": "2026-09-22T04:53:16.079162Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "neutral",
+      "title": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
+      "peak_label": "France Canada strengthen ties amid trade tensions",
+      "peak_summary": "France and Canada pledge closer cooperation during US trade disputes, with minimal direct impact on Portugal's western EU periphery position.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney"
         }
       ]
     },
@@ -171,31 +187,11 @@
           "url": "https://www.aljazeera.com/news/2026/9/21/russia-election-results-show-putins-party-winning-what-we-know?traffic_source=rss"
         }
       ]
-    },
-    "houthis say they targeted saudi capital with ballistic missiles": {
-      "detected_at": "2026-09-19T23:02:40.159860Z",
-      "peak_at": "2026-09-21T00:15:33.453532Z",
-      "peak_score_at": "2026-09-19T23:02:40.159860Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "peak_label": "Houthis fire ballistic missiles at Riyadh airport",
-      "peak_summary": "Yemen-based Houthis strike Saudi capital. Distant Middle East escalation with no link to Portugal's Atlantic economy or energy prices.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Airlines criticise air traffic control as second glitch causes more disruption in UK",
-    "Merz vows to keep coalition together for Germany's 'democratic future'",
-    "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan"
+    "Colombia declares public calamity as wildfire threatens popular tourist area",
+    "Macron and Carney announce closer France-Canada ties amid Trump tensions"
   ]
 }
