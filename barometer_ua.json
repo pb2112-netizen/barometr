@@ -1,12 +1,12 @@
 {
-  "global_score": 5.1,
-  "rationale": "Russian helicopter airspace violation in Poland signals continued regional aggression; Zelenskyy's UN call for pressure is rhetoric without new action; other events remain distant.",
+  "global_score": 4.8,
+  "rationale": "Russian airspace violation in Poland signals continued aggressive posture near NATO's eastern flank, directly relevant to Ukraine's security environment.",
   "top_events": [
     {
       "title": "Poland accuses Russian military helicopter of violating its airspace",
       "label": "Russian helicopter violates Polish airspace",
-      "summary": "Russian military aircraft entered Polish airspace, forcing NATO scramble—a direct signal of continued Russian aggression in the region affecting Ukraine's security environment.",
-      "score": 5.1,
+      "summary": "Russian military aircraft entered Polish airspace for 42 seconds, forcing NATO scramble. Signals continued Russian aggression near Ukraine's western allies.",
+      "score": 4.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,57 +22,62 @@
       "detected_at": "2026-09-23T16:56:21.641877Z"
     },
     {
-      "title": "Ukraine's Zelenskyy calls for sustained pressure to end 'Putin's crazy war'",
-      "label": "Zelenskyy urges sustained pressure on Russia",
-      "summary": "Zelenskyy urges world leaders to maintain pressure on Russia—rhetoric without new policy action or aid commitments.",
-      "score": 3.0,
-      "sentiment": "neutral",
+      "title": "Trump's threat to annihilate Iran to UN general assembly is stunning, even for him",
+      "label": "Trump threatens Iran annihilation at UN",
+      "summary": "US president threatens Iran at UN. Unpredictable US foreign policy rhetoric raises concerns about reliability of Western support for Ukraine.",
+      "score": 4.4,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+        }
+      ],
+      "detected_at": "2026-09-22T18:53:46.694188Z"
+    },
+    {
+      "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+      "label": "Ethiopia and Tigray trade offensive accusations",
+      "summary": "Local authorities seize Tigray airports after drone strikes. Distant conflict but signals global instability pattern.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-calls-for-sustained-pressure-on-patient-zero-putin-in-un-speech?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-23T20:20:59.250342Z"
-    },
-    {
-      "title": "Iran's president tells Trump it will never 'bend the knee'",
-      "label": "Iran president defies Trump annihilation threat",
-      "summary": "Iran's president responds to Trump's UN threat, continuing volatile US foreign policy rhetoric with uncertain implications for Ukraine.",
-      "score": 4.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-22T18:53:46.694188Z"
+      "detected_at": "2026-09-23T23:41:01.578828Z"
     }
   ],
   "short_summary": "Russian helicopter violates Polish NATO airspace",
-  "level_label": "Elevated",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-23T20:20:59.250342Z",
+  "updated_at": "2026-09-23T23:41:01.578828Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian helicopter violates Polish NATO airspace",
     "summary": "Russian military aircraft violated Polish airspace for 42 seconds, forcing NATO scramble — a direct escalation on the eastern flank raising threat levels for the entire region including Ukraine.",
     "title": "Poland accuses Russian military helicopter of violating its airspace",
-    "score": 5.4,
+    "score": 5.3,
     "sentiment": "negative",
     "detected_at": "2026-09-23T16:56:21.641877Z",
     "peak_at": "2026-09-23T16:56:21.641877Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-23T16:56:21.641877Z",
   "score_history": [
-    {
-      "t": "2026-09-21T21:03:36.469536Z",
-      "s": 2.7
-    },
     {
       "t": "2026-09-22T00:06:01.773342Z",
       "s": 2.6
@@ -132,6 +133,10 @@
     {
       "t": "2026-09-23T20:20:59.250342Z",
       "s": 5.1
+    },
+    {
+      "t": "2026-09-23T23:41:01.578828Z",
+      "s": 4.8
     }
   ]
 }

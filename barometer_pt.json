@@ -1,12 +1,31 @@
 {
-  "global_score": 2.6,
-  "rationale": "Hurricane Polo continues off Mexico; Spain housing eviction is a new Iberian social issue; other events remain distant from Portuguese daily life.",
+  "global_score": 2.5,
+  "rationale": "Spain housing crisis is a new Iberian development with mild relevance; other events remain distant or background noise for Portugal.",
   "top_events": [
+    {
+      "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
+      "label": "Spain evicts 87-year-old amid housing crisis",
+      "summary": "Elderly tenant evicted in Madrid due to unaffordable rent set by new owner. Highlights Iberian housing shortage affecting Portugal's neighbor.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-23T16:56:21.640581Z"
+    },
     {
       "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
       "label": "Hurricane Polo intensifies off Mexico coast",
-      "summary": "Category 5 hurricane with 165mph winds churns off Mexico, driven by El Niño—distant Atlantic weather event with no direct impact on Portugal.",
-      "score": 2.6,
+      "summary": "Category 5 hurricane with 165mph winds churns off Mexico. El Niño-driven storm remains distant from Portugal but part of global weather pattern.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,39 +41,20 @@
       "detected_at": "2026-09-22T22:07:55.741827Z"
     },
     {
-      "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
-      "label": "Spain evicts 87-year-old woman in Madrid",
-      "summary": "87-year-old tenant evicted in Madrid after rent hike by new owner, highlighting Iberian housing crisis affecting Portugal's neighbor.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-23T16:56:21.640581Z"
-    },
-    {
-      "title": "Iran's president tells Trump it will never 'bend the knee'",
-      "label": "Iran president defies Trump annihilation threat",
-      "summary": "Iran's president responds to Trump's UN threat—distant Middle East rhetoric with no direct link to Portuguese daily life.",
+      "title": "Trump's threat to annihilate Iran to UN general assembly is stunning, even for him",
+      "label": "Trump threatens Iran annihilation at UN",
+      "summary": "US president threatens Iran at UN. Distant Middle East rhetoric with minimal direct impact on Portugal's daily life.",
       "score": 2.4,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
         }
       ],
       "detected_at": "2026-09-23T05:58:10.983904Z"
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-23T20:20:59.249275Z",
+  "updated_at": "2026-09-23T23:41:01.577807Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Hurricane Polo intensifies to rare Category 5 Mexico",
     "summary": "Sudden intensification to Category 5 with 165mph winds off Mexico's Pacific coast, driven by El Niño. Signals extreme weather patterns relevant to Portugal's Atlantic climate concerns.",
     "title": "Hurricane Polo intensifies into rare category 5 storm off the coast of Mexico",
-    "score": 2.7,
+    "score": 2.6,
     "sentiment": "negative",
     "detected_at": "2026-09-22T22:07:55.741827Z",
     "peak_at": "2026-09-23T11:33:26.810114Z",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "score_history": [
-    {
-      "t": "2026-09-21T21:03:36.467963Z",
-      "s": 2.0
-    },
     {
       "t": "2026-09-22T00:06:01.771983Z",
       "s": 2.0
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-23T20:20:59.249275Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-23T23:41:01.577807Z",
+      "s": 2.5
     }
   ]
 }
