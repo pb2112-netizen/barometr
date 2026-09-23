@@ -1,13 +1,37 @@
 {
-  "global_score": 2.2,
-  "rationale": "Hurricane Polo intensifies to Category 5 off Mexico, driven by record El Niño; indirect climate pattern impact on Portugal's Atlantic weather and tourism season.",
+  "global_score": 2.8,
+  "rationale": "Trump's Iran threats and Hurricane Polo represent distant events with minimal direct impact on Portuguese daily life; El Niño weather patterns continue as background.",
   "top_events": [
     {
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+      "label": "Trump threatens Iran annihilation at UN Assembly",
+      "summary": "US president's extreme rhetoric at UN represents distant Middle East volatility with limited direct impact on Portuguese life.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+        }
+      ],
+      "detected_at": "2026-09-23T05:58:10.983904Z"
+    },
+    {
       "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-      "label": "Category 5 Hurricane Polo intensifies off Mexico",
-      "summary": "Polo reaches sustained winds of 165mph, churning 215 miles south of Zihuatanejo. Driven by record El Niño patterns, unlikely to directly hit Mexico but signals intense Atlantic season.",
+      "label": "Hurricane Polo intensifies off Mexico coast",
+      "summary": "Category 5 hurricane off Mexico demonstrates El Niño's global weather disruption, though geographically distant from Portugal.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -23,9 +47,9 @@
     },
     {
       "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-      "label": "Strongest El Niño on record impacts weather",
-      "summary": "Scientists confirm developing El Niño is now strongest on record with global weather impacts already being felt, potentially affecting Iberian climate and wildfire risk.",
-      "score": 2.2,
+      "label": "El Niño becomes strongest on record",
+      "summary": "Record El Niño continues to drive global weather disruption with potential indirect effects on Iberian climate.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -39,56 +63,37 @@
         }
       ],
       "detected_at": "2026-09-22T14:52:07.498225Z"
-    },
-    {
-      "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
-      "label": "Colombia wildfire threatens Villa de Leyva area",
-      "summary": "Wildfire forces evacuations and burns through mountains surrounding Villa de Leyva in north-east Colombia. Distant event with no direct impact on Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/21/colombia-wildfire-villa-de-leyva"
-        }
-      ],
-      "detected_at": "2026-09-22T04:53:16.079162Z"
     }
   ],
-  "short_summary": "El Niño becomes strongest on record globally",
+  "short_summary": "Trump threatens Iran annihilation at UN Assembly",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-23T00:31:40.363866Z",
+  "updated_at": "2026-09-23T05:58:10.983904Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "El Niño becomes strongest on record globally",
-    "summary": "Strongest El Niño on record develops with global weather impacts already felt; potential indirect effects on Iberian Peninsula climate patterns, agriculture, and wildfire risk in coming months.",
-    "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-    "score": 2.3,
-    "sentiment": "negative",
-    "detected_at": "2026-09-22T14:52:07.498225Z",
-    "peak_at": "2026-09-22T14:52:07.498225Z",
+    "label": "Trump threatens Iran annihilation at UN Assembly",
+    "summary": "US president's extreme rhetoric at UN represents distant Middle East volatility with limited direct impact on Portuguese life.",
+    "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+    "score": 2.8,
+    "sentiment": "neutral",
+    "detected_at": "2026-09-23T05:58:10.983904Z",
+    "peak_at": "2026-09-23T05:58:10.983904Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
       }
     ]
   },
-  "events_anchor_at": "2026-09-22T14:52:07.498225Z",
+  "events_anchor_at": "2026-09-23T05:58:10.983904Z",
   "score_history": [
-    {
-      "t": "2026-09-21T04:58:35.803690Z",
-      "s": 2.1
-    },
     {
       "t": "2026-09-21T10:42:12.327480Z",
       "s": 2.1
@@ -128,6 +133,10 @@
     {
       "t": "2026-09-23T00:31:40.363866Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-09-23T05:58:10.983904Z",
+      "s": 2.8
     }
   ]
 }

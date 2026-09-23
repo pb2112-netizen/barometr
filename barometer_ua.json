@@ -1,12 +1,36 @@
 {
-  "global_score": 3.9,
-  "rationale": "EU removing Putin-linked oligarchs from sanctions list is a significant setback for Ukraine, weakening international pressure on Russia during ongoing war. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "Trump's threat to annihilate Iran signals unpredictable US foreign policy affecting Ukraine's Western support; EU delisting of Russian oligarchs directly weakens pressure on Moscow during ongoing war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+      "label": "Trump threatens Iran annihilation at UN Assembly",
+      "summary": "US president's extreme rhetoric and volatile foreign policy signals unpredictability in Western support for Ukraine during ongoing war with Russia.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+        }
+      ],
+      "detected_at": "2026-09-22T18:53:46.694188Z"
+    },
     {
       "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
       "label": "EU removes Putin-linked oligarchs from sanctions",
-      "summary": "EU delists Usmanov and Fridman, both close to Putin. Ukraine strongly criticizes move as sending wrong signals to Moscow, undermining sanctions pressure during war.",
-      "score": 3.9,
+      "summary": "EU delisting of Usmanov and Fridman directly weakens economic pressure on Russia during war, undermining Ukraine's position.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,44 +46,20 @@
       "detected_at": "2026-09-22T09:56:41.550510Z"
     },
     {
-      "title": "Macron: France won't 'yield an inch' on Ukraine support",
-      "label": "Macron pledges unwavering Ukraine support at UN",
-      "summary": "French President Macron tells UN General Assembly that coalition of the willing will not back down in support of Ukraine. Rhetoric reaffirming existing position.",
-      "score": 2.8,
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "label": "US builds two military bases in Greenland",
+      "summary": "New Arctic bases strengthen NATO posture against Russia, indirectly supporting Ukraine's security position.",
+      "score": 3.8,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/macron-france-wont-yield-an-inch-on-ukraine-support?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-20T18:46:50.462793Z"
-    },
-    {
-      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
-      "label": "Trump threatens Iran annihilation at UN meeting",
-      "summary": "US president threatens extreme action against Iran while officials hold talks. Rhetoric without confirmed policy change; indirect impact on Ukraine through US attention and resources.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-09-22T18:53:46.694188Z"
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-23T00:31:40.365780Z",
+  "updated_at": "2026-09-23T05:58:10.985754Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Lithuania prepares evacuation plans amid Russia threat",
     "summary": "Lithuania's PM announces civilian evacuation readiness while vowing to fight back if attacked, reflecting escalating Russia-NATO tensions on the eastern flank that could affect Ukraine's strategic.",
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-22T09:56:41.550510Z",
   "score_history": [
-    {
-      "t": "2026-09-21T04:58:35.804433Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-21T10:42:12.328839Z",
       "s": 2.9
@@ -133,6 +129,10 @@
     {
       "t": "2026-09-23T00:31:40.365780Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-23T05:58:10.985754Z",
+      "s": 3.8
     }
   ]
 }
