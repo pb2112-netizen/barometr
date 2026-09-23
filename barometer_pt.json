@@ -1,12 +1,31 @@
 {
-  "global_score": 2.3,
-  "rationale": "El Niño intensifies with global weather impacts; distant geopolitical events have minimal direct effect on Portuguese daily life.",
+  "global_score": 2.2,
+  "rationale": "Hurricane Polo intensifies to Category 5 off Mexico, driven by record El Niño; indirect climate pattern impact on Portugal's Atlantic weather and tourism season.",
   "top_events": [
     {
+      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+      "label": "Category 5 Hurricane Polo intensifies off Mexico",
+      "summary": "Polo reaches sustained winds of 165mph, churning 215 miles south of Zihuatanejo. Driven by record El Niño patterns, unlikely to directly hit Mexico but signals intense Atlantic season.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
+        }
+      ],
+      "detected_at": "2026-09-22T22:07:55.741827Z"
+    },
+    {
       "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-      "label": "El Niño becomes strongest on record globally",
-      "summary": "Strongest El Niño on record intensifies with global weather impacts already felt, potentially affecting Iberian climate patterns.",
-      "score": 2.3,
+      "label": "Strongest El Niño on record impacts weather",
+      "summary": "Scientists confirm developing El Niño is now strongest on record with global weather impacts already being felt, potentially affecting Iberian climate and wildfire risk.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,28 +41,9 @@
       "detected_at": "2026-09-22T14:52:07.498225Z"
     },
     {
-      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-      "label": "Hurricane Polo intensifies off Mexico coast",
-      "summary": "Category 5 hurricane with 165mph winds churns off Mexico, linked to El Niño patterns but unlikely to directly hit land.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
-        }
-      ],
-      "detected_at": "2026-09-22T22:07:55.741827Z"
-    },
-    {
       "title": "Colombia declares public calamity as wildfire threatens popular tourist area",
       "label": "Colombia wildfire threatens Villa de Leyva area",
-      "summary": "Wildfire forces evacuations in Colombian tourist region; distant event with no direct impact on Portugal.",
+      "summary": "Wildfire forces evacuations and burns through mountains surrounding Villa de Leyva in north-east Colombia. Distant event with no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-22T22:07:55.741827Z",
+  "updated_at": "2026-09-23T00:31:40.363866Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "El Niño becomes strongest on record globally",
     "summary": "Strongest El Niño on record develops with global weather impacts already felt; potential indirect effects on Iberian Peninsula climate patterns, agriculture, and wildfire risk in coming months.",
     "title": "Developing El Niño becomes strongest on record weeks before expected peak",
-    "score": 2.4,
+    "score": 2.3,
     "sentiment": "negative",
     "detected_at": "2026-09-22T14:52:07.498225Z",
     "peak_at": "2026-09-22T14:52:07.498225Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-22T14:52:07.498225Z",
   "score_history": [
-    {
-      "t": "2026-09-21T00:15:33.453532Z",
-      "s": 2.2
-    },
     {
       "t": "2026-09-21T04:58:35.803690Z",
       "s": 2.1
@@ -128,6 +124,10 @@
     {
       "t": "2026-09-22T22:07:55.741827Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-09-23T00:31:40.363866Z",
+      "s": 2.2
     }
   ]
 }
