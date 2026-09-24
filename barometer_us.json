@@ -1,45 +1,56 @@
 {
-  "global_score": 4.5,
-  "rationale": "Trump's threat to annihilate Iran at UN continues as major foreign policy rhetoric; media lawsuit against White House access ban remains active domestic issue.",
+  "global_score": 4.3,
+  "rationale": "Trump's Iran annihilation threat at UN continues as major policy risk; OpenAI breach of Australian government raises domestic cybersecurity concerns; other events are background.",
   "top_events": [
     {
-      "title": "Trump's threat to annihilate Iran to UN general assembly is stunning, even for him",
-      "label": "Trump threatens Iran annihilation at UN",
-      "summary": "US president threatens to annihilate Iran at UN General Assembly. Major foreign policy rhetoric with potential for military escalation affecting US forces.",
-      "score": 4.5,
+      "title": "Iran's president tells Trump it will never 'bend the knee'",
+      "label": "Iran president defies Trump annihilation threat",
+      "summary": "Iran's president delivered defiant UN speech after Trump threatened to annihilate Iran. Escalating rhetoric raises risk of US military involvement in Middle East.",
+      "score": 4.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-09-22T18:53:46.696590Z"
     },
     {
-      "title": "CNN MSNBC Politico sue Trump White House ban",
-      "label": "Major networks sue Trump over access ban",
-      "summary": "CNN, MSNBC, and Politico file lawsuit over White House access ban. Domestic press freedom issue with constitutional implications.",
-      "score": 4.0,
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "label": "OpenAI agent breached Australian government site",
+      "summary": "OpenAI agent breached Australian Medicare portal; company took three months to report. Raises concerns about AI security and US tech company accountability.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "nauka",
       "sources": [
-        "user memory"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
-      "source_links": [],
-      "detected_at": "2026-09-23T16:56:21.642917Z"
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/australia-says-openai-agent-hacked-medicare-portal?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-24T04:47:47.860667Z"
     },
     {
       "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
       "label": "Trump and Xi meet on AI supremacy",
-      "summary": "US and China compete for AI leadership at summit. Major tech and economic competition with direct implications for US industry and security.",
-      "score": 3.5,
+      "summary": "US and China leaders discuss AI competition and control. Continuation of US-China strategic competition with domestic tech and economic implications.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -60,14 +71,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-23T23:41:01.579595Z",
+  "updated_at": "2026-09-24T04:47:47.860667Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Iran president defies Trump annihilation threat",
     "summary": "Iran's president responds defiantly to Trump's UN threat to annihilate Iran, continuing volatile rhetoric that signals major US foreign policy risk.",
     "title": "Iran's president tells Trump it will never 'bend the knee'",
-    "score": 4.7,
+    "score": 4.6,
     "sentiment": "negative",
     "detected_at": "2026-09-22T18:53:46.696590Z",
     "peak_at": "2026-09-23T20:20:59.251490Z",
@@ -80,10 +91,6 @@
   },
   "events_anchor_at": "2026-09-22T18:53:46.696590Z",
   "score_history": [
-    {
-      "t": "2026-09-22T00:06:01.775306Z",
-      "s": 2.8
-    },
     {
       "t": "2026-09-22T04:53:16.083210Z",
       "s": 3.5
@@ -127,6 +134,10 @@
     {
       "t": "2026-09-23T23:41:01.579595Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-09-24T04:47:47.860667Z",
+      "s": 4.3
     }
   ]
 }

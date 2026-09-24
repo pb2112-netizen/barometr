@@ -1,12 +1,31 @@
 {
-  "global_score": 2.5,
-  "rationale": "Spain housing crisis is a new Iberian development with mild relevance; other events remain distant or background noise for Portugal.",
+  "global_score": 2.4,
+  "rationale": "Hurricane Polo continues as distant weather event; Spain housing crisis is regional Iberian concern; other events remain distant or background.",
   "top_events": [
+    {
+      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+      "label": "Hurricane Polo intensifies off Mexico coast",
+      "summary": "Category 5 hurricane with 165mph winds churns off Mexico. Distant event but part of El Niño pattern affecting global weather including Atlantic.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
+        }
+      ],
+      "detected_at": "2026-09-22T22:07:55.741827Z"
+    },
     {
       "title": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
       "label": "Spain evicts 87-year-old amid housing crisis",
-      "summary": "Elderly tenant evicted in Madrid due to unaffordable rent set by new owner. Highlights Iberian housing shortage affecting Portugal's neighbor.",
-      "score": 2.2,
+      "summary": "Elderly tenant evicted in Madrid highlights Iberian housing shortage. Regional concern affecting Portugal's neighbor and similar market pressures.",
+      "score": 2.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,39 +41,20 @@
       "detected_at": "2026-09-23T16:56:21.640581Z"
     },
     {
-      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-      "label": "Hurricane Polo intensifies off Mexico coast",
-      "summary": "Category 5 hurricane with 165mph winds churns off Mexico. El Niño-driven storm remains distant from Portugal but part of global weather pattern.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
-        }
-      ],
-      "detected_at": "2026-09-22T22:07:55.741827Z"
-    },
-    {
-      "title": "Trump's threat to annihilate Iran to UN general assembly is stunning, even for him",
-      "label": "Trump threatens Iran annihilation at UN",
-      "summary": "US president threatens Iran at UN. Distant Middle East rhetoric with minimal direct impact on Portugal's daily life.",
-      "score": 2.4,
+      "title": "Iran's president tells Trump it will never 'bend the knee'",
+      "label": "Iran president defies Trump annihilation threat",
+      "summary": "Iran's president delivered defiant UN speech after Trump's threat. Distant Middle East rhetoric with minimal direct impact on Portugal.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-09-23T05:58:10.983904Z"
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-23T23:41:01.577807Z",
+  "updated_at": "2026-09-24T04:47:47.857359Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Hurricane Polo intensifies to rare Category 5 Mexico",
     "summary": "Sudden intensification to Category 5 with 165mph winds off Mexico's Pacific coast, driven by El Niño. Signals extreme weather patterns relevant to Portugal's Atlantic climate concerns.",
     "title": "Hurricane Polo intensifies into rare category 5 storm off the coast of Mexico",
-    "score": 2.6,
+    "score": 2.5,
     "sentiment": "negative",
     "detected_at": "2026-09-22T22:07:55.741827Z",
     "peak_at": "2026-09-23T11:33:26.810114Z",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "score_history": [
-    {
-      "t": "2026-09-22T00:06:01.771983Z",
-      "s": 2.0
-    },
     {
       "t": "2026-09-22T04:53:16.079162Z",
       "s": 2.0
@@ -136,6 +132,10 @@
     {
       "t": "2026-09-23T23:41:01.577807Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-24T04:47:47.857359Z",
+      "s": 2.4
     }
   ]
 }
