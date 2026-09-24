@@ -1,14 +1,33 @@
 {
-  "global_score": 3.0,
-  "rationale": "Sabotage attack on Polish Starlink station directly threatens Ukraine's internet connectivity and signals escalating hybrid warfare targeting infrastructure supporting Ukraine. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Ukrainian national kills one person in Poland — incident damages Ukraine's reputation among key ally population and raises concerns about refugee integration during wartime. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "label": "Sabotage hits Polish Starlink supporting Ukraine",
-      "summary": "Fire at Polish satellite station providing internet to Ukraine declared sabotage, directly threatening Ukrainian connectivity and marking escalation of attacks on support infrastructure.",
-      "score": 3.0,
+      "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
+      "label": "Ukrainian kills one in attack at Polish abbey",
+      "summary": "A 31-year-old Ukrainian man attacked clergy and worshippers at a Polish abbey, killing one and wounding four. Zelenskyy condemned the attack, but incident strains relations with critical ally.",
+      "score": 5.0,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/ukrainian-knifeman-kills-one-wounds-four-at-abbey-in-poland?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-24T19:09:00.237244Z"
+    },
+    {
+      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "label": "Poland confirms sabotage at Starlink station",
+      "summary": "Polish government confirms sabotage at satellite station providing internet coverage to Ukraine. Attack on infrastructure supporting Ukrainian connectivity demonstrates escalating hybrid warfare.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,31 +41,12 @@
       "detected_at": "2026-09-23T16:56:21.641877Z"
     },
     {
-      "title": "Iran's president tells Trump it will never 'bend the knee'",
-      "label": "Iran defies Trump annihilation threat at UN",
-      "summary": "Iranian president responds to Trump's UN threat with defiance, continuing volatile US foreign policy rhetoric affecting Ukraine's key ally.",
-      "score": 3.0,
+      "title": "White House restores access to media outlets banned by Trump after judge's order",
+      "label": "US court restores media White House access",
+      "summary": "Federal judge orders restoration of press access after Trump administration ban. Demonstrates checks on executive power in key ally supporting Ukraine.",
+      "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-22T18:53:46.694188Z"
-    },
-    {
-      "title": "White House 'repeatedly violated' court order to restore press access, say media outlets",
-      "label": "US media sue White House over access violations",
-      "summary": "Major US networks report continued denial of White House access, signaling domestic instability in Ukraine's most important military backer.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -61,21 +61,21 @@
     }
   ],
   "short_summary": "Russian helicopter violates Polish NATO airspace",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-24T15:04:52.989203Z",
+  "updated_at": "2026-09-24T19:09:00.237244Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian helicopter violates Polish NATO airspace",
     "summary": "Russian military aircraft violated Polish airspace for 42 seconds, forcing NATO scramble — a direct escalation on the eastern flank raising threat levels for the entire region including Ukraine.",
     "title": "Poland accuses Russian military helicopter of violating its airspace",
-    "score": 5.1,
+    "score": 5.0,
     "sentiment": "negative",
     "detected_at": "2026-09-23T16:56:21.641877Z",
-    "peak_at": "2026-09-23T16:56:21.641877Z",
+    "peak_at": "2026-09-24T19:09:00.237244Z",
     "source_links": [
       {
         "name": "BBC",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-23T16:56:21.641877Z",
   "score_history": [
-    {
-      "t": "2026-09-22T18:53:46.694188Z",
-      "s": 4.2
-    },
     {
       "t": "2026-09-22T22:07:55.743781Z",
       "s": 4.1
@@ -128,6 +124,10 @@
     {
       "t": "2026-09-24T15:04:52.989203Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-24T19:09:00.237244Z",
+      "s": 5.0
     }
   ]
 }

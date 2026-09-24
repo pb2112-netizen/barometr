@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-24T15:04:52.996048Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-09-24T19:09:00.244476Z",
+  "ostatnia_ocena": 4.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump threatens Iran annihilation UN speech",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 7,
       "opis": "Trump extreme rhetoric at UN; major policy shift risk."
     },
     {
       "temat": "OpenAI agent breached Australian government Medicare",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "OpenAI agent infiltrated Australian gov site; 3-month delay."
     },
     {
       "temat": "CNN MSNBC Politico sue Trump White House ban",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 1,
       "opis": "Major networks file lawsuit over White House access ban."
     },
     {
       "temat": "US Greenland military bases Denmark deal",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 11,
       "opis": "US commits to building two bases in Greenland; Arctic."
     },
     {
       "temat": "British Columbia sues OpenAI ChatGPT school shooting",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Canadian province sues OpenAI over AI role in mass shooting."
     },
     {
       "temat": "US Iran diplomatic talks three hours",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "US officials meet Iranian delegation; policy shift."
     },
     {
       "temat": "US China AI safety talks Trump Xi summit",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Top officials meet in New York ahead of Trump-Xi summit."
     },
     {
       "temat": "UN expert US drug boat strikes crimes humanity",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "UN rapporteur says US attacks may be crimes against."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-22T18:53:46.696590Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-22T22:07:55.745778Z",
       "s": 4.3
@@ -96,15 +92,35 @@
     {
       "t": "2026-09-24T15:04:52.990800Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-09-24T19:09:00.238674Z",
+      "s": 4.3
     }
   ],
   "events_anchor_at": "2026-09-23T20:20:59.251490Z",
   "event_detected_at": {
+    "white house restores access to media outlets banned by trump after judge's order": {
+      "detected_at": "2026-09-23T20:20:59.251490Z",
+      "peak_at": "2026-09-24T15:04:52.990800Z",
+      "peak_score_at": "2026-09-24T15:04:52.990800Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "White House 'repeatedly violated' court order to restore press access, say media outlets",
+      "peak_label": "White House violates court order on press access",
+      "peak_summary": "CNN, Politico, and MSNBC report continued denial of White House access and pass confiscations despite court order, escalating press freedom conflict.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "rogue openai agent 'infiltrated' australian government website in world first": {
       "detected_at": "2026-09-24T04:47:47.860667Z",
       "peak_at": "2026-09-24T04:47:47.860667Z",
       "peak_score_at": "2026-09-24T04:47:47.860667Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
       "peak_label": "OpenAI agent breached Australian government site",
@@ -120,19 +136,19 @@
         }
       ]
     },
-    "white house 'repeatedly violated' court order to restore press access, say media outlets": {
-      "detected_at": "2026-09-23T20:20:59.251490Z",
-      "peak_at": "2026-09-24T15:04:52.990800Z",
-      "peak_score_at": "2026-09-24T15:04:52.990800Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "White House 'repeatedly violated' court order to restore press access, say media outlets",
-      "peak_label": "White House violates court order on press access",
-      "peak_summary": "CNN, Politico, and MSNBC report continued denial of White House access and pass confiscations despite court order, escalating press freedom conflict.",
+    "us and china presidents discuss cooperation, trade and ai risks": {
+      "detected_at": "2026-09-24T19:09:00.238674Z",
+      "peak_at": "2026-09-24T19:09:00.238674Z",
+      "peak_score_at": "2026-09-24T19:09:00.238674Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "US and China presidents discuss cooperation, trade and AI risks",
+      "peak_label": "Trump and Xi discuss trade and AI risks",
+      "peak_summary": "Trump and Xi Jinping met at White House to discuss trade tensions, technology cooperation and AI risks. Talks continue ongoing efforts to manage US-China relations.",
       "peak_source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss"
         }
       ]
     },
@@ -202,8 +218,8 @@
     }
   },
   "prev_top_event_titles": [
+    "White House restores access to media outlets banned by Trump after judge's order",
     "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-    "White House 'repeatedly violated' court order to restore press access, say media outlets",
-    "Iran's president tells Trump it will never 'bend the knee'"
+    "US and China presidents discuss cooperation, trade and AI risks"
   ]
 }
