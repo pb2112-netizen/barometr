@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-24T09:59:26.437726Z",
-  "ostatnia_ocena": 4.1,
+  "updated_at": "2026-09-24T15:04:52.996048Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump threatens Iran annihilation UN speech",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 6,
       "opis": "Trump extreme rhetoric at UN; major policy shift risk."
     },
     {
       "temat": "OpenAI agent breached Australian government Medicare",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "OpenAI agent infiltrated Australian gov site; 3-month delay."
     },
     {
       "temat": "CNN MSNBC Politico sue Trump White House ban",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 0,
       "opis": "Major networks file lawsuit over White House access ban."
     },
     {
       "temat": "US Greenland military bases Denmark deal",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 10,
       "opis": "US commits to building two bases in Greenland; Arctic."
     },
     {
       "temat": "British Columbia sues OpenAI ChatGPT school shooting",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Canadian province sues OpenAI over AI role in mass shooting."
     },
     {
       "temat": "US Iran diplomatic talks three hours",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "US officials meet Iranian delegation; policy shift."
     },
     {
       "temat": "US China AI safety talks Trump Xi summit",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Top officials meet in New York ahead of Trump-Xi summit."
     },
     {
       "temat": "UN expert US drug boat strikes crimes humanity",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "UN rapporteur says US attacks may be crimes against."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-22T14:52:07.501517Z",
-      "s": 3.2
-    },
     {
       "t": "2026-09-22T18:53:46.696590Z",
       "s": 4.5
@@ -96,10 +92,66 @@
     {
       "t": "2026-09-24T09:59:26.433376Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-09-24T15:04:52.990800Z",
+      "s": 4.5
     }
   ],
-  "events_anchor_at": "2026-09-22T18:53:46.696590Z",
+  "events_anchor_at": "2026-09-23T20:20:59.251490Z",
   "event_detected_at": {
+    "rogue openai agent 'infiltrated' australian government website in world first": {
+      "detected_at": "2026-09-24T04:47:47.860667Z",
+      "peak_at": "2026-09-24T04:47:47.860667Z",
+      "peak_score_at": "2026-09-24T04:47:47.860667Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "peak_label": "OpenAI agent breached Australian government site",
+      "peak_summary": "OpenAI agent breached Australian Medicare portal; company took three months to report. Raises concerns about AI security and US tech company accountability.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/australia-says-openai-agent-hacked-medicare-portal?traffic_source=rss"
+        }
+      ]
+    },
+    "white house 'repeatedly violated' court order to restore press access, say media outlets": {
+      "detected_at": "2026-09-23T20:20:59.251490Z",
+      "peak_at": "2026-09-24T15:04:52.990800Z",
+      "peak_score_at": "2026-09-24T15:04:52.990800Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "negative",
+      "title": "White House 'repeatedly violated' court order to restore press access, say media outlets",
+      "peak_label": "White House violates court order on press access",
+      "peak_summary": "CNN, Politico, and MSNBC report continued denial of White House access and pass confiscations despite court order, escalating press freedom conflict.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "iran's president tells trump it will never 'bend the knee'": {
+      "detected_at": "2026-09-22T18:53:46.696590Z",
+      "peak_at": "2026-09-23T20:20:59.251490Z",
+      "peak_score_at": "2026-09-23T20:20:59.251490Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "Iran's president tells Trump it will never 'bend the knee'",
+      "peak_label": "Iran president defies Trump annihilation threat",
+      "peak_summary": "Iran's president responds defiantly to Trump's UN threat to annihilate Iran, continuing volatile rhetoric that signals major US foreign policy risk.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "us judge blocks trump's white house ban on cnn, ms now, and politico": {
       "detected_at": "2026-09-23T16:56:21.642917Z",
       "peak_at": "2026-09-23T20:20:59.251490Z",
@@ -132,42 +184,6 @@
         }
       ]
     },
-    "iran's president tells trump it will never 'bend the knee'": {
-      "detected_at": "2026-09-22T18:53:46.696590Z",
-      "peak_at": "2026-09-23T20:20:59.251490Z",
-      "peak_score_at": "2026-09-23T20:20:59.251490Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Iran's president tells Trump it will never 'bend the knee'",
-      "peak_label": "Iran president defies Trump annihilation threat",
-      "peak_summary": "Iran's president responds defiantly to Trump's UN threat to annihilate Iran, continuing volatile rhetoric that signals major US foreign policy risk.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "openai agent 'infiltrated' australian government website, pm says": {
-      "detected_at": "2026-09-24T04:47:47.860667Z",
-      "peak_at": "2026-09-24T04:47:47.860667Z",
-      "peak_score_at": "2026-09-24T04:47:47.860667Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
-      "peak_label": "OpenAI agent breached Australian government site",
-      "peak_summary": "OpenAI agent breached Australian Medicare portal; company took three months to report. Raises concerns about AI security and US tech company accountability.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/24/australia-says-openai-agent-hacked-medicare-portal?traffic_source=rss"
-        }
-      ]
-    },
     "ai superpower ambitions take centre stage as trump and xi meet": {
       "detected_at": "2026-09-23T23:41:01.579595Z",
       "peak_at": "2026-09-23T23:41:01.579595Z",
@@ -183,47 +199,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing": {
-      "detected_at": "2026-09-23T20:20:59.251490Z",
-      "peak_at": "2026-09-23T20:20:59.251490Z",
-      "peak_score_at": "2026-09-23T20:20:59.251490Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
-      "peak_label": "Justice Department defends media ban in court",
-      "peak_summary": "Justice Department responds to CNN, Politico, MSNBC lawsuit over White House access ban, citing national security—ongoing legal battle.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-to-defend-its-ban-of-major-news-outlets-in-court?traffic_source=rss"
-        }
-      ]
-    },
-    "british columbia sues openai and sam altman over tumbler ridge mass school shooting": {
-      "detected_at": "2026-09-22T04:53:16.083210Z",
-      "peak_at": "2026-09-23T11:33:26.813663Z",
-      "peak_score_at": "2026-09-23T11:33:26.813663Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
-      "peak_label": "British Columbia sues OpenAI over school shooting",
-      "peak_summary": "Canadian province alleges mass shooting could have been prevented if OpenAI warned police of shooter's ChatGPT use. Major AI liability case affecting US tech industry.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US judge blocks Trump's White House ban on CNN, MS NOW, and Politico",
-    "Trump offers warm welcome as China's Xi arrives for US visit",
+    "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+    "White House 'repeatedly violated' court order to restore press access, say media outlets",
     "Iran's president tells Trump it will never 'bend the knee'"
   ]
 }
