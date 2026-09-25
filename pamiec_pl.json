@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-24T22:23:13.618404Z",
-  "ostatnia_ocena": 7.2,
+  "updated_at": "2026-09-25T01:29:14.977930Z",
+  "ostatnia_ocena": 7.0,
   "ostatnie_powiadomienie_at": "2026-09-24T22:23:13.618337Z",
   "stan_swiata": [
     {
-      "temat": "Poland Starlink sabotage fire hybrid warfare",
-      "poziom_bazowy": 5.9,
-      "cykle_bez_zmian": 2,
-      "opis": "Sabotage attack on Polish satellite station; direct threat."
-    },
-    {
       "temat": "Ukrainian attacker kills one at Polish abbey",
-      "poziom_bazowy": 7.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 7.0,
+      "cykle_bez_zmian": 1,
       "opis": "Violent attack by Ukrainian national on Polish soil; one."
     },
     {
       "temat": "US court restores White House media access",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "Judge orders press credentials restored; ally stability."
     },
     {
+      "temat": "Pakistan strikes Afghanistan Taliban civilians",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Pakistan military strikes in Afghanistan; distant conflict."
+    },
+    {
+      "temat": "Poland Starlink sabotage fire hybrid warfare",
+      "poziom_bazowy": 5.6,
+      "cykle_bez_zmian": 3,
+      "opis": "Sabotage attack on Polish satellite station; direct threat."
+    },
+    {
       "temat": "Russian helicopter violates Polish airspace NATO",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 8,
       "opis": "Russian military aircraft enters Polish airspace; scramble."
     },
     {
       "temat": "Trump threatens Iran annihilation UN speech",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 9,
       "opis": "Trump extreme rhetoric at UN; volatile Middle East policy."
     },
     {
       "temat": "US Greenland military bases NATO Arctic",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 13,
       "opis": "US-Denmark deal establishes two bases in Greenland; Arctic."
     },
     {
       "temat": "Trump Xi Jinping Washington summit trade AI",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 8,
       "opis": "US-China summit in Washington; trade and AI discussions."
-    },
-    {
-      "temat": "EU removes Russian oligarchs from sanctions list",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 11,
-      "opis": "EU delists Putin-linked oligarchs; weakens Russia pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-23T00:31:40.359436Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-23T05:58:10.979242Z",
       "s": 3.6
@@ -96,6 +92,10 @@
     {
       "t": "2026-09-24T22:23:13.611040Z",
       "s": 7.2
+    },
+    {
+      "t": "2026-09-25T01:29:14.970069Z",
+      "s": 7.0
     }
   ],
   "events_anchor_at": "2026-09-24T19:09:00.230698Z",
@@ -116,6 +116,38 @@
         }
       ]
     },
+    "media outlets banned by trump denied access to white house dinner despite judge's order": {
+      "detected_at": "2026-09-23T16:56:21.638003Z",
+      "peak_at": "2026-09-24T19:09:00.230698Z",
+      "peak_score_at": "2026-09-23T16:56:21.638003Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "neutral",
+      "title": "White House rolling out red carpet for historic Xi Jinping visit",
+      "peak_label": "Trump hosts Xi Jinping Washington multi-day summit",
+      "peak_summary": "Major US-China summit addressing trade and AI could reshape global economic stability, indirectly affecting EU trade and investment climate.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "four civilians killed in pakistani strikes in afghanistan, taliban says": {
+      "detected_at": "2026-09-25T01:29:14.970069Z",
+      "peak_at": "2026-09-25T01:29:14.970069Z",
+      "peak_score_at": "2026-09-25T01:29:14.970069Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "peak_label": "Pakistan strikes Afghanistan killing four civilians",
+      "peak_summary": "Pakistan conducted strikes on 10 targets in Afghanistan, killing four civilians according to the Taliban. This escalation in South Asia has minimal direct impact on Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "poland says fire at starlink station is sabotage as denmark warns of rising russian threat": {
       "detected_at": "2026-09-23T16:56:21.638003Z",
       "peak_at": "2026-09-24T19:09:00.230698Z",
@@ -129,22 +161,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "white house restores access to media outlets banned by trump after judge's order": {
-      "detected_at": "2026-09-23T16:56:21.638003Z",
-      "peak_at": "2026-09-24T19:09:00.230698Z",
-      "peak_score_at": "2026-09-23T16:56:21.638003Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "neutral",
-      "title": "White House rolling out red carpet for historic Xi Jinping visit",
-      "peak_label": "Trump hosts Xi Jinping Washington multi-day summit",
-      "peak_summary": "Major US-China summit addressing trade and AI could reshape global economic stability, indirectly affecting EU trade and investment climate.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -163,27 +179,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "ai superpower ambitions take centre stage as trump and xi meet": {
-      "detected_at": "2026-09-23T23:41:01.576113Z",
-      "peak_at": "2026-09-23T23:41:01.576113Z",
-      "peak_score_at": "2026-09-23T23:41:01.576113Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "neutral",
-      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
-      "peak_label": "Trump and Xi meet on AI supremacy",
-      "peak_summary": "US and China vie for AI leadership at summit. Indirect impact on Poland through global tech competition and EU-US-China relations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Priest killed and four injured in knife attack at Polish abbey",
-    "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-    "White House restores access to media outlets banned by Trump after judge's order"
+    "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+    "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says"
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-24T22:23:13.627260Z",
-  "ostatnia_ocena": 7.0,
+  "updated_at": "2026-09-25T01:29:14.980688Z",
+  "ostatnia_ocena": 6.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Poland Starlink sabotage Ukraine internet",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 2,
-      "opis": "Sabotage on infrastructure supporting Ukraine connectivity."
-    },
-    {
       "temat": "Ukrainian kills one in Poland abbey attack",
-      "poziom_bazowy": 7.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 2,
       "opis": "Ukrainian national attacks Polish abbey; damages relations."
     },
     {
       "temat": "US court restores media White House access",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Judge orders press access restoration; ally stability."
     },
     {
+      "temat": "Pakistan strikes Afghanistan Taliban civilians",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Pakistan military strikes in Afghanistan; distant conflict."
+    },
+    {
+      "temat": "Poland Starlink sabotage Ukraine internet",
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 3,
+      "opis": "Sabotage on infrastructure supporting Ukraine connectivity."
+    },
+    {
       "temat": "Russian helicopter violates Polish NATO airspace",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 8,
       "opis": "Russian military aircraft enters Polish airspace."
     },
     {
       "temat": "Zelenskyy North Korean POWs South Korea transfer",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "Ukraine transfers captured North Korean soldiers to Seoul."
     },
     {
       "temat": "Trump threatens Iran annihilation UN speech",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 9,
       "opis": "Trump extreme rhetoric; unpredictable US foreign policy."
     },
     {
       "temat": "Lithuania evacuation plans Russia threat NATO flank",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 15,
       "opis": "Lithuania PM announces evacuation plans, escalating."
-    },
-    {
-      "temat": "EU removes Russian oligarchs from sanctions list",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 11,
-      "opis": "EU delists Putin-linked oligarchs; weakens Russia pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-23T00:31:40.365780Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-23T05:58:10.985754Z",
       "s": 3.8
@@ -96,6 +92,10 @@
     {
       "t": "2026-09-24T22:23:13.615524Z",
       "s": 7.0
+    },
+    {
+      "t": "2026-09-25T01:29:14.975439Z",
+      "s": 6.5
     }
   ],
   "events_anchor_at": "2026-09-24T19:09:00.237244Z",
@@ -116,6 +116,38 @@
         }
       ]
     },
+    "media outlets banned by trump denied access to white house dinner despite judge's order": {
+      "detected_at": "2026-09-23T16:56:21.641877Z",
+      "peak_at": "2026-09-24T19:09:00.237244Z",
+      "peak_score_at": "2026-09-23T16:56:21.641877Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "neutral",
+      "title": "White House rolling out red carpet for historic Xi Jinping visit",
+      "peak_label": "Trump hosts Xi Jinping Washington summit",
+      "peak_summary": "Major US-China summit on trade and AI could reshape global power dynamics, indirectly affecting Western support and attention for Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "four civilians killed in pakistani strikes in afghanistan, taliban says": {
+      "detected_at": "2026-09-25T01:29:14.975439Z",
+      "peak_at": "2026-09-25T01:29:14.975439Z",
+      "peak_score_at": "2026-09-25T01:29:14.975439Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "peak_label": "Pakistan strikes Afghanistan killing four civilians",
+      "peak_summary": "Pakistan conducted military strikes in Afghanistan killing four civilians. This South Asian conflict escalation has no direct impact on Ukraine's war situation.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "poland says fire at starlink station is sabotage as denmark warns of rising russian threat": {
       "detected_at": "2026-09-23T16:56:21.641877Z",
       "peak_at": "2026-09-24T19:09:00.237244Z",
@@ -129,22 +161,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "white house restores access to media outlets banned by trump after judge's order": {
-      "detected_at": "2026-09-23T16:56:21.641877Z",
-      "peak_at": "2026-09-24T19:09:00.237244Z",
-      "peak_score_at": "2026-09-23T16:56:21.641877Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "neutral",
-      "title": "White House rolling out red carpet for historic Xi Jinping visit",
-      "peak_label": "Trump hosts Xi Jinping Washington summit",
-      "peak_summary": "Major US-China summit on trade and AI could reshape global power dynamics, indirectly affecting Western support and attention for Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9w410v3vzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -163,31 +179,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "ethiopia and tigray accuse each of launching offensives, fuelling fears of new war": {
-      "detected_at": "2026-09-23T23:41:01.578828Z",
-      "peak_at": "2026-09-23T23:41:01.578828Z",
-      "peak_score_at": "2026-09-23T23:41:01.578828Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-      "peak_label": "Ethiopia and Tigray trade offensive accusations",
-      "peak_summary": "Local authorities seize Tigray airports after drone strikes. Distant conflict but signals global instability pattern.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Priest killed and four injured in knife attack at Polish abbey",
-    "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-    "White House restores access to media outlets banned by Trump after judge's order"
+    "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+    "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says"
   ]
 }

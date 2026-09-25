@@ -1,15 +1,15 @@
 {
-  "global_score": 7.2,
-  "rationale": "Violent attack by Ukrainian national at Polish abbey killing a priest directly affects Polish security and social cohesion; Starlink sabotage continues as known threat.",
+  "global_score": 7.0,
+  "rationale": "Violent attack by Ukrainian national at Polish abbey killing a priest directly affects Polish security and social cohesion. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Priest killed and four injured in knife attack at Polish abbey",
       "label": "Ukrainian suspect kills priest in Polish abbey attack",
-      "summary": "A Ukrainian national killed a priest and injured four others in a knife attack at an abbey in Jarosław, Poland. The incident raises immediate security concerns and may strain Polish-Ukrainian relations amid ongoing refugee presence.",
-      "score": 7.2,
+      "summary": "A Ukrainian national killed a priest and injured four others in a knife attack at an abbey in Jarosław, Poland. This violent incident on Polish soil heightens security concerns and may strain Polish-Ukrainian relations amid ongoing refugee presence.",
+      "score": 7.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
@@ -22,31 +22,12 @@
       "detected_at": "2026-09-24T19:09:00.230698Z"
     },
     {
-      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "label": "Poland confirms Starlink station fire was sabotage",
-      "summary": "Polish government confirms sabotage at satellite station providing internet to Ukraine. Continues pattern of hybrid warfare threats on Polish infrastructure directly supporting Ukrainian war effort.",
-      "score": 3.0,
-      "sentiment": "negative",
+      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+      "label": "Trump denies media access despite court order restoration",
+      "summary": "CNN and MSNBC reporters were denied White House access for a state dinner despite a judge's order to restore their credentials. This signals continued instability in US ally governance.",
+      "score": 2.4,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-23T16:56:21.638003Z"
-    },
-    {
-      "title": "White House restores access to media outlets banned by Trump after judge's order",
-      "label": "US court restores White House media access",
-      "summary": "Federal judge orders restoration of press credentials for CNN, Politico, and MSNBC. Signals judicial check on executive power in key ally, relevant for democratic norms in NATO alliance.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-09-23T16:56:21.638003Z"
+    },
+    {
+      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "label": "Pakistan strikes Afghanistan killing four civilians",
+      "summary": "Pakistan conducted strikes on 10 targets in Afghanistan, killing four civilians according to the Taliban. This escalation in South Asia has minimal direct impact on Polish daily life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-25T01:29:14.970069Z"
     }
   ],
   "short_summary": "Ukrainian suspect kills priest in Polish abbey attack",
   "level_label": "High",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-24T22:23:13.611040Z",
+  "updated_at": "2026-09-25T01:29:14.970069Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-24T19:09:00.230698Z",
   "score_history": [
-    {
-      "t": "2026-09-23T00:31:40.359436Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-23T05:58:10.979242Z",
       "s": 3.6
@@ -128,6 +124,10 @@
     {
       "t": "2026-09-24T22:23:13.611040Z",
       "s": 7.2
+    },
+    {
+      "t": "2026-09-25T01:29:14.970069Z",
+      "s": 7.0
     }
   ]
 }
