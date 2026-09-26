@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-25T22:18:57.301792Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-09-26T01:32:28.099785Z",
+  "ostatnia_ocena": 4.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Hurricane Polo Mexico Pacific El Niño",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 3,
       "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
     },
     {
       "temat": "Pope warns AI threatens humanity France visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Pontiff delivers warning about AI on France trip."
+    },
+    {
+      "temat": "Iran US Hormuz reopening deal proposal",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Iran offers seven-day plan to reopen Strait; energy impact."
     },
     {
       "temat": "Argentina poverty 32 percent Milei economic crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Argentina poverty surge under Milei; distant economy."
     },
     {
       "temat": "Italy bans burqa in schools caps foreign students",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Italy approves face covering ban, foreign student limits."
     },
     {
       "temat": "US court restores media White House access",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Judge orders restoration of press credentials; distant."
     },
     {
       "temat": "OpenAI agent breached Australian government",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "AI agent infiltrated gov site; tech security concern."
     },
     {
       "temat": "Spain housing crisis elderly eviction Madrid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "87-year-old evicted in Madrid; Iberian housing shortage."
-    },
-    {
-      "temat": "El Nino 450000 deaths projection scientists",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
-      "opis": "Scientists project major death toll from strongest El Niño."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-23T23:41:01.577807Z",
-      "s": 2.5
-    },
     {
       "t": "2026-09-24T04:47:47.857359Z",
       "s": 2.4
@@ -96,23 +92,31 @@
     {
       "t": "2026-09-25T22:18:57.293544Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-09-26T01:32:28.091721Z",
+      "s": 4.5
     }
   ],
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "event_detected_at": {
-    "hurricane polo barrels towards baja california region of mexico": {
-      "detected_at": "2026-09-22T22:07:55.741827Z",
-      "peak_at": "2026-09-25T22:18:57.293544Z",
-      "peak_score_at": "2026-09-24T19:09:00.235038Z",
-      "peak_score": 5.0,
-      "peak_sentiment": "negative",
-      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-      "peak_label": "Category 5 Hurricane Polo intensifies off Mexico",
-      "peak_summary": "Hurricane Polo reaches Category 5 strength with 165mph winds off Mexico's Pacific coast, driven by strong El Niño patterns. Storm unlikely to make direct landfall but demonstrates extreme weather.",
+    "iran offers us deal to reopen strait of hormuz in seven days": {
+      "detected_at": "2026-09-26T01:32:28.091721Z",
+      "peak_at": "2026-09-26T01:32:28.091721Z",
+      "peak_score_at": "2026-09-26T01:32:28.091721Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "positive",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "peak_label": "Iran proposes Hormuz reopening within seven days",
+      "peak_summary": "Iran offers US a seven-day plan to reopen the Strait of Hormuz, potentially stabilizing global oil markets and easing EU energy costs.",
       "peak_source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss"
         }
       ]
     },
@@ -129,6 +133,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "hurricane polo barrels towards baja california region of mexico": {
+      "detected_at": "2026-09-22T22:07:55.741827Z",
+      "peak_at": "2026-09-25T22:18:57.293544Z",
+      "peak_score_at": "2026-09-24T19:09:00.235038Z",
+      "peak_score": 4.9,
+      "peak_sentiment": "negative",
+      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+      "peak_label": "Category 5 Hurricane Polo intensifies off Mexico",
+      "peak_summary": "Hurricane Polo reaches Category 5 strength with 165mph winds off Mexico's Pacific coast, driven by strong El Niño patterns. Storm unlikely to make direct landfall but demonstrates extreme weather.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
         }
       ]
     },
@@ -200,22 +220,6 @@
         }
       ]
     },
-    "italy ministers agree to ban burqa and niqab in school and cap foreigners in class": {
-      "detected_at": "2026-09-24T22:23:13.614409Z",
-      "peak_at": "2026-09-24T22:23:13.614409Z",
-      "peak_score_at": "2026-09-24T22:23:13.614409Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-      "peak_label": "Italy bans burqa in schools, caps foreigners",
-      "peak_summary": "Italian government approves ban on face coverings in schools and limits on foreign students per class. Reflects broader EU integration debates relevant to Portuguese society.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "hundreds of thousands expected in paris for pope's visit": {
       "detected_at": "2026-09-25T07:46:41.822106Z",
       "peak_at": "2026-09-25T07:46:41.822106Z",
@@ -231,27 +235,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "argentina's poverty rises to 32 percent under milei with more pain forecast": {
-      "detected_at": "2026-09-25T01:29:14.973452Z",
-      "peak_at": "2026-09-25T01:29:14.973452Z",
-      "peak_score_at": "2026-09-25T01:29:14.973452Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "Argentina's poverty rises to 32 percent under Milei with more pain forecast",
-      "peak_label": "Argentina poverty hits 32 percent under Milei",
-      "peak_summary": "Poverty in Argentina rose 4.1 percentage points to 32% in early 2026 under President Milei's policies. This distant Latin American economic crisis has no direct impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/argentinas-poverty-rises-to-32-percent-under-milei-with-more-pain-forecast?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Hurricane Polo barrels towards Baja California region of Mexico",
+    "Iran offers US deal to reopen Strait of Hormuz in seven days",
     "Pope warns against 'losing humanity' to AI machines",
-    "Special agents' blood and urine test results stolen in FBI hack"
+    "Hurricane Polo barrels towards Baja California region of Mexico"
   ]
 }
