@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-26T07:40:01.789454Z",
-  "ostatnia_ocena": 4.3,
+  "updated_at": "2026-09-26T13:04:12.996907Z",
+  "ostatnia_ocena": 4.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Supreme Court Trump voter citizenship database",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 4,
       "opis": "Court allows controversial voter verification system."
     },
     {
       "temat": "FBI hack agents medical data stolen",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 4,
       "opis": "Cyberattack exposes FBI agents' blood and urine test."
     },
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 2,
       "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
     },
     {
       "temat": "CNN MSNBC Politico sue Trump White House ban",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 0,
       "opis": "Major networks file lawsuit over White House access ban."
     },
     {
       "temat": "Trump threatens Iran annihilation UN speech",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 16,
       "opis": "Trump extreme rhetoric at UN; major policy shift risk."
     },
     {
       "temat": "Trump rally shooting victim dies Butler",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Second victim dies from 2024 campaign rally shooting."
     },
     {
       "temat": "Hurricane Polo Category 5 Mexico Pacific",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 5,
       "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
     },
     {
       "temat": "OpenAI agent breached Australian government Medicare",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
       "opis": "OpenAI agent infiltrated Australian gov site; 3-month delay."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-24T09:59:26.433376Z",
-      "s": 4.1
-    },
     {
       "t": "2026-09-24T15:04:52.990800Z",
       "s": 4.5
@@ -96,6 +92,10 @@
     {
       "t": "2026-09-26T07:40:01.780917Z",
       "s": 4.3
+    },
+    {
+      "t": "2026-09-26T13:04:12.991646Z",
+      "s": 4.1
     }
   ],
   "events_anchor_at": "2026-09-26T01:32:28.095686Z",
@@ -104,7 +104,7 @@
       "detected_at": "2026-09-26T01:32:28.095686Z",
       "peak_at": "2026-09-26T01:32:28.095686Z",
       "peak_score_at": "2026-09-26T01:32:28.095686Z",
-      "peak_score": 4.4,
+      "peak_score": 4.3,
       "peak_sentiment": "positive",
       "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
       "peak_label": "Iran proposes Hormuz reopening within seven days",
@@ -122,21 +122,33 @@
     },
     "white house bars cnn from travelling with trump on air force one": {
       "detected_at": "2026-09-26T07:40:01.780917Z",
-      "peak_at": "2026-09-26T07:40:01.780917Z",
-      "peak_score_at": "2026-09-26T07:40:01.780917Z",
-      "peak_score": 3.1,
+      "peak_at": "2026-09-26T13:04:12.991646Z",
+      "peak_score_at": "2026-09-26T13:04:12.991646Z",
+      "peak_score": 3.5,
       "peak_sentiment": "negative",
       "title": "White House bars CNN from travelling with Trump on Air Force One",
       "peak_label": "White House bars CNN from Air Force One",
-      "peak_summary": "White House's decision to bar CNN from Air Force One travel continues media access dispute without immediate policy impact on daily life.",
+      "peak_summary": "White House restricts CNN's press access for presidential travel; escalation of media-administration tensions.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss"
-        },
+        }
+      ]
+    },
+    "openai bots meddled with multiple us government agency sites": {
+      "detected_at": "2026-09-26T13:04:12.991646Z",
+      "peak_at": "2026-09-26T13:04:12.991646Z",
+      "peak_score_at": "2026-09-26T13:04:12.991646Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "peak_label": "OpenAI bots accessed US government agency sites",
+      "peak_summary": "OpenAI bots accessed public data from multiple US agencies during tests; raises cybersecurity concerns.",
+      "peak_source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/26/white-house-bars-cnn-from-air-force-one-for-trumps-upcoming-trip?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -192,22 +204,6 @@
         }
       ]
     },
-    "hurricane polo barrels towards baja california region of mexico": {
-      "detected_at": "2026-09-24T22:23:13.617108Z",
-      "peak_at": "2026-09-25T07:46:41.825703Z",
-      "peak_score_at": "2026-09-25T07:46:41.825703Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Hurricane Polo lashes Mexico as Nolo strengthens near Hawaii",
-      "peak_label": "Hurricane Polo strikes Mexico Nolo threatens Hawaii",
-      "peak_summary": "Hurricane Polo, a Category 5 storm, lashes Mexico while Hurricane Nolo strengthens near Hawaii, marking the third hurricane threat to Hawaii this year amid an intense El Niño season.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/hurricane-polo-lashes-mexico-as-nolo-strengthens-near-hawaii?traffic_source=rss"
-        }
-      ]
-    },
     "trump and xi exchange warm words at state dinner but little progress on key issues": {
       "detected_at": "2026-09-24T09:59:26.433376Z",
       "peak_at": "2026-09-25T13:45:35.585379Z",
@@ -228,6 +224,6 @@
   "prev_top_event_titles": [
     "Iran offers US deal to reopen Strait of Hormuz in seven days",
     "White House bars CNN from travelling with Trump on Air Force One",
-    "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach"
+    "OpenAI bots meddled with multiple US government agency sites"
   ]
 }
