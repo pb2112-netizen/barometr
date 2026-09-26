@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-26T01:32:28.099785Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-09-26T07:40:01.784375Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Hurricane Polo Mexico Pacific El Niño",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 4,
       "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
     },
     {
       "temat": "Pope warns AI threatens humanity France visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Pontiff delivers warning about AI on France trip."
     },
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 1,
       "opis": "Iran offers seven-day plan to reopen Strait; energy impact."
     },
     {
       "temat": "Argentina poverty 32 percent Milei economic crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Argentina poverty surge under Milei; distant economy."
     },
     {
       "temat": "Italy bans burqa in schools caps foreign students",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Italy approves face covering ban, foreign student limits."
     },
     {
       "temat": "US court restores media White House access",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Judge orders restoration of press credentials; distant."
     },
     {
       "temat": "OpenAI agent breached Australian government",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "AI agent infiltrated gov site; tech security concern."
     },
     {
       "temat": "Spain housing crisis elderly eviction Madrid",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "87-year-old evicted in Madrid; Iberian housing shortage."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-24T04:47:47.857359Z",
-      "s": 2.4
-    },
     {
       "t": "2026-09-24T09:59:26.430048Z",
       "s": 2.3
@@ -96,19 +92,23 @@
     {
       "t": "2026-09-26T01:32:28.091721Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-09-26T07:40:01.777463Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "event_detected_at": {
     "iran offers us deal to reopen strait of hormuz in seven days": {
       "detected_at": "2026-09-26T01:32:28.091721Z",
-      "peak_at": "2026-09-26T01:32:28.091721Z",
-      "peak_score_at": "2026-09-26T01:32:28.091721Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "positive",
+      "peak_at": "2026-09-26T07:40:01.777463Z",
+      "peak_score_at": "2026-09-26T07:40:01.777463Z",
+      "peak_score": 4.6,
+      "peak_sentiment": "neutral",
       "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "peak_label": "Iran proposes Hormuz reopening within seven days",
-      "peak_summary": "Iran offers US a seven-day plan to reopen the Strait of Hormuz, potentially stabilizing global oil markets and easing EU energy costs.",
+      "peak_label": "Iran proposes seven-day Hormuz reopening deal",
+      "peak_summary": "Iran's proposal to reopen the Strait could ease EU-wide energy prices affecting Portugal indirectly, though outcome remains uncertain.",
       "peak_source_links": [
         {
           "name": "BBC",
@@ -116,7 +116,27 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss"
+        }
+      ]
+    },
+    "bangkok roads submerged as flood disaster declared": {
+      "detected_at": "2026-09-26T07:40:01.777463Z",
+      "peak_at": "2026-09-26T07:40:01.777463Z",
+      "peak_score_at": "2026-09-26T07:40:01.777463Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "neutral",
+      "title": "Bangkok roads submerged as flood disaster declared",
+      "peak_label": "Bangkok declares emergency amid massive floods",
+      "peak_summary": "Flooding disaster in distant Thailand has no direct impact on Portuguese daily life or economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss"
         }
       ]
     },
@@ -239,7 +259,7 @@
   },
   "prev_top_event_titles": [
     "Iran offers US deal to reopen Strait of Hormuz in seven days",
-    "Pope warns against 'losing humanity' to AI machines",
-    "Hurricane Polo barrels towards Baja California region of Mexico"
+    "Bangkok roads submerged as flood disaster declared",
+    "Pope warns against 'losing humanity' to AI machines"
   ]
 }

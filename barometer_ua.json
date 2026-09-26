@@ -1,11 +1,11 @@
 {
-  "global_score": 4.2,
-  "rationale": "Russia continues data center attacks (known background); Iran-Hormuz deal could ease global energy situation indirectly; no new direct military escalation on Ukrainian soil. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.0,
+  "rationale": "Russia's confirmed escalation to civilian data centers directly attacks Ukrainian infrastructure and daily connectivity — qualitative new threat. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "label": "Russia attacks Ukraine data centers infrastructure",
-      "summary": "Russia continues strikes on Ukrainian digital infrastructure, disrupting connectivity, work, and study—ongoing assault on civilian life.",
+      "label": "Russia attacks Ukraine civilian data centers",
+      "summary": "Russia's confirmed strikes on data centers directly disrupt Ukrainian residents' ability to stay connected, work, and study — a qualitative escalation to civilian digital infrastructure.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -23,11 +23,11 @@
     },
     {
       "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "label": "Iran proposes Hormuz reopening within seven days",
-      "summary": "Iran offers US a seven-day plan to reopen the Strait of Hormuz, which could ease global oil supply and indirectly benefit Ukraine's economy.",
-      "score": 4.2,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "label": "Iran proposes seven-day Hormuz reopening deal",
+      "summary": "Iran's proposal to reopen the Strait could ease global energy prices affecting Ukraine's economy indirectly, though outcome remains uncertain.",
+      "score": 4.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -40,37 +40,42 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.093628Z"
     },
     {
-      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-      "label": "FBI hack exposes agents medical data breach",
-      "summary": "Cyberattack on FBI reveals sensitive agent medical records; highlights cyber threats to allied intelligence agencies supporting Ukraine.",
-      "score": 3.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "title": "Bangkok roads submerged as flood disaster declared",
+      "label": "Bangkok declares emergency amid massive floods",
+      "summary": "Flooding disaster in distant Thailand has no impact on Ukrainian daily life during war.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-25T22:18:57.295207Z"
+      "detected_at": "2026-09-26T07:40:01.779183Z"
     }
   ],
   "short_summary": "Poland boosts air defense after Russian provocations",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-26T01:32:28.093628Z",
+  "updated_at": "2026-09-26T07:40:01.779183Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-09-23T16:56:21.641877Z",
   "score_history": [
-    {
-      "t": "2026-09-24T04:47:47.858713Z",
-      "s": 4.6
-    },
     {
       "t": "2026-09-24T09:59:26.431925Z",
       "s": 4.0
@@ -133,6 +134,10 @@
     {
       "t": "2026-09-26T01:32:28.093628Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-09-26T07:40:01.779183Z",
+      "s": 4.0
     }
   ]
 }
