@@ -1,63 +1,78 @@
 {
-  "global_score": 4.4,
-  "rationale": "Iran-US Hormuz proposal continues to affect EU energy outlook indirectly; Brazil election gambling ban is distant political news; no direct impact on Portugal this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.2,
+  "rationale": "Trump's rejection of Iran's Hormuz deal sustains energy price pressure indirectly affecting Portugal's cost of living. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "label": "Iran proposes seven-day Hormuz reopening deal",
-      "summary": "Iran's proposal to reopen the Strait could ease EU energy prices if successful, indirectly benefiting Portugal.",
-      "score": 4.4,
-      "sentiment": "neutral",
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "label": "Trump rejects Iran Hormuz reopening plan",
+      "summary": "US president dismisses Iran's proposal, prolonging energy supply uncertainty and maintaining upward pressure on fuel costs in Portugal.",
+      "score": 4.2,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.091721Z"
     },
     {
       "title": "Brazil's Lula bans online gambling ahead of presidential election",
-      "label": "Brazil bans online gambling before election",
-      "summary": "Lula bans online gambling in tight presidential race; distant political development with no impact on Portugal.",
+      "label": "Brazil Lula bans online gambling before vote",
+      "summary": "Brazil's president bans online gambling in tight election race; distant political development with no impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections"
         }
       ],
       "detected_at": "2026-09-26T13:04:12.988334Z"
     },
     {
-      "title": "Bangkok roads submerged as flood disaster declared",
-      "label": "Bangkok declares emergency as floods submerge city",
-      "summary": "Major flooding in Thailand's capital; distant climate event with no connection to Portugal.",
+      "title": "Pope praises 'energy and commitment' of young people as huge crowds join open-air Mass in Paris",
+      "label": "Pope celebrates Mass for 700,000 in Paris",
+      "summary": "Major religious event in France; culturally relevant but no direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "katastrofa",
+      "nowosc": "kontynuacja",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/several-hundred-thousand-people-gather-for-pope-leos-mass-in-paris?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-26T07:40:01.777463Z"
+      "detected_at": "2026-09-26T17:09:12.070313Z"
     }
   ],
   "short_summary": "Category 5 Hurricane Polo intensifies off Mexico",
@@ -65,9 +80,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-26T13:04:12.988334Z",
+  "updated_at": "2026-09-26T17:09:12.070313Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Category 5 Hurricane Polo intensifies off Mexico",
     "summary": "Hurricane Polo reaches Category 5 strength with 165mph winds off Mexico's Pacific coast, driven by strong El Niño patterns. Storm unlikely to make direct landfall but demonstrates extreme weather.",
@@ -85,10 +100,6 @@
   },
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "score_history": [
-    {
-      "t": "2026-09-24T15:04:52.987296Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-24T19:09:00.235038Z",
       "s": 5.5
@@ -128,6 +139,10 @@
     {
       "t": "2026-09-26T13:04:12.988334Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-09-26T17:09:12.070313Z",
+      "s": 4.2
     }
   ]
 }

@@ -1,52 +1,57 @@
 {
-  "global_score": 3.9,
-  "rationale": "Russia continues attacks on Ukrainian data centers; Iran-US Hormuz proposal affects energy outlook; no new major escalation on Ukrainian territory this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "Trump's rejection of Iran deal sustains energy uncertainty affecting Ukraine's wartime economy; ongoing strikes continue without major escalation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "label": "Russia attacks Ukrainian data centers infrastructure",
-      "summary": "Russia continues strikes on civilian digital infrastructure, disrupting connectivity and daily life for Ukrainians.",
-      "score": 3.0,
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "label": "Trump rejects Iran Hormuz reopening deal",
+      "summary": "US dismisses Iran's proposal to reopen the Strait, prolonging energy supply uncertainty and maintaining pressure on Ukraine's wartime fuel costs.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-25T13:45:35.583932Z"
-    },
-    {
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "label": "Iran proposes seven-day Hormuz reopening deal",
-      "summary": "Iran's proposal to reopen the Strait could ease global energy prices, indirectly affecting Ukraine's economy.",
-      "score": 3.9,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.093628Z"
     },
     {
+      "title": "At least 10 people killed in Russian and Ukrainian attacks",
+      "label": "Russian Ukrainian strikes kill at least ten",
+      "summary": "Continued strikes in the ongoing war; no qualitative change in the conflict affecting Ukrainian daily life.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-26T17:09:12.072113Z"
+    },
+    {
       "title": "White House bars CNN from travelling with Trump on Air Force One",
       "label": "White House bars CNN from Air Force One",
-      "summary": "US press access dispute; signals unpredictable US policy environment affecting Ukraine's key ally.",
+      "summary": "US press access dispute; signals unpredictable ally policy but no direct impact on Ukraine's war effort.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-26T13:04:12.990215Z",
+  "updated_at": "2026-09-26T17:09:12.072113Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Poland boosts air defense after Russian provocations",
     "summary": "Poland strengthens air defenses responding to alleged Russian incursions during Ukraine's parliamentary voting, raising alert on critical NATO support route.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-23T16:56:21.641877Z",
   "score_history": [
-    {
-      "t": "2026-09-24T15:04:52.989203Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-24T19:09:00.237244Z",
       "s": 5.0
@@ -128,6 +129,10 @@
     {
       "t": "2026-09-26T13:04:12.990215Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-09-26T17:09:12.072113Z",
+      "s": 3.8
     }
   ]
 }

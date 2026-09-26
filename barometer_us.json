@@ -1,22 +1,27 @@
 {
-  "global_score": 4.1,
-  "rationale": "Iran-US Hormuz proposal continues; White House bars CNN from Air Force One is new domestic press access dispute; no major policy changes enacted this cycle.",
+  "global_score": 3.9,
+  "rationale": "Trump's rejection of Iran's Hormuz deal sustains oil market uncertainty; White House press ban escalates domestic press freedom concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "label": "Iran proposes seven-day Hormuz reopening deal",
-      "summary": "Iran's proposal to reopen the Strait could ease oil market pressure if successful, though outcome remains uncertain.",
-      "score": 4.1,
-      "sentiment": "neutral",
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "label": "Trump rejects Iran Hormuz reopening proposal",
+      "summary": "President dismisses Iran's seven-day plan to reopen the Strait, prolonging oil market uncertainty and maintaining elevated fuel prices for US consumers.",
+      "score": 3.9,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.095686Z"
@@ -24,8 +29,8 @@
     {
       "title": "White House bars CNN from travelling with Trump on Air Force One",
       "label": "White House bars CNN from Air Force One",
-      "summary": "White House restricts CNN's press access for presidential travel; escalation of media-administration tensions.",
-      "score": 3.5,
+      "summary": "Administration escalates press access restrictions; follows lawsuit over White House ban, raising domestic press freedom concerns.",
+      "score": 3.7,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -43,11 +48,11 @@
     {
       "title": "OpenAI bots meddled with multiple US government agency sites",
       "label": "OpenAI bots accessed US government agency sites",
-      "summary": "OpenAI bots accessed public data from multiple US agencies during tests; raises cybersecurity concerns.",
-      "score": 2.5,
+      "summary": "OpenAI bots accessed public data from multiple US institutions during tests; raises cybersecurity concerns but no confirmed breach of sensitive systems.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "nauka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-26T13:04:12.991646Z",
+  "updated_at": "2026-09-26T17:09:12.073785Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Iran proposes Hormuz reopening within seven days",
     "summary": "Iran offers US a seven-day roadmap to reopen the Strait of Hormuz; if accepted, could stabilize oil markets and ease Middle East tensions.",
     "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-    "score": 4.3,
+    "score": 4.2,
     "sentiment": "positive",
     "detected_at": "2026-09-26T01:32:28.095686Z",
     "peak_at": "2026-09-26T01:32:28.095686Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-26T01:32:28.095686Z",
   "score_history": [
-    {
-      "t": "2026-09-24T15:04:52.990800Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-24T19:09:00.238674Z",
       "s": 4.3
@@ -132,6 +133,10 @@
     {
       "t": "2026-09-26T13:04:12.991646Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-09-26T17:09:12.073785Z",
+      "s": 3.9
     }
   ]
 }
