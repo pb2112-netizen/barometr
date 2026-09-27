@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-09-27T01:26:03.294910Z",
-  "ostatnia_ocena": 3.8,
+  "updated_at": "2026-09-27T08:07:54.065012Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 7,
       "opis": "Iran offers seven-day plan to reopen Strait; energy impact."
+    },
+    {
+      "temat": "Hurricane Polo Mexico Pacific El Niño",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 10,
+      "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
+    },
+    {
+      "temat": "Nor'easter US East Coast flooding emergency",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Major storm affects millions on US East Coast; climate."
     },
     {
       "temat": "Brazil Lula bans online gambling election",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Brazil bans gambling before vote; distant politics."
     },
     {
       "temat": "Bangkok flooding disaster Thailand climate",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Major flooding in Bangkok; distant climate event."
-    },
-    {
-      "temat": "Hurricane Polo Mexico Pacific El Niño",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 9,
-      "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
     },
     {
       "temat": "Pope warns AI threatens humanity France visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Pontiff delivers warning about AI on France trip."
     },
     {
       "temat": "Argentina poverty 32 percent Milei economic crisis",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Argentina poverty surge under Milei; distant economy."
     },
     {
       "temat": "Italy bans burqa in schools caps foreign students",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
-      "opis": "Italy approves face covering ban, foreign student limits."
-    },
-    {
-      "temat": "US court restores media White House access",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 13,
-      "opis": "Judge orders restoration of press credentials; distant."
+      "opis": "Italy approves face covering ban, foreign student limits."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-25T01:29:14.973452Z",
-      "s": 4.9
-    },
-    {
-      "t": "2026-09-25T07:46:41.822106Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-25T13:45:35.581965Z",
       "s": 2.8
@@ -100,15 +92,51 @@
     {
       "t": "2026-09-27T01:26:03.288480Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-09-27T08:07:54.055497Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-09-22T22:07:55.741827Z",
   "event_detected_at": {
-    "trump rejects iran deal to reopen strait of hormuz in seven days": {
+    "nor'easter brings flooding as new york and new jersey declare emergency": {
+      "detected_at": "2026-09-27T08:07:54.055497Z",
+      "peak_at": "2026-09-27T08:07:54.055497Z",
+      "peak_score_at": "2026-09-27T08:07:54.055497Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "neutral",
+      "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
+      "peak_label": "Nor'easter floods US East Coast emergency",
+      "peak_summary": "Powerful storm affects tens of millions from Maine to Virginia with coastal flooding. No direct impact on Portugal but signals volatile Atlantic weather patterns.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "hurricane polo barrels towards baja california region of mexico": {
+      "detected_at": "2026-09-22T22:07:55.741827Z",
+      "peak_at": "2026-09-26T22:48:26.867853Z",
+      "peak_score_at": "2026-09-24T19:09:00.235038Z",
+      "peak_score": 4.7,
+      "peak_sentiment": "negative",
+      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+      "peak_label": "Category 5 Hurricane Polo intensifies off Mexico",
+      "peak_summary": "Hurricane Polo reaches Category 5 strength with 165mph winds off Mexico's Pacific coast, driven by strong El Niño patterns. Storm unlikely to make direct landfall but demonstrates extreme weather.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
+        }
+      ]
+    },
+    "iranian minister says only negotiation can end conflict after trump rejects hormuz deal": {
       "detected_at": "2026-09-26T01:32:28.091721Z",
-      "peak_at": "2026-09-26T07:40:01.777463Z",
+      "peak_at": "2026-09-27T08:07:54.055497Z",
       "peak_score_at": "2026-09-26T07:40:01.777463Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "neutral",
       "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
       "peak_label": "Iran proposes seven-day Hormuz reopening deal",
@@ -160,22 +188,6 @@
         }
       ]
     },
-    "hurricane polo barrels towards baja california region of mexico": {
-      "detected_at": "2026-09-22T22:07:55.741827Z",
-      "peak_at": "2026-09-26T22:48:26.867853Z",
-      "peak_score_at": "2026-09-24T19:09:00.235038Z",
-      "peak_score": 4.8,
-      "peak_sentiment": "negative",
-      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
-      "peak_label": "Category 5 Hurricane Polo intensifies off Mexico",
-      "peak_summary": "Hurricane Polo reaches Category 5 strength with 165mph winds off Mexico's Pacific coast, driven by strong El Niño patterns. Storm unlikely to make direct landfall but demonstrates extreme weather.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico"
-        }
-      ]
-    },
     "bangkok roads submerged as flood disaster declared": {
       "detected_at": "2026-09-26T07:40:01.777463Z",
       "peak_at": "2026-09-26T13:04:12.988334Z",
@@ -194,8 +206,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
-    "Brazil's Lula bans online gambling ahead of presidential election",
-    "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris"
+    "Nor'easter brings flooding as New York and New Jersey declare emergency",
+    "Hurricane Polo barrels towards Baja California region of Mexico",
+    "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal"
   ]
 }
