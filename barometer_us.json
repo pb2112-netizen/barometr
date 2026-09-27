@@ -1,22 +1,27 @@
 {
-  "global_score": 4.7,
-  "rationale": "Nor'easter brings flooding and emergency declarations in New York and New Jersey; Iran deal rejection continues; other events lower impact.",
+  "global_score": 4.5,
+  "rationale": "Nor'easter continues to bring flooding and emergencies to East Coast; Trump rejects Iran Hormuz deal affecting oil markets; fuel economy rollback is new policy action.",
   "top_events": [
     {
       "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
-      "label": "Nor'easter floods New York and New Jersey",
-      "summary": "Powerful storm brings coastal flooding and emergency declarations affecting tens of millions from Maine to Virginia.",
-      "score": 4.7,
+      "label": "Nor'easter floods East Coast states",
+      "summary": "Powerful storm affects tens of millions from Maine to Virginia with coastal flooding; New York and New Jersey declare emergencies as extreme conditions continue.",
+      "score": 4.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T19:51:06.717239Z"
@@ -24,29 +29,34 @@
     {
       "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
       "label": "Trump rejects Iran Hormuz reopening deal",
-      "summary": "US rejection of Iran's seven-day proposal keeps Strait closed, sustaining oil market uncertainty and geopolitical tension.",
-      "score": 3.6,
+      "summary": "President rejects Iran's seven-day proposal to reopen Strait of Hormuz, prolonging energy supply uncertainty and potential impact on US oil markets.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.095686Z"
     },
     {
       "title": "Trump says he is rolling back Biden-era US fuel economy rules for cars",
-      "label": "Trump rolls back Biden fuel economy rules",
-      "summary": "President announces rollback of fuel economy standards, ending push toward electric vehicles; policy shift affecting auto industry.",
+      "label": "Trump ends Biden fuel economy standards",
+      "summary": "President announces rollback of Biden-era fuel economy rules, ending so-called 'EV mandate' steering consumers to electric vehicles; direct policy change affecting auto industry.",
       "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "Al Jazeera"
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-26T22:48:26.870316Z",
+  "updated_at": "2026-09-27T01:26:03.291634Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -128,6 +138,10 @@
     {
       "t": "2026-09-26T22:48:26.870316Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-09-27T01:26:03.291634Z",
+      "s": 4.5
     }
   ]
 }

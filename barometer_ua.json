@@ -1,12 +1,12 @@
 {
-  "global_score": 3.5,
-  "rationale": "Russia scales up strikes on Ukraine, halting major steelmaker; ongoing war intensification but no qualitative new threat level. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.4,
+  "rationale": "Russia scales up strikes on Ukraine, halting major steelmaker operations — qualitative escalation of infrastructure targeting; Iran-US deal rejection affects energy outlook. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia scales up strikes on Ukraine as largest steelmaker halts operations",
-      "label": "Russia strikes halt Ukraine's largest steelmaker",
-      "summary": "Russian strikes force closure of Ukraine's largest steel plant; continued infrastructure damage affecting economy and daily life.",
-      "score": 3.2,
+      "label": "Russia escalates strikes halting steel production",
+      "summary": "Wave of Russian strikes hits multiple Ukrainian regions, forcing largest steelmaker to halt operations; qualitative escalation of infrastructure targeting affecting industrial capacity.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,40 +24,45 @@
     {
       "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
       "label": "Trump rejects Iran Hormuz reopening deal",
-      "summary": "US rejection of Iran's proposal keeps Strait closed, sustaining energy uncertainty affecting Ukraine's allies and aid.",
-      "score": 3.5,
+      "summary": "US president rejects Iran's seven-day proposal to reopen Strait of Hormuz, prolonging energy supply uncertainty affecting Ukraine's fuel costs and Western support.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-26T01:32:28.093628Z"
     },
     {
-      "title": "Ireland decide to play Israel in Nations League after squad vote",
-      "label": "Ireland votes to play Israel in Nations League",
-      "summary": "Ireland proceeds with Israel match after vote; distant sports event with no impact on Ukraine.",
-      "score": 1.0,
+      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "label": "Ethiopian rebels launch offensive against government",
+      "summary": "Tigrayan rebels form coalition aimed at overthrowing government; distant conflict with no direct impact on Ukraine.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "inne",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/ireland-decide-to-play-israel-in-nations-league-after-squad-vote?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army"
         }
       ],
-      "detected_at": "2026-09-26T22:48:26.868918Z"
+      "detected_at": "2026-09-27T01:26:03.290006Z"
     }
   ],
   "short_summary": "Iran proposes Hormuz reopening within seven days",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-26T22:48:26.868918Z",
+  "updated_at": "2026-09-27T01:26:03.290006Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Iran proposes Hormuz reopening within seven days",
     "summary": "Iran offers US a seven-day plan to reopen the Strait of Hormuz, which could ease global oil supply and indirectly benefit Ukraine's economy.",
     "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "positive",
     "detected_at": "2026-09-26T01:32:28.093628Z",
     "peak_at": "2026-09-26T01:32:28.093628Z",
@@ -132,6 +137,10 @@
     {
       "t": "2026-09-26T22:48:26.868918Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-27T01:26:03.290006Z",
+      "s": 3.4
     }
   ]
 }
