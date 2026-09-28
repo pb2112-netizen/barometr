@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-28T00:44:38.645453Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-09-28T06:51:47.978245Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 11,
-      "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
-    },
-    {
       "temat": "Nor'easter storm East Coast flooding emergency",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Powerful storm brings coastal flooding; millions affected."
     },
     {
       "temat": "Helicopter crash near Montreal Quebec",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 1,
       "opis": "Four killed in helicopter crash near Montreal; nearby event."
     },
     {
-      "temat": "Trump rolls back Biden fuel economy EV rules",
+      "temat": "US China tariff cuts Trump Xi summit",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "US and China announce tariff reductions on $60bn trade."
+    },
+    {
+      "temat": "Iran US Hormuz reopening deal proposal",
       "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 12,
+      "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
+    },
+    {
+      "temat": "Trump rolls back Biden fuel economy EV rules",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 7,
       "opis": "President ends Biden-era fuel standards; auto industry."
     },
     {
       "temat": "CNN MSNBC Politico sue Trump White House ban",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 9,
       "opis": "Major networks file lawsuit over White House access ban."
     },
     {
       "temat": "Detroit strip club shooting three dead",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "Shooting at Detroit venue kills three, injures four."
     },
     {
       "temat": "Supreme Court Trump voter citizenship database",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 14,
       "opis": "Court allows controversial voter verification system."
-    },
-    {
-      "temat": "Michigan CEO fired Lake America AI image controversy",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 4,
-      "opis": "Corporate fallout from Trump Lake Ontario name controversy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-26T01:32:28.095686Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-26T07:40:01.780917Z",
       "s": 4.3
@@ -100,6 +96,10 @@
     {
       "t": "2026-09-28T00:44:38.640042Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-09-28T06:51:47.973211Z",
+      "s": 3.5
     }
   ],
   "events_anchor_at": "2026-09-26T19:51:06.717239Z",
@@ -108,7 +108,7 @@
       "detected_at": "2026-09-26T19:51:06.717239Z",
       "peak_at": "2026-09-27T22:09:03.581644Z",
       "peak_score_at": "2026-09-26T19:51:06.717239Z",
-      "peak_score": 4.5,
+      "peak_score": 4.4,
       "peak_sentiment": "negative",
       "title": "Nor'easter storm brings coastal flooding, as New York and New Jersey declare emergency",
       "peak_label": "Nor'easter floods US East Coast states",
@@ -117,6 +117,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us, china list goods recommended for tariff cuts following trump-xi summit": {
+      "detected_at": "2026-09-28T06:51:47.973211Z",
+      "peak_at": "2026-09-28T06:51:47.973211Z",
+      "peak_score_at": "2026-09-28T06:51:47.973211Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "positive",
+      "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+      "peak_label": "US China announce tariff cuts on $60bn trade",
+      "peak_summary": "Washington and Beijing detail agreement to reduce tariffs on $60 billion of trade; confirmed policy shift with direct US economic implications.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss"
+        }
+      ]
+    },
+    "four killed in helicopter crash near montreal": {
+      "detected_at": "2026-09-27T22:09:03.581644Z",
+      "peak_at": "2026-09-27T22:09:03.581644Z",
+      "peak_score_at": "2026-09-27T22:09:03.581644Z",
+      "peak_score": 2.7,
+      "peak_sentiment": "negative",
+      "title": "Three killed, four injured in shooting at Detroit, Michigan, strip club",
+      "peak_label": "Detroit strip club shooting kills three, injures four",
+      "peak_summary": "Shooting follows altercation at after-hours venue with four hospitalized. Localized violent incident with no broader national impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/27/three-killed-four-injured-in-shooting-at-detroit-michigan-strip-club?traffic_source=rss"
         }
       ]
     },
@@ -140,22 +172,6 @@
         }
       ]
     },
-    "four killed in helicopter crash near montreal": {
-      "detected_at": "2026-09-27T22:09:03.581644Z",
-      "peak_at": "2026-09-27T22:09:03.581644Z",
-      "peak_score_at": "2026-09-27T22:09:03.581644Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "Three killed, four injured in shooting at Detroit, Michigan, strip club",
-      "peak_label": "Detroit strip club shooting kills three, injures four",
-      "peak_summary": "Shooting follows altercation at after-hours venue with four hospitalized. Localized violent incident with no broader national impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/27/three-killed-four-injured-in-shooting-at-detroit-michigan-strip-club?traffic_source=rss"
-        }
-      ]
-    },
     "michigan ceo loses job after posting ai-made image of her family in 'lake america' sweaters": {
       "detected_at": "2026-09-27T08:07:54.059369Z",
       "peak_at": "2026-09-27T08:07:54.059369Z",
@@ -175,7 +191,7 @@
   },
   "prev_top_event_titles": [
     "One dead as nor'easter storm pummels New York and New Jersey",
-    "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+    "US, China list goods recommended for tariff cuts following Trump-Xi summit",
     "Four killed in helicopter crash near Montreal"
   ]
 }

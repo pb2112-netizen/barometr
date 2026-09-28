@@ -1,11 +1,30 @@
 {
   "global_score": 3.0,
-  "rationale": "Hormuz diplomatic developments continue with indirect energy implications; nor'easter storm persists as climate concern; no new major changes affecting Portuguese daily life.",
+  "rationale": "Nor'easter storm continues to affect US East Coast with confirmed casualties; other events remain distant or rhetorical without direct Portuguese impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "One dead as nor'easter storm pummels New York and New Jersey",
+      "label": "Nor'easter kills one, pummels New York area",
+      "summary": "Powerful storm affects tens of millions from Maine to Virginia with coastal flooding; ongoing climate event with indirect global implications.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-27T08:07:54.055497Z"
+    },
+    {
       "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
-      "label": "Iran says negotiation needed after US rejects deal",
-      "summary": "Tehran responds diplomatically to US rejection of Hormuz reopening plan. Indirect energy market implications for Portugal continue without qualitative change.",
+      "label": "Iran says negotiation needed after Trump rejects deal",
+      "summary": "Tehran awaits official rejection of Hormuz reopening proposal; rhetoric continues without confirmed policy change affecting Portuguese energy markets.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,62 +41,38 @@
       "detected_at": "2026-09-26T01:32:28.091721Z"
     },
     {
-      "title": "One dead as nor'easter storm pummels New York and New Jersey",
-      "label": "Nor'easter storm batters US East Coast",
-      "summary": "Powerful storm affects tens of millions on US East Coast. Distant climate event with no direct Portuguese impact.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+      "label": "US China announce tariff cuts on $60bn trade",
+      "summary": "Washington and Beijing detail agreement to reduce tariffs on $60 billion of trade; confirmed policy shift with indirect EU economic implications.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/27/powerful-storm-floods-us-northeast-causes-power-outages?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-27T08:07:54.055497Z"
-    },
-    {
-      "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
-      "label": "Brazil bans sports betting before elections",
-      "summary": "Brazilian president signs order banning fixed-odds betting ahead of elections. Distant political decision with no Portuguese connection.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections"
-        }
-      ],
-      "detected_at": "2026-09-28T00:44:38.635986Z"
+      "detected_at": "2026-09-28T06:51:47.969516Z"
     }
   ],
   "short_summary": "Iran proposes seven-day Hormuz reopening deal",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-09-28T00:44:38.635986Z",
+  "updated_at": "2026-09-28T06:51:47.969516Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Iran proposes seven-day Hormuz reopening deal",
     "summary": "Iran's proposal to reopen the Strait could ease EU-wide energy prices affecting Portugal indirectly, though outcome remains uncertain.",
     "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "neutral",
     "detected_at": "2026-09-26T01:32:28.091721Z",
     "peak_at": "2026-09-27T08:07:54.055497Z",
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-26T01:32:28.091721Z",
   "score_history": [
-    {
-      "t": "2026-09-26T01:32:28.091721Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-26T07:40:01.777463Z",
       "s": 4.6
@@ -140,6 +131,10 @@
     },
     {
       "t": "2026-09-28T00:44:38.635986Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-09-28T06:51:47.969516Z",
       "s": 3.0
     }
   ]
