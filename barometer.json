@@ -1,11 +1,30 @@
 {
-  "global_score": 3.0,
-  "rationale": "Iran-US Hormuz negotiation continues without resolution; nor'easter and distant violence remain background; no new direct threats to Poland this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "Serbian president's resignation is a new regional political shift; other events continue without qualitative change from Polish perspective.",
   "top_events": [
     {
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "label": "Serbian president resigns after protests",
+      "summary": "Aleksandar Vučić steps down amid corruption allegations and prolonged protests, triggering early elections in a neighboring Balkan state with potential regional implications.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-28T00:44:38.632986Z"
+    },
+    {
       "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
-      "label": "Iran says negotiation only path after Trump rejects deal",
-      "summary": "Iran's foreign minister responds to US rejection of Hormuz reopening proposal, maintaining diplomatic stance. No change to energy supply situation affecting Poland.",
+      "label": "Iran says negotiation needed after US rejects deal",
+      "summary": "Tehran's foreign minister responds to Trump's rejection of Hormuz reopening proposal, maintaining diplomatic stance. Indirect energy market impact for Poland continues.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,39 +41,25 @@
       "detected_at": "2026-09-26T01:32:28.087236Z"
     },
     {
-      "title": "One dead as nor'easter storm pummels New York and New Jersey",
-      "label": "Nor'easter storm kills one, affects millions in US",
-      "summary": "Major storm continues on US East Coast with one fatality. Distant weather event with no direct impact on Polish daily life.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-26T19:51:06.711982Z"
-    },
-    {
       "title": "Two mass shootings in South Africa leave 27 dead",
-      "label": "South Africa mass shootings kill 27 people",
-      "summary": "Gang violence in South Africa continues with high casualties. Distant event with no connection to Poland.",
+      "label": "South Africa mass shootings kill 27",
+      "summary": "Gang-related violence in South Africa continues with no connection to Polish daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
         }
       ],
       "detected_at": "2026-09-27T13:57:03.294260Z"
@@ -62,17 +67,17 @@
   ],
   "short_summary": "Iran proposes seven-day Hormuz reopening plan",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-09-27T22:09:03.574801Z",
+  "updated_at": "2026-09-28T00:44:38.632986Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Iran proposes seven-day Hormuz reopening plan",
     "summary": "Iran offers US a seven-day roadmap to reopen the Strait of Hormuz, potentially easing global oil supply concerns and energy prices if Washington agrees.",
     "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-    "score": 4.3,
+    "score": 4.2,
     "sentiment": "positive",
     "detected_at": "2026-09-26T01:32:28.087236Z",
     "peak_at": "2026-09-27T08:07:54.051381Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-09-26T01:32:28.087236Z",
   "score_history": [
-    {
-      "t": "2026-09-25T22:18:57.289701Z",
-      "s": 3.8
-    },
     {
       "t": "2026-09-26T01:32:28.087236Z",
       "s": 5.3
@@ -136,6 +137,10 @@
     {
       "t": "2026-09-27T22:09:03.574801Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-28T00:44:38.632986Z",
+      "s": 3.2
     }
   ]
 }
