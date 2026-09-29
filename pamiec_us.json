@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-29T01:56:11.937493Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-09-29T08:28:23.133477Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US strikes Ecuador fishing boats humanitarian concerns",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
-      "opis": "US enforcement strikes raise humanitarian concerns; ongoing."
-    },
-    {
       "temat": "New York Times executive murder domestic crime",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "NYT executive killed by in-laws; domestic crime."
     },
     {
-      "temat": "Tennessee Christa Pike execution clemency denied",
-      "poziom_bazowy": 2.0,
+      "temat": "Cornell gang rape case reopened prosecutors",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
+      "opis": "Prosecutors reopen fraternity rape investigation; domestic."
+    },
+    {
+      "temat": "US Canada trade war ban alcohol dairy",
+      "poziom_bazowy": 3.2,
       "cykle_bez_zmian": 0,
-      "opis": "Governor rejects clemency; first woman execution in 200."
+      "opis": "Ban takes effect after negotiations collapse; trade impact."
     },
     {
       "temat": "Nor'easter storm East Coast flooding emergency",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "Powerful storm brings coastal flooding; millions affected."
     },
     {
       "temat": "US China tariff cuts Trump Xi summit",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "US and China announce tariff reductions on $60bn trade."
     },
     {
       "temat": "Trump Iowa steel mill $15bn midterm announcement",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 2,
       "opis": "President announces major steel project; campaign rhetoric."
     },
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 16,
       "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
     },
     {
-      "temat": "Cornell gang rape case reopened prosecutors",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
-      "opis": "Prosecutors reopen fraternity rape investigation; domestic."
+      "temat": "US strikes Ecuador fishing boats humanitarian concerns",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
+      "opis": "US enforcement strikes raise humanitarian concerns; ongoing."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-27T08:07:54.059369Z",
-      "s": 4.3
-    },
     {
       "t": "2026-09-27T13:57:03.298617Z",
       "s": 4.1
@@ -88,15 +84,35 @@
     {
       "t": "2026-09-29T01:56:11.932174Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-29T08:28:23.127905Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-09-26T01:32:28.095686Z",
   "event_detected_at": {
-    "new york times executive fatally shot allegedly by elderly in-laws": {
+    "us ban on canadian alcohol and dairy comes into effect as trade war drags on": {
+      "detected_at": "2026-09-29T08:28:23.127905Z",
+      "peak_at": "2026-09-29T08:28:23.127905Z",
+      "peak_score_at": "2026-09-29T08:28:23.127905Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+      "peak_label": "US ban on Canadian goods takes effect",
+      "peak_summary": "Ban on Canadian alcohol and dairy products now in effect after negotiations collapsed in August. Confirmed policy action affecting bilateral trade and consumer prices for US residents.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "new york times executive fatally shot by elderly in-laws, police say": {
       "detected_at": "2026-09-29T01:56:11.932174Z",
       "peak_at": "2026-09-29T01:56:11.932174Z",
       "peak_score_at": "2026-09-29T01:56:11.932174Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "New York Times executive fatally shot allegedly by elderly in-laws",
       "peak_label": "NYT executive killed by in-laws",
@@ -105,6 +121,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us prosecutors reopen case of alleged gang rape at cornell university": {
+      "detected_at": "2026-09-28T21:59:27.830850Z",
+      "peak_at": "2026-09-28T21:59:27.830850Z",
+      "peak_score_at": "2026-09-28T21:59:27.830850Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
+      "peak_label": "Cornell gang rape case reopened by prosecutors",
+      "peak_summary": "Prosecutors reopen investigation after woman files civil lawsuit alleging she was drugged and raped at fraternity house in 2024. Domestic legal case.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -156,22 +188,6 @@
         }
       ]
     },
-    "us prosecutors reopen case of alleged gang rape at cornell university": {
-      "detected_at": "2026-09-28T21:59:27.830850Z",
-      "peak_at": "2026-09-28T21:59:27.830850Z",
-      "peak_score_at": "2026-09-28T21:59:27.830850Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-      "peak_label": "Cornell gang rape case reopened by prosecutors",
-      "peak_summary": "Prosecutors reopen investigation after woman files civil lawsuit alleging she was drugged and raped at fraternity house in 2024. Domestic legal case.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "iraq looks for oil export alternatives to the troubled strait of hormuz": {
       "detected_at": "2026-09-26T01:32:28.095686Z",
       "peak_at": "2026-09-28T15:26:05.077536Z",
@@ -191,27 +207,11 @@
           "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss"
         }
       ]
-    },
-    "us, china list goods recommended for tariff cuts following trump-xi summit": {
-      "detected_at": "2026-09-28T06:51:47.973211Z",
-      "peak_at": "2026-09-28T06:51:47.973211Z",
-      "peak_score_at": "2026-09-28T06:51:47.973211Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "positive",
-      "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
-      "peak_label": "US China announce tariff cuts on $60bn trade",
-      "peak_summary": "Washington and Beijing detail agreement to reduce tariffs on $60 billion of trade; confirmed policy shift with direct US economic implications.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "New York Times executive fatally shot allegedly by elderly in-laws",
-    "US strikes on Ecuadorian fishing boats raise humanitarian concerns but Trump admin not wavering",
-    "Tennessee governor rejects clemency bid for Christa Pike as execution looms"
+    "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+    "New York Times executive fatally shot by elderly in-laws, police say",
+    "US prosecutors reopen case of alleged gang rape at Cornell University"
   ]
 }
