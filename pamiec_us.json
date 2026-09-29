@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-29T08:28:23.133477Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-09-29T15:50:03.013315Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "New York Times executive murder domestic crime",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
-      "opis": "NYT executive killed by in-laws; domestic crime."
-    },
-    {
       "temat": "Cornell gang rape case reopened prosecutors",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "Prosecutors reopen fraternity rape investigation; domestic."
     },
     {
       "temat": "US Canada trade war ban alcohol dairy",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Ban takes effect after negotiations collapse; trade impact."
     },
     {
+      "temat": "US measles outbreak Pennsylvania deaths record",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Two deaths, 900+ PA cases in worst US outbreak in 35 years."
+    },
+    {
       "temat": "Nor'easter storm East Coast flooding emergency",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 13,
       "opis": "Powerful storm brings coastal flooding; millions affected."
     },
     {
-      "temat": "US China tariff cuts Trump Xi summit",
+      "temat": "New York Times executive murder domestic crime",
       "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 2,
+      "opis": "NYT executive killed by in-laws; domestic crime."
+    },
+    {
+      "temat": "US China tariff cuts Trump Xi summit",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 5,
       "opis": "US and China announce tariff reductions on $60bn trade."
     },
     {
       "temat": "Trump Iowa steel mill $15bn midterm announcement",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "President announces major steel project; campaign rhetoric."
     },
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 16,
-      "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
-    },
-    {
-      "temat": "US strikes Ecuador fishing boats humanitarian concerns",
       "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
-      "opis": "US enforcement strikes raise humanitarian concerns; ongoing."
+      "cykle_bez_zmian": 17,
+      "opis": "Iran offers seven-day plan to reopen Strait; oil markets."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-27T13:57:03.298617Z",
-      "s": 4.1
-    },
     {
       "t": "2026-09-27T18:22:41.672628Z",
       "s": 3.9
@@ -88,15 +84,19 @@
     {
       "t": "2026-09-29T08:28:23.127905Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-09-29T15:50:03.007457Z",
+      "s": 3.1
     }
   ],
-  "events_anchor_at": "2026-09-26T01:32:28.095686Z",
+  "events_anchor_at": "2026-09-29T08:28:23.127905Z",
   "event_detected_at": {
-    "us ban on canadian alcohol and dairy comes into effect as trade war drags on": {
+    "us-canada trade war ban on alcohol and dairy takes effect": {
       "detected_at": "2026-09-29T08:28:23.127905Z",
       "peak_at": "2026-09-29T08:28:23.127905Z",
       "peak_score_at": "2026-09-29T08:28:23.127905Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
       "peak_label": "US ban on Canadian goods takes effect",
@@ -105,6 +105,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "cdc reports two measles deaths in us as cases hit 35-year high": {
+      "detected_at": "2026-09-29T15:50:03.007457Z",
+      "peak_at": "2026-09-29T15:50:03.007457Z",
+      "peak_score_at": "2026-09-29T15:50:03.007457Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "CDC reports two measles deaths in US as cases hit 35-year high",
+      "peak_label": "Measles deaths reported as outbreak hits record",
+      "peak_summary": "Two measles deaths reported as Pennsylvania sees over 900 cases in worst US outbreak in 35 years. Major domestic public health crisis.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/29/cdc-reports-two-measles-deaths-us-as-cases-hit-35-year-high?traffic_source=rss"
+        }
+      ]
+    },
+    "us prosecutors reopen case of alleged gang rape at cornell university": {
+      "detected_at": "2026-09-28T21:59:27.830850Z",
+      "peak_at": "2026-09-28T21:59:27.830850Z",
+      "peak_score_at": "2026-09-28T21:59:27.830850Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
+      "peak_label": "Cornell gang rape case reopened by prosecutors",
+      "peak_summary": "Prosecutors reopen investigation after woman files civil lawsuit alleging she was drugged and raped at fraternity house in 2024. Domestic legal case.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -121,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us prosecutors reopen case of alleged gang rape at cornell university": {
-      "detected_at": "2026-09-28T21:59:27.830850Z",
-      "peak_at": "2026-09-28T21:59:27.830850Z",
-      "peak_score_at": "2026-09-28T21:59:27.830850Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-      "peak_label": "Cornell gang rape case reopened by prosecutors",
-      "peak_summary": "Prosecutors reopen investigation after woman files civil lawsuit alleging she was drugged and raped at fraternity house in 2024. Domestic legal case.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -187,31 +203,11 @@
           "url": "https://www.aljazeera.com/economy/2026/9/28/trump-announces-15bn-steel-mill-project-in-iowa-before-us-midterms?traffic_source=rss"
         }
       ]
-    },
-    "iraq looks for oil export alternatives to the troubled strait of hormuz": {
-      "detected_at": "2026-09-26T01:32:28.095686Z",
-      "peak_at": "2026-09-28T15:26:05.077536Z",
-      "peak_score_at": "2026-09-26T01:32:28.095686Z",
-      "peak_score": 3.3,
-      "peak_sentiment": "positive",
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "peak_label": "Iran proposes Hormuz reopening within seven days",
-      "peak_summary": "Iran offers US a seven-day roadmap to reopen the Strait of Hormuz; if accepted, could stabilize oil markets and ease Middle East tensions.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
-    "New York Times executive fatally shot by elderly in-laws, police say",
+    "US-Canada trade war ban on alcohol and dairy takes effect",
+    "CDC reports two measles deaths in US as cases hit 35-year high",
     "US prosecutors reopen case of alleged gang rape at Cornell University"
   ]
 }
