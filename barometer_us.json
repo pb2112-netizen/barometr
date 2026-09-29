@@ -1,45 +1,31 @@
 {
-  "global_score": 3.1,
-  "rationale": "US-Canada alcohol and dairy trade ban takes effect; measles outbreak reaches 35-year high with two deaths; domestic impacts continue.",
+  "global_score": 3.0,
+  "rationale": "US-Canada trade ban takes effect, continuing trade war impact; measles outbreak continues as major domestic public health crisis; Cornell rape case reopened.",
   "top_events": [
     {
-      "title": "US-Canada trade war ban on alcohol and dairy takes effect",
-      "label": "US-Canada trade ban on alcohol dairy begins",
-      "summary": "Ban on alcohol and dairy trade between US and Canada takes effect after negotiations collapse. Direct impact on cross-border commerce and consumer prices.",
-      "score": 3.1,
+      "title": "US ban on $1bn of Canadian goods takes effect in Trump's latest retaliation",
+      "label": "US ban on Canadian goods takes effect",
+      "summary": "Trade ban on $1 billion of Canadian goods now in effect after negotiations collapse, escalating US-Canada trade war with direct economic impact.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
-      "sources": [
-        "LENSES memory"
-      ],
-      "source_links": [],
-      "detected_at": "2026-09-29T08:28:23.127905Z"
-    },
-    {
-      "title": "CDC reports two measles deaths in US as cases hit 35-year high",
-      "label": "Measles deaths reported as outbreak hits record",
-      "summary": "Two measles deaths reported as Pennsylvania sees over 900 cases in worst US outbreak in 35 years. Major domestic public health crisis.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
       "sources": [
         "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/cdc-reports-two-measles-deaths-us-as-cases-hit-35-year-high?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/9/29/us-ban-on-1bn-of-canadian-goods-takes-effect-in-trumps-latest-retaliation?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-29T15:50:03.007457Z"
+      "detected_at": "2026-09-29T08:28:23.127905Z"
     },
     {
       "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-      "label": "Cornell rape case reopened by prosecutors",
-      "summary": "Prosecutors reopen investigation after woman files civil lawsuit alleging drugging and rape at fraternity house in 2024. Ongoing domestic legal matter.",
-      "score": 2.2,
+      "label": "Cornell gang rape case reopened by prosecutors",
+      "summary": "Prosecutors reopen fraternity rape investigation following civil lawsuit; ongoing domestic legal matter with campus safety implications.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -53,37 +39,52 @@
         }
       ],
       "detected_at": "2026-09-28T21:59:27.830850Z"
+    },
+    {
+      "title": "US troops fully withdraw from Baghdad base after two decades",
+      "label": "US troops withdraw from Baghdad base fully",
+      "summary": "Two-decade US military presence in Iraq ends; significant geopolitical shift marking end of post-9/11 era deployment in Middle East.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-29T20:46:02.102019Z"
     }
   ],
-  "short_summary": "US ban on Canadian goods takes effect",
+  "short_summary": "Measles deaths reported as outbreak hits record",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-29T15:50:03.007457Z",
+  "updated_at": "2026-09-29T20:46:02.102019Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "US ban on Canadian goods takes effect",
-    "summary": "Ban on Canadian alcohol and dairy products now in effect after negotiations collapsed in August. Confirmed policy action affecting bilateral trade and consumer prices for US residents.",
-    "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+    "label": "Measles deaths reported as outbreak hits record",
+    "summary": "Two measles deaths reported as Pennsylvania sees over 900 cases in worst US outbreak in 35 years. Major domestic public health crisis.",
+    "title": "CDC reports two measles deaths in US as cases hit 35-year high",
     "score": 3.1,
     "sentiment": "negative",
-    "detected_at": "2026-09-29T08:28:23.127905Z",
-    "peak_at": "2026-09-29T08:28:23.127905Z",
+    "detected_at": "2026-09-29T15:50:03.007457Z",
+    "peak_at": "2026-09-29T15:50:03.007457Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/29/cdc-reports-two-measles-deaths-us-as-cases-hit-35-year-high?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-29T08:28:23.127905Z",
+  "events_anchor_at": "2026-09-29T15:50:03.007457Z",
   "score_history": [
-    {
-      "t": "2026-09-27T18:22:41.672628Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-27T22:09:03.581644Z",
       "s": 3.8
@@ -115,6 +116,10 @@
     {
       "t": "2026-09-29T15:50:03.007457Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-09-29T20:46:02.102019Z",
+      "s": 3.0
     }
   ]
 }
