@@ -1,12 +1,50 @@
 {
-  "global_score": 2.6,
-  "rationale": "US strikes on Ecuadorian fishing boats represent confirmed military action raising humanitarian concerns, while Iraq troop withdrawal marks end of two-decade presence. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Supreme Court allows Christa Pike execution to proceed after lower court pause; Pennsylvania measles outbreak continues with fifth death; Ecuador fishing boat strikes raise humanitarian concerns. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US Supreme Court allows execution of Christa Pike to go ahead",
+      "label": "Supreme Court allows Christa Pike execution to proceed",
+      "summary": "Death by lethal injection scheduled for Wednesday after Supreme Court overturned lower court pause. Domestic legal development with limited broader impact.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-30T13:41:33.836251Z"
+    },
+    {
+      "title": "Pennsylvania confirms fifth measles-associated death as US outbreak grows",
+      "label": "Pennsylvania confirms fifth measles-associated death as",
+      "summary": "Cases more than doubled since August; dispute continues with federal officials over death count. Ongoing public health concern affecting Pennsylvania residents.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-30T23:47:53.156046Z"
+    },
+    {
       "title": "US strikes on Ecuadorian fishing boats raise humanitarian concerns but Trump admin not wavering",
-      "label": "US strikes Ecuadorian fishing boats raising concerns",
-      "summary": "Confirmed US strikes on Ecuadorian fishing boats raise humanitarian concerns as fishers lose livelihoods, but administration maintains hardline stance.",
-      "score": 2.6,
+      "label": "US strikes on Ecuador fishing boats raise concerns",
+      "summary": "Attorney says fishers losing livelihoods; Rubio maintains willingness to strike ships. Confirmed action with humanitarian impact but limited domestic effect.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,44 +58,6 @@
         }
       ],
       "detected_at": "2026-09-30T13:41:33.836251Z"
-    },
-    {
-      "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-      "label": "US troops complete withdrawal from Iraq",
-      "summary": "End of two-decade US military presence in Iraq marks conclusion of anti-Islamic State coalition mission.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-29T20:46:02.102019Z"
-    },
-    {
-      "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
-      "label": "Christa Pike execution halted before scheduled time",
-      "summary": "Execution of woman convicted in 1996 murder case stopped shortly before it was scheduled to proceed.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-30T13:41:33.836251Z"
     }
   ],
   "short_summary": "US consumer confidence drops to 2014 low",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-30T19:18:17.345514Z",
+  "updated_at": "2026-09-30T23:47:53.156046Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-30T00:26:13.847750Z",
   "score_history": [
-    {
-      "t": "2026-09-28T21:59:27.830850Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-29T01:56:11.932174Z",
       "s": 3.0
@@ -120,6 +116,10 @@
     {
       "t": "2026-09-30T19:18:17.345514Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-09-30T23:47:53.156046Z",
+      "s": 2.5
     }
   ]
 }
