@@ -1,52 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "US troop withdrawal from Iraq continues as known policy; consumer confidence drop is new economic signal; other events are routine or distant.",
+  "global_score": 2.4,
+  "rationale": "Six Flags ride closure continues safety concern; consumer confidence drop already scored; AI summit is rhetoric without enacted policy; no major new domestic impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Iraq begins high-stakes security balancing act as US troops withdraw",
-      "label": "US troops complete withdrawal from Iraq",
-      "summary": "End of two-decade US military presence in Iraq; significant policy milestone but withdrawal already known and no immediate domestic impact.",
-      "score": 2.9,
-      "sentiment": "neutral",
+      "title": "Six Flags shuts down X2 rollercoaster after more than 100 allege brain injuries",
+      "label": "Six Flags closes X2 after injury claims",
+      "summary": "X2 rollercoaster closed after hundreds allege brain injuries; ongoing domestic safety concern affecting theme park visitors.",
+      "score": 2.4,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-29T20:46:02.102019Z"
-    },
-    {
-      "title": "US consumer confidence hits its lowest level since 2014 ahead of midterms",
-      "label": "US consumer confidence drops to 2014 low",
-      "summary": "Sharp drop in consumer confidence driven by rising costs; new economic signal ahead of midterm elections affecting household sentiment.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-30T00:26:13.847750Z"
-    },
-    {
-      "title": "Six Flags shuts down X2 rollercoaster after hundreds allege brain injuries",
-      "label": "Six Flags closes X2 ride after injury claims",
-      "summary": "Theme park closes rollercoaster after lawsuits allege brain injuries; domestic safety concern but limited broader impact.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "inne",
       "sources": [
         "BBC"
@@ -58,14 +20,57 @@
         }
       ],
       "detected_at": "2026-09-30T00:26:13.847750Z"
+    },
+    {
+      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
+      "label": "Trump hosts AI summit with tech leaders",
+      "summary": "White House AI summit discusses voluntary regulation; rhetoric without enacted policy, no immediate impact on daily life.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "nauka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-backs-ai-self-regulation-at-tech-summit-but-is-it-enough?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-30T06:42:06.556061Z"
+    },
+    {
+      "title": "Hegseth to cut number of US general and admiral positions by 20%",
+      "label": "Pentagon plans 20% cut in flag officers",
+      "summary": "Defense secretary to announce reduction in general and admiral positions; policy announcement without enacted change yet.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/hegseth-to-cut-number-of-us-general-and-admiral-positions-by-20?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-09-30T06:42:06.556061Z"
     }
   ],
   "short_summary": "Measles deaths reported as outbreak hits record",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-09-30T00:26:13.847750Z",
+  "updated_at": "2026-09-30T06:42:06.556061Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-09-29T15:50:03.007457Z",
   "score_history": [
-    {
-      "t": "2026-09-28T00:44:38.640042Z",
-      "s": 3.6
-    },
     {
       "t": "2026-09-28T06:51:47.973211Z",
       "s": 3.5
@@ -120,6 +121,10 @@
     {
       "t": "2026-09-30T00:26:13.847750Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-09-30T06:42:06.556061Z",
+      "s": 2.4
     }
   ]
 }

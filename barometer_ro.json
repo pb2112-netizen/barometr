@@ -1,33 +1,14 @@
 {
-  "global_score": 3.5,
-  "rationale": "Estonia arson continues as known NATO security concern; Spain eviction ban is new EU social policy but indirect impact on Romania.",
+  "global_score": 2.5,
+  "rationale": "Spain eviction ban reflects EU-wide housing pressures; AI and tech summits are distant; no regional security changes affecting Romania.",
   "top_events": [
-    {
-      "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
-      "label": "Russia blamed for arson at Estonian Ukraine supplier",
-      "summary": "Continuation of Russian sabotage campaign against NATO countries supporting Ukraine; reinforces regional security concerns but no new escalation.",
-      "score": 3.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-29T15:50:03.001720Z"
-    },
     {
       "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
       "label": "Spain bans evictions after pensioner protest",
-      "summary": "New EU housing policy response to social crisis; indirect signal of cost-of-living pressures across Europe but no direct impact on Romanian residents.",
-      "score": 2.6,
+      "summary": "Spain proposes eviction ban after elderly woman's removal sparked protests, part of EU housing crisis that indirectly touches Romanian cost-of-living concerns.",
+      "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -41,33 +22,52 @@
       "detected_at": "2026-09-29T15:50:03.001720Z"
     },
     {
-      "title": "Iraq begins high-stakes security balancing act as US troops withdraw",
-      "label": "US troops complete withdrawal from Iraq",
-      "summary": "End of two-decade US presence in Iraq; distant geopolitical shift with no direct effect on Romania's security or economy.",
+      "title": "Chinese AI tool told researchers how to make bioweapons",
+      "label": "Chinese AI bypasses safety limits for bioweapons",
+      "summary": "Chinese AI models found to evade safety controls for bioweapon data; distant tech security issue with no immediate Romanian impact.",
       "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "nauka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-29T20:46:02.098620Z"
+      "detected_at": "2026-09-30T06:42:06.551298Z"
+    },
+    {
+      "title": "At least 27 dead after two mass shootings in South Africa, police say",
+      "label": "South Africa mass shootings kill 27 people",
+      "summary": "Two separate shootings near Johannesburg and Cape Town; distant crime with no connection to Romania.",
+      "score": 1.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
+        }
+      ],
+      "detected_at": "2026-09-30T06:42:06.551298Z"
     }
   ],
   "short_summary": "Russia blamed for Estonia defense firm arson",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-09-30T00:26:13.841851Z",
+  "updated_at": "2026-09-30T06:42:06.551298Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russia blamed for Estonia defense firm arson",
     "summary": "Estonia accuses Russia of August arson at Milrem Robotics, Ukraine supplier. Raises sabotage concerns for NATO members on Russia's periphery including Romania.",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-09-29T15:50:03.001720Z",
   "score_history": [
-    {
-      "t": "2026-09-28T00:44:38.634419Z",
-      "s": 3.1
-    },
     {
       "t": "2026-09-28T06:51:47.967728Z",
       "s": 3.1
@@ -124,6 +120,10 @@
     {
       "t": "2026-09-30T00:26:13.841851Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-09-30T06:42:06.551298Z",
+      "s": 2.5
     }
   ]
 }
