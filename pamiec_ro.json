@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-30T13:41:33.838523Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-09-30T19:18:17.347798Z",
+  "ostatnia_ocena": 4.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US troops withdraw Baghdad Iraq",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 4,
       "opis": "End of two-decade US military presence in Iraq; distant."
     },
     {
       "temat": "Russia largest Ukraine energy attack since spring",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Massive strike on 11 regions; energy grid and civilian."
     },
     {
       "temat": "Estonia Russia arson sabotage NATO",
       "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 0,
       "opis": "Russia blamed for arson at Estonian defense supplier; NATO."
     },
     {
       "temat": "Spain housing crisis eviction protests",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
       "opis": "Pensioner eviction sparks protests; EU social concern."
     },
     {
       "temat": "Seoul Ukraine POW transfer North Korea diplomatic row",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "South Korea protests secret POW transfer; distant."
     },
     {
       "temat": "Nor'easter US East Coast flooding emergency",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 16,
       "opis": "Major storm affects millions on US East Coast; climate."
     },
     {
       "temat": "Chinese AI bioweapon safety breach",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "AI models evade safety controls; distant tech security risk."
     },
     {
       "temat": "Serbia Vučić resignation early elections",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
       "opis": "Serbian president resigns after protests; regional shift."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-28T15:26:05.072573Z",
-      "s": 3.0
-    },
     {
       "t": "2026-09-28T21:59:27.824658Z",
       "s": 3.0
@@ -88,19 +84,23 @@
     {
       "t": "2026-09-30T13:41:33.830642Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-09-30T19:18:17.340595Z",
+      "s": 4.7
     }
   ],
   "events_anchor_at": "2026-09-29T15:50:03.001720Z",
   "event_detected_at": {
     "russia launches largest attack on ukraine energy infrastructure since spring": {
       "detected_at": "2026-09-29T15:50:03.001720Z",
-      "peak_at": "2026-09-30T13:41:33.830642Z",
-      "peak_score_at": "2026-09-30T13:41:33.830642Z",
-      "peak_score": 4.5,
+      "peak_at": "2026-09-30T19:18:17.340595Z",
+      "peak_score_at": "2026-09-30T19:18:17.340595Z",
+      "peak_score": 4.7,
       "peak_sentiment": "negative",
       "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-      "peak_label": "Russia launches largest Ukraine energy attack since spring",
-      "peak_summary": "Eleven Ukrainian regions attacked overnight; residential buildings and railways hit. Major escalation threatens Black Sea regional stability and energy security.",
+      "peak_label": "Russia strikes Ukraine energy in 11 regions",
+      "peak_summary": "Major Russian attack on Ukrainian energy grid in 11 regions threatens Black Sea regional stability and energy security for Romania.",
       "peak_source_links": [
         {
           "name": "BBC",
@@ -108,11 +108,27 @@
         }
       ]
     },
+    "russia warns nato of possible nuclear response if kaliningrad is cut off": {
+      "detected_at": "2026-09-30T19:18:17.340595Z",
+      "peak_at": "2026-09-30T19:18:17.340595Z",
+      "peak_score_at": "2026-09-30T19:18:17.340595Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Russia warns NATO of possible nuclear response if Kaliningrad is cut off",
+      "peak_label": "Russia threatens nuclear response over Kaliningrad",
+      "peak_summary": "Moscow's nuclear warning over Baltic Sea blockade escalates NATO-Russia tensions affecting regional security.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off?traffic_source=rss"
+        }
+      ]
+    },
     "last uk and us troops leave iraq as anti-islamic state mission ends": {
       "detected_at": "2026-09-29T20:46:02.098620Z",
       "peak_at": "2026-09-29T20:46:02.098620Z",
       "peak_score_at": "2026-09-29T20:46:02.098620Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "neutral",
       "title": "US troops fully withdraw from Baghdad base after two decades",
       "peak_label": "US troops withdraw from Baghdad base fully",
@@ -140,22 +156,6 @@
         }
       ]
     },
-    "spain announces ban on evictions after protests over 87-year-old woman's removal from flat": {
-      "detected_at": "2026-09-29T15:50:03.001720Z",
-      "peak_at": "2026-09-29T15:50:03.001720Z",
-      "peak_score_at": "2026-09-29T15:50:03.001720Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Spain announces ban on evictions after protests over 87-year-old woman's eviction",
-      "peak_label": "Spain proposes eviction ban after protests",
-      "peak_summary": "Spain moves to ban evictions following protests over elderly woman's removal. EU social policy development with indirect regional relevance.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "at least 27 dead after two mass shootings in south africa, police say": {
       "detected_at": "2026-09-30T06:42:06.551298Z",
       "peak_at": "2026-09-30T06:42:06.551298Z",
@@ -175,7 +175,7 @@
   },
   "prev_top_event_titles": [
     "Russia launches largest attack on Ukraine energy infrastructure since spring",
-    "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-    "Chinese AI tool told researchers how to make bioweapons"
+    "Russia warns NATO of possible nuclear response if Kaliningrad is cut off",
+    "Last UK and US troops leave Iraq as anti-Islamic State mission ends"
   ]
 }
