@@ -1,94 +1,81 @@
 {
   "global_score": 3.0,
-  "rationale": "Putin's Kaliningrad threat escalates NATO-Russia tensions affecting Ukraine's security environment; Flydubai attack investigation continues; other events distant. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Putin's Kaliningrad threat and ceasefire rejection continue existing NATO-Russia tension; no new qualitative change to the war situation. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
-      "label": "Putin threatens West over Kaliningrad",
-      "summary": "Russia warns of using all weapons for Kaliningrad exclave, escalating NATO-Russia confrontation affecting Ukraine's strategic environment.",
+      "label": "Putin threatens nuclear weapons for Kaliningrad",
+      "summary": "Russia warns of potential nuclear deployment for Baltic exclave and rules out Ukraine ceasefire, maintaining existing high-tension posture.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/1/russias-putin-rules-out-ceasefire-with-ukraine-during-speech-in-moscow?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-30T23:47:53.154084Z"
     },
     {
-      "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-      "label": "Netanyahu: Flydubai attacker radicalized Islamist",
-      "summary": "Israel's PM says pilot who tried to hijack plane intended to crash it, continuing investigation of aviation security incident.",
+      "title": "Flydubai co-pilot 'assaulted' captain before landing: Initial Saudi probe",
+      "label": "Flydubai pilot assaulted captain mid-flight",
+      "summary": "Saudi investigation confirms co-pilot attacked captain on Dubai-Tel Aviv flight; aviation security incident with no direct Ukrainian impact.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
+        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/1/flydubai-co-pilot-assaulted-captain-before-landing-initial-saudi-probe?traffic_source=rss"
+        },
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-01T18:52:58.845292Z"
-    },
-    {
-      "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
-      "label": "US warns Kasparov of Putin threat",
-      "summary": "Former chess champion receives US warning about danger from Putin regime, illustrating ongoing Russian extraterritorial operations.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-01T18:52:58.845292Z"
+      "detected_at": "2026-10-01T23:11:39.473831Z"
     }
   ],
-  "short_summary": "Russia launches massive energy attack on 11 regions",
+  "short_summary": "Russian drone crashes into Kyiv playground unexploded",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-01T18:52:58.845292Z",
+  "updated_at": "2026-10-01T23:11:39.473831Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Russia launches massive energy attack on 11 regions",
-    "summary": "Russia's largest energy attack since spring hits 11 Ukrainian regions, targeting residential buildings, railways, and critical infrastructure.",
-    "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-    "score": 7.7,
+    "label": "Russian drone crashes into Kyiv playground unexploded",
+    "summary": "Attack drone crashed into children's playground in capital without detonating. Direct threat to civilian areas in Kyiv.",
+    "title": "Russian drone crashes into Kyiv playground without exploding",
+    "score": 5.8,
     "sentiment": "negative",
-    "detected_at": "2026-09-29T15:50:03.005569Z",
-    "peak_at": "2026-09-30T19:18:17.343893Z",
+    "detected_at": "2026-09-30T23:47:53.154084Z",
+    "peak_at": "2026-09-30T23:47:53.154084Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-09-29T15:50:03.005569Z",
+  "events_anchor_at": "2026-09-30T23:47:53.154084Z",
   "score_history": [
-    {
-      "t": "2026-09-29T20:46:02.100918Z",
-      "s": 4.0
-    },
     {
       "t": "2026-09-30T00:26:13.845856Z",
       "s": 3.9
@@ -119,6 +106,10 @@
     },
     {
       "t": "2026-10-01T18:52:58.845292Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-01T23:11:39.473831Z",
       "s": 3.0
     }
   ]
