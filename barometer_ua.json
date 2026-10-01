@@ -1,13 +1,32 @@
 {
   "global_score": 3.0,
-  "rationale": "Putin speech signals war continuation; no new direct strikes on Ukraine reported this cycle.",
+  "rationale": "Putin's Kaliningrad threat escalates NATO-Russia tensions affecting Ukraine's security environment; Flydubai attack investigation continues; other events distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-      "label": "Putin signals war continuation in foreign policy speech",
-      "summary": "Russian president's speech indicates full-scale invasion will continue; rhetoric without new action.",
+      "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
+      "label": "Putin threatens West over Kaliningrad",
+      "summary": "Russia warns of using all weapons for Kaliningrad exclave, escalating NATO-Russia confrontation affecting Ukraine's strategic environment.",
       "score": 3.0,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-09-30T23:47:53.154084Z"
+    },
+    {
+      "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
+      "label": "Netanyahu: Flydubai attacker radicalized Islamist",
+      "summary": "Israel's PM says pilot who tried to hijack plane intended to crash it, continuing investigation of aviation security incident.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,16 +35,16 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-09-30T23:47:53.154084Z"
+      "detected_at": "2026-10-01T18:52:58.845292Z"
     },
     {
-      "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-      "label": "Pilot stabs co-pilot on Israel-bound flight",
-      "summary": "Incident under investigation in Saudi Arabia; distant aviation security concern with no Ukraine impact.",
-      "score": 1.5,
+      "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
+      "label": "US warns Kasparov of Putin threat",
+      "summary": "Former chess champion receives US warning about danger from Putin regime, illustrating ongoing Russian extraterritorial operations.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -35,37 +54,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-01T13:10:22.768877Z"
-    },
-    {
-      "title": "Explosions heard in Ethiopia's capital after drone flights banned",
-      "label": "Explosions in Ethiopia capital after drone ban",
-      "summary": "Fighting erupted north of Addis Ababa; distant conflict with no connection to Ukraine.",
-      "score": 1.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-01T13:10:22.768877Z"
+      "detected_at": "2026-10-01T18:52:58.845292Z"
     }
   ],
   "short_summary": "Russia launches massive energy attack on 11 regions",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-01T13:10:22.768877Z",
+  "updated_at": "2026-10-01T18:52:58.845292Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-29T15:50:03.005569Z",
   "score_history": [
-    {
-      "t": "2026-09-29T15:50:03.005569Z",
-      "s": 4.2
-    },
     {
       "t": "2026-09-29T20:46:02.100918Z",
       "s": 4.0
@@ -119,6 +115,10 @@
     },
     {
       "t": "2026-10-01T13:10:22.768877Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-01T18:52:58.845292Z",
       "s": 3.0
     }
   ]

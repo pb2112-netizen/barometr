@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-01T13:10:22.774291Z",
-  "ostatnia_ocena": 2.1,
+  "updated_at": "2026-10-01T18:52:58.850045Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "South Africa mass shootings violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "27 killed in two separate shootings; distant crime."
     },
     {
-      "temat": "Swiss glaciers catastrophic ice loss climate",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
-      "opis": "5% ice loss in one year; European climate concern."
+      "temat": "France student protests fires schools EU",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Violent nationwide protests over school conditions in."
+    },
+    {
+      "temat": "Brazil Trump election interference sovereignty",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Brazil rejects reported US plans to meddle in elections."
     },
     {
       "temat": "Ethiopia capital explosions drone ban fighting",
-      "poziom_bazowy": 1.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Fighting north of Addis Ababa; distant conflict."
+    },
+    {
+      "temat": "Swiss glaciers catastrophic ice loss climate",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "5% ice loss in one year; European climate concern."
     },
     {
       "temat": "Brazil Lula bans sports betting elections",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "President bans fixed-odds betting before elections."
     },
     {
       "temat": "Nepal landslides deaths trekkers evacuated",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "30 killed after floods; distant disaster."
     },
     {
       "temat": "Morocco first female prime minister",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Historic appointment in Morocco; regional political shift."
-    },
-    {
-      "temat": "Hurricane Polo Mexico Pacific El Niño",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Category 5 hurricane off Mexico; El Niño-driven storm."
-    },
-    {
-      "temat": "Madrid housing crisis tent protests Spain",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Protesters camp in Madrid over soaring housing costs."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-29T15:50:03.003341Z",
-      "s": 2.6
-    },
     {
       "t": "2026-09-29T20:46:02.099745Z",
       "s": 2.5
@@ -88,10 +84,66 @@
     {
       "t": "2026-10-01T13:10:22.766921Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-10-01T18:52:58.843706Z",
+      "s": 2.5
     }
   ],
-  "events_anchor_at": "2026-09-30T13:41:33.832148Z",
+  "events_anchor_at": "2026-10-01T18:52:58.843706Z",
   "event_detected_at": {
+    "fires break out at french schools as students protest nationwide": {
+      "detected_at": "2026-10-01T18:52:58.843706Z",
+      "peak_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Fires break out at French schools as students protest nationwide",
+      "peak_label": "French student protests turn violent",
+      "peak_summary": "Widespread protests over school overcrowding and facilities spark fires across France, reflecting EU social tensions.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6d080d1e3l4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss"
+        }
+      ]
+    },
+    "brazil attorney general says meddling 'cannot be tolerated' after trump funding plans revealed": {
+      "detected_at": "2026-10-01T18:52:58.843706Z",
+      "peak_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed",
+      "peak_label": "Brazil rejects Trump election interference plans",
+      "peak_summary": "Brazil's attorney general condemns reported US plans to meddle in upcoming elections, defending sovereignty in Lusophone partner nation.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans"
+        }
+      ]
+    },
+    "at least 27 dead after two mass shootings in south africa, police say": {
+      "detected_at": "2026-09-28T21:59:27.826637Z",
+      "peak_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 27 dead after two mass shootings in South Africa, police say",
+      "peak_label": "South Africa shootings leave 27 dead",
+      "peak_summary": "Two mass shootings near Johannesburg and Cape Town kill 27 in distant crime violence with no link to Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
+        }
+      ]
+    },
     "swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies": {
       "detected_at": "2026-10-01T05:49:34.353910Z",
       "peak_at": "2026-10-01T05:49:34.353910Z",
@@ -109,22 +161,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/catastrophic-year-as-swiss-glaciers-lose-5-of-ice-after-heatwaves?traffic_source=rss"
-        }
-      ]
-    },
-    "at least 27 dead after two mass shootings in south africa, police say": {
-      "detected_at": "2026-09-28T21:59:27.826637Z",
-      "peak_at": "2026-09-30T13:41:33.832148Z",
-      "peak_score_at": "2026-09-30T13:41:33.832148Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "negative",
-      "title": "At least 27 dead after two mass shootings in South Africa, police say",
-      "peak_label": "Two mass shootings kill 27 in South Africa",
-      "peak_summary": "Seventeen killed near Johannesburg in suspected mining turf war; ten killed at Cape Town barbecue venue. Distant crime with no Portuguese impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
         }
       ]
     },
@@ -175,31 +211,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "last uk and us troops leave iraq as anti-islamic state mission ends": {
-      "detected_at": "2026-09-30T13:41:33.832148Z",
-      "peak_at": "2026-09-30T13:41:33.832148Z",
-      "peak_score_at": "2026-09-30T13:41:33.832148Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-      "peak_label": "UK and US troops withdraw from Iraq mission",
-      "peak_summary": "Coalition forces complete withdrawal under two-year-old deal. Ends two-decade Western military presence; distant from Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/iraq-celebrates-national-sovereignty-day-as-us-troops-withdraw?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
-    "At least 27 dead after two mass shootings in South Africa, police say",
-    "Explosions heard in Ethiopia's capital after drone flights banned"
+    "Fires break out at French schools as students protest nationwide",
+    "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed",
+    "At least 27 dead after two mass shootings in South Africa, police say"
   ]
 }
