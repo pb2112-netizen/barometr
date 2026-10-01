@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-09-30T23:47:53.160234Z",
-  "ostatnia_ocena": 7.3,
+  "updated_at": "2026-10-01T05:49:34.363056Z",
+  "ostatnia_ocena": 6.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Estonia Russia arson Ukraine supplier sabotage",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 3,
       "opis": "Russia blamed for arson at Estonian firm supplying Ukraine."
     },
     {
       "temat": "Russia largest energy infrastructure attack since spring",
-      "poziom_bazowy": 7.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 6.8,
+      "cykle_bez_zmian": 3,
       "opis": "Eleven regions hit; residential buildings, railways, energy."
     },
     {
-      "temat": "Russian drone crashes Kyiv playground unexploded",
-      "poziom_bazowy": 5.8,
+      "temat": "Gaza October 2023 casualties buried residential block",
+      "poziom_bazowy": 1.5,
       "cykle_bez_zmian": 0,
+      "opis": "105 bodies recovered from 2023 Israeli strike; distant."
+    },
+    {
+      "temat": "Russian drone crashes Kyiv playground unexploded",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 1,
       "opis": "Attack drone hit children's playground in capital; civilian."
     },
     {
       "temat": "Russia escalates strikes 4000 missiles week",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 13,
       "opis": "Nearly 4,000 Russian drones and missiles in one week; eight."
     },
     {
       "temat": "Russia military expansion 15000 troops fourth increase",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 8,
       "opis": "Putin adds 15,000 soldiers in fourth expansion this year."
     },
     {
       "temat": "US troops withdraw Baghdad Iraq",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "End of two-decade US military presence in Iraq."
     },
     {
       "temat": "Iran US Hormuz reopening deal proposal",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 8,
       "opis": "Iran offers seven-day plan to reopen Strait; energy impact."
-    },
-    {
-      "temat": "US Iran talks midterm elections diplomacy",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
-      "opis": "Negotiations continue without breakthrough; distant."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-29T01:56:11.929858Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-29T08:28:23.125912Z",
       "s": 2.9
@@ -88,6 +84,10 @@
     {
       "t": "2026-09-30T23:47:53.154084Z",
       "s": 7.3
+    },
+    {
+      "t": "2026-10-01T05:49:34.355594Z",
+      "s": 6.8
     }
   ],
   "events_anchor_at": "2026-09-29T15:50:03.005569Z",
@@ -96,7 +96,7 @@
       "detected_at": "2026-09-29T15:50:03.005569Z",
       "peak_at": "2026-09-30T19:18:17.343893Z",
       "peak_score_at": "2026-09-30T19:18:17.343893Z",
-      "peak_score": 7.8,
+      "peak_score": 7.7,
       "peak_sentiment": "negative",
       "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
       "peak_label": "Russia launches massive energy attack on 11 regions",
@@ -105,6 +105,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "putin shows no sign of stopping the war as russia doubles down on ukraine": {
+      "detected_at": "2026-09-30T23:47:53.154084Z",
+      "peak_at": "2026-10-01T05:49:34.355594Z",
+      "peak_score_at": "2026-10-01T05:49:34.355594Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "negative",
+      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "peak_label": "Putin signals continued full-scale invasion",
+      "peak_summary": "Russian president's foreign policy speech confirms ongoing full-scale invasion with no signs of de-escalation, maintaining existential threat.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "gaza prepares to bury 105 palestinians killed in october 2023": {
+      "detected_at": "2026-10-01T05:49:34.355594Z",
+      "peak_at": "2026-10-01T05:49:34.355594Z",
+      "peak_score_at": "2026-10-01T05:49:34.355594Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Gaza prepares to bury 105 Palestinians killed in October 2023",
+      "peak_label": "Gaza buries 105 Palestinians from 2023 strikes",
+      "peak_summary": "Bodies recovered from residential block destroyed by Israel; distant conflict with no direct impact on Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss"
         }
       ]
     },
@@ -121,22 +153,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss"
-        }
-      ]
-    },
-    "putin shows no sign of stopping the war as russia doubles down on ukraine": {
-      "detected_at": "2026-09-30T23:47:53.154084Z",
-      "peak_at": "2026-09-30T23:47:53.154084Z",
-      "peak_score_at": "2026-09-30T23:47:53.154084Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-      "peak_label": "Putin signals no end to full-scale invasion",
-      "peak_summary": "Russian president's foreign policy speech confirms continuation of war. No change to existing situation—ongoing threat remains.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -223,7 +239,7 @@
   },
   "prev_top_event_titles": [
     "Russia launches largest attack on Ukraine energy infrastructure since spring",
-    "Russian drone crashes into Kyiv playground without exploding",
-    "Putin shows no sign of stopping the war as Russia doubles down on Ukraine"
+    "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+    "Gaza prepares to bury 105 Palestinians killed in October 2023"
   ]
 }

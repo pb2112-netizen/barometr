@@ -1,17 +1,18 @@
 {
-  "global_score": 7.3,
-  "rationale": "Russia's largest energy infrastructure attack since spring directly hits eleven Ukrainian regions, targeting residential buildings, railways, and power grid—major escalation affecting civilian life nationwide. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 6.8,
+  "rationale": "Russia's large-scale energy strikes continue across 11 regions; drone crash on Kyiv playground adds new civilian threat dimension. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-      "label": "Russia launches largest energy attack since spring",
-      "summary": "Eleven regions hit overnight with strikes on residential buildings, railways, and energy infrastructure. Major escalation directly affecting civilian life and power supply across Ukraine.",
-      "score": 7.3,
+      "label": "Russia strikes energy grid across 11 regions",
+      "summary": "Continuation of massive attacks on energy infrastructure across 11 regions, hitting residential buildings and railways, maintaining critical threat to daily life.",
+      "score": 6.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
@@ -22,29 +23,10 @@
       "detected_at": "2026-09-29T15:50:03.005569Z"
     },
     {
-      "title": "Russian drone crashes into Kyiv playground without exploding",
-      "label": "Russian drone crashes into Kyiv playground unexploded",
-      "summary": "Attack drone crashed into children's playground in capital without detonating. Direct threat to civilian areas in Kyiv.",
-      "score": 5.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-09-30T23:47:53.154084Z"
-    },
-    {
       "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-      "label": "Putin signals no end to full-scale invasion",
-      "summary": "Russian president's foreign policy speech confirms continuation of war. No change to existing situation—ongoing threat remains.",
-      "score": 3.2,
+      "label": "Putin signals continued full-scale invasion",
+      "summary": "Russian president's foreign policy speech confirms ongoing full-scale invasion with no signs of de-escalation, maintaining existential threat.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,21 +40,40 @@
         }
       ],
       "detected_at": "2026-09-30T23:47:53.154084Z"
+    },
+    {
+      "title": "Gaza prepares to bury 105 Palestinians killed in October 2023",
+      "label": "Gaza buries 105 Palestinians from 2023 strikes",
+      "summary": "Bodies recovered from residential block destroyed by Israel; distant conflict with no direct impact on Ukraine.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-01T05:49:34.355594Z"
     }
   ],
   "short_summary": "Russia launches massive energy attack on 11 regions",
-  "level_label": "High",
+  "level_label": "Elevated",
   "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-09-30T23:47:53.154084Z",
+  "updated_at": "2026-10-01T05:49:34.355594Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia launches massive energy attack on 11 regions",
     "summary": "Russia's largest energy attack since spring hits 11 Ukrainian regions, targeting residential buildings, railways, and critical infrastructure.",
     "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-    "score": 7.8,
+    "score": 7.7,
     "sentiment": "negative",
     "detected_at": "2026-09-29T15:50:03.005569Z",
     "peak_at": "2026-09-30T19:18:17.343893Z",
@@ -85,10 +86,6 @@
   },
   "events_anchor_at": "2026-09-29T15:50:03.005569Z",
   "score_history": [
-    {
-      "t": "2026-09-29T01:56:11.929858Z",
-      "s": 2.9
-    },
     {
       "t": "2026-09-29T08:28:23.125912Z",
       "s": 2.9
@@ -120,6 +117,10 @@
     {
       "t": "2026-09-30T23:47:53.154084Z",
       "s": 7.3
+    },
+    {
+      "t": "2026-10-01T05:49:34.355594Z",
+      "s": 6.8
     }
   ]
 }
