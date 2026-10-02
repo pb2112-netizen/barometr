@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-01T23:11:39.479112Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-10-02T02:14:46.517793Z",
+  "ostatnia_ocena": 2.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "South Africa mass shootings violence",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "27 killed in two separate shootings; distant crime."
-    },
-    {
       "temat": "France student protests fires schools EU",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Violent nationwide protests over school conditions in."
     },
     {
       "temat": "Brazil Trump election interference sovereignty",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Brazil rejects reported US plans to meddle in elections."
+    },
+    {
+      "temat": "US Trump human rights funds far-right global",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "US redirects human rights funding to far-right causes."
+    },
+    {
+      "temat": "South Africa mass shootings violence",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
+      "opis": "27 killed in two separate shootings; distant crime."
     },
     {
       "temat": "Ethiopia capital explosions drone ban fighting",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Fighting north of Addis Ababa; distant conflict."
     },
     {
       "temat": "Swiss glaciers catastrophic ice loss climate",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "5% ice loss in one year; European climate concern."
     },
     {
       "temat": "Brazil Lula bans sports betting elections",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "President bans fixed-odds betting before elections."
     },
     {
       "temat": "Nepal landslides deaths trekkers evacuated",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "30 killed after floods; distant disaster."
-    },
-    {
-      "temat": "Morocco first female prime minister",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Historic appointment in Morocco; regional political shift."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-30T00:26:13.843860Z",
-      "s": 2.4
-    },
     {
       "t": "2026-09-30T06:42:06.552701Z",
       "s": 2.3
@@ -88,6 +84,10 @@
     {
       "t": "2026-10-01T23:11:39.472383Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-10-02T02:14:46.511181Z",
+      "s": 2.3
     }
   ],
   "events_anchor_at": "2026-10-01T18:52:58.843706Z",
@@ -96,7 +96,7 @@
       "detected_at": "2026-10-01T18:52:58.843706Z",
       "peak_at": "2026-10-01T18:52:58.843706Z",
       "peak_score_at": "2026-10-01T18:52:58.843706Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Fires break out at French schools as students protest nationwide",
       "peak_label": "French student protests turn violent",
@@ -109,6 +109,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss"
+        }
+      ]
+    },
+    "brazil attorney general says meddling 'cannot be tolerated' after trump funding plans revealed": {
+      "detected_at": "2026-10-01T18:52:58.843706Z",
+      "peak_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score_at": "2026-10-01T18:52:58.843706Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed",
+      "peak_label": "Brazil rejects Trump election interference plans",
+      "peak_summary": "Brazil's attorney general condemns reported US plans to meddle in upcoming elections, defending sovereignty in Lusophone partner nation.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans"
+        }
+      ]
+    },
+    "trump administration diverts human rights funds to push far-right agenda abroad": {
+      "detected_at": "2026-10-02T02:14:46.511181Z",
+      "peak_at": "2026-10-02T02:14:46.511181Z",
+      "peak_score_at": "2026-10-02T02:14:46.511181Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "peak_label": "US redirects human rights funds to far-right groups",
+      "peak_summary": "Trump administration diverts funding to support far-right causes globally; distant concern for democratic norms but no direct Portugal impact.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
         }
       ]
     },
@@ -125,22 +157,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town"
-        }
-      ]
-    },
-    "brazil attorney general says meddling 'cannot be tolerated' after trump funding plans revealed": {
-      "detected_at": "2026-10-01T18:52:58.843706Z",
-      "peak_at": "2026-10-01T18:52:58.843706Z",
-      "peak_score_at": "2026-10-01T18:52:58.843706Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed",
-      "peak_label": "Brazil rejects Trump election interference plans",
-      "peak_summary": "Brazil's attorney general condemns reported US plans to meddle in upcoming elections, defending sovereignty in Lusophone partner nation.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans"
         }
       ]
     },
@@ -179,27 +195,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "lula bans fixed-odds sports betting a week before brazilian elections": {
-      "detected_at": "2026-09-29T15:50:03.003341Z",
-      "peak_at": "2026-09-30T23:47:53.152338Z",
-      "peak_score_at": "2026-09-30T23:47:53.152338Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "neutral",
-      "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
-      "peak_label": "Brazil bans sports betting before elections",
-      "peak_summary": "President Lula signs order banning fixed-odds betting, likely popular measure. Lusophone connection but no direct impact on Portugal's economy or daily life.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Fires break out at French schools as students protest nationwide",
-    "At least 27 dead after two mass shootings in South Africa, police say",
-    "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed"
+    "Brazil attorney general says meddling 'cannot be tolerated' after Trump funding plans revealed",
+    "Trump administration diverts human rights funds to push far-right agenda abroad"
   ]
 }

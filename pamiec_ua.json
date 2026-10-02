@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-01T23:11:39.480069Z",
+  "updated_at": "2026-10-02T02:14:46.518715Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Putin Kaliningrad threat NATO escalation",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 2,
       "opis": "Russia threatens all weapons for Kaliningrad; NATO tension."
     },
     {
+      "temat": "Kasparov US warning Russian assassination threat",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 0,
+      "opis": "US warns Putin critic Kasparov of danger to his life."
+    },
+    {
+      "temat": "US Trump human rights funds far-right global",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "US redirects human rights funding to far-right causes."
+    },
+    {
       "temat": "Russia largest energy infrastructure attack since spring",
-      "poziom_bazowy": 5.9,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 5.6,
+      "cykle_bez_zmian": 7,
       "opis": "Eleven regions hit; residential buildings, railways, energy."
     },
     {
       "temat": "Russian drone crashes Kyiv playground unexploded",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 5,
       "opis": "Attack drone hit children's playground in capital; civilian."
     },
     {
       "temat": "Estonia Russia arson Ukraine supplier sabotage",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 7,
       "opis": "Russia blamed for arson at Estonian firm supplying Ukraine."
     },
     {
       "temat": "Russia escalates strikes 4000 missiles week",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 17,
       "opis": "Nearly 4,000 Russian drones and missiles in one week; eight."
     },
     {
       "temat": "Russia military expansion 15000 troops fourth increase",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 12,
       "opis": "Putin adds 15,000 soldiers in fourth expansion this year."
-    },
-    {
-      "temat": "Dubai Tel Aviv flight pilot attack investigation",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Pilot stabbed co-pilot; investigated in Saudi Arabia."
-    },
-    {
-      "temat": "Ethiopia capital explosions drone ban fighting",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Fighting north of Addis Ababa; distant conflict."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-30T00:26:13.845856Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-30T06:42:06.554675Z",
       "s": 2.3
@@ -88,6 +84,10 @@
     {
       "t": "2026-10-01T23:11:39.473831Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-02T02:14:46.512797Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-30T23:47:53.154084Z",
@@ -96,7 +96,7 @@
       "detected_at": "2026-09-30T23:47:53.154084Z",
       "peak_at": "2026-10-01T05:49:34.355594Z",
       "peak_score_at": "2026-10-01T05:49:34.355594Z",
-      "peak_score": 3.5,
+      "peak_score": 3.4,
       "peak_sentiment": "negative",
       "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
       "peak_label": "Putin signals continued full-scale invasion",
@@ -105,6 +105,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "russian dissident garry kasparov says us warned him of danger to his life": {
+      "detected_at": "2026-10-01T18:52:58.845292Z",
+      "peak_at": "2026-10-01T18:52:58.845292Z",
+      "peak_score_at": "2026-10-01T18:52:58.845292Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "negative",
+      "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
+      "peak_label": "US warns Kasparov of Putin threat",
+      "peak_summary": "Former chess champion receives US warning about danger from Putin regime, illustrating ongoing Russian extraterritorial operations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump administration diverts human rights funds to push far-right agenda abroad": {
+      "detected_at": "2026-10-02T02:14:46.512797Z",
+      "peak_at": "2026-10-02T02:14:46.512797Z",
+      "peak_score_at": "2026-10-02T02:14:46.512797Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "peak_label": "US redirects human rights funds to far-right groups",
+      "peak_summary": "Trump administration diverts funding to support far-right causes globally; potential indirect concern for Western aid priorities but no confirmed Ukraine impact.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
         }
       ]
     },
@@ -141,22 +173,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russian dissident garry kasparov says us warned him of danger to his life": {
-      "detected_at": "2026-10-01T18:52:58.845292Z",
-      "peak_at": "2026-10-01T18:52:58.845292Z",
-      "peak_score_at": "2026-10-01T18:52:58.845292Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
-      "peak_label": "US warns Kasparov of Putin threat",
-      "peak_summary": "Former chess champion receives US warning about danger from Putin regime, illustrating ongoing Russian extraterritorial operations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -207,26 +223,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss"
         }
       ]
-    },
-    "russian drone crashes into kyiv playground without exploding": {
-      "detected_at": "2026-09-30T23:47:53.154084Z",
-      "peak_at": "2026-09-30T23:47:53.154084Z",
-      "peak_score_at": "2026-09-30T23:47:53.154084Z",
-      "peak_score": 5.8,
-      "peak_sentiment": "negative",
-      "title": "Russian drone crashes into Kyiv playground without exploding",
-      "peak_label": "Russian drone crashes into Kyiv playground unexploded",
-      "peak_summary": "Attack drone crashed into children's playground in capital without detonating. Direct threat to civilian areas in Kyiv.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
-    "Flydubai co-pilot 'assaulted' captain before landing: Initial Saudi probe"
+    "Russian dissident Garry Kasparov says US warned him of danger to his life",
+    "Trump administration diverts human rights funds to push far-right agenda abroad"
   ]
 }

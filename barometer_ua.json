@@ -1,85 +1,90 @@
 {
   "global_score": 3.0,
-  "rationale": "Putin's Kaliningrad threat and ceasefire rejection continue existing NATO-Russia tension; no new qualitative change to the war situation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Putin's Kaliningrad threat continues as top concern for NATO escalation context; no new direct strikes on Ukraine this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
-      "label": "Putin threatens nuclear weapons for Kaliningrad",
-      "summary": "Russia warns of potential nuclear deployment for Baltic exclave and rules out Ukraine ceasefire, maintaining existing high-tension posture.",
+      "label": "Putin threatens all weapons for Kaliningrad exclave",
+      "summary": "Russia's leader repeats threat to use any weapons to defend Kaliningrad, maintaining high tension in NATO-Russia standoff relevant to Ukraine's war context.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/1/russias-putin-rules-out-ceasefire-with-ukraine-during-speech-in-moscow?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-30T23:47:53.154084Z"
     },
     {
-      "title": "Flydubai co-pilot 'assaulted' captain before landing: Initial Saudi probe",
-      "label": "Flydubai pilot assaulted captain mid-flight",
-      "summary": "Saudi investigation confirms co-pilot attacked captain on Dubai-Tel Aviv flight; aviation security incident with no direct Ukrainian impact.",
-      "score": 2.0,
+      "title": "Russian dissident Garry Kasparov says US warned him of danger to his life",
+      "label": "US warns Kasparov of Russian assassination threat",
+      "summary": "Former chess champion and Putin critic says US warned him of danger; reflects ongoing Russian targeting of dissidents but no direct Ukraine impact.",
+      "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera",
         "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/1/flydubai-co-pilot-assaulted-captain-before-landing-initial-saudi-probe?traffic_source=rss"
-        },
-        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6y8z8kr5mk8o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-01T23:11:39.473831Z"
+      "detected_at": "2026-10-01T18:52:58.845292Z"
+    },
+    {
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "label": "US redirects human rights funds to far-right groups",
+      "summary": "Trump administration diverts funding to support far-right causes globally; potential indirect concern for Western aid priorities but no confirmed Ukraine impact.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
+        }
+      ],
+      "detected_at": "2026-10-02T02:14:46.512797Z"
     }
   ],
-  "short_summary": "Russian drone crashes into Kyiv playground unexploded",
+  "short_summary": "Putin signals continued full-scale invasion",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-01T23:11:39.473831Z",
+  "updated_at": "2026-10-02T02:14:46.512797Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Russian drone crashes into Kyiv playground unexploded",
-    "summary": "Attack drone crashed into children's playground in capital without detonating. Direct threat to civilian areas in Kyiv.",
-    "title": "Russian drone crashes into Kyiv playground without exploding",
-    "score": 5.8,
+    "label": "Putin signals continued full-scale invasion",
+    "summary": "Russian president's foreign policy speech confirms ongoing full-scale invasion with no signs of de-escalation, maintaining existential threat.",
+    "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+    "score": 3.4,
     "sentiment": "negative",
     "detected_at": "2026-09-30T23:47:53.154084Z",
-    "peak_at": "2026-09-30T23:47:53.154084Z",
+    "peak_at": "2026-10-01T05:49:34.355594Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/aje-onl-nf_russian-drone-crashes-on-kyiv-playground-300926?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   "events_anchor_at": "2026-09-30T23:47:53.154084Z",
   "score_history": [
-    {
-      "t": "2026-09-30T00:26:13.845856Z",
-      "s": 3.9
-    },
     {
       "t": "2026-09-30T06:42:06.554675Z",
       "s": 2.3
@@ -110,6 +115,10 @@
     },
     {
       "t": "2026-10-01T23:11:39.473831Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-02T02:14:46.512797Z",
       "s": 3.0
     }
   ]

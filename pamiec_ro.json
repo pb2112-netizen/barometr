@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-01T23:11:39.478075Z",
+  "updated_at": "2026-10-02T02:14:46.516893Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Putin Kaliningrad threat NATO Black Sea",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 2,
       "opis": "Russia threatens all weapons for Kaliningrad; NATO concern."
     },
     {
       "temat": "France student protests fires schools EU",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Nationwide violent protests over school conditions in."
     },
     {
+      "temat": "US Trump human rights funds far-right global",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 0,
+      "opis": "US redirects human rights funding to far-right causes."
+    },
+    {
       "temat": "Russia largest Ukraine energy attack since spring",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 7,
       "opis": "Massive strike on 11 regions; energy grid and civilian."
     },
     {
       "temat": "Estonia Russia arson sabotage NATO",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Russia blamed for arson at Estonian defense supplier; NATO."
     },
     {
       "temat": "Swiss glaciers catastrophic ice loss climate",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "5% ice loss in one year; European climate concern."
     },
     {
       "temat": "Ethiopia capital explosions drone ban fighting",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Fighting north of Addis Ababa; distant conflict."
     },
     {
       "temat": "Pakistan Afghanistan air strikes cross-border",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Pakistan strikes Afghanistan; 22 killed; distant conflict."
-    },
-    {
-      "temat": "Nepal landslides deaths trekkers evacuated",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "30 killed in landslides after floods; distant disaster."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-09-30T00:26:13.841851Z",
-      "s": 3.5
-    },
     {
       "t": "2026-09-30T06:42:06.551298Z",
       "s": 2.5
@@ -88,6 +84,10 @@
     {
       "t": "2026-10-01T23:11:39.470771Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-02T02:14:46.509588Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-30T19:18:17.340595Z",
@@ -112,7 +112,7 @@
       "detected_at": "2026-10-01T18:52:58.841931Z",
       "peak_at": "2026-10-01T18:52:58.841931Z",
       "peak_score_at": "2026-10-01T18:52:58.841931Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Fires break out at French schools as students protest nationwide",
       "peak_label": "French student protests escalate with fires",
@@ -125,6 +125,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss"
+        }
+      ]
+    },
+    "trump administration diverts human rights funds to push far-right agenda abroad": {
+      "detected_at": "2026-10-02T02:14:46.509588Z",
+      "peak_at": "2026-10-02T02:14:46.509588Z",
+      "peak_score_at": "2026-10-02T02:14:46.509588Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "peak_label": "US redirects human rights funds to far-right groups",
+      "peak_summary": "Trump administration diverts funding to support far-right causes globally; indirect concern for EU democratic stability and regional norms.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
         }
       ]
     },
@@ -176,22 +192,6 @@
         }
       ]
     },
-    "putin shows no sign of stopping the war as russia doubles down on ukraine": {
-      "detected_at": "2026-09-30T23:47:53.150522Z",
-      "peak_at": "2026-09-30T23:47:53.150522Z",
-      "peak_score_at": "2026-09-30T23:47:53.150522Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-      "peak_label": "Putin confirms continuation of Ukraine invasion",
-      "peak_summary": "Russian president's speech signals no end to war. Sustained threat to Romania's Black Sea region and eastern neighbor security.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "pakistan says 22 fighters killed in air attacks on afghanistan": {
       "detected_at": "2026-10-01T05:49:34.352042Z",
       "peak_at": "2026-10-01T05:49:34.352042Z",
@@ -207,27 +207,11 @@
           "url": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand?traffic_source=rss"
         }
       ]
-    },
-    "last uk and us troops leave iraq as anti-islamic state mission ends": {
-      "detected_at": "2026-09-29T20:46:02.098620Z",
-      "peak_at": "2026-09-30T23:47:53.150522Z",
-      "peak_score_at": "2026-09-29T20:46:02.098620Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "US troops fully withdraw from Baghdad base after two decades",
-      "peak_label": "US troops withdraw from Baghdad base fully",
-      "peak_summary": "Two-decade US military presence in Iraq ends; distant geopolitical shift with minimal direct impact on Romania's security or economy.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
     "Fires break out at French schools as students protest nationwide",
-    "At least 27 dead after two mass shootings in South Africa, police say"
+    "Trump administration diverts human rights funds to push far-right agenda abroad"
   ]
 }
