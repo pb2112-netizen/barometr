@@ -1,31 +1,50 @@
 {
   "global_score": 3.0,
-  "rationale": "US diesel export ban threat affects EU energy costs; Seoul-Ukraine row adds Black Sea region tension; ongoing conflicts continue without new developments. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Intensified Russian strikes on Kyiv raise Black Sea regional security concerns and potential refugee flows; Seoul-Ukraine row threatens allied support; G7 diesel release eases EU energy pressure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
-      "label": "US diesel export ban threat pressures Europe",
-      "summary": "Trump threatens diesel export ban to lower US prices, pressuring EU to release reserves. Could raise energy costs across EU including Romania.",
+      "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+      "label": "Russia escalates strikes on Kyiv infrastructure",
+      "summary": "Mayor warns of dramatic situation as Russia intensifies attacks on capital's critical infrastructure, raising concerns for Black Sea regional stability and potential refugee pressure.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-02T15:47:45.265253Z"
+    },
+    {
+      "title": "G7 announces oil reserve release, as Trump hails Europe diesel deal",
+      "label": "G7 releases oil reserves amid diesel deal",
+      "summary": "G7 commits to 100 million barrel release over four months with frontloaded diesel, reducing immediate EU energy cost pressure for Romania.",
+      "score": 2.9,
+      "sentiment": "positive",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "nowosc": "kontynuacja",
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-02T08:32:55.489464Z"
     },
     {
       "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
-      "label": "Seoul threatens Ukraine over POW row escalation",
-      "summary": "South Korea accuses Ukraine of provoking Korean war, demands apology. Adds diplomatic friction in Black Sea neighbor region.",
-      "score": 2.7,
+      "label": "Seoul threatens Ukraine over POW row",
+      "summary": "South Korea escalates diplomatic pressure on Ukraine over prisoner dispute, potentially weakening allied support at critical moment for regional security.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-02T08:32:55.489464Z"
-    },
-    {
-      "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
-      "label": "Ethiopia Eritrea cut ties amid conflict escalation",
-      "summary": "Diplomatic break as forces battle northern rebels. Distant African conflict with no direct impact on Romania.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-02T08:32:55.489464Z"
     }
   ],
   "short_summary": "Russia threatens nuclear response over Kaliningrad",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-02T08:32:55.489464Z",
+  "updated_at": "2026-10-02T15:47:45.265253Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russia threatens nuclear response over Kaliningrad",
     "summary": "Moscow's nuclear warning over Baltic Sea blockade escalates NATO-Russia tensions affecting regional security.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-09-30T19:18:17.340595Z",
   "score_history": [
-    {
-      "t": "2026-09-30T13:41:33.830642Z",
-      "s": 4.5
-    },
     {
       "t": "2026-09-30T19:18:17.340595Z",
       "s": 4.7
@@ -119,6 +115,10 @@
     },
     {
       "t": "2026-10-02T08:32:55.489464Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-02T15:47:45.265253Z",
       "s": 3.0
     }
   ]
