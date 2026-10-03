@@ -1,50 +1,36 @@
 {
-  "global_score": 3.9,
-  "rationale": "Tennessee execution halted after Pike survived two lethal injections, raising serious questions about execution protocols; G7 oil release continues; missing medical plane search ongoing; Brazil election rhetoric remains background.",
+  "global_score": 3.8,
+  "rationale": "Tennessee execution failure with prisoner in critical condition after two lethal injections raises serious questions about death penalty protocols; G7 oil release continues; Coast Guard searches for missing medical plane off Massachusetts. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Tennessee prison chief to resign after Christa Pike's failed execution, governor says",
-      "label": "Tennessee execution halted Pike survives injections",
-      "summary": "Christa Pike survived two lethal injections and is in critical condition, prompting prison chief resignation and raising serious questions about execution protocols.",
-      "score": 3.0,
+      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+      "label": "Tennessee prison chief resigns after failed execution",
+      "summary": "Pike in critical condition after surviving two lethal injections; failure prompts resignation and independent review of execution protocols in US death penalty state.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/3/tennessee-prisons-official-resigns-after-christa-pikes-failed-us-execution?traffic_source=rss"
         }
       ],
       "detected_at": "2026-09-30T13:41:33.836251Z"
     },
     {
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "label": "G7 releases oil reserves Trump threat",
-      "summary": "Coordinated release aims to prevent diesel price spikes and avoid US export ban, providing continued relief to fuel costs.",
-      "score": 3.9,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-02T08:32:55.493448Z"
-    },
-    {
       "title": "Medical plane with 6 on board missing off Massachusetts coast",
-      "label": "Medical plane missing Massachusetts coast search",
-      "summary": "Air ambulance with six people lost contact after dropping altitude during medical evacuation from Bermuda; Coast Guard search underway.",
-      "score": 2.9,
+      "label": "Medical plane missing off Massachusetts coast",
+      "summary": "Air ambulance with six people lost communication after significant altitude drop; Coast Guard searching off Massachusetts coast.",
+      "score": 3.7,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "katastrofa",
@@ -63,6 +49,25 @@
         }
       ],
       "detected_at": "2026-10-03T17:15:36.838765Z"
+    },
+    {
+      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+      "label": "G7 releases oil reserves after Trump threat",
+      "summary": "Coordinated release aims to prevent diesel price spikes and avert US export ban, addressing fuel cost concerns domestically and with allies.",
+      "score": 3.8,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-02T08:32:55.493448Z"
     }
   ],
   "short_summary": "G7 releases oil reserves after US export threat",
@@ -70,14 +75,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-03T17:15:36.838765Z",
+  "updated_at": "2026-10-03T19:52:10.602898Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "G7 releases oil reserves after US export threat",
     "summary": "Coordinated 100M barrel release over four months aims to prevent diesel price spikes and avoid US export ban, addressing fuel costs.",
     "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-    "score": 4.1,
+    "score": 4.0,
     "sentiment": "positive",
     "detected_at": "2026-10-02T08:32:55.493448Z",
     "peak_at": "2026-10-03T00:29:06.051409Z",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-10-02T08:32:55.493448Z",
   "score_history": [
-    {
-      "t": "2026-10-01T18:52:58.846920Z",
-      "s": 2.8
-    },
     {
       "t": "2026-10-01T23:11:39.475890Z",
       "s": 2.7
@@ -129,6 +130,10 @@
     {
       "t": "2026-10-03T17:15:36.838765Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-03T19:52:10.602898Z",
+      "s": 3.8
     }
   ]
 }
