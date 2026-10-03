@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-03T00:29:06.055533Z",
+  "updated_at": "2026-10-03T06:31:28.552599Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Seoul Ukraine POW diplomatic crisis",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 2,
-      "opis": "South Korea threatens Ukraine over POW row; ally support."
-    },
-    {
-      "temat": "Russian drone crashes Kyiv playground unexploded",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Attack drone hit children's playground in capital; civilian."
-    },
-    {
       "temat": "Kyiv mayor warns dramatic situation intensified strikes",
       "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 0,
       "opis": "Mayor warns capital faces very dramatic infrastructure."
     },
     {
-      "temat": "Seoul escalates POW row threatens further action",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 2,
-      "opis": "South Korea president threatens action, risks allied."
-    },
-    {
       "temat": "G7 oil reserve release diesel deal",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "100M barrel release provides indirect energy relief."
     },
     {
+      "temat": "Netanyahu rejected Hamas captive release offer October 7",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Israel rejected Hamas offer to release all civilian."
+    },
+    {
       "temat": "Russia largest energy infrastructure attack since spring",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 12,
       "opis": "Eleven regions hit; residential buildings, railways, energy."
     },
     {
-      "temat": "Putin Kaliningrad threat NATO escalation",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 6,
-      "opis": "Russia threatens all weapons for Kaliningrad; NATO tension."
+      "temat": "Seoul escalates POW row threatens further action",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 3,
+      "opis": "South Korea president threatens action, risks allied."
     },
     {
-      "temat": "Estonia Russia arson Ukraine supplier sabotage",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 11,
-      "opis": "Russia blamed for arson at Estonian firm supplying Ukraine."
+      "temat": "Russian drone crashes Kyiv playground unexploded",
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 3,
+      "opis": "Attack drone hit children's playground in capital; civilian."
+    },
+    {
+      "temat": "Seoul Ukraine POW diplomatic crisis",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 3,
+      "opis": "South Korea threatens Ukraine over POW row; ally support."
+    },
+    {
+      "temat": "Putin Kaliningrad threat NATO escalation",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 7,
+      "opis": "Russia threatens all weapons for Kaliningrad; NATO tension."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-01T05:49:34.355594Z",
-      "s": 6.8
-    },
     {
       "t": "2026-10-01T13:10:22.768877Z",
       "s": 3.0
@@ -88,11 +84,15 @@
     {
       "t": "2026-10-03T00:29:06.049982Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-03T06:31:28.546283Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-09-30T23:47:53.154084Z",
   "event_detected_at": {
-    "intensified russian strikes are tearing kyiv apart, warns mayor": {
+    "russia strikes second major bridge in kyiv, mayor says": {
       "detected_at": "2026-10-02T15:47:45.267623Z",
       "peak_at": "2026-10-02T15:47:45.267623Z",
       "peak_score_at": "2026-10-02T15:47:45.267623Z",
@@ -108,11 +108,11 @@
         }
       ]
     },
-    "g7 to release 100 million barrels of oil and diesel after trump export ban threat": {
+    "g7 to release millions of barrels of oil and diesel after trump threat": {
       "detected_at": "2026-10-02T08:32:55.492032Z",
       "peak_at": "2026-10-02T15:47:45.267623Z",
       "peak_score_at": "2026-10-02T15:47:45.267623Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "positive",
       "title": "G7 announces oil reserve release, as Trump hails Europe diesel deal",
       "peak_label": "G7 releases oil reserves for energy relief",
@@ -121,6 +121,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss"
+        }
+      ]
+    },
+    "new claims that netanyahu rejected hamas offer to release captives": {
+      "detected_at": "2026-10-03T06:31:28.546283Z",
+      "peak_at": "2026-10-03T06:31:28.546283Z",
+      "peak_score_at": "2026-10-03T06:31:28.546283Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "New claims that Netanyahu rejected Hamas offer to release captives",
+      "peak_label": "Netanyahu rejected Hamas captive release offer",
+      "peak_summary": "Reports build that Israel rejected Hamas offer to release all civilian hostages taken on October 7, 2023, but distant from Ukraine's immediate war concerns.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/new-claims-that-netanyahu-rejected-hamas-offer-to-release-captives?traffic_source=rss"
         }
       ]
     },
@@ -187,27 +203,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "trump administration diverts human rights funds to push far-right agenda abroad": {
-      "detected_at": "2026-10-02T02:14:46.512797Z",
-      "peak_at": "2026-10-02T02:14:46.512797Z",
-      "peak_score_at": "2026-10-02T02:14:46.512797Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
-      "peak_label": "US redirects human rights funds to far-right groups",
-      "peak_summary": "Trump administration diverts funding to support far-right causes globally; potential indirect concern for Western aid priorities but no confirmed Ukraine impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-    "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-    "North Korea fires ballistic missile towards the sea, South Korea says"
+    "Russia strikes second major bridge in Kyiv, mayor says",
+    "G7 to release millions of barrels of oil and diesel after Trump threat",
+    "New claims that Netanyahu rejected Hamas offer to release captives"
   ]
 }
