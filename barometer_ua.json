@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Second major bridge in Kyiv struck by Russia, confirming dramatic escalation of infrastructure attacks on the capital warned by mayor; direct impact on civilian movement and city function. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Second major bridge in Kyiv struck, significantly escalating infrastructure damage in the capital; medical plane missing off US coast is distant; G7 oil release provides minor relief. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
       "label": "Russia strikes second major Kyiv bridge",
-      "summary": "Second major bridge attack in capital confirms escalating infrastructure campaign, directly disrupting civilian movement and city function as mayor warned of dramatic situation.",
-      "score": 2.7,
+      "summary": "Pivnichnyi Bridge hit after repeated attacks on another major bridge in capital, significantly escalating infrastructure damage and disrupting movement in Kyiv.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,29 +22,10 @@
       "detected_at": "2026-10-02T15:47:45.267623Z"
     },
     {
-      "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-      "label": "Flydubai co-pilot attacked captain with axe",
-      "summary": "Man named as Hamam al-Hammami allegedly tried to take over Israel-bound jet with axe attack on captain, raising aviation security concerns.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-01T23:11:39.473831Z"
-    },
-    {
       "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
       "label": "G7 releases oil reserves after Trump threat",
-      "summary": "Coordinated reserve release aims to prevent diesel price spikes, providing indirect energy cost relief for Ukraine during infrastructure attacks.",
-      "score": 2.5,
+      "summary": "Coordinated release aims to prevent diesel price spikes, providing minor indirect energy relief for Ukraine during ongoing infrastructure attacks.",
+      "score": 2.4,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-10-02T08:32:55.492032Z"
+    },
+    {
+      "title": "Medical plane with 6 on board missing off Massachusetts coast",
+      "label": "Medical plane missing off Massachusetts coast",
+      "summary": "Aircraft lost communication after altitude drop; distant event with no impact on Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-03T23:02:40.130973Z"
     }
   ],
   "short_summary": "Kyiv mayor warns of dramatic strike escalation",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-03T19:52:10.601264Z",
+  "updated_at": "2026-10-03T23:02:40.130973Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Kyiv mayor warns of dramatic strike escalation",
     "summary": "Mayor Klitschko warns capital faces very dramatic situation as Russia intensifies attacks on critical infrastructure, directly threatening civilian life and energy supply.",
     "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-    "score": 2.7,
+    "score": 2.6,
     "sentiment": "negative",
     "detected_at": "2026-10-02T15:47:45.267623Z",
     "peak_at": "2026-10-03T17:15:36.837701Z",
@@ -124,6 +124,10 @@
     {
       "t": "2026-10-03T19:52:10.601264Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-03T23:02:40.130973Z",
+      "s": 2.6
     }
   ]
 }
