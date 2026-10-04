@@ -1,52 +1,14 @@
 {
-  "global_score": 3.4,
-  "rationale": "Tennessee prison chief resignation after failed execution and debris found from missing plane off US coast are domestic developments, but continuation of existing situations without major policy change.",
+  "global_score": 2.8,
+  "rationale": "Debris found from missing medical plane off Massachusetts coast; search ongoing for six people onboard.",
   "top_events": [
     {
-      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-      "label": "Tennessee prison chief resigns after failed execution",
-      "summary": "Prison chief resigns after Pike survived two lethal injections and remains in critical condition. Continuation of execution controversy with administrative consequence.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-30T13:41:33.836251Z"
-    },
-    {
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "label": "G7 releases oil reserves after Trump diesel threat",
-      "summary": "Coordinated release to prevent price spikes and avoid US diesel export ban. Continuation of energy cost management with indirect impact on US fuel prices.",
-      "score": 3.4,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-02T08:32:55.493448Z"
-    },
-    {
       "title": "Debris found from plane that went missing off US coast",
-      "label": "Debris found from missing plane off Massachusetts",
-      "summary": "Coast Guard finds debris from medical transport aircraft with six people onboard that lost contact off Massachusetts coast. Tragic incident but localized impact.",
-      "score": 2.5,
+      "label": "Debris found from missing medical plane",
+      "summary": "Coast Guard found debris from medical transport aircraft with six people onboard that lost contact off Massachusetts coast after dropping altitude.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -63,16 +25,54 @@
         }
       ],
       "detected_at": "2026-10-03T17:15:36.838765Z"
+    },
+    {
+      "title": "US Marine arrested over murder of woman in Okinawa, Japan",
+      "label": "US Marine arrested for Okinawa murder",
+      "summary": "Marine arrested for murder of woman in Okinawa; Japan lodged formal protest demanding US military action. Overseas incident affecting bilateral relations.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-04T15:21:44.351544Z"
+    },
+    {
+      "title": "Cornell president says university 'must do better' after frat house rape allegations",
+      "label": "Cornell responds to frat rape allegations",
+      "summary": "University president calls allegations of drugging and gang rape deeply disturbing. Campus safety concern but no broader policy impact.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-04T15:21:44.351544Z"
     }
   ],
   "short_summary": "G7 releases oil reserves after US export threat",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-04T09:45:35.541955Z",
+  "updated_at": "2026-10-04T15:21:44.351544Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "G7 releases oil reserves after US export threat",
     "summary": "Coordinated 100M barrel release over four months aims to prevent diesel price spikes and avoid US export ban, addressing fuel costs.",
@@ -129,6 +129,10 @@
     {
       "t": "2026-10-04T09:45:35.541955Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-04T15:21:44.351544Z",
+      "s": 2.8
     }
   ]
 }

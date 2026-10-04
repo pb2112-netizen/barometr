@@ -1,13 +1,37 @@
 {
-  "global_score": 4.5,
-  "rationale": "Kyiv bridge drone strike represents a significant escalation in attacks on Ukrainian capital infrastructure, directly affecting Black Sea regional security and energy stability for Romania.",
+  "global_score": 4.3,
+  "rationale": "Kyiv bridge drone strike during high-level visit shows escalation in neighboring Ukraine; Black Sea security concern for Romania. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "label": "Russian drone hits Kyiv bridge during traffic",
-      "summary": "Drone strike on Northern Bridge creates fireball as vehicles cross. Escalation in capital attacks raises Black Sea security concerns and energy infrastructure risks for Romania.",
-      "score": 4.5,
+      "label": "Drone strikes Kyiv bridge during Merz visit",
+      "summary": "Russian drone hit Northern Bridge during traffic as German chancellor visited capital. Second consecutive day of strikes on same bridge signals escalation in neighboring Ukraine.",
+      "score": 4.3,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-02T15:47:45.265253Z"
+    },
+    {
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "label": "Ethiopian forces retake Tigray capital Mekelle",
+      "summary": "Pro-government forces take control of Mekelle as rebels withdraw. Distant African conflict with no Romanian impact.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -16,38 +40,19 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-02T15:47:45.265253Z"
-    },
-    {
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "label": "G7 releases oil reserves after Trump diesel threat",
-      "summary": "Coordinated release to prevent price spikes and avoid US diesel export ban. Continuation of energy cost management for EU, including Romania.",
-      "score": 2.7,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-02T08:32:55.489464Z"
+      "detected_at": "2026-10-04T15:21:44.346053Z"
     },
     {
       "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "label": "Tens of thousands protest Spain housing crisis",
-      "summary": "Over 50 protests after government failed to pass emergency housing legislation. Continuation of EU political instability with indirect implications.",
-      "score": 2.9,
+      "label": "Spain housing protests after legislation fails",
+      "summary": "Over 50 protests across Spain after emergency housing bill failed. EU partner instability but no direct Romanian effect.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -62,10 +67,10 @@
   ],
   "short_summary": "Russian drone hits Kyiv bridge during traffic",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-04T09:45:35.539616Z",
+  "updated_at": "2026-10-04T15:21:44.346053Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -124,6 +129,10 @@
     {
       "t": "2026-10-04T09:45:35.539616Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-10-04T15:21:44.346053Z",
+      "s": 4.3
     }
   ]
 }

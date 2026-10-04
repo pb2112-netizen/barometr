@@ -1,15 +1,15 @@
 {
-  "global_score": 2.7,
-  "rationale": "Spain housing protests represent a qualitative escalation in Iberian political instability, with over 50 demonstrations after government legislative failure, directly relevant to Portugal's neighbor. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.6,
+  "rationale": "Spain housing protests continue after government defeat; Iberian neighbor instability but limited Portuguese impact.",
   "top_events": [
     {
       "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "label": "Tens of thousands protest Spain housing crisis",
-      "summary": "Over 50 protests nationwide after government failed to pass emergency housing legislation. Escalation in neighboring Spain's political instability affects Iberian region.",
-      "score": 2.7,
-      "sentiment": "negative",
+      "label": "Spain housing protests after legislation fails",
+      "summary": "Over 50 protests across Spain after emergency housing bill failed in parliament. Iberian neighbor faces housing crisis but no direct Portuguese spillover.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -22,42 +22,57 @@
       "detected_at": "2026-10-03T00:29:06.048642Z"
     },
     {
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "label": "G7 releases oil reserves after Trump diesel threat",
-      "summary": "Coordinated release to prevent price spikes and avoid US diesel export ban. Continuation of energy cost management for EU, including Portugal.",
-      "score": 2.6,
-      "sentiment": "positive",
+      "title": "Brazil goes to polls in decisive election for future of Latin America",
+      "label": "Brazil votes in polarized Lula-Bolsonaro race",
+      "summary": "Brazilians vote in close race between leftist Lula and right-wing Flávio Bolsonaro. Lusophone partner election but no immediate Portuguese impact.",
+      "score": 2.2,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-02T08:32:55.490736Z"
-    },
-    {
-      "title": "Brazil goes to polls in decisive election for future of Latin America",
-      "label": "Brazil votes in Lula versus Bolsonaro election",
-      "summary": "First round of polarized election between leftist incumbent Lula and far-right Flávio Bolsonaro. Lusophone connection but limited direct impact on Portugal.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
+          "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/04/brazil-presidential-election-lula-flavio-bolsonaro"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-03T19:52:10.599839Z"
+    },
+    {
+      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+      "label": "Drone strikes Kyiv bridge during Merz visit",
+      "summary": "Russian drone hit Northern Bridge during traffic. Distant eastern European escalation with no Portuguese life impact.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-04T15:21:44.347586Z"
     }
   ],
   "short_summary": "Spain housing protests after reform failure",
@@ -65,14 +80,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-04T09:45:35.540329Z",
+  "updated_at": "2026-10-04T15:21:44.347586Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Spain housing protests after reform failure",
     "summary": "Over 50 protests erupted across Spain after parliament struck down emergency housing legislation, deepening crisis in Portugal's Iberian neighbor.",
     "title": "Tens of thousands protest in Spain after failed housing reforms",
-    "score": 2.9,
+    "score": 2.8,
     "sentiment": "negative",
     "detected_at": "2026-10-03T00:29:06.048642Z",
     "peak_at": "2026-10-03T17:15:36.836827Z",
@@ -128,6 +143,10 @@
     {
       "t": "2026-10-04T09:45:35.540329Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-04T15:21:44.347586Z",
+      "s": 2.6
     }
   ]
 }
