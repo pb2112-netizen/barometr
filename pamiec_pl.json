@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-04T19:36:05.021670Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-10-04T23:08:10.957367Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": "2026-09-26T01:32:28.096999Z",
   "stan_swiata": [
     {
       "temat": "Kyiv bridge drone strike German chancellor visit",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 3,
       "opis": "Drone hits Northern Bridge during traffic; escalation risk."
     },
     {
       "temat": "Yemen government Houthi military campaign",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "Yemen announces operation to retake Houthi territory."
     },
     {
-      "temat": "Germany Merz Kyiv aid package Ukraine support",
-      "poziom_bazowy": 4.2,
+      "temat": "Brazil Lula Bolsonaro election tight race",
+      "poziom_bazowy": 1.5,
       "cykle_bez_zmian": 0,
+      "opis": "First round of presidential election; distant politics."
+    },
+    {
+      "temat": "Germany Merz Kyiv aid package Ukraine support",
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
       "opis": "Chancellor announces $1.5B military and reconstruction aid."
     },
     {
       "temat": "Spain Sanchez housing vote defeat election pressure",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "PM loses key vote after eviction scandal; snap election."
     },
     {
       "temat": "G7 oil reserve release diesel deal Trump",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 13,
       "opis": "100M barrel release over four months eases EU energy."
     },
     {
       "temat": "Putin Kaliningrad threat NATO Poland border",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 16,
       "opis": "Russia threatens all weapons to protect Kaliningrad exclave."
     },
     {
       "temat": "US diesel export ban threat EU energy",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 13,
       "opis": "Trump threatens diesel export ban; EU energy cost pressure."
-    },
-    {
-      "temat": "Russia attacks Ukraine data centers infrastructure",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 20,
-      "opis": "Russia escalates attacks on civilian digital infrastructure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-02T20:43:31.727678Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-03T00:29:06.045284Z",
       "s": 3.4
@@ -96,6 +92,10 @@
     {
       "t": "2026-10-04T19:36:05.017298Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-10-04T23:08:10.950569Z",
+      "s": 3.8
     }
   ],
   "events_anchor_at": "2026-10-04T19:36:05.017298Z",
@@ -104,7 +104,7 @@
       "detected_at": "2026-10-02T15:47:45.263853Z",
       "peak_at": "2026-10-04T09:45:35.538605Z",
       "peak_score_at": "2026-10-04T09:45:35.538605Z",
-      "peak_score": 4.1,
+      "peak_score": 4.0,
       "peak_sentiment": "negative",
       "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
       "peak_label": "Russian drone strikes Kyiv bridge during traffic",
@@ -113,6 +113,46 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "yemen's government announces all-out war to reclaim land from houthis": {
+      "detected_at": "2026-10-04T15:21:44.344069Z",
+      "peak_at": "2026-10-04T15:21:44.344069Z",
+      "peak_score_at": "2026-10-04T15:21:44.344069Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Yemen announces military campaign to reclaim land from Iran-backed Houthis",
+      "peak_label": "Yemen launches campaign against Houthi forces",
+      "peak_summary": "Yemeni president announces military operation to retake Houthi-held territory. Distant Middle East conflict with no direct impact on Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss"
+        }
+      ]
+    },
+    "brazil presidential election 2026: first-round live results": {
+      "detected_at": "2026-10-04T23:08:10.950569Z",
+      "peak_at": "2026-10-04T23:08:10.950569Z",
+      "peak_score_at": "2026-10-04T23:08:10.950569Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Brazil presidential election 2026: first-round live results",
+      "peak_label": "Brazil holds tight presidential election runoff",
+      "peak_summary": "Lula faces Flávio Bolsonaro in closely contested first round. Distant Latin American politics with no direct relevance to Polish daily life.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss"
         }
       ]
     },
@@ -129,42 +169,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss"
-        }
-      ]
-    },
-    "yemen's government announces all-out war to reclaim land from houthis": {
-      "detected_at": "2026-10-04T15:21:44.344069Z",
-      "peak_at": "2026-10-04T15:21:44.344069Z",
-      "peak_score_at": "2026-10-04T15:21:44.344069Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Yemen announces military campaign to reclaim land from Iran-backed Houthis",
-      "peak_label": "Yemen launches campaign against Houthi forces",
-      "peak_summary": "Yemeni president announces military operation to retake Houthi-held territory. Distant Middle East conflict with no direct impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss"
-        }
-      ]
-    },
-    "'anger in the streets': tens of thousands protest in spain over housing crisis": {
-      "detected_at": "2026-10-03T06:31:28.541280Z",
-      "peak_at": "2026-10-03T19:52:10.597145Z",
-      "peak_score_at": "2026-10-03T19:52:10.597145Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "peak_label": "Tens of thousands protest Spain housing crisis",
-      "peak_summary": "Over 50 protests across Spain after government fails to pass emergency housing legislation, showing EU political instability spreading beyond Iberia.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -191,7 +195,7 @@
   },
   "prev_top_event_titles": [
     "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-    "Germany's Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
-    "Yemen's government announces all-out war to reclaim land from Houthis"
+    "Yemen's government announces all-out war to reclaim land from Houthis",
+    "Brazil presidential election 2026: first-round live results"
   ]
 }

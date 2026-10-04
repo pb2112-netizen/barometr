@@ -1,22 +1,27 @@
 {
-  "global_score": 3.0,
-  "rationale": "Missing medical plane debris found off Massachusetts coast; US Marine arrested in Okinawa murder; distant conflicts have minimal domestic impact.",
+  "global_score": 2.9,
+  "rationale": "Medical plane debris found off Massachusetts coast confirms loss of aircraft with six people; domestic aviation incident with confirmed casualties affects US residents directly.",
   "top_events": [
     {
-      "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+      "title": "US Coast Guard finds debris of missing air ambulance off coast of Massachusetts",
       "label": "Medical plane debris found off Massachusetts",
-      "summary": "Coast Guard found debris from medical transport aircraft with six people onboard that lost contact during evacuation from Bermuda. Domestic search and rescue operation.",
-      "score": 3.0,
+      "summary": "Coast Guard locates debris field from medical transport aircraft that lost contact with six people onboard. Domestic aviation accident with likely fatalities.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/debris-found-near-nantucket-believed-to-be-from-missing-medical-plane?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-03T17:15:36.838765Z"
@@ -24,8 +29,8 @@
     {
       "title": "US Marine arrested over murder of woman in Okinawa, Japan",
       "label": "Marine arrested for murder in Okinawa",
-      "summary": "US Marine arrested for murder in Japan; Japanese government lodged formal protest demanding military action. Strains US-Japan relations and raises base conduct issues.",
-      "score": 2.7,
+      "summary": "US Marine arrested for murder in Japan; formal protest lodged by Japanese government. Continues pattern of incidents affecting US military presence overseas.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,31 +46,31 @@
       "detected_at": "2026-10-04T15:21:44.351544Z"
     },
     {
-      "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
-      "label": "Pike execution halted medical complications",
-      "summary": "Doctors working to clear two lethal doses from Pike's body after failed execution. Ongoing domestic legal and medical situation.",
-      "score": 2.4,
+      "title": "Cornell case puts New York's progressive image at odds with its rape laws",
+      "label": "Cornell case prompts rape law review",
+      "summary": "New York lawmakers to review sexual assault laws including voluntary intoxication rule. Continues domestic debate over campus safety and legal standards.",
+      "score": 2.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/cornell-case-puts-new-yorks-progressive-image-at-odds-with-its-rape-laws?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-09-30T13:41:33.836251Z"
+      "detected_at": "2026-10-04T15:21:44.351544Z"
     }
   ],
   "short_summary": "G7 releases oil reserves after US export threat",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-04T19:36:05.020868Z",
+  "updated_at": "2026-10-04T23:08:10.955497Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-02T08:32:55.493448Z",
   "score_history": [
-    {
-      "t": "2026-10-02T20:43:31.734105Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-03T00:29:06.051409Z",
       "s": 4.4
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-04T19:36:05.020868Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-04T23:08:10.955497Z",
+      "s": 2.9
     }
   ]
 }
