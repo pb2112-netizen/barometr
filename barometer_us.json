@@ -1,13 +1,13 @@
 {
-  "global_score": 3.5,
-  "rationale": "Tennessee execution failure raises domestic legal and procedural concerns; missing medical plane triggers Coast Guard search; G7 oil release continues to address fuel costs; Brazil election and other events remain distant without direct US policy impact.",
+  "global_score": 3.4,
+  "rationale": "Tennessee prison chief resignation after failed execution and debris found from missing plane off US coast are domestic developments, but continuation of existing situations without major policy change.",
   "top_events": [
     {
       "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-      "label": "Tennessee execution fails Pike in critical condition",
-      "summary": "Execution halted after two failed lethal injections left Pike in critical condition, prompting prison chief resignation and raising serious questions about execution procedures.",
-      "score": 2.7,
-      "sentiment": "negative",
+      "label": "Tennessee prison chief resigns after failed execution",
+      "summary": "Prison chief resigns after Pike survived two lethal injections and remains in critical condition. Continuation of execution controversy with administrative consequence.",
+      "score": 2.6,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
@@ -22,39 +22,10 @@
       "detected_at": "2026-09-30T13:41:33.836251Z"
     },
     {
-      "title": "Medical plane with 6 on board missing off Massachusetts coast",
-      "label": "Air ambulance missing off Massachusetts coast",
-      "summary": "Coast Guard searches for medical evacuation plane with six people that lost contact after altitude drop near Nantucket during Bermuda-to-Boston flight.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
-        }
-      ],
-      "detected_at": "2026-10-03T17:15:36.838765Z"
-    },
-    {
       "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "label": "G7 releases oil reserves after Trump threat",
-      "summary": "Coordinated release aims to prevent fuel price spikes and avoid US diesel export ban, addressing domestic energy cost concerns.",
-      "score": 3.5,
+      "label": "G7 releases oil reserves after Trump diesel threat",
+      "summary": "Coordinated release to prevent price spikes and avoid US diesel export ban. Continuation of energy cost management with indirect impact on US fuel prices.",
+      "score": 3.4,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -68,6 +39,30 @@
         }
       ],
       "detected_at": "2026-10-02T08:32:55.493448Z"
+    },
+    {
+      "title": "Debris found from plane that went missing off US coast",
+      "label": "Debris found from missing plane off Massachusetts",
+      "summary": "Coast Guard finds debris from medical transport aircraft with six people onboard that lost contact off Massachusetts coast. Tragic incident but localized impact.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
+        }
+      ],
+      "detected_at": "2026-10-03T17:15:36.838765Z"
     }
   ],
   "short_summary": "G7 releases oil reserves after US export threat",
@@ -75,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-04T02:37:33.953326Z",
+  "updated_at": "2026-10-04T09:45:35.541955Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "G7 releases oil reserves after US export threat",
     "summary": "Coordinated 100M barrel release over four months aims to prevent diesel price spikes and avoid US export ban, addressing fuel costs.",
     "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-    "score": 3.8,
+    "score": 3.7,
     "sentiment": "positive",
     "detected_at": "2026-10-02T08:32:55.493448Z",
     "peak_at": "2026-10-04T02:37:33.953326Z",
@@ -95,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-02T08:32:55.493448Z",
   "score_history": [
-    {
-      "t": "2026-10-02T08:32:55.493448Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-02T15:47:45.268810Z",
       "s": 2.9
@@ -134,6 +125,10 @@
     {
       "t": "2026-10-04T02:37:33.953326Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-10-04T09:45:35.541955Z",
+      "s": 3.4
     }
   ]
 }
