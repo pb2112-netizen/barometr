@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-04T15:21:44.356681Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-10-04T19:36:05.024683Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Medical plane debris found Massachusetts coast",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "Six people onboard aircraft lost contact; debris found."
     },
     {
       "temat": "US Marine arrested Okinawa murder Japan protest",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
       "opis": "Marine arrested for murder; Japan demands US action."
     },
     {
       "temat": "Cornell frat rape allegations campus safety",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 1,
       "opis": "Allegations of drugging and gang rape at fraternity."
     },
     {
       "temat": "G7 oil reserve release 100M barrels diesel",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 12,
       "opis": "G7 releases reserves to address fuel costs and Iran supply."
     },
     {
       "temat": "US Iran military deployment 2000 Marines Hormuz tanker",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 13,
       "opis": "US deploys Marines and carrier as tanker hit in Hormuz."
     },
     {
       "temat": "Christa Pike execution halted Tennessee",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Execution stopped shortly before scheduled time."
     },
     {
       "temat": "US Coast Guard intercepts Cuba fuel ship",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "Ship boarded, taken to Mexico; embargo enforcement."
     },
     {
       "temat": "Arizona AI victim video sentence quashed legal precedent",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Appeals court quashes sentence over AI evidence in trial."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-02T15:47:45.268810Z",
-      "s": 2.9
-    },
     {
       "t": "2026-10-02T20:43:31.734105Z",
       "s": 3.0
@@ -96,15 +92,19 @@
     {
       "t": "2026-10-04T15:21:44.351544Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-04T19:36:05.020868Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-10-02T08:32:55.493448Z",
   "event_detected_at": {
-    "debris found from plane that went missing off us coast": {
+    "us coast guard searches for missing air ambulance off coast of massachusetts": {
       "detected_at": "2026-10-03T17:15:36.838765Z",
       "peak_at": "2026-10-03T19:52:10.602898Z",
       "peak_score_at": "2026-10-03T19:52:10.602898Z",
-      "peak_score": 3.4,
+      "peak_score": 3.3,
       "peak_sentiment": "negative",
       "title": "Medical plane with 6 on board missing off Massachusetts coast",
       "peak_label": "Medical plane missing off Massachusetts coast",
@@ -136,6 +136,22 @@
         }
       ]
     },
+    "christa pike's prognosis still unclear after failed execution, lawyer says": {
+      "detected_at": "2026-09-30T13:41:33.836251Z",
+      "peak_at": "2026-10-04T09:45:35.541955Z",
+      "peak_score_at": "2026-10-03T06:31:28.548095Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+      "peak_label": "Christa Pike on ventilator after failed execution",
+      "peak_summary": "Pike remains critically ill and hospitalized in Nashville after execution attempt failed, raising questions about execution protocols but no broader policy change yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "cornell president says university 'must do better' after frat house rape allegations": {
       "detected_at": "2026-10-04T15:21:44.351544Z",
       "peak_at": "2026-10-04T15:21:44.351544Z",
@@ -149,22 +165,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "tennessee prison chief to resign after christa pike's failed execution": {
-      "detected_at": "2026-09-30T13:41:33.836251Z",
-      "peak_at": "2026-10-04T09:45:35.541955Z",
-      "peak_score_at": "2026-10-03T06:31:28.548095Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
-      "peak_label": "Christa Pike on ventilator after failed execution",
-      "peak_summary": "Pike remains critically ill and hospitalized in Nashville after execution attempt failed, raising questions about execution protocols but no broader policy change yet.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -186,8 +186,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Debris found from plane that went missing off US coast",
+    "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
     "US Marine arrested over murder of woman in Okinawa, Japan",
-    "Cornell president says university 'must do better' after frat house rape allegations"
+    "Christa Pike's prognosis still unclear after failed execution, lawyer says"
   ]
 }
