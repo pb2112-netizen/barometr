@@ -1,79 +1,95 @@
 {
-  "global_score": 3.6,
-  "rationale": "Kyiv bridge drone strike continues infrastructure attacks during German chancellor visit; no qualitative escalation from previous cycles.",
+  "global_score": 5.6,
+  "rationale": "Black Sea grain ship strike is direct Russian attack in Ukraine's maritime zone; RAF bomber withdrawal affects NATO support posture; Brazil election irrelevant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "label": "Drone strikes Kyiv bridge during German visit",
-      "summary": "Russian drone hit Northern Bridge during traffic, creating fireball as German chancellor visited. Continues pattern of infrastructure strikes on capital.",
-      "score": 3.6,
+      "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
+      "label": "Russia strikes grain ship in Black Sea",
+      "summary": "Turkish-owned vessel attacked in Black Sea; captain killed, 11 crew rescued. Direct Russian attack in Ukraine's maritime zone threatens grain exports and escalates Black Sea conflict.",
+      "score": 5.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-05T18:26:02.485456Z"
+    },
+    {
+      "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
+      "label": "US withdraws bombers from UK RAF base",
+      "summary": "All US bombers removed from British base following incident. Affects NATO support infrastructure for Ukraine; potential signal of shifting Western military posture.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-02T15:47:45.267623Z"
+      "detected_at": "2026-10-05T18:26:02.485456Z"
     },
     {
-      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
-      "label": "Yemen announces offensive against Houthis",
-      "summary": "Yemeni president announces all-out war to reclaim territory from Houthis amid exchange of strikes with Saudi-led coalition. Distant Middle East conflict with no impact on Ukraine.",
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "label": "Pentagon blacklists AI firm over safety rules",
+      "summary": "US military stops using Anthropic AI after firm refused to remove safety guardrails. Distant tech policy with no direct impact on Ukraine's war effort.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-04T15:21:44.349467Z"
+      "detected_at": "2026-10-05T18:26:02.485456Z"
     }
   ],
-  "short_summary": "Russian strikes target Kyiv bridges repeatedly",
-  "level_label": "Low",
-  "trend": "stable",
+  "short_summary": "Germany pledges $1.5B military aid package",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-05T09:01:30.622708Z",
+  "updated_at": "2026-10-05T18:26:02.485456Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Russian strikes target Kyiv bridges repeatedly",
-    "summary": "Northern Bridge hit for second consecutive day. Continued targeting of capital infrastructure during active traffic hours.",
-    "title": "Watch: What we know about Russian strikes on Kyiv bridges",
-    "score": 6.3,
-    "sentiment": "negative",
-    "detected_at": "2026-10-04T15:21:44.349467Z",
-    "peak_at": "2026-10-04T15:21:44.349467Z",
+    "label": "Germany pledges $1.5B military aid package",
+    "summary": "German Chancellor announces significant military and reconstruction aid during surprise Kyiv visit. Major boost to Ukrainian defense capabilities and reconstruction efforts.",
+    "title": "Germany's Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
+    "score": 6.2,
+    "sentiment": "positive",
+    "detected_at": "2026-10-04T19:36:05.020083Z",
+    "peak_at": "2026-10-04T19:36:05.020083Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-04T15:21:44.349467Z",
+  "events_anchor_at": "2026-10-04T19:36:05.020083Z",
   "score_history": [
-    {
-      "t": "2026-10-03T12:33:05.908067Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-10-03T17:15:36.837701Z",
-      "s": 2.8
-    },
     {
       "t": "2026-10-03T19:52:10.601264Z",
       "s": 2.7
@@ -109,6 +125,10 @@
     {
       "t": "2026-10-05T09:01:30.622708Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-05T18:26:02.485456Z",
+      "s": 5.6
     }
   ]
 }
