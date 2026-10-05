@@ -1,19 +1,24 @@
 {
-  "global_score": 2.8,
-  "rationale": "Medical plane debris found off Massachusetts coast; continuation of known search with no qualitative change.",
+  "global_score": 2.7,
+  "rationale": "Missing air ambulance debris found off Massachusetts coast; other events distant or routine domestic matters.",
   "top_events": [
     {
-      "title": "US Coast Guard finds debris of missing air ambulance off coast of Massachusetts",
-      "label": "Debris found from missing medical plane",
-      "summary": "Coast Guard located debris from medical transport aircraft with six people onboard that lost contact during evacuation from Bermuda.",
-      "score": 2.8,
+      "title": "All six passengers presumed dead after plane went missing off US coast",
+      "label": "Six presumed dead in missing plane crash",
+      "summary": "Coast Guard found debris from medical transport aircraft off Massachusetts coast. Six people onboard presumed dead after plane lost contact during medical evacuation from Bermuda.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
@@ -22,12 +27,31 @@
       "detected_at": "2026-10-03T17:15:36.838765Z"
     },
     {
-      "title": "US Marine arrested over murder of woman in Okinawa, Japan",
-      "label": "US Marine arrested for Okinawa murder",
-      "summary": "Marine arrested for murder in Japan; Japanese government lodged formal protest demanding US military action. Continuation of known incident.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "label": "Trump creates AI oversight taskforce",
+      "summary": "President names national intelligence chief to lead new AI policy taskforce. Announcement without enacted policy or measurable impact on daily life yet.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-05T09:01:30.624655Z"
+    },
+    {
+      "title": "US air force removes all bombers from British military base RAF Fairford",
+      "label": "US removes bombers from UK airbase",
+      "summary": "Air Force withdrew all bombers from RAF Fairford without explanation, following suspicious vehicle incident. Routine deployment shift with no direct impact on US residents.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,60 +59,41 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-04T15:21:44.351544Z"
-    },
-    {
-      "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
-      "label": "Pike execution halted, prognosis unclear",
-      "summary": "Doctors working to clear two lethal doses of pentobarbital from Pike's body after execution stopped. Continuation of known case.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-09-30T13:41:33.836251Z"
+      "detected_at": "2026-10-05T09:01:30.624655Z"
     }
   ],
-  "short_summary": "G7 releases oil reserves after US export threat",
+  "short_summary": "Medical plane missing off Massachusetts coast",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-05T01:59:24.436578Z",
+  "updated_at": "2026-10-05T09:01:30.624655Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "G7 releases oil reserves after US export threat",
-    "summary": "Coordinated 100M barrel release over four months aims to prevent diesel price spikes and avoid US export ban, addressing fuel costs.",
-    "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-    "score": 3.7,
-    "sentiment": "positive",
-    "detected_at": "2026-10-02T08:32:55.493448Z",
-    "peak_at": "2026-10-04T02:37:33.953326Z",
+    "label": "Medical plane missing off Massachusetts coast",
+    "summary": "Air ambulance with six people lost communication after significant altitude drop; Coast Guard searching off Massachusetts coast.",
+    "title": "Medical plane with 6 on board missing off Massachusetts coast",
+    "score": 3.0,
+    "sentiment": "negative",
+    "detected_at": "2026-10-03T17:15:36.838765Z",
+    "peak_at": "2026-10-04T23:08:10.955497Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
       }
     ]
   },
-  "events_anchor_at": "2026-10-02T08:32:55.493448Z",
+  "events_anchor_at": "2026-10-03T17:15:36.838765Z",
   "score_history": [
-    {
-      "t": "2026-10-03T06:31:28.548095Z",
-      "s": 4.2
-    },
     {
       "t": "2026-10-03T12:33:05.909967Z",
       "s": 4.0
@@ -128,6 +133,10 @@
     {
       "t": "2026-10-05T01:59:24.436578Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-05T09:01:30.624655Z",
+      "s": 2.7
     }
   ]
 }

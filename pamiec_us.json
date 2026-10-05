@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-05T01:59:24.439811Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-10-05T09:01:30.629184Z",
+  "ostatnia_ocena": 2.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Medical plane debris found Massachusetts coast",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Six people onboard aircraft lost contact; debris found."
     },
     {
-      "temat": "US Marine arrested Okinawa murder Japan protest",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
-      "opis": "Marine arrested for murder; Japan demands US action."
+      "temat": "Trump AI Super Intelligence Force taskforce",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "President creates AI oversight taskforce; announcement only."
     },
     {
-      "temat": "Cornell frat rape allegations campus safety",
+      "temat": "US bombers withdrawn RAF Fairford UK",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Allegations of drugging and gang rape at fraternity."
+      "cykle_bez_zmian": 0,
+      "opis": "All bombers removed from British base; routine deployment."
     },
     {
       "temat": "G7 oil reserve release 100M barrels diesel",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 15,
       "opis": "G7 releases reserves to address fuel costs and Iran supply."
     },
     {
       "temat": "US Iran military deployment 2000 Marines Hormuz tanker",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 16,
       "opis": "US deploys Marines and carrier as tanker hit in Hormuz."
     },
     {
-      "temat": "Christa Pike execution halted Tennessee",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 8,
-      "opis": "Execution stopped shortly before scheduled time."
-    },
-    {
       "temat": "US Coast Guard intercepts Cuba fuel ship",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Ship boarded, taken to Mexico; embargo enforcement."
     },
     {
-      "temat": "Arizona AI victim video sentence quashed legal precedent",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
-      "opis": "Appeals court quashes sentence over AI evidence in trial."
+      "temat": "US Marine arrested Okinawa murder Japan protest",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
+      "opis": "Marine arrested for murder; Japan demands US action."
+    },
+    {
+      "temat": "Christa Pike execution halted Tennessee",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 9,
+      "opis": "Execution stopped shortly before scheduled time."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-03T06:31:28.548095Z",
-      "s": 4.2
-    },
     {
       "t": "2026-10-03T12:33:05.909967Z",
       "s": 4.0
@@ -96,15 +92,19 @@
     {
       "t": "2026-10-05T01:59:24.436578Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-05T09:01:30.624655Z",
+      "s": 2.7
     }
   ],
-  "events_anchor_at": "2026-10-02T08:32:55.493448Z",
+  "events_anchor_at": "2026-10-03T17:15:36.838765Z",
   "event_detected_at": {
-    "us coast guard finds debris of missing air ambulance off coast of massachusetts": {
+    "all six passengers presumed dead after plane went missing off us coast": {
       "detected_at": "2026-10-03T17:15:36.838765Z",
       "peak_at": "2026-10-04T23:08:10.955497Z",
       "peak_score_at": "2026-10-03T19:52:10.602898Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Medical plane with 6 on board missing off Massachusetts coast",
       "peak_label": "Medical plane missing off Massachusetts coast",
@@ -117,6 +117,38 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
+        }
+      ]
+    },
+    "trump unveils 'super intelligence force' to oversee ai policy": {
+      "detected_at": "2026-10-05T09:01:30.624655Z",
+      "peak_at": "2026-10-05T09:01:30.624655Z",
+      "peak_score_at": "2026-10-05T09:01:30.624655Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "peak_label": "Trump creates AI oversight taskforce",
+      "peak_summary": "President names national intelligence chief to lead new AI policy taskforce. Announcement without enacted policy or measurable impact on daily life yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us air force removes all bombers from british military base raf fairford": {
+      "detected_at": "2026-10-05T09:01:30.624655Z",
+      "peak_at": "2026-10-05T09:01:30.624655Z",
+      "peak_score_at": "2026-10-05T09:01:30.624655Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "US air force removes all bombers from British military base RAF Fairford",
+      "peak_label": "US removes bombers from UK airbase",
+      "peak_summary": "Air Force withdrew all bombers from RAF Fairford without explanation, following suspicious vehicle incident. Routine deployment shift with no direct impact on US residents.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -167,27 +199,11 @@
           "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "g7 to release millions of barrels of oil and diesel after trump threat": {
-      "detected_at": "2026-10-02T08:32:55.493448Z",
-      "peak_at": "2026-10-04T02:37:33.953326Z",
-      "peak_score_at": "2026-10-03T00:29:06.051409Z",
-      "peak_score": 3.7,
-      "peak_sentiment": "positive",
-      "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-      "peak_label": "G7 releases oil reserves after US export threat",
-      "peak_summary": "Coordinated 100M barrel release over four months aims to prevent diesel price spikes and avoid US export ban, addressing fuel costs.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US Coast Guard finds debris of missing air ambulance off coast of Massachusetts",
-    "US Marine arrested over murder of woman in Okinawa, Japan",
-    "Christa Pike's prognosis still unclear after failed execution, lawyer says"
+    "All six passengers presumed dead after plane went missing off US coast",
+    "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+    "US air force removes all bombers from British military base RAF Fairford"
   ]
 }
