@@ -1,13 +1,13 @@
 {
-  "global_score": 3.2,
-  "rationale": "Quiet cycle with no new strikes on Ukrainian territory or changes in Western aid; cartel mercenaries report is new but indirect impact.",
+  "global_score": 5.2,
+  "rationale": "Ukraine launches massive 290-drone strike on Moscow killing two—major offensive escalation; Black Sea drone attack sinks ship continuing maritime warfare; German spy arrest threatens Western intelligence support. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Mexican and Colombian cartel mercenaries filmed fighting in Ukraine",
-      "label": "Cartel mercenaries join Ukraine International Legion",
-      "summary": "Members of Mexican and Colombian cartels reportedly joining Ukraine's International Legion to learn drone warfare. New development but indirect impact on daily life.",
-      "score": 3.2,
-      "sentiment": "neutral",
+      "title": "Ukraine launches major drone attack on Russia's Moscow region, killing two",
+      "label": "Ukraine strikes Moscow 290 drones kill two",
+      "summary": "Ukraine launched 290 drones targeting Moscow and nearby regions in overnight assault, killing two. Major escalation demonstrating Ukraine's offensive reach deep into Russian territory.",
+      "score": 5.2,
+      "sentiment": "positive",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -16,56 +16,61 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/mexican-and-colombian-cartel-mercenaries-filmed-fighting-in-ukraine?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/6/ukraine-launches-major-drone-attack-on-russias-moscow-region-killing-two?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-06T07:33:36.372227Z"
+      "detected_at": "2026-10-06T15:09:59.137084Z"
     },
     {
-      "title": "Nigeria mourns as 32 killed in military plane crash",
-      "label": "Nigerian military plane crash kills 32",
-      "summary": "Military transport aircraft crashed in Nigeria, killing 32. Distant tragedy with no connection to Ukraine's war situation.",
-      "score": 2.0,
+      "title": "Ship sinks and crew missing after Black Sea drone attack",
+      "label": "Ship sinks Black Sea drone attack crew missing",
+      "summary": "Vessel sinks in Black Sea following drone attack as Russia intensifies strikes. Continues pattern of maritime warfare affecting Ukrainian grain exports and regional security.",
+      "score": 4.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-06T15:09:59.137084Z"
+    },
+    {
+      "title": "Former German spy chief arrested for espionage and treason",
+      "label": "German spy chief arrested for treason espionage",
+      "summary": "August Hanning arrested for obtaining classified information for foreign power. Threatens Western intelligence cooperation critical to Ukraine's defense and NATO support.",
+      "score": 4.0,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "katastrofa",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-06T00:48:29.911161Z"
-    },
-    {
-      "title": "Fort Hood shooter to be executed by firing squad",
-      "label": "US military executes Fort Hood shooter",
-      "summary": "Nidal Hasan to be executed for 2009 attack killing 13 soldiers. Distant US military justice matter with no Ukrainian relevance.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+          "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-06T07:33:36.372227Z"
+      "detected_at": "2026-10-06T15:09:59.137084Z"
     }
   ],
   "short_summary": "Russia strikes Turkish grain ship, captain killed",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-06T07:33:36.372227Z",
+  "updated_at": "2026-10-06T15:09:59.137084Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-05T18:26:02.485456Z",
   "score_history": [
-    {
-      "t": "2026-10-04T09:45:35.540958Z",
-      "s": 4.5
-    },
     {
       "t": "2026-10-04T15:21:44.349467Z",
       "s": 6.5
@@ -120,6 +121,10 @@
     {
       "t": "2026-10-06T07:33:36.372227Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-06T15:09:59.137084Z",
+      "s": 5.2
     }
   ]
 }
