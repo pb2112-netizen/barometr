@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-10-05T18:26:02.494195Z",
-  "ostatnia_ocena": 2.9,
+  "updated_at": "2026-10-06T00:48:29.917158Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US bombers withdrawn RAF Fairford UK",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "All bombers removed from British base; routine deployment."
     },
     {
-      "temat": "Georgia mass shooting homecoming celebration",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 0,
-      "opis": "Two killed, 35 injured in shooting; suspect at large."
-    },
-    {
       "temat": "Pentagon blacklists Anthropic AI safety guardrails",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 1,
       "opis": "Military stops using AI firm after safety dispute."
     },
     {
+      "temat": "Nobel Prize brain research Deisseroth Hegemann Nagel",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Scientists honored for neuroscience breakthrough; positive."
+    },
+    {
+      "temat": "Georgia mass shooting homecoming celebration",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 1,
+      "opis": "Two killed, 35 injured in shooting; suspect at large."
+    },
+    {
       "temat": "G7 oil reserve release 100M barrels diesel",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 17,
       "opis": "G7 releases reserves to address fuel costs and Iran supply."
     },
     {
       "temat": "US Iran military deployment 2000 Marines Hormuz tanker",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 18,
       "opis": "US deploys Marines and carrier as tanker hit in Hormuz."
     },
     {
       "temat": "Medical plane debris found Massachusetts coast",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Six people onboard aircraft lost contact; debris found."
     },
     {
       "temat": "US Coast Guard intercepts Cuba fuel ship",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
-      "opis": "Ship boarded, taken to Mexico; embargo enforcement."
-    },
-    {
-      "temat": "US Marine arrested Okinawa murder Japan protest",
-      "poziom_bazowy": 2.3,
+      "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 5,
-      "opis": "Marine arrested for murder; Japan demands US action."
+      "opis": "Ship boarded, taken to Mexico; embargo enforcement."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-03T19:52:10.602898Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-10-03T23:02:40.132516Z",
-      "s": 3.6
-    },
     {
       "t": "2026-10-04T02:37:33.953326Z",
       "s": 3.5
@@ -92,11 +84,31 @@
     {
       "t": "2026-10-05T18:26:02.487377Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-10-06T00:48:29.912551Z",
+      "s": 2.5
     }
   ],
-  "events_anchor_at": "2026-10-03T17:15:36.838765Z",
+  "events_anchor_at": "2026-10-05T18:26:02.487377Z",
   "event_detected_at": {
-    "no10 insists uk military base raf fairford is safe after us withdraws bombers": {
+    "pentagon stops using anthropic ai tools after blacklisting company, bbc told": {
+      "detected_at": "2026-10-05T18:26:02.487377Z",
+      "peak_at": "2026-10-05T18:26:02.487377Z",
+      "peak_score_at": "2026-10-05T18:26:02.487377Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "peak_label": "Pentagon blacklists AI firm over safety rules",
+      "peak_summary": "US military stops using Anthropic AI after firm refused to remove safety guardrails. Policy shift in military AI procurement; no immediate operational impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "trump says 'threat' led us to pull bombers from raf fairford": {
       "detected_at": "2026-10-05T09:01:30.624655Z",
       "peak_at": "2026-10-05T09:01:30.624655Z",
       "peak_score_at": "2026-10-05T09:01:30.624655Z",
@@ -109,6 +121,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "nobel prize awarded for revealing inner workings of the brain": {
+      "detected_at": "2026-10-06T00:48:29.912551Z",
+      "peak_at": "2026-10-06T00:48:29.912551Z",
+      "peak_score_at": "2026-10-06T00:48:29.912551Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Nobel Prize awarded for revealing inner workings of the brain",
+      "peak_label": "Nobel Prize awarded for brain research breakthrough",
+      "peak_summary": "US psychiatrist Karl Deisseroth and German colleagues honored for neuroscience work. Positive scientific achievement but no immediate impact on daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -125,42 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "pentagon stops using anthropic ai tools after blacklisting company, bbc told": {
-      "detected_at": "2026-10-05T18:26:02.487377Z",
-      "peak_at": "2026-10-05T18:26:02.487377Z",
-      "peak_score_at": "2026-10-05T18:26:02.487377Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-      "peak_label": "Pentagon blacklists AI firm over safety rules",
-      "peak_summary": "US military stops using Anthropic AI after firm refused to remove safety guardrails. Policy shift in military AI procurement; no immediate operational impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "all six passengers presumed dead after plane went missing off us coast": {
-      "detected_at": "2026-10-03T17:15:36.838765Z",
-      "peak_at": "2026-10-04T23:08:10.955497Z",
-      "peak_score_at": "2026-10-03T19:52:10.602898Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Medical plane with 6 on board missing off Massachusetts coast",
-      "peak_label": "Medical plane missing off Massachusetts coast",
-      "peak_summary": "Air ambulance with six people lost communication after significant altitude drop; Coast Guard searching off Massachusetts coast.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
         }
       ]
     },
@@ -182,8 +174,8 @@
     }
   },
   "prev_top_event_titles": [
-    "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-    "Georgia officials hunt for suspect in shooting that killed two and injured 35",
-    "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told"
+    "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+    "Trump says 'threat' led US to pull bombers from RAF Fairford",
+    "Nobel Prize awarded for revealing inner workings of the brain"
   ]
 }

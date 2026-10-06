@@ -1,58 +1,15 @@
 {
-  "global_score": 2.9,
-  "rationale": "RAF Fairford bomber withdrawal is confirmed military action affecting US deployment; Georgia shooting is domestic violence; Brazil election and other events are distant.",
+  "global_score": 2.5,
+  "rationale": "Pentagon blacklisting of Anthropic over AI safety represents policy action in defense tech sector; other events remain background or distant.",
   "top_events": [
     {
-      "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-      "label": "US withdraws bombers from UK RAF base",
-      "summary": "All US bombers removed from British base following incident. Confirmed change in US military deployment posture in Europe; routine but notable shift.",
-      "score": 2.0,
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "label": "Pentagon blacklists Anthropic over AI safety dispute",
+      "summary": "Military stops using AI firm after company refused to remove safety guardrails. Confirmed policy action affecting defense tech sector and AI development standards.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-05T09:01:30.624655Z"
-    },
-    {
-      "title": "Georgia officials hunt for suspect in shooting that killed two and injured 35",
-      "label": "Georgia shooting kills two injures 35",
-      "summary": "Homecoming celebration turned deadly as dozens of shots fired into crowd. Domestic mass shooting incident; suspect at large.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-05T18:26:02.487377Z"
-    },
-    {
-      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-      "label": "Pentagon blacklists AI firm over safety rules",
-      "summary": "US military stops using Anthropic AI after firm refused to remove safety guardrails. Policy shift in military AI procurement; no immediate operational impact.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
+      "category": "nauka",
       "sources": [
         "BBC"
       ],
@@ -63,45 +20,71 @@
         }
       ],
       "detected_at": "2026-10-05T18:26:02.487377Z"
+    },
+    {
+      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+      "label": "US withdraws bombers from UK base citing threat",
+      "summary": "Pentagon confirms B1 bombers removed from England back to US stations. Routine deployment adjustment with no immediate impact on US domestic security or economy.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-05T09:01:30.624655Z"
+    },
+    {
+      "title": "Nobel Prize awarded for revealing inner workings of the brain",
+      "label": "Nobel Prize awarded for brain research breakthrough",
+      "summary": "US psychiatrist Karl Deisseroth and German colleagues honored for neuroscience work. Positive scientific achievement but no immediate impact on daily life.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "nauka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-06T00:48:29.912551Z"
     }
   ],
-  "short_summary": "Medical plane missing off Massachusetts coast",
+  "short_summary": "Georgia shooting kills two injures 35",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-05T18:26:02.487377Z",
+  "updated_at": "2026-10-06T00:48:29.912551Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Medical plane missing off Massachusetts coast",
-    "summary": "Air ambulance with six people lost communication after significant altitude drop; Coast Guard searching off Massachusetts coast.",
-    "title": "Medical plane with 6 on board missing off Massachusetts coast",
-    "score": 3.0,
+    "label": "Georgia shooting kills two injures 35",
+    "summary": "Homecoming celebration turned deadly as dozens of shots fired into crowd. Domestic mass shooting incident; suspect at large.",
+    "title": "Georgia officials hunt for suspect in shooting that killed two and injured 35",
+    "score": 2.9,
     "sentiment": "negative",
-    "detected_at": "2026-10-03T17:15:36.838765Z",
-    "peak_at": "2026-10-04T23:08:10.955497Z",
+    "detected_at": "2026-10-05T18:26:02.487377Z",
+    "peak_at": "2026-10-05T18:26:02.487377Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "name": "Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts"
+        "url": "https://www.bbc.co.uk/news/articles/c6e9lj5r3ej7o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-03T17:15:36.838765Z",
+  "events_anchor_at": "2026-10-05T18:26:02.487377Z",
   "score_history": [
-    {
-      "t": "2026-10-03T19:52:10.602898Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-10-03T23:02:40.132516Z",
-      "s": 3.6
-    },
     {
       "t": "2026-10-04T02:37:33.953326Z",
       "s": 3.5
@@ -133,6 +116,10 @@
     {
       "t": "2026-10-05T18:26:02.487377Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-10-06T00:48:29.912551Z",
+      "s": 2.5
     }
   ]
 }
