@@ -1,12 +1,36 @@
 {
-  "global_score": 3.1,
-  "rationale": "German spy chief arrest continues as NATO security concern; Trump Iran comment is rhetoric without policy action; Kenya Ebola is distant.",
+  "global_score": 3.2,
+  "rationale": "US death row inmate survives lethal injection in unprecedented case; German spy arrest is NATO concern; other events distant.",
   "top_events": [
+    {
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "label": "Death row inmate survives lethal injection",
+      "summary": "Christa Pike regained consciousness after failed lethal injection, believed to be the only known person to survive such an execution attempt.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "category": "inne",
+      "nowosc": "nowe",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/6/christa-pike-lawyers-say-she-is-speaking-one-week-after-failed-execution?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-07T00:41:05.968458Z"
+    },
     {
       "title": "Former German spy chief arrested for espionage and treason",
       "label": "German spy chief arrested for treason",
-      "summary": "August Hanning accused of obtaining classified information for foreign power, raising NATO security concerns for US alliance network.",
-      "score": 3.1,
+      "summary": "Former intelligence chief August Hanning arrested for obtaining classified information for a foreign power, raising NATO security concerns.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +46,23 @@
       "detected_at": "2026-10-06T15:09:59.139101Z"
     },
     {
-      "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-      "label": "White House defends Trump Iran comment",
-      "summary": "Trump rhetoric about Iran and US cities; White House says warning of nuclear risk. No policy action or confirmed threat.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-06T07:33:36.373320Z"
-    },
-    {
-      "title": "Kenya confirms its first Ebola death as outbreak spreads",
-      "label": "Kenya confirms first Ebola death",
-      "summary": "Patient from DR Congo died; over 4,000 deaths this year in DRC. Distant African health crisis with no US impact.",
-      "score": 2.2,
+      "title": "US man arrested as second suspect in Canada mass school shooting planned with ChatGPT",
+      "label": "US man arrested in Canada shooting plot",
+      "summary": "James Codey Bryant detained for allegedly offering technical advice to primary suspect in mass school shooting planned using ChatGPT.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/tumbler-ridge-shooting-arrest-washington"
         }
       ],
-      "detected_at": "2026-10-06T15:09:59.139101Z"
+      "detected_at": "2026-10-07T00:41:05.968458Z"
     }
   ],
   "short_summary": "Fort Hood shooter faces firing squad execution",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-06T20:18:13.934811Z",
+  "updated_at": "2026-10-07T00:41:05.968458Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Fort Hood shooter faces firing squad execution",
     "summary": "Nidal Hasan to be executed for 2009 attack killing 13 soldiers, first US military firing squad execution since WWII. Significant domestic military justice milestone.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-06T07:33:36.373320Z",
   "score_history": [
-    {
-      "t": "2026-10-04T23:08:10.955497Z",
-      "s": 2.9
-    },
     {
       "t": "2026-10-05T01:59:24.436578Z",
       "s": 2.8
@@ -116,6 +117,10 @@
     {
       "t": "2026-10-06T20:18:13.934811Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-07T00:41:05.968458Z",
+      "s": 3.2
     }
   ]
 }

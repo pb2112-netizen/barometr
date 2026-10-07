@@ -1,12 +1,12 @@
 {
-  "global_score": 4.0,
-  "rationale": "German spy chief arrest continues as top NATO security concern for Poland; other events remain background or distant.",
+  "global_score": 3.9,
+  "rationale": "German spy chief arrest continues as NATO security concern; other events distant or routine.",
   "top_events": [
     {
       "title": "Former German spy chief arrested for espionage and treason",
       "label": "German spy chief arrested for treason",
-      "summary": "August Hanning accused of obtaining classified information for a foreign power, raising NATO security concerns for Poland's alliance network.",
-      "score": 4.0,
+      "summary": "Former intelligence chief August Hanning arrested for obtaining classified information for a foreign power, raising NATO security concerns for Poland.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,40 +24,50 @@
     {
       "title": "Kenya confirms its first Ebola death as outbreak spreads",
       "label": "Kenya confirms first Ebola death",
-      "summary": "Patient from DR Congo died; over 4,000 deaths this year in DRC. Distant health crisis with no direct impact on Poland.",
-      "score": 2.4,
+      "summary": "First Ebola death in Kenya; over 4,000 died in DRC this year. Distant health crisis with no direct impact on Poland.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
         }
       ],
       "detected_at": "2026-10-06T20:18:13.922487Z"
     },
     {
-      "title": "Ship sinks and crew missing after Black Sea drone attack",
-      "label": "Ship sinks after Black Sea drone attack",
-      "summary": "Vessel sunk in Black Sea; crew missing. Continues regional instability near Ukraine conflict zone affecting Polish security concerns.",
-      "score": 3.6,
-      "sentiment": "negative",
+      "title": "Tear gas in Paris and Marseille as school protests grow across France",
+      "label": "French school protests met with tear gas",
+      "summary": "Teenagers protest for school resources in France; police use tear gas. Neighbor country unrest, no direct Polish impact.",
+      "score": 2.3,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/french-mayor-tear-gassed-after-shielding-protesters-from-police?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-06T15:09:59.131189Z"
+      "detected_at": "2026-10-07T00:41:05.964617Z"
     }
   ],
   "short_summary": "German spy chief arrested for treason espionage",
@@ -65,14 +75,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-06T20:18:13.922487Z",
+  "updated_at": "2026-10-07T00:41:05.964617Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "German spy chief arrested for treason espionage",
     "summary": "August Hanning arrested for obtaining classified information for foreign power. Raises security concerns within NATO and EU intelligence cooperation affecting Poland's regional security framework.",
     "title": "Former German spy chief arrested for espionage and treason",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-10-06T15:09:59.131189Z",
     "peak_at": "2026-10-06T15:09:59.131189Z",
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-10-06T15:09:59.131189Z",
   "score_history": [
-    {
-      "t": "2026-10-04T23:08:10.950569Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-05T01:59:24.432505Z",
       "s": 3.6
@@ -120,6 +126,10 @@
     {
       "t": "2026-10-06T20:18:13.922487Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-10-07T00:41:05.964617Z",
+      "s": 3.9
     }
   ]
 }

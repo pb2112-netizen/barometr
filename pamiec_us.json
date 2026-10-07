@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-06T20:18:13.943623Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-10-07T00:41:05.972529Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "German spy chief Hanning treason arrest",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Former intelligence chief arrested; NATO security concern."
     },
     {
-      "temat": "Kenya Ebola death outbreak spread",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
-      "opis": "First Ebola death in Kenya; 4,000 dead in DRC this year."
-    },
-    {
-      "temat": "Trump Iran comment LA San Diego rhetoric",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
-      "opis": "Trump rhetoric on Iran; White House defends; no action."
-    },
-    {
-      "temat": "Fort Hood shooter execution firing squad",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
-      "opis": "First US military firing squad execution since WWII."
-    },
-    {
       "temat": "Georgia mass shooting homecoming celebration",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
       "opis": "Two killed, 35 injured in shooting; suspect at large."
     },
     {
+      "temat": "Christa Pike survives lethal injection execution",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Death row inmate survives failed execution; unprecedented."
+    },
+    {
+      "temat": "US man arrested Canada school shooting ChatGPT plot",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "Second suspect arrested for Canada shooting planned with AI."
+    },
+    {
+      "temat": "Fort Hood shooter execution firing squad",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
+      "opis": "First US military firing squad execution since WWII."
+    },
+    {
+      "temat": "Trump Iran comment LA San Diego rhetoric",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
+      "opis": "Trump rhetoric on Iran; White House defends; no action."
+    },
+    {
       "temat": "G7 oil reserve release 100M barrels diesel",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 21,
       "opis": "G7 releases reserves to address fuel costs and Iran supply."
     },
     {
       "temat": "US Iran military deployment 2000 Marines Hormuz tanker",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 21,
-      "opis": "US deploys Marines and carrier as tanker hit in Hormuz."
-    },
-    {
-      "temat": "Pentagon blacklists Anthropic AI safety guardrails",
       "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 4,
-      "opis": "Military stops using AI firm after safety dispute."
+      "cykle_bez_zmian": 22,
+      "opis": "US deploys Marines and carrier as tanker hit in Hormuz."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-04T23:08:10.955497Z",
-      "s": 2.9
-    },
     {
       "t": "2026-10-05T01:59:24.436578Z",
       "s": 2.8
@@ -84,15 +80,39 @@
     {
       "t": "2026-10-06T20:18:13.934811Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-07T00:41:05.968458Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-10-06T07:33:36.373320Z",
   "event_detected_at": {
+    "us death row inmate christa pike awake and speaking after failed execution, lawyers say": {
+      "detected_at": "2026-10-07T00:41:05.968458Z",
+      "peak_at": "2026-10-07T00:41:05.968458Z",
+      "peak_score_at": "2026-10-07T00:41:05.968458Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "peak_label": "Death row inmate survives lethal injection",
+      "peak_summary": "Christa Pike regained consciousness after failed lethal injection, believed to be the only known person to survive such an execution attempt.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/6/christa-pike-lawyers-say-she-is-speaking-one-week-after-failed-execution?traffic_source=rss"
+        }
+      ]
+    },
     "former german spy chief arrested for espionage and treason": {
       "detected_at": "2026-10-06T15:09:59.139101Z",
       "peak_at": "2026-10-06T15:09:59.139101Z",
       "peak_score_at": "2026-10-06T15:09:59.139101Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "Former German spy chief arrested for espionage and treason",
       "peak_label": "German spy chief arrested for treason espionage",
@@ -105,6 +125,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage?traffic_source=rss"
+        }
+      ]
+    },
+    "us man arrested as second suspect in canada mass school shooting planned with chatgpt": {
+      "detected_at": "2026-10-07T00:41:05.968458Z",
+      "peak_at": "2026-10-07T00:41:05.968458Z",
+      "peak_score_at": "2026-10-07T00:41:05.968458Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "US man arrested as second suspect in Canada mass school shooting planned with ChatGPT",
+      "peak_label": "US man arrested in Canada shooting plot",
+      "peak_summary": "James Codey Bryant detained for allegedly offering technical advice to primary suspect in mass school shooting planned using ChatGPT.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/tumbler-ridge-shooting-arrest-washington"
         }
       ]
     },
@@ -194,8 +230,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
     "Former German spy chief arrested for espionage and treason",
-    "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-    "Kenya confirms its first Ebola death as outbreak spreads"
+    "US man arrested as second suspect in Canada mass school shooting planned with ChatGPT"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "global_score": 4.2,
-  "rationale": "German spy chief arrest continues as NATO security concern; Black Sea drone attack on ship directly affects Romania's maritime region.",
+  "global_score": 3.9,
+  "rationale": "German spy chief arrest continues as NATO security concern; Black Sea drone attack on ship adds regional tension.",
   "top_events": [
     {
       "title": "Former German spy chief arrested for espionage and treason",
       "label": "German spy chief arrested for treason",
-      "summary": "August Hanning accused of obtaining classified information for foreign power, threatening NATO security framework Romania depends on.",
-      "score": 4.1,
+      "summary": "Former intelligence chief August Hanning arrested for obtaining classified information for a foreign power, raising NATO security concerns for Romania.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,10 +24,10 @@
     {
       "title": "Ship sinks and crew missing after Black Sea drone attack",
       "label": "Ship sinks after Black Sea drone attack",
-      "summary": "Vessel sunk in Black Sea with crew missing. Escalates maritime threat in Romania's immediate regional waters amid Russia-Ukraine war.",
-      "score": 4.2,
+      "summary": "Vessel sinks in Black Sea following drone attack; crew missing. Unclear perpetrator; adds to regional maritime security concerns.",
+      "score": 3.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -43,18 +43,23 @@
     {
       "title": "Kenya confirms its first Ebola death as outbreak spreads",
       "label": "Kenya confirms first Ebola death",
-      "summary": "Patient from DR Congo died; over 4,000 deaths this year in DRC. Distant health crisis with no direct impact on Romania.",
-      "score": 2.4,
+      "summary": "First Ebola death in Kenya; over 4,000 died in DRC this year. Distant health crisis with no direct impact on Romania.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
         }
       ],
       "detected_at": "2026-10-06T20:18:13.925291Z"
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-06T20:18:13.925291Z",
+  "updated_at": "2026-10-07T00:41:05.965516Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Ship sinks Black Sea drone attack crew missing",
     "summary": "Vessel sinks in Black Sea following drone attack as Russia intensifies strikes. Direct threat to Romanian maritime security and Black Sea shipping routes critical to regional economy.",
     "title": "Ship sinks and crew missing after Black Sea drone attack",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-10-05T18:26:02.481590Z",
     "peak_at": "2026-10-06T15:09:59.133076Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-05T18:26:02.481590Z",
   "score_history": [
-    {
-      "t": "2026-10-04T23:08:10.952074Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-05T01:59:24.433744Z",
       "s": 3.8
@@ -116,6 +117,10 @@
     {
       "t": "2026-10-06T20:18:13.925291Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-10-07T00:41:05.965516Z",
+      "s": 3.9
     }
   ]
 }
