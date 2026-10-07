@@ -1,12 +1,31 @@
 {
-  "global_score": 4.1,
-  "rationale": "Black Sea drone attack on ship adds maritime threat; German spy arrest threatens NATO support; ongoing strikes continue.",
+  "global_score": 3.9,
+  "rationale": "Russian Black Sea grain ship attack continues as direct threat to Ukrainian exports and regional security; Kyiv strikes remain ongoing background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "At least two killed in Kyiv as Russia launches 'massive' attack on Ukraine",
+      "label": "Russia launches massive Kyiv strike",
+      "summary": "Russia confirms massive strike on Kyiv and other regions, killing at least two; continuation of infrastructure attacks on capital.",
+      "score": 3.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-06T15:09:59.137084Z"
+    },
     {
       "title": "Former German spy chief arrested for espionage and treason",
       "label": "German spy chief arrested for treason",
-      "summary": "Former intelligence chief August Hanning arrested for obtaining classified information for a foreign power, threatening NATO support for Ukraine.",
-      "score": 3.8,
+      "summary": "Former intelligence chief arrested for providing secrets to foreign power; threatens NATO support network critical to Ukrainian defense.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-10-06T15:09:59.137084Z"
     },
     {
-      "title": "Ship sinks and crew missing after Black Sea drone attack",
-      "label": "Ship sinks after Black Sea drone attack",
-      "summary": "Vessel sinks in Black Sea following drone attack; crew missing. Unclear perpetrator; adds to maritime threat in war zone.",
-      "score": 4.1,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-06T15:09:59.137084Z"
-    },
-    {
-      "title": "Iran war live: Yemen forces claim control over strategic Taiz mountain peak",
-      "label": "Yemen forces claim Taiz mountain peak",
-      "summary": "Yemeni forces claim control over highest peak in Jabal Habashi district. Distant conflict with no direct Ukrainian impact.",
+      "title": "Yemen's Houthis attack Aden airport; Saudi forces down missile near Riyadh",
+      "label": "Houthis strike Aden airport runway",
+      "summary": "Missile hit Aden airport runway; distant Middle East escalation with no direct Ukrainian impact.",
       "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -54,41 +54,37 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/7/iran-war-live-yemen-forces-claim-control-over-strategic-taiz-mountain-peak?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-07T00:41:05.967220Z"
+      "detected_at": "2026-10-06T20:18:13.931632Z"
     }
   ],
-  "short_summary": "Russia strikes Turkish grain ship, captain killed",
+  "short_summary": "Ship sinks after Black Sea drone attack",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-07T00:41:05.967220Z",
+  "updated_at": "2026-10-07T07:13:14.958396Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Russia strikes Turkish grain ship, captain killed",
-    "summary": "Russian attack on Turkish-owned vessel carrying corn kills captain, 11 crew rescued. Direct escalation threatening Ukraine's grain export lifeline and maritime security in Black Sea.",
-    "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-    "score": 6.5,
+    "label": "Ship sinks after Black Sea drone attack",
+    "summary": "Vessel sunk in Black Sea with crew missing as Russia intensifies strikes. Continues maritime threat in Ukraine's operational theater.",
+    "title": "Ship sinks and crew missing after Black Sea drone attack",
+    "score": 5.2,
     "sentiment": "negative",
-    "detected_at": "2026-10-05T18:26:02.485456Z",
-    "peak_at": "2026-10-06T00:48:29.911161Z",
+    "detected_at": "2026-10-06T15:09:59.137084Z",
+    "peak_at": "2026-10-06T20:18:13.931632Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-05T18:26:02.485456Z",
+  "events_anchor_at": "2026-10-06T15:09:59.137084Z",
   "score_history": [
-    {
-      "t": "2026-10-05T01:59:24.435583Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-05T09:01:30.622708Z",
       "s": 3.6
@@ -116,6 +112,10 @@
     {
       "t": "2026-10-07T00:41:05.967220Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-10-07T07:13:14.958396Z",
+      "s": 3.9
     }
   ]
 }

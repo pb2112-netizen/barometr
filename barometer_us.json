@@ -1,27 +1,41 @@
 {
-  "global_score": 3.2,
-  "rationale": "US death row inmate survives lethal injection in unprecedented case; German spy arrest is NATO concern; other events distant.",
+  "global_score": 3.1,
+  "rationale": "Failed execution of Christa Pike continues as unprecedented legal case; Canada school shooting arrest adds second suspect; other events distant or routine.",
   "top_events": [
     {
       "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-      "label": "Death row inmate survives lethal injection",
-      "summary": "Christa Pike regained consciousness after failed lethal injection, believed to be the only known person to survive such an execution attempt.",
-      "score": 3.2,
+      "label": "Death row inmate survives execution",
+      "summary": "Christa Pike survives lethal injection in unprecedented case; experts note she is believed to be only known person to survive such procedure.",
+      "score": 3.1,
       "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "inne",
-      "nowosc": "nowe",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss"
-        },
+        }
+      ],
+      "detected_at": "2026-10-07T00:41:05.968458Z"
+    },
+    {
+      "title": "US man arrested as second suspect in Canada mass school shooting planned with ChatGPT",
+      "label": "US man arrested in Canada shooting plot",
+      "summary": "James Codey Bryant detained for offering technical advice to primary suspect in mass school shooting planned with AI assistance.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/6/christa-pike-lawyers-say-she-is-speaking-one-week-after-failed-execution?traffic_source=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/tumbler-ridge-shooting-arrest-washington"
         }
       ],
       "detected_at": "2026-10-07T00:41:05.968458Z"
@@ -29,8 +43,8 @@
     {
       "title": "Former German spy chief arrested for espionage and treason",
       "label": "German spy chief arrested for treason",
-      "summary": "Former intelligence chief August Hanning arrested for obtaining classified information for a foreign power, raising NATO security concerns.",
-      "score": 3.0,
+      "summary": "Former intelligence chief arrested for providing secrets to foreign power; NATO security concern with indirect US implications.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -44,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-06T15:09:59.139101Z"
-    },
-    {
-      "title": "US man arrested as second suspect in Canada mass school shooting planned with ChatGPT",
-      "label": "US man arrested in Canada shooting plot",
-      "summary": "James Codey Bryant detained for allegedly offering technical advice to primary suspect in mass school shooting planned using ChatGPT.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/06/tumbler-ridge-shooting-arrest-washington"
-        }
-      ],
-      "detected_at": "2026-10-07T00:41:05.968458Z"
     }
   ],
   "short_summary": "Fort Hood shooter faces firing squad execution",
@@ -70,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-07T00:41:05.968458Z",
+  "updated_at": "2026-10-07T07:13:14.959284Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-06T07:33:36.373320Z",
   "score_history": [
-    {
-      "t": "2026-10-05T01:59:24.436578Z",
-      "s": 2.8
-    },
     {
       "t": "2026-10-05T09:01:30.624655Z",
       "s": 2.7
@@ -121,6 +112,10 @@
     {
       "t": "2026-10-07T00:41:05.968458Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-07T07:13:14.959284Z",
+      "s": 3.1
     }
   ]
 }
