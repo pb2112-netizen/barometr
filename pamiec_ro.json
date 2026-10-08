@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-10-08T07:22:45.514774Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-10-08T15:35:11.853336Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Kenya Ebola death DRC outbreak spread",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "First Ebola death in Kenya from DRC patient; distant health."
     },
     {
+      "temat": "Gulf tanker strike Qatar projectiles casualties",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Oil tanker hit off Qatar; energy security concern for EU."
+    },
+    {
       "temat": "Russia Black Sea grain ship strike Turkey",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "Russian attack on Turkish grain vessel; captain killed."
     },
     {
       "temat": "German spy chief Hanning treason arrest",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "Former intelligence chief arrested for espionage; NATO."
     },
     {
       "temat": "Ship sinks fire Romania coast casualties",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
       "opis": "Vessel fire and sinking off Romanian coast; two dead."
     },
     {
       "temat": "Trump Putin call Russia plague lab biosecurity",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "US-Russia dialogue over researcher death; regional concern."
     },
     {
       "temat": "Germany Merz Kyiv aid package Ukraine support",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 15,
       "opis": "Chancellor announces $1.5B military and reconstruction aid."
     },
     {
       "temat": "EU-China trade talks Beijing deficit rare earth",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 1,
-      "opis": "Negotiations on €1bn daily deficit; indirect EU economy."
-    },
-    {
-      "temat": "Yemen Houthis Aden airport Saudi missile",
       "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 4,
-      "opis": "Houthi missile hits Aden runway; Saudi intercepts near."
+      "cykle_bez_zmian": 2,
+      "opis": "Negotiations on €1bn daily deficit; indirect EU economy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-06T07:33:36.370120Z",
-      "s": 2.9
-    },
-    {
-      "t": "2026-10-06T15:09:59.133076Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-06T20:18:13.925291Z",
       "s": 4.2
@@ -88,15 +80,51 @@
     {
       "t": "2026-10-08T07:22:45.508290Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-10-08T15:35:11.845071Z",
+      "s": 3.6
     }
   ],
   "events_anchor_at": "2026-10-07T14:29:57.589961Z",
   "event_detected_at": {
+    "russian strike on buses kills at least 30, say officials, as deadly attacks on ukraine surge": {
+      "detected_at": "2026-10-07T14:29:57.589961Z",
+      "peak_at": "2026-10-07T20:36:33.302947Z",
+      "peak_score_at": "2026-10-07T20:36:33.302947Z",
+      "peak_score": 5.8,
+      "peak_sentiment": "negative",
+      "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
+      "peak_label": "Russian missile kills 19 in Ukraine apartment",
+      "peak_summary": "Five children among 19 killed in strike on northern Ukraine apartment block. Escalation in neighboring conflict zone raises regional security concerns.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "tanker hit by multiple projectiles in gulf off qatar, maritime agency says": {
+      "detected_at": "2026-10-08T15:35:11.845071Z",
+      "peak_at": "2026-10-08T15:35:11.845071Z",
+      "peak_score_at": "2026-10-08T15:35:11.845071Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+      "peak_label": "Tanker struck by projectiles in Gulf off Qatar",
+      "peak_summary": "Oil and chemical tanker hit with casualties reported. Raises energy security concerns for EU member dependent on stable global oil supply.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "kenya confirms first ebola case as virus 'surges' in dr congo province": {
       "detected_at": "2026-10-06T20:18:13.925291Z",
       "peak_at": "2026-10-08T07:22:45.508290Z",
       "peak_score_at": "2026-10-08T07:22:45.508290Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Kenya confirms first Ebola case as virus 'surges' in DR Congo province",
       "peak_label": "Kenya reports first Ebola death from DRC",
@@ -144,22 +172,6 @@
         }
       ]
     },
-    "children killed while they slept as russian missile kills 19 in block of flats": {
-      "detected_at": "2026-10-07T14:29:57.589961Z",
-      "peak_at": "2026-10-07T20:36:33.302947Z",
-      "peak_score_at": "2026-10-07T20:36:33.302947Z",
-      "peak_score": 5.9,
-      "peak_sentiment": "negative",
-      "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
-      "peak_label": "Russian missile kills 19 in Ukraine apartment",
-      "peak_summary": "Five children among 19 killed in strike on northern Ukraine apartment block. Escalation in neighboring conflict zone raises regional security concerns.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "saudi arabia confirms three dead in houthi strikes on its airports": {
       "detected_at": "2026-10-08T00:59:18.879147Z",
       "peak_at": "2026-10-08T00:59:18.879147Z",
@@ -191,27 +203,11 @@
           "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure?traffic_source=rss"
         }
       ]
-    },
-    "trump to speak to putin about plague lab worker's death in russia": {
-      "detected_at": "2026-10-07T14:29:57.589961Z",
-      "peak_at": "2026-10-07T14:29:57.589961Z",
-      "peak_score_at": "2026-10-07T14:29:57.589961Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "neutral",
-      "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-      "peak_label": "Trump to discuss Russian plague lab death",
-      "peak_summary": "US president plans Putin call over plague researcher death in Siberia. Biosecurity concern for Black Sea region, though direct impact on Romania unclear.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Kenya confirms first Ebola case as virus 'surges' in DR Congo province",
-    "UK says East Jerusalem consulate building to remain open as a mission",
-    "Japan beer giants raided over alleged price-fixing cartel"
+    "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+    "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+    "Kenya confirms first Ebola case as virus 'surges' in DR Congo province"
   ]
 }
