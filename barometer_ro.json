@@ -1,71 +1,76 @@
 {
-  "global_score": 3.6,
-  "rationale": "New Russian missile strike killing 19 in Ukrainian apartment block affects Black Sea regional security environment, though less directly than previous grain ship attack. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Quiet cycle with no events directly affecting Romanian security, economy, or Black Sea region.",
   "top_events": [
     {
-      "title": "Children killed while they slept as Russian missile kills 19 in block of flats",
-      "label": "Russian missile kills 19 in Ukraine flats",
-      "summary": "Five children among victims in northern Ukraine apartment strike. Regional escalation affects Black Sea security environment near Romania.",
-      "score": 3.6,
+      "title": "Kenya confirms first Ebola case as virus 'surges' in DR Congo province",
+      "label": "Kenya reports first Ebola death from DRC",
+      "summary": "First Ebola death in Kenya from patient who traveled from DRC. Distant African health crisis with no direct impact on Romania.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/why-single-ebola-death-in-kenya-has-sparked-fears-of-wider-african-spread?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-06T20:18:13.925291Z"
+    },
+    {
+      "title": "UK says East Jerusalem consulate building to remain open as a mission",
+      "label": "UK keeps East Jerusalem consulate open",
+      "summary": "UK maintains diplomatic presence in occupied East Jerusalem despite Israeli pressure. Distant EU-Israel friction with no direct relevance to Romania.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-08T07:22:45.508290Z"
+    },
+    {
+      "title": "Japan beer giants raided over alleged price-fixing cartel",
+      "label": "Japan raids beer giants over price-fixing",
+      "summary": "Japanese competition authority searches premises of major brewers. Distant Asian regulatory matter with no link to Romanian economy.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-07T14:29:57.589961Z"
-    },
-    {
-      "title": "Saudi Arabia confirms three dead in Houthi strikes on its airports",
-      "label": "Houthi strikes kill three at Saudi airports",
-      "summary": "Yemen-based forces attack Saudi international airports with casualties. Distant Middle East conflict with no direct Romanian impact.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/saudi-arabia-confirms-three-dead-in-houthi-strikes-on-its-airports?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-08T00:59:18.879147Z"
-    },
-    {
-      "title": "EU-China trade talks begin in Beijing amid escalating pressure",
-      "label": "EU-China trade talks begin in Beijing",
-      "summary": "Negotiations focus on €1bn daily deficit and rare earth restrictions. EU-wide economic talks with indirect impact on Romanian economy.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-08T00:59:18.879147Z"
+      "detected_at": "2026-10-08T07:22:45.508290Z"
     }
   ],
   "short_summary": "Russian missile kills 19 in Ukraine apartment",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-08T00:59:18.879147Z",
+  "updated_at": "2026-10-08T07:22:45.508290Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -116,6 +121,10 @@
     {
       "t": "2026-10-08T00:59:18.879147Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-08T07:22:45.508290Z",
+      "s": 2.5
     }
   ]
 }
