@@ -1,15 +1,39 @@
 {
-  "global_score": 3.4,
-  "rationale": "Fort Hood execution livestream is unprecedented domestic legal event; Hurricane Isaias poses real threat to Gulf Coast residents.",
+  "global_score": 4.1,
+  "rationale": "Major policy shift: US purchases Russian diesel amid fuel crisis; Panama earthquake threatens Gulf region with tsunami warnings.",
   "top_events": [
     {
-      "title": "Firing squad execution to be livestreamed, Pentagon says",
-      "label": "Pentagon to livestream Fort Hood execution",
-      "summary": "First military firing squad execution since WWII will be publicly broadcast; unprecedented legal and ethical territory for US justice system.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+      "label": "Trump announces Russian diesel deal amid fuel crisis",
+      "summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
+      "score": 4.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T20:53:04.427137Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+      "label": "Powerful magnitude 7.7 earthquake hits Panama, damaging",
+      "summary": "Major earthquake in Central America triggers tsunami warnings extending to US Gulf Coast and Mexico; potential coastal threat.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC",
         "Al Jazeera",
@@ -18,93 +42,68 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/10/9/man-city-case-causing-uncertainty-for-whole-premier-league-says-iraola?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake"
         }
       ],
-      "detected_at": "2026-10-09T02:08:24.758205Z"
+      "detected_at": "2026-10-09T20:53:04.427137Z"
     },
     {
       "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Hurricane Isaias targets US Gulf Coast",
-      "summary": "Category 3 storm expected to make landfall on northern Gulf Coast; flash flood and river flooding risk for US residents.",
-      "score": 3.4,
+      "label": "Hurricane Isaias becomes first Atlantic storm of season",
+      "summary": "Continuation of hurricane threat to US Gulf Coast; storm expected to make landfall with flood risk.",
+      "score": 3.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian",
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T16:11:00.091014Z"
-    },
-    {
-      "title": "US imposes sanctions on International Criminal Court",
-      "label": "US sanctions International Criminal Court itself",
-      "summary": "Administration escalates campaign against ICC; restricts tribunal resources. Policy action affecting international relations.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-09T16:11:00.091014Z"
     }
   ],
-  "short_summary": "81 US aircraft lost in Iran war costing $3.3bn",
+  "short_summary": "Trump announces Russian diesel deal amid fuel crisis",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-09T16:11:00.091014Z",
+  "updated_at": "2026-10-09T20:53:04.427137Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "81 US aircraft lost in Iran war costing $3.3bn",
-    "summary": "Congressional Budget Office report documents at least 81 US military aircraft worth up to $3.3 billion lost or damaged in Iran war. Significant confirmed cost of ongoing US military engagement.",
-    "title": "At least 81 US aircraft worth up to $3.3bn lost or damaged in Iran war",
-    "score": 3.8,
+    "label": "Trump announces Russian diesel deal amid fuel crisis",
+    "summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
+    "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+    "score": 4.1,
     "sentiment": "negative",
-    "detected_at": "2026-10-08T21:18:55.504830Z",
-    "peak_at": "2026-10-08T21:18:55.504830Z",
+    "detected_at": "2026-10-09T20:53:04.427137Z",
+    "peak_at": "2026-10-09T20:53:04.427137Z",
     "source_links": [
       {
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+      },
+      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/8/at-least-81-us-aircraft-worth-up-to-3-3bn-lost-or-damaged-in-iran-war?traffic_source=rss"
+        "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-08T21:18:55.504830Z",
+  "events_anchor_at": "2026-10-09T20:53:04.427137Z",
   "score_history": [
-    {
-      "t": "2026-10-07T20:36:33.308037Z",
-      "s": 2.7
-    },
     {
       "t": "2026-10-08T00:59:18.881910Z",
       "s": 2.7
@@ -132,6 +131,10 @@
     {
       "t": "2026-10-09T16:11:00.091014Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-09T20:53:04.427137Z",
+      "s": 4.1
     }
   ]
 }
