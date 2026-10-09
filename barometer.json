@@ -1,71 +1,91 @@
 {
-  "global_score": 3.9,
-  "rationale": "Russian mass-casualty strike on Ukrainian buses (30 killed) is a significant escalation in the nearby war, raising security concerns for Poland's eastern border and refugee pressure. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Continuation of Russia-Ukraine war background; no new qualitative change affecting Poland directly this cycle. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-      "label": "Russia strikes buses in Kramatorsk killing 30",
-      "summary": "Russia targeted two crowded buses in Kramatorsk, killing at least 30 civilians in a deliberate mass-casualty attack. The escalation raises security concerns for Poland's eastern border.",
-      "score": 3.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-07T14:29:57.587762Z"
-    },
-    {
-      "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
-      "label": "Winter strikes force Kyiv residents to flee",
-      "summary": "Renewed Russian strikes on energy infrastructure are forcing some Kyiv residents to leave the capital as winter approaches, potentially increasing refugee flows westward.",
-      "score": 3.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T09:01:24.143484Z"
-    },
-    {
       "title": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
-      "label": "Ethiopia drone strikes Eritrean troops in Tigray",
-      "summary": "Ethiopian forces attacked Eritrean troops in Tigray, raising the risk of a regional war in the Horn of Africa. Distant conflict with no direct impact on Poland.",
+      "label": "Ethiopia strikes Eritrean troops in Tigray region",
+      "summary": "Distant Horn of Africa conflict; no direct link to Poland's security or economy. Ongoing regional tension already tracked.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-08T21:18:55.496446Z"
+    },
+    {
+      "title": "US imposes sanctions on International Criminal Court",
+      "label": "US sanctions International Criminal Court itself",
+      "summary": "Weakens international law institutions; indirect concern for EU rule-of-law norms, but no immediate impact on Polish daily life.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.084465Z"
+    },
+    {
+      "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+      "label": "Navi Pillay wins Nobel Peace Prize",
+      "summary": "Symbolic recognition; no change to Poland's security, economy, or daily life.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray"
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
         }
       ],
-      "detected_at": "2026-10-08T21:18:55.496446Z"
+      "detected_at": "2026-10-09T16:11:00.084465Z"
     }
   ],
   "short_summary": "Russian missile kills 19 in Ukraine apartment",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-09T09:01:24.143484Z",
+  "updated_at": "2026-10-09T16:11:00.084465Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +105,6 @@
   },
   "events_anchor_at": "2026-10-07T14:29:57.587762Z",
   "score_history": [
-    {
-      "t": "2026-10-07T14:29:57.587762Z",
-      "s": 5.2
-    },
     {
       "t": "2026-10-07T20:36:33.301217Z",
       "s": 4.9
@@ -116,6 +132,10 @@
     {
       "t": "2026-10-09T09:01:24.143484Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-09T16:11:00.084465Z",
+      "s": 2.8
     }
   ]
 }

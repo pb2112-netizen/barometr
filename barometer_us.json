@@ -1,71 +1,87 @@
 {
-  "global_score": 3.0,
-  "rationale": "ICE agent shooting in New York City during arrest operation is a domestic law enforcement incident with local impact but no broader policy change.",
+  "global_score": 3.4,
+  "rationale": "Fort Hood execution livestream is unprecedented domestic legal event; Hurricane Isaias poses real threat to Gulf Coast residents.",
   "top_events": [
     {
-      "title": "ICE agent shoots man in New York City",
-      "label": "ICE agent shoots man during NYC arrest",
-      "summary": "An ICE agent shot a man during an arrest operation in New York City. The mayor expressed outrage, but the incident represents routine enforcement action.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T09:01:24.150814Z"
-    },
-    {
       "title": "Firing squad execution to be livestreamed, Pentagon says",
-      "label": "Pentagon to livestream firing squad execution",
-      "summary": "The Pentagon announces it will livestream a firing squad execution, an unprecedented decision on uncertain legal terrain. Domestic legal controversy.",
-      "score": 2.5,
+      "label": "Pentagon to livestream Fort Hood execution",
+      "summary": "First military firing squad execution since WWII will be publicly broadcast; unprecedented legal and ethical territory for US justice system.",
+      "score": 2.4,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/9/man-city-case-causing-uncertainty-for-whole-premier-league-says-iraola?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-09T02:08:24.758205Z"
     },
     {
-      "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
-      "label": "Maduro indicted for torture of US citizens",
-      "summary": "The deposed Venezuelan president and his wife have been indicted for alleged torture of US citizens. Legal action with minimal immediate impact on daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
+      "label": "Hurricane Isaias targets US Gulf Coast",
+      "summary": "Category 3 storm expected to make landfall on northern Gulf Coast; flash flood and river flooding risk for US residents.",
+      "score": 3.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court"
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-08T15:35:11.850345Z"
+      "detected_at": "2026-10-09T16:11:00.091014Z"
+    },
+    {
+      "title": "US imposes sanctions on International Criminal Court",
+      "label": "US sanctions International Criminal Court itself",
+      "summary": "Administration escalates campaign against ICC; restricts tribunal resources. Policy action affecting international relations.",
+      "score": 2.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.091014Z"
     }
   ],
   "short_summary": "81 US aircraft lost in Iran war costing $3.3bn",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-09T09:01:24.150814Z",
+  "updated_at": "2026-10-09T16:11:00.091014Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +101,6 @@
   },
   "events_anchor_at": "2026-10-08T21:18:55.504830Z",
   "score_history": [
-    {
-      "t": "2026-10-07T14:29:57.595654Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-07T20:36:33.308037Z",
       "s": 2.7
@@ -116,6 +128,10 @@
     {
       "t": "2026-10-09T09:01:24.150814Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-09T16:11:00.091014Z",
+      "s": 3.4
     }
   ]
 }

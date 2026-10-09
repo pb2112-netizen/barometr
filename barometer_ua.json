@@ -1,71 +1,86 @@
 {
-  "global_score": 3.9,
-  "rationale": "Russian mass-casualty strike on buses in Kramatorsk killed at least 30 civilians in a deliberate attack, representing a significant escalation in targeting of civilians on Ukrainian territory. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "No new qualitative change in Ukraine's war situation this cycle; ongoing strikes and infrastructure warnings continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-      "label": "Russia strikes buses in Kramatorsk killing 30",
-      "summary": "Russia deliberately targeted two crowded buses in Kramatorsk, killing at least 30 civilians in a mass-casualty attack. This represents a significant escalation in civilian targeting.",
-      "score": 3.9,
+      "title": "US imposes sanctions on International Criminal Court",
+      "label": "US sanctions International Criminal Court itself",
+      "summary": "Weakens international justice mechanisms Ukraine relies on for accountability; indirect concern but no immediate battlefield impact.",
+      "score": 3.2,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-06T15:09:59.137084Z"
-    },
-    {
-      "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
-      "label": "Winter strikes force Kyiv residents to flee",
-      "summary": "Renewed Russian strikes on energy infrastructure are forcing some Kyiv residents to leave the capital as winter approaches, continuing the pressure on civilian life.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-09T09:01:24.148624Z"
+      "detected_at": "2026-10-09T16:11:00.089301Z"
     },
     {
       "title": "Firing squad execution to be livestreamed, Pentagon says",
-      "label": "Pentagon to livestream firing squad execution",
-      "summary": "The Pentagon announces it will livestream a firing squad execution, an unprecedented decision. No direct impact on Ukraine.",
+      "label": "Pentagon to livestream Fort Hood execution",
+      "summary": "US domestic legal matter; no relevance to Ukraine's war or security situation.",
       "score": 1.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/9/man-city-case-causing-uncertainty-for-whole-premier-league-says-iraola?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-09T02:08:24.756251Z"
+    },
+    {
+      "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+      "label": "Navi Pillay wins Nobel Peace Prize",
+      "summary": "Symbolic recognition; no change to Ukraine's war situation or international support.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.089301Z"
     }
   ],
   "short_summary": "Russia launches 130 drones 48 missiles overnight",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-09T09:01:24.148624Z",
+  "updated_at": "2026-10-09T16:11:00.089301Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +100,6 @@
   },
   "events_anchor_at": "2026-10-06T15:09:59.137084Z",
   "score_history": [
-    {
-      "t": "2026-10-07T14:29:57.593632Z",
-      "s": 5.9
-    },
     {
       "t": "2026-10-07T20:36:33.306034Z",
       "s": 7.3
@@ -116,6 +127,10 @@
     {
       "t": "2026-10-09T09:01:24.148624Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-09T16:11:00.089301Z",
+      "s": 3.2
     }
   ]
 }
