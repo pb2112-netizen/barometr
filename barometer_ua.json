@@ -1,12 +1,12 @@
 {
-  "global_score": 4.1,
-  "rationale": "Russian strike deliberately targeting crowded buses in Kramatorsk kills at least 30 civilians, representing major escalation in attacks on Ukrainian population centers. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Russian mass-casualty strike on buses in Kramatorsk killed at least 30 civilians in a deliberate attack, representing a significant escalation in targeting of civilians on Ukrainian territory. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-      "label": "Russia kills 30 in Kramatorsk bus attack",
-      "summary": "Russia deliberately targeted two crowded buses in front-line city Kramatorsk to maximize civilian casualties. Major escalation in attacks on Ukrainian civilians.",
-      "score": 4.1,
+      "label": "Russia strikes buses in Kramatorsk killing 30",
+      "summary": "Russia deliberately targeted two crowded buses in Kramatorsk, killing at least 30 civilians in a mass-casualty attack. This represents a significant escalation in civilian targeting.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,12 +22,31 @@
       "detected_at": "2026-10-06T15:09:59.137084Z"
     },
     {
-      "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
-      "label": "Pentagon to livestream Fort Hood execution",
-      "summary": "US military execution by firing squad to be made public for first time since WWII. Distant US domestic matter with no relevance to Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
+      "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
+      "label": "Winter strikes force Kyiv residents to flee",
+      "summary": "Renewed Russian strikes on energy infrastructure are forcing some Kyiv residents to leave the capital as winter approaches, continuing the pressure on civilian life.",
+      "score": 2.8,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T09:01:24.148624Z"
+    },
+    {
+      "title": "Firing squad execution to be livestreamed, Pentagon says",
+      "label": "Pentagon to livestream firing squad execution",
+      "summary": "The Pentagon announces it will livestream a firing squad execution, an unprecedented decision. No direct impact on Ukraine.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "inne",
       "sources": [
         "BBC"
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-09T02:08:24.756251Z"
-    },
-    {
-      "title": "Suspect linked to Monaco bomb attack on millionaire breaks silence to BBC",
-      "label": "Monaco bomb suspect speaks on Ukrainian target",
-      "summary": "Vitalii Zhykovych gives account of attempted assassination of Ukrainian-born businessman Vadym Yermolayev. Distant criminal case with minimal impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T02:08:24.756251Z"
     }
   ],
   "short_summary": "Russia launches 130 drones 48 missiles overnight",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-09T02:08:24.756251Z",
+  "updated_at": "2026-10-09T09:01:24.148624Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russia launches 130 drones 48 missiles overnight",
     "summary": "Massive overnight barrage of 130 drones, 48 cruise and ballistic missiles kills at least 24. Continuation of large-scale infrastructure attacks.",
     "title": "At least 24 killed as Russia launches massive attack on Ukraine",
-    "score": 7.0,
+    "score": 6.9,
     "sentiment": "negative",
     "detected_at": "2026-10-06T15:09:59.137084Z",
     "peak_at": "2026-10-08T21:18:55.502407Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-06T15:09:59.137084Z",
   "score_history": [
-    {
-      "t": "2026-10-07T07:13:14.958396Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-07T14:29:57.593632Z",
       "s": 5.9
@@ -116,6 +112,10 @@
     {
       "t": "2026-10-09T02:08:24.756251Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-10-09T09:01:24.148624Z",
+      "s": 3.9
     }
   ]
 }
