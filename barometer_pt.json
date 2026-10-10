@@ -1,28 +1,42 @@
 {
-  "global_score": 3.1,
-  "rationale": "Panama earthquake with tsunami warnings affects Atlantic region; US-Russia diesel deal may indirectly impact EU energy prices.",
+  "global_score": 3.0,
+  "rationale": "Trump's Russian diesel deal represents a significant shift in US-Russia relations that may affect EU energy markets and sanctions policy, with indirect implications for Portugal's energy costs. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-      "label": "Powerful magnitude 7.7 earthquake hits Panama, damaging",
-      "summary": "Major earthquake hits Central America with tsunami alerts extending to Atlantic; indirect concern for Portugal's Atlantic coast.",
-      "score": 2.3,
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "label": "Trump purchases Russian diesel despite war",
+      "summary": "US buys Russian diesel in major policy shift, criticized by Ukraine as funding Russia's war. May affect EU energy prices and sanctions unity relevant to Portugal's economy.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T20:53:04.422942Z"
+    },
+    {
+      "title": "Powerful magnitude 7.7 earthquake strikes Panama, damaging buildings",
+      "label": "Panama hit by 7.7 magnitude earthquake",
+      "summary": "Major earthquake strikes Central America with Atlantic tsunami warnings issued. Geographically distant but in Atlantic basin; no direct threat to Portugal.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
-        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -32,34 +46,10 @@
       "detected_at": "2026-10-09T20:53:04.422942Z"
     },
     {
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "label": "Trump announces Russian diesel deal amid fuel crisis",
-      "summary": "US purchases Russian diesel as fuel prices soar; may indirectly affect EU-wide energy costs including Portugal.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T20:53:04.422942Z"
-    },
-    {
       "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Hurricane Isaias becomes first Atlantic storm of season",
-      "summary": "Continuation of Atlantic hurricane season; storm targets US Gulf Coast with no direct impact on Portugal.",
-      "score": 2.1,
+      "label": "Isaias becomes first Atlantic hurricane 2026",
+      "summary": "First Atlantic hurricane of season targets US Gulf Coast. Distant Atlantic weather event with no direct impact on Portugal.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -77,10 +67,10 @@
   ],
   "short_summary": "Trump announces Russian diesel deal amid fuel crisis",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-09T20:53:04.422942Z",
+  "updated_at": "2026-10-10T00:48:51.632803Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -135,6 +125,10 @@
     {
       "t": "2026-10-09T20:53:04.422942Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-10T00:48:51.632803Z",
+      "s": 3.0
     }
   ]
 }
