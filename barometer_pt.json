@@ -1,54 +1,35 @@
 {
-  "global_score": 2.8,
-  "rationale": "Trump-Russia diesel deal continues as known background; Isaias becomes first Atlantic hurricane threatening US Gulf Coast — indirect relevance to Atlantic shipping and energy markets.",
+  "global_score": 2.0,
+  "rationale": "Hurricane Isaias makes US landfall with two deaths and widespread power outages; Atlantic storm season affects shipping routes but no direct Portugal impact. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Isaias becomes first Atlantic hurricane of 2026",
-      "summary": "Storm strengthens to hurricane with wind speeds threatening US northern Gulf Coast; risk of flash floods and isolated river flooding. Indirect relevance to Atlantic shipping routes.",
+      "label": "Hurricane Isaias hits US Gulf Coast",
+      "summary": "First Atlantic hurricane of 2026 makes US landfall, killing two and leaving 800,000 without power. Atlantic storm activity relevant to shipping but no direct Portugal impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Guardian"
+        "Guardian",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-09T16:11:00.087511Z"
     },
     {
-      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "label": "Trump announces US purchase of Russian diesel",
-      "summary": "US president announces deal to buy Russian diesel amid high fuel prices. Indirect impact on EU energy markets and global fuel pricing.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T20:53:04.422942Z"
-    },
-    {
       "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
-      "label": "Panama 7.7 earthquake collapses buildings roads",
-      "summary": "Major earthquake hits Panama causing building and road collapses; country appears to escape widespread destruction or deaths. Distant event with no direct impact on Portugal.",
+      "label": "Major earthquake strikes Panama",
+      "summary": "Magnitude 7.7 earthquake in Panama causes building collapses. Distant event with no direct impact on Portugal or Atlantic shipping.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -63,14 +44,38 @@
         }
       ],
       "detected_at": "2026-10-09T20:53:04.422942Z"
+    },
+    {
+      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+      "label": "Navi Pillay wins Nobel Peace Prize",
+      "summary": "South African ICJ judge awarded Nobel for international law work. Symbolic recognition with no immediate impact on Portuguese daily life.",
+      "score": 2.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-10T18:34:07.502086Z"
     }
   ],
   "short_summary": "Trump announces Russian diesel deal amid fuel crisis",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-10T13:39:39.713786Z",
+  "updated_at": "2026-10-10T18:34:07.502086Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-10-09T20:53:04.422942Z",
   "score_history": [
-    {
-      "t": "2026-10-08T15:35:11.846850Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-08T21:18:55.500751Z",
       "s": 3.1
@@ -129,6 +130,10 @@
     {
       "t": "2026-10-10T13:39:39.713786Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-10T18:34:07.502086Z",
+      "s": 2.0
     }
   ]
 }
