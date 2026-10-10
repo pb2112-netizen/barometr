@@ -1,57 +1,33 @@
 {
-  "global_score": 3.8,
-  "rationale": "Hurricane Isaias makes Gulf Coast landfall killing two and leaving 800,000 without power; domestic disaster with confirmed casualties and infrastructure impact.",
+  "global_score": 3.0,
+  "rationale": "Hurricane Isaias makes US landfall killing four and leaving thousands without power; Trump's call to replace Zelensky is major foreign policy shift but does not directly change US domestic life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Hurricane Isaias leaves two dead and 800,000 without power in US Southeast",
-      "label": "Hurricane Isaias hits Gulf Coast",
-      "summary": "First Atlantic hurricane of 2026 makes US landfall, killing two and leaving 800,000 without power across Florida and Alabama. Flooding and tornado warnings continue.",
-      "score": 2.8,
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+      "label": "Hurricane Isaias kills four in US landfall",
+      "summary": "First Atlantic hurricane of 2026 season makes US Gulf Coast landfall killing four people, ripping roofs off buildings and leaving thousands without power.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-10-09T16:11:00.091014Z"
     },
     {
-      "title": "Nine killed in shooting in US state of Pennsylvania, including two children",
-      "label": "Nine killed in Pennsylvania shooting",
-      "summary": "Mass shooting in Erie, Pennsylvania kills nine including two children and the attacker. Domestic violence incident with significant casualties.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/10/nine-killed-in-shooting-in-us-state-of-pennsylvania-including-two-children?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-10T18:34:07.505205Z"
-    },
-    {
       "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-      "label": "Trump calls for Zelensky replacement",
-      "summary": "President Trump publicly demands Ukraine leadership change after Zelensky criticized US-Russia diesel deal. Major shift in US foreign policy rhetoric toward key ally.",
+      "label": "Trump calls for Zelensky replacement over diesel",
+      "summary": "President Trump publicly calls for Ukraine's leader to be replaced after Zelensky condemned US diesel deal with Russia; major foreign policy shift.",
       "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -63,41 +39,52 @@
         }
       ],
       "detected_at": "2026-10-09T20:53:04.427137Z"
+    },
+    {
+      "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+      "label": "Christa Pike discharged after failed execution",
+      "summary": "Death row inmate discharged from hospital after surviving two lethal injections last month; ongoing legal and ethical questions about execution protocols.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-10T22:30:19.700586Z"
     }
   ],
-  "short_summary": "Trump announces Russian diesel deal amid fuel crisis",
+  "short_summary": "Nine killed in Pennsylvania shooting",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-10T18:34:07.505205Z",
+  "updated_at": "2026-10-10T22:30:19.700586Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Trump announces Russian diesel deal amid fuel crisis",
-    "summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
-    "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+    "label": "Nine killed in Pennsylvania shooting",
+    "summary": "Mass shooting in Erie, Pennsylvania kills nine including two children and the attacker. Domestic violence incident with significant casualties.",
+    "title": "Nine killed in shooting in US state of Pennsylvania, including two children",
     "score": 3.8,
     "sentiment": "negative",
-    "detected_at": "2026-10-09T20:53:04.427137Z",
-    "peak_at": "2026-10-09T20:53:04.427137Z",
+    "detected_at": "2026-10-10T18:34:07.505205Z",
+    "peak_at": "2026-10-10T18:34:07.505205Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-      },
-      {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/10/10/nine-killed-in-shooting-in-us-state-of-pennsylvania-including-two-children?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-09T20:53:04.427137Z",
+  "events_anchor_at": "2026-10-10T18:34:07.505205Z",
   "score_history": [
-    {
-      "t": "2026-10-08T21:18:55.504830Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-09T02:08:24.758205Z",
       "s": 2.4
@@ -129,6 +116,10 @@
     {
       "t": "2026-10-10T18:34:07.505205Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-10-10T22:30:19.700586Z",
+      "s": 3.0
     }
   ]
 }
