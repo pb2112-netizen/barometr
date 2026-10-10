@@ -1,15 +1,15 @@
 {
-  "global_score": 3.9,
-  "rationale": "Trump's Russian diesel deal represents a major domestic policy shift aimed at lowering fuel prices before midterm elections, with significant political and economic implications for US residents.",
+  "global_score": 3.8,
+  "rationale": "Trump administration's Russian diesel purchase represents major domestic policy shift amid fuel price pressure before midterms; Hurricane Isaias downgraded reduces threat.",
   "top_events": [
     {
       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "label": "Trump buys Russian diesel to cut fuel prices",
-      "summary": "US purchases Russian diesel in major policy shift aimed at easing fuel prices before midterm elections. Draws sharp criticism from Ukraine and raises questions about sanctions policy.",
-      "score": 3.9,
-      "sentiment": "neutral",
+      "label": "Trump buys Russian diesel before midterm elections",
+      "summary": "US purchases Russian diesel in major policy reversal aimed at lowering fuel prices before midterm elections, drawing criticism from Ukraine and raising questions about sanctions policy.",
+      "score": 3.8,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
@@ -22,17 +22,22 @@
       "detected_at": "2026-10-09T20:53:04.427137Z"
     },
     {
-      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Hurricane Isaias targets US Gulf Coast",
-      "summary": "First Atlantic hurricane of 2026 season threatens US Gulf Coast with Category 3 winds and flash flooding risk. Direct threat to US residents in affected region.",
-      "score": 3.1,
-      "sentiment": "negative",
+      "title": "Hurricane Isaias downgraded after making landfall in Florida",
+      "label": "Hurricane Isaias weakens after Florida landfall",
+      "summary": "First Atlantic hurricane of 2026 season downgraded to post-tropical cyclone after making landfall, reducing threat as it moves across Southeastern US.",
+      "score": 3.0,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
@@ -42,10 +47,10 @@
     },
     {
       "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "label": "US imposes sanctions on International Criminal Court",
-      "summary": "United States sanctions International Criminal Court in escalation of campaign against tribunal. Draws criticism from UK and other ICC member states.",
-      "score": 2.6,
-      "sentiment": "neutral",
+      "label": "US sanctions ICC amid international backlash",
+      "summary": "US imposes sanctions on International Criminal Court, escalating campaign against tribunal and drawing strong disagreement from UK and other allies.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-10T00:48:51.635907Z",
+  "updated_at": "2026-10-10T07:05:08.587383Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Trump announces Russian diesel deal amid fuel crisis",
     "summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
     "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-    "score": 4.1,
+    "score": 4.0,
     "sentiment": "negative",
     "detected_at": "2026-10-09T20:53:04.427137Z",
     "peak_at": "2026-10-09T20:53:04.427137Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-09T20:53:04.427137Z",
   "score_history": [
-    {
-      "t": "2026-10-08T00:59:18.881910Z",
-      "s": 2.7
-    },
     {
       "t": "2026-10-08T07:22:45.512738Z",
       "s": 2.5
@@ -124,6 +125,10 @@
     {
       "t": "2026-10-10T00:48:51.635907Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-10T07:05:08.587383Z",
+      "s": 3.8
     }
   ]
 }
