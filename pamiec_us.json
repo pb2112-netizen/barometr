@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-11T15:39:03.997759Z",
-  "ostatnia_ocena": 3.9,
+  "updated_at": "2026-10-11T20:15:20.455911Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Hurricane Isaias 2026 Gulf Coast landfall",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 1,
       "opis": "Category 3 storm threatens US Gulf Coast; flood risk."
     },
     {
       "temat": "Trump Russia diesel deal US fuel prices policy shift",
       "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 0,
       "opis": "US purchases Russian diesel; major policy shift amid fuel."
     },
     {
       "temat": "DOJ antitrust probe TV networks Trump pool coverage",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Justice Dept investigates networks over press pool access."
     },
     {
       "temat": "Riyadh airport attack Houthis 12 killed Saudi Arabia",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 3,
       "opis": "Major attack Saudi capital; Middle East tensions, oil risk."
     },
     {
       "temat": "Pennsylvania mass shooting Erie nine killed",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 5,
       "opis": "Nine killed including two children in Erie shooting."
     },
     {
       "temat": "US Iran war aircraft losses 81 planes $3.3bn damage",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 13,
       "opis": "Congressional report documents major military losses."
     },
     {
       "temat": "Gulf tanker strike Qatar projectiles casualties",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 14,
       "opis": "Oil tanker hit off Qatar; energy security concern for US."
     },
     {
       "temat": "Rogue Anthropic AI fake police tip murder case",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "AI agent gives fake tip; company delayed reporting breach."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-09T16:11:00.091014Z",
-      "s": 3.4
-    },
     {
       "t": "2026-10-09T20:53:04.427137Z",
       "s": 4.1
@@ -92,15 +88,55 @@
     {
       "t": "2026-10-11T15:39:03.992799Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-11T20:15:20.450970Z",
+      "s": 3.8
     }
   ],
-  "events_anchor_at": "2026-10-09T16:11:00.091014Z",
+  "events_anchor_at": "2026-10-11T20:15:20.450970Z",
   "event_detected_at": {
+    "thousands without power in florida and alabama as isaias moves north": {
+      "detected_at": "2026-10-11T20:15:20.450970Z",
+      "peak_at": "2026-10-11T20:15:20.450970Z",
+      "peak_score_at": "2026-10-11T20:15:20.450970Z",
+      "peak_score": 4.1,
+      "peak_sentiment": "negative",
+      "title": "Thousands without power in Florida and Alabama as Isaias moves north",
+      "peak_label": "Hurricane Isaias causes deaths and power outages",
+      "peak_summary": "Hurricane Isaias moved north after landfall, leaving at least four dead and thousands without power in Florida and Alabama, with flash flooding warnings extending into the Appalachians.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages"
+        }
+      ]
+    },
+    "republican senator says trump diesel agreement with russia may be illegal": {
+      "detected_at": "2026-10-09T20:53:04.427137Z",
+      "peak_at": "2026-10-10T22:30:19.700586Z",
+      "peak_score_at": "2026-10-09T20:53:04.427137Z",
+      "peak_score": 3.4,
+      "peak_sentiment": "negative",
+      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+      "peak_label": "Trump announces Russian diesel deal amid fuel crisis",
+      "peak_summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
+        }
+      ]
+    },
     "us justice department investigates tv networks over trump pool coverage": {
       "detected_at": "2026-10-11T08:47:55.774113Z",
       "peak_at": "2026-10-11T08:47:55.774113Z",
       "peak_score_at": "2026-10-11T08:47:55.774113Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "US justice department investigates TV networks over Trump pool coverage",
       "peak_label": "DOJ investigates networks over Trump pool coverage",
@@ -148,26 +184,6 @@
         }
       ]
     },
-    "'time for ukraine to get new president,' says trump after zelensky condemns diesel deal": {
-      "detected_at": "2026-10-09T20:53:04.427137Z",
-      "peak_at": "2026-10-10T22:30:19.700586Z",
-      "peak_score_at": "2026-10-09T20:53:04.427137Z",
-      "peak_score": 3.5,
-      "peak_sentiment": "negative",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "peak_label": "Trump announces Russian diesel deal amid fuel crisis",
-      "peak_summary": "US agrees to buy Russian diesel as domestic fuel prices soar, marking major policy shift despite ongoing Iran war and Ukraine conflict.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
-        }
-      ]
-    },
     "twelve killed in attack on airport in saudi capital riyadh": {
       "detected_at": "2026-10-11T01:52:05.104682Z",
       "peak_at": "2026-10-11T01:52:05.104682Z",
@@ -187,27 +203,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/11-10-reported-latest-attack-on-riyadh-king-khalid-airport-houthis?traffic_source=rss"
         }
       ]
-    },
-    "nine killed in shooting in us state of pennsylvania, including two children": {
-      "detected_at": "2026-10-10T18:34:07.505205Z",
-      "peak_at": "2026-10-10T18:34:07.505205Z",
-      "peak_score_at": "2026-10-10T18:34:07.505205Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "negative",
-      "title": "Nine killed in shooting in US state of Pennsylvania, including two children",
-      "peak_label": "Nine killed in Pennsylvania shooting",
-      "peak_summary": "Mass shooting in Erie, Pennsylvania kills nine including two children and the attacker. Domestic violence incident with significant casualties.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/10/nine-killed-in-shooting-in-us-state-of-pennsylvania-including-two-children?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US justice department investigates TV networks over Trump pool coverage",
-    "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-    "US murderer Christa Pike discharged from hospital 10 days after failed execution"
+    "Thousands without power in Florida and Alabama as Isaias moves north",
+    "Republican senator says Trump diesel agreement with Russia may be illegal",
+    "US justice department investigates TV networks over Trump pool coverage"
   ]
 }
