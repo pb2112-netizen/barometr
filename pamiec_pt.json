@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-11T01:52:05.107827Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-10-11T08:47:55.776816Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Hurricane Isaias Atlantic 2026 season",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "First Atlantic hurricane; targets US Gulf Coast."
     },
     {
       "temat": "Panama earthquake 7.7 magnitude tsunami Atlantic",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 1,
       "opis": "Major earthquake Central America; tsunami alerts Atlantic."
     },
     {
       "temat": "Navi Pillay Nobel Peace Prize ICJ international law",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 1,
+      "cykle_bez_zmian": 2,
       "opis": "ICJ judge wins Nobel; symbolic recognition, no direct."
     },
     {
       "temat": "Trump Russia diesel deal US fuel prices EU energy",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 7,
       "opis": "US buys Russian diesel; may affect EU energy costs."
     },
     {
       "temat": "Gulf tanker strike Qatar projectiles casualties",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 12,
       "opis": "Oil tanker hit off Qatar; energy security concern for EU."
     },
     {
       "temat": "Spain pensioner eviction death protests housing",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 11,
       "opis": "87-year-old dies after forced removal; Iberian neighbor."
     },
     {
       "temat": "US sanctions International Criminal Court",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "US restricts ICC resources; weakens international law."
     },
     {
       "temat": "Russia Kramatorsk bus strike 30 killed Ukraine",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Mass-casualty civilian attack in distant eastern Europe."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-09T02:08:24.754511Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-09T09:01:24.146971Z",
       "s": 2.9
@@ -92,15 +88,19 @@
     {
       "t": "2026-10-11T01:52:05.101143Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-11T08:47:55.771627Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-10-09T16:11:00.087511Z",
   "event_detected_at": {
-    "four dead and thousands without power after hurricane isaias lashes us": {
+    "hurricane isaias kills four, leaves 650,000 without power in florida": {
       "detected_at": "2026-10-09T16:11:00.087511Z",
       "peak_at": "2026-10-10T22:30:19.697568Z",
       "peak_score_at": "2026-10-10T22:30:19.697568Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
       "peak_label": "Hurricane Isaias kills four in US landfall",
@@ -109,6 +109,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "'it was a terrible thing': panama declares state of emergency as quake aftershocks rattle communities": {
+      "detected_at": "2026-10-11T08:47:55.771627Z",
+      "peak_at": "2026-10-11T08:47:55.771627Z",
+      "peak_score_at": "2026-10-11T08:47:55.771627Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "neutral",
+      "title": "'It was a terrible thing': Panama declares state of emergency as quake aftershocks rattle communities",
+      "peak_label": "'It was a terrible thing': Panama declares state of",
+      "peak_summary": "Panama declares state of emergency after more than 100 aftershocks follow major earthquake. Distant event with no impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency"
+        }
+      ]
+    },
+    "icj judge navi pillay wins nobel peace prize for promoting international law": {
+      "detected_at": "2026-10-10T18:34:07.502086Z",
+      "peak_at": "2026-10-10T22:30:19.697568Z",
+      "peak_score_at": "2026-10-10T22:30:19.697568Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+      "peak_label": "ICJ judge Navi Pillay wins Nobel Peace Prize",
+      "peak_summary": "South African former ICJ judge wins Nobel for promoting international law; symbolic recognition with no direct impact on Portuguese daily life.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
         }
       ]
     },
@@ -125,22 +157,6 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake"
-        }
-      ]
-    },
-    "icj judge navi pillay wins nobel peace prize for promoting international law": {
-      "detected_at": "2026-10-10T18:34:07.502086Z",
-      "peak_at": "2026-10-10T22:30:19.697568Z",
-      "peak_score_at": "2026-10-10T22:30:19.697568Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "positive",
-      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
-      "peak_label": "ICJ judge Navi Pillay wins Nobel Peace Prize",
-      "peak_summary": "South African former ICJ judge wins Nobel for promoting international law; symbolic recognition with no direct impact on Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
         }
       ]
     },
@@ -162,8 +178,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Four dead and thousands without power after Hurricane Isaias lashes US",
-    "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
+    "Hurricane Isaias kills four, leaves 650,000 without power in Florida",
+    "'It was a terrible thing': Panama declares state of emergency as quake aftershocks rattle communities",
     "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law"
   ]
 }

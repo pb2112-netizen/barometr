@@ -1,33 +1,38 @@
 {
-  "global_score": 3.1,
-  "rationale": "Hurricane Isaias makes landfall on US Gulf Coast as first Atlantic hurricane of 2026 season, killing four; Panama 7.7 earthquake triggers Atlantic tsunami warnings affecting Portuguese waters; distant conflicts remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Hurricane Isaias continues as first Atlantic hurricane of 2026 season, making US landfall with four deaths — Atlantic storm system but no direct threat to Portugal; distant eastern European and Middle East conflicts remain background.",
   "top_events": [
     {
-      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-      "label": "Hurricane Isaias kills four on US Gulf Coast",
-      "summary": "First Atlantic hurricane of 2026 season made US landfall Friday, killing four and ripping roofs off buildings before weakening to post-tropical cyclone.",
-      "score": 3.1,
-      "sentiment": "negative",
+      "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida",
+      "label": "Hurricane Isaias kills four in US landfall",
+      "summary": "First Atlantic hurricane of 2026 season makes US Gulf Coast landfall, killing four and leaving 650,000 without power. Atlantic storm system but no direct threat to Portugal.",
+      "score": 3.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
         }
       ],
       "detected_at": "2026-10-09T16:11:00.087511Z"
     },
     {
-      "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
-      "label": "Panama 7.7 earthquake triggers Atlantic tsunami warnings",
-      "summary": "Major earthquake caused building and road collapses in Panama, triggering tsunami alerts across Atlantic basin including Portuguese waters.",
+      "title": "'It was a terrible thing': Panama declares state of emergency as quake aftershocks rattle communities",
+      "label": "'It was a terrible thing': Panama declares state of",
+      "summary": "Panama declares state of emergency after more than 100 aftershocks follow major earthquake. Distant event with no impact on Portugal.",
       "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -35,15 +40,15 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake"
+          "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency"
         }
       ],
-      "detected_at": "2026-10-11T01:52:05.101143Z"
+      "detected_at": "2026-10-11T08:47:55.771627Z"
     },
     {
       "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
       "label": "ICJ judge Navi Pillay wins Nobel Peace Prize",
-      "summary": "South African former ICJ judge recognized for work on international law, including chairing UN commission on Gaza. Symbolic recognition with no direct impact.",
+      "summary": "South African ICJ judge wins Nobel Peace Prize for work on international law and Gaza genocide commission. Symbolic recognition with no direct impact on Portugal.",
       "score": 2.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-11T01:52:05.101143Z",
+  "updated_at": "2026-10-11T08:47:55.771627Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Hurricane Isaias kills four in US landfall",
     "summary": "First Atlantic hurricane of 2026 season makes US landfall killing four and leaving thousands without power; distant event with no direct impact on Portugal.",
     "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-    "score": 3.2,
+    "score": 3.1,
     "sentiment": "negative",
     "detected_at": "2026-10-09T16:11:00.087511Z",
     "peak_at": "2026-10-10T22:30:19.697568Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-09T16:11:00.087511Z",
   "score_history": [
-    {
-      "t": "2026-10-09T02:08:24.754511Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-09T09:01:24.146971Z",
       "s": 2.9
@@ -124,6 +125,10 @@
     {
       "t": "2026-10-11T01:52:05.101143Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-11T08:47:55.771627Z",
+      "s": 3.0
     }
   ]
 }
