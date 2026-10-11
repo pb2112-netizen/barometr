@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-11T20:15:20.452904Z",
-  "ostatnia_ocena": 4.7,
+  "updated_at": "2026-10-11T23:40:59.727767Z",
+  "ostatnia_ocena": 5.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Trump calls for Zelensky replacement Ukraine leadership",
-      "poziom_bazowy": 4.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.1,
+      "cykle_bez_zmian": 0,
       "opis": "US president undermines Ukrainian leader; regional threat."
     },
     {
       "temat": "US trilateral Russia-Ukraine peace talks",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "US mediates negotiations to end war before winter."
     },
     {
       "temat": "Trump Putin call Russia plague lab biosecurity",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 5.1,
+      "cykle_bez_zmian": 0,
       "opis": "US-Russia dialogue over researcher death; regional concern."
     },
     {
       "temat": "Ukraine Yandex data center strikes tech escalation",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Ukraine hits Russian tech infrastructure; Yandex suspended."
     },
     {
       "temat": "Hormuz attacks intensify IRGC US blockade Iran war",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 2,
       "opis": "Gulf waterway tensions escalate; energy route threat."
     },
     {
       "temat": "Riyadh airport attack Saudi Arabia Houthis",
       "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 0,
       "opis": "Airport attack in Saudi capital; energy security concern."
     },
     {
       "temat": "Russia glide bomb Zaporizhzhia apartment 15 killed",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 5,
       "opis": "Glide bomb destroys apartment block; 15 dead including kids."
     },
     {
       "temat": "Gulf tanker strike Qatar projectiles casualties",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 15,
       "opis": "Oil tanker hit off Qatar; energy security concern for EU."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-09T20:53:04.420766Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-10T00:48:51.631091Z",
       "s": 3.1
@@ -92,15 +88,39 @@
     {
       "t": "2026-10-11T20:15:20.447708Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-10-11T23:40:59.720657Z",
+      "s": 5.1
     }
   ],
   "events_anchor_at": "2026-10-10T18:34:07.499940Z",
   "event_detected_at": {
+    "trump's 'energy ceasefire' claim welcomed by zelensky but russia silent": {
+      "detected_at": "2026-10-09T20:53:04.420766Z",
+      "peak_at": "2026-10-11T23:40:59.720657Z",
+      "peak_score_at": "2026-10-11T23:40:59.720657Z",
+      "peak_score": 5.1,
+      "peak_sentiment": "neutral",
+      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "peak_label": "Trump claims energy ceasefire for Ukraine war",
+      "peak_summary": "US president announces energy ceasefire claim between Ukraine and Russia. Zelensky supports but Moscow has not commented, leaving regional security outlook uncertain.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
+        }
+      ]
+    },
     "ukraine strikes yandex data centre in third attack on russian tech giant": {
       "detected_at": "2026-10-10T13:39:39.712004Z",
       "peak_at": "2026-10-11T15:39:03.989697Z",
       "peak_score_at": "2026-10-11T15:39:03.989697Z",
-      "peak_score": 5.0,
+      "peak_score": 4.9,
       "peak_sentiment": "neutral",
       "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
       "peak_label": "Ukraine hits Yandex center third time this week",
@@ -112,11 +132,11 @@
         }
       ]
     },
-    "saudi capital airport hit by second houthi strike in two days": {
+    "one killed, 11 injured in second houthi strike on riyadh airport in two days": {
       "detected_at": "2026-10-10T18:34:07.499940Z",
       "peak_at": "2026-10-11T01:52:05.099593Z",
       "peak_score_at": "2026-10-11T01:52:05.099593Z",
-      "peak_score": 5.3,
+      "peak_score": 5.2,
       "peak_sentiment": "negative",
       "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
       "peak_label": "Houthi attack on Riyadh airport kills twelve people",
@@ -129,26 +149,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/11-10-reported-latest-attack-on-riyadh-king-khalid-airport-houthis?traffic_source=rss"
-        }
-      ]
-    },
-    "republican senator says trump diesel agreement with russia may be illegal": {
-      "detected_at": "2026-10-09T20:53:04.420766Z",
-      "peak_at": "2026-10-10T22:30:19.696130Z",
-      "peak_score_at": "2026-10-09T20:53:04.420766Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "negative",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "peak_label": "Trump announces Russian diesel deal amid fuel crisis",
-      "peak_summary": "US purchases Russian diesel despite war, potentially affecting Black Sea region energy dynamics and weakening Ukraine's position.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss"
         }
       ]
     },
@@ -190,8 +190,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
     "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-    "Saudi capital airport hit by second Houthi strike in two days",
-    "Republican senator says Trump diesel agreement with Russia may be illegal"
+    "One killed, 11 injured in second Houthi strike on Riyadh airport in two days"
   ]
 }
