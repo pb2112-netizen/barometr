@@ -1,12 +1,12 @@
 {
-  "global_score": 5.6,
-  "rationale": "Assassination plot against PM Tusk remains the highest-impact event for Poland; other headlines are continuations or distant events with minimal direct impact on Polish daily life.",
+  "global_score": 3.6,
+  "rationale": "Continuation of known threats: Houthi airport strikes (Saudi response rhetoric), Trump-Russia diesel deal backlash (rhetoric, no new policy change), ongoing Ukraine war background; no qualitative new change affecting Poland directly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Poland detains man suspected of planning assassination of PM Tusk",
-      "label": "Poland detains suspect in Tusk assassination plot",
-      "summary": "Police detained a suspect after receiving credible information about planned attacks on PM Tusk and defense minister. Threat to national leadership continues.",
-      "score": 5.6,
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "label": "Saudi vows response to Houthi airport strikes",
+      "summary": "Saudi Arabia threatens retaliation after Houthi attacks killed 13 at Riyadh airport. Rhetoric only; no action yet. Indirect energy security concern for Poland.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -16,35 +16,16 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-11T15:39:03.988442Z"
-    },
-    {
-      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-      "label": "Trump proposes energy ceasefire Ukraine Russia",
-      "summary": "US president announces ceasefire proposal; Zelensky supports if Moscow agrees. No Russian response yet; outcome uncertain for regional security.",
-      "score": 4.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T20:53:04.418407Z"
+      "detected_at": "2026-10-12T15:20:10.668380Z"
     },
     {
       "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "label": "Trump diesel deal faces bipartisan backlash",
-      "summary": "Bipartisan criticism of US-Russia diesel deal announced before midterms. May affect EU energy markets and undermine sanctions against Russia.",
-      "score": 3.8,
+      "label": "Trump faces backlash over Russia diesel deal",
+      "summary": "Bipartisan criticism of US-Russia diesel deal, but no policy reversal confirmed. Rhetoric stage; indirect concern for EU energy dynamics and Russia revenue.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -58,14 +39,33 @@
         }
       ],
       "detected_at": "2026-10-12T05:54:21.315727Z"
+    },
+    {
+      "title": "Pupil arrested after two teachers shot at French school",
+      "label": "French school shooting: two teachers injured",
+      "summary": "14-year-old detained after shooting two teachers in France. Domestic security incident in neighboring EU country; no direct impact on Poland.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-12T15:20:10.668380Z"
     }
   ],
   "short_summary": "Poland foils assassination plot against PM Tusk",
-  "level_label": "Elevated",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-12T05:54:21.315727Z",
+  "updated_at": "2026-10-12T15:20:10.668380Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-10-11T15:39:03.988442Z",
   "score_history": [
-    {
-      "t": "2026-10-10T07:05:08.580501Z",
-      "s": 3.4
-    },
-    {
-      "t": "2026-10-10T13:39:39.709899Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-10T18:34:07.497775Z",
       "s": 4.8
@@ -124,6 +116,10 @@
     {
       "t": "2026-10-12T05:54:21.315727Z",
       "s": 5.6
+    },
+    {
+      "t": "2026-10-12T15:20:10.668380Z",
+      "s": 3.6
     }
   ]
 }
