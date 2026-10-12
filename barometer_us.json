@@ -1,52 +1,14 @@
 {
-  "global_score": 3.5,
-  "rationale": "Continuation of known events: Hurricane Isaias moving north (deaths, power outages), Trump-Russia diesel deal backlash (rhetoric, no policy change), Ilhan Omar home search (new but limited direct impact); no major new policy or disaster escalation.",
+  "global_score": 3.2,
+  "rationale": "Immigration agents search Rep. Omar's home in politically charged move; Hurricane Isaias threatens Gulf Coast with flooding; Middle East airport attacks raise oil supply concerns—all moderate domestic or indirect impacts.",
   "top_events": [
     {
-      "title": "Thousands without power in Florida and Alabama as Isaias moves north",
-      "label": "Hurricane Isaias: four deaths, power outages",
-      "summary": "Hurricane Isaias caused at least four deaths and widespread power outages in Florida and Alabama, moving north with flood warnings. Continuation of known storm impact.",
-      "score": 3.5,
+      "title": "Immigration agents search congresswoman Ilhan Omar's home",
+      "label": "Federal agents search Rep Omar home",
+      "summary": "Immigration enforcement searches home of outspoken Trump critic Rep. Ilhan Omar, who calls it political targeting—escalating domestic political tensions over executive power use.",
+      "score": 2.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages"
-        }
-      ],
-      "detected_at": "2026-10-11T20:15:20.450970Z"
-    },
-    {
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "label": "Trump faces backlash over Russia diesel deal",
-      "summary": "Bipartisan criticism of US-Russia diesel deal, but no policy reversal confirmed. Rhetoric stage; no confirmed change to fuel prices or policy yet.",
-      "score": 3.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-09T20:53:04.427137Z"
-    },
-    {
-      "title": "Immigration agents search Congresswoman Ilhan Omar's home",
-      "label": "Federal agents search Rep. Ilhan Omar's home",
-      "summary": "US authorities searched Democratic congresswoman Ilhan Omar's home as part of a criminal investigation. New development; limited direct impact on daily life.",
-      "score": 2.9,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC",
@@ -56,13 +18,47 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-12T15:20:10.672508Z"
+    },
+    {
+      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
+      "label": "Hurricane Isaias threatens Gulf Coast flooding",
+      "summary": "First Atlantic hurricane of 2026 season targets northern Gulf Coast with flash flood risk, threatening coastal communities and infrastructure in multiple states.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.091014Z"
+    },
+    {
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "label": "Saudi vows response to Houthi airport attacks",
+      "summary": "Saudi Arabia threatens major retaliation after Houthi strikes kill 13 at Riyadh airport, escalating Middle East tensions with potential impact on US oil markets.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-12T22:57:57.022838Z"
     }
   ],
   "short_summary": "Isaias becomes first Atlantic hurricane of 2026",
@@ -70,17 +66,17 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-12T15:20:10.672508Z",
+  "updated_at": "2026-10-12T22:57:57.022838Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Isaias becomes first Atlantic hurricane of 2026",
     "summary": "First Atlantic hurricane of season expected to make landfall on northern Gulf Coast with flash flood and river flooding risk. Confirmed threat to US coastal communities.",
     "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-    "score": 3.9,
+    "score": 3.8,
     "sentiment": "negative",
     "detected_at": "2026-10-09T16:11:00.091014Z",
-    "peak_at": "2026-10-11T15:39:03.992799Z",
+    "peak_at": "2026-10-12T22:57:57.022838Z",
     "source_links": [
       {
         "name": "Guardian",
@@ -90,14 +86,6 @@
   },
   "events_anchor_at": "2026-10-09T16:11:00.091014Z",
   "score_history": [
-    {
-      "t": "2026-10-10T18:34:07.505205Z",
-      "s": 3.8
-    },
-    {
-      "t": "2026-10-10T22:30:19.700586Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-11T01:52:05.104682Z",
       "s": 3.8
@@ -125,6 +113,10 @@
     {
       "t": "2026-10-12T15:20:10.672508Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-10-12T22:57:57.022838Z",
+      "s": 3.2
     }
   ]
 }

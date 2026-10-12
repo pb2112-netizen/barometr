@@ -1,52 +1,14 @@
 {
-  "global_score": 2.5,
-  "rationale": "Continuation of distant events: Saudi-Houthi rhetoric, Trump-Russia diesel backlash (no policy change), Hurricane Isaias moving north (US impact, not Iberia); no new qualitative change affecting Portugal directly. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.2,
+  "rationale": "Distant eastern European energy strikes and Middle East tensions have minimal direct impact on Portuguese daily life; French supermarket cyber attack is closest EU neighbor event but remains indirect.",
   "top_events": [
-    {
-      "title": "Thousands without power in Florida and Alabama as Isaias moves north",
-      "label": "Hurricane Isaias moves north: four deaths reported",
-      "summary": "Hurricane Isaias caused at least four deaths and power outages in Florida and Alabama, moving north with flood warnings. Distant US event; no direct impact on Portugal.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages"
-        }
-      ],
-      "detected_at": "2026-10-09T16:11:00.087511Z"
-    },
-    {
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "label": "Trump faces backlash over Russia diesel deal",
-      "summary": "Bipartisan criticism of US-Russia diesel deal, but no policy reversal confirmed. Rhetoric stage; distant concern for EU energy costs.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-11T20:15:20.448804Z"
-    },
     {
       "title": "Fridges in French supermarkets hit by cyber attack",
       "label": "Cyber attack spoils food in French supermarkets",
-      "summary": "Overnight hack targeted hundreds of French stores, spoiling fresh and frozen food worth millions. EU neighbor incident; no direct impact on Portugal.",
-      "score": 2.1,
+      "summary": "Overnight hack targets hundreds of French stores, spoiling millions of euros in fresh food—EU neighbor incident with no direct impact on Portuguese supply chains.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC"
@@ -58,6 +20,44 @@
         }
       ],
       "detected_at": "2026-10-12T15:20:10.670365Z"
+    },
+    {
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "label": "Saudi vows response to Houthi strikes",
+      "summary": "Saudi Arabia threatens retaliation after airport attacks kill 13, raising distant Middle East tensions with minimal immediate effect on Portuguese energy costs.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-12T22:57:57.019988Z"
+    },
+    {
+      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
+      "label": "Hurricane Isaias targets US Gulf Coast",
+      "summary": "First Atlantic hurricane of season threatens US Gulf with flash floods—distant event with no impact on Portuguese Atlantic coast or economy.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.087511Z"
     }
   ],
   "short_summary": "Hurricane Isaias kills four in US landfall",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-12T15:20:10.670365Z",
+  "updated_at": "2026-10-12T22:57:57.019988Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Hurricane Isaias kills four in US landfall",
     "summary": "First Atlantic hurricane of 2026 season makes US landfall killing four and leaving thousands without power; distant event with no direct impact on Portugal.",
     "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-    "score": 2.6,
+    "score": 2.5,
     "sentiment": "negative",
     "detected_at": "2026-10-09T16:11:00.087511Z",
     "peak_at": "2026-10-11T23:40:59.722608Z",
@@ -85,14 +85,6 @@
   },
   "events_anchor_at": "2026-10-09T16:11:00.087511Z",
   "score_history": [
-    {
-      "t": "2026-10-10T18:34:07.502086Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-10-10T22:30:19.697568Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-11T01:52:05.101143Z",
       "s": 3.1
@@ -120,6 +112,10 @@
     {
       "t": "2026-10-12T15:20:10.670365Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-10-12T22:57:57.019988Z",
+      "s": 2.2
     }
   ]
 }
