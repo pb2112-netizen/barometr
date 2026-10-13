@@ -1,50 +1,36 @@
 {
-  "global_score": 2.2,
-  "rationale": "Distant eastern European energy strikes and Middle East tensions have minimal direct impact on Portuguese daily life; French supermarket cyber attack is closest EU neighbor event but remains indirect.",
+  "global_score": 2.3,
+  "rationale": "French supermarket cyberattack represents tangible EU infrastructure vulnerability affecting neighbor; distant energy and military events remain background noise with minimal direct impact on Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Fridges in French supermarkets hit by cyber attack",
-      "label": "Cyber attack spoils food in French supermarkets",
-      "summary": "Overnight hack targets hundreds of French stores, spoiling millions of euros in fresh food—EU neighbor incident with no direct impact on Portuguese supply chains.",
+      "label": "Fridges in French supermarkets hit by cyber attack",
+      "summary": "Large-scale hack targeting French supermarket fridges causes fires and millions in food losses, demonstrating EU infrastructure vulnerability in neighboring country.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-sv-france-supermarket-fridges-targeted?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-12T15:20:10.670365Z"
     },
     {
-      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-      "label": "Saudi vows response to Houthi strikes",
-      "summary": "Saudi Arabia threatens retaliation after airport attacks kill 13, raising distant Middle East tensions with minimal immediate effect on Portuguese energy costs.",
-      "score": 2.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-12T22:57:57.019988Z"
-    },
-    {
       "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Hurricane Isaias targets US Gulf Coast",
-      "summary": "First Atlantic hurricane of season threatens US Gulf with flash floods—distant event with no impact on Portuguese Atlantic coast or economy.",
-      "score": 2.1,
+      "label": "Hurricane Isaias threatens US Gulf Coast",
+      "summary": "First Atlantic hurricane of season targets US Gulf Coast with flash flood risk; distant event with no direct impact on Portugal.",
+      "score": 2.3,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -58,6 +44,25 @@
         }
       ],
       "detected_at": "2026-10-09T16:11:00.087511Z"
+    },
+    {
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "label": "Saudi vows response to Houthi strikes",
+      "summary": "Continued Houthi attacks on Saudi airports represent distant Middle East escalation with only indirect energy price implications for Portugal.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-12T22:57:57.019988Z"
     }
   ],
   "short_summary": "Hurricane Isaias kills four in US landfall",
@@ -65,17 +70,17 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-12T22:57:57.019988Z",
+  "updated_at": "2026-10-13T03:32:56.028357Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Hurricane Isaias kills four in US landfall",
     "summary": "First Atlantic hurricane of 2026 season makes US landfall killing four and leaving thousands without power; distant event with no direct impact on Portugal.",
     "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-    "score": 2.5,
+    "score": 2.4,
     "sentiment": "negative",
     "detected_at": "2026-10-09T16:11:00.087511Z",
-    "peak_at": "2026-10-11T23:40:59.722608Z",
+    "peak_at": "2026-10-13T03:32:56.028357Z",
     "source_links": [
       {
         "name": "BBC",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-09T16:11:00.087511Z",
   "score_history": [
-    {
-      "t": "2026-10-11T01:52:05.101143Z",
-      "s": 3.1
-    },
     {
       "t": "2026-10-11T08:47:55.771627Z",
       "s": 3.0
@@ -116,6 +117,10 @@
     {
       "t": "2026-10-12T22:57:57.019988Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-10-13T03:32:56.028357Z",
+      "s": 2.3
     }
   ]
 }

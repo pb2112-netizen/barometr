@@ -1,12 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Immigration agents search Rep. Omar's home in politically charged move; Hurricane Isaias threatens Gulf Coast with flooding; Middle East airport attacks raise oil supply concerns—all moderate domestic or indirect impacts.",
+  "global_score": 3.1,
+  "rationale": "Federal search of congresswoman's home represents escalation in domestic political tensions; ongoing Houthi attacks on Saudi Arabia threaten oil market stability; Hurricane Isaias poses direct domestic threat to Gulf Coast. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Immigration agents search congresswoman Ilhan Omar's home",
       "label": "Federal agents search Rep Omar home",
-      "summary": "Immigration enforcement searches home of outspoken Trump critic Rep. Ilhan Omar, who calls it political targeting—escalating domestic political tensions over executive power use.",
-      "score": 2.8,
+      "summary": "Immigration agents search home of outspoken Trump critic congresswoman, escalating domestic political tensions and raising concerns about targeting of political opponents.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,28 +23,9 @@
       "detected_at": "2026-10-12T15:20:10.672508Z"
     },
     {
-      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Hurricane Isaias threatens Gulf Coast flooding",
-      "summary": "First Atlantic hurricane of 2026 season targets northern Gulf Coast with flash flood risk, threatening coastal communities and infrastructure in multiple states.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
-        }
-      ],
-      "detected_at": "2026-10-09T16:11:00.091014Z"
-    },
-    {
       "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
       "label": "Saudi vows response to Houthi airport attacks",
-      "summary": "Saudi Arabia threatens major retaliation after Houthi strikes kill 13 at Riyadh airport, escalating Middle East tensions with potential impact on US oil markets.",
+      "summary": "Third consecutive day of Houthi strikes on Riyadh airport with 13 killed threatens broader Middle East escalation and potential oil supply disruption.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -59,6 +40,30 @@
         }
       ],
       "detected_at": "2026-10-12T22:57:57.022838Z"
+    },
+    {
+      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
+      "label": "Hurricane Isaias threatens Gulf Coast landfall",
+      "summary": "First Atlantic hurricane of season approaches US northern Gulf Coast with flash flood risk, posing direct threat to coastal communities.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/12/two-deaths-reported-as-hurricane-simon-storm-rachel-batter-mexicos-coast?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-09T16:11:00.091014Z"
     }
   ],
   "short_summary": "Isaias becomes first Atlantic hurricane of 2026",
@@ -66,14 +71,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-12T22:57:57.022838Z",
+  "updated_at": "2026-10-13T03:32:56.030745Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Isaias becomes first Atlantic hurricane of 2026",
     "summary": "First Atlantic hurricane of season expected to make landfall on northern Gulf Coast with flash flood and river flooding risk. Confirmed threat to US coastal communities.",
     "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-    "score": 3.8,
+    "score": 3.7,
     "sentiment": "negative",
     "detected_at": "2026-10-09T16:11:00.091014Z",
     "peak_at": "2026-10-12T22:57:57.022838Z",
@@ -86,10 +91,6 @@
   },
   "events_anchor_at": "2026-10-09T16:11:00.091014Z",
   "score_history": [
-    {
-      "t": "2026-10-11T01:52:05.104682Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-11T08:47:55.774113Z",
       "s": 3.2
@@ -117,6 +118,10 @@
     {
       "t": "2026-10-12T22:57:57.022838Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-13T03:32:56.030745Z",
+      "s": 3.1
     }
   ]
 }

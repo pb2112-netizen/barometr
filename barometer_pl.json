@@ -1,14 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Russia continues energy strikes on Ukraine despite Trump ceasefire announcement—direct threat to regional stability and Poland's eastern border security; domestic sabotage arrests of Russia-linked suspects heighten internal security concerns. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.1,
+  "rationale": "New Russian strikes on Ukrainian energy sites despite Trump ceasefire announcement directly threaten regional stability and energy security; ongoing Houthi escalation in Saudi Arabia continues to pose energy supply risk. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
       "label": "Russia strikes Ukraine energy despite Trump ceasefire",
-      "summary": "Russia continues targeting Ukrainian energy infrastructure despite US-announced ceasefire, directly threatening regional stability on Poland's eastern border and undermining Western diplomatic efforts.",
+      "summary": "Russia continues attacking Ukrainian energy infrastructure despite US-announced ceasefire, directly threatening regional stability and Poland's energy security concerns.",
       "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,29 +22,10 @@
       "detected_at": "2026-10-09T20:53:04.418407Z"
     },
     {
-      "title": "Poland says two Turks arrested over Russia-linked Starlink station fire",
-      "label": "Poland arrests two in Russia-linked sabotage case",
-      "summary": "Polish authorities arrest two Turkish nationals in Germany for sabotage linked to Russia, escalating domestic security concerns over foreign interference on Polish soil.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-12T22:57:57.017140Z"
-    },
-    {
       "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-      "label": "Saudi vows response to Houthi airport attacks",
-      "summary": "Saudi Arabia threatens major retaliation after Houthi strikes kill 13 at Riyadh airport, raising Middle East tensions and potential energy supply disruption affecting Polish fuel costs.",
-      "score": 3.0,
+      "label": "Saudi vows response to Houthi airport strikes",
+      "summary": "Third consecutive day of Houthi attacks on Riyadh airport with 13 killed escalates Middle East tensions, threatening global energy supplies Poland depends on.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,41 +39,56 @@
         }
       ],
       "detected_at": "2026-10-12T15:20:10.668380Z"
+    },
+    {
+      "title": "Immigration agents search congresswoman Ilhan Omar's home",
+      "label": "US agents search Rep Omar home",
+      "summary": "Federal search of US congresswoman's home represents escalation in domestic political tensions within NATO's leading member.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-13T03:32:56.025658Z"
     }
   ],
-  "short_summary": "Second Houthi strike hits Riyadh airport",
+  "short_summary": "Trump announces energy ceasefire claim for Ukraine",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-12T22:57:57.017140Z",
+  "updated_at": "2026-10-13T03:32:56.025658Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Second Houthi strike hits Riyadh airport",
-    "summary": "Repeated attacks on Saudi capital's airport threaten Middle East stability and energy security, with potential spillover effects on EU oil prices and supply routes.",
-    "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-    "score": 4.8,
-    "sentiment": "negative",
-    "detected_at": "2026-10-11T23:40:59.719117Z",
-    "peak_at": "2026-10-11T23:40:59.719117Z",
+    "label": "Trump announces energy ceasefire claim for Ukraine",
+    "summary": "US president claims energy ceasefire agreement; Zelensky supports but Russia silent. Potential easing of eastern border threat if confirmed, but remains unverified rhetoric.",
+    "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+    "score": 4.2,
+    "sentiment": "neutral",
+    "detected_at": "2026-10-09T20:53:04.418407Z",
+    "peak_at": "2026-10-13T03:32:56.025658Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss"
       },
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-11T23:40:59.719117Z",
+  "events_anchor_at": "2026-10-09T20:53:04.418407Z",
   "score_history": [
-    {
-      "t": "2026-10-11T01:52:05.098103Z",
-      "s": 4.8
-    },
     {
       "t": "2026-10-11T08:47:55.769284Z",
       "s": 4.6
@@ -120,6 +116,10 @@
     {
       "t": "2026-10-12T22:57:57.017140Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-13T03:32:56.025658Z",
+      "s": 3.1
     }
   ]
 }
