@@ -1,36 +1,50 @@
 {
-  "global_score": 5.9,
-  "rationale": "Russia continues striking Ukrainian energy infrastructure despite Trump's ceasefire announcement, representing direct escalation and betrayal of diplomatic promises; US purchasing Russian diesel funds the aggressor during active war. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 5.0,
+  "rationale": "Former top general Syrskyi's first interview claiming Russia's offensive ability is broken is a significant new development in assessing the war's trajectory, though it represents analysis rather than confirmed battlefield change.",
   "top_events": [
     {
+      "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+      "label": "Ex-general Syrskyi says Russia offensive broken",
+      "summary": "Former top general Syrskyi gives first interview since removal, claims Russia's offensive capability is broken. Significant assessment of war trajectory from senior military figure.",
+      "score": 5.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-13T11:45:49.766995Z"
+    },
+    {
       "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-      "label": "Russia strikes six energy sites despite ceasefire",
-      "summary": "Russia continues attacking Ukrainian energy infrastructure despite Trump's ceasefire announcement, directly threatening winter survival and exposing diplomatic betrayal.",
+      "label": "Russia strikes six energy sites after ceasefire",
+      "summary": "Russia continues targeting energy infrastructure despite US-announced ceasefire. Ongoing threat to civilian infrastructure and winter survival.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC",
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-09T20:53:04.424957Z"
     },
     {
-      "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
-      "label": "Russia silent on Trump energy ceasefire proposal",
-      "summary": "Russia's refusal to acknowledge or commit to energy ceasefire while continuing strikes reveals diplomatic failure and ongoing threat to Ukrainian infrastructure.",
-      "score": 6.4,
+      "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+      "label": "Black Sea ship sunk by drone eleven missing",
+      "summary": "Merchant ship sunk in Black Sea drone attack with 11 crew missing. Regional escalation affecting maritime security near Ukraine.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -40,44 +54,25 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-12T22:57:57.021371Z"
-    },
-    {
-      "title": "Immigration agents search congresswoman Ilhan Omar's home",
-      "label": "US agents search Rep Omar home",
-      "summary": "Federal search of US congresswoman signals domestic political instability in Ukraine's key ally, potentially affecting future aid reliability.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-13T03:32:56.029515Z"
+      "detected_at": "2026-10-13T11:45:49.766995Z"
     }
   ],
   "short_summary": "Trump announces energy ceasefire claim for war",
   "level_label": "Elevated",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-13T03:32:56.029515Z",
+  "updated_at": "2026-10-13T11:45:49.766995Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Trump announces energy ceasefire claim for war",
     "summary": "US president claims energy infrastructure ceasefire agreement. Zelensky supports the proposal but Russia has not confirmed, leaving actual impact on daily attacks uncertain.",
     "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-    "score": 6.5,
+    "score": 6.4,
     "sentiment": "positive",
     "detected_at": "2026-10-09T20:53:04.424957Z",
     "peak_at": "2026-10-13T03:32:56.029515Z",
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-10-09T20:53:04.424957Z",
   "score_history": [
-    {
-      "t": "2026-10-11T08:47:55.772488Z",
-      "s": 4.0
-    },
     {
       "t": "2026-10-11T15:39:03.991785Z",
       "s": 6.0
@@ -125,6 +116,10 @@
     {
       "t": "2026-10-13T03:32:56.029515Z",
       "s": 5.9
+    },
+    {
+      "t": "2026-10-13T11:45:49.766995Z",
+      "s": 5.0
     }
   ]
 }
