@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-13T23:17:18.622084Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-10-14T01:56:31.766580Z",
+  "ostatnia_ocena": 3.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Russia Kyiv power plant ballistic missile no warning",
+      "poziom_bazowy": 4.9,
+      "cykle_bez_zmian": 1,
+      "opis": "Ballistic strikes on capital infrastructure; no ally."
+    },
+    {
+      "temat": "Germany Nord Stream trial Ukrainian accused sabotage",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Trial begins for Ukrainian accused of pipeline sabotage."
+    },
+    {
       "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 5,
       "opis": "US buys Russian diesel; funds Russia during war, major."
     },
     {
       "temat": "Ex-general Syrskyi Russia offensive broken assessment",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 3,
       "opis": "Former top general claims Russia offensive capability."
     },
     {
-      "temat": "Bulgaria Black Sea ship sunk drone attack regional",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
-      "opis": "Merchant ship sunk by drone; 11 missing; Black Sea threat."
-    },
-    {
       "temat": "Ukraine Yandex strikes third attack tech infrastructure",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 10,
       "opis": "Ukraine escalates tech strikes; Yandex suspended operations."
     },
     {
-      "temat": "US immigration agents search Rep Omar home ally instability",
-      "poziom_bazowy": 2.9,
+      "temat": "Bulgaria Black Sea ship sunk drone attack regional",
+      "poziom_bazowy": 3.1,
       "cykle_bez_zmian": 3,
+      "opis": "Merchant ship sunk by drone; 11 missing; Black Sea threat."
+    },
+    {
+      "temat": "US immigration agents search Rep Omar home ally instability",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "Federal search of congresswoman signals US political chaos."
     },
     {
       "temat": "Trump Putin call plague lab death diplomacy",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 17,
-      "opis": "US-Russia dialogue; potential diplomatic engagement."
-    },
-    {
-      "temat": "UK PM confirms Russia interfered Brexit vote",
       "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
-      "opis": "First public acknowledgment of Russian interference in."
-    },
-    {
-      "temat": "Russia large-scale strikes Pryluky apartment 22 killed",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 26,
-      "opis": "Major escalation: apartment building destroyed, 22 dead."
+      "cykle_bez_zmian": 18,
+      "opis": "US-Russia dialogue; potential diplomatic engagement."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-11T23:40:59.724208Z",
-      "s": 6.8
-    },
     {
       "t": "2026-10-12T05:54:21.321240Z",
       "s": 6.5
@@ -84,6 +80,10 @@
     {
       "t": "2026-10-13T23:17:18.615371Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-14T01:56:31.761265Z",
+      "s": 3.8
     }
   ],
   "events_anchor_at": "2026-10-12T22:57:57.021371Z",
@@ -101,6 +101,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "germany puts ukrainian on trial accused of blowing up nord stream pipelines": {
+      "detected_at": "2026-10-14T01:56:31.761265Z",
+      "peak_at": "2026-10-14T01:56:31.761265Z",
+      "peak_score_at": "2026-10-14T01:56:31.761265Z",
+      "peak_score": 3.8,
+      "peak_sentiment": "neutral",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "peak_label": "Germany tries Ukrainian for Nord Stream sabotage",
+      "peak_summary": "Trial begins in Germany for Ukrainian citizen accused of destroying Russia-Germany gas pipelines four years ago, potentially affecting Ukraine's international standing.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "israeli attacks kill one in gaza, wound journalists in occupied west bank": {
+      "detected_at": "2026-10-14T01:56:31.761265Z",
+      "peak_at": "2026-10-14T01:56:31.761265Z",
+      "peak_score_at": "2026-10-14T01:56:31.761265Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "Israeli attacks kill one in Gaza, wound journalists in occupied West Bank",
+      "peak_label": "Israeli strikes continue in Gaza West Bank",
+      "peak_summary": "Continued Israeli military operations in Gaza and West Bank a year into ceasefire have no direct impact on Ukraine's war situation.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/israeli-attacks-kill-one-in-gaza-wound-journalists-in-occupied-west-bank?traffic_source=rss"
         }
       ]
     },
@@ -239,7 +271,7 @@
   },
   "prev_top_event_titles": [
     "Russian strikes hit key power plant in Kyiv, Zelensky says",
-    "MI5 chief warns of threats to UK from Russia, Iran and AI",
-    "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot"
+    "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+    "Israeli attacks kill one in Gaza, wound journalists in occupied West Bank"
   ]
 }
