@@ -1,12 +1,31 @@
 {
-  "global_score": 3.1,
-  "rationale": "Extreme waves and flooding damage California coast infrastructure; direct domestic disaster affecting homes and boardwalks in Southern California.",
+  "global_score": 3.7,
+  "rationale": "US inflation rises unexpectedly driven by fuel costs; California coastal flooding damages infrastructure; other events remain routine or distant.",
   "top_events": [
     {
+      "title": "US inflation rises more than expected ahead of midterm elections",
+      "label": "US inflation jumps to 3.7 percent on fuel",
+      "summary": "Price increases accelerate to 3.7% driven by higher motor fuel costs, affecting household budgets and midterm election dynamics.",
+      "score": 3.7,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T13:42:47.438868Z"
+    },
+    {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "Extreme waves damage California coast infrastructure",
-      "summary": "Southern California coastal communities damaged by extreme waves; boardwalk destroyed in Long Beach, homes damaged. Direct domestic infrastructure impact.",
-      "score": 3.1,
+      "label": "Extreme waves destroy California coastal areas",
+      "summary": "Southern California communities damaged by intense waves destroying boardwalks and homes, continuing weekend coastal infrastructure damage.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,68 +41,49 @@
       "detected_at": "2026-10-13T23:17:18.617550Z"
     },
     {
-      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
-      "label": "Bank of America fined $1.2bn for money laundering",
-      "summary": "Second-largest US bank fined record amount for inadequately flagging transactions linked to Chinese money laundering networks. Major financial sector enforcement action.",
-      "score": 2.6,
+      "title": "Saudi employee charged with planting recording device in OpenAI office",
+      "label": "Saudi worker charged with spying on OpenAI",
+      "summary": "Prosecutors charge employee with planting hidden recording device in executive conference room, raising corporate espionage concerns.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-14T01:56:31.762767Z"
-    },
-    {
-      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-      "label": "Isaias becomes first Atlantic hurricane of 2026",
-      "summary": "First Atlantic hurricane of season expected to make landfall on northern Gulf coast with flash flood risk. Continuation of seasonal hurricane threat.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
-        }
-      ],
-      "detected_at": "2026-10-09T16:11:00.091014Z"
+      "detected_at": "2026-10-14T13:42:47.438868Z"
     }
   ],
-  "short_summary": "Isaias becomes first Atlantic hurricane of 2026",
+  "short_summary": "US inflation jumps to 3.7 percent on fuel",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-14T07:36:29.489052Z",
+  "updated_at": "2026-10-14T13:42:47.438868Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Isaias becomes first Atlantic hurricane of 2026",
-    "summary": "First Atlantic hurricane of season expected to make landfall on northern Gulf Coast with flash flood and river flooding risk. Confirmed threat to US coastal communities.",
-    "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
-    "score": 3.2,
+    "label": "US inflation jumps to 3.7 percent on fuel",
+    "summary": "Price increases accelerate to 3.7% driven by higher motor fuel costs, affecting household budgets and midterm election dynamics.",
+    "title": "US inflation rises more than expected ahead of midterm elections",
+    "score": 3.7,
     "sentiment": "negative",
-    "detected_at": "2026-10-09T16:11:00.091014Z",
-    "peak_at": "2026-10-13T23:17:18.617550Z",
+    "detected_at": "2026-10-14T13:42:47.438868Z",
+    "peak_at": "2026-10-14T13:42:47.438868Z",
     "source_links": [
       {
-        "name": "Guardian",
-        "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-09T16:11:00.091014Z",
+  "events_anchor_at": "2026-10-14T13:42:47.438868Z",
   "score_history": [
     {
       "t": "2026-10-12T15:20:10.672508Z",
@@ -116,6 +116,10 @@
     {
       "t": "2026-10-14T07:36:29.489052Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-14T13:42:47.438868Z",
+      "s": 3.7
     }
   ]
 }

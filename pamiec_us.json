@@ -1,55 +1,55 @@
 {
-  "updated_at": "2026-10-14T07:36:29.494354Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-10-14T13:42:47.443937Z",
+  "ostatnia_ocena": 3.7,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Hurricane Isaias 2026 Gulf Coast landfall",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 11,
-      "opis": "Category 3 storm threatens US Gulf Coast; flood risk."
-    },
-    {
       "temat": "California coast extreme waves flooding infrastructure",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Southern California damaged by extreme waves; boardwalk."
     },
     {
-      "temat": "Bank of America fined $1.2bn money laundering sanctions",
-      "poziom_bazowy": 2.6,
+      "temat": "US inflation rises 3.7 percent fuel costs midterms",
+      "poziom_bazowy": 3.7,
       "cykle_bez_zmian": 0,
-      "opis": "Record penalties for second-largest US bank violations."
+      "opis": "Price increases accelerate on fuel; household budget impact."
+    },
+    {
+      "temat": "Saudi employee OpenAI spying recording device charged",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "Corporate espionage case at major AI company; security."
     },
     {
       "temat": "Trump Russia diesel deal US fuel prices policy shift",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 10,
       "opis": "US purchases Russian diesel; major policy shift amid fuel."
     },
     {
+      "temat": "Bank of America fined $1.2bn money laundering sanctions",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 1,
+      "opis": "Record penalties for second-largest US bank violations."
+    },
+    {
       "temat": "Riyadh airport attack Houthis 12 killed Saudi Arabia",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 10,
       "opis": "Major attack Saudi capital; Middle East tensions, oil risk."
     },
     {
+      "temat": "Hurricane Isaias 2026 Gulf Coast landfall",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 12,
+      "opis": "Category 3 storm threatens US Gulf Coast; flood risk."
+    },
+    {
       "temat": "Trump ousts Guilfoyle Greece ambassador corruption",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
-      "opis": "President removes ambassador following corruption."
-    },
-    {
-      "temat": "Rep. Ilhan Omar home searched federal investigation",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
-      "opis": "Federal agents search congresswoman's home; investigation."
-    },
-    {
-      "temat": "Six Flags rollercoaster fatal accident Georgia",
       "poziom_bazowy": 2.1,
       "cykle_bez_zmian": 4,
-      "opis": "One dead, several injured in amusement park accident."
+      "opis": "President removes ambassador following corruption."
     }
   ],
   "score_history": [
@@ -84,15 +84,35 @@
     {
       "t": "2026-10-14T07:36:29.489052Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-14T13:42:47.438868Z",
+      "s": 3.7
     }
   ],
-  "events_anchor_at": "2026-10-09T16:11:00.091014Z",
+  "events_anchor_at": "2026-10-14T13:42:47.438868Z",
   "event_detected_at": {
+    "us inflation rises more than expected ahead of midterm elections": {
+      "detected_at": "2026-10-14T13:42:47.438868Z",
+      "peak_at": "2026-10-14T13:42:47.438868Z",
+      "peak_score_at": "2026-10-14T13:42:47.438868Z",
+      "peak_score": 3.7,
+      "peak_sentiment": "negative",
+      "title": "US inflation rises more than expected ahead of midterm elections",
+      "peak_label": "US inflation jumps to 3.7 percent on fuel",
+      "peak_summary": "Price increases accelerate to 3.7% driven by higher motor fuel costs, affecting household budgets and midterm election dynamics.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "intense waves and floods batter california waterfront homes and boardwalks": {
       "detected_at": "2026-10-13T23:17:18.617550Z",
       "peak_at": "2026-10-14T01:56:31.762767Z",
       "peak_score_at": "2026-10-14T01:56:31.762767Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
       "peak_label": "California coast hit by extreme waves",
@@ -101,6 +121,22 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods"
+        }
+      ]
+    },
+    "saudi employee charged with planting recording device in openai office": {
+      "detected_at": "2026-10-14T13:42:47.438868Z",
+      "peak_at": "2026-10-14T13:42:47.438868Z",
+      "peak_score_at": "2026-10-14T13:42:47.438868Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Saudi employee charged with planting recording device in OpenAI office",
+      "peak_label": "Saudi worker charged with spying on OpenAI",
+      "peak_summary": "Prosecutors charge employee with planting hidden recording device in executive conference room, raising corporate espionage concerns.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -171,47 +207,11 @@
           "url": "https://www.aljazeera.com/news/2026/10/13/cornell-suspends-fraternity-parties-after-alleged-campus-gang-rape-case?traffic_source=rss"
         }
       ]
-    },
-    "one dead and several hurt after rollercoaster incident at six flags": {
-      "detected_at": "2026-10-13T11:45:49.769168Z",
-      "peak_at": "2026-10-13T11:45:49.769168Z",
-      "peak_score_at": "2026-10-13T11:45:49.769168Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "One dead and several hurt after rollercoaster incident at Six Flags",
-      "peak_label": "Six Flags rollercoaster incident kills one",
-      "peak_summary": "Fatal accident at Georgia amusement park with several injured. Six Flags temporarily closes nine similar rollercoasters.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss"
-        }
-      ]
-    },
-    "us emergency call records reveal confusion after failed execution of christa pike": {
-      "detected_at": "2026-10-13T11:45:49.769168Z",
-      "peak_at": "2026-10-13T11:45:49.769168Z",
-      "peak_score_at": "2026-10-13T11:45:49.769168Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "US emergency call records reveal confusion after failed execution of Christa Pike",
-      "peak_label": "Failed execution of Christa Pike causes confusion",
-      "peak_summary": "Emergency records show confusion after two doses of lethal injection failed to kill Pike. Ultimately taken to hospital.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1exg6qjdz3o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US inflation rises more than expected ahead of midterm elections",
     "Intense waves and floods batter California waterfront homes and boardwalks",
-    "Bank of America hit with $1.2bn fine for money laundering failings",
-    "Isaias strengthens to become first Atlantic hurricane of 2026 season"
+    "Saudi employee charged with planting recording device in OpenAI office"
   ]
 }

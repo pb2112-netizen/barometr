@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Extreme waves and flooding damage California coast infrastructure; climate event with indirect Atlantic weather pattern relevance for Iberian peninsula. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "California coastal flooding shows climate infrastructure vulnerability; US inflation signals continued global energy costs; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "Extreme waves damage California coast infrastructure",
-      "summary": "Southern California coastal communities damaged by extreme waves; boardwalk destroyed in Long Beach, homes damaged. Climate event with potential Atlantic pattern implications.",
+      "label": "Extreme waves destroy California coastal infrastructure",
+      "summary": "Southern California communities damaged by intense waves destroying boardwalks and homes, illustrating coastal climate vulnerability.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,11 +22,30 @@
       "detected_at": "2026-10-13T23:17:18.613828Z"
     },
     {
-      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "label": "Pope Leo diagnosed with lung cancer after surgery",
-      "summary": "Pope Leo had successful surgery to remove lower lobe of right lung after cancer diagnosis. Symbolic concern for Catholic-majority Portugal.",
-      "score": 2.0,
+      "title": "US inflation rises more than expected ahead of midterm elections",
+      "label": "US inflation climbs to 3.7 percent unexpectedly",
+      "summary": "Higher fuel costs drive US price increases, signaling continued global energy market pressure affecting Portuguese import costs.",
+      "score": 2.8,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T13:42:47.434837Z"
+    },
+    {
+      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+      "label": "Pope Leo undergoes successful lung cancer surgery",
+      "summary": "Pontiff had peaceful night after surgery to remove lung lobe, continuing health concerns for Catholic leader.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
@@ -39,51 +58,32 @@
         }
       ],
       "detected_at": "2026-10-13T23:17:18.613828Z"
-    },
-    {
-      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
-      "label": "Bank of America fined $1.2bn for money laundering",
-      "summary": "Second-largest US bank fined for inadequately flagging transactions linked to Chinese money laundering networks. Distant financial sector event.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T07:36:29.485724Z"
     }
   ],
-  "short_summary": "Super El Niño strengthens to unprecedented levels",
+  "short_summary": "US inflation climbs to 3.7 percent unexpectedly",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-14T07:36:29.485724Z",
+  "updated_at": "2026-10-14T13:42:47.434837Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Super El Niño strengthens to unprecedented levels",
-    "summary": "El Niño continues strengthening with key measures in record territory. Potential for indirect climate impacts on Portugal through Atlantic weather patterns.",
-    "title": "Super El Niño sets another record as it strengthens to 'unprecedented levels'",
-    "score": 2.5,
+    "label": "US inflation climbs to 3.7 percent unexpectedly",
+    "summary": "Higher fuel costs drive US price increases, signaling continued global energy market pressure affecting Portuguese import costs.",
+    "title": "US inflation rises more than expected ahead of midterm elections",
+    "score": 2.8,
     "sentiment": "negative",
-    "detected_at": "2026-10-13T11:45:49.764923Z",
-    "peak_at": "2026-10-13T11:45:49.764923Z",
+    "detected_at": "2026-10-14T13:42:47.434837Z",
+    "peak_at": "2026-10-14T13:42:47.434837Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-13T11:45:49.764923Z",
+  "events_anchor_at": "2026-10-14T13:42:47.434837Z",
   "score_history": [
     {
       "t": "2026-10-12T15:20:10.670365Z",
@@ -115,6 +115,10 @@
     },
     {
       "t": "2026-10-14T07:36:29.485724Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-10-14T13:42:47.434837Z",
       "s": 2.0
     }
   ]
