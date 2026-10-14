@@ -1,31 +1,60 @@
 {
-  "global_score": 4.5,
-  "rationale": "Starlink restrictions directly degrade Ukraine's drone-guided defense capabilities against Russian targets; Nord Stream trial begins; inflation affects aid sustainability. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.3,
+  "rationale": "Starlink restrictions directly degrade front-line defense capability; serious operational impact on Ukraine's ability to counter Russian attacks. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-      "label": "Starlink curbs cripple Ukraine drone operations",
-      "summary": "Musk's system restrictions severely limit Ukraine's ability to guide drones to Russian targets, directly weakening front-line defense capabilities.",
+      "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "label": "Starlink curbs limit Ukraine drone operations",
+      "summary": "Musk's system restrictions directly reduce Ukraine's ability to guide drones to Russian targets and protect airspace; major defense degradation.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-14T13:42:47.436720Z"
     },
     {
       "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "label": "Ukrainian faces Nord Stream sabotage trial",
-      "summary": "Ukrainian defendant appears in German court over pipeline destruction, raising questions about covert operations and Western legal exposure.",
-      "score": 4.5,
+      "label": "Ukrainian on trial for Nord Stream sabotage",
+      "summary": "Ukrainian accused of destroying Russia-Germany gas pipelines appears in German court; major legal and diplomatic concern for Ukraine.",
+      "score": 4.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/2026/10/14/aje-onl-pp-nord-stream-141125?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T01:56:31.761265Z"
+    },
+    {
+      "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "label": "Container ship sinks in Strait of Hormuz",
+      "summary": "Singapore-flagged vessel hit by projectile and sinks; crew evacuated. Distant shipping incident with no direct Ukraine impact.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -35,37 +64,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-14T01:56:31.761265Z"
-    },
-    {
-      "title": "US inflation rises more than expected ahead of midterm elections",
-      "label": "US inflation climbs to 3.7 percent on fuel",
-      "summary": "Higher fuel costs drive US price increases, potentially affecting Western aid budgets and economic support for Ukraine.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T13:42:47.436720Z"
+      "detected_at": "2026-10-14T18:37:28.127804Z"
     }
   ],
   "short_summary": "Ukrainian faces Nord Stream sabotage trial",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-14T13:42:47.436720Z",
+  "updated_at": "2026-10-14T18:37:28.127804Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-10-14T01:56:31.761265Z",
   "score_history": [
-    {
-      "t": "2026-10-12T15:20:10.671387Z",
-      "s": 6.2
-    },
     {
       "t": "2026-10-12T22:57:57.021371Z",
       "s": 4.8
@@ -120,6 +126,10 @@
     {
       "t": "2026-10-14T13:42:47.436720Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-10-14T18:37:28.127804Z",
+      "s": 4.3
     }
   ]
 }

@@ -1,33 +1,62 @@
 {
-  "global_score": 4.1,
-  "rationale": "Starlink restrictions weaken Ukraine's defense capabilities near Romania's border; Nord Stream trial continues; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Starlink restrictions weaken Ukraine defense capability near Romania's border; direct regional security concern. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-      "label": "Starlink curbs weaken Ukraine drone capabilities",
-      "summary": "Restrictions on Musk's system limit Ukraine's ability to guide drones against Russian targets, reducing defensive strength near Romania's border.",
+      "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "label": "Starlink curbs limit Ukraine drone operations",
+      "summary": "System restrictions reduce Ukraine's defense capability against Russian targets, raising concern for Romania's neighbor border security.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-14T13:42:47.433385Z"
     },
     {
       "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "label": "Nord Stream sabotage trial opens in Germany",
-      "summary": "Ukrainian defendant faces German court over pipeline destruction, continuing legal proceedings with regional energy implications.",
-      "score": 4.1,
+      "label": "Nord Stream sabotage trial begins in Germany",
+      "summary": "Ukrainian accused of destroying Russia-Germany gas pipelines appears in court; ongoing energy security concern for EU member Romania.",
+      "score": 3.9,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/2026/10/14/aje-onl-pp-nord-stream-141125?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T01:56:31.758052Z"
+    },
+    {
+      "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "label": "Container ship sinks in Strait of Hormuz",
+      "summary": "Singapore-flagged vessel hit by projectile and sinks; crew evacuated safely. Indirect concern for global shipping and energy routes.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,29 +64,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-14T01:56:31.758052Z"
-    },
-    {
-      "title": "US inflation rises more than expected ahead of midterm elections",
-      "label": "US inflation jumps to 3.7 percent on fuel",
-      "summary": "Higher fuel costs drive US price increases, signaling continued global energy market pressure affecting Romanian import costs.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T13:42:47.433385Z"
+      "detected_at": "2026-10-14T18:37:28.123530Z"
     }
   ],
   "short_summary": "Ex-general: Russia offensive broken",
@@ -65,7 +75,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-14T13:42:47.433385Z",
+  "updated_at": "2026-10-14T18:37:28.123530Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-10-13T11:45:49.762788Z",
   "score_history": [
-    {
-      "t": "2026-10-12T15:20:10.669242Z",
-      "s": 3.6
-    },
     {
       "t": "2026-10-12T22:57:57.018616Z",
       "s": 3.1
@@ -120,6 +126,10 @@
     {
       "t": "2026-10-14T13:42:47.433385Z",
       "s": 4.1
+    },
+    {
+      "t": "2026-10-14T18:37:28.123530Z",
+      "s": 3.9
     }
   ]
 }

@@ -1,11 +1,30 @@
 {
-  "global_score": 2.0,
-  "rationale": "California coastal flooding shows climate infrastructure vulnerability; US inflation signals continued global energy costs; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.2,
+  "rationale": "US inflation rise affects broader EU economic outlook; indirect cost-of-living concern for Portugal.",
   "top_events": [
     {
+      "title": "US inflation rises more than expected - here's what is happening with prices",
+      "label": "US inflation rises to 3.7 percent",
+      "summary": "Price increases accelerate in major economy, driven by fuel costs; indirect impact on EU-wide economic stability and cost of living.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T13:42:47.434837Z"
+    },
+    {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "Extreme waves destroy California coastal infrastructure",
-      "summary": "Southern California communities damaged by intense waves destroying boardwalks and homes, illustrating coastal climate vulnerability.",
+      "label": "California coast hit by extreme waves",
+      "summary": "Southern California communities damaged by intense waves; boardwalk destroyed. Distant climate event with no direct Portugal impact.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,60 +41,41 @@
       "detected_at": "2026-10-13T23:17:18.613828Z"
     },
     {
-      "title": "US inflation rises more than expected ahead of midterm elections",
-      "label": "US inflation climbs to 3.7 percent unexpectedly",
-      "summary": "Higher fuel costs drive US price increases, signaling continued global energy market pressure affecting Portuguese import costs.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T13:42:47.434837Z"
-    },
-    {
-      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "label": "Pope Leo undergoes successful lung cancer surgery",
-      "summary": "Pontiff had peaceful night after surgery to remove lung lobe, continuing health concerns for Catholic leader.",
+      "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
+      "label": "Isaias becomes first Atlantic hurricane 2026",
+      "summary": "Storm expected to hit US Gulf coast with flooding risk. Atlantic weather system with potential indirect concern for Iberia.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "Guardian"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss"
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026"
         }
       ],
-      "detected_at": "2026-10-13T23:17:18.613828Z"
+      "detected_at": "2026-10-14T18:37:28.125708Z"
     }
   ],
-  "short_summary": "US inflation climbs to 3.7 percent unexpectedly",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "US inflation rises to 3.7 percent",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-14T13:42:47.434837Z",
+  "updated_at": "2026-10-14T18:37:28.125708Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "US inflation climbs to 3.7 percent unexpectedly",
-    "summary": "Higher fuel costs drive US price increases, signaling continued global energy market pressure affecting Portuguese import costs.",
-    "title": "US inflation rises more than expected ahead of midterm elections",
-    "score": 2.8,
+    "label": "US inflation rises to 3.7 percent",
+    "summary": "Price increases accelerate in major economy, driven by fuel costs; indirect impact on EU-wide economic stability and cost of living.",
+    "title": "US inflation rises more than expected - here's what is happening with prices",
+    "score": 3.2,
     "sentiment": "negative",
     "detected_at": "2026-10-14T13:42:47.434837Z",
-    "peak_at": "2026-10-14T13:42:47.434837Z",
+    "peak_at": "2026-10-14T18:37:28.125708Z",
     "source_links": [
       {
         "name": "BBC",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-14T13:42:47.434837Z",
   "score_history": [
-    {
-      "t": "2026-10-12T15:20:10.670365Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-12T22:57:57.019988Z",
       "s": 2.2
@@ -120,6 +116,10 @@
     {
       "t": "2026-10-14T13:42:47.434837Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-10-14T18:37:28.125708Z",
+      "s": 3.2
     }
   ]
 }
