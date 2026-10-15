@@ -1,11 +1,11 @@
 {
-  "global_score": 3.2,
-  "rationale": "Zelensky's announcement to resume strikes on Russian energy infrastructure represents significant escalation decision affecting war strategy and Russian economic targets. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.1,
+  "rationale": "Ukraine announces resumption of strikes on Russian energy infrastructure after pause, representing new phase of offensive operations against enemy targets. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "label": "Zelensky announces resumption of Russian energy strikes",
-      "summary": "President Zelensky declares end to pause on striking Russian energy sites following fresh Russian attacks. Major strategic shift in targeting Russian infrastructure.",
+      "label": "Ukraine resumes strikes on Russian energy sites",
+      "summary": "President Zelensky announces end to pause on striking Russian energy infrastructure, with Russia reporting new refinery attack. New phase of offensive operations targeting enemy economic capacity.",
       "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -23,19 +23,24 @@
     },
     {
       "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-      "label": "Tanker attacked by drone in Black Sea",
-      "summary": "Seven crew missing after drone strike on tanker off Romania. Latest Black Sea attack demonstrates ongoing maritime threat in regional waters.",
-      "score": 3.2,
+      "label": "Drone attack on tanker off Romania coast",
+      "summary": "Seven crew missing after drone strike on chemical tanker in Black Sea near Romania. Regional maritime conflict escalation affecting commercial shipping.",
+      "score": 3.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-15T13:24:21.089284Z"
@@ -43,11 +48,11 @@
     {
       "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
       "label": "Trump cancels execution livestream plan",
-      "summary": "US president cancels planned livestream of military execution. Domestic US policy decision with no direct impact on Ukraine war effort.",
-      "score": 1.8,
+      "summary": "US president reverses decision to broadcast military execution. Signals continued unpredictability in key ally leadership with potential implications for aid policy.",
+      "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-15T18:16:51.359555Z",
+  "updated_at": "2026-10-15T21:26:41.923305Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-15T13:24:21.089284Z",
   "score_history": [
-    {
-      "t": "2026-10-13T19:15:36.715651Z",
-      "s": 4.7
-    },
     {
       "t": "2026-10-13T23:17:18.615371Z",
       "s": 3.0
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-15T18:16:51.359555Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-15T21:26:41.923305Z",
+      "s": 3.1
     }
   ]
 }
