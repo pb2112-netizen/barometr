@@ -1,33 +1,14 @@
 {
-  "global_score": 3.4,
-  "rationale": "US inflation rises more than expected driven by fuel costs, continuing to affect household budgets; Netflix job cuts add minor employment concern.",
+  "global_score": 2.7,
+  "rationale": "Inflation remains elevated at 3.7% driven by fuel costs, continuing to affect household budgets; other events are routine or distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US inflation rises more than expected - here's what is happening with prices",
-      "label": "US inflation rises to 3.7 percent on fuel",
-      "summary": "Price increases accelerate to 3.7% in year to September, driven by higher motor fuel costs, continuing to affect household budgets.",
-      "score": 3.4,
+      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+      "label": "Netflix cuts 1,000 jobs worldwide",
+      "summary": "Streaming giant eliminates 6% of workforce, signaling tech sector weakness and potential broader employment concerns.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T13:42:47.438868Z"
-    },
-    {
-      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "label": "Netflix cuts 1,000 jobs in workforce reduction",
-      "summary": "Streaming giant eliminates around 6% of total workforce worldwide in steepest cuts since 2022, affecting employment in tech sector.",
-      "score": 2.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -41,10 +22,29 @@
       "detected_at": "2026-10-14T18:37:28.129868Z"
     },
     {
+      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "label": "Generals oppose livestreamed military execution",
+      "summary": "72 former officers urge Pentagon to cancel livestream of Nidal Hasan execution, citing military honor concerns.",
+      "score": 2.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-15T07:24:23.886136Z"
+    },
+    {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "California coast hit by extreme waves flooding",
-      "summary": "Southern California coastal communities damaged by extreme waves over the weekend, destroying boardwalk in Long Beach and damaging homes.",
-      "score": 2.7,
+      "label": "California coast hit by extreme waves",
+      "summary": "Southern California communities damaged by weekend flooding; boardwalk destroyed in Long Beach, homes damaged.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -61,11 +61,11 @@
     }
   ],
   "short_summary": "US inflation jumps to 3.7 percent on fuel",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-15T01:27:43.219993Z",
+  "updated_at": "2026-10-15T07:24:23.886136Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-14T13:42:47.438868Z",
   "score_history": [
-    {
-      "t": "2026-10-13T03:32:56.030745Z",
-      "s": 3.1
-    },
     {
       "t": "2026-10-13T11:45:49.769168Z",
       "s": 3.0
@@ -124,6 +120,10 @@
     {
       "t": "2026-10-15T01:27:43.219993Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-15T07:24:23.886136Z",
+      "s": 2.7
     }
   ]
 }
