@@ -1,50 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Inflation remains elevated at 3.7% driven by fuel costs, continuing to affect household budgets; other events are routine or distant. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "California coastal flooding continues as background; White House press secretary credentials debate is domestic noise without policy impact.",
   "top_events": [
     {
-      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "label": "Netflix cuts 1,000 jobs worldwide",
-      "summary": "Streaming giant eliminates 6% of workforce, signaling tech sector weakness and potential broader employment concerns.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T18:37:28.129868Z"
-    },
-    {
-      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
-      "label": "Generals oppose livestreamed military execution",
-      "summary": "72 former officers urge Pentagon to cancel livestream of Nidal Hasan execution, citing military honor concerns.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-15T07:24:23.886136Z"
-    },
-    {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "California coast hit by extreme waves",
-      "summary": "Southern California communities damaged by weekend flooding; boardwalk destroyed in Long Beach, homes damaged.",
-      "score": 2.6,
+      "label": "California coast damaged by extreme waves",
+      "summary": "Southern California communities damaged by weekend flooding and extreme waves; continuation of coastal infrastructure threat.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -58,14 +20,52 @@
         }
       ],
       "detected_at": "2026-10-13T23:17:18.617550Z"
+    },
+    {
+      "title": "White House defends new press secretary over her legal credentials",
+      "label": "White House defends press secretary credentials",
+      "summary": "Katie Zacharia not registered to legal bar in any state where she lived; personnel debate without policy impact.",
+      "score": 1.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-15T13:24:21.090042Z"
+    },
+    {
+      "title": "Obama says drift towards extremism 'not inevitable'",
+      "label": "Obama addresses extremism at major venue",
+      "summary": "Former president speaks to 12,000 on global challenges; rhetoric without policy action or immediate impact.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crwyd7vq3xw1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-15T13:24:21.090042Z"
     }
   ],
   "short_summary": "US inflation jumps to 3.7 percent on fuel",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-15T07:24:23.886136Z",
+  "updated_at": "2026-10-15T13:24:21.090042Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-14T13:42:47.438868Z",
   "score_history": [
-    {
-      "t": "2026-10-13T11:45:49.769168Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-13T19:15:36.717879Z",
       "s": 2.9
@@ -124,6 +120,10 @@
     {
       "t": "2026-10-15T07:24:23.886136Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-15T13:24:21.090042Z",
+      "s": 2.5
     }
   ]
 }

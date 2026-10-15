@@ -1,51 +1,37 @@
 {
-  "global_score": 3.1,
-  "rationale": "G20 meeting signals energy price pressure from Iran conflict, indirectly affecting EU economy and Portuguese cost of living; other events remain distant.",
+  "global_score": 2.9,
+  "rationale": "Brazil's shorter working week affects major Portuguese-speaking partner economy; California flooding continues as background climate concern.",
   "top_events": [
     {
-      "title": "G20 finance ministers, central bankers gather amid fallout from Iran war",
-      "label": "G20 meets as Iran war drives energy prices",
-      "summary": "Officials meet in Thailand as conflict pushes energy costs higher, indirectly affecting EU economy and Portuguese household budgets.",
-      "score": 3.2,
-      "sentiment": "negative",
+      "title": "Brazil's Congress approves shorter working week in win for Lula",
+      "label": "Brazil approves 40-hour work week reform",
+      "summary": "Brazil cuts work week to 40 hours ahead of presidential runoff; major labor reform in key Portuguese-speaking partner economy.",
+      "score": 2.9,
+      "sentiment": "positive",
       "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-15T07:24:23.883160Z"
-    },
-    {
-      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "label": "Netflix cuts 1,000 jobs worldwide",
-      "summary": "Streaming giant eliminates 6% of workforce; minor signal of tech sector weakness with indirect EU employment concern.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
         }
       ],
-      "detected_at": "2026-10-14T22:18:07.872661Z"
+      "detected_at": "2026-10-15T13:24:21.088475Z"
     },
     {
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "California coast hit by extreme waves",
-      "summary": "Southern California communities damaged by weekend flooding; distant event with no direct impact on Portugal.",
+      "label": "California coast damaged by extreme waves",
+      "summary": "Southern California communities damaged by weekend flooding and extreme waves; ongoing climate-driven coastal threat pattern.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -58,16 +44,35 @@
         }
       ],
       "detected_at": "2026-10-13T23:17:18.613828Z"
+    },
+    {
+      "title": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+      "label": "Istanbul hit by record rainfall flooding",
+      "summary": "Two dead in Istanbul after heaviest rainfall in 84 years; extreme weather event in Mediterranean region.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-15T13:24:21.088475Z"
     }
   ],
   "short_summary": "G20 meets as Iran war drives energy prices",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-15T07:24:23.883160Z",
+  "updated_at": "2026-10-15T13:24:21.088475Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "G20 meets as Iran war drives energy prices",
     "summary": "Officials meet in Thailand as conflict pushes energy costs higher, indirectly affecting EU economy and Portuguese household budgets.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-15T07:24:23.883160Z",
   "score_history": [
-    {
-      "t": "2026-10-13T11:45:49.764923Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-13T19:15:36.714079Z",
       "s": 2.1
@@ -124,6 +125,10 @@
     {
       "t": "2026-10-15T07:24:23.883160Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-15T13:24:21.088475Z",
+      "s": 2.9
     }
   ]
 }
