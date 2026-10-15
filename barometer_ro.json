@@ -1,11 +1,11 @@
 {
-  "global_score": 3.8,
-  "rationale": "Starlink restrictions continue to degrade Ukraine's defense capability, directly affecting security on Romania's border; other events remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.6,
+  "rationale": "Starlink restrictions continue to degrade Ukraine defense capability, directly affecting security on Romania's border; Hormuz shipping incident adds minor concern. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-      "label": "Musk deflects Starlink limits to US government",
-      "summary": "Ukraine reports improved access but speed limits still disrupt battlefield operations. Ongoing concern for Romania's border security as neighbor's defense capability remains constrained.",
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "label": "Musk blames US for Ukraine Starlink slowdown",
+      "summary": "Ukraine reports improved Starlink access but speed limits still disrupt battlefield missions, continuing to weaken defense capability near Romania's border.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,9 +22,28 @@
       "detected_at": "2026-10-14T13:42:47.433385Z"
     },
     {
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "label": "Germany tries Ukrainian for Nord Stream sabotage",
+      "summary": "Trial begins for Ukrainian accused of destroying Russia's gas pipelines to Germany four years ago, continuing legal proceedings with no new impact on energy supply.",
+      "score": 3.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-14T01:56:31.758052Z"
+    },
+    {
       "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
-      "label": "Container ship sinks Strait Hormuz projectile hit",
-      "summary": "Singapore-flagged vessel hit by projectile; all 21 crew evacuated safely. Distant shipping route concern with no direct impact on Black Sea or Romanian trade.",
+      "label": "Container ship sinks in Hormuz after projectile",
+      "summary": "Singapore-flagged vessel hit by projectile and sinks in Strait of Hormuz; all 21 crew evacuated safely. Shipping route concern continues.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-14T18:37:28.123530Z"
-    },
-    {
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "label": "Ukrainian Nord Stream sabotage trial begins Germany",
-      "summary": "Trial of Serhii Kuznetsov opens four years after pipeline attacks. Ongoing legal process with no new impact on Romania's energy security.",
-      "score": 3.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-14T01:56:31.758052Z"
     }
   ],
   "short_summary": "Germany tries Ukrainian for Nord Stream sabotage",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-14T22:18:07.871694Z",
+  "updated_at": "2026-10-15T01:27:43.214773Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Germany tries Ukrainian for Nord Stream sabotage",
     "summary": "Trial begins for Ukrainian accused of destroying Russia-Germany gas pipelines, affecting EU energy security infrastructure Romania depends on for regional stability.",
     "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "neutral",
     "detected_at": "2026-10-14T01:56:31.758052Z",
     "peak_at": "2026-10-14T01:56:31.758052Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-14T01:56:31.758052Z",
   "score_history": [
-    {
-      "t": "2026-10-12T22:57:57.018616Z",
-      "s": 3.1
-    },
     {
       "t": "2026-10-13T03:32:56.027142Z",
       "s": 3.0
@@ -124,6 +120,10 @@
     {
       "t": "2026-10-14T22:18:07.871694Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-10-15T01:27:43.214773Z",
+      "s": 3.6
     }
   ]
 }

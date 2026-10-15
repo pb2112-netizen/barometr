@@ -1,12 +1,12 @@
 {
-  "global_score": 3.1,
-  "rationale": "US inflation rise driven by fuel costs has indirect implications for EU energy markets; other events remain distant or background noise.",
+  "global_score": 3.0,
+  "rationale": "US inflation rise driven by fuel costs has potential indirect effects on EU economy; other events remain distant or background noise.",
   "top_events": [
     {
       "title": "US inflation rises more than expected - here's what is happening with prices",
-      "label": "US inflation rises to 3.7 percent fuel costs",
-      "summary": "Price increases accelerate in US driven by motor fuel. Indirect concern for EU-wide energy prices and cost of living in Portugal.",
-      "score": 3.1,
+      "label": "US inflation rises to 3.7 percent on fuel",
+      "summary": "Price increases accelerate in the US driven by motor fuel costs, with potential indirect effects on EU energy markets and cost of living.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,12 +22,31 @@
       "detected_at": "2026-10-14T13:42:47.434837Z"
     },
     {
+      "title": "Intense waves and floods batter California waterfront homes and boardwalks",
+      "label": "California coast hit by extreme waves flooding",
+      "summary": "Southern California coastal communities damaged by extreme waves over the weekend, destroying boardwalk in Long Beach and damaging homes.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods"
+        }
+      ],
+      "detected_at": "2026-10-13T23:17:18.613828Z"
+    },
+    {
       "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
       "label": "Netflix cuts 1,000 jobs in workforce reduction",
-      "summary": "Streaming giant eliminates 6% of workforce. Distant corporate event with no direct impact on Portugal's economy or employment.",
+      "summary": "Streaming giant eliminates around 6% of total workforce worldwide in steepest cuts since 2022, reflecting tech sector employment trends.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-14T22:18:07.872661Z"
-    },
-    {
-      "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
-      "label": "Pope recovers as expected after lung surgery",
-      "summary": "Pope diagnosed with lung cancer after 90-minute procedure. Symbolic concern for Catholic Portugal but no change to daily life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-13T23:17:18.613828Z"
     }
   ],
   "short_summary": "US inflation rises to 3.7 percent",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-14T22:18:07.872661Z",
+  "updated_at": "2026-10-15T01:27:43.216828Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "US inflation rises to 3.7 percent",
     "summary": "Price increases accelerate in major economy, driven by fuel costs; indirect impact on EU-wide economic stability and cost of living.",
     "title": "US inflation rises more than expected - here's what is happening with prices",
-    "score": 3.2,
+    "score": 3.1,
     "sentiment": "negative",
     "detected_at": "2026-10-14T13:42:47.434837Z",
     "peak_at": "2026-10-14T18:37:28.125708Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-14T13:42:47.434837Z",
   "score_history": [
-    {
-      "t": "2026-10-12T22:57:57.019988Z",
-      "s": 2.2
-    },
     {
       "t": "2026-10-13T03:32:56.028357Z",
       "s": 2.3
@@ -124,6 +120,10 @@
     {
       "t": "2026-10-14T22:18:07.872661Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-15T01:27:43.216828Z",
+      "s": 3.0
     }
   ]
 }
