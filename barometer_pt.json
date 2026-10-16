@@ -1,12 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Brazil labor reform affects Portuguese-speaking partner economy; other events distant with minimal direct impact on Portuguese daily life.",
+  "global_score": 2.5,
+  "rationale": "Brazil labor reform continues as known story; no new events significantly affecting Portuguese daily life this cycle.",
   "top_events": [
     {
       "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-      "label": "Brazil cuts work week to 40 hours",
-      "summary": "Brazil's congress approves constitutional amendment shortening work week, affecting up to 30 million workers. Significant labor reform in Portuguese-speaking partner economy.",
-      "score": 2.6,
+      "label": "Brazil approves 40-hour work week reform",
+      "summary": "Constitutional amendment shortens work week in Portuguese-speaking partner economy. Continuation of known labor reform process.",
+      "score": 2.5,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,11 +22,35 @@
       "detected_at": "2026-10-15T13:24:21.088475Z"
     },
     {
-      "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "label": "California coast hit by extreme waves",
-      "summary": "Southern California coastal communities damaged by intense waves and flooding. Climate event in distant region with no direct impact on Portugal.",
+      "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "label": "Pakistan school roof collapse kills 33 children",
+      "summary": "Tragic building collapse in distant country with no link to Portuguese daily life.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/peshawar-mourns-children-killed-in-school-roof-collapse?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-16T05:50:31.602755Z"
+    },
+    {
+      "title": "Intense waves and floods batter California waterfront homes and boardwalks",
+      "label": "California coast hit by extreme waves flooding",
+      "summary": "Coastal damage in distant US state with no impact on Portuguese economy or climate.",
+      "score": 1.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -39,25 +63,6 @@
         }
       ],
       "detected_at": "2026-10-13T23:17:18.613828Z"
-    },
-    {
-      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-      "label": "Houthi missiles strike Yemen presidential palace",
-      "summary": "Ballistic missile attack on Yemeni government facility kills five. Middle East escalation with indirect potential impact on EU energy costs.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-16T00:23:36.418364Z"
     }
   ],
   "short_summary": "G20 meets as Iran war drives energy prices",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-16T00:23:36.418364Z",
+  "updated_at": "2026-10-16T05:50:31.602755Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-15T07:24:23.883160Z",
   "score_history": [
-    {
-      "t": "2026-10-14T01:56:31.759587Z",
-      "s": 2.1
-    },
     {
       "t": "2026-10-14T07:36:29.485724Z",
       "s": 2.0
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-16T00:23:36.418364Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-10-16T05:50:31.602755Z",
+      "s": 2.5
     }
   ]
 }

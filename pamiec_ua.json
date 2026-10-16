@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-16T00:23:36.424801Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-10-16T05:50:31.611758Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
+      "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 4,
+      "opis": "US buys Russian diesel; funds Russia during war, major."
+    },
+    {
+      "temat": "Ukraine Yandex strikes third attack tech infrastructure",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
+      "opis": "Ukraine escalates tech strikes; Yandex suspended operations."
+    },
+    {
+      "temat": "Pakistan school roof collapse 33 children killed",
+      "poziom_bazowy": 1.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Building collapse in distant country; no Ukrainian link."
+    },
+    {
       "temat": "Starlink restrictions Ukraine drone operations Musk",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 8,
       "opis": "System curbs directly degrade front-line defense capability."
     },
     {
+      "temat": "Bulgaria Black Sea ship sunk drone attack regional",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 1,
+      "opis": "Merchant ship sunk by drone; 11 missing; Black Sea threat."
+    },
+    {
       "temat": "Russia Kyiv power plant ballistic missile no warning",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 12,
       "opis": "Ballistic strikes on capital infrastructure; no ally."
     },
     {
       "temat": "Germany Nord Stream trial Ukrainian accused sabotage",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 9,
       "opis": "Trial begins for Ukrainian accused of pipeline sabotage."
     },
     {
-      "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 3,
-      "opis": "US buys Russian diesel; funds Russia during war, major."
-    },
-    {
       "temat": "Ex-general Syrskyi Russia offensive broken assessment",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Former top general claims Russia offensive capability."
-    },
-    {
-      "temat": "Ukraine Yandex strikes third attack tech infrastructure",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
-      "opis": "Ukraine escalates tech strikes; Yandex suspended operations."
-    },
-    {
-      "temat": "Bulgaria Black Sea ship sunk drone attack regional",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 0,
-      "opis": "Merchant ship sunk by drone; 11 missing; Black Sea threat."
-    },
-    {
-      "temat": "G20 Iran war energy prices global economy",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "Conflict drives energy costs; indirect Western aid concern."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-14T01:56:31.761265Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-14T07:36:29.487214Z",
       "s": 3.8
@@ -96,6 +92,10 @@
     {
       "t": "2026-10-16T00:23:36.419478Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-16T05:50:31.604571Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-10-15T13:24:21.089284Z",
@@ -116,6 +116,42 @@
         }
       ]
     },
+    "trump calls off livestream of fort hood attacker's execution by firing squad": {
+      "detected_at": "2026-10-15T18:16:51.359555Z",
+      "peak_at": "2026-10-15T21:26:41.923305Z",
+      "peak_score_at": "2026-10-15T21:26:41.923305Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "peak_label": "Trump cancels execution livestream plan",
+      "peak_summary": "US president reverses decision to broadcast military execution. Signals continued unpredictability in key ally leadership with potential implications for aid policy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "at least 33 pupils and teacher killed after school roof collapses in pakistan": {
+      "detected_at": "2026-10-16T05:50:31.604571Z",
+      "peak_at": "2026-10-16T05:50:31.604571Z",
+      "peak_score_at": "2026-10-16T05:50:31.604571Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "peak_label": "Pakistan school roof collapse kills 33 children",
+      "peak_summary": "Tragic building collapse in distant country with no link to Ukrainian war or daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/peshawar-mourns-children-killed-in-school-roof-collapse?traffic_source=rss"
+        }
+      ]
+    },
     "seven crew missing after drone attack leaves tanker ablaze off romania's coast": {
       "detected_at": "2026-10-15T13:24:21.089284Z",
       "peak_at": "2026-10-16T00:23:36.419478Z",
@@ -129,22 +165,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "trump calls off livestream of fort hood attacker's execution by firing squad": {
-      "detected_at": "2026-10-15T18:16:51.359555Z",
-      "peak_at": "2026-10-15T21:26:41.923305Z",
-      "peak_score_at": "2026-10-15T21:26:41.923305Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "peak_label": "Trump cancels execution livestream plan",
-      "peak_summary": "US president reverses decision to broadcast military execution. Signals continued unpredictability in key ally leadership with potential implications for aid policy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -183,7 +203,7 @@
   },
   "prev_top_event_titles": [
     "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-    "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-    "Trump calls off livestream of Fort Hood attacker's execution by firing squad"
+    "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+    "At least 33 pupils and teacher killed after school roof collapses in Pakistan"
   ]
 }

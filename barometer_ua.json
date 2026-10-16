@@ -1,11 +1,11 @@
 {
-  "global_score": 3.4,
-  "rationale": "Ukraine announces resumption of energy strikes on Russia after pause, representing new phase in conflict strategy directly affecting war effort. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Ukraine resumes energy strikes on Russia after pause, marking qualitative shift in strategy; directly affects war effort and national security. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "label": "Ukraine resumes strikes on Russian energy sites",
-      "summary": "President Zelensky announces end to pause on striking Russian energy infrastructure following fresh Russian attacks. New phase in conflict strategy directly affecting war effort.",
+      "label": "Ukraine resumes strikes on Russian oil refineries",
+      "summary": "President Zelensky announces end to pause on Russian energy infrastructure strikes after fresh Russian attacks. Qualitative shift in Ukrainian military strategy.",
       "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -22,32 +22,13 @@
       "detected_at": "2026-10-15T13:24:21.089284Z"
     },
     {
-      "title": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
-      "label": "Tanker attacked by drone off Romanian coast",
-      "summary": "Seven crew members missing after drone strike sets tanker ablaze in Black Sea near Romania. Regional escalation affecting NATO ally waters and shipping security.",
-      "score": 3.4,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-15T13:24:21.089284Z"
-    },
-    {
       "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "label": "Trump cancels execution livestream plan",
-      "summary": "US president cancels planned livestream of military execution. Rhetoric-only decision with no direct impact on Ukrainian war effort or Western aid.",
+      "label": "Trump cancels execution livestream of Fort Hood attacker",
+      "summary": "US president cancels public broadcast of military execution. No direct impact on Ukrainian war effort or security.",
       "score": 2.0,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
@@ -58,6 +39,30 @@
         }
       ],
       "detected_at": "2026-10-15T18:16:51.359555Z"
+    },
+    {
+      "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "label": "Pakistan school roof collapse kills 33 children",
+      "summary": "Tragic building collapse in distant country with no link to Ukrainian war or daily life.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/peshawar-mourns-children-killed-in-school-roof-collapse?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-16T05:50:31.604571Z"
     }
   ],
   "short_summary": "Tanker attacked by drone off Romanian coast",
@@ -65,9 +70,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-16T00:23:36.419478Z",
+  "updated_at": "2026-10-16T05:50:31.604571Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Tanker attacked by drone off Romanian coast",
     "summary": "Seven crew members missing after drone strike sets tanker ablaze in Black Sea near Romania. Regional escalation affecting NATO ally waters and shipping security.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-15T13:24:21.089284Z",
   "score_history": [
-    {
-      "t": "2026-10-14T01:56:31.761265Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-14T07:36:29.487214Z",
       "s": 3.8
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-16T00:23:36.419478Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-16T05:50:31.604571Z",
+      "s": 3.0
     }
   ]
 }

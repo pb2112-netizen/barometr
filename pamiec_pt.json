@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-16T00:23:36.423902Z",
-  "ostatnia_ocena": 2.6,
+  "updated_at": "2026-10-16T05:50:31.610435Z",
+  "ostatnia_ocena": 2.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "California coast extreme waves flooding infrastructure",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Southern California damaged by extreme waves; boardwalk."
     },
     {
       "temat": "Brazil 40-hour work week Lula labor reform",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 4,
       "opis": "Major labor reform in Portuguese-speaking partner economy."
     },
     {
-      "temat": "Istanbul record rainfall flooding two dead Turkey",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
-      "opis": "Heaviest rainfall in 84 years; Mediterranean extreme."
+      "temat": "Pakistan school roof collapse 33 children killed",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Building collapse in distant country; no Portuguese link."
     },
     {
       "temat": "G20 Iran war energy prices global economy",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "Conflict drives energy costs higher; EU economy concern."
     },
     {
       "temat": "US inflation rises 3.7 percent fuel costs",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 8,
       "opis": "Price increases accelerate; indirect EU economic concern."
+    },
+    {
+      "temat": "Istanbul record rainfall flooding two dead Turkey",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
+      "opis": "Heaviest rainfall in 84 years; Mediterranean extreme."
     },
     {
       "temat": "Netflix cuts 1,000 jobs workforce reduction",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Streaming giant eliminates 6% of workforce; employment."
     },
     {
       "temat": "Bank of America fined $1.2bn money laundering China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Major US bank fined for inadequate transaction monitoring."
-    },
-    {
-      "temat": "Pope Leo lung cancer diagnosis surgery Vatican",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Pontiff diagnosed with cancer; symbolic concern Portugal."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-14T01:56:31.759587Z",
-      "s": 2.1
-    },
     {
       "t": "2026-10-14T07:36:29.485724Z",
       "s": 2.0
@@ -96,6 +92,10 @@
     {
       "t": "2026-10-16T00:23:36.418364Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-10-16T05:50:31.602755Z",
+      "s": 2.5
     }
   ],
   "events_anchor_at": "2026-10-15T07:24:23.883160Z",
@@ -104,7 +104,7 @@
       "detected_at": "2026-10-15T13:24:21.088475Z",
       "peak_at": "2026-10-15T13:24:21.088475Z",
       "peak_score_at": "2026-10-15T13:24:21.088475Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "positive",
       "title": "Brazil's Congress approves shorter working week in win for Lula",
       "peak_label": "Brazil approves 40-hour work week reform",
@@ -120,11 +120,31 @@
         }
       ]
     },
+    "at least 33 pupils and teacher killed after school roof collapses in pakistan": {
+      "detected_at": "2026-10-16T05:50:31.602755Z",
+      "peak_at": "2026-10-16T05:50:31.602755Z",
+      "peak_score_at": "2026-10-16T05:50:31.602755Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+      "peak_label": "Pakistan school roof collapse kills 33 children",
+      "peak_summary": "Tragic building collapse in distant country with no link to Portuguese daily life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/peshawar-mourns-children-killed-in-school-roof-collapse?traffic_source=rss"
+        }
+      ]
+    },
     "intense waves and floods batter california waterfront homes and boardwalks": {
       "detected_at": "2026-10-13T23:17:18.613828Z",
       "peak_at": "2026-10-15T07:24:23.883160Z",
       "peak_score_at": "2026-10-14T01:56:31.759587Z",
-      "peak_score": 2.0,
+      "peak_score": 1.9,
       "peak_sentiment": "negative",
       "title": "Intense waves and floods batter California waterfront homes and boardwalks",
       "peak_label": "California coast hit by extreme waves",
@@ -203,7 +223,7 @@
   },
   "prev_top_event_titles": [
     "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-    "Intense waves and floods batter California waterfront homes and boardwalks",
-    "Houthi missile attack on Yemeni presidential palace kills five, minister says"
+    "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+    "Intense waves and floods batter California waterfront homes and boardwalks"
   ]
 }
