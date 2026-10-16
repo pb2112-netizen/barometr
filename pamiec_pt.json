@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-16T05:50:31.610435Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-10-16T11:20:22.546037Z",
+  "ostatnia_ocena": 3.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "California coast extreme waves flooding infrastructure",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Southern California damaged by extreme waves; boardwalk."
-    },
-    {
       "temat": "Brazil 40-hour work week Lula labor reform",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 5,
       "opis": "Major labor reform in Portuguese-speaking partner economy."
     },
     {
       "temat": "Pakistan school roof collapse 33 children killed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Building collapse in distant country; no Portuguese link."
     },
     {
+      "temat": "Hormuz ship attacks record high oil exports slow",
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Twelve vessels struck in week; EU energy cost concern."
+    },
+    {
       "temat": "G20 Iran war energy prices global economy",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Conflict drives energy costs higher; EU economy concern."
     },
     {
       "temat": "US inflation rises 3.7 percent fuel costs",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 9,
       "opis": "Price increases accelerate; indirect EU economic concern."
     },
     {
       "temat": "Istanbul record rainfall flooding two dead Turkey",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Heaviest rainfall in 84 years; Mediterranean extreme."
     },
     {
       "temat": "Netflix cuts 1,000 jobs workforce reduction",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Streaming giant eliminates 6% of workforce; employment."
     },
     {
       "temat": "Bank of America fined $1.2bn money laundering China",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Major US bank fined for inadequate transaction monitoring."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-14T07:36:29.485724Z",
-      "s": 2.0
-    },
     {
       "t": "2026-10-14T13:42:47.434837Z",
       "s": 2.0
@@ -96,15 +92,35 @@
     {
       "t": "2026-10-16T05:50:31.602755Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-10-16T11:20:22.539000Z",
+      "s": 3.6
     }
   ],
-  "events_anchor_at": "2026-10-15T07:24:23.883160Z",
+  "events_anchor_at": "2026-10-16T11:20:22.539000Z",
   "event_detected_at": {
+    "ship attack reports near hormuz reach record high as oil exports slow": {
+      "detected_at": "2026-10-16T11:20:22.539000Z",
+      "peak_at": "2026-10-16T11:20:22.539000Z",
+      "peak_score_at": "2026-10-16T11:20:22.539000Z",
+      "peak_score": 3.6,
+      "peak_sentiment": "negative",
+      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+      "peak_label": "Hormuz ship attacks hit record high slowing exports",
+      "peak_summary": "Twelve vessels struck in one week near Strait of Hormuz, slowing oil exports and raising energy costs for EU economies including Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "brazil cuts work week to 40 hours in win for lula ahead of runoff": {
       "detected_at": "2026-10-15T13:24:21.088475Z",
       "peak_at": "2026-10-15T13:24:21.088475Z",
       "peak_score_at": "2026-10-15T13:24:21.088475Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "positive",
       "title": "Brazil's Congress approves shorter working week in win for Lula",
       "peak_label": "Brazil approves 40-hour work week reform",
@@ -137,22 +153,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/peshawar-mourns-children-killed-in-school-roof-collapse?traffic_source=rss"
-        }
-      ]
-    },
-    "intense waves and floods batter california waterfront homes and boardwalks": {
-      "detected_at": "2026-10-13T23:17:18.613828Z",
-      "peak_at": "2026-10-15T07:24:23.883160Z",
-      "peak_score_at": "2026-10-14T01:56:31.759587Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "negative",
-      "title": "Intense waves and floods batter California waterfront homes and boardwalks",
-      "peak_label": "California coast hit by extreme waves",
-      "peak_summary": "Southern California coastal communities damaged by extreme waves and flooding, with no direct impact on Portugal but illustrating global climate patterns.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods"
         }
       ]
     },
@@ -203,27 +203,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "g20 finance ministers, central bankers gather amid fallout from iran war": {
-      "detected_at": "2026-10-15T07:24:23.883160Z",
-      "peak_at": "2026-10-15T07:24:23.883160Z",
-      "peak_score_at": "2026-10-15T07:24:23.883160Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "G20 finance ministers, central bankers gather amid fallout from Iran war",
-      "peak_label": "G20 meets as Iran war drives energy prices",
-      "peak_summary": "Officials meet in Thailand as conflict pushes energy costs higher, indirectly affecting EU economy and Portuguese household budgets.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "Ship attack reports near Hormuz reach record high as oil exports slow",
     "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-    "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
-    "Intense waves and floods batter California waterfront homes and boardwalks"
+    "At least 33 pupils and teacher killed after school roof collapses in Pakistan"
   ]
 }
