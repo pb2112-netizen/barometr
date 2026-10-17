@@ -1,33 +1,56 @@
 {
-  "global_score": 3.6,
-  "rationale": "White House press secretary fired after five days represents significant domestic political turmoil in Trump administration.",
+  "global_score": 3.5,
+  "rationale": "Oregon school shooting kills four including three children with armed parent stopping attacker; press secretary departs after five days continues White House turmoil. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "White House press secretary Katie Zacharia fired after five days on the job",
-      "label": "White House press secretary fired after five days",
-      "summary": "Katie Zacharia departs after five days following media backlash over credentials. Significant domestic political turmoil in Trump administration communications.",
-      "score": 3.4,
+      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+      "label": "Oregon teacher fought school attacker before armed dad",
+      "summary": "Four killed including three children in Oregon primary school shooting. Teacher fought teenage former student before armed parent shot suspect multiple times.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
-        "Al Jazeera",
-        "Guardian"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-16T00:23:36.421005Z"
+    },
+    {
+      "title": "Katie Zacharia leaving her White House role less than five days on the job",
+      "label": "White House press secretary departs after five days",
+      "summary": "Press secretary leaves role less than five days after public debut ended with media criticism about credentials and preparedness. White House communications turmoil continues.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-10-16T19:57:01.860935Z"
     },
     {
       "title": "Trump denies limiting Ukraine access to Starlink network",
-      "label": "Trump denies Starlink curbs after deadly strikes",
-      "summary": "Speed restrictions limited Ukraine's defense against Russian attacks. Continued controversy over US technology role in Ukraine conflict.",
-      "score": 3.6,
-      "sentiment": "negative",
+      "label": "Trump denies Starlink Ukraine restrictions despite reports",
+      "summary": "President denies restricting Starlink despite speed curbs reportedly limiting Ukraine's defenses. Senate investigation continues into battlefield disruptions.",
+      "score": 3.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,40 +63,21 @@
         }
       ],
       "detected_at": "2026-10-16T16:37:24.462145Z"
-    },
-    {
-      "title": "Oregon community mourns victims of school shooting",
-      "label": "Oregon mourns elementary school shooting victims",
-      "summary": "Community grieves at memorial outside Bend elementary school. Continuation of domestic gun violence affecting US communities.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/oregon-community-mourns-victims-of-school-shooting?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-16T00:23:36.421005Z"
     }
   ],
   "short_summary": "Oregon school shooting kills three children teacher",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-16T22:50:05.181651Z",
+  "updated_at": "2026-10-17T01:18:30.610971Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Oregon school shooting kills three children teacher",
     "summary": "Three children and teacher killed at Silver Rail Elementary in Bend, Oregon; 16-year-old suspect shot by bystander.",
     "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-    "score": 5.0,
+    "score": 4.9,
     "sentiment": "negative",
     "detected_at": "2026-10-16T00:23:36.421005Z",
     "peak_at": "2026-10-16T11:20:22.542676Z",
@@ -129,6 +133,10 @@
     {
       "t": "2026-10-16T22:50:05.181651Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-17T01:18:30.610971Z",
+      "s": 3.5
     }
   ]
 }
