@@ -1,12 +1,31 @@
 {
-  "global_score": 3.6,
-  "rationale": "Albania protests continue nearby; Iran tanker attacks persist affecting energy; Trump sanctions waiver continues regional security concern.",
+  "global_score": 3.1,
+  "rationale": "Trump sanctions waiver continues as known background; Albania protests escalate nearby but remain contained; St Petersburg oil strike is new but distant; Canada base fire is ally concern but no direct Romanian link. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "label": "St Petersburg oil facilities struck deadly attack",
+      "summary": "At least one killed in strikes on Russian oil infrastructure and data center. Distant event with indirect Black Sea energy implications.",
+      "score": 3.1,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-18T14:00:24.711192Z"
+    },
+    {
       "title": "Anti-government protesters battle with police in Albania",
-      "label": "Albania protests continue with police clashes",
-      "summary": "Violent clashes between demonstrators and riot police in Tirana continue for multiple days in neighboring Balkan country.",
-      "score": 2.6,
+      "label": "Albania anti-government protests violent police clashes",
+      "summary": "Violent clashes between demonstrators and riot police in Tirana. Nearby Balkan unrest but no direct Romanian impact.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-10-17T21:27:00.658691Z"
     },
     {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump lifts Russia sanctions amid Ukraine row",
-      "summary": "US president ends Congressional restrictions on Moscow while attacking Ukrainian leader, affecting Black Sea regional security.",
-      "score": 3.6,
+      "title": "Several dead or injured in major fire at Canada military base",
+      "label": "Canada military base fire deaths injuries Wainwright",
+      "summary": "Major fire at Canadian Forces Base Wainwright causes deaths and injuries. Ally military incident but no direct Romanian security impact.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-16T11:20:22.536685Z"
-    },
-    {
-      "title": "Several dead or injured in major fire at Canada military base",
-      "label": "Canada military base fire causes casualties",
-      "summary": "Major fire at CFB Wainwright kills and injures personnel at NATO ally base; no direct regional impact.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -67,12 +67,12 @@
   ],
   "short_summary": "Trump lifts Russia sanctions amid Ukraine tensions",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-18T09:35:59.816355Z",
+  "updated_at": "2026-10-18T14:00:24.711192Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions amid Ukraine tensions",
     "summary": "US president temporarily ends Congressional restrictions on Moscow, directly impacting EU energy security and Black Sea regional stability for Romania.",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-16T11:20:22.536685Z",
   "score_history": [
-    {
-      "t": "2026-10-16T11:20:22.536685Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-16T16:37:24.456034Z",
       "s": 4.4
@@ -145,6 +141,10 @@
     {
       "t": "2026-10-18T09:35:59.816355Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-18T14:00:24.711192Z",
+      "s": 3.1
     }
   ]
 }

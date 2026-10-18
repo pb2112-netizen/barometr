@@ -1,31 +1,12 @@
 {
-  "global_score": 3.6,
-  "rationale": "Trump sanctions waiver and Zelensky criticism continue; Oregon school attack is new confirmed action; Canada base fire affects ally.",
+  "global_score": 2.9,
+  "rationale": "Trump sanctions waiver and Zelensky criticism continue as known background; Oregon school attack continues; Canada base fire is new ally military incident; St Petersburg oil strike is distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump waives Russia sanctions amid Ukraine row",
-      "summary": "President ends Congressional restrictions on Moscow citing national security, major policy reversal while escalating attacks on Ukrainian leader.",
-      "score": 3.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-15T07:24:23.886136Z"
-    },
-    {
       "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
-      "label": "Oregon school attack stopped by armed parent",
-      "summary": "Teacher fights 16-year-old attacker targeting special needs classroom before armed parent shoots suspect multiple times.",
-      "score": 3.0,
+      "label": "Oregon teacher fights attacker armed parent shoots",
+      "summary": "Teacher fought 16-year-old attacker targeting special needs classroom before armed parent shot suspect. Domestic school violence incident.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -42,11 +23,11 @@
     },
     {
       "title": "Several dead or injured in major fire at Canada military base",
-      "label": "Canada military base fire causes casualties",
-      "summary": "Major fire at CFB Wainwright in Alberta kills and injures personnel; ally base overwhelmed by casualties.",
-      "score": 2.5,
+      "label": "Canada military base fire deaths injuries Wainwright",
+      "summary": "Major fire at Canadian Forces Base Wainwright causes deaths and injuries. Ally military incident with casualties confirmed.",
+      "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -63,14 +44,33 @@
         }
       ],
       "detected_at": "2026-10-18T04:29:52.464980Z"
+    },
+    {
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "label": "St Petersburg oil facilities struck deadly attack",
+      "summary": "At least one killed in strikes on Russian oil infrastructure. Distant event with minimal direct US impact.",
+      "score": 2.1,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-18T14:00:24.716030Z"
     }
   ],
   "short_summary": "Trump waives Russia sanctions passed by Congress",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-18T09:35:59.819412Z",
+  "updated_at": "2026-10-18T14:00:24.716030Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-15T07:24:23.886136Z",
   "score_history": [
-    {
-      "t": "2026-10-16T11:20:22.542676Z",
-      "s": 5.2
-    },
     {
       "t": "2026-10-16T16:37:24.462145Z",
       "s": 4.2
@@ -145,6 +141,10 @@
     {
       "t": "2026-10-18T09:35:59.819412Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-18T14:00:24.716030Z",
+      "s": 2.9
     }
   ]
 }

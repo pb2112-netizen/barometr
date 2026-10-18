@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-18T09:35:59.821148Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-10-18T14:00:24.718009Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Trump calls for Zelensky replacement Ukraine leadership",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
-      "opis": "US president undermines Ukrainian leader; regional threat."
-    },
-    {
-      "temat": "Trump waives Russia sanctions Black Sea energy",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
-      "opis": "US lifts sanctions on Moscow; regional security concern."
-    },
-    {
       "temat": "Albania anti-government protests police clashes Tirana",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "Five days clashes; students demand PM resignation; nearby."
     },
     {
       "temat": "Canada CFB Wainwright base fire casualties Alberta",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
       "opis": "Major fire at ally military base; casualties confirmed."
     },
     {
+      "temat": "St Petersburg oil facilities strike deadly attack Russia",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Oil infrastructure and data center hit; one killed; distant."
+    },
+    {
+      "temat": "Trump calls for Zelensky replacement Ukraine leadership",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
+      "opis": "US president undermines Ukrainian leader; regional threat."
+    },
+    {
+      "temat": "Trump waives Russia sanctions Black Sea energy",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
+      "opis": "US lifts sanctions on Moscow; regional security concern."
+    },
+    {
       "temat": "Ukraine Donbas offensive Operation Vivaldi regains territory",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 11,
       "opis": "Ukrainian forces recapture crucial Donbas ground; major."
     },
     {
       "temat": "Iran Hormuz tankers mines oil fire Strait",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "Two tankers hit mines; four million barrels at risk; energy."
     },
     {
       "temat": "Ex-general Syrskyi Russia offensive broken assessment",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 11,
-      "opis": "Former top general claims Russia offensive capability."
-    },
-    {
-      "temat": "Russia Kyiv power plant ballistic strikes no warning",
       "poziom_bazowy": 2.8,
       "cykle_bez_zmian": 12,
-      "opis": "Ballistic strikes on neighbor capital; no ally warning."
+      "opis": "Former top general claims Russia offensive capability."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-16T11:20:22.536685Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-16T16:37:24.456034Z",
       "s": 4.4
@@ -104,15 +100,35 @@
     {
       "t": "2026-10-18T09:35:59.816355Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-18T14:00:24.711192Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-10-16T11:20:22.536685Z",
   "event_detected_at": {
+    "oil facilities hit in deadly overnight attack on st petersburg": {
+      "detected_at": "2026-10-18T14:00:24.711192Z",
+      "peak_at": "2026-10-18T14:00:24.711192Z",
+      "peak_score_at": "2026-10-18T14:00:24.711192Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "neutral",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "peak_label": "St Petersburg oil facilities struck deadly attack",
+      "peak_summary": "At least one killed in strikes on Russian oil infrastructure and data center. Distant event with indirect Black Sea energy implications.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "anti-government protesters battle with police in albania": {
       "detected_at": "2026-10-17T21:27:00.658691Z",
       "peak_at": "2026-10-17T21:27:00.658691Z",
       "peak_score_at": "2026-10-17T21:27:00.658691Z",
-      "peak_score": 2.6,
+      "peak_score": 2.5,
       "peak_sentiment": "neutral",
       "title": "Anti-government protesters battle with police in Albania",
       "peak_label": "Albania protests escalate, police fire rubber bullets",
@@ -125,26 +141,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/protesters-allege-police-brutality-as-violent-clashes-rage-on-in-albania?traffic_source=rss"
-        }
-      ]
-    },
-    "trump waives several russia sanctions as row with zelensky intensifies": {
-      "detected_at": "2026-10-16T11:20:22.536685Z",
-      "peak_at": "2026-10-18T09:35:59.816355Z",
-      "peak_score_at": "2026-10-17T06:55:41.105026Z",
-      "peak_score": 4.4,
-      "peak_sentiment": "negative",
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "peak_label": "Trump lifts Russia sanctions amid Ukraine tensions",
-      "peak_summary": "US president temporarily ends Congressional restrictions on Moscow, directly impacting EU energy security and Black Sea regional stability for Romania.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss"
         }
       ]
     },
@@ -165,6 +161,26 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ]
+    },
+    "trump waives several russia sanctions as row with zelensky intensifies": {
+      "detected_at": "2026-10-16T11:20:22.536685Z",
+      "peak_at": "2026-10-18T09:35:59.816355Z",
+      "peak_score_at": "2026-10-17T06:55:41.105026Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "peak_label": "Trump lifts Russia sanctions amid Ukraine tensions",
+      "peak_summary": "US president temporarily ends Congressional restrictions on Moscow, directly impacting EU energy security and Black Sea regional stability for Romania.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss"
         }
       ]
     },
@@ -250,8 +266,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Oil facilities hit in deadly overnight attack on St Petersburg",
     "Anti-government protesters battle with police in Albania",
-    "Trump waives several Russia sanctions as row with Zelensky intensifies",
     "Several dead or injured in major fire at Canada military base"
   ]
 }

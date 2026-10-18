@@ -1,32 +1,13 @@
 {
-  "global_score": 4.4,
-  "rationale": "Trump continues attacks on Zelensky and sanctions waiver on Russia; no new direct military developments affecting Ukraine this cycle.",
+  "global_score": 4.2,
+  "rationale": "Trump sanctions waiver and Zelensky criticism continue as known background; St Petersburg oil strike is new Ukrainian action against Russian infrastructure; European diplomats attacked continues but concerns EU support; Canada base fire is distant.",
   "top_events": [
     {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump lifts Russia sanctions, attacks Zelensky",
-      "summary": "US president ends Congressional restrictions on Moscow while escalating criticism of Ukrainian leader, threatening aid and support.",
-      "score": 4.4,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-17T06:55:41.108862Z"
-    },
-    {
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "label": "Israeli settlers attack European diplomats",
-      "summary": "Israeli military condemns violence against European diplomats; no direct Ukraine impact but concerns EU support stability.",
-      "score": 2.3,
-      "sentiment": "negative",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "label": "St Petersburg oil facilities struck deadly Ukraine",
+      "summary": "At least one killed in strikes on Russian oil infrastructure and data center. Ukrainian action against Russian war economy infrastructure.",
+      "score": 4.2,
+      "sentiment": "positive",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
@@ -35,18 +16,42 @@
       "source_links": [
         {
           "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-18T14:00:24.714462Z"
+    },
+    {
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "label": "Israeli settlers attack European diplomats West Bank",
+      "summary": "Israeli military condemns violence against EU diplomats. Concerns about EU support reliability during Ukraine's war.",
+      "score": 2.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/why-have-settler-pogroms-surged-during-olive-harvest-season-in-west-bank?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-18T09:35:59.818559Z"
     },
     {
       "title": "Several dead or injured in major fire at Canada military base",
-      "label": "Canada military base fire causes casualties",
-      "summary": "Major fire at CFB Wainwright kills and injures personnel at ally base; no direct Ukraine connection.",
-      "score": 2.2,
+      "label": "Canada military base fire deaths injuries Wainwright",
+      "summary": "Major fire at Canadian Forces Base Wainwright causes deaths and injuries. Ally military incident but no direct Ukrainian impact.",
+      "score": 2.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC",
@@ -70,9 +75,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-18T09:35:59.818559Z",
+  "updated_at": "2026-10-18T14:00:24.714462Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions escalates Zelensky row",
     "summary": "US president temporarily ends Congressional restrictions on Moscow citing national security, directly undermining Ukraine's war effort and Western economic pressure on Russia during active conflict.",
@@ -94,10 +99,6 @@
   },
   "events_anchor_at": "2026-10-17T06:55:41.108862Z",
   "score_history": [
-    {
-      "t": "2026-10-16T11:20:22.541096Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-16T16:37:24.459897Z",
       "s": 5.4
@@ -145,6 +146,10 @@
     {
       "t": "2026-10-18T09:35:59.818559Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-10-18T14:00:24.714462Z",
+      "s": 4.2
     }
   ]
 }
