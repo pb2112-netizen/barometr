@@ -1,12 +1,31 @@
 {
-  "global_score": 3.2,
-  "rationale": "St Petersburg oil strike continues background Russia-Ukraine conflict; Trump sanctions waiver rhetoric continues without new policy action; distant events (India crush, China poisoning, Albania protests) have no link to Polish daily life.",
+  "global_score": 3.1,
+  "rationale": "France riots continue as known background; St Petersburg strike repeats; no new qualitative change affecting Poland directly.",
   "top_events": [
+    {
+      "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+      "label": "France riots continue with arrests and looting",
+      "summary": "About 1,800 arrested after nationwide protests saw violence and vandalism. Macron calls for calm. Disorder in major EU partner continues but remains distant from Polish daily life.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-17T21:27:00.657341Z"
+    },
     {
       "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
       "label": "Oil facilities hit in deadly overnight attack on St",
-      "summary": "Ukrainian strike on Russian oil infrastructure and data center kills one person. Continues background conflict with no new impact on Poland's energy or security situation.",
-      "score": 3.2,
+      "summary": "At least one killed in strikes on oil infrastructure and data center. Distant event with no direct impact on Polish energy supply or security.",
+      "score": 3.1,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +41,28 @@
       "detected_at": "2026-10-18T14:00:24.709546Z"
     },
     {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump waives several Russia sanctions as row with",
-      "summary": "US president temporarily ends Congressional restrictions on Moscow citing national security. Rhetoric continues without confirmed policy implementation affecting Poland's eastern security.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-16T11:20:22.534908Z"
-    },
-    {
-      "title": "At least 17 dead in crush at Hindu festival event in India",
-      "label": "India festival crush kills seventeen people",
-      "summary": "Stampede at Hindu festival in Kolkata kills at least 17. Distant tragedy with no connection to Polish daily life or interests.",
-      "score": 1.5,
+      "title": "What we know so far about deadly fire at Canadian military base",
+      "label": "Canadian military base fire kills four people",
+      "summary": "Four confirmed dead after huge fire swept through CFB Wainwright. Ally military base tragedy but no direct link to Polish security or operations.",
+      "score": 2.2,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
         }
       ],
-      "detected_at": "2026-10-18T17:21:31.068405Z"
+      "detected_at": "2026-10-18T09:35:59.815027Z"
     }
   ],
   "short_summary": "Trump waives Russia sanctions amid Zelensky row",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-18T17:21:31.068405Z",
+  "updated_at": "2026-10-18T20:40:02.105869Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-16T11:20:22.534908Z",
   "score_history": [
-    {
-      "t": "2026-10-16T19:57:01.854572Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-16T22:50:05.174497Z",
       "s": 4.2
@@ -140,6 +141,10 @@
     {
       "t": "2026-10-18T17:21:31.068405Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-18T20:40:02.105869Z",
+      "s": 3.1
     }
   ]
 }
