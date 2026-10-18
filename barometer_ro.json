@@ -1,31 +1,12 @@
 {
-  "global_score": 3.8,
-  "rationale": "Trump sanctions waiver continues regional security concern; Albania protests nearby escalate; no new direct threats to Romania this cycle.",
+  "global_score": 3.6,
+  "rationale": "Albania protests continue nearby; Iran tanker attacks persist affecting energy; Trump sanctions waiver continues regional security concern.",
   "top_events": [
     {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump lifts Russia sanctions amid Zelensky row",
-      "summary": "US president temporarily ends Congressional restrictions on Moscow, citing national security concerns—affecting Black Sea regional security and neighbor Ukraine's position.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-16T11:20:22.536685Z"
-    },
-    {
       "title": "Anti-government protesters battle with police in Albania",
-      "label": "Albania protesters clash with police in Tirana",
-      "summary": "Violent clashes between demonstrators and riot police throughout Saturday in capital Tirana—instability in nearby Balkan neighbor continues for fifth day.",
-      "score": 2.7,
+      "label": "Albania protests continue with police clashes",
+      "summary": "Violent clashes between demonstrators and riot police in Tirana continue for multiple days in neighboring Balkan country.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -41,23 +22,47 @@
       "detected_at": "2026-10-17T21:27:00.658691Z"
     },
     {
-      "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
-      "label": "Two oil tankers hit mines in Hormuz Strait",
-      "summary": "Two vessels carrying about two million barrels of crude each catch fire after hitting mines—potential energy price pressure for EU markets including Romania.",
-      "score": 3.0,
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "label": "Trump lifts Russia sanctions amid Ukraine row",
+      "summary": "US president ends Congressional restrictions on Moscow while attacking Ukrainian leader, affecting Black Sea regional security.",
+      "score": 3.6,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-18T04:29:52.459620Z"
+      "detected_at": "2026-10-16T11:20:22.536685Z"
+    },
+    {
+      "title": "Several dead or injured in major fire at Canada military base",
+      "label": "Canada military base fire causes casualties",
+      "summary": "Major fire at CFB Wainwright kills and injures personnel at NATO ally base; no direct regional impact.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ],
+      "detected_at": "2026-10-18T09:35:59.816355Z"
     }
   ],
   "short_summary": "Trump lifts Russia sanctions amid Ukraine tensions",
@@ -65,17 +70,17 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-18T04:29:52.459620Z",
+  "updated_at": "2026-10-18T09:35:59.816355Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions amid Ukraine tensions",
     "summary": "US president temporarily ends Congressional restrictions on Moscow, directly impacting EU energy security and Black Sea regional stability for Romania.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 4.5,
+    "score": 4.4,
     "sentiment": "negative",
     "detected_at": "2026-10-16T11:20:22.536685Z",
-    "peak_at": "2026-10-17T06:55:41.105026Z",
+    "peak_at": "2026-10-18T09:35:59.816355Z",
     "source_links": [
       {
         "name": "BBC",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-16T11:20:22.536685Z",
   "score_history": [
-    {
-      "t": "2026-10-16T05:50:31.600877Z",
-      "s": 4.0
-    },
     {
       "t": "2026-10-16T11:20:22.536685Z",
       "s": 4.4
@@ -140,6 +141,10 @@
     {
       "t": "2026-10-18T04:29:52.459620Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-10-18T09:35:59.816355Z",
+      "s": 3.6
     }
   ]
 }

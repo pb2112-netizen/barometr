@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-18T04:29:52.467069Z",
-  "ostatnia_ocena": 4.0,
+  "updated_at": "2026-10-18T09:35:59.820237Z",
+  "ostatnia_ocena": 3.9,
   "ostatnie_powiadomienie_at": "2026-10-17T06:55:41.111962Z",
   "stan_swiata": [
     {
       "temat": "Trump calls for Zelensky replacement Ukraine leadership",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 7,
       "opis": "US president undermines Ukrainian leader; threatens ally."
     },
     {
       "temat": "France cost-of-living protests violent clashes looting",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Half million protest; disorder across France; distant EU."
     },
     {
-      "temat": "Iran Hormuz tankers mines oil fire Strait",
-      "poziom_bazowy": 3.5,
+      "temat": "Canada CFB Wainwright base fire casualties Alberta",
+      "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 0,
+      "opis": "Major fire at ally military base; casualties confirmed."
+    },
+    {
+      "temat": "Iran Hormuz tankers mines oil fire Strait",
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 1,
       "opis": "Two tankers hit mines; four million barrels at risk; energy."
     },
     {
       "temat": "Ukraine Donbas offensive Operation Vivaldi regains territory",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 10,
       "opis": "Ukrainian forces recapture crucial Donbas ground; major."
     },
     {
       "temat": "Ex-general Syrskyi Russia offensive broken assessment",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 11,
       "opis": "Former top general claims Russia offensive capability."
     },
     {
       "temat": "Starlink restrictions Ukraine drone operations Musk",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 11,
       "opis": "System curbs limit Ukraine defense; eastern border concern."
     },
     {
       "temat": "Ukraine resumes energy strikes Russia oil refinery",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 10,
-      "opis": "Ukraine ends pause on Russian energy infrastructure strikes."
-    },
-    {
-      "temat": "Bulgaria Black Sea ship sunk drone attack crew missing",
-      "poziom_bazowy": 2.4,
+      "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 11,
-      "opis": "Merchant ship sunk by drone; 11 crew missing; NATO ally."
+      "opis": "Ukraine ends pause on Russian energy infrastructure strikes."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-16T05:50:31.598779Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-16T11:20:22.534908Z",
       "s": 3.8
@@ -104,15 +100,19 @@
     {
       "t": "2026-10-18T04:29:52.457647Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-10-18T09:35:59.815027Z",
+      "s": 3.9
     }
   ],
   "events_anchor_at": "2026-10-16T11:20:22.534908Z",
   "event_detected_at": {
     "trump waives several russia sanctions as row with zelensky intensifies": {
       "detected_at": "2026-10-16T11:20:22.534908Z",
-      "peak_at": "2026-10-17T06:55:41.102987Z",
+      "peak_at": "2026-10-18T09:35:59.815027Z",
       "peak_score_at": "2026-10-17T06:55:41.102987Z",
-      "peak_score": 4.7,
+      "peak_score": 4.6,
       "peak_sentiment": "negative",
       "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
       "peak_label": "Trump waives Russia sanctions amid Zelensky row",
@@ -128,11 +128,11 @@
         }
       ]
     },
-    "violent clashes, looting and buildings ablaze in france as over 1,000 arrested after protests": {
+    "violent clashes, looting and buildings ablaze in france as more than 1,200 arrested after protests": {
       "detected_at": "2026-10-17T21:27:00.657341Z",
       "peak_at": "2026-10-17T21:27:00.657341Z",
       "peak_score_at": "2026-10-17T21:27:00.657341Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "neutral",
       "title": "Violent clashes, looting and buildings ablaze as hundreds arrested after France protests",
       "peak_label": "France protests turn violent, hundreds arrested",
@@ -141,6 +141,26 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "several dead or injured in major fire at canada military base": {
+      "detected_at": "2026-10-18T09:35:59.815027Z",
+      "peak_at": "2026-10-18T09:35:59.815027Z",
+      "peak_score_at": "2026-10-18T09:35:59.815027Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Several dead or injured in major fire at Canada military base",
+      "peak_label": "Canada military base fire causes casualties",
+      "peak_summary": "Major fire at CFB Wainwright in Alberta kills and injures personnel at NATO ally base; no direct link to Poland.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
         }
       ]
     },
@@ -227,27 +247,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "russian strikes kill civilians, injure dozens across ukraine": {
-      "detected_at": "2026-10-17T06:55:41.102987Z",
-      "peak_at": "2026-10-17T06:55:41.102987Z",
-      "peak_score_at": "2026-10-17T06:55:41.102987Z",
-      "peak_score": 3.1,
-      "peak_sentiment": "negative",
-      "title": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
-      "peak_label": "Russia strikes Ukraine power grid kills eight",
-      "peak_summary": "Moscow continues campaign against Ukraine's energy infrastructure hitting multiple cities, affecting regional stability near Poland's border.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
-    "Iran says two tankers catch fire after hitting mines in Strait of Hormuz"
+    "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
+    "Several dead or injured in major fire at Canada military base"
   ]
 }
