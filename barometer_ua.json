@@ -1,14 +1,14 @@
 {
-  "global_score": 4.2,
-  "rationale": "Trump sanctions waiver and Zelensky criticism continue as known background; St Petersburg oil strike is new Ukrainian action against Russian infrastructure; European diplomats attacked continues but concerns EU support; Canada base fire is distant.",
+  "global_score": 4.0,
+  "rationale": "St Petersburg oil strike continues Ukrainian operations against Russian infrastructure; Trump sanctions waiver rhetoric continues without confirmed policy change; Trump-Zelensky row continues as background noise.",
   "top_events": [
     {
       "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-      "label": "St Petersburg oil facilities struck deadly Ukraine",
-      "summary": "At least one killed in strikes on Russian oil infrastructure and data center. Ukrainian action against Russian war economy infrastructure.",
-      "score": 4.2,
+      "label": "Ukrainian strike hits St Petersburg oil facilities",
+      "summary": "Ukrainian forces strike Russian oil infrastructure and data center in St Petersburg, killing one person. Continues ongoing campaign against Russian targets with no new strategic impact.",
+      "score": 4.0,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,11 +22,30 @@
       "detected_at": "2026-10-18T14:00:24.714462Z"
     },
     {
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "label": "Israeli settlers attack European diplomats West Bank",
-      "summary": "Israeli military condemns violence against EU diplomats. Concerns about EU support reliability during Ukraine's war.",
-      "score": 2.2,
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "label": "Trump waives several Russia sanctions as row with",
+      "summary": "US president temporarily ends Congressional restrictions on Moscow and escalates criticism of Ukrainian leader. Rhetoric continues without confirmed policy implementation affecting aid.",
+      "score": 4.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-17T06:55:41.108862Z"
+    },
+    {
+      "title": "European diplomats attacked by Israeli settlers in West Bank",
+      "label": "Israeli settlers attack EU diplomats in West Bank",
+      "summary": "Masked settlers attack European diplomats during olive harvest in occupied West Bank. Concerns about EU support reliability but no direct impact on Ukraine aid.",
+      "score": 2.1,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,34 +59,10 @@
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/18/why-have-settler-pogroms-surged-during-olive-harvest-season-in-west-bank?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/18-10-sv-mayor-of-france-assaulted-by-settlers-ps?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-18T09:35:59.818559Z"
-    },
-    {
-      "title": "Several dead or injured in major fire at Canada military base",
-      "label": "Canada military base fire deaths injuries Wainwright",
-      "summary": "Major fire at Canadian Forces Base Wainwright causes deaths and injuries. Ally military incident but no direct Ukrainian impact.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
-        }
-      ],
-      "detected_at": "2026-10-18T04:29:52.463179Z"
     }
   ],
   "short_summary": "Trump lifts Russia sanctions escalates Zelensky row",
@@ -75,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-18T14:00:24.714462Z",
+  "updated_at": "2026-10-18T17:21:31.074251Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions escalates Zelensky row",
     "summary": "US president temporarily ends Congressional restrictions on Moscow citing national security, directly undermining Ukraine's war effort and Western economic pressure on Russia during active conflict.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 5.5,
+    "score": 5.4,
     "sentiment": "negative",
     "detected_at": "2026-10-17T06:55:41.108862Z",
     "peak_at": "2026-10-18T09:35:59.818559Z",
@@ -99,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-17T06:55:41.108862Z",
   "score_history": [
-    {
-      "t": "2026-10-16T16:37:24.459897Z",
-      "s": 5.4
-    },
     {
       "t": "2026-10-16T19:57:01.859079Z",
       "s": 5.1
@@ -150,6 +141,10 @@
     {
       "t": "2026-10-18T14:00:24.714462Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-10-18T17:21:31.074251Z",
+      "s": 4.0
     }
   ]
 }
