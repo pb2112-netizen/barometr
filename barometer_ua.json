@@ -1,12 +1,12 @@
 {
-  "global_score": 4.8,
-  "rationale": "Trump sanctions waiver and Zelensky criticism remain the top threats to Ukrainian security and Western aid; Kyiv mayor protests are new domestic unrest during wartime.",
+  "global_score": 4.6,
+  "rationale": "Trump sanctions waiver and Zelensky criticism continue to threaten Western support; Kyiv mayor protests continue domestic unrest; no new direct military escalation this cycle.",
   "top_events": [
     {
       "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump lifts Russia sanctions, escalates Zelensky row",
-      "summary": "US president ends Congressional restrictions on Moscow while intensifying attacks on Ukrainian leader, threatening critical aid.",
-      "score": 4.8,
+      "label": "Trump lifts Russia sanctions, attacks Zelensky",
+      "summary": "US president temporarily ends Congressional restrictions on Moscow while escalating attacks on Ukrainian leader—directly threatening Western aid during war.",
+      "score": 4.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,28 +22,9 @@
       "detected_at": "2026-10-17T06:55:41.108862Z"
     },
     {
-      "title": "Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko",
-      "label": "Kyiv protesters demand mayor Klitschko resignation",
-      "summary": "Hundreds rally in capital demanding mayor's resignation; domestic unrest during war adds internal pressure.",
-      "score": 3.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/hundreds-rally-in-kyiv-to-demand-the-resignation-of-mayor-vitali-klitschko?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-17T21:27:00.661357Z"
-    },
-    {
       "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
-      "label": "US school attack stopped by armed parent",
-      "summary": "Distant US school incident with no Ukrainian connection.",
+      "label": "Oregon school attack stopped by armed parent",
+      "summary": "Teacher fights attacker before armed parent shoots suspect at primary school—US domestic incident with no relevance to Ukraine.",
       "score": 1.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -58,6 +39,30 @@
         }
       ],
       "detected_at": "2026-10-17T18:29:21.514047Z"
+    },
+    {
+      "title": "Deadly fire breaks out at Canada military base",
+      "label": "Canada military base fire causes casualties",
+      "summary": "Defence Minister confirms casualties in serious incident at Alberta base—distant ally event with no impact on Ukraine war effort.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ],
+      "detected_at": "2026-10-18T04:29:52.463179Z"
     }
   ],
   "short_summary": "Trump lifts Russia sanctions escalates Zelensky row",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-18T00:01:53.138352Z",
+  "updated_at": "2026-10-18T04:29:52.463179Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions escalates Zelensky row",
     "summary": "US president temporarily ends Congressional restrictions on Moscow citing national security, directly undermining Ukraine's war effort and Western economic pressure on Russia during active conflict.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 5.7,
+    "score": 5.6,
     "sentiment": "negative",
     "detected_at": "2026-10-17T06:55:41.108862Z",
     "peak_at": "2026-10-17T06:55:41.108862Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-17T06:55:41.108862Z",
   "score_history": [
-    {
-      "t": "2026-10-16T00:23:36.419478Z",
-      "s": 3.4
-    },
     {
       "t": "2026-10-16T05:50:31.604571Z",
       "s": 3.0
@@ -140,6 +141,10 @@
     {
       "t": "2026-10-18T00:01:53.138352Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-10-18T04:29:52.463179Z",
+      "s": 4.6
     }
   ]
 }

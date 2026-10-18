@@ -1,12 +1,12 @@
 {
-  "global_score": 3.9,
-  "rationale": "Trump sanctions waiver and Zelensky criticism continue as major policy shifts; Oregon school attack is new domestic incident with armed response.",
+  "global_score": 3.8,
+  "rationale": "Trump sanctions waiver continues major policy shift; Oregon school attack is domestic violence but no mass casualty; Canada base fire is ally incident but distant.",
   "top_events": [
     {
       "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "label": "Trump lifts Russia sanctions, attacks Zelensky",
-      "summary": "President ends Congressional restrictions on Moscow while escalating criticism of Ukrainian leader; major policy reversal.",
-      "score": 3.9,
+      "label": "Trump lifts Russia sanctions amid Zelensky row",
+      "summary": "President temporarily ends Congressional restrictions on Moscow, citing national security concerns, while escalating criticism of Ukrainian leadership—major policy reversal continues.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,10 +24,10 @@
     {
       "title": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
       "label": "Oregon school attack stopped by armed parent",
-      "summary": "Teacher fought attacker before armed parent shot suspect at primary school targeting special needs classroom.",
-      "score": 3.2,
+      "summary": "Teacher fights attacker before armed parent shoots 16-year-old suspect at primary school targeting special needs classroom—domestic violence incident contained.",
+      "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC"
@@ -41,13 +41,13 @@
       "detected_at": "2026-10-16T00:23:36.421005Z"
     },
     {
-      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-      "label": "Mexico surfer murders result in life sentences",
-      "summary": "Three sentenced for killing American and Australian surfers in botched robbery during surf trip.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "title": "Deadly fire breaks out at Canada military base",
+      "label": "Canada military base fire causes casualties",
+      "summary": "Defence Minister confirms casualties in serious incident at Alberta base; major fire spreading to nearby town—ally incident but no direct US impact.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC",
         "Guardian"
@@ -55,14 +55,14 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb"
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
         }
       ],
-      "detected_at": "2026-10-17T21:27:00.662766Z"
+      "detected_at": "2026-10-18T04:29:52.464980Z"
     }
   ],
   "short_summary": "Trump waives Russia sanctions passed by Congress",
@@ -70,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-18T00:01:53.139819Z",
+  "updated_at": "2026-10-18T04:29:52.464980Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Trump waives Russia sanctions passed by Congress",
     "summary": "President temporarily ends many Congressional restrictions on Moscow citing national security concerns, major policy reversal affecting US foreign relations and Ukraine support two days before.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 4.4,
+    "score": 4.3,
     "sentiment": "negative",
     "detected_at": "2026-10-15T07:24:23.886136Z",
     "peak_at": "2026-10-17T06:55:41.111000Z",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-15T07:24:23.886136Z",
   "score_history": [
-    {
-      "t": "2026-10-16T00:23:36.421005Z",
-      "s": 4.2
-    },
     {
       "t": "2026-10-16T05:50:31.605949Z",
       "s": 4.0
@@ -145,6 +141,10 @@
     {
       "t": "2026-10-18T00:01:53.139819Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-18T04:29:52.464980Z",
+      "s": 3.8
     }
   ]
 }
