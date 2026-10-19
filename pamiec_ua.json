@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-10-19T13:14:16.505174Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-10-19T19:20:29.456315Z",
+  "ostatnia_ocena": 5.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 14,
-      "opis": "US buys Russian diesel; funds Russia during war, major."
-    },
-    {
       "temat": "Canada CFB Wainwright base fire four killed Alberta",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 1,
       "opis": "Major fire at ally military base; four dead; distant."
     },
     {
+      "temat": "Sudan drone strike market al-Dibab 80 killed",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Deadliest single attack in Sudan war; distant African."
+    },
+    {
+      "temat": "US intelligence restrictions Ukraine missile warnings deaths",
+      "poziom_bazowy": 7.3,
+      "cykle_bez_zmian": 1,
+      "opis": "US curbs intel sharing; prevents missile warnings."
+    },
+    {
       "temat": "St Petersburg oil facilities strike deadly Ukraine attack",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 7,
       "opis": "Ukrainian strike on Russian oil infrastructure; one killed."
     },
     {
+      "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 15,
+      "opis": "US buys Russian diesel; funds Russia during war, major."
+    },
+    {
       "temat": "Trump Zelensky harder than Putin EU rallies support",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 14,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 15,
       "opis": "US president escalates attacks on Ukrainian leader; aid."
     },
     {
       "temat": "EU tariffs China hitting Ukraine steel exports economy",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Ukrainian steel bundled with China in EU curbs; wartime hit."
     },
     {
       "temat": "Ex-general Syrskyi Russia offensive broken assessment",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 18,
-      "opis": "Former top general claims Russia offensive capability."
-    },
-    {
-      "temat": "Kyiv mayor Klitschko protests resignation demand",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 9,
-      "opis": "Hundreds rally in capital; domestic unrest during war."
-    },
-    {
-      "temat": "Ukraine Donbas offensive Operation Vivaldi regains territory",
       "poziom_bazowy": 2.5,
       "cykle_bez_zmian": 19,
-      "opis": "Ukrainian forces recapture crucial Donbas ground; major."
+      "opis": "Former top general claims Russia offensive capability."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-17T15:32:04.565034Z",
-      "s": 5.5
-    },
-    {
-      "t": "2026-10-17T18:29:21.514047Z",
-      "s": 5.2
-    },
     {
       "t": "2026-10-17T21:27:00.661357Z",
       "s": 4.9
@@ -104,10 +96,66 @@
     {
       "t": "2026-10-19T13:14:16.497545Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-19T19:20:29.449511Z",
+      "s": 5.0
     }
   ],
-  "events_anchor_at": "2026-10-17T06:55:41.108862Z",
+  "events_anchor_at": "2026-10-19T19:20:29.449511Z",
   "event_detected_at": {
+    "ukrainians dying because us restricting intelligence sharing, zelensky adviser tells bbc": {
+      "detected_at": "2026-10-19T19:20:29.449511Z",
+      "peak_at": "2026-10-19T19:20:29.449511Z",
+      "peak_score_at": "2026-10-19T19:20:29.449511Z",
+      "peak_score": 5.0,
+      "peak_sentiment": "negative",
+      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "peak_label": "US restricts intelligence sharing causing Ukrainian deaths",
+      "peak_summary": "US intelligence curbs prevent timely missile warnings, directly causing Ukrainian casualties. White House denies changes, but adviser confirms delays cost lives—major wartime threat to defense.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "four people killed in 'violent, fast-moving' fire at canadian military base": {
+      "detected_at": "2026-10-18T04:29:52.463179Z",
+      "peak_at": "2026-10-19T13:14:16.497545Z",
+      "peak_score_at": "2026-10-18T09:35:59.818559Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Several dead or injured in major fire at Canada military base",
+      "peak_label": "Canada military base fire causes casualties",
+      "peak_summary": "Major fire at CFB Wainwright kills and injures personnel at ally base; no direct Ukraine connection.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ]
+    },
+    "drone attack near market kills 80 in sudan": {
+      "detected_at": "2026-10-19T19:20:29.449511Z",
+      "peak_at": "2026-10-19T19:20:29.449511Z",
+      "peak_score_at": "2026-10-19T19:20:29.449511Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Drone attack near market kills 80 in Sudan",
+      "peak_label": "Drone strike kills 80 at Sudan market",
+      "peak_summary": "Drone hits transport hub in al-Dibab, killing 80 civilians in one of war's deadliest single attacks. Distant African conflict with no Ukrainian connection.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        }
+      ]
+    },
     "trump says suspension of russia sanctions is to keep peace negotiations going": {
       "detected_at": "2026-10-17T06:55:41.108862Z",
       "peak_at": "2026-10-19T13:14:16.497545Z",
@@ -144,26 +192,6 @@
         }
       ]
     },
-    "deadly fire at canada military base moved a kilometre 'in 30 to 60 seconds'": {
-      "detected_at": "2026-10-18T04:29:52.463179Z",
-      "peak_at": "2026-10-19T13:14:16.497545Z",
-      "peak_score_at": "2026-10-18T09:35:59.818559Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "Several dead or injured in major fire at Canada military base",
-      "peak_label": "Canada military base fire causes casualties",
-      "peak_summary": "Major fire at CFB Wainwright kills and injures personnel at ally base; no direct Ukraine connection.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
-        }
-      ]
-    },
     "inside the shadowy world of anti-putin sabotage from within russia": {
       "detected_at": "2026-10-19T06:14:01.275065Z",
       "peak_at": "2026-10-19T06:14:01.275065Z",
@@ -177,22 +205,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "oil facilities hit in deadly overnight attack on st petersburg": {
-      "detected_at": "2026-10-18T14:00:24.714462Z",
-      "peak_at": "2026-10-18T14:00:24.714462Z",
-      "peak_score_at": "2026-10-18T14:00:24.714462Z",
-      "peak_score": 3.9,
-      "peak_sentiment": "positive",
-      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-      "peak_label": "St Petersburg oil facilities struck deadly Ukraine",
-      "peak_summary": "At least one killed in strikes on Russian oil infrastructure and data center. Ukrainian action against Russian war economy infrastructure.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -230,8 +242,8 @@
     }
   },
   "prev_top_event_titles": [
-    "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-    "Alberta heads to polls to decide whether to hold vote on separation from Canada",
-    "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'"
+    "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+    "Four people killed in 'violent, fast-moving' fire at Canadian military base",
+    "Drone attack near market kills 80 in Sudan"
   ]
 }
