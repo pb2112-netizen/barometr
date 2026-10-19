@@ -1,11 +1,11 @@
 {
   "global_score": 3.0,
-  "rationale": "Trump sanctions suspension continues as major policy shift; Canadian base fire and synthetic drug crisis remain ongoing background.",
+  "rationale": "Trump suspends Russia sanctions in major policy shift; Canada ally base fire kills four; Chicago synthetic drug epidemic continues; all domestic or allied concerns.",
   "top_events": [
     {
       "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
       "label": "Trump suspends Russia sanctions for peace talks",
-      "summary": "President blocks Congressional sanctions on Russia, citing peace negotiations. Major policy shift continues reversing legislative action.",
+      "summary": "President blocked sanctions two days before effect. Major policy shift reversing Congressional sanctions on Russia.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,17 +22,22 @@
       "detected_at": "2026-10-15T07:24:23.886136Z"
     },
     {
-      "title": "Four people killed in 'violent, fast-moving' fire at Canadian military base",
-      "label": "Four killed in Canadian military base fire",
-      "summary": "Major fire at CFB Wainwright kills four, injures dozens. Ally military facility disaster continues with confirmed casualties.",
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "label": "Canada military base fire kills four injures dozens",
+      "summary": "Four killed at CFB Wainwright in Alberta with dozens injured. Major ally tragedy in peacetime.",
       "score": 2.8,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
@@ -42,9 +47,9 @@
     },
     {
       "title": "Inside Chicago's battle against the synthetic drugs flooding the US",
-      "label": "Chicago battles synthetic drug wave crisis",
-      "summary": "Communities in Chicago battle new wave of synthetic drugs. Domestic drug epidemic continues sweeping the country.",
-      "score": 2.6,
+      "label": "Chicago battles synthetic drug wave flooding US",
+      "summary": "Communities fighting new wave of synthetic drugs. Domestic crisis continues with deadly impact.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -60,34 +65,30 @@
       "detected_at": "2026-10-18T20:40:02.109752Z"
     }
   ],
-  "short_summary": "Trump waives Russia sanctions passed by Congress",
+  "short_summary": "Oregon school shooting kills three children teacher",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-18T23:10:21.533423Z",
+  "updated_at": "2026-10-19T01:14:55.190773Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Trump waives Russia sanctions passed by Congress",
-    "summary": "President temporarily ends many Congressional restrictions on Moscow citing national security concerns, major policy reversal affecting US foreign relations and Ukraine support two days before.",
-    "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "label": "Oregon school shooting kills three children teacher",
+    "summary": "Three children and teacher killed at Silver Rail Elementary in Bend, Oregon; 16-year-old suspect shot by bystander.",
+    "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
     "score": 3.9,
     "sentiment": "negative",
-    "detected_at": "2026-10-15T07:24:23.886136Z",
-    "peak_at": "2026-10-18T09:35:59.819412Z",
+    "detected_at": "2026-10-16T00:23:36.421005Z",
+    "peak_at": "2026-10-18T14:00:24.716030Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-15T07:24:23.886136Z",
+  "events_anchor_at": "2026-10-16T00:23:36.421005Z",
   "score_history": [
     {
       "t": "2026-10-17T01:18:30.610971Z",
@@ -139,6 +140,10 @@
     },
     {
       "t": "2026-10-18T23:10:21.533423Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-19T01:14:55.190773Z",
       "s": 3.0
     }
   ]
