@@ -1,32 +1,62 @@
 {
-  "global_score": 3.0,
-  "rationale": "France riots escalate with arson; Albania Supreme Court fire on fifth day of protests; Trump suspends Russia sanctions affecting Black Sea security; all regional concerns.",
+  "global_score": 2.9,
+  "rationale": "France unrest escalates with town hall fire in EU neighbor; Canada ally base fire kills four; Trump rhetoric on sanctions continues without new action.",
   "top_events": [
     {
-      "title": "Fire engulfs Albania's Supreme Court as protests enter fifth day",
-      "label": "Albania Supreme Court fire protests fifth day",
-      "summary": "Supreme Court offices in Tirana set ablaze as anti-government protests continue. Neighboring Balkan instability raises regional concern.",
-      "score": 2.8,
+      "title": "France's government under pressure after weekend of widespread violence",
+      "label": "France town hall fire amid widespread rioting",
+      "summary": "Limoges town hall set ablaze during cost-of-living protests across France. EU neighbor instability; indirect economic and regional concern.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "Al Jazeera"
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/it-broke-my-heart-limoges-residents-reel-after-town-hall-fire?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-18T20:40:02.106855Z"
+      "detected_at": "2026-10-19T06:14:01.270463Z"
     },
     {
-      "title": "Macron condemns violence after riots lead to looting and mass arrests",
-      "label": "Macron condemns France riots looting mass arrests",
-      "summary": "Widespread disorder across France with historic Limoges town hall arson. EU neighbor instability but no direct Romanian impact.",
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "label": "Canada base fire kills four military personnel",
+      "summary": "Major fire at Canadian Forces Base Wainwright killed four and injured dozens. Allied NATO member tragedy with indirect security concern.",
       "score": 2.8,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ],
+      "detected_at": "2026-10-18T09:35:59.816355Z"
+    },
+    {
+      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "label": "Trump defends Russia sanctions suspension as diplomacy",
+      "summary": "US president justifies lifting sanctions as negotiation tactic. Rhetoric without new policy action; regional security concern remains background.",
+      "score": 2.4,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -36,48 +66,29 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-18T23:10:21.528348Z"
-    },
-    {
-      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-      "label": "Trump suspends Russia sanctions for peace talks",
-      "summary": "US president blocked sanctions two days before effect. Weakens pressure on Russia near Black Sea, indirect regional security concern.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-16T11:20:22.536685Z"
     }
   ],
   "short_summary": "Trump lifts Russia sanctions amid Ukraine tensions",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-19T01:14:55.186689Z",
+  "updated_at": "2026-10-19T06:14:01.270463Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions amid Ukraine tensions",
     "summary": "US president temporarily ends Congressional restrictions on Moscow, directly impacting EU energy security and Black Sea regional stability for Romania.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-10-16T11:20:22.536685Z",
     "peak_at": "2026-10-18T09:35:59.816355Z",
@@ -94,10 +105,6 @@
   },
   "events_anchor_at": "2026-10-16T11:20:22.536685Z",
   "score_history": [
-    {
-      "t": "2026-10-17T01:18:30.606533Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-17T06:55:41.105026Z",
       "s": 5.0
@@ -149,6 +156,10 @@
     {
       "t": "2026-10-19T01:14:55.186689Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-19T06:14:01.270463Z",
+      "s": 2.9
     }
   ]
 }

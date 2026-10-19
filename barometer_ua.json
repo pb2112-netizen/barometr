@@ -1,31 +1,36 @@
 {
-  "global_score": 3.6,
-  "rationale": "Trump suspends Russia sanctions weakening Western pressure during war; St Petersburg oil strike continues; EU tariffs hit Ukrainian steel exports; all affect Ukraine's war effort.",
+  "global_score": 3.0,
+  "rationale": "Trump rhetoric on sanctions and Zelenskyy continues without new policy action; France unrest and Canada base fire remain distant; no new direct military developments.",
   "top_events": [
     {
       "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-      "label": "Trump suspends Russia sanctions for peace talks",
-      "summary": "US president blocked sanctions two days before effect. Weakens Western pressure on Russia during Ukraine war, major concern for Ukrainian defense.",
+      "label": "Trump defends Russia sanctions suspension as diplomacy",
+      "summary": "US president justifies lifting sanctions as negotiation tactic. Rhetoric without new policy action; wartime aid concern remains background.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-17T06:55:41.108862Z"
     },
     {
-      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-      "label": "St Petersburg oil facilities hit deadly attack",
-      "summary": "At least one killed in strikes on Russian oil infrastructure and data center. Ukrainian operation continues targeting Russian war economy.",
-      "score": 3.6,
+      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "label": "Inside the shadowy world of anti-Putin sabotage from",
+      "summary": "Two men describe ongoing sabotage work inside Russia supporting Ukrainian intelligence. Continuation of known resistance activity; no new operational change.",
+      "score": 2.5,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,44 +40,49 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-18T14:00:24.714462Z"
+      "detected_at": "2026-10-19T06:14:01.275065Z"
     },
     {
-      "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
-      "label": "EU tariffs aimed China hitting Ukraine steel",
-      "summary": "Ukrainian steel company boss says country bundled with China in EU import curbs. Damages wartime economy during critical period.",
-      "score": 3.0,
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "label": "Canada base fire kills four military personnel",
+      "summary": "Major fire at Canadian Forces Base Wainwright killed four and injured dozens. Distant ally tragedy with no direct Ukrainian wartime impact.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
         }
       ],
-      "detected_at": "2026-10-19T01:14:55.189721Z"
+      "detected_at": "2026-10-18T04:29:52.463179Z"
     }
   ],
   "short_summary": "Trump lifts Russia sanctions escalates Zelensky row",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-19T01:14:55.189721Z",
+  "updated_at": "2026-10-19T06:14:01.275065Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Trump lifts Russia sanctions escalates Zelensky row",
     "summary": "US president temporarily ends Congressional restrictions on Moscow citing national security, directly undermining Ukraine's war effort and Western economic pressure on Russia during active conflict.",
     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "score": 5.1,
+    "score": 5.0,
     "sentiment": "negative",
     "detected_at": "2026-10-17T06:55:41.108862Z",
     "peak_at": "2026-10-18T09:35:59.818559Z",
@@ -89,10 +99,6 @@
   },
   "events_anchor_at": "2026-10-17T06:55:41.108862Z",
   "score_history": [
-    {
-      "t": "2026-10-17T01:18:30.609383Z",
-      "s": 4.6
-    },
     {
       "t": "2026-10-17T06:55:41.108862Z",
       "s": 6.1
@@ -144,6 +150,10 @@
     {
       "t": "2026-10-19T01:14:55.189721Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-10-19T06:14:01.275065Z",
+      "s": 3.0
     }
   ]
 }
