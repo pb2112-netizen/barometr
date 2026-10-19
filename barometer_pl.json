@@ -1,14 +1,33 @@
 {
-  "global_score": 2.9,
-  "rationale": "US intelligence restrictions on Ukraine directly threaten Polish security by weakening eastern neighbor's defense; ally base fire and Sudan drone strike remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "France riots escalate with curfews imposed; EU neighbor instability continues but no qualitative change to Poland's situation.",
   "top_events": [
     {
-      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "label": "US curbs Ukraine intelligence sharing missile warnings",
-      "summary": "US restrictions on intelligence sharing prevent timely missile warnings, causing Ukrainian casualties. White House denies changes, but adviser says delays cost lives—weakening Poland's eastern buffer.",
-      "score": 4.7,
+      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "label": "France imposes curfews after nationwide riots",
+      "summary": "French police lost control in some cities as riots spread, prompting curfews in Paris and other areas. EU neighbor instability continues with no direct impact on Poland.",
+      "score": 2.8,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-19T23:39:04.556148Z"
+    },
+    {
+      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "label": "US intel restrictions cause Ukrainian casualties",
+      "summary": "Ukrainian adviser claims US intelligence curbs prevent missile warnings, leading to deaths. White House denies changes. Continues existing concern for Poland's eastern security.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,9 +42,9 @@
     },
     {
       "title": "Four people killed in 'violent, fast-moving' fire at Canadian military base",
-      "label": "Four killed in fire at Canadian military base",
-      "summary": "Major fire at CFB Wainwright kills four, injures dozens at NATO ally base. Distant tragedy with no direct impact on Poland.",
-      "score": 2.4,
+      "label": "Fire kills four at Canadian military base",
+      "summary": "Major fire at CFB Wainwright kills four, injures dozens at NATO ally base. Tragic but distant event with no direct impact on Poland.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-10-18T09:35:59.815027Z"
-    },
-    {
-      "title": "Drone attack near market kills 80 in Sudan",
-      "label": "Drone strike kills 80 at Sudan market",
-      "summary": "Drone hits transport hub in al-Dibab, killing 80 civilians in one of war's deadliest single attacks. Distant African conflict with no Polish connection.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
-        }
-      ],
-      "detected_at": "2026-10-19T19:20:29.442667Z"
     }
   ],
   "short_summary": "US curbs Ukraine intelligence sharing missile warnings",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-19T19:20:29.442667Z",
+  "updated_at": "2026-10-19T23:39:04.556148Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.442667Z",
   "score_history": [
-    {
-      "t": "2026-10-17T21:27:00.657341Z",
-      "s": 4.4
-    },
     {
       "t": "2026-10-18T00:01:53.133942Z",
       "s": 4.2
@@ -132,6 +128,10 @@
     {
       "t": "2026-10-19T19:20:29.442667Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-10-19T23:39:04.556148Z",
+      "s": 2.8
     }
   ]
 }

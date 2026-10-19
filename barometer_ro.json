@@ -1,14 +1,33 @@
 {
-  "global_score": 4.7,
-  "rationale": "US intelligence restrictions on Ukraine weaken regional security buffer; ally base fire continues; Sudan drone strike and Kenya cult verdict remain distant.",
+  "global_score": 3.5,
+  "rationale": "France riots escalate with curfews; EU neighbor instability intensifies but remains indirect for Romania.",
   "top_events": [
     {
-      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "label": "US restricts Ukraine intelligence sharing missile alerts",
-      "summary": "US intelligence curbs prevent timely missile warnings, causing Ukrainian deaths. White House denies changes, but delays weaken Black Sea neighbor's defense—regional security concern.",
-      "score": 4.8,
+      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "label": "France imposes curfews amid nationwide riots",
+      "summary": "French authorities impose curfews as police lose control in multiple cities. EU neighbor instability escalates but no direct spillover to Romania yet.",
+      "score": 3.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-19T23:39:04.557837Z"
+    },
+    {
+      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "label": "US intel curbs cause Ukrainian deaths",
+      "summary": "Ukrainian official says US intelligence restrictions prevent missile warnings, causing casualties. Regional security concern continues for Black Sea neighbor Romania.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,9 +42,9 @@
     },
     {
       "title": "Four people killed in 'violent, fast-moving' fire at Canadian military base",
-      "label": "Four killed in fire at Canadian military base",
-      "summary": "Major fire at CFB Wainwright kills four, injures dozens at NATO ally base. Distant tragedy with no direct Romanian impact.",
-      "score": 2.7,
+      "label": "Fire kills four at Canadian base",
+      "summary": "Major fire at NATO ally military base kills four, injures dozens. Tragic but distant event with no direct impact on Romania.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-10-18T09:35:59.816355Z"
-    },
-    {
-      "title": "Drone attack near market kills 80 in Sudan",
-      "label": "Drone strike kills 80 at Sudan market",
-      "summary": "Drone hits transport hub in al-Dibab, killing 80 civilians in one of war's deadliest single attacks. Distant African conflict with no regional link.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
-        }
-      ],
-      "detected_at": "2026-10-19T19:20:29.445064Z"
     }
   ],
   "short_summary": "US restricts Ukraine intelligence sharing missile alerts",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-19T19:20:29.445064Z",
+  "updated_at": "2026-10-19T23:39:04.557837Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.445064Z",
   "score_history": [
-    {
-      "t": "2026-10-17T21:27:00.658691Z",
-      "s": 4.1
-    },
     {
       "t": "2026-10-18T00:01:53.135443Z",
       "s": 3.9
@@ -132,6 +128,10 @@
     {
       "t": "2026-10-19T19:20:29.445064Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-10-19T23:39:04.557837Z",
+      "s": 3.5
     }
   ]
 }
