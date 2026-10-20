@@ -1,57 +1,14 @@
 {
-  "global_score": 3.0,
-  "rationale": "Rubio denies withholding Ukraine intelligence (regional security concern continues); Albania protests enter seventh day (Balkan neighbor instability); France unrest spreads to major cities.",
+  "global_score": 2.5,
+  "rationale": "Marseille violence continues in EU neighbor; UK deploys jets to Saudi Arabia (distant); routine global news.",
   "top_events": [
     {
-      "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
-      "label": "Rubio denies withholding Ukraine intelligence Oslo talks",
-      "summary": "US Secretary of State rejects accusations that withheld intelligence causes Ukrainian deaths. Regional security concern as intelligence-sharing tensions persist.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-19T19:20:29.445064Z"
-    },
-    {
-      "title": "Seventh day of violent clashes between Albanian protesters and police",
-      "label": "Albania protests seventh day violent police clashes",
-      "summary": "Almost 300 injured, over half police, as anti-government demonstrations continue. Balkan neighbor instability shows no sign of easing.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/20/horizontal-revolt-why-albanias-young-protesters-want-pm-rama-to-go?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-20T10:02:31.200021Z"
-    },
-    {
       "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-      "label": "Marseille braces for unrest after apocalyptic disorder",
-      "summary": "France's second city saw worst violence as chaos gripped country Saturday. EU neighbor instability spreads to major cities.",
-      "score": 2.6,
+      "label": "Marseille braces for more unrest after violence",
+      "summary": "France's second city saw worst violence as chaos gripped country Saturday. EU neighbor instability continues with no clear resolution.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -63,14 +20,52 @@
         }
       ],
       "detected_at": "2026-10-20T15:04:04.077965Z"
+    },
+    {
+      "title": "UK to deploy fighter jets to defend Saudi Arabia",
+      "label": "UK deploys Typhoon jets to defend Saudi Arabia",
+      "summary": "British jets will carry out defensive missions protecting Saudi Arabia from Houthi attacks. Distant Middle East deployment by NATO ally.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-20T19:14:19.292203Z"
+    },
+    {
+      "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "label": "US extends protections for Ukraine Sudan migrants",
+      "summary": "DHS retains temporary protected status for over 100,000 migrants from Ukraine and Sudan. Indirect positive for regional neighbor Ukraine.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
+        }
+      ],
+      "detected_at": "2026-10-20T19:14:19.292203Z"
     }
   ],
   "short_summary": "US restricts Ukraine intelligence sharing missile alerts",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-20T15:04:04.077965Z",
+  "updated_at": "2026-10-20T19:14:19.292203Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.445064Z",
   "score_history": [
-    {
-      "t": "2026-10-18T17:21:31.070537Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-18T20:40:02.106855Z",
       "s": 3.0
@@ -133,6 +124,10 @@
     {
       "t": "2026-10-20T15:04:04.077965Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-20T19:14:19.292203Z",
+      "s": 2.5
     }
   ]
 }

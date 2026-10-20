@@ -1,33 +1,14 @@
 {
-  "global_score": 2.9,
-  "rationale": "Canada military base fire kills four (ally tragedy); US grants deportation reprieve to Ukrainian and Sudanese migrants (domestic policy shift); Rubio denies withholding Ukraine intelligence (foreign policy rhetoric).",
+  "global_score": 2.7,
+  "rationale": "US extends deportation protections for migrants; CDC reports third measles death; routine global news.",
   "top_events": [
     {
-      "title": "Four people killed in 'violent, fast-moving' fire at Canadian military base",
-      "label": "Four killed violent fire Canadian military base",
-      "summary": "Prime Minister Carney describes blaze as one of worst peacetime tragedies for forces on Canadian soil. Dozens seriously injured at CFB Wainwright, Alberta.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
-        }
-      ],
-      "detected_at": "2026-10-18T04:29:52.464980Z"
-    },
-    {
       "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
-      "label": "US grants deportation reprieve Ukraine Sudan migrants",
-      "summary": "DHS says migrants retain protections after temporary protected status was set to expire Monday. Policy shift affects over 100,000 people from Ukraine and Sudan.",
-      "score": 2.8,
+      "label": "US extends protections for Ukraine Sudan migrants",
+      "summary": "DHS retains temporary protected status for over 100,000 migrants from Ukraine and Sudan. Direct domestic policy continuation.",
+      "score": 2.7,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -41,23 +22,47 @@
       "detected_at": "2026-10-20T15:04:04.082821Z"
     },
     {
-      "title": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
-      "label": "Rubio denies withholding Ukraine intelligence Oslo talks",
-      "summary": "US Secretary of State rejects accusations that withheld intelligence is causing Ukrainian casualties. Talks continue in Oslo amid ongoing tensions.",
-      "score": 2.6,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "CDC reports third measles death in the United States this year",
+      "label": "CDC reports third measles death this year",
+      "summary": "Third measles death added to federal tally as US records over 4,400 cases nationwide. Domestic public health concern continues.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/20/cdc-reports-third-measles-death-in-the-united-states-this-year?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-20T19:14:19.297442Z"
+    },
+    {
+      "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+      "label": "Alberta voters reject independence from Canada",
+      "summary": "Canadian province voted overwhelmingly to remain part of Canada. Neighbor ally political stability confirmed.",
+      "score": 2.3,
+      "sentiment": "positive",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
         }
       ],
-      "detected_at": "2026-10-20T15:04:04.082821Z"
+      "detected_at": "2026-10-19T13:14:16.498955Z"
     }
   ],
   "short_summary": "Obama blasts federal probe of Ilhan Omar",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-20T15:04:04.082821Z",
+  "updated_at": "2026-10-20T19:14:19.297442Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.451662Z",
   "score_history": [
-    {
-      "t": "2026-10-18T17:21:31.075886Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-18T20:40:02.109752Z",
       "s": 3.0
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-20T15:04:04.082821Z",
       "s": 2.9
+    },
+    {
+      "t": "2026-10-20T19:14:19.297442Z",
+      "s": 2.7
     }
   ]
 }
