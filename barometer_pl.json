@@ -1,30 +1,11 @@
 {
-  "global_score": 2.7,
-  "rationale": "France riots continue with curfews imposed; ongoing background situation with no qualitative change affecting Poland.",
+  "global_score": 2.6,
+  "rationale": "US intelligence restrictions on Ukraine missile warnings continue to affect regional security; French protests persist as EU neighbor instability; other events remain distant or background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
-      "label": "France imposes curfews after nationwide riots",
-      "summary": "Police lost control in some French cities during weekend riots. Curfews now imposed in Paris and other areas. EU neighbor instability continues.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-19T23:39:04.556148Z"
-    },
-    {
       "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "label": "US intel restrictions cause Ukrainian casualties",
-      "summary": "Ukrainian adviser says restricted US intelligence sharing prevents missile warnings, causing deaths. White House denies changes. Affects eastern border security context.",
+      "label": "US curbs Ukraine intel sharing missile warnings",
+      "summary": "US intelligence restrictions prevent timely missile warnings, causing Ukrainian casualties. White House denies policy change. Affects eastern border security environment.",
       "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -41,13 +22,32 @@
       "detected_at": "2026-10-19T19:20:29.442667Z"
     },
     {
-      "title": "Drone attack near market kills 80 in Sudan",
-      "label": "Sudan drone strike kills 80 near market",
-      "summary": "Drone struck twice at transport hub in al-Dibab, one of deadliest single attacks of Sudan war. Distant African conflict with no direct Polish impact.",
-      "score": 2.0,
+      "title": "Suspect arrested after historic town hall set alight during disorder - French media",
+      "label": "France Limoges town hall fire arrest made",
+      "summary": "Suspect arrested after Limoges city hall fire during cost-of-living protests. Clock tower collapsed. EU neighbor instability continues.",
+      "score": 2.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-20T10:02:31.198803Z"
+    },
+    {
+      "title": "Drone attack near market kills 80 in Sudan",
+      "label": "Sudan drone strike kills 80 near market",
+      "summary": "Drone struck twice at transport hub in al-Dibab, killing 80 mostly commuters. One of deadliest single attacks in Sudan war. Distant African conflict.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
         "Guardian"
       ],
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-20T04:47:36.299225Z",
+  "updated_at": "2026-10-20T10:02:31.198803Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "US curbs Ukraine intelligence sharing missile warnings",
     "summary": "US restrictions on intelligence sharing prevent timely missile warnings, causing Ukrainian casualties. White House denies changes, but adviser says delays cost lives—weakening Poland's eastern buffer.",
     "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-    "score": 4.6,
+    "score": 4.5,
     "sentiment": "negative",
     "detected_at": "2026-10-19T19:20:29.442667Z",
     "peak_at": "2026-10-19T19:20:29.442667Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.442667Z",
   "score_history": [
-    {
-      "t": "2026-10-18T09:35:59.815027Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-18T14:00:24.709546Z",
       "s": 3.4
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-20T04:47:36.299225Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-20T10:02:31.198803Z",
+      "s": 2.6
     }
   ]
 }
