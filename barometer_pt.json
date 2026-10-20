@@ -1,38 +1,33 @@
 {
   "global_score": 2.5,
-  "rationale": "Alberta independence referendum rejected (distant ally); French protests continue as EU neighbor concern; Mars mission launch (science interest but no daily life impact); other events remain distant background.",
+  "rationale": "Canada military base fire kills four (distant ally tragedy); France unrest spreads to Marseille (EU instability); Sudan drone strike kills 200+ (distant African conflict).",
   "top_events": [
     {
-      "title": "Alberta voters reject plan for referendum to leave Canada",
-      "label": "Alberta rejects Canada independence referendum plan",
-      "summary": "Voters overwhelmingly rejected proposal to begin independence process. Victory for Canadian unity. Distant ally political stability maintained.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "title": "Four people killed in 'violent, fast-moving' fire at Canadian military base",
+      "label": "Four killed violent fire Canadian military base",
+      "summary": "Prime Minister Carney describes blaze as one of worst peacetime tragedies for forces on Canadian soil. Dozens seriously injured at CFB Wainwright.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
-        "Guardian",
-        "Al Jazeera"
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show?traffic_source=rss"
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
         }
       ],
-      "detected_at": "2026-10-19T13:14:16.495983Z"
+      "detected_at": "2026-10-20T15:04:04.079596Z"
     },
     {
-      "title": "Suspect arrested after historic town hall set alight during disorder - French media",
-      "label": "France Limoges town hall fire arrest made",
-      "summary": "Suspect arrested after Limoges city hall fire during cost-of-living protests. Clock tower collapsed. EU neighbor instability continues.",
-      "score": 2.3,
+      "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+      "label": "Marseille braces for unrest after apocalyptic disorder",
+      "summary": "France's second city saw worst violence as chaos gripped country Saturday. EU neighbor instability continues with spreading protests.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -40,29 +35,34 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-20T10:02:31.201642Z"
+      "detected_at": "2026-10-20T15:04:04.079596Z"
     },
     {
-      "title": "Mission blasts off for Mars to grab a piece of its moon",
-      "label": "Mars mission launches for moon dust sample",
-      "summary": "Spacecraft launched on mission to bring 10g of Martian moon dust back to Earth. Ambitious science mission with no immediate daily life impact.",
+      "title": "Sudan army drones hit mourners and fuel market killing more than 200 people, sources say",
+      "label": "Sudan drone strike kills 200 mourners fuel market",
+      "summary": "Drone targeted funeral truck and market allegedly supplying fuel to RSF. One of deadliest single attacks in Sudan war; distant African conflict.",
       "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "nauka",
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
-        "BBC"
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
         }
       ],
-      "detected_at": "2026-10-20T10:02:31.201642Z"
+      "detected_at": "2026-10-19T19:20:29.447146Z"
     }
   ],
   "short_summary": "Alberta rejects Canada independence referendum plan",
@@ -70,9 +70,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-20T10:02:31.201642Z",
+  "updated_at": "2026-10-20T15:04:04.079596Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Alberta rejects Canada independence referendum plan",
     "summary": "Voters overwhelmingly rejected proposal to begin independence process. Victory for Canadian unity. Distant ally political stability maintained.",
@@ -94,10 +94,6 @@
   },
   "events_anchor_at": "2026-10-19T13:14:16.495983Z",
   "score_history": [
-    {
-      "t": "2026-10-18T14:00:24.712812Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-18T17:21:31.072718Z",
       "s": 2.4
@@ -136,6 +132,10 @@
     },
     {
       "t": "2026-10-20T10:02:31.201642Z",
+      "s": 2.5
+    },
+    {
+      "t": "2026-10-20T15:04:04.079596Z",
       "s": 2.5
     }
   ]
