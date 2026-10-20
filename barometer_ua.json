@@ -1,12 +1,50 @@
 {
-  "global_score": 3.4,
-  "rationale": "US extends deportation protections for Ukrainians; UK deploys jets to Saudi (distant); ongoing war background.",
+  "global_score": 3.2,
+  "rationale": "US intelligence sharing restoration is significant positive development for Ukrainian defense capabilities; Trump-Zelensky tensions persist as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "label": "Zelensky reports US intel sharing restored after Oslo talks",
+      "summary": "Ukraine reports improved US intelligence cooperation after Oslo meeting with Trump envoy, directly addressing prior concerns about withheld missile warnings that cost Ukrainian lives.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-19T19:20:29.449511Z"
+    },
+    {
+      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "label": "Trump and Zelensky tensions persist despite Oslo optimism",
+      "summary": "Despite Oslo meeting optimism, underlying tensions between US president and Ukrainian leader remain, raising concerns about long-term US policy support.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-20T22:18:10.542565Z"
+    },
+    {
       "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
-      "label": "US extends protections for Ukrainian migrants",
-      "summary": "DHS retains temporary protected status for over 100,000 Ukrainians in US. Direct positive for Ukrainian diaspora and families.",
-      "score": 3.4,
+      "label": "US extends deportation protections for Ukrainian migrants",
+      "summary": "DHS extends temporary protected status for over 100,000 Ukrainians in US, maintaining safety for diaspora amid ongoing war.",
+      "score": 3.2,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,44 +58,6 @@
         }
       ],
       "detected_at": "2026-10-20T15:04:04.081238Z"
-    },
-    {
-      "title": "UK to deploy fighter jets to defend Saudi Arabia",
-      "label": "UK deploys Typhoon jets to defend Saudi Arabia",
-      "summary": "British jets will carry out defensive missions protecting Saudi Arabia from Houthi attacks. Distant Middle East deployment by NATO ally.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-20T19:14:19.295574Z"
-    },
-    {
-      "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
-      "label": "Marseille braces for more unrest after violence",
-      "summary": "France's second city saw worst violence as chaos gripped country Saturday. Distant EU instability with no Ukrainian impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-20T19:14:19.295574Z"
     }
   ],
   "short_summary": "US restricts intelligence sharing causing Ukrainian deaths",
@@ -65,17 +65,17 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-20T19:14:19.295574Z",
+  "updated_at": "2026-10-20T22:18:10.542565Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US restricts intelligence sharing causing Ukrainian deaths",
     "summary": "US intelligence curbs prevent timely missile warnings, directly causing Ukrainian casualties. White House denies changes, but adviser confirms delays cost lives—major wartime threat to defense.",
     "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-    "score": 4.7,
+    "score": 4.6,
     "sentiment": "negative",
     "detected_at": "2026-10-19T19:20:29.449511Z",
-    "peak_at": "2026-10-19T19:20:29.449511Z",
+    "peak_at": "2026-10-20T22:18:10.542565Z",
     "source_links": [
       {
         "name": "BBC",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-19T19:20:29.449511Z",
   "score_history": [
-    {
-      "t": "2026-10-18T20:40:02.108695Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-18T23:10:21.531898Z",
       "s": 3.8
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-20T19:14:19.295574Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-10-20T22:18:10.542565Z",
+      "s": 3.2
     }
   ]
 }
