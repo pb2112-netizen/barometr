@@ -1,12 +1,31 @@
 {
-  "global_score": 2.3,
-  "rationale": "Elon Musk merger talk and Alberta referendum are distant business/political news with no direct impact on Portuguese daily life; all events remain background.",
+  "global_score": 2.2,
+  "rationale": "Ongoing French protests continue as background noise; no events this cycle materially change daily life for Portuguese residents.",
   "top_events": [
     {
-      "title": "Elon Musk confirms talks to merge Tesla and SpaceX",
-      "label": "Musk confirms Tesla-SpaceX merger talks",
-      "summary": "Tech billionaire announces committees exploring merger of two major companies, with no direct effect on Portuguese economy or daily life.",
-      "score": 2.3,
+      "title": "France's Macron says protesters won't be allowed to 'cause chaos'",
+      "label": "Macron vows order amid French protest chaos",
+      "summary": "French president responds to unrest, criticizing foreign interference, as EU neighbor disorder continues without direct Portuguese impact.",
+      "score": 2.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/21/frances-macron-says-protesters-wont-be-allowed-to-cause-chaos?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-21T13:46:06.725356Z"
+    },
+    {
+      "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "label": "Musk considers merging Tesla and SpaceX",
+      "summary": "Tech billionaire announces committees exploring potential mega-merger of electric car and space companies, but no immediate Portuguese impact.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,42 +41,28 @@
       "detected_at": "2026-10-21T01:34:13.417739Z"
     },
     {
-      "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
-      "label": "Alberta rejects independence from Canada",
-      "summary": "Canadian province votes to remain in confederation, distant political event with no impact on Portugal.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+      "label": "Sudan drone strike kills over 300 at market",
+      "summary": "Deadliest attack in Sudan's civil war hits funeral and market, but remains distant African conflict with no Portuguese connection.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
-        }
-      ],
-      "detected_at": "2026-10-19T13:14:16.495983Z"
-    },
-    {
-      "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-      "label": "France divided over riot causes",
-      "summary": "EU neighbor continues internal debate over recent unrest, no direct effect on Portuguese life.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
         }
       ],
-      "detected_at": "2026-10-21T01:34:13.417739Z"
+      "detected_at": "2026-10-19T19:20:29.447146Z"
     }
   ],
   "short_summary": "Marseille braces for unrest after apocalyptic disorder",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-21T07:36:55.479917Z",
+  "updated_at": "2026-10-21T13:46:06.725356Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-20T15:04:04.079596Z",
   "score_history": [
-    {
-      "t": "2026-10-19T13:14:16.495983Z",
-      "s": 2.3
-    },
     {
       "t": "2026-10-19T19:20:29.447146Z",
       "s": 2.2
@@ -124,6 +125,10 @@
     {
       "t": "2026-10-21T07:36:55.479917Z",
       "s": 2.3
+    },
+    {
+      "t": "2026-10-21T13:46:06.725356Z",
+      "s": 2.2
     }
   ]
 }
