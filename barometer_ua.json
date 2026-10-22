@@ -1,14 +1,33 @@
 {
-  "global_score": 3.0,
-  "rationale": "Kyiv hit by missiles despite resumed peace talks — direct attack on capital while diplomacy advances creates mixed but serious impact on Ukrainian daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "PHP security flaw continues as global scramble; no new direct war developments this cycle.",
   "top_events": [
     {
-      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-      "label": "Kyiv struck as Russia agrees peace talks",
-      "summary": "Capital hit by missiles while Russia says ready for talks. Direct threat to Ukrainian lives continues despite diplomatic progress — major mixed signal for war trajectory.",
-      "score": 3.0,
-      "sentiment": "neutral",
+      "title": "Race to update services' computer systems after cyber-security flaw found",
+      "label": "PHP security flaw forces global system updates",
+      "summary": "Critical vulnerabilities in PHP programming language trigger worldwide scramble to patch systems. Indirect cyber-security concern for Ukrainian infrastructure during war.",
+      "score": 2.9,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-22T18:31:25.875614Z"
+    },
+    {
+      "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+      "label": "Germany arrests suspected Russian spy amid espionage",
+      "summary": "Ukrainian man arrested for alleged Russian espionage in Germany. Regional security concern involving Ukrainian national in NATO ally.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -16,17 +35,17 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-21T18:37:11.782207Z"
+      "detected_at": "2026-10-22T18:31:25.875614Z"
     },
     {
       "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
       "label": "US extends protections for Ukrainian migrants",
-      "summary": "Over 100,000 Ukrainians in US retain protections. Continuation of existing policy, no new change — background support for diaspora already known.",
-      "score": 2.4,
-      "sentiment": "positive",
+      "summary": "DHS extends temporary protected status for over 100,000 Ukrainians in US. Continuation of existing policy with no new change.",
+      "score": 2.3,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -39,35 +58,16 @@
         }
       ],
       "detected_at": "2026-10-20T15:04:04.081238Z"
-    },
-    {
-      "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
-      "label": "Nigeria confirms Ebola case from Uganda",
-      "summary": "Distant African health crisis with no link to Ukraine's war situation or daily life. Background global health noise.",
-      "score": 1.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
-        }
-      ],
-      "detected_at": "2026-10-22T13:46:29.305706Z"
     }
   ],
   "short_summary": "Trump pressures Ukraine for peace deal",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-22T13:46:29.305706Z",
+  "updated_at": "2026-10-22T18:31:25.875614Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump pressures Ukraine for peace deal",
     "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-20T10:02:31.203155Z",
   "score_history": [
-    {
-      "t": "2026-10-20T15:04:04.081238Z",
-      "s": 3.5
-    },
     {
       "t": "2026-10-20T19:14:19.295574Z",
       "s": 3.4
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-22T13:46:29.305706Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-22T18:31:25.875614Z",
+      "s": 2.9
     }
   ]
 }
