@@ -1,49 +1,54 @@
 {
-  "global_score": 2.1,
-  "rationale": "Trump's claim about Starlink restoration is new rhetoric about critical military infrastructure; Germany arrests Ukrainian spy for Russia. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Starlink restrictions persist despite Trump claims, directly affecting Ukrainian military operations; Russia-Ukraine talks planned for November; West Bank attack adds regional tension. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
-      "label": "Trump claims Starlink restored for Ukraine military",
-      "summary": "US president says Starlink access restored, contradicting earlier reports. Critical military communication infrastructure claim, though unconfirmed rhetoric from Trump.",
-      "score": 2.0,
-      "sentiment": "positive",
+      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "label": "Starlink restrictions persist despite Trump claims",
+      "summary": "Ukrainian military sources confirm network issues continue despite US president's statements. Directly affects military communications and operations during ongoing war.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/ukraine-plans-independent-satellite-system-as-starlink-issues-persist?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-22T07:32:57.995531Z"
     },
     {
-      "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-      "label": "Germany arrests Ukrainian for Russian espionage",
-      "summary": "Ukrainian man arrested in Germany for spying for Russia. Continues pattern of Russian intelligence operations targeting Ukrainians abroad.",
-      "score": 2.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "title": "Russia-Ukraine talks planned for November in UAE: Kremlin",
+      "label": "Russia-Ukraine talks planned November in UAE",
+      "summary": "US-brokered talks scheduled for November in UAE; first planned negotiations since earlier talks stopped. Significant development for war resolution prospects.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-22T18:31:25.875614Z"
+      "detected_at": "2026-10-20T10:02:31.203155Z"
     },
     {
-      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-      "label": "Sudan RSF fighters target hospitals, war crimes",
-      "summary": "UN human rights chief says multiple hospital attacks may be war crimes. Distant African conflict with no direct impact on Ukraine.",
+      "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
+      "label": "Two Israeli soldiers killed in West Bank",
+      "summary": "Palestinian gunmen kill two Israeli soldiers near Hebron. Adds to Middle East tensions with minimal direct impact on Ukraine's situation.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -54,28 +59,28 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-23T07:29:32.116600Z"
+      "detected_at": "2026-10-23T13:24:28.794409Z"
     }
   ],
   "short_summary": "Trump pressures Ukraine for peace deal",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-23T07:29:32.116600Z",
+  "updated_at": "2026-10-23T13:24:28.794409Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Trump pressures Ukraine for peace deal",
     "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
     "title": "'I don't care how it's done': Trump pressures Ukraine to cut peace deal",
-    "score": 4.2,
+    "score": 4.1,
     "sentiment": "negative",
     "detected_at": "2026-10-20T10:02:31.203155Z",
-    "peak_at": "2026-10-22T07:32:57.995531Z",
+    "peak_at": "2026-10-23T13:24:28.794409Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-20T10:02:31.203155Z",
   "score_history": [
-    {
-      "t": "2026-10-21T07:36:55.481700Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-21T13:46:06.726365Z",
       "s": 3.4
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-23T07:29:32.116600Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-10-23T13:24:28.794409Z",
+      "s": 3.0
     }
   ]
 }

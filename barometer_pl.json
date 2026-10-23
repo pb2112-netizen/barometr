@@ -1,33 +1,57 @@
 {
-  "global_score": 2.7,
-  "rationale": "Trump's claim about Starlink restoration is new rhetoric affecting Ukraine war context; other events remain distant or background.",
+  "global_score": 3.2,
+  "rationale": "Shooting near Paris raises EU security concerns; Starlink restrictions continue affecting Ukraine war neighbor; West Bank attack adds Middle East tension.",
   "top_events": [
     {
-      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
-      "label": "Trump claims Starlink restored for Ukraine military",
-      "summary": "US president says Starlink access restored for Ukraine, contradicting earlier reports of restrictions. Affects regional security context for Poland's eastern neighbor.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+      "label": "Shooting near Paris kills one, terror probe",
+      "summary": "Gun attack in Trappes near Paris kills one person; French PM calls it very serious. Raises security concerns across EU neighbors including Poland.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T13:24:28.789127Z"
+    },
+    {
+      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "label": "Ukraine reports Starlink still restricted despite Trump",
+      "summary": "Ukrainian military sources confirm network issues persist despite US president's claims. Affects neighbor's war capability and regional security.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/ukraine-plans-independent-satellite-system-as-starlink-issues-persist?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-23T01:29:39.204268Z"
     },
     {
-      "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-      "label": "Germany arrests suspected Russian spy, cites espionage",
-      "summary": "Ukrainian man arrested for spying for Russia in Germany. Continues pattern of Russian intelligence operations in NATO territory near Poland.",
-      "score": 2.5,
+      "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
+      "label": "Two Israeli soldiers killed in West Bank",
+      "summary": "Palestinian gunmen kill two Israeli soldiers near Hebron days before election. Adds to Middle East tensions with indirect EU implications.",
+      "score": 2.3,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,60 +59,37 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-22T18:31:25.870248Z"
-    },
-    {
-      "title": "Race to update services' computer systems after cyber-security flaw found",
-      "label": "Critical PHP security flaws discovered, global update",
-      "summary": "Critical vulnerabilities found in PHP programming language, forcing websites offline. Global cyber-security scramble continues with indirect impact on Polish digital infrastructure.",
-      "score": 2.7,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-22T07:32:57.988999Z"
+      "detected_at": "2026-10-22T13:46:29.300032Z"
     }
   ],
-  "short_summary": "PHP flaws trigger global security response",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Shooting near Paris kills one, terror probe",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-23T07:29:32.113467Z",
+  "updated_at": "2026-10-23T13:24:28.789127Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "PHP flaws trigger global security response",
-    "summary": "AI uncovered hidden programming flaws prompting rare global cyber-security response. Indirect potential impact on digital infrastructure security.",
-    "title": "What is PHP and why did it spark a global cyber-security scramble?",
-    "score": 2.9,
+    "label": "Shooting near Paris kills one, terror probe",
+    "summary": "Gun attack in Trappes near Paris kills one person; French PM calls it very serious. Raises security concerns across EU neighbors including Poland.",
+    "title": "Anti-terror police investigate as one person killed in shooting near Paris",
+    "score": 3.2,
     "sentiment": "negative",
-    "detected_at": "2026-10-22T07:32:57.988999Z",
-    "peak_at": "2026-10-22T07:32:57.988999Z",
+    "detected_at": "2026-10-23T13:24:28.789127Z",
+    "peak_at": "2026-10-23T13:24:28.789127Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-22T07:32:57.988999Z",
+  "events_anchor_at": "2026-10-23T13:24:28.789127Z",
   "score_history": [
-    {
-      "t": "2026-10-21T07:36:55.476118Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-21T13:46:06.723075Z",
       "s": 3.2
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-23T07:29:32.113467Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-23T13:24:28.789127Z",
+      "s": 3.2
     }
   ]
 }
