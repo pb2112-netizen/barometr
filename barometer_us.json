@@ -1,50 +1,36 @@
 {
-  "global_score": 3.8,
-  "rationale": "Alaska election lawsuit raises concerns about administration interference in midterm races; Melania Trump's diplomatic role in Ukraine truce is unusual but represents soft power action.",
+  "global_score": 3.0,
+  "rationale": "Melania Trump's diplomatic role in Ukraine ceasefire is unusual development; Paris terror attack affects NATO ally; other events remain background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump administration sues to block possible Democratic win in Alaska",
-      "label": "Trump sues over Alaska election outcome",
-      "summary": "Administration lawsuit raises concerns about potential interference in midterm races. Domestic election integrity issue during active voting cycle.",
-      "score": 3.8,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-23T18:19:32.673862Z"
-    },
-    {
-      "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-      "label": "Melania Trump brokers Ukraine city truce",
-      "summary": "First Lady negotiates humanitarian ceasefire in Russian-occupied Oleshky. Unusual diplomatic role but represents US soft power action.",
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "label": "First Lady brokers Ukraine city ceasefire",
+      "summary": "Melania Trump's initiative led to humanitarian truce in occupied Oleshky; unusual diplomatic role for First Lady in foreign conflict.",
       "score": 3.0,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-23T18:19:32.673862Z"
     },
     {
-      "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
-      "label": "Paris shooting kills one, terror probe",
-      "summary": "One dead, five wounded in Paris-area attacks; suspect apprehended. NATO ally security event with no direct US impact.",
-      "score": 2.6,
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "label": "Paris racist terror attack kills one",
+      "summary": "One killed, five wounded in attacks near Paris; Macron confirms racist terrorism. NATO ally security event with indirect US concern.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -58,37 +44,52 @@
         }
       ],
       "detected_at": "2026-10-23T13:24:28.796337Z"
+    },
+    {
+      "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+      "label": "US citizen tortured in Russian detention",
+      "summary": "Former Ukrainian prisoners report witnessing beatings and sexual humiliation of American detainee by Russian guards during detention.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T22:08:37.787066Z"
     }
   ],
-  "short_summary": "Oregon teacher survives shooting by playing dead",
+  "short_summary": "Trump sues over Alaska election outcome",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-23T18:19:32.673862Z",
+  "updated_at": "2026-10-23T22:08:37.787066Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Oregon teacher survives shooting by playing dead",
-    "summary": "Teacher describes surviving school shooting by pretending to be dead while badly injured. New domestic violence incident.",
-    "title": "Teacher in Oregon shooting said she pretended to be dead to survive",
-    "score": 4.2,
+    "label": "Trump sues over Alaska election outcome",
+    "summary": "Administration lawsuit raises concerns about potential interference in midterm races. Domestic election integrity issue during active voting cycle.",
+    "title": "Trump administration sues to block possible Democratic win in Alaska",
+    "score": 3.8,
     "sentiment": "negative",
-    "detected_at": "2026-10-22T18:31:25.877426Z",
-    "peak_at": "2026-10-22T18:31:25.877426Z",
+    "detected_at": "2026-10-23T18:19:32.673862Z",
+    "peak_at": "2026-10-23T18:19:32.673862Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cqvgrmzdzgr7o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-22T18:31:25.877426Z",
+  "events_anchor_at": "2026-10-23T18:19:32.673862Z",
   "score_history": [
-    {
-      "t": "2026-10-21T18:37:11.783661Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-21T22:19:30.222252Z",
       "s": 5.0
@@ -128,6 +129,10 @@
     {
       "t": "2026-10-23T18:19:32.673862Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-10-23T22:08:37.787066Z",
+      "s": 3.0
     }
   ]
 }
