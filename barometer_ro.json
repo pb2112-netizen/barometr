@@ -1,12 +1,31 @@
 {
-  "global_score": 2.7,
-  "rationale": "German espionage case continues regional security pattern; Starlink restoration claim is modest positive signal for Ukraine conflict; distant events otherwise.",
+  "global_score": 2.6,
+  "rationale": "Trump's Starlink claim is new rhetoric about Ukraine war infrastructure; other events remain distant or background for Black Sea region.",
   "top_events": [
     {
+      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "label": "Trump claims Starlink restored for Ukraine military",
+      "summary": "US president says Starlink access restored for Ukraine. Affects communication infrastructure in neighboring war zone, though claim is unconfirmed rhetoric.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T01:29:39.206263Z"
+    },
+    {
       "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-      "label": "Germany arrests suspected Russian spy Ukrainian man",
-      "summary": "Another Russian espionage arrest in NATO ally continues regional intelligence threat pattern without qualitative change.",
-      "score": 2.4,
+      "label": "Germany arrests suspected Russian spy, cites espionage",
+      "summary": "Ukrainian man arrested for spying for Russia in Germany. Continues pattern of Russian intelligence operations in NATO territory.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,42 +41,23 @@
       "detected_at": "2026-10-22T18:31:25.872280Z"
     },
     {
-      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
-      "label": "Trump says Musk restored Ukraine Starlink access",
-      "summary": "US president claims Starlink restored to Ukraine. Modest positive signal for Black Sea neighbor's military capability.",
-      "score": 2.7,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-23T01:29:39.206263Z"
-    },
-    {
-      "title": "At least four dead after storm brings flooding to southern France",
-      "label": "Four dead storm flooding southern France region",
-      "summary": "Severe weather in EU neighbor continues climate event pattern. No direct impact on Romania.",
-      "score": 2.0,
+      "title": "Race to update services' computer systems after cyber-security flaw found",
+      "label": "Critical PHP security flaws discovered, global update",
+      "summary": "Critical vulnerabilities in PHP force websites offline. Global cyber-security scramble continues with indirect impact on Romanian digital infrastructure.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-22T13:46:29.302066Z"
+      "detected_at": "2026-10-22T07:32:57.991048Z"
     }
   ],
   "short_summary": "PHP flaws trigger global security response",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-23T01:29:39.206263Z",
+  "updated_at": "2026-10-23T07:29:32.114416Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "PHP flaws trigger global security response",
     "summary": "AI discovered hidden programming flaws prompting rare global cyber-security response. Indirect potential impact on digital infrastructure.",
     "title": "What is PHP and why did it spark a global cyber-security scramble?",
-    "score": 3.0,
+    "score": 2.9,
     "sentiment": "negative",
     "detected_at": "2026-10-22T07:32:57.991048Z",
     "peak_at": "2026-10-22T07:32:57.991048Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-22T07:32:57.991048Z",
   "score_history": [
-    {
-      "t": "2026-10-21T01:34:13.415480Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-21T07:36:55.478341Z",
       "s": 3.0
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-23T01:29:39.206263Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-23T07:29:32.114416Z",
+      "s": 2.6
     }
   ]
 }
