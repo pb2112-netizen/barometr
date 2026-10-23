@@ -1,14 +1,52 @@
 {
-  "global_score": 2.7,
-  "rationale": "Paris shooting raises allied security concerns; West Bank attack adds Middle East tension; Jordan church shooting kills seven; Ebola case in Nigeria raises health concerns.",
+  "global_score": 3.8,
+  "rationale": "Alaska election lawsuit raises concerns about administration interference in midterm races; Melania Trump's diplomatic role in Ukraine truce is unusual but represents soft power action.",
   "top_events": [
     {
-      "title": "Anti-terror police investigate as one person killed in shooting near Paris",
-      "label": "Shooting near Paris kills one, terror probe",
-      "summary": "Gun attack in Trappes near Paris kills one; French PM calls it very serious. Raises security concerns for key NATO ally with minimal direct US impact.",
-      "score": 2.7,
+      "title": "Trump administration sues to block possible Democratic win in Alaska",
+      "label": "Trump sues over Alaska election outcome",
+      "summary": "Administration lawsuit raises concerns about potential interference in midterm races. Domestic election integrity issue during active voting cycle.",
+      "score": 3.8,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T18:19:32.673862Z"
+    },
+    {
+      "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+      "label": "Melania Trump brokers Ukraine city truce",
+      "summary": "First Lady negotiates humanitarian ceasefire in Russian-occupied Oleshky. Unusual diplomatic role but represents US soft power action.",
+      "score": 3.0,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T18:19:32.673862Z"
+    },
+    {
+      "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
+      "label": "Paris shooting kills one, terror probe",
+      "summary": "One dead, five wounded in Paris-area attacks; suspect apprehended. NATO ally security event with no direct US impact.",
+      "score": 2.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -20,54 +58,16 @@
         }
       ],
       "detected_at": "2026-10-23T13:24:28.796337Z"
-    },
-    {
-      "title": "Seven shot dead by gunmen at church funeral in Jordan, state media say",
-      "label": "Seven killed in Jordan church shooting",
-      "summary": "Gunmen kill seven at church funeral in southern Jordan; ten injured. Adds to Middle East tensions in region where US has strategic interests.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-23T13:24:28.796337Z"
-    },
-    {
-      "title": "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
-      "label": "Two Israeli soldiers killed in West Bank",
-      "summary": "Palestinian gunmen kill two Israeli soldiers near Hebron days before election. Adds to Middle East tensions in region of US strategic interest.",
-      "score": 2.3,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-23T13:24:28.796337Z"
     }
   ],
   "short_summary": "Oregon teacher survives shooting by playing dead",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-23T13:24:28.796337Z",
+  "updated_at": "2026-10-23T18:19:32.673862Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Oregon teacher survives shooting by playing dead",
     "summary": "Teacher describes surviving school shooting by pretending to be dead while badly injured. New domestic violence incident.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-22T18:31:25.877426Z",
   "score_history": [
-    {
-      "t": "2026-10-21T13:46:06.727274Z",
-      "s": 3.1
-    },
     {
       "t": "2026-10-21T18:37:11.783661Z",
       "s": 3.0
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-23T13:24:28.796337Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-23T18:19:32.673862Z",
+      "s": 3.8
     }
   ]
 }

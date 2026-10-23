@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-23T13:24:28.801772Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-10-23T18:19:32.678514Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Germany arrests Ukrainian for Russian espionage",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
-      "opis": "Ukrainian arrested in Germany for spying for Russia."
-    },
-    {
       "temat": "Trump Russia diesel deal US fuel Ukraine war revenue",
       "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 0,
       "opis": "US buys Russian diesel; funds Russia during war, major."
     },
     {
       "temat": "Starlink Ukraine Musk Rubio White House responsibility",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
       "opis": "Rubio says Starlink access decision up to Musk, not US."
     },
     {
-      "temat": "Russia agrees resume peace talks US mediation Kyiv",
-      "poziom_bazowy": 3.9,
+      "temat": "Melania Trump Oleshky truce humanitarian occupied",
+      "poziom_bazowy": 5.3,
       "cykle_bez_zmian": 0,
+      "opis": "US First Lady brokers ceasefire in occupied city; major."
+    },
+    {
+      "temat": "Russia drone sinks ship Black Sea Romania casualties",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Russian attack near Romania; sailor killed; regional threat."
+    },
+    {
+      "temat": "Russia agrees resume peace talks US mediation Kyiv",
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 1,
       "opis": "Russia ready for talks; US mediation; missiles continue."
     },
     {
       "temat": "Zelensky US intelligence sharing restored Oslo talks",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 14,
       "opis": "US intel cooperation improved after Oslo meeting; major."
     },
     {
       "temat": "Putin no pressure end war US diplomatic push",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "BBC reports Putin feels no pressure to end war despite."
     },
     {
       "temat": "US intelligence restrictions Ukraine missile warnings deaths",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 21,
       "opis": "US curbs intel sharing; prevents missile warnings."
-    },
-    {
-      "temat": "Sudan RSF hospital attacks war crimes UN",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
-      "opis": "Sudan fighters target hospitals; distant African conflict."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-21T13:46:06.726365Z",
-      "s": 3.4
-    },
     {
       "t": "2026-10-21T18:37:11.782207Z",
       "s": 3.0
@@ -96,11 +92,15 @@
     {
       "t": "2026-10-23T13:24:28.794409Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-23T18:19:32.671703Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-10-20T10:02:31.203155Z",
   "event_detected_at": {
-    "ukraine says starlink still restricted after trump says limits lifted": {
+    "white house says melania trump brokers truce for ukraine city 'on brink of disaster'": {
       "detected_at": "2026-10-22T07:32:57.995531Z",
       "peak_at": "2026-10-23T13:24:28.794409Z",
       "peak_score_at": "2026-10-23T13:24:28.794409Z",
@@ -120,11 +120,11 @@
         }
       ]
     },
-    "russia-ukraine talks planned for november in uae: kremlin": {
+    "ukraine says starlink still restricted after trump says limits lifted": {
       "detected_at": "2026-10-20T10:02:31.203155Z",
       "peak_at": "2026-10-23T13:24:28.794409Z",
       "peak_score_at": "2026-10-21T01:34:13.419427Z",
-      "peak_score": 4.1,
+      "peak_score": 4.0,
       "peak_sentiment": "negative",
       "title": "'I don't care how it's done': Trump pressures Ukraine to cut peace deal",
       "peak_label": "Trump pressures Ukraine for peace deal",
@@ -133,6 +133,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss"
+        }
+      ]
+    },
+    "romania blames russia after drone sinks ship in the black sea": {
+      "detected_at": "2026-10-23T18:19:32.671703Z",
+      "peak_at": "2026-10-23T18:19:32.671703Z",
+      "peak_score_at": "2026-10-23T18:19:32.671703Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Romania blames Russia after drone sinks ship in the Black Sea",
+      "peak_label": "Russian drone sinks Black Sea ship",
+      "peak_summary": "One sailor killed, three missing after Russian drone strikes vessel near Romanian waters. Regional escalation in Black Sea theater.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss"
         }
       ]
     },
@@ -215,27 +231,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "nigeria confirms ebola case as outbreak spreads into western africa": {
-      "detected_at": "2026-10-22T13:46:29.305706Z",
-      "peak_at": "2026-10-22T13:46:29.305706Z",
-      "peak_score_at": "2026-10-22T13:46:29.305706Z",
-      "peak_score": 1.8,
-      "peak_sentiment": "neutral",
-      "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
-      "peak_label": "Nigeria confirms Ebola case from Uganda",
-      "peak_summary": "Distant African health crisis with no link to Ukraine's war situation or daily life. Background global health noise.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
     "Ukraine says Starlink still restricted after Trump says limits lifted",
-    "Russia-Ukraine talks planned for November in UAE: Kremlin",
-    "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank"
+    "Romania blames Russia after drone sinks ship in the Black Sea"
   ]
 }
