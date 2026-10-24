@@ -1,12 +1,12 @@
 {
-  "global_score": 2.1,
-  "rationale": "British tourist death in Bahamas continues; distant events with no impact on Portuguese daily life.",
+  "global_score": 2.0,
+  "rationale": "British tourist death in Bahamas continues as background; other events remain distant from Portuguese daily life with no economic or security impact.",
   "top_events": [
     {
       "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
       "label": "British woman dies rescuing sons in Bahamas",
-      "summary": "British mother died attempting to rescue two sons swept away by current off North Bimini; boys later rescued. Distant tragedy with no impact on Portugal.",
-      "score": 2.1,
+      "summary": "British mother dies attempting to rescue two sons swept away by current in Bahamas snorkeling trip; boys later rescued in distant Atlantic tragedy.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -28,10 +28,34 @@
     },
     {
       "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
-      "label": "Second Ebola death in Kenya family cluster",
-      "summary": "Close family member of first victim dies of Ebola in Kenya. Distant African health event with no direct impact on Portugal.",
+      "label": "Second Ebola death in Kenya close relative",
+      "summary": "Second Ebola death in Kenya, a close family member of first victim from DRC, in distant African health event with no connection to Portugal.",
       "score": 2.0,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
+        }
+      ],
+      "detected_at": "2026-10-24T05:50:50.139022Z"
+    },
+    {
+      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+      "label": "Oregon father kills school shooter saves others",
+      "summary": "Father kills teenage gunman who shot three children and teacher at Oregon school, preventing further casualties in distant US domestic incident.",
+      "score": 2.0,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
@@ -40,41 +64,37 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-24T05:50:50.139022Z"
+      "detected_at": "2026-10-24T20:46:48.202475Z"
     }
   ],
-  "short_summary": "UAE oil spill threatens marine wildlife",
+  "short_summary": "France deploys 70,000 police for protests",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-24T18:07:27.992778Z",
+  "updated_at": "2026-10-24T20:46:48.202475Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "UAE oil spill threatens marine wildlife",
-    "summary": "Tanker strike causes miles-long oil spill on UAE coastline, threatening marine life. Distant environmental disaster with no direct Portuguese impact.",
-    "title": "Oil spill washes up on UAE beaches after tanker strike",
-    "score": 2.8,
-    "sentiment": "negative",
-    "detected_at": "2026-10-23T18:19:32.669514Z",
-    "peak_at": "2026-10-23T18:19:32.669514Z",
+    "label": "France deploys 70,000 police for protests",
+    "summary": "France mobilizes over 70,000 officers amid fears of renewed demonstrations after nationwide riots. EU neighbor unrest with no direct Portuguese impact.",
+    "title": "France prepares for day of protest a week after nationwide riots",
+    "score": 2.3,
+    "sentiment": "neutral",
+    "detected_at": "2026-10-24T05:50:50.139022Z",
+    "peak_at": "2026-10-24T05:50:50.139022Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-23T18:19:32.669514Z",
+  "events_anchor_at": "2026-10-24T05:50:50.139022Z",
   "score_history": [
-    {
-      "t": "2026-10-22T18:31:25.873625Z",
-      "s": 2.8
-    },
     {
       "t": "2026-10-22T22:19:10.983530Z",
       "s": 2.7
@@ -118,6 +138,10 @@
     {
       "t": "2026-10-24T18:07:27.992778Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-10-24T20:46:48.202475Z",
+      "s": 2.0
     }
   ]
 }

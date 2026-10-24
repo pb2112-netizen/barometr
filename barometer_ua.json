@@ -1,13 +1,51 @@
 {
-  "global_score": 2.4,
-  "rationale": "Starlink restoration confirms communications infrastructure stabilized after week-long disruption affecting military operations. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.3,
+  "rationale": "Starlink restoration directly improves Ukrainian military communications and drone operations after week-long disruption affecting combat effectiveness. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "label": "Starlink restored after week military disruption",
-      "summary": "Starlink connectivity restored after week-long disruption that affected military and drone operations. Critical communications infrastructure now stable.",
-      "score": 2.4,
+      "label": "Starlink connectivity restored after week disruption",
+      "summary": "Starlink service restored after week-long slowdown that directly affected Ukrainian military operations and drone warfare capabilities, improving combat communications infrastructure.",
+      "score": 2.3,
       "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-22T07:32:57.995531Z"
+    },
+    {
+      "title": "Kim Jong Un crosses new bridge linking North Korea and China",
+      "label": "Kim Jong Un crosses new North Korea China bridge",
+      "summary": "North Korean leader crosses newly opened bridge to China, strengthening ties between Russia's allies in distant East Asia with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-24T20:46:48.203554Z"
+    },
+    {
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+      "label": "Israel demolishes Hebron homes displacing thousands",
+      "summary": "Israeli forces demolish homes in Hebron displacing over 2,000 Palestinians after soldier deaths, escalating tensions in distant Middle East conflict.",
+      "score": 2.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -17,43 +55,24 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-22T07:32:57.995531Z"
-    },
-    {
-      "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-      "label": "US adjusts Canada tariffs before midterms",
-      "summary": "US eases tariffs on some Canadian goods while placing new ones on others. Distant trade policy with no direct impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T18:07:27.993487Z"
+      "detected_at": "2026-10-23T13:24:28.794409Z"
     }
   ],
   "short_summary": "Trump pressures Ukraine for peace deal",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-24T18:07:27.993487Z",
+  "updated_at": "2026-10-24T20:46:48.203554Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump pressures Ukraine for peace deal",
     "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
@@ -71,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-20T10:02:31.203155Z",
   "score_history": [
-    {
-      "t": "2026-10-22T18:31:25.875614Z",
-      "s": 2.9
-    },
     {
       "t": "2026-10-22T22:19:10.984823Z",
       "s": 2.3
@@ -118,6 +133,10 @@
     {
       "t": "2026-10-24T18:07:27.993487Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-10-24T20:46:48.203554Z",
+      "s": 2.3
     }
   ]
 }
