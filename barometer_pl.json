@@ -1,12 +1,31 @@
 {
-  "global_score": 3.0,
-  "rationale": "Starlink restoration in Ukraine stabilizes military operations affecting regional security; other events remain background or distant.",
+  "global_score": 2.9,
+  "rationale": "France protests continue with arrests but no major escalation; Ukraine Starlink stabilized (continuation); Hebron demolitions ongoing; distant events elsewhere.",
   "top_events": [
     {
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "label": "France arrests 1,000 as mass protests continue",
+      "summary": "Hundreds of thousands protested across France with nearly 1,000 arrests, but authorities avoided repeat of last weekend's rioting and looting. EU neighbor security concern persists.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-24T10:56:12.190132Z"
+    },
+    {
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "label": "Ukraine Starlink connectivity restored after week",
-      "summary": "Starlink service restored after week-long disruption that affected Ukrainian military and drone operations, stabilizing communication infrastructure in the ongoing war next door.",
-      "score": 3.0,
+      "label": "Ukraine Starlink restored after week disruption",
+      "summary": "Starlink connectivity stabilized after a week of disruptions that affected Ukrainian military and drone operations. Regional security situation returns to baseline.",
+      "score": 2.9,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -23,61 +42,37 @@
     },
     {
       "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "label": "Palestinian families displaced as Israeli forces demolish",
-      "summary": "Israeli forces demolish homes in Hebron following killing of two soldiers, displacing over 2,000 Palestinians days before Israeli election.",
-      "score": 2.7,
+      "label": "Israel demolishes Hebron homes after soldiers killed",
+      "summary": "Israeli forces demolished homes in Hebron following killing of two soldiers by Palestinian gunmen, days before Israel's election. Distant Middle East escalation.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-22T13:46:29.300032Z"
-    },
-    {
-      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-      "label": "Oregon school shooting father kills gunman",
-      "summary": "Father kills teenage gunman who fatally shot three children and a teacher at Oregon school, preventing further casualties in distant US domestic incident.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-24T20:46:48.200395Z"
+      "detected_at": "2026-10-22T13:46:29.300032Z"
     }
   ],
   "short_summary": "Israel demolishes Hebron buildings after attack",
-  "level_label": "Low",
+  "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-24T20:46:48.200395Z",
+  "updated_at": "2026-10-24T23:11:41.315012Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Israel demolishes Hebron buildings after attack",
     "summary": "Two Israeli soldiers killed at West Bank checkpoint; Israel responds with demolitions. Regional escalation affecting EU security posture.",
     "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-    "score": 3.2,
+    "score": 3.1,
     "sentiment": "negative",
     "detected_at": "2026-10-22T13:46:29.300032Z",
     "peak_at": "2026-10-24T20:46:48.200395Z",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-22T13:46:29.300032Z",
   "score_history": [
-    {
-      "t": "2026-10-22T22:19:10.981133Z",
-      "s": 2.7
-    },
     {
       "t": "2026-10-23T01:29:39.204268Z",
       "s": 2.8
@@ -137,6 +128,10 @@
     {
       "t": "2026-10-24T20:46:48.200395Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-24T23:11:41.315012Z",
+      "s": 2.9
     }
   ]
 }
