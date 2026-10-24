@@ -1,54 +1,59 @@
 {
-  "global_score": 3.0,
-  "rationale": "Starlink restoration is a significant positive development for military operations after week-long disruption. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Starlink restoration confirms communications infrastructure stabilized after week-long disruption affecting military operations. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "label": "Starlink connectivity restored after week disruption",
-      "summary": "Starlink connection stabilized after week of disruptions that affected military and drone operations; critical infrastructure restored for defense capabilities.",
-      "score": 2.5,
+      "label": "Starlink restored after week military disruption",
+      "summary": "Starlink connectivity restored after week-long disruption that affected military and drone operations. Critical communications infrastructure now stable.",
+      "score": 2.4,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-22T07:32:57.995531Z"
+    },
+    {
+      "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+      "label": "US adjusts Canada tariffs before midterms",
+      "summary": "US eases tariffs on some Canadian goods while placing new ones on others. Distant trade policy with no direct impact on Ukraine.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-22T07:32:57.995531Z"
-    },
-    {
-      "title": "Al Jazeera: Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-      "label": "Starlink restored as attacks continue both sides",
-      "summary": "Starlink restored while attacks continue; negotiators expected to meet in Abu Dhabi next month for talks.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-20T10:02:31.203155Z"
+      "detected_at": "2026-10-24T18:07:27.993487Z"
     }
   ],
   "short_summary": "Trump pressures Ukraine for peace deal",
-  "level_label": "Low",
-  "trend": "rising",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-24T14:31:23.062840Z",
+  "updated_at": "2026-10-24T18:07:27.993487Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Trump pressures Ukraine for peace deal",
     "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
@@ -109,6 +114,10 @@
     {
       "t": "2026-10-24T14:31:23.062840Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-24T18:07:27.993487Z",
+      "s": 2.4
     }
   ]
 }
