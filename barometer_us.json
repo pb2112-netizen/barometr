@@ -1,37 +1,13 @@
 {
   "global_score": 3.0,
-  "rationale": "Melania Trump's diplomatic role in Ukraine ceasefire is unusual development; Paris terror attack affects NATO ally; other events remain background. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Melania Trump's diplomatic role in Ukraine ceasefire continues as unusual development; other events remain background without new qualitative change.",
   "top_events": [
     {
       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "label": "First Lady brokers Ukraine city ceasefire",
-      "summary": "Melania Trump's initiative led to humanitarian truce in occupied Oleshky; unusual diplomatic role for First Lady in foreign conflict.",
+      "label": "Melania Trump brokers Ukraine city ceasefire",
+      "summary": "First Lady negotiates humanitarian truce in Russian-occupied Oleshky. Unusual diplomatic role for First Lady in active conflict zone.",
       "score": 3.0,
       "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-23T18:19:32.673862Z"
-    },
-    {
-      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "label": "Paris racist terror attack kills one",
-      "summary": "One killed, five wounded in attacks near Paris; Macron confirms racist terrorism. NATO ally security event with indirect US concern.",
-      "score": 2.5,
-      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,18 +16,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-23T13:24:28.796337Z"
+      "detected_at": "2026-10-23T18:19:32.673862Z"
     },
     {
       "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
-      "label": "US citizen tortured in Russian detention",
-      "summary": "Former Ukrainian prisoners report witnessing beatings and sexual humiliation of American detainee by Russian guards during detention.",
-      "score": 3.0,
+      "label": "US citizen tortured in Russian jail",
+      "summary": "Former Ukrainian prisoners report American detainee suffered beatings and sexual humiliation by Russian guards. Highlights treatment of US citizens abroad.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -63,14 +39,33 @@
         }
       ],
       "detected_at": "2026-10-23T22:08:37.787066Z"
+    },
+    {
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+      "label": "Paris shooting kills one in terror attack",
+      "summary": "One dead, five wounded in series of attacks near Paris; suspect apprehended. NATO ally security event with no direct US impact.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-23T13:24:28.796337Z"
     }
   ],
   "short_summary": "Trump sues over Alaska election outcome",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-23T22:08:37.787066Z",
+  "updated_at": "2026-10-24T00:40:25.242302Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-23T18:19:32.673862Z",
   "score_history": [
-    {
-      "t": "2026-10-21T22:19:30.222252Z",
-      "s": 5.0
-    },
     {
       "t": "2026-10-22T01:29:57.187427Z",
       "s": 5.2
@@ -132,6 +123,10 @@
     },
     {
       "t": "2026-10-23T22:08:37.787066Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-10-24T00:40:25.242302Z",
       "s": 3.0
     }
   ]
