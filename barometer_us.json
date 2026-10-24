@@ -1,15 +1,15 @@
 {
-  "global_score": 3.0,
-  "rationale": "Oregon school shooting father's account adds detail to ongoing domestic tragedy; other events are rhetoric or distant.",
+  "global_score": 3.2,
+  "rationale": "Oregon school shooting father's account and White House tariff changes are domestic policy actions.",
   "top_events": [
     {
       "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-      "label": "Oregon father describes school shooting anguish",
-      "summary": "Father who killed school shooter describes emotional toll; adds human detail to ongoing domestic tragedy affecting US communities.",
-      "score": 3.0,
+      "label": "Oregon father describes anguish after killing gunman",
+      "summary": "Father who killed school shooter describes emotional toll; three children and teacher died in attack; ongoing domestic gun violence.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
@@ -22,42 +22,42 @@
       "detected_at": "2026-10-24T10:56:12.196079Z"
     },
     {
-      "title": "Rubio calls on Cubans to partner with CIA 'to create positive change'",
-      "label": "Rubio urges Cubans CIA partnership rhetoric",
-      "summary": "Secretary of State makes rhetorical call to Cubans; no policy action or confirmed operations affecting US daily life.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/rubio-calls-on-cubans-to-partner-with-cia-to-create-positive-change?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T05:50:50.143748Z"
-    },
-    {
-      "title": "Trump administration sues to block certification of upcoming Alaska election",
-      "label": "Trump sues block Alaska election certification",
-      "summary": "Justice Department files lawsuit over Alaska election ballot confusion; domestic legal action in ongoing political disputes.",
-      "score": 2.5,
+      "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+      "label": "White House adjusts tariffs on Canadian goods",
+      "summary": "Tariffs eased on some Canadian products including machinery, placed on others like carpets; policy change ahead of midterm elections.",
+      "score": 3.2,
       "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-10-23T18:19:32.673862Z"
+    },
+    {
+      "title": "Rubio tells Cubans 'now is the time' to act to see political change",
+      "label": "Rubio urges Cubans to act for political change",
+      "summary": "Secretary of State rhetoric encouraging Cuban political action; no confirmed policy change or direct US action.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump"
+        }
+      ],
+      "detected_at": "2026-10-24T05:50:50.143748Z"
     }
   ],
   "short_summary": "Trump sues over Alaska election outcome",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-24T10:56:12.196079Z",
+  "updated_at": "2026-10-24T14:31:23.064777Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Trump sues over Alaska election outcome",
     "summary": "Administration lawsuit raises concerns about potential interference in midterm races. Domestic election integrity issue during active voting cycle.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-23T18:19:32.673862Z",
   "score_history": [
-    {
-      "t": "2026-10-22T13:46:29.307565Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-22T18:31:25.877426Z",
       "s": 4.6
@@ -128,6 +124,10 @@
     {
       "t": "2026-10-24T10:56:12.196079Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-10-24T14:31:23.064777Z",
+      "s": 3.2
     }
   ]
 }
