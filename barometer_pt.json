@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "France protests continue; Brazil election rally is cultural interest only; other events distant.",
+  "rationale": "France protests escalate with mass arrests (EU neighbor); Brazil election day (cultural ties); other events distant with no direct impact on Portuguese daily life. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "label": "France arrests 1,000 in mass protests",
-      "summary": "Hundreds of thousands protest across France with nearly 1,000 arrests; EU neighbor unrest continues without new escalation.",
+      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+      "label": "France arrests 1,300 in mass protest clashes",
+      "summary": "Hundreds of thousands protested across France and other European countries, leading to over 1,300 arrests. Ongoing unrest in an EU neighbor affects regional stability perception.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,28 +22,38 @@
       "detected_at": "2026-10-24T10:56:12.193164Z"
     },
     {
-      "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-      "label": "Brazil million rally before election runoff",
-      "summary": "Over one million rally for Lula before Sunday's runoff election; cultural and linguistic ties but no direct impact on Portuguese daily life.",
+      "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
+      "label": "Brazil votes in Lula versus Bolsonaro runoff",
+      "summary": "Brazilians vote in presidential runoff between Lula and Flávio Bolsonaro. Cultural ties to Portuguese-speaking country, but no direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss"
+        },
+        {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro"
+          "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
         }
       ],
-      "detected_at": "2026-10-24T23:11:41.319586Z"
+      "detected_at": "2026-10-25T11:23:45.626899Z"
     },
     {
       "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-      "label": "British woman dies rescuing sons Bahamas",
-      "summary": "British mother dies rescuing sons swept by current in Bahamas; distant tragedy with no link to Portuguese life.",
+      "label": "British mother dies saving sons in Bahamas",
+      "summary": "A 36-year-old British woman died rescuing her two sons from a current off North Bimini. Distant tragedy with no impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -70,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-25T06:05:52.057635Z",
+  "updated_at": "2026-10-25T11:23:45.626899Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -80,7 +90,7 @@
     "score": 2.0,
     "sentiment": "neutral",
     "detected_at": "2026-10-24T10:56:12.193164Z",
-    "peak_at": "2026-10-24T10:56:12.193164Z",
+    "peak_at": "2026-10-25T11:23:45.626899Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -90,10 +100,6 @@
   },
   "events_anchor_at": "2026-10-24T10:56:12.193164Z",
   "score_history": [
-    {
-      "t": "2026-10-23T07:29:32.115517Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-23T13:24:28.792983Z",
       "s": 2.6
@@ -140,6 +146,10 @@
     },
     {
       "t": "2026-10-25T06:05:52.057635Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-10-25T11:23:45.626899Z",
       "s": 2.0
     }
   ]
