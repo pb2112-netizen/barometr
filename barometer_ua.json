@@ -1,11 +1,11 @@
 {
-  "global_score": 2.0,
-  "rationale": "Musk's restriction of Starlink military use is a significant new development directly affecting Ukraine's defense capability during active war; this is a real operational constraint, not rhetoric. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.8,
+  "rationale": "Musk's confirmed restriction of Starlink for military operations directly undermines critical Ukrainian battlefield communications infrastructure during active war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "label": "Musk restricts military Starlink use in Ukraine",
-      "summary": "SpaceX limits Ukraine's military use of Starlink network, citing terms violations. Direct operational impact on defense communications during war.",
+      "label": "Musk restricts Starlink military operations Ukraine",
+      "summary": "SpaceX owner confirms deliberate limitation of Starlink for Ukrainian military use, directly threatening critical battlefield communications infrastructure during ongoing war with Russia.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,49 +22,87 @@
       "detected_at": "2026-10-22T07:32:57.995531Z"
     },
     {
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "label": "Israel closes West Bank crossings for election",
-      "summary": "Israel restricts Palestinian movement ahead of Tuesday election. Distant Middle East event with no direct impact on Ukraine.",
-      "score": 2.0,
+      "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+      "label": "Serbia Vučić loses after 12 years",
+      "summary": "Neighboring Balkan country sees major political transition as longtime leader admits defeat, potentially affecting regional stability.",
+      "score": 2.8,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-10-24T10:56:12.194682Z"
+      "detected_at": "2026-10-25T21:46:17.827113Z"
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "label": "Venezuela opposition leader returns from exile",
+      "summary": "Nobel laureate returns to Venezuela after nearly a year abroad, though event remains distant from Ukrainian concerns.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
+        }
+      ],
+      "detected_at": "2026-10-25T21:46:17.827113Z"
     }
   ],
-  "short_summary": "Israel demolishes buildings after soldiers killed",
+  "short_summary": "Serbia Vučić loses after 12 years",
   "level_label": "Stable",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-25T19:03:51.359280Z",
+  "updated_at": "2026-10-25T21:46:17.827113Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Israel demolishes buildings after soldiers killed",
-    "summary": "Two Israeli soldiers killed at West Bank checkpoint; Israel demolishes Palestinian buildings in Hebron. Distant Middle East escalation with no direct Ukrainian impact.",
-    "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-    "score": 2.3,
+    "label": "Serbia Vučić loses after 12 years",
+    "summary": "Neighboring Balkan country sees major political transition as longtime leader admits defeat, potentially affecting regional stability.",
+    "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+    "score": 2.8,
     "sentiment": "neutral",
-    "detected_at": "2026-10-23T13:24:28.794409Z",
-    "peak_at": "2026-10-25T06:05:52.058349Z",
+    "detected_at": "2026-10-25T21:46:17.827113Z",
+    "peak_at": "2026-10-25T21:46:17.827113Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-23T13:24:28.794409Z",
+  "events_anchor_at": "2026-10-25T21:46:17.827113Z",
   "score_history": [
     {
       "t": "2026-10-23T22:08:37.785900Z",
@@ -117,6 +155,10 @@
     {
       "t": "2026-10-25T19:03:51.359280Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-10-25T21:46:17.827113Z",
+      "s": 2.8
     }
   ]
 }

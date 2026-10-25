@@ -1,14 +1,38 @@
 {
-  "global_score": 2.7,
-  "rationale": "Musk's Starlink restriction on Ukraine military use is a qualitative new development affecting regional security dynamics; Serbia elections continue with high turnout; other events remain distant or background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Serbia election defeat of longtime leader Vučić is a significant political shift in a neighboring Balkan country with EU implications; Starlink military restriction by Musk directly affects Ukraine war operations on Poland's eastern border. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+      "label": "Vučić concedes defeat to student movement Serbia",
+      "summary": "After 12 years in power, Serbia's populist leader admits electoral loss to student-led opposition, marking major political shift in neighboring Balkan state with potential EU integration implications.",
+      "score": 2.2,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-25T21:46:17.822902Z"
+    },
     {
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "label": "Musk restricts Ukraine Starlink military use",
-      "summary": "SpaceX limits Ukraine's military use of Starlink network, citing terms of service violations. Affects eastern neighbor's defense capability during ongoing war.",
-      "score": 2.7,
+      "summary": "SpaceX owner confirms deliberate restriction of Starlink for Ukrainian military operations, raising concerns about reliability of critical communications infrastructure on Poland's eastern border.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,30 +46,11 @@
       "detected_at": "2026-10-24T14:31:23.057152Z"
     },
     {
-      "title": "Early reports suggest record high turnout in Serbia elections",
-      "label": "Serbia elections see record turnout",
-      "summary": "Student movement challenges Vučić with high voter participation. Regional neighbor's political shift could affect Balkan stability.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-25T16:14:38.922187Z"
-    },
-    {
       "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-      "label": "France protests escalate with 1,300 arrests",
-      "summary": "Mass demonstrations continue across France with increased arrests. EU neighbor unrest remains background noise for Poland.",
+      "label": "France protests escalate 1,300 arrests nationwide",
+      "summary": "Mass demonstrations continue across France with over 1,300 arrests, reflecting ongoing social instability in major EU neighbor and economic partner.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -60,30 +65,30 @@
       "detected_at": "2026-10-24T10:56:12.190132Z"
     }
   ],
-  "short_summary": "Israel demolishes Hebron buildings after attack",
-  "level_label": "Stable",
+  "short_summary": "Musk restricts Ukraine Starlink military use",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-10-25T19:03:51.356880Z",
+  "updated_at": "2026-10-25T21:46:17.822902Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Israel demolishes Hebron buildings after attack",
-    "summary": "Two Israeli soldiers killed at West Bank checkpoint; Israel responds with demolitions. Regional escalation affecting EU security posture.",
-    "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-    "score": 3.1,
+    "label": "Musk restricts Ukraine Starlink military use",
+    "summary": "SpaceX owner confirms deliberate restriction of Starlink for Ukrainian military operations, raising concerns about reliability of critical communications infrastructure on Poland's eastern border.",
+    "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+    "score": 3.0,
     "sentiment": "negative",
-    "detected_at": "2026-10-22T13:46:29.300032Z",
-    "peak_at": "2026-10-24T20:46:48.200395Z",
+    "detected_at": "2026-10-24T14:31:23.057152Z",
+    "peak_at": "2026-10-25T21:46:17.822902Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-22T13:46:29.300032Z",
+  "events_anchor_at": "2026-10-24T14:31:23.057152Z",
   "score_history": [
     {
       "t": "2026-10-23T22:08:37.782633Z",
@@ -136,6 +141,10 @@
     {
       "t": "2026-10-25T19:03:51.356880Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-25T21:46:17.822902Z",
+      "s": 3.0
     }
   ]
 }
