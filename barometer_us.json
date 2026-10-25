@@ -1,12 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Obama campaigns for Democrats ahead of midterms with rhetoric; France protests continue; Vanessa Trump cancer news is celebrity health update.",
+  "global_score": 2.8,
+  "rationale": "Obama campaigns for Democrats ahead of midterms with direct criticism of Trump administration; this is active campaigning for upcoming elections with potential policy impact, not mere rhetoric.",
   "top_events": [
     {
       "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-      "label": "Obama campaigns for Democrats attacking Trump",
-      "summary": "Former president calls midterms 'last best chance to rein in foolishness' of current administration. Campaign rhetoric without policy change; no immediate impact on daily life.",
-      "score": 2.6,
+      "label": "Obama campaigns against Trump before midterms",
+      "summary": "Former president actively campaigns for Democrats, calling midterms chance to rein in current administration. Direct domestic political impact ahead of elections.",
+      "score": 2.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,12 +22,31 @@
       "detected_at": "2026-10-23T18:19:32.673862Z"
     },
     {
-      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-      "label": "France arrests 1,300 in mass protest clashes",
-      "summary": "Hundreds of thousands protested across France with demonstrations spreading to other European countries. Distant EU event with no direct impact on US daily life.",
-      "score": 1.8,
-      "sentiment": "neutral",
+      "title": "Trump's tariff pause angers some US ranchers, boosts Brazilian beef imports",
+      "label": "Trump tariff pause affects US ranchers",
+      "summary": "Tariff changes create uncertainty for American cattle industry while boosting Brazilian imports. Domestic economic impact on agriculture sector.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/25/trumps-tariff-pause-angers-some-us-ranchers-boosts-brazil-beef-imports?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-25T19:03:51.360153Z"
+    },
+    {
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "label": "Musk restricts Ukraine Starlink military use",
+      "summary": "US company SpaceX limits Ukraine's military use of network. Indirect foreign policy signal but no direct domestic impact.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-25T16:14:38.929119Z"
-    },
-    {
-      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
-      "label": "Vanessa Trump announces cancer-free status",
-      "summary": "Ex-wife of Donald Trump Jr announces she is cancer-free six months after breast cancer diagnosis. Celebrity health update with no impact on daily life.",
-      "score": 1.6,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T23:11:41.322876Z"
+      "detected_at": "2026-10-25T19:03:51.360153Z"
     }
   ],
   "short_summary": "White House adjusts tariffs on Canadian goods",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-25T16:14:38.929119Z",
+  "updated_at": "2026-10-25T19:03:51.360153Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "White House adjusts tariffs on Canadian goods",
     "summary": "Tariffs eased on some Canadian products including machinery, placed on others like carpets; policy change ahead of midterm elections.",
     "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-    "score": 2.9,
+    "score": 2.8,
     "sentiment": "neutral",
     "detected_at": "2026-10-23T18:19:32.673862Z",
     "peak_at": "2026-10-25T16:14:38.929119Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-23T18:19:32.673862Z",
   "score_history": [
-    {
-      "t": "2026-10-23T18:19:32.673862Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-23T22:08:37.787066Z",
       "s": 3.0
@@ -136,6 +132,10 @@
     {
       "t": "2026-10-25T16:14:38.929119Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-10-25T19:03:51.360153Z",
+      "s": 2.8
     }
   ]
 }

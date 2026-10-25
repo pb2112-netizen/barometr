@@ -1,33 +1,14 @@
 {
-  "global_score": 2.6,
-  "rationale": "France protests escalate with mass arrests in EU neighbor; Starlink Ukraine disruption affects regional war infrastructure; Serbia elections in Balkans matter regionally.",
+  "global_score": 2.5,
+  "rationale": "Starlink military restriction affects Black Sea neighbor Ukraine's defense; Serbia elections with record turnout matter for regional stability; France protests continue as background. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-      "label": "France arrests 1,300 in mass protest clashes",
-      "summary": "Hundreds of thousands protested across France with demonstrations spreading to other European countries. Over 1,300 arrested, signaling EU neighbor instability and potential regional spillover.",
-      "score": 2.0,
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "label": "Musk limits Ukraine Starlink military access",
+      "summary": "SpaceX restricts Ukraine's military use of Starlink network. Affects Black Sea neighbor's defense capability during active conflict.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T10:56:12.191602Z"
-    },
-    {
-      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "label": "Musk restricted Ukraine Starlink for military use",
-      "summary": "Tech billionaire claims Ukraine violated terms by using Starlink for military activity. Service restored but highlights fragility of critical infrastructure in neighboring war zone.",
-      "score": 2.6,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -42,11 +23,11 @@
     },
     {
       "title": "Early reports suggest record high turnout in Serbia elections",
-      "label": "Serbia votes as students challenge Vučić rule",
-      "summary": "Student movement attempts to oust longtime populist leader in Balkan neighbor. High turnout reported; outcome could shift regional political landscape near Romanian border.",
-      "score": 2.5,
+      "label": "Serbia votes in high-stakes election",
+      "summary": "Record turnout as students challenge Vučić. Regional neighbor's political direction matters for Balkan stability.",
+      "score": 2.4,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-10-25T16:14:38.924288Z"
+    },
+    {
+      "title": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
+      "label": "Uganda orders Ebola quarantine from Congo",
+      "summary": "Uganda implements quarantine measures as Ebola spreads in Africa. Distant health event with no direct impact on Romania.",
+      "score": 2.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/uganda-orders-21-day-ebola-quarantine-for-citizens-returning-from-dr-congo?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-25T19:03:51.357880Z"
     }
   ],
   "short_summary": "Musk restricted Ukraine Starlink for military use",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-25T16:14:38.924288Z",
+  "updated_at": "2026-10-25T19:03:51.357880Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-24T14:31:23.058899Z",
   "score_history": [
-    {
-      "t": "2026-10-23T18:19:32.667438Z",
-      "s": 4.7
-    },
     {
       "t": "2026-10-23T22:08:37.783803Z",
       "s": 2.9
@@ -136,6 +132,10 @@
     {
       "t": "2026-10-25T16:14:38.924288Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-10-25T19:03:51.357880Z",
+      "s": 2.5
     }
   ]
 }
