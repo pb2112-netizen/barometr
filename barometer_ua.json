@@ -1,12 +1,12 @@
 {
-  "global_score": 2.2,
-  "rationale": "Starlink connectivity stabilized after week of disruptions affecting military operations; Hebron demolitions continue; Oregon school shooting father's account; distant events elsewhere. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.5,
+  "rationale": "Starlink restored after week disruption affecting military operations; Melania Trump ceasefire in Oleshky continues; France protests (distant EU); Oregon shooting (distant US). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "label": "Starlink connectivity restored after week disruption",
-      "summary": "Starlink connectivity stabilized after a week of disruptions that affected Ukrainian military and drone operations. Critical infrastructure restored to baseline.",
-      "score": 2.2,
+      "label": "Starlink Ukraine restored after week limits",
+      "summary": "Starlink connectivity restored after week-long disruption that affected Ukrainian military and drone operations. Critical infrastructure stabilizes, reducing immediate operational concern.",
+      "score": 2.1,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,11 +22,30 @@
       "detected_at": "2026-10-22T07:32:57.995531Z"
     },
     {
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "label": "Israel demolishes Hebron homes after soldiers killed",
-      "summary": "Israeli forces demolished homes in Hebron following killing of two soldiers by Palestinian gunmen, days before Israel's election. Distant Middle East escalation.",
+      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      "label": "Trump praises Melania Oleshky ceasefire deal",
+      "summary": "US president praises First Lady for brokering localized ceasefire in occupied Oleshky. Humanitarian pause continues but no broader peace progress affecting war overall.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-20T10:02:31.203155Z"
+    },
+    {
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "label": "France arrests 1,000 as protests continue",
+      "summary": "Nearly 1,000 arrested in France protests, but no repeat of last weekend's riots. Distant EU event with no direct impact on Ukrainian war situation or daily life.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-23T13:24:28.794409Z"
-    },
-    {
-      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-      "label": "Oregon father killed school shooter after deaths",
-      "summary": "Father killed teenage school shooter after gunman fatally shot three children and a teacher. Distant US tragedy with no impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T23:11:41.321320Z"
+      "detected_at": "2026-10-25T01:09:05.838921Z"
     }
   ],
   "short_summary": "Trump pressures Ukraine for peace deal",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-24T23:11:41.321320Z",
+  "updated_at": "2026-10-25T01:09:05.838921Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "positive",
   "most_significant_event": {
     "label": "Trump pressures Ukraine for peace deal",
     "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
     "title": "'I don't care how it's done': Trump pressures Ukraine to cut peace deal",
-    "score": 3.7,
+    "score": 3.6,
     "sentiment": "negative",
     "detected_at": "2026-10-20T10:02:31.203155Z",
     "peak_at": "2026-10-24T14:31:23.062840Z",
@@ -132,6 +132,10 @@
     {
       "t": "2026-10-24T23:11:41.321320Z",
       "s": 2.2
+    },
+    {
+      "t": "2026-10-25T01:09:05.838921Z",
+      "s": 2.5
     }
   ]
 }
