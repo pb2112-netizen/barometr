@@ -1,13 +1,13 @@
 {
   "global_score": 2.0,
-  "rationale": "France protests continue with arrests; British tourist dies in Bahamas (distant); Brazil election rallies (cultural ties but no direct impact); Ebola in Kenya (distant Africa).",
+  "rationale": "France protests continue; Brazil election rally is cultural interest only; other events distant.",
   "top_events": [
     {
       "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "label": "France arrests 1,000 as mass protests continue",
-      "summary": "Nearly 1,000 arrested in France protests, but authorities avoid repeat of last weekend's riots. EU neighbor instability continues without direct impact on Portuguese daily life.",
+      "label": "France arrests 1,000 in mass protests",
+      "summary": "Hundreds of thousands protest across France with nearly 1,000 arrests; EU neighbor unrest continues without new escalation.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,28 +22,9 @@
       "detected_at": "2026-10-24T10:56:12.193164Z"
     },
     {
-      "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
-      "label": "British woman dies rescuing sons Bahamas",
-      "summary": "British mother dies trying to rescue sons swept away by current in Bahamas. Tragic but distant incident with no connection to Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T14:31:23.061301Z"
-    },
-    {
       "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-      "label": "Brazil Lula rally million supporters election",
-      "summary": "Over one million rally for Lula before Sunday's Brazilian runoff election. Cultural and linguistic ties to Portugal, but no direct impact on Portuguese daily life.",
+      "label": "Brazil million rally before election runoff",
+      "summary": "Over one million rally for Lula before Sunday's runoff election; cultural and linguistic ties but no direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -58,37 +39,57 @@
         }
       ],
       "detected_at": "2026-10-24T23:11:41.319586Z"
+    },
+    {
+      "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
+      "label": "British woman dies rescuing sons Bahamas",
+      "summary": "British mother dies rescuing sons swept by current in Bahamas; distant tragedy with no link to Portuguese life.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip"
+        }
+      ],
+      "detected_at": "2026-10-24T14:31:23.061301Z"
     }
   ],
-  "short_summary": "France deploys 70,000 police for protests",
+  "short_summary": "France protests continue security high alert",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-25T01:09:05.837210Z",
+  "updated_at": "2026-10-25T06:05:52.057635Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
-    "label": "France deploys 70,000 police for protests",
-    "summary": "France mobilizes over 70,000 officers amid fears of renewed demonstrations after nationwide riots. EU neighbor unrest with no direct Portuguese impact.",
-    "title": "France prepares for day of protest a week after nationwide riots",
-    "score": 2.3,
+    "label": "France protests continue security high alert",
+    "summary": "Mass protests persist in France with authorities banning some marches, raising EU neighbor security concerns for Portugal.",
+    "title": "France braces for another day of mass protests as security on high alert",
+    "score": 2.0,
     "sentiment": "neutral",
-    "detected_at": "2026-10-24T05:50:50.139022Z",
-    "peak_at": "2026-10-24T05:50:50.139022Z",
+    "detected_at": "2026-10-24T10:56:12.193164Z",
+    "peak_at": "2026-10-24T10:56:12.193164Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-24T05:50:50.139022Z",
+  "events_anchor_at": "2026-10-24T10:56:12.193164Z",
   "score_history": [
-    {
-      "t": "2026-10-23T01:29:39.208158Z",
-      "s": 2.6
-    },
     {
       "t": "2026-10-23T07:29:32.115517Z",
       "s": 2.5
@@ -135,6 +136,10 @@
     },
     {
       "t": "2026-10-25T01:09:05.837210Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-10-25T06:05:52.057635Z",
       "s": 2.0
     }
   ]
