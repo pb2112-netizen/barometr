@@ -1,11 +1,11 @@
 {
   "global_score": 2.0,
-  "rationale": "Starlink restriction rhetoric continues (no new action); Israel election restrictions distant; other events have no direct impact on Ukrainian war situation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Musk restricted Starlink for military use, directly affecting Ukrainian operations; service restored but highlights critical infrastructure vulnerability during war. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "label": "Musk restricted Ukraine Starlink for military use",
-      "summary": "SpaceX temporarily restricted Ukraine's Starlink access, citing military use violations. Service now restored; affects military communications indirectly.",
+      "summary": "Tech billionaire claims Ukraine violated terms by using Starlink for military activity. Service now restored but reveals fragility of critical communications infrastructure during active war.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-10-22T07:32:57.995531Z"
     },
     {
+      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+      "label": "Israel strikes Gaza university killing seven",
+      "summary": "Israeli air strikes kill three security guards at Islamic University in Gaza City. Distant Middle East conflict with no direct impact on Ukrainian daily life during war.",
+      "score": 1.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-25T16:14:38.927445Z"
+    },
+    {
       "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
       "label": "France arrests 1,300 in mass protest clashes",
-      "summary": "Hundreds of thousands protested across France and other European countries, leading to over 1,300 arrests. Distant EU event with no direct impact on Ukrainian war situation.",
-      "score": 2.0,
+      "summary": "Hundreds of thousands protested across France with over 1,300 arrested. Distant EU event with no impact on Ukrainian war situation or daily life.",
+      "score": 1.4,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,56 +58,33 @@
         }
       ],
       "detected_at": "2026-10-25T01:09:05.838921Z"
-    },
-    {
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "label": "Israel closes West Bank crossings for election",
-      "summary": "Israel restricts Palestinian worker movement ahead of Tuesday's election. Distant Middle East event with no direct impact on Ukrainian war situation.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-24T10:56:12.194682Z"
     }
   ],
-  "short_summary": "Trump pressures Ukraine for peace deal",
+  "short_summary": "Israel demolishes buildings after soldiers killed",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-25T11:23:45.628229Z",
+  "updated_at": "2026-10-25T16:14:38.927445Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Trump pressures Ukraine for peace deal",
-    "summary": "US president intensifies pressure on Ukraine to negotiate peace settlement, deepening uncertainty over continued Western military support during ongoing war.",
-    "title": "'I don't care how it's done': Trump pressures Ukraine to cut peace deal",
-    "score": 3.6,
-    "sentiment": "negative",
-    "detected_at": "2026-10-20T10:02:31.203155Z",
-    "peak_at": "2026-10-24T14:31:23.062840Z",
+    "label": "Israel demolishes buildings after soldiers killed",
+    "summary": "Two Israeli soldiers killed at West Bank checkpoint; Israel demolishes Palestinian buildings in Hebron. Distant Middle East escalation with no direct Ukrainian impact.",
+    "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+    "score": 2.3,
+    "sentiment": "neutral",
+    "detected_at": "2026-10-23T13:24:28.794409Z",
+    "peak_at": "2026-10-25T06:05:52.058349Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-10-20T10:02:31.203155Z",
+  "events_anchor_at": "2026-10-23T13:24:28.794409Z",
   "score_history": [
-    {
-      "t": "2026-10-23T13:24:28.794409Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-23T18:19:32.671703Z",
       "s": 3.2
@@ -135,6 +131,10 @@
     },
     {
       "t": "2026-10-25T11:23:45.628229Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-10-25T16:14:38.927445Z",
       "s": 2.0
     }
   ]

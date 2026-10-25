@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-25T11:23:45.636472Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-10-25T16:14:38.931274Z",
+  "ostatnia_ocena": 2.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France nationwide protests police deployment riots",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Mass protests after riots; 70k police deployed; EU neighbor."
     },
     {
       "temat": "Trump Musk Starlink Ukraine access restored claim",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
       "opis": "US president says Starlink restored; neighbor war signal."
     },
     {
+      "temat": "Serbia elections student movement Vučić challenge",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Record turnout as students challenge longtime leader."
+    },
+    {
       "temat": "Russia drone sinks ship Black Sea Romania casualties",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 12,
       "opis": "Russian attack near Romanian waters; sailor killed; direct."
     },
     {
       "temat": "Nigeria Ebola second death Kenya family member",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Second Ebola death in Kenya; distant African health event."
     },
     {
       "temat": "Jordan church funeral shooting Karak gunmen attack",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Seven killed at church funeral in Jordan; distant Middle."
     },
     {
       "temat": "Israel Hebron demolitions West Bank soldiers killed",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Two soldiers dead; Israel demolishes buildings; distant."
     },
     {
       "temat": "Paris Trappes shooting terror investigation France",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Gun attack near Paris kills one; terror probe; EU security."
-    },
-    {
-      "temat": "PHP programming flaws AI discovery global security",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 18,
-      "opis": "AI finds hidden PHP flaws; global cyber-security scramble."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-23T13:24:28.791061Z",
-      "s": 2.7
-    },
     {
       "t": "2026-10-23T18:19:32.667438Z",
       "s": 4.7
@@ -104,9 +100,13 @@
     {
       "t": "2026-10-25T11:23:45.625248Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-10-25T16:14:38.924288Z",
+      "s": 2.6
     }
   ],
-  "events_anchor_at": "2026-10-22T01:29:57.181641Z",
+  "events_anchor_at": "2026-10-24T14:31:23.058899Z",
   "event_detected_at": {
     "more than 1,300 arrested as clashes follow another day of mass protests across france": {
       "detected_at": "2026-10-24T10:56:12.191602Z",
@@ -126,17 +126,33 @@
     },
     "musk says spacex restricted ukraine's starlink connection as service restored": {
       "detected_at": "2026-10-24T14:31:23.058899Z",
-      "peak_at": "2026-10-24T14:31:23.058899Z",
-      "peak_score_at": "2026-10-24T14:31:23.058899Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "positive",
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "peak_label": "Ukraine Starlink restored after military disruptions",
-      "peak_summary": "Starlink connectivity stabilized after disruptions affecting Ukrainian military operations; positive signal for neighbor's defense capabilities.",
+      "peak_at": "2026-10-25T16:14:38.924288Z",
+      "peak_score_at": "2026-10-25T16:14:38.924288Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "peak_label": "Musk restricted Ukraine Starlink for military use",
+      "peak_summary": "Tech billionaire claims Ukraine violated terms by using Starlink for military activity. Service restored but highlights fragility of critical infrastructure in neighboring war zone.",
       "peak_source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "early reports suggest record high turnout in serbia elections": {
+      "detected_at": "2026-10-25T16:14:38.924288Z",
+      "peak_at": "2026-10-25T16:14:38.924288Z",
+      "peak_score_at": "2026-10-25T16:14:38.924288Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Early reports suggest record high turnout in Serbia elections",
+      "peak_label": "Serbia votes as students challenge Vučić rule",
+      "peak_summary": "Student movement attempts to oust longtime populist leader in Balkan neighbor. High turnout reported; outcome could shift regional political landscape near Romanian border.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -176,6 +192,6 @@
   "prev_top_event_titles": [
     "More than 1,300 arrested as clashes follow another day of mass protests across France",
     "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-    "Israel to close West Bank crossings on election day as crackdown escalates"
+    "Early reports suggest record high turnout in Serbia elections"
   ]
 }
