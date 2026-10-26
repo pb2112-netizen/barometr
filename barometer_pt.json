@@ -1,23 +1,28 @@
 {
-  "global_score": 4.0,
-  "rationale": "Brazil election outcome (Lula fourth term) is a major cultural and linguistic tie event with significant interest for Portuguese residents, though no direct economic or security impact on Portugal itself. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.9,
+  "rationale": "Brazil election culturally significant given language and historical ties, but no direct economic or policy impact on Portugal; other events remain distant background.",
   "top_events": [
     {
-      "title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "title": "How the streets and social media drove Lula to a historic comeback in Brazil",
       "label": "Lula wins fourth term Brazil election comeback",
-      "summary": "Left-wing incumbent defeats right-wing challenger in runoff. Major cultural and linguistic tie event with strong interest in Portugal.",
-      "score": 4.0,
-      "sentiment": "positive",
-      "nowosc": "nowe",
+      "summary": "Left-wing incumbent defeats far-right challenger in dramatic runoff. Strong cultural interest for Portugal given language and historical ties, but no direct impact on daily life.",
+      "score": 3.9,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
+        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/26/what-will-lulas-fourth-term-mean-for-brazil?traffic_source=rss"
         },
         {
           "name": "Guardian",
@@ -27,11 +32,30 @@
       "detected_at": "2026-10-25T11:23:45.626899Z"
     },
     {
-      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "label": "Serbia Vučić loses election student movement",
-      "summary": "Populist leader concedes after 12 years. Distant Balkan political transition with no direct impact on Portuguese life.",
+      "title": "80 injured after bus plunges down embankment near Barcelona",
+      "label": "Bus crash near Barcelona injures 80 people",
+      "summary": "Bus accident near Barcelona injures 80. Iberian neighbor incident, but no direct impact on Portugal beyond regional news interest.",
+      "score": 2.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/80-injured-after-bus-plunges-down-embankment-near-barcelona?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-26T23:09:59.038299Z"
+    },
+    {
+      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+      "label": "Algeria deploys troops Niger energy facilities",
+      "summary": "First foreign deployment in 50 years to protect energy sites. Distant African event with no impact on Portugal.",
       "score": 2.0,
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -40,31 +64,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-26T00:21:42.515177Z"
-    },
-    {
-      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
-      "label": "Algeria sends troops Niger first deployment",
-      "summary": "Troops to protect energy facilities near Libyan border. Distant African deployment with no link to Portugal.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/26/algerias-president-orders-troop-deployment-to-neighbouring-niger?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-26T19:17:18.544541Z"
@@ -72,12 +72,12 @@
   ],
   "short_summary": "Lula wins fourth term Brazil election comeback",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-10-26T19:17:18.544541Z",
+  "updated_at": "2026-10-26T23:09:59.038299Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Lula wins fourth term Brazil election comeback",
     "summary": "Left-wing incumbent defeats right-wing challenger in runoff. Major cultural and linguistic tie event with strong interest in Portugal.",
@@ -99,10 +99,6 @@
   },
   "events_anchor_at": "2026-10-25T11:23:45.626899Z",
   "score_history": [
-    {
-      "t": "2026-10-24T20:46:48.202475Z",
-      "s": 2.0
-    },
     {
       "t": "2026-10-24T23:11:41.319586Z",
       "s": 2.0
@@ -146,6 +142,10 @@
     {
       "t": "2026-10-26T19:17:18.544541Z",
       "s": 4.0
+    },
+    {
+      "t": "2026-10-26T23:09:59.038299Z",
+      "s": 3.9
     }
   ]
 }
