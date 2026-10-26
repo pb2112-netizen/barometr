@@ -1,13 +1,13 @@
 {
-  "global_score": 2.7,
-  "rationale": "Starlink restriction and restoration continues the pattern of connectivity disruptions affecting military operations; Serbia election brings regional change but limited direct impact on Ukraine.",
+  "global_score": 3.0,
+  "rationale": "Starlink restrictions directly affected military operations; Serbia's political shift impacts regional stability; both touch Ukraine's security environment. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "label": "Musk restricted Ukraine Starlink then restored",
-      "summary": "SpaceX temporarily limited Ukraine's military use of Starlink before restoring service, continuing the pattern of connectivity disruptions that affect military operations during the ongoing war.",
+      "label": "Musk restricted Ukraine Starlink military access",
+      "summary": "SpaceX limited Ukraine's military communications network, now restored. Direct impact on Ukrainian forces' operational capability during ongoing war.",
       "score": 2.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,31 +22,36 @@
       "detected_at": "2026-10-22T07:32:57.995531Z"
     },
     {
-      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-      "label": "Serbia's Vučić concedes to student movement",
-      "summary": "Serbia's populist leader admits defeat after 12 years, marking a political shift in a Balkan neighbor that may affect regional stability but has limited direct impact on Ukraine's war situation.",
-      "score": 2.7,
-      "sentiment": "positive",
-      "nowosc": "kontynuacja",
+      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+      "label": "Serbia's Vučić defeated by student movement",
+      "summary": "Regional neighbor sees major political transition as 12-year leader concedes. Balkan stability shift affects broader regional security environment.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss"
         }
       ],
       "detected_at": "2026-10-25T21:46:17.827113Z"
     },
     {
       "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "label": "Israel closes West Bank crossings election day",
-      "summary": "Israel restricts Palestinian movement ahead of its pivotal election, a distant Middle Eastern development with no direct impact on Ukraine's war situation.",
-      "score": 2.0,
+      "label": "Israel closes West Bank crossings for election",
+      "summary": "Israeli forces restrict Palestinian movement ahead of Tuesday vote. Distant Middle East event with no impact on Ukrainian daily life.",
+      "score": 1.5,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -60,22 +65,22 @@
       "detected_at": "2026-10-24T10:56:12.194682Z"
     }
   ],
-  "short_summary": "Serbia Vučić loses after 12 years",
-  "level_label": "Stable",
+  "short_summary": "Serbia's Vučić defeated by student movement",
+  "level_label": "Low",
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-26T00:21:42.515952Z",
+  "updated_at": "2026-10-26T06:10:50.943364Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Serbia Vučić loses after 12 years",
-    "summary": "Neighboring Balkan country sees major political transition as longtime leader admits defeat, potentially affecting regional stability.",
-    "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
-    "score": 2.8,
+    "label": "Serbia's Vučić defeated by student movement",
+    "summary": "Regional neighbor sees major political transition as 12-year leader concedes. Balkan stability shift affects broader regional security environment.",
+    "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+    "score": 3.0,
     "sentiment": "neutral",
     "detected_at": "2026-10-25T21:46:17.827113Z",
-    "peak_at": "2026-10-25T21:46:17.827113Z",
+    "peak_at": "2026-10-26T06:10:50.943364Z",
     "source_links": [
       {
         "name": "BBC",
@@ -83,20 +88,12 @@
       },
       {
         "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss"
       }
     ]
   },
   "events_anchor_at": "2026-10-25T21:46:17.827113Z",
   "score_history": [
-    {
-      "t": "2026-10-24T00:40:25.241214Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-10-24T05:50:50.141241Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-24T10:56:12.194682Z",
       "s": 2.3
@@ -144,6 +141,10 @@
     {
       "t": "2026-10-26T00:21:42.515952Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-10-26T06:10:50.943364Z",
+      "s": 3.0
     }
   ]
 }
