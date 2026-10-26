@@ -1,14 +1,8 @@
 {
-  "updated_at": "2026-10-25T21:46:17.830884Z",
+  "updated_at": "2026-10-26T00:21:42.519357Z",
   "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
-    {
-      "temat": "France nationwide protests police deployment riots",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
-      "opis": "Mass protests after riots; 70k police deployed; EU neighbor."
-    },
     {
       "temat": "Brazil election Lula Bolsonaro runoff rallies",
       "poziom_bazowy": 3.2,
@@ -17,46 +11,48 @@
     },
     {
       "temat": "Marine Le Pen French presidential campaign launch",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "Far-right leader begins campaign; EU neighbor political."
+    },
+    {
+      "temat": "Serbia Vučić election defeat student movement",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Populist leader concedes after 12 years; distant Balkan."
+    },
+    {
+      "temat": "Bulgaria presidential runoff Yotova Gyurov",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Presidential election moves to second round; distant EU."
     },
     {
       "temat": "British tourist death Bahamas snorkelling rescue",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "British mother dies rescuing sons in Bahamas; distant."
+    },
+    {
+      "temat": "France nationwide protests police deployment riots",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 12,
+      "opis": "Mass protests after riots; 70k police deployed; EU neighbor."
     },
     {
       "temat": "Kenya Ebola outbreak second death family member",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 11,
+      "cykle_bez_zmian": 12,
       "opis": "Second Ebola death in Kenya; distant African health event."
     },
     {
       "temat": "UAE oil spill tanker strike marine environment",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Miles-long oil spill on UAE coast; distant environmental."
-    },
-    {
-      "temat": "Kenya Nairobi building collapse Eastleigh trapped",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Multi-storey building collapses; many trapped; distant."
-    },
-    {
-      "temat": "Jordan church funeral shooting Karak gunmen attack",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Seven killed at church funeral in Jordan; distant Middle."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-23T22:08:37.784787Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-24T00:40:25.240101Z",
       "s": 2.3
@@ -108,10 +104,62 @@
     {
       "t": "2026-10-25T21:46:17.825299Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-26T00:21:42.515177Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-10-24T23:11:41.319586Z",
   "event_detected_at": {
+    "brazil election 2026: full second round results as lula wins comeback against flávio bolsonaro": {
+      "detected_at": "2026-10-25T11:23:45.626899Z",
+      "peak_at": "2026-10-26T00:21:42.515177Z",
+      "peak_score_at": "2026-10-26T00:21:42.515177Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Brazil election 2026: Full second round results as Lula wins comeback against Flávio Bolsonaro",
+      "peak_label": "Lula wins Brazil runoff against Bolsonaro",
+      "peak_summary": "Brazil's leftist president Lula defeats far-right challenger Flávio Bolsonaro in a runoff election, a significant political outcome in a culturally linked country with limited direct impact on.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results"
+        }
+      ]
+    },
+    "marine le pen launches french presidential campaign": {
+      "detected_at": "2026-10-25T21:46:17.825299Z",
+      "peak_at": "2026-10-25T21:46:17.825299Z",
+      "peak_score_at": "2026-10-25T21:46:17.825299Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Marine Le Pen launches French presidential campaign",
+      "peak_label": "Le Pen launches French presidential campaign",
+      "peak_summary": "Far-right leader begins campaign in neighboring France, potentially affecting future EU policy direction.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss"
+        }
+      ]
+    },
+    "serbia's veteran ruler vučić concedes election to student-led protest movement": {
+      "detected_at": "2026-10-26T00:21:42.515177Z",
+      "peak_at": "2026-10-26T00:21:42.515177Z",
+      "peak_score_at": "2026-10-26T00:21:42.515177Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "positive",
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "peak_label": "Serbia's Vučić concedes to student movement",
+      "peak_summary": "Serbia's populist leader admits defeat after 12 years, marking a political shift in a distant Balkan country with minimal direct impact on Portuguese life.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "more than one million lula supporters rally on eve of brazilian election runoff": {
       "detected_at": "2026-10-24T23:11:41.319586Z",
       "peak_at": "2026-10-25T21:46:17.825299Z",
@@ -144,22 +192,6 @@
         }
       ]
     },
-    "marine le pen launches french presidential campaign": {
-      "detected_at": "2026-10-25T21:46:17.825299Z",
-      "peak_at": "2026-10-25T21:46:17.825299Z",
-      "peak_score_at": "2026-10-25T21:46:17.825299Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Marine Le Pen launches French presidential campaign",
-      "peak_label": "Le Pen launches French presidential campaign",
-      "peak_summary": "Far-right leader begins campaign in neighboring France, potentially affecting future EU policy direction.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss"
-        }
-      ]
-    },
     "british woman dies trying to save sons on bahamas snorkelling trip": {
       "detected_at": "2026-10-24T14:31:23.061301Z",
       "peak_at": "2026-10-25T16:14:38.925830Z",
@@ -175,35 +207,11 @@
           "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip"
         }
       ]
-    },
-    "voters in brazil head to polls as lula goes up against bolsonaro's son": {
-      "detected_at": "2026-10-25T11:23:45.626899Z",
-      "peak_at": "2026-10-25T11:23:45.626899Z",
-      "peak_score_at": "2026-10-25T11:23:45.626899Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-      "peak_label": "Brazil votes in Lula versus Bolsonaro runoff",
-      "peak_summary": "Brazilians vote in presidential runoff between Lula and Flávio Bolsonaro. Cultural ties to Portuguese-speaking country, but no direct impact on Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "More than one million Lula supporters rally on eve of Brazilian election runoff",
-    "More than 1,300 arrested as clashes follow another day of mass protests across France",
-    "Marine Le Pen launches French presidential campaign"
+    "Brazil election 2026: Full second round results as Lula wins comeback against Flávio Bolsonaro",
+    "Marine Le Pen launches French presidential campaign",
+    "Serbia's veteran ruler Vučić concedes election to student-led protest movement"
   ]
 }
