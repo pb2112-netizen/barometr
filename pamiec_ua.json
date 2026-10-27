@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-10-27T14:29:29.347108Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-10-27T20:05:13.758094Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russia agrees resume peace talks US mediation Kyiv",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
-      "opis": "Russia ready for talks; US mediation; missiles continue."
-    },
-    {
       "temat": "Norway Finland Putin call diplomatic breakthrough war",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
       "opis": "First European leader contact with Putin; potential war."
     },
     {
-      "temat": "Russia drone sinks ship Black Sea Romania casualties",
+      "temat": "Russia jails IT worker Ukraine donation Binance data",
       "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 0,
+      "opis": "13-year sentence for Ukraine donation; crypto exchange."
+    },
+    {
+      "temat": "Russia drone sinks ship Black Sea Romania casualties",
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Russian attack near Romania; sailor killed; regional threat."
     },
     {
+      "temat": "Russia agrees resume peace talks US mediation Kyiv",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
+      "opis": "Russia ready for talks; US mediation; missiles continue."
+    },
+    {
       "temat": "Serbia Vučić election defeat student movement",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Balkan neighbor political transition; regional stability."
     },
     {
       "temat": "Jordan Syria strikes church attack escalation",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
-      "opis": "Jordan air strikes Syria after church attack; five killed."
-    },
-    {
-      "temat": "Melania Trump Oleshky truce humanitarian occupied",
       "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 22,
-      "opis": "US First Lady brokers ceasefire in occupied city; major."
+      "cykle_bez_zmian": 2,
+      "opis": "Jordan air strikes Syria after church attack; five killed."
     },
     {
       "temat": "Venezuela Machado returns exile opposition",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Nobel laureate returns after year abroad; distant event."
     },
     {
       "temat": "Kim Jong Un North Korea China bridge opening",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "New bridge links North Korea and China; distant alliance."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-25T16:14:38.927445Z",
-      "s": 2.0
-    },
-    {
-      "t": "2026-10-25T19:03:51.359280Z",
-      "s": 2.0
-    },
     {
       "t": "2026-10-25T21:46:17.827113Z",
       "s": 2.8
@@ -96,6 +88,10 @@
     {
       "t": "2026-10-27T14:29:29.340769Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-10-27T20:05:13.751619Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-10-27T14:29:29.340769Z",
@@ -116,6 +112,38 @@
         }
       ]
     },
+    "truce begins in ukraine city where residents ate weeds to survive": {
+      "detected_at": "2026-10-27T07:50:02.109427Z",
+      "peak_at": "2026-10-27T20:05:13.751619Z",
+      "peak_score_at": "2026-10-27T20:05:13.751619Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "positive",
+      "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "peak_label": "Oleshky ceasefire allows aid into occupied city",
+      "peak_summary": "US First Lady-brokered truce in occupied Oleshky continues; humanitarian corridor for civilians and aid delivery in southern Ukraine.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "russia jails it worker for 13 years for donating money to ukraine": {
+      "detected_at": "2026-10-27T20:05:13.751619Z",
+      "peak_at": "2026-10-27T20:05:13.751619Z",
+      "peak_score_at": "2026-10-27T20:05:13.751619Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "negative",
+      "title": "Russia jails IT worker for 13 years for donating money to Ukraine",
+      "peak_label": "Russia jails IT worker 13 years Ukraine donation",
+      "peak_summary": "Russian court sentences IT worker to 13 years for donating to Ukraine; Binance shared donation data with Russian authorities leading to conviction.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/russia-jails-it-worker-for-13-years-for-donating-money-to-ukraine?traffic_source=rss"
+        }
+      ]
+    },
     "russia targets kyiv as finnish, norwegian leaders hold rare call with putin": {
       "detected_at": "2026-10-27T14:29:29.340769Z",
       "peak_at": "2026-10-27T14:29:29.340769Z",
@@ -129,22 +157,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss"
-        }
-      ]
-    },
-    "truce begins in ukraine city where residents ate weeds to survive": {
-      "detected_at": "2026-10-27T07:50:02.109427Z",
-      "peak_at": "2026-10-27T07:50:02.109427Z",
-      "peak_score_at": "2026-10-27T07:50:02.109427Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "positive",
-      "title": "Truce begins in wartorn Ukraine city after it was announced by Melania Trump",
-      "peak_label": "Melania Trump truce begins in Oleshky",
-      "peak_summary": "Ceasefire allows aid deliveries and civilian evacuation in occupied city. Direct impact on Ukrainian residents; humanitarian relief.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -247,43 +259,11 @@
           "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
         }
       ]
-    },
-    "zelenskyy says peace talks with russia, us to restart": {
-      "detected_at": "2026-10-26T19:17:18.545399Z",
-      "peak_at": "2026-10-26T19:17:18.545399Z",
-      "peak_score_at": "2026-10-26T19:17:18.545399Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "neutral",
-      "title": "Zelenskyy says peace talks with Russia, US to restart",
-      "peak_label": "Zelenskyy peace talks Russia US restart",
-      "peak_summary": "Ukrainian president announces talks resumption. Rhetoric without confirmed action or ceasefire; war continues as background.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart?traffic_source=rss"
-        }
-      ]
-    },
-    "russian attacks on ukraine's energy infrastructure a war crime: un": {
-      "detected_at": "2026-10-26T19:17:18.545399Z",
-      "peak_at": "2026-10-26T19:17:18.545399Z",
-      "peak_score_at": "2026-10-26T19:17:18.545399Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Russian attacks on Ukraine's energy infrastructure a war crime: UN",
-      "peak_label": "UN declares Russian energy attacks war crime",
-      "peak_summary": "UN commission notes weaponization of cold in nearly five years of attacks. Continuation of known infrastructure targeting.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Norway and Finland leaders hold rare call with Putin",
-    "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
-    "Truce begins in Ukraine city where residents ate weeds to survive"
+    "Truce begins in Ukraine city where residents ate weeds to survive",
+    "Russia jails IT worker for 13 years for donating money to Ukraine"
   ]
 }
