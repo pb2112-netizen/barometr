@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-10-28T18:51:43.052121Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-10-28T23:13:32.262229Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Brazil Lula election runoff million rally",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 2,
-      "opis": "Regional partner presidential vote; limited direct US."
-    },
-    {
-      "temat": "Trump Venezuela 51st state campaign rhetoric",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
-      "opis": "Campaign rally talk about Venezuela statehood; no policy."
-    },
-    {
       "temat": "Flávio Bolsonaro flees Brazil to US",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "Brazilian senator reportedly en route US after election."
     },
     {
       "temat": "Bank Canada raises interest rates inflation",
-      "poziom_bazowy": 2.8,
+      "poziom_bazowy": 3.2,
       "cykle_bez_zmian": 0,
       "opis": "First rate hike in three years as energy prices rise."
     },
     {
+      "temat": "Spain train crash Madrid Toledo disaster",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Two high-speed trains collided; 68 dead; distant EU event."
+    },
+    {
+      "temat": "Brazil Lula election runoff million rally",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 3,
+      "opis": "Regional partner presidential vote; limited direct US."
+    },
+    {
       "temat": "Trump administration illegally fired Comey daughter judge",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 8,
       "opis": "Judge rules Trump admin illegally fired Comey's daughter."
     },
     {
       "temat": "Comey federal charges classified disclosure third time",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 7,
       "opis": "Ex-FBI chief charged third time over classified leaks 2016."
     },
     {
       "temat": "Norway Finland Putin call diplomatic breakthrough",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 6,
       "opis": "First European leader contact with Putin; ally coordination."
     },
     {
       "temat": "US Marine indicted murder robbery Japan",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 10,
       "opis": "Devin Ballard indicted; diplomatic outrage in Japan."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-26T19:17:18.546443Z",
-      "s": 4.2
-    },
-    {
-      "t": "2026-10-26T23:09:59.041375Z",
-      "s": 4.0
-    },
     {
       "t": "2026-10-27T02:04:18.837867Z",
       "s": 3.9
@@ -92,15 +84,35 @@
     {
       "t": "2026-10-28T18:51:43.048479Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-28T23:13:32.254864Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-10-28T12:51:09.180524Z",
   "event_detected_at": {
-    "flávio bolsonaro lands in miami after brazil election loss": {
+    "fed leaves interest rates unchanged despite inflation in the us": {
+      "detected_at": "2026-10-28T18:51:43.048479Z",
+      "peak_at": "2026-10-28T23:13:32.254864Z",
+      "peak_score_at": "2026-10-28T23:13:32.254864Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "peak_label": "Fed holds rates steady despite US inflation",
+      "peak_summary": "The Federal Reserve kept interest rates at 3.75-4 percent even as inflation continues to rise. Direct impact on US borrowing costs, mortgages, and economic outlook for residents.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss"
+        }
+      ]
+    },
+    "flávio bolsonaro denies fleeing brazil after landing in miami": {
       "detected_at": "2026-10-27T23:46:15.637565Z",
       "peak_at": "2026-10-27T23:46:15.637565Z",
       "peak_score_at": "2026-10-27T23:46:15.637565Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "neutral",
       "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
       "peak_label": "Flávio Bolsonaro flees Brazil US visa granted",
@@ -116,19 +128,23 @@
         }
       ]
     },
-    "bank of canada raises interest rates for the first time in three years": {
-      "detected_at": "2026-10-28T18:51:43.048479Z",
-      "peak_at": "2026-10-28T18:51:43.048479Z",
-      "peak_score_at": "2026-10-28T18:51:43.048479Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "Bank of Canada raises interest rates for the first time in three years",
-      "peak_label": "Bank Canada raises rates first time",
-      "peak_summary": "Central bank increased key rate by quarter point as energy prices pushed up inflation—indirect signal for US economy, no direct impact.",
+    "high-speed train crash kills at least 68 people in spain": {
+      "detected_at": "2026-10-28T23:13:32.254864Z",
+      "peak_at": "2026-10-28T23:13:32.254864Z",
+      "peak_score_at": "2026-10-28T23:13:32.254864Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "High-speed train crash kills at least 68 people in Spain",
+      "peak_label": "Spain train crash kills 68 near Madrid",
+      "peak_summary": "Two high-speed trains collided south of Madrid, killing at least 68. Distant European disaster with no direct impact on US daily life.",
       "peak_source_links": [
         {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss"
         }
       ]
     },
@@ -179,27 +195,11 @@
           "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss"
         }
       ]
-    },
-    "trump says he'll respect us midterm results if elections are 'honest'": {
-      "detected_at": "2026-10-27T20:05:13.753184Z",
-      "peak_at": "2026-10-27T20:05:13.753184Z",
-      "peak_score_at": "2026-10-27T20:05:13.753184Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "Trump says he'll respect US midterm results if elections are 'honest'",
-      "peak_label": "Trump casts doubt on midterm election integrity",
-      "peak_summary": "President Trump says he will respect midterm results if elections are 'honest'; rhetoric continues without policy change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/trump-says-hell-respect-us-midterm-results-if-elections-are?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Flávio Bolsonaro lands in Miami after Brazil election loss",
-    "Bank of Canada raises interest rates for the first time in three years",
-    "Trump shows off tanker with '1m barrels of oil' and floats Venezuela as 51st state"
+    "Fed leaves interest rates unchanged despite inflation in the US",
+    "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+    "High-speed train crash kills at least 68 people in Spain"
   ]
 }
