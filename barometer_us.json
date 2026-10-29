@@ -1,37 +1,50 @@
 {
-  "global_score": 3.2,
-  "rationale": "Fed leaves rates unchanged amid inflation is a confirmed policy action affecting US economy; Spain train crash is distant; Bolsonaro rhetoric continues; other events lack direct US impact.",
+  "global_score": 3.1,
+  "rationale": "Bank of Canada rate hike remains the highest impact due to economic spillover; other events are distant or rhetoric-only.",
   "top_events": [
     {
-      "title": "Fed leaves interest rates unchanged despite inflation in the US",
-      "label": "Fed holds rates steady despite US inflation",
-      "summary": "The Federal Reserve kept interest rates at 3.75-4 percent even as inflation continues to rise. Direct impact on US borrowing costs, mortgages, and economic outlook for residents.",
-      "score": 3.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "title": "Bank Canada raises interest rates inflation",
+      "label": "Bank of Canada raises rates amid inflation",
+      "summary": "Bank of Canada raises interest rates for the first time in three years as energy prices rise. Affects US economic outlook and cross-border trade indirectly.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "memory"
       ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss"
-        }
-      ],
+      "source_links": [],
       "detected_at": "2026-10-28T18:51:43.048479Z"
     },
     {
-      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-      "label": "Bolsonaro son denies fleeing Brazil to Miami",
-      "summary": "Flávio Bolsonaro landed in Miami after Brazil's election defeat, claiming political persecution. Regional interest; no direct policy impact on US residents.",
+      "title": "US ambassador suggests Trump could blame Canada if midterms don't go his way",
+      "label": "US envoy hints Trump may blame Canada",
+      "summary": "US ambassador to Canada suggests Canada could be blamed if Republicans underperform in midterms. Rhetoric-only statement with no policy impact.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms"
+        }
+      ],
+      "detected_at": "2026-10-29T02:26:32.958075Z"
+    },
+    {
+      "title": "Flávio Bolsonaro calls himself the 'leader of Brazil' after fleeing to Miami",
+      "label": "Bolsonaro son flees to Miami, claims fraud",
+      "summary": "Flávio Bolsonaro arrived in Miami after Brazil's election defeat, claiming to be victim of a coup. Rhetoric-only with no direct US policy impact.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC",
-        "Al Jazeera",
         "Guardian"
       ],
       "source_links": [
@@ -40,39 +53,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss"
-        },
-        {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
         }
       ],
       "detected_at": "2026-10-27T23:46:15.637565Z"
-    },
-    {
-      "title": "High-speed train crash kills at least 68 people in Spain",
-      "label": "Spain train crash kills 68 near Madrid",
-      "summary": "Two high-speed trains collided south of Madrid, killing at least 68. Distant European disaster with no direct impact on US daily life.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-28T23:13:32.254864Z"
     }
   ],
   "short_summary": "Lula Brazil comeback dents Trump Latin ambitions",
@@ -80,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-28T23:13:32.254864Z",
+  "updated_at": "2026-10-29T02:26:32.958075Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Lula Brazil comeback dents Trump Latin ambitions",
     "summary": "Trump-Lula relationship may have thawed but tensions could reignite. Regional partner political shift with limited direct US impact.",
@@ -100,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-28T12:51:09.180524Z",
   "score_history": [
-    {
-      "t": "2026-10-27T02:04:18.837867Z",
-      "s": 3.9
-    },
     {
       "t": "2026-10-27T07:50:02.111554Z",
       "s": 3.8
@@ -135,6 +116,10 @@
     {
       "t": "2026-10-28T23:13:32.254864Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-10-29T02:26:32.958075Z",
+      "s": 3.1
     }
   ]
 }

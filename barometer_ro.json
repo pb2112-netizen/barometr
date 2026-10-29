@@ -1,55 +1,50 @@
 {
-  "global_score": 3.9,
-  "rationale": "Spain train crash is a major EU disaster; Serbia embassy attack is a close Balkan neighbor security event; Israel election continues without change.",
+  "global_score": 3.8,
+  "rationale": "Spain train crash remains the highest impact as an EU neighbor disaster; other events are distant or rhetoric-only.",
   "top_events": [
     {
       "title": "High-speed train crash kills at least 68 people in Spain",
-      "label": "Spain train crash kills 68 near Madrid",
-      "summary": "Two high-speed trains collided south of Madrid, killing at least 68 and injuring over 100. The deadliest Spanish rail disaster in over a decade affects EU transport safety perception.",
-      "score": 3.9,
+      "label": "Spain train crash kills 68 in Toledo",
+      "summary": "Two high-speed trains collided in Spain, killing at least 68. The disaster affects an EU neighbor and raises safety concerns across European rail networks.",
+      "score": 3.8,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-28T23:13:32.246703Z"
-    },
-    {
-      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-      "label": "Attacker shot dead at Israeli embassy Belgrade",
-      "summary": "An underage male attacked an officer outside the Israeli embassy in Belgrade and was killed. Security incident in a direct Balkan neighbor, raising regional tension slightly.",
-      "score": 2.2,
-      "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-28T12:51:09.177763Z"
+      "detected_at": "2026-10-28T23:13:32.246703Z"
+    },
+    {
+      "title": "Romania extends pre-trial detention of far-right politician Calin Georgescu",
+      "label": "Romania extends Georgescu detention 30 days",
+      "summary": "Bucharest court extends pre-trial detention of far-right politician Calin Georgescu by 30 days, directly affecting Romanian domestic politics and legal proceedings.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/28/romania-extends-pre-trial-detention-of-far-right-politician-calin-georgescu?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-10-29T02:26:32.955171Z"
     },
     {
       "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "label": "Netanyahu leads Israel vote without majority",
-      "summary": "With 85% counted, Netanyahu's bloc has 53 seats in the 120-seat Knesset, pointing to continued deadlock. No direct impact on Romania; ongoing Middle East political situation.",
-      "score": 2.6,
+      "label": "Netanyahu leads Israel vote, no majority yet",
+      "summary": "Partial results show Netanyahu's bloc ahead but short of a majority, pointing to continued political deadlock in Israel with minimal direct impact on Romania.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -67,10 +62,10 @@
   ],
   "short_summary": "Spain train crash kills 68 near Madrid",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-28T23:13:32.246703Z",
+  "updated_at": "2026-10-29T02:26:32.955171Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -94,10 +89,6 @@
   },
   "events_anchor_at": "2026-10-28T23:13:32.246703Z",
   "score_history": [
-    {
-      "t": "2026-10-27T02:04:18.834625Z",
-      "s": 3.4
-    },
     {
       "t": "2026-10-27T07:50:02.105922Z",
       "s": 3.2
@@ -129,6 +120,10 @@
     {
       "t": "2026-10-28T23:13:32.246703Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-10-29T02:26:32.955171Z",
+      "s": 3.8
     }
   ]
 }
