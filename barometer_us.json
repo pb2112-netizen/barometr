@@ -1,28 +1,33 @@
 {
   "global_score": 3.1,
-  "rationale": "Bank of Canada rate hike remains the highest impact due to economic spillover; other events are distant or rhetoric-only.",
+  "rationale": "DHS hack is confirmed action affecting US infrastructure; other headlines are rhetoric or distant events.",
   "top_events": [
     {
-      "title": "Bank Canada raises interest rates inflation",
-      "label": "Bank of Canada raises rates amid inflation",
-      "summary": "Bank of Canada raises interest rates for the first time in three years as energy prices rise. Affects US economic outlook and cross-border trade indirectly.",
+      "title": "Details of thousands of US immigration agents leaked in major hack",
+      "label": "Major hack leaks 41,000 DHS staff details",
+      "summary": "Group called Department of Peace released information on more than 41,000 DHS staff; confirmed cyber attack on US infrastructure.",
       "score": 3.1,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
-        "memory"
+        "BBC"
       ],
-      "source_links": [],
-      "detected_at": "2026-10-28T18:51:43.048479Z"
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-29T09:55:42.937750Z"
     },
     {
       "title": "US ambassador suggests Trump could blame Canada if midterms don't go his way",
-      "label": "US envoy hints Trump may blame Canada",
-      "summary": "US ambassador to Canada suggests Canada could be blamed if Republicans underperform in midterms. Rhetoric-only statement with no policy impact.",
-      "score": 2.2,
+      "label": "US envoy suggests Canada midterm blame rhetoric",
+      "summary": "US ambassador to Canada suggests Canada could be blamed for midterm results; rhetoric only, no policy change.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Guardian"
@@ -36,28 +41,23 @@
       "detected_at": "2026-10-29T02:26:32.958075Z"
     },
     {
-      "title": "Flávio Bolsonaro calls himself the 'leader of Brazil' after fleeing to Miami",
-      "label": "Bolsonaro son flees to Miami, claims fraud",
-      "summary": "Flávio Bolsonaro arrived in Miami after Brazil's election defeat, claiming to be victim of a coup. Rhetoric-only with no direct US policy impact.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
+      "label": "Hayden Panettiere death ruled accidental overdose",
+      "summary": "Heroes star died from toxic effects of fentanyl and other drugs; celebrity news with no policy impact.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "inne",
       "sources": [
-        "BBC",
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
+          "url": "https://www.bbc.co.uk/news/articles/c6lylxjkkp0vo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-27T23:46:15.637565Z"
+      "detected_at": "2026-10-29T09:55:42.937750Z"
     }
   ],
   "short_summary": "Lula Brazil comeback dents Trump Latin ambitions",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-29T02:26:32.958075Z",
+  "updated_at": "2026-10-29T09:55:42.937750Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-28T12:51:09.180524Z",
   "score_history": [
-    {
-      "t": "2026-10-27T07:50:02.111554Z",
-      "s": 3.8
-    },
     {
       "t": "2026-10-27T14:29:29.342752Z",
       "s": 3.4
@@ -119,6 +115,10 @@
     },
     {
       "t": "2026-10-29T02:26:32.958075Z",
+      "s": 3.1
+    },
+    {
+      "t": "2026-10-29T09:55:42.937750Z",
       "s": 3.1
     }
   ]
