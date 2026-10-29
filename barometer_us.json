@@ -1,34 +1,15 @@
 {
-  "global_score": 4.5,
-  "rationale": "ECB president's early resignation creates uncertainty for global financial markets; DHS hack details continue to emerge affecting federal workforce.",
+  "global_score": 2.9,
+  "rationale": "ECB leadership uncertainty affects global markets; DHS hack exposing 41,000 staff records represents confirmed cyber attack on US infrastructure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "European Central Bank President Lagarde to step down early",
-      "label": "ECB President Lagarde resigns nine months early",
-      "summary": "Christine Lagarde will leave ECB presidency in February, nine months before term ends, creating uncertainty for eurozone monetary policy with potential US market impact.",
-      "score": 4.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-10-29T16:55:43.700277Z"
-    },
-    {
       "title": "Details of thousands of US immigration agents leaked in major hack",
-      "label": "DHS hack leaks 41,000 staff details",
-      "summary": "Group called Department of Peace released information on more than 41,000 DHS staff in confirmed major cyber attack.",
-      "score": 3.0,
+      "label": "Hack leaks 41,000 DHS staff records",
+      "summary": "Group called Department of Peace released information on over 41,000 DHS staff. Confirmed cyber attack on US immigration infrastructure.",
+      "score": 2.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
@@ -41,33 +22,57 @@
       "detected_at": "2026-10-29T09:55:42.937750Z"
     },
     {
-      "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-      "label": "Alaska governor probes spoiler candidate claims",
-      "summary": "Republican governor responds to New York Times allegations that Democrats recruited spoiler candidate Dan Sullivan for election interference.",
+      "title": "US ambassador suggests Trump could blame Canada if midterms don't go his way",
+      "label": "US ambassador hints Canada blame for midterms",
+      "summary": "Ambassador Pete Hoekstra suggests Canada could be blamed if Republicans underperform. Political rhetoric without confirmed policy action.",
       "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms"
+        }
+      ],
+      "detected_at": "2026-10-29T02:26:32.958075Z"
+    },
+    {
+      "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+      "label": "Bolsonaro son claims Brazil leadership from Miami",
+      "summary": "Defeated candidate's son declares himself opposition leader after fleeing to US. Regional political rhetoric without direct US policy impact.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Guardian"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
         }
       ],
-      "detected_at": "2026-10-29T16:55:43.700277Z"
+      "detected_at": "2026-10-27T23:46:15.637565Z"
     }
   ],
   "short_summary": "ECB President Lagarde resigns nine months early",
-  "level_label": "Low",
-  "trend": "rising",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-29T16:55:43.700277Z",
+  "updated_at": "2026-10-29T21:49:02.011198Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "ECB President Lagarde resigns nine months early",
     "summary": "Christine Lagarde will leave ECB presidency in February, nine months before term ends, creating uncertainty for eurozone monetary policy with potential US market impact.",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-10-29T16:55:43.700277Z",
   "score_history": [
-    {
-      "t": "2026-10-27T20:05:13.753184Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-27T23:46:15.637565Z",
       "s": 3.0
@@ -120,6 +121,10 @@
     {
       "t": "2026-10-29T16:55:43.700277Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-10-29T21:49:02.011198Z",
+      "s": 2.9
     }
   ]
 }
