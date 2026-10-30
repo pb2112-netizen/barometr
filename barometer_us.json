@@ -1,13 +1,32 @@
 {
-  "global_score": 2.8,
-  "rationale": "ECB president resignation creates global market uncertainty; DHS hack continues with 41,000 staff data leaked; Alaska election lawsuit renewed with new evidence. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.4,
+  "rationale": "Binance hack affects US crypto investors and markets; midterm early voting surge is rhetoric without outcome; no confirmed policy changes or direct security threats this cycle.",
   "top_events": [
     {
-      "title": "Details of thousands of US immigration agents leaked in major hack",
-      "label": "DHS hack leaks 41,000 staff data",
-      "summary": "Group called Department of Peace released information on over 41,000 DHS staff. Major confirmed cyber attack on US immigration infrastructure.",
-      "score": 2.8,
+      "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "label": "Binance suffers record $6.3bn hack",
+      "summary": "World's largest crypto exchange reports massive breach attributed to North Korean hackers. Direct impact on US crypto investors and financial market confidence.",
+      "score": 3.4,
       "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-30T08:37:54.315198Z"
+    },
+    {
+      "title": "More than 43 million ballots cast so far in midterms early voting surge",
+      "label": "43 million early votes cast in midterms",
+      "summary": "High early voting turnout reported, driven by Hispanic voters. No outcome yet; election rhetoric without confirmed policy change.",
+      "score": 2.3,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,37 +35,37 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c30rlxkjv2yko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-29T09:55:42.937750Z"
+      "detected_at": "2026-10-30T08:37:54.315198Z"
     },
     {
-      "title": "Trump administration renews bid to block Alaska election results",
-      "label": "Trump lawsuit cites Democratic spoiler recruitment",
-      "summary": "Updated lawsuit cites new report alleging Democratic operatives recruited competitor to confuse voters. Alaska election dispute continues.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+      "label": "Google loses $500bn on AI revenue fears",
+      "summary": "Google stock hits six-month low after revealing AI search summaries hurt ad revenue. Significant market move affecting US investors and tech sector confidence.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
       "sources": [
-        "Al Jazeera"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/30/trump-administration-renews-bid-to-block-alaska-election-results?traffic_source=rss"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-30T01:57:29.744251Z"
+      "detected_at": "2026-10-30T08:37:54.315198Z"
     }
   ],
   "short_summary": "ECB President Lagarde resigns nine months early",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-10-30T01:57:29.744251Z",
+  "updated_at": "2026-10-30T08:37:54.315198Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -66,10 +85,6 @@
   },
   "events_anchor_at": "2026-10-29T16:55:43.700277Z",
   "score_history": [
-    {
-      "t": "2026-10-28T05:39:16.925399Z",
-      "s": 2.9
-    },
     {
       "t": "2026-10-28T12:51:09.180524Z",
       "s": 3.2
@@ -101,6 +116,10 @@
     {
       "t": "2026-10-30T01:57:29.744251Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-10-30T08:37:54.315198Z",
+      "s": 3.4
     }
   ]
 }

@@ -1,31 +1,12 @@
 {
-  "global_score": 8.0,
-  "rationale": "Russian drone strike on Dnipro train station killing 14 civilians represents continued major attack on Ukrainian infrastructure; Kherson ceasefire extension offers brief respite. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.6,
+  "rationale": "Kherson ceasefire continues without new breaches; no new military escalation or infrastructure attacks this cycle; distant events (crypto, Syria, Sudan) irrelevant to war-time Ukraine.",
   "top_events": [
     {
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "label": "Russia drone kills 14 at Dnipro station",
-      "summary": "Russian drone struck Dnipro train station killing 14 civilians including 11-year-old boy, wounding 14 more. Major attack on civilian infrastructure.",
-      "score": 8.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-28T23:13:32.252016Z"
-    },
-    {
       "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-      "label": "Kherson ceasefire brings brief calm to residents",
-      "summary": "Temporary ceasefire brings rare quiet to Kherson. Residents experience glimpse of normal life but fear resumption of fighting.",
-      "score": 3.8,
+      "label": "Kherson ceasefire holds, residents fear return",
+      "summary": "Temporary truce in Kherson continues with no new breaches. No qualitative change from existing ceasefire; residents remain cautious about fighting resuming.",
+      "score": 3.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,16 +20,35 @@
         }
       ],
       "detected_at": "2026-10-29T21:49:02.009561Z"
+    },
+    {
+      "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "label": "Binance hit by $6.3bn hack",
+      "summary": "World's largest crypto exchange reports massive breach. Irrelevant to daily life in war-time Ukraine; no impact on security or infrastructure.",
+      "score": 1.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-10-30T08:37:54.313299Z"
     }
   ],
   "short_summary": "Russia drone kills 14 at Dnipro station",
-  "level_label": "High",
+  "level_label": "Low",
   "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-10-30T01:57:29.742339Z",
+  "updated_at": "2026-10-30T08:37:54.313299Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Russia drone kills 14 at Dnipro station",
     "summary": "Russian drone struck Dnipro train station killing 14 civilians including 11-year-old boy. Major attack on civilian infrastructure in central Ukraine.",
@@ -66,10 +66,6 @@
   },
   "events_anchor_at": "2026-10-28T23:13:32.252016Z",
   "score_history": [
-    {
-      "t": "2026-10-28T05:39:16.924211Z",
-      "s": 4.9
-    },
     {
       "t": "2026-10-28T12:51:09.179615Z",
       "s": 4.8
@@ -101,6 +97,10 @@
     {
       "t": "2026-10-30T01:57:29.742339Z",
       "s": 8.0
+    },
+    {
+      "t": "2026-10-30T08:37:54.313299Z",
+      "s": 3.6
     }
   ]
 }
