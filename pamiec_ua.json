@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-30T15:55:41.525776Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-10-30T20:47:00.550398Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Russia drone strike Dnipro train station civilian deaths",
-      "poziom_bazowy": 7.0,
-      "cykle_bez_zmian": 4,
-      "opis": "Russian drone killed 14 at Dnipro station; major attack."
-    },
-    {
       "temat": "Ukraine Kherson ceasefire local truce extension",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 12,
       "opis": "Ceasefire extended in Kherson; stranded residents safe."
     },
     {
+      "temat": "Russia drone strike Dnipro train station civilian deaths",
+      "poziom_bazowy": 6.5,
+      "cykle_bez_zmian": 5,
+      "opis": "Russian drone killed 14 at Dnipro station; major attack."
+    },
+    {
       "temat": "Norway Finland Putin call diplomatic breakthrough war",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 14,
       "opis": "First European leader contact with Putin; potential war."
     },
     {
-      "temat": "Russia Novaya Gazeta shutdown press freedom crackdown",
-      "poziom_bazowy": 2.2,
+      "temat": "G20 Atlanta Lavrov photo boycott European ministers",
+      "poziom_bazowy": 2.4,
       "cykle_bez_zmian": 1,
+      "opis": "European ministers boycott photo with Lavrov; diplomatic."
+    },
+    {
+      "temat": "Russia Novaya Gazeta shutdown press freedom crackdown",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
       "opis": "Prominent independent Russian newspaper closed by."
     },
     {
       "temat": "Iran Strait Hormuz tanker mines IRGC naval attack",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 4,
       "opis": "IRGC reports four tankers struck mines; distant Gulf event."
     },
     {
       "temat": "Putin Musk satellite talks SpaceX contact",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Putin praises Musk; close contact claimed; rhetoric only."
     },
     {
       "temat": "Ethiopia Russia jets Tigray war arms deal",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Ethiopia buys Russian warplanes; distant conflict."
-    },
-    {
-      "temat": "Africa Ebola outbreak unprecedented spread",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
-      "opis": "Africa CDC warns of Ebola spreading; distant health crisis."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-28T18:51:43.047342Z",
-      "s": 4.6
-    },
     {
       "t": "2026-10-28T23:13:32.252016Z",
       "s": 2.5
@@ -88,11 +84,15 @@
     {
       "t": "2026-10-30T15:55:41.517835Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-10-30T20:47:00.544189Z",
+      "s": 3.2
     }
   ],
   "events_anchor_at": "2026-10-28T23:13:32.252016Z",
   "event_detected_at": {
-    "residents leave devastated russian-occupied oleshky as evacuation corridor opens": {
+    "hundreds evacuated from russian-occupied oleshky during rare ukraine ceasefire": {
       "detected_at": "2026-10-30T15:55:41.517835Z",
       "peak_at": "2026-10-30T15:55:41.517835Z",
       "peak_score_at": "2026-10-30T15:55:41.517835Z",
@@ -105,6 +105,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "g20 'family photo' cancelled after protests over presence of russian minister": {
+      "detected_at": "2026-10-30T20:47:00.544189Z",
+      "peak_at": "2026-10-30T20:47:00.544189Z",
+      "peak_score_at": "2026-10-30T20:47:00.544189Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "peak_label": "G20 photo cancelled over Russian minister Lavrov presence",
+      "peak_summary": "European ministers boycott photo with Lavrov at Atlanta summit. Diplomatic tension but no direct impact on war.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "they strangled us, says founder of russian newspaper shut under pressure from authorities": {
+      "detected_at": "2026-10-30T15:55:41.517835Z",
+      "peak_at": "2026-10-30T15:55:41.517835Z",
+      "peak_score_at": "2026-10-30T15:55:41.517835Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Prominent Russian newspaper shuts down under pressure from authorities",
+      "peak_label": "Russian newspaper Novaya Gazeta shuts down",
+      "peak_summary": "Kremlin closes major independent outlet; signals continued authoritarian pressure but no direct impact on Ukraine's war situation.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -121,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "prominent russian newspaper shuts down under pressure from authorities": {
-      "detected_at": "2026-10-30T15:55:41.517835Z",
-      "peak_at": "2026-10-30T15:55:41.517835Z",
-      "peak_score_at": "2026-10-30T15:55:41.517835Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Prominent Russian newspaper shuts down under pressure from authorities",
-      "peak_label": "Russian newspaper Novaya Gazeta shuts down",
-      "peak_summary": "Kremlin closes major independent outlet; signals continued authoritarian pressure but no direct impact on Ukraine's war situation.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -171,43 +187,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "israeli strikes hit gaza as health ministry urges rafah opening": {
-      "detected_at": "2026-10-29T16:55:43.698175Z",
-      "peak_at": "2026-10-29T16:55:43.698175Z",
-      "peak_score_at": "2026-10-29T16:55:43.698175Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
-      "peak_label": "Israeli strikes continue in Gaza",
-      "peak_summary": "Israeli attacks continue in Gaza despite ceasefire claims, with Health Ministry reporting dozens died awaiting treatment abroad.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening?traffic_source=rss"
-        }
-      ]
-    },
-    "sudan paramilitary drone strikes cause mass power cuts in eastern states": {
-      "detected_at": "2026-10-28T12:51:09.179615Z",
-      "peak_at": "2026-10-29T16:55:43.698175Z",
-      "peak_score_at": "2026-10-28T12:51:09.179615Z",
-      "peak_score": 1.9,
-      "peak_sentiment": "negative",
-      "title": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
-      "peak_label": "Sudan RSF drone strikes hit five power stations",
-      "peak_summary": "Rapid Support Forces struck five power stations in army-controlled states. Distant African conflict with no Ukrainian impact.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-    "Russian, Ukrainian humanitarian officials enter Oleshky",
-    "Prominent Russian newspaper shuts down under pressure from authorities"
+    "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+    "G20 'family photo' cancelled after protests over presence of Russian minister",
+    "They strangled us, says founder of Russian newspaper shut under pressure from authorities"
   ]
 }
