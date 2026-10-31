@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-31T00:46:51.121340Z",
-  "ostatnia_ocena": 5.2,
+  "updated_at": "2026-10-31T06:59:18.004484Z",
+  "ostatnia_ocena": 7.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukraine Kherson ceasefire local truce extension",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
       "opis": "Ceasefire extended in Kherson; stranded residents safe."
     },
     {
       "temat": "US Patriot missiles Ukraine sale air defense upgrade",
-      "poziom_bazowy": 8.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 7.8,
+      "cykle_bez_zmian": 1,
       "opis": "US approves 500 Patriot missiles; major air defense boost."
     },
     {
       "temat": "Oleshky evacuation ceasefire Russian-occupied territory",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 1,
       "opis": "Hundreds evacuated from front-line town during rare."
     },
     {
       "temat": "Russia drone strike Dnipro train station civilian deaths",
-      "poziom_bazowy": 6.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 5.9,
+      "cykle_bez_zmian": 7,
       "opis": "Russian drone killed 14 at Dnipro station; major attack."
     },
     {
       "temat": "Norway Finland Putin call diplomatic breakthrough war",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 16,
       "opis": "First European leader contact with Putin; potential war."
     },
     {
       "temat": "G20 Atlanta Lavrov photo boycott European ministers",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 3,
       "opis": "European ministers boycott photo with Lavrov; diplomatic."
+    },
+    {
+      "temat": "US China espionage arrests spying case",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Two Chinese nationals jailed for spying; distant event."
     },
     {
       "temat": "Russia Novaya Gazeta shutdown press freedom crackdown",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Prominent independent Russian newspaper closed by."
-    },
-    {
-      "temat": "Iran Strait Hormuz tanker mines IRGC naval attack",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
-      "opis": "IRGC reports four tankers struck mines; distant Gulf event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-29T02:26:32.956954Z",
-      "s": 2.5
-    },
     {
       "t": "2026-10-29T09:55:42.935534Z",
       "s": 2.5
@@ -88,23 +84,31 @@
     {
       "t": "2026-10-31T00:46:51.116823Z",
       "s": 5.2
+    },
+    {
+      "t": "2026-10-31T06:59:17.996942Z",
+      "s": 7.8
     }
   ],
   "events_anchor_at": "2026-10-31T00:46:51.116823Z",
   "event_detected_at": {
     "us approves sale of 500 patriot missiles to ukraine": {
       "detected_at": "2026-10-31T00:46:51.116823Z",
-      "peak_at": "2026-10-31T00:46:51.116823Z",
-      "peak_score_at": "2026-10-31T00:46:51.116823Z",
-      "peak_score": 5.2,
+      "peak_at": "2026-10-31T06:59:17.996942Z",
+      "peak_score_at": "2026-10-31T06:59:17.996942Z",
+      "peak_score": 7.8,
       "peak_sentiment": "positive",
       "title": "US approves sale of 500 Patriot missiles to Ukraine",
       "peak_label": "US approves 500 Patriot missiles to Ukraine",
-      "peak_summary": "Major breakthrough: American-made interceptors are the only effective weapon for downing Russia's ballistic missiles, significantly strengthening Ukraine's air defense against ongoing attacks.",
+      "peak_summary": "Major defensive weapons sale provides only effective system against Russian ballistic missiles, significantly strengthening Ukraine's air defense capabilities.",
       "peak_source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss"
         }
       ]
     },
@@ -112,7 +116,7 @@
       "detected_at": "2026-10-30T15:55:41.517835Z",
       "peak_at": "2026-10-31T00:46:51.116823Z",
       "peak_score_at": "2026-10-31T00:46:51.116823Z",
-      "peak_score": 4.1,
+      "peak_score": 4.0,
       "peak_sentiment": "positive",
       "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
       "peak_label": "Hundreds evacuated from Oleshky during ceasefire",
@@ -121,6 +125,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us jails two chinese nationals for spying": {
+      "detected_at": "2026-10-31T06:59:17.996942Z",
+      "peak_at": "2026-10-31T06:59:17.996942Z",
+      "peak_score_at": "2026-10-31T06:59:17.996942Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "neutral",
+      "title": "US jails two Chinese nationals for spying",
+      "peak_label": "US jails two Chinese spies",
+      "peak_summary": "Chinese nationals admitted facilitating cash payments to US contacts, distant espionage case with no direct Ukraine impact.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss"
         }
       ]
     },
@@ -176,6 +196,6 @@
   "prev_top_event_titles": [
     "US approves sale of 500 Patriot missiles to Ukraine",
     "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-    "G20 'family photo' cancelled after protests over presence of Russian minister"
+    "US jails two Chinese nationals for spying"
   ]
 }
