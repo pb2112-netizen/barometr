@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-10-30T20:47:00.551338Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-10-31T00:46:51.121995Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US Christa Pike failed execution statement Tennessee",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
-      "opis": "Inmate speaks after surviving lethal injection attempt."
-    },
-    {
-      "temat": "Pope Leo XIV US election vote Chicago midterm",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
-      "opis": "First pontiff to vote in US election; symbolic cultural."
-    },
-    {
-      "temat": "ECB Lagarde resignation early departure markets",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 5,
-      "opis": "ECB president resigns early; global market uncertainty."
-    },
-    {
       "temat": "Iran Strait Hormuz tanker mines IRGC naval attack",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 5,
       "opis": "IRGC reports four tankers struck mines; oil route threat."
     },
     {
       "temat": "Binance crypto hack security breach funds frozen",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 3,
       "opis": "World's largest crypto exchange reports $3bn frozen; hack."
     },
     {
+      "temat": "US Patriot missiles Ukraine sale military aid policy",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "US approves 500 Patriot missiles to Ukraine; major."
+    },
+    {
+      "temat": "ECB Lagarde resignation early departure markets",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 6,
+      "opis": "ECB president resigns early; global market uncertainty."
+    },
+    {
       "temat": "Google stock plunge AI revenue fears Wall Street",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Google loses $500bn value as AI search hurts ad revenue."
     },
     {
       "temat": "Houthi forces attack Saudi airports oil facilities",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 5,
       "opis": "Houthis claim six attacks on Saudi targets; oil risk."
     },
     {
       "temat": "DHS hack immigration agents data leak cyber",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 7,
       "opis": "41,000 DHS staff info leaked; confirmed cyber attack."
+    },
+    {
+      "temat": "US Christa Pike failed execution statement Tennessee",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
+      "opis": "Inmate speaks after surviving lethal injection attempt."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-28T23:13:32.254864Z",
-      "s": 3.2
-    },
     {
       "t": "2026-10-29T02:26:32.958075Z",
       "s": 3.1
@@ -88,15 +84,51 @@
     {
       "t": "2026-10-30T20:47:00.545802Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-10-31T00:46:51.117997Z",
+      "s": 4.2
     }
   ],
-  "events_anchor_at": "2026-10-30T08:37:54.315198Z",
+  "events_anchor_at": "2026-10-31T00:46:51.117997Z",
   "event_detected_at": {
+    "us approves sale of 500 patriot missiles to ukraine": {
+      "detected_at": "2026-10-31T00:46:51.117997Z",
+      "peak_at": "2026-10-31T00:46:51.117997Z",
+      "peak_score_at": "2026-10-31T00:46:51.117997Z",
+      "peak_score": 4.2,
+      "peak_sentiment": "neutral",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "peak_label": "US approves 500 Patriot missiles to Ukraine",
+      "peak_summary": "Major US policy action: approval of advanced air defense systems to Ukraine represents significant military commitment and budget allocation in ongoing conflict with Russia.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "iran war live: oil tankers hit in hormuz; trump says conflict will end soon": {
+      "detected_at": "2026-10-31T00:46:51.117997Z",
+      "peak_at": "2026-10-31T00:46:51.117997Z",
+      "peak_score_at": "2026-10-31T00:46:51.117997Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+      "peak_label": "Oil tankers hit in Strait of Hormuz",
+      "peak_summary": "IRGC reports four tankers struck in Strait of Hormuz, threatening key oil route, though Trump rhetoric about ending conflict soon remains unconfirmed policy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss"
+        }
+      ]
+    },
     "crypto giant binance attempting to recover $6.3bn stolen in hack linked to north korea": {
       "detected_at": "2026-10-30T08:37:54.315198Z",
       "peak_at": "2026-10-30T08:37:54.315198Z",
       "peak_score_at": "2026-10-30T08:37:54.315198Z",
-      "peak_score": 3.3,
+      "peak_score": 3.2,
       "peak_sentiment": "negative",
       "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
       "peak_label": "Binance suffers record $6.3bn hack",
@@ -203,47 +235,11 @@
           "url": "https://www.aljazeera.com/news/2026/10/30/trump-administration-renews-bid-to-block-alaska-election-results?traffic_source=rss"
         }
       ]
-    },
-    "us ambassador suggests trump could blame canada if midterms don't go his way": {
-      "detected_at": "2026-10-29T02:26:32.958075Z",
-      "peak_at": "2026-10-29T21:49:02.011198Z",
-      "peak_score_at": "2026-10-29T21:49:02.011198Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "neutral",
-      "title": "US ambassador suggests Trump could blame Canada if midterms don't go his way",
-      "peak_label": "US ambassador hints Canada blame for midterms",
-      "peak_summary": "Ambassador Pete Hoekstra suggests Canada could be blamed if Republicans underperform. Political rhetoric without confirmed policy action.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms"
-        }
-      ]
-    },
-    "flávio bolsonaro calls himself 'leader of brazil' after election loss": {
-      "detected_at": "2026-10-27T23:46:15.637565Z",
-      "peak_at": "2026-10-29T21:49:02.011198Z",
-      "peak_score_at": "2026-10-29T21:49:02.011198Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "neutral",
-      "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-      "peak_label": "Bolsonaro son claims Brazil leadership from Miami",
-      "peak_summary": "Defeated candidate's son declares himself opposition leader after fleeing to US. Regional political rhetoric without direct US policy impact.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-    "US tech stocks see sharp falls as AI spending nears $1tn",
-    "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution"
+    "US approves sale of 500 Patriot missiles to Ukraine",
+    "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+    "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea"
   ]
 }
