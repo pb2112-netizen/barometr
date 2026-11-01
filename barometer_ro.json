@@ -1,34 +1,15 @@
 {
-  "global_score": 4.7,
-  "rationale": "Ukraine evacuations from Russian-occupied Oleshky show ongoing war impact near Black Sea region; France protests and Ebola outbreak more distant.",
+  "global_score": 2.9,
+  "rationale": "Ukraine conflict continues without new escalation; France protests and regional events remain background; no qualitative change affecting Romania. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-      "label": "Ukrainians evacuated from occupied Oleshky",
-      "summary": "Hundreds evacuated from Russian-occupied front-line city after years without food, water, or electricity; Black Sea region conflict continues affecting neighbors.",
-      "score": 4.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-10-31T18:32:42.567723Z"
-    },
-    {
       "title": "Thousands demonstrate in Paris as protests spread across Europe",
-      "label": "France protests spread across Europe",
-      "summary": "Over 320,000 demonstrate in France against cost of living; EU-wide unrest with potential spillover to Romanian economy and regional stability.",
-      "score": 3.0,
+      "label": "France protests spread across Europe over living costs",
+      "summary": "Over 320,000 protest in France against cost of living; EU-wide economic pressures continue but no direct impact on Romania yet.",
+      "score": 2.9,
       "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
@@ -42,11 +23,11 @@
     },
     {
       "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-      "label": "DR Congo Ebola kills over 5,000",
-      "summary": "Deadliest outbreak with over 10,000 infected; distant African crisis with minimal direct impact on Romanian daily life but potential global health concern.",
-      "score": 2.6,
+      "label": "DR Congo Ebola outbreak exceeds 5,000 deaths",
+      "summary": "Distant health crisis in Central Africa with no connection to Romania; tragic but geographically remote.",
+      "score": 2.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "katastrofa",
       "sources": [
         "BBC"
@@ -58,16 +39,35 @@
         }
       ],
       "detected_at": "2026-10-31T22:28:39.951818Z"
+    },
+    {
+      "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "label": "Heavy rain and floods hit Greece and Turkey",
+      "summary": "Regional weather event in southeastern Europe continues; indirect concern for Black Sea neighbor but no direct impact on Romania.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey"
+        }
+      ],
+      "detected_at": "2026-10-31T00:46:51.114452Z"
     }
   ],
   "short_summary": "US approves 500 Patriot missiles to Ukraine",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-10-31T22:28:39.951818Z",
+  "updated_at": "2026-11-01T02:13:01.477406Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US approves 500 Patriot missiles to Ukraine",
     "summary": "Major air defense upgrade for Ukraine affects Black Sea security dynamics and regional stability near Romania's borders.",
@@ -89,10 +89,6 @@
   },
   "events_anchor_at": "2026-10-31T00:46:51.114452Z",
   "score_history": [
-    {
-      "t": "2026-10-30T01:57:29.738920Z",
-      "s": 6.2
-    },
     {
       "t": "2026-10-30T08:37:54.310003Z",
       "s": 3.1
@@ -124,6 +120,10 @@
     {
       "t": "2026-10-31T22:28:39.951818Z",
       "s": 4.7
+    },
+    {
+      "t": "2026-11-01T02:13:01.477406Z",
+      "s": 2.9
     }
   ]
 }
