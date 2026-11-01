@@ -1,13 +1,13 @@
 {
-  "global_score": 3.2,
-  "rationale": "Ukrainian evacuees reuniting after years in occupied Oleshky continues known humanitarian situation; no new military escalation or infrastructure attacks this cycle.",
+  "global_score": 3.0,
+  "rationale": "Kherson ceasefire ending with continued Russian strikes cutting power to thousands directly affects Ukrainian civilians; ongoing attacks maintain high security threat. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-      "label": "Ukrainians reunite after Oleshky evacuation",
-      "summary": "Residents evacuated from Oleshky reunite with families after years without food, water, or electricity. Continuation of known front-line humanitarian crisis.",
-      "score": 3.2,
-      "sentiment": "positive",
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+      "label": "Russian strikes cut power to thousands in Ukraine as",
+      "summary": "Rare Kherson ceasefire that allowed civilian evacuations is ending; Russian strikes continue cutting power to thousands of Ukrainian residents.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,16 +16,35 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-10-30T15:55:41.517835Z"
+      "detected_at": "2026-11-01T20:29:48.734241Z"
     },
     {
-      "title": "Israeli attacks on Gaza kill at least nine people",
-      "label": "Israeli strikes kill nine in Gaza",
-      "summary": "Attacks on Gaza City and Khan Younis killed nine. Distant Middle East conflict with no direct impact on Ukrainian daily life.",
-      "score": 2.0,
+      "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+      "label": "Israeli strikes kill eight in Gaza",
+      "summary": "Israeli strikes killed eight people including a child in Gaza, but this distant Middle East conflict has no direct impact on Ukraine's war situation.",
+      "score": 1.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-01T16:02:19.997281Z"
+    },
+    {
+      "title": "Hebron siege continues for 10th day as Israel threatens wider offensive",
+      "label": "Hebron siege continues for tenth day",
+      "summary": "Israeli forces continue Hebron siege with economic losses exceeding $3.8m, but this distant Middle East situation does not affect Ukraine's security.",
+      "score": 1.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,10 +54,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-01T16:02:19.997281Z"
+      "detected_at": "2026-11-01T20:29:48.734241Z"
     }
   ],
   "short_summary": "Ukrainians evacuated from occupied Oleshky",
@@ -46,9 +65,9 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-01T16:02:19.997281Z",
+  "updated_at": "2026-11-01T20:29:48.734241Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Ukrainians evacuated from occupied Oleshky",
     "summary": "Hundreds evacuated from Russian-occupied Oleshky after years without food, water, or electricity, crossing minefields; ongoing humanitarian crisis in occupied territories.",
@@ -101,6 +120,10 @@
     {
       "t": "2026-11-01T16:02:19.997281Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-01T20:29:48.734241Z",
+      "s": 3.0
     }
   ]
 }
