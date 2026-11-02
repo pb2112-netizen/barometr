@@ -1,14 +1,33 @@
 {
-  "global_score": 3.9,
-  "rationale": "German cost-of-living protests with looting mirror France's unrest, signaling broader EU economic pressure; Ukraine ceasefire ending maintains regional security concern.",
+  "global_score": 3.8,
+  "rationale": "Ukraine air raid app hack creates direct security concern for Poland as neighbor; German cost-of-living protests signal spreading EU unrest; Kherson ceasefire ends with power cuts continuing regional instability.",
   "top_events": [
     {
-      "title": "Shops looted as German cost-of-living protests turn violent",
-      "label": "German protests turn violent across major cities",
-      "summary": "Violent protests erupted in Berlin, Hamburg, and Frankfurt over cost of living, mirroring France's unrest and signaling spreading economic pressure across the EU.",
-      "score": 3.9,
+      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+      "label": "Ukraine air raid app hacked with false radiation alert",
+      "summary": "Cyberattack on Ukraine's emergency warning system creates confusion and panic near Poland's border, raising concerns about hybrid warfare spillover and information security in the region.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-02T00:43:07.675721Z"
+    },
+    {
+      "title": "Shops looted as German cost-of-living protests turn violent",
+      "label": "German cost-of-living protests turn violent with looting",
+      "summary": "Violent protests spread to Germany after France, signaling deepening economic discontent across major EU economies that could affect Poland's regional stability and trade.",
+      "score": 3.8,
+      "sentiment": "negative",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -22,42 +41,28 @@
       "detected_at": "2026-11-01T09:14:40.501614Z"
     },
     {
-      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
-      "label": "Russian strikes cut power to thousands in Ukraine as",
-      "summary": "Rare Kherson ceasefire allowed evacuations but is now ending; Russian strikes continue cutting power to Ukrainian civilians near Poland's eastern border.",
-      "score": 3.8,
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "label": "Russian strikes cut power as Kherson ceasefire ends",
+      "summary": "Humanitarian pause expires with renewed infrastructure attacks in Ukraine, continuing energy warfare pattern that affects regional security and refugee flows toward Poland.",
+      "score": 3.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-01T20:29:48.730986Z"
-    },
-    {
-      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-      "label": "Binance covers 90% of $6.3bn hack losses",
-      "summary": "Binance reports covering most losses from North Korea-linked hack, reducing immediate market impact but highlighting ongoing crypto security risks.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-01T16:02:19.992448Z"
     }
   ],
   "short_summary": "German protests turn violent across major cities",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-01T20:29:48.730986Z",
+  "updated_at": "2026-11-02T00:43:07.675721Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "German protests turn violent across major cities",
     "summary": "Violent protests erupted in Berlin, Hamburg, and Frankfurt over cost of living, mirroring unrest in France. Regional instability spreads to Poland's key EU neighbor and trade partner.",
     "title": "Shops looted as German cost of living protests turn violent",
-    "score": 4.0,
+    "score": 3.9,
     "sentiment": "negative",
     "detected_at": "2026-11-01T09:14:40.501614Z",
     "peak_at": "2026-11-01T09:14:40.501614Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-01T09:14:40.501614Z",
   "score_history": [
-    {
-      "t": "2026-10-30T20:47:00.537898Z",
-      "s": 3.0
-    },
     {
       "t": "2026-10-31T00:46:51.113120Z",
       "s": 5.8
@@ -124,6 +125,10 @@
     {
       "t": "2026-11-01T20:29:48.730986Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-11-02T00:43:07.675721Z",
+      "s": 3.8
     }
   ]
 }
