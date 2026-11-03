@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-11-02T18:20:05.042857Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-11-03T01:34:36.686943Z",
+  "ostatnia_ocena": 4.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukraine Kherson ceasefire local truce extension",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
       "opis": "Ceasefire extended in Kherson; stranded residents safe."
     },
     {
       "temat": "Russia aerial bombing Ukraine aid centre mass casualties",
-      "poziom_bazowy": 7.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 7.3,
+      "cykle_bez_zmian": 1,
       "opis": "Nine 3,000kg bombs hit aid centre; 18 dead, 27 missing."
     },
     {
+      "temat": "European troops Ukraine deployment rehearsal peacekeeping",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Western forces plan Ukraine deployment exercises; support."
+    },
+    {
       "temat": "Ukraine air raid app cyberattack false radiation alert",
-      "poziom_bazowy": 4.9,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 3,
       "opis": "Critical civilian warning system hacked; wartime threat."
     },
     {
       "temat": "US Patriot missiles Ukraine sale air defense upgrade",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 12,
       "opis": "US approves 500 Patriot missiles; major air defense boost."
     },
     {
       "temat": "Russia drone strike Dnipro train station civilian deaths",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 18,
       "opis": "Russian drone killed 14 at Dnipro station; major attack."
     },
     {
       "temat": "Turkey Erdogan Zelenskyy Black Sea grain corridor talks",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 8,
       "opis": "Erdogan hosts Zelenskyy; new grain corridor talks; export."
     },
     {
       "temat": "Oleshky evacuation ceasefire Russian-occupied territory",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 12,
       "opis": "Hundreds evacuated from front-line town during rare."
-    },
-    {
-      "temat": "Iran Hormuz Strait reopening talks Qatar mediation",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Iran-Qatar talks on reopening Hormuz; distant diplomatic."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-10-31T18:32:42.569302Z",
-      "s": 6.8
-    },
-    {
-      "t": "2026-10-31T22:28:39.953894Z",
-      "s": 5.2
-    },
     {
       "t": "2026-11-01T02:13:01.479909Z",
       "s": 3.5
@@ -88,13 +80,17 @@
     {
       "t": "2026-11-02T18:20:05.038434Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-11-03T01:34:36.683027Z",
+      "s": 4.8
     }
   ],
-  "events_anchor_at": "2026-11-02T18:20:05.038434Z",
+  "events_anchor_at": "2026-11-03T01:34:36.683027Z",
   "event_detected_at": {
-    "russian bombing kills 18 people at ukraine aid centre, kyiv says": {
+    "russian bombing kills 26 people at ukraine aid centre, kyiv says": {
       "detected_at": "2026-11-01T20:29:48.734241Z",
-      "peak_at": "2026-11-01T20:29:48.734241Z",
+      "peak_at": "2026-11-03T01:34:36.683027Z",
       "peak_score_at": "2026-11-01T20:29:48.734241Z",
       "peak_score": 3.0,
       "peak_sentiment": "negative",
@@ -108,11 +104,27 @@
         }
       ]
     },
+    "thousands of european troops to rehearse ukraine deployment in event of peace": {
+      "detected_at": "2026-11-03T01:34:36.683027Z",
+      "peak_at": "2026-11-03T01:34:36.683027Z",
+      "peak_score_at": "2026-11-03T01:34:36.683027Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "positive",
+      "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+      "peak_label": "European troops rehearse Ukraine peace deployment",
+      "peak_summary": "Western forces plan exercises for potential peacekeeping deployment in Ukraine. Non-offensive operations could support future stabilization efforts.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "fighting returns to kherson region after longest ukraine war ceasefire": {
       "detected_at": "2026-11-02T18:20:05.038434Z",
       "peak_at": "2026-11-02T18:20:05.038434Z",
       "peak_score_at": "2026-11-02T18:20:05.038434Z",
-      "peak_score": 4.2,
+      "peak_score": 4.1,
       "peak_sentiment": "negative",
       "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
       "peak_label": "Combat resumes in Kherson after six-day truce",
@@ -171,27 +183,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "ukraine air raid app apparently hacked as users receive false radiation threat, air force says": {
-      "detected_at": "2026-11-02T00:43:07.682176Z",
-      "peak_at": "2026-11-02T00:43:07.682176Z",
-      "peak_score_at": "2026-11-02T00:43:07.682176Z",
-      "peak_score": 3.0,
-      "peak_sentiment": "negative",
-      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
-      "peak_label": "Air raid app hacked with false radiation threat",
-      "peak_summary": "Critical civilian warning system compromised by cyberattack sending false radiation alerts, undermining public trust in emergency notifications during ongoing war.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Russian bombing kills 18 people at Ukraine aid centre, Kyiv says",
-    "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-    "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked"
+    "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+    "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+    "Fighting returns to Kherson region after longest Ukraine war ceasefire"
   ]
 }
