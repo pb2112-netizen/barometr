@@ -1,12 +1,31 @@
 {
-  "global_score": 4.2,
-  "rationale": "Multiple bomb threats grounding flights across EU airspace including Bulgaria affect regional travel security for Romanian residents.",
+  "global_score": 4.0,
+  "rationale": "Bomb threats ground flights across EU including nearby Bulgaria; Russia kills 38+ in Ukraine in 24h with civilian infrastructure strikes, maintaining Black Sea region security threat. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "label": "Russia kills 38 in Ukraine civilian strikes",
+      "summary": "Russian strikes killed at least 38 people in 24 hours, hitting aid centres and hospitals; dozens more trapped. Ongoing Black Sea neighbor threat remains high for Romania.",
+      "score": 4.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-01T20:29:48.732169Z"
+    },
+    {
       "title": "Seven flights across Europe targeted by suspected bomb threats",
-      "label": "Bomb threats ground EU flights Bulgaria included",
-      "summary": "Multiple bomb threats forced flight groundings in Bulgaria, Poland, Spain and Italy, disrupting EU airspace and raising security concerns for Romanian travelers.",
-      "score": 4.1,
+      "label": "Bomb threats ground EU flights including Bulgaria",
+      "summary": "Multiple flights in Bulgaria, Poland, Spain, and Italy checked for explosives after separate threats. Direct disruption to regional aviation and EU airspace security.",
+      "score": 3.9,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,29 +41,10 @@
       "detected_at": "2026-11-03T17:50:37.768071Z"
     },
     {
-      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
-      "label": "Russia strikes Ukraine aid centre 38 dead",
-      "summary": "Russian attacks killed at least 38 in 24 hours, hitting civilian infrastructure. Escalation of Black Sea region conflict with potential spillover risk.",
-      "score": 4.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-01T20:29:48.732169Z"
-    },
-    {
       "title": "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
-      "label": "Cyberattack hits supermarket freezers 10 EU countries",
-      "summary": "Coordinated cyber-attacks disrupted freezers across EU from Estonia to Portugal, forcing food disposal. Ongoing infrastructure threat continues.",
-      "score": 3.4,
+      "label": "Cyber-attacks hit EU supermarket freezers widely",
+      "summary": "Coordinated cyber-attacks affected freezers from Estonia to Portugal, forcing retailers to discard food. Ongoing infrastructure threat across EU including Romania.",
+      "score": 3.2,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -60,35 +60,31 @@
       "detected_at": "2026-11-02T18:20:05.036023Z"
     }
   ],
-  "short_summary": "European troops rehearse Ukraine peace deployment",
+  "short_summary": "Bomb threats ground flights across EU",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-03T23:20:51.330647Z",
+  "updated_at": "2026-11-04T06:15:37.235189Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "European troops rehearse Ukraine peace deployment",
-    "summary": "Western forces plan peacekeeping exercises for Ukraine. Could involve Romanian participation or transit in future Black Sea stabilization efforts.",
-    "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-    "score": 4.9,
-    "sentiment": "neutral",
-    "detected_at": "2026-11-03T01:34:36.680888Z",
-    "peak_at": "2026-11-03T01:34:36.680888Z",
+    "label": "Bomb threats ground flights across EU",
+    "summary": "Aircraft in Poland, Spain, Bulgaria and Italy checked for explosives. Regional security threat affecting EU aviation including Romanian airspace.",
+    "title": "Bomb threats target seven flights across Europe",
+    "score": 4.2,
+    "sentiment": "negative",
+    "detected_at": "2026-11-03T17:50:37.768071Z",
+    "peak_at": "2026-11-03T17:50:37.768071Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-03T01:34:36.680888Z",
+  "events_anchor_at": "2026-11-03T17:50:37.768071Z",
   "score_history": [
-    {
-      "t": "2026-11-02T00:43:07.677914Z",
-      "s": 3.5
-    },
     {
       "t": "2026-11-02T07:40:27.483302Z",
       "s": 3.4
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-03T23:20:51.330647Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-11-04T06:15:37.235189Z",
+      "s": 4.0
     }
   ]
 }
