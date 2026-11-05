@@ -1,11 +1,11 @@
 {
-  "global_score": 3.9,
-  "rationale": "Russian double-tap bombing kills 40+ civilians in Ukrainian village with 30 more trapped; US midterm results may affect military aid scrutiny; ongoing cyber and infrastructure threats continue as background. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.8,
+  "rationale": "Russian double-tap bombing kills at least 40 in Ukrainian village with 30 still under rubble — major escalation of civilian targeting; overnight drone strikes hit postal hub and energy sites. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "label": "Russia double-tap bombing kills 40 in village",
-      "summary": "Russian forces killed at least 40 civilians in a village attack with 30 more trapped under rubble. The double-tap tactic targets rescue workers responding to initial strikes.",
+      "label": "Russian double-tap bombing kills 40 in village",
+      "summary": "At least 40 killed, 30 under rubble after Russian attack on Ukrainian village. Major escalation of civilian targeting with documented evidence of double-tap tactics.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,10 +22,29 @@
       "detected_at": "2026-11-04T21:19:29.614863Z"
     },
     {
-      "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-      "label": "'This is a disaster': Angry Republicans blame Trump for",
-      "summary": "Democrats won Congress control in US midterms. Trump acknowledges Iran war caused defeat, raising questions about future scrutiny of Ukraine military aid.",
-      "score": 3.9,
+      "title": "Russia says it hit Ukrainian postal hub and ship as Ukraine strikes Ryazan",
+      "label": "Russia Ukraine trade drone strikes on infrastructure",
+      "summary": "Overnight drone exchanges target postal logistics and energy sites with injuries reported. Continued infrastructure warfare affecting civilian services.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-05T10:51:03.908463Z"
+    },
+    {
+      "title": "What Democrats can and can't do with their new power after taking Congress",
+      "label": "Democrats take Congress but Trump retains veto",
+      "summary": "Congressional shift may increase scrutiny of military aid to Ukraine. Potential impact on support levels though Trump veto power remains.",
+      "score": 3.8,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-04T14:34:52.694968Z"
-    },
-    {
-      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
-      "label": "Cyber-attack hits French blood storage infrastructure",
-      "summary": "Hackers targeted French blood facilities in coordinated EU infrastructure attack. The threat continues pattern of hybrid warfare affecting Ukraine's allies.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-05T02:25:29.900397Z"
+      "detected_at": "2026-11-05T10:51:03.908463Z"
     }
   ],
   "short_summary": "Democrats win US Senate control midterms",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-05T02:25:29.900397Z",
+  "updated_at": "2026-11-05T10:51:03.908463Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-04T14:34:52.694968Z",
   "score_history": [
-    {
-      "t": "2026-11-03T09:30:32.114629Z",
-      "s": 4.6
-    },
     {
       "t": "2026-11-03T17:50:37.771842Z",
       "s": 6.5
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-05T02:25:29.900397Z",
       "s": 3.9
+    },
+    {
+      "t": "2026-11-05T10:51:03.908463Z",
+      "s": 3.8
     }
   ]
 }
