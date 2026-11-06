@@ -1,52 +1,33 @@
 {
-  "global_score": 2.4,
-  "rationale": "Bomb threats affecting European flights continue (already tracked); other events have minimal direct impact on Portuguese daily life.",
+  "global_score": 2.3,
+  "rationale": "Quiet cycle for Portugal. Bus crash in France is regional EU news with no direct impact. Pope's Latin America trip continues known story. No events affecting Iberian daily life.",
   "top_events": [
     {
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "label": "Bomb threats ground 21 European flights again",
-      "summary": "At least 21 flights across Europe affected by malicious hoax threats for the second time in a week, disrupting travel across EU including potential Portuguese routes.",
+      "title": "Two dead after bus crashes in France, officials say",
+      "label": "Two dead in France bus crash",
+      "summary": "One child and one young adult killed in French bus crash, with more injured. Regional EU incident with no direct impact on Portuguese daily life.",
       "score": 2.4,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "nowosc": "nowe",
+      "category": "katastrofa",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-05T18:44:12.830429Z"
-    },
-    {
-      "title": "French protests see numbers surge as unions join strikes over high cost of living",
-      "label": "600,000 protest cost of living in France",
-      "summary": "Mass protests in France over high cost of living continue to grow, reflecting EU-wide economic pressures that also affect Portugal.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-05T10:51:03.906712Z"
+      "detected_at": "2026-11-06T15:00:33.491848Z"
     },
     {
       "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
       "label": "Pope visits Latin America after surgery",
-      "summary": "Pope Leo travels to Uruguay, Argentina and Peru weeks after lung cancer surgery, a significant religious event for Catholic Portugal.",
-      "score": 2.2,
+      "summary": "Pope Leo visits Uruguay, Argentina and Peru weeks after lung cancer surgery. Continuation of known story with cultural interest for Portuguese Catholics.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "inne",
       "sources": [
         "BBC"
@@ -58,6 +39,25 @@
         }
       ],
       "detected_at": "2026-11-06T06:44:19.758462Z"
+    },
+    {
+      "title": "Russian extremist group denies sending hoax bomb threats",
+      "label": "Russian group denies Europe flight threats",
+      "summary": "Scores of flights across Europe received bomb threats this week. Continuation of known disruption campaign with minimal impact on Portuguese aviation.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-05T18:44:12.830429Z"
     }
   ],
   "short_summary": "Brazil unveils global fossil fuel phase-out plan",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-06T06:44:19.758462Z",
+  "updated_at": "2026-11-06T15:00:33.491848Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-03T17:50:37.769893Z",
   "score_history": [
-    {
-      "t": "2026-11-04T14:34:52.693892Z",
-      "s": 2.7
-    },
     {
       "t": "2026-11-04T21:19:29.612688Z",
       "s": 2.6
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-06T06:44:19.758462Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-11-06T15:00:33.491848Z",
+      "s": 2.3
     }
   ]
 }
