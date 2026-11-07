@@ -1,12 +1,31 @@
 {
-  "global_score": 3.2,
-  "rationale": "Continuation of known political developments: midterms analysis (follow-up), Trump Miller appointment (already tracked), AI stocks rebound (continuation of known volatility), no new domestic policy enacted this cycle.",
+  "global_score": 3.4,
+  "rationale": "Trump's Miller appointment as chief of staff confirmed, setting up congressional battles; tech stocks rebound; Paraguay president impeached but distant from US daily life.",
   "top_events": [
     {
+      "title": "With Stephen Miller pick, Trump readies for a battle",
+      "label": "Trump promotes Miller to chief of staff",
+      "summary": "Trump appoints partisan firebrand Stephen Miller as chief of staff, setting up likely clashes with Democratic Congress over policy and administration direction.",
+      "score": 3.4,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-06T20:53:07.962674Z"
+    },
+    {
       "title": "AI stocks climb after trillions wiped from market values",
-      "label": "AI stocks rebound after Democrat concerns",
-      "summary": "Tech shares recover following selloff driven by fears of slower AI development under Democratic control. Continuation of known market volatility.",
-      "score": 3.0,
+      "label": "Tech stocks rebound after Democrat victory selloff",
+      "summary": "AI and technology shares recover following post-midterm selloff, easing investor concerns about regulatory pressure under Democratic control.",
+      "score": 2.9,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-11-06T20:53:07.962674Z"
     },
     {
-      "title": "Four midterms takeaways for 2028 White House race",
-      "label": "Midterms analysis for 2028 presidential race",
-      "summary": "Analysis of midterm results and implications for next presidential election. Follow-up to known political shift; no new policy enacted.",
-      "score": 3.2,
+      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
+      "label": "Judge halts Trump arch construction",
+      "summary": "Federal judge blocks construction of 250-foot arch despite Trump administration approval, continuing legal battles over presidential projects.",
+      "score": 2.7,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-07T07:07:35.893034Z"
-    },
-    {
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "label": "Judge blocks Trump arch construction project",
-      "summary": "Court halts 250-foot arch construction despite federal approval. Domestic legal dispute over Trump project; symbolic political conflict.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-07T07:07:35.893034Z",
+  "updated_at": "2026-11-07T13:59:32.523411Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Trump appoints Miller as chief of staff",
     "summary": "Trump names hardliner Stephen Miller as new chief of staff, replacing Susie Wiles. Major administration shift with policy implications across domestic and foreign fronts.",
     "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles",
-    "score": 3.8,
+    "score": 3.7,
     "sentiment": "neutral",
     "detected_at": "2026-11-06T20:53:07.962674Z",
     "peak_at": "2026-11-06T20:53:07.962674Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-06T20:53:07.962674Z",
   "score_history": [
-    {
-      "t": "2026-11-05T10:51:03.910562Z",
-      "s": 4.7
-    },
     {
       "t": "2026-11-05T18:44:12.832260Z",
       "s": 4.5
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T07:07:35.893034Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-07T13:59:32.523411Z",
+      "s": 3.4
     }
   ]
 }

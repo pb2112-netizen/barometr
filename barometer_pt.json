@@ -1,11 +1,30 @@
 {
   "global_score": 2.0,
-  "rationale": "Continuation of known patterns: European aviation threats (ongoing), Spain rail probe (follow-up to known disaster), France bus crash (local incident with no Iberian spillover), Pope tour (continuation). Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Two dead in French bus crash adds to EU transport safety concerns; Spain rail fraud probe continues; other events remain distant from daily life in Portugal.",
   "top_events": [
     {
+      "title": "Two dead after bus crashes in France, officials say",
+      "label": "Bus crash kills two in France",
+      "summary": "One child and one young adult killed in French bus crash with additional injuries, highlighting EU neighbor transport safety concerns.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-06T15:00:33.491848Z"
+    },
+    {
       "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
-      "label": "EU probes Spain rail funds after crash",
-      "summary": "Prosecutors investigate EU funds for railway line where 69 died. Follow-up to known Iberian disaster; affects regional transport trust.",
+      "label": "EU probes Spain rail funds after disaster",
+      "summary": "European prosecutors investigate misuse of EU railway upgrade funds following train crash that killed 69 people in Spain.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -22,42 +41,23 @@
       "detected_at": "2026-11-07T07:07:35.890838Z"
     },
     {
-      "title": "New wave of bomb threats hit European airlines",
-      "label": "Bomb threats disrupt European flights",
-      "summary": "Continued aviation disruption across EU including Iberian routes. Ongoing security concern for Portuguese travelers; no new escalation.",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "label": "Tech stocks rebound after election selloff",
+      "summary": "Technology shares recover following post-midterm selloff, easing regulatory concerns with indirect impact on EU markets.",
       "score": 2.0,
-      "sentiment": "negative",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-05T18:44:12.830429Z"
-    },
-    {
-      "title": "Pope in 'pretty good health' as he starts Latin America tour",
-      "label": "Pope begins Latin America tour post-surgery",
-      "summary": "Pope Leo travels to Uruguay three weeks after lung cancer surgery. Continuation of known papal health story; cultural interest for Portuguese Catholics.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-06T06:44:19.758462Z"
+      "detected_at": "2026-11-07T13:59:32.520215Z"
     }
   ],
   "short_summary": "Two dead in France bus crash",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-07T07:07:35.890838Z",
+  "updated_at": "2026-11-07T13:59:32.520215Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Two dead in France bus crash",
     "summary": "One child and one young adult killed in French bus crash, with more injured. Regional EU incident with no direct impact on Portuguese daily life.",
     "title": "Two dead after bus crashes in France, officials say",
-    "score": 2.3,
+    "score": 2.2,
     "sentiment": "negative",
     "detected_at": "2026-11-06T15:00:33.491848Z",
     "peak_at": "2026-11-06T15:00:33.491848Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-06T15:00:33.491848Z",
   "score_history": [
-    {
-      "t": "2026-11-05T10:51:03.906712Z",
-      "s": 2.4
-    },
     {
       "t": "2026-11-05T18:44:12.830429Z",
       "s": 2.6
@@ -115,6 +111,10 @@
     },
     {
       "t": "2026-11-07T07:07:35.890838Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-11-07T13:59:32.520215Z",
       "s": 2.0
     }
   ]

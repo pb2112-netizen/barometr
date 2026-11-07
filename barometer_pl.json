@@ -1,12 +1,31 @@
 {
-  "global_score": 3.1,
-  "rationale": "Continuation of known threats: bomb threats on European flights (ongoing), Russia-Ukraine strikes (background), no new qualitative change affecting Poland directly this cycle.",
+  "global_score": 5.1,
+  "rationale": "Fresh Russian strikes damage Ukraine power grid before Abu Dhabi talks; qualitatively new escalation pattern affecting regional energy security and diplomatic landscape.",
   "top_events": [
     {
+      "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
+      "label": "Russia strikes Ukraine power grid before talks",
+      "summary": "Russian attacks damage Ukrainian power infrastructure days before trilateral negotiations in Abu Dhabi, escalating energy warfare and threatening regional stability ahead of diplomatic engagement.",
+      "score": 5.1,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-07T13:59:32.517480Z"
+    },
+    {
       "title": "New wave of bomb threats hit European airlines",
-      "label": "New bomb threats ground European flights",
-      "summary": "Continued aviation disruption across EU airspace; no link established to media threats. Ongoing security concern for Polish travelers and regional stability.",
-      "score": 3.1,
+      "label": "Fresh bomb threats ground European flights",
+      "summary": "Another wave of aviation bomb threats disrupts European airspace, continuing security pressure on regional transport infrastructure.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,30 +41,11 @@
       "detected_at": "2026-11-05T18:44:12.828644Z"
     },
     {
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "label": "Russia strikes Kyiv injuring civilians",
-      "summary": "Air strikes damage buildings and injure two in Kyiv. Continuation of known conflict pattern on Poland's eastern border; no new escalation.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-07T07:07:35.888847Z"
-    },
-    {
       "title": "AI stocks climb after trillions wiped from market values",
-      "label": "AI stocks recover after market selloff",
-      "summary": "Tech shares rebound following Democrat election concerns over AI regulation. Indirect impact on EU markets and Polish tech sector exposure.",
-      "score": 2.5,
-      "sentiment": "neutral",
+      "label": "Tech stocks rebound after Democrat election selloff",
+      "summary": "AI and tech stocks recover following post-midterm selloff, easing concerns about regulatory pressure on technology sector affecting EU markets.",
+      "score": 2.6,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -60,35 +60,31 @@
       "detected_at": "2026-11-06T20:53:07.957881Z"
     }
   ],
-  "short_summary": "Ukraine aid strike death toll rises to 50",
-  "level_label": "Low",
-  "trend": "stable",
+  "short_summary": "Russia strikes Ukraine power grid before talks",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-07T07:07:35.888847Z",
+  "updated_at": "2026-11-07T13:59:32.517480Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Ukraine aid strike death toll rises to 50",
-    "summary": "Death toll from Russian strike on aid centre rises to 50, with 39 still trapped. Continuation of civilian infrastructure targeting in neighboring war zone.",
-    "title": "Ukraine raises Zaporizhia aid strike death toll to at least 50",
-    "score": 3.5,
+    "label": "Russia strikes Ukraine power grid before talks",
+    "summary": "Russian attacks damage Ukrainian power infrastructure days before trilateral negotiations in Abu Dhabi, escalating energy warfare and threatening regional stability ahead of diplomatic engagement.",
+    "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
+    "score": 5.1,
     "sentiment": "negative",
-    "detected_at": "2026-11-06T15:00:33.490166Z",
-    "peak_at": "2026-11-06T15:00:33.490166Z",
+    "detected_at": "2026-11-07T13:59:32.517480Z",
+    "peak_at": "2026-11-07T13:59:32.517480Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-06T15:00:33.490166Z",
+  "events_anchor_at": "2026-11-07T13:59:32.517480Z",
   "score_history": [
-    {
-      "t": "2026-11-05T10:51:03.903488Z",
-      "s": 3.6
-    },
     {
       "t": "2026-11-05T18:44:12.828644Z",
       "s": 3.9
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T07:07:35.888847Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-11-07T13:59:32.517480Z",
+      "s": 5.1
     }
   ]
 }

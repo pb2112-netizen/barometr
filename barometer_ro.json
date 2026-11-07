@@ -1,12 +1,31 @@
 {
-  "global_score": 2.6,
-  "rationale": "Continuation of known patterns: European aviation threats (ongoing), tech market volatility (background), no new developments directly affecting Romania or Black Sea security this cycle.",
+  "global_score": 3.2,
+  "rationale": "Russian strikes on Ukrainian power infrastructure before Abu Dhabi talks represent new escalation pattern in Black Sea neighbor, affecting regional energy security and diplomatic climate. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
+      "label": "Russia hits Ukraine power before Abu Dhabi talks",
+      "summary": "Russian attacks damage Ukrainian energy infrastructure ahead of trilateral negotiations, escalating Black Sea regional tensions and threatening energy security before diplomatic engagement.",
+      "score": 4.6,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-07T13:59:32.518840Z"
+    },
+    {
       "title": "New wave of bomb threats hit European airlines",
-      "label": "Bomb threats disrupt European aviation",
-      "summary": "Continued flight disruptions across EU airspace including regional routes. Ongoing security concern for Romanian travelers; no new escalation.",
-      "score": 2.6,
+      "label": "European aviation faces new bomb threats",
+      "summary": "Fresh wave of bomb threats disrupts EU airspace, continuing security pressure on regional transport infrastructure.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,30 +41,11 @@
       "detected_at": "2026-11-05T18:44:12.829551Z"
     },
     {
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "label": "Russia strikes Kyiv damaging buildings",
-      "summary": "Air strikes injure two civilians in Kyiv. Continuation of known conflict pattern near Black Sea region; no new qualitative change.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-07T07:07:35.889823Z"
-    },
-    {
       "title": "AI stocks climb after trillions wiped from market values",
-      "label": "Tech stocks rebound after Democrat win",
-      "summary": "Market recovery following concerns over AI regulation. Indirect impact on EU economy and Romanian tech sector.",
-      "score": 2.2,
-      "sentiment": "neutral",
+      "label": "Tech stocks recover after midterm selloff",
+      "summary": "Technology shares rebound following Democrat election victory selloff, easing concerns about regulatory impact on EU-linked markets.",
+      "score": 2.3,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -60,35 +60,31 @@
       "detected_at": "2026-11-06T20:53:07.958971Z"
     }
   ],
-  "short_summary": "Bomb hoax disrupts 21 European flights again",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Russia hits Ukraine power before Abu Dhabi talks",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-07T07:07:35.889823Z",
+  "updated_at": "2026-11-07T13:59:32.518840Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Bomb hoax disrupts 21 European flights again",
-    "summary": "Second wave of malicious threats grounds 21 flights across EU airspace, affecting Romanian travel and regional security posture.",
-    "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-    "score": 2.7,
+    "label": "Russia hits Ukraine power before Abu Dhabi talks",
+    "summary": "Russian attacks damage Ukrainian energy infrastructure ahead of trilateral negotiations, escalating Black Sea regional tensions and threatening energy security before diplomatic engagement.",
+    "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
+    "score": 4.6,
     "sentiment": "negative",
-    "detected_at": "2026-11-05T18:44:12.829551Z",
-    "peak_at": "2026-11-06T20:53:07.958971Z",
+    "detected_at": "2026-11-07T13:59:32.518840Z",
+    "peak_at": "2026-11-07T13:59:32.518840Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-05T18:44:12.829551Z",
+  "events_anchor_at": "2026-11-07T13:59:32.518840Z",
   "score_history": [
-    {
-      "t": "2026-11-05T10:51:03.905215Z",
-      "s": 3.5
-    },
     {
       "t": "2026-11-05T18:44:12.829551Z",
       "s": 3.4
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T07:07:35.889823Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-11-07T13:59:32.518840Z",
+      "s": 3.2
     }
   ]
 }
