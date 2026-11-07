@@ -1,12 +1,12 @@
 {
-  "global_score": 3.2,
-  "rationale": "Continuation of bomb threats across Europe (already tracked); AI stocks rebound is indirect; no new direct impact on Poland this cycle.",
+  "global_score": 3.1,
+  "rationale": "Continuation of known threats: bomb threats on European flights (ongoing), Russia-Ukraine strikes (background), no new qualitative change affecting Poland directly this cycle.",
   "top_events": [
     {
       "title": "New wave of bomb threats hit European airlines",
-      "label": "New bomb threats ground European flights again",
-      "summary": "Another wave of aviation bomb threats disrupts flights across Europe, continuing the pattern already affecting Poland and EU airspace. No explosives found; ongoing security concern.",
-      "score": 3.2,
+      "label": "New bomb threats ground European flights",
+      "summary": "Continued aviation disruption across EU airspace; no link established to media threats. Ongoing security concern for Polish travelers and regional stability.",
+      "score": 3.1,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-11-05T18:44:12.828644Z"
     },
     {
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "label": "Russia strikes Kyiv injuring civilians",
+      "summary": "Air strikes damage buildings and injure two in Kyiv. Continuation of known conflict pattern on Poland's eastern border; no new escalation.",
+      "score": 3.1,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-07T07:07:35.888847Z"
+    },
+    {
       "title": "AI stocks climb after trillions wiped from market values",
-      "label": "AI stocks rebound after Democrat midterm victory",
-      "summary": "Tech stocks recover following earlier sell-off tied to US midterm results. Indirect impact on EU markets and investor sentiment; no direct change to Polish economy.",
-      "score": 2.6,
+      "label": "AI stocks recover after market selloff",
+      "summary": "Tech shares rebound following Democrat election concerns over AI regulation. Indirect impact on EU markets and Polish tech sector exposure.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -39,56 +58,33 @@
         }
       ],
       "detected_at": "2026-11-06T20:53:07.957881Z"
-    },
-    {
-      "title": "Two dead after bus crashes in France, officials say",
-      "label": "Bus crash kills two in France",
-      "summary": "One child and one young adult killed in French bus accident. Tragic but localized incident with no spillover to Poland; routine traffic accident in neighboring EU country.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-06T20:53:07.957881Z"
     }
   ],
-  "short_summary": "Bomb hoax grounds 21 European flights again",
+  "short_summary": "Ukraine aid strike death toll rises to 50",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-07T00:55:29.422791Z",
+  "updated_at": "2026-11-07T07:07:35.888847Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Bomb hoax grounds 21 European flights again",
-    "summary": "Second wave of malicious hoax threats disrupts 21 flights across Europe, including Polish airspace, forcing continued security measures and travel delays.",
-    "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+    "label": "Ukraine aid strike death toll rises to 50",
+    "summary": "Death toll from Russian strike on aid centre rises to 50, with 39 still trapped. Continuation of civilian infrastructure targeting in neighboring war zone.",
+    "title": "Ukraine raises Zaporizhia aid strike death toll to at least 50",
     "score": 3.5,
     "sentiment": "negative",
-    "detected_at": "2026-11-05T18:44:12.828644Z",
-    "peak_at": "2026-11-06T20:53:07.957881Z",
+    "detected_at": "2026-11-06T15:00:33.490166Z",
+    "peak_at": "2026-11-06T15:00:33.490166Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-05T18:44:12.828644Z",
+  "events_anchor_at": "2026-11-06T15:00:33.490166Z",
   "score_history": [
-    {
-      "t": "2026-11-05T02:25:29.895825Z",
-      "s": 3.8
-    },
     {
       "t": "2026-11-05T10:51:03.903488Z",
       "s": 3.6
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T00:55:29.422791Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-07T07:07:35.888847Z",
+      "s": 3.1
     }
   ]
 }

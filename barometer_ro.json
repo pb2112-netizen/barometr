@@ -1,12 +1,12 @@
 {
-  "global_score": 2.7,
-  "rationale": "Continuation of bomb threats across Europe (already tracked); AI stocks rebound is indirect; no new direct impact on Romania this cycle.",
+  "global_score": 2.6,
+  "rationale": "Continuation of known patterns: European aviation threats (ongoing), tech market volatility (background), no new developments directly affecting Romania or Black Sea security this cycle.",
   "top_events": [
     {
       "title": "New wave of bomb threats hit European airlines",
-      "label": "New bomb threats disrupt European aviation again",
-      "summary": "Another wave of aviation bomb threats affects flights across EU airspace, continuing the pattern already tracked. No explosives found; ongoing security concern for regional travel.",
-      "score": 2.7,
+      "label": "Bomb threats disrupt European aviation",
+      "summary": "Continued flight disruptions across EU airspace including regional routes. Ongoing security concern for Romanian travelers; no new escalation.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,10 +22,29 @@
       "detected_at": "2026-11-05T18:44:12.829551Z"
     },
     {
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "label": "Russia strikes Kyiv damaging buildings",
+      "summary": "Air strikes injure two civilians in Kyiv. Continuation of known conflict pattern near Black Sea region; no new qualitative change.",
+      "score": 2.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-07T07:07:35.889823Z"
+    },
+    {
       "title": "AI stocks climb after trillions wiped from market values",
-      "label": "AI stocks recover after US midterm results",
-      "summary": "Tech stocks rebound following earlier sell-off tied to US midterm outcomes. Indirect impact on EU markets and investor sentiment; no direct change to Romanian economy.",
-      "score": 2.3,
+      "label": "Tech stocks rebound after Democrat win",
+      "summary": "Market recovery following concerns over AI regulation. Indirect impact on EU economy and Romanian tech sector.",
+      "score": 2.2,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -39,25 +58,6 @@
         }
       ],
       "detected_at": "2026-11-06T20:53:07.958971Z"
-    },
-    {
-      "title": "Two dead after bus crashes in France, officials say",
-      "label": "Bus crash kills two in France",
-      "summary": "One child and one young adult killed in French bus accident. Tragic but localized incident with no spillover to Romania; routine traffic accident in EU neighbor.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-07T00:55:29.424115Z"
     }
   ],
   "short_summary": "Bomb hoax disrupts 21 European flights again",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-07T00:55:29.424115Z",
+  "updated_at": "2026-11-07T07:07:35.889823Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Bomb hoax disrupts 21 European flights again",
     "summary": "Second wave of malicious threats grounds 21 flights across EU airspace, affecting Romanian travel and regional security posture.",
     "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-    "score": 2.8,
+    "score": 2.7,
     "sentiment": "negative",
     "detected_at": "2026-11-05T18:44:12.829551Z",
     "peak_at": "2026-11-06T20:53:07.958971Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-05T18:44:12.829551Z",
   "score_history": [
-    {
-      "t": "2026-11-05T02:25:29.897423Z",
-      "s": 3.6
-    },
     {
       "t": "2026-11-05T10:51:03.905215Z",
       "s": 3.5
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T00:55:29.424115Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-11-07T07:07:35.889823Z",
+      "s": 2.6
     }
   ]
 }

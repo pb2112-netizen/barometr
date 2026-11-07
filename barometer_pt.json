@@ -1,12 +1,31 @@
 {
-  "global_score": 2.1,
-  "rationale": "Continuation of bomb threats in Europe (already tracked); Pope's Latin America trip continues; no new direct impact on Portugal this cycle.",
+  "global_score": 2.0,
+  "rationale": "Continuation of known patterns: European aviation threats (ongoing), Spain rail probe (follow-up to known disaster), France bus crash (local incident with no Iberian spillover), Pope tour (continuation). Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+      "label": "EU probes Spain rail funds after crash",
+      "summary": "Prosecutors investigate EU funds for railway line where 69 died. Follow-up to known Iberian disaster; affects regional transport trust.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-07T07:07:35.890838Z"
+    },
+    {
       "title": "New wave of bomb threats hit European airlines",
-      "label": "New bomb threats disrupt European flights again",
-      "summary": "Another wave of aviation bomb threats affects flights across Europe, continuing the pattern already tracked. No explosives found; ongoing security concern for EU travel.",
-      "score": 2.1,
+      "label": "Bomb threats disrupt European flights",
+      "summary": "Continued aviation disruption across EU including Iberian routes. Ongoing security concern for Portuguese travelers; no new escalation.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,9 +41,9 @@
       "detected_at": "2026-11-05T18:44:12.830429Z"
     },
     {
-      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-      "label": "Pope visits Latin America after surgery",
-      "summary": "Pope Leo travels to Uruguay, Argentina, and Peru weeks after lung cancer surgery. Continuation of tracked story; cultural interest for Portuguese Catholics but no direct impact on daily life.",
+      "title": "Pope in 'pretty good health' as he starts Latin America tour",
+      "label": "Pope begins Latin America tour post-surgery",
+      "summary": "Pope Leo travels to Uruguay three weeks after lung cancer surgery. Continuation of known papal health story; cultural interest for Portuguese Catholics.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-06T06:44:19.758462Z"
-    },
-    {
-      "title": "Two dead after bus crashes in France, officials say",
-      "label": "Bus crash kills two in France",
-      "summary": "One child and one young adult killed in French bus accident. Tragic but localized incident with no spillover to Portugal; routine traffic accident in EU neighbor.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-06T15:00:33.491848Z"
     }
   ],
   "short_summary": "Two dead in France bus crash",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-07T00:55:29.425518Z",
+  "updated_at": "2026-11-07T07:07:35.890838Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-06T15:00:33.491848Z",
   "score_history": [
-    {
-      "t": "2026-11-05T02:25:29.898923Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-05T10:51:03.906712Z",
       "s": 2.4
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-07T00:55:29.425518Z",
       "s": 2.1
+    },
+    {
+      "t": "2026-11-07T07:07:35.890838Z",
+      "s": 2.0
     }
   ]
 }
