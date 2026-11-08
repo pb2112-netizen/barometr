@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-08T02:28:05.604594Z",
-  "ostatnia_ocena": 4.2,
+  "updated_at": "2026-11-08T10:17:22.267376Z",
+  "ostatnia_ocena": 4.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 1,
       "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     },
     {
       "temat": "Israel Eisenkot government formation Netanyahu out",
-      "poziom_bazowy": 3.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Opposition leader tasked with forming Israeli government."
     },
     {
       "temat": "Russia drone strike Ukraine Dnipro train station civilian",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 14,
       "opis": "Russian drone killed 14 at Dnipro; Black Sea escalation."
     },
     {
       "temat": "US midterms Democrats win Trump Iran war regional impact",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 14,
       "opis": "Congressional shift may affect Black Sea security support."
     },
     {
       "temat": "European troops Ukraine deployment rehearsal Black Sea",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 19,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 20,
       "opis": "Western forces plan Ukraine deployment exercises; regional."
     },
     {
       "temat": "Europe aviation bomb threats flights grounded",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 18,
       "opis": "Multiple bomb threats ground flights across EU airspace."
     },
     {
       "temat": "Global tech stocks AI slowdown midterm scrutiny",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Tech stocks drop on AI scrutiny fears; indirect EU impact."
     },
     {
       "temat": "Europe shop freezers cyber-attack infrastructure",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 20,
+      "cykle_bez_zmian": 21,
       "opis": "Coordinated cyber-attack hits freezers across 7 EU."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-06T06:44:19.757424Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-06T15:00:33.491023Z",
       "s": 2.9
@@ -88,10 +84,66 @@
     {
       "t": "2026-11-08T02:28:05.596251Z",
       "s": 4.2
+    },
+    {
+      "t": "2026-11-08T10:17:22.260710Z",
+      "s": 4.0
     }
   ],
   "events_anchor_at": "2026-11-07T13:59:32.518840Z",
   "event_detected_at": {
+    "us military attacks cargo ship in the gulf of oman": {
+      "detected_at": "2026-11-08T10:17:22.260710Z",
+      "peak_at": "2026-11-08T10:17:22.260710Z",
+      "peak_score_at": "2026-11-08T10:17:22.260710Z",
+      "peak_score": 4.0,
+      "peak_sentiment": "negative",
+      "title": "US military attacks cargo ship in the Gulf of Oman",
+      "peak_label": "US fires on cargo ship Gulf Oman",
+      "peak_summary": "US military disabled St. Kitts-flagged cargo ship in Gulf of Oman. Escalation in Strait of Hormuz region threatens energy routes and Black Sea economy.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/us-military-attacks-cargo-ship-in-the-gulf-of-oman?traffic_source=rss"
+        }
+      ]
+    },
+    "israel's president tasks opposition leader eisenkot with forming government": {
+      "detected_at": "2026-11-08T02:28:05.596251Z",
+      "peak_at": "2026-11-08T02:28:05.596251Z",
+      "peak_score_at": "2026-11-08T02:28:05.596251Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "neutral",
+      "title": "Eisenkot chosen over Netanyahu to form Israel's next government",
+      "peak_label": "Israel opposition leader tasked with government",
+      "peak_summary": "President Herzog gives opposition leader Eisenkot 28 days to form government after no clear majority. Political shift may affect regional stability and EU relations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss"
+        }
+      ]
+    },
+    "russian strikes wound nine and damage ukraine's power network ahead of talks": {
+      "detected_at": "2026-11-07T13:59:32.518840Z",
+      "peak_at": "2026-11-07T13:59:32.518840Z",
+      "peak_score_at": "2026-11-07T13:59:32.518840Z",
+      "peak_score": 4.4,
+      "peak_sentiment": "negative",
+      "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
+      "peak_label": "Russia hits Ukraine power before Abu Dhabi talks",
+      "peak_summary": "Russian attacks damage Ukrainian energy infrastructure ahead of trilateral negotiations, escalating Black Sea regional tensions and threatening energy security before diplomatic engagement.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "iran war live: blasts heard in qeshm; us moves to block land supply routes": {
       "detected_at": "2026-11-08T02:28:05.596251Z",
       "peak_at": "2026-11-08T02:28:05.596251Z",
@@ -108,26 +160,6 @@
         }
       ]
     },
-    "eisenkot chosen over netanyahu to form israel's next government": {
-      "detected_at": "2026-11-08T02:28:05.596251Z",
-      "peak_at": "2026-11-08T02:28:05.596251Z",
-      "peak_score_at": "2026-11-08T02:28:05.596251Z",
-      "peak_score": 3.3,
-      "peak_sentiment": "neutral",
-      "title": "Eisenkot chosen over Netanyahu to form Israel's next government",
-      "peak_label": "Israel opposition leader tasked with government",
-      "peak_summary": "President Herzog gives opposition leader Eisenkot 28 days to form government after no clear majority. Political shift may affect regional stability and EU relations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss"
-        }
-      ]
-    },
     "police clash with protesters as anti-government rallies sweep france": {
       "detected_at": "2026-11-07T22:44:00.084124Z",
       "peak_at": "2026-11-08T02:28:05.596251Z",
@@ -141,22 +173,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss"
-        }
-      ]
-    },
-    "ukraine's zaporizhzhia faces threat as russian drones close in": {
-      "detected_at": "2026-11-07T13:59:32.518840Z",
-      "peak_at": "2026-11-07T13:59:32.518840Z",
-      "peak_score_at": "2026-11-07T13:59:32.518840Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
-      "peak_label": "Russia hits Ukraine power before Abu Dhabi talks",
-      "peak_summary": "Russian attacks damage Ukrainian energy infrastructure ahead of trilateral negotiations, escalating Black Sea regional tensions and threatening energy security before diplomatic engagement.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -191,27 +207,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "russia launches missile attack on kyiv, injuring residents": {
-      "detected_at": "2026-11-07T07:07:35.889823Z",
-      "peak_at": "2026-11-07T07:07:35.889823Z",
-      "peak_score_at": "2026-11-07T07:07:35.889823Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "peak_label": "Russia strikes Kyiv damaging buildings",
-      "peak_summary": "Air strikes injure two civilians in Kyiv. Continuation of known conflict pattern near Black Sea region; no new qualitative change.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
-    "Eisenkot chosen over Netanyahu to form Israel's next government",
-    "Police clash with protesters as anti-government rallies sweep France"
+    "US military attacks cargo ship in the Gulf of Oman",
+    "Israel's president tasks opposition leader Eisenkot with forming government",
+    "Russian strikes wound nine and damage Ukraine's power network ahead of talks"
   ]
 }
