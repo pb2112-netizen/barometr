@@ -1,66 +1,58 @@
 {
-  "updated_at": "2026-11-09T00:52:27.499804Z",
-  "ostatnia_ocena": 2.8,
+  "updated_at": "2026-11-09T07:57:01.640537Z",
+  "ostatnia_ocena": 1.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "US Iran nuclear programme reward strikes Trump",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
-      "opis": "US offers $20m reward; Trump raises Iran strike prospect."
-    },
-    {
-      "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 4,
-      "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
+      "temat": "Iran executions January protests repression",
+      "poziom_bazowy": 1.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Iran executes three for protest involvement; distant."
     },
     {
       "temat": "Russia Zaporizhzhia drone attack 50 dead",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 9,
       "opis": "Single attack kills 50 in previously safer region."
     },
     {
+      "temat": "Iran Strait Hormuz blasts US supply route blockade",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 5,
+      "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
+    },
+    {
       "temat": "Russia aerial bombing Ukraine aid centre mass casualties",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 17,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 18,
       "opis": "Nine 3,000kg bombs hit aid centre; 18 dead, 27 missing."
     },
     {
       "temat": "US midterms Democrats win Trump foreign policy Ukraine aid",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
       "opis": "Congressional shift may affect military support scrutiny."
     },
     {
       "temat": "Ukraine Kherson ceasefire local truce extension",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 13,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 14,
       "opis": "Ceasefire extended in Kherson; stranded residents safe."
     },
     {
-      "temat": "US cabinet changes speculation Ukraine aid uncertainty",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 13,
-      "opis": "Potential US cabinet changes add uncertainty to aid."
+      "temat": "US Iran nuclear programme reward strikes Trump",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
+      "opis": "US offers $20m reward; Trump raises Iran strike prospect."
     },
     {
-      "temat": "California death penalty commutation criminal justice",
+      "temat": "US cabinet changes speculation Ukraine aid uncertainty",
       "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 12,
-      "opis": "Major US policy shift reflects Democratic priorities."
+      "cykle_bez_zmian": 14,
+      "opis": "Potential US cabinet changes add uncertainty to aid."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-07T00:55:29.427021Z",
-      "s": 3.0
-    },
-    {
-      "t": "2026-11-07T07:07:35.891696Z",
-      "s": 2.9
-    },
     {
       "t": "2026-11-07T13:59:32.521903Z",
       "s": 5.5
@@ -92,10 +84,50 @@
     {
       "t": "2026-11-09T00:52:27.477448Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-11-09T07:57:01.635159Z",
+      "s": 1.8
     }
   ],
   "events_anchor_at": "2026-11-07T13:59:32.521903Z",
   "event_detected_at": {
+    "iran executes three men for 'armed unrest' after january protests": {
+      "detected_at": "2026-11-09T07:57:01.635159Z",
+      "peak_at": "2026-11-09T07:57:01.635159Z",
+      "peak_score_at": "2026-11-09T07:57:01.635159Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "negative",
+      "title": "Iran executes three men for 'armed unrest' after January protests",
+      "peak_label": "Iran executes three for January protest participation",
+      "peak_summary": "Iran executes three men for alleged involvement in anti-government protests. Distant internal repression with no direct impact on Ukraine's war situation or security.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "collision of two trains in egypt kills at least seven": {
+      "detected_at": "2026-11-09T07:57:01.635159Z",
+      "peak_at": "2026-11-09T07:57:01.635159Z",
+      "peak_score_at": "2026-11-09T07:57:01.635159Z",
+      "peak_score": 1.0,
+      "peak_sentiment": "negative",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "peak_label": "Egypt train collision kills seven injures 125",
+      "peak_summary": "Train crash near Cairo kills seven. Completely unrelated to Ukraine's ongoing war and security concerns.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+        }
+      ]
+    },
     "russian strikes wound nine and damage ukraine's power network ahead of talks": {
       "detected_at": "2026-11-07T13:59:32.521903Z",
       "peak_at": "2026-11-08T16:42:42.308372Z",
@@ -207,27 +239,10 @@
           "url": "https://www.aljazeera.com/news/2026/11/8/democrats-congressional-win-could-strengthen-ukraines-hand-against-russia?traffic_source=rss"
         }
       ]
-    },
-    "iran war live: blasts heard in qeshm; us moves to block land supply routes": {
-      "detected_at": "2026-11-08T02:28:05.600384Z",
-      "peak_at": "2026-11-08T02:28:05.600384Z",
-      "peak_score_at": "2026-11-08T02:28:05.600384Z",
-      "peak_score": 4.2,
-      "peak_sentiment": "negative",
-      "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
-      "peak_label": "Blasts reported in Iran Strait of Hormuz",
-      "peak_summary": "Iranian media report explosions on Qeshm Island and cities near Strait of Hormuz; US moves to block supply routes. Major escalation could shift Western attention and resources from Ukraine.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-    "Iran war live: Trump says 'Iron Gate' in effect; drone hits Iraq gas field",
-    "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes"
+    "Iran executes three men for 'armed unrest' after January protests",
+    "Collision of two trains in Egypt kills at least seven"
   ]
 }

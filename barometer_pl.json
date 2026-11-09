@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "Krakow shooting continues as background; no new qualitative change affecting Polish residents this cycle.",
+  "global_score": 5.6,
+  "rationale": "Krakow shooting suspect's death closes the immediate domestic security crisis; no new escalation, situation continues to decay from baseline.",
   "top_events": [
     {
-      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-      "label": "Surgeon saves officer's life near Krakow shooting",
-      "summary": "Follow-up details on Krakow attack; surgeon's intervention prevented additional casualties. No new escalation; ongoing investigation continues.",
-      "score": 3.0,
+      "title": "Krakow shooting suspect has died in hospital, police say",
+      "label": "Krakow gunman dies in hospital after mass shooting",
+      "summary": "The suspect who killed six people in Krakow has died in hospital. The immediate domestic security threat has ended, though the incident remains a significant recent trauma for Poland.",
+      "score": 5.6,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "inne",
@@ -16,37 +16,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-07T18:46:08.201969Z"
     },
     {
-      "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-      "label": "Russian strikes damage Ukraine power grid before talks",
-      "summary": "Continued infrastructure strikes in Ukraine ahead of Abu Dhabi negotiations. Familiar pattern; no major escalation affecting Poland directly.",
-      "score": 2.8,
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "label": "Houthis strike Aramco Tower in Riyadh financial district",
+      "summary": "Houthi attack damages Aramco Tower in Riyadh's central financial district. Raises concerns about energy infrastructure security and potential oil price volatility affecting Poland's energy costs.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-07T13:59:32.517480Z"
-    },
-    {
-      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-      "label": "Houthis strike Aramco Tower in Saudi capital",
-      "summary": "Houthi attack on Riyadh financial district escalates Middle East tensions. Indirect impact on Poland through potential energy market volatility.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -58,21 +39,45 @@
         }
       ],
       "detected_at": "2026-11-09T00:52:27.472576Z"
+    },
+    {
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "label": "Egypt train collision kills seven injures 125",
+      "summary": "Two trains collided south of Cairo, killing seven and injuring 125. Distant event with no direct impact on Polish daily life or regional security.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC",
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+        }
+      ],
+      "detected_at": "2026-11-09T07:57:01.630285Z"
     }
   ],
   "short_summary": "Gunman kills six in Krakow mass shooting",
-  "level_label": "Low",
-  "trend": "stable",
+  "level_label": "Elevated",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-09T00:52:27.472576Z",
+  "updated_at": "2026-11-09T07:57:01.630285Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Gunman kills six in Krakow mass shooting",
     "summary": "A gunman in military fatigues opened fire in Poland's second-largest city, killing at least six people. This is a direct domestic security incident affecting Polish residents.",
     "title": "What we know about Krakow mass shooting so far",
-    "score": 6.6,
+    "score": 6.5,
     "sentiment": "negative",
     "detected_at": "2026-11-07T18:46:08.201969Z",
     "peak_at": "2026-11-08T21:09:18.205001Z",
@@ -85,14 +90,6 @@
   },
   "events_anchor_at": "2026-11-07T18:46:08.201969Z",
   "score_history": [
-    {
-      "t": "2026-11-07T00:55:29.422791Z",
-      "s": 3.2
-    },
-    {
-      "t": "2026-11-07T07:07:35.888847Z",
-      "s": 3.1
-    },
     {
       "t": "2026-11-07T13:59:32.517480Z",
       "s": 5.1
@@ -124,6 +121,10 @@
     {
       "t": "2026-11-09T00:52:27.472576Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-09T07:57:01.630285Z",
+      "s": 5.6
     }
   ]
 }
