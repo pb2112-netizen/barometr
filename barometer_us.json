@@ -1,15 +1,15 @@
 {
-  "global_score": 3.2,
-  "rationale": "Nvidia shares tumble over CEO investigation continues; Trump questions midterm integrity is rhetoric without policy change.",
+  "global_score": 3.0,
+  "rationale": "Nvidia CEO spy scandal confirmed by Trump, FBI probe launched — direct US tech/security concern; shares drop hundreds of billions. GOP congressman forces Hegseth impeachment vote (rhetoric, likely fails). Iran war rhetoric continues; no new action.",
   "top_events": [
     {
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "label": "Nvidia shares tumble over CEO spy affair probe",
-      "summary": "Nvidia shares dropped, wiping hundreds of billions from its value, as investigation into CEO Jensen Huang's affair with alleged Chinese spy continues.",
-      "score": 3.2,
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "label": "FBI probes Nvidia CEO spy affair",
+      "summary": "President confirms FBI investigation into Nvidia CEO Jensen Huang's affair with suspected Chinese spy. Shares drop hundreds of billions; direct US tech/security concern.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
         "BBC",
         "Al Jazeera"
@@ -17,49 +17,54 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
         },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss"
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-09T00:52:27.479339Z"
     },
     {
-      "title": "Trump questions midterm elections integrity after previously accepting results",
-      "label": "Trump questions midterm integrity without evidence",
-      "summary": "Trump made claims without evidence on Truth Social questioning midterm election integrity, despite previously accepting results. Rhetoric only; no policy change.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-09T18:46:10.727638Z"
-    },
-    {
       "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
       "label": "GOP congressman forces Hegseth impeachment vote",
-      "summary": "Representative Thomas Massie will force an impeachment vote on Defence Secretary Hegseth, though it will likely fail. Aims to push Trump to fire Hegseth first.",
-      "score": 2.8,
+      "summary": "Rep. Thomas Massie forces vote on Defence Secretary; effort likely to fail. Rhetoric only; no policy change yet.",
+      "score": 2.7,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-09T00:52:27.479339Z"
+    },
+    {
+      "title": "Trump signals 'positive momentum' with Iran after meeting Qatari PM",
+      "label": "Trump claims Iran war effectively over",
+      "summary": "President says war 'effectively over' after meeting Qatar PM; Iran dismisses as 'fake news'. Rhetoric only; no ceasefire or treaty signed.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-09T00:52:27.479339Z"
@@ -70,17 +75,17 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-09T18:46:10.727638Z",
+  "updated_at": "2026-11-10T02:06:04.693299Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Nvidia CEO affair sparks China espionage probe",
     "summary": "Jensen Huang admitted affair with woman suspected of spying for China. Major US tech security concern; potential classified information compromise at leading AI chipmaker.",
     "title": "Nvidia CEO's affair sparks Chinese espionage probe",
-    "score": 3.3,
+    "score": 3.2,
     "sentiment": "negative",
     "detected_at": "2026-11-09T00:52:27.479339Z",
-    "peak_at": "2026-11-09T00:52:27.479339Z",
+    "peak_at": "2026-11-10T02:06:04.693299Z",
     "source_links": [
       {
         "name": "Al Jazeera",
@@ -90,10 +95,6 @@
   },
   "events_anchor_at": "2026-11-09T00:52:27.479339Z",
   "score_history": [
-    {
-      "t": "2026-11-07T22:44:00.090037Z",
-      "s": 3.1
-    },
     {
       "t": "2026-11-08T02:28:05.602464Z",
       "s": 4.2
@@ -121,6 +122,10 @@
     {
       "t": "2026-11-09T18:46:10.727638Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-10T02:06:04.693299Z",
+      "s": 3.0
     }
   ]
 }
