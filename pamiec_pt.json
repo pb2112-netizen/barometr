@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-10T02:06:04.696518Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-11-10T09:46:08.048068Z",
+  "ostatnia_ocena": 2.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "France Iran cyber-attack supermarket fridges",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 2,
       "opis": "Iran hacked 1,000+ French stores; EU cyber threat."
     },
     {
       "temat": "Pope criticizes Milei austerity Argentina visit",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 2,
       "opis": "Pope rebukes Argentine president's economic policy."
     },
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     },
     {
       "temat": "Canary Islands migrant boat deaths storm Atlantic",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Seven of 139 migrants die in storm near Canary Islands."
     },
     {
       "temat": "Paraguay banking crisis president impeached detained",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 8,
       "opis": "60% unable to access accounts; president detained; crisis."
     },
     {
       "temat": "Iran Strait Hormuz blasts US supply route blockade",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     },
     {
       "temat": "Pope Latin America trip post-surgery",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 15,
+      "cykle_bez_zmian": 16,
       "opis": "Pope visits South America after lung cancer surgery."
     },
     {
       "temat": "Europe aviation bomb threats Spain flights",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 22,
+      "cykle_bez_zmian": 23,
       "opis": "Multiple bomb threats ground flights in Spain and EU."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-08T02:28:05.598400Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-08T10:17:22.262030Z",
       "s": 2.7
@@ -84,10 +80,66 @@
     {
       "t": "2026-11-10T02:06:04.689924Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-11-10T09:46:08.041532Z",
+      "s": 2.1
     }
   ],
   "events_anchor_at": "2026-11-08T16:42:42.307254Z",
   "event_detected_at": {
+    "pope leo delivers stinging rebuke of milei's austerity measures during argentina visit": {
+      "detected_at": "2026-11-08T21:09:18.207441Z",
+      "peak_at": "2026-11-10T02:06:04.689924Z",
+      "peak_score_at": "2026-11-08T21:09:18.207441Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "neutral",
+      "title": "Pope's visit to Argentina sets up showdown with 'hyper-capitalist' Milei",
+      "peak_label": "Pope visits Argentina amid Milei tensions",
+      "peak_summary": "Pope Leo's Latin America tour includes Argentina, where tensions with President Milei are high. Cultural and political significance for Portuguese-speaking world.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei"
+        }
+      ]
+    },
+    "trump says fbi investigating nvidia boss's affair with alleged chinese spy": {
+      "detected_at": "2026-11-10T02:06:04.689924Z",
+      "peak_at": "2026-11-10T02:06:04.689924Z",
+      "peak_score_at": "2026-11-10T02:06:04.689924Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "peak_label": "Nvidia CEO spy scandal tanks shares globally",
+      "peak_summary": "FBI probes Nvidia CEO's affair with suspected Chinese spy; shares drop. Indirect EU tech/market concern.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss"
+        }
+      ]
+    },
+    "ousted paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts": {
+      "detected_at": "2026-11-08T02:28:05.598400Z",
+      "peak_at": "2026-11-10T09:46:08.041532Z",
+      "peak_score_at": "2026-11-08T02:28:05.598400Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+      "peak_label": "Paraguay president detained after bank collapse",
+      "peak_summary": "Santiago Peña detained after impeachment; 60% of country unable to access bank accounts after Ueno Bank suspension. Major economic crisis in Latin America affects regional stability.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        }
+      ]
+    },
     "france accuses iran of supermarket fridge hacking": {
       "detected_at": "2026-11-09T18:46:10.723971Z",
       "peak_at": "2026-11-09T18:46:10.723971Z",
@@ -108,42 +160,6 @@
         }
       ]
     },
-    "pope leo delivers stinging rebuke of milei's austerity measures during argentina visit": {
-      "detected_at": "2026-11-08T21:09:18.207441Z",
-      "peak_at": "2026-11-10T02:06:04.689924Z",
-      "peak_score_at": "2026-11-08T21:09:18.207441Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "neutral",
-      "title": "Pope's visit to Argentina sets up showdown with 'hyper-capitalist' Milei",
-      "peak_label": "Pope visits Argentina amid Milei tensions",
-      "peak_summary": "Pope Leo's Latin America tour includes Argentina, where tensions with President Milei are high. Cultural and political significance for Portuguese-speaking world.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei"
-        }
-      ]
-    },
-    "nvidia shares tumble over investigation into huang's affair with alleged chinese spy": {
-      "detected_at": "2026-11-10T02:06:04.689924Z",
-      "peak_at": "2026-11-10T02:06:04.689924Z",
-      "peak_score_at": "2026-11-10T02:06:04.689924Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "negative",
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "peak_label": "Nvidia CEO spy scandal tanks shares globally",
-      "peak_summary": "FBI probes Nvidia CEO's affair with suspected Chinese spy; shares drop. Indirect EU tech/market concern.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss"
-        }
-      ]
-    },
     "at least 39 die after europe-bound migrant boat sinks off senegal": {
       "detected_at": "2026-11-08T16:42:42.307254Z",
       "peak_at": "2026-11-09T18:46:10.723971Z",
@@ -159,47 +175,11 @@
           "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss"
         }
       ]
-    },
-    "ousted paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts": {
-      "detected_at": "2026-11-08T02:28:05.598400Z",
-      "peak_at": "2026-11-09T07:57:01.633262Z",
-      "peak_score_at": "2026-11-08T02:28:05.598400Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
-      "peak_label": "Paraguay president detained after bank collapse",
-      "peak_summary": "Santiago Peña detained after impeachment; 60% of country unable to access bank accounts after Ueno Bank suspension. Major economic crisis in Latin America affects regional stability.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
-        }
-      ]
-    },
-    "collision of two trains in egypt kills at least seven": {
-      "detected_at": "2026-11-09T07:57:01.633262Z",
-      "peak_at": "2026-11-09T07:57:01.633262Z",
-      "peak_score_at": "2026-11-09T07:57:01.633262Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "peak_label": "Egypt train collision kills seven injures 125",
-      "peak_summary": "Train crash near Cairo kills seven and injures 125. Distant event with no connection to Portugal's interests or daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "France accuses Iran of supermarket fridge hacking",
     "Pope Leo delivers stinging rebuke of Milei's austerity measures during Argentina visit",
-    "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy"
+    "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+    "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts"
   ]
 }
