@@ -1,32 +1,51 @@
 {
   "global_score": 3.0,
-  "rationale": "Trump confirms FBI probe of Nvidia CEO spy affair; concrete action on tech security threat; ongoing investigation with market implications. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Hegseth impeachment vote advances; US soldier arrested for spying for Russia; IBM ends foreign worker sponsorships.",
   "top_events": [
     {
-      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-      "label": "Trump confirms FBI probe of Nvidia CEO",
-      "summary": "President confirms active FBI investigation into tech CEO's affair with alleged Chinese spy; concrete security action affecting major US tech company.",
-      "score": 2.9,
-      "sentiment": "negative",
+      "title": "US House begins vote on motion to advance impeachment of Pete Hegseth",
+      "label": "US House votes Hegseth impeachment motion advance",
+      "summary": "House votes on motion to advance Defense Secretary impeachment over Iran war without congressional approval. Procedural step; outcome uncertain.",
+      "score": 2.4,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-09T00:52:27.479339Z"
     },
     {
-      "title": "Anthropic targets $1.4 trillion valuation in massive stock market debut",
-      "label": "Anthropic plans $64 billion IPO launch",
-      "summary": "AI company Claude maker seeks one of largest IPOs in history next week; major potential impact on US tech markets and AI sector.",
+      "title": "US soldier arrested in UK on suspicion of spying for Russia",
+      "label": "US soldier arrested UK spying Russia FBI counterterror",
+      "summary": "American soldier arrested in UK on suspicion of spying for Russia; FBI and UK counterterror forces involved. Serious security breach.",
       "score": 3.0,
-      "sentiment": "positive",
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-10T23:17:55.645917Z"
+    },
+    {
+      "title": "IBM's biggest division ends most US foreign worker sponsorships",
+      "label": "IBM ends most US foreign worker sponsorships division",
+      "summary": "IBM's largest division stops sponsoring most foreign workers; follows Trump visa crackdown. Direct impact on US tech labor market.",
+      "score": 2.5,
+      "sentiment": "negative",
       "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
@@ -35,29 +54,10 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut?traffic_source=rss"
+          "url": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-10T17:48:25.467014Z"
-    },
-    {
-      "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-      "label": "Trump board criticizes Israel Gaza response",
-      "summary": "Trump-formed group issues rare criticism of Israel while also blaming Hamas; signal of potential shift in US Middle East policy approach.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-10T17:48:25.467014Z"
+      "detected_at": "2026-11-10T23:17:55.645917Z"
     }
   ],
   "short_summary": "Nvidia CEO affair sparks China espionage probe",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-10T17:48:25.467014Z",
+  "updated_at": "2026-11-10T23:17:55.645917Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Nvidia CEO affair sparks China espionage probe",
     "summary": "Jensen Huang admitted affair with woman suspected of spying for China. Major US tech security concern; potential classified information compromise at leading AI chipmaker.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-09T00:52:27.479339Z",
   "score_history": [
-    {
-      "t": "2026-11-08T21:09:18.209804Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-09T00:52:27.479339Z",
       "s": 3.5
@@ -111,6 +107,10 @@
     },
     {
       "t": "2026-11-10T17:48:25.467014Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-11-10T23:17:55.645917Z",
       "s": 3.0
     }
   ]

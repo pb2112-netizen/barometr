@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-10T17:48:25.469163Z",
+  "updated_at": "2026-11-10T23:17:55.648893Z",
   "ostatnia_ocena": 2.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Pope criticizes Milei austerity Argentina visit",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
+      "cykle_bez_zmian": 4,
       "opis": "Pope rebukes Argentine president's economic policy."
     },
     {
       "temat": "Iraq flash floods thunderstorms deaths",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Severe weather kills in northern Iraq; distant event."
+    },
+    {
+      "temat": "Egypt train collision Cairo deaths",
       "poziom_bazowy": 1.5,
       "cykle_bez_zmian": 0,
-      "opis": "Severe weather kills in northern Iraq; distant event."
+      "opis": "Two trains collide near Cairo; seven dead, 125 injured."
+    },
+    {
+      "temat": "France Iran cyber-attack supermarket fridges",
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 4,
+      "opis": "Iran hacked 1,000+ French stores; EU cyber threat."
     },
     {
       "temat": "Anthropic AI IPO $1.4 trillion valuation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Claude maker seeks massive stock debut; tech markets."
-    },
-    {
-      "temat": "France Iran cyber-attack supermarket fridges",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 3,
-      "opis": "Iran hacked 1,000+ French stores; EU cyber threat."
-    },
-    {
-      "temat": "Canary Islands migrant boat deaths storm Atlantic",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 9,
-      "opis": "Seven of 139 migrants die in storm near Canary Islands."
     },
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
+    },
+    {
+      "temat": "Canary Islands migrant boat deaths storm Atlantic",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
+      "opis": "Seven of 139 migrants die in storm near Canary Islands."
     },
     {
       "temat": "Paraguay banking crisis president impeached detained",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "60% unable to access accounts; president detained; crisis."
-    },
-    {
-      "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-08T21:09:18.207441Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-09T00:52:27.475757Z",
       "s": 2.3
@@ -80,10 +76,30 @@
     {
       "t": "2026-11-10T17:48:25.465047Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-11-10T23:17:55.642437Z",
+      "s": 2.0
     }
   ],
-  "events_anchor_at": "2026-11-08T16:42:42.307254Z",
+  "events_anchor_at": "2026-11-08T02:28:05.598400Z",
   "event_detected_at": {
+    "deadly floods hit iraq as thunderstorms sweep across region": {
+      "detected_at": "2026-11-10T17:48:25.465047Z",
+      "peak_at": "2026-11-10T17:48:25.465047Z",
+      "peak_score_at": "2026-11-10T17:48:25.465047Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "negative",
+      "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
+      "peak_label": "Flash floods kill in northern Iraq",
+      "peak_summary": "Severe weather in Middle East; no connection to Portuguese daily life or economy.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
+        }
+      ]
+    },
     "pope leo delivers stinging rebuke of milei's austerity measures during argentina visit": {
       "detected_at": "2026-11-08T21:09:18.207441Z",
       "peak_at": "2026-11-10T02:06:04.689924Z",
@@ -100,19 +116,19 @@
         }
       ]
     },
-    "deadly floods hit iraq as thunderstorms sweep across region": {
-      "detected_at": "2026-11-10T17:48:25.465047Z",
-      "peak_at": "2026-11-10T17:48:25.465047Z",
-      "peak_score_at": "2026-11-10T17:48:25.465047Z",
+    "collision of two trains in egypt kills at least seven": {
+      "detected_at": "2026-11-10T23:17:55.642437Z",
+      "peak_at": "2026-11-10T23:17:55.642437Z",
+      "peak_score_at": "2026-11-10T23:17:55.642437Z",
       "peak_score": 1.5,
       "peak_sentiment": "negative",
-      "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
-      "peak_label": "Flash floods kill in northern Iraq",
-      "peak_summary": "Severe weather in Middle East; no connection to Portuguese daily life or economy.",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "peak_label": "Egypt train collision kills seven injures 125",
+      "peak_summary": "Two trains collide south of Cairo; seven dead, 125 injured. Distant accident with no link to Portugal.",
       "peak_source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
         }
       ]
     },
@@ -167,47 +183,11 @@
           "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
         }
       ]
-    },
-    "france accuses iran of supermarket fridge hacking": {
-      "detected_at": "2026-11-09T18:46:10.723971Z",
-      "peak_at": "2026-11-09T18:46:10.723971Z",
-      "peak_score_at": "2026-11-09T18:46:10.723971Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "France accuses Iran of supermarket fridge hacking",
-      "peak_label": "Iran cyber-attack heated French supermarket fridges",
-      "peak_summary": "France accuses Iran's Revolutionary Guard of hacking over 1,000 supermarket fridges. Indirect EU cyber threat; raises regional security awareness.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges?traffic_source=rss"
-        }
-      ]
-    },
-    "at least 39 die after europe-bound migrant boat sinks off senegal": {
-      "detected_at": "2026-11-08T16:42:42.307254Z",
-      "peak_at": "2026-11-09T18:46:10.723971Z",
-      "peak_score_at": "2026-11-08T16:42:42.307254Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "negative",
-      "title": "At least 21 dead as small boat sinks off Senegal",
-      "peak_label": "Migrant boat sinks off Senegal kills 21",
-      "peak_summary": "At least 21 dead after migrant vessel capsizes off Senegal; search continues. Atlantic migration route tragedy with regional implications.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Pope Leo delivers stinging rebuke of Milei's austerity measures during Argentina visit",
     "Deadly floods hit Iraq as thunderstorms sweep across region",
-    "Anthropic targets $1.4 trillion valuation in massive stock market debut"
+    "Pope Leo delivers stinging rebuke of Milei's austerity measures during Argentina visit",
+    "Collision of two trains in Egypt kills at least seven"
   ]
 }

@@ -1,11 +1,30 @@
 {
   "global_score": 2.0,
-  "rationale": "Pope criticizes Milei's austerity in Argentina; ongoing rhetoric with no direct impact on Portuguese economy or daily life. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Deadly floods in Iraq and Pope's visit to Argentina; distant events with no direct impact on Portugal.",
   "top_events": [
     {
+      "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
+      "label": "Deadly floods hit Iraq thunderstorms sweep region",
+      "summary": "Flash floods kill in northern Iraq; violent storms across region. Distant weather event with no link to Portugal.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
+        }
+      ],
+      "detected_at": "2026-11-10T17:48:25.465047Z"
+    },
+    {
       "title": "Pope Leo delivers stinging rebuke of Milei's austerity measures during Argentina visit",
-      "label": "Pope criticizes Milei austerity in Argentina",
-      "summary": "Pope rebukes Argentine president's economic policy during Latin America tour; cultural interest but no direct impact on Portugal.",
+      "label": "Pope rebukes Milei austerity Argentina visit economy",
+      "summary": "Pope criticizes Argentine president's harsh economic policy. Continuation of known rhetoric; no impact on Portugal.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,9 +41,9 @@
       "detected_at": "2026-11-08T21:09:18.207441Z"
     },
     {
-      "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
-      "label": "Flash floods kill in northern Iraq",
-      "summary": "Severe weather in Middle East; no connection to Portuguese daily life or economy.",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "label": "Egypt train collision kills seven injures 125",
+      "summary": "Two trains collide south of Cairo; seven dead, 125 injured. Distant accident with no link to Portugal.",
       "score": 1.5,
       "sentiment": "negative",
       "nowosc": "nowe",
@@ -35,60 +54,37 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
         }
       ],
-      "detected_at": "2026-11-10T17:48:25.465047Z"
-    },
-    {
-      "title": "Anthropic targets $1.4 trillion valuation in massive stock market debut",
-      "label": "Anthropic plans massive IPO next week",
-      "summary": "AI company Claude maker seeks major stock listing; potential indirect impact on global tech markets.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-10T17:48:25.465047Z"
+      "detected_at": "2026-11-10T23:17:55.642437Z"
     }
   ],
-  "short_summary": "Migrant boat sinks off Senegal kills 21",
+  "short_summary": "Paraguay president detained after bank collapse",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-10T17:48:25.465047Z",
+  "updated_at": "2026-11-10T23:17:55.642437Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
-    "label": "Migrant boat sinks off Senegal kills 21",
-    "summary": "At least 21 dead after migrant vessel capsizes off Senegal; search continues. Atlantic migration route tragedy with regional implications.",
-    "title": "At least 21 dead as small boat sinks off Senegal",
-    "score": 2.9,
+    "label": "Paraguay president detained after bank collapse",
+    "summary": "Santiago Peña detained after impeachment; 60% of country unable to access bank accounts after Ueno Bank suspension. Major economic crisis in Latin America affects regional stability.",
+    "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+    "score": 2.2,
     "sentiment": "negative",
-    "detected_at": "2026-11-08T16:42:42.307254Z",
-    "peak_at": "2026-11-09T18:46:10.723971Z",
+    "detected_at": "2026-11-08T02:28:05.598400Z",
+    "peak_at": "2026-11-10T09:46:08.041532Z",
     "source_links": [
       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss"
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
       }
     ]
   },
-  "events_anchor_at": "2026-11-08T16:42:42.307254Z",
+  "events_anchor_at": "2026-11-08T02:28:05.598400Z",
   "score_history": [
-    {
-      "t": "2026-11-08T21:09:18.207441Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-09T00:52:27.475757Z",
       "s": 2.3
@@ -111,6 +107,10 @@
     },
     {
       "t": "2026-11-10T17:48:25.465047Z",
+      "s": 2.0
+    },
+    {
+      "t": "2026-11-10T23:17:55.642437Z",
       "s": 2.0
     }
   ]
