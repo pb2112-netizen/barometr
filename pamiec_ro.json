@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-11T06:12:21.797538Z",
-  "ostatnia_ocena": 4.5,
+  "updated_at": "2026-11-11T14:18:22.986964Z",
+  "ostatnia_ocena": 4.3,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 4.5,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.3,
+      "cykle_bez_zmian": 1,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
+      "temat": "Italy schools bomb hoax evacuations",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Hundreds of Italian schools evacuated; neighbor disruption."
+    },
+    {
       "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 12,
       "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     },
     {
       "temat": "Russia Moldova diplomat expulsion tit-for-tat",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 2,
       "opis": "Russia expels Moldovan diplomat; regional tension increase."
     },
     {
       "temat": "US Hegseth impeachment vote Massie Defense Secretary",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 4,
       "opis": "Congressman forces impeachment vote on Defense Secretary."
     },
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 5,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     },
     {
       "temat": "France Iran cyber-attack supermarket fridges",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "Iran hacked 1,000+ French stores; EU cyber threat."
     },
     {
       "temat": "Bulgaria motorway pile-up fog deaths",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
       "opis": "50-vehicle crash in Bulgaria kills 12; neighbor accident."
-    },
-    {
-      "temat": "Israel Eisenkot government formation Netanyahu out",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 11,
-      "opis": "Opposition leader tasked with forming Israeli government."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-09T07:57:01.631601Z",
-      "s": 2.2
-    },
     {
       "t": "2026-11-09T18:46:10.721991Z",
       "s": 2.8
@@ -80,15 +76,19 @@
     {
       "t": "2026-11-11T06:12:21.791250Z",
       "s": 4.5
+    },
+    {
+      "t": "2026-11-11T14:18:22.979341Z",
+      "s": 4.3
     }
   ],
   "events_anchor_at": "2026-11-11T06:12:21.791250Z",
   "event_detected_at": {
-    "us army soldier suspected of spying for russia arrested in uk": {
+    "us soldier arrested for russia spying: what we know": {
       "detected_at": "2026-11-11T06:12:21.791250Z",
       "peak_at": "2026-11-11T06:12:21.791250Z",
       "peak_score_at": "2026-11-11T06:12:21.791250Z",
-      "peak_score": 4.5,
+      "peak_score": 4.4,
       "peak_sentiment": "negative",
       "title": "US Army soldier suspected of spying for Russia arrested in UK",
       "peak_label": "US soldier arrested UK spying Russia",
@@ -100,11 +100,31 @@
         }
       ]
     },
+    "hundreds of italian schools hit by threats in suspected bomb hoax": {
+      "detected_at": "2026-11-11T14:18:22.979341Z",
+      "peak_at": "2026-11-11T14:18:22.979341Z",
+      "peak_score_at": "2026-11-11T14:18:22.979341Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "negative",
+      "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+      "peak_label": "Italian schools evacuated bomb hoax threats",
+      "peak_summary": "False bomb warnings sent to hundreds of schools across Italian cities including Rome, Naples, Florence. Regional security disruption in EU neighbor affecting public safety.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
+        }
+      ]
+    },
     "three iran-backed suspects plotted attacks including raf fairford incident, us says": {
       "detected_at": "2026-11-11T06:12:21.791250Z",
       "peak_at": "2026-11-11T06:12:21.791250Z",
       "peak_score_at": "2026-11-11T06:12:21.791250Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
       "peak_label": "Iran-backed suspects plotted RAF Fairford attack",
@@ -187,27 +207,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss"
         }
       ]
-    },
-    "republican congressman to force impeachment vote on defence secretary hegseth": {
-      "detected_at": "2026-11-10T09:46:08.040009Z",
-      "peak_at": "2026-11-10T09:46:08.040009Z",
-      "peak_score_at": "2026-11-10T09:46:08.040009Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-      "peak_label": "US congressman forces Hegseth impeachment vote",
-      "peak_summary": "Internal US political friction over Defense Secretary; likely to fail but signals instability in NATO leadership structure.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US Army soldier suspected of spying for Russia arrested in UK",
-    "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-    "Russia claims interception of 146 drones in Leningrad region"
+    "US soldier arrested for Russia spying: What we know",
+    "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+    "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says"
   ]
 }

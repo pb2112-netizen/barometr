@@ -1,71 +1,76 @@
 {
-  "global_score": 2.7,
-  "rationale": "Spain housing protests reflect broader Iberian cost-of-living crisis; Kenya El Niño floods and Iraq flash floods are distant climate events with minimal direct impact.",
+  "global_score": 2.6,
+  "rationale": "Italian school bomb hoax affects EU neighbor; other events remain distant or background noise.",
   "top_events": [
     {
-      "title": "'I pay $500 for 5 square metres': Spain's protesters, in their own words",
-      "label": "Spain housing crisis protesters speak out",
-      "summary": "Young Spaniards protest overpriced, cramped rentals with little security, reflecting Iberian Peninsula cost-of-living pressures affecting Portugal indirectly.",
-      "score": 2.8,
+      "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+      "label": "Italian schools evacuated bomb hoax",
+      "summary": "False bomb threats sent to hundreds of schools across Italy including Rome and Naples. EU neighbor disruption with no direct impact on Portugal.",
+      "score": 2.6,
       "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/11/i-pay-500-for-5-square-metres-spains-protesters-in-their-own-words?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T06:12:21.792831Z"
-    },
-    {
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "label": "Egypt train collision kills seven injures 125",
-      "summary": "Two trains collided near Cairo killing seven and injuring 125, a distant transport accident with no impact on Portuguese daily life.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "katastrofa",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+        },
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-10T23:17:55.642437Z"
+      "detected_at": "2026-11-11T14:18:22.981500Z"
     },
     {
-      "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-      "label": "Kenya fears strong El Niño flooding",
-      "summary": "Kenya braces for potentially record El Niño floods, a distant climate event with no direct effect on Portugal.",
-      "score": 1.5,
-      "sentiment": "negative",
+      "title": "Transport workers in Chile block highways in protest over surging fuel prices",
+      "label": "Chile transport workers block highways fuel",
+      "summary": "Bus and lorry drivers block major Chilean highways protesting fuel price surge. Distant Latin American event with no link to Portuguese daily life.",
+      "score": 1.8,
+      "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "katastrofa",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6e3d895zne7o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-11T06:12:21.792831Z"
+      "detected_at": "2026-11-11T14:18:22.981500Z"
+    },
+    {
+      "title": "Pope's visit to Argentina sets up showdown with 'hyper-capitalist' Milei",
+      "label": "Pope visits Argentina confronts Milei austerity",
+      "summary": "Pope Leo XIV delivers critique of Argentine president's economic policies during Latin America tour. Distant political event with no impact on Portugal.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei"
+        }
+      ],
+      "detected_at": "2026-11-11T14:18:22.981500Z"
     }
   ],
   "short_summary": "Spain housing crisis protesters speak out",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-11T06:12:21.792831Z",
+  "updated_at": "2026-11-11T14:18:22.981500Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-11T06:12:21.792831Z",
   "score_history": [
-    {
-      "t": "2026-11-09T07:57:01.633262Z",
-      "s": 2.3
-    },
     {
       "t": "2026-11-09T18:46:10.723971Z",
       "s": 2.6
@@ -112,6 +113,10 @@
     {
       "t": "2026-11-11T06:12:21.792831Z",
       "s": 2.7
+    },
+    {
+      "t": "2026-11-11T14:18:22.981500Z",
+      "s": 2.6
     }
   ]
 }
