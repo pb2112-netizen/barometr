@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-12T11:01:54.157177Z",
+  "updated_at": "2026-11-12T18:54:00.503370Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Spain general strike housing cost of living EU",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Mass strike over housing costs; distant EU economic signal."
     },
     {
       "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 1,
       "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
     },
     {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.8,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.6,
+      "cykle_bez_zmian": 5,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
       "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 15,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 16,
       "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 4,
       "opis": "Hundreds of Italian schools evacuated; neighbor disruption."
     },
     {
       "temat": "Russia Moldova diplomat expulsion tit-for-tat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Russia expels Moldovan diplomat; regional tension increase."
     },
     {
       "temat": "US Hegseth impeachment vote Massie Defense Secretary",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Congressman forces impeachment vote on Defense Secretary."
     },
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-10T17:48:25.464024Z",
-      "s": 2.3
-    },
     {
       "t": "2026-11-10T23:17:55.640430Z",
       "s": 2.5
@@ -80,11 +76,15 @@
     {
       "t": "2026-11-12T11:01:54.151225Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-12T18:54:00.496112Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-11-11T21:56:05.163950Z",
   "event_detected_at": {
-    "us envoys arrive in moscow for ukraine talks with vladimir putin": {
+    "us envoys head to meet zelensky after talks with putin in moscow": {
       "detected_at": "2026-11-11T21:56:05.163950Z",
       "peak_at": "2026-11-12T11:01:54.151225Z",
       "peak_score_at": "2026-11-12T11:01:54.151225Z",
@@ -101,6 +101,42 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+        }
+      ]
+    },
+    "suspected bomb hoax threats force fresh evacuations of italian schools": {
+      "detected_at": "2026-11-11T14:18:22.979341Z",
+      "peak_at": "2026-11-12T18:54:00.496112Z",
+      "peak_score_at": "2026-11-11T14:18:22.979341Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "negative",
+      "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+      "peak_label": "Italian schools evacuated bomb hoax threats",
+      "peak_summary": "False bomb warnings sent to hundreds of schools across Italian cities including Rome, Naples, Florence. Regional security disruption in EU neighbor affecting public safety.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
+        }
+      ]
+    },
+    "'we've got to run': inside ruined ukraine power plant under constant drone threat": {
+      "detected_at": "2026-11-12T18:54:00.496112Z",
+      "peak_at": "2026-11-12T18:54:00.496112Z",
+      "peak_score_at": "2026-11-12T18:54:00.496112Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+      "peak_label": "Ukraine power plant barely standing after strike",
+      "peak_summary": "Report from damaged Ukrainian power station hit by Russian ballistic missile. Continuation of infrastructure attacks already in regional background.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -135,31 +171,11 @@
           "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "schools in italy, scotland and northern ireland hit by threats in suspected bomb hoax": {
-      "detected_at": "2026-11-11T14:18:22.979341Z",
-      "peak_at": "2026-11-11T14:18:22.979341Z",
-      "peak_score_at": "2026-11-11T14:18:22.979341Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "negative",
-      "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
-      "peak_label": "Italian schools evacuated bomb hoax threats",
-      "peak_summary": "False bomb warnings sent to hundreds of schools across Italian cities including Rome, Naples, Florence. Regional security disruption in EU neighbor affecting public safety.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
-    "Clashes erupt in Barcelona after thousands join Spain general strike",
-    "Israeli strike on Gaza hospital kills six Palestinians, health ministry says"
+    "US envoys head to meet Zelensky after talks with Putin in Moscow",
+    "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+    "'We've got to run': Inside ruined Ukraine power plant under constant drone threat"
   ]
 }
