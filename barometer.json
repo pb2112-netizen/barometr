@@ -1,73 +1,83 @@
 {
-  "global_score": 2.4,
-  "rationale": "Spain strike continues EU cost-of-living pressure; other events distant or rhetoric-only.",
+  "global_score": 3.0,
+  "rationale": "US envoys meeting Putin in Moscow represents a qualitative new development in Ukraine peace process; direct relevance to Poland's eastern border security and refugee pressure. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+      "label": "US envoys meet Putin in Moscow for Ukraine talks",
+      "summary": "American negotiators Kushner and Witkoff arrive in Moscow for direct talks with Putin, then travel to Dublin to meet Zelensky—first such high-level shuttle diplomacy in months, potentially affecting Poland's security environment.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-11T21:56:05.161965Z"
+    },
+    {
+      "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
+      "label": "Ukraine blackouts worsen as Russia hits power grid",
+      "summary": "Continued Russian strikes on Ukrainian infrastructure leave families with only hours of power daily—ongoing humanitarian crisis next door to Poland.",
+      "score": 2.3,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-12T11:01:54.149554Z"
+    },
+    {
       "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "label": "Barcelona clashes as Spain strike hits housing costs",
-      "summary": "Mass strike over housing and living costs continues across Spain with violent clashes in Barcelona. Signals ongoing EU-wide inflation pressure indirectly affecting Poland.",
-      "score": 2.4,
+      "label": "Spain general strike turns violent in Barcelona",
+      "summary": "Mass strike over housing costs escalates to clashes in Barcelona—signal of EU-wide cost-of-living pressure affecting Poland indirectly.",
+      "score": 2.3,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.161965Z"
-    },
-    {
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "label": "Russia-Ukraine talks end with no breakthrough",
-      "summary": "Abu Dhabi talks on European security framework produced no concrete outcome. Rhetoric stage continues; no change to war status or Polish security.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
+        },
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.161965Z"
-    },
-    {
-      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "label": "US Treasury chief moved to base on Iran threats",
-      "summary": "Treasury Secretary relocated to military base due to Iranian threats. Continues US-Iran tension pattern; no direct impact on Poland.",
-      "score": 2.1,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/11/12/photos-protesters-clash-with-police-after-housing-cost-rallies-in-spain?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-11T21:56:05.161965Z"
     }
   ],
   "short_summary": "US soldier arrested UK spying for Russia",
-  "level_label": "Stable",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-12T02:57:22.360332Z",
+  "updated_at": "2026-11-12T11:01:54.149554Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "US soldier arrested UK spying for Russia",
     "summary": "A 41-year-old American soldier arrested near Gloucester under National Security Act for suspected espionage for Russia. Direct NATO intelligence security threat affecting alliance Poland depends on.",
@@ -85,10 +95,6 @@
   },
   "events_anchor_at": "2026-11-11T06:12:21.789837Z",
   "score_history": [
-    {
-      "t": "2026-11-10T09:46:08.038066Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-10T17:48:25.463022Z",
       "s": 2.5
@@ -112,6 +118,10 @@
     {
       "t": "2026-11-12T02:57:22.360332Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-11-12T11:01:54.149554Z",
+      "s": 3.0
     }
   ]
 }
