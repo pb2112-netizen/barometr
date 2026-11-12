@@ -1,14 +1,52 @@
 {
   "global_score": 3.0,
-  "rationale": "No new qualitative change; RAF Fairford plot case continues as known background; Bessent relocation is new but reflects ongoing Iran threat already tracked; no new domestic policy actions. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "Brooklyn building collapse is domestic disaster; Mississippi Senate win is historic but rhetoric; other events continue.",
   "top_events": [
     {
-      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "label": "Treasury chief moved after Iran threats",
-      "summary": "Bessent now lives on military base due to Iranian threat; several Trump officials similarly relocated. Reflects ongoing Iran threat to US officials already tracked.",
+      "title": "New York building collapse kills one person and injures 12",
+      "label": "Brooklyn building collapse kills one injures twelve",
+      "summary": "Three-story building collapsed in Brooklyn, killing one and injuring 12. Rescuers searching for trapped people. Direct domestic disaster.",
       "score": 3.0,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-12T02:57:22.367200Z"
+    },
+    {
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "label": "Democrat wins historic Mississippi Senate seat",
+      "summary": "Scott Colom becomes first black person from Mississippi elected to US Senate in over 140 years. Historic milestone but no immediate policy impact.",
+      "score": 2.5,
+      "sentiment": "positive",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-12T02:57:22.367200Z"
+    },
+    {
+      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "label": "Treasury Secretary moved to base on Iran threats",
+      "summary": "Treasury Secretary relocated to military base due to Iranian threats. Continues pattern of officials moving to bases; no policy change.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -20,44 +58,6 @@
         }
       ],
       "detected_at": "2026-11-11T21:56:05.169675Z"
-    },
-    {
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "label": "Russia-Ukraine talks end without deal",
-      "summary": "Abu Dhabi talks on European security produced no agreement; US envoys to meet Putin and Zelensky Thursday. Rhetoric stage continues with no change to US policy or involvement.",
-      "score": 2.2,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.169675Z"
-    },
-    {
-      "title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
-      "label": "Baby found buried alive in South Carolina",
-      "summary": "11-month-old found buried near father's home day after abduction; child now in hospital. Domestic crime with no broader policy or security impact.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.169675Z"
     }
   ],
   "short_summary": "House blocks Hegseth impeachment bid",
@@ -65,9 +65,9 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-11T21:56:05.169675Z",
+  "updated_at": "2026-11-12T02:57:22.367200Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "House blocks Hegseth impeachment bid",
     "summary": "House rejects impeachment attempt against Defense Secretary Hegseth; Trump praises outcome. Removes immediate domestic political uncertainty over Pentagon leadership.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-09T00:52:27.479339Z",
   "score_history": [
-    {
-      "t": "2026-11-10T02:06:04.693299Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-10T09:46:08.044874Z",
       "s": 3.0
@@ -111,6 +107,10 @@
     },
     {
       "t": "2026-11-11T21:56:05.169675Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-11-12T02:57:22.367200Z",
       "s": 3.0
     }
   ]

@@ -1,11 +1,30 @@
 {
-  "global_score": 2.5,
-  "rationale": "No new qualitative change; US soldier spy case continues as known background; Spain strike and Russia-Ukraine talks are rhetoric without confirmed outcomes affecting Poland. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.4,
+  "rationale": "Spain strike continues EU cost-of-living pressure; other events distant or rhetoric-only.",
   "top_events": [
     {
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "label": "Barcelona clashes as Spain strike hits housing costs",
+      "summary": "Mass strike over housing and living costs continues across Spain with violent clashes in Barcelona. Signals ongoing EU-wide inflation pressure indirectly affecting Poland.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-11T21:56:05.161965Z"
+    },
+    {
       "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "label": "Russia-Ukraine talks end without breakthrough",
-      "summary": "Abu Dhabi talks focused on European security framework but produced no concrete agreement; US envoys to meet Putin and Zelensky Thursday. Rhetoric stage continues with no change to Poland's security environment.",
+      "label": "Russia-Ukraine talks end with no breakthrough",
+      "summary": "Abu Dhabi talks on European security framework produced no concrete outcome. Rhetoric stage continues; no change to war status or Polish security.",
       "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
@@ -22,31 +41,12 @@
       "detected_at": "2026-11-11T21:56:05.161965Z"
     },
     {
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "label": "Spain general strike over housing costs",
-      "summary": "Tens of thousands strike over housing and cost of living in Spain; clashes in Barcelona. Reflects EU-wide inflation pressures indirectly relevant to Poland but no direct policy impact yet.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.161965Z"
-    },
-    {
       "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "label": "US Treasury chief moved after Iran threats",
-      "summary": "Bessent now lives on military base due to Iranian threat; several Trump officials similarly relocated. Signals continued US-Iran tension but no direct impact on Poland's security or economy.",
-      "score": 2.2,
+      "label": "US Treasury chief moved to base on Iran threats",
+      "summary": "Treasury Secretary relocated to military base due to Iranian threats. Continues US-Iran tension pattern; no direct impact on Poland.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -62,12 +62,12 @@
   ],
   "short_summary": "US soldier arrested UK spying for Russia",
   "level_label": "Stable",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-11T21:56:05.161965Z",
+  "updated_at": "2026-11-12T02:57:22.360332Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "US soldier arrested UK spying for Russia",
     "summary": "A 41-year-old American soldier arrested near Gloucester under National Security Act for suspected espionage for Russia. Direct NATO intelligence security threat affecting alliance Poland depends on.",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-11T06:12:21.789837Z",
   "score_history": [
-    {
-      "t": "2026-11-10T02:06:04.685842Z",
-      "s": 3.2
-    },
     {
       "t": "2026-11-10T09:46:08.038066Z",
       "s": 3.0
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-11T21:56:05.161965Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-11-12T02:57:22.360332Z",
+      "s": 2.4
     }
   ]
 }

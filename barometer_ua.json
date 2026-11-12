@@ -1,12 +1,12 @@
 {
-  "global_score": 3.0,
-  "rationale": "No new qualitative change; US soldier spy case continues as known background; Russia-Ukraine talks are rhetoric without concrete outcome; no new strikes or aid changes reported. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 2.9,
+  "rationale": "Peace talks continue without breakthrough; Gaza hospital strike shows conflict pattern; no direct Ukrainian impact.",
   "top_events": [
     {
       "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "label": "Russia-Ukraine talks end without deal",
-      "summary": "Abu Dhabi talks on European security produced no agreement; US envoys to meet Putin and Zelensky Thursday. Rhetoric stage continues with no change to war situation or aid.",
-      "score": 3.0,
+      "label": "Russia-Ukraine talks end without breakthrough",
+      "summary": "Abu Dhabi talks on European security framework produced no concrete outcome. Rhetoric stage continues; no change to war status or aid.",
+      "score": 2.9,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -22,12 +22,31 @@
       "detected_at": "2026-11-11T14:18:22.982992Z"
     },
     {
+      "title": "Israel strikes intensive care at Gaza's Nasser Hospital",
+      "label": "Israel strikes Gaza hospital intensive care unit",
+      "summary": "Israeli strike on Nasser Hospital killed at least six people. Continues Middle East conflict pattern; no direct Ukrainian impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-12T02:57:22.365146Z"
+    },
+    {
       "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-      "label": "US Treasury chief moved after Iran threats",
-      "summary": "Bessent now lives on military base due to Iranian threat; several Trump officials similarly relocated. Signals continued US-Iran tension but no direct impact on Ukraine aid or war.",
-      "score": 2.2,
+      "label": "US Treasury chief moved on Iran threats",
+      "summary": "Treasury Secretary relocated to military base due to Iranian threats. Continues US-Iran tension; potential indirect aid leadership risk.",
+      "score": 2.1,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -39,33 +58,14 @@
         }
       ],
       "detected_at": "2026-11-11T21:56:05.167562Z"
-    },
-    {
-      "title": "Hormuz Strait will 'never return' to pre-war status, Iran's Ghalibaf says",
-      "label": "Iran says Hormuz Strait changed forever",
-      "summary": "Iran's parliament speaker says Strait status permanently changed; Tehran awaits US response to seven conditions. Rhetoric without confirmed action; no direct impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T21:56:05.167562Z"
     }
   ],
   "short_summary": "US soldier arrested UK spying Russia",
-  "level_label": "Low",
-  "trend": "falling",
+  "level_label": "Stable",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-11T21:56:05.167562Z",
+  "updated_at": "2026-11-12T02:57:22.365146Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-11T06:12:21.794269Z",
   "score_history": [
-    {
-      "t": "2026-11-10T02:06:04.691749Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-10T09:46:08.043544Z",
       "s": 3.0
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-11T21:56:05.167562Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-12T02:57:22.365146Z",
+      "s": 2.9
     }
   ]
 }

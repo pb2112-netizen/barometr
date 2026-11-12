@@ -1,38 +1,14 @@
 {
-  "global_score": 2.5,
-  "rationale": "Italy school hoax continues as tracked; Spain strike is new and relevant to Iberian neighbor but no direct policy impact on Portugal yet; other events distant.",
+  "global_score": 2.4,
+  "rationale": "Spain strike continues Iberian cost-of-living pressure; other events distant or rhetoric.",
   "top_events": [
     {
-      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-      "label": "Bomb hoax hits 6,000 Italian schools",
-      "summary": "Over 6,000 Italian schools received threats; authorities say no public risk. EU neighbor event already tracked; no direct impact on Portugal.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T14:18:22.981500Z"
-    },
-    {
       "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "label": "Spain strike over housing and living costs",
-      "summary": "Tens of thousands strike over housing and cost of living in Spain; clashes in Barcelona. Iberian neighbor faces same pressures as Portugal; reflects shared economic challenges.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
+      "label": "Barcelona clashes as Spain strike continues",
+      "summary": "Mass strike over housing and living costs escalates with violent clashes in Barcelona. Reflects ongoing Iberian economic pressure relevant to Portugal.",
+      "score": 2.4,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -47,9 +23,9 @@
     },
     {
       "title": "Collision of two trains in Egypt kills at least seven",
-      "label": "Egypt train crash kills seven people",
-      "summary": "Two trains collided south of Cairo; seven dead, 125 injured. Distant event with no link to Portugal's daily life.",
-      "score": 1.5,
+      "label": "Egypt train collision kills seven people",
+      "summary": "Two trains collided south of Cairo, killing seven and injuring 125. Distant event with no Portuguese connection.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -63,6 +39,25 @@
         }
       ],
       "detected_at": "2026-11-10T23:17:55.642437Z"
+    },
+    {
+      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "label": "Italy schools receive bomb threats in hoax",
+      "summary": "Over 6,000 Italian schools received threats in suspected hoax. EU neighbor disruption; no Portuguese impact.",
+      "score": 2.0,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-11T14:18:22.981500Z"
     }
   ],
   "short_summary": "Spain housing crisis protesters speak out",
@@ -70,9 +65,9 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-11T21:56:05.165517Z",
+  "updated_at": "2026-11-12T02:57:22.363607Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Spain housing crisis protesters speak out",
     "summary": "Young Spaniards protest overpriced, cramped rentals with little security, reflecting Iberian Peninsula cost-of-living pressures affecting Portugal indirectly.",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-11T06:12:21.792831Z",
   "score_history": [
-    {
-      "t": "2026-11-10T02:06:04.689924Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-10T09:46:08.041532Z",
       "s": 2.1
@@ -117,6 +108,10 @@
     {
       "t": "2026-11-11T21:56:05.165517Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-11-12T02:57:22.363607Z",
+      "s": 2.4
     }
   ]
 }
