@@ -1,12 +1,31 @@
 {
-  "global_score": 4.9,
-  "rationale": "Ukrainian drone strikes Russian warship in Baltic Sea — first open-water attack demonstrates expanded operational reach and new capability against Russian navy. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "Zelensky's support for European involvement in peace talks signals diplomatic progress; rhetoric stage continues without concrete change to war conditions. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "label": "Zelensky welcomes Europe in peace negotiations",
+      "summary": "Ukrainian president supports European involvement in talks; diplomatic rhetoric continues with no signed outcome yet affecting war conditions.",
+      "score": 2.7,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-11T14:18:22.982992Z"
+    },
     {
       "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
       "label": "Ukrainian drone strikes Russian warship in Baltic",
-      "summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; demonstrates expanded operational reach and new capability against Russian navy far from Ukrainian coast.",
-      "score": 5.0,
+      "summary": "First Ukrainian attack on Russian ship in open Baltic waters demonstrates expanded operational reach; no direct impact on Ukrainian territory.",
+      "score": 3.5,
       "sentiment": "positive",
       "nowosc": "nowe",
       "category": "geopolityka",
@@ -22,31 +41,12 @@
       "detected_at": "2026-11-13T00:19:52.310482Z"
     },
     {
-      "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
-      "label": "US envoys shuttle between Putin and Zelensky",
-      "summary": "Putin agrees to European negotiators joining next Ukraine talks; diplomatic momentum continues but no concrete peace terms yet.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T14:18:22.982992Z"
-    },
-    {
       "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "label": "Israeli strike hits Gaza hospital kills six",
-      "summary": "Missile hits surgical wards at Nasser hospital; distant Middle East conflict with no direct impact on Ukraine.",
-      "score": 2.1,
+      "label": "Israeli strike on Gaza hospital kills six",
+      "summary": "Missile hit surgical wards at Nasser hospital in southern Gaza; distant Middle East conflict with no direct impact on Ukraine.",
+      "score": 2.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -62,17 +62,17 @@
   ],
   "short_summary": "Ukrainian drone strikes Russian warship in Baltic",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-13T00:19:52.310482Z",
+  "updated_at": "2026-11-13T07:55:04.207575Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
     "label": "Ukrainian drone strikes Russian warship in Baltic",
     "summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; demonstrates expanded operational reach and new capability against Russian navy far from Ukrainian coast.",
     "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-    "score": 5.0,
+    "score": 4.9,
     "sentiment": "positive",
     "detected_at": "2026-11-13T00:19:52.310482Z",
     "peak_at": "2026-11-13T00:19:52.310482Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-13T00:19:52.310482Z",
   "score_history": [
-    {
-      "t": "2026-11-11T06:12:21.794269Z",
-      "s": 5.0
-    },
     {
       "t": "2026-11-11T14:18:22.982992Z",
       "s": 4.9
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-13T00:19:52.310482Z",
       "s": 4.9
+    },
+    {
+      "t": "2026-11-13T07:55:04.207575Z",
+      "s": 3.5
     }
   ]
 }
