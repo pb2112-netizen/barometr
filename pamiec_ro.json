@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-12T18:54:00.503370Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-11-13T00:19:52.313683Z",
+  "ostatnia_ocena": 4.8,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Spain general strike housing cost of living EU",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 3,
-      "opis": "Mass strike over housing costs; distant EU economic signal."
-    },
-    {
       "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 2,
       "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
     },
     {
-      "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.6,
+      "temat": "Italy schools bomb hoax evacuations",
+      "poziom_bazowy": 2.1,
       "cykle_bez_zmian": 5,
+      "opis": "Hundreds of Italian schools evacuated; neighbor disruption."
+    },
+    {
+      "temat": "Ukraine drone attack Russian warship Baltic Sea",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 0,
+      "opis": "First Ukrainian strike on Russian ship in open Baltic."
+    },
+    {
+      "temat": "US soldier UK arrest Russia spying NATO security",
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 6,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
       "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 16,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 17,
       "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
     },
     {
-      "temat": "Italy schools bomb hoax evacuations",
-      "poziom_bazowy": 2.2,
+      "temat": "Spain general strike housing cost of living EU",
+      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 4,
-      "opis": "Hundreds of Italian schools evacuated; neighbor disruption."
+      "opis": "Mass strike over housing costs; distant EU economic signal."
     },
     {
       "temat": "Russia Moldova diplomat expulsion tit-for-tat",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Russia expels Moldovan diplomat; regional tension increase."
     },
     {
       "temat": "US Hegseth impeachment vote Massie Defense Secretary",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Congressman forces impeachment vote on Defense Secretary."
-    },
-    {
-      "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 9,
-      "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
+      "opis": "Congressman forces impeachment vote on Defense Secretary."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-10T23:17:55.640430Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-11T06:12:21.791250Z",
       "s": 4.5
@@ -80,11 +76,31 @@
     {
       "t": "2026-11-12T18:54:00.496112Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-13T00:19:52.308352Z",
+      "s": 4.8
     }
   ],
-  "events_anchor_at": "2026-11-11T21:56:05.163950Z",
+  "events_anchor_at": "2026-11-13T00:19:52.308352Z",
   "event_detected_at": {
-    "us envoys head to meet zelensky after talks with putin in moscow": {
+    "russian warship hit by ukrainian drone in gulf of finland": {
+      "detected_at": "2026-11-13T00:19:52.308352Z",
+      "peak_at": "2026-11-13T00:19:52.308352Z",
+      "peak_score_at": "2026-11-13T00:19:52.308352Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "negative",
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "peak_label": "Ukrainian drone hits Russian warship in Baltic",
+      "peak_summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; escalation into maritime domain raises regional security concerns for Black Sea NATO members.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "us envoys meet zelensky in dublin after talks with putin in moscow": {
       "detected_at": "2026-11-11T21:56:05.163950Z",
       "peak_at": "2026-11-12T11:01:54.151225Z",
       "peak_score_at": "2026-11-12T11:01:54.151225Z",
@@ -108,7 +124,7 @@
       "detected_at": "2026-11-11T14:18:22.979341Z",
       "peak_at": "2026-11-12T18:54:00.496112Z",
       "peak_score_at": "2026-11-11T14:18:22.979341Z",
-      "peak_score": 2.3,
+      "peak_score": 2.2,
       "peak_sentiment": "negative",
       "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
       "peak_label": "Italian schools evacuated bomb hoax threats",
@@ -140,22 +156,6 @@
         }
       ]
     },
-    "clashes erupt in barcelona after thousands join spain general strike": {
-      "detected_at": "2026-11-11T21:56:05.163950Z",
-      "peak_at": "2026-11-11T21:56:05.163950Z",
-      "peak_score_at": "2026-11-11T21:56:05.163950Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "peak_label": "Spain strike over housing and living costs",
-      "peak_summary": "Tens of thousands strike over housing and cost of living; clashes in Barcelona. Reflects EU-wide economic pressure but distant from Romania's immediate concerns.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "israeli strike on gaza hospital kills six palestinians, health ministry says": {
       "detected_at": "2026-11-12T11:01:54.151225Z",
       "peak_at": "2026-11-12T11:01:54.151225Z",
@@ -174,8 +174,8 @@
     }
   },
   "prev_top_event_titles": [
-    "US envoys head to meet Zelensky after talks with Putin in Moscow",
-    "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-    "'We've got to run': Inside ruined Ukraine power plant under constant drone threat"
+    "Russian warship hit by Ukrainian drone in Gulf of Finland",
+    "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+    "Suspected bomb hoax threats force fresh evacuations of Italian schools"
   ]
 }
