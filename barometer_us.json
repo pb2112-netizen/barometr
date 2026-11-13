@@ -1,14 +1,33 @@
 {
-  "global_score": 3.4,
-  "rationale": "Microsoft outage disrupts US businesses; Nvidia CEO summoned to Congress over spy affair continues; North Korean crypto hack confirmed by FBI; other events remain background.",
+  "global_score": 4.2,
+  "rationale": "FAA issues nationwide ground stop for all departing flights due to communications failure—direct disruption to US domestic travel and infrastructure.",
   "top_events": [
     {
-      "title": "Why is the Microsoft outage lasting so long?",
-      "label": "Microsoft outage disrupts US business operations",
-      "summary": "Extended Microsoft service disruption affects American businesses and government offices relying on Teams, Outlook, and Copilot AI software.",
-      "score": 3.4,
+      "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+      "label": "FAA grounds all US flights communications failure",
+      "summary": "Federal Aviation Administration issues nationwide ground stop for all departing flights due to communications problem, directly disrupting US domestic air travel and raising infrastructure concerns.",
+      "score": 4.2,
       "sentiment": "negative",
       "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-13T22:36:08.789090Z"
+    },
+    {
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "label": "Microsoft outage disrupts US business second day",
+      "summary": "Extended Microsoft service failures affect US business operations for nearly 24 hours, disrupting Teams, Outlook, and Copilot across American workplaces.",
+      "score": 3.2,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -16,79 +35,56 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-13T16:19:00.595195Z"
     },
     {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "label": "Nvidia CEO summoned to Congress over spy scandal",
-      "summary": "Huang called to testify before Congress after resignation from one of world's most valuable companies following spy affair revelations.",
-      "score": 3.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "title": "Democratic Senate leader Schumer set to face leadership challenge",
+      "label": "Schumer faces Democratic Senate leadership challenge",
+      "summary": "Maryland Senator Van Hollen calls for new Democratic leadership following recent midterm successes—internal party positioning with no immediate policy impact.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-13T00:19:52.311806Z"
-    },
-    {
-      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-      "label": "FBI reports North Korean crypto hack scheme",
-      "summary": "FBI confirms FaceStealer scheme targeted over 900 US victims in 18 months, stealing $400 million in cryptocurrency.",
-      "score": 2.9,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-13T07:55:04.208968Z"
+      "detected_at": "2026-11-13T22:36:08.789090Z"
     }
   ],
-  "short_summary": "Microsoft outage disrupts US business operations",
+  "short_summary": "FAA grounds all US flights communications failure",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-13T16:19:00.595195Z",
+  "updated_at": "2026-11-13T22:36:08.789090Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Microsoft outage disrupts US business operations",
-    "summary": "Extended Microsoft service disruption affects American businesses and government offices relying on Teams, Outlook, and Copilot AI software.",
-    "title": "Why is the Microsoft outage lasting so long?",
-    "score": 3.4,
+    "label": "FAA grounds all US flights communications failure",
+    "summary": "Federal Aviation Administration issues nationwide ground stop for all departing flights due to communications problem, directly disrupting US domestic air travel and raising infrastructure concerns.",
+    "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+    "score": 4.2,
     "sentiment": "negative",
-    "detected_at": "2026-11-13T16:19:00.595195Z",
-    "peak_at": "2026-11-13T16:19:00.595195Z",
+    "detected_at": "2026-11-13T22:36:08.789090Z",
+    "peak_at": "2026-11-13T22:36:08.789090Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-13T16:19:00.595195Z",
+  "events_anchor_at": "2026-11-13T22:36:08.789090Z",
   "score_history": [
-    {
-      "t": "2026-11-11T21:56:05.169675Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T02:57:22.367200Z",
       "s": 3.0
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-13T16:19:00.595195Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-11-13T22:36:08.789090Z",
+      "s": 4.2
     }
   ]
 }

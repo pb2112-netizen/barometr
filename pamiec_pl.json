@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T16:19:00.596225Z",
-  "ostatnia_ocena": 4.6,
+  "updated_at": "2026-11-13T22:36:08.790132Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": "2026-11-09T07:57:01.637568Z",
   "stan_swiata": [
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 3,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     },
     {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 4.6,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.4,
+      "cykle_bez_zmian": 3,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
       "temat": "Microsoft outage Teams Outlook EU business disruption",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Extended service outage affects EU business operations."
     },
     {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 8,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 9,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
       "temat": "Poland Krakow mass shooting domestic security",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 21,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 22,
       "opis": "Gunman kills six in Krakow; direct domestic attack."
     },
     {
       "temat": "Ukraine peace talks UAE trilateral Kyiv Moscow Washington",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "First trilateral talks since February; rhetoric stage."
     },
     {
       "temat": "Russia Ukraine aid centre hospital strikes civilian deaths",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 23,
       "opis": "Russian strikes kill 38+ in 24h; civilian infrastructure."
     },
     {
       "temat": "Spain general strike housing cost of living EU",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Mass strike over housing costs; EU inflation pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T21:56:05.161965Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-12T02:57:22.360332Z",
       "s": 2.4
@@ -80,10 +76,62 @@
     {
       "t": "2026-11-13T16:19:00.587503Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-11-13T22:36:08.781824Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-11-13T00:19:52.306907Z",
   "event_detected_at": {
+    "microsoft 'deeply sorry' for global outage after almost 24 hours of disruption": {
+      "detected_at": "2026-11-13T16:19:00.587503Z",
+      "peak_at": "2026-11-13T16:19:00.587503Z",
+      "peak_score_at": "2026-11-13T16:19:00.587503Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "Why is the Microsoft outage lasting so long?",
+      "peak_label": "Microsoft outage disrupts Teams Outlook across EU",
+      "peak_summary": "Extended Microsoft service disruption affects Polish businesses and government offices relying on Teams and Outlook for daily operations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "rosenberg: uncompromising putin ups demands for peace with ukraine": {
+      "detected_at": "2026-11-13T22:36:08.781824Z",
+      "peak_at": "2026-11-13T22:36:08.781824Z",
+      "peak_score_at": "2026-11-13T22:36:08.781824Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "neutral",
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "peak_label": "Putin raises Ukraine peace demands in talks",
+      "peak_summary": "Putin increases demands in Ukraine peace discussions, now including European security framework—rhetoric stage with no confirmed policy change affecting Poland yet.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "nvidia scandal fallout widens as trump's treasury secretary blames cabinet colleague": {
+      "detected_at": "2026-11-13T00:19:52.306907Z",
+      "peak_at": "2026-11-13T00:19:52.306907Z",
+      "peak_score_at": "2026-11-13T00:19:52.306907Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "peak_label": "Nvidia CEO quits amid Chinese spy scandal",
+      "peak_summary": "Jensen Huang resigns as lawmakers probe alleged relationship with Chinese spy; turmoil at major tech firm affects global markets indirectly.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "russian warship hit by ukrainian drone in gulf of finland": {
       "detected_at": "2026-11-13T00:19:52.306907Z",
       "peak_at": "2026-11-13T00:19:52.306907Z",
@@ -99,75 +147,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "why is the microsoft outage lasting so long?": {
-      "detected_at": "2026-11-13T16:19:00.587503Z",
-      "peak_at": "2026-11-13T16:19:00.587503Z",
-      "peak_score_at": "2026-11-13T16:19:00.587503Z",
-      "peak_score": 3.2,
-      "peak_sentiment": "negative",
-      "title": "Why is the Microsoft outage lasting so long?",
-      "peak_label": "Microsoft outage disrupts Teams Outlook across EU",
-      "peak_summary": "Extended Microsoft service disruption affects Polish businesses and government offices relying on Teams and Outlook for daily operations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "ex-nvidia ceo jensen huang summoned to testify before congress about affair with alleged chinese spy": {
-      "detected_at": "2026-11-13T00:19:52.306907Z",
-      "peak_at": "2026-11-13T00:19:52.306907Z",
-      "peak_score_at": "2026-11-13T00:19:52.306907Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-      "peak_label": "Nvidia CEO quits amid Chinese spy scandal",
-      "peak_summary": "Jensen Huang resigns as lawmakers probe alleged relationship with Chinese spy; turmoil at major tech firm affects global markets indirectly.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "suspected bomb hoax threats force fresh evacuations of italian schools": {
-      "detected_at": "2026-11-12T18:54:00.494591Z",
-      "peak_at": "2026-11-12T18:54:00.494591Z",
-      "peak_score_at": "2026-11-12T18:54:00.494591Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-      "peak_label": "Italian schools evacuated after bomb threats",
-      "peak_summary": "Second day of bomb hoax threats across Italy forces fresh evacuations. Neighbor EU disruption but no direct impact on Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "'we've got to run': inside ruined ukraine power plant under constant drone threat": {
-      "detected_at": "2026-11-12T18:54:00.494591Z",
-      "peak_at": "2026-11-12T18:54:00.494591Z",
-      "peak_score_at": "2026-11-12T18:54:00.494591Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-      "peak_label": "Ukraine power plant barely standing after strike",
-      "peak_summary": "Report from damaged Ukrainian power station hit by Russian ballistic missile. Continuation of infrastructure attacks already in background.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Russian warship hit by Ukrainian drone in Gulf of Finland",
-    "Why is the Microsoft outage lasting so long?",
-    "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy"
+    "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+    "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+    "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague"
   ]
 }

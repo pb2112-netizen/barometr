@@ -1,33 +1,14 @@
 {
-  "global_score": 4.4,
-  "rationale": "Baltic Sea drone strike on Russian warship continues as top regional security concern; Microsoft outage affects Romanian businesses; background situations decay.",
+  "global_score": 3.0,
+  "rationale": "Microsoft outage continues affecting Romanian business; Qatar-Turkey defense pact adds regional security layer but no direct Black Sea impact.",
   "top_events": [
     {
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "label": "Ukrainian drone hits Russian ship in Baltic Sea",
-      "summary": "First Ukrainian strike on Russian vessel in open Baltic waters signals expanded conflict zone near Black Sea NATO ally Romania.",
-      "score": 4.4,
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "label": "Microsoft outage hits Romanian business operations",
+      "summary": "Extended Microsoft service disruption affects Romanian workplaces for nearly 24 hours, impacting Teams, Outlook, and business communications across the country.",
+      "score": 3.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-13T00:19:52.308352Z"
-    },
-    {
-      "title": "Why is the Microsoft outage lasting so long?",
-      "label": "Microsoft services down affecting EU operations",
-      "summary": "Prolonged Microsoft outage disrupts Romanian businesses and government offices using Teams and Outlook for daily work.",
-      "score": 3.1,
-      "sentiment": "negative",
-      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -35,16 +16,35 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-13T16:19:00.589431Z"
     },
     {
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "label": "Europe joins US Russia Ukraine peace negotiations",
-      "summary": "European involvement in peace talks could affect regional security and refugee flows to Romania from neighboring Ukraine.",
-      "score": 2.9,
+      "title": "Qatar and Turkiye send message of deterrence with new defence pact",
+      "label": "Qatar Turkey sign mutual defense pact",
+      "summary": "Qatar and Turkey deepen military partnership with mutual defense agreement amid regional instability—adds layer to Black Sea neighbor Turkey's security posture.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-13T22:36:08.783704Z"
+    },
+    {
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "label": "Putin increases Ukraine peace talk demands",
+      "summary": "Putin raises demands in Ukraine negotiations, now including European security framework—rhetoric stage with no confirmed change affecting Romanian security yet.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -54,7 +54,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-11T21:56:05.163950Z"
@@ -62,10 +62,10 @@
   ],
   "short_summary": "Ukrainian drone hits Russian warship in Baltic",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-13T16:19:00.589431Z",
+  "updated_at": "2026-11-13T22:36:08.783704Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-13T00:19:52.308352Z",
   "score_history": [
-    {
-      "t": "2026-11-11T21:56:05.163950Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-12T02:57:22.361961Z",
       "s": 2.4
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-13T16:19:00.589431Z",
       "s": 4.4
+    },
+    {
+      "t": "2026-11-13T22:36:08.783704Z",
+      "s": 3.0
     }
   ]
 }

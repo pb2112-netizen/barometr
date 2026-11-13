@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T16:19:00.600258Z",
-  "ostatnia_ocena": 3.4,
+  "updated_at": "2026-11-13T22:36:08.794164Z",
+  "ostatnia_ocena": 4.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Nvidia CEO Huang resignation Chinese spy probe",
+      "temat": "Microsoft outage Teams Outlook Copilot US disruption",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 1,
+      "opis": "Extended service outage affects US business operations."
+    },
+    {
+      "temat": "FAA nationwide ground stop communications outage",
+      "poziom_bazowy": 4.2,
+      "cykle_bez_zmian": 0,
+      "opis": "All US flights grounded; major infrastructure disruption."
+    },
+    {
+      "temat": "Schumer Democratic Senate leadership challenge Van Hollen",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 0,
+      "opis": "Internal Democratic leadership contest after midterms."
+    },
+    {
+      "temat": "Iran-backed RAF Fairford attack plot US charges",
       "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 9,
+      "opis": "Three charged over plot to attack UK base used by US."
+    },
+    {
+      "temat": "Nvidia CEO Huang resignation Chinese spy probe",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "CEO quits amid spy scandal; major US tech firm turmoil."
     },
     {
       "temat": "North Korean crypto hack FBI FaceStealer $400m",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 2,
       "opis": "FBI reports major NK hacking scheme targeting US victims."
     },
     {
-      "temat": "Microsoft outage Teams Outlook Copilot US disruption",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 0,
-      "opis": "Extended service outage affects US business operations."
-    },
-    {
-      "temat": "Iran-backed RAF Fairford attack plot US charges",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 8,
-      "opis": "Three charged over plot to attack UK base used by US."
-    },
-    {
       "temat": "New York Brooklyn building collapse domestic disaster",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Three-story building collapse in Brooklyn kills one."
     },
     {
       "temat": "US House Hegseth impeachment blocked",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 8,
       "opis": "Impeachment bid fails; Pentagon leadership stable."
-    },
-    {
-      "temat": "Mississippi first black senator Colom historic election",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 1,
-      "opis": "Democrat wins in Trump state; historic milestone."
-    },
-    {
-      "temat": "US Treasury Bessent Iran threats military base",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
-      "opis": "Treasury Secretary moved to base; Iran threat to officials."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T21:56:05.169675Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T02:57:22.367200Z",
       "s": 3.0
@@ -80,15 +76,35 @@
     {
       "t": "2026-11-13T16:19:00.595195Z",
       "s": 3.4
+    },
+    {
+      "t": "2026-11-13T22:36:08.789090Z",
+      "s": 4.2
     }
   ],
-  "events_anchor_at": "2026-11-13T16:19:00.595195Z",
+  "events_anchor_at": "2026-11-13T22:36:08.789090Z",
   "event_detected_at": {
-    "why is the microsoft outage lasting so long?": {
+    "live: faa issues nationwide ground stop after communications outage in us": {
+      "detected_at": "2026-11-13T22:36:08.789090Z",
+      "peak_at": "2026-11-13T22:36:08.789090Z",
+      "peak_score_at": "2026-11-13T22:36:08.789090Z",
+      "peak_score": 4.2,
+      "peak_sentiment": "negative",
+      "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+      "peak_label": "FAA grounds all US flights communications failure",
+      "peak_summary": "Federal Aviation Administration issues nationwide ground stop for all departing flights due to communications problem, directly disrupting US domestic air travel and raising infrastructure concerns.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss"
+        }
+      ]
+    },
+    "microsoft 'deeply sorry' for global outage after almost 24 hours of disruption": {
       "detected_at": "2026-11-13T16:19:00.595195Z",
       "peak_at": "2026-11-13T16:19:00.595195Z",
       "peak_score_at": "2026-11-13T16:19:00.595195Z",
-      "peak_score": 3.4,
+      "peak_score": 3.3,
       "peak_sentiment": "negative",
       "title": "Why is the Microsoft outage lasting so long?",
       "peak_label": "Microsoft outage disrupts US business operations",
@@ -97,6 +113,22 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "democratic senate leader schumer set to face leadership challenge": {
+      "detected_at": "2026-11-13T22:36:08.789090Z",
+      "peak_at": "2026-11-13T22:36:08.789090Z",
+      "peak_score_at": "2026-11-13T22:36:08.789090Z",
+      "peak_score": 2.6,
+      "peak_sentiment": "neutral",
+      "title": "Democratic Senate leader Schumer set to face leadership challenge",
+      "peak_label": "Schumer faces Democratic Senate leadership challenge",
+      "peak_summary": "Maryland Senator Van Hollen calls for new Democratic leadership following recent midterm successes—internal party positioning with no immediate policy impact.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -163,27 +195,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss"
         }
       ]
-    },
-    "four people shot in washington dc": {
-      "detected_at": "2026-11-12T18:54:00.501178Z",
-      "peak_at": "2026-11-12T18:54:00.501178Z",
-      "peak_score_at": "2026-11-12T18:54:00.501178Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Four people shot in Washington DC",
-      "peak_label": "Four shot in Washington DC suspect kills self",
-      "peak_summary": "Suspect shot four people in Washington DC, then apparently turned gun on himself. Domestic violence incident with no broader security implications.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/four-people-shot-in-washington-dc?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Why is the Microsoft outage lasting so long?",
-    "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-    "North Korean hackers used fake video calls in $400m crypto hack, says FBI"
+    "LIVE: FAA issues nationwide ground stop after communications outage in US",
+    "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+    "Democratic Senate leader Schumer set to face leadership challenge"
   ]
 }

@@ -1,13 +1,32 @@
 {
-  "global_score": 4.6,
-  "rationale": "Russian warship struck by Ukrainian drone in Baltic Sea continues as highest direct security concern for Poland; Microsoft outage affects EU business operations; ongoing background situations decay.",
+  "global_score": 3.1,
+  "rationale": "Microsoft outage continues into second day affecting Polish business operations; other events remain distant or rhetorical.",
   "top_events": [
     {
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "label": "Ukrainian drone strikes Russian warship in Baltic",
-      "summary": "First Ukrainian attack on Russian vessel in open Baltic Sea waters near Poland's maritime zone raises regional security concerns.",
-      "score": 4.6,
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "label": "Microsoft outage disrupts EU business second day",
+      "summary": "Extended Microsoft service failures affect Polish business operations for nearly 24 hours, disrupting Teams, Outlook, and Copilot across EU workplaces.",
+      "score": 3.1,
       "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-13T16:19:00.587503Z"
+    },
+    {
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "label": "Putin raises Ukraine peace demands in talks",
+      "summary": "Putin increases demands in Ukraine peace discussions, now including European security framework—rhetoric stage with no confirmed policy change affecting Poland yet.",
+      "score": 2.5,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -16,36 +35,17 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-13T00:19:52.306907Z"
+      "detected_at": "2026-11-13T22:36:08.781824Z"
     },
     {
-      "title": "Why is the Microsoft outage lasting so long?",
-      "label": "Microsoft outage disrupts Teams Outlook across EU",
-      "summary": "Extended Microsoft service disruption affects Polish businesses and government offices relying on Teams and Outlook for daily operations.",
-      "score": 3.2,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-13T16:19:00.587503Z"
-    },
-    {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "label": "Nvidia CEO summoned to Congress over spy affair",
-      "summary": "Huang called to testify after resignation; affects global tech markets including Warsaw Stock Exchange tech sector exposure.",
-      "score": 2.6,
-      "sentiment": "negative",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "label": "US cabinet clash over Nvidia China exports",
+      "summary": "US Treasury Secretary criticizes Commerce Department over Nvidia chip exports to China-linked firm—internal US dispute with no direct Polish impact.",
+      "score": 2.4,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -54,7 +54,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-13T00:19:52.306907Z"
@@ -62,10 +62,10 @@
   ],
   "short_summary": "Ukrainian drone strikes Russian warship in Baltic Sea",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-13T16:19:00.587503Z",
+  "updated_at": "2026-11-13T22:36:08.781824Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-13T00:19:52.306907Z",
   "score_history": [
-    {
-      "t": "2026-11-11T21:56:05.161965Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-12T02:57:22.360332Z",
       "s": 2.4
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-13T16:19:00.587503Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-11-13T22:36:08.781824Z",
+      "s": 3.1
     }
   ]
 }
