@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T07:55:04.212512Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-11-13T16:19:00.599274Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Ukraine peace talks UAE trilateral Kyiv Moscow Washington",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
       "opis": "First trilateral talks since February; rhetoric stage."
     },
     {
-      "temat": "Gaza hospital strike Israeli missile Nasser",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
-      "opis": "Israeli strike kills six at Gaza hospital; distant event."
+      "temat": "Ukraine Baltic Sea drone strike Russian warship",
+      "poziom_bazowy": 4.8,
+      "cykle_bez_zmian": 1,
+      "opis": "First Ukrainian attack on Russian ship in open Baltic."
     },
     {
       "temat": "US envoys Moscow Putin Zelensky shuttle diplomacy",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 4,
       "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
     },
     {
       "temat": "US soldier UK arrest Russia spying NATO intelligence",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 8,
       "opis": "Senior US soldier arrested for spying for Russia in UK."
     },
     {
       "temat": "Russia Zaporizhzhia drone attack 50 dead",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 22,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 23,
       "opis": "Single attack kills 50 in previously safer region."
     },
     {
       "temat": "Trump Iran de-escalation status quo maintained",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 11,
       "opis": "US signals no further Iran attacks; reduces aid risk."
     },
     {
-      "temat": "Iran Strait Hormuz blasts US supply route blockade",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 18,
-      "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
+      "temat": "Gaza hospital strike Israeli missile Nasser",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "Israeli strike kills six at Gaza hospital; distant event."
     },
     {
       "temat": "US Treasury Bessent Iran threats relocation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Treasury Secretary moved to base; US-Iran tension signal."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.982992Z",
-      "s": 4.9
-    },
     {
       "t": "2026-11-11T21:56:05.167562Z",
       "s": 3.0
@@ -80,15 +76,51 @@
     {
       "t": "2026-11-13T07:55:04.207575Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-11-13T16:19:00.593251Z",
+      "s": 3.4
     }
   ],
   "events_anchor_at": "2026-11-13T00:19:52.310482Z",
   "event_detected_at": {
+    "russian warship hit by ukrainian drone in gulf of finland": {
+      "detected_at": "2026-11-13T00:19:52.310482Z",
+      "peak_at": "2026-11-13T00:19:52.310482Z",
+      "peak_score_at": "2026-11-13T00:19:52.310482Z",
+      "peak_score": 4.8,
+      "peak_sentiment": "positive",
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "peak_label": "Ukrainian drone strikes Russian warship in Baltic",
+      "peak_summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; demonstrates expanded operational reach and new capability against Russian navy far from Ukrainian coast.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "ukraine claims record 3,000 russian casualties in one day as war drags on": {
+      "detected_at": "2026-11-13T16:19:00.593251Z",
+      "peak_at": "2026-11-13T16:19:00.593251Z",
+      "peak_score_at": "2026-11-13T16:19:00.593251Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
+      "peak_label": "Ukraine reports record 3000 Russian casualties daily",
+      "peak_summary": "Ukrainian forces claim highest single-day Russian losses while Russia suggests control of half of unoccupied Donbas territory.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss"
+        }
+      ]
+    },
     "zelensky welcomes us bringing europe into russia-ukraine peace talks": {
       "detected_at": "2026-11-11T14:18:22.982992Z",
-      "peak_at": "2026-11-12T11:01:54.153876Z",
+      "peak_at": "2026-11-13T16:19:00.593251Z",
       "peak_score_at": "2026-11-12T11:01:54.153876Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "neutral",
       "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
       "peak_label": "Ukraine Russia talks prisoner exchange agreed",
@@ -101,22 +133,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
-        }
-      ]
-    },
-    "russian warship hit by ukrainian drone in gulf of finland": {
-      "detected_at": "2026-11-13T00:19:52.310482Z",
-      "peak_at": "2026-11-13T00:19:52.310482Z",
-      "peak_score_at": "2026-11-13T00:19:52.310482Z",
-      "peak_score": 4.9,
-      "peak_sentiment": "positive",
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "peak_label": "Ukrainian drone strikes Russian warship in Baltic",
-      "peak_summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; demonstrates expanded operational reach and new capability against Russian navy far from Ukrainian coast.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -151,27 +167,11 @@
           "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "'no light, no water, no heat': ukrainians struggle with blackouts as russia hits power grid": {
-      "detected_at": "2026-11-12T11:01:54.153876Z",
-      "peak_at": "2026-11-12T11:01:54.153876Z",
-      "peak_score_at": "2026-11-12T11:01:54.153876Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "negative",
-      "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-      "peak_label": "Ukraine blackouts worsen as Russia hits power grid",
-      "peak_summary": "Continued Russian strikes on power infrastructure leave Ukrainian families with only hours of electricity daily—ongoing humanitarian crisis affecting daily life.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
     "Russian warship hit by Ukrainian drone in Gulf of Finland",
-    "Israeli strike on Gaza hospital kills six Palestinians, health ministry says"
+    "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
+    "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks"
   ]
 }

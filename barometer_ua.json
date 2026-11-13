@@ -1,33 +1,14 @@
 {
-  "global_score": 3.5,
-  "rationale": "Zelensky's support for European involvement in peace talks signals diplomatic progress; rhetoric stage continues without concrete change to war conditions. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.4,
+  "rationale": "Ukrainian drone successfully strikes Russian warship in Baltic Sea marking significant operational expansion; Russian casualties reported at record 3,000 in one day; peace talks continue as rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "label": "Zelensky welcomes Europe in peace negotiations",
-      "summary": "Ukrainian president supports European involvement in talks; diplomatic rhetoric continues with no signed outcome yet affecting war conditions.",
-      "score": 2.7,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T14:18:22.982992Z"
-    },
-    {
       "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "label": "Ukrainian drone strikes Russian warship in Baltic",
-      "summary": "First Ukrainian attack on Russian ship in open Baltic waters demonstrates expanded operational reach; no direct impact on Ukrainian territory.",
-      "score": 3.5,
+      "label": "Ukraine strikes Russian warship in Baltic Sea",
+      "summary": "First successful Ukrainian drone attack on Russian vessel in open Baltic waters demonstrates expanded operational reach and capability.",
+      "score": 3.4,
       "sentiment": "positive",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -41,12 +22,31 @@
       "detected_at": "2026-11-13T00:19:52.310482Z"
     },
     {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "label": "Israeli strike on Gaza hospital kills six",
-      "summary": "Missile hit surgical wards at Nasser hospital in southern Gaza; distant Middle East conflict with no direct impact on Ukraine.",
-      "score": 2.0,
-      "sentiment": "negative",
+      "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
+      "label": "Ukraine reports record 3000 Russian casualties daily",
+      "summary": "Ukrainian forces claim highest single-day Russian losses while Russia suggests control of half of unoccupied Donbas territory.",
+      "score": 3.0,
+      "sentiment": "neutral",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-13T16:19:00.593251Z"
+    },
+    {
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "label": "Zelensky welcomes European involvement in peace talks",
+      "summary": "President supports European participation in negotiations as Ukraine seeks eventual EU membership; talks remain at rhetoric stage.",
+      "score": 2.6,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -54,25 +54,25 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-12T02:57:22.365146Z"
+      "detected_at": "2026-11-11T14:18:22.982992Z"
     }
   ],
   "short_summary": "Ukrainian drone strikes Russian warship in Baltic",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-13T07:55:04.207575Z",
+  "updated_at": "2026-11-13T16:19:00.593251Z",
   "liczba_naglowkow": 30,
   "tone": "positive",
   "most_significant_event": {
     "label": "Ukrainian drone strikes Russian warship in Baltic",
     "summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; demonstrates expanded operational reach and new capability against Russian navy far from Ukrainian coast.",
     "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-    "score": 4.9,
+    "score": 4.8,
     "sentiment": "positive",
     "detected_at": "2026-11-13T00:19:52.310482Z",
     "peak_at": "2026-11-13T00:19:52.310482Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-13T00:19:52.310482Z",
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.982992Z",
-      "s": 4.9
-    },
     {
       "t": "2026-11-11T21:56:05.167562Z",
       "s": 3.0
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-13T07:55:04.207575Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-11-13T16:19:00.593251Z",
+      "s": 3.4
     }
   ]
 }

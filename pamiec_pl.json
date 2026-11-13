@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T07:55:04.209839Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-11-13T16:19:00.596225Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": "2026-11-09T07:57:01.637568Z",
   "stan_swiata": [
     {
-      "temat": "Ukraine peace talks UAE trilateral Kyiv Moscow Washington",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 3,
-      "opis": "First trilateral talks since February; rhetoric stage."
-    },
-    {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 2,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     },
     {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 2,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
+      "temat": "Microsoft outage Teams Outlook EU business disruption",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Extended service outage affects EU business operations."
+    },
+    {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 8,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
       "temat": "Poland Krakow mass shooting domestic security",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 20,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 21,
       "opis": "Gunman kills six in Krakow; direct domestic attack."
     },
     {
-      "temat": "Russia Ukraine aid centre hospital strikes civilian deaths",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 21,
-      "opis": "Russian strikes kill 38+ in 24h; civilian infrastructure."
+      "temat": "Ukraine peace talks UAE trilateral Kyiv Moscow Washington",
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 4,
+      "opis": "First trilateral talks since February; rhetoric stage."
     },
     {
-      "temat": "Iran Strait Hormuz blasts US supply route blockade",
+      "temat": "Russia Ukraine aid centre hospital strikes civilian deaths",
       "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 18,
-      "opis": "Explosions in Strait of Hormuz; US blocks supply routes."
+      "cykle_bez_zmian": 22,
+      "opis": "Russian strikes kill 38+ in 24h; civilian infrastructure."
     },
     {
       "temat": "Spain general strike housing cost of living EU",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Mass strike over housing costs; EU inflation pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.977429Z",
-      "s": 4.6
-    },
     {
       "t": "2026-11-11T21:56:05.161965Z",
       "s": 2.5
@@ -80,6 +76,10 @@
     {
       "t": "2026-11-13T07:55:04.204241Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-11-13T16:19:00.587503Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-11-13T00:19:52.306907Z",
@@ -88,7 +88,7 @@
       "detected_at": "2026-11-13T00:19:52.306907Z",
       "peak_at": "2026-11-13T00:19:52.306907Z",
       "peak_score_at": "2026-11-13T00:19:52.306907Z",
-      "peak_score": 4.8,
+      "peak_score": 4.7,
       "peak_sentiment": "negative",
       "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
       "peak_label": "Ukrainian drone strikes Russian warship in Baltic Sea",
@@ -100,11 +100,27 @@
         }
       ]
     },
+    "why is the microsoft outage lasting so long?": {
+      "detected_at": "2026-11-13T16:19:00.587503Z",
+      "peak_at": "2026-11-13T16:19:00.587503Z",
+      "peak_score_at": "2026-11-13T16:19:00.587503Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Why is the Microsoft outage lasting so long?",
+      "peak_label": "Microsoft outage disrupts Teams Outlook across EU",
+      "peak_summary": "Extended Microsoft service disruption affects Polish businesses and government offices relying on Teams and Outlook for daily operations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "ex-nvidia ceo jensen huang summoned to testify before congress about affair with alleged chinese spy": {
       "detected_at": "2026-11-13T00:19:52.306907Z",
       "peak_at": "2026-11-13T00:19:52.306907Z",
       "peak_score_at": "2026-11-13T00:19:52.306907Z",
-      "peak_score": 2.7,
+      "peak_score": 2.6,
       "peak_sentiment": "negative",
       "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
       "peak_label": "Nvidia CEO quits amid Chinese spy scandal",
@@ -113,26 +129,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "zelensky welcomes us bringing europe into russia-ukraine peace talks": {
-      "detected_at": "2026-11-11T21:56:05.161965Z",
-      "peak_at": "2026-11-12T11:01:54.149554Z",
-      "peak_score_at": "2026-11-12T11:01:54.149554Z",
-      "peak_score": 2.7,
-      "peak_sentiment": "neutral",
-      "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
-      "peak_label": "US envoys meet Putin in Moscow for Ukraine talks",
-      "peak_summary": "American negotiators Kushner and Witkoff arrive in Moscow for direct talks with Putin, then travel to Dublin to meet Zelensky—first such high-level shuttle diplomacy in months, potentially affecting.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
         }
       ]
     },
@@ -167,27 +163,11 @@
           "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "'no light, no water, no heat': ukrainians struggle with blackouts as russia hits power grid": {
-      "detected_at": "2026-11-12T11:01:54.149554Z",
-      "peak_at": "2026-11-12T11:01:54.149554Z",
-      "peak_score_at": "2026-11-12T11:01:54.149554Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-      "peak_label": "Ukraine blackouts worsen as Russia hits power grid",
-      "peak_summary": "Continued Russian strikes on Ukrainian infrastructure leave families with only hours of power daily—ongoing humanitarian crisis next door to Poland.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Russian warship hit by Ukrainian drone in Gulf of Finland",
-    "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-    "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks"
+    "Why is the Microsoft outage lasting so long?",
+    "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy"
   ]
 }

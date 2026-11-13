@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T07:55:04.213374Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-11-13T16:19:00.600258Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Nvidia CEO Huang resignation Chinese spy probe",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "CEO quits amid spy scandal; major US tech firm turmoil."
     },
     {
       "temat": "North Korean crypto hack FBI FaceStealer $400m",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 1,
       "opis": "FBI reports major NK hacking scheme targeting US victims."
     },
     {
-      "temat": "Mississippi first black senator Colom historic election",
-      "poziom_bazowy": 2.5,
+      "temat": "Microsoft outage Teams Outlook Copilot US disruption",
+      "poziom_bazowy": 3.4,
       "cykle_bez_zmian": 0,
-      "opis": "Democrat wins in Trump state; historic milestone."
+      "opis": "Extended service outage affects US business operations."
     },
     {
       "temat": "Iran-backed RAF Fairford attack plot US charges",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 8,
       "opis": "Three charged over plot to attack UK base used by US."
     },
     {
       "temat": "New York Brooklyn building collapse domestic disaster",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 5,
       "opis": "Three-story building collapse in Brooklyn kills one."
     },
     {
       "temat": "US House Hegseth impeachment blocked",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 7,
       "opis": "Impeachment bid fails; Pentagon leadership stable."
     },
     {
-      "temat": "US Treasury Bessent Iran threats military base",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
-      "opis": "Treasury Secretary moved to base; Iran threat to officials."
+      "temat": "Mississippi first black senator Colom historic election",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 1,
+      "opis": "Democrat wins in Trump state; historic milestone."
     },
     {
-      "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 3,
-      "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
+      "temat": "US Treasury Bessent Iran threats military base",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
+      "opis": "Treasury Secretary moved to base; Iran threat to officials."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.984910Z",
-      "s": 3.2
-    },
     {
       "t": "2026-11-11T21:56:05.169675Z",
       "s": 3.0
@@ -80,15 +76,35 @@
     {
       "t": "2026-11-13T07:55:04.208968Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-11-13T16:19:00.595195Z",
+      "s": 3.4
     }
   ],
-  "events_anchor_at": "2026-11-13T00:19:52.311806Z",
+  "events_anchor_at": "2026-11-13T16:19:00.595195Z",
   "event_detected_at": {
+    "why is the microsoft outage lasting so long?": {
+      "detected_at": "2026-11-13T16:19:00.595195Z",
+      "peak_at": "2026-11-13T16:19:00.595195Z",
+      "peak_score_at": "2026-11-13T16:19:00.595195Z",
+      "peak_score": 3.4,
+      "peak_sentiment": "negative",
+      "title": "Why is the Microsoft outage lasting so long?",
+      "peak_label": "Microsoft outage disrupts US business operations",
+      "peak_summary": "Extended Microsoft service disruption affects American businesses and government offices relying on Teams, Outlook, and Copilot AI software.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "ex-nvidia ceo jensen huang summoned to testify before congress about affair with alleged chinese spy": {
       "detected_at": "2026-11-13T00:19:52.311806Z",
       "peak_at": "2026-11-13T00:19:52.311806Z",
       "peak_score_at": "2026-11-13T00:19:52.311806Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
       "peak_label": "Nvidia CEO quits amid Chinese spy scandal",
@@ -104,7 +120,7 @@
       "detected_at": "2026-11-13T07:55:04.208968Z",
       "peak_at": "2026-11-13T07:55:04.208968Z",
       "peak_score_at": "2026-11-13T07:55:04.208968Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
       "peak_label": "North Korean hackers steal $400m in crypto",
@@ -148,26 +164,6 @@
         }
       ]
     },
-    "us envoys meet zelensky in dublin after talks with putin in moscow": {
-      "detected_at": "2026-11-11T21:56:05.169675Z",
-      "peak_at": "2026-11-12T11:01:54.155329Z",
-      "peak_score_at": "2026-11-12T11:01:54.155329Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
-      "peak_label": "US envoys meet Putin in Moscow for Ukraine talks",
-      "peak_summary": "American negotiators Kushner and Witkoff arrive in Moscow for direct talks with Putin—new diplomatic push potentially affecting US foreign policy and aid commitments.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
-        }
-      ]
-    },
     "four people shot in washington dc": {
       "detected_at": "2026-11-12T18:54:00.501178Z",
       "peak_at": "2026-11-12T18:54:00.501178Z",
@@ -186,8 +182,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Why is the Microsoft outage lasting so long?",
     "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-    "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-    "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century"
+    "North Korean hackers used fake video calls in $400m crypto hack, says FBI"
   ]
 }

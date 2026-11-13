@@ -1,33 +1,14 @@
 {
-  "global_score": 2.0,
-  "rationale": "Routine cycle with no events meaningfully affecting daily life in Portugal; distant conflicts and hoaxes remain background noise.",
+  "global_score": 3.0,
+  "rationale": "Microsoft outage affects Portuguese businesses; Storm Charles brings destructive weather to Iberian peninsula including Portugal; distant events remain low impact.",
   "top_events": [
     {
-      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-      "label": "Italian schools evacuated after bomb threats",
-      "summary": "Second day of bomb threats across Italy causes evacuations; EU neighbor event with no direct impact on Portugal.",
-      "score": 2.0,
+      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+      "label": "Storm Charles floods disrupt Iberian peninsula",
+      "summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
+      "score": 3.0,
       "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-11T14:18:22.981500Z"
-    },
-    {
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "label": "Egypt train collision kills seven people",
-      "summary": "Two trains collided near Cairo, killing seven and injuring 125; distant event with no link to Portuguese daily life.",
-      "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
+      "nowosc": "nowe",
       "category": "katastrofa",
       "sources": [
         "Guardian"
@@ -35,15 +16,34 @@
       "source_links": [
         {
           "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
         }
       ],
-      "detected_at": "2026-11-10T23:17:55.642437Z"
+      "detected_at": "2026-11-13T16:19:00.591324Z"
+    },
+    {
+      "title": "Why is the Microsoft outage lasting so long?",
+      "label": "Microsoft outage disrupts Portuguese businesses",
+      "summary": "Extended Microsoft service disruption affects Portuguese companies and offices relying on Teams and Outlook for operations.",
+      "score": 2.9,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-13T16:19:00.591324Z"
     },
     {
       "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-      "label": "Journalist shot dead in Ecuador gang warfare",
-      "summary": "Tomás Beltrán killed amid gang violence in Ecuador; distant Latin American event with no impact on Portugal.",
+      "label": "Journalist killed in Ecuador gang violence",
+      "summary": "Reporter shot dead amid gang warfare in Ecuador; distant Latin American event with no direct impact on Portuguese daily life.",
       "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
@@ -60,39 +60,31 @@
       "detected_at": "2026-11-12T18:54:00.497880Z"
     }
   ],
-  "short_summary": "Italian schools evacuated bomb hoax",
-  "level_label": "Stable",
-  "trend": "stable",
+  "short_summary": "Storm Charles floods disrupt Iberian peninsula",
+  "level_label": "Low",
+  "trend": "rising",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-13T07:55:04.206364Z",
+  "updated_at": "2026-11-13T16:19:00.591324Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Italian schools evacuated bomb hoax",
-    "summary": "False bomb threats sent to hundreds of schools across Italy including Rome and Naples. EU neighbor disruption with no direct impact on Portugal.",
-    "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
-    "score": 2.1,
+    "label": "Storm Charles floods disrupt Iberian peninsula",
+    "summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
+    "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+    "score": 3.0,
     "sentiment": "negative",
-    "detected_at": "2026-11-11T14:18:22.981500Z",
-    "peak_at": "2026-11-12T18:54:00.497880Z",
+    "detected_at": "2026-11-13T16:19:00.591324Z",
+    "peak_at": "2026-11-13T16:19:00.591324Z",
     "source_links": [
       {
-        "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
+        "name": "Guardian",
+        "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
       }
     ]
   },
-  "events_anchor_at": "2026-11-11T14:18:22.981500Z",
+  "events_anchor_at": "2026-11-13T16:19:00.591324Z",
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.981500Z",
-      "s": 2.6
-    },
     {
       "t": "2026-11-11T21:56:05.165517Z",
       "s": 2.5
@@ -116,6 +108,10 @@
     {
       "t": "2026-11-13T07:55:04.206364Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-11-13T16:19:00.591324Z",
+      "s": 3.0
     }
   ]
 }

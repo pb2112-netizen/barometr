@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T07:55:04.211661Z",
-  "ostatnia_ocena": 2.0,
+  "updated_at": "2026-11-13T16:19:00.598279Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
-      "temat": "Italy schools bomb hoax evacuations",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
-      "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
-    },
-    {
-      "temat": "Egypt train collision Cairo deaths",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Two trains collide near Cairo; seven dead, 125 injured."
-    },
-    {
       "temat": "Ecuador journalist killing gang violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Journalist shot dead amid gang warfare; distant Latin."
     },
     {
-      "temat": "Spain housing crisis protests cost of living",
+      "temat": "Storm Charles Iberia floods flight cancellations",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 0,
+      "opis": "Heavy rain and flooding hit Portugal and Spain this week."
+    },
+    {
+      "temat": "Microsoft outage Teams Outlook business disruption",
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 0,
+      "opis": "Extended service outage affects Portuguese operations."
+    },
+    {
+      "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
-      "opis": "Young Spaniards protest overpriced rentals; Iberian issue."
+      "cykle_bez_zmian": 7,
+      "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
     },
     {
       "temat": "Chile transport workers fuel price protests",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 6,
+      "cykle_bez_zmian": 7,
       "opis": "Highway blockades over fuel costs; distant Latin America."
     },
     {
       "temat": "Kenya El Niño floods climate predictions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Kenya braces for record El Niño floods; distant event."
     },
     {
-      "temat": "Iraq flash floods thunderstorms deaths",
+      "temat": "Egypt train collision Cairo deaths",
       "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 9,
-      "opis": "Severe weather kills in northern Iraq; distant event."
+      "opis": "Two trains collide near Cairo; seven dead, 125 injured."
     },
     {
-      "temat": "Anthropic AI IPO $1.4 trillion valuation",
+      "temat": "Spain housing crisis protests cost of living",
       "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 9,
-      "opis": "Claude maker seeks massive stock debut; tech markets."
+      "opis": "Young Spaniards protest overpriced rentals; Iberian issue."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-11T14:18:22.981500Z",
-      "s": 2.6
-    },
     {
       "t": "2026-11-11T21:56:05.165517Z",
       "s": 2.5
@@ -80,10 +76,62 @@
     {
       "t": "2026-11-13T07:55:04.206364Z",
       "s": 2.0
+    },
+    {
+      "t": "2026-11-13T16:19:00.591324Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-11-11T14:18:22.981500Z",
+  "events_anchor_at": "2026-11-13T16:19:00.591324Z",
   "event_detected_at": {
+    "storm charles causes floods and flight cancellations across southern europe": {
+      "detected_at": "2026-11-13T16:19:00.591324Z",
+      "peak_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+      "peak_label": "Storm Charles floods disrupt Iberian peninsula",
+      "peak_summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        }
+      ]
+    },
+    "why is the microsoft outage lasting so long?": {
+      "detected_at": "2026-11-13T16:19:00.591324Z",
+      "peak_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Why is the Microsoft outage lasting so long?",
+      "peak_label": "Microsoft outage disrupts Portuguese businesses",
+      "peak_summary": "Extended Microsoft service disruption affects Portuguese companies and offices relying on Teams and Outlook for operations.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "killing of journalist underscores deteriorating conditions in ecuador": {
+      "detected_at": "2026-11-12T18:54:00.497880Z",
+      "peak_at": "2026-11-12T18:54:00.497880Z",
+      "peak_score_at": "2026-11-12T18:54:00.497880Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
+      "peak_label": "Journalist shot dead in Ecuador gang warfare",
+      "peak_summary": "Tomás Beltrán killed amid gang violence in Ecuador. Distant Latin American event with no impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing"
+        }
+      ]
+    },
     "suspected bomb hoax threats force fresh evacuations of italian schools": {
       "detected_at": "2026-11-11T14:18:22.981500Z",
       "peak_at": "2026-11-12T18:54:00.497880Z",
@@ -119,43 +167,11 @@
           "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
         }
       ]
-    },
-    "killing of journalist underscores deteriorating conditions in ecuador": {
-      "detected_at": "2026-11-12T18:54:00.497880Z",
-      "peak_at": "2026-11-12T18:54:00.497880Z",
-      "peak_score_at": "2026-11-12T18:54:00.497880Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-      "peak_label": "Journalist shot dead in Ecuador gang warfare",
-      "peak_summary": "Tomás Beltrán killed amid gang violence in Ecuador. Distant Latin American event with no impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing"
-        }
-      ]
-    },
-    "pope leo welcomed by millions in his second 'homeland' of peru": {
-      "detected_at": "2026-11-12T11:01:54.152289Z",
-      "peak_at": "2026-11-12T11:01:54.152289Z",
-      "peak_score_at": "2026-11-12T11:01:54.152289Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Pope Leo welcomed by millions in his second 'homeland' of Peru",
-      "peak_label": "Pope visits Peru spending three days in Chiclayo",
-      "peak_summary": "Pontiff tours Latin America visiting Chiclayo where he was bishop—distant religious event with no impact on Portuguese life.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/pope-leo-welcomed-by-millions-in-his-second-homeland-of-peru?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-    "Collision of two trains in Egypt kills at least seven",
+    "Storm Charles causes floods and flight cancellations across southern Europe",
+    "Why is the Microsoft outage lasting so long?",
     "Killing of journalist underscores deteriorating conditions in Ecuador"
   ]
 }
