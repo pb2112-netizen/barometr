@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-14T10:22:10.736849Z",
+  "updated_at": "2026-11-14T17:04:32.514364Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-11-09T07:57:01.637568Z",
   "stan_swiata": [
     {
       "temat": "Nvidia CEO Jensen Huang spy scandal FBI probe",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 6,
       "opis": "CEO affair with suspected Chinese spy; FBI probe; shares."
     },
     {
       "temat": "Microsoft outage Teams Outlook EU business disruption",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 4,
       "opis": "Extended service outage affects EU business operations."
     },
     {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 6,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 12,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
     },
     {
       "temat": "Poland Krakow mass shooting domestic security",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 24,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 25,
       "opis": "Gunman kills six in Krakow; direct domestic attack."
     },
     {
       "temat": "Ukraine peace talks UAE trilateral Kyiv Moscow Washington",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "First trilateral talks since February; rhetoric stage."
     },
     {
       "temat": "US FAA nationwide ground stop telecommunications outage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "All US flights grounded briefly; Western infrastructure."
     },
     {
       "temat": "Spain general strike housing cost of living EU",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Mass strike over housing costs; EU inflation pressure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-12T11:01:54.149554Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T18:54:00.494591Z",
       "s": 2.9
@@ -84,15 +80,39 @@
     {
       "t": "2026-11-14T10:22:10.728482Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-14T17:04:32.507536Z",
+      "s": 3.0
     }
   ],
-  "events_anchor_at": "2026-11-14T10:22:10.728482Z",
+  "events_anchor_at": "2026-11-14T17:04:32.507536Z",
   "event_detected_at": {
+    "us has floated ukraine ceding donbas for nato membership, zelensky says": {
+      "detected_at": "2026-11-14T17:04:32.507536Z",
+      "peak_at": "2026-11-14T17:04:32.507536Z",
+      "peak_score_at": "2026-11-14T17:04:32.507536Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "peak_label": "US proposes Ukraine cede Donbas for NATO entry",
+      "peak_summary": "US envoys suggested Ukraine give up Donbas territory in exchange for NATO membership, marking a significant shift in Western peace strategy that directly affects Poland's eastern security environment.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss"
+        }
+      ]
+    },
     "trump, putin and xi plan historic joint meeting in china next week, white house says": {
       "detected_at": "2026-11-14T10:22:10.728482Z",
       "peak_at": "2026-11-14T10:22:10.728482Z",
       "peak_score_at": "2026-11-14T10:22:10.728482Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "neutral",
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
       "peak_label": "Trump Putin Xi plan nuclear talks China",
@@ -106,9 +126,9 @@
     },
     "microsoft says services fully restored after day-long global outage": {
       "detected_at": "2026-11-13T16:19:00.587503Z",
-      "peak_at": "2026-11-13T16:19:00.587503Z",
+      "peak_at": "2026-11-14T17:04:32.507536Z",
       "peak_score_at": "2026-11-13T16:19:00.587503Z",
-      "peak_score": 2.9,
+      "peak_score": 2.8,
       "peak_sentiment": "negative",
       "title": "Why is the Microsoft outage lasting so long?",
       "peak_label": "Microsoft outage disrupts Teams Outlook across EU",
@@ -186,8 +206,8 @@
     }
   },
   "prev_top_event_titles": [
+    "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
     "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-    "Microsoft says services fully restored after day-long global outage",
-    "Estonia bans Russian athletes as backlash intensifies"
+    "Microsoft says services fully restored after day-long global outage"
   ]
 }

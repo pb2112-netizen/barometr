@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-14T10:22:10.738866Z",
+  "updated_at": "2026-11-14T17:04:32.519226Z",
   "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Microsoft outage Teams Outlook EU business disruption",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 4,
       "opis": "Extended service outage affects Romanian business."
     },
     {
-      "temat": "Qatar Turkey defense pact regional security",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 2,
-      "opis": "Mutual defense agreement deepens Turkey military ties."
-    },
-    {
       "temat": "Trump Putin Xi trilateral nuclear talks China",
-      "poziom_bazowy": 5.0,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.7,
+      "cykle_bez_zmian": 1,
       "opis": "Historic meeting on nuclear reduction; NATO security impact."
     },
     {
+      "temat": "US Ukraine Donbas NATO membership peace proposal",
+      "poziom_bazowy": 5.5,
+      "cykle_bez_zmian": 0,
+      "opis": "US proposes territorial concession for NATO entry; major."
+    },
+    {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 3.9,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.8,
+      "cykle_bez_zmian": 6,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
       "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 8,
       "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
     },
     {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 2.9,
-      "cykle_bez_zmian": 11,
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 12,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
+    },
+    {
+      "temat": "Qatar Turkey defense pact regional security",
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 3,
+      "opis": "Mutual defense agreement deepens Turkey military ties."
     },
     {
       "temat": "US FAA nationwide ground stop telecommunications outage",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "All US flights grounded briefly; distant infrastructure."
-    },
-    {
-      "temat": "Spain general strike housing cost of living EU",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
-      "opis": "Mass strike over housing costs; distant EU economic signal."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-12T11:01:54.151225Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T18:54:00.496112Z",
       "s": 3.0
@@ -84,10 +80,34 @@
     {
       "t": "2026-11-14T10:22:10.729532Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-14T17:04:32.508721Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-11-14T10:22:10.729532Z",
   "event_detected_at": {
+    "us has floated ukraine ceding donbas for nato membership, zelensky says": {
+      "detected_at": "2026-11-14T17:04:32.508721Z",
+      "peak_at": "2026-11-14T17:04:32.508721Z",
+      "peak_score_at": "2026-11-14T17:04:32.508721Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "neutral",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "peak_label": "US proposes Ukraine cede Donbas for NATO entry",
+      "peak_summary": "US envoys suggested Ukraine give up Donbas for NATO membership, a major shift in peace strategy directly affecting Romania's regional security and NATO's eastern flank.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss"
+        }
+      ]
+    },
     "trump, putin and xi plan historic joint meeting in china next week, white house says": {
       "detected_at": "2026-11-14T10:22:10.729532Z",
       "peak_at": "2026-11-14T10:22:10.729532Z",
@@ -106,9 +126,9 @@
     },
     "microsoft says services fully restored after day-long global outage": {
       "detected_at": "2026-11-13T16:19:00.589431Z",
-      "peak_at": "2026-11-13T16:19:00.589431Z",
+      "peak_at": "2026-11-14T17:04:32.508721Z",
       "peak_score_at": "2026-11-13T16:19:00.589431Z",
-      "peak_score": 2.8,
+      "peak_score": 2.7,
       "peak_sentiment": "negative",
       "title": "Why is the Microsoft outage lasting so long?",
       "peak_label": "Microsoft services down affecting EU operations",
@@ -151,31 +171,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss"
         }
       ]
-    },
-    "rosenberg: uncompromising putin ups demands for peace with ukraine": {
-      "detected_at": "2026-11-11T21:56:05.163950Z",
-      "peak_at": "2026-11-13T16:19:00.589431Z",
-      "peak_score_at": "2026-11-12T11:01:54.151225Z",
-      "peak_score": 2.8,
-      "peak_sentiment": "neutral",
-      "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
-      "peak_label": "US envoys meet Putin in Moscow for Ukraine talks",
-      "peak_summary": "High-level American negotiators arrive in Moscow for direct talks with Putin, then meet Zelensky in Dublin—new diplomatic push affecting Black Sea regional security.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
+    "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
     "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-    "Microsoft says services fully restored after day-long global outage",
-    "Qatar and Turkiye sign a mutual defence pact: What do we know?"
+    "Microsoft says services fully restored after day-long global outage"
   ]
 }

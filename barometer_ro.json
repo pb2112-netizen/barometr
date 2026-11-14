@@ -1,14 +1,38 @@
 {
   "global_score": 3.0,
-  "rationale": "Trump-Putin-Xi nuclear talks represent a new qualitative shift in global security architecture affecting Romania's NATO and Black Sea position; Microsoft outage resolved; other events distant or continuation. Score adjusted down: ongoing situation without qualitative change.",
+  "rationale": "US proposal for Ukraine to cede Donbas for NATO membership directly impacts regional security dynamics on Romania's border and NATO expansion in the Black Sea region. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "label": "Trump Putin Xi plan nuclear talks China",
-      "summary": "Unprecedented trilateral summit on nuclear weapons directly impacts regional security dynamics for Romania as NATO Black Sea member.",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "label": "US proposes Ukraine cede Donbas for NATO entry",
+      "summary": "US envoys suggested Ukraine give up Donbas for NATO membership, a major shift in peace strategy directly affecting Romania's regional security and NATO's eastern flank.",
       "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-14T17:04:32.508721Z"
+    },
+    {
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "label": "Trump Putin Xi summit on nuclear reduction",
+      "summary": "Historic trilateral nuclear talks represent major shift in global security architecture affecting NATO and Black Sea regional stability.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,10 +47,10 @@
     },
     {
       "title": "Microsoft says services fully restored after day-long global outage",
-      "label": "Microsoft restores services after global outage",
-      "summary": "Day-long disruption to business tools now resolved; Romanian operations return to normal after extended interruption.",
-      "score": 2.8,
-      "sentiment": "positive",
+      "label": "Microsoft services restored after global outage",
+      "summary": "Day-long disruption to business services in Romania now resolved after affecting operations across EU.",
+      "score": 2.7,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -39,25 +63,6 @@
         }
       ],
       "detected_at": "2026-11-13T16:19:00.589431Z"
-    },
-    {
-      "title": "Qatar and Turkiye sign a mutual defence pact: What do we know?",
-      "label": "Qatar Turkey sign mutual defense pact",
-      "summary": "Defense agreement deepens Turkey's regional military ties; indirect relevance to Black Sea neighbor Romania.",
-      "score": 2.4,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-13T22:36:08.783704Z"
     }
   ],
   "short_summary": "Trump Putin Xi plan nuclear talks China",
@@ -65,7 +70,7 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-14T10:22:10.729532Z",
+  "updated_at": "2026-11-14T17:04:32.508721Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-14T10:22:10.729532Z",
   "score_history": [
-    {
-      "t": "2026-11-12T11:01:54.151225Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T18:54:00.496112Z",
       "s": 3.0
@@ -115,6 +116,10 @@
     },
     {
       "t": "2026-11-14T10:22:10.729532Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-11-14T17:04:32.508721Z",
       "s": 3.0
     }
   ]

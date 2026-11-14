@@ -1,14 +1,38 @@
 {
-  "global_score": 5.0,
-  "rationale": "Trump-Putin-Xi nuclear talks represent a major new development directly affecting Ukraine's war trajectory and security guarantees; Putin's increased demands for peace signal hardening Russian position; other events less impactful. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.5,
+  "rationale": "US proposal for Ukraine to cede Donbas for NATO membership is a major new development directly affecting Ukraine's territorial integrity and security future, though still at proposal stage. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "label": "US proposes Ukraine cede Donbas for NATO entry",
+      "summary": "US envoys suggested Ukraine give up Donbas territory in exchange for NATO membership. Zelensky rejected neutrality and territorial concessions, marking major shift in Western peace proposals.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-14T17:04:32.510567Z"
+    },
+    {
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "label": "Trump Putin Xi plan nuclear talks China",
-      "summary": "Unprecedented trilateral meeting on nuclear weapons directly affects Ukraine's security future and potential peace negotiations with Russia.",
+      "label": "Trump Putin Xi summit on nuclear reduction",
+      "summary": "Historic trilateral nuclear talks next week could reshape global security architecture affecting Ukraine's position and Western support.",
       "score": 3.0,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -23,11 +47,11 @@
     },
     {
       "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-      "label": "Putin increases demands for Ukraine peace",
-      "summary": "Russia hardening negotiating position, now including European security demands; signals tougher path to any settlement for Ukraine.",
-      "score": 5.0,
+      "label": "Putin increases demands in Ukraine peace talks",
+      "summary": "Putin raising demands in peace negotiations, with European security now part of discussions viewed as Moscow victory.",
+      "score": 4.5,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -39,40 +63,21 @@
         }
       ],
       "detected_at": "2026-11-11T14:18:22.982992Z"
-    },
-    {
-      "title": "Estonia bans Russian athletes as backlash intensifies",
-      "label": "Estonia bans Russian athletes over war",
-      "summary": "Regional ally's action reflects continued international isolation of Russia; symbolic support for Ukraine but no direct military impact.",
-      "score": 2.5,
-      "sentiment": "positive",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-14T10:22:10.730925Z"
     }
   ],
   "short_summary": "Putin increases demands for Ukraine peace",
-  "level_label": "Elevated",
-  "trend": "rising",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-14T10:22:10.730925Z",
+  "updated_at": "2026-11-14T17:04:32.510567Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Putin increases demands for Ukraine peace",
     "summary": "Russia hardening negotiating position, now including European security demands; signals tougher path to any settlement for Ukraine.",
     "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-    "score": 5.0,
+    "score": 4.9,
     "sentiment": "negative",
     "detected_at": "2026-11-11T14:18:22.982992Z",
     "peak_at": "2026-11-14T10:22:10.730925Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-11T14:18:22.982992Z",
   "score_history": [
-    {
-      "t": "2026-11-12T11:01:54.153876Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-12T18:54:00.499326Z",
       "s": 3.0
@@ -116,6 +117,10 @@
     {
       "t": "2026-11-14T10:22:10.730925Z",
       "s": 5.0
+    },
+    {
+      "t": "2026-11-14T17:04:32.510567Z",
+      "s": 4.5
     }
   ]
 }
