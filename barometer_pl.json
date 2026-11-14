@@ -1,13 +1,32 @@
 {
   "global_score": 3.0,
-  "rationale": "Microsoft outage continues to affect Polish business operations; other events remain distant or unchanged.",
+  "rationale": "Trump-Putin-Xi nuclear talks are a qualitatively new development with direct implications for European security and Poland's NATO position; Microsoft outage resolved (background decay); other events distant or rhetoric. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
-      "label": "Microsoft outage disrupts Polish business operations",
-      "summary": "Extended Microsoft service disruption continues to affect Polish businesses using Teams and Outlook, though recovery is underway. Reminder of tech infrastructure vulnerability.",
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "label": "Trump Putin Xi plan nuclear talks China",
+      "summary": "Unprecedented trilateral meeting to discuss nuclear weapons reduction directly affects European security architecture and Poland's NATO umbrella.",
       "score": 3.0,
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-14T10:22:10.728482Z"
+    },
+    {
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "label": "Microsoft restores services after global outage",
+      "summary": "Extended disruption to Outlook, Teams, and Copilot now resolved; Polish business operations return to normal after day-long interruption.",
+      "score": 2.9,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -22,31 +41,12 @@
       "detected_at": "2026-11-13T16:19:00.587503Z"
     },
     {
-      "title": "FAA grounds all fights across the US over 'telecommunication outage'",
-      "label": "US flights grounded telecommunications failure",
-      "summary": "All US departing flights halted due to communications failure, later reopened. Distant infrastructure event with no direct impact on Poland.",
-      "score": 2.1,
+      "title": "Estonia bans Russian athletes as backlash intensifies",
+      "label": "Estonia bans Russian athletes over Ukraine war",
+      "summary": "Regional neighbor's action reflects hardening stance in Eastern Europe; symbolic but no direct impact on Polish daily life.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-14T03:12:08.469921Z"
-    },
-    {
-      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-      "label": "Nvidia scandal widens US cabinet blame",
-      "summary": "Internal US political blame over Nvidia chip exports continues. No direct impact on Polish economy or security.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -54,36 +54,36 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-13T00:19:52.306907Z"
+      "detected_at": "2026-11-14T10:22:10.728482Z"
     }
   ],
-  "short_summary": "Microsoft outage disrupts Teams Outlook across EU",
+  "short_summary": "Trump Putin Xi plan nuclear talks China",
   "level_label": "Low",
   "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-14T03:12:08.469921Z",
+  "updated_at": "2026-11-14T10:22:10.728482Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
-    "label": "Microsoft outage disrupts Teams Outlook across EU",
-    "summary": "Extended Microsoft service disruption affects Polish businesses and government offices relying on Teams and Outlook for daily operations.",
-    "title": "Why is the Microsoft outage lasting so long?",
+    "label": "Trump Putin Xi plan nuclear talks China",
+    "summary": "Unprecedented trilateral meeting to discuss nuclear weapons reduction directly affects European security architecture and Poland's NATO umbrella.",
+    "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
     "score": 3.0,
-    "sentiment": "negative",
-    "detected_at": "2026-11-13T16:19:00.587503Z",
-    "peak_at": "2026-11-13T16:19:00.587503Z",
+    "sentiment": "neutral",
+    "detected_at": "2026-11-14T10:22:10.728482Z",
+    "peak_at": "2026-11-14T10:22:10.728482Z",
     "source_links": [
       {
         "name": "BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
-  "events_anchor_at": "2026-11-13T16:19:00.587503Z",
+  "events_anchor_at": "2026-11-14T10:22:10.728482Z",
   "score_history": [
     {
       "t": "2026-11-12T11:01:54.149554Z",
@@ -111,6 +111,10 @@
     },
     {
       "t": "2026-11-14T03:12:08.469921Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-11-14T10:22:10.728482Z",
       "s": 3.0
     }
   ]

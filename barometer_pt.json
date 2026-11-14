@@ -1,12 +1,12 @@
 {
-  "global_score": 2.8,
-  "rationale": "Storm Charles continues affecting Iberia with floods; Microsoft outage persists; other events remain distant.",
+  "global_score": 2.7,
+  "rationale": "Storm Charles continues affecting Iberia with floods and flight disruptions; Microsoft outage resolved; distant geopolitical talks and other events have minimal impact on Portuguese daily life.",
   "top_events": [
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-      "label": "Storm Charles floods Portugal Spain",
-      "summary": "Heavy rain and strong winds continue to cause flooding and flight disruptions across Portugal and Spain. Direct weather impact on Iberian peninsula.",
-      "score": 2.8,
+      "label": "Storm Charles floods southern Europe flights",
+      "summary": "Heavy rain and strong winds continue disrupting Iberian peninsula with flooding and flight cancellations affecting Portugal directly.",
+      "score": 2.7,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,11 +22,11 @@
       "detected_at": "2026-11-13T16:19:00.591324Z"
     },
     {
-      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
-      "label": "Microsoft outage disrupts Portuguese business",
-      "summary": "Extended Microsoft service disruption continues to affect Portuguese businesses using Teams and Outlook. Recovery underway but highlights tech dependency.",
-      "score": 2.7,
-      "sentiment": "negative",
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "label": "Microsoft restores services after global outage",
+      "summary": "Extended disruption to business tools now resolved; Portuguese operations return to normal after day-long interruption.",
+      "score": 2.6,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -41,23 +41,23 @@
       "detected_at": "2026-11-13T16:19:00.591324Z"
     },
     {
-      "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-      "label": "Ecuador journalist killed gang violence",
-      "summary": "Journalist Tomás Beltrán shot dead amid gang warfare in Ecuador. Distant Latin American violence with no direct impact on Portugal.",
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "label": "Trump Putin Xi plan nuclear talks China",
+      "summary": "Distant geopolitical summit on nuclear weapons; minimal direct impact on Portuguese daily life or economy.",
       "score": 2.0,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "inne",
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
       "sources": [
-        "Guardian"
+        "BBC"
       ],
       "source_links": [
         {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing"
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-12T18:54:00.497880Z"
+      "detected_at": "2026-11-14T10:22:10.730222Z"
     }
   ],
   "short_summary": "Storm Charles floods disrupt Iberian peninsula",
@@ -65,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-14T03:12:08.471640Z",
+  "updated_at": "2026-11-14T10:22:10.730222Z",
   "liczba_naglowkow": 30,
-  "tone": "negative",
+  "tone": "neutral",
   "most_significant_event": {
     "label": "Storm Charles floods disrupt Iberian peninsula",
     "summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-    "score": 2.8,
+    "score": 2.7,
     "sentiment": "negative",
     "detected_at": "2026-11-13T16:19:00.591324Z",
     "peak_at": "2026-11-13T16:19:00.591324Z",
@@ -112,6 +112,10 @@
     {
       "t": "2026-11-14T03:12:08.471640Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-11-14T10:22:10.730222Z",
+      "s": 2.7
     }
   ]
 }
