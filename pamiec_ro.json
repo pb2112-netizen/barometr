@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-13T22:36:08.791182Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-11-14T03:12:08.474896Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Microsoft outage Teams Outlook EU business disruption",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 2,
       "opis": "Extended service outage affects Romanian business."
     },
     {
-      "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 5,
-      "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
-    },
-    {
-      "temat": "Qatar Turkey defense pact regional security",
-      "poziom_bazowy": 2.6,
-      "cykle_bez_zmian": 0,
-      "opis": "Mutual defense agreement deepens Turkey military ties."
-    },
-    {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 4.2,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 4.0,
+      "cykle_bez_zmian": 4,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
+      "temat": "US envoys Moscow Putin Ukraine shuttle diplomacy",
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 6,
+      "opis": "Kushner Witkoff meet Putin then Zelensky; new peace push."
+    },
+    {
       "temat": "US soldier UK arrest Russia spying NATO security",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 10,
       "opis": "Senior US soldier arrested in UK for spying for Russia."
+    },
+    {
+      "temat": "Qatar Turkey defense pact regional security",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 1,
+      "opis": "Mutual defense agreement deepens Turkey military ties."
+    },
+    {
+      "temat": "US FAA nationwide ground stop telecommunications outage",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 1,
+      "opis": "All US flights grounded briefly; distant infrastructure."
     },
     {
       "temat": "Spain general strike housing cost of living EU",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 7,
+      "cykle_bez_zmian": 8,
       "opis": "Mass strike over housing costs; distant EU economic signal."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Hundreds of Italian schools evacuated; neighbor disruption."
-    },
-    {
-      "temat": "Russia Moldova diplomat expulsion tit-for-tat",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
-      "opis": "Russia expels Moldovan diplomat; regional tension increase."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-12T02:57:22.361961Z",
-      "s": 2.4
-    },
     {
       "t": "2026-11-12T11:01:54.151225Z",
       "s": 3.0
@@ -80,15 +76,19 @@
     {
       "t": "2026-11-13T22:36:08.783704Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-14T03:12:08.470923Z",
+      "s": 2.9
     }
   ],
-  "events_anchor_at": "2026-11-13T00:19:52.308352Z",
+  "events_anchor_at": "2026-11-13T16:19:00.589431Z",
   "event_detected_at": {
-    "microsoft 'deeply sorry' for global outage after almost 24 hours of disruption": {
+    "microsoft 'deeply sorry' for global outage as it reports broad recovery": {
       "detected_at": "2026-11-13T16:19:00.589431Z",
       "peak_at": "2026-11-13T16:19:00.589431Z",
       "peak_score_at": "2026-11-13T16:19:00.589431Z",
-      "peak_score": 3.0,
+      "peak_score": 2.9,
       "peak_sentiment": "negative",
       "title": "Why is the Microsoft outage lasting so long?",
       "peak_label": "Microsoft services down affecting EU operations",
@@ -100,7 +100,7 @@
         }
       ]
     },
-    "qatar and turkiye send message of deterrence with new defence pact": {
+    "iran war live: fighting grips yemen as qatar, turkiye sign defence deal": {
       "detected_at": "2026-11-13T22:36:08.783704Z",
       "peak_at": "2026-11-13T22:36:08.783704Z",
       "peak_score_at": "2026-11-13T22:36:08.783704Z",
@@ -113,6 +113,22 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss"
+        }
+      ]
+    },
+    "faa grounds all fights across the us over 'telecommunication outage'": {
+      "detected_at": "2026-11-14T03:12:08.470923Z",
+      "peak_at": "2026-11-14T03:12:08.470923Z",
+      "peak_score_at": "2026-11-14T03:12:08.470923Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "neutral",
+      "title": "FAA grounds all fights across the US over 'telecommunication outage'",
+      "peak_label": "US flights grounded telecommunications failure",
+      "peak_summary": "All US departing flights halted due to communications failure, later reopened. Distant infrastructure event with no direct impact on Romania.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss"
         }
       ]
     },
@@ -135,27 +151,11 @@
           "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
         }
       ]
-    },
-    "russian warship hit by ukrainian drone in gulf of finland": {
-      "detected_at": "2026-11-13T00:19:52.308352Z",
-      "peak_at": "2026-11-13T00:19:52.308352Z",
-      "peak_score_at": "2026-11-13T00:19:52.308352Z",
-      "peak_score": 4.6,
-      "peak_sentiment": "negative",
-      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-      "peak_label": "Ukrainian drone hits Russian warship in Baltic",
-      "peak_summary": "First Ukrainian drone attack on Russian vessel in open Baltic waters; escalation into maritime domain raises regional security concerns for Black Sea NATO members.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-    "Qatar and Turkiye send message of deterrence with new defence pact",
-    "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine"
+    "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+    "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+    "FAA grounds all fights across the US over 'telecommunication outage'"
   ]
 }
