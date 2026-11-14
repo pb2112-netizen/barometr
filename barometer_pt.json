@@ -1,12 +1,12 @@
 {
-  "global_score": 2.6,
-  "rationale": "Storm Charles brings flooding and flight disruptions to Portugal, continuing recent weather pattern; other events remain distant from Portuguese daily life.",
+  "global_score": 2.5,
+  "rationale": "Storm Charles continues to bring flooding and flight disruptions to Iberia; housing protests in Portugal reflect ongoing domestic cost-of-living pressures but represent continuation of known movement.",
   "top_events": [
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-      "label": "Storm Charles floods Portugal and Spain",
-      "summary": "Heavy rain and strong winds bring flooding and flight cancellations to Iberian peninsula, continuing recent pattern of disruptive weather in Portugal.",
-      "score": 2.6,
+      "label": "Storm Charles floods disrupt Iberian peninsula",
+      "summary": "Heavy rain and flooding continue across Portugal and Spain with flight cancellations. Storm represents continuation of this week's weather disruption.",
+      "score": 2.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,12 +22,31 @@
       "detected_at": "2026-11-13T16:19:00.591324Z"
     },
     {
-      "title": "Microsoft says services fully restored after day-long global outage",
-      "label": "Microsoft services restored after global outage",
-      "summary": "Day-long disruption to business services now resolved after affecting Portuguese operations.",
+      "title": "Tens of thousands march in latest Portugal housing protests",
+      "label": "Tens of thousands protest Portugal housing costs",
+      "summary": "Largest housing cost protests yet in Portugal as social movement continues to grow. Reflects ongoing domestic cost-of-living crisis.",
       "score": 2.5,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-14T21:28:06.891713Z"
+    },
+    {
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "label": "Italy fines Meta €805m over photo access",
+      "summary": "Major EU privacy enforcement against Meta for not informing 20 million users of photo access. Signals continued regulatory pressure in EU market.",
+      "score": 2.3,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -35,31 +54,7 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-13T16:19:00.591324Z"
-    },
-    {
-      "title": "Italy fines Meta €805m over accessing users' photos",
-      "label": "Italy fines Meta €805m for photo privacy",
-      "summary": "Italian regulator fines Meta for not informing 20 million users about photo access, affecting EU privacy enforcement.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "gospodarka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
         }
       ],
       "detected_at": "2026-11-14T17:04:32.509794Z"
@@ -70,14 +65,14 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-14T17:04:32.509794Z",
+  "updated_at": "2026-11-14T21:28:06.891713Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Storm Charles floods disrupt Iberian peninsula",
     "summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-    "score": 2.6,
+    "score": 2.5,
     "sentiment": "negative",
     "detected_at": "2026-11-13T16:19:00.591324Z",
     "peak_at": "2026-11-14T17:04:32.509794Z",
@@ -90,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-13T16:19:00.591324Z",
   "score_history": [
-    {
-      "t": "2026-11-12T18:54:00.497880Z",
-      "s": 2.2
-    },
     {
       "t": "2026-11-13T00:19:52.309391Z",
       "s": 2.1
@@ -121,6 +112,10 @@
     {
       "t": "2026-11-14T17:04:32.509794Z",
       "s": 2.6
+    },
+    {
+      "t": "2026-11-14T21:28:06.891713Z",
+      "s": 2.5
     }
   ]
 }

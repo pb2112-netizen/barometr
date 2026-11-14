@@ -1,13 +1,13 @@
 {
-  "global_score": 3.8,
-  "rationale": "Historic Trump-Putin-Xi summit on nuclear reduction represents major US foreign policy shift; ground stop resolved; Ukraine peace proposal marks significant diplomatic development. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.0,
+  "rationale": "Historic Trump-Putin-Xi trilateral nuclear summit scheduled for next week represents major US foreign policy development; FAA ground stop investigation reveals infrastructure failure details. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "label": "Trump Putin Xi summit on nuclear reduction",
-      "summary": "Unprecedented trilateral meeting next week to discuss nuclear weapons reduction marks major shift in US foreign policy and global security architecture.",
+      "label": "Trump Putin Xi nuclear summit scheduled China",
+      "summary": "White House confirms historic trilateral meeting next week on nuclear weapons reduction. Continuation of unprecedented diplomatic initiative with concrete scheduling.",
       "score": 3.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,50 +22,55 @@
       "detected_at": "2026-11-14T10:22:10.731989Z"
     },
     {
-      "title": "What we know about the ground stop and what to do if you're affected",
-      "label": "FAA ground stop caused by old equipment",
-      "summary": "US officials confirm disruption caused by old equipment overloading, not cyber-attack, as flights resume after nationwide ground stop.",
-      "score": 3.8,
-      "sentiment": "neutral",
+      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+      "label": "Copper wire upgrade caused US flight chaos",
+      "summary": "Transportation secretary confirms infrastructure failure from copper wire upgrade caused FAA ground stop. Investigation ongoing into incompetence or equipment fault.",
+      "score": 3.0,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "katastrofa",
+      "category": "inne",
       "sources": [
-        "BBC"
+        "BBC",
+        "Al Jazeera"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-13T22:36:08.789090Z"
+      "detected_at": "2026-11-14T21:28:06.894785Z"
     },
     {
-      "title": "Microsoft says services fully restored after day-long global outage",
-      "label": "Microsoft services restored after global outage",
-      "summary": "Day-long disruption to Outlook, Teams and Copilot affecting US business operations now fully resolved.",
-      "score": 2.9,
+      "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+      "label": "SpaceX attempts second Starship booster catch",
+      "summary": "SpaceX makes second attempt to catch returning rocket booster after first attempt ended in ocean landing. Continuation of test program.",
+      "score": 2.5,
       "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "nowosc": "nowe",
+      "category": "nauka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-13T16:19:00.595195Z"
+      "detected_at": "2026-11-14T21:28:06.894785Z"
     }
   ],
   "short_summary": "FAA grounds all US flights communications failure",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-14T17:04:32.511555Z",
+  "updated_at": "2026-11-14T21:28:06.894785Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-13T22:36:08.789090Z",
   "score_history": [
-    {
-      "t": "2026-11-12T18:54:00.501178Z",
-      "s": 2.4
-    },
     {
       "t": "2026-11-13T00:19:52.311806Z",
       "s": 3.2
@@ -116,6 +117,10 @@
     {
       "t": "2026-11-14T17:04:32.511555Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-11-14T21:28:06.894785Z",
+      "s": 3.0
     }
   ]
 }
