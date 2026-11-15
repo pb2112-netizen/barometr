@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-15T09:21:41.670586Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-11-15T17:07:10.576797Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Storm Charles Iberia floods flight cancellations",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 8,
       "opis": "Heavy rain and flooding hit Portugal and Spain this week."
     },
     {
-      "temat": "Italy Meta privacy fine photo access EU regulation",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 2,
-      "opis": "€805m fine for not informing users; EU privacy enforcement."
+      "temat": "Czech Republic media funding protests press freedom",
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 0,
+      "opis": "Mass protests against government media funding reform."
+    },
+    {
+      "temat": "Iran drone attack US base Bahrain Middle East tension",
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 0,
+      "opis": "Second attack in three days; distant regional escalation."
     },
     {
       "temat": "Portugal housing protests rental prices cost of living",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Mass protests demand action on housing crisis and rents."
     },
     {
       "temat": "Microsoft outage Teams Outlook business disruption",
-      "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 7,
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 8,
       "opis": "Extended service outage affects Portuguese operations."
+    },
+    {
+      "temat": "Italy Meta privacy fine photo access EU regulation",
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 3,
+      "opis": "€805m fine for not informing users; EU privacy enforcement."
     },
     {
       "temat": "Ecuador journalist killing gang violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Journalist shot dead amid gang warfare; distant Latin."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
-    },
-    {
-      "temat": "Chile transport workers fuel price protests",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Highway blockades over fuel costs; distant Latin America."
-    },
-    {
-      "temat": "Kenya El Niño floods climate predictions",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 15,
-      "opis": "Kenya braces for record El Niño floods; distant event."
+      "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-13T16:19:00.591324Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-13T22:36:08.785123Z",
       "s": 2.9
@@ -84,10 +80,62 @@
     {
       "t": "2026-11-15T09:21:41.663749Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-15T17:07:10.569996Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-11-14T21:28:06.891713Z",
   "event_detected_at": {
+    "thousands rally in czech republic against state media funding changes": {
+      "detected_at": "2026-11-15T17:07:10.569996Z",
+      "peak_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score": 2.4,
+      "peak_sentiment": "neutral",
+      "title": "Thousands rally in Czech Republic against state media funding changes",
+      "peak_label": "Czechs protest state media funding changes",
+      "peak_summary": "Mass protests against government media funding reform raise EU press freedom concerns; indirect relevance to Portuguese media landscape.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss"
+        }
+      ]
+    },
+    "storm charles causes floods and flight cancellations across southern europe": {
+      "detected_at": "2026-11-13T16:19:00.591324Z",
+      "peak_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "negative",
+      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+      "peak_label": "Storm Charles floods disrupt Iberian peninsula",
+      "peak_summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        }
+      ]
+    },
+    "iran targets us military base in bahrain with drone attack": {
+      "detected_at": "2026-11-15T17:07:10.569996Z",
+      "peak_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score": 3.1,
+      "peak_sentiment": "negative",
+      "title": "Iran targets US military base in Bahrain with drone attack",
+      "peak_label": "Iran attacks US base in Bahrain region",
+      "peak_summary": "Second Iranian strike in three days raises Middle East tension; distant conflict with no immediate impact on Portuguese economy or energy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "thousands in portugal protest against surging rental prices": {
       "detected_at": "2026-11-14T21:28:06.891713Z",
       "peak_at": "2026-11-15T09:21:41.663749Z",
@@ -101,42 +149,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss"
-        }
-      ]
-    },
-    "storm charles causes floods and flight cancellations across southern europe": {
-      "detected_at": "2026-11-13T16:19:00.591324Z",
-      "peak_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score_at": "2026-11-13T16:19:00.591324Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-      "peak_label": "Storm Charles floods disrupt Iberian peninsula",
-      "peak_summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
-        }
-      ]
-    },
-    "italy fines meta €805m over accessing users' photos": {
-      "detected_at": "2026-11-14T17:04:32.509794Z",
-      "peak_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score": 2.1,
-      "peak_sentiment": "neutral",
-      "title": "Italy fines Meta €805m over accessing users' photos",
-      "peak_label": "Italy fines Meta €805m for photo privacy",
-      "peak_summary": "Italian regulator fines Meta for not informing 20 million users about photo access, affecting EU privacy enforcement.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
         }
       ]
     },
@@ -155,43 +167,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "microsoft says services fully restored after day-long global outage": {
-      "detected_at": "2026-11-13T16:19:00.591324Z",
-      "peak_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score_at": "2026-11-13T16:19:00.591324Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Why is the Microsoft outage lasting so long?",
-      "peak_label": "Microsoft outage disrupts Portuguese businesses",
-      "peak_summary": "Extended Microsoft service disruption affects Portuguese companies and offices relying on Teams and Outlook for operations.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "trump, putin and xi plan historic joint meeting in china next week, white house says": {
-      "detected_at": "2026-11-14T10:22:10.730222Z",
-      "peak_at": "2026-11-14T10:22:10.730222Z",
-      "peak_score_at": "2026-11-14T10:22:10.730222Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "neutral",
-      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "peak_label": "Trump Putin Xi plan nuclear talks China",
-      "peak_summary": "Distant geopolitical summit on nuclear weapons; minimal direct impact on Portuguese daily life or economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Thousands in Portugal protest against surging rental prices",
+    "Thousands rally in Czech Republic against state media funding changes",
     "Storm Charles causes floods and flight cancellations across southern Europe",
-    "Italy fines Meta €805m over accessing users' photos"
+    "Iran targets US military base in Bahrain with drone attack"
   ]
 }
