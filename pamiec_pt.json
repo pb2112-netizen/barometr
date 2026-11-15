@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-15T01:53:24.826717Z",
-  "ostatnia_ocena": 2.4,
+  "updated_at": "2026-11-15T09:21:41.670586Z",
+  "ostatnia_ocena": 3.2,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Storm Charles Iberia floods flight cancellations",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 7,
       "opis": "Heavy rain and flooding hit Portugal and Spain this week."
     },
     {
-      "temat": "Microsoft outage Teams Outlook business disruption",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 6,
-      "opis": "Extended service outage affects Portuguese operations."
+      "temat": "Italy Meta privacy fine photo access EU regulation",
+      "poziom_bazowy": 2.1,
+      "cykle_bez_zmian": 2,
+      "opis": "€805m fine for not informing users; EU privacy enforcement."
     },
     {
-      "temat": "Italy Meta privacy fine photo access EU regulation",
+      "temat": "Portugal housing protests rental prices cost of living",
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 0,
+      "opis": "Mass protests demand action on housing crisis and rents."
+    },
+    {
+      "temat": "Microsoft outage Teams Outlook business disruption",
       "poziom_bazowy": 2.2,
-      "cykle_bez_zmian": 1,
-      "opis": "€805m fine for not informing users; EU privacy enforcement."
+      "cykle_bez_zmian": 7,
+      "opis": "Extended service outage affects Portuguese operations."
     },
     {
       "temat": "Ecuador journalist killing gang violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Journalist shot dead amid gang warfare; distant Latin."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
     },
     {
       "temat": "Chile transport workers fuel price protests",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Highway blockades over fuel costs; distant Latin America."
     },
     {
       "temat": "Kenya El Niño floods climate predictions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
-      "opis": "Kenya braces for record El Niño floods; distant event."
-    },
-    {
-      "temat": "Egypt train collision Cairo deaths",
-      "poziom_bazowy": 2.0,
       "cykle_bez_zmian": 15,
-      "opis": "Two trains collide near Cairo; seven dead, 125 injured."
+      "opis": "Kenya braces for record El Niño floods; distant event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-13T07:55:04.206364Z",
-      "s": 2.0
-    },
     {
       "t": "2026-11-13T16:19:00.591324Z",
       "s": 3.0
@@ -84,15 +80,35 @@
     {
       "t": "2026-11-15T01:53:24.822692Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-11-15T09:21:41.663749Z",
+      "s": 3.2
     }
   ],
-  "events_anchor_at": "2026-11-13T16:19:00.591324Z",
+  "events_anchor_at": "2026-11-14T21:28:06.891713Z",
   "event_detected_at": {
+    "thousands in portugal protest against surging rental prices": {
+      "detected_at": "2026-11-14T21:28:06.891713Z",
+      "peak_at": "2026-11-15T09:21:41.663749Z",
+      "peak_score_at": "2026-11-15T09:21:41.663749Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Thousands in Portugal protest against surging rental prices",
+      "peak_label": "Thousands protest surging rental prices in Portugal",
+      "peak_summary": "Large-scale protests across Portugal demand action on housing crisis and rising rental costs. Direct impact on cost of living for Portuguese residents.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss"
+        }
+      ]
+    },
     "storm charles causes floods and flight cancellations across southern europe": {
       "detected_at": "2026-11-13T16:19:00.591324Z",
       "peak_at": "2026-11-14T17:04:32.509794Z",
       "peak_score_at": "2026-11-13T16:19:00.591324Z",
-      "peak_score": 2.4,
+      "peak_score": 2.3,
       "peak_sentiment": "negative",
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
       "peak_label": "Storm Charles floods disrupt Iberian peninsula",
@@ -108,7 +124,7 @@
       "detected_at": "2026-11-14T17:04:32.509794Z",
       "peak_at": "2026-11-14T17:04:32.509794Z",
       "peak_score_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score": 2.2,
+      "peak_score": 2.1,
       "peak_sentiment": "neutral",
       "title": "Italy fines Meta €805m over accessing users' photos",
       "peak_label": "Italy fines Meta €805m for photo privacy",
@@ -137,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "tens of thousands march in latest portugal housing protests": {
-      "detected_at": "2026-11-14T21:28:06.891713Z",
-      "peak_at": "2026-11-14T21:28:06.891713Z",
-      "peak_score_at": "2026-11-14T21:28:06.891713Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "negative",
-      "title": "Tens of thousands march in latest Portugal housing protests",
-      "peak_label": "Tens of thousands protest Portugal housing costs",
-      "peak_summary": "Largest housing cost protests yet in Portugal as social movement continues to grow. Reflects ongoing domestic cost-of-living crisis.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss"
         }
       ]
     },
@@ -190,8 +190,8 @@
     }
   },
   "prev_top_event_titles": [
+    "Thousands in Portugal protest against surging rental prices",
     "Storm Charles causes floods and flight cancellations across southern Europe",
-    "Italy fines Meta €805m over accessing users' photos",
-    "Copper wire upgrade caused nationwide flight suspension, US transport secretary says"
+    "Italy fines Meta €805m over accessing users' photos"
   ]
 }
