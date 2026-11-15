@@ -1,12 +1,12 @@
 {
-  "global_score": 2.5,
-  "rationale": "Storm Charles continues to bring flooding and flight disruptions to Iberia; housing protests in Portugal reflect ongoing domestic cost-of-living pressures but represent continuation of known movement.",
+  "global_score": 2.4,
+  "rationale": "Storm Charles continues to affect Iberia with floods and flight cancellations; other events are distant or lack direct impact on Portuguese daily life.",
   "top_events": [
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-      "label": "Storm Charles floods disrupt Iberian peninsula",
-      "summary": "Heavy rain and flooding continue across Portugal and Spain with flight cancellations. Storm represents continuation of this week's weather disruption.",
-      "score": 2.5,
+      "label": "Storm Charles brings floods to Iberian peninsula",
+      "summary": "Heavy rain and strong winds continue disrupting Portugal and Spain with flooding and flight cancellations, directly affecting travel and local infrastructure this week.",
+      "score": 2.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "katastrofa",
@@ -22,31 +22,12 @@
       "detected_at": "2026-11-13T16:19:00.591324Z"
     },
     {
-      "title": "Tens of thousands march in latest Portugal housing protests",
-      "label": "Tens of thousands protest Portugal housing costs",
-      "summary": "Largest housing cost protests yet in Portugal as social movement continues to grow. Reflects ongoing domestic cost-of-living crisis.",
-      "score": 2.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-14T21:28:06.891713Z"
-    },
-    {
       "title": "Italy fines Meta €805m over accessing users' photos",
-      "label": "Italy fines Meta €805m over photo access",
-      "summary": "Major EU privacy enforcement against Meta for not informing 20 million users of photo access. Signals continued regulatory pressure in EU market.",
-      "score": 2.3,
+      "label": "Italy fines Meta €805m for photo access",
+      "summary": "Italian regulator imposes major fine on Meta for not informing 20 million users of photo access; EU privacy enforcement with indirect relevance to Portuguese digital rights.",
+      "score": 2.2,
       "sentiment": "neutral",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -58,37 +39,52 @@
         }
       ],
       "detected_at": "2026-11-14T17:04:32.509794Z"
+    },
+    {
+      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+      "label": "Faulty wire caused US aviation ground stop",
+      "summary": "US identifies equipment failure behind recent flight suspension; distant infrastructure event with no direct impact on Portuguese aviation or economy.",
+      "score": 1.5,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "inne",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-15T01:53:24.822692Z"
     }
   ],
-  "short_summary": "Storm Charles floods disrupt Iberian peninsula",
+  "short_summary": "Microsoft outage disrupts Portuguese businesses",
   "level_label": "Stable",
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-14T21:28:06.891713Z",
+  "updated_at": "2026-11-15T01:53:24.822692Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
-    "label": "Storm Charles floods disrupt Iberian peninsula",
-    "summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
-    "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+    "label": "Microsoft outage disrupts Portuguese businesses",
+    "summary": "Extended Microsoft service disruption affects Portuguese companies and offices relying on Teams and Outlook for operations.",
+    "title": "Why is the Microsoft outage lasting so long?",
     "score": 2.5,
     "sentiment": "negative",
     "detected_at": "2026-11-13T16:19:00.591324Z",
     "peak_at": "2026-11-14T17:04:32.509794Z",
     "source_links": [
       {
-        "name": "Guardian",
-        "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        "name": "BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   "events_anchor_at": "2026-11-13T16:19:00.591324Z",
   "score_history": [
-    {
-      "t": "2026-11-13T00:19:52.309391Z",
-      "s": 2.1
-    },
     {
       "t": "2026-11-13T07:55:04.206364Z",
       "s": 2.0
@@ -116,6 +112,10 @@
     {
       "t": "2026-11-14T21:28:06.891713Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-11-15T01:53:24.822692Z",
+      "s": 2.4
     }
   ]
 }

@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-14T21:28:06.897889Z",
-  "ostatnia_ocena": 2.5,
+  "updated_at": "2026-11-15T01:53:24.826717Z",
+  "ostatnia_ocena": 2.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Storm Charles Iberia floods flight cancellations",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 6,
       "opis": "Heavy rain and flooding hit Portugal and Spain this week."
     },
     {
       "temat": "Microsoft outage Teams Outlook business disruption",
-      "poziom_bazowy": 2.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 2.3,
+      "cykle_bez_zmian": 6,
       "opis": "Extended service outage affects Portuguese operations."
     },
     {
       "temat": "Italy Meta privacy fine photo access EU regulation",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 1,
       "opis": "€805m fine for not informing users; EU privacy enforcement."
     },
     {
       "temat": "Ecuador journalist killing gang violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 8,
+      "cykle_bez_zmian": 9,
       "opis": "Journalist shot dead amid gang warfare; distant Latin."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
     },
     {
       "temat": "Chile transport workers fuel price protests",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Highway blockades over fuel costs; distant Latin America."
     },
     {
       "temat": "Kenya El Niño floods climate predictions",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 13,
+      "cykle_bez_zmian": 14,
       "opis": "Kenya braces for record El Niño floods; distant event."
     },
     {
       "temat": "Egypt train collision Cairo deaths",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 14,
+      "cykle_bez_zmian": 15,
       "opis": "Two trains collide near Cairo; seven dead, 125 injured."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-13T00:19:52.309391Z",
-      "s": 2.1
-    },
     {
       "t": "2026-11-13T07:55:04.206364Z",
       "s": 2.0
@@ -84,6 +80,10 @@
     {
       "t": "2026-11-14T21:28:06.891713Z",
       "s": 2.5
+    },
+    {
+      "t": "2026-11-15T01:53:24.822692Z",
+      "s": 2.4
     }
   ],
   "events_anchor_at": "2026-11-13T16:19:00.591324Z",
@@ -92,7 +92,7 @@
       "detected_at": "2026-11-13T16:19:00.591324Z",
       "peak_at": "2026-11-14T17:04:32.509794Z",
       "peak_score_at": "2026-11-13T16:19:00.591324Z",
-      "peak_score": 2.5,
+      "peak_score": 2.4,
       "peak_sentiment": "negative",
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
       "peak_label": "Storm Charles floods disrupt Iberian peninsula",
@@ -101,6 +101,42 @@
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        }
+      ]
+    },
+    "italy fines meta €805m over accessing users' photos": {
+      "detected_at": "2026-11-14T17:04:32.509794Z",
+      "peak_at": "2026-11-14T17:04:32.509794Z",
+      "peak_score_at": "2026-11-14T17:04:32.509794Z",
+      "peak_score": 2.2,
+      "peak_sentiment": "neutral",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "peak_label": "Italy fines Meta €805m for photo privacy",
+      "peak_summary": "Italian regulator fines Meta for not informing 20 million users about photo access, affecting EU privacy enforcement.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
+        }
+      ]
+    },
+    "copper wire upgrade caused nationwide flight suspension, us transport secretary says": {
+      "detected_at": "2026-11-15T01:53:24.822692Z",
+      "peak_at": "2026-11-15T01:53:24.822692Z",
+      "peak_score_at": "2026-11-15T01:53:24.822692Z",
+      "peak_score": 1.5,
+      "peak_sentiment": "neutral",
+      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+      "peak_label": "Faulty wire caused US aviation ground stop",
+      "peak_summary": "US identifies equipment failure behind recent flight suspension; distant infrastructure event with no direct impact on Portuguese aviation or economy.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -117,26 +153,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss"
-        }
-      ]
-    },
-    "italy fines meta €805m over accessing users' photos": {
-      "detected_at": "2026-11-14T17:04:32.509794Z",
-      "peak_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score_at": "2026-11-14T17:04:32.509794Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "neutral",
-      "title": "Italy fines Meta €805m over accessing users' photos",
-      "peak_label": "Italy fines Meta €805m for photo privacy",
-      "peak_summary": "Italian regulator fines Meta for not informing 20 million users about photo access, affecting EU privacy enforcement.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
         }
       ]
     },
@@ -171,27 +187,11 @@
           "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "killing of journalist underscores deteriorating conditions in ecuador": {
-      "detected_at": "2026-11-12T18:54:00.497880Z",
-      "peak_at": "2026-11-13T22:36:08.785123Z",
-      "peak_score_at": "2026-11-12T18:54:00.497880Z",
-      "peak_score": 2.0,
-      "peak_sentiment": "negative",
-      "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-      "peak_label": "Journalist shot dead in Ecuador gang warfare",
-      "peak_summary": "Tomás Beltrán killed amid gang violence in Ecuador. Distant Latin American event with no impact on Portugal.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "Storm Charles causes floods and flight cancellations across southern Europe",
-    "Tens of thousands march in latest Portugal housing protests",
-    "Italy fines Meta €805m over accessing users' photos"
+    "Italy fines Meta €805m over accessing users' photos",
+    "Copper wire upgrade caused nationwide flight suspension, US transport secretary says"
   ]
 }
