@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-15T21:47:27.679488Z",
-  "ostatnia_ocena": 3.0,
+  "updated_at": "2026-11-16T02:02:28.949064Z",
+  "ostatnia_ocena": 2.9,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Storm Charles Iberia floods flight cancellations",
-      "poziom_bazowy": 2.1,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 2.0,
+      "cykle_bez_zmian": 10,
       "opis": "Heavy rain and flooding hit Portugal and Spain this week."
     },
     {
       "temat": "Czech Republic media funding protests press freedom",
-      "poziom_bazowy": 2.3,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.2,
+      "cykle_bez_zmian": 2,
       "opis": "Mass protests against government media funding reform."
     },
     {
       "temat": "Iran drone attack US base Bahrain Middle East tension",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 2,
       "opis": "Second attack in three days; distant regional escalation."
     },
     {
       "temat": "Portugal housing protests rental prices cost of living",
-      "poziom_bazowy": 3.0,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.9,
+      "cykle_bez_zmian": 3,
       "opis": "Mass protests demand action on housing crisis and rents."
     },
     {
       "temat": "Microsoft outage Teams Outlook business disruption",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Extended service outage affects Portuguese operations."
     },
     {
       "temat": "Italy Meta privacy fine photo access EU regulation",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "€805m fine for not informing users; EU privacy enforcement."
     },
     {
       "temat": "Ecuador journalist killing gang violence",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 12,
+      "cykle_bez_zmian": 13,
       "opis": "Journalist shot dead amid gang warfare; distant Latin."
     },
     {
       "temat": "Italy schools bomb hoax evacuations",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
+      "cykle_bez_zmian": 17,
       "opis": "Hundreds of Italian schools evacuated; EU neighbor event."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-13T22:36:08.785123Z",
-      "s": 2.9
-    },
     {
       "t": "2026-11-14T03:12:08.471640Z",
       "s": 2.8
@@ -88,10 +84,62 @@
     {
       "t": "2026-11-15T21:47:27.672690Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-16T02:02:28.944122Z",
+      "s": 2.9
     }
   ],
   "events_anchor_at": "2026-11-14T21:28:06.891713Z",
   "event_detected_at": {
+    "iran war live: third us carrier arrives, iran warns it could strike first": {
+      "detected_at": "2026-11-16T02:02:28.944122Z",
+      "peak_at": "2026-11-16T02:02:28.944122Z",
+      "peak_score_at": "2026-11-16T02:02:28.944122Z",
+      "peak_score": 2.9,
+      "peak_sentiment": "negative",
+      "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+      "peak_label": "Third US carrier arrives Iran warns preemptive strike",
+      "peak_summary": "Third US aircraft carrier deployed to Middle East as Iran warns it may strike first, escalating regional tensions with potential impact on global energy markets and shipping.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss"
+        }
+      ]
+    },
+    "storm charles causes floods and flight cancellations across southern europe": {
+      "detected_at": "2026-11-13T16:19:00.591324Z",
+      "peak_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score_at": "2026-11-13T16:19:00.591324Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+      "peak_label": "Storm Charles floods disrupt Iberian peninsula",
+      "peak_summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+        }
+      ]
+    },
+    "czechs rally against plan to switch funding of public media": {
+      "detected_at": "2026-11-15T17:07:10.569996Z",
+      "peak_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score_at": "2026-11-15T17:07:10.569996Z",
+      "peak_score": 2.3,
+      "peak_sentiment": "neutral",
+      "title": "Thousands rally in Czech Republic against state media funding changes",
+      "peak_label": "Czechs protest state media funding changes",
+      "peak_summary": "Mass protests against government media funding reform raise EU press freedom concerns; indirect relevance to Portuguese media landscape.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss"
+        }
+      ]
+    },
     "iran targets us military base in bahrain with drone attack": {
       "detected_at": "2026-11-15T17:07:10.569996Z",
       "peak_at": "2026-11-15T17:07:10.569996Z",
@@ -105,22 +153,6 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "czechs rally against plan to switch funding of public media": {
-      "detected_at": "2026-11-15T17:07:10.569996Z",
-      "peak_at": "2026-11-15T17:07:10.569996Z",
-      "peak_score_at": "2026-11-15T17:07:10.569996Z",
-      "peak_score": 2.4,
-      "peak_sentiment": "neutral",
-      "title": "Thousands rally in Czech Republic against state media funding changes",
-      "peak_label": "Czechs protest state media funding changes",
-      "peak_summary": "Mass protests against government media funding reform raise EU press freedom concerns; indirect relevance to Portuguese media landscape.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss"
         }
       ]
     },
@@ -140,22 +172,6 @@
         }
       ]
     },
-    "storm charles causes floods and flight cancellations across southern europe": {
-      "detected_at": "2026-11-13T16:19:00.591324Z",
-      "peak_at": "2026-11-15T17:07:10.569996Z",
-      "peak_score_at": "2026-11-13T16:19:00.591324Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-      "peak_label": "Storm Charles floods disrupt Iberian peninsula",
-      "peak_summary": "Heavy rain and strong winds hit Portugal and Spain causing flooding and flight cancellations across the region this week.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
-        }
-      ]
-    },
     "thousands in portugal protest against surging rental prices": {
       "detected_at": "2026-11-14T21:28:06.891713Z",
       "peak_at": "2026-11-15T09:21:41.663749Z",
@@ -171,27 +187,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss"
         }
       ]
-    },
-    "copper wire upgrade caused nationwide flight suspension, us transport secretary says": {
-      "detected_at": "2026-11-15T01:53:24.822692Z",
-      "peak_at": "2026-11-15T01:53:24.822692Z",
-      "peak_score_at": "2026-11-15T01:53:24.822692Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "neutral",
-      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
-      "peak_label": "Faulty wire caused US aviation ground stop",
-      "peak_summary": "US identifies equipment failure behind recent flight suspension; distant infrastructure event with no direct impact on Portuguese aviation or economy.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Iran targets US military base in Bahrain with drone attack",
-    "Czechs rally against plan to switch funding of public media",
-    "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide"
+    "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+    "Storm Charles causes floods and flight cancellations across southern Europe",
+    "Czechs rally against plan to switch funding of public media"
   ]
 }
