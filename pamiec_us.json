@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-17T03:51:03.714232Z",
-  "ostatnia_ocena": 4.8,
+  "updated_at": "2026-11-17T13:20:59.832851Z",
+  "ostatnia_ocena": 4.6,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Strait Hormuz tanker mine strikes US carrier deployment",
-      "poziom_bazowy": 4.8,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 4.6,
+      "cykle_bez_zmian": 1,
       "opis": "Mine attacks on tankers; US carrier deploys to region."
     },
     {
       "temat": "Nvidia CEO campaign Trump AI chip export controls",
-      "poziom_bazowy": 4.2,
+      "poziom_bazowy": 4.5,
       "cykle_bez_zmian": 0,
       "opis": "Trump backs Nvidia CEO reinstatement; export expansion."
     },
     {
       "temat": "Iran-backed RAF Fairford attack plot US charges",
-      "poziom_bazowy": 4.0,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 6,
       "opis": "Three charged over plot to attack UK base used by US."
     },
     {
       "temat": "Trump Putin Xi trilateral nuclear talks China",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 10,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 11,
       "opis": "Historic summit on nuclear reduction; major US policy shift."
     },
     {
       "temat": "Houthis control Red Sea Bab al-Mandab Saudi retreat",
-      "poziom_bazowy": 2.8,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 2.7,
+      "cykle_bez_zmian": 3,
       "opis": "Houthis take key Red Sea area; US shipping implications."
     },
     {
       "temat": "FAA nationwide ground stop communications outage",
-      "poziom_bazowy": 2.7,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 2.6,
+      "cykle_bez_zmian": 13,
       "opis": "All US flights grounded; major infrastructure disruption."
     },
     {
       "temat": "Delaware tornado November rare weather EF1",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 2,
+      "cykle_bez_zmian": 3,
       "opis": "Rare November tornado hits Delaware; localized impact."
     },
     {
       "temat": "Canadian soldier death CFB Wainwright fire injuries",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 5,
+      "cykle_bez_zmian": 6,
       "opis": "Fifth death from military base fire; allied tragedy."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-15T09:21:41.666831Z",
-      "s": 2.9
-    },
     {
       "t": "2026-11-15T17:07:10.573839Z",
       "s": 4.9
@@ -80,15 +76,19 @@
     {
       "t": "2026-11-17T03:51:03.709306Z",
       "s": 4.8
+    },
+    {
+      "t": "2026-11-17T13:20:59.828461Z",
+      "s": 4.6
     }
   ],
   "events_anchor_at": "2026-11-17T03:51:03.709306Z",
   "event_detected_at": {
-    "tankers hit in strait of hormuz as drone raises alarm at iraq gas field": {
+    "strait hormuz tanker mine strikes us carrier deployment": {
       "detected_at": "2026-11-17T03:51:03.709306Z",
       "peak_at": "2026-11-17T03:51:03.709306Z",
       "peak_score_at": "2026-11-17T03:51:03.709306Z",
-      "peak_score": 4.8,
+      "peak_score": 4.7,
       "peak_sentiment": "negative",
       "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
       "peak_label": "Tankers struck in Hormuz as US carrier deploys",
@@ -97,6 +97,38 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+        }
+      ]
+    },
+    "nvidia partner megaspeed being investigated by us government over chip exports": {
+      "detected_at": "2026-11-17T13:20:59.828461Z",
+      "peak_at": "2026-11-17T13:20:59.828461Z",
+      "peak_score_at": "2026-11-17T13:20:59.828461Z",
+      "peak_score": 4.5,
+      "peak_sentiment": "neutral",
+      "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
+      "peak_label": "US probes Nvidia partner chip exports",
+      "peak_summary": "Singapore-based Megaspeed investigated for allegedly helping ship high-end Nvidia AI chips to China, violating US export controls. Enforcement action underway.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "delaware hit by rare november tornado": {
+      "detected_at": "2026-11-16T09:38:27.734942Z",
+      "peak_at": "2026-11-17T13:20:59.828461Z",
+      "peak_score_at": "2026-11-16T09:38:27.734942Z",
+      "peak_score": 2.1,
+      "peak_sentiment": "negative",
+      "title": "Delaware hit by rare November tornado",
+      "peak_label": "Delaware rare November tornado hits state",
+      "peak_summary": "EF1 tornado touched down south-east of Newark. Rare weather event; localized impact with no reported major casualties or infrastructure damage.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado"
         }
       ]
     },
@@ -148,22 +180,6 @@
         }
       ]
     },
-    "yemeni forces retreat to defend port city from houthis": {
-      "detected_at": "2026-11-16T09:38:27.734942Z",
-      "peak_at": "2026-11-16T09:38:27.734942Z",
-      "peak_score_at": "2026-11-16T09:38:27.734942Z",
-      "peak_score": 2.9,
-      "peak_sentiment": "negative",
-      "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
-      "peak_label": "Houthis control Red Sea coast key area",
-      "peak_summary": "Saudi-backed forces withdraw from Bab al-Mandab Strait. Middle East shift with potential indirect impact on US shipping and oil routes.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "five eu countries announce migrant deportation centre in rwanda": {
       "detected_at": "2026-11-16T20:27:05.653393Z",
       "peak_at": "2026-11-16T20:27:05.653393Z",
@@ -187,27 +203,11 @@
           "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
         }
       ]
-    },
-    "delaware hit by rare november tornado": {
-      "detected_at": "2026-11-16T09:38:27.734942Z",
-      "peak_at": "2026-11-16T09:38:27.734942Z",
-      "peak_score_at": "2026-11-16T09:38:27.734942Z",
-      "peak_score": 2.2,
-      "peak_sentiment": "negative",
-      "title": "Delaware hit by rare November tornado",
-      "peak_label": "Delaware rare November tornado hits state",
-      "peak_summary": "EF1 tornado touched down south-east of Newark. Rare weather event; localized impact with no reported major casualties or infrastructure damage.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
-    "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-    "US moves to block China's remote access to AI chips amid Nvidia scandal"
+    "Strait Hormuz tanker mine strikes US carrier deployment",
+    "Nvidia partner Megaspeed being investigated by US government over chip exports",
+    "Delaware hit by rare November tornado"
   ]
 }
