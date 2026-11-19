@@ -1,13 +1,13 @@
 {
-  "global_score": 6.2,
-  "rationale": "Crimean Bridge attacked again—continuation of strategic infrastructure strikes affecting regional security and energy routes; underground tunnel warfare in Kharkiv represents tactical escalation near Poland's eastern border.",
+  "global_score": 3.0,
+  "rationale": "Crimean Bridge attacked again—major escalation in nearby war affecting regional security and energy routes; Myanmar genocide ruling sets international law precedent; other events distant or rhetorical. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Crimean Bridge attacked again, Russian official says",
-      "label": "Crimean Bridge attacked again suspends traffic",
-      "summary": "Another strike on the strategic link between Russia and occupied Crimea suspends traffic, continuing the pattern of Ukrainian attacks on critical Russian infrastructure near the Black Sea region.",
+      "title": "Crimean Bridge attacked again, Russia says",
+      "label": "Ukraine strikes Crimean Bridge again Russia",
+      "summary": "Second major attack on strategic bridge linking Russia to occupied Crimea suspends traffic, escalating war near Poland's eastern border and threatening regional stability.",
       "score": 3.0,
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -22,55 +22,55 @@
       "detected_at": "2026-11-19T03:23:52.761923Z"
     },
     {
-      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "label": "Ukraine fights Russia in underground Soviet tunnels",
-      "summary": "Ukrainian forces engage Russian troops in old Soviet tunnels in Kharkiv region, opening a new subterranean front that complicates the conflict near Poland's eastern border.",
-      "score": 6.2,
-      "sentiment": "negative",
+      "title": "ICJ rules Myanmar committed genocide against the Rohingya",
+      "label": "ICJ finds Myanmar guilty Rohingya genocide",
+      "summary": "First state convicted of genocide by international court; sets legal precedent that may influence future cases including Israel-Gaza, indirectly affecting EU diplomatic stance.",
+      "score": 2.7,
+      "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera",
+        "Guardian"
       ],
       "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-17T13:20:59.824035Z"
-    },
-    {
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "label": "UN court delivers historic Myanmar genocide verdict",
-      "summary": "International Court of Justice rules on genocide case against Myanmar—first such verdict against a state, setting legal precedent but with no direct impact on Poland.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss"
-        },
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/icj-rules-myanmar-committed-genocide-against-the-rohingya?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
         }
       ],
       "detected_at": "2026-11-19T03:23:52.761923Z"
+    },
+    {
+      "title": "Five EU states announce plans for immigration 'return hubs' in Rwanda",
+      "label": "Five EU states plan Rwanda deportation hubs",
+      "summary": "Germany, Austria, Netherlands, Denmark, Greece announce joint offshore migration center; continuation of known EU migration policy shift with indirect impact on Poland's border pressure.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
+        }
+      ],
+      "detected_at": "2026-11-19T13:00:40.896502Z"
     }
   ],
   "short_summary": "Russian double-tap strike kills 72 in Ukraine",
-  "level_label": "Elevated",
-  "trend": "stable",
+  "level_label": "Low",
+  "trend": "falling",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-19T03:23:52.761923Z",
+  "updated_at": "2026-11-19T13:00:40.896502Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -90,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-17T13:20:59.824035Z",
   "score_history": [
-    {
-      "t": "2026-11-17T03:51:03.703007Z",
-      "s": 6.2
-    },
     {
       "t": "2026-11-17T13:20:59.824035Z",
       "s": 7.8
@@ -117,6 +113,10 @@
     {
       "t": "2026-11-19T03:23:52.761923Z",
       "s": 6.2
+    },
+    {
+      "t": "2026-11-19T13:00:40.896502Z",
+      "s": 3.0
     }
   ]
 }
