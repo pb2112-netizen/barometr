@@ -1,19 +1,24 @@
 {
-  "global_score": 4.6,
-  "rationale": "Hegseth Venezuela visit asserts US military dominance with Maduro capture; Anthropic $81bn IPO is major tech sector event; Musk midterm spending comment is rhetoric without policy impact; other events distant.",
+  "global_score": 4.4,
+  "rationale": "Hegseth Venezuela visit continues tracked policy shift; court rulings on Trump cases and deportation protections affect domestic policy; distant summits produce rhetoric.",
   "top_events": [
     {
-      "title": "Hegseth uses Venezuela visit to boast of Maduro's capture by US military",
-      "label": "Hegseth boasts Maduro capture Venezuela visit",
-      "summary": "Defense Secretary asserts US military dominance on first Venezuela visit since special forces abducted Maduro, demonstrating continued US intervention capability in Latin America.",
-      "score": 4.6,
-      "sentiment": "neutral",
+      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+      "label": "US signs military deal with Venezuela",
+      "summary": "Defense Secretary announces new security partnership with Venezuela. Continuation of tracked regional policy shift from adversary to partner.",
+      "score": 4.4,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
+        "BBC",
         "Guardian"
       ],
       "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "name": "Guardian",
           "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military"
@@ -22,42 +27,42 @@
       "detected_at": "2026-11-19T03:23:52.767483Z"
     },
     {
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "label": "Anthropic raises $81bn record IPO debut",
-      "summary": "AI company behind Claude chatbot achieves massive valuation in market debut, becoming one of world's most valuable firms and reflecting continued US tech sector dominance.",
+      "title": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
+      "label": "Court allows Trump end Venezuela TPS",
+      "summary": "Appeals court prevents lower-court block on lifting Temporary Protected Status. Concrete policy change affecting Venezuelan immigrants in US.",
       "score": 4.0,
-      "sentiment": "positive",
+      "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "gospodarka",
+      "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-19T03:23:52.767483Z"
+      "detected_at": "2026-11-19T21:30:15.672749Z"
     },
     {
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "label": "Musk calls midterm spending foolish distances MAGA",
-      "summary": "Multi-billionaire comments on political spending and distances himself from Trump movement; rhetoric without immediate policy impact on US governance or economy.",
-      "score": 2.0,
+      "title": "Trump's case against NYT and Penguin Random House may proceed: Judge",
+      "label": "Judge allows Trump lawsuit against NYT",
+      "summary": "Court permits defamation case over book and articles to move forward. Legal development in ongoing Trump media litigation.",
+      "score": 3.0,
       "sentiment": "neutral",
       "nowosc": "nowe",
       "category": "geopolityka",
       "sources": [
-        "BBC"
+        "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/trumps-case-against-nyt-and-penguin-random-house-may-proceed-judge?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-19T13:00:40.903673Z"
+      "detected_at": "2026-11-19T21:30:15.672749Z"
     }
   ],
   "short_summary": "Hegseth announces US Venezuela military deal",
@@ -65,14 +70,14 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-19T13:00:40.903673Z",
+  "updated_at": "2026-11-19T21:30:15.672749Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Hegseth announces US Venezuela military deal",
     "summary": "Defense Secretary Pete Hegseth unveils new military agreement with Venezuela during first visit since US capture of Maduro—a confirmed policy shift in Western Hemisphere relations.",
     "title": "Hegseth unveils new US-Venezuela military deal",
-    "score": 4.7,
+    "score": 4.6,
     "sentiment": "neutral",
     "detected_at": "2026-11-19T03:23:52.767483Z",
     "peak_at": "2026-11-19T03:23:52.767483Z",
@@ -89,10 +94,6 @@
   },
   "events_anchor_at": "2026-11-19T03:23:52.767483Z",
   "score_history": [
-    {
-      "t": "2026-11-17T13:20:59.828461Z",
-      "s": 4.6
-    },
     {
       "t": "2026-11-17T22:20:25.588271Z",
       "s": 5.2
@@ -116,6 +117,10 @@
     {
       "t": "2026-11-19T13:00:40.903673Z",
       "s": 4.6
+    },
+    {
+      "t": "2026-11-19T21:30:15.672749Z",
+      "s": 4.4
     }
   ]
 }
