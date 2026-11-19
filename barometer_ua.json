@@ -1,14 +1,14 @@
 {
-  "global_score": 7.5,
-  "rationale": "Underground tunnel warfare in Kharkiv represents new combat dimension; Odesa strikes continue killing civilians; Trump-Putin-Xi summit remains rhetoric without concrete outcomes.",
+  "global_score": 7.0,
+  "rationale": "Underground tunnel warfare in Kharkiv represents a new tactical front requiring adaptation; Crimean Bridge attack continues strategic infrastructure campaign; both directly affect Ukrainian military operations and civilian security. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
       "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "label": "Ukrainian forces fight Russians in Kharkiv tunnels",
-      "summary": "Ukrainian troops engage Russian forces in Soviet-era underground tunnels in Kharkiv region, opening new subterranean front invisible to drones. Major tactical shift in combat.",
-      "score": 7.5,
+      "label": "Ukraine fights Russia in underground Kharkiv tunnels",
+      "summary": "Ukrainian forces engage Russian troops in Soviet-era tunnels in Kharkiv region, opening a subterranean combat front that changes tactical dynamics and complicates defense operations.",
+      "score": 7.0,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "BBC"
@@ -22,30 +22,11 @@
       "detected_at": "2026-11-17T13:20:59.827560Z"
     },
     {
-      "title": "Four killed as Russian strikes hit Ukraine's Odesa",
-      "label": "Russian strikes kill four in Odesa",
-      "summary": "Russian attack on Odesa port kills four civilians, injures thirteen. Continuation of strikes on critical port infrastructure and civilian areas.",
-      "score": 6.5,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/four-killed-as-russian-strikes-hit-ukraines-odesa?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-18T21:25:56.218165Z"
-    },
-    {
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "label": "Trump Putin Xi meet in China summit",
-      "summary": "First trilateral meeting in China. Diplomatic rhetoric stage without confirmed policy changes affecting Ukraine's war situation or Western aid.",
+      "title": "Crimean Bridge attacked again, Russian official says",
+      "label": "Crimean Bridge attacked again suspends traffic",
+      "summary": "Another Ukrainian strike on the strategic bridge linking Russia to occupied Crimea suspends traffic, continuing the campaign against Russian supply lines and infrastructure.",
       "score": 3.0,
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
@@ -54,25 +35,44 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-18T13:08:23.427930Z"
+      "detected_at": "2026-11-19T03:23:52.765930Z"
+    },
+    {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "label": "Israel launches ground operation in Gaza",
+      "summary": "Israeli military conducts rare ground incursion beyond ceasefire line to dismantle tunnel—distant Middle East development with no direct impact on Ukraine.",
+      "score": 2.2,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-19T03:23:52.765930Z"
     }
   ],
   "short_summary": "Russian double-tap strike kills 72 rescuers",
   "level_label": "High",
-  "trend": "stable",
+  "trend": "falling",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-18T21:25:56.218165Z",
+  "updated_at": "2026-11-19T03:23:52.765930Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
     "label": "Russian double-tap strike kills 72 rescuers",
     "summary": "Russia deliberately targets rescue workers with follow-up strikes in southern Ukraine, killing 72 and hampering body recovery. Intensified attacks on civilian responders.",
     "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-    "score": 8.4,
+    "score": 8.3,
     "sentiment": "negative",
     "detected_at": "2026-11-17T13:20:59.827560Z",
     "peak_at": "2026-11-18T21:25:56.218165Z",
@@ -108,6 +108,10 @@
     {
       "t": "2026-11-18T21:25:56.218165Z",
       "s": 7.5
+    },
+    {
+      "t": "2026-11-19T03:23:52.765930Z",
+      "s": 7.0
     }
   ]
 }
