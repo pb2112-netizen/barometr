@@ -1,12 +1,31 @@
 {
-  "global_score": 3.0,
-  "rationale": "Europe-Russia talks rhetoric continues without concrete outcome; Trump-Putin-Xi meeting is distant diplomacy; no new military facts on Ukrainian ground. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.9,
+  "rationale": "Continuation of Russian retaliatory strikes on Kyiv bridges after Crimean Bridge attack; pattern already established in memory, no qualitative new escalation this cycle.",
   "top_events": [
     {
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "label": "Russia strikes three Kyiv bridges killing five",
+      "summary": "Russian retaliatory strikes hit three Kyiv bridges, killing five, following Ukraine's successful Crimean Bridge attack. Continues established pattern of infrastructure targeting.",
+      "score": 4.9,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-20T11:33:52.123795Z"
+    },
+    {
       "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "label": "Europe signals united stance on Ukraine talks",
-      "summary": "European allies announce coordinated negotiating position at Berlin summit. Rhetoric without concrete ceasefire or aid change; no immediate impact on Ukrainian defense operations.",
-      "score": 3.0,
+      "label": "Europe announces united Ukraine negotiating position",
+      "summary": "European allies announce united negotiating position at Berlin summit for potential Russia talks. Rhetoric without concrete action; no immediate change to war situation.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -24,8 +43,8 @@
     {
       "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
       "label": "Trump Putin Xi release peace declaration",
-      "summary": "First trilateral meeting produces joint statement. Distant diplomatic rhetoric without concrete terms affecting Ukraine; no change to military situation.",
-      "score": 2.9,
+      "summary": "First trilateral meeting of three leaders produces peace declaration. Rhetoric without concrete terms; no immediate impact on Ukraine war situation.",
+      "score": 2.0,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -39,40 +58,21 @@
         }
       ],
       "detected_at": "2026-11-18T13:08:23.427930Z"
-    },
-    {
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "label": "UN court rules Myanmar committed genocide",
-      "summary": "ICJ verdict on 2017 Rohingya crackdown. Distant legal ruling with no relevance to Ukrainian war situation; international law precedent only.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-19T13:00:40.901943Z"
     }
   ],
   "short_summary": "Russian double-tap strike kills 72 rescuers",
   "level_label": "Low",
-  "trend": "stable",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-20T03:11:02.960910Z",
+  "updated_at": "2026-11-20T11:33:52.123795Z",
   "liczba_naglowkow": 30,
-  "tone": "neutral",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russian double-tap strike kills 72 rescuers",
     "summary": "Russia deliberately targets rescue workers with follow-up strikes in southern Ukraine, killing 72 and hampering body recovery. Intensified attacks on civilian responders.",
     "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-    "score": 8.0,
+    "score": 7.9,
     "sentiment": "negative",
     "detected_at": "2026-11-17T13:20:59.827560Z",
     "peak_at": "2026-11-19T21:30:15.670762Z",
@@ -85,10 +85,6 @@
   },
   "events_anchor_at": "2026-11-17T13:20:59.827560Z",
   "score_history": [
-    {
-      "t": "2026-11-18T04:17:35.480371Z",
-      "s": 8.0
-    },
     {
       "t": "2026-11-18T13:08:23.427930Z",
       "s": 7.5
@@ -112,6 +108,10 @@
     {
       "t": "2026-11-20T03:11:02.960910Z",
       "s": 3.0
+    },
+    {
+      "t": "2026-11-20T11:33:52.123795Z",
+      "s": 4.9
     }
   ]
 }
