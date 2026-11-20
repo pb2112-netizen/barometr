@@ -1,12 +1,50 @@
 {
   "global_score": 3.0,
-  "rationale": "EU migration policy development continues; distant geopolitical meetings produce rhetoric without concrete regional security changes.",
+  "rationale": "Europe-Russia talks and EU Rwanda migration hub continue known situations; Houthi attacks on Saudi Arabia raise regional energy concerns slightly. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
+    {
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "label": "Europe signals united stance on Ukraine talks",
+      "summary": "European allies announce coordinated negotiating position at Berlin summit. Rhetoric without concrete outcome; no change to Black Sea security situation for Romania.",
+      "score": 3.0,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-20T03:11:02.957975Z"
+    },
+    {
+      "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+      "label": "Houthis escalate missile attacks on Riyadh",
+      "summary": "Houthi strikes hit Saudi financial center; energy route concerns rise. Indirect impact on regional energy security affecting Romania's costs.",
+      "score": 3.0,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-20T03:11:02.957975Z"
+    },
     {
       "title": "Five EU states announce plans for immigration 'return hubs' in Rwanda",
       "label": "Five EU states plan Rwanda deportation hubs",
-      "summary": "Germany, Austria, Netherlands, Denmark, Greece announce joint offshore return center. Continuation of tracked EU migration policy shift.",
-      "score": 3.0,
+      "summary": "Germany, Austria, Netherlands, Denmark, Greece formalize joint Rwanda return center. Continuation of known EU migration policy; no new impact on Romania.",
+      "score": 2.5,
       "sentiment": "neutral",
       "nowosc": "kontynuacja",
       "category": "geopolityka",
@@ -20,54 +58,6 @@
         }
       ],
       "detected_at": "2026-11-16T20:27:05.649431Z"
-    },
-    {
-      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "label": "Trump Putin Xi issue peace declaration",
-      "summary": "First trilateral summit produces joint statement. Rhetoric without concrete impact on Black Sea security or Romanian interests.",
-      "score": 2.5,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-18T13:08:23.424429Z"
-    },
-    {
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "label": "UN court rules Myanmar committed genocide",
-      "summary": "ICJ verdict on 2017 crackdown. Legal precedent but no direct relevance to Romanian daily life or regional security.",
-      "score": 2.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC",
-        "Al Jazeera"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-19T13:00:40.898067Z"
     }
   ],
   "short_summary": "Five EU states plan Rwanda deportation center",
@@ -75,14 +65,14 @@
   "trend": "stable",
   "lens_id": "ro",
   "lens_name_en": "Romania",
-  "updated_at": "2026-11-19T21:30:15.667807Z",
+  "updated_at": "2026-11-20T03:11:02.957975Z",
   "liczba_naglowkow": 30,
   "tone": "neutral",
   "most_significant_event": {
     "label": "Five EU states plan Rwanda deportation center",
     "summary": "Germany, Denmark, Austria, Greece and Netherlands announce joint return hub for rejected asylum seekers. Significant EU migration policy shift affecting regional approach.",
     "title": "Five EU countries announce migrant deportation centre in Rwanda",
-    "score": 4.1,
+    "score": 4.0,
     "sentiment": "neutral",
     "detected_at": "2026-11-16T20:27:05.649431Z",
     "peak_at": "2026-11-19T03:23:52.763039Z",
@@ -103,10 +93,6 @@
   },
   "events_anchor_at": "2026-11-16T20:27:05.649431Z",
   "score_history": [
-    {
-      "t": "2026-11-17T22:20:25.582404Z",
-      "s": 7.3
-    },
     {
       "t": "2026-11-18T04:17:35.477927Z",
       "s": 6.8
@@ -129,6 +115,10 @@
     },
     {
       "t": "2026-11-19T21:30:15.667807Z",
+      "s": 3.0
+    },
+    {
+      "t": "2026-11-20T03:11:02.957975Z",
       "s": 3.0
     }
   ]
