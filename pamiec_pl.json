@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-21T09:46:27.787152Z",
-  "ostatnia_ocena": 3.1,
+  "updated_at": "2026-11-21T17:29:26.534032Z",
+  "ostatnia_ocena": 3.0,
   "ostatnie_powiadomienie_at": "2026-11-21T01:30:19.708361Z",
   "stan_swiata": [
     {
       "temat": "Russia double-tap strike Ukraine rescue workers 72 dead",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Russia targets rescue operations; intensified war tactics."
     },
     {
       "temat": "Ukraine drone attack Russian warship Baltic Sea",
-      "poziom_bazowy": 4.3,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 4.1,
+      "cykle_bez_zmian": 3,
       "opis": "First Ukrainian strike on Russian ship in open Baltic."
     },
     {
       "temat": "Ukraine Crimea bridge collapse Putin strategic infrastructure",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Ukrainian strike partially destroys Crimea bridge; major."
     },
     {
       "temat": "Russian missile hits Poland NATO exercise provocation",
-      "poziom_bazowy": 7.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 7.0,
+      "cykle_bez_zmian": 3,
       "opis": "Russian missile strikes Polish territory during NATO drill."
     },
     {
       "temat": "Russia Kyiv bridges air attack infrastructure retaliation",
-      "poziom_bazowy": 4.7,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 4.5,
+      "cykle_bez_zmian": 2,
       "opis": "Major Russian air strikes on Kyiv bridges after Crimea hit."
     },
     {
       "temat": "US tech stock correction market volatility Anthropic",
-      "poziom_bazowy": 3.1,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.0,
+      "cykle_bez_zmian": 2,
       "opis": "S&P 500 Dow Jones correction territory; tech sell-off."
     },
     {
       "temat": "Zelensky Starlink restrictions US Musk Ukraine operations",
-      "poziom_bazowy": 4.1,
-      "cykle_bez_zmian": 12,
+      "poziom_bazowy": 3.9,
+      "cykle_bez_zmian": 13,
       "opis": "Public appeal to lift Starlink limits; operational impact."
     },
     {
       "temat": "Europe-wide protests wages living costs France-inspired",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 3,
       "opis": "Workers students protest across Europe over cost of living."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-19T13:00:40.896502Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-19T21:30:15.666308Z",
       "s": 3.5
@@ -80,15 +76,51 @@
     {
       "t": "2026-11-21T09:46:27.781624Z",
       "s": 3.1
+    },
+    {
+      "t": "2026-11-21T17:29:26.528185Z",
+      "s": 3.0
     }
   ],
   "events_anchor_at": "2026-11-20T03:11:02.956093Z",
   "event_detected_at": {
+    "zelensky says crimean bridge strikes 'fair response' as he meets uk's streeting": {
+      "detected_at": "2026-11-20T03:11:02.956093Z",
+      "peak_at": "2026-11-21T01:30:19.702058Z",
+      "peak_score_at": "2026-11-21T01:30:19.702058Z",
+      "peak_score": 4.9,
+      "peak_sentiment": "negative",
+      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+      "peak_label": "Russia launches major air attack on Kyiv bridges",
+      "peak_summary": "Russia conducted one of its largest air attacks targeting Kyiv infrastructure in retaliation for Ukrainian strikes on the Crimean Bridge, escalating regional conflict.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "russian strike kills two, wounds 60, in zelenskyy's hometown": {
+      "detected_at": "2026-11-21T17:29:26.528185Z",
+      "peak_at": "2026-11-21T17:29:26.528185Z",
+      "peak_score_at": "2026-11-21T17:29:26.528185Z",
+      "peak_score": 3.0,
+      "peak_sentiment": "negative",
+      "title": "Russian strike kills two, wounds 60, in Zelenskyy's hometown",
+      "peak_label": "Russian strike hits Kryvyi Rih, 60 wounded",
+      "peak_summary": "Russian missile attack on Zelenskyy's hometown kills two and injures 60. Ongoing war violence continues with no qualitative shift in threat level to Poland.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss"
+        }
+      ]
+    },
     "tech stock sell-off drags markets down as anthropic shares slide": {
       "detected_at": "2026-11-21T01:30:19.702058Z",
       "peak_at": "2026-11-21T01:30:19.702058Z",
       "peak_score_at": "2026-11-21T01:30:19.702058Z",
-      "peak_score": 3.1,
+      "peak_score": 3.0,
       "peak_sentiment": "negative",
       "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
       "peak_label": "Tech sell-off pushes US markets into correction",
@@ -132,38 +164,6 @@
         }
       ]
     },
-    "russian missile hits poland as ukraine's allies hold military exercise, says tusk": {
-      "detected_at": "2026-11-20T11:33:52.119221Z",
-      "peak_at": "2026-11-20T11:33:52.119221Z",
-      "peak_score_at": "2026-11-20T11:33:52.119221Z",
-      "peak_score": 4.5,
-      "peak_sentiment": "negative",
-      "title": "Three Kyiv bridges hit during major Russian missile attack",
-      "peak_label": "Russia strikes Kyiv bridges after Crimea attack",
-      "peak_summary": "Russian retaliatory strikes hit three Kyiv bridges, killing five, following Ukraine's successful targeting of the Crimean Bridge. Continues pattern of infrastructure attacks in regional war.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "russia targets kyiv crossings days after ukraine hits crimean bridge": {
-      "detected_at": "2026-11-20T03:11:02.956093Z",
-      "peak_at": "2026-11-21T01:30:19.702058Z",
-      "peak_score_at": "2026-11-21T01:30:19.702058Z",
-      "peak_score": 5.0,
-      "peak_sentiment": "negative",
-      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-      "peak_label": "Russia launches major air attack on Kyiv bridges",
-      "peak_summary": "Russia conducted one of its largest air attacks targeting Kyiv infrastructure in retaliation for Ukrainian strikes on the Crimean Bridge, escalating regional conflict.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "protests held across europe over wages, services, high living costs": {
       "detected_at": "2026-11-20T20:12:51.492490Z",
       "peak_at": "2026-11-20T20:12:51.492490Z",
@@ -179,27 +179,11 @@
           "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs?traffic_source=rss"
         }
       ]
-    },
-    "uk and eu to agree youth mobility scheme, bbc understands": {
-      "detected_at": "2026-11-20T11:33:52.119221Z",
-      "peak_at": "2026-11-20T11:33:52.119221Z",
-      "peak_score_at": "2026-11-20T11:33:52.119221Z",
-      "peak_score": 2.5,
-      "peak_sentiment": "positive",
-      "title": "UK and EU to agree youth mobility scheme, BBC understands",
-      "peak_label": "UK and EU agree youth mobility scheme",
-      "peak_summary": "New UK-EU youth mobility scheme expected at Friday summit, with deals on food trade and carbon emissions. Modest improvement in EU-UK relations, indirect benefit to Poland as EU member.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Tech stock sell-off drags markets down as Anthropic shares slide",
-    "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-    "Fight over fossil fuels leaves COP31 climate talks in deadlock"
+    "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+    "Russian strike kills two, wounds 60, in Zelenskyy's hometown",
+    "Tech stock sell-off drags markets down as Anthropic shares slide"
   ]
 }
