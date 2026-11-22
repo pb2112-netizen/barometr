@@ -1,11 +1,11 @@
 {
-  "global_score": 3.8,
-  "rationale": "Zelensky publicly justifies Crimean Bridge strikes as fair response to Russian attacks; continuation of known infrastructure war with no new escalation. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 4.8,
+  "rationale": "Zelensky's public defense of Crimean Bridge strikes signals continued strategic offensive; Russian missile strike on Lviv hits western Ukraine near NATO borders; Baltic drone attack shows operational reach.",
   "top_events": [
     {
       "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-      "label": "Zelensky defends Crimean Bridge strikes as justified",
-      "summary": "President justifies strikes on Crimean Bridge after 109 Russian aerial attacks on Ukrainian bridges. Continuation of known infrastructure war; public defense of operational success but no new escalation.",
+      "label": "Zelensky defends Crimean Bridge strikes UK",
+      "summary": "President publicly justifies strategic strikes on Russian infrastructure after 109 Russian attacks on Ukrainian bridges, signaling continued offensive operations and international diplomatic support.",
       "score": 3.0,
       "sentiment": "positive",
       "nowosc": "kontynuacja",
@@ -22,31 +22,12 @@
       "detected_at": "2026-11-17T13:20:59.827560Z"
     },
     {
-      "title": "Russia-bound ship attacked in Gulf of Finland",
-      "label": "Ukraine drone strikes Russia-bound ship Gulf Finland",
-      "summary": "Finnish forces report likely Ukrainian drone attack on vessel in Gulf of Finland. Minor Ukrainian operational success in distant Baltic; no direct impact on Ukrainian territory or war effort.",
-      "score": 3.8,
-      "sentiment": "positive",
+      "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+      "label": "Russian missile strikes Lviv residential area",
+      "summary": "Missile attack hits western Ukrainian city's residential neighborhood, extending Russian strikes beyond eastern front and threatening civilian infrastructure near NATO borders.",
+      "score": 4.8,
+      "sentiment": "negative",
       "nowosc": "nowe",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-21T23:13:15.757901Z"
-    },
-    {
-      "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
-      "label": "Iran strikes US bases Bahrain Houthi attacks continue",
-      "summary": "Iran targets US military assets in Bahrain as Houthi strikes continue in region. Distant Middle East escalation; no direct impact on Ukraine's war or Western aid flows.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
       "category": "geopolityka",
       "sources": [
         "Al Jazeera"
@@ -54,25 +35,49 @@
       "source_links": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-22T03:09:31.236108Z"
+      "detected_at": "2026-11-21T17:29:26.531921Z"
+    },
+    {
+      "title": "Russia-bound ship attacked in Gulf of Finland",
+      "label": "Ukraine strikes Russia-bound ship Finland",
+      "summary": "Ukrainian drone successfully attacks Russian cargo vessel in Baltic waters, demonstrating extended operational reach beyond Black Sea theater.",
+      "score": 3.6,
+      "sentiment": "positive",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "BBC",
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-21T23:13:15.757901Z"
     }
   ],
   "short_summary": "Russian double-tap strike kills 72 rescuers",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "rising",
   "lens_id": "ua",
   "lens_name_en": "Ukraine",
-  "updated_at": "2026-11-22T03:09:31.236108Z",
+  "updated_at": "2026-11-22T11:18:43.634411Z",
   "liczba_naglowkow": 30,
-  "tone": "positive",
+  "tone": "negative",
   "most_significant_event": {
     "label": "Russian double-tap strike kills 72 rescuers",
     "summary": "Russia deliberately targets rescue workers with follow-up strikes in southern Ukraine, killing 72 and hampering body recovery. Intensified attacks on civilian responders.",
     "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-    "score": 7.4,
+    "score": 7.3,
     "sentiment": "negative",
     "detected_at": "2026-11-17T13:20:59.827560Z",
     "peak_at": "2026-11-22T03:09:31.236108Z",
@@ -85,10 +90,6 @@
   },
   "events_anchor_at": "2026-11-17T13:20:59.827560Z",
   "score_history": [
-    {
-      "t": "2026-11-20T03:11:02.960910Z",
-      "s": 3.0
-    },
     {
       "t": "2026-11-20T11:33:52.123795Z",
       "s": 4.9
@@ -116,6 +117,10 @@
     {
       "t": "2026-11-22T03:09:31.236108Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-11-22T11:18:43.634411Z",
+      "s": 4.8
     }
   ]
 }

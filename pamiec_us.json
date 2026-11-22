@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-22T03:09:31.240955Z",
-  "ostatnia_ocena": 3.5,
+  "updated_at": "2026-11-22T11:18:43.638652Z",
+  "ostatnia_ocena": 3.4,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "FBI criminal database hack investigation NCIC",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 2,
       "opis": "National Crime Information Center reportedly compromised."
     },
     {
+      "temat": "Palisades fire arson conviction Los Angeles wildfires",
+      "poziom_bazowy": 2.8,
+      "cykle_bez_zmian": 0,
+      "opis": "LA resident convicted for deadly wildfire arson case."
+    },
+    {
+      "temat": "California record coastal waves hazard warnings",
+      "poziom_bazowy": 2.5,
+      "cykle_bez_zmian": 0,
+      "opis": "Powerful swells over 9 meters hit California coast."
+    },
+    {
       "temat": "Iran strikes US military bases Bahrain IRGC",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 3,
       "opis": "Direct attack on US forces in Bahrain; escalation."
     },
     {
       "temat": "US stock market correction tech sell-off Anthropic",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 5,
       "opis": "S&P 500 Dow correction territory; tech stock decline."
     },
     {
       "temat": "Trump ban US AI data centers overseas tech policy",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 6,
       "opis": "President threatens ban tax on overseas AI infrastructure."
     },
     {
       "temat": "Iran downs US drone Hormuz Strait regional escalation",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 4,
       "opis": "IRGC shoots down US drone; Middle East tension escalates."
     },
     {
       "temat": "White House cyber-security chief removal tech outages",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
-      "opis": "Cyber-security chief fired after outages; infrastructure."
-    },
-    {
-      "temat": "Hegseth Venezuela military deal US policy shift",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 10,
-      "opis": "Defense Secretary announces new military agreement with."
-    },
-    {
-      "temat": "Trump nominee Jan 6 Senate hearing election security",
       "poziom_bazowy": 3.1,
       "cykle_bez_zmian": 7,
-      "opis": "Nominee refuses to call Capitol riot an attack."
+      "opis": "Cyber-security chief fired after outages; infrastructure."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-20T03:11:02.962838Z",
-      "s": 4.0
-    },
     {
       "t": "2026-11-20T11:33:52.125761Z",
       "s": 4.0
@@ -84,15 +80,19 @@
     {
       "t": "2026-11-22T03:09:31.236982Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-11-22T11:18:43.635801Z",
+      "s": 3.4
     }
   ],
-  "events_anchor_at": "2026-11-21T09:46:27.786349Z",
+  "events_anchor_at": "2026-11-21T17:29:26.533054Z",
   "event_detected_at": {
     "fbi reportedly investigating apparent hack of its criminal database": {
       "detected_at": "2026-11-21T17:29:26.533054Z",
       "peak_at": "2026-11-21T17:29:26.533054Z",
       "peak_score_at": "2026-11-21T17:29:26.533054Z",
-      "peak_score": 3.7,
+      "peak_score": 3.6,
       "peak_sentiment": "negative",
       "title": "FBI reportedly investigating apparent hack of its criminal database",
       "peak_label": "FBI probes hack of criminal database",
@@ -101,6 +101,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "man convicted of starting palisades fire in los angeles": {
+      "detected_at": "2026-11-22T11:18:43.635801Z",
+      "peak_at": "2026-11-22T11:18:43.635801Z",
+      "peak_score_at": "2026-11-22T11:18:43.635801Z",
+      "peak_score": 2.8,
+      "peak_sentiment": "positive",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "peak_label": "LA resident convicted Palisades wildfire arson",
+      "peak_summary": "30-year-old convicted of arson causing wildfires that killed 12 people and destroyed over 6,800 buildings in Los Angeles area, concluding major criminal case.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "california's coastal communities on alert as biggest waves in years hit state": {
+      "detected_at": "2026-11-22T11:18:43.635801Z",
+      "peak_at": "2026-11-22T11:18:43.635801Z",
+      "peak_score_at": "2026-11-22T11:18:43.635801Z",
+      "peak_score": 2.5,
+      "peak_sentiment": "negative",
+      "title": "California's coastal communities on alert as biggest waves in years hit state",
+      "peak_label": "California faces record coastal wave hazards",
+      "peak_summary": "Powerful swells over 9 meters hit California coast with multiple hazard warnings issued throughout the week, affecting coastal communities and maritime safety.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state"
         }
       ]
     },
@@ -171,27 +203,11 @@
           "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
         }
       ]
-    },
-    "tankers hit in strait of hormuz as iran tightens grip on shipping": {
-      "detected_at": "2026-11-21T09:46:27.786349Z",
-      "peak_at": "2026-11-21T09:46:27.786349Z",
-      "peak_score_at": "2026-11-21T09:46:27.786349Z",
-      "peak_score": 3.7,
-      "peak_sentiment": "negative",
-      "title": "Iran's IRGC downs US drone over Hormuz as efforts to end war remain stalled",
-      "peak_label": "Iran downs US drone over Hormuz Strait",
-      "peak_summary": "Iranian forces shoot down US drone over strategic waterway; escalation in Middle East with potential oil market impact.",
-      "peak_source_links": [
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
     "FBI reportedly investigating apparent hack of its criminal database",
-    "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
-    "Bessent confirms he's living on US military base over Iran fears"
+    "Man convicted of starting Palisades fire in Los Angeles",
+    "California's coastal communities on alert as biggest waves in years hit state"
   ]
 }
