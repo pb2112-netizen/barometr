@@ -1,49 +1,35 @@
 {
-  "global_score": 2.4,
-  "rationale": "France's sixth weekend of cost-of-living protests reflects ongoing EU-wide economic pressures; UK-EU deal discussion touches peripheral trade interests; other events remain distant.",
+  "global_score": 2.0,
+  "rationale": "COP31 climate summit failure continues distant diplomatic deadlock; California coastal waves have no direct impact on Portugal; other events remain distant. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "Photos: People rally across France over living costs, public services",
-      "label": "France protests continue over living costs",
-      "summary": "Sixth consecutive weekend of mass demonstrations across France over economic inequality and public services reflects broader EU cost pressures indirectly affecting Portuguese economy.",
-      "score": 2.4,
+      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+      "label": "COP31 climate summit ends without deal",
+      "summary": "The UN climate summit in Turkey ended without agreement after countries failed to reach consensus on tackling climate change, marking the first such failure since 2009.",
+      "score": 2.0,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "inne",
       "sources": [
+        "BBC",
         "Al Jazeera"
       ],
       "source_links": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services?traffic_source=rss"
-        }
-      ],
-      "detected_at": "2026-11-20T20:12:51.495740Z"
-    },
-    {
-      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-      "label": "UK EU deal not tied to tuition fees",
-      "summary": "British minister clarifies broader UK-EU agreement won't be held up by student fee negotiations, affecting peripheral EU trade and mobility framework.",
-      "score": 2.3,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss"
         }
       ],
-      "detected_at": "2026-11-21T09:46:27.784011Z"
+      "detected_at": "2026-11-21T01:30:19.704792Z"
     },
     {
       "title": "California's coastal communities on alert as biggest waves in years hit state",
-      "label": "California faces record wave hazards",
-      "summary": "Powerful swells over 9 meters hit California coast; distant natural event with no direct impact on Portuguese daily life or Atlantic shipping.",
+      "label": "California hit by record coastal waves",
+      "summary": "Multiple coastal hazard warnings were issued across California as powerful swells and waves of more than 9 metres were recorded throughout the week.",
       "score": 1.5,
       "sentiment": "neutral",
       "nowosc": "nowe",
@@ -58,6 +44,35 @@
         }
       ],
       "detected_at": "2026-11-22T11:18:43.633547Z"
+    },
+    {
+      "title": "Russian vessel hit by suspected Ukrainian drone at Libya's Benghazi port",
+      "label": "Ukrainian drone strikes Russian ship Libya",
+      "summary": "A suspected Ukrainian drone attack caused an explosion on a Russian warship docked at Libya's Benghazi naval base. The vessel had stopped for fuel and supplies on its way back to Russia.",
+      "score": 1.8,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera",
+        "Guardian",
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss"
+        },
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+        },
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-22T19:35:19.013183Z"
     }
   ],
   "short_summary": "Europe-wide protests over wages and living costs",
@@ -65,7 +80,7 @@
   "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-22T11:18:43.633547Z",
+  "updated_at": "2026-11-22T19:35:19.013183Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -85,10 +100,6 @@
   },
   "events_anchor_at": "2026-11-20T20:12:51.495740Z",
   "score_history": [
-    {
-      "t": "2026-11-20T11:33:52.122291Z",
-      "s": 2.5
-    },
     {
       "t": "2026-11-20T20:12:51.495740Z",
       "s": 3.0
@@ -116,6 +127,10 @@
     {
       "t": "2026-11-22T11:18:43.633547Z",
       "s": 2.4
+    },
+    {
+      "t": "2026-11-22T19:35:19.013183Z",
+      "s": 2.0
     }
   ]
 }
