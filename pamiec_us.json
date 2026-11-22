@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-11-21T23:13:15.765288Z",
-  "ostatnia_ocena": 3.6,
+  "updated_at": "2026-11-22T03:09:31.240955Z",
+  "ostatnia_ocena": 3.5,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "FBI criminal database hack investigation NCIC",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 1,
       "opis": "National Crime Information Center reportedly compromised."
     },
     {
       "temat": "Iran strikes US military bases Bahrain IRGC",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 1,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 2,
       "opis": "Direct attack on US forces in Bahrain; escalation."
     },
     {
       "temat": "US stock market correction tech sell-off Anthropic",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 4,
       "opis": "S&P 500 Dow correction territory; tech stock decline."
     },
     {
       "temat": "Trump ban US AI data centers overseas tech policy",
-      "poziom_bazowy": 3.6,
-      "cykle_bez_zmian": 4,
+      "poziom_bazowy": 3.5,
+      "cykle_bez_zmian": 5,
       "opis": "President threatens ban tax on overseas AI infrastructure."
     },
     {
       "temat": "Iran downs US drone Hormuz Strait regional escalation",
-      "poziom_bazowy": 3.5,
-      "cykle_bez_zmian": 2,
+      "poziom_bazowy": 3.4,
+      "cykle_bez_zmian": 3,
       "opis": "IRGC shoots down US drone; Middle East tension escalates."
     },
     {
       "temat": "White House cyber-security chief removal tech outages",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 5,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 6,
       "opis": "Cyber-security chief fired after outages; infrastructure."
     },
     {
       "temat": "Hegseth Venezuela military deal US policy shift",
-      "poziom_bazowy": 3.4,
-      "cykle_bez_zmian": 9,
+      "poziom_bazowy": 3.2,
+      "cykle_bez_zmian": 10,
       "opis": "Defense Secretary announces new military agreement with."
     },
     {
       "temat": "Trump nominee Jan 6 Senate hearing election security",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 6,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 7,
       "opis": "Nominee refuses to call Capitol riot an attack."
     }
   ],
@@ -80,10 +80,62 @@
     {
       "t": "2026-11-21T23:13:15.760070Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-11-22T03:09:31.236982Z",
+      "s": 3.5
     }
   ],
-  "events_anchor_at": "2026-11-20T20:12:51.498356Z",
+  "events_anchor_at": "2026-11-21T09:46:27.786349Z",
   "event_detected_at": {
+    "fbi reportedly investigating apparent hack of its criminal database": {
+      "detected_at": "2026-11-21T17:29:26.533054Z",
+      "peak_at": "2026-11-21T17:29:26.533054Z",
+      "peak_score_at": "2026-11-21T17:29:26.533054Z",
+      "peak_score": 3.7,
+      "peak_sentiment": "negative",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "peak_label": "FBI probes hack of criminal database",
+      "peak_summary": "National Crime Information Center database reportedly hacked. New cyber-security incident affecting federal and local law enforcement information sharing.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "iran war live: iran targets us bases in bahrain; houthi strikes continue": {
+      "detected_at": "2026-11-22T03:09:31.236982Z",
+      "peak_at": "2026-11-22T03:09:31.236982Z",
+      "peak_score_at": "2026-11-22T03:09:31.236982Z",
+      "peak_score": 3.5,
+      "peak_sentiment": "negative",
+      "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+      "peak_label": "Iran strikes US military bases in Bahrain again",
+      "peak_summary": "Iran targets US military assets in Bahrain as Houthi strikes continue in region. Second attack in three days on US forces; continuation of known Middle East escalation.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss"
+        }
+      ]
+    },
+    "bessent confirms he's living on us military base over iran fears": {
+      "detected_at": "2026-11-22T03:09:31.236982Z",
+      "peak_at": "2026-11-22T03:09:31.236982Z",
+      "peak_score_at": "2026-11-22T03:09:31.236982Z",
+      "peak_score": 3.2,
+      "peak_sentiment": "negative",
+      "title": "Bessent confirms he's living on US military base over Iran fears",
+      "peak_label": "Treasury Secretary lives on base over Iran threat",
+      "peak_summary": "US Treasury Secretary Scott Bessent confirms he's still living at a US military base two weeks after Israeli warning about Iran. Continuation of known security posture; no new attack or policy change.",
+      "peak_source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss"
+        }
+      ]
+    },
     "bahrain says iranian attack causes fire at industrial facility": {
       "detected_at": "2026-11-21T23:13:15.760070Z",
       "peak_at": "2026-11-21T23:13:15.760070Z",
@@ -97,22 +149,6 @@
         {
           "name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss"
-        }
-      ]
-    },
-    "fbi reportedly investigating apparent hack of its criminal database": {
-      "detected_at": "2026-11-21T17:29:26.533054Z",
-      "peak_at": "2026-11-21T17:29:26.533054Z",
-      "peak_score_at": "2026-11-21T17:29:26.533054Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "negative",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "peak_label": "FBI probes hack of criminal database",
-      "peak_summary": "National Crime Information Center database reportedly hacked. New cyber-security incident affecting federal and local law enforcement information sharing.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -136,22 +172,6 @@
         }
       ]
     },
-    "tech stock sell-off drags markets down as anthropic shares slide": {
-      "detected_at": "2026-11-20T20:12:51.498356Z",
-      "peak_at": "2026-11-21T01:30:19.707316Z",
-      "peak_score_at": "2026-11-21T01:30:19.707316Z",
-      "peak_score": 3.8,
-      "peak_sentiment": "negative",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "peak_label": "Tech sell-off pushes markets into correction territory",
-      "peak_summary": "S&P 500 and Dow Jones entered correction territory as tech stocks declined, directly affecting American retirement accounts and investment portfolios.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "tankers hit in strait of hormuz as iran tightens grip on shipping": {
       "detected_at": "2026-11-21T09:46:27.786349Z",
       "peak_at": "2026-11-21T09:46:27.786349Z",
@@ -167,27 +187,11 @@
           "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss"
         }
       ]
-    },
-    "hegseth uses venezuela visit to boast of maduro's capture by us military": {
-      "detected_at": "2026-11-21T01:30:19.707316Z",
-      "peak_at": "2026-11-21T01:30:19.707316Z",
-      "peak_score_at": "2026-11-21T01:30:19.707316Z",
-      "peak_score": 3.7,
-      "peak_sentiment": "neutral",
-      "title": "Hegseth uses Venezuela visit to boast of Maduro's capture by US military",
-      "peak_label": "Hegseth visits Venezuela after Maduro capture operation",
-      "peak_summary": "Defense Secretary Hegseth visited Venezuela following US special forces operation that captured President Maduro, asserting US military dominance in the region.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Bahrain says Iranian attack causes fire at industrial facility",
     "FBI reportedly investigating apparent hack of its criminal database",
-    "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out"
+    "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+    "Bessent confirms he's living on US military base over Iran fears"
   ]
 }
