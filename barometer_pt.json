@@ -1,14 +1,14 @@
 {
-  "global_score": 2.8,
-  "rationale": "US tariff announcement could affect EU trade and Portuguese exports, but details remain unclear; other headlines have minimal direct impact on daily life in Portugal.",
+  "global_score": 2.7,
+  "rationale": "US tariff announcement on EU could affect Portuguese exports indirectly; other headlines remain geographically or economically distant from daily life in Portugal. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "label": "US prepares new tariffs on China EU partners",
-      "summary": "Washington plans tariffs on major trading partners including EU, potentially affecting Portuguese exports, though specific impact remains uncertain pending details.",
-      "score": 2.8,
+      "title": "US announces new tariffs on host of countries including China",
+      "label": "US announces tariffs on China EU partners",
+      "summary": "US announces new tariffs targeting major trading partners including EU—potential indirect impact on Portuguese exports, but implementation details and timing unclear.",
+      "score": 2.7,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -19,14 +19,33 @@
           "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-25T12:49:41.235133Z"
+      "detected_at": "2026-11-25T22:29:56.382172Z"
     },
     {
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "label": "Huawei guilty trade secrets acquitted racketeering verdict",
-      "summary": "Mixed verdict in US-China tech trial has minimal direct impact on Portuguese daily life or economy.",
-      "score": 1.8,
-      "sentiment": "neutral",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "label": "Fuel tanker crash kills 31 in Cairo",
+      "summary": "Fuel tanker crash on Cairo ring road kills at least 31 and injures 21—tragic but geographically distant event with no direct connection to Portugal.",
+      "score": 1.5,
+      "sentiment": "negative",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-25T22:29:56.382172Z"
+    },
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "label": "US stocks fall on AI concerns",
+      "summary": "US indexes decline with Nasdaq down nearly 4% on AI concerns—indirect potential impact on Portuguese pension funds and EU markets, but no immediate change.",
+      "score": 2.3,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
@@ -35,37 +54,18 @@
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-25T12:49:41.235133Z"
-    },
-    {
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "label": "Cuba life expectancy falls first time since 1950",
-      "summary": "Cuban life expectancy drops from 78.8 to 74.4 years due to economic crisis, a distant humanitarian concern with no direct Portuguese impact.",
-      "score": 1.5,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "inne",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline"
-        }
-      ],
-      "detected_at": "2026-11-25T02:24:23.282099Z"
+      "detected_at": "2026-11-25T22:29:56.382172Z"
     }
   ],
   "short_summary": "US prepares new tariffs on China EU partners",
   "level_label": "Stable",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "pt",
   "lens_name_en": "Portugal",
-  "updated_at": "2026-11-25T12:49:41.235133Z",
+  "updated_at": "2026-11-25T22:29:56.382172Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +86,6 @@
   "events_anchor_at": "2026-11-25T12:49:41.235133Z",
   "score_history": [
     {
-      "t": "2026-11-23T21:18:31.888515Z",
-      "s": 2.4
-    },
-    {
       "t": "2026-11-24T05:59:48.094943Z",
       "s": 2.2
     },
@@ -104,6 +100,10 @@
     {
       "t": "2026-11-25T12:49:41.235133Z",
       "s": 2.8
+    },
+    {
+      "t": "2026-11-25T22:29:56.382172Z",
+      "s": 2.7
     }
   ]
 }

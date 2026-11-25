@@ -1,14 +1,33 @@
 {
-  "global_score": 3.8,
-  "rationale": "US tariff announcement on major trading partners including China and EU represents significant policy shift with potential economic impact, though details remain pending.",
+  "global_score": 3.6,
+  "rationale": "US stock market decline intensifies with Nasdaq down nearly 4% on AI concerns—real financial impact; new tariff announcement represents policy shift with potential economic consequences. Score adjusted down: ongoing situation without qualitative change.",
   "top_events": [
     {
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "label": "US prepares new tariffs on China EU partners",
-      "summary": "Administration plans tariffs on major trading partners including China and EU, potentially affecting consumer prices and trade relations, though specific details not yet released.",
-      "score": 3.8,
+      "title": "US stocks fall further as fears over AI intensify",
+      "label": "US stocks drop Nasdaq down 4 percent",
+      "summary": "All three main US indexes decline in early trading with tech-heavy Nasdaq down nearly 4%—real market volatility affecting retirement accounts and investment portfolios.",
+      "score": 3.6,
       "sentiment": "negative",
-      "nowosc": "nowe",
+      "nowosc": "kontynuacja",
+      "category": "gospodarka",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-25T22:29:56.384226Z"
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "label": "US announces tariffs on China EU partners",
+      "summary": "New tariffs announced on major trading partners including China and EU—represents policy shift with potential economic impact, but implementation details and timing unclear.",
+      "score": 3.6,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
       "category": "gospodarka",
       "sources": [
         "BBC"
@@ -19,53 +38,34 @@
           "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-25T12:49:41.237616Z"
+      "detected_at": "2026-11-25T22:29:56.384226Z"
     },
     {
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "label": "Huawei guilty trade secrets acquitted racketeering verdict",
-      "summary": "Mixed verdict in major US-China tech trial concludes months-long case, with Huawei convicted on trade secrets but cleared of broader racketeering charges.",
-      "score": 3.0,
-      "sentiment": "neutral",
+      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+      "label": "Army declares Iowa explosives blast success",
+      "summary": "Army reports successful controlled detonation of lead azide in Iowa with promising initial lead readings—addresses local safety concerns but limited national impact.",
+      "score": 2.5,
+      "sentiment": "positive",
       "nowosc": "kontynuacja",
-      "category": "gospodarka",
+      "category": "inne",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss"
         }
       ],
-      "detected_at": "2026-11-25T02:24:23.284661Z"
-    },
-    {
-      "title": "Two children among six dead after plane crash off Mississippi coast",
-      "label": "Six dead including two children Mississippi plane crash",
-      "summary": "Coast Guard recovers bodies of four adults and two boys aged 8 and 10 from crashed aircraft fuselage off Mississippi coast.",
-      "score": 2.4,
-      "sentiment": "negative",
-      "nowosc": "nowe",
-      "category": "katastrofa",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-25T12:49:41.237616Z"
+      "detected_at": "2026-11-25T22:29:56.384226Z"
     }
   ],
   "short_summary": "US prepares new tariffs on China EU partners",
   "level_label": "Low",
-  "trend": "rising",
+  "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-25T12:49:41.237616Z",
+  "updated_at": "2026-11-25T22:29:56.384226Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -86,10 +86,6 @@
   "events_anchor_at": "2026-11-25T12:49:41.237616Z",
   "score_history": [
     {
-      "t": "2026-11-23T21:18:31.892621Z",
-      "s": 4.2
-    },
-    {
       "t": "2026-11-24T05:59:48.097588Z",
       "s": 3.4
     },
@@ -104,6 +100,10 @@
     {
       "t": "2026-11-25T12:49:41.237616Z",
       "s": 3.8
+    },
+    {
+      "t": "2026-11-25T22:29:56.384226Z",
+      "s": 3.6
     }
   ]
 }
