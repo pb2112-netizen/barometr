@@ -1,31 +1,12 @@
 {
-  "global_score": 3.6,
-  "rationale": "US stock market decline intensifies with Nasdaq down nearly 4% on AI concerns—real financial impact; new tariff announcement represents policy shift with potential economic consequences. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.5,
+  "rationale": "US announces new tariffs on major trading partners including China and EU, representing a significant shift in trade policy with direct economic impact; stock market continues decline on AI concerns.",
   "top_events": [
     {
-      "title": "US stocks fall further as fears over AI intensify",
-      "label": "US stocks drop Nasdaq down 4 percent",
-      "summary": "All three main US indexes decline in early trading with tech-heavy Nasdaq down nearly 4%—real market volatility affecting retirement accounts and investment portfolios.",
-      "score": 3.6,
-      "sentiment": "negative",
-      "nowosc": "kontynuacja",
-      "category": "gospodarka",
-      "sources": [
-        "BBC"
-      ],
-      "source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "detected_at": "2026-11-25T22:29:56.384226Z"
-    },
-    {
       "title": "US announces new tariffs on host of countries including China",
-      "label": "US announces tariffs on China EU partners",
-      "summary": "New tariffs announced on major trading partners including China and EU—represents policy shift with potential economic impact, but implementation details and timing unclear.",
-      "score": 3.6,
+      "label": "US announces tariffs on China and EU",
+      "summary": "New tariffs target America's biggest trading partners including China and EU, representing a major shift in US trade policy with direct impact on domestic economy and international relations.",
+      "score": 3.5,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -41,23 +22,42 @@
       "detected_at": "2026-11-25T22:29:56.384226Z"
     },
     {
-      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-      "label": "Army declares Iowa explosives blast success",
-      "summary": "Army reports successful controlled detonation of lead azide in Iowa with promising initial lead readings—addresses local safety concerns but limited national impact.",
-      "score": 2.5,
-      "sentiment": "positive",
+      "title": "US stocks fall further as fears over AI intensify",
+      "label": "US stocks fall on AI concerns",
+      "summary": "All three main US indexes down in early trading with Nasdaq dropping nearly 4%, continuing market volatility as AI investment concerns deepen.",
+      "score": 3.2,
+      "sentiment": "negative",
       "nowosc": "kontynuacja",
-      "category": "inne",
+      "category": "gospodarka",
       "sources": [
         "BBC"
       ],
       "source_links": [
         {
           "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "detected_at": "2026-11-25T22:29:56.384226Z"
+    },
+    {
+      "title": "FedEx plane overshoots Miami runway, with flights briefly suspended at airport",
+      "label": "FedEx plane overshoots Miami runway",
+      "summary": "Brief ground stop at Miami airport on one of busiest travel days before Thanksgiving; no injuries reported and operations quickly resumed.",
+      "score": 2.4,
+      "sentiment": "neutral",
+      "nowosc": "nowe",
+      "category": "katastrofa",
+      "sources": [
+        "BBC"
+      ],
+      "source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "detected_at": "2026-11-26T05:00:22.782395Z"
     }
   ],
   "short_summary": "US prepares new tariffs on China EU partners",
@@ -65,7 +65,7 @@
   "trend": "stable",
   "lens_id": "us",
   "lens_name_en": "United States",
-  "updated_at": "2026-11-25T22:29:56.384226Z",
+  "updated_at": "2026-11-26T05:00:22.782395Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -104,6 +104,10 @@
     {
       "t": "2026-11-25T22:29:56.384226Z",
       "s": 3.6
+    },
+    {
+      "t": "2026-11-26T05:00:22.782395Z",
+      "s": 3.5
     }
   ]
 }

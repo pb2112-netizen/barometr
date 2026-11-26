@@ -1,50 +1,12 @@
 {
-  "global_score": 3.5,
-  "rationale": "Russia's leaked casualty data (349 deaths in Mali) shows military strain relevant to eastern security; ongoing Ukraine war background continues without qualitative change this cycle. Score adjusted down: ongoing situation without qualitative change.",
+  "global_score": 3.4,
+  "rationale": "US tariffs on EU and China represent a new trade policy shift with potential indirect economic impact on Poland's export-dependent economy; other events are distant or continuations.",
   "top_events": [
     {
-      "title": "More than 300 Russians killed as Moscow props up Mali's junta, leaked data reveals",
-      "label": "Russia loses 349 troops in Mali Africa",
-      "summary": "Leaked records reveal 349 Russian military deaths in Mali over three years, indicating strain on Moscow's forces amid Ukraine war—indirectly relevant to Poland's eastern security calculus.",
-      "score": 2.8,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data"
-        }
-      ],
-      "detected_at": "2026-11-25T02:24:23.279525Z"
-    },
-    {
-      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-      "label": "Ukraine strikes Russian ships off Libya",
-      "summary": "Ukraine's security service confirms naval drone operation sank Russian warship Merkury off Libya—demonstrates extended reach but geographically distant from Poland's immediate concerns.",
-      "score": 3.0,
-      "sentiment": "neutral",
-      "nowosc": "kontynuacja",
-      "category": "geopolityka",
-      "sources": [
-        "Guardian"
-      ],
-      "source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
-        }
-      ],
-      "detected_at": "2026-11-22T19:35:19.009375Z"
-    },
-    {
       "title": "US announces new tariffs on host of countries including China",
-      "label": "US announces tariffs on China EU partners",
-      "summary": "New US tariffs target major trading partners including EU—potential indirect impact on Polish exports and EU economic stability, but details and implementation unclear.",
-      "score": 3.5,
+      "label": "US announces tariffs on China and EU",
+      "summary": "New US tariffs target major trading partners including the EU, potentially affecting Polish exports and economic stability through broader European trade disruption.",
+      "score": 3.4,
       "sentiment": "negative",
       "nowosc": "kontynuacja",
       "category": "gospodarka",
@@ -58,14 +20,52 @@
         }
       ],
       "detected_at": "2026-11-25T22:29:56.379713Z"
+    },
+    {
+      "title": "Ukraine attacks Russian military base, says five planes struck",
+      "label": "Ukraine strikes Russian airbase east of Moscow",
+      "summary": "Ukrainian forces hit a military airbase in Nizhny Novgorod region, continuing strategic strikes deep inside Russia but representing tactical continuation rather than qualitative escalation.",
+      "score": 3.2,
+      "sentiment": "neutral",
+      "nowosc": "kontynuacja",
+      "category": "geopolityka",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "source_links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss"
+        }
+      ],
+      "detected_at": "2026-11-25T12:49:41.232874Z"
+    },
+    {
+      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "label": "Fuel tanker crash kills 31 in Cairo",
+      "summary": "Major highway fire in Egyptian capital kills 31; distant tragedy with no direct connection to Polish daily life.",
+      "score": 1.8,
+      "sentiment": "negative",
+      "nowosc": "kontynuacja",
+      "category": "katastrofa",
+      "sources": [
+        "Guardian"
+      ],
+      "source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+        }
+      ],
+      "detected_at": "2026-11-26T05:00:22.778661Z"
     }
   ],
   "short_summary": "Russia loses 500,000 in Ukraine war leaked data",
   "level_label": "Low",
-  "trend": "falling",
+  "trend": "stable",
   "lens_id": "pl",
   "lens_name_en": "Poland",
-  "updated_at": "2026-11-25T22:29:56.379713Z",
+  "updated_at": "2026-11-26T05:00:22.778661Z",
   "liczba_naglowkow": 30,
   "tone": "negative",
   "most_significant_event": {
@@ -104,6 +104,10 @@
     {
       "t": "2026-11-25T22:29:56.379713Z",
       "s": 3.5
+    },
+    {
+      "t": "2026-11-26T05:00:22.778661Z",
+      "s": 3.4
     }
   ]
 }
