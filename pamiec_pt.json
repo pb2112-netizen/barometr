@@ -1,62 +1,58 @@
 {
-  "updated_at": "2026-11-26T15:10:53.079371Z",
-  "ostatnia_ocena": 3.2,
+  "updated_at": "2026-11-26T23:50:23.051601Z",
+  "ostatnia_ocena": 3.1,
   "ostatnie_powiadomienie_at": null,
   "stan_swiata": [
     {
       "temat": "Cairo fuel tanker crash highway fire 31 dead",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 0,
+      "cykle_bez_zmian": 1,
       "opis": "Fuel tanker crash on Cairo ring road; distant tragedy."
     },
     {
       "temat": "Diesel tanker sinks near Ibiza environmental risk",
-      "poziom_bazowy": 3.2,
-      "cykle_bez_zmian": 0,
+      "poziom_bazowy": 3.1,
+      "cykle_bez_zmian": 1,
       "opis": "Tanker carrying 7,000 tonnes diesel sinks near Iberian."
     },
     {
+      "temat": "US severe weather Thanksgiving storms flooding",
+      "poziom_bazowy": 1.8,
+      "cykle_bez_zmian": 0,
+      "opis": "Major storms hit US during holiday weekend; distant event."
+    },
+    {
       "temat": "US tariffs global trading partners EU China announcement",
-      "poziom_bazowy": 2.5,
-      "cykle_bez_zmian": 3,
+      "poziom_bazowy": 2.4,
+      "cykle_bez_zmian": 4,
       "opis": "US plans tariffs on EU; potential export impact unclear."
     },
     {
       "temat": "Russian ship drone attack Libya Benghazi port",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 4,
+      "cykle_bez_zmian": 5,
       "opis": "Ukrainian drone strikes Russian vessel in Libya; distant."
     },
     {
       "temat": "US tech stock correction Anthropic market volatility",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "S&P 500 Dow correction; tech sell-off indirect EU impact."
     },
     {
       "temat": "US Democrats House majority 258 seats midterms",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 9,
+      "cykle_bez_zmian": 10,
       "opis": "Democrats secure largest House majority since 1992; distant."
     },
     {
       "temat": "California record coastal waves hazard warnings",
       "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 10,
+      "cykle_bez_zmian": 11,
       "opis": "Powerful swells over 9 meters hit California coast; distant."
-    },
-    {
-      "temat": "COP31 climate summit overtime fossil fuel deadlock",
-      "poziom_bazowy": 2.0,
-      "cykle_bez_zmian": 16,
-      "opis": "Climate talks extended; EU warns of fossil summit risk."
     }
   ],
   "score_history": [
-    {
-      "t": "2026-11-24T17:40:05.015476Z",
-      "s": 2.1
-    },
     {
       "t": "2026-11-25T02:24:23.282099Z",
       "s": 2.0
@@ -76,15 +72,19 @@
     {
       "t": "2026-11-26T15:10:53.073400Z",
       "s": 3.2
+    },
+    {
+      "t": "2026-11-26T23:50:23.045834Z",
+      "s": 3.1
     }
   ],
   "events_anchor_at": "2026-11-26T15:10:53.073400Z",
   "event_detected_at": {
-    "diesel tanker carrying up to 7,000 tonnes sinks near ibiza, killing one": {
+    "diesel tanker carrying up to 7,000 tonnes capsizes near ibiza, killing one": {
       "detected_at": "2026-11-26T15:10:53.073400Z",
       "peak_at": "2026-11-26T15:10:53.073400Z",
       "peak_score_at": "2026-11-26T15:10:53.073400Z",
-      "peak_score": 3.2,
+      "peak_score": 3.1,
       "peak_sentiment": "negative",
       "title": "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
       "peak_label": "Diesel tanker sinks near Ibiza, environmental risk",
@@ -93,6 +93,38 @@
         {
           "name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "at least 31 killed as fuel tanker crash ignites large fire on cairo highway": {
+      "detected_at": "2026-11-25T22:29:56.382172Z",
+      "peak_at": "2026-11-26T23:50:23.045834Z",
+      "peak_score_at": "2026-11-26T23:50:23.045834Z",
+      "peak_score": 2.0,
+      "peak_sentiment": "negative",
+      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "peak_label": "Cairo fuel tanker crash kills 31 people",
+      "peak_summary": "Distant tragedy in Egypt with no connection to Portuguese daily life or economy.",
+      "peak_source_links": [
+        {
+          "name": "Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+        }
+      ]
+    },
+    "watch: roofs torn off and streets under water as severe weather hits us": {
+      "detected_at": "2026-11-26T23:50:23.045834Z",
+      "peak_at": "2026-11-26T23:50:23.045834Z",
+      "peak_score_at": "2026-11-26T23:50:23.045834Z",
+      "peak_score": 1.8,
+      "peak_sentiment": "negative",
+      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+      "peak_label": "Severe storms hit US Thanksgiving weekend",
+      "peak_summary": "Hundreds of thousands affected by US storms during holiday; distant event with no impact on Portugal.",
+      "peak_source_links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -111,59 +143,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    "at least 31 killed as fuel tanker crash ignites large fire on cairo highway": {
-      "detected_at": "2026-11-25T22:29:56.382172Z",
-      "peak_at": "2026-11-26T05:00:22.780586Z",
-      "peak_score_at": "2026-11-26T05:00:22.780586Z",
-      "peak_score": 1.5,
-      "peak_sentiment": "negative",
-      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-      "peak_label": "Fuel tanker crash kills 31 in Cairo",
-      "peak_summary": "Major highway fire in Cairo kills 31; distant tragedy with no connection to Portuguese daily life.",
-      "peak_source_links": [
-        {
-          "name": "Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
-        }
-      ]
-    },
-    "us announces new tariffs on host of countries including china": {
-      "detected_at": "2026-11-25T22:29:56.382172Z",
-      "peak_at": "2026-11-25T22:29:56.382172Z",
-      "peak_score_at": "2026-11-25T22:29:56.382172Z",
-      "peak_score": 2.6,
-      "peak_sentiment": "negative",
-      "title": "US announces new tariffs on host of countries including China",
-      "peak_label": "US announces tariffs on China EU partners",
-      "peak_summary": "US announces new tariffs targeting major trading partners including EU—potential indirect impact on Portuguese exports, but implementation details and timing unclear.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "us stocks fall further as fears over ai intensify": {
-      "detected_at": "2026-11-25T22:29:56.382172Z",
-      "peak_at": "2026-11-25T22:29:56.382172Z",
-      "peak_score_at": "2026-11-25T22:29:56.382172Z",
-      "peak_score": 2.3,
-      "peak_sentiment": "negative",
-      "title": "US stocks fall further as fears over AI intensify",
-      "peak_label": "US stocks fall on AI concerns",
-      "peak_summary": "US indexes decline with Nasdaq down nearly 4% on AI concerns—indirect potential impact on Portuguese pension funds and EU markets, but no immediate change.",
-      "peak_source_links": [
-        {
-          "name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
     }
   },
   "prev_top_event_titles": [
-    "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
-    "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-    "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway"
+    "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+    "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+    "Watch: Roofs torn off and streets under water as severe weather hits US"
   ]
 }
